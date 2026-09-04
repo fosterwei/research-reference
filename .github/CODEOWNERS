@@ -1,0 +1,8 @@
+# Every change requires review from the repository owner.
+# Enforced automatically once branch protection is available (GitHub Pro or public repo);
+# until then this documents who must approve each area.
+*                          @fosterwei
+/data/                     @fosterwei
+/wp-content/               @fosterwei
+/agent/AGENT.md            @fosterwei
+/docs/                     @fosterwei
