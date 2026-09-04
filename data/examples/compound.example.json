@@ -1,0 +1,42 @@
+{
+  "type": "compound",
+  "preferred_name": "Example Compound",
+  "aliases": [],
+  "slug": "example-compound",
+  "status": "draft",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Replace with a human-reviewed, non-promotional summary of what the published research does and does not show.",
+  "attributes": {
+    "routes_studied": [
+      {
+        "value": "Replace with a route reported in a cited study",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": ["src-1"]
+      }
+    ],
+    "study_doses": [],
+    "study_durations": [],
+    "regulatory_status": [
+      {
+        "value": "Needs review",
+        "evidence_label": "approved-label",
+        "source_ids": []
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Replace with the study or document title",
+      "url": "https://example.org/replace-with-primary-source",
+      "published": "2024-01-15",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  }
+}

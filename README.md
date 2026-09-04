@@ -4,80 +4,67 @@ Hosting-agnostic WordPress starter for a global English research-reference site.
 
 The agent drafts, validates, and opens pull requests for programmatic pages and editorial posts. It must not publish directly or invent medical, safety, regulatory, or affiliate claims.
 
+Product goals, audience, non-goals, milestones, and success metrics are in [`docs/PRD.md`](docs/PRD.md). Page types, URLs, record states, and evidence labels are defined once in [`docs/content-contract.md`](docs/content-contract.md).
+
 ## Layout
-
-- `agent/AGENT.md` — operating policy and release gates
-- `docs/` — content contract and launch checklist
-- `data/` — reviewed JSON examples
-- `scripts/` — dependency-free validation
-- `.github/` — Actions, PR, and issue templates
-- `wp-content/` — custom plugin and lightweight theme scaffold
-
-Compatible with SiteGround and Hostinger WordPress staging; no provider-specific API is required.
-
-## What this starter does
-
-This repository is the implementation foundation for the agreed project:
-
-- one unified WordPress domain;
-- global English research readers;
-- programmatic pages for compounds, stacks, comparisons, cycles, and tools;
-- editorial posts at `/blog/{slug}`;
-- hybrid presentation: Elementor for marketing pages, custom templates for programmatic pages, and Gutenberg for posts;
-- research-reference content only—no personalized treatment or dosing recommendations;
-- primary-source collection plus human review;
-- 30–50 page pilot before expansion;
-- no affiliate modules during the pilot;
-- GitHub pull-request approval before any production change.
-
-## How to use the repository
-
-### Content workflow
-
-1. Create an Issue from the `New or update content record` template.
-2. Add a JSON record under `data/` using the compound or post example.
-3. Attach source URLs, publication dates, evidence tiers, author, and reviewer.
-4. Run `python scripts/validate_content.py`.
-5. Open a pull request. The GitHub Action repeats the validation automatically.
-6. Have an editor review factual, safety, regulatory, and medical-sensitive claims.
-7. Merge only after approval, then import/publish through WordPress staging.
-
-### Record states
-
-`discovered` → `researched` → `draft` → `reviewed` → `published` → `stale` → `retired`.
-
-Only reviewed and published records with complete sources should be indexable. Placeholder, duplicate, incomplete, or stale records must remain noindex and out of the sitemap.
-
-### WordPress installation
-
-Copy `wp-content/plugins/research-database` to the WordPress plugins directory and activate it. Copy `wp-content/themes/research-reference` to the themes directory and activate it. The current plugin registers `compound`, `stack`, and `comparison` post types and marks unpublished records noindex. Extend it with custom fields, full templates, schema, sitemap integration, and import tooling before production use.
-
-### GitHub Actions
-
-`.github/workflows/content-quality.yml` runs on every pull request. It currently validates JSON syntax, required fields, slug format, duplicate slugs, and sources for reviewed/published records. Add link, schema, canonical, uniqueness, word-count, and sitemap tests as the page system is implemented.
-
-## Safety and agent boundaries
-
-The agent may draft and validate research-reference content, but it must not invent citations, convert community schedules into clinical facts, make personal recommendations, publish directly to production, or add affiliate recommendations during the pilot. A named human reviewer is required for safety, regulatory, administration, and medical claims.
-
-## Hosting notes
-
-The repository is hosting-agnostic. On SiteGround or Hostinger, use HTTPS, staging, automated backups, PHP 8.2+, caching/object cache where available, a managed database, and a deployment process that requires a reviewed merge. Keep production WordPress credentials in hosting/GitHub secrets; never commit them.
-
-## Current limitations and next build milestones
-
-This is a scaffold, not a finished website. Next milestones are: (1) custom field model and admin UI; (2) complete compound/stack/comparison/cycle/tool templates; (3) Gutenberg editorial workflow; (4) source importer and freshness checks; (5) schema/canonical/sitemap generation; (6) internal-link graph; (7) staging importer and deployment; (8) 20–30 compound, 2–3 comparison/stack, 5–8 post, 1–2 tool pilot.
-
-## Repository map
 
 | Path | Purpose |
 |---|---|
-| `agent/AGENT.md` | Agent mission, allowed actions, prohibited actions, evidence labels, release gates |
-| `docs/content-contract.md` | Page types, URL patterns, editorial taxonomy, index states |
+| `docs/PRD.md` | Product requirements, non-goals, milestones, metrics |
+| `docs/content-contract.md` | Canonical page types, URL patterns, record states, evidence labels, source ledger shape |
 | `docs/launch-checklist.md` | Pilot launch QA checklist |
-| `data/*.json` | Structured records and examples |
-| `scripts/validate_content.py` | Dependency-free content gate |
-| `.github/workflows/` | Pull-request automation |
-| `.github/ISSUE_TEMPLATE/` | Structured content requests |
-| `wp-content/plugins/` | WordPress content-type and SEO-control code |
-| `wp-content/themes/` | Lightweight presentation scaffold |
+| `agent/AGENT.md` | Agent mission, allowed and prohibited actions, release gates |
+| `data/<type>/*.json` | One JSON record per page; `data/examples/` holds reference templates |
+| `scripts/validate_content.py` | Dependency-free content gate, mirrors the content contract |
+| `.github/workflows/` | CI: validator on every PR and push to `main`, plus PHP lint |
+| `.github/ISSUE_TEMPLATE/` | Structured issue form for content requests |
+| `.github/CODEOWNERS` | Required reviewer per area |
+| `wp-content/plugins/research-database/` | Post types, REST-exposed record fields, noindex and sitemap control |
+| `wp-content/themes/research-reference/` | Lightweight Elementor-compatible theme with record templates |
+
+Compatible with SiteGround and Hostinger WordPress staging; no provider-specific API is required.
+
+## Content workflow
+
+1. Open an Issue with the **New or update content record** form.
+2. Add a JSON record in the folder for its type under `data/`, starting from the matching file in `data/examples/`.
+3. Fill the source ledger: each source needs `id`, `title`, `url`, and `published` date. Every claim in `attributes` cites source ids and carries an evidence label.
+4. Run `python3 scripts/validate_content.py`. It fails on unknown statuses, evidence labels, or types, invalid slugs, duplicate slugs, malformed sources, claims citing unknown sources, and reviewed/published records without a named author, a different named reviewer, and a review date.
+5. Open a pull request. CI repeats the validation and lints the PHP.
+6. A human editor reviews factual, safety, regulatory, and medical-sensitive claims and sets `review.reviewer`, `review.reviewed_at`, and `status: reviewed`.
+7. Merge only after approval, then import to WordPress staging and set `status: published` once it is live.
+
+### Record states
+
+`discovered` → `researched` → `draft` → `reviewed` → `published` → `stale` → `retired`
+
+Only `published` records are indexable. The plugin reads the `record_status` field and emits `noindex` and excludes the post from the sitemap in every other state, even if WordPress itself has published the post.
+
+## WordPress installation
+
+1. Copy `wp-content/plugins/research-database` into the site's plugins directory and activate it. Activation registers `compound`, `stack`, `comparison`, `cycle`, and `tool` post types and flushes rewrite rules so `/compounds/`, `/stacks/`, `/compare/`, `/cycles/`, and `/tools/` resolve immediately.
+2. Copy `wp-content/themes/research-reference` into the themes directory and activate it. The theme is a complete classic theme (header, footer, index, page, single, and one template per record type). Elementor and Elementor Pro can take over pages, header, and footer.
+3. Record fields (`record_status`, `evidence_tier`, `review_author`, `review_reviewer`, `reviewed_at`, `sources`, `attributes_json`) are registered on every record post type and exposed over REST, so the future importer needs no custom admin UI.
+4. The plugin excludes non-published records from the core XML sitemap and from Yoast SEO and Rank Math sitemaps.
+
+Requires PHP 8.2+ and WordPress 6.4+.
+
+## GitHub Actions
+
+`.github/workflows/content-quality.yml` runs on every pull request and every push to `main`. It validates the content records and runs `php -l` on every PHP file. Validator errors appear as inline annotations on the PR. The workflow has read-only permissions.
+
+## Branch protection
+
+This repository is private on a free GitHub plan, so branch protection rules are not available. Until it is made public or upgraded to GitHub Pro, the PR gate relies on CI results and on the deploy process only shipping merged `main`. `.github/CODEOWNERS` documents who must review each area and becomes enforceable the moment protection is enabled.
+
+## Safety and agent boundaries
+
+The agent may draft and validate research-reference content, but it must not invent citations, convert community schedules into clinical facts, make personal recommendations, publish directly to production, mark records reviewed or published, or add affiliate recommendations during the pilot. A named human reviewer is required for safety, regulatory, administration, and medical claims. Full policy: [`agent/AGENT.md`](agent/AGENT.md).
+
+## Hosting notes
+
+Use HTTPS, staging, automated backups, PHP 8.2+, caching and object cache where available, a managed database, and a deployment process that ships only reviewed merges. Keep production WordPress credentials in hosting or GitHub secrets; never commit them.
+
+## Status and next milestone
+
+Milestones 1 to 3 in [`docs/PRD.md`](docs/PRD.md) are complete: content contract with validator and CI, plugin with record-state index control, and an activatable theme. Milestone 4, the REST importer from `data/` to staging, is next.
