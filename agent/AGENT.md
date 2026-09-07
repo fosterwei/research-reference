@@ -32,10 +32,23 @@ Enforced by the validator and CI:
 - required fields per type present;
 - every source has id, title, http(s) url, and publication date;
 - every claim cites known source ids; reviewed/published claims cite at least one;
-- reviewed/published records have a named author, a different named reviewer, and a review date.
+- reviewed/published records have a named author, a different named reviewer, a review date, and a stated reviewer credential;
+- reviewed/published records carry an `seo.title` within 60 characters and an `seo.description` within 160;
+- reviewed/published records carry a measured `uniqueness_pct`; below 40% fails and below 30% is a hard stop;
+- `changelog` entries use YYYY-MM-DD dates and describe what changed;
+- slugs are at most 100 characters.
 
 Enforced by humans until tooling exists:
-- >=40% unique body content (hard stop below 30%);
+- 85% unique body content as the competitive target; the validator warns between 40% and 85%, because the measured competitor baseline in `docs/competitive-baseline.md` sits at 91-96% and a page that merely clears 40% is not competitive;
+- sitemap contains only final 200-status URLs, never a redirect or a placeholder;
+- `lastmod` reflects the record's own revision timestamp, not build time;
+- sections with no record data are suppressed rather than rendered empty;
 - self-canonical, valid schema, and sitemap eligibility checked on staging;
 - 5–10% human sample review per batch;
 - no more than 50 pilot pages before indexation review.
+
+## Structure
+Section-level page structure is specified in `docs/page-template-spec.md`. The
+competitive measurements behind the uniqueness target and the metadata limits are
+in `docs/competitive-baseline.md`. Re-measure the baseline before each expansion
+batch rather than treating those figures as fixed.

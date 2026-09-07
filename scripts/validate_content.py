@@ -67,6 +67,18 @@ FOLDER_TO_TYPE = {folder: t for t, (folder, _, _) in TYPES.items()}
 SLUG_RE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 URL_RE = re.compile(r"https?://[^\s]+")
 
+# ---- Limits from docs/page-template-spec.md --------------------------------
+
+TITLE_MAX = 60
+DESCRIPTION_MAX = 160
+SLUG_MAX = 100
+
+# Uniqueness thresholds. The floor is the policy gate; the target is what the
+# measured competitor baseline in docs/competitive-baseline.md actually achieves.
+UNIQUENESS_HARD_STOP = 30.0
+UNIQUENESS_FLOOR = 40.0
+UNIQUENESS_TARGET = 85.0
+
 
 def display(path: pathlib.Path) -> str:
     """Repo-relative path when possible, otherwise the path as given."""
@@ -79,9 +91,14 @@ def display(path: pathlib.Path) -> str:
 class Report:
     def __init__(self) -> None:
         self.errors: list[tuple[str, str]] = []
+        self.warnings: list[tuple[str, str]] = []
 
     def error(self, path: pathlib.Path, message: str) -> None:
         self.errors.append((display(path), message))
+
+    def warn(self, path: pathlib.Path, message: str) -> None:
+        """Non-blocking: reported, but does not fail the build."""
+        self.warnings.append((display(path), message))
 
     def emit(self) -> None:
         in_actions = os.environ.get("GITHUB_ACTIONS") == "true"
@@ -89,6 +106,17 @@ class Report:
             if in_actions:
                 print(f"::error file={file}::{message}")
             print(f"- {file}: {message}")
+
+    def emit_warnings(self) -> None:
+        if not self.warnings:
+            return
+        in_actions = os.environ.get("GITHUB_ACTIONS") == "true"
+        print("WARNINGS")
+        for file, message in self.warnings:
+            if in_actions:
+                print(f"::warning file={file}::{message}")
+            print(f"- {file}: {message}")
+        print()
 
 
 def load_json(path: pathlib.Path, report: Report) -> dict | None:
@@ -199,6 +227,80 @@ def check_review(record: dict, path: pathlib.Path, report: Report, gated: bool) 
             report.error(path, "reviewed/published record needs review.reviewed_at as YYYY-MM-DD")
         if review.get("author") and review.get("author") == review.get("reviewer"):
             report.error(path, "review.reviewer must differ from review.author")
+        # A stated credential is the differentiator identified in
+        # docs/competitive-baseline.md: the incumbent declares no reviewer at all.
+        if not review.get("reviewer_credential"):
+            report.error(
+                path,
+                "reviewed/published record needs review.reviewer_credential "
+                "(the reviewer's stated qualification)",
+            )
+
+
+def check_seo(record: dict, path: pathlib.Path, report: Report, gated: bool) -> None:
+    """Title and description must fit the search result, per the spec limits."""
+    seo = record.get("seo")
+    if seo is None:
+        if gated:
+            report.error(path, "reviewed/published record needs an seo object")
+        return
+    if not isinstance(seo, dict):
+        report.error(path, "seo must be an object with title and description")
+        return
+    title = seo.get("title") or ""
+    description = seo.get("description") or ""
+    if gated and not title:
+        report.error(path, "reviewed/published record needs seo.title")
+    if gated and not description:
+        report.error(path, "reviewed/published record needs seo.description")
+    if isinstance(title, str) and len(title) > TITLE_MAX:
+        report.error(path, f"seo.title is {len(title)} characters, limit {TITLE_MAX}")
+    if isinstance(description, str) and len(description) > DESCRIPTION_MAX:
+        report.error(
+            path, f"seo.description is {len(description)} characters, limit {DESCRIPTION_MAX}"
+        )
+
+
+def check_uniqueness(record: dict, path: pathlib.Path, report: Report, gated: bool) -> None:
+    """Measured body uniqueness against the policy gate and competitive target."""
+    value = record.get("uniqueness_pct")
+    if value is None:
+        if gated:
+            report.error(path, "reviewed/published record needs a measured uniqueness_pct")
+        return
+    if not isinstance(value, (int, float)) or isinstance(value, bool):
+        report.error(path, "uniqueness_pct must be a number")
+        return
+    if value < UNIQUENESS_HARD_STOP:
+        report.error(path, f"uniqueness {value}% is below the {UNIQUENESS_HARD_STOP}% hard stop")
+    elif value < UNIQUENESS_FLOOR:
+        report.error(path, f"uniqueness {value}% is below the {UNIQUENESS_FLOOR}% release gate")
+    elif value < UNIQUENESS_TARGET:
+        report.warn(
+            path,
+            f"uniqueness {value}% clears the gate but is under the "
+            f"{UNIQUENESS_TARGET}% competitive target",
+        )
+
+
+def check_changelog(record: dict, path: pathlib.Path, report: Report) -> None:
+    """Revision history drives lastmod, so its dates must be real dates."""
+    entries = record.get("changelog")
+    if entries is None:
+        return
+    if not isinstance(entries, list):
+        report.error(path, "changelog must be a list of {date, change} objects")
+        return
+    for index, entry in enumerate(entries):
+        label = f"changelog[{index}]"
+        if not isinstance(entry, dict):
+            report.error(path, f"{label} must be an object with date and change")
+            continue
+        date_value = entry.get("date")
+        if date_value and not is_iso_date(date_value):
+            report.error(path, f"{label}.date must be YYYY-MM-DD (got {date_value!r})")
+        if not entry.get("change"):
+            report.error(path, f"{label} missing change description")
 
 
 def validate_record(path: pathlib.Path, report: Report) -> tuple[str, str] | None:
@@ -227,8 +329,11 @@ def validate_record(path: pathlib.Path, report: Report) -> tuple[str, str] | Non
     gated = status in GATED_STATUSES
 
     slug = record.get("slug")
-    if isinstance(slug, str) and slug and not SLUG_RE.fullmatch(slug):
-        report.error(path, f"invalid slug {slug!r} (lowercase words joined by single hyphens)")
+    if isinstance(slug, str) and slug:
+        if not SLUG_RE.fullmatch(slug):
+            report.error(path, f"invalid slug {slug!r} (lowercase words joined by single hyphens)")
+        if len(slug) > SLUG_MAX:
+            report.error(path, f"slug is {len(slug)} characters, limit {SLUG_MAX}")
 
     if rtype == "compound" and record.get("evidence_tier") not in EVIDENCE_LABELS:
         report.error(path, f"evidence_tier must be one of {list(EVIDENCE_LABELS)}")
@@ -236,6 +341,10 @@ def validate_record(path: pathlib.Path, report: Report) -> tuple[str, str] | Non
     source_ids = check_sources(record, path, report, gated)
     check_claims(record, path, report, source_ids, gated)
     check_review(record, path, report, gated)
+    check_seo(record, path, report, gated)
+    check_changelog(record, path, report)
+    if rtype != "post":
+        check_uniqueness(record, path, report, gated)
 
     if parent == EXAMPLES_DIR and status != "draft":
         report.error(path, "example records must stay in status 'draft'")
@@ -267,6 +376,8 @@ def main(argv: list[str]) -> int:
             report.error(path, f"duplicate slug {key[0]}{key[1]} also used by {display(seen[key])}")
         else:
             seen[key] = path
+
+    report.emit_warnings()
 
     if report.errors:
         print("CONTENT VALIDATION FAILED")

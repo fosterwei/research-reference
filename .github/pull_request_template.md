@@ -18,3 +18,7 @@
 - [ ] Records not yet `published` stay noindex and out of the sitemap
 - [ ] Slug, canonical, and related links checked
 - [ ] No affiliate modules (pilot rule)
+- [ ] Reviewer credential recorded on any record moving to `reviewed` or `published`
+- [ ] `seo.title` within 60 characters and `seo.description` within 160
+- [ ] `uniqueness_pct` measured, and above the competitive target where practical
+- [ ] Sections with no data are suppressed rather than rendered empty

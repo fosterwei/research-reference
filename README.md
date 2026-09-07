@@ -4,14 +4,16 @@ Hosting-agnostic WordPress starter for a global English research-reference site.
 
 The agent drafts, validates, and opens pull requests for programmatic pages and editorial posts. It must not publish directly or invent medical, safety, regulatory, or affiliate claims.
 
-Product goals, audience, non-goals, milestones, and success metrics are in [`docs/PRD.md`](docs/PRD.md). Page types, URLs, record states, and evidence labels are defined once in [`docs/content-contract.md`](docs/content-contract.md).
+Product goals, audience, non-goals, milestones, and success metrics are in [`docs/PRD.md`](docs/PRD.md). Page types, URLs, record states, and evidence labels are defined once in [`docs/content-contract.md`](docs/content-contract.md). Section-level page structure is specified in [`docs/page-template-spec.md`](docs/page-template-spec.md), and the competitive measurements behind the uniqueness target are in [`docs/competitive-baseline.md`](docs/competitive-baseline.md).
 
 ## Layout
 
 | Path | Purpose |
 |---|---|
 | `docs/PRD.md` | Product requirements, non-goals, milestones, metrics |
-| `docs/content-contract.md` | Canonical page types, URL patterns, record states, evidence labels, source ledger shape |
+| `docs/content-contract.md` | Canonical page types, URL patterns, record states, evidence labels, source ledger shape, metadata limits |
+| `docs/page-template-spec.md` | Section-level structure per page type, shared-text budget, heading style |
+| `docs/competitive-baseline.md` | Measured competitor benchmark behind the uniqueness target and metadata limits |
 | `docs/launch-checklist.md` | Pilot launch QA checklist |
 | `agent/AGENT.md` | Agent mission, allowed and prohibited actions, release gates |
 | `data/<type>/*.json` | One JSON record per page; `data/examples/` holds reference templates |

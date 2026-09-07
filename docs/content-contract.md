@@ -48,3 +48,28 @@ Each source has `id`, `title`, `url` (http or https), `published` (YYYY-MM-DD), 
 ## Slugs
 
 Lowercase words joined by single hyphens. Slugs must be unique within a URL prefix. Examples under `data/examples/` are excluded from uniqueness and are never imported.
+
+## Metadata limits
+
+| Element | Limit | Reason |
+|---|---|---|
+| `seo.title` | 60 characters | Longer titles truncate in results; 44 of the incumbent's titles exceed 65 |
+| `seo.description` | 160 characters | 34 of the incumbent's descriptions exceed it |
+| H1 | exactly one per page | Rendered by the theme, not stored in the record |
+| Slug | lowercase, hyphenated, at most 100 characters | Enforced by the validator |
+
+Reserve the first 55 characters of a title for the entity name and the page's
+purpose, and move qualifiers into subheadings.
+
+## Sitemap rules
+
+Only `published` records that pass the gates enter the sitemap. Entries must be
+final 200-status URLs; a redirecting or placeholder URL in the sitemap is a
+defect. `lastmod` carries the record's own revision timestamp from `changelog`,
+never the build time.
+
+## Section structure
+
+`docs/page-template-spec.md` specifies the sections each page type renders, which
+sections vary per record and which are shared template text. Shared text counts
+against measured uniqueness, so the spec caps it.
