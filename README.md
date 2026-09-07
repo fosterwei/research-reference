@@ -7,7 +7,7 @@ The agent drafts, validates, and opens pull requests for programmatic pages and 
 ## Layout
 
 - `agent/AGENT.md` — operating policy and release gates
-- `docs/` — content contract and launch checklist
+- `docs/` — content contract, page template spec, competitive baseline, launch checklist
 - `data/` — reviewed JSON examples
 - `scripts/` — dependency-free validation
 - `.github/` — Actions, PR, and issue templates
@@ -73,7 +73,9 @@ This is a scaffold, not a finished website. Next milestones are: (1) custom fiel
 | Path | Purpose |
 |---|---|
 | `agent/AGENT.md` | Agent mission, allowed actions, prohibited actions, evidence labels, release gates |
-| `docs/content-contract.md` | Page types, URL patterns, editorial taxonomy, index states |
+| `docs/content-contract.md` | Page types, URL patterns, editorial taxonomy, index states, metadata limits |
+| `docs/page-template-spec.md` | Section-level structure per page type, shared-text budget, heading style |
+| `docs/competitive-baseline.md` | Measured competitor benchmark and the evidence behind the release gates |
 | `docs/launch-checklist.md` | Pilot launch QA checklist |
 | `data/*.json` | Structured records and examples |
 | `scripts/validate_content.py` | Dependency-free content gate |

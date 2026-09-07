@@ -12,3 +12,11 @@
 - [ ] No affiliate modules in pilot.
 - [ ] Search Console and analytics configured.
 - [ ] Batch review scheduled 2–4 weeks after launch.
+- [ ] Every indexable record has a named reviewer with a stated credential.
+- [ ] Uniqueness measured per page and recorded in `uniqueness_pct`.
+- [ ] Titles within 60 characters and descriptions within 160, checked across all page types.
+- [ ] Sitemap contains no redirecting or placeholder URLs.
+- [ ] `lastmod` matches record revision time, not build time.
+- [ ] Mixed-case and trailing-slash URL variants resolve to the canonical page.
+- [ ] Unknown slugs return 404 rather than a 200 placeholder.
+- [ ] Competitive baseline re-measured before the next expansion batch.

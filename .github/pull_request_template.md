@@ -16,3 +16,8 @@
 - [ ] Slug/canonical/sitemap behavior checked
 - [ ] Placeholder records are not indexable
 - [ ] Related links and schema checked
+- [ ] Reviewer credential stated on indexable records
+- [ ] Evidence labels present on evidence, interaction, adverse-event and FAQ entries
+- [ ] Title within 60 characters, description within 160
+- [ ] Uniqueness measured and above the competitive target
+- [ ] Empty sections suppressed rather than rendered

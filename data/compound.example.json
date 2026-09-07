@@ -1,1 +1,63 @@
-{"type":"compound","preferred_name":"Example Compound","aliases":[],"slug":"example-compound","status":"draft","evidence_tier":"human-clinical-trial","summary":"Replace with a human-reviewed summary.","attributes":{"routes_studied":[],"study_doses":[],"study_durations":[],"regulatory_status":"Needs review"},"sources":[],"review":{"author":"","reviewer":"","reviewed_at":""}}
+{
+  "type": "compound",
+  "preferred_name": "Example Compound",
+  "aliases": [],
+  "slug": "example-compound",
+  "status": "draft",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Replace with a human-reviewed summary.",
+  "seo": {
+    "title": "Example Compound: evidence review",
+    "description": "Replace with a factual description under 160 characters."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "study_durations": [],
+    "half_life": "",
+    "molecular_weight_g_mol": null,
+    "regulatory_status": "Needs review"
+  },
+  "evidence": [
+    {
+      "citation_key": "",
+      "year": null,
+      "design": "",
+      "sample_size": null,
+      "species": "",
+      "dose": "",
+      "route": "",
+      "duration": "",
+      "outcome": "",
+      "label": "human-clinical-trial"
+    }
+  ],
+  "interactions": [
+    { "with": "", "effect": "", "mechanism": "", "label": "mechanistic-in-vitro" }
+  ],
+  "adverse_events": [
+    { "event": "", "incidence": "", "denominator": null, "citation_key": "", "label": "human-clinical-trial" }
+  ],
+  "biomarkers_monitored": [
+    { "marker": "", "interval": "", "citation_key": "" }
+  ],
+  "exclusion_criteria": [],
+  "storage": { "unreconstituted": "", "reconstituted": "", "stability_notes": "" },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": { "walkthrough_video": "", "transcript": "" },
+  "faq": [
+    { "question": "", "answer": "", "label": "human-clinical-trial" }
+  ],
+  "sources": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    { "date": "", "change": "" }
+  ]
+}
