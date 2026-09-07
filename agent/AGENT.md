@@ -24,9 +24,19 @@ Every claim must be labeled: approved label, human clinical trial, observational
 
 ## Release gates
 - unique slug and preferred entity name;
-- required fields and source ledger complete;
-- >=40% unique body content (hard stop below 30%);
-- no placeholder status on indexable pages;
+- required fields and source ledger complete, each source carrying a URL and publication date;
+- named reviewer with a stated credential on every indexable record;
+- >=40% unique body content (hard stop below 30%), with 85% as the competitive target measured in `docs/competitive-baseline.md`;
+- every claim in an evidence, interaction, adverse-event or FAQ entry carries an evidence label;
+- title at most 60 characters, meta description at most 160;
+- sections with no record data are suppressed, never rendered empty;
 - self-canonical, valid schema, and sitemap eligibility;
-- 5–10% human sample review per batch;
+- sitemap contains only final 200-status URLs, never a redirect or a placeholder;
+- `lastmod` reflects the record's own revision timestamp, not generation time;
+- 5-10% human sample review per batch;
 - no more than 50 pilot pages before indexation review.
+
+## Structure
+Page sections are specified in `docs/page-template-spec.md`. The competitive
+measurements that justify the gates above are in `docs/competitive-baseline.md`.
+Re-measure the baseline before each expansion batch.
