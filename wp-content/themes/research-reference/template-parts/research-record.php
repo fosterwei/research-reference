@@ -7,6 +7,7 @@
 $status     = research_reference_meta('record_status', 'draft');
 $tier       = research_reference_meta('evidence_tier');
 $reviewer   = research_reference_meta('review_reviewer');
+$credential = research_reference_meta('review_reviewer_credential');
 $reviewed   = research_reference_meta('reviewed_at');
 $sources    = get_post_meta(get_the_ID(), 'sources', true);
 $attributes = json_decode(research_reference_meta('attributes_json', '{}'), true) ?: [];
@@ -25,7 +26,7 @@ $attributes = json_decode(research_reference_meta('attributes_json', '{}'), true
             <dt>Evidence</dt><dd><span class="evidence-label"><?php echo esc_html($tier); ?></span></dd>
         <?php endif; ?>
         <?php if ($reviewer) : ?>
-            <dt>Reviewed by</dt><dd><?php echo esc_html($reviewer); ?><?php echo $reviewed ? ' on ' . esc_html($reviewed) : ''; ?></dd>
+            <dt>Reviewed by</dt><dd><?php echo esc_html($reviewer); ?><?php echo $credential ? ', ' . esc_html($credential) : ''; ?><?php echo $reviewed ? ' on ' . esc_html($reviewed) : ''; ?></dd>
         <?php endif; ?>
     </dl>
 

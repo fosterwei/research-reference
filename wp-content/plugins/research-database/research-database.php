@@ -115,6 +115,23 @@ function research_db_register_meta(): void
         'auth_callback' => fn() => current_user_can('edit_posts'),
     ];
 
+    $number = fn(string $description) => [
+        'type'          => 'number',
+        'single'        => true,
+        'default'       => 0,
+        'description'   => $description,
+        'show_in_rest'  => true,
+        'auth_callback' => fn() => current_user_can('edit_posts'),
+    ];
+
+    $changelog_schema = [
+        'type'       => 'object',
+        'properties' => [
+            'date'   => ['type' => 'string'],
+            'change' => ['type' => 'string'],
+        ],
+    ];
+
     $source_schema = [
         'type'       => 'object',
         'properties' => [
@@ -132,7 +149,13 @@ function research_db_register_meta(): void
         register_post_meta($type, 'evidence_tier', $string('Overall evidence label'));
         register_post_meta($type, 'review_author', $string('Named author'));
         register_post_meta($type, 'review_reviewer', $string('Named human reviewer'));
+        register_post_meta($type, 'review_reviewer_credential', $string('Reviewer\'s stated qualification'));
         register_post_meta($type, 'reviewed_at', $string('Review date, YYYY-MM-DD'));
+        register_post_meta($type, 'seo_title', $string('Title tag, at most 60 characters'));
+        register_post_meta($type, 'seo_description', $string('Meta description, at most 160 characters'));
+        register_post_meta($type, 'uniqueness_pct', $number('Measured unique body content, percent'));
+        register_post_meta($type, 'changelog', $json_list('Revision history driving lastmod', $changelog_schema));
+        register_post_meta($type, 'record_hash', $string('Hash of the imported record, for idempotent re-import'));
         register_post_meta($type, 'sources', $json_list('Source ledger', $source_schema));
         register_post_meta($type, 'attributes_json', $string('Per-claim attributes with evidence labels and source ids, JSON-encoded'));
     }
