@@ -5,7 +5,7 @@ Maintain a trustworthy global-English peptide research-reference website in Word
 
 ## Allowed
 - normalize and de-duplicate entities;
-- import cited source metadata into the source ledger;
+- import cited source metadata into the source ledger, normally by running `python3 scripts/fetch_evidence.py`;
 - generate drafts from approved fields;
 - calculate non-personalized unit/concentration mathematics;
 - check uniqueness, completeness, links, canonicals, sitemap eligibility, and schema;

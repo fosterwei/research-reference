@@ -1,0 +1,346 @@
+{
+  "type": "compound",
+  "preferred_name": "BPC-157",
+  "aliases": [
+    "BPC 157",
+    "Bepecin",
+    "Bpc-157",
+    "PL-10",
+    "PL-14736",
+    "PLD-116",
+    "pentadecapeptide BPC 157"
+  ],
+  "slug": "bpc-157",
+  "status": "researched",
+  "evidence_tier": "observational-human",
+  "summary": "Research record for BPC-157. Europe PMC indexes 228 publications, including 0 randomized controlled trials, as of 2026-09-09. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "BPC-157: what the research shows",
+    "description": "Cited overview of published BPC-157 research: 228 indexed publications, 0 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL4297358: maximum clinical phase 1. Jurisdiction-level status pending human review.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-09",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 228,
+      "randomized_controlled_trials": 0,
+      "clinical_trials": 0,
+      "reviews": 46,
+      "human_indexed": 6,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 0,
+      "observational-human": 2,
+      "animal-preclinical": 36,
+      "mechanistic-in-vitro": 2,
+      "review": 0,
+      "unclassified": 6
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL4297358",
+      "pref_name": "BPC-157",
+      "molecule_type": "Protein",
+      "max_phase": 1.0,
+      "first_approval": null,
+      "atc": [],
+      "synonyms": [
+        "Bepecin",
+        "Bpc-157",
+        "PL-10",
+        "PL-14736",
+        "PLD-116"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL4297358/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42578445",
+      "title": "Peptide Supplements and Their Therapeutic Applications in Sports Medicine.",
+      "url": "https://europepmc.org/article/MED/42578445",
+      "published": "2026-08-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42542926",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study.",
+      "url": "https://europepmc.org/article/MED/42542926",
+      "published": "2026-07-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42278509",
+      "title": "BPC-157 and Its Novel Hybrid Analogs as Inhibitors of Acetylcholinesterase.",
+      "url": "https://europepmc.org/article/MED/42278509",
+      "published": "2026-05-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42204242",
+      "title": "Protective effects of BPC 157 in rats with experimentally induced lower extremity ischemia-reperfusion injury.",
+      "url": "https://europepmc.org/article/MED/42204242",
+      "published": "2026-05-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42123221",
+      "title": "Endothelium-Dependent Nitric Oxide-Mediated Vasorelaxant Effects of BPC 157 in Human Internal Mammary Artery.",
+      "url": "https://europepmc.org/article/MED/42123221",
+      "published": "2026-05-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41599787",
+      "title": "Fourier Transform Infrared Spectroscopic Characterization of Aortic Wall Remodeling by Stable Gastric Pentadecapeptide BPC 157 After Unilateral Adrenalectomy in Rats.",
+      "url": "https://europepmc.org/article/MED/41599787",
+      "published": "2026-01-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41599743",
+      "title": "Tracheocutaneous Fistula Resolved by Pentadecapeptide BPC 157 Therapy Through the NO-System-Triple NO-Agent Approach in Rats.",
+      "url": "https://europepmc.org/article/MED/41599743",
+      "published": "2026-01-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41155565",
+      "title": "BPC 157 Therapy: Targeting Angiogenesis and Nitric Oxide's Cytotoxic and Damaging Actions, but Maintaining, Promoting, or Recovering Their Essential Protective Functions. Comment on Józwiak et al. Multifunctionality and Possible Medical Application of the BPC 157 Peptide-Literature and Patent Review. Pharmaceuticals 2025, 18 , 185.",
+      "url": "https://europepmc.org/article/MED/41155565",
+      "published": "2025-09-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40131143",
+      "title": "Safety of Intravenous Infusion of BPC157 in Humans: A Pilot Study.",
+      "url": "https://europepmc.org/article/MED/40131143",
+      "published": "2025-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40005408",
+      "title": "Protective Effects of BPC 157 on Liver, Kidney, and Lung Distant Organ Damage in Rats with Experimental Lower-Extremity Ischemia-Reperfusion Injury.",
+      "url": "https://europepmc.org/article/MED/40005408",
+      "published": "2025-02-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39861766",
+      "title": "Stable Gastric Pentadecapeptide BPC 157 as Therapy After Surgical Detachment of the Quadriceps Muscle from Its Attachments for Muscle-to-Bone Reattachment in Rats.",
+      "url": "https://europepmc.org/article/MED/39861766",
+      "published": "2025-01-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39776466",
+      "title": "Compounded glucagon-like peptide-1 receptor agonists for weight loss: the direct-to-consumer market in Colorado.",
+      "url": "https://europepmc.org/article/MED/39776466",
+      "published": "2024-12-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38004420",
+      "title": "Stable Gastric Pentadecapeptide BPC 157 Therapy: Effect on Reperfusion Following Maintained Intra-Abdominal Hypertension (Grade III and IV) in Rats.",
+      "url": "https://europepmc.org/article/MED/38004420",
+      "published": "2023-11-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37959764",
+      "title": "Stable Isotope Labeling-Based Nontargeted Strategy for Characterization of the In Vitro Metabolic Profile of a Novel Doping BPC-157 in Doping Control by UHPLC-HRMS.",
+      "url": "https://europepmc.org/article/MED/37959764",
+      "published": "2023-10-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37895979",
+      "title": "Pentadecapeptide BPC 157 as Therapy for Inferior Caval Vein Embolization: Recovery of Sodium Laurate-Post-Embolization Syndrome in Rats.",
+      "url": "https://europepmc.org/article/MED/37895979",
+      "published": "2023-10-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37513889",
+      "title": "Antiarrhythmic Sotalol, Occlusion/Occlusion-like Syndrome in Rats, and Stable Gastric Pentadecapeptide BPC 157 Therapy.",
+      "url": "https://europepmc.org/article/MED/37513889",
+      "published": "2023-07-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37545637",
+      "title": "Stomach perforation-induced general occlusion/occlusion-like syndrome and stable gastric pentadecapeptide BPC 157 therapy effect.",
+      "url": "https://europepmc.org/article/MED/37545637",
+      "published": "2023-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37375736",
+      "title": "Innate Vascular Failure by Application of Neuroleptics, Amphetamine, and Domperidone Rapidly Induced Severe Occlusion/Occlusion-like Syndromes in Rats and Stable Gastric Pentadecapeptide BPC 157 as Therapy.",
+      "url": "https://europepmc.org/article/MED/37375736",
+      "published": "2023-05-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36551886",
+      "title": "Fourier Transform Infrared Spectroscopy Reveals Molecular Changes in Blood Vessels of Rats Treated with Pentadecapeptide BPC 157.",
+      "url": "https://europepmc.org/article/MED/36551886",
+      "published": "2022-12-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35884767",
+      "title": "BPC 157, L-NAME, L-Arginine, NO-Relation, in the Suited Rat Ketamine Models Resembling \"Negative-Like\" Symptoms of Schizophrenia.",
+      "url": "https://europepmc.org/article/MED/35884767",
+      "published": "2022-06-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35740321",
+      "title": "Therapy Effect of the Stable Gastric Pentadecapeptide BPC 157 on Acute Pancreatitis as Vascular Failure-Induced Severe Peripheral and Central Syndrome in Rats.",
+      "url": "https://europepmc.org/article/MED/35740321",
+      "published": "2022-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35678659",
+      "title": "Novel Therapeutic Effects in Rat Spinal Cord Injuries: Recovery of the Definitive and Early Spinal Cord Injury by the Administration of Pentadecapeptide BPC 157 Therapy.",
+      "url": "https://europepmc.org/article/MED/35678659",
+      "published": "2022-04-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35125818",
+      "title": "Cytoprotective gastric pentadecapeptide BPC 157 resolves major vessel occlusion disturbances, ischemia-reperfusion injury following Pringle maneuver, and Budd-Chiari syndrome.",
+      "url": "https://europepmc.org/article/MED/35125818",
+      "published": "2022-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35052769",
+      "title": "Stable Gastric Pentadecapeptide BPC 157 Therapy of Rat Glaucoma.",
+      "url": "https://europepmc.org/article/MED/35052769",
+      "published": "2021-12-31",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34829776",
+      "title": "Stable Gastric Pentadecapeptide BPC 157 as a Therapy for the Disable Myotendinous Junctions in Rats.",
+      "url": "https://europepmc.org/article/MED/34829776",
+      "published": "2021-10-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34571768",
+      "title": "Physiological and Immunological Status of Adult Honeybees ( Apis mellifera ) Fed Sugar Syrup Supplemented with Pentadecapeptide BPC 157.",
+      "url": "https://europepmc.org/article/MED/34571768",
+      "published": "2021-09-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34356886",
+      "title": "Stable Gastric Pentadecapeptide BPC 157 Therapy for Monocrotaline-Induced Pulmonary Hypertension in Rats Leads to Prevention and Reversal.",
+      "url": "https://europepmc.org/article/MED/34356886",
+      "published": "2021-07-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34203464",
+      "title": "BPC 157 Therapy and the Permanent Occlusion of the Superior Sagittal Sinus in Rat: Vascular Recruitment.",
+      "url": "https://europepmc.org/article/MED/34203464",
+      "published": "2021-06-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29510201",
+      "title": "Rat inferior caval vein (ICV) ligature and particular new insights with the stable gastric pentadecapeptide BPC 157.",
+      "url": "https://europepmc.org/article/MED/29510201",
+      "published": "2018-03-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29998800",
+      "title": "BPC 157 and Standard Angiogenic Growth Factors. Gastrointestinal Tract Healing, Lessons from Tendon, Ligament, Muscle and Bone Healing.",
+      "url": "https://europepmc.org/article/MED/29998800",
+      "published": "2018-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23755725",
+      "title": "Stable gastric pentadecapeptide BPC 157-NO-system relation.",
+      "url": "https://europepmc.org/article/MED/23755725",
+      "published": "2014-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22950504",
+      "title": "Toxicity by NSAIDs. Counteraction by stable gastric pentadecapeptide BPC 157.",
+      "url": "https://europepmc.org/article/MED/22950504",
+      "published": "2013-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20166993",
+      "title": "Revised Robert's cytoprotection and adaptive cytoprotection and stable gastric pentadecapeptide BPC 157. Possible significance and implications for novel mediator.",
+      "url": "https://europepmc.org/article/MED/20166993",
+      "published": "2010-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20388964",
+      "title": "Modulatory effect of gastric pentadecapeptide BPC 157 on angiogenesis in muscle and tendon healing.",
+      "url": "https://europepmc.org/article/MED/20388964",
+      "published": "2009-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8298609",
+      "title": "A new gastric juice peptide, BPC. An overview of the stomach-stress-organoprotection hypothesis and beneficial effects of BPC.",
+      "url": "https://europepmc.org/article/MED/8298609",
+      "published": "1993-01-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-09",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}
