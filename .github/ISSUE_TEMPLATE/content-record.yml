@@ -1,0 +1,57 @@
+name: New or update content record
+description: Propose a compound, stack, comparison, cycle, tool, or editorial post
+title: "Content record: "
+labels: [content, needs-review]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Record type
+      options: [compound, stack, comparison, cycle, tool, post]
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Entity or post title
+    validations:
+      required: true
+  - type: input
+    id: slug
+    attributes:
+      label: Proposed slug
+      description: Lowercase words joined by single hyphens. Check for duplicates first.
+    validations:
+      required: true
+  - type: textarea
+    id: intent
+    attributes:
+      label: Search intent and standalone value
+      description: What unique task will this page satisfy that no existing page does?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Primary sources
+      description: One per line. URL, publication date, and evidence label (approved-label, human-clinical-trial, observational-human, animal-preclinical, mechanistic-in-vitro, community-reported).
+      placeholder: "https://… | 2024-01-15 | human-clinical-trial"
+    validations:
+      required: true
+  - type: input
+    id: reviewer
+    attributes:
+      label: Proposed human reviewer
+    validations:
+      required: true
+  - type: checkboxes
+    id: safeguards
+    attributes:
+      label: Safeguards
+      options:
+        - label: Research reference only, not personalized dosing, treatment, or safety advice
+          required: true
+        - label: No invented citations, trial results, prices, supplier ratings, or regulatory status
+          required: true
+        - label: Record stays noindex until it reaches `published` state after human review
+          required: true

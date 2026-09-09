@@ -1,11 +1,33 @@
 name: Content quality gate
-on: [pull_request]
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
 jobs:
-  validate:
+  validate-content:
+    name: Validate content records
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      # ubuntu-latest ships Python 3; the validator has no dependencies.
+      - name: Validate JSON records
+        run: python3 scripts/validate_content.py
+
+  lint-php:
+    name: Lint WordPress plugin and theme
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
         with:
-          python-version: '3.12'
-      - run: python scripts/validate_content.py
+          php-version: '8.2'
+          tools: none
+      - name: php -l every PHP file
+        run: |
+          set -e
+          find wp-content -name '*.php' -print0 | xargs -0 -n1 php -l

@@ -1,0 +1,63 @@
+{
+  "type": "compound",
+  "preferred_name": "Example Compound",
+  "aliases": [],
+  "slug": "example-compound",
+  "status": "draft",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Replace with a human-reviewed, non-promotional summary of what the published research does and does not show.",
+  "seo": {
+    "title": "Example Compound: evidence review",
+    "description": "Replace with a factual description of what the published research shows, under 160 characters."
+  },
+  "attributes": {
+    "routes_studied": [
+      {
+        "value": "Replace with a route reported in a cited study",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": ["src-1"]
+      }
+    ],
+    "study_doses": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "exclusion_criteria": [],
+    "storage": [],
+    "reported_timelines": [],
+    "regulatory_status": [
+      {
+        "value": "Needs review",
+        "evidence_label": "approved-label",
+        "source_ids": []
+      }
+    ]
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": { "walkthrough_video": "", "transcript": "" },
+  "faq": [],
+  "sources": [
+    {
+      "id": "src-1",
+      "title": "Replace with the study or document title",
+      "url": "https://example.org/replace-with-primary-source",
+      "published": "2024-01-15",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    { "date": "2026-09-07", "change": "Record created from the example template." }
+  ]
+}

@@ -6,6 +6,10 @@ the prohibitions in `agent/AGENT.md`.
 
 ## How to read this
 
+Compound pages publish at `/compounds/{slug}`. The earlier `/protocols/` prefix
+was dropped before indexing because it signals dosing guidance this site does not
+provide; see `docs/content-contract.md`.
+
 - **Source** says where a section's content comes from. `Per record` means it
   varies by compound and counts toward uniqueness. `Shared` means template text
   identical across pages, which counts *against* uniqueness. `Computed` means
@@ -16,6 +20,13 @@ the prohibitions in `agent/AGENT.md`.
 - A section whose record fields are empty must be **suppressed, not rendered
   empty**. A visible heading with no content is a quality signal against us.
 
+## How sections map to record fields
+
+Sections backed by evidence draw on `attributes`, where each entry is a claim
+carrying an `evidence_label` and `source_ids` into the record's own ledger. A
+section cannot assert anything its claims do not cite. The field names this spec
+expects are in `data/examples/compound.example.json`.
+
 ## Shared-text budget
 
 Uniqueness is measured after removing header, footer and navigation, so template
@@ -24,7 +35,7 @@ sections under 600 words. At the section budgets below that puts a fully
 populated compound page near 90% unique before computed sections are counted,
 against the incumbent's 96.2% mean.
 
-## Compound page — `/protocols/{slug}`
+## Compound page — `/compounds/{slug}`
 
 | # | Section | Contents | Words | Source | Label |
 |---|---|---|---|---|---|
