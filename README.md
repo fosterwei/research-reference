@@ -19,6 +19,8 @@ Product goals, audience, non-goals, milestones, and success metrics are in [`doc
 | `data/<type>/*.json` | One JSON record per page; `data/examples/` holds reference templates |
 | `scripts/validate_content.py` | Dependency-free content gate, mirrors the content contract |
 | `scripts/import_to_wordpress.py` | Idempotent REST importer from `data/` to a WordPress staging site |
+| `scripts/fetch_evidence.py` | Fills a compound record's source ledger from Europe PMC and ChEMBL; writes a research brief; never writes claims |
+| `research/` | Compound seed list and per-compound research briefs with abstracts for the writer |
 | `.github/workflows/` | CI: validator on every PR and push to `main`, plus PHP lint |
 | `.github/ISSUE_TEMPLATE/` | Structured issue form for content requests |
 | `.github/CODEOWNERS` | Required reviewer per area |
@@ -71,6 +73,25 @@ Use HTTPS, staging, automated backups, PHP 8.2+, caching and object cache where 
 ## Status and next milestone
 
 Milestones 1 to 4 in [`docs/PRD.md`](docs/PRD.md) are complete: content contract with validator and CI, plugin with record-state index control, an activatable theme, and the REST importer. Milestone 5, schema and canonical QA, is next and needs a staging host.
+
+## Researching a compound
+
+`scripts/fetch_evidence.py` runs targeted Europe PMC queries for each section in
+`docs/page-template-spec.md`, classifies every paper's evidence tier from its
+publication type and MeSH species headings, looks the compound up in ChEMBL, and
+writes two files: a record in status `researched` whose source ledger holds real,
+resolvable citations, and a brief under `research/` with the abstracts so the
+writer works from evidence rather than memory.
+
+```bash
+python3 scripts/fetch_evidence.py --all --dry-run   # evidence landscape only
+python3 scripts/fetch_evidence.py bpc-157           # one record and one brief
+```
+
+It writes no claims. Under `agent/AGENT.md` deciding what a paper supports is
+human work; the script imports cited source metadata and stops. It also refuses
+to touch any record a human has moved past `researched`. Standard library only,
+no API key.
 
 ## Importing to staging
 

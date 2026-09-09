@@ -63,7 +63,7 @@ Measured 4 weeks after the pilot goes live unless noted.
 | 4 | Importer | A script reads `data/**/*.json` and creates or updates posts via REST on staging, idempotently. Done: `scripts/import_to_wordpress.py` |
 | 5 | Schema, canonical, sitemap QA | Every page type passes Rich Results Test and has a self-canonical on staging |
 | 6 | Internal-link graph | Each compound page links to its related stacks, comparisons, and posts, and vice versa |
-| 7 | Pilot content | Counts in the pilot scope table are met, all in `published` state with named reviewers |
+| 7 | Pilot content | Counts in the pilot scope table are met, all in `published` state with named reviewers. Source ledgers are seeded by `scripts/fetch_evidence.py`; sequence compounds by evidence density, not search volume |
 | 8 | Launch and indexation review | Search Console verified, sitemap submitted, 2–4 week review scheduled |
 
 Milestones 1 to 4 are complete in this repository. Milestone 5, schema and canonical QA on staging, is next and needs a staging host.

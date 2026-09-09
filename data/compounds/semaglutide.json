@@ -1,0 +1,305 @@
+{
+  "type": "compound",
+  "preferred_name": "Semaglutide",
+  "aliases": [
+    "NN-9535",
+    "NN9535",
+    "NNC 0113-0217",
+    "NNC-0113-0217",
+    "Nn9535",
+    "Ozempic",
+    "Rybelsus",
+    "Semaglutida",
+    "Semaglutide",
+    "Semaglutide component of cagrisema",
+    "Semaglutide component of nn1535 icosema",
+    "Semaglutide component of nn1535 laisema",
+    "Wegovy"
+  ],
+  "slug": "semaglutide",
+  "status": "researched",
+  "evidence_tier": "approved-label",
+  "summary": "Research record for Semaglutide. Europe PMC indexes 6039 publications, including 305 randomized controlled trials, as of 2026-09-09. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Semaglutide: what the research shows",
+    "description": "Cited overview of published Semaglutide research: 6039 indexed publications, 305 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL2108724: maximum clinical phase 4, first approval 2017, ATC A10BJ06. Jurisdiction-level status pending human review.",
+        "evidence_label": "approved-label",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-09",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 6039,
+      "randomized_controlled_trials": 305,
+      "clinical_trials": 198,
+      "reviews": 1568,
+      "human_indexed": 90,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 48,
+      "observational-human": 2,
+      "animal-preclinical": 0,
+      "mechanistic-in-vitro": 4,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL2108724",
+      "pref_name": "SEMAGLUTIDE",
+      "molecule_type": "Protein",
+      "max_phase": 4.0,
+      "first_approval": 2017,
+      "atc": [
+        "A10BJ06"
+      ],
+      "synonyms": [
+        "NN-9535",
+        "NN9535",
+        "NNC 0113-0217",
+        "NNC-0113-0217",
+        "Nn9535",
+        "Ozempic",
+        "Rybelsus",
+        "Semaglutida",
+        "Semaglutide",
+        "Semaglutide component of cagrisema",
+        "Semaglutide component of nn1535 icosema",
+        "Semaglutide component of nn1535 laisema"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2108724/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42679726",
+      "title": "Effects of semaglutide and empagliflozin on markers of endothelial function in persons with type 2 diabetes: A post hoc analysis of a randomized clinical trial.",
+      "url": "https://europepmc.org/article/MED/42679726",
+      "published": "2026-08-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41728915",
+      "title": "Effect of semaglutide on COVID-19 and other infections: an analysis from the FLOW randomized clinical trial.",
+      "url": "https://europepmc.org/article/MED/41728915",
+      "published": "2026-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42522065",
+      "title": "Oral Semaglutide for Alcohol Use Disorder: A Randomized Clinical Trial.",
+      "url": "https://europepmc.org/article/MED/42522065",
+      "published": "2026-07-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42507673",
+      "title": "Impact of semaglutide withdrawal on cardiometabolic profile and physiology of energy balance: Recovery effects after semaglutide termination - The REST trial study protocol.",
+      "url": "https://europepmc.org/article/MED/42507673",
+      "published": "2026-07-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42493207",
+      "title": "Semaglutide for prevention of type 2 diabetes in women with postpartum prediabetes after gestational diabetes: protocol for a Belgian multicentre double-blind randomised placebo-controlled trial.",
+      "url": "https://europepmc.org/article/MED/42493207",
+      "published": "2026-07-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42456707",
+      "title": "Efficacy and safety of zalfermin co-administered with semaglutide in participants with fibrosis and cirrhosis due to metabolic dysfunction-associated steatohepatitis: a phase 2, dose-ranging, double-blind, randomised controlled trial.",
+      "url": "https://europepmc.org/article/MED/42456707",
+      "published": "2026-07-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42403263",
+      "title": "Semaglutide Injection Once-Weekly for Weight Management in Adults: Results From A Randomized Phase III, Active-Controlled Study.",
+      "url": "https://europepmc.org/article/MED/42403263",
+      "published": "2026-07-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42054055",
+      "title": "Semaglutide and Effort-Based Decision-Making in Major Depressive Disorder: A Randomized Clinical Trial.",
+      "url": "https://europepmc.org/article/MED/42054055",
+      "published": "2026-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42170981",
+      "title": "Short-term comparative effects of semaglutide, either alone or in conjunction with canagliflozin, on early diabetic kidney disease.",
+      "url": "https://europepmc.org/article/MED/42170981",
+      "published": "2026-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251859",
+      "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251859",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42225300",
+      "title": "Semaglutide 25 mg Oral Versus Semaglutide 2.4 mg Injectable: An Indirect Treatment Comparison of Weight Loss Outcomes.",
+      "url": "https://europepmc.org/article/MED/42225300",
+      "published": "2026-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42219226",
+      "title": "Semaglutide Injection in Indian Patients With Type 2 Diabetes Mellitus: A Randomised, Phase III, Active-Controlled Study.",
+      "url": "https://europepmc.org/article/MED/42219226",
+      "published": "2026-05-31",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42174253",
+      "title": "Semaglutide versus placebo in individuals with poor weight loss after bariatric surgery: a double-blinded, randomized, placebo-controlled trial.",
+      "url": "https://europepmc.org/article/MED/42174253",
+      "published": "2026-05-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42161545",
+      "title": "Repurposing semaglutide as an adjunctive treatment for cocaine use disorder: protocol for a randomised controlled trial.",
+      "url": "https://europepmc.org/article/MED/42161545",
+      "published": "2026-05-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42156721",
+      "title": "Semaglutide slows epigenetic aging in a randomized trial of HIV-associated lipohypertrophy.",
+      "url": "https://europepmc.org/article/MED/42156721",
+      "published": "2026-05-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42084141",
+      "title": "Semaglutide improves markers of cardiovascular risk in people with HIV.",
+      "url": "https://europepmc.org/article/MED/42084141",
+      "published": "2026-05-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42189538",
+      "title": "Once-Weekly Semaglutide in Adults With Daily Cigarette Use: A Randomized Clinical Trial.",
+      "url": "https://europepmc.org/article/MED/42189538",
+      "published": "2026-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42053447",
+      "title": "Assessment of the Drug-Drug Interaction Potential of Lotiglipron (PF-07081532) with Midazolam, Omeprazole, Dabigatran, Rosuvastatin, and the Oral Contraceptives Levonorgestrel and Ethinyl Estradiol.",
+      "url": "https://europepmc.org/article/MED/42053447",
+      "published": "2026-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41879791",
+      "title": "Oral Semaglutide and Change in Cardiovascular Risk Factors in High-Risk Type 2 Diabetes: A Post Hoc Secondary Analysis of the SOUL Randomized Clinical Trial.",
+      "url": "https://europepmc.org/article/MED/41879791",
+      "published": "2026-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41627802",
+      "title": "Oral Semaglutide and Heart Failure Outcomes in Persons With Type 2 Diabetes: A Secondary Analysis of the SOUL Randomized Clinical Trial.",
+      "url": "https://europepmc.org/article/MED/41627802",
+      "published": "2026-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41772149",
+      "title": "Bimagrumab plus semaglutide alone or in combination for the treatment of obesity: a randomized phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/41772149",
+      "published": "2026-03-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40886061",
+      "title": "Semaglutide promotes bone marrow-derived progenitor cell flux towards an anti-inflammatory and pro-regenerative profile in high-risk patients: the SEMA-VR CardioLink-15 trial.",
+      "url": "https://europepmc.org/article/MED/40886061",
+      "published": "2026-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38015216",
+      "title": "Obesity Management in Adults: A Review.",
+      "url": "https://europepmc.org/article/MED/38015216",
+      "published": "2023-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33068776",
+      "title": "GLP-1 receptor agonists in the treatment of type 2 diabetes - state-of-the-art.",
+      "url": "https://europepmc.org/article/MED/33068776",
+      "published": "2020-10-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31422062",
+      "title": "Cardiovascular, mortality, and kidney outcomes with GLP-1 receptor agonists in patients with type 2 diabetes: a systematic review and meta-analysis of cardiovascular outcome trials.",
+      "url": "https://europepmc.org/article/MED/31422062",
+      "published": "2019-08-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31031702",
+      "title": "The Discovery and Development of Liraglutide and Semaglutide.",
+      "url": "https://europepmc.org/article/MED/31031702",
+      "published": "2019-04-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29221659",
+      "title": "Cardiovascular outcomes with glucagon-like peptide-1 receptor agonists in patients with type 2 diabetes: a meta-analysis.",
+      "url": "https://europepmc.org/article/MED/29221659",
+      "published": "2017-12-06",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-09",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

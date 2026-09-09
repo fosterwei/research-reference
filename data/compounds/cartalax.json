@@ -1,0 +1,71 @@
+{
+  "type": "compound",
+  "preferred_name": "Cartalax",
+  "aliases": [],
+  "slug": "cartalax",
+  "status": "researched",
+  "evidence_tier": "community-reported",
+  "summary": "Research record for Cartalax. Europe PMC indexes 0 publications, including 0 randomized controlled trials, as of 2026-09-09. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Cartalax: what the research shows",
+    "description": "Cited overview of published Cartalax research: 0 indexed publications, 0 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-09",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 0,
+      "randomized_controlled_trials": 0,
+      "clinical_trials": 0,
+      "reviews": 0,
+      "human_indexed": 0,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 0,
+      "observational-human": 0,
+      "animal-preclinical": 0,
+      "mechanistic-in-vitro": 0,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-09",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

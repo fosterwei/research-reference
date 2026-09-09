@@ -11,6 +11,7 @@
 - [ ] Importer re-run once with no source change; every record reports `unchanged`.
 
 ## Content
+- [ ] `python3 scripts/fetch_evidence.py --all --dry-run` run; compounds with no indexed human trials have their human-dosing sections suppressed, not padded.
 - [ ] 20–30 compound records in `published` state with named reviewers.
 - [ ] 2–3 stack/comparison pages reviewed.
 - [ ] 5–8 editorial posts reviewed.
