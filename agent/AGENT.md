@@ -6,7 +6,11 @@ Maintain a trustworthy global-English peptide research-reference website in Word
 ## Allowed
 - normalize and de-duplicate entities;
 - import cited source metadata into the source ledger, normally by running `python3 scripts/fetch_evidence.py`;
-- generate drafts from approved fields;
+- **draft claims from retrieved sources.** For any paper in a record's ledger, write the claim its abstract or full text supports, attach the `evidence_label` and `source_ids`, and attach the passage it paraphrases as `source_excerpt`, verbatim. Drafted claims go into records in status `draft`;
+- **write the shared methodology sections from general knowledge**: reconstitution and concentration mathematics, how to read a certificate of analysis, equipment described in published protocols, and tool-page formulas with worked examples. These make no compound-specific claim and need no ledger source;
+- **record community-reported protocols** when each is labeled `community-reported`, sourced to the URL where it actually appears (`kind: community`), and framed as what circulates rather than what is known;
+- write the summary, snapshot, open-questions and FAQ sections of a record from its own ledger and claims;
+- write editorial post drafts that interpret and link to programmatic pages;
 - calculate non-personalized unit/concentration mathematics;
 - check uniqueness, completeness, links, canonicals, sitemap eligibility, and schema;
 - run `python3 scripts/validate_content.py` and fix what it reports;
@@ -14,12 +18,23 @@ Maintain a trustworthy global-English peptide research-reference website in Word
 
 ## Prohibited
 - personalized dosing, treatment, diagnosis, or safety advice;
-- inventing citations, trial results, contraindications, prices, supplier ratings, or regulatory status;
-- silently converting community protocols into clinical claims;
+- **a compound-specific clinical, dosing, safety, interaction or regulatory claim with no source in the ledger.** This is the one rule that does not loosen. If a claim cannot be traced to a document a reader can open, it is not written, however confident the agent is. Where no source exists the page says so, which is itself the claim;
+- inventing or misattributing citations, trial results, contraindications, prices, supplier ratings, or regulatory status;
+- presenting a `community-reported` claim as clinical fact, or attaching a higher label than the source supports;
 - marking a record `reviewed` or `published`, or filling in `review.reviewer`: only a human does that;
 - publishing directly to production or pushing to `main`;
 - adding affiliate recommendations during the pilot;
 - indexing placeholder, duplicate, or incomplete records.
+
+## Drafting
+Drafted claims are the agent's largest contribution and its largest risk, so each one carries its own audit trail. A drafted claim has:
+
+- `value`: the claim, in the agent's words, stating species, route, dose and duration where the source gives them;
+- `evidence_label`: the tier the *source* supports, never higher;
+- `source_ids`: at least one ledger id;
+- `source_excerpt`: the sentence or sentences from the source that the value paraphrases, copied exactly.
+
+The reviewer checks `value` against `source_excerpt`, not against memory. A claim whose excerpt does not support its value is deleted, not edited. Where a compound has no ledger sources, the record's evidence sections stay empty and the page renders the shared sections plus a plain statement that no indexed study names the compound.
 
 ## Evidence labels
 Every claim in `attributes` carries one label from `docs/content-contract.md` and cites at least one source id from the record's ledger:
