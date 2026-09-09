@@ -18,6 +18,7 @@ Product goals, audience, non-goals, milestones, and success metrics are in [`doc
 | `agent/AGENT.md` | Agent mission, allowed and prohibited actions, release gates |
 | `data/<type>/*.json` | One JSON record per page; `data/examples/` holds reference templates |
 | `scripts/validate_content.py` | Dependency-free content gate, mirrors the content contract |
+| `scripts/import_to_wordpress.py` | Idempotent REST importer from `data/` to a WordPress staging site |
 | `.github/workflows/` | CI: validator on every PR and push to `main`, plus PHP lint |
 | `.github/ISSUE_TEMPLATE/` | Structured issue form for content requests |
 | `.github/CODEOWNERS` | Required reviewer per area |
@@ -69,4 +70,23 @@ Use HTTPS, staging, automated backups, PHP 8.2+, caching and object cache where 
 
 ## Status and next milestone
 
-Milestones 1 to 3 in [`docs/PRD.md`](docs/PRD.md) are complete: content contract with validator and CI, plugin with record-state index control, and an activatable theme. Milestone 4, the REST importer from `data/` to staging, is next.
+Milestones 1 to 4 in [`docs/PRD.md`](docs/PRD.md) are complete: content contract with validator and CI, plugin with record-state index control, an activatable theme, and the REST importer. Milestone 5, schema and canonical QA, is next and needs a staging host.
+
+## Importing to staging
+
+The importer validates first and refuses to send anything CI would reject. It
+matches records on slug, so re-running updates instead of duplicating, and a
+record whose source has not changed reports `unchanged` and is not rewritten.
+Only records in the `published` state become published WordPress posts;
+everything else lands as a draft and stays out of the sitemap.
+
+```bash
+export WP_URL=https://staging.example.com
+export WP_USER=your-wp-user
+export WP_APP_PASSWORD='application password from WP profile'
+
+python3 scripts/import_to_wordpress.py --dry-run   # plan
+python3 scripts/import_to_wordpress.py             # import
+```
+
+Credentials come from the environment only. Never commit them.

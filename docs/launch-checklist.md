@@ -6,6 +6,9 @@
 - [ ] Research Database plugin activated; `/compounds/`, `/stacks/`, `/compare/`, `/cycles/`, `/tools/` resolve (rewrite rules flushed on activation).
 - [ ] Research Reference theme activated; a draft record renders the review notice, evidence labels, and source list.
 - [ ] Production credentials stored only in hosting or GitHub secrets.
+- [ ] WordPress application password created for the importer; `WP_URL`, `WP_USER` and `WP_APP_PASSWORD` set in the environment, never committed.
+- [ ] `python3 scripts/import_to_wordpress.py --dry-run` reviewed before the first real import.
+- [ ] Importer re-run once with no source change; every record reports `unchanged`.
 
 ## Content
 - [ ] 20–30 compound records in `published` state with named reviewers.
