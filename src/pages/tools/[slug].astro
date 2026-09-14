@@ -11,8 +11,8 @@ export async function getStaticPaths() {
   return tools.map((t) => ({ params: { slug: t.slug }, props: { tool: t } }));
 }
 const { tool } = Astro.props;
-const records = await records('tools');
-const record = records.find((r) => r.data.slug === tool.slug);
+const toolRecords = await records('tools');
+const record = toolRecords.find((r) => r.data.slug === tool.slug);
 const indexable = record?.data.status === 'published';
 const path = `/tools/${tool.slug}`;
 ---
