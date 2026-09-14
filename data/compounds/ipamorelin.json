@@ -1,0 +1,317 @@
+{
+  "type": "compound",
+  "preferred_name": "Ipamorelin",
+  "aliases": [
+    "Aib-his-d-2-nal-d-phe-lys-nh2",
+    "Ipamorelin",
+    "Ipamorelina",
+    "Ipamoreline",
+    "NNC 26-0161",
+    "NNC-26-0161",
+    "NNC-260161"
+  ],
+  "slug": "ipamorelin",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for Ipamorelin. Europe PMC indexes 63 publications, including 2 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Ipamorelin: what the research shows",
+    "description": "Cited overview of published Ipamorelin research: 63 indexed publications, 2 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL58547: maximum clinical phase 2. Jurisdiction-level status pending human review.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 63,
+      "randomized_controlled_trials": 2,
+      "clinical_trials": 2,
+      "reviews": 9,
+      "human_indexed": 0,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 6,
+      "observational-human": 4,
+      "animal-preclinical": 21,
+      "mechanistic-in-vitro": 4,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL58547",
+      "pref_name": "IPAMORELIN",
+      "molecule_type": "Protein",
+      "max_phase": 2.0,
+      "first_approval": null,
+      "atc": [],
+      "synonyms": [
+        "Aib-his-d-2-nal-d-phe-lys-nh2",
+        "Ipamorelin",
+        "Ipamorelina",
+        "Ipamoreline",
+        "NNC 26-0161",
+        "NNC-26-0161",
+        "NNC-260161"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL58547/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42578445",
+      "title": "Peptide Supplements and Their Therapeutic Applications in Sports Medicine.",
+      "url": "https://europepmc.org/article/MED/42578445",
+      "published": "2026-08-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42123471",
+      "title": "Therapeutic Peptides in Aesthetic, Metabolic and Endocrine Conditions: Effects, Safety, Clinical Applications, and Future Perspectives.",
+      "url": "https://europepmc.org/article/MED/42123471",
+      "published": "2026-04-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-20944-preprints202604-1748-v1",
+      "title": "Evaluation of Research Grade Peptides Marketed Directly to Consumers Reveals Extensive Variability in Purity and Measured Abundance",
+      "url": "https://doi.org/10.20944/preprints202604.1748.v1",
+      "published": "2026-04-24",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-41966639",
+      "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance.",
+      "url": "https://europepmc.org/article/MED/41966639",
+      "published": "2026-04-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-20944-preprints202512-1011-v3",
+      "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance",
+      "url": "https://doi.org/10.20944/preprints202512.1011.v3",
+      "published": "2026-04-07",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-42021992",
+      "title": "Therapeutic peptides in gerontology: mechanisms and applications for healthy aging.",
+      "url": "https://europepmc.org/article/MED/42021992",
+      "published": "2026-04-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41476424",
+      "title": "Injectable Peptide Therapy: A Primer for Orthopaedic and Sports Medicine Physicians.",
+      "url": "https://europepmc.org/article/MED/41476424",
+      "published": "2026-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-20944-preprints202512-1011-v1",
+      "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance",
+      "url": "https://doi.org/10.20944/preprints202512.1011.v1",
+      "published": "2025-12-12",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-39043357",
+      "title": "The growth hormone secretagogue receptor 1a agonists, anamorelin and ipamorelin, inhibit cisplatin-induced weight loss in ferrets: Anamorelin also exhibits anti-emetic effects via a central mechanism.",
+      "url": "https://europepmc.org/article/MED/39043357",
+      "published": "2024-07-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38996787",
+      "title": "The influence of ghrelin agonist ipamorelin acetate on the hypothalamic-pituitary-testicular axis in a cichlid fish, Oreochromis mossambicus.",
+      "url": "https://europepmc.org/article/MED/38996787",
+      "published": "2024-07-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32801950",
+      "title": "Attenuation of Visceral and Somatic Nociception by Ghrelin Mimetics.",
+      "url": "https://europepmc.org/article/MED/32801950",
+      "published": "2020-08-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32257855",
+      "title": "Beyond the androgen receptor: the role of growth hormone secretagogues in the modern management of body composition in hypogonadal males.",
+      "url": "https://europepmc.org/article/MED/32257855",
+      "published": "2020-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-30168238",
+      "title": "A stable meta-carborane enables the generation of boron-rich peptide agonists targeting the ghrelin receptor.",
+      "url": "https://europepmc.org/article/MED/30168238",
+      "published": "2018-08-31",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27497113",
+      "title": "Doping control container for urine stabilization: a pilot study.",
+      "url": "https://europepmc.org/article/MED/27497113",
+      "published": "2016-09-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26578461",
+      "title": "Simplifying and expanding the screening for peptides <2 kDa by direct urine injection, liquid chromatography, and ion mobility mass spectrometry.",
+      "url": "https://europepmc.org/article/MED/26578461",
+      "published": "2015-12-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25331030",
+      "title": "Prospective, randomized, controlled, proof-of-concept study of the Ghrelin mimetic ipamorelin for the management of postoperative ileus in bowel resection patients.",
+      "url": "https://europepmc.org/article/MED/25331030",
+      "published": "2014-10-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24574167",
+      "title": "A high-throughput LC-MS/MS screen for GHRP in equine and human urine, featuring peptide derivatization for improved chromatography.",
+      "url": "https://europepmc.org/article/MED/24574167",
+      "published": "2014-02-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23318763",
+      "title": "Doping control analysis of seven bioactive peptides in horse plasma by liquid chromatography-mass spectrometry.",
+      "url": "https://europepmc.org/article/MED/23318763",
+      "published": "2013-01-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23101768",
+      "title": "Metabolism of growth hormone releasing peptides.",
+      "url": "https://europepmc.org/article/MED/23101768",
+      "published": "2012-11-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27186127",
+      "title": "Efficacy of ipamorelin, a ghrelin mimetic, on gastric dysmotility in a rodent model of postoperative ileus.",
+      "url": "https://europepmc.org/article/MED/27186127",
+      "published": "2012-10-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21298258",
+      "title": "Determination of growth hormone releasing peptides (GHRP) and their major metabolites in human urine for doping controls by means of liquid chromatography mass spectrometry.",
+      "url": "https://europepmc.org/article/MED/21298258",
+      "published": "2011-02-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19289567",
+      "title": "Efficacy of ipamorelin, a novel ghrelin mimetic, in a rodent model of postoperative ileus.",
+      "url": "https://europepmc.org/article/MED/19289567",
+      "published": "2009-03-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19231263",
+      "title": "Growth hormone and growth hormone secretagogue effects on nitrogen balance and urea synthesis in steroid treated rats.",
+      "url": "https://europepmc.org/article/MED/19231263",
+      "published": "2009-02-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-15665799",
+      "title": "Mechanism of ipamorelin-evoked insulin release from the pancreas of normal and diabetic rats.",
+      "url": "https://europepmc.org/article/MED/15665799",
+      "published": "2004-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-14630569",
+      "title": "Growth hormone (GH) hypersecretion and GH receptor resistance in streptozotocin diabetic mice in response to a GH secretagogue.",
+      "url": "https://europepmc.org/article/MED/14630569",
+      "published": "2003-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12204475",
+      "title": "The influence of conformational restriction in the C-terminus of growth hormone secretagogues on their potency.",
+      "url": "https://europepmc.org/article/MED/12204475",
+      "published": "2002-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11735244",
+      "title": "The growth hormone secretagogue ipamorelin counteracts glucocorticoid-induced decrease in bone formation of adult rats.",
+      "url": "https://europepmc.org/article/MED/11735244",
+      "published": "2001-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10496658",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin, a growth hormone releasing peptide, in human volunteers.",
+      "url": "https://europepmc.org/article/MED/10496658",
+      "published": "1999-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10373343",
+      "title": "Ipamorelin, a new growth-hormone-releasing peptide, induces longitudinal bone growth in rats.",
+      "url": "https://europepmc.org/article/MED/10373343",
+      "published": "1999-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9879640",
+      "title": "Pharmacokinetic evaluation of ipamorelin and other peptidyl growth hormone secretagogues with emphasis on nasal absorption.",
+      "url": "https://europepmc.org/article/MED/9879640",
+      "published": "1998-11-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    }
+  ]
+}

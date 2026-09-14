@@ -1,0 +1,294 @@
+{
+  "type": "compound",
+  "preferred_name": "ARA-290",
+  "aliases": [
+    "ARA 290",
+    "ARA-290",
+    "ARA290",
+    "Ara 290",
+    "Ara290",
+    "Cibinetida",
+    "Cibinetide",
+    "Ph-bsp",
+    "Phbsp",
+    "cibinetide"
+  ],
+  "slug": "ara-290",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for ARA-290. Europe PMC indexes 39 publications, including 3 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "ARA-290: what the research shows",
+    "description": "Cited overview of published ARA-290 research: 39 indexed publications, 3 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL3545305: maximum clinical phase 2. Jurisdiction-level status pending human review.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 39,
+      "randomized_controlled_trials": 3,
+      "clinical_trials": 1,
+      "reviews": 6,
+      "human_indexed": 2,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 19,
+      "observational-human": 0,
+      "animal-preclinical": 19,
+      "mechanistic-in-vitro": 3,
+      "review": 0,
+      "unclassified": 2
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL3545305",
+      "pref_name": "CIBINETIDE",
+      "molecule_type": "Protein",
+      "max_phase": 2.0,
+      "first_approval": null,
+      "atc": [],
+      "synonyms": [
+        "ARA 290",
+        "ARA-290",
+        "ARA290",
+        "Ara 290",
+        "Ara290",
+        "Cibinetida",
+        "Cibinetide",
+        "Ph-bsp",
+        "Phbsp"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3545305/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42635865",
+      "title": "Peptides in Regenerative Medicine: A Comprehensive Review of Clinical Applications in Tissue Repair and Chronic Pain Management.",
+      "url": "https://europepmc.org/article/MED/42635865",
+      "published": "2026-08-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42693836",
+      "title": "Pharmacological Management of Diabetic Neuropathy: Current Evidence, Clinical Positioning, and Emerging Therapeutic Targets.",
+      "url": "https://europepmc.org/article/MED/42693836",
+      "published": "2026-08-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36741836",
+      "title": "A small erythropoietin derived non-hematopoietic peptide reduces cardiac inflammation, attenuates age associated declines in heart function and prolongs healthspan.",
+      "url": "https://europepmc.org/article/MED/36741836",
+      "published": "2023-01-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36085231",
+      "title": "Mechanistic Approach for Protective Effect of ARA290, a Specific Ligand for the Erythropoietin/CD131 Heteroreceptor, against Cisplatin-Induced Nephrotoxicity, the Involvement of Apoptosis and Inflammation Pathways.",
+      "url": "https://europepmc.org/article/MED/36085231",
+      "published": "2022-09-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35008482",
+      "title": "The Non-Erythropoietic EPO Analogue Cibinetide Inhibits Osteoclastogenesis In Vitro and Increases Bone Mineral Density in Mice.",
+      "url": "https://europepmc.org/article/MED/35008482",
+      "published": "2021-12-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35317117",
+      "title": "Synthesis and evaluation of 99m Tc-DOTA-ARA-290 as potential SPECT tracer for targeting cardiac ischemic region.",
+      "url": "https://europepmc.org/article/MED/35317117",
+      "published": "2021-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34343617",
+      "title": "Early monocyte modulation by the non-erythropoietic peptide ARA 290 decelerates AD-like pathology progression.",
+      "url": "https://europepmc.org/article/MED/34343617",
+      "published": "2021-07-31",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33423557",
+      "title": "The time to develop treatments for diabetic neuropathy.",
+      "url": "https://europepmc.org/article/MED/33423557",
+      "published": "2021-01-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34498509",
+      "title": "Cibinetide Protects Isolated Human Islets in a Stressful Environment and Improves Engraftment in the Perspective of Intra Portal Islet Transplantation.",
+      "url": "https://europepmc.org/article/MED/34498509",
+      "published": "2021-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32345869",
+      "title": "Improvement of Islet Allograft Function Using Cibinetide, an Innate Repair Receptor Ligand.",
+      "url": "https://europepmc.org/article/MED/32345869",
+      "published": "2020-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32674280",
+      "title": "A Phase 2 Clinical Trial on the Use of Cibinetide for the Treatment of Diabetic Macular Edema.",
+      "url": "https://europepmc.org/article/MED/32674280",
+      "published": "2020-07-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29223734",
+      "title": "Activation of the EPOR-β common receptor complex by cibinetide ameliorates impaired wound healing in mice with genetic diabetes.",
+      "url": "https://europepmc.org/article/MED/29223734",
+      "published": "2017-12-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28941172",
+      "title": "Characterization of in vitro generated metabolites of selected peptides <2 kDa prohibited in sports.",
+      "url": "https://europepmc.org/article/MED/28941172",
+      "published": "2017-11-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29026145",
+      "title": "Cibinetide dampens innate immune cell functions thus ameliorating the course of experimental colitis.",
+      "url": "https://europepmc.org/article/MED/29026145",
+      "published": "2017-10-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28475703",
+      "title": "Cibinetide Improves Corneal Nerve Fiber Abundance in Patients With Sarcoidosis-Associated Small Nerve Fiber Loss and Neuropathic Pain.",
+      "url": "https://europepmc.org/article/MED/28475703",
+      "published": "2017-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27507833",
+      "title": "Managing fatigue in sarcoidosis - A systematic review of the evidence.",
+      "url": "https://europepmc.org/article/MED/27507833",
+      "published": "2016-08-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26683514",
+      "title": "A Nonhematopoietic Erythropoietin Analogue, ARA 290, Inhibits Macrophage Activation and Prevents Damage to Transplanted Islets.",
+      "url": "https://europepmc.org/article/MED/26683514",
+      "published": "2016-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26578461",
+      "title": "Simplifying and expanding the screening for peptides <2 kDa by direct urine injection, liquid chromatography, and ion mobility mass spectrometry.",
+      "url": "https://europepmc.org/article/MED/26578461",
+      "published": "2015-12-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25387363",
+      "title": "ARA 290, a nonerythropoietic peptide engineered from erythropoietin, improves metabolic control and neuropathic symptoms in patients with type 2 diabetes.",
+      "url": "https://europepmc.org/article/MED/25387363",
+      "published": "2015-03-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25728128",
+      "title": "Flipping the molecular switch for innate protection and repair of tissues: Long-lasting effects of a non-erythropoietic small peptide engineered from erythropoietin.",
+      "url": "https://europepmc.org/article/MED/25728128",
+      "published": "2015-02-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24603865",
+      "title": "Erythropoietin-derived nonerythropoietic peptide ameliorates experimental autoimmune neuritis by inflammation suppression and tissue protection.",
+      "url": "https://europepmc.org/article/MED/24603865",
+      "published": "2014-03-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24555851",
+      "title": "ARA 290 for treatment of small fiber neuropathy in sarcoidosis.",
+      "url": "https://europepmc.org/article/MED/24555851",
+      "published": "2014-02-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24136731",
+      "title": "ARA 290 improves symptoms in patients with sarcoidosis-associated small nerve fiber loss and increases corneal nerve fiber density.",
+      "url": "https://europepmc.org/article/MED/24136731",
+      "published": "2013-11-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23615965",
+      "title": "Erythropoietin receptor (EpoR) agonism is used to treat a wide range of disease.",
+      "url": "https://europepmc.org/article/MED/23615965",
+      "published": "2013-04-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23304492",
+      "title": "Sarcoidosis and pain caused by small-fiber neuropathy.",
+      "url": "https://europepmc.org/article/MED/23304492",
+      "published": "2012-12-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23168581",
+      "title": "Safety and efficacy of ARA 290 in sarcoidosis patients with symptoms of small fiber neuropathy: a randomized, double-blind pilot study.",
+      "url": "https://europepmc.org/article/MED/23168581",
+      "published": "2012-11-15",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: chembl None -> CHEMBL3545305."
+    }
+  ]
+}

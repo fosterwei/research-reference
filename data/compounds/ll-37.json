@@ -1,0 +1,300 @@
+{
+  "type": "compound",
+  "preferred_name": "LL-37",
+  "aliases": [
+    "CAP-18",
+    "LL 37",
+    "cathelicidin LL-37"
+  ],
+  "slug": "ll-37",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for LL-37. Europe PMC indexes 2826 publications, including 38 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "LL-37: what the research shows",
+    "description": "Cited overview of published LL-37 research: 2826 indexed publications, 38 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 2826,
+      "randomized_controlled_trials": 38,
+      "clinical_trials": 23,
+      "reviews": 272,
+      "human_indexed": 48,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 48,
+      "observational-human": 0,
+      "animal-preclinical": 1,
+      "mechanistic-in-vitro": 4,
+      "review": 0,
+      "unclassified": 1
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42598364",
+      "title": "Precision synbiotic intervention with 2'-fucosyllactose and infant-derived Bifidobacterium modulates gut-immune axis and reduces disease risk in toddlers: a randomized controlled trial.",
+      "url": "https://europepmc.org/article/MED/42598364",
+      "published": "2026-07-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42653651",
+      "title": "Building Blocks of 2,3-Diaminopropionic Acid Functionalized with an Oxa-Acid Spacer Shift the Functional Profile of Human Cathelicidin LL-37: Enhanced Enzymatic Stability and Selective Suppression of Neutrophil Degranulation.",
+      "url": "https://europepmc.org/article/MED/42653651",
+      "published": "2026-07-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42118446",
+      "title": "Assessing the Safety and Probiotic Potential of Bifidobacterium longum subsp. infantis BI45: A Comprehensive Study from Genomic Analysis to Randomized Controlled Clinical Trial in Healthy Adults.",
+      "url": "https://europepmc.org/article/MED/42118446",
+      "published": "2026-05-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42134226",
+      "title": "How cholesterol modulates LL-37 function: A biophysical study in eukaryotic-like membrane systems.",
+      "url": "https://europepmc.org/article/MED/42134226",
+      "published": "2026-05-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42043231",
+      "title": "LL-37 Inhibits EV71 Infection by Upregulating STAC via the EGFR-ERK Signaling Pathway.",
+      "url": "https://europepmc.org/article/MED/42043231",
+      "published": "2026-04-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41923698",
+      "title": "Aggregation-State Dynamics Drive Double Cooperativity Between Antimicrobial Peptides LL-37 and HNP1.",
+      "url": "https://europepmc.org/article/MED/41923698",
+      "published": "2026-04-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41655688",
+      "title": "Limosilactobacillus fermentum LF61: A multidimensional study on safety and functionality from genomics to clinical application.",
+      "url": "https://europepmc.org/article/MED/41655688",
+      "published": "2026-02-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41535907",
+      "title": "LL-37 and citrullinated-LL-37 enhances oxylipins: citrullination attenuates LL-37-mediated COX-2-dependent chemokine response in human bronchial epithelial cells.",
+      "url": "https://europepmc.org/article/MED/41535907",
+      "published": "2026-01-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41102328",
+      "title": "Biophysical and transcriptomic characterization of LL-37-derived antimicrobial peptide targeting multidrug-resistant Escherichia coli and ESKAPE pathogens.",
+      "url": "https://europepmc.org/article/MED/41102328",
+      "published": "2025-10-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40810749",
+      "title": "Acute effects of continuous and interval cycling on salivary SIgA and anti-microbial peptide secretions: a randomized crossover trial.",
+      "url": "https://europepmc.org/article/MED/40810749",
+      "published": "2025-08-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39940396",
+      "title": "The Immunomodulatory Activity of High Doses of Vitamin D in Critical Care Patients with Severe SARS-CoV-2 Pneumonia-A Randomized Controlled Trial.",
+      "url": "https://europepmc.org/article/MED/39940396",
+      "published": "2025-01-31",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39181322",
+      "title": "Weekly Vitamin D Supplementation to Prevent Acute Respiratory Infections in Young Children at Different Latitudes: A Randomized Controlled Trial.",
+      "url": "https://europepmc.org/article/MED/39181322",
+      "published": "2024-08-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38706151",
+      "title": "Outcomes of High-Dose Versus Low-Dose Vitamin D on Prognosis of Sepsis Requiring Mechanical Ventilation: A Randomized Controlled Trial.",
+      "url": "https://europepmc.org/article/MED/38706151",
+      "published": "2024-05-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37605995",
+      "title": "Efficacy and safety of Oral LL-37 against the Omicron BA.5.1.3 variant of SARS-COV-2: A randomized trial.",
+      "url": "https://europepmc.org/article/MED/37605995",
+      "published": "2023-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37480520",
+      "title": "Efficacy of LL-37 cream in enhancing healing of diabetic foot ulcer: a randomized double-blind controlled trial.",
+      "url": "https://europepmc.org/article/MED/37480520",
+      "published": "2023-07-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36329435",
+      "title": "Comparison of frailty in patients with nontuberculous mycobacterial lung disease and bronchiectasis: a prospective cohort study.",
+      "url": "https://europepmc.org/article/MED/36329435",
+      "published": "2022-11-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34687253",
+      "title": "Evaluation of LL-37 in healing of hard-to-heal venous leg ulcers: A multicentric prospective randomized placebo-controlled clinical trial.",
+      "url": "https://europepmc.org/article/MED/34687253",
+      "published": "2021-10-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32867053",
+      "title": "Seasonal Antimicrobial Activity of the Airway: Post-Hoc Analysis of a Randomized Placebo-Controlled Double-Blind Trial.",
+      "url": "https://europepmc.org/article/MED/32867053",
+      "published": "2020-08-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32799924",
+      "title": "Antimicrobial peptides in human synovial membrane as (low-grade) periprosthetic joint infection biomarkers.",
+      "url": "https://europepmc.org/article/MED/32799924",
+      "published": "2020-08-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31797399",
+      "title": "The therapeutic efficacy of Bifidobacterium animalis subsp. lactis BB-12 ® in infant colic: A randomised, double blind, placebo-controlled trial.",
+      "url": "https://europepmc.org/article/MED/31797399",
+      "published": "2019-12-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31330899",
+      "title": "Vitamin D and Phenylbutyrate Supplementation Does Not Modulate Gut Derived Immune Activation in HIV-1.",
+      "url": "https://europepmc.org/article/MED/31330899",
+      "published": "2019-07-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31046155",
+      "title": "LL-37 promotes neutrophil extracellular trap formation in chronic rhinosinusitis with nasal polyps.",
+      "url": "https://europepmc.org/article/MED/31046155",
+      "published": "2019-05-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31142499",
+      "title": "Cystic Fibrosis and Pseudomonas aeruginosa: the Host-Microbe Interface.",
+      "url": "https://europepmc.org/article/MED/31142499",
+      "published": "2019-05-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28956425",
+      "title": "Serum level of cathelicidin LL-37 in patients with active tuberculosis and other infectious diseases.",
+      "url": "https://europepmc.org/article/MED/28956425",
+      "published": "2017-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28526374",
+      "title": "Impact of high-dose vitamin D 3 on plasma free 25-hydroxyvitamin D concentrations and antimicrobial peptides in critically ill mechanically ventilated adults.",
+      "url": "https://europepmc.org/article/MED/28526374",
+      "published": "2017-02-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26545199",
+      "title": "Nasal Levels of Antimicrobial Peptides in Allergic Asthma Patients and Healthy Controls: Differences and Effect of a Short 1,25(OH)2 Vitamin D3 Treatment.",
+      "url": "https://europepmc.org/article/MED/26545199",
+      "published": "2015-11-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24771854",
+      "title": "Citrullination alters immunomodulatory function of LL-37 essential for prevention of endotoxin-induced sepsis.",
+      "url": "https://europepmc.org/article/MED/24771854",
+      "published": "2014-04-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23246832",
+      "title": "A comprehensive summary of LL-37, the factotum human cathelicidin peptide.",
+      "url": "https://europepmc.org/article/MED/23246832",
+      "published": "2012-11-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22574737",
+      "title": "Efficacy of sodium butyrate adjunct therapy in shigellosis: a randomized, double-blind, placebo-controlled clinical trial.",
+      "url": "https://europepmc.org/article/MED/22574737",
+      "published": "2012-05-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16716248",
+      "title": "LL-37, the only human member of the cathelicidin family of antimicrobial peptides.",
+      "url": "https://europepmc.org/article/MED/16716248",
+      "published": "2006-04-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12930229",
+      "title": "Antibacterial peptides: basic facts and emerging concepts.",
+      "url": "https://europepmc.org/article/MED/12930229",
+      "published": "2003-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12960280",
+      "title": "Cathelicidins, multifunctional peptides of the innate immunity.",
+      "url": "https://europepmc.org/article/MED/12960280",
+      "published": "2003-07-22",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

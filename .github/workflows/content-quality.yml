@@ -17,6 +17,8 @@ jobs:
       # ubuntu-latest ships Python 3; the validator has no dependencies.
       - name: Validate JSON records
         run: python3 scripts/validate_content.py
+      - name: Check compound registry cross-references
+        run: python3 scripts/build_registry.py --check
 
   lint-php:
     name: Lint WordPress plugin and theme

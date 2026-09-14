@@ -1,0 +1,387 @@
+{
+  "type": "compound",
+  "preferred_name": "Sermorelin",
+  "aliases": [
+    "GHRH 1-29",
+    "GHRH(1-29)",
+    "GRF 1-29",
+    "Geref",
+    "Groliberin",
+    "Sermorelin",
+    "Sermorelin acetate",
+    "Sermorelina",
+    "Sermoreline"
+  ],
+  "slug": "sermorelin",
+  "status": "researched",
+  "evidence_tier": "approved-label",
+  "summary": "Research record for Sermorelin. Europe PMC indexes 579 publications, including 39 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Sermorelin: what the research shows",
+    "description": "Cited overview of published Sermorelin research: 579 indexed publications, 39 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL1201490: maximum clinical phase 4, first approval 1990, ATC V04CD03, H01AC04. Jurisdiction-level status pending human review.",
+        "evidence_label": "approved-label",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 579,
+      "randomized_controlled_trials": 39,
+      "clinical_trials": 71,
+      "reviews": 15,
+      "human_indexed": 2,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 26,
+      "observational-human": 7,
+      "animal-preclinical": 7,
+      "mechanistic-in-vitro": 6,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL1201490",
+      "pref_name": "SERMORELIN ACETATE",
+      "molecule_type": "Protein",
+      "max_phase": 4.0,
+      "first_approval": 1990,
+      "atc": [
+        "V04CD03",
+        "H01AC04"
+      ],
+      "synonyms": [
+        "Geref",
+        "Groliberin",
+        "Sermorelin",
+        "Sermorelin acetate",
+        "Sermorelina",
+        "Sermoreline"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201490/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "doi-10-20944-preprints202512-1011-v3",
+      "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance",
+      "url": "https://doi.org/10.20944/preprints202512.1011.v3",
+      "published": "2026-04-07",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-41138283",
+      "title": "Analysis of growth hormone releasing hormone and its analogs in urine using nano liquid chromatography coupled with quadrupole/orbitrap mass spectrometry.",
+      "url": "https://europepmc.org/article/MED/41138283",
+      "published": "2025-10-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40781087",
+      "title": "Universal peptide synthesis via solid-phase methods fused with chemputation.",
+      "url": "https://europepmc.org/article/MED/40781087",
+      "published": "2025-08-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40244089",
+      "title": "Growth Hormone-Releasing Hormone Antagonists Increase Radiosensitivity in Non-Small Cell Lung Cancer Cells.",
+      "url": "https://europepmc.org/article/MED/40244089",
+      "published": "2025-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39456984",
+      "title": "Antagonist of Growth Hormone-Releasing Hormone Receptor MIA-690 Suppresses the Growth of Androgen-Independent Prostate Cancers.",
+      "url": "https://europepmc.org/article/MED/39456984",
+      "published": "2024-10-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37983492",
+      "title": "Growth hormone-releasing hormone receptor antagonist MIA-602 attenuates cardiopulmonary injury induced by BSL-2 rVSV-SARS-CoV-2 in hACE2 mice.",
+      "url": "https://europepmc.org/article/MED/37983492",
+      "published": "2023-11-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37806509",
+      "title": "Cationic exchange SPE combined with triple quadrupole UHPLC-MS/MS for detection of GHRHs in urine samples.",
+      "url": "https://europepmc.org/article/MED/37806509",
+      "published": "2023-10-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37688464",
+      "title": "In-house standards derived from doping peptides: Enzymatic and serum stability and degradation profile of GHRP and GHRH-related peptides.",
+      "url": "https://europepmc.org/article/MED/37688464",
+      "published": "2023-09-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38716080",
+      "title": "Probing for peptidic drugs (2-10 kDa) in doping control blood samples.",
+      "url": "https://europepmc.org/article/MED/38716080",
+      "published": "2022-08-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35298973",
+      "title": "An antibody-free, ultrafiltration-based assay for the detection of growth hormone-releasing hormones in urine at low pg/mL concentrations using nanoLC-HRMS/MS.",
+      "url": "https://europepmc.org/article/MED/35298973",
+      "published": "2022-03-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33842627",
+      "title": "A potentially effective drug for patients with recurrent glioma: sermorelin.",
+      "url": "https://europepmc.org/article/MED/33842627",
+      "published": "2021-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32156725",
+      "title": "Splice variant of growth hormone-releasing hormone receptor drives esophageal squamous cell carcinoma conferring a therapeutic target.",
+      "url": "https://europepmc.org/article/MED/32156725",
+      "published": "2020-03-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31959947",
+      "title": "Antinflammatory, antioxidant, and behavioral effects induced by administration of growth hormone-releasing hormone analogs in mice.",
+      "url": "https://europepmc.org/article/MED/31959947",
+      "published": "2020-01-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29983893",
+      "title": "Growth hormone-releasing hormone (GHRH) and its agonists inhibit hepatic and tumoral secretion of IGF-1.",
+      "url": "https://europepmc.org/article/MED/29983893",
+      "published": "2018-06-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28830317",
+      "title": "Growth Hormone Secretagogue Treatment in Hypogonadal Men Raises Serum Insulin-Like Growth Factor-1 Levels.",
+      "url": "https://europepmc.org/article/MED/28830317",
+      "published": "2017-08-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23559086",
+      "title": "Macimorelin (AEZS-130)-stimulated growth hormone (GH) test: validation of a novel oral stimulation test for the diagnosis of adult GH deficiency.",
+      "url": "https://europepmc.org/article/MED/23559086",
+      "published": "2013-04-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22941871",
+      "title": "Antagonists of growth hormone-releasing hormone suppress in vivo tumor growth and gene expression in triple negative breast cancers.",
+      "url": "https://europepmc.org/article/MED/22941871",
+      "published": "2012-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19509104",
+      "title": "Clinical review: Is lack of recombinant growth hormone (GH)-releasing hormone in the United States a setback or time to consider glucagon testing for adult GH deficiency?",
+      "url": "https://europepmc.org/article/MED/19509104",
+      "published": "2009-06-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16061831",
+      "title": "Polyethylene glycol-conjugated growth hormone-releasing hormone is long acting and stimulates GH in healthy young and elderly subjects.",
+      "url": "https://europepmc.org/article/MED/16061831",
+      "published": "2005-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-14499707",
+      "title": "PEGylation of growth hormone-releasing hormone (GRF) analogues.",
+      "url": "https://europepmc.org/article/MED/14499707",
+      "published": "2003-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11816525",
+      "title": "[Effect of transdermal administration of 17-beta estradiol on the release of growth hormone by growth hormone liberating hormone (GH-RH-1-29) in climacteric women before and after treatment].",
+      "url": "https://europepmc.org/article/MED/11816525",
+      "published": "2001-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10754477",
+      "title": "The GH response to low-dose bolus growth hormone-releasing hormone (GHRH(1-29)NH2) is attenuated in patients with longstanding post-irradiation GH insufficiency.",
+      "url": "https://europepmc.org/article/MED/10754477",
+      "published": "2000-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10594518",
+      "title": "The relative roles of continuous growth hormone-releasing hormone (GHRH(1-29)NH2) and intermittent somatostatin(1-14)(SS) in growth hormone (GH) pulse generation: studies in normal and post cranial irradiated individuals.",
+      "url": "https://europepmc.org/article/MED/10594518",
+      "published": "1999-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9425393",
+      "title": "Interaction of the growth hormone releasing peptide hexarelin with somatostatin.",
+      "url": "https://europepmc.org/article/MED/9425393",
+      "published": "1997-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9360512",
+      "title": "Effects of [norleucine27]growth hormone-releasing hormone (GHRH) (1-29)-NH2 administration on the immune system of aging men and women.",
+      "url": "https://europepmc.org/article/MED/9360512",
+      "published": "1997-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9141536",
+      "title": "Endocrine and metabolic effects of long-term administration of [Nle27]growth hormone-releasing hormone-(1-29)-NH2 in age-advanced men and women.",
+      "url": "https://europepmc.org/article/MED/9141536",
+      "published": "1997-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8954038",
+      "title": "Hexarelin-induced growth hormone, cortisol, and prolactin release: a dose-response study.",
+      "url": "https://europepmc.org/article/MED/8954038",
+      "published": "1996-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8762732",
+      "title": "The effect of repeated administration of hexarelin, a growth hormone releasing peptide, and growth hormone releasing hormone on growth hormone responsivity.",
+      "url": "https://europepmc.org/article/MED/8762732",
+      "published": "1996-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8772599",
+      "title": "Once daily subcutaneous growth hormone-releasing hormone therapy accelerates growth in growth hormone-deficient children during the first year of therapy. Geref International Study Group.",
+      "url": "https://europepmc.org/article/MED/8772599",
+      "published": "1996-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8613546",
+      "title": "Endogenous growth hormone (GH)-releasing hormone is required for GH responses to pharmacological stimuli.",
+      "url": "https://europepmc.org/article/MED/8613546",
+      "published": "1996-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8950613",
+      "title": "Growth hormone-releasing peptides: clinical and basic aspects.",
+      "url": "https://europepmc.org/article/MED/8950613",
+      "published": "1996-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7735368",
+      "title": "Priming with GHRH (1-29) NH2: an aid in differential diagnosis between hypothalamic and pituitary deficiencies.",
+      "url": "https://europepmc.org/article/MED/7735368",
+      "published": "1994-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7735367",
+      "title": "Long-term therapy with a single daily subcutaneous dose of growth hormone releasing hormone (1-29) in prepubertal growth hormone deficient children. Venezuelan Collaborative Study Group.",
+      "url": "https://europepmc.org/article/MED/7735367",
+      "published": "1994-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7962302",
+      "title": "Neuroendocrine responses to a novel growth hormone secretagogue, L-692,429, in healthy older subjects.",
+      "url": "https://europepmc.org/article/MED/7962302",
+      "published": "1994-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7921207",
+      "title": "Low-dose growth hormone-releasing hormone tests: a dose-response study.",
+      "url": "https://europepmc.org/article/MED/7921207",
+      "published": "1994-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8282967",
+      "title": "Coexistence of growth hormone-secreting pituitary adenoma and intracranial meningioma: a case report and review of the literature.",
+      "url": "https://europepmc.org/article/MED/8282967",
+      "published": "1993-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8329825",
+      "title": "Pharmacokinetics of growth hormone-releasing hormone(1-29)-NH2 and stimulation of growth hormone secretion in healthy subjects after intravenous or intranasal administration.",
+      "url": "https://europepmc.org/article/MED/8329825",
+      "published": "1993-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8329828",
+      "title": "Intranasal administration of growth hormone-releasing hormone(1-29)-NH2 in children with growth hormone deficiency: effects on growth hormone secretion and growth.",
+      "url": "https://europepmc.org/article/MED/8329828",
+      "published": "1993-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-1687674",
+      "title": "Radioimmunoassay of growth hormone-releasing hormone (GHRH) with a polyclonal antibody against synthetic GHRH(1-29)-Gly4-Cys-NH2: method and clinical studies.",
+      "url": "https://europepmc.org/article/MED/1687674",
+      "published": "1991-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-2429796",
+      "title": "Growth hormone releasing hormone.",
+      "url": "https://europepmc.org/article/MED/2429796",
+      "published": "1986-08-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

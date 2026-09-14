@@ -1,0 +1,257 @@
+{
+  "type": "compound",
+  "preferred_name": "KPV",
+  "aliases": [
+    "KPV peptide",
+    "alpha-MSH(11-13)"
+  ],
+  "slug": "kpv",
+  "status": "researched",
+  "evidence_tier": "animal-preclinical",
+  "summary": "Research record for KPV. Europe PMC indexes 138 publications, including 0 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "KPV: what the research shows",
+    "description": "Cited overview of published KPV research: 138 indexed publications, 0 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 138,
+      "randomized_controlled_trials": 0,
+      "clinical_trials": 0,
+      "reviews": 11,
+      "human_indexed": 2,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 0,
+      "observational-human": 0,
+      "animal-preclinical": 32,
+      "mechanistic-in-vitro": 4,
+      "review": 0,
+      "unclassified": 5
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42585803",
+      "title": "KPV attenuates adipogenesis and lipid metabolism through modulation of ROS-mediated AKT/mTORC1/PPARγ signaling.",
+      "url": "https://europepmc.org/article/MED/42585803",
+      "published": "2026-08-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41533788",
+      "title": "Inflammation-triggered self-immolative conjugates enable oral peptide delivery by overcoming gastrointestinal barriers.",
+      "url": "https://europepmc.org/article/MED/41533788",
+      "published": "2026-01-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40935835",
+      "title": "NLRP3 autophagic degradation disruption in melanocytes contributes to vitiligo development.",
+      "url": "https://europepmc.org/article/MED/40935835",
+      "published": "2025-09-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40030207",
+      "title": "Multicompartmental Hydrogel Microspheres with a Concentric Thin Oil Layer: Protecting and Targeting Therapeutic Agents for Inflammatory Bowel Disease.",
+      "url": "https://europepmc.org/article/MED/40030207",
+      "published": "2025-03-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39252648",
+      "title": "KPV and RAPA Self-Assembled into Carrier-Free Nanodrugs for Vascular Calcification Therapy.",
+      "url": "https://europepmc.org/article/MED/39252648",
+      "published": "2024-09-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39211778",
+      "title": "PepT1-targeted nanodrug based on co-assembly of anti-inflammatory peptide and immunosuppressant for combined treatment of acute and chronic DSS-induced ColitiS.",
+      "url": "https://europepmc.org/article/MED/39211778",
+      "published": "2024-08-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37859689",
+      "title": "A nanoparticle platform for combined mucosal healing and immunomodulation in inflammatory bowel disease treatment.",
+      "url": "https://europepmc.org/article/MED/37859689",
+      "published": "2023-10-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37508552",
+      "title": "The Melanocortin System in Inflammatory Bowel Diseases: Insights into Its Mechanisms and Therapeutic Potentials.",
+      "url": "https://europepmc.org/article/MED/37508552",
+      "published": "2023-07-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37161053",
+      "title": "Vimentin is required for tumor progression and metastasis in a mouse model of non-small cell lung cancer.",
+      "url": "https://europepmc.org/article/MED/37161053",
+      "published": "2023-05-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35245681",
+      "title": "A KPV-binding double-network hydrogel restores gut mucosal barrier in an inflamed colon.",
+      "url": "https://europepmc.org/article/MED/35245681",
+      "published": "2022-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34846053",
+      "title": "In situ mucoadhesive hydrogel capturing tripeptide KPV: the anti-inflammatory, antibacterial and repairing effect on chemotherapy-induced oral mucositis.",
+      "url": "https://europepmc.org/article/MED/34846053",
+      "published": "2021-12-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34547895",
+      "title": "Self-Cross-Linked Hydrogel of Cysteamine-Grafted γ-Polyglutamic Acid Stabilized Tripeptide KPV for Alleviating TNBS-Induced Ulcerative Colitis in Rats.",
+      "url": "https://europepmc.org/article/MED/34547895",
+      "published": "2021-09-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29953505",
+      "title": "Structural modification of the tripeptide KPV by reductive \"glycoalkylation\" of the lysine residue.",
+      "url": "https://europepmc.org/article/MED/29953505",
+      "published": "2018-06-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28349696",
+      "title": "Peptide Receptor-Targeted Fluorescent Probe: Visualization and Discrimination between Chronic and Acute Ulcerative Colitis.",
+      "url": "https://europepmc.org/article/MED/28349696",
+      "published": "2017-04-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28143741",
+      "title": "Orally Targeted Delivery of Tripeptide KPV via Hyaluronic Acid-Functionalized Nanoparticles Efficiently Alleviates Ulcerative Colitis.",
+      "url": "https://europepmc.org/article/MED/28143741",
+      "published": "2017-01-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27458604",
+      "title": "Critical role of PepT1 in promoting colitis-associated cancer and therapeutic benefits of the anti-inflammatory PepT1-mediated tripeptide KPV in a murine model.",
+      "url": "https://europepmc.org/article/MED/27458604",
+      "published": "2016-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23141346",
+      "title": "Simultaneous analysis of seven oligopeptides in microbial fuel cell by micro-fluidic chip with reflux injection mode.",
+      "url": "https://europepmc.org/article/MED/23141346",
+      "published": "2012-08-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22837805",
+      "title": "Inhibition of cellular and systemic inflammation cues in human bronchial epithelial cells by melanocortin-related peptides: mechanism of KPV action and a role for MC3R agonists.",
+      "url": "https://europepmc.org/article/MED/22837805",
+      "published": "2012-06-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21222263",
+      "title": "Terminal signal: anti-inflammatory effects of α-melanocyte-stimulating hormone related peptides beyond the pharmacophore.",
+      "url": "https://europepmc.org/article/MED/21222263",
+      "published": "2010-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18612139",
+      "title": "Alpha-melanocyte-stimulating hormone and related tripeptides: biochemistry, antiinflammatory and protective effects in vitro and in vivo, and future perspectives for the treatment of immune-mediated inflammatory diseases.",
+      "url": "https://europepmc.org/article/MED/18612139",
+      "published": "2008-07-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17934097",
+      "title": "alpha-MSH related peptides: a new class of anti-inflammatory and immunomodulating drugs.",
+      "url": "https://europepmc.org/article/MED/17934097",
+      "published": "2007-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18061177",
+      "title": "PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation.",
+      "url": "https://europepmc.org/article/MED/18061177",
+      "published": "2007-10-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16965771",
+      "title": "Effects of the COOH-terminal tripeptide alpha-MSH(11-13) on corneal epithelial wound healing: role of nitric oxide.",
+      "url": "https://europepmc.org/article/MED/16965771",
+      "published": "2006-09-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12851308",
+      "title": "New insights into the functions of alpha-MSH and related peptides in the immune system.",
+      "url": "https://europepmc.org/article/MED/12851308",
+      "published": "2003-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9629264",
+      "title": "Mechanisms of antiinflammatory action of the neuroimmunomodulatory peptide alpha-MSH.",
+      "url": "https://europepmc.org/article/MED/9629264",
+      "published": "1998-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-6785126",
+      "title": "The large-scale cultivation of VERO cells in micro-carrier culture for virus vaccine production. Preliminary results for killed poliovirus vaccine.",
+      "url": "https://europepmc.org/article/MED/6785126",
+      "published": "1981-01-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

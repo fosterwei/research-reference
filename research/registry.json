@@ -1,0 +1,692 @@
+{
+  "_about": "Compound registry: identity, taxonomy and plan. Evidence claims never live here; they live in data/ records with sources. `class` and `target` are proposed assignments pending owner confirmation. Generated view: research/registry.md via scripts/build_registry.py.",
+  "class_status": "proposed",
+  "classes": {
+    "incretin-and-amylin-analogs": "GLP-1, GIP, glucagon and amylin receptor agonists developed for glycaemic control and weight management",
+    "ghrh-analogs": "Growth-hormone-releasing-hormone analogs acting at the GHRH receptor",
+    "ghrelin-mimetics": "Growth hormone secretagogues acting at the ghrelin (GHS-R1a) receptor",
+    "repair-and-anti-inflammatory": "Peptides studied for tissue repair, angiogenesis or inflammation, mostly in animal models",
+    "melanocortin-agonists": "Agonists at melanocortin receptors, studied for sexual function and pigmentation",
+    "neuropeptides-nootropic": "Short regulatory neuropeptides studied for anxiety, cognition and sleep, largely in Russian literature",
+    "bioregulator-short-peptides": "Two- to four-residue Khavinson peptides marketed as bioregulators; literature is small and largely single-group",
+    "mitochondrial-peptides": "Mitochondria-derived or mitochondria-targeted peptides",
+    "immunomodulators-and-host-defense": "Thymic hormones and antimicrobial host-defense peptides",
+    "growth-factors-and-reproductive": "Growth-factor analogs and reproductive neuropeptides",
+    "senolytic-and-cytoprotective": "Senolytic or cytoprotective peptides derived from transcription-factor or cytokine fragments",
+    "metabolic-other": "Metabolic agents outside the incretin class: a growth-hormone fragment and two non-peptide small molecules kept for coverage and flagged as such"
+  },
+  "compounds": [
+    {
+      "slug": "bremelanotide-pt-141",
+      "name": "Bremelanotide",
+      "aliases": [
+        "PT-141",
+        "PT 141",
+        "Vyleesi"
+      ],
+      "sequence": null,
+      "class": "melanocortin-agonists",
+      "target": "MC4 receptor agonist",
+      "molecule_type": "peptide",
+      "length_aa": 7,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "cagrilintide",
+      "name": "Cagrilintide",
+      "aliases": [
+        "NN9838",
+        "AM833"
+      ],
+      "sequence": null,
+      "class": "incretin-and-amylin-analogs",
+      "target": "long-acting amylin analog",
+      "molecule_type": "peptide",
+      "length_aa": null,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "dsip",
+      "name": "DSIP",
+      "aliases": [
+        "delta sleep-inducing peptide",
+        "delta-sleep-inducing peptide"
+      ],
+      "sequence": null,
+      "class": "neuropeptides-nootropic",
+      "target": "delta sleep-inducing peptide; receptor unidentified",
+      "molecule_type": "peptide",
+      "length_aa": 9,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "ghrp-6",
+      "name": "GHRP-6",
+      "aliases": [
+        "GHRP 6",
+        "growth hormone-releasing peptide 6",
+        "growth hormone releasing peptide-6"
+      ],
+      "sequence": null,
+      "class": "ghrelin-mimetics",
+      "target": "ghrelin receptor (GHS-R1a) agonist",
+      "molecule_type": "peptide",
+      "length_aa": 6,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "kisspeptin",
+      "name": "Kisspeptin",
+      "aliases": [
+        "kisspeptin-10",
+        "kisspeptin-54",
+        "metastin"
+      ],
+      "sequence": null,
+      "class": "growth-factors-and-reproductive",
+      "target": "KISS1 receptor agonist; GnRH release",
+      "molecule_type": "peptide",
+      "length_aa": null,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "ll-37",
+      "name": "LL-37",
+      "aliases": [
+        "LL 37",
+        "cathelicidin LL-37",
+        "CAP-18"
+      ],
+      "sequence": null,
+      "class": "immunomodulators-and-host-defense",
+      "target": "cathelicidin antimicrobial peptide; membrane-active, immunomodulatory",
+      "molecule_type": "peptide",
+      "length_aa": 37,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "mots-c",
+      "name": "MOTS-c",
+      "aliases": [
+        "MOTS c",
+        "mitochondrial open reading frame of the 12S rRNA type-c"
+      ],
+      "sequence": null,
+      "class": "mitochondrial-peptides",
+      "target": "mitochondria-derived; AMPK and folate-cycle effects reported",
+      "molecule_type": "peptide",
+      "length_aa": 16,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "retatrutide",
+      "name": "Retatrutide",
+      "aliases": [
+        "LY3437943"
+      ],
+      "sequence": null,
+      "class": "incretin-and-amylin-analogs",
+      "target": "GIP, GLP-1 and glucagon receptor triple agonist",
+      "molecule_type": "peptide",
+      "length_aa": 39,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "semaglutide",
+      "name": "Semaglutide",
+      "aliases": [
+        "Ozempic",
+        "Wegovy",
+        "Rybelsus",
+        "NN9535"
+      ],
+      "sequence": null,
+      "class": "incretin-and-amylin-analogs",
+      "target": "GLP-1 receptor agonist",
+      "molecule_type": "peptide",
+      "length_aa": 31,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "sermorelin",
+      "name": "Sermorelin",
+      "aliases": [
+        "GRF 1-29",
+        "GHRH(1-29)",
+        "GHRH 1-29",
+        "Geref"
+      ],
+      "sequence": null,
+      "class": "ghrh-analogs",
+      "target": "GHRH receptor agonist, GHRH(1-29)",
+      "molecule_type": "peptide",
+      "length_aa": 29,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "ss-31",
+      "name": "SS-31",
+      "aliases": [
+        "elamipretide",
+        "Bendavia",
+        "MTP-131"
+      ],
+      "sequence": null,
+      "class": "mitochondrial-peptides",
+      "target": "cardiolipin-binding, inner-membrane targeted",
+      "molecule_type": "peptide",
+      "length_aa": 4,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "survodutide",
+      "name": "Survodutide",
+      "aliases": [
+        "BI 456906",
+        "BI456906"
+      ],
+      "sequence": null,
+      "class": "incretin-and-amylin-analogs",
+      "target": "glucagon and GLP-1 receptor dual agonist",
+      "molecule_type": "peptide",
+      "length_aa": null,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "tb-500",
+      "name": "TB-500",
+      "aliases": [
+        "thymosin beta-4",
+        "thymosin beta 4",
+        "thymosin beta4",
+        "timbetasin"
+      ],
+      "sequence": null,
+      "class": "repair-and-anti-inflammatory",
+      "target": "thymosin beta-4 fragment; actin sequestration, angiogenesis",
+      "molecule_type": "peptide",
+      "length_aa": null,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "tesamorelin",
+      "name": "Tesamorelin",
+      "aliases": [
+        "Egrifta",
+        "TH9507",
+        "TH-9507"
+      ],
+      "sequence": null,
+      "class": "ghrh-analogs",
+      "target": "GHRH receptor agonist, stabilised GHRH analog",
+      "molecule_type": "peptide",
+      "length_aa": 44,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "thymosin-alpha-1",
+      "name": "Thymosin alpha-1",
+      "aliases": [
+        "thymalfasin",
+        "Zadaxin",
+        "thymosin alpha 1"
+      ],
+      "sequence": null,
+      "class": "immunomodulators-and-host-defense",
+      "target": "thymic peptide; TLR-mediated immunomodulation",
+      "molecule_type": "peptide",
+      "length_aa": 28,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "tirzepatide",
+      "name": "Tirzepatide",
+      "aliases": [
+        "Mounjaro",
+        "Zepbound",
+        "LY3298176"
+      ],
+      "sequence": null,
+      "class": "incretin-and-amylin-analogs",
+      "target": "GIP and GLP-1 receptor dual agonist",
+      "molecule_type": "peptide",
+      "length_aa": 39,
+      "pilot_wave": 1
+    },
+    {
+      "slug": "ara-290",
+      "name": "ARA-290",
+      "aliases": [
+        "cibinetide",
+        "ARA 290"
+      ],
+      "sequence": null,
+      "class": "senolytic-and-cytoprotective",
+      "target": "innate repair receptor (EPOR/beta-common) agonist",
+      "molecule_type": "peptide",
+      "length_aa": 11,
+      "pilot_wave": 2
+    },
+    {
+      "slug": "cjc-1295",
+      "name": "CJC-1295",
+      "aliases": [
+        "CJC 1295",
+        "CJC-1295 DAC",
+        "modified GRF (1-29)",
+        "modified GRF 1-29",
+        "tetrasubstituted GRF(1-29)"
+      ],
+      "sequence": null,
+      "class": "ghrh-analogs",
+      "target": "GHRH receptor agonist, modified GRF(1-29), with or without DAC",
+      "molecule_type": "peptide",
+      "length_aa": 29,
+      "pilot_wave": 2
+    },
+    {
+      "slug": "epitalon",
+      "name": "Epitalon",
+      "aliases": [
+        "epithalon",
+        "epithalamin"
+      ],
+      "sequence": "Ala-Glu-Asp-Gly",
+      "class": "bioregulator-short-peptides",
+      "target": "telomerase activation claimed; mechanism unconfirmed",
+      "molecule_type": "peptide",
+      "length_aa": 4,
+      "pilot_wave": 2
+    },
+    {
+      "slug": "ghk-cu",
+      "name": "GHK-Cu",
+      "aliases": [
+        "GHK Cu",
+        "copper tripeptide-1",
+        "glycyl-L-histidyl-L-lysine",
+        "Cu-GHK",
+        "GHK-copper"
+      ],
+      "sequence": null,
+      "class": "repair-and-anti-inflammatory",
+      "target": "copper-binding tripeptide; wound-healing and gene-expression effects reported",
+      "molecule_type": "peptide",
+      "length_aa": 3,
+      "pilot_wave": 2
+    },
+    {
+      "slug": "humanin",
+      "name": "Humanin",
+      "aliases": [
+        "humanin peptide"
+      ],
+      "sequence": null,
+      "class": "mitochondrial-peptides",
+      "target": "mitochondria-derived cytoprotective peptide",
+      "molecule_type": "peptide",
+      "length_aa": 24,
+      "pilot_wave": 2
+    },
+    {
+      "slug": "ipamorelin",
+      "name": "Ipamorelin",
+      "aliases": [
+        "NNC 26-0161"
+      ],
+      "sequence": null,
+      "class": "ghrelin-mimetics",
+      "target": "ghrelin receptor (GHS-R1a) agonist",
+      "molecule_type": "peptide",
+      "length_aa": 5,
+      "pilot_wave": 2
+    },
+    {
+      "slug": "melanotan-ii",
+      "name": "Melanotan II",
+      "aliases": [
+        "Melanotan-II",
+        "MT-II",
+        "melanotan 2"
+      ],
+      "sequence": null,
+      "class": "melanocortin-agonists",
+      "target": "non-selective melanocortin receptor agonist",
+      "molecule_type": "peptide",
+      "length_aa": 7,
+      "pilot_wave": 2
+    },
+    {
+      "slug": "selank",
+      "name": "Selank",
+      "aliases": [
+        "TP-7"
+      ],
+      "sequence": null,
+      "class": "neuropeptides-nootropic",
+      "target": "tuftsin analog; GABAergic and cytokine effects reported",
+      "molecule_type": "peptide",
+      "length_aa": 7,
+      "pilot_wave": 2
+    },
+    {
+      "slug": "semax",
+      "name": "Semax",
+      "aliases": [],
+      "sequence": null,
+      "class": "neuropeptides-nootropic",
+      "target": "ACTH(4-7) analog; BDNF and monoaminergic effects reported",
+      "molecule_type": "peptide",
+      "length_aa": 7,
+      "pilot_wave": 2
+    },
+    {
+      "slug": "tesofensine",
+      "name": "Tesofensine",
+      "aliases": [
+        "NS2330",
+        "NS-2330"
+      ],
+      "sequence": null,
+      "class": "metabolic-other",
+      "target": "triple monoamine reuptake inhibitor",
+      "molecule_type": "small molecule",
+      "length_aa": null,
+      "pilot_wave": 2
+    },
+    {
+      "slug": "aod-9604",
+      "name": "AOD-9604",
+      "aliases": [
+        "AOD9604",
+        "AOD 9604",
+        "hGH fragment 176-191"
+      ],
+      "sequence": null,
+      "class": "metabolic-other",
+      "target": "hGH(176-191) fragment; lipolytic activity claimed, GH-receptor independent",
+      "molecule_type": "peptide",
+      "length_aa": 16,
+      "pilot_wave": 3
+    },
+    {
+      "slug": "bpc-157",
+      "name": "BPC-157",
+      "aliases": [
+        "BPC 157",
+        "pentadecapeptide BPC 157",
+        "Bepecin",
+        "PL-14736"
+      ],
+      "sequence": null,
+      "class": "repair-and-anti-inflammatory",
+      "target": "unclear; NO-system and growth-factor pathways proposed",
+      "molecule_type": "peptide",
+      "length_aa": 15,
+      "pilot_wave": 3
+    },
+    {
+      "slug": "cartalax",
+      "name": "Cartalax",
+      "aliases": [],
+      "sequence": "Ala-Glu-Asp",
+      "class": "bioregulator-short-peptides",
+      "target": "cartilage bioregulator claimed; no indexed primary literature",
+      "molecule_type": "peptide",
+      "length_aa": 3,
+      "pilot_wave": 3
+    },
+    {
+      "slug": "foxo4-dri",
+      "name": "FOXO4-DRI",
+      "aliases": [
+        "FOXO4 DRI",
+        "FOXO4-D-retro-inverso",
+        "proxofim"
+      ],
+      "sequence": null,
+      "class": "senolytic-and-cytoprotective",
+      "target": "FOXO4-p53 interaction disruptor, senolytic",
+      "molecule_type": "peptide",
+      "length_aa": null,
+      "pilot_wave": 3
+    },
+    {
+      "slug": "igf-1-lr3",
+      "name": "IGF-1 LR3",
+      "aliases": [
+        "Long R3 IGF-1",
+        "LR3-IGF-1",
+        "LR3 IGF-1",
+        "IGF-I LR3"
+      ],
+      "sequence": null,
+      "class": "growth-factors-and-reproductive",
+      "target": "IGF-1 receptor agonist, extended analog with reduced IGFBP binding",
+      "molecule_type": "peptide",
+      "length_aa": 83,
+      "pilot_wave": 3
+    },
+    {
+      "slug": "kpv",
+      "name": "KPV",
+      "aliases": [
+        "alpha-MSH(11-13)",
+        "KPV peptide"
+      ],
+      "sequence": "Lys-Pro-Val",
+      "class": "repair-and-anti-inflammatory",
+      "target": "alpha-MSH C-terminal tripeptide; anti-inflammatory, receptor unclear",
+      "molecule_type": "peptide",
+      "length_aa": 3,
+      "pilot_wave": 3
+    },
+    {
+      "slug": "pinealon",
+      "name": "Pinealon",
+      "aliases": [],
+      "sequence": "Glu-Asp-Arg",
+      "class": "bioregulator-short-peptides",
+      "target": "neuroprotective bioregulator claimed; small literature",
+      "molecule_type": "peptide",
+      "length_aa": 3,
+      "pilot_wave": 3
+    },
+    {
+      "slug": "slu-pp-332",
+      "name": "SLU-PP-332",
+      "aliases": [
+        "SLU PP 332",
+        "SLU-PP332"
+      ],
+      "sequence": null,
+      "class": "metabolic-other",
+      "target": "ERR pan-agonist, exercise mimetic",
+      "molecule_type": "small molecule",
+      "length_aa": null,
+      "pilot_wave": 3
+    }
+  ],
+  "stacks": [
+    {
+      "slug": "cagrisema",
+      "name": "Cagrilintide + semaglutide (CagriSema)",
+      "components": [
+        "cagrilintide",
+        "semaglutide"
+      ],
+      "pilot_wave": 1,
+      "rationale": "The one combination on the list tested in its own phase 3 programme; combination evidence exists."
+    },
+    {
+      "slug": "bpc-157-tb-500",
+      "name": "BPC-157 + TB-500",
+      "components": [
+        "bpc-157",
+        "tb-500"
+      ],
+      "pilot_wave": 1,
+      "rationale": "Highest search demand of any stack; a 2026 rat study tested the combination directly."
+    },
+    {
+      "slug": "cjc-1295-ipamorelin",
+      "name": "CJC-1295 + ipamorelin",
+      "components": [
+        "cjc-1295",
+        "ipamorelin"
+      ],
+      "pilot_wave": 1,
+      "rationale": "High demand; the GHRH-plus-secretagogue rationale has literature even where the specific pair does not."
+    },
+    {
+      "slug": "tesamorelin-ipamorelin",
+      "name": "Tesamorelin + ipamorelin",
+      "components": [
+        "tesamorelin",
+        "ipamorelin"
+      ],
+      "pilot_wave": 2,
+      "rationale": "Same rationale as above with the approved GHRH analog."
+    },
+    {
+      "slug": "bpc-157-tb-500-ghk-cu",
+      "name": "BPC-157 + TB-500 + GHK-Cu",
+      "components": [
+        "bpc-157",
+        "tb-500",
+        "ghk-cu"
+      ],
+      "pilot_wave": 2,
+      "rationale": "Widely circulated; no combination study expected. The page's job is to say so."
+    },
+    {
+      "slug": "ghk-cu-kpv-bpc-157-tb-500",
+      "name": "GHK-Cu + KPV + BPC-157 + TB-500",
+      "components": [
+        "ghk-cu",
+        "kpv",
+        "bpc-157",
+        "tb-500"
+      ],
+      "pilot_wave": 2,
+      "rationale": "Widely circulated four-way stack; component matrix will be entirely animal-tier."
+    },
+    {
+      "slug": "selank-semax",
+      "name": "Selank + semax",
+      "components": [
+        "selank",
+        "semax"
+      ],
+      "pilot_wave": 2,
+      "rationale": "Common pairing; both have small human literatures."
+    },
+    {
+      "slug": "retatrutide-mots-c",
+      "name": "Retatrutide + MOTS-c",
+      "components": [
+        "retatrutide",
+        "mots-c"
+      ],
+      "pilot_wave": 3,
+      "rationale": "Demand-driven only; hold unless wave 2 indexation is healthy."
+    }
+  ],
+  "comparisons": [
+    {
+      "slug": "semaglutide-vs-tirzepatide",
+      "sides": [
+        "semaglutide",
+        "tirzepatide"
+      ],
+      "pilot_wave": 1,
+      "rationale": "Head-to-head trial evidence exists (SURMOUNT-5)."
+    },
+    {
+      "slug": "retatrutide-vs-tirzepatide",
+      "sides": [
+        "retatrutide",
+        "tirzepatide"
+      ],
+      "pilot_wave": 1,
+      "rationale": "Both have phase 3 data on the same endpoints."
+    },
+    {
+      "slug": "sermorelin-vs-tesamorelin",
+      "sides": [
+        "sermorelin",
+        "tesamorelin"
+      ],
+      "pilot_wave": 1,
+      "rationale": "Same class; both reached approval at some point."
+    },
+    {
+      "slug": "bpc-157-vs-tb-500",
+      "sides": [
+        "bpc-157",
+        "tb-500"
+      ],
+      "pilot_wave": 2,
+      "rationale": "Constant demand; the honest answer, animal evidence only for both, is instructive."
+    },
+    {
+      "slug": "ipamorelin-vs-ghrp-6",
+      "sides": [
+        "ipamorelin",
+        "ghrp-6"
+      ],
+      "pilot_wave": 2,
+      "rationale": "Same receptor, different selectivity; GHRP-6 has far more literature."
+    },
+    {
+      "slug": "cagrilintide-vs-semaglutide",
+      "sides": [
+        "cagrilintide",
+        "semaglutide"
+      ],
+      "pilot_wave": 2,
+      "rationale": "Monotherapy arms exist in the same trials."
+    },
+    {
+      "slug": "selank-vs-semax",
+      "sides": [
+        "selank",
+        "semax"
+      ],
+      "pilot_wave": 2,
+      "rationale": "Frequently confused; different mechanisms."
+    },
+    {
+      "slug": "semaglutide-vs-retatrutide",
+      "sides": [
+        "semaglutide",
+        "retatrutide"
+      ],
+      "pilot_wave": 3,
+      "rationale": "Demand-driven; no head-to-head yet."
+    }
+  ],
+  "tools": [
+    {
+      "slug": "reconstitution-calculator",
+      "name": "Reconstitution calculator",
+      "pilot_wave": 1,
+      "computes": "concentration and volume from vial mass, diluent volume and desired mass per draw",
+      "refuses": "anything that takes body weight or a condition and returns a dose"
+    },
+    {
+      "slug": "unit-converter",
+      "name": "Peptide unit converter",
+      "pilot_wave": 1,
+      "computes": "mg, mcg, IU where a published conversion factor exists, and syringe units",
+      "refuses": "IU conversions for compounds with no published factor"
+    },
+    {
+      "slug": "vial-planner",
+      "name": "Vial planner",
+      "pilot_wave": 2,
+      "computes": "how many draws a vial yields at a stated mass per draw",
+      "refuses": "recommending the mass per draw"
+    }
+  ]
+}

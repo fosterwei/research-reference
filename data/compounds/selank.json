@@ -1,0 +1,316 @@
+{
+  "type": "compound",
+  "preferred_name": "Selank",
+  "aliases": [
+    "TP-7"
+  ],
+  "slug": "selank",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for Selank. Europe PMC indexes 96 publications, including 2 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Selank: what the research shows",
+    "description": "Cited overview of published Selank research: 96 indexed publications, 2 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 96,
+      "randomized_controlled_trials": 2,
+      "clinical_trials": 2,
+      "reviews": 3,
+      "human_indexed": 0,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 7,
+      "observational-human": 7,
+      "animal-preclinical": 19,
+      "mechanistic-in-vitro": 4,
+      "review": 0,
+      "unclassified": 2
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-41490200",
+      "title": "Therapeutic Peptides in Orthopaedics: Applications, Challenges, and Future Directions.",
+      "url": "https://europepmc.org/article/MED/41490200",
+      "published": "2026-01-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42662121",
+      "title": "Trends and research clusters in artificial intelligence-assisted ultrasound-guided regional anesthesia: A bibliometric analysis.",
+      "url": "https://europepmc.org/article/MED/42662121",
+      "published": "2026-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37677054",
+      "title": "Atrial fibrillation-associated electrical remodelling in human induced pluripotent stem cell-derived atrial cardiomyocytes: a novel pathway for antiarrhythmic therapy development.",
+      "url": "https://europepmc.org/article/MED/37677054",
+      "published": "2023-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36322304",
+      "title": "Selank, a Peptide Analog of Tuftsin, Attenuates Aversive Signs of Morphine Withdrawal in Rats.",
+      "url": "https://europepmc.org/article/MED/36322304",
+      "published": "2022-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35536569",
+      "title": "Improving the nutritional value and bioactivity of soybean meal in solid-state fermentation using Bacillus strains newly isolated from the gut of the termite Termes propinquus.",
+      "url": "https://europepmc.org/article/MED/35536569",
+      "published": "2022-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32621722",
+      "title": "The Influence of Selank on the Level of Cytokines Under the Conditions of \"Social\" Stress.",
+      "url": "https://europepmc.org/article/MED/32621722",
+      "published": "2021-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32314683",
+      "title": "Contrasting effects of high-starch and high-sugar diets on ruminal function in cattle.",
+      "url": "https://europepmc.org/article/MED/32314683",
+      "published": "2020-04-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31667971",
+      "title": "The occurrence of putative cognitive enhancing research peptides in seized pharmaceutical preparations: An incentive for controlling agencies to prepare for future encounters of the kind.",
+      "url": "https://europepmc.org/article/MED/31667971",
+      "published": "2020-01-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32342318",
+      "title": "Functional Connectomic Approach to Studying Selank and Semax Effects.",
+      "url": "https://europepmc.org/article/MED/32342318",
+      "published": "2020-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31625062",
+      "title": "Selank, Peptide Analogue of Tuftsin, Protects Against Ethanol-Induced Memory Impairment by Regulating of BDNF Content in the Hippocampus and Prefrontal Cortex in Rats.",
+      "url": "https://europepmc.org/article/MED/31625062",
+      "published": "2019-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-30496524",
+      "title": "Investigation of the prevalence and severity of foot pad dermatitis at the slaughterhouse in fattening turkeys reared in organic production systems in Germany.",
+      "url": "https://europepmc.org/article/MED/30496524",
+      "published": "2019-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28745220",
+      "title": "Tuftsin - Properties and Analogs.",
+      "url": "https://europepmc.org/article/MED/28745220",
+      "published": "2017-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28853100",
+      "title": "Effect of Selank on Functional State of Rat Hepatocytes under Conditions of Restraint Stress.",
+      "url": "https://europepmc.org/article/MED/28853100",
+      "published": "2017-08-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28702721",
+      "title": "Peptides semax and selank affect the behavior of rats with 6-OHDA induced PD-like parkinsonism.",
+      "url": "https://europepmc.org/article/MED/28702721",
+      "published": "2017-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28361410",
+      "title": "Effect of Selank on Spontaneous Synaptic Activity of Rat Hippocampal CA1 Neurons.",
+      "url": "https://europepmc.org/article/MED/28361410",
+      "published": "2017-03-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28293190",
+      "title": "GABA, Selank, and Olanzapine Affect the Expression of Genes Involved in GABAergic Neurotransmission in IMR-32 Cells.",
+      "url": "https://europepmc.org/article/MED/28293190",
+      "published": "2017-02-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28280289",
+      "title": "Peptide Selank Enhances the Effect of Diazepam in Reducing Anxiety in Unpredictable Chronic Mild Stress Conditions in Rats.",
+      "url": "https://europepmc.org/article/MED/28280289",
+      "published": "2017-02-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27878720",
+      "title": "Selank Inhibits Ethanol-Induced Hyperlocomotion and Manifestation of Behavioral Sensitization in DBA/2 Mice.",
+      "url": "https://europepmc.org/article/MED/27878720",
+      "published": "2016-11-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26924987",
+      "title": "Selank Administration Affects the Expression of Some Genes Involved in GABAergic Neurotransmission.",
+      "url": "https://europepmc.org/article/MED/26924987",
+      "published": "2016-02-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29787664",
+      "title": "[COMPARISON OF PHARMACOLOGICAL EFFECTS OF HEPTAPEPTIDE SELANK AFTER INTRANASAL AND INTRAPERITONEAL ADMINISTRATION TO BALB/c AND C57BL/6 MICE.]",
+      "url": "https://europepmc.org/article/MED/29787664",
+      "published": "2016-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26356395",
+      "title": "[Optimization of the treatment of anxiety disorders with selank].",
+      "url": "https://europepmc.org/article/MED/26356395",
+      "published": "2015-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25176261",
+      "title": "[A comparison of the anxiolytic effect and tolerability of selank and phenazepam in the treatment of anxiety disorders].",
+      "url": "https://europepmc.org/article/MED/25176261",
+      "published": "2014-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24291245",
+      "title": "The temporary dynamics of inflammation-related genes expression under tuftsin analog Selank action.",
+      "url": "https://europepmc.org/article/MED/24291245",
+      "published": "2013-11-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24605419",
+      "title": "[Protective effect of selank on the model of mnestic function violation induced by pharmacological blockade of protein synthesis].",
+      "url": "https://europepmc.org/article/MED/24605419",
+      "published": "2013-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22796912",
+      "title": "Low dosage lithium augmentation in venlafaxine resistant depression: an open-label study.",
+      "url": "https://europepmc.org/article/MED/22796912",
+      "published": "2012-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21459454",
+      "title": "Reduced long distance gamma (28-48 Hz) coherence in euthymic patients with bipolar disorder.",
+      "url": "https://europepmc.org/article/MED/21459454",
+      "published": "2011-04-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20919548",
+      "title": "[Experimental optimization of learning and memory processes by selank].",
+      "url": "https://europepmc.org/article/MED/20919548",
+      "published": "2010-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18454096",
+      "title": "[Efficacy and possible mechanisms of action of a new peptide anxiolytic selank in the therapy of generalized anxiety disorders and neurasthenia].",
+      "url": "https://europepmc.org/article/MED/18454096",
+      "published": "2008-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16634437",
+      "title": "[Comparison of anticoagulant effects of regulatory proline-containing oligopeptides. Specificity of glyprolines, semax, and selank and potential of their practical application].",
+      "url": "https://europepmc.org/article/MED/16634437",
+      "published": "2006-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-15344652",
+      "title": "[Leu-enkephalin homogeneously labeled with tritium in studying the Selank inhibiting effect on the enkephalin-degrading enzymes of human plasma].",
+      "url": "https://europepmc.org/article/MED/15344652",
+      "published": "2004-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-14969422",
+      "title": "Selank and short peptides of the tuftsin family in the regulation of adaptive behavior in stress.",
+      "url": "https://europepmc.org/article/MED/14969422",
+      "published": "2003-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12154572",
+      "title": "[Selank and short peptides of Taftsin derivatives in regulation of adaptive behavior of animals in stress].",
+      "url": "https://europepmc.org/article/MED/12154572",
+      "published": "2002-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11443939",
+      "title": "[Semax and selank inhibit the enkephalin-degrading enzymes from human serum]].",
+      "url": "https://europepmc.org/article/MED/11443939",
+      "published": "2001-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10390000",
+      "title": "Assessment of bone response to systemic therapy in an EORTC trial: preliminary experience with the use of collagen cross-link excretion. European Organization for Research and Treatment of Cancer.",
+      "url": "https://europepmc.org/article/MED/10390000",
+      "published": "1999-04-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    }
+  ]
+}

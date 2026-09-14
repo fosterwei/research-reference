@@ -1,0 +1,403 @@
+{
+  "type": "compound",
+  "preferred_name": "Humanin",
+  "aliases": [
+    "humanin peptide"
+  ],
+  "slug": "humanin",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for Humanin. Europe PMC indexes 589 publications, including 5 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Humanin: what the research shows",
+    "description": "Cited overview of published Humanin research: 589 indexed publications, 5 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 589,
+      "randomized_controlled_trials": 5,
+      "clinical_trials": 3,
+      "reviews": 82,
+      "human_indexed": 7,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 21,
+      "observational-human": 8,
+      "animal-preclinical": 16,
+      "mechanistic-in-vitro": 7,
+      "review": 0,
+      "unclassified": 2
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42672739",
+      "title": "S14G-humanin attenuates renal ischaemia-reperfusion injury, potentially through activation of STAT3 and ERK1/2 signalling pathways in rats.",
+      "url": "https://europepmc.org/article/MED/42672739",
+      "published": "2026-08-31",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42694894",
+      "title": "Low Dose Ketamine Preconditions Astrocyte Mitochondria to Achieve Antidepressant Efficacy via Adenosine, Humanin, and Melatonin Upregulation and Efflux.",
+      "url": "https://europepmc.org/article/MED/42694894",
+      "published": "2026-08-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42480246",
+      "title": "Humanin peptide ameliorates reproductive dysfunction and restores neuroendocrine mechanisms in SSRI-treated male rats.",
+      "url": "https://europepmc.org/article/MED/42480246",
+      "published": "2026-07-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42471450",
+      "title": "Neuroprotective effect of intraperitoneal Humanin-G in retinal degeneration of Royal College of Surgeons rats.",
+      "url": "https://europepmc.org/article/MED/42471450",
+      "published": "2026-07-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42630864",
+      "title": "Dihydroquercetin alleviates mitochondrial dysfunction and inhibits NLRP3-mediated pyroptosis in primary hepatocytes from chronic liver failure patients.",
+      "url": "https://europepmc.org/article/MED/42630864",
+      "published": "2026-07-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42438323",
+      "title": "Humanin ameliorates diabetes-induced testicular damage in a streptozotocin-induced mouse model.",
+      "url": "https://europepmc.org/article/MED/42438323",
+      "published": "2026-07-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42450608",
+      "title": "Repeated Humanin Treatment Attenuates Oxidative Stress, Inflammation, and Apoptosis in Diabetic Cardiac Tissue.",
+      "url": "https://europepmc.org/article/MED/42450608",
+      "published": "2026-07-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42509775",
+      "title": "Network Topology and Interactomic Analysis Reveal the Regulatory Framework of the Humanin Protein Family (MTRNR2Lx Class).",
+      "url": "https://europepmc.org/article/MED/42509775",
+      "published": "2026-07-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42333946",
+      "title": "Humanin Mitigates Aβ-Induced Retinal Pigment Epithelium Injury via AMPK-Beclin1-Dependent Mitophagy.",
+      "url": "https://europepmc.org/article/MED/42333946",
+      "published": "2026-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-64898-2026-06-16-732776",
+      "title": "Humanin analogue promotes metabolic reprogramming to protect the ischemic heart",
+      "url": "https://doi.org/10.64898/2026.06.16.732776",
+      "published": "2026-06-22",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-42223320",
+      "title": "Humanin as a Molecular Indicator of Semen Quality and Cryotolerance in Crossbred Cattle.",
+      "url": "https://europepmc.org/article/MED/42223320",
+      "published": "2026-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42346352",
+      "title": "Humanin Restores Metabolic Hormone Homeostasis of Leptin, Ghrelin, Irisin and Asprosin in Streptozotocin-Induced Diabetic Mice.",
+      "url": "https://europepmc.org/article/MED/42346352",
+      "published": "2026-05-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42193373",
+      "title": "Humanin and MOTS-c Attenuate Atrial Fibrillation by Suppressing Fibrosis and Mitochondrial Dysfunction.",
+      "url": "https://europepmc.org/article/MED/42193373",
+      "published": "2026-05-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41975304",
+      "title": "Preserving brain health in aging: structural and biochemical benefits of water based resistance training, a randomized controlled trial.",
+      "url": "https://europepmc.org/article/MED/41975304",
+      "published": "2026-04-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41864362",
+      "title": "Humanin as an evolutionarily tuned mitochondrial peptide: Insights from mammalian oxidative stress diversity.",
+      "url": "https://europepmc.org/article/MED/41864362",
+      "published": "2026-03-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41849628",
+      "title": "Circulating Humanin Improves the Prognostic Accuracy of Cardiovascular Risk Models in Chronic Hemodialysis Patients.",
+      "url": "https://europepmc.org/article/MED/41849628",
+      "published": "2026-03-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41883858",
+      "title": "Mediterranean diet adherence is associated with mitochondrial microproteins Humanin and SHMOOSE; potential role of the Humanin-Nox2 interaction in cardioprotection.",
+      "url": "https://europepmc.org/article/MED/41883858",
+      "published": "2026-03-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41827105",
+      "title": "Characterization of the Effects of a Humanin Fragment Peptide (HNF 14 ) in Age-Related Macular Degeneration.",
+      "url": "https://europepmc.org/article/MED/41827105",
+      "published": "2026-02-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41732124",
+      "title": "Mitochondrial-derived peptides MOTS-c and humanin attenuate dexamethasone-induced atrophy in human skeletal muscle cells.",
+      "url": "https://europepmc.org/article/MED/41732124",
+      "published": "2026-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41518474",
+      "title": "Diagnostic potential of serum humanin in breast cancer among the Egyptian population.",
+      "url": "https://europepmc.org/article/MED/41518474",
+      "published": "2026-01-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41550496",
+      "title": "Humanin improves bone health in a glucocorticoid-treated mouse model of Duchenne muscular dystrophy.",
+      "url": "https://europepmc.org/article/MED/41550496",
+      "published": "2026-01-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41249265",
+      "title": "Redox-sensitive miRNAs and Humanin could mediate effects of exercise and astaxanthin on oxidative stress and inflammation in type 2 diabetes.",
+      "url": "https://europepmc.org/article/MED/41249265",
+      "published": "2025-11-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41303353",
+      "title": "Insights into the Biomarker Potential of Humanin and Mots-c Expression and Telomere Length in Alzheimer's Disease.",
+      "url": "https://europepmc.org/article/MED/41303353",
+      "published": "2025-11-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41050739",
+      "title": "Exercise Improves Cardiac Dysfunction in D-Galactose-Treated Rats by Regulation of IGF-1-Humanin Pathway.",
+      "url": "https://europepmc.org/article/MED/41050739",
+      "published": "2025-09-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41777515",
+      "title": "Diagnostic Value of Serum Humanin-Like 3 Levels in Multiple Sclerosis Patients with Predominant Optic Nerve and Spinal Cord Involvement: A Preliminary Study.",
+      "url": "https://europepmc.org/article/MED/41777515",
+      "published": "2025-09-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40768089",
+      "title": "Diagnostic relevance of Humanin, GAS5 and miR-21/miR-103 in prostate disease risk stratification.",
+      "url": "https://europepmc.org/article/MED/40768089",
+      "published": "2025-08-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40543583",
+      "title": "Humanin variants aggregate to produce different fibril morphologies.",
+      "url": "https://europepmc.org/article/MED/40543583",
+      "published": "2025-06-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39730568",
+      "title": "[Gly14]-Humanin ameliorates high glucose-induced endothelial senescence via SIRT6.",
+      "url": "https://europepmc.org/article/MED/39730568",
+      "published": "2024-12-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39433756",
+      "title": "Mitochondrial-derived peptides, HNG and SHLP3, protect cochlear hair cells against gentamicin.",
+      "url": "https://europepmc.org/article/MED/39433756",
+      "published": "2024-10-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39002796",
+      "title": "ROS-responsive charge reversal mesoporous silica nanoparticles as promising drug delivery system for neovascular retinal diseases.",
+      "url": "https://europepmc.org/article/MED/39002796",
+      "published": "2024-07-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38328478",
+      "title": "Humanin Treatment Protects Against Venetoclax-Induced Bone Growth Retardation in Ex Vivo Cultured Rat Bones.",
+      "url": "https://europepmc.org/article/MED/38328478",
+      "published": "2024-01-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38322155",
+      "title": "A novel link between chronic inflammation and humanin regulation in children.",
+      "url": "https://europepmc.org/article/MED/38322155",
+      "published": "2024-01-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37730689",
+      "title": "Neuron-derived extracellular vesicles in blood reveal effects of exercise in Alzheimer's disease.",
+      "url": "https://europepmc.org/article/MED/37730689",
+      "published": "2023-09-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34351816",
+      "title": "Acute endurance exercise stimulates circulating levels of mitochondrial-derived peptides in humans.",
+      "url": "https://europepmc.org/article/MED/34351816",
+      "published": "2021-08-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33764501",
+      "title": "Inducible fold-switching as a mechanism to fibrillate pro-apoptotic BCL-2 proteins.",
+      "url": "https://europepmc.org/article/MED/33764501",
+      "published": "2021-03-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33106313",
+      "title": "Humanin selectively prevents the activation of pro-apoptotic protein BID by sequestering it into fibers.",
+      "url": "https://europepmc.org/article/MED/33106313",
+      "published": "2020-10-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31897543",
+      "title": "Senescence in the pathogenesis of age-related macular degeneration.",
+      "url": "https://europepmc.org/article/MED/31897543",
+      "published": "2020-01-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31690630",
+      "title": "Humanin induces conformational changes in the apoptosis regulator BAX and sequesters it into fibers, preventing mitochondrial outer-membrane permeabilization.",
+      "url": "https://europepmc.org/article/MED/31690630",
+      "published": "2019-11-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31134827",
+      "title": "Protective Effect of Hyperbaric Oxygen Therapy on Cognitive Function in Patients with Vascular Dementia.",
+      "url": "https://europepmc.org/article/MED/31134827",
+      "published": "2019-05-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31084332",
+      "title": "Epigenome-Wide Association Study Indicates Hypomethylation of MTRNR2L8 in Large-Artery Atherosclerosis Stroke.",
+      "url": "https://europepmc.org/article/MED/31084332",
+      "published": "2019-05-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28726777",
+      "title": "Humanin G (HNG) protects age-related macular degeneration (AMD) transmitochondrial ARPE-19 cybrids from mitochondrial and cellular damage.",
+      "url": "https://europepmc.org/article/MED/28726777",
+      "published": "2017-07-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27923980",
+      "title": "Humanin skeletal muscle protein levels increase after resistance training in men with impaired glucose metabolism.",
+      "url": "https://europepmc.org/article/MED/27923980",
+      "published": "2016-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27216708",
+      "title": "MOTS-c: A novel mitochondrial-derived peptide regulating muscle and fat metabolism.",
+      "url": "https://europepmc.org/article/MED/27216708",
+      "published": "2016-05-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23549262",
+      "title": "Distinct signaling cascades elicited by different formyl peptide receptor 2 (FPR2) agonists.",
+      "url": "https://europepmc.org/article/MED/23549262",
+      "published": "2013-04-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23239898",
+      "title": "The emerging role of the mitochondrial-derived peptide humanin in stress resistance.",
+      "url": "https://europepmc.org/article/MED/23239898",
+      "published": "2013-01-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17927731",
+      "title": "Mapping the specific cytoprotective interaction of humanin with the pro-apoptotic protein bid.",
+      "url": "https://europepmc.org/article/MED/17927731",
+      "published": "2007-10-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17084101",
+      "title": "Formyl peptide receptors: a promiscuous subfamily of G protein-coupled receptors controlling immune responses.",
+      "url": "https://europepmc.org/article/MED/17084101",
+      "published": "2006-11-02",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

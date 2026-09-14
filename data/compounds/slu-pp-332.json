@@ -1,0 +1,138 @@
+{
+  "type": "compound",
+  "preferred_name": "SLU-PP-332",
+  "aliases": [
+    "SLU PP 332",
+    "SLU-PP332"
+  ],
+  "slug": "slu-pp-332",
+  "status": "researched",
+  "evidence_tier": "observational-human",
+  "summary": "Research record for SLU-PP-332. Europe PMC indexes 12 publications, including 0 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "SLU-PP-332: what the research shows",
+    "description": "Cited overview of published SLU-PP-332 research: 12 indexed publications, 0 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 12,
+      "randomized_controlled_trials": 0,
+      "clinical_trials": 0,
+      "reviews": 1,
+      "human_indexed": 3,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 0,
+      "observational-human": 8,
+      "animal-preclinical": 17,
+      "mechanistic-in-vitro": 8,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-41588687",
+      "title": "In Vitro Metabolism and Analytical Characterization of SLU-PP-332 and SLU-PP-915: Novel Pan-ERR Agonists With Doping Potential.",
+      "url": "https://europepmc.org/article/MED/41588687",
+      "published": "2026-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41850449",
+      "title": "Chemical optimization of the exercise mimetic SLU-PP-332 enables insight into estrogen-related receptor signaling.",
+      "url": "https://europepmc.org/article/MED/41850449",
+      "published": "2026-03-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42024694",
+      "title": "[Pharmacological Activation of ERRα/β/γ as an Exercise Mimetic: Potential Therapeutic Applications].",
+      "url": "https://europepmc.org/article/MED/42024694",
+      "published": "2026-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41421047",
+      "title": "An orally active estrogen receptor-related receptor agonist, SLU-PP-915, enhances aerobic exercise capacity.",
+      "url": "https://europepmc.org/article/MED/41421047",
+      "published": "2025-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40692696",
+      "title": "Targeting ERRs to counteract age-related muscle atrophy associated with physical inactivity: a pilot study.",
+      "url": "https://europepmc.org/article/MED/40692696",
+      "published": "2025-07-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37739806",
+      "title": "A Synthetic ERR Agonist Alleviates Metabolic Syndrome.",
+      "url": "https://europepmc.org/article/MED/37739806",
+      "published": "2024-01-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37961903",
+      "title": "Novel Pan-ERR Agonists Ameliorate Heart Failure Through Enhancing Cardiac Fatty Acid Metabolism and Mitochondrial Function.",
+      "url": "https://europepmc.org/article/MED/37961903",
+      "published": "2023-11-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37717940",
+      "title": "Estrogen-Related Receptor Agonism Reverses Mitochondrial Dysfunction and Inflammation in the Aging Kidney.",
+      "url": "https://europepmc.org/article/MED/37717940",
+      "published": "2023-09-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36988910",
+      "title": "Synthetic ERRα/β/γ Agonist Induces an ERRα-Dependent Acute Aerobic Exercise Response and Enhances Exercise Capacity.",
+      "url": "https://europepmc.org/article/MED/36988910",
+      "published": "2023-03-29",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

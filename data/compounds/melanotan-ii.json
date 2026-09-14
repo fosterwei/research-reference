@@ -1,0 +1,426 @@
+{
+  "type": "compound",
+  "preferred_name": "Melanotan II",
+  "aliases": [
+    "MT-II",
+    "Melanotan-II",
+    "melanotan 2"
+  ],
+  "slug": "melanotan-ii",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for Melanotan II. Europe PMC indexes 646 publications, including 1 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Melanotan II: what the research shows",
+    "description": "Cited overview of published Melanotan II research: 646 indexed publications, 1 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 646,
+      "randomized_controlled_trials": 1,
+      "clinical_trials": 6,
+      "reviews": 31,
+      "human_indexed": 7,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 7,
+      "observational-human": 8,
+      "animal-preclinical": 30,
+      "mechanistic-in-vitro": 6,
+      "review": 0,
+      "unclassified": 3
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42340853",
+      "title": "Goldilocks-Inspired Design of Mid-Size Macrocycles for Selective Targeting of Human Melanocortin Receptors.",
+      "url": "https://europepmc.org/article/MED/42340853",
+      "published": "2026-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42310546",
+      "title": "Combined AGT M235T-ACE I/D genotype and risk of essential hypertension in Vietnamese adults: a hospital-based case-control study.",
+      "url": "https://europepmc.org/article/MED/42310546",
+      "published": "2026-06-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41752902",
+      "title": "Changes in Oral Mucosa Associated with Melanotan II Injections: A Case Report.",
+      "url": "https://europepmc.org/article/MED/41752902",
+      "published": "2026-02-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40983303",
+      "title": "Myotoxin II, a snake venom Lys49 phospholipase A 2 homolog, induces activation of the ryanodine receptor in artificial bilayers.",
+      "url": "https://europepmc.org/article/MED/40983303",
+      "published": "2025-09-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40624571",
+      "title": "Detecting the contribution of V5/MT in reading, reading-related tasks, eye-movements and EEG-oscillations in children and adolescents with developmental dyslexia via high-definition tDCS: a protocol study.",
+      "url": "https://europepmc.org/article/MED/40624571",
+      "published": "2025-07-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40210573",
+      "title": "Melanotan II nasal spray: a possible risk factor for oral mucosal malignant melanoma?",
+      "url": "https://europepmc.org/article/MED/40210573",
+      "published": "2025-04-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39442746",
+      "title": "Antidepressant-like and antistress effects of the ACTH(4-10) synthetic analogs Semax and Melanotan II on male rats in a model of chronic unpredictable stress.",
+      "url": "https://europepmc.org/article/MED/39442746",
+      "published": "2024-10-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39302005",
+      "title": "Barbie drug identification: Not a child's play.",
+      "url": "https://europepmc.org/article/MED/39302005",
+      "published": "2024-09-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39296259",
+      "title": "Recommended Tool Compounds for the Melanocortin Receptor (MCR) G Protein-Coupled Receptors (GPCRs).",
+      "url": "https://europepmc.org/article/MED/39296259",
+      "published": "2024-08-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38815086",
+      "title": "Therapeutic Strategies Against Metabolic Imbalance in a Male Mouse Model With 5-HT2CR Loss-of-Function.",
+      "url": "https://europepmc.org/article/MED/38815086",
+      "published": "2024-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38253222",
+      "title": "Melanocortin agonism in a social context selectively activates nucleus accumbens in an oxytocin-dependent manner.",
+      "url": "https://europepmc.org/article/MED/38253222",
+      "published": "2024-01-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36592795",
+      "title": "Obesity medication lorcaserin activates brainstem GLP-1 neurons to reduce food intake and augments GLP-1 receptor agonist induced appetite suppression.",
+      "url": "https://europepmc.org/article/MED/36592795",
+      "published": "2022-12-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36155088",
+      "title": "Melanocortin receptor agonist melanotan-II microinjected in the nucleus accumbens decreases appetitive and consumptive responding for food.",
+      "url": "https://europepmc.org/article/MED/36155088",
+      "published": "2022-09-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34464955",
+      "title": "Melanotan II User Experience: A Qualitative Study of Online Discussion Forums.",
+      "url": "https://europepmc.org/article/MED/34464955",
+      "published": "2021-08-31",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34502223",
+      "title": "Zebrafish Bioassay for Screening Therapeutic Candidates Based on Melanotrophic Activity.",
+      "url": "https://europepmc.org/article/MED/34502223",
+      "published": "2021-08-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34068091",
+      "title": "The Mesencephalic Trigeminal Nucleus Controls Food Intake and Body Weight via Hindbrain POMC Projections.",
+      "url": "https://europepmc.org/article/MED/34068091",
+      "published": "2021-05-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33434184",
+      "title": "Pharmacological chaperone action in humanized mouse models of MC4R-linked obesity.",
+      "url": "https://europepmc.org/article/MED/33434184",
+      "published": "2021-02-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33460908",
+      "title": "Melanotan Tanning Injection: A Rare Cause of Priapism.",
+      "url": "https://europepmc.org/article/MED/33460908",
+      "published": "2021-01-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33073191",
+      "title": "Development of Ligand-Drug Conjugates Targeting Melanoma through the Overexpressed Melanocortin 1 Receptor.",
+      "url": "https://europepmc.org/article/MED/33073191",
+      "published": "2020-08-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32674774",
+      "title": "Combining MALDI mass spectrometry imaging and droplet-base surface sampling analysis for tissue distribution, metabolite profiling, and relative quantification of cyclic peptide melanotan II.",
+      "url": "https://europepmc.org/article/MED/32674774",
+      "published": "2020-05-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32105962",
+      "title": "Interactions between CdTe quantum dots and plasma proteins: Kinetics, thermodynamics and molecular structure changes.",
+      "url": "https://europepmc.org/article/MED/32105962",
+      "published": "2020-02-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31968661",
+      "title": "Topical MTII Therapy Suppresses Melanoma Through PTEN Upregulation and Cyclooxygenase II Inhibition.",
+      "url": "https://europepmc.org/article/MED/31968661",
+      "published": "2020-01-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31839332",
+      "title": "Potent virucidal activity against Flaviviridae of a group IIA phospholipase A 2 isolated from the venom of Bothrops asper.",
+      "url": "https://europepmc.org/article/MED/31839332",
+      "published": "2019-12-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-30821249",
+      "title": "Glyphosate disrupts redox status and up-regulates metallothionein I and II genes expression in the liver of adult rats. Alleviation by quercetin.",
+      "url": "https://europepmc.org/article/MED/30821249",
+      "published": "2019-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-30629642",
+      "title": "Melanotan-II reverses autistic features in a maternal immune activation mouse model of autism.",
+      "url": "https://europepmc.org/article/MED/30629642",
+      "published": "2019-01-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-30024775",
+      "title": "Limiting feeding to the active phase reduces blood pressure without the necessity of caloric reduction or fat mass loss.",
+      "url": "https://europepmc.org/article/MED/30024775",
+      "published": "2018-07-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29812984",
+      "title": "Melanotan II causes hypothermia in mice by activation of mast cells and stimulation of histamine 1 receptors.",
+      "url": "https://europepmc.org/article/MED/29812984",
+      "published": "2018-05-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29351428",
+      "title": "Control of appetite, blood glucose, and blood pressure during melanocortin-4 receptor activation in normoglycemic and diabetic NPY-deficient mice.",
+      "url": "https://europepmc.org/article/MED/29351428",
+      "published": "2017-12-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29131966",
+      "title": "Activation of the central melanocortin system in rats persistently reduces body and fat mass independently of caloric reduction.",
+      "url": "https://europepmc.org/article/MED/29131966",
+      "published": "2017-11-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29085556",
+      "title": "Metallothionein in Brain Disorders.",
+      "url": "https://europepmc.org/article/MED/29085556",
+      "published": "2017-09-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28531318",
+      "title": "AgRP-Expressing Adrenal Chromaffin Cells Are Involved in the Sympathetic Response to Fasting.",
+      "url": "https://europepmc.org/article/MED/28531318",
+      "published": "2017-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28490250",
+      "title": "Effects of acrylamide graded doses on metallothioneins I and II induction and DNA fragmentation: Bochemical and histomorphological changes in the liver of adult rats.",
+      "url": "https://europepmc.org/article/MED/28490250",
+      "published": "2017-05-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28051332",
+      "title": "Activation of the central melanocortin system chronically reduces body mass without the necessity of long-term caloric restriction.",
+      "url": "https://europepmc.org/article/MED/28051332",
+      "published": "2016-10-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26108334",
+      "title": "Evidence that Melanocortin Receptor Agonist Melanotan-II Synergistically Augments the Ability of Naltrexone to Blunt Binge-Like Ethanol Intake in Male C57BL/6J Mice.",
+      "url": "https://europepmc.org/article/MED/26108334",
+      "published": "2015-06-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25137027",
+      "title": "Role of melanocortin signaling in neuroendocrine and metabolic actions of leptin in male rats with uncontrolled diabetes.",
+      "url": "https://europepmc.org/article/MED/25137027",
+      "published": "2014-08-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24923239",
+      "title": "Neonatal melanocortin receptor agonist treatment reduces play fighting and promotes adult attachment in prairie voles in a sex-dependent manner.",
+      "url": "https://europepmc.org/article/MED/24923239",
+      "published": "2014-06-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24790139",
+      "title": "Pharmacological activation of the melanocortin system limits plaque inflammation and ameliorates vascular dysfunction in atherosclerotic mice.",
+      "url": "https://europepmc.org/article/MED/24790139",
+      "published": "2014-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24771717",
+      "title": "Identification and characterization by LC-UV-MS/MS of melanotan II skin-tanning products sold illegally on the Internet.",
+      "url": "https://europepmc.org/article/MED/24771717",
+      "published": "2014-04-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21599891",
+      "title": "A review of metallothionein isoforms and their role in pathophysiology.",
+      "url": "https://europepmc.org/article/MED/21599891",
+      "published": "2011-05-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20935665",
+      "title": "Sympathetic and sensory innervation of brown adipose tissue.",
+      "url": "https://europepmc.org/article/MED/20935665",
+      "published": "2010-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19043625",
+      "title": "The first preparative solution phase synthesis of melanotan II.",
+      "url": "https://europepmc.org/article/MED/19043625",
+      "published": "2008-10-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11018622",
+      "title": "Effect of an alpha-melanocyte stimulating hormone analog on penile erection and sexual desire in men with organic erectile dysfunction.",
+      "url": "https://europepmc.org/article/MED/11018622",
+      "published": "2000-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11035391",
+      "title": "Melanocortin receptor agonists, penile erection, and sexual motivation: human studies with Melanotan II.",
+      "url": "https://europepmc.org/article/MED/11035391",
+      "published": "2000-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10716192",
+      "title": "Electrospray ionization mass spectrometry of zinc, cadmium, and copper metallothioneins: evidence for metal-binding cooperativity.",
+      "url": "https://europepmc.org/article/MED/10716192",
+      "published": "2000-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9679884",
+      "title": "Synthetic melanotropic peptide initiates erections in men with psychogenic erectile dysfunction: double-blind, placebo controlled crossover study.",
+      "url": "https://europepmc.org/article/MED/9679884",
+      "published": "1998-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8751715",
+      "title": "The functional significance of brain metallothioneins.",
+      "url": "https://europepmc.org/article/MED/8751715",
+      "published": "1996-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8637402",
+      "title": "Evaluation of melanotan-II, a superpotent cyclic melanotropic peptide in a pilot phase-I clinical study.",
+      "url": "https://europepmc.org/article/MED/8637402",
+      "published": "1996-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7655341",
+      "title": "Expression and regulation of brain metallothionein.",
+      "url": "https://europepmc.org/article/MED/7655341",
+      "published": "1995-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7983590",
+      "title": "Preformulation studies with melanotan-II: a potential skin cancer chemopreventive peptide.",
+      "url": "https://europepmc.org/article/MED/7983590",
+      "published": "1994-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-3718492",
+      "title": "The reaction of metallothionein with mercuribenzoate. A dialysis and 113Cd-n.m.r. study.",
+      "url": "https://europepmc.org/article/MED/3718492",
+      "published": "1986-03-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

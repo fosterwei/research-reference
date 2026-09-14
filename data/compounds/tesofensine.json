@@ -1,0 +1,265 @@
+{
+  "type": "compound",
+  "preferred_name": "Tesofensine",
+  "aliases": [
+    "NS 2330",
+    "NS-2330",
+    "NS2330",
+    "Ns2330",
+    "Tesofensina",
+    "Tesofensine"
+  ],
+  "slug": "tesofensine",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for Tesofensine. Europe PMC indexes 63 publications, including 12 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Tesofensine: what the research shows",
+    "description": "Cited overview of published Tesofensine research: 63 indexed publications, 12 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL3989690: maximum clinical phase 2. Jurisdiction-level status pending human review.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 63,
+      "randomized_controlled_trials": 12,
+      "clinical_trials": 7,
+      "reviews": 19,
+      "human_indexed": 1,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 28,
+      "observational-human": 5,
+      "animal-preclinical": 6,
+      "mechanistic-in-vitro": 2,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL3989690",
+      "pref_name": "TESOFENSINE",
+      "molecule_type": "Small molecule",
+      "max_phase": 2.0,
+      "first_approval": null,
+      "atc": [],
+      "synonyms": [
+        "NS 2330",
+        "NS-2330",
+        "Ns2330",
+        "Tesofensina",
+        "Tesofensine"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3989690/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42320973",
+      "title": "Investigations Into the Metabolism and Elimination of Tesofensine in Human Urine.",
+      "url": "https://europepmc.org/article/MED/42320973",
+      "published": "2026-06-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41392177",
+      "title": "Structural basis for pharmacotherapeutic action of triple reuptake inhibitors.",
+      "url": "https://europepmc.org/article/MED/41392177",
+      "published": "2025-12-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40554466",
+      "title": "Sex-specific effects of appetite suppressants on stereotypy in rats.",
+      "url": "https://europepmc.org/article/MED/40554466",
+      "published": "2025-06-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38656972",
+      "title": "Tesofensine, a novel antiobesity drug, silences GABAergic hypothalamic neurons.",
+      "url": "https://europepmc.org/article/MED/38656972",
+      "published": "2024-04-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35294397",
+      "title": "Randomized controlled trial of Tesomet for weight loss in hypothalamic obesity.",
+      "url": "https://europepmc.org/article/MED/35294397",
+      "published": "2022-05-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-30014268",
+      "title": "Centrally Acting Agents for Obesity: Past, Present, and Future.",
+      "url": "https://europepmc.org/article/MED/30014268",
+      "published": "2018-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29504049",
+      "title": "Future Pharmacotherapy for Obesity: New Anti-obesity Drugs on the Horizon.",
+      "url": "https://europepmc.org/article/MED/29504049",
+      "published": "2018-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25114779",
+      "title": "Safety of antiobesity drugs.",
+      "url": "https://europepmc.org/article/MED/25114779",
+      "published": "2013-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22439841",
+      "title": "Anti-obesity drugs: a review about their effects and their safety.",
+      "url": "https://europepmc.org/article/MED/22439841",
+      "published": "2012-03-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21197148",
+      "title": "Pharmacotherapies for obesity: past, current, and future therapies.",
+      "url": "https://europepmc.org/article/MED/21197148",
+      "published": "2010-12-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20234354",
+      "title": "Pharmacological management of appetite expression in obesity.",
+      "url": "https://europepmc.org/article/MED/20234354",
+      "published": "2010-03-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20200509",
+      "title": "Tesofensine, a novel triple monoamine reuptake inhibitor, induces appetite suppression by indirect stimulation of alpha1 adrenoceptor and dopamine D1 receptor pathways in the diet-induced obese rat.",
+      "url": "https://europepmc.org/article/MED/20200509",
+      "published": "2010-03-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20077053",
+      "title": "Quantitative pharmacology approach in Alzheimer's disease: efficacy modeling of early clinical data to predict clinical outcome of tesofensine.",
+      "url": "https://europepmc.org/article/MED/20077053",
+      "published": "2010-01-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20000889",
+      "title": "Semi-mechanistic population pharmacokinetic drug-drug interaction modelling of a long half-life substrate and itraconazole.",
+      "url": "https://europepmc.org/article/MED/20000889",
+      "published": "2010-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19824222",
+      "title": "[The effect of tesofensine on body weight and body composition in obese subjects--secondary publication].",
+      "url": "https://europepmc.org/article/MED/19824222",
+      "published": "2009-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19705923",
+      "title": "A quantitative enterohepatic circulation model: development and evaluation with tesofensine and meloxicam.",
+      "url": "https://europepmc.org/article/MED/19705923",
+      "published": "2009-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18950853",
+      "title": "Effect of tesofensine on bodyweight loss, body composition, and quality of life in obese patients: a randomised, double-blind, placebo-controlled trial.",
+      "url": "https://europepmc.org/article/MED/18950853",
+      "published": "2008-10-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18474731",
+      "title": "Tesofensine (NS 2330), a monoamine reuptake inhibitor, in patients with advanced Parkinson disease and motor fluctuations: the ADVANS Study.",
+      "url": "https://europepmc.org/article/MED/18474731",
+      "published": "2008-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17982477",
+      "title": "Contribution of the active metabolite M1 to the pharmacological activity of tesofensine in vivo: a pharmacokinetic-pharmacodynamic modelling approach.",
+      "url": "https://europepmc.org/article/MED/17982477",
+      "published": "2007-11-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17324246",
+      "title": "Population pharmacokinetic modelling of NS2330 (tesofensine) and its major metabolite in patients with Alzheimer's disease.",
+      "url": "https://europepmc.org/article/MED/17324246",
+      "published": "2007-02-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17149725",
+      "title": "Randomized trial of the triple monoamine reuptake inhibitor NS 2330 (tesofensine) in early Parkinson's disease.",
+      "url": "https://europepmc.org/article/MED/17149725",
+      "published": "2007-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17112503",
+      "title": "Expression of brain derived neurotrophic factor, activity-regulated cytoskeleton protein mRNA, and enhancement of adult hippocampal neurogenesis in rats after sub-chronic and chronic treatment with the triple monoamine re-uptake inhibitor tesofensine.",
+      "url": "https://europepmc.org/article/MED/17112503",
+      "published": "2006-10-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-15390018",
+      "title": "Effect of monoamine reuptake inhibitor NS 2330 in advanced Parkinson's disease.",
+      "url": "https://europepmc.org/article/MED/15390018",
+      "published": "2004-10-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: chembl None -> CHEMBL3989690."
+    }
+  ]
+}

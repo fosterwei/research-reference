@@ -1,0 +1,275 @@
+{
+  "type": "compound",
+  "preferred_name": "Thymosin alpha-1",
+  "aliases": [
+    "Thymalfasin",
+    "Thymalfasine",
+    "Thymosin alpha1",
+    "Thymosins thymalfasin",
+    "Timalfasina",
+    "Zadaxin",
+    "thymalfasin",
+    "thymosin alpha 1"
+  ],
+  "slug": "thymosin-alpha-1",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for Thymosin alpha-1. Europe PMC indexes 1079 publications, including 65 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Thymosin alpha-1: what the research shows",
+    "description": "Cited overview of published Thymosin alpha-1 research: 1079 indexed publications, 65 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL2103979: maximum clinical phase 3. Jurisdiction-level status pending human review.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 1079,
+      "randomized_controlled_trials": 65,
+      "clinical_trials": 61,
+      "reviews": 128,
+      "human_indexed": 13,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 39,
+      "observational-human": 0,
+      "animal-preclinical": 1,
+      "mechanistic-in-vitro": 13,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL2103979",
+      "pref_name": "THYMALFASIN",
+      "molecule_type": "Protein",
+      "max_phase": 3.0,
+      "first_approval": null,
+      "atc": [],
+      "synonyms": [
+        "Thymalfasin",
+        "Thymalfasine",
+        "Thymosin alpha1",
+        "Thymosins thymalfasin",
+        "Timalfasina",
+        "Zadaxin"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2103979/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42063096",
+      "title": "Preliminary results from a phase II trial of spatially fractionated radiotherapy combined with immunotherapy and anti-angiogenic therapy in patients with bulky solid tumors: early evidence of promising efficacy and favorable safety.",
+      "url": "https://europepmc.org/article/MED/42063096",
+      "published": "2026-04-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41749205",
+      "title": "Neoadjuvant immunochemotherapy plus thymalfasin in locally advanced gastric cancer: a prospective clinical trial.",
+      "url": "https://europepmc.org/article/MED/41749205",
+      "published": "2026-02-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40367062",
+      "title": "Effect of thymosin α1 on Immune response and organ function in acute aortic dissection surgery: PANDA II trial protocol.",
+      "url": "https://europepmc.org/article/MED/40367062",
+      "published": "2025-05-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40066714",
+      "title": "Exploiting the potential of in situ forming liquid crystals: development and in vitro performance of long-acting depots for peptide drug thymosin alpha 1 subcutaneous administration.",
+      "url": "https://europepmc.org/article/MED/40066714",
+      "published": "2025-03-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39904914",
+      "title": "Hypofractionated radiotherapy combined with a PD-1 inhibitor, granulocyte macrophage-colony stimulating factor, and thymosin-α1 in advanced metastatic solid tumors: a multicenter Phase II clinical trial.",
+      "url": "https://europepmc.org/article/MED/39904914",
+      "published": "2025-02-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39814420",
+      "title": "The efficacy and safety of thymosin α1 for sepsis (TESTS): multicentre, double blinded, randomised, placebo controlled, phase 3 trial.",
+      "url": "https://europepmc.org/article/MED/39814420",
+      "published": "2025-01-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38356344",
+      "title": "Immune-Enhancing Treatment among Acute Necrotizing Pancreatitis Patients with Metabolic Abnormalities: A Post Hoc Analysis of a Randomized Clinical Trial.",
+      "url": "https://europepmc.org/article/MED/38356344",
+      "published": "2024-02-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37248723",
+      "title": "A Prospective and Randomized Control Study on Effects of Thymalfasin for Injection on Perioperative Immune Function and Long-term Prognosis of Patients with Colorectal Cancer.",
+      "url": "https://europepmc.org/article/MED/37248723",
+      "published": "2023-05-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36933449",
+      "title": "Novel evidence of Thymosin α1 immunomodulatory properties in SARS-CoV-2 infection: Effect on innate inflammatory response in a peripheral blood mononuclear cell-based in vitro model.",
+      "url": "https://europepmc.org/article/MED/36933449",
+      "published": "2023-03-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36881981",
+      "title": "A pilot trial of Thymalfasin (Ta1) to prevent covid-19 infection and morbidities in renal dialysis patients: Preliminary report.",
+      "url": "https://europepmc.org/article/MED/36881981",
+      "published": "2023-03-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35713670",
+      "title": "Immune enhancement in patients with predicted severe acute necrotising pancreatitis: a multicentre double-blind randomised controlled trial.",
+      "url": "https://europepmc.org/article/MED/35713670",
+      "published": "2022-06-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32994239",
+      "title": "Thymosin alpha 1 in the prevention of infected pancreatic necrosis following acute necrotising pancreatitis (TRACE trial): protocol of a multicentre, randomised, double-blind, placebo-controlled, parallel-group trial.",
+      "url": "https://europepmc.org/article/MED/32994239",
+      "published": "2020-09-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-30063860",
+      "title": "Combination of entecavir with thymosin alpha-1 in HBV-related compensated cirrhosis: a prospective multicenter randomized open-label study.",
+      "url": "https://europepmc.org/article/MED/30063860",
+      "published": "2018-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27257978",
+      "title": "Safety and Efficacy of Nucleic Acid Polymers in Monotherapy and Combined with Immunotherapy in Treatment-Naive Bangladeshi Patients with HBeAg+ Chronic Hepatitis B Infection.",
+      "url": "https://europepmc.org/article/MED/27257978",
+      "published": "2016-06-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23327199",
+      "title": "The efficacy of thymosin alpha 1 for severe sepsis (ETASS): a multicenter, single-blind, randomized and controlled trial.",
+      "url": "https://europepmc.org/article/MED/23327199",
+      "published": "2013-01-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20549321",
+      "title": "Thymosin alpha 1 is associated with improved cellular immunity and reduced infection rate in severe acute pancreatitis patients in a double-blind randomized control study.",
+      "url": "https://europepmc.org/article/MED/20549321",
+      "published": "2011-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19392576",
+      "title": "From lab to bedside: emerging clinical applications of thymosin alpha 1.",
+      "url": "https://europepmc.org/article/MED/19392576",
+      "published": "2009-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17495242",
+      "title": "Thymosin alpha1: an endogenous regulator of inflammation, immunity, and tolerance.",
+      "url": "https://europepmc.org/article/MED/17495242",
+      "published": "2007-05-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17075991",
+      "title": "Efficacy of thymosin alpha-1 and interferon alpha in treatment of chronic viral hepatitis B: a randomized controlled study.",
+      "url": "https://europepmc.org/article/MED/17075991",
+      "published": "2006-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12860163",
+      "title": "Immunodeficiency and cancer: prospects for correction.",
+      "url": "https://europepmc.org/article/MED/12860163",
+      "published": "2003-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12852257",
+      "title": "The thymosins. Prothymosin alpha, parathymosin, and beta-thymosins: structure and function.",
+      "url": "https://europepmc.org/article/MED/12852257",
+      "published": "2003-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8652276",
+      "title": "Sequential chemoimmunotherapy for advanced non-small cell lung cancer using cisplatin, etoposide, thymosin-alpha 1 and interferon-alpha 2a.",
+      "url": "https://europepmc.org/article/MED/8652276",
+      "published": "1995-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-2415141",
+      "title": "Immunologic abnormalities in the acquired immunodeficiency syndrome.",
+      "url": "https://europepmc.org/article/MED/2415141",
+      "published": "1985-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7085074",
+      "title": "Increase of mouse resistance to Candida albicans infection by thymosin alpha 1.",
+      "url": "https://europepmc.org/article/MED/7085074",
+      "published": "1982-05-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: chembl None -> CHEMBL2103979."
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "type": "compound",
+  "preferred_name": "GHK-Cu",
+  "aliases": [
+    "Cu-GHK",
+    "GHK Cu",
+    "GHK-copper",
+    "copper tripeptide-1",
+    "glycyl-L-histidyl-L-lysine"
+  ],
+  "slug": "ghk-cu",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for GHK-Cu. Europe PMC indexes 169 publications, including 1 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "GHK-Cu: what the research shows",
+    "description": "Cited overview of published GHK-Cu research: 169 indexed publications, 1 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 169,
+      "randomized_controlled_trials": 1,
+      "clinical_trials": 0,
+      "reviews": 14,
+      "human_indexed": 0,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 4,
+      "observational-human": 9,
+      "animal-preclinical": 18,
+      "mechanistic-in-vitro": 12,
+      "review": 0,
+      "unclassified": 11
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42712263",
+      "title": "Water-Soluble, Enzyme-Degradable, and Hydrolyzable STAR Particles for Enhanced Drug Delivery to Skin.",
+      "url": "https://europepmc.org/article/MED/42712263",
+      "published": "2026-09-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42619529",
+      "title": "The Regenerative Potential of GHK-Cu in Aesthetic Medicine.",
+      "url": "https://europepmc.org/article/MED/42619529",
+      "published": "2026-08-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42578445",
+      "title": "Peptide Supplements and Their Therapeutic Applications in Sports Medicine.",
+      "url": "https://europepmc.org/article/MED/42578445",
+      "published": "2026-08-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42573538",
+      "title": "Augmented Skin Beneficial Effects of Thermus Thermophilus and Bacillus Subtilis Mixed-Culture Ferment Extract by Tripeptide GHK-Cu.",
+      "url": "https://europepmc.org/article/MED/42573538",
+      "published": "2026-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42510549",
+      "title": "A Torilis japonica Extract-GHK-Cu Complex Attenuates Th2 Cytokines and Promotes Keratinocyte Recovery: A Potential Antioxidant Strategy for Atopic Dermatitis.",
+      "url": "https://europepmc.org/article/MED/42510549",
+      "published": "2026-06-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42404628",
+      "title": "Copper peptide activated cascade catalysis for glucose regulation and hypoxia reversing in infected diabetic wound healing.",
+      "url": "https://europepmc.org/article/MED/42404628",
+      "published": "2026-06-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-21203-rs-3-rs-9927746-v1",
+      "title": "Self-Assembled Mesoporous Scaffold Enabled Hybrid Hole-Transport Layer for Efficient Perovskite Solar Cells",
+      "url": "https://doi.org/10.21203/rs.3.rs-9927746/v1",
+      "published": "2026-06-11",
+      "kind": "preprint"
+    },
+    {
+      "id": "doi-10-21203-rs-3-rs-9520102-v1",
+      "title": "Middle-aged mice treated with GHK-Cu peptide administered intraperitoneally or intranasally show behavioral rescue but divergent hippocampal aging programs",
+      "url": "https://doi.org/10.21203/rs.3.rs-9520102/v1",
+      "published": "2026-05-26",
+      "kind": "preprint"
+    },
+    {
+      "id": "doi-10-20944-preprints202604-1748-v1",
+      "title": "Evaluation of Research Grade Peptides Marketed Directly to Consumers Reveals Extensive Variability in Purity and Measured Abundance",
+      "url": "https://doi.org/10.20944/preprints202604.1748.v1",
+      "published": "2026-04-24",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-42058630",
+      "title": "Microenvironment-responsive injectable dynamic hydrogel for sequential antioxidant and tissue regeneration therapy of radiation-induced skin injury.",
+      "url": "https://europepmc.org/article/MED/42058630",
+      "published": "2026-04-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41997403",
+      "title": "Glycyl-L-histidyl-L-lysine-Cu2 + (GHK-Cu) Attenuates CuSO 4 or LPS induced-inflammation in Zebrafish larvae model.",
+      "url": "https://europepmc.org/article/MED/41997403",
+      "published": "2026-04-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-64898-2026-04-09-717524",
+      "title": "Middle-aged mice treated with GHK-Cu peptide administered intraperitoneally or intranasally show behavioral rescue but divergent hippocampal aging programs",
+      "url": "https://doi.org/10.64898/2026.04.09.717524",
+      "published": "2026-04-13",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-42041438",
+      "title": "The Laccase-like Property of GHK-Cu and Its Applications in Colorimetric Sensing of Phenolic Compounds.",
+      "url": "https://europepmc.org/article/MED/42041438",
+      "published": "2026-04-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-20944-preprints202512-1011-v3",
+      "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance",
+      "url": "https://doi.org/10.20944/preprints202512.1011.v3",
+      "published": "2026-04-07",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-41771428",
+      "title": "Glycyl-l-histidyl-l-lysine as a novel co-former in co-amorphous systems: Enhanced aqueous solubility and physical stability.",
+      "url": "https://europepmc.org/article/MED/41771428",
+      "published": "2026-02-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41594073",
+      "title": "Smart Healing for Wound Repair: Emerging Multifunctional Strategies in Personalized Regenerative Medicine and Their Relevance to Orthopedics.",
+      "url": "https://europepmc.org/article/MED/41594073",
+      "published": "2026-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-20944-preprints202512-1011-v1",
+      "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance",
+      "url": "https://doi.org/10.20944/preprints202512.1011.v1",
+      "published": "2025-12-12",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-41001334",
+      "title": "Efficacy and Safety Assessment of ThriveCo Scar Fader Gel With Scarcede™ in the Treatment of Skin Scars.",
+      "url": "https://europepmc.org/article/MED/41001334",
+      "published": "2025-08-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40672369",
+      "title": "Exploring the beneficial effects of GHK-Cu on an experimental model of colitis and the underlying mechanisms.",
+      "url": "https://europepmc.org/article/MED/40672369",
+      "published": "2025-07-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-20944-preprints202506-0388-v1",
+      "title": "Epigenetic Modulators in Anti-Aging Skincare: Unraveling Molecular Mechanisms and Advancing Patient Applications",
+      "url": "https://doi.org/10.20944/preprints202506.0388.v1",
+      "published": "2025-06-05",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-40123442",
+      "title": "Copper Complexes with New Glycyl-l-histidyl-l-lysine-Hyaluronan Conjugates Show Antioxidant Properties and Osteogenic and Angiogenic Synergistic Effects.",
+      "url": "https://europepmc.org/article/MED/40123442",
+      "published": "2025-03-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39902373",
+      "title": "Food-Derived Tripeptide-Copper Self-Healing Hydrogel for Infected Wound Healing.",
+      "url": "https://europepmc.org/article/MED/39902373",
+      "published": "2025-02-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40766919",
+      "title": "Behavioral and neuropathological features of Alzheimer's disease are attenuated in 5xFAD mice treated with intranasal GHK peptide.",
+      "url": "https://europepmc.org/article/MED/40766919",
+      "published": "2024-09-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39449909",
+      "title": "An Assessment of the Safety, Efficacy, and Tolerability of a Novel Scalp Treatment Regimen Combining a Hydroxy Acid-Based Scrub and Copper Tripeptide Serum in the Management of Seborrheic Dermatitis in Adults.",
+      "url": "https://europepmc.org/article/MED/39449909",
+      "published": "2024-09-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38879894",
+      "title": "The glycyl-l-histidyl-l-lysine-Cu 2+ tripeptide complex attenuates lung inflammation and fibrosis in silicosis by targeting peroxiredoxin 6.",
+      "url": "https://europepmc.org/article/MED/38879894",
+      "published": "2024-06-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38026438",
+      "title": "Thermodynamically stable ionic liquid microemulsions pioneer pathways for topical delivery and peptide application.",
+      "url": "https://europepmc.org/article/MED/38026438",
+      "published": "2023-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37896245",
+      "title": "Liposomes as Carriers of GHK-Cu Tripeptide for Cosmetic Application.",
+      "url": "https://europepmc.org/article/MED/37896245",
+      "published": "2023-10-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37180036",
+      "title": "Improved laccase production by Trametes versicolor using Copper-Glycyl-L-Histidyl-L-Lysine as a novel and high-efficient inducer.",
+      "url": "https://europepmc.org/article/MED/37180036",
+      "published": "2023-04-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37035833",
+      "title": "GHK peptide prevents sleep-deprived learning impairment in aging mice.",
+      "url": "https://europepmc.org/article/MED/37035833",
+      "published": "2023-03-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36905132",
+      "title": "Glycyl-l-histidyl-l-lysine-Cu 2+ rescues cigarette smoking-induced skeletal muscle dysfunction via a sirtuin 1-dependent pathway.",
+      "url": "https://europepmc.org/article/MED/36905132",
+      "published": "2023-03-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35936787",
+      "title": "Glycyl-L-histidyl-L-lysine-Cu 2+ attenuates cigarette smoke-induced pulmonary emphysema and inflammation by reducing oxidative stress pathway.",
+      "url": "https://europepmc.org/article/MED/35936787",
+      "published": "2022-07-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32867146",
+      "title": "Ternary Cu(II) Complex with GHK Peptide and Cis -Urocanic Acid as a Potential Physiologically Functional Copper Chelate.",
+      "url": "https://europepmc.org/article/MED/32867146",
+      "published": "2020-08-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35083444",
+      "title": "The potential of GHK as an anti-aging peptide.",
+      "url": "https://europepmc.org/article/MED/35083444",
+      "published": "2020-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29986520",
+      "title": "Regenerative and Protective Actions of the GHK-Cu Peptide in the Light of the New Gene Data.",
+      "url": "https://europepmc.org/article/MED/29986520",
+      "published": "2018-07-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28212278",
+      "title": "The Effect of the Human Peptide GHK on Gene Expression Relevant to Nervous System Function and Cognitive Decline.",
+      "url": "https://europepmc.org/article/MED/28212278",
+      "published": "2017-02-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27892491",
+      "title": "Selected Biomarkers Revealed Potential Skin Toxicity Caused by Certain Copper Compounds.",
+      "url": "https://europepmc.org/article/MED/27892491",
+      "published": "2016-11-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26236730",
+      "title": "GHK Peptide as a Natural Modulator of Multiple Cellular Pathways in Skin Regeneration.",
+      "url": "https://europepmc.org/article/MED/26236730",
+      "published": "2015-07-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22666519",
+      "title": "The human tripeptide GHK-Cu in prevention of oxidative stress and degenerative conditions of aging: implications for cognitive health.",
+      "url": "https://europepmc.org/article/MED/22666519",
+      "published": "2012-05-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18644225",
+      "title": "The human tri-peptide GHK and tissue remodeling.",
+      "url": "https://europepmc.org/article/MED/18644225",
+      "published": "2008-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16847171",
+      "title": "Effects of topical copper tripeptide complex on CO2 laser-resurfaced skin.",
+      "url": "https://europepmc.org/article/MED/16847171",
+      "published": "2006-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7498545",
+      "title": "Binding of the growth factor glycyl-L-histidyl-L-lysine by heparin.",
+      "url": "https://europepmc.org/article/MED/7498545",
+      "published": "1995-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-6303307",
+      "title": "N.m.r. and e.p.r. investigation of the interaction of copper(II) and glycyl-L-histidyl-L-lysine, a growth-modulating tripeptide from plasma.",
+      "url": "https://europepmc.org/article/MED/6303307",
+      "published": "1983-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-6291585",
+      "title": "Structure of the Glycyl-L-histidyl-L-lysine--copper(II) complex in solution.",
+      "url": "https://europepmc.org/article/MED/6291585",
+      "published": "1982-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7340824",
+      "title": "The interaction of copper(II) and glycyl-L-histidyl-L-lysine, a growth-modulating tripeptide from plasma.",
+      "url": "https://europepmc.org/article/MED/7340824",
+      "published": "1981-12-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    }
+  ]
+}
