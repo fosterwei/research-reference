@@ -1,0 +1,24 @@
+---
+// Section 2 of the template: the differentiator, above the fold. When no
+// reviewer exists yet the page says so plainly rather than hiding the block,
+// because a reader should never mistake an unreviewed page for a reviewed one.
+interface Props {
+  review: { author?: string; reviewer?: string; reviewer_credential?: string; reviewed_at?: string };
+  status: string;
+}
+const { review, status } = Astro.props;
+const reviewed = Boolean(review.reviewer && review.reviewer_credential && review.reviewed_at);
+---
+{reviewed ? (
+  <div class="notice good">
+    <span class="eyebrow">Reviewed by</span>
+    <p><strong>{review.reviewer}</strong>, {review.reviewer_credential}, on {review.reviewed_at}.
+    {review.author && <> Written by {review.author}.</>}
+    <a href="#changelog">What changed</a></p>
+  </div>
+) : (
+  <div class="notice">
+    <span class="eyebrow">Not yet reviewed</span>
+    <p>This record is in status <code>{status}</code>. It has not been reviewed by a named, credentialed person, and it is excluded from search indexing until it is.</p>
+  </div>
+)}

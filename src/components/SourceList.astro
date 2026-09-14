@@ -1,0 +1,13 @@
+---
+interface Source { id: string; title: string; url: string; published: string; kind?: string }
+interface Props { sources: Source[] }
+const { sources } = Astro.props;
+---
+<ol class="sources">
+  {sources.map((s) => (
+    <li id={s.id}>
+      <a href={s.url} rel="noopener">{s.title}</a>
+      <div class="meta"><code>{s.id}</code> · {s.published}{s.kind ? ` · ${s.kind}` : ''}</div>
+    </li>
+  ))}
+</ol>

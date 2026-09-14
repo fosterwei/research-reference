@@ -29,6 +29,7 @@ Product goals, audience, non-goals, milestones, and success metrics are in [`doc
 | `.github/CODEOWNERS` | Required reviewer per area |
 | `wp-content/plugins/research-database/` | Post types, REST-exposed record fields, noindex and sitemap control |
 | `wp-content/themes/research-reference/` | Lightweight Elementor-compatible theme with record templates |
+| `src/`, `astro.config.mjs`, `vercel.json`, `middleware.ts` | Static site: Astro pages built from `data/`, deployed on Vercel |
 
 Compatible with SiteGround and Hostinger WordPress staging; no provider-specific API is required.
 
@@ -104,6 +105,32 @@ It writes no claims. Under `agent/AGENT.md` deciding what a paper supports is
 human work; the script imports cited source metadata and stops. It also refuses
 to touch any record a human has moved past `researched`. Standard library only,
 no API key.
+
+## Building the site (Vercel)
+
+The records under `data/` have two renderers that read the same files. The
+static site is an Astro app at the repository root; the WordPress consumer in
+`wp-content/` is retained and still builds in CI. `data/` is the source of
+truth for both.
+
+```bash
+npm ci
+SITE_URL=https://your-domain.example npm run build   # writes dist/
+npm run dev                                          # local preview
+```
+
+On Vercel: import the repository, leave the root directory as the repo root,
+framework preset Astro, and set `SITE_URL` to the production origin. Every pull
+request gets a preview deployment, which is where a reviewer sees the rendered
+page with its evidence labels and sources before approving.
+
+Index safety is built in: a record is indexable only in status `published`;
+everything else renders with `noindex` and is excluded from `/sitemap.xml`,
+whose `lastmod` comes from the record's changelog. Unknown paths return a real
+404, and `middleware.ts` redirects mixed-case URLs to the lowercase slug.
+
+Astro 5 is pinned because it supports Node 20; Astro 6+ needs Node 22 and is a
+one-line upgrade once every build environment has it.
 
 ## Importing to staging
 

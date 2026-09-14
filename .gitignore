@@ -20,3 +20,9 @@ wp-config.php
 wp-content/uploads/
 wp-content/cache/
 wp-content/upgrade/
+
+# Astro / Vercel
+node_modules/
+dist/
+.astro/
+.vercel/

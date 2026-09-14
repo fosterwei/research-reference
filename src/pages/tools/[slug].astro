@@ -1,0 +1,57 @@
+---
+// Tool pages come from the registry plan, so the reconstitution calculator
+// exists before a reviewed record does. They stay noindex until a record in
+// data/tools/ reaches published. Nothing here accepts a body weight or a
+// condition: the calculator does concentration and volume arithmetic only.
+import Base from '../../layouts/Base.astro';
+import { tools } from '../../lib/registry';
+import { records } from '../../lib/collections';
+
+export async function getStaticPaths() {
+  return tools.map((t) => ({ params: { slug: t.slug }, props: { tool: t } }));
+}
+const { tool } = Astro.props;
+const records = await records('tools');
+const record = records.find((r) => r.data.slug === tool.slug);
+const indexable = record?.data.status === 'published';
+const path = `/tools/${tool.slug}`;
+---
+<Base title={tool.name} description={`${tool.name}: ${tool.computes}.`} path={path} indexable={indexable}>
+  <article>
+    <p class="eyebrow">Tool · wave {tool.pilot_wave}</p>
+    <h1>{tool.name}</h1>
+    <dl class="facts">
+      <dt>Computes</dt><dd>{tool.computes}</dd>
+      <dt>Refuses</dt><dd>{tool.refuses}</dd>
+    </dl>
+    {tool.slug === 'reconstitution-calculator' && (
+      <section>
+        <h2>Concentration and volume</h2>
+        <p class="prose">Formula, stated in the open: concentration = mass in the vial ÷ diluent volume. Volume to draw for a given mass = that mass ÷ concentration. Syringe units assume a 100-unit-per-millilitre insulin syringe, which is the only scale this converts to.</p>
+        <form class="calc" id="recon" onsubmit="return false">
+          <label for="mass">Mass in vial (mg)</label><input id="mass" type="number" step="any" min="0" inputmode="decimal" value="5" />
+          <label for="vol">Diluent added (mL)</label><input id="vol" type="number" step="any" min="0" inputmode="decimal" value="2" />
+          <label for="want">Mass per draw (mcg)</label><input id="want" type="number" step="any" min="0" inputmode="decimal" value="250" />
+          <output id="out" for="mass vol want"></output>
+        </form>
+        <script>
+          const $ = (id) => document.getElementById(id) as HTMLInputElement;
+          const out = document.getElementById('out')!;
+          function run() {
+            const mg = parseFloat($('mass').value), ml = parseFloat($('vol').value), mcg = parseFloat($('want').value);
+            if (!(mg > 0 && ml > 0 && mcg > 0)) { out.textContent = 'Enter three positive numbers.'; return; }
+            const concMcgPerMl = (mg * 1000) / ml;
+            const drawMl = mcg / concMcgPerMl;
+            const units = drawMl * 100;
+            const draws = Math.floor((mg * 1000) / mcg);
+            out.textContent = `Concentration ${concMcgPerMl.toFixed(1)} mcg/mL · draw ${drawMl.toFixed(3)} mL = ${units.toFixed(1)} units on a U-100 syringe · ${draws} draws per vial`;
+          }
+          ['mass', 'vol', 'want'].forEach((id) => $(id).addEventListener('input', run));
+          run();
+        </script>
+        <p class="prose">Worked example: 5 mg in 2 mL gives 2,500 mcg/mL; 250 mcg is 0.1 mL, or 10 units. The calculator takes no body weight and no condition, and it does not suggest what mass to draw.</p>
+      </section>
+    )}
+    {!record && <div class="notice"><p>This tool has no reviewed record yet and is not indexed. It is published to preview deployments so the arithmetic can be checked.</p></div>}
+  </article>
+</Base>

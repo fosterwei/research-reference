@@ -1,0 +1,32 @@
+---
+import { records } from '../../lib/collections';
+import Base from '../../layouts/Base.astro';
+import EvidenceLabel from '../../components/EvidenceLabel.astro';
+import { classes, className, compound as regCompound } from '../../lib/registry';
+const entries = (await records('compounds')).sort((a, b) => a.data.preferred_name.localeCompare(b.data.preferred_name));
+const byClass = new Map<string, typeof entries>();
+for (const e of entries) {
+  const cls = regCompound(e.data.slug)?.class ?? 'unclassified';
+  byClass.set(cls, [...(byClass.get(cls) ?? []), e]);
+}
+const published = entries.filter((e) => e.data.status === 'published').length;
+---
+<Base title="Compounds" description="Every compound in the reference, grouped by class, with its evidence tier and record status." path="/compounds" indexable={published > 0}>
+  <p class="eyebrow">Directory</p>
+  <h1>Compounds</h1>
+  <p class="lede prose">{entries.length} records, grouped by class. The tier is the strongest evidence any indexed study provides for that compound, not a judgment of the compound.</p>
+  {[...byClass.entries()].sort().map(([cls, list]) => (
+    <section>
+      <h2>{className(cls)}</h2>
+      {classes[cls] && <p class="prose">{classes[cls]}</p>}
+      <ul class="cards">
+        {list.map((e) => (
+          <li>
+            <a href={`/compounds/${e.data.slug}`}>{e.data.preferred_name}</a>
+            <div class="sub"><EvidenceLabel tier={e.data.evidence_tier} /> · <code>{e.data.status}</code></div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>

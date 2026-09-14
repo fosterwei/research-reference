@@ -1,0 +1,16 @@
+{
+  "name": "research-reference-site",
+  "private": true,
+  "type": "module",
+  "description": "Static renderer for the peptide research-reference records under data/. Deploys on Vercel. WordPress consumer of the same records lives in wp-content/.",
+  "engines": { "node": ">=20.3.0" },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "python3 scripts/validate_content.py && python3 scripts/build_registry.py --check && astro build"
+  },
+  "dependencies": {
+    "astro": "^5.18.2"
+  }
+}
