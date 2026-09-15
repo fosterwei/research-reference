@@ -1,0 +1,26 @@
+---
+// "What happened in the human trials?" Renders only when a compound's human
+// evidence is scarce enough to show in full (1 to 6 primary human studies).
+// When human trials are abundant, the evidence table already carries them and
+// a second listing would repeat it. The rule is stated in the lede.
+import ClaimCards from './ClaimCards.astro';
+interface Row { evidence_label: string; source_ids: string[]; source_excerpt?: string; value: string; drafting?: string; fields?: Record<string, any> }
+interface Props { rows: Row[]; name: string; sources: Array<{ id: string; url: string }> }
+const { rows, name, sources } = Astro.props;
+const human = rows.filter((r) => r.fields?.species === 'Humans' && !/method|in vitro/i.test(r.fields?.design ?? ''));
+const show = human.length >= 1 && human.length <= 6;
+const trials = human.filter((r) => /trial|randomi/i.test(r.fields?.design ?? '')).length;
+---
+{show && (
+  <section id="human-trials">
+    <div>
+      <h2>What happened in the human studies?</h2>
+      <p class="lede">
+        This record's ledger holds <b>{human.length}</b>{' '}primary human {human.length === 1 ? 'study' : 'studies'}
+        {trials > 0 && <>, of which <b>{trials}</b>{' '}{trials === 1 ? 'is a trial' : 'are trials'}</>}.
+        Few enough to show in full: each card quotes what its abstract reported about {name}. Read them before any other section on this page.
+      </p>
+    </div>
+    <ClaimCards claims={human} sources={sources} />
+  </section>
+)}

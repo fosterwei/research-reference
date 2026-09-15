@@ -1,0 +1,38 @@
+---
+// "Studied in combination": one line per registry stack that includes this
+// compound, stating how many indexed studies mention both components, or that
+// none does. Counts come from the stack records; nothing is inferred.
+import { records } from '../../lib/collections';
+import { stacksContaining, compound as regCompound } from '../../lib/registry';
+interface Props { slug: string; name: string }
+const { slug, name } = Astro.props;
+const plans = stacksContaining(slug);
+const stackRecords = plans.length ? await records('stacks') : [];
+const rows = plans.map((p) => {
+  const rec = stackRecords.find((r) => r.data.slug === p.slug);
+  const n = rec ? ((rec.data.attributes as Record<string, any[]>)['combination_evidence'] ?? []).length : null;
+  const others = p.components.filter((c) => c !== slug).map((c) => regCompound(c)?.name ?? c);
+  return { slug: p.slug, name: p.name, others, n, exists: Boolean(rec) };
+});
+---
+{rows.length > 0 && (
+  <section id="combination">
+    <div>
+      <h2>Studied in combination</h2>
+      <p class="lede">Whether any indexed study tested {name} together with the compounds it is commonly combined with. A count of zero is the finding, not a gap in this page.</p>
+    </div>
+    <ul class="list">
+      {rows.map((r) => (
+        <li>
+          {r.n === null ? (
+            <>With {r.others.join(' and ')}: no record yet. <a href={`/stacks/${r.slug}`}>{r.name}</a></>
+          ) : r.n === 0 ? (
+            <><b>No indexed study</b>{' '}tested {name} with {r.others.join(' and ')}.{' '}<a href={`/stacks/${r.slug}`}>{r.name}</a></>
+          ) : (
+            <><b>{r.n}</b>{' '}indexed {r.n === 1 ? 'study mentions' : 'studies mention'}{' '}{name} together with {r.others.join(' and ')}.{' '}<a href={`/stacks/${r.slug}`}>{r.name}</a></>
+          )}
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

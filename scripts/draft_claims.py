@@ -87,7 +87,7 @@ PATTERNS: dict[str, re.Pattern] = {
     "reported_timelines": re.compile(r"\bonset|within \d+ ?(?:min|hour|day|week)|half-?life|\bt ?1/2|\bCmax|\bTmax|peak (?:plasma|concentration|effect)|duration of action|time to (?:peak|maximum|effect)|after \d+ ?(?:weeks?|days?|months?) of", re.I),
     "storage": re.compile(r"stabil|storage|stored at|degrad|shelf[- ]life|lyophil|reconstitut|\b4 ?°C|-?20 ?°C|-?80 ?°C|room temperature|freeze-?dried", re.I),
 }
-OUTCOME = re.compile(r"significant|reduc|increas|improv|decreas|no (?:significant )?differen|did not|was associated|were associated|greater|lower|higher", re.I)
+OUTCOME = re.compile(r"significant|reduc|increas|improv|decreas|no (?:significant )?differen|did not|was associated|were associated|greater|lower|higher|half-?life|peak|Cmax|Tmax|resulted|demonstrated|showed|observed|attenuat|inhibit|stimulat", re.I)
 
 DESIGN_FROM_PUBTYPE = [
     ("Randomized Controlled Trial", "Randomized controlled trial"),
@@ -171,7 +171,15 @@ def doses_near(s: str, names: list[str], window: int = 70) -> list[str]:
     return found
 
 
+ANALYTICAL = re.compile(r"LC-MS|mass spectromet|chromatograph|urine|doping|detection|screening|determination of|analytical method|metabolites? of|derivati[sz]ation", re.I)
+
+
 def design_of(paper: dict, tier: str) -> str:
+    title = strip_tags(paper.get("title"))
+    if ANALYTICAL.search(title):
+        # Anti-doping detection and metabolism papers are about measuring the
+        # compound, not about what it does; labelled so a reader is not misled.
+        return "Analytical method"
     types = set(paper.get("pubTypeList", {}).get("pubType", []))
     for key, label in DESIGN_FROM_PUBTYPE:
         if key in types:
@@ -195,7 +203,14 @@ def sample_size(abstract: str) -> int | None:
 
 def first_author(paper: dict) -> str:
     a = (paper.get("authorString") or "").split(",")[0].strip()
-    return a.split(" ")[0] if a else ""
+    if not a:
+        return ""
+    words = a.split(" ")
+    # "Zhu N" -> Zhu; "N Sandhu" (initial first) -> Sandhu; "van der Berg J" -> van der Berg
+    if len(words[0]) <= 2 and len(words) > 1:
+        words = words[1:]
+    surname = [w for w in words if not (len(w) <= 2 and w.isupper())]
+    return " ".join(surname) or words[0]
 
 
 def prefix(design: str, species: str, n: int | None, year: str | None) -> str:
@@ -276,8 +291,11 @@ def analyse(paper: dict, names: list[str]) -> dict | None:
                     durations.append(d)
     # Outcome: prefer results-half sentences that name the compound, then results-half, then any.
     half = len(sents) // 2
+    # Outcome: a results-half sentence that names the compound, else any naming
+    # sentence with an outcome word. A sentence about a different agent is never
+    # used, however results-like it reads (an anamorelin result once stood in
+    # for ipamorelin here).
     outcome = (next((s for s in sents[half:] if OUTCOME.search(s) and mentions(s, names)), None)
-               or next((s for s in sents[half:] if OUTCOME.search(s)), None)
                or next((s for s in sents if OUTCOME.search(s) and mentions(s, names)), None))
     return dict(id=sid, tier=tier, species=species, design=design, n=n, year=year, sents=sents, named=named,
                 routes=routes, doses=doses, perkg=perkg, durations=durations, outcome=outcome,
