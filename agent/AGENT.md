@@ -63,7 +63,10 @@ Enforced by humans until tooling exists:
 - no more than 50 pilot pages before indexation review.
 
 ## Structure
-Section-level page structure is specified in `docs/page-template-spec.md`. The
+Section-level page structure is specified in `docs/page-template-spec.md`. How
+those sections are rendered, the tokens, type, component anatomy, budgets and
+anti-patterns, is `docs/design.md`; changes to `src/` follow it, and the
+design changes only through the process it describes. The
 competitive measurements behind the uniqueness target and the metadata limits are
 in `docs/competitive-baseline.md`. Re-measure the baseline before each expansion
 batch rather than treating those figures as fixed.
