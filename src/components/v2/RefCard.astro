@@ -1,0 +1,20 @@
+---
+import Tier from './Tier.astro';
+import { formatCount } from '../../lib/site';
+interface Props { record: any; reg: any; path: string }
+const { record: d, reg, path } = Astro.props;
+const pubs = d.evidence_summary?.publications ?? {};
+const rows = d.attributes?.evidence_table ?? [];
+const routes = [...new Set(rows.map((r: any) => r.fields?.route).filter((s: string) => s && !s.startsWith('not stated')).flatMap((s: string) => s.split(', ')))].sort();
+const chembl = d.evidence_summary?.chembl; const phase = chembl ? Number(chembl.max_phase) : NaN;
+---
+<div class="card refcard" id="reference-card">
+  <div class="head"><span class="eyebrow">Reference card · generated {d.evidence_summary?.drafting?.date ?? d.evidence_summary?.retrieved_at ?? ''}</span><span class="eyebrow">{path}</span></div>
+  <div><div class="k">Compound</div>{d.preferred_name}{reg ? `, ${reg.class.replace(/-/g, ' ')}` : ''}</div>
+  <div><div class="k">Evidence tier</div><Tier tier={d.evidence_tier} /></div>
+  <div><div class="k">Indexed publications</div>{formatCount(pubs.total)} · {formatCount(pubs.randomized_controlled_trials)} RCTs · {formatCount(pubs.clinical_trials)} other clinical trials</div>
+  <div><div class="k">Approval</div>{chembl ? (phase >= 4 ? `approved (${chembl.first_approval ?? 'year not recorded'})` : `not approved · max phase ${isNaN(phase) ? '—' : phase}`) : 'no registered development programme found'}{chembl?.atc?.length ? ` · ATC ${chembl.atc.join(', ')}` : ''}</div>
+  <div><div class="k">Routes reported</div>{routes.length ? routes.join(', ') : '—'}</div>
+  <div><div class="k">Reviewed</div>{d.review?.reviewer ? `${d.review.reviewer}, ${d.review.reviewer_credential}, ${d.review.reviewed_at}` : 'not yet'}</div>
+  <p class="foot">Study figures are as published in each source and are not recommendations. Print or save this card with its date.</p>
+</div>

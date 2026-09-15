@@ -1,0 +1,13 @@
+---
+interface Props { review: { author?: string; reviewer?: string; reviewer_credential?: string; reviewed_at?: string }; status: string }
+const { review, status } = Astro.props;
+const reviewed = Boolean(review.reviewer && review.reviewer_credential && review.reviewed_at);
+---
+<div class={`status ${reviewed ? 'ok' : ''}`}>
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 8v.01M12 11v5"></path></svg>
+  {reviewed ? (
+    <div><strong>Reviewed by {review.reviewer}</strong>, {review.reviewer_credential}, on {review.reviewed_at}.{review.author && <> Written by {review.author}.</>} <a href="#changelog">What changed</a></div>
+  ) : (
+    <div><strong>Not yet reviewed.</strong> This record is in <code>{status}</code>: its claims were drafted from the sources below and have not been checked by a named, credentialed reviewer. It is excluded from search indexing until they are. <a href="#changelog">What changed</a></div>
+  )}
+</div>

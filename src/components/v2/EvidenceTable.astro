@@ -1,0 +1,27 @@
+---
+import Tier from './Tier.astro';
+interface Row { evidence_label: string; source_ids: string[]; fields?: Record<string, any> }
+interface Props { rows: Row[] }
+const { rows } = Astro.props;
+const dash = (v: any) => (!v || String(v).startsWith('not stated') || v === 'not indexed' ? '—' : v);
+---
+<div class="card clip">
+  <div class="tblwrap">
+    <table class="tbl">
+      <thead><tr><th>Study</th><th>Design</th><th class="num">n</th><th>Species</th><th>Dose</th><th>Route</th><th>Duration</th><th>Reported outcome</th><th>Tier</th></tr></thead>
+      <tbody>
+        {rows.map((r) => { const f = r.fields ?? {}; return (
+          <tr>
+            <td class="study"><a href={`#${r.source_ids[0]}`}>{f.study || r.source_ids[0]}</a></td>
+            <td>{f.design}</td>
+            <td class="num">{f.n ? Number(f.n).toLocaleString('en-US') : '—'}</td>
+            <td>{dash(f.species)}</td><td>{dash(f.dose)}</td><td>{dash(f.route)}</td><td>{dash(f.duration)}</td>
+            <td class="out">{f.outcome === 'see source' ? '—' : f.outcome}</td>
+            <td><Tier tier={r.evidence_label} /></td>
+          </tr>
+        ); })}
+      </tbody>
+    </table>
+  </div>
+  <div class="foot">{rows.length} primary studies, strongest evidence first. A dash means the abstract did not say.</div>
+</div>

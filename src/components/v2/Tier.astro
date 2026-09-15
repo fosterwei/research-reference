@@ -1,0 +1,6 @@
+---
+import { TIER_SHORT } from '../../lib/claims';
+interface Props { tier: string; class?: string }
+const { tier, class: cls = '' } = Astro.props;
+---
+<span class={`tier ${cls}`} data-tier={tier}><i></i>{TIER_SHORT[tier] ?? tier}</span>

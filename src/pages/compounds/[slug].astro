@@ -17,7 +17,8 @@ import { compound as regCompound, peers as regPeers, stacksContaining, compariso
 
 export async function getStaticPaths() {
   const entries = await records('compounds');
-  return entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
+  // semaglutide is rendered by the v2 trial route (semaglutide.astro) while the redesign is under review.
+  return entries.filter((entry) => entry.data.slug !== 'semaglutide').map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
 }
 
 const { entry } = Astro.props;
