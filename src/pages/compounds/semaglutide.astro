@@ -13,13 +13,18 @@ import ClaimCards from '../../components/v2/ClaimCards.astro';
 import Faq from '../../components/v2/Faq.astro';
 import Sources from '../../components/v2/Sources.astro';
 import RefCard from '../../components/v2/RefCard.astro';
-import Compare from '../../components/Compare.astro';
+import CompareTable from '../../components/v2/CompareTable.astro';
+import LandscapeTable from '../../components/v2/LandscapeTable.astro';
+import { rich, paragraphs, timeTag } from '../../lib/format';
 import ReconstitutionMath from '../../components/shared/ReconstitutionMath.astro';
 import EquipmentInStudies from '../../components/shared/EquipmentInStudies.astro';
 import ReadingACoA from '../../components/shared/ReadingACoA.astro';
 import WeightCaveat from '../../components/shared/WeightCaveat.astro';
 import { isIndexable, title, description, lastmod, formatCount } from '../../lib/site';
 import { compound as regCompound, peers as regPeers, stacksContaining, comparisonsWith, className } from '../../lib/registry';
+
+// Sections 9.1 and 9.5: one abbreviation set per page so each expands once, on first use, in reading order.
+const seen = new Set<string>();
 
 const SLUG = 'semaglutide';
 const all = await records('compounds');
@@ -42,7 +47,13 @@ const jsonld = {
   mainEntityOfPage: new URL(path, Astro.site).toString(),
   ...(d.review.reviewer ? { reviewedBy: { '@type': 'Person', name: d.review.reviewer, jobTitle: d.review.reviewer_credential } } : {}),
 };
-const dek = `What ${formatCount(pubs.total)} indexed publications and ${formatCount(pubs.randomized_controlled_trials)} randomized trials actually state about ${d.preferred_name.toLowerCase()}, sentence by sentence, each tied to its source and labeled by the kind of evidence it is.`;
+const dek = rich(`What ${formatCount(pubs.total)} indexed publications and ${formatCount(pubs.randomized_controlled_trials)} randomized trials actually state about ${d.preferred_name.toLowerCase()}, sentence by sentence, each tied to its source and labeled by the kind of evidence it is.`, { bold: 2, seen });
+// Section 9.7: the record's summary is one long paragraph; split at sentence boundaries, at most 3 sentences and 2 bold runs each.
+const summaryParas = paragraphs(d.summary, 3).map((para) => rich(para, { bold: 2, seen }));
+// Peer names linked at first mention (9.9), in the comparison lede.
+const peerLinks = peerEntries.map((e) => `<a href="/compounds/${e.data.slug}">${e.data.preferred_name}</a>`).join(', ');
+const brandAliases = d.aliases.filter((a) => /^[A-Z][a-z]/.test(a) && !/\d/.test(a) && !a.toLowerCase().startsWith(d.preferred_name.slice(0, 6).toLowerCase())).slice(0, 3);
+const baseTitle = title(entry);
 
 // Sections in reading order. Each renders only when its data exists, and the
 // same list drives the table of contents so the two never disagree.
@@ -76,9 +87,15 @@ const evidenceByField = Object.fromEntries(evidence.map(([f, id, label]) => [f, 
 const ledes: Record<string, string> = {
   study_doses: `Each entry is a sentence quoted from the study's abstract, with the study's design, sample size and year in front of it. Comparator doses in the same sentence are not attributed to ${d.preferred_name.toLowerCase()}.`,
   escalation_schedules: 'How trials stepped doses, reported as study design.',
+  adverse_events: 'Events and their frequency as each trial reported them, with the denominator where the abstract gives one.',
+  study_durations: 'Treatment and follow-up periods as stated in each abstract.',
+  routes_studied: 'Routes of administration named in each study.',
+  interactions: 'Sentences in which the compound is studied alongside another agent. Read the quotation: the word interaction can also be statistical.',
+  exclusion_criteria: 'Who each trial excluded, as stated in the abstract.',
+  biomarkers_monitored: 'Laboratory and clinical measures the studies report tracking.',
 };
 ---
-<Base title={title(entry)} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={jsonld}>
+<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={jsonld} siteSuffix={`${baseTitle} | Peptide Research Reference`.length <= 60}>
   <Fragment slot="head">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -86,15 +103,15 @@ const ledes: Record<string, string> = {
   </Fragment>
   <article class="v2">
     <div class="title">
-      <div class="crumbs"><span class="eyebrow">Compound</span>{reg && <><span class="dot">·</span><span class="eyebrow">{className(reg.class)}</span><span class="dot">·</span><span class="eyebrow">{reg.target}</span></>}</div>
+      <div class="crumbs"><a class="eyebrow" href="/compounds">Compounds</a>{reg && <><span class="dot">·</span><span class="eyebrow">{className(reg.class)}</span><span class="dot">·</span><span class="eyebrow">{reg.target}</span></>}</div>
       <h1>{d.preferred_name}</h1>
-      <p class="dek">{dek}</p>
+      <p class="dek" set:html={dek} />
       <div class="pills">
         <span class="pill"><Tier tier={d.evidence_tier} /></span>
         {d.status !== 'published' ? <span class="pill draft">{d.status.charAt(0).toUpperCase() + d.status.slice(1)} · not yet reviewed</span> : <span class="pill">Reviewed {d.review.reviewed_at}</span>}
         <span class="pill">{d.sources.length} sources</span>
-        {updated && <span class="pill">Updated {updated}</span>}
-        {d.aliases.length > 0 && <span class="pill dashed">Also: {d.aliases.filter((a) => /^[A-Z]/.test(a) && !/^NN/.test(a)).slice(0, 3).join(', ') || d.aliases.slice(0, 3).join(', ')}</span>}
+        {updated && <span class="pill">Updated <Fragment set:html={timeTag(updated)} /></span>}
+        {brandAliases.length > 0 && <span class="pill dashed">Also: {brandAliases.join(', ')}</span>}
       </div>
     </div>
 
@@ -103,8 +120,9 @@ const ledes: Record<string, string> = {
       <div class="content">
         <section id="glance"><h2>At a glance</h2><FactTiles record={d} reg={reg} /></section>
         <StatusBar review={d.review} status={d.status} />
-        <section id="what"><h2>What it is</h2><p class="prose-lg">{d.summary}</p></section>
-        {noEvidence && <div class="status"><div>No indexed study names this compound in its title or abstract. Everything that circulates about it is community-reported, and this page does not restate it as fact. The sections that depend on published evidence are omitted rather than filled.</div></div>}
+        <section id="what"><h2>What it is</h2>{summaryParas.map((html) => <p class="prose-lg" set:html={html} />)}</section>
+        {noEvidence && <div class="status"><div><strong>No indexed study names this compound</strong> in its title or abstract. Everything that circulates about it is community-reported, and this page does not restate it as fact. The sections that depend on published evidence are omitted rather than filled.</div></div>}
+        {!hasAnyEvidence && <section id="landscape"><div><h2>What is indexed</h2><p class="lede">Counts from Europe PMC. Zeros are measured, not missing.</p></div><LandscapeTable record={d} /></section>}
 
         {hasAnyEvidence && (
           <section id="evidence">
@@ -114,7 +132,7 @@ const ledes: Record<string, string> = {
         )}
 
         {evidence.filter(([f]) => has(f)).slice(0, 5).map(([f, id, label]) => (
-          <section id={id}><div><h2>{label}</h2>{ledes[f] && <p class="lede">{ledes[f]}</p>}</div><ClaimCards claims={A[f]} />{f === 'weight_normalized_doses' && <WeightCaveat />}</section>
+          <section id={id}><div><h2>{label}</h2>{ledes[f] && <p class="lede">{ledes[f]}</p>}</div><ClaimCards claims={A[f]} sources={d.sources} />{f === 'weight_normalized_doses' && <WeightCaveat />}</section>
         ))}
 
         {hasAnyEvidence && (
@@ -128,15 +146,15 @@ const ledes: Record<string, string> = {
         )}
 
         {evidence.filter(([f]) => has(f)).slice(5).map(([f, id, label]) => (
-          <section id={id}><div><h2>{label}</h2>{ledes[f] && <p class="lede">{ledes[f]}</p>}</div><ClaimCards claims={A[f]} />{f === 'weight_normalized_doses' && <WeightCaveat />}</section>
+          <section id={id}><div><h2>{label}</h2>{ledes[f] && <p class="lede">{ledes[f]}</p>}</div><ClaimCards claims={A[f]} sources={d.sources} />{f === 'weight_normalized_doses' && <WeightCaveat />}</section>
         ))}
 
         {peerEntries.length > 0 && (
-          <section id="compare"><div><h2>How it compares</h2><p class="lede">Same class in the registry. Each row shows what that compound's own record states; nothing is inferred across rows.</p></div><div class="card clip"><Compare self={entry} peers={peerEntries} /></div></section>
+          <section id="compare"><div><h2>How it compares</h2><p class="lede">Same class in the registry: <Fragment set:html={peerLinks} />. Each row shows what that compound's own record states; nothing is inferred across rows.</p></div><CompareTable self={entry} peers={peerEntries} cls={reg ? className(reg.class) : 'same'} /></section>
         )}
-        {has('regulatory_status') && <section id="regulatory"><h2>Regulatory status</h2><ClaimCards claims={A.regulatory_status} /></section>}
+        {has('regulatory_status') && <section id="regulatory"><h2>Regulatory status</h2><ClaimCards claims={A.regulatory_status} sources={d.sources} /></section>}
         {d.open_questions.length > 0 && <section id="open"><div><h2>Open questions</h2><p class="lede">What is genuinely unknown, stated plainly.</p></div><ul class="list">{d.open_questions.map((q) => <li>{q}</li>)}</ul></section>}
-        {d.faq.length > 0 && <section id="faq"><h2>Questions people ask</h2><Faq items={d.faq} /></section>}
+        {d.faq.length > 0 && <section id="faq"><h2>Questions people ask</h2><Faq items={d.faq.map((f) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))} html /></section>}
         {d.sources.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Full citations. Every claim above links to one of these by its id.</p></div><Sources sources={d.sources} /></section>}
         <section id="card"><h2>Reference card</h2><RefCard record={d} reg={reg} path={path} /></section>
         {(inStacks.length > 0 || inComparisons.length > 0 || peerEntries.length > 0) && (
@@ -144,9 +162,10 @@ const ledes: Record<string, string> = {
             {peerEntries.map((p) => <li><a href={`/compounds/${p.data.slug}`}>{p.data.preferred_name}</a><div class="sub">Peer compound</div></li>)}
             {inStacks.map((s) => <li><a href={`/stacks/${s.slug}`}>{s.name}</a><div class="sub">Stack · wave {s.pilot_wave}</div></li>)}
             {inComparisons.map((c) => <li><a href={`/compare/${c.slug}`}>{c.sides.join(' vs ')}</a><div class="sub">Comparison · wave {c.pilot_wave}</div></li>)}
-          </ul></section>
+          </ul>
+          <p class="lede">Browse <a href="/compounds">all compounds</a>, <a href="/stacks">stacks</a>, <a href="/compare">comparisons</a> and <a href="/tools">tools</a>.</p></section>
         )}
-        {d.changelog.length > 0 && <section id="changelog"><h2>Last reviewed and what changed</h2><ul class="list" style="font-size:15px">{[...d.changelog].reverse().map((c) => <li><code>{c.date}</code> · {c.change}</li>)}</ul></section>}
+        {d.changelog.length > 0 && <section id="changelog"><div><h2>Last reviewed and what changed</h2><p class="lede">Newest first. These are the record's own revision dates, and the same dates feed the sitemap.</p></div><ol class="changelog" reversed>{[...d.changelog].reverse().map((c) => <li><Fragment set:html={timeTag(c.date, c.date)} /> · {c.change}</li>)}</ol></section>}
       </div>
     </div>
   </article>

@@ -1,0 +1,22 @@
+---
+// Section 9.2 fallback: when a compound has no evidence, the page still renders one
+// data table. A zero in a table is information; a missing section is not.
+import { formatCount } from '../../lib/site';
+interface Props { record: any }
+const { record: d } = Astro.props;
+const p = d.evidence_summary?.publications ?? {};
+const rows: Array<[string, any, string]> = [
+  ['Indexed publications', p.total ?? 0, 'title or abstract names the compound or an alias'],
+  ['Randomized controlled trials', p.randomized_controlled_trials ?? 0, 'MEDLINE publication type'],
+  ['Other clinical trials', p.clinical_trials ?? 0, 'MEDLINE publication type'],
+  ['Studies indexed with human subjects', p.human_indexed ?? 0, 'MeSH heading Humans'],
+  ['Studies indexed as animal-only', p.animal_indexed ?? 0, 'MeSH Animals without Humans'],
+];
+---
+<div class="card clip"><div class="tblwrap">
+  <table class="tbl">
+    <caption>Evidence landscape for <b>{d.preferred_name}</b> in Europe PMC{d.evidence_summary?.retrieved_at ? `, ${d.evidence_summary.retrieved_at}` : ''}. Every zero is a measured absence.</caption>
+    <thead><tr><th scope="col">Measure</th><th scope="col" class="num">Count</th><th scope="col">How it was counted</th></tr></thead>
+    <tbody>{rows.map(([k, v, how]) => <tr><th scope="row" class="study">{k}</th><td class="num">{formatCount(v)}</td><td>{how}</td></tr>)}</tbody>
+  </table>
+</div></div>

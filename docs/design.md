@@ -235,14 +235,14 @@ Until they get a v2 pass they keep the current single-column layout.
 |---|---|---|
 | HTML per page | ≤ 100 KB | `scripts/measure_pages.py` (size) |
 | Client JavaScript | none, except tool pages | review |
-| Title including site suffix | ≤ 60 chars; drop the suffix when the base title exceeds 38 | `Base.astro` (to implement) |
+| Title including site suffix | ≤ 60 chars; drop the suffix whenever the combined title would exceed 60 | `Base.astro` `siteSuffix` prop; v2 page opts in |
 | Meta description | ≤ 160 chars | `scripts/validate_content.py` |
 | Own prose | ≤ ~22 words per sentence | review; `measure_pages.py` reports Flesch |
 | Internal links | 3–5 per 1,000 words, descriptive anchors | `measure_pages.py` (to implement) |
 | Uniqueness | ≥ 40% gate, 85% target | `measure_pages.py --write` |
 | Touch targets on mobile | ≥ 44 px | review |
 | Contrast | WCAG AA on both themes | review; tier dots always paired with text |
-| Canonical | absolute, real hostname, self-referencing | `site-url.mjs` (must reject wildcard hosts) |
+| Canonical | absolute, real hostname, self-referencing | `site-url.mjs` rejects wildcard and invalid hosts |
 | Images | none required; any image has alt text and fixed dimensions | review |
 | Formatting minimums | see §9.10 | `measure_pages.py` (to implement) |
 
@@ -405,24 +405,29 @@ Counts the build should verify (`scripts/measure_pages.py`; the ones marked
 
 | Element | Minimum per compound page | Where it comes from | Checked |
 |---|---|---|---|
-| Data table with caption | 1 (evidence table, or the evidence-landscape table) | `EvidenceTable`, landscape fallback | to implement |
-| Bold runs in own prose | 6, none longer than 5 words, ≤ 2 per paragraph | dek, summary, FAQ, ledes | to implement |
-| `<ol>` | 1 (sources) | `Sources` | to implement |
-| `<ul>` | 1 (open questions or related) | page | to implement |
-| `<q>`/`<blockquote>` with `cite` | every quotation | `ClaimCards` | to implement |
-| `<dl>` | 1 (reference card) | `RefCard` | to implement |
+| Data table with caption | 1 (evidence table, or the evidence-landscape table) | `EvidenceTable`, `LandscapeTable` | `measure_pages.py --formatting` |
+| Bold runs in own prose | 6, none longer than 5 words, ≤ 2 per paragraph | `rich()` in `src/lib/format.ts` | `measure_pages.py --formatting` (count only) |
+| `<ol>` | 1 (sources) | `Sources` | `measure_pages.py --formatting` |
+| `<ul>` | 1 (open questions or related) | page | `measure_pages.py --formatting` |
+| `<q>`/`<blockquote>` with `cite` | every quotation | `ClaimCards` | `measure_pages.py --formatting` |
+| `<dl>` | 1 (reference card) | `RefCard` | `measure_pages.py --formatting` |
 | `<abbr>` on first use | every abbreviation in own prose | drafting scripts | review |
-| `<time>` | every date in prose and cards | components | to implement |
+| `<time>` | every date in prose and cards | `timeTag()` in components | `measure_pages.py --formatting` |
 | Status callout | 1 when unreviewed or evidence is absent | `StatusBar` | yes |
 | Section ledes | every H2 with > 3 items | page | review |
-| Internal links | 3–5 per 1,000 words | page | to implement |
-| Own-prose sentence length | ≤ ~22 words average | drafting scripts | `measure_pages.py` Flesch, indirect |
+| Internal links | 3–5 per 1,000 words | page | `measure_pages.py --formatting` |
+| Own-prose sentence length | ≤ ~22 words average | drafting scripts | `measure_pages.py --formatting` (paragraph text only) |
 
 A page that fails a minimum is not broken; it is unread. Fix the template or
 the drafting script, not the record, so the fix applies to every page.
 
 ## Changelog
 
+- 2026-09-15 — Section 9 applied to the trial route `/compounds/semaglutide`
+  (`src/lib/format.ts`, v2 components) and `scripts/measure_pages.py
+  --formatting` reports the §9.10 counts. Own-prose sentence length remains
+  above target because the drafted summary and FAQ sentences are long; that is
+  a drafting-script change, tracked separately.
 - 2026-09-15 — Section 9 added: content formatting rules for reading
   experience (emphasis, tables with captions, quotation markup and the
   emphasis-added rule, lists, definition lists, abbreviations, dates,
