@@ -1,0 +1,168 @@
+{
+  "type": "comparison",
+  "title": "Cagrilintide vs Semaglutide",
+  "slug": "cagrilintide-vs-semaglutide",
+  "status": "draft",
+  "summary": "Cagrilintide: tier human clinical trial, 105 indexed publications, 15 randomized trials. Semaglutide: tier approved label, 6,039 indexed publications, 305 randomized trials. 8 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "seo": {
+    "title": "Cagrilintide vs Semaglutide: what the studies show",
+    "description": "Cagrilintide vs Semaglutide, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+  },
+  "attributes": {
+    "head_to_head": [
+      {
+        "value": "Clinical trial, humans, n=5,425, 2026: Eligible randomized controlled trials (RCTs) assessed Cagrilintide monotherapy or CagriSema versus placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42583410"
+        ],
+        "source_excerpt": "Eligible randomized controlled trials (RCTs) assessed Cagrilintide monotherapy or CagriSema versus placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: We aimed to investigate the efficacy and safety of a fixed-dose combination of cagrilintide and semaglutide (cagrilintide-semaglutide; known as CagriSema) versus semaglutide or cagrilintide for glycaemic control in people with type 2 diabetes and overweight or obesity.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "We aimed to investigate the efficacy and safety of a fixed-dose combination of cagrilintide and semaglutide (cagrilintide-semaglutide; known as CagriSema) versus semaglutide or cagrilintide for glycaemic control in people with type 2 diabetes and overweight or obesity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=62, 2026: Cagrilintide-semaglutide (CagriSema) is a novel, once-weekly combination of the amylin receptor agonist cagrilintide and the GLP-1 receptor agonist semaglutide.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251860"
+        ],
+        "source_excerpt": "Cagrilintide-semaglutide (CagriSema) is a novel, once-weekly combination of the amylin receptor agonist cagrilintide and the GLP-1 receptor agonist semaglutide.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=90, 2026: We aimed to compare the efficacy and safety of a once per week combination of cagrilintide with semaglutide (CagriSema) versus placebo as an add-on to basal insulin in individuals with type 2 diabetes.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251856"
+        ],
+        "source_excerpt": "We aimed to compare the efficacy and safety of a once per week combination of cagrilintide with semaglutide (CagriSema) versus placebo as an add-on to basal insulin in individuals with type 2 diabetes.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=164, 2026: We assessed the efficacy and safety of a fixed-dose combination of cagrilintide 2·4 mg and semaglutide 2·4 mg versus semaglutide 2·4 mg for weight management in an east Asian population.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42009015"
+        ],
+        "source_excerpt": "We assessed the efficacy and safety of a fixed-dose combination of cagrilintide 2·4 mg and semaglutide 2·4 mg versus semaglutide 2·4 mg for weight management in an east Asian population.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, mice, 2026: Amylin receptor agonists such as cagrilintide represent emerging obesity therapies.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42260119"
+        ],
+        "source_excerpt": "Amylin receptor agonists such as cagrilintide represent emerging obesity therapies.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=14, 2026: In these studies, within the limitations of small sample sizes, no clinically relevant differences in cagrilintide pharmacokinetics were observed in participants with renal or hepatic impairment compared with those with normal function, suggesting that dose adjustment is not warranted for…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42228334"
+        ],
+        "source_excerpt": "In these studies, within the limitations of small sample sizes, no clinically relevant differences in cagrilintide pharmacokinetics were observed in participants with renal or hepatic impairment compared with those with normal function, suggesting that dose adjustment is not warranted for these populations.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=3,417, 2025: The coprimary end points were the relative change in body weight and a reduction of 5% or more in body weight from baseline to week 68 with cagrilintide-semaglutide as compared with placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40544433"
+        ],
+        "source_excerpt": "The coprimary end points were the relative change in body weight and a reduction of 5% or more in body weight from baseline to week 68 with cagrilintide-semaglutide as compared with placebo.",
+        "drafting": "extractive"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "pmid-42583410",
+      "title": "Amylin-based obesity therapy: a meta-analysis of Cagrilintide and CagriSema versus placebo.",
+      "url": "https://europepmc.org/article/MED/42583410",
+      "published": "2026-07-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251859",
+      "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251859",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251860",
+      "title": "Efficacy and safety of once-weekly cagrilintide-semaglutide (CagriSema) in adults with type 2 diabetes inadequately controlled on diet and exercise (REIMAGINE 1): a randomised, double-blind, placebo-controlled, phase 3a study.",
+      "url": "https://europepmc.org/article/MED/42251860",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251856",
+      "title": "Cagrilintide-semaglutide (CagriSema) as an add-on to basal insulin in adults with type 2 diabetes (REIMAGINE 3): a randomised, double-blind, placebo-controlled, multicentre, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251856",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42009015",
+      "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+      "url": "https://europepmc.org/article/MED/42009015",
+      "published": "2026-04-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42260119",
+      "title": "A cross-species atlas of the dorsal vagal complex reveals neural mediators of the effects of cagrilintide on energy balance.",
+      "url": "https://europepmc.org/article/MED/42260119",
+      "published": "2026-06-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42228334",
+      "title": "Renal or Hepatic Impairment Does Not Affect Pharmacokinetics, Safety, or Tolerability of Subcutaneous Cagrilintide.",
+      "url": "https://europepmc.org/article/MED/42228334",
+      "published": "2026-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40544433",
+      "title": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity.",
+      "url": "https://europepmc.org/article/MED/40544433",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [
+    "cagrilintide",
+    "semaglutide"
+  ],
+  "faq": [],
+  "open_questions": [],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "uniqueness_pct": 91.4,
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Comparison record generated from research/registry.json plan; 8 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    }
+  ],
+  "sides": [
+    "cagrilintide",
+    "semaglutide"
+  ]
+}

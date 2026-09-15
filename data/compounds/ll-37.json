@@ -7,26 +7,734 @@
     "cathelicidin LL-37"
   ],
   "slug": "ll-37",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for LL-37. Europe PMC indexes 2826 publications, including 38 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "LL-37 is a peptide in the immunomodulators & host defense class (cathelicidin antimicrobial peptide; membrane-active, immunomodulatory). Europe PMC indexes 2,826 publications naming it or a listed alias in a title or abstract, including 38 randomized controlled trials and 23 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "LL-37: what the research shows",
-    "description": "Cited overview of published LL-37 research: 2826 indexed publications, 38 randomized controlled trials. Evidence tier on every claim."
+    "description": "LL-37 research, cited: 2,826 indexed publications, 38 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, 2023: administration by oral route reported. Recombinant LL-37 Lactococcus lactis (Oral LL-37) was designed to prevent progression of COVID-19 by targeting virus envelope, however, effectiveness and safety of Oral LL-37 in clinical application was unclear.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37605995"
+        ],
+        "source_excerpt": "Recombinant LL-37 Lactococcus lactis (Oral LL-37) was designed to prevent progression of COVID-19 by targeting virus envelope, however, effectiveness and safety of Oral LL-37 in clinical application was unclear.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=148, 2021: administration by topical route reported. This clinical trial HEAL LL-37 was a phase IIb double-blind, randomized, placebo-controlled study, with the aim to evaluate the efficacy and safety of a new drug LL-37 for topical administration, in combination with compression therapy, in 148…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34687253"
+        ],
+        "source_excerpt": "This clinical trial HEAL LL-37 was a phase IIb double-blind, randomized, placebo-controlled study, with the aim to evaluate the efficacy and safety of a new drug LL-37 for topical administration, in combination with compression therapy, in 148 patients suffering from hard-to-heal venous leg ulcers.",
+        "drafting": "extractive"
+      }
+    ],
     "study_doses": [],
-    "escalation_schedules": [],
-    "interactions": [],
+    "escalation_schedules": [
+      {
+        "value": "In vitro study, humans, 2026: Fourier-transform infrared spectroscopy (FT-IR), differential scanning calorimetry (DSC), isothermal titration calorimetry (ITC), and fluorescence spectroscopy were employed to probe both structural and thermodynamic changes upon interaction with the human cathelicidin LL-37.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42134226"
+        ],
+        "source_excerpt": "Fourier-transform infrared spectroscopy (FT-IR), differential scanning calorimetry (DSC), isothermal titration calorimetry (ITC), and fluorescence spectroscopy were employed to probe both structural and thermodynamic changes upon interaction with the human cathelicidin LL-37.",
+        "drafting": "extractive"
+      }
+    ],
+    "interactions": [
+      {
+        "value": "Randomized controlled trial, humans, n=148, 2021: This clinical trial HEAL LL-37 was a phase IIb double-blind, randomized, placebo-controlled study, with the aim to evaluate the efficacy and safety of a new drug LL-37 for topical administration, in combination with compression therapy, in 148 patients suffering from hard-to-heal venous…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34687253"
+        ],
+        "source_excerpt": "This clinical trial HEAL LL-37 was a phase IIb double-blind, randomized, placebo-controlled study, with the aim to evaluate the efficacy and safety of a new drug LL-37 for topical administration, in combination with compression therapy, in 148 patients suffering from hard-to-heal venous leg ulcers.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2026: Fourier-transform infrared spectroscopy (FT-IR), differential scanning calorimetry (DSC), isothermal titration calorimetry (ITC), and fluorescence spectroscopy were employed to probe both structural and thermodynamic changes upon interaction with the human cathelicidin LL-37.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42134226"
+        ],
+        "source_excerpt": "Fourier-transform infrared spectroscopy (FT-IR), differential scanning calorimetry (DSC), isothermal titration calorimetry (ITC), and fluorescence spectroscopy were employed to probe both structural and thermodynamic changes upon interaction with the human cathelicidin LL-37.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2026: The aggregation is driven primarily through hydrophobic interactions between several amino acids within LL-37 and HNP1.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41923698"
+        ],
+        "source_excerpt": "The aggregation is driven primarily through hydrophobic interactions between several amino acids within LL-37 and HNP1.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
+    "adverse_events": [
+      {
+        "value": "Clinical trial, humans, 2026: Secondary outcomes included pneumonia, diarrhea, eczema, antibiotic use, gut microbiota (16S rRNA V3-V4 sequencing), and fecal immune biomarkers (calprotectin, sIgA, HBD-2, LL-37).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42598364"
+        ],
+        "source_excerpt": "Secondary outcomes included pneumonia, diarrhea, eczema, antibiotic use, gut microbiota (16S rRNA V3-V4 sequencing), and fecal immune biomarkers (calprotectin, sIgA, HBD-2, LL-37).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=101, 2024: Primary outcome was parent-reported number of ARI; secondary outcomes included number of ARI hospitalizations, change of serum 25-hydroxyvitamin D (25(OH)D) and LL-37/cathelicidin levels, and adverse events.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39181322"
+        ],
+        "source_excerpt": "Primary outcome was parent-reported number of ARI; secondary outcomes included number of ARI hospitalizations, change of serum 25-hydroxyvitamin D (25(OH)D) and LL-37/cathelicidin levels, and adverse events.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Clinical trial, humans, 2026: Secondary outcomes included pneumonia, diarrhea, eczema, antibiotic use, gut microbiota (16S rRNA V3-V4 sequencing), and fecal immune biomarkers (calprotectin, sIgA, HBD-2, LL-37).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42598364"
+        ],
+        "source_excerpt": "Secondary outcomes included pneumonia, diarrhea, eczema, antibiotic use, gut microbiota (16S rRNA V3-V4 sequencing), and fecal immune biomarkers (calprotectin, sIgA, HBD-2, LL-37).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=24, 2026: Furthermore, B. infantis BI45 supplementation significantly increased serum levels of immunomodulatory markers Immunoglobulin A (IgA) and antimicrobial peptide LL-37 compared to the placebo (p < 0.05) and modulated the gut microbiota by enriching beneficial short-chain fatty acid producers.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42118446"
+        ],
+        "source_excerpt": "Furthermore, B. infantis BI45 supplementation significantly increased serum levels of immunomodulatory markers Immunoglobulin A (IgA) and antimicrobial peptide LL-37 compared to the placebo (p < 0.05) and modulated the gut microbiota by enriching beneficial short-chain fatty acid producers.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=49, 2026: In a randomized, double-blind clinical trial (n = 49), daily intake of 3 × 10 10 CFU of LF61 for 8 weeks increased serum levels of the antimicrobial peptide LL-37 by 12.3% (p 3), activated the carbohydrate metabolism pathway (p = 0.002), and maintained stable α-diversity in the microbiome…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41655688"
+        ],
+        "source_excerpt": "In a randomized, double-blind clinical trial (n = 49), daily intake of 3 × 10 10 CFU of LF61 for 8 weeks increased serum levels of the antimicrobial peptide LL-37 by 12.3% (p 3), activated the carbohydrate metabolism pathway (p = 0.002), and maintained stable α-diversity in the microbiome (Shannon index p > 0.05).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2023: This study analyzes the efficacy of LL-37 cream in enhancing wound healing rate and decreasing the levels of IL-1α, TNF-α, and the number of aerobic bacteria colonization in DFU with mild infection.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37480520"
+        ],
+        "source_excerpt": "This study analyzes the efficacy of LL-37 cream in enhancing wound healing rate and decreasing the levels of IL-1α, TNF-α, and the number of aerobic bacteria colonization in DFU with mild infection.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, 2022: Additionally, the Hospital Anxiety and Depression Scale (HADS) scores and chronic inflammatory biomarkers of the alveolar region (surfactant protein [SP]-A, SP-D, and human cationic antibacterial protein [hCAP]/LL-37) were assessed and compared between NTM-LD and BE patients.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36329435"
+        ],
+        "source_excerpt": "Additionally, the Hospital Anxiety and Depression Scale (HADS) scores and chronic inflammatory biomarkers of the alveolar region (surfactant protein [SP]-A, SP-D, and human cationic antibacterial protein [hCAP]/LL-37) were assessed and compared between NTM-LD and BE patients.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=148, 2021: In contrast, a post hoc analysis revealed statistically significant improvement with LL-37 treatment in several interrelated healing parameters in the subgroup of patients with large target wounds (a wound area of at least 10 cm 2 at randomization), which is a known negative prognostic…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34687253"
+        ],
+        "source_excerpt": "In contrast, a post hoc analysis revealed statistically significant improvement with LL-37 treatment in several interrelated healing parameters in the subgroup of patients with large target wounds (a wound area of at least 10 cm 2 at randomization), which is a known negative prognostic factor for healing.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Randomized controlled trial, humans, 2023: For Oral LL-37, as early as treated in 6 days, the adjusted hazard ratio (HR) for a primary event of nucleic acid negative outcome was 6.27-fold higher than 7-day-later (HR: 6.276, 95% confidence interval [CI]: 3.631-10.848, p < 0.0001), and the adjusted HR of Oral LL-37 within 6 days is higher…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37605995"
+        ],
+        "source_excerpt": "For Oral LL-37, as early as treated in 6 days, the adjusted hazard ratio (HR) for a primary event of nucleic acid negative outcome was 6.27-fold higher than 7-day-later (HR: 6.276, 95% confidence interval [CI]: 3.631-10.848, p < 0.0001), and the adjusted HR of Oral LL-37 within 6 days is higher than placebo (HR: 2.427 95% CI: 1.239-4.751, p = 0.0097).",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [
+      {
+        "value": "In vitro study, humans, 2026: Collectively, these results suggest that LL-37 preferentially partitions into cholesterol-poor membrane domains, destabilizing their structure.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42134226"
+        ],
+        "source_excerpt": "Collectively, these results suggest that LL-37 preferentially partitions into cholesterol-poor membrane domains, destabilizing their structure.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Clinical trial, humans, 2026: durations stated: 12 weeks; 12 week. In this multicenter, double-blind, placebo-controlled, three-arm trial, 390 healthy toddlers were randomized (1:1:1) to receive: (1) synbiotic (2'-FL 1.0 g/day + B. infantis R0033 1.5 × 10 10 CFU + B. bifidum R0071 1.5 × 10 10 CFU); (2) probiotic (identical…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42598364"
+        ],
+        "source_excerpt": "In this multicenter, double-blind, placebo-controlled, three-arm trial, 390 healthy toddlers were randomized (1:1:1) to receive: (1) synbiotic (2'-FL 1.0 g/day + B. infantis R0033 1.5 × 10 10 CFU + B. bifidum R0071 1.5 × 10 10 CFU); (2) probiotic (identical strains/doses); or (3) placebo (maltodextrin 1.5 g/day) for 12 weeks, with 12-week follow-up.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=24, 2026: durations stated: 8 weeks. Forty-eight healthy adults were recruited and randomly assigned to receive either B. infantis BI45 or a placebo (n = 24/group) for 8 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42118446"
+        ],
+        "source_excerpt": "Forty-eight healthy adults were recruited and randomly assigned to receive either B. infantis BI45 or a placebo (n = 24/group) for 8 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=101, 2024: durations stated: 6 months. Participants were allocated (1:1:1) to receive placebo, cholecalciferol (vitamin D3 (VD3)) 5600 IU/week (low-dose), or 11 200 IU/week (high-dose) for 6 months.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39181322"
+        ],
+        "source_excerpt": "Participants were allocated (1:1:1) to receive placebo, cholecalciferol (vitamin D3 (VD3)) 5600 IU/week (low-dose), or 11 200 IU/week (high-dose) for 6 months.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2023: durations stated: 6 days; 7 day. For Oral LL-37, as early as treated in 6 days, the adjusted hazard ratio (HR) for a primary event of nucleic acid negative outcome was 6.27-fold higher than 7-day-later (HR: 6.276, 95% confidence interval [CI]: 3.631-10.848, p < 0.0001), and the adjusted HR of…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37605995"
+        ],
+        "source_excerpt": "For Oral LL-37, as early as treated in 6 days, the adjusted hazard ratio (HR) for a primary event of nucleic acid negative outcome was 6.27-fold higher than 7-day-later (HR: 6.276, 95% confidence interval [CI]: 3.631-10.848, p < 0.0001), and the adjusted HR of Oral LL-37 within 6 days is higher than placebo (HR: 2.427 95% CI: 1.239-4.751, p = 0.0097).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=20, 2020: durations stated: 60 years; 90 days. Forty participants, 18-60 years old, were randomized 1:1 to receive 90 days of 1000 IU vitamin D 3 or placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32867053"
+        ],
+        "source_excerpt": "Forty participants, 18-60 years old, were randomized 1:1 to receive 90 days of 1000 IU vitamin D 3 or placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2020: durations stated: 28 days. Randomized controlled trial (RCT) on otherwise healthy exclusively breastfed infants with infant colic randomly allocated to receive BB-12 (1 × 10 9 CFU/day) or placebo for 28 days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31797399"
+        ],
+        "source_excerpt": "Randomized controlled trial (RCT) on otherwise healthy exclusively breastfed infants with infant colic randomly allocated to receive BB-12 (1 × 10 9 CFU/day) or placebo for 28 days.",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
-    "regulatory_status": []
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Clinical trial, humans, 2026: Synbiotic vs. placebo: URTI incidence reduced from 85.4 to 55.4% (adjusted risk ratio (aRR) 0.64, 95% CI 0.43-0.95; ARR 30.0%, NNT = 3.3; p = 0.028); pneumonia from 17.7 to 7.7% (RR 0.40, 0.17-0.94; p = 0.034); diarrhea from 17.7 to 10.0% (aRR 0.54, 0.30-0.95; p = 0.032); and eczema from 13.1 to 1.5% (aRR…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42598364"
+        ],
+        "source_excerpt": "Synbiotic vs. placebo: URTI incidence reduced from 85.4 to 55.4% (adjusted risk ratio (aRR) 0.64, 95% CI 0.43-0.95; ARR 30.0%, NNT = 3.3; p = 0.028); pneumonia from 17.7 to 7.7% (RR 0.40, 0.17-0.94; p = 0.034); diarrhea from 17.7 to 10.0% (aRR 0.54, 0.30-0.95; p = 0.032); and eczema from 13.1 to 1.5% (aRR 0.12, 0.04-0.35; ARR 11.6%, NNT = 2.9; p p = 0.001).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Chen 2026",
+          "year": "2026",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "12 weeks; 12 week",
+          "outcome": "Synbiotic vs. placebo: URTI incidence reduced from 85.4 to 55.4% (adjusted risk ratio (aRR) 0.64, 95% CI 0.43-0.95; ARR 30.0%, NNT = 3.3; p = 0.028); pneumonia from 17.7 to 7.7% (RR 0.40, 0.17-0.94; p = 0.034);…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=24, 2026: Furthermore, B. infantis BI45 supplementation significantly increased serum levels of immunomodulatory markers Immunoglobulin A (IgA) and antimicrobial peptide LL-37 compared to the placebo (p < 0.05) and modulated the gut microbiota by enriching beneficial short-chain fatty acid producers.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42118446"
+        ],
+        "source_excerpt": "Furthermore, B. infantis BI45 supplementation significantly increased serum levels of immunomodulatory markers Immunoglobulin A (IgA) and antimicrobial peptide LL-37 compared to the placebo (p < 0.05) and modulated the gut microbiota by enriching beneficial short-chain fatty acid producers.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Song 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 24,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "8 weeks",
+          "outcome": "Furthermore, B. infantis BI45 supplementation significantly increased serum levels of immunomodulatory markers Immunoglobulin A (IgA) and antimicrobial peptide LL-37 compared to the placebo (p < 0.05) and modulated the…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=49, 2026: In a randomized, double-blind clinical trial (n = 49), daily intake of 3 × 10 10 CFU of LF61 for 8 weeks increased serum levels of the antimicrobial peptide LL-37 by 12.3% (p 3), activated the carbohydrate metabolism pathway (p = 0.002), and maintained stable α-diversity in the microbiome…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41655688"
+        ],
+        "source_excerpt": "In a randomized, double-blind clinical trial (n = 49), daily intake of 3 × 10 10 CFU of LF61 for 8 weeks increased serum levels of the antimicrobial peptide LL-37 by 12.3% (p 3), activated the carbohydrate metabolism pathway (p = 0.002), and maintained stable α-diversity in the microbiome (Shannon index p > 0.05).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Jin 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 49,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In a randomized, double-blind clinical trial (n = 49), daily intake of 3 × 10 10 CFU of LF61 for 8 weeks increased serum levels of the antimicrobial peptide LL-37 by 12.3% (p 3), activated the carbohydrate metabolism…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: However, salivary lysozyme, lactoferrin, human β-defensin-2, and LL-37 secretion rates did not change from baseline to after exercise in both trials.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40810749"
+        ],
+        "source_excerpt": "However, salivary lysozyme, lactoferrin, human β-defensin-2, and LL-37 secretion rates did not change from baseline to after exercise in both trials.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ito 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "However, salivary lysozyme, lactoferrin, human β-defensin-2, and LL-37 secretion rates did not change from baseline to after exercise in both trials."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=207, 2025: There was a significant difference in 25vitD levels between groups on the third [ p = 0.002] and seventh [ p Conclusion : Supplementation with higher doses of cholecalciferol may contribute to a significant increase in 25vitD levels but not in LL37 levels.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39940396"
+        ],
+        "source_excerpt": "There was a significant difference in 25vitD levels between groups on the third [ p = 0.002] and seventh [ p Conclusion : Supplementation with higher doses of cholecalciferol may contribute to a significant increase in 25vitD levels but not in LL37 levels.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gonçalves 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": 207,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "There was a significant difference in 25vitD levels between groups on the third [ p = 0.002] and seventh [ p Conclusion : Supplementation with higher doses of cholecalciferol may contribute to a significant increase in…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=101, 2024: Baseline 25(OH)D was 24.9 ± 6.1 ng/ml, with 23% having 25(OH)D Conclusions While weekly VD3 supplementation, in doses equivalent to 800 IU and 1600 IU daily, was associated with improved 25(OH)D levels in preschoolers, we did not find a reduced number of ARI in this sample.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39181322"
+        ],
+        "source_excerpt": "Baseline 25(OH)D was 24.9 ± 6.1 ng/ml, with 23% having 25(OH)D Conclusions While weekly VD3 supplementation, in doses equivalent to 800 IU and 1600 IU daily, was associated with improved 25(OH)D levels in preschoolers, we did not find a reduced number of ARI in this sample.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Reyes 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": 101,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "6 months",
+          "outcome": "Baseline 25(OH)D was 24.9 ± 6.1 ng/ml, with 23% having 25(OH)D Conclusions While weekly VD3 supplementation, in doses equivalent to 800 IU and 1600 IU daily, was associated with improved 25(OH)D levels in preschoolers,…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2024: The (day 7-day 0) change in serum PCT and LL-37 levels and SOFA score were significantly different in Group I ( P = .010, P P P P P = .025).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38706151"
+        ],
+        "source_excerpt": "The (day 7-day 0) change in serum PCT and LL-37 levels and SOFA score were significantly different in Group I ( P = .010, P P P P P = .025).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ashoor 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The (day 7-day 0) change in serum PCT and LL-37 levels and SOFA score were significantly different in Group I ( P = .010, P P P P P = .025)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2023: For Oral LL-37, as early as treated in 6 days, the adjusted hazard ratio (HR) for a primary event of nucleic acid negative outcome was 6.27-fold higher than 7-day-later (HR: 6.276, 95% confidence interval [CI]: 3.631-10.848, p < 0.0001), and the adjusted HR of Oral LL-37 within 6 days is higher…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37605995"
+        ],
+        "source_excerpt": "For Oral LL-37, as early as treated in 6 days, the adjusted hazard ratio (HR) for a primary event of nucleic acid negative outcome was 6.27-fold higher than 7-day-later (HR: 6.276, 95% confidence interval [CI]: 3.631-10.848, p < 0.0001), and the adjusted HR of Oral LL-37 within 6 days is higher than placebo (HR: 2.427 95% CI: 1.239-4.751, p = 0.0097).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhao 2023",
+          "year": "2023",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "oral",
+          "duration": "6 days; 7 day",
+          "outcome": "For Oral LL-37, as early as treated in 6 days, the adjusted hazard ratio (HR) for a primary event of nucleic acid negative outcome was 6.27-fold higher than 7-day-later (HR: 6.276, 95% confidence interval [CI]:…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2023: The increase in granulation index was consistently greater in the LL-37 group on days 7, 14, 21, and 28 (p = 0.031, 0.009, 0.006, and 0.037, respectively).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37480520"
+        ],
+        "source_excerpt": "The increase in granulation index was consistently greater in the LL-37 group on days 7, 14, 21, and 28 (p = 0.031, 0.009, 0.006, and 0.037, respectively).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Miranda 2023",
+          "year": "2023",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The increase in granulation index was consistently greater in the LL-37 group on days 7, 14, 21, and 28 (p = 0.031, 0.009, 0.006, and 0.037, respectively)."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2022: There were no significant differences in the background characteristics between the 33 NTM and 36 BE patients recruited.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36329435"
+        ],
+        "source_excerpt": "There were no significant differences in the background characteristics between the 33 NTM and 36 BE patients recruited.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Fujita 2022",
+          "year": "2022",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "There were no significant differences in the background characteristics between the 33 NTM and 36 BE patients recruited."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=148, 2021: Efficacy analysis performed on the full study population did not identify any significant improvement in healing in patients treated with LL-37 as compared with the placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34687253"
+        ],
+        "source_excerpt": "Efficacy analysis performed on the full study population did not identify any significant improvement in healing in patients treated with LL-37 as compared with the placebo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mahlapuu 2021",
+          "year": "2021",
+          "design": "Randomized controlled trial",
+          "n": 148,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "topical",
+          "duration": "not stated in abstract",
+          "outcome": "Efficacy analysis performed on the full study population did not identify any significant improvement in healing in patients treated with LL-37 as compared with the placebo."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=20, 2020: The increased ASL antimicrobial activity seen during the summer-fall was abrogated by adding the LL-37 neutralizing antibody.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32867053"
+        ],
+        "source_excerpt": "The increased ASL antimicrobial activity seen during the summer-fall was abrogated by adding the LL-37 neutralizing antibody.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Vargas 2020",
+          "year": "2020",
+          "design": "Randomized controlled trial",
+          "n": 20,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "60 years; 90 days",
+          "outcome": "The increased ASL antimicrobial activity seen during the summer-fall was abrogated by adding the LL-37 neutralizing antibody."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=8, 2020: For statistical analysis, SPSS 26.0/R3.6.3 (p Results The AMPs LL-37 and HBD-3 were significantly elevated (up to 20×) in synovial membranes from PJI compared to aseptic loosening or primary arthroplasty.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32799924"
+        ],
+        "source_excerpt": "For statistical analysis, SPSS 26.0/R3.6.3 (p Results The AMPs LL-37 and HBD-3 were significantly elevated (up to 20×) in synovial membranes from PJI compared to aseptic loosening or primary arthroplasty.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Banke 2020",
+          "year": "2020",
+          "design": "Clinical trial",
+          "n": 8,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "For statistical analysis, SPSS 26.0/R3.6.3 (p Results The AMPs LL-37 and HBD-3 were significantly elevated (up to 20×) in synovial membranes from PJI compared to aseptic loosening or primary arthroplasty."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2020: The rate of infants with reduction of ≥50% of mean daily crying duration was higher in infants treated with BB-12, starting from the end of 2nd week.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31797399"
+        ],
+        "source_excerpt": "The rate of infants with reduction of ≥50% of mean daily crying duration was higher in infants treated with BB-12, starting from the end of 2nd week.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Nocerino 2020",
+          "year": "2020",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "28 days",
+          "outcome": "The rate of infants with reduction of ≥50% of mean daily crying duration was higher in infants treated with BB-12, starting from the end of 2nd week."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=167, 2019: Vitamin D + phenylbutyrate treatment significantly increased 25-hydroxyvitamin D levels ( p p = 0.02), whereas treatment failed to significantly impact LL-37-levels in multiple regression analysis.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31330899"
+        ],
+        "source_excerpt": "Vitamin D + phenylbutyrate treatment significantly increased 25-hydroxyvitamin D levels ( p p = 0.02), whereas treatment failed to significantly impact LL-37-levels in multiple regression analysis.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Missailidis 2019",
+          "year": "2019",
+          "design": "Randomized controlled trial",
+          "n": 167,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "16 weeks",
+          "outcome": "Vitamin D + phenylbutyrate treatment significantly increased 25-hydroxyvitamin D levels ( p p = 0.02), whereas treatment failed to significantly impact LL-37-levels in multiple regression analysis."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2019: Nasal polyps had higher NETs% compared with that of controls (23.01% ± 3.43% vs 4.52% ± 1.33%, P Conclusion Neutrophil extracellular traps are significantly increased in nasal polyps and LL-37 induces NET formation in CRSwNP patients.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31046155"
+        ],
+        "source_excerpt": "Nasal polyps had higher NETs% compared with that of controls (23.01% ± 3.43% vs 4.52% ± 1.33%, P Conclusion Neutrophil extracellular traps are significantly increased in nasal polyps and LL-37 induces NET formation in CRSwNP patients.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Cao 2019",
+          "year": "2019",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Nasal polyps had higher NETs% compared with that of controls (23.01% ± 3.43% vs 4.52% ± 1.33%, P Conclusion Neutrophil extracellular traps are significantly increased in nasal polyps and LL-37 induces NET formation in…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=31, 2017: We established that the mean level of LL-37 was statistically significantly higher in TB patients than that in patients with Gram-positive bacteria-induced pneumonia (p < 0.001), in patients with Gram-negative bacteria-induced pneumonia (p < 0.001), and in healthy controls (p < 0.001).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28956425"
+        ],
+        "source_excerpt": "We established that the mean level of LL-37 was statistically significantly higher in TB patients than that in patients with Gram-positive bacteria-induced pneumonia (p < 0.001), in patients with Gram-negative bacteria-induced pneumonia (p < 0.001), and in healthy controls (p < 0.001).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Majewski 2017",
+          "year": "2017",
+          "design": "Randomized controlled trial",
+          "n": 31,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "We established that the mean level of LL-37 was statistically significantly higher in TB patients than that in patients with Gram-positive bacteria-induced pneumonia (p < 0.001), in patients with Gram-negative…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2017: Plasma concentrations of free 25(OH)D over time were correlated with total 25(OH)D levels (r= 0.82; P 3 dose than with the lower dose.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28526374"
+        ],
+        "source_excerpt": "Plasma concentrations of free 25(OH)D over time were correlated with total 25(OH)D levels (r= 0.82; P 3 dose than with the lower dose.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Han 2017",
+          "year": "2017",
+          "design": "Randomized controlled trial",
+          "n": 30,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Plasma concentrations of free 25(OH)D over time were correlated with total 25(OH)D levels (r= 0.82; P 3 dose than with the lower dose."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2015: Levels of neutrophil α-defensins (human neutrophil peptides 1-3; HNP1-3) and lipocalin 2 (LCN2; also known as NGAL) were significantly lower in asthmatics, but no differences in LL-37 and SLPI were detected.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26545199"
+        ],
+        "source_excerpt": "Levels of neutrophil α-defensins (human neutrophil peptides 1-3; HNP1-3) and lipocalin 2 (LCN2; also known as NGAL) were significantly lower in asthmatics, but no differences in LL-37 and SLPI were detected.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Thijs 2015",
+          "year": "2015",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Levels of neutrophil α-defensins (human neutrophil peptides 1-3; HNP1-3) and lipocalin 2 (LCN2; also known as NGAL) were significantly lower in asthmatics, but no differences in LL-37 and SLPI were detected."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2014: Also, the ability of citrullinated LL-37 to quench macrophage responses to lipoteichoic acid and poly(I:C) signaling via TLR2 and TLR3, respectively, was significantly reduced.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-24771854"
+        ],
+        "source_excerpt": "Also, the ability of citrullinated LL-37 to quench macrophage responses to lipoteichoic acid and poly(I:C) signaling via TLR2 and TLR3, respectively, was significantly reduced.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Koziel 2014",
+          "year": "2014",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Also, the ability of citrullinated LL-37 to quench macrophage responses to lipoteichoic acid and poly(I:C) signaling via TLR2 and TLR3, respectively, was significantly reduced."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=40, 2012: Stool concentration of LL-37 remained significantly higher in the Intervention group on days 4 and 7.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-22574737"
+        ],
+        "source_excerpt": "Stool concentration of LL-37 remained significantly higher in the Intervention group on days 4 and 7.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Raqib 2012",
+          "year": "2012",
+          "design": "Randomized controlled trial",
+          "n": 40,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "3 days",
+          "outcome": "Stool concentration of LL-37 remained significantly higher in the Intervention group on days 4 and 7."
+        }
+      },
+      {
+        "value": "Animal study, 2026: Short hairpin RNA (shRNA)-mediated Stac silencing significantly enhanced EV71 infection, while Stac overexpression markedly reduced it.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42043231"
+        ],
+        "source_excerpt": "Short hairpin RNA (shRNA)-mediated Stac silencing significantly enhanced EV71 infection, while Stac overexpression markedly reduced it.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhang 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Short hairpin RNA (shRNA)-mediated Stac silencing significantly enhanced EV71 infection, while Stac overexpression markedly reduced it."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2026: ITC measurements confirmed a higher binding affinity of LL-37 for sphingomyelin-rich regions, whereas fluorescence permeabilization assays demonstrated a progressive increase in membrane resistance to peptide-induced disruption with increasing CHO content.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42134226"
+        ],
+        "source_excerpt": "ITC measurements confirmed a higher binding affinity of LL-37 for sphingomyelin-rich regions, whereas fluorescence permeabilization assays demonstrated a progressive increase in membrane resistance to peptide-induced disruption with increasing CHO content.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Giraldo-Lorza 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "ITC measurements confirmed a higher binding affinity of LL-37 for sphingomyelin-rich regions, whereas fluorescence permeabilization assays demonstrated a progressive increase in membrane resistance to peptide-induced…"
+        }
+      },
+      {
+        "value": "In vitro study, 2026: The double cooperative effect between two major antimicrobial peptides, LL-37 and HNP1, where their combination enhances antimicrobial efficiency while reducing cytotoxicity, offers a promising strategy for developing safer and more effective antibiotics against antimicrobial resistance.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41923698"
+        ],
+        "source_excerpt": "The double cooperative effect between two major antimicrobial peptides, LL-37 and HNP1, where their combination enhances antimicrobial efficiency while reducing cytotoxicity, offers a promising strategy for developing safer and more effective antibiotics against antimicrobial resistance.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hou 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The double cooperative effect between two major antimicrobial peptides, LL-37 and HNP1, where their combination enhances antimicrobial efficiency while reducing cytotoxicity, offers a promising strategy for developing…"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2026: LL-37-mediated increase in COX-2 expression was significantly higher than that mediated by citLL-37.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41535907"
+        ],
+        "source_excerpt": "LL-37-mediated increase in COX-2 expression was significantly higher than that mediated by citLL-37.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ramotar 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "LL-37-mediated increase in COX-2 expression was significantly higher than that mediated by citLL-37."
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -48,15 +756,44 @@
       "review": 0,
       "unclassified": 1
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 32,
+      "claims": 22,
+      "evidence_table_rows": 25
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports doses used for LL-37.",
+    "No study in this record's ledger reports weight-normalized doses for LL-37.",
+    "No study in this record's ledger reports exclusion criteria for LL-37."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has LL-37 been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 23 clinical trials and 38 randomized controlled trials naming LL-37 or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for LL-37?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is LL-37 an approved medicine?",
+      "answer": "No ChEMBL record matches LL-37 or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has LL-37 been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42598364",
@@ -284,7 +1021,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 78.4,
   "review": {
     "author": "",
     "reviewer": "",
@@ -295,6 +1032,14 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 32 ledger sources by scripts/draft_claims.py: 29 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 32 ledger sources by scripts/draft_claims.py: 22 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

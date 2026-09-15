@@ -1,0 +1,25 @@
+---
+// Section 24: a generated summary card. Computed from the record, never
+// hand-written, so it cannot drift from the page above it.
+import EvidenceLabel from './EvidenceLabel.astro';
+import { formatCount } from '../lib/site';
+interface Props { record: any; reg: any }
+const { record: d, reg } = Astro.props;
+const pubs = d.evidence_summary?.publications ?? {};
+const species = [...new Set((d.attributes.evidence_table ?? []).map((r: any) => r.fields?.species).filter((s: string) => s && s !== 'not indexed').flatMap((s: string) => s.split(', ')))].sort();
+const routes = [...new Set((d.attributes.evidence_table ?? []).map((r: any) => r.fields?.route).filter((s: string) => s && !s.startsWith('not stated')).flatMap((s: string) => s.split(', ')))].sort();
+const chembl = d.evidence_summary?.chembl;
+---
+<div class="refcard" id="reference-card">
+  <div class="refcard-head"><span class="eyebrow">Reference card</span><span class="eyebrow">generated {d.evidence_summary?.drafting?.date ?? ''}</span></div>
+  <dl class="facts">
+    <dt>Compound</dt><dd>{d.preferred_name}{reg ? `, ${reg.class.replace(/-/g, ' ')}` : ''}</dd>
+    <dt>Evidence tier</dt><dd><EvidenceLabel tier={d.evidence_tier} /></dd>
+    <dt>Indexed publications</dt><dd>{formatCount(pubs.total)} · {formatCount(pubs.randomized_controlled_trials)} RCTs · {formatCount(pubs.clinical_trials)} clinical trials</dd>
+    {species.length > 0 && <><dt>Species studied</dt><dd>{species.join(', ')}</dd></>}
+    {routes.length > 0 && <><dt>Routes reported</dt><dd>{routes.join(', ')}</dd></>}
+    <dt>Approval</dt><dd>{chembl ? (Number(chembl.max_phase) >= 4 ? `approved (${chembl.first_approval ?? 'year not recorded'})` : `not approved; max clinical phase ${chembl.max_phase ?? 'none'}`) : 'no registered development programme found'}</dd>
+    <dt>Reviewed</dt><dd>{d.review?.reviewer ? `${d.review.reviewer}, ${d.review.reviewer_credential}, ${d.review.reviewed_at}` : 'not yet'}</dd>
+  </dl>
+  <p class="refcard-foot">Study figures are as published in each source and are not recommendations. Print or save this card with its date.</p>
+</div>

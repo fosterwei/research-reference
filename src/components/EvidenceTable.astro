@@ -1,0 +1,27 @@
+---
+// Section 4 of the template: one row per primary study in the ledger, each
+// field read from the paper's own indexing or abstract. "not stated in
+// abstract" is shown as such rather than guessed.
+import EvidenceLabel from './EvidenceLabel.astro';
+interface Row { value: string; evidence_label: string; source_ids: string[]; source_excerpt?: string; fields?: Record<string, any> }
+interface Props { rows: Row[] }
+const { rows } = Astro.props;
+---
+<div class="tscroll">
+<table class="evidence">
+  <thead><tr><th>Study</th><th>Design</th><th class="num">n</th><th>Species</th><th>Dose</th><th>Route</th><th>Duration</th><th>Reported outcome</th><th>Tier</th></tr></thead>
+  <tbody>
+    {rows.map((r) => { const f = r.fields ?? {}; return (
+      <tr>
+        <td><a href={`#${r.source_ids[0]}`}>{f.study || r.source_ids[0]}</a></td>
+        <td>{f.design}</td>
+        <td class="num">{f.n ? Number(f.n).toLocaleString('en-US') : '—'}</td>
+        <td>{f.species === 'not indexed' ? '—' : f.species}</td>
+        <td>{f.dose}</td><td>{f.route}</td><td>{f.duration}</td>
+        <td class="outcome">{f.outcome}</td>
+        <td><EvidenceLabel tier={r.evidence_label} /></td>
+      </tr>
+    ); })}
+  </tbody>
+</table>
+</div>

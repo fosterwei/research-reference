@@ -5,26 +5,860 @@
     "TP-7"
   ],
   "slug": "selank",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for Selank. Europe PMC indexes 96 publications, including 2 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Selank is a peptide in the neuropeptides nootropic class (tuftsin analog; GABAergic and cytokine effects reported). Europe PMC indexes 96 publications naming it or a listed alias in a title or abstract, including 2 randomized controlled trials and 2 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Selank: what the research shows",
-    "description": "Cited overview of published Selank research: 96 indexed publications, 2 randomized controlled trials. Evidence tier on every claim."
+    "description": "Selank research, cited: 96 indexed publications, 2 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
+    "routes_studied": [
+      {
+        "value": "Human study, humans, 1999: administration by oral route reported. Thirty-seven patients with newly diagnosed bone metastases from breast cancer, randomized to receive oral pamidronate or placebo tablets in addition to anticancer treatment within the context of a multicentre EORTC trial, who were both assessable for radiographic response…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-10390000"
+        ],
+        "source_excerpt": "Thirty-seven patients with newly diagnosed bone metastases from breast cancer, randomized to receive oral pamidronate or placebo tablets in addition to anticancer treatment within the context of a multicentre EORTC trial, who were both assessable for radiographic response in bone and had serum and urine samples collected for more than 1 month were studied.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2022: administration by intraperitoneal route reported. Single intraperitoneal injection of Selank in an anxiolytic dose of 0.3 mg/kg reduced the total index of morphine withdrawal syndrome by 39.6%, significantly (р<0.0001) attenuated convulsive reactions, ptosis, and posture disorders, and 9-fold increased the…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36322304"
+        ],
+        "source_excerpt": "Single intraperitoneal injection of Selank in an anxiolytic dose of 0.3 mg/kg reduced the total index of morphine withdrawal syndrome by 39.6%, significantly (р<0.0001) attenuated convulsive reactions, ptosis, and posture disorders, and 9-fold increased the tactile sensitivity threshold in morphine-dependent rats in comparison with the group of active control; at the same time, Selank was slightly inferior to diazepam in a dose of 2 mg/kg by pharmacological activity (the decrease in total index of morphine withdrawal syndrome by 49.3% and 13-fold increase in sensitivity threshold).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: administration by intraperitoneal route reported. Laboratory animals were divided into 3 groups: a group of intact males, a group of animals that were subjected to stress (sensory contact) for 20 days and a group that received intraperitoneally Selank at a dose of 100 mcg/kg/day under conditions of 20-day stress.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32621722"
+        ],
+        "source_excerpt": "Laboratory animals were divided into 3 groups: a group of intact males, a group of animals that were subjected to stress (sensory contact) for 20 days and a group that received intraperitoneally Selank at a dose of 100 mcg/kg/day under conditions of 20-day stress.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2019: administration by intraperitoneal route reported. In the object recognition test, Selank (0.3 mg/kg a day, 7 days, intraperitoneally) produced a cognitive-stimulating effect in 9 months rats not exposed to ethanol (p<0.05) and prevented the formation of ethanol-induced memory and attention disturbances (p<0.01)…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-31625062"
+        ],
+        "source_excerpt": "In the object recognition test, Selank (0.3 mg/kg a day, 7 days, intraperitoneally) produced a cognitive-stimulating effect in 9 months rats not exposed to ethanol (p<0.05) and prevented the formation of ethanol-induced memory and attention disturbances (p<0.01) developing during alcohol withdrawal.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2017: administration by intraperitoneal route reported. We studied the effect of Selank administered intraperitoneally in doses of 100, 300, and 1000 μg/kg to male Wistar rats 15 min prior to restraint stress on the content of aminotransferases and total protein concentration in blood serum and intensity of free…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-28853100"
+        ],
+        "source_excerpt": "We studied the effect of Selank administered intraperitoneally in doses of 100, 300, and 1000 μg/kg to male Wistar rats 15 min prior to restraint stress on the content of aminotransferases and total protein concentration in blood serum and intensity of free radical oxidation in the liver.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=2, 2016: administration by intraperitoneal route reported. Selank that enhances activity of the endogenous opioid system (0.3 mg/kg, intraperitoneally), similar to the nonselective opiate receptor blocker naloxone (1.0 mg/kg, intraperitoneally), prevented the development of ethanol-induced (2.0 g/kg…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-27878720"
+        ],
+        "source_excerpt": "Selank that enhances activity of the endogenous opioid system (0.3 mg/kg, intraperitoneally), similar to the nonselective opiate receptor blocker naloxone (1.0 mg/kg, intraperitoneally), prevented the development of ethanol-induced (2.0 g/kg intraperitoneally) hyperlocomotion, in contrast to σ1-receptors agonist Afobazole (1.0 mg/kg, intraperitoneally) that did not inhibit ethanol-induced behavioral stimulation.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Animal study, rats, 2022: doses stated in the abstract: 0.3 mg/kg; 2 mg/kg. Single intraperitoneal injection of Selank in an anxiolytic dose of 0.3 mg/kg reduced the total index of morphine withdrawal syndrome by 39.6%, significantly (р<0.0001) attenuated convulsive reactions, ptosis, and posture disorders, and 9-fold increased the…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36322304"
+        ],
+        "source_excerpt": "Single intraperitoneal injection of Selank in an anxiolytic dose of 0.3 mg/kg reduced the total index of morphine withdrawal syndrome by 39.6%, significantly (р<0.0001) attenuated convulsive reactions, ptosis, and posture disorders, and 9-fold increased the tactile sensitivity threshold in morphine-dependent rats in comparison with the group of active control; at the same time, Selank was slightly inferior to diazepam in a dose of 2 mg/kg by pharmacological activity (the decrease in total index of morphine withdrawal syndrome by 49.3% and 13-fold increase in sensitivity threshold).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: doses stated in the abstract: 100 mcg/kg/day. Laboratory animals were divided into 3 groups: a group of intact males, a group of animals that were subjected to stress (sensory contact) for 20 days and a group that received intraperitoneally Selank at a dose of 100 mcg/kg/day under conditions of 20-day stress.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32621722"
+        ],
+        "source_excerpt": "Laboratory animals were divided into 3 groups: a group of intact males, a group of animals that were subjected to stress (sensory contact) for 20 days and a group that received intraperitoneally Selank at a dose of 100 mcg/kg/day under conditions of 20-day stress.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2019: doses stated in the abstract: 0.3 mg/kg a day. In the object recognition test, Selank (0.3 mg/kg a day, 7 days, intraperitoneally) produced a cognitive-stimulating effect in 9 months rats not exposed to ethanol (p<0.05) and prevented the formation of ethanol-induced memory and attention disturbances (p<0.01)…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-31625062"
+        ],
+        "source_excerpt": "In the object recognition test, Selank (0.3 mg/kg a day, 7 days, intraperitoneally) produced a cognitive-stimulating effect in 9 months rats not exposed to ethanol (p<0.05) and prevented the formation of ethanol-induced memory and attention disturbances (p<0.01) developing during alcohol withdrawal.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2017: doses stated in the abstract: 1000 μg/kg. Administration of Selank in a dose of 1000 μg/kg reduced the content of aminotransferases in blood serum, decreased superoxide dismutase activity in the liver, and increased total antioxidant activity.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-28853100"
+        ],
+        "source_excerpt": "Administration of Selank in a dose of 1000 μg/kg reduced the content of aminotransferases in blood serum, decreased superoxide dismutase activity in the liver, and increased total antioxidant activity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=2, 2016: doses stated in the abstract: 0.3 mg/kg. Selank that enhances activity of the endogenous opioid system (0.3 mg/kg, intraperitoneally), similar to the nonselective opiate receptor blocker naloxone (1.0 mg/kg, intraperitoneally), prevented the development of ethanol-induced (2.0 g/kg intraperitoneally)…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-27878720"
+        ],
+        "source_excerpt": "Selank that enhances activity of the endogenous opioid system (0.3 mg/kg, intraperitoneally), similar to the nonselective opiate receptor blocker naloxone (1.0 mg/kg, intraperitoneally), prevented the development of ethanol-induced (2.0 g/kg intraperitoneally) hyperlocomotion, in contrast to σ1-receptors agonist Afobazole (1.0 mg/kg, intraperitoneally) that did not inhibit ethanol-induced behavioral stimulation.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=6, 2016: doses stated in the abstract: 300 μg/kg/day. Pharmacological effects of intraperitoneal (i.p.) and intranasal (i.n.) administration of heptapeptide selank (300 μg/kg/day for 5 days), known to possess anxiolytic and nootropic properties, were compared by studying the elevated-plus-maze behavior of inbred…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-29787664"
+        ],
+        "source_excerpt": "Pharmacological effects of intraperitoneal (i.p.) and intranasal (i.n.) administration of heptapeptide selank (300 μg/kg/day for 5 days), known to possess anxiolytic and nootropic properties, were compared by studying the elevated-plus-maze behavior of inbred BALB/c and C57BL/6 mice and measuring the binding of markers to NMDA and GABA receptors of brain.",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
-    "interactions": [],
+    "interactions": [
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2015: Taken together, the therapeutic efficacy and reduction of side-effects had a positive impact on the quality-of-life of the patients treated with selank as add-on to phenazepam.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26356395"
+        ],
+        "source_excerpt": "Taken together, the therapeutic efficacy and reduction of side-effects had a positive impact on the quality-of-life of the patients treated with selank as add-on to phenazepam.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2022: The potential strains, especially Tp-7, improved the nutritional value of FSBM by their strong hydrolytic and antioxidant activities, together with reducing antinutritional components.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-35536569"
+        ],
+        "source_excerpt": "The potential strains, especially Tp-7, improved the nutritional value of FSBM by their strong hydrolytic and antioxidant activities, together with reducing antinutritional components.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
+    "adverse_events": [
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2015: Taken together, the therapeutic efficacy and reduction of side-effects had a positive impact on the quality-of-life of the patients treated with selank as add-on to phenazepam.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26356395"
+        ],
+        "source_excerpt": "Taken together, the therapeutic efficacy and reduction of side-effects had a positive impact on the quality-of-life of the patients treated with selank as add-on to phenazepam.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2022: Activity of a peptide tuftsin analogue Selank was studied in outbred rats using the naloxone-precipitated morphine withdrawal model.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36322304"
+        ],
+        "source_excerpt": "Activity of a peptide tuftsin analogue Selank was studied in outbred rats using the naloxone-precipitated morphine withdrawal model.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2019: In the object recognition test, Selank (0.3 mg/kg a day, 7 days, intraperitoneally) produced a cognitive-stimulating effect in 9 months rats not exposed to ethanol (p<0.05) and prevented the formation of ethanol-induced memory and attention disturbances (p<0.01) developing during alcohol withdrawal.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-31625062"
+        ],
+        "source_excerpt": "In the object recognition test, Selank (0.3 mg/kg a day, 7 days, intraperitoneally) produced a cognitive-stimulating effect in 9 months rats not exposed to ethanol (p<0.05) and prevented the formation of ethanol-induced memory and attention disturbances (p<0.01) developing during alcohol withdrawal.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2008: The anxiolytic effects of both drugs were similar but selank had also antiasthenic and psychostimulant effects.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18454096"
+        ],
+        "source_excerpt": "The anxiolytic effects of both drugs were similar but selank had also antiasthenic and psychostimulant effects.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2020: The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-32342318"
+        ],
+        "source_excerpt": "The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: This experiment is aimed at studying the effect of the Selank glyprolin neuropeptide drug on the level of cytokines in animals under conditions of \"social\" stress, the results of which indicate the presence of stress-protective activity.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32621722"
+        ],
+        "source_excerpt": "This experiment is aimed at studying the effect of the Selank glyprolin neuropeptide drug on the level of cytokines in animals under conditions of \"social\" stress, the results of which indicate the presence of stress-protective activity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2017: Under conditions of chronic stress, Selank in all doses produced similar effects: reduced superoxide dismutase activity and malondialdehyde concentration in the liver tissue and AST activity in the serum.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-28853100"
+        ],
+        "source_excerpt": "Under conditions of chronic stress, Selank in all doses produced similar effects: reduced superoxide dismutase activity and malondialdehyde concentration in the liver tissue and AST activity in the serum.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2017: Previously such effects of Selank were revealed in healthy rodents (rats and mice) with different models of psycho-emotional stress.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-28702721"
+        ],
+        "source_excerpt": "Previously such effects of Selank were revealed in healthy rodents (rats and mice) with different models of psycho-emotional stress.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=2, 2016: Selank that enhances activity of the endogenous opioid system (0.3 mg/kg, intraperitoneally), similar to the nonselective opiate receptor blocker naloxone (1.0 mg/kg, intraperitoneally), prevented the development of ethanol-induced (2.0 g/kg intraperitoneally) hyperlocomotion, in contrast to σ1-receptors…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-27878720"
+        ],
+        "source_excerpt": "Selank that enhances activity of the endogenous opioid system (0.3 mg/kg, intraperitoneally), similar to the nonselective opiate receptor blocker naloxone (1.0 mg/kg, intraperitoneally), prevented the development of ethanol-induced (2.0 g/kg intraperitoneally) hyperlocomotion, in contrast to σ1-receptors agonist Afobazole (1.0 mg/kg, intraperitoneally) that did not inhibit ethanol-induced behavioral stimulation.",
+        "drafting": "extractive"
+      }
+    ],
     "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
-    "regulatory_status": []
+    "storage": [
+      {
+        "value": "Animal study, rats, 2010: It was established that selank induces an increase in memory trace stability during 30 days.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-20919548"
+        ],
+        "source_excerpt": "It was established that selank induces an increase in memory trace stability during 30 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2001: A dose-dependent effect of synthetic heptapeptides Semax (Met-Glu-His-Phe-Pro-Gly-Pro) and Selank (Thr-Lys-Pro-Arg-Pro-Gly-Pro) on the enkephalin-degrading enzymes of human serum was demonstrated.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-11443939"
+        ],
+        "source_excerpt": "A dose-dependent effect of synthetic heptapeptides Semax (Met-Glu-His-Phe-Pro-Gly-Pro) and Selank (Thr-Lys-Pro-Arg-Pro-Gly-Pro) on the enkephalin-degrading enzymes of human serum was demonstrated.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Human study, humans, 1999: durations stated: 1 month. Thirty-seven patients with newly diagnosed bone metastases from breast cancer, randomized to receive oral pamidronate or placebo tablets in addition to anticancer treatment within the context of a multicentre EORTC trial, who were both assessable for radiographic response in bone and…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-10390000"
+        ],
+        "source_excerpt": "Thirty-seven patients with newly diagnosed bone metastases from breast cancer, randomized to receive oral pamidronate or placebo tablets in addition to anticancer treatment within the context of a multicentre EORTC trial, who were both assessable for radiographic response in bone and had serum and urine samples collected for more than 1 month were studied.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: durations stated: 20 days; 20 day. Laboratory animals were divided into 3 groups: a group of intact males, a group of animals that were subjected to stress (sensory contact) for 20 days and a group that received intraperitoneally Selank at a dose of 100 mcg/kg/day under conditions of 20-day stress.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32621722"
+        ],
+        "source_excerpt": "Laboratory animals were divided into 3 groups: a group of intact males, a group of animals that were subjected to stress (sensory contact) for 20 days and a group that received intraperitoneally Selank at a dose of 100 mcg/kg/day under conditions of 20-day stress.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2019: durations stated: 30 weeks. The effects of a peptide anxiolytic Selank synthesized on the basis of the endogenous peptide tuftsin on memory impairment and content of brain-derived neurotrophic factor (BDNF) in brain structures were analyzed in outbred rats receiving 10% ethanol as the only source of fluid for…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-31625062"
+        ],
+        "source_excerpt": "The effects of a peptide anxiolytic Selank synthesized on the basis of the endogenous peptide tuftsin on memory impairment and content of brain-derived neurotrophic factor (BDNF) in brain structures were analyzed in outbred rats receiving 10% ethanol as the only source of fluid for 30 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=6, 2016: durations stated: 5 days. Pharmacological effects of intraperitoneal (i.p.) and intranasal (i.n.) administration of heptapeptide selank (300 μg/kg/day for 5 days), known to possess anxiolytic and nootropic properties, were compared by studying the elevated-plus-maze behavior of inbred BALB/c and C57BL/6…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-29787664"
+        ],
+        "source_excerpt": "Pharmacological effects of intraperitoneal (i.p.) and intranasal (i.n.) administration of heptapeptide selank (300 μg/kg/day for 5 days), known to possess anxiolytic and nootropic properties, were compared by studying the elevated-plus-maze behavior of inbred BALB/c and C57BL/6 mice and measuring the binding of markers to NMDA and GABA receptors of brain.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2010: durations stated: 30 days. Retention was tested 24 h, 7 and 30 days after treatment.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-20919548"
+        ],
+        "source_excerpt": "Retention was tested 24 h, 7 and 30 days after treatment.",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Animal study, rats, 2022: weight-normalized doses as published: 0.3 mg/kg; 2 mg/kg. Single intraperitoneal injection of Selank in an anxiolytic dose of 0.3 mg/kg reduced the total index of morphine withdrawal syndrome by 39.6%, significantly (р<0.0001) attenuated convulsive reactions, ptosis, and posture disorders, and 9-fold increased…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36322304"
+        ],
+        "source_excerpt": "Single intraperitoneal injection of Selank in an anxiolytic dose of 0.3 mg/kg reduced the total index of morphine withdrawal syndrome by 39.6%, significantly (р<0.0001) attenuated convulsive reactions, ptosis, and posture disorders, and 9-fold increased the tactile sensitivity threshold in morphine-dependent rats in comparison with the group of active control; at the same time, Selank was slightly inferior to diazepam in a dose of 2 mg/kg by pharmacological activity (the decrease in total index of morphine withdrawal syndrome by 49.3% and 13-fold increase in sensitivity threshold).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: weight-normalized doses as published: 100 mcg/kg/day. Laboratory animals were divided into 3 groups: a group of intact males, a group of animals that were subjected to stress (sensory contact) for 20 days and a group that received intraperitoneally Selank at a dose of 100 mcg/kg/day under conditions of 20-day…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32621722"
+        ],
+        "source_excerpt": "Laboratory animals were divided into 3 groups: a group of intact males, a group of animals that were subjected to stress (sensory contact) for 20 days and a group that received intraperitoneally Selank at a dose of 100 mcg/kg/day under conditions of 20-day stress.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2019: weight-normalized doses as published: 0.3 mg/kg a day. In the object recognition test, Selank (0.3 mg/kg a day, 7 days, intraperitoneally) produced a cognitive-stimulating effect in 9 months rats not exposed to ethanol (p<0.05) and prevented the formation of ethanol-induced memory and attention disturbances…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-31625062"
+        ],
+        "source_excerpt": "In the object recognition test, Selank (0.3 mg/kg a day, 7 days, intraperitoneally) produced a cognitive-stimulating effect in 9 months rats not exposed to ethanol (p<0.05) and prevented the formation of ethanol-induced memory and attention disturbances (p<0.01) developing during alcohol withdrawal.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2017: weight-normalized doses as published: 1000 μg/kg. Administration of Selank in a dose of 1000 μg/kg reduced the content of aminotransferases in blood serum, decreased superoxide dismutase activity in the liver, and increased total antioxidant activity.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-28853100"
+        ],
+        "source_excerpt": "Administration of Selank in a dose of 1000 μg/kg reduced the content of aminotransferases in blood serum, decreased superoxide dismutase activity in the liver, and increased total antioxidant activity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=2, 2016: weight-normalized doses as published: 0.3 mg/kg. Selank that enhances activity of the endogenous opioid system (0.3 mg/kg, intraperitoneally), similar to the nonselective opiate receptor blocker naloxone (1.0 mg/kg, intraperitoneally), prevented the development of ethanol-induced (2.0 g/kg…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-27878720"
+        ],
+        "source_excerpt": "Selank that enhances activity of the endogenous opioid system (0.3 mg/kg, intraperitoneally), similar to the nonselective opiate receptor blocker naloxone (1.0 mg/kg, intraperitoneally), prevented the development of ethanol-induced (2.0 g/kg intraperitoneally) hyperlocomotion, in contrast to σ1-receptors agonist Afobazole (1.0 mg/kg, intraperitoneally) that did not inhibit ethanol-induced behavioral stimulation.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=6, 2016: weight-normalized doses as published: 300 μg/kg/day. Pharmacological effects of intraperitoneal (i.p.) and intranasal (i.n.) administration of heptapeptide selank (300 μg/kg/day for 5 days), known to possess anxiolytic and nootropic properties, were compared by studying the elevated-plus-maze behavior of…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-29787664"
+        ],
+        "source_excerpt": "Pharmacological effects of intraperitoneal (i.p.) and intranasal (i.n.) administration of heptapeptide selank (300 μg/kg/day for 5 days), known to possess anxiolytic and nootropic properties, were compared by studying the elevated-plus-maze behavior of inbred BALB/c and C57BL/6 mice and measuring the binding of markers to NMDA and GABA receptors of brain.",
+        "drafting": "extractive"
+      }
+    ],
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2015: Taken together, the therapeutic efficacy and reduction of side-effects had a positive impact on the quality-of-life of the patients treated with selank as add-on to phenazepam.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26356395"
+        ],
+        "source_excerpt": "Taken together, the therapeutic efficacy and reduction of side-effects had a positive impact on the quality-of-life of the patients treated with selank as add-on to phenazepam.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Medvedev 2015",
+          "year": "2015",
+          "design": "Randomized controlled trial",
+          "n": 30,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Taken together, the therapeutic efficacy and reduction of side-effects had a positive impact on the quality-of-life of the patients treated with selank as add-on to phenazepam."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=60, 2014: To study the efficacy and tolerability of the new anxyolytic peptide selank in comparison with phenazepam.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25176261"
+        ],
+        "source_excerpt": "To study the efficacy and tolerability of the new anxyolytic peptide selank in comparison with phenazepam.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Medvedev 2014",
+          "year": "2014",
+          "design": "Clinical trial",
+          "n": 60,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=2, 2012: After 5 weeks of augmentation, 51% of the patients were rated as \"much\" or \"very much\" improved.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-22796912"
+        ],
+        "source_excerpt": "After 5 weeks of augmentation, 51% of the patients were rated as \"much\" or \"very much\" improved.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Alevizos 2012",
+          "year": "2012",
+          "design": "Clinical trial",
+          "n": 2,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "After 5 weeks of augmentation, 51% of the patients were rated as \"much\" or \"very much\" improved."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2008: The increase of this parameter and stronger positive correlations with anxiety level were observed during the treatment with selank mostly in patients with GAD.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18454096"
+        ],
+        "source_excerpt": "The increase of this parameter and stronger positive correlations with anxiety level were observed during the treatment with selank mostly in patients with GAD.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zozulia 2008",
+          "year": "2008",
+          "design": "Randomized controlled trial",
+          "n": 30,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The increase of this parameter and stronger positive correlations with anxiety level were observed during the treatment with selank mostly in patients with GAD."
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: This exploratory bibliometric study aimed to characterize publication trends, research clusters, and emerging topics in artificial intelligence (AI)-assisted ultrasound-guided regional anesthesia (UGRA).",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42662121"
+        ],
+        "source_excerpt": "This exploratory bibliometric study aimed to characterize publication trends, research clusters, and emerging topics in artificial intelligence (AI)-assisted ultrasound-guided regional anesthesia (UGRA).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lu 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Human study, humans, 2020: The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-32342318"
+        ],
+        "source_excerpt": "The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Panikratova 2020",
+          "year": "2020",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Human study, humans, 2011: Patients showed significantly lower gamma coherence values in response to target stimuli than the healthy controls between left and right fronto-temporal, as well as between frontal and temporo-parietal electrode pairs.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-21459454"
+        ],
+        "source_excerpt": "Patients showed significantly lower gamma coherence values in response to target stimuli than the healthy controls between left and right fronto-temporal, as well as between frontal and temporo-parietal electrode pairs.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Özerdem 2011",
+          "year": "2011",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Patients showed significantly lower gamma coherence values in response to target stimuli than the healthy controls between left and right fronto-temporal, as well as between frontal and temporo-parietal electrode pairs."
+        }
+      },
+      {
+        "value": "Human study, humans, 1999: Before treatment, levels of Ntx, uCa and Hyp were elevated in 41%, 24% and 28% respectively, and CA15-3 and CASA increased in 69% and 50%.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-10390000"
+        ],
+        "source_excerpt": "Before treatment, levels of Ntx, uCa and Hyp were elevated in 41%, 24% and 28% respectively, and CA15-3 and CASA increased in 69% and 50%.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Vinholes 1999",
+          "year": "1999",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "oral",
+          "duration": "1 month",
+          "outcome": "Before treatment, levels of Ntx, uCa and Hyp were elevated in 41%, 24% and 28% respectively, and CA15-3 and CASA increased in 69% and 50%."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2022: Single intraperitoneal injection of Selank in an anxiolytic dose of 0.3 mg/kg reduced the total index of morphine withdrawal syndrome by 39.6%, significantly (р<0.0001) attenuated convulsive reactions, ptosis, and posture disorders, and 9-fold increased the tactile sensitivity threshold in morphine-dependent…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36322304"
+        ],
+        "source_excerpt": "Single intraperitoneal injection of Selank in an anxiolytic dose of 0.3 mg/kg reduced the total index of morphine withdrawal syndrome by 39.6%, significantly (р<0.0001) attenuated convulsive reactions, ptosis, and posture disorders, and 9-fold increased the tactile sensitivity threshold in morphine-dependent rats in comparison with the group of active control; at the same time, Selank was slightly inferior to diazepam in a dose of 2 mg/kg by pharmacological activity (the decrease in total index of morphine withdrawal syndrome by 49.3% and 13-fold increase in sensitivity threshold).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Konstantinopolsky 2022",
+          "year": "2022",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "0.3 mg/kg; 2 mg/kg",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "Single intraperitoneal injection of Selank in an anxiolytic dose of 0.3 mg/kg reduced the total index of morphine withdrawal syndrome by 39.6%, significantly (р<0.0001) attenuated convulsive reactions, ptosis, and…"
+        }
+      },
+      {
+        "value": "Animal study, 2022: During solid-state fermentation of SBM, Tp-5 and Tp-7 exhibited the highest protease activity (1127.2 and 1552.4 U g-1, respectively) at 36 h, and the resulting FSBMs showed a significant increase in crude protein content and free radical-scavenging ability (P < 0.05), as well as an improvement in the composition of…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-35536569"
+        ],
+        "source_excerpt": "During solid-state fermentation of SBM, Tp-5 and Tp-7 exhibited the highest protease activity (1127.2 and 1552.4 U g-1, respectively) at 36 h, and the resulting FSBMs showed a significant increase in crude protein content and free radical-scavenging ability (P < 0.05), as well as an improvement in the composition of amino acids, metabolites and other nutrients, while indigestible materials such as fiber, lignin and hemicellulose were decreased.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Nualkul 2022",
+          "year": "2022",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "During solid-state fermentation of SBM, Tp-5 and Tp-7 exhibited the highest protease activity (1127.2 and 1552.4 U g-1, respectively) at 36 h, and the resulting FSBMs showed a significant increase in crude protein…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2021: This peptide is able to reduce the concentration of IL-1β, IL-6 and TNF-α, as well as TGF-β1, practically reaching control values, when studying the effect of Selank on the level of cytokines under conditions of \" social\" stress.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32621722"
+        ],
+        "source_excerpt": "This peptide is able to reduce the concentration of IL-1β, IL-6 and TNF-α, as well as TGF-β1, practically reaching control values, when studying the effect of Selank on the level of cytokines under conditions of \" social\" stress.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Leonidovna 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "100 mcg/kg/day",
+          "route": "intraperitoneal",
+          "duration": "20 days; 20 day",
+          "outcome": "This peptide is able to reduce the concentration of IL-1β, IL-6 and TNF-α, as well as TGF-β1, practically reaching control values, when studying the effect of Selank on the level of cytokines under conditions of \"…"
+        }
+      },
+      {
+        "value": "Animal study, cattle, 2020: Although both challenge diets resulted in a decline in pH, an increase in the absolute pH residuals and an increase in the number of minutes per day under pH 5.8, systemic inflammation was only detected with the HSt diet.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32314683"
+        ],
+        "source_excerpt": "Although both challenge diets resulted in a decline in pH, an increase in the absolute pH residuals and an increase in the number of minutes per day under pH 5.8, systemic inflammation was only detected with the HSt diet.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Francesio 2020",
+          "year": "2020",
+          "design": "Animal study",
+          "n": null,
+          "species": "Cattle",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Although both challenge diets resulted in a decline in pH, an increase in the absolute pH residuals and an increase in the number of minutes per day under pH 5.8, systemic inflammation was only detected with the HSt…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2019: In ex vivo experiments, Selank prevented ethanol-induced increase in BDNF content in the hippocampus and frontal cortex (p<0.05).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-31625062"
+        ],
+        "source_excerpt": "In ex vivo experiments, Selank prevented ethanol-induced increase in BDNF content in the hippocampus and frontal cortex (p<0.05).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kolik 2019",
+          "year": "2019",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "0.3 mg/kg a day",
+          "route": "intraperitoneal",
+          "duration": "30 weeks",
+          "outcome": "In ex vivo experiments, Selank prevented ethanol-induced increase in BDNF content in the hippocampus and frontal cortex (p<0.05)."
+        }
+      },
+      {
+        "value": "Animal study, 2019: There were significant differences between the investigated flocks concerning the occurrence of foot pad lesions.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-30496524"
+        ],
+        "source_excerpt": "There were significant differences between the investigated flocks concerning the occurrence of foot pad lesions.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Freihold 2019",
+          "year": "2019",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "There were significant differences between the investigated flocks concerning the occurrence of foot pad lesions."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2017: Administration of Selank in a dose of 1000 μg/kg reduced the content of aminotransferases in blood serum, decreased superoxide dismutase activity in the liver, and increased total antioxidant activity.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-28853100"
+        ],
+        "source_excerpt": "Administration of Selank in a dose of 1000 μg/kg reduced the content of aminotransferases in blood serum, decreased superoxide dismutase activity in the liver, and increased total antioxidant activity.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Fomenko 2017",
+          "year": "2017",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "1000 μg/kg",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "Administration of Selank in a dose of 1000 μg/kg reduced the content of aminotransferases in blood serum, decreased superoxide dismutase activity in the liver, and increased total antioxidant activity."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2017: At the same time, Selank decreased level of anxiety of rats with toxic damage of DA neurons in elevated cross shaped maze.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-28702721"
+        ],
+        "source_excerpt": "At the same time, Selank decreased level of anxiety of rats with toxic damage of DA neurons in elevated cross shaped maze.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Slominsky 2017",
+          "year": "2017",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "At the same time, Selank decreased level of anxiety of rats with toxic damage of DA neurons in elevated cross shaped maze."
+        }
+      },
+      {
+        "value": "Animal study, 2017: In some neurons, Selank-induced up-regulation of spontaneous inhibitory postsynaptic currents was preceded by a transient decrease in this activity.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-28361410"
+        ],
+        "source_excerpt": "In some neurons, Selank-induced up-regulation of spontaneous inhibitory postsynaptic currents was preceded by a transient decrease in this activity.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Povarov 2017",
+          "year": "2017",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In some neurons, Selank-induced up-regulation of spontaneous inhibitory postsynaptic currents was preceded by a transient decrease in this activity."
+        }
+      },
+      {
+        "value": "Animal study, 2017: In conditions of chronic stress, anxiety indicator values after the simultaneous use of diazepam and Selank did not differ from the respective values observed before chronic stress exposure.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-28280289"
+        ],
+        "source_excerpt": "In conditions of chronic stress, anxiety indicator values after the simultaneous use of diazepam and Selank did not differ from the respective values observed before chronic stress exposure.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kasian 2017",
+          "year": "2017",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In conditions of chronic stress, anxiety indicator values after the simultaneous use of diazepam and Selank did not differ from the respective values observed before chronic stress exposure."
+        }
+      },
+      {
+        "value": "Animal study, mice, n=2, 2016: Single dose of Selank significantly blocked manifestation of motor sensitization without affecting its formation.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-27878720"
+        ],
+        "source_excerpt": "Single dose of Selank significantly blocked manifestation of motor sensitization without affecting its formation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kolik 2016",
+          "year": "2016",
+          "design": "Animal study",
+          "n": 2,
+          "species": "Mice",
+          "dose": "0.3 mg/kg",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "Single dose of Selank significantly blocked manifestation of motor sensitization without affecting its formation."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2016: We found significant changes in the expression of 45 genes 1 h after the administration of the compounds.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-26924987"
+        ],
+        "source_excerpt": "We found significant changes in the expression of 45 genes 1 h after the administration of the compounds.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Volkova 2016",
+          "year": "2016",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "We found significant changes in the expression of 45 genes 1 h after the administration of the compounds."
+        }
+      },
+      {
+        "value": "Animal study, mice, n=6, 2016: In BALB/c mice, i.p. selank increased the number of [G-(3)H]SR 95531 binding sites with GABA-receptors in the frontal cortex by 38%, without change in binding to NMDA receptors in the hippocampus.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-29787664"
+        ],
+        "source_excerpt": "In BALB/c mice, i.p. selank increased the number of [G-(3)H]SR 95531 binding sites with GABA-receptors in the frontal cortex by 38%, without change in binding to NMDA receptors in the hippocampus.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Vasil'eva 2016",
+          "year": "2016",
+          "design": "Animal study",
+          "n": 6,
+          "species": "Mice",
+          "dose": "300 μg/kg/day",
+          "route": "intranasal, intraperitoneal",
+          "duration": "5 days",
+          "outcome": "In BALB/c mice, i.p. selank increased the number of [G-(3)H]SR 95531 binding sites with GABA-receptors in the frontal cortex by 38%, without change in binding to NMDA receptors in the hippocampus."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2014: We found a significant alteration in the mRNA level of the Il2rg gene at early time points after Selank and Gly-Pro administration and an almost equal reduction in the Xcr1 mRNA level 90 min after the administration of Selank and its fragment.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-24291245"
+        ],
+        "source_excerpt": "We found a significant alteration in the mRNA level of the Il2rg gene at early time points after Selank and Gly-Pro administration and an almost equal reduction in the Xcr1 mRNA level 90 min after the administration of Selank and its fragment.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kolomin 2014",
+          "year": "2014",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "We found a significant alteration in the mRNA level of the Il2rg gene at early time points after Selank and Gly-Pro administration and an almost equal reduction in the Xcr1 mRNA level 90 min after the administration of…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2013: Selank (0.5 mg/kg, i.p.) prevented or compensated for actinomycin D (250 mg/kg, i.p.) induced violation of the process of acquisition, improvement, and consolidation of memory trace during the development of a complex site reflex.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-24605419"
+        ],
+        "source_excerpt": "Selank (0.5 mg/kg, i.p.) prevented or compensated for actinomycin D (250 mg/kg, i.p.) induced violation of the process of acquisition, improvement, and consolidation of memory trace during the development of a complex site reflex.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kozlovskiĭ 2013",
+          "year": "2013",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "0.5 mg/kg",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "Selank (0.5 mg/kg, i.p.) prevented or compensated for actinomycin D (250 mg/kg, i.p.) induced violation of the process of acquisition, improvement, and consolidation of memory trace during the development of a complex…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2010: It was established that selank induces an increase in memory trace stability during 30 days.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-20919548"
+        ],
+        "source_excerpt": "It was established that selank induces an increase in memory trace stability during 30 days.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Semenova 2010",
+          "year": "2010",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "30 days",
+          "outcome": "It was established that selank induces an increase in memory trace stability during 30 days."
+        }
+      },
+      {
+        "value": "Animal study, rats, mice, 2003: Individual physiologically significant effects were seen, due to the molecular structures of the study peptides and/or their degradation fragments.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-14969422"
+        ],
+        "source_excerpt": "Individual physiologically significant effects were seen, due to the molecular structures of the study peptides and/or their degradation fragments.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kozlovskaya 2003",
+          "year": "2003",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats, Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Individual physiologically significant effects were seen, due to the molecular structures of the study peptides and/or their degradation fragments."
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -46,15 +880,44 @@
       "review": 0,
       "unclassified": 2
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 34,
+      "claims": 36,
+      "evidence_table_rows": 25
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports dose-escalation schedules for Selank.",
+    "No study in this record's ledger reports exclusion criteria for Selank.",
+    "No study in this record's ledger reports onset or duration of effects for Selank."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Selank been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 2 clinical trials and 2 randomized controlled trials naming Selank or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Selank?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Selank an approved medicine?",
+      "answer": "No ChEMBL record matches Selank or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has Selank been studied in?",
+      "answer": "Studies in this record's ledger report work in: Cattle, Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-41490200",
@@ -296,7 +1159,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 79.8,
   "review": {
     "author": "",
     "reviewer": "",
@@ -311,6 +1174,14 @@
     {
       "date": "2026-09-14",
       "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 34 ledger sources by scripts/draft_claims.py: 48 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 34 ledger sources by scripts/draft_claims.py: 36 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

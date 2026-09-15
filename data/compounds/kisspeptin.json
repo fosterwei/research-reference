@@ -10,30 +10,767 @@
     "metastin"
   ],
   "slug": "kisspeptin",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for Kisspeptin. Europe PMC indexes 3850 publications, including 44 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Kisspeptin is a peptide in the growth factors & reproductive class (KISS1 receptor agonist; GnRH release). Europe PMC indexes 3,850 publications naming it or a listed alias in a title or abstract, including 44 randomized controlled trials and 34 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Kisspeptin: what the research shows",
-    "description": "Cited overview of published Kisspeptin research: 3850 indexed publications, 44 randomized controlled trials. Evidence tier on every claim."
+    "description": "Kisspeptin research, cited: 3,850 indexed publications, 44 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
-    "escalation_schedules": [],
-    "interactions": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, n=7, 2026: administration by subcutaneous route reported. We evaluated the effects of acute and chronic subcutaneous kisspeptin-10 administration on reproductive hormones in healthy men to (1) characterize the acute dose--response relationship to subcutaneous kisspeptin-10 infusion, (2) assess the…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42549827"
+        ],
+        "source_excerpt": "We evaluated the effects of acute and chronic subcutaneous kisspeptin-10 administration on reproductive hormones in healthy men to (1) characterize the acute dose--response relationship to subcutaneous kisspeptin-10 infusion, (2) assess the effects of continuous kisspeptin-10 infusion over 5 days, and (3) daily intermittent administration (8 h on, 16 h off) for 12 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=63, 2025: administration by intravenous route reported. Ninety-five participants (N = 63 male, N = 32 female) completed a double-blind, randomized, placebo-controlled, crossover protocol (mean age ± SEM 30.9 ± 0.9 y, body mass index 24.0 ± 0.4), attending both for a 75-minute intravenous…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40036336"
+        ],
+        "source_excerpt": "Ninety-five participants (N = 63 male, N = 32 female) completed a double-blind, randomized, placebo-controlled, crossover protocol (mean age ± SEM 30.9 ± 0.9 y, body mass index 24.0 ± 0.4), attending both for a 75-minute intravenous kisspeptin-54 infusion (1 nmol/kg/h) and rate-matched placebo (in random order).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2025: administration by intranasal, intravenous, subcutaneous route reported. Kisspeptin administration by intravenous or subcutaneous routes activates hypothalamic gonadotropin-releasing hormone (GnRH) neurons and is being developed to treat reproductive disorders.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40215751"
+        ],
+        "source_excerpt": "Kisspeptin administration by intravenous or subcutaneous routes activates hypothalamic gonadotropin-releasing hormone (GnRH) neurons and is being developed to treat reproductive disorders.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=37, 2023: administration by intravenous route reported. Participants attended 2 study visits at least 7 days apart, in balanced random order, for intravenous infusion of kisspeptin-54 (1 nmol/kg/h) for 75 minutes or for administration of a rate-matched placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36735255"
+        ],
+        "source_excerpt": "Participants attended 2 study visits at least 7 days apart, in balanced random order, for intravenous infusion of kisspeptin-54 (1 nmol/kg/h) for 75 minutes or for administration of a rate-matched placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=40, 2022: administration by intravenous route reported. A 75-minute intravenous infusion of kisspeptin-54 (1 nmol/kg/h) vs equivalent-rate placebo infusion.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36287566"
+        ],
+        "source_excerpt": "A 75-minute intravenous infusion of kisspeptin-54 (1 nmol/kg/h) vs equivalent-rate placebo infusion.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=8, 2020: administration by intravenous route reported. On the last day of NK3Ra administration or the equivalent day in those not treated, women were randomized to 7-h kisspeptin-10 (4 µg/kg/h i.v.) or vehicle infusion.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32510130"
+        ],
+        "source_excerpt": "On the last day of NK3Ra administration or the equivalent day in those not treated, women were randomized to 7-h kisspeptin-10 (4 µg/kg/h i.v.) or vehicle infusion.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Randomized controlled trial, humans, n=8, 2020: doses stated in the abstract: 4 µg/kg. On the last day of NK3Ra administration or the equivalent day in those not treated, women were randomized to 7-h kisspeptin-10 (4 µg/kg/h i.v.) or vehicle infusion.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32510130"
+        ],
+        "source_excerpt": "On the last day of NK3Ra administration or the equivalent day in those not treated, women were randomized to 7-h kisspeptin-10 (4 µg/kg/h i.v.) or vehicle infusion.",
+        "drafting": "extractive"
+      }
+    ],
+    "escalation_schedules": [
+      {
+        "value": "Randomized controlled trial, humans, n=63, 2025: Context Kisspeptin is a critical endogenous activator of the reproductive system, with escalating clinical interest as a novel therapeutic for common reproductive and psychosexual disorders.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40036336"
+        ],
+        "source_excerpt": "Context Kisspeptin is a critical endogenous activator of the reproductive system, with escalating clinical interest as a novel therapeutic for common reproductive and psychosexual disorders.",
+        "drafting": "extractive"
+      }
+    ],
+    "interactions": [
+      {
+        "value": "Randomized controlled trial, humans, n=8, 2020: Study question What is the role of the hypothalamic neuropeptide neurokinin B (NKB) and its interaction with kisspeptin on GnRH/LH secretion in women with polycystic ovary syndrome (PCOS)?",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32510130"
+        ],
+        "source_excerpt": "Study question What is the role of the hypothalamic neuropeptide neurokinin B (NKB) and its interaction with kisspeptin on GnRH/LH secretion in women with polycystic ovary syndrome (PCOS)?",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
+    "adverse_events": [
+      {
+        "value": "Randomized controlled trial, humans, 2025: Intranasal kisspeptin-54 rapidly stimulates gonadotropin release in healthy men and women, and in patients with a common reproductive disorder (hypothalamic amenorrhoea), without any side effects or adverse events encountered.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40215751"
+        ],
+        "source_excerpt": "Intranasal kisspeptin-54 rapidly stimulates gonadotropin release in healthy men and women, and in patients with a common reproductive disorder (hypothalamic amenorrhoea), without any side effects or adverse events encountered.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, n=7, 2026: We evaluated the effects of acute and chronic subcutaneous kisspeptin-10 administration on reproductive hormones in healthy men to (1) characterize the acute dose--response relationship to subcutaneous kisspeptin-10 infusion, (2) assess the effects of continuous kisspeptin-10 infusion over…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42549827"
+        ],
+        "source_excerpt": "We evaluated the effects of acute and chronic subcutaneous kisspeptin-10 administration on reproductive hormones in healthy men to (1) characterize the acute dose--response relationship to subcutaneous kisspeptin-10 infusion, (2) assess the effects of continuous kisspeptin-10 infusion over 5 days, and (3) daily intermittent administration (8 h on, 16 h off) for 12 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=63, 2025: Behavioral, biochemical, and physiological measures of anxiety were compared between kisspeptin and placebo visits, using a state-anxiety psychometric questionnaire before and at the end of the infusions, and blood sampling (for reproductive hormones and cortisol) and heart rate…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40036336"
+        ],
+        "source_excerpt": "Behavioral, biochemical, and physiological measures of anxiety were compared between kisspeptin and placebo visits, using a state-anxiety psychometric questionnaire before and at the end of the infusions, and blood sampling (for reproductive hormones and cortisol) and heart rate measurements at 15-minute intervals.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2025: Reproductive hormone profiles were measured after intranasal kisspeptin administration in healthy volunteers and patients with reproductive disorders as part of a randomised, double-blinded, crossover, placebo-controlled clinical study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40215751"
+        ],
+        "source_excerpt": "Reproductive hormone profiles were measured after intranasal kisspeptin administration in healthy volunteers and patients with reproductive disorders as part of a randomised, double-blinded, crossover, placebo-controlled clinical study.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 2025: Kisspeptin-112-121 (KP analog, 0.24 nmol/kg bolus) was administered to 12 healthy adults (50% female).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39965102"
+        ],
+        "source_excerpt": "Kisspeptin-112-121 (KP analog, 0.24 nmol/kg bolus) was administered to 12 healthy adults (50% female).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2025: The levels of kisspeptin, acylated ghrelin, ultrasensitive oestradiol, luteinizing hormone (LH), follicle-stimulating hormone (FSH), insulin and glucose were analysed.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39847034"
+        ],
+        "source_excerpt": "The levels of kisspeptin, acylated ghrelin, ultrasensitive oestradiol, luteinizing hormone (LH), follicle-stimulating hormone (FSH), insulin and glucose were analysed.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=37, 2023: Participants attended 2 study visits at least 7 days apart, in balanced random order, for intravenous infusion of kisspeptin-54 (1 nmol/kg/h) for 75 minutes or for administration of a rate-matched placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36735255"
+        ],
+        "source_excerpt": "Participants attended 2 study visits at least 7 days apart, in balanced random order, for intravenous infusion of kisspeptin-54 (1 nmol/kg/h) for 75 minutes or for administration of a rate-matched placebo.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Randomized controlled trial, humans, 2025: Kisspeptin plays a major role in the onset of puberty by stimulating the gonadotropin-releasing hormone (GnRH) neurons.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39847034"
+        ],
+        "source_excerpt": "Kisspeptin plays a major role in the onset of puberty by stimulating the gonadotropin-releasing hormone (GnRH) neurons.",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [
+      {
+        "value": "Randomized controlled trial, humans, 2025: Pharmaceutical testing evaluated the chemical stability and nasal kisspeptin delivery, and rodent studies provided mechanistic insight.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40215751"
+        ],
+        "source_excerpt": "Pharmaceutical testing evaluated the chemical stability and nasal kisspeptin delivery, and rodent studies provided mechanistic insight.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, n=7, 2026: durations stated: 5 days; 12 days. We evaluated the effects of acute and chronic subcutaneous kisspeptin-10 administration on reproductive hormones in healthy men to (1) characterize the acute dose--response relationship to subcutaneous kisspeptin-10 infusion, (2) assess the effects of…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42549827"
+        ],
+        "source_excerpt": "We evaluated the effects of acute and chronic subcutaneous kisspeptin-10 administration on reproductive hormones in healthy men to (1) characterize the acute dose--response relationship to subcutaneous kisspeptin-10 infusion, (2) assess the effects of continuous kisspeptin-10 infusion over 5 days, and (3) daily intermittent administration (8 h on, 16 h off) for 12 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=24, 2024: durations stated: 9 days; 4 days; 5 days. Time to ovulation after drug administration was 3.3-3.9 days (MVT-602), 3.4 days (triptorelin), and 5.5 days (placebo).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37925096"
+        ],
+        "source_excerpt": "Time to ovulation after drug administration was 3.3-3.9 days (MVT-602), 3.4 days (triptorelin), and 5.5 days (placebo).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=37, 2023: durations stated: 7 days. Participants attended 2 study visits at least 7 days apart, in balanced random order, for intravenous infusion of kisspeptin-54 (1 nmol/kg/h) for 75 minutes or for administration of a rate-matched placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36735255"
+        ],
+        "source_excerpt": "Participants attended 2 study visits at least 7 days apart, in balanced random order, for intravenous infusion of kisspeptin-54 (1 nmol/kg/h) for 75 minutes or for administration of a rate-matched placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=8, 2020: durations stated: 7 days. Summary answer Administration of neurokinin 3 receptor antagonist (NK3Ra) for 7 days reduced LH and FSH secretion and LH pulse frequency in women with PCOS, whilst the stimulatory LH response to kisspeptin-10 was maintained.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32510130"
+        ],
+        "source_excerpt": "Summary answer Administration of neurokinin 3 receptor antagonist (NK3Ra) for 7 days reduced LH and FSH secretion and LH pulse frequency in women with PCOS, whilst the stimulatory LH response to kisspeptin-10 was maintained.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=20, 2019: durations stated: 11 days; 21 days. At adulthood (postnatal day 100), rats were subjected to daily treatments with a bolus of KP-54 (100 μg/kg, s.c.) or vehicle for 11 days (N = 10 per model and treatment).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31820802"
+        ],
+        "source_excerpt": "At adulthood (postnatal day 100), rats were subjected to daily treatments with a bolus of KP-54 (100 μg/kg, s.c.) or vehicle for 11 days (N = 10 per model and treatment).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, n=12, 2026: durations stated: 7 days. Forty-five Aleppo goats were treated with intravaginal sponges containing medroxyprogesterone acetate for 7 days and were injected intramuscularly with 500 IU eCG and 75 µg d-cloprostenol on the day of sponge removal.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41343946"
+        ],
+        "source_excerpt": "Forty-five Aleppo goats were treated with intravaginal sponges containing medroxyprogesterone acetate for 7 days and were injected intramuscularly with 500 IU eCG and 75 µg d-cloprostenol on the day of sponge removal.",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Randomized controlled trial, humans, n=8, 2020: weight-normalized doses as published: 4 µg/kg. On the last day of NK3Ra administration or the equivalent day in those not treated, women were randomized to 7-h kisspeptin-10 (4 µg/kg/h i.v.) or vehicle infusion.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32510130"
+        ],
+        "source_excerpt": "On the last day of NK3Ra administration or the equivalent day in those not treated, women were randomized to 7-h kisspeptin-10 (4 µg/kg/h i.v.) or vehicle infusion.",
+        "drafting": "extractive"
+      }
+    ],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL376756: maximum clinical phase 3. Jurisdiction-level status pending human review.",
         "evidence_label": "human-clinical-trial",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, n=7, 2026: Results (1) Acute subcutaneous kisspeptin-10 infusions dose-dependently increased LH, FSH, and testosterone vs vehicle (P Conclusions We demonstrate that chronic subcutaneous kisspeptin administration sustains gonadotropin and testosterone secretion in healthy men for 12 days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42549827"
+        ],
+        "source_excerpt": "Results (1) Acute subcutaneous kisspeptin-10 infusions dose-dependently increased LH, FSH, and testosterone vs vehicle (P Conclusions We demonstrate that chronic subcutaneous kisspeptin administration sustains gonadotropin and testosterone secretion in healthy men for 12 days.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yeung 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 7,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "5 days; 12 days",
+          "outcome": "Results (1) Acute subcutaneous kisspeptin-10 infusions dose-dependently increased LH, FSH, and testosterone vs vehicle (P Conclusions We demonstrate that chronic subcutaneous kisspeptin administration sustains…"
+        }
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 2026: AVP levels were higher in males at all time points (p = .028) and did not change in response to KP.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41273106"
+        ],
+        "source_excerpt": "AVP levels were higher in males at all time points (p = .028) and did not change in response to KP.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Galbiati 2026",
+          "year": "2026",
+          "design": "Phase 1 clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "AVP levels were higher in males at all time points (p = .028) and did not change in response to KP."
+        }
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 2026: Fezolinetant is a non-hormonal, selective neurokinin-3 receptor antagonist that blocks neurokinin B activation of kisspeptin/neurokinin B/dynorphin neurons to thereby modulate neuronal activity in the thermoregulatory center.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41109977"
+        ],
+        "source_excerpt": "Fezolinetant is a non-hormonal, selective neurokinin-3 receptor antagonist that blocks neurokinin B activation of kisspeptin/neurokinin B/dynorphin neurons to thereby modulate neuronal activity in the thermoregulatory center.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Nielsen 2026",
+          "year": "2026",
+          "design": "Phase 1 clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=63, 2025: Kisspeptin administration robustly increased serum luteinizing hormone to similar levels previously described using this administration protocol, confirming that the dose was biologically active (P Conclusion This is the first study demonstrating that a biologically active dose of…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40036336"
+        ],
+        "source_excerpt": "Kisspeptin administration robustly increased serum luteinizing hormone to similar levels previously described using this administration protocol, confirming that the dose was biologically active (P Conclusion This is the first study demonstrating that a biologically active dose of kisspeptin to men and women does not affect behavioral, biochemical, or physiological measures of anxiety.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mills 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": 63,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Kisspeptin administration robustly increased serum luteinizing hormone to similar levels previously described using this administration protocol, confirming that the dose was biologically active (P Conclusion This is…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2025: Specifically, intranasal kisspeptin (at 12.8 nmol/kg) induced clinically-significant mean maximal increases above baseline in serum luteinising hormone in all study groups: 4.4 ± 0.6 IU/L (mean difference = 3.1 IU/L [95% CI, 1.2-4.9], P = 0.002 vs. placebo) in healthy men; 1.4 ± 0.3 IU/L (mean…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40215751"
+        ],
+        "source_excerpt": "Specifically, intranasal kisspeptin (at 12.8 nmol/kg) induced clinically-significant mean maximal increases above baseline in serum luteinising hormone in all study groups: 4.4 ± 0.6 IU/L (mean difference = 3.1 IU/L [95% CI, 1.2-4.9], P = 0.002 vs. placebo) in healthy men; 1.4 ± 0.3 IU/L (mean difference = 1.0 IU/L [95% CI, 0.4-1.7], P = 0.004 vs. placebo) in healthy women; 4.4 ± 0.2 IU/L (mean difference = 4.3 IU/L [95% CI, 2.7-6.0], P Interpretation We demonstrate the clinical potential for intranasal kisspeptin delivery as the first non-invasive method to robustly and safely stimulate gonadotropins with kisspeptin and potentially transform the management of reproductive disorders.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mills 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intranasal, intravenous, subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Specifically, intranasal kisspeptin (at 12.8 nmol/kg) induced clinically-significant mean maximal increases above baseline in serum luteinising hormone in all study groups: 4.4 ± 0.6 IU/L (mean difference = 3.1 IU/L…"
+        }
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 2025: Males and females did not differ significantly in age, BMI, or baseline OXT levels.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39965102"
+        ],
+        "source_excerpt": "Males and females did not differ significantly in age, BMI, or baseline OXT levels.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Galbiati 2025",
+          "year": "2025",
+          "design": "Phase 1 clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Males and females did not differ significantly in age, BMI, or baseline OXT levels."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2025: Neither area under the curve for kisspeptin levels nor peaks were significantly lower after the GnRH injection compared to placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39847034"
+        ],
+        "source_excerpt": "Neither area under the curve for kisspeptin levels nor peaks were significantly lower after the GnRH injection compared to placebo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Rodanaki 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Neither area under the curve for kisspeptin levels nor peaks were significantly lower after the GnRH injection compared to placebo."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2024: The evaluation of KISS1 concentration in serum revealed a significant decrease in the placenta previa group compared to the control group (P Conclusions Results from biochemical, immunohistochemical, and genetic analyses consistently indicated significantly reduced KISS1 expression in patients…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38996103"
+        ],
+        "source_excerpt": "The evaluation of KISS1 concentration in serum revealed a significant decrease in the placenta previa group compared to the control group (P Conclusions Results from biochemical, immunohistochemical, and genetic analyses consistently indicated significantly reduced KISS1 expression in patients with placenta previa.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Katirci 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The evaluation of KISS1 concentration in serum revealed a significant decrease in the placenta previa group compared to the control group (P Conclusions Results from biochemical, immunohistochemical, and genetic…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=24, 2024: In the phase-2a trial, LH concentrations increased dose dependently; mean maximum change from baseline of 82.4 IU/L at 24.8 hours was observed after administration of 3 μg MVT-602 and remained >15 IU/L for 33 hours.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37925096"
+        ],
+        "source_excerpt": "In the phase-2a trial, LH concentrations increased dose dependently; mean maximum change from baseline of 82.4 IU/L at 24.8 hours was observed after administration of 3 μg MVT-602 and remained >15 IU/L for 33 hours.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Abbara 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": 24,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "9 days; 4 days",
+          "outcome": "In the phase-2a trial, LH concentrations increased dose dependently; mean maximum change from baseline of 82.4 IU/L at 24.8 hours was observed after administration of 3 μg MVT-602 and remained >15 IU/L for 33 hours."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=37, 2023: On viewing sexual videos, kisspeptin significantly modulated brain activity in key structures of the sexual-processing network on whole-brain analysis compared with placebo (mean absolute change [Cohen d] = 0.81 [95% CI, 0.41-1.21]; P = .003).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36735255"
+        ],
+        "source_excerpt": "On viewing sexual videos, kisspeptin significantly modulated brain activity in key structures of the sexual-processing network on whole-brain analysis compared with placebo (mean absolute change [Cohen d] = 0.81 [95% CI, 0.41-1.21]; P = .003).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mills 2023",
+          "year": "2023",
+          "design": "Randomized controlled trial",
+          "n": 37,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "7 days",
+          "outcome": "On viewing sexual videos, kisspeptin significantly modulated brain activity in key structures of the sexual-processing network on whole-brain analysis compared with placebo (mean absolute change [Cohen d] = 0.81 [95%…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=40, 2022: The hormone kisspeptin is a key endogenous activator of the reproductive hormonal axis with additional emerging roles in sexual and emotional behavior; however, its effects in women with HSDD are unknown.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36287566"
+        ],
+        "source_excerpt": "The hormone kisspeptin is a key endogenous activator of the reproductive hormonal axis with additional emerging roles in sexual and emotional behavior; however, its effects in women with HSDD are unknown.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Thurston 2022",
+          "year": "2022",
+          "design": "Randomized controlled trial",
+          "n": 40,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=64, 2021: Fezolinetant had a sustained effect to suppress hyperandrogenism and reduce the LH-to-FSH ratio in women with PCOS.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34000049"
+        ],
+        "source_excerpt": "Fezolinetant had a sustained effect to suppress hyperandrogenism and reduce the LH-to-FSH ratio in women with PCOS.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Fraser 2021",
+          "year": "2021",
+          "design": "Randomized controlled trial",
+          "n": 64,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Fezolinetant had a sustained effect to suppress hyperandrogenism and reduce the LH-to-FSH ratio in women with PCOS."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=9, 2020: Further, we investigated their effects on KISS1R-mediated inositol monophosphate (IP1) and Ca2+ signaling in cell lines and on action potential firing of GnRH neurons in brain slices.RESULTSIn healthy women, the amplitude of luteinizing hormone (LH) rise was similar to that after KP54, but peaked later…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33196464"
+        ],
+        "source_excerpt": "Further, we investigated their effects on KISS1R-mediated inositol monophosphate (IP1) and Ca2+ signaling in cell lines and on action potential firing of GnRH neurons in brain slices.RESULTSIn healthy women, the amplitude of luteinizing hormone (LH) rise was similar to that after KP54, but peaked later (21.4 vs. 4.7 hours; P = 0.0002), with correspondingly increased AUC of LH exposure (169.0 vs. 38.5 IU∙h/L; P = 0.0058).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Abbara 2020",
+          "year": "2020",
+          "design": "Clinical trial",
+          "n": 9,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Further, we investigated their effects on KISS1R-mediated inositol monophosphate (IP1) and Ca2+ signaling in cell lines and on action potential firing of GnRH neurons in brain slices.RESULTSIn healthy women, the…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=8, 2020: Main results and the role of chance NK3Ra reduced LH secretion (4.0 ± 0.4 vs 6.5 ± 0.8 IU/l, P Limitations, reasons for caution The study did not explore the dose relationship of the effect of NK3R antagonism.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32510130"
+        ],
+        "source_excerpt": "Main results and the role of chance NK3Ra reduced LH secretion (4.0 ± 0.4 vs 6.5 ± 0.8 IU/l, P Limitations, reasons for caution The study did not explore the dose relationship of the effect of NK3R antagonism.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Skorupskaite 2020",
+          "year": "2020",
+          "design": "Randomized controlled trial",
+          "n": 8,
+          "species": "Humans",
+          "dose": "4 µg/kg",
+          "route": "intravenous",
+          "duration": "7 days",
+          "outcome": "Main results and the role of chance NK3Ra reduced LH secretion (4.0 ± 0.4 vs 6.5 ± 0.8 IU/l, P Limitations, reasons for caution The study did not explore the dose relationship of the effect of NK3R antagonism."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=20, 2019: However, while anovulatory NeNA rats displayed significant LH and FSH responses to KP-54 (P Limitations, reasons for caution While three different preclinical PCOS models were used in order to capture the heterogeneity of clinical presentations of the syndrome, it must be noted that rat models…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31820802"
+        ],
+        "source_excerpt": "However, while anovulatory NeNA rats displayed significant LH and FSH responses to KP-54 (P Limitations, reasons for caution While three different preclinical PCOS models were used in order to capture the heterogeneity of clinical presentations of the syndrome, it must be noted that rat models recapitulate many but not all the features of this condition.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Romero-Ruiz 2019",
+          "year": "2019",
+          "design": "Clinical trial",
+          "n": 20,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "11 days; 21 days",
+          "outcome": "However, while anovulatory NeNA rats displayed significant LH and FSH responses to KP-54 (P Limitations, reasons for caution While three different preclinical PCOS models were used in order to capture the heterogeneity…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=62, 2017: A higher proportion of patients achieved an oocyte yield ≥60% following a second dose of kisspeptin-54 (Single: 14/31, 45%, Double: 21/31, 71%; absolute difference +26%, CI 2-50%, P = 0.042).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28854728"
+        ],
+        "source_excerpt": "A higher proportion of patients achieved an oocyte yield ≥60% following a second dose of kisspeptin-54 (Single: 14/31, 45%, Double: 21/31, 71%; absolute difference +26%, CI 2-50%, P = 0.042).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Abbara 2017",
+          "year": "2017",
+          "design": "Randomized controlled trial",
+          "n": 62,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "A higher proportion of patients achieved an oocyte yield ≥60% following a second dose of kisspeptin-54 (Single: 14/31, 45%, Double: 21/31, 71%; absolute difference +26%, CI 2-50%, P = 0.042)."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=4, 2016: SC infusion of kisspeptin-54 increased LH and FSH.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26572695"
+        ],
+        "source_excerpt": "SC infusion of kisspeptin-54 increased LH and FSH.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Narayanaswamy 2016",
+          "year": "2016",
+          "design": "Clinical trial",
+          "n": 4,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "SC infusion of kisspeptin-54 increased LH and FSH."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=2, 2014: Egg maturation was observed in response to each tested dose of kisspeptin-54, and the mean number of mature eggs per patient generally increased in a dose-dependent manner.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25036713"
+        ],
+        "source_excerpt": "Egg maturation was observed in response to each tested dose of kisspeptin-54, and the mean number of mature eggs per patient generally increased in a dose-dependent manner.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Jayasena 2014",
+          "year": "2014",
+          "design": "Clinical trial",
+          "n": 2,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Egg maturation was observed in response to each tested dose of kisspeptin-54, and the mean number of mature eggs per patient generally increased in a dose-dependent manner."
+        }
+      },
+      {
+        "value": "Controlled clinical trial, humans, 2014: Kisspeptin increased LH pulsatility in all patients with HA, with peak responses observed at different doses in each patient.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-24517142"
+        ],
+        "source_excerpt": "Kisspeptin increased LH pulsatility in all patients with HA, with peak responses observed at different doses in each patient.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Jayasena 2014",
+          "year": "2014",
+          "design": "Controlled clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Kisspeptin increased LH pulsatility in all patients with HA, with peak responses observed at different doses in each patient."
+        }
+      },
+      {
+        "value": "Animal study, n=12, 2026: Regardless of dose, TAK-683 treatment induced the formation of accessory corpora lutea (aCL) and significantly increased original CL (oCL) diameter, luteal area (LA), and Doppler area (DA) compared with controls (P 0.05).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41343946"
+        ],
+        "source_excerpt": "Regardless of dose, TAK-683 treatment induced the formation of accessory corpora lutea (aCL) and significantly increased original CL (oCL) diameter, luteal area (LA), and Doppler area (DA) compared with controls (P 0.05).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Uyanık 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 12,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "intramuscular, subcutaneous",
+          "duration": "7 days",
+          "outcome": "Regardless of dose, TAK-683 treatment induced the formation of accessory corpora lutea (aCL) and significantly increased original CL (oCL) diameter, luteal area (LA), and Doppler area (DA) compared with controls (P…"
+        }
+      },
+      {
+        "value": "Animal study, dogs, n=4, 2026: Only G3 exhibited a P4 increase above 2 ng/mL on day 15, suggesting possible luteinization.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40816115"
+        ],
+        "source_excerpt": "Only G3 exhibited a P4 increase above 2 ng/mL on day 15, suggesting possible luteinization.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bozkurt 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 4,
+          "species": "Dogs",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Only G3 exhibited a P4 increase above 2 ng/mL on day 15, suggesting possible luteinization."
+        }
+      },
+      {
+        "value": "Animal study, mice, zebrafish, 2024: Musk ambrette was identified as a KISS1R agonist, and treatment with musk ambrette led to increased expression of Gnrh1 in murine and human hypothalamic cells and expansion of GnRH neuronal area in developing zebrafish larvae.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39254333"
+        ],
+        "source_excerpt": "Musk ambrette was identified as a KISS1R agonist, and treatment with musk ambrette led to increased expression of Gnrh1 in murine and human hypothalamic cells and expansion of GnRH neuronal area in developing zebrafish larvae.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yang 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice, Zebrafish",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Musk ambrette was identified as a KISS1R agonist, and treatment with musk ambrette led to increased expression of Gnrh1 in murine and human hypothalamic cells and expansion of GnRH neuronal area in developing zebrafish…"
+        }
+      },
+      {
+        "value": "Animal study, dogs, 2021: LH concentrations on Day 1 were generally greater than on day 14.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-34126799"
+        ],
+        "source_excerpt": "LH concentrations on Day 1 were generally greater than on day 14.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Terse 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Dogs",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "14 days",
+          "outcome": "LH concentrations on Day 1 were generally greater than on day 14."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2021: However, the expression of the LH receptor-encoding gene increased 1 week earlier than did Kiss1 expression.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33543882"
+        ],
+        "source_excerpt": "However, the expression of the LH receptor-encoding gene increased 1 week earlier than did Kiss1 expression.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Chiang 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "However, the expression of the LH receptor-encoding gene increased 1 week earlier than did Kiss1 expression."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2023: Increasing radioiodine uptake, KISS1R and TIMP1 targeting may represent a therapeutic adjuvant option for undifferentiated TCs.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-36906579"
+        ],
+        "source_excerpt": "Increasing radioiodine uptake, KISS1R and TIMP1 targeting may represent a therapeutic adjuvant option for undifferentiated TCs.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Veschi 2023",
+          "year": "2023",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Increasing radioiodine uptake, KISS1R and TIMP1 targeting may represent a therapeutic adjuvant option for undifferentiated TCs."
+        }
       }
     ]
   },
@@ -70,15 +807,42 @@
         "Kisspeptin-10 (human)"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL376756/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 30,
+      "claims": 26,
+      "evidence_table_rows": 25
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports exclusion criteria for Kisspeptin."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Kisspeptin been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 34 clinical trials and 44 randomized controlled trials naming Kisspeptin or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Kisspeptin?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Kisspeptin an approved medicine?",
+      "answer": "ChEMBL records CHEMBL376756 at maximum clinical phase 3, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has Kisspeptin been studied in?",
+      "answer": "Studies in this record's ledger report work in: Dogs, Humans, Mice, Zebrafish. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42549827",
@@ -292,7 +1056,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 78.1,
   "review": {
     "author": "",
     "reviewer": "",
@@ -303,6 +1067,14 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 30 ledger sources by scripts/draft_claims.py: 32 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 30 ledger sources by scripts/draft_claims.py: 25 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

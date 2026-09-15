@@ -11,30 +11,678 @@
     "NNC-260161"
   ],
   "slug": "ipamorelin",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for Ipamorelin. Europe PMC indexes 63 publications, including 2 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Ipamorelin is a peptide in the ghrelin mimetics class (ghrelin receptor (GHS-R1a) agonist). Europe PMC indexes 63 publications naming it or a listed alias in a title or abstract, including 2 randomized controlled trials and 2 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Ipamorelin: what the research shows",
-    "description": "Cited overview of published Ipamorelin research: 63 indexed publications, 2 randomized controlled trials. Evidence tier on every claim."
+    "description": "Ipamorelin research, cited: 63 indexed publications, 2 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, n=114, 2014: administration by intravenous route reported. The intervention was intravenous infusions of 0.03-mg/kg ipamorelin vs placebo twice daily, on postoperative day 1 to 7 or hospital discharge.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25331030"
+        ],
+        "source_excerpt": "The intervention was intravenous infusions of 0.03-mg/kg ipamorelin vs placebo twice daily, on postoperative day 1 to 7 or hospital discharge.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2024: administration by intraperitoneal route reported. In other experiments, ferrets were administered anamorelin (1-3 mg/kg), ipamorelin (1-3 mg/kg), or vehicle intraperitoneally (i.p.) 30 s before cisplatin (5 mg/kg, i.p.) and then every 24 h, and their behaviour was recorded for up to 72 h.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39043357"
+        ],
+        "source_excerpt": "In other experiments, ferrets were administered anamorelin (1-3 mg/kg), ipamorelin (1-3 mg/kg), or vehicle intraperitoneally (i.p.) 30 s before cisplatin (5 mg/kg, i.p.) and then every 24 h, and their behaviour was recorded for up to 72 h.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2020: administration by intravenous, oral route reported. Ghrelin mimetics HM01 and ipamorelin were administered orally or intravenously, respectively.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32801950"
+        ],
+        "source_excerpt": "Ghrelin mimetics HM01 and ipamorelin were administered orally or intravenously, respectively.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2012: administration by intravenous route reported. Following the surgery rats received ipamorelin (0.014-0.14 µmol/kg) or vehicle control via intravenous administration.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-27186127"
+        ],
+        "source_excerpt": "Following the surgery rats received ipamorelin (0.014-0.14 µmol/kg) or vehicle control via intravenous administration.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2009: administration by intravenous route reported. Ipamorelin (0.01-1 mg/kg), growth hormone-releasing peptide (GHRP)-6 (20 microg/kg), or vehicle (saline) were administered via intravenous bolus infusion after a single dosing or a 2-day repetitive dosing regimen (four doses a day at 3-h intervals).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-19289567"
+        ],
+        "source_excerpt": "Ipamorelin (0.01-1 mg/kg), growth hormone-releasing peptide (GHRP)-6 (20 microg/kg), or vehicle (saline) were administered via intravenous bolus infusion after a single dosing or a 2-day repetitive dosing regimen (four doses a day at 3-h intervals).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, mice, 2003: administration by intravenous route reported. The growth hormone (GH) and insulin-like growth factor I (IGF-I) axis were studied in streptozotocin (STZ) diabetic and nondiabetic female mice following intravenous (IV) injection of the GH secretagogue (GHS) ipamorelin or saline.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-14630569"
+        ],
+        "source_excerpt": "The growth hormone (GH) and insulin-like growth factor I (IGF-I) axis were studied in streptozotocin (STZ) diabetic and nondiabetic female mice following intravenous (IV) injection of the GH secretagogue (GHS) ipamorelin or saline.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Animal study, 2024: doses stated in the abstract: 1-3 mg/kg. In other experiments, ferrets were administered anamorelin (1-3 mg/kg), ipamorelin (1-3 mg/kg), or vehicle intraperitoneally (i.p.) 30 s before cisplatin (5 mg/kg, i.p.) and then every 24 h, and their behaviour was recorded for up to 72 h.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39043357"
+        ],
+        "source_excerpt": "In other experiments, ferrets were administered anamorelin (1-3 mg/kg), ipamorelin (1-3 mg/kg), or vehicle intraperitoneally (i.p.) 30 s before cisplatin (5 mg/kg, i.p.) and then every 24 h, and their behaviour was recorded for up to 72 h.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2009: doses stated in the abstract: 0.01-1 mg/kg; 1 mg/kg. Ipamorelin (0.01-1 mg/kg), growth hormone-releasing peptide (GHRP)-6 (20 microg/kg), or vehicle (saline) were administered via intravenous bolus infusion after a single dosing or a 2-day repetitive dosing regimen (four doses a day at 3-h intervals).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-19289567"
+        ],
+        "source_excerpt": "Ipamorelin (0.01-1 mg/kg), growth hormone-releasing peptide (GHRP)-6 (20 microg/kg), or vehicle (saline) were administered via intravenous bolus infusion after a single dosing or a 2-day repetitive dosing regimen (four doses a day at 3-h intervals).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2009: doses stated in the abstract: 0.5 mg. Five groups of rats were included: (1) free-fed controls (2) pair-fed controls (3) prednisolone (delcortol, 4 mg x kg(-1) x day(-1)) (4) prednisolone and GH (1 mg x kg(-1) x day(-1)) (5) prednisolone and Ipamorelin (0.5 mg x kg(-1) x day(-1)).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-19231263"
+        ],
+        "source_excerpt": "Five groups of rats were included: (1) free-fed controls (2) pair-fed controls (3) prednisolone (delcortol, 4 mg x kg(-1) x day(-1)) (4) prednisolone and GH (1 mg x kg(-1) x day(-1)) (5) prednisolone and Ipamorelin (0.5 mg x kg(-1) x day(-1)).",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
-    "interactions": [],
+    "interactions": [
+      {
+        "value": "Animal study, rats, 2026: Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42578445"
+        ],
+        "source_excerpt": "Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
+    "adverse_events": [
+      {
+        "value": "Randomized controlled trial, humans, n=114, 2014: Overall incidence of any treatment-emergent adverse events was 87.5 % in the ipamorelin group and 94.8 % in placebo group.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25331030"
+        ],
+        "source_excerpt": "Overall incidence of any treatment-emergent adverse events was 87.5 % in the ipamorelin group and 94.8 % in placebo group.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, n=114, 2014: This proof-of-concept, phase 2, randomized study evaluated the safety and efficacy of the ghrelin-receptor agonist ipamorelin in the treatment of postoperative ileus following abdominal surgery (ClinicalTrials.gov NCT00672074).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25331030"
+        ],
+        "source_excerpt": "This proof-of-concept, phase 2, randomized study evaluated the safety and efficacy of the ghrelin-receptor agonist ipamorelin in the treatment of postoperative ileus following abdominal surgery (ClinicalTrials.gov NCT00672074).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1999: To examine the pharmacokinetics (PK) and pharmacodynamics (PD) of ipamorelin, a growth hormone (GH) releasing peptide, in healthy volunteers.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10496658"
+        ],
+        "source_excerpt": "To examine the pharmacokinetics (PK) and pharmacodynamics (PD) of ipamorelin, a growth hormone (GH) releasing peptide, in healthy volunteers.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2014: The growth hormone releasing peptides (GHRPs) hexarelin, ipamorelin, alexamorelin, GHRP-1, GHRP-2, GHRP-4, GHRP-5, and GHRP-6 are all synthetic met-enkephalin analogues that include unnatural D-amino acids.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-24574167"
+        ],
+        "source_excerpt": "The growth hormone releasing peptides (GHRPs) hexarelin, ipamorelin, alexamorelin, GHRP-1, GHRP-2, GHRP-4, GHRP-5, and GHRP-6 are all synthetic met-enkephalin analogues that include unnatural D-amino acids.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2012: The most promising candidates are the growth hormone releasing peptide (GHRP)-1, -2, -4, -5, -6, hexarelin, alexamorelin, and ipamorelin.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-23101768"
+        ],
+        "source_excerpt": "The most promising candidates are the growth hormone releasing peptide (GHRP)-1, -2, -4, -5, -6, hexarelin, alexamorelin, and ipamorelin.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2012: The goal of this study was to investigate whether ipamorelin, a synthetic peptidomimetic that acts on the ghrelin receptor, accelerates gastric emptying in a rodent model of gastroparesis induced by abdominal surgery and intestinal manipulation.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-27186127"
+        ],
+        "source_excerpt": "The goal of this study was to investigate whether ipamorelin, a synthetic peptidomimetic that acts on the ghrelin receptor, accelerates gastric emptying in a rodent model of gastroparesis induced by abdominal surgery and intestinal manipulation.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2009: The present study investigates whether ipamorelin, a selective growth hormone secretagogue and agonist of the ghrelin receptor, would accelerate gastrointestinal transit and ameliorate the symptoms in a rodent model of postoperative ileus (POI).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-19289567"
+        ],
+        "source_excerpt": "The present study investigates whether ipamorelin, a selective growth hormone secretagogue and agonist of the ghrelin receptor, would accelerate gastrointestinal transit and ameliorate the symptoms in a rodent model of postoperative ileus (POI).",
+        "drafting": "extractive"
+      }
+    ],
     "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
+    "storage": [
+      {
+        "value": "In vitro study, humans, 2017: The spray-coated chemical stabilization mixture was tested against microorganism elimination and steroid glucuronide degradation, as well as enzymatic breakdown of proteins, such as intact hCG, recombinant erythropoietin and small peptides (GHRPs, ipamorelin), induced by proteolytic enzymes.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-27497113"
+        ],
+        "source_excerpt": "The spray-coated chemical stabilization mixture was tested against microorganism elimination and steroid glucuronide degradation, as well as enzymatic breakdown of proteins, such as intact hCG, recombinant erythropoietin and small peptides (GHRPs, ipamorelin), induced by proteolytic enzymes.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Animal study, 2024: durations stated: 21 days. The administration of either 5 or 30 µg of IPA for 21 days led to a significant and dose-dependent rise in food intake concomitant with a significant increase in the numbers of primary spermatocytes, secondary spermatocytes, and early spermatids compared to the control group.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38996787"
+        ],
+        "source_excerpt": "The administration of either 5 or 30 µg of IPA for 21 days led to a significant and dose-dependent rise in food intake concomitant with a significant increase in the numbers of primary spermatocytes, secondary spermatocytes, and early spermatids compared to the control group.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2009: durations stated: 2 day. Ipamorelin (0.01-1 mg/kg), growth hormone-releasing peptide (GHRP)-6 (20 microg/kg), or vehicle (saline) were administered via intravenous bolus infusion after a single dosing or a 2-day repetitive dosing regimen (four doses a day at 3-h intervals).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-19289567"
+        ],
+        "source_excerpt": "Ipamorelin (0.01-1 mg/kg), growth hormone-releasing peptide (GHRP)-6 (20 microg/kg), or vehicle (saline) were administered via intravenous bolus infusion after a single dosing or a 2-day repetitive dosing regimen (four doses a day at 3-h intervals).",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Animal study, 2024: weight-normalized doses as published: 1-3 mg/kg. In other experiments, ferrets were administered anamorelin (1-3 mg/kg), ipamorelin (1-3 mg/kg), or vehicle intraperitoneally (i.p.) 30 s before cisplatin (5 mg/kg, i.p.) and then every 24 h, and their behaviour was recorded for up to 72 h.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39043357"
+        ],
+        "source_excerpt": "In other experiments, ferrets were administered anamorelin (1-3 mg/kg), ipamorelin (1-3 mg/kg), or vehicle intraperitoneally (i.p.) 30 s before cisplatin (5 mg/kg, i.p.) and then every 24 h, and their behaviour was recorded for up to 72 h.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2009: weight-normalized doses as published: 0.01-1 mg/kg; 1 mg/kg. Ipamorelin (0.01-1 mg/kg), growth hormone-releasing peptide (GHRP)-6 (20 microg/kg), or vehicle (saline) were administered via intravenous bolus infusion after a single dosing or a 2-day repetitive dosing regimen (four doses a day at 3-h intervals).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-19289567"
+        ],
+        "source_excerpt": "Ipamorelin (0.01-1 mg/kg), growth hormone-releasing peptide (GHRP)-6 (20 microg/kg), or vehicle (saline) were administered via intravenous bolus infusion after a single dosing or a 2-day repetitive dosing regimen (four doses a day at 3-h intervals).",
+        "drafting": "extractive"
+      }
+    ],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL58547: maximum clinical phase 2. Jurisdiction-level status pending human review.",
         "evidence_label": "human-clinical-trial",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, n=114, 2014: There were no significant differences between ipamorelin and placebo in the key and secondary efficacy analyses.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25331030"
+        ],
+        "source_excerpt": "There were no significant differences between ipamorelin and placebo in the key and secondary efficacy analyses.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Beck 2014",
+          "year": "2014",
+          "design": "Randomized controlled trial",
+          "n": 114,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "There were no significant differences between ipamorelin and placebo in the key and secondary efficacy analyses."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1999: To examine the pharmacokinetics (PK) and pharmacodynamics (PD) of ipamorelin, a growth hormone (GH) releasing peptide, in healthy volunteers.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10496658"
+        ],
+        "source_excerpt": "To examine the pharmacokinetics (PK) and pharmacodynamics (PD) of ipamorelin, a growth hormone (GH) releasing peptide, in healthy volunteers.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gobburu 1999",
+          "year": "1999",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Human study, humans, 2011: The present study provides data for the efficient extraction of a variety of known drug candidates (GHRP-1, GHRP-2, GHRP-4, GHRP-5, GHRP-6, alexamorelin, ipamorelin, and hexarelin) from human urine with subsequent mass spectrometric detection after liquid chromatographic separation.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-21298258"
+        ],
+        "source_excerpt": "The present study provides data for the efficient extraction of a variety of known drug candidates (GHRP-1, GHRP-2, GHRP-4, GHRP-5, GHRP-6, alexamorelin, ipamorelin, and hexarelin) from human urine with subsequent mass spectrometric detection after liquid chromatographic separation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Thomas 2011",
+          "year": "2011",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42578445"
+        ],
+        "source_excerpt": "Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Tewari 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain."
+        }
+      },
+      {
+        "value": "Animal study, 2024: Anamorelin (10 µg) administered intracerebroventricularly reduced cisplatin-induced acute emesis by 60 % but did not affect delayed emesis.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39043357"
+        ],
+        "source_excerpt": "Anamorelin (10 µg) administered intracerebroventricularly reduced cisplatin-induced acute emesis by 60 % but did not affect delayed emesis.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lu 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "1-3 mg/kg",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "Anamorelin (10 µg) administered intracerebroventricularly reduced cisplatin-induced acute emesis by 60 % but did not affect delayed emesis."
+        }
+      },
+      {
+        "value": "Animal study, 2024: Moreover, there was no significant difference in the percentage of gonadotropin-releasing hormone (GnRH)-immunoreactive fibres in the hypothalamus and anterior pituitary gland across different groups.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38996787"
+        ],
+        "source_excerpt": "Moreover, there was no significant difference in the percentage of gonadotropin-releasing hormone (GnRH)-immunoreactive fibres in the hypothalamus and anterior pituitary gland across different groups.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gouda 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "21 days",
+          "outcome": "Moreover, there was no significant difference in the percentage of gonadotropin-releasing hormone (GnRH)-immunoreactive fibres in the hypothalamus and anterior pituitary gland across different groups."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2020: Compared to vehicle controls, ghrelin mimetics HM01 and ipamorelin significantly attenuated colonic hypersensitivity and somatic allodynia.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32801950"
+        ],
+        "source_excerpt": "Compared to vehicle controls, ghrelin mimetics HM01 and ipamorelin significantly attenuated colonic hypersensitivity and somatic allodynia.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "N 2020",
+          "year": "2020",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "intravenous, oral",
+          "duration": "not stated in abstract",
+          "outcome": "Compared to vehicle controls, ghrelin mimetics HM01 and ipamorelin significantly attenuated colonic hypersensitivity and somatic allodynia."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2014: This method takes advantage of a highly specific solid-phase extraction combined with a novel derivatization method to improve the chromatography of basic peptides.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-24574167"
+        ],
+        "source_excerpt": "This method takes advantage of a highly specific solid-phase extraction combined with a novel derivatization method to improve the chromatography of basic peptides.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Timms 2014",
+          "year": "2014",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "This method takes advantage of a highly specific solid-phase extraction combined with a novel derivatization method to improve the chromatography of basic peptides."
+        }
+      },
+      {
+        "value": "Animal study, 2013: In our study, a simple mixed-mode anion exchange solid-phase extraction cartridge was employed for the extraction of seven target peptides (GHRP-1, GHRP-2, GHRP-6, ipamorelin, hexarelin, CJC-1295, and N-acetylated LKKTETQ (active ingredient of TB-500)) and their in vitro metabolites from horse plasma.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-23318763"
+        ],
+        "source_excerpt": "In our study, a simple mixed-mode anion exchange solid-phase extraction cartridge was employed for the extraction of seven target peptides (GHRP-1, GHRP-2, GHRP-6, ipamorelin, hexarelin, CJC-1295, and N-acetylated LKKTETQ (active ingredient of TB-500)) and their in vitro metabolites from horse plasma.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kwok 2013",
+          "year": "2013",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2012: The most promising candidates are the growth hormone releasing peptide (GHRP)-1, -2, -4, -5, -6, hexarelin, alexamorelin, and ipamorelin.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-23101768"
+        ],
+        "source_excerpt": "The most promising candidates are the growth hormone releasing peptide (GHRP)-1, -2, -4, -5, -6, hexarelin, alexamorelin, and ipamorelin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Thomas 2012",
+          "year": "2012",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2012: Ipamorelin (0.014 µmol/kg intravenous) resulted in a significant acceleration (P Conclusion These results suggest that ipamorelin accelerates gastric emptying in a rodent model of postoperative ileus through the stimulation of gastric contractility by activating a ghrelin receptor-mediated mechanism involving…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-27186127"
+        ],
+        "source_excerpt": "Ipamorelin (0.014 µmol/kg intravenous) resulted in a significant acceleration (P Conclusion These results suggest that ipamorelin accelerates gastric emptying in a rodent model of postoperative ileus through the stimulation of gastric contractility by activating a ghrelin receptor-mediated mechanism involving cholinergic excitatory neurons.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Greenwood-Van 2012",
+          "year": "2012",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Ipamorelin (0.014 µmol/kg intravenous) resulted in a significant acceleration (P Conclusion These results suggest that ipamorelin accelerates gastric emptying in a rodent model of postoperative ileus through the…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2009: Compared with the vehicle, a single dose of ipamorelin (1 mg/kg) or GHRP-6 (20 microg/kg) decreased the time to the first bowel movement but had no effect on cumulative fecal output, food intake, or body weight gain measured 48 h after the surgery.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-19289567"
+        ],
+        "source_excerpt": "Compared with the vehicle, a single dose of ipamorelin (1 mg/kg) or GHRP-6 (20 microg/kg) decreased the time to the first bowel movement but had no effect on cumulative fecal output, food intake, or body weight gain measured 48 h after the surgery.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Venkova 2009",
+          "year": "2009",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "0.01-1 mg/kg; 1 mg/kg",
+          "route": "intravenous",
+          "duration": "2 day",
+          "outcome": "Compared with the vehicle, a single dose of ipamorelin (1 mg/kg) or GHRP-6 (20 microg/kg) decreased the time to the first bowel movement but had no effect on cumulative fecal output, food intake, or body weight gain…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2009: Compared to pair-fed controls, prednisolone increased CUNS (p Conclusion Accelerated nitrogen wasting in the liver and other organs caused by prednisolone treatment was counteracted by treatment with either GH or its secretagogue Ipamorelin, though at the doses given less efficiently by the latter.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-19231263"
+        ],
+        "source_excerpt": "Compared to pair-fed controls, prednisolone increased CUNS (p Conclusion Accelerated nitrogen wasting in the liver and other organs caused by prednisolone treatment was counteracted by treatment with either GH or its secretagogue Ipamorelin, though at the doses given less efficiently by the latter.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Aagaard 2009",
+          "year": "2009",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "0.5 mg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Compared to pair-fed controls, prednisolone increased CUNS (p Conclusion Accelerated nitrogen wasting in the liver and other organs caused by prednisolone treatment was counteracted by treatment with either GH or its…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2004: Ipamorelin evoked significant (p Conclusion IPA stimulates insulin release through the calcium channel and the adrenergic receptor pathways.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-15665799"
+        ],
+        "source_excerpt": "Ipamorelin evoked significant (p Conclusion IPA stimulates insulin release through the calcium channel and the adrenergic receptor pathways.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Adeghate 2004",
+          "year": "2004",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Ipamorelin evoked significant (p Conclusion IPA stimulates insulin release through the calcium channel and the adrenergic receptor pathways."
+        }
+      },
+      {
+        "value": "Animal study, rats, mice, 2003: Serum IGF-I levels were lower in diabetic than in nondiabetic animals, and rose after stimulation only in the nondiabetic animals.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-14630569"
+        ],
+        "source_excerpt": "Serum IGF-I levels were lower in diabetic than in nondiabetic animals, and rose after stimulation only in the nondiabetic animals.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Johansen 2003",
+          "year": "2003",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats, Mice",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Serum IGF-I levels were lower in diabetic than in nondiabetic animals, and rose after stimulation only in the nondiabetic animals."
+        }
+      },
+      {
+        "value": "Animal study, rats, dogs, swine, 2002: In order to obtain more potent growth hormone secretagogues, a comparison of ipamorelin and NN703 suggested the addition of a polar group at the C-terminus of NN703.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12204475"
+        ],
+        "source_excerpt": "In order to obtain more potent growth hormone secretagogues, a comparison of ipamorelin and NN703 suggested the addition of a polar group at the C-terminus of NN703.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Peschke 2002",
+          "year": "2002",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats, Dogs, Swine",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2001: The maximum tetanic tension was increased significantly, and the periosteal bone formation rate increased four-fold in animals injected with GC and GHS in combination, compared with the group injected with GC alone.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11735244"
+        ],
+        "source_excerpt": "The maximum tetanic tension was increased significantly, and the periosteal bone formation rate increased four-fold in animals injected with GC and GHS in combination, compared with the group injected with GC alone.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Andersen 2001",
+          "year": "2001",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "The maximum tetanic tension was increased significantly, and the periosteal bone formation rate increased four-fold in animals injected with GC and GHS in combination, compared with the group injected with GC alone."
+        }
+      },
+      {
+        "value": "Animal study, rats, 1999: The responsiveness of the pituitary to a provocative i.v. dose of ipamorelin or GHRH showed that the plasma GH response was marginally reduced (P<0.03) after ipamorelin, but unchanged after GHRH.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-10373343"
+        ],
+        "source_excerpt": "The responsiveness of the pituitary to a provocative i.v. dose of ipamorelin or GHRH showed that the plasma GH response was marginally reduced (P<0.03) after ipamorelin, but unchanged after GHRH.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Johansen 1999",
+          "year": "1999",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "intravenous, subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "The responsiveness of the pituitary to a provocative i.v. dose of ipamorelin or GHRH showed that the plasma GH response was marginally reduced (P<0.03) after ipamorelin, but unchanged after GHRH."
+        }
+      },
+      {
+        "value": "Animal study, rats, 1998: Higher bioavailabilities of approximately 50% were determined for NNC 26-0235, NNC 26-0194 and GHRP-2, whereas the nasal absorption of GHRP-6 was somewhat lower.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-9879640"
+        ],
+        "source_excerpt": "Higher bioavailabilities of approximately 50% were determined for NNC 26-0235, NNC 26-0194 and GHRP-2, whereas the nasal absorption of GHRP-6 was somewhat lower.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Johansen 1998",
+          "year": "1998",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "intranasal",
+          "duration": "not stated in abstract",
+          "outcome": "Higher bioavailabilities of approximately 50% were determined for NNC 26-0235, NNC 26-0194 and GHRP-2, whereas the nasal absorption of GHRP-6 was somewhat lower."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2018: The versatility of this carborane for the development of peptidic boron delivery agents was further demonstrated by the generation of highly potent, boron-loaded conjugates using the backbone of the known ghrelin receptor ligands growth hormone releasing peptide 6 and Ipamorelin.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-30168238"
+        ],
+        "source_excerpt": "The versatility of this carborane for the development of peptidic boron delivery agents was further demonstrated by the generation of highly potent, boron-loaded conjugates using the backbone of the known ghrelin receptor ligands growth hormone releasing peptide 6 and Ipamorelin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Worm 2018",
+          "year": "2018",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2017: The spray-coated chemical stabilization mixture was tested against microorganism elimination and steroid glucuronide degradation, as well as enzymatic breakdown of proteins, such as intact hCG, recombinant erythropoietin and small peptides (GHRPs, ipamorelin), induced by proteolytic enzymes.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-27497113"
+        ],
+        "source_excerpt": "The spray-coated chemical stabilization mixture was tested against microorganism elimination and steroid glucuronide degradation, as well as enzymatic breakdown of proteins, such as intact hCG, recombinant erythropoietin and small peptides (GHRPs, ipamorelin), induced by proteolytic enzymes.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Tsivou 2017",
+          "year": "2017",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2016: Several peptides <2 kDa with performance-enhancing properties are covered by the list of prohibited substances of the World Anti-Doping Agency including Desmopressin, LH-RH, Buserelin, Triptorelin, Leuprolide, GHRP-1, GHRP-2, GHRP-3, GHRP-4, GHRP-5,GHRP-6, Alexamorelin, Ipamorelin, Hexarelin, ARA-290,…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-26578461"
+        ],
+        "source_excerpt": "Several peptides <2 kDa with performance-enhancing properties are covered by the list of prohibited substances of the World Anti-Doping Agency including Desmopressin, LH-RH, Buserelin, Triptorelin, Leuprolide, GHRP-1, GHRP-2, GHRP-3, GHRP-4, GHRP-5,GHRP-6, Alexamorelin, Ipamorelin, Hexarelin, ARA-290, AOD-9604, TB-500 and Anamorelin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Thomas 2016",
+          "year": "2016",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
       }
     ]
   },
@@ -75,15 +723,44 @@
         "NNC-260161"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL58547/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 27,
+      "claims": 23,
+      "evidence_table_rows": 22
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports dose-escalation schedules for Ipamorelin.",
+    "No study in this record's ledger reports exclusion criteria for Ipamorelin.",
+    "No study in this record's ledger reports onset or duration of effects for Ipamorelin."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Ipamorelin been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 2 clinical trials and 2 randomized controlled trials naming Ipamorelin or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Ipamorelin?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Ipamorelin an approved medicine?",
+      "answer": "ChEMBL records CHEMBL58547 at maximum clinical phase 2, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has Ipamorelin been studied in?",
+      "answer": "Studies in this record's ledger report work in: Dogs, Humans, Mice, Rats, Swine. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42578445",
@@ -297,7 +974,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 75.6,
   "review": {
     "author": "",
     "reviewer": "",
@@ -312,6 +989,14 @@
     {
       "date": "2026-09-14",
       "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 33 claims, 22 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 22 claims, 22 evidence-table rows. Status researched -> draft."
     }
   ]
 }

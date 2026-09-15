@@ -12,30 +12,590 @@
     "thymosin alpha 1"
   ],
   "slug": "thymosin-alpha-1",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for Thymosin alpha-1. Europe PMC indexes 1079 publications, including 65 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Thymosin alpha-1 is a peptide in the immunomodulators & host defense class (thymic peptide; TLR-mediated immunomodulation). Europe PMC indexes 1,079 publications naming it or a listed alias in a title or abstract, including 65 randomized controlled trials and 61 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Thymosin alpha-1: what the research shows",
-    "description": "Cited overview of published Thymosin alpha-1 research: 1079 indexed publications, 65 randomized controlled trials. Evidence tier on every claim."
+    "description": "Thymosin alpha-1 research, cited: 1,079 indexed publications, 65 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, n=552, 2025: administration by subcutaneous route reported. A stratified block method was used for randomisation, and participants were stratified by age ( Interventions Subcutaneous injection of thymosin α1 or placebo every 12 hours for seven days unless discontinued owing to discharge from the…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39814420"
+        ],
+        "source_excerpt": "A stratified block method was used for randomisation, and participants were stratified by age ( Interventions Subcutaneous injection of thymosin α1 or placebo every 12 hours for seven days unless discontinued owing to discharge from the intensive care unit, death, or withdrawal of consent.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2006: administration by subcutaneous route reported. The patients in group A received subcutaneous injection of 1.6 mg thymosin-alpha1, twice a week (T-alpha1 group) for six months, and the patients in group B received 5 MU interferon alpha (IFN-alpha) each day for fifteen days, then three…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17075991"
+        ],
+        "source_excerpt": "The patients in group A received subcutaneous injection of 1.6 mg thymosin-alpha1, twice a week (T-alpha1 group) for six months, and the patients in group B received 5 MU interferon alpha (IFN-alpha) each day for fifteen days, then three times weekly (IFN-alpha group) for six months.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 1982: administration by intravenous route reported. Two- to four-month-old mice were treated with graded doses of thymosin alpha 1 before, after, or before and after intravenous challenge with C. albicans.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-7085074"
+        ],
+        "source_excerpt": "Two- to four-month-old mice were treated with graded doses of thymosin alpha 1 before, after, or before and after intravenous challenge with C. albicans.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2025: administration by subcutaneous route reported. In this study, we thus aimed to exploit the potential of a liquid crystalline platform for the sustained release of peptide drug thymosin alpha 1 (Tα1), characterized by a short plasma half-life and with that associated twice-weekly SC administration regimen.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-40066714"
+        ],
+        "source_excerpt": "In this study, we thus aimed to exploit the potential of a liquid crystalline platform for the sustained release of peptide drug thymosin alpha 1 (Tα1), characterized by a short plasma half-life and with that associated twice-weekly SC administration regimen.",
+        "drafting": "extractive"
+      }
+    ],
     "study_doses": [],
     "escalation_schedules": [],
-    "interactions": [],
-    "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
+    "interactions": [
+      {
+        "value": "Phase 2 clinical trial, humans, 2026: We conducted a phase II trial to evaluate anti-PD-1 plus SOX (S-1 and oxaliplatin) immunochemotherapy combined with thymalfasin as neoadjuvant treatment for G/EGJ adenocarcinoma.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41749205"
+        ],
+        "source_excerpt": "We conducted a phase II trial to evaluate anti-PD-1 plus SOX (S-1 and oxaliplatin) immunochemotherapy combined with thymalfasin as neoadjuvant treatment for G/EGJ adenocarcinoma.",
+        "drafting": "extractive"
+      }
+    ],
+    "exclusion_criteria": [
+      {
+        "value": "In vitro study, humans, 2020: 520 eligible patients with ANP will be randomised in a 1:1 ratio to receive either the thymosin alpha 1 or the placebo using the same mode of administration.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-32994239"
+        ],
+        "source_excerpt": "520 eligible patients with ANP will be randomised in a 1:1 ratio to receive either the thymosin alpha 1 or the placebo using the same mode of administration.",
+        "drafting": "extractive"
+      }
+    ],
+    "adverse_events": [
+      {
+        "value": "Randomized controlled trial, humans, n=100, 2024: The conventional-dose and high-dose thymalfasin for injection effectively improves the perioperative immune function of CRC patients and reduces the incidence of postoperative complications, as an effective treatment for such patients, which can benefit patients.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37248723"
+        ],
+        "source_excerpt": "The conventional-dose and high-dose thymalfasin for injection effectively improves the perioperative immune function of CRC patients and reduces the incidence of postoperative complications, as an effective treatment for such patients, which can benefit patients.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=508, 2022: This trial aimed to evaluate whether early immune-enhancing Thymosin alpha 1 (Tα1) treatment reduces the incidence of IPN in patients with predicted severe ANP.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35713670"
+        ],
+        "source_excerpt": "This trial aimed to evaluate whether early immune-enhancing Thymosin alpha 1 (Tα1) treatment reduces the incidence of IPN in patients with predicted severe ANP.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 3 clinical trial, humans, n=8, 2016: Eight of the 9 patients transitioning to combined treatment with immunotherapy (pegylated interferon or thymosin alpha 1) in the REP 102 study experienced HBsAg loss and all 9 patients experienced substantial increases in serum anti-HBsAg antibody titers before withdrawal of therapy.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27257978"
+        ],
+        "source_excerpt": "Eight of the 9 patients transitioning to combined treatment with immunotherapy (pegylated interferon or thymosin alpha 1) in the REP 102 study experienced HBsAg loss and all 9 patients experienced substantial increases in serum anti-HBsAg antibody titers before withdrawal of therapy.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2020: This study was designed to test the hypothesis that the administration of thymosin alpha 1 during the acute phase of ANP will result in a reduced incidence of IPN.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-32994239"
+        ],
+        "source_excerpt": "This study was designed to test the hypothesis that the administration of thymosin alpha 1 during the acute phase of ANP will result in a reduced incidence of IPN.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Phase 2 clinical trial, humans, 2026: Treatment included three 21-day cycles of serplulimab (anti-PD-1) plus SOX (S-1 and oxaliplatin) and 9 weeks of thymalfasin, followed by curative gastrectomy.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41749205"
+        ],
+        "source_excerpt": "Treatment included three 21-day cycles of serplulimab (anti-PD-1) plus SOX (S-1 and oxaliplatin) and 9 weeks of thymalfasin, followed by curative gastrectomy.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, n=19, 2023: The peculiar property of Thymosin alpha 1 (Tα1) to act as master regulator of immune homeostasis has been successfully defined in different physiological and pathological contexts ranging from cancer to infection.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-36933449"
+        ],
+        "source_excerpt": "The peculiar property of Thymosin alpha 1 (Tα1) to act as master regulator of immune homeostasis has been successfully defined in different physiological and pathological contexts ranging from cancer to infection.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "In vitro study, 2025: In this study, we thus aimed to exploit the potential of a liquid crystalline platform for the sustained release of peptide drug thymosin alpha 1 (Tα1), characterized by a short plasma half-life and with that associated twice-weekly SC administration regimen.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-40066714"
+        ],
+        "source_excerpt": "In this study, we thus aimed to exploit the potential of a liquid crystalline platform for the sustained release of peptide drug thymosin alpha 1 (Tα1), characterized by a short plasma half-life and with that associated twice-weekly SC administration regimen.",
+        "drafting": "extractive"
+      }
+    ],
     "storage": [],
-    "study_durations": [],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, n=34, 2026: durations stated: 0 months. The median follow-up duration was 6.0 months.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42063096"
+        ],
+        "source_excerpt": "The median follow-up duration was 6.0 months.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 2 clinical trial, humans, 2026: durations stated: 21 day; 9 weeks; 0 months. Treatment included three 21-day cycles of serplulimab (anti-PD-1) plus SOX (S-1 and oxaliplatin) and 9 weeks of thymalfasin, followed by curative gastrectomy.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41749205"
+        ],
+        "source_excerpt": "Treatment included three 21-day cycles of serplulimab (anti-PD-1) plus SOX (S-1 and oxaliplatin) and 9 weeks of thymalfasin, followed by curative gastrectomy.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 2 clinical trial, humans, n=6, 2025: durations stated: 14 days; 3 weeks; 7 days. HFRT was administered to targeted tumors, and GM-CSF was administered for 14 days from day 1 of radiotherapy.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39904914"
+        ],
+        "source_excerpt": "HFRT was administered to targeted tumors, and GM-CSF was administered for 14 days from day 1 of radiotherapy.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=552, 2025: durations stated: 85 years. Participants 1106 adults aged 18-85 years with a diagnosis of sepsis according to sepsis-3 criteria and randomly assigned in a 1:1 ratio to receive thymosin α1 (n=552) or placebo (n=554).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39814420"
+        ],
+        "source_excerpt": "Participants 1106 adults aged 18-85 years with a diagnosis of sepsis according to sepsis-3 criteria and randomly assigned in a 1:1 ratio to receive thymosin α1 (n=552) or placebo (n=554).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=194, 2023: durations stated: 8 weeks; 8 week; 4 months. Of these, 194 patients have been randomized 1:1 to either Group A (1.6 mg Ta1 given subcutaneously twice weekly for 8 weeks), or Group B (control group not receiving Ta1).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36881981"
+        ],
+        "source_excerpt": "Of these, 194 patients have been randomized 1:1 to either Group A (1.6 mg Ta1 given subcutaneously twice weekly for 8 weeks), or Group B (control group not receiving Ta1).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=508, 2022: durations stated: 7 days. Enrolled patients were assigned to receive a subcutaneous injection of Tα1 1.6 mg every 12 h for the first 7 days and 1.6 mg once a day for the subsequent 7 days or matching placebos (normal saline).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35713670"
+        ],
+        "source_excerpt": "Enrolled patients were assigned to receive a subcutaneous injection of Tα1 1.6 mg every 12 h for the first 7 days and 1.6 mg once a day for the subsequent 7 days or matching placebos (normal saline).",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL2103979: maximum clinical phase 3. Jurisdiction-level status pending human review.",
         "evidence_label": "human-clinical-trial",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, n=34, 2026: Among the 37 treatment courses in 34 patients, 4 patients did not complete the planned therapy, and 1 was lost to follow-up.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42063096"
+        ],
+        "source_excerpt": "Among the 37 treatment courses in 34 patients, 4 patients did not complete the planned therapy, and 1 was lost to follow-up.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhou 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 34,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "0 months",
+          "outcome": "Among the 37 treatment courses in 34 patients, 4 patients did not complete the planned therapy, and 1 was lost to follow-up."
+        }
+      },
+      {
+        "value": "Phase 2 clinical trial, humans, 2026: Flow cytometry showed expansion of CD8⁺ T cells with increased CD69 expression and a concurrent reduction in HLA-DR-positive T cells, suggesting dynamic remodeling from broad systemic activation toward a more focused effector or memory response.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41749205"
+        ],
+        "source_excerpt": "Flow cytometry showed expansion of CD8⁺ T cells with increased CD69 expression and a concurrent reduction in HLA-DR-positive T cells, suggesting dynamic remodeling from broad systemic activation toward a more focused effector or memory response.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Xu 2026",
+          "year": "2026",
+          "design": "Phase 2 clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "21 day; 9 weeks",
+          "outcome": "Flow cytometry showed expansion of CD8⁺ T cells with increased CD69 expression and a concurrent reduction in HLA-DR-positive T cells, suggesting dynamic remodeling from broad systemic activation toward a more focused…"
+        }
+      },
+      {
+        "value": "Phase 2 clinical trial, humans, n=6, 2025: Patients who achieved a partial response were significantly more likely to have an abscopal effect( P = 0.025).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39904914"
+        ],
+        "source_excerpt": "Patients who achieved a partial response were significantly more likely to have an abscopal effect( P = 0.025).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yu 2025",
+          "year": "2025",
+          "design": "Phase 2 clinical trial",
+          "n": 6,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "14 days; 3 weeks",
+          "outcome": "Patients who achieved a partial response were significantly more likely to have an abscopal effect( P = 0.025)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=552, 2025: No secondary or safety outcome differed statistically significantly between the two groups.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39814420"
+        ],
+        "source_excerpt": "No secondary or safety outcome differed statistically significantly between the two groups.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wu 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": 552,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "85 years",
+          "outcome": "No secondary or safety outcome differed statistically significantly between the two groups."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=502, 2024: Tα1 therapy was associated with reduced incidence of IPN among patients with hyperglycemia (18.8% vs 29.7%: hazard ratio, 0.80; 95% confidence interval, 0.37 to 0.97; p=0.03), but not in the other subgroups.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38356344"
+        ],
+        "source_excerpt": "Tα1 therapy was associated with reduced incidence of IPN among patients with hyperglycemia (18.8% vs 29.7%: hazard ratio, 0.80; 95% confidence interval, 0.37 to 0.97; p=0.03), but not in the other subgroups.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Huang 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": 502,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Tα1 therapy was associated with reduced incidence of IPN among patients with hyperglycemia (18.8% vs 29.7%: hazard ratio, 0.80; 95% confidence interval, 0.37 to 0.97; p=0.03), but not in the other subgroups."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=100, 2024: The conventional-dose and high-dose thymalfasin for injection effectively improves the perioperative immune function of CRC patients and reduces the incidence of postoperative complications, as an effective treatment for such patients, which can benefit patients.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37248723"
+        ],
+        "source_excerpt": "The conventional-dose and high-dose thymalfasin for injection effectively improves the perioperative immune function of CRC patients and reduces the incidence of postoperative complications, as an effective treatment for such patients, which can benefit patients.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Niu 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": 100,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The conventional-dose and high-dose thymalfasin for injection effectively improves the perioperative immune function of CRC patients and reduces the incidence of postoperative complications, as an effective treatment…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=194, 2023: In prior studies, thymalfasin (thymosin alpha 1, Ta1) has been shown to enhance antibody response to influenza vaccine and reduce influenza infection in geriatric populations, including hemodialysis patients, when used as an adjunct to influenza vaccine.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36881981"
+        ],
+        "source_excerpt": "In prior studies, thymalfasin (thymosin alpha 1, Ta1) has been shown to enhance antibody response to influenza vaccine and reduce influenza infection in geriatric populations, including hemodialysis patients, when used as an adjunct to influenza vaccine.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Tuthill 2023",
+          "year": "2023",
+          "design": "Randomized controlled trial",
+          "n": 194,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "8 weeks; 8 week",
+          "outcome": "In prior studies, thymalfasin (thymosin alpha 1, Ta1) has been shown to enhance antibody response to influenza vaccine and reduce influenza infection in geriatric populations, including hemodialysis patients, when used…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=508, 2022: There was no difference in other major complications, including new-onset organ failure (10.6% vs. 15%), bleeding (6.3% vs. 3.5%), and gastrointestinal fistula (2% vs. 2.4%).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35713670"
+        ],
+        "source_excerpt": "There was no difference in other major complications, including new-onset organ failure (10.6% vs. 15%), bleeding (6.3% vs. 3.5%), and gastrointestinal fistula (2% vs. 2.4%).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ke 2022",
+          "year": "2022",
+          "design": "Randomized controlled trial",
+          "n": 508,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "7 days",
+          "outcome": "There was no difference in other major complications, including new-onset organ failure (10.6% vs. 15%), bleeding (6.3% vs. 3.5%), and gastrointestinal fistula (2% vs. 2.4%)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=351, 2018: There was no significant difference between two groups in endpoint events, while combination therapy with Ta-1 has a tendency to inhibit the development of HCC.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-30063860"
+        ],
+        "source_excerpt": "There was no significant difference between two groups in endpoint events, while combination therapy with Ta-1 has a tendency to inhibit the development of HCC.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wu 2018",
+          "year": "2018",
+          "design": "Randomized controlled trial",
+          "n": 351,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "52 weeks; 26 weeks",
+          "outcome": "There was no significant difference between two groups in endpoint events, while combination therapy with Ta-1 has a tendency to inhibit the development of HCC."
+        }
+      },
+      {
+        "value": "Phase 3 clinical trial, humans, n=8, 2016: Eight of the 9 patients transitioning to combined treatment with immunotherapy (pegylated interferon or thymosin alpha 1) in the REP 102 study experienced HBsAg loss and all 9 patients experienced substantial increases in serum anti-HBsAg antibody titers before withdrawal of therapy.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27257978"
+        ],
+        "source_excerpt": "Eight of the 9 patients transitioning to combined treatment with immunotherapy (pegylated interferon or thymosin alpha 1) in the REP 102 study experienced HBsAg loss and all 9 patients experienced substantial increases in serum anti-HBsAg antibody titers before withdrawal of therapy.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Al-Mahtab 2016",
+          "year": "2016",
+          "design": "Phase 3 clinical trial",
+          "n": 8,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "52 weeks",
+          "outcome": "Eight of the 9 patients transitioning to combined treatment with immunotherapy (pegylated interferon or thymosin alpha 1) in the REP 102 study experienced HBsAg loss and all 9 patients experienced substantial increases…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=180, 2013: Greater improvement of mHLA-DR was observed in the Tα1 group on day 3 (mean difference in mHLA-DR changes between the two groups was 3.9%, 95% CI 0.2 to 7.6%, P = 0.037) and day 7 (mean difference in mHLA-DR changes between the two groups was 5.8%, 95% CI 1.0 to 10.5%, P = 0.017) than in…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-23327199"
+        ],
+        "source_excerpt": "Greater improvement of mHLA-DR was observed in the Tα1 group on day 3 (mean difference in mHLA-DR changes between the two groups was 3.9%, 95% CI 0.2 to 7.6%, P = 0.037) and day 7 (mean difference in mHLA-DR changes between the two groups was 5.8%, 95% CI 1.0 to 10.5%, P = 0.017) than in the control group.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wu 2013",
+          "year": "2013",
+          "design": "Randomized controlled trial",
+          "n": 180,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Greater improvement of mHLA-DR was observed in the Tα1 group on day 3 (mean difference in mHLA-DR changes between the two groups was 3.9%, 95% CI 0.2 to 7.6%, P = 0.037) and day 7 (mean difference in mHLA-DR changes…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=24, 2011: The positive rates of blood and abdominal drainage culture were statistically significant during the 28th follow-up period.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-20549321"
+        ],
+        "source_excerpt": "The positive rates of blood and abdominal drainage culture were statistically significant during the 28th follow-up period.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wang 2011",
+          "year": "2011",
+          "design": "Randomized controlled trial",
+          "n": 24,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The positive rates of blood and abdominal drainage culture were statistically significant during the 28th follow-up period."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2006: Compared with the results observed in the historical control (HC) group untreated with IFN-alpha which was followed up for 12 mo, the rate of complete response was significantly higher in IFN-alpha group at the end of therapy (1 of 30 vs 15 of 33, chi2=14.72, P Conclusion The results…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17075991"
+        ],
+        "source_excerpt": "Compared with the results observed in the historical control (HC) group untreated with IFN-alpha which was followed up for 12 mo, the rate of complete response was significantly higher in IFN-alpha group at the end of therapy (1 of 30 vs 15 of 33, chi2=14.72, P Conclusion The results suggest that a 6-mo course of T-alpha1 therapy is effective and safe in patients with chronic hepatitis B.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "You 2006",
+          "year": "2006",
+          "design": "Randomized controlled trial",
+          "n": 30,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "12 mo; 6 mo",
+          "outcome": "Compared with the results observed in the historical control (HC) group untreated with IFN-alpha which was followed up for 12 mo, the rate of complete response was significantly higher in IFN-alpha group at the end of…"
+        }
+      },
+      {
+        "value": "Phase 3 clinical trial, humans, 1995: A phase II study was performed to evaluate the clinical and immunological effects of a regimen of cisplatin (DDP) and etoposide (VP-16) combined with thymosin-alpha 1 (TA1) and low-dose interferon-alpha 2a (IFN) in the treatment of patients with advanced non-small cell lung cancer (NSCLC).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8652276"
+        ],
+        "source_excerpt": "A phase II study was performed to evaluate the clinical and immunological effects of a regimen of cisplatin (DDP) and etoposide (VP-16) combined with thymosin-alpha 1 (TA1) and low-dose interferon-alpha 2a (IFN) in the treatment of patients with advanced non-small cell lung cancer (NSCLC).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Garaci 1995",
+          "year": "1995",
+          "design": "Phase 3 clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "3 weeks",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, 1982: Significant resistance ot lethal infection was afforded by 100 micrograms of thymosin alpha 1 per kg given before or before and after challenge, whereas no protection was found in mice treated with thymosin alpha 1 administered at any dose level after inoculation.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-7085074"
+        ],
+        "source_excerpt": "Significant resistance ot lethal infection was afforded by 100 micrograms of thymosin alpha 1 per kg given before or before and after challenge, whereas no protection was found in mice treated with thymosin alpha 1 administered at any dose level after inoculation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bistoni 1982",
+          "year": "1982",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Significant resistance ot lethal infection was afforded by 100 micrograms of thymosin alpha 1 per kg given before or before and after challenge, whereas no protection was found in mice treated with thymosin alpha 1…"
+        }
+      },
+      {
+        "value": "In vitro study, humans, n=330, 2025: By targeting post-operative immune system imbalance, this study aims to establish a novel therapeutic approach for reducing systemic inflammatory response syndrome (SIRS)-mediated organ injury and improving long-term outcomes in this high-risk population.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-40367062"
+        ],
+        "source_excerpt": "By targeting post-operative immune system imbalance, this study aims to establish a novel therapeutic approach for reducing systemic inflammatory response syndrome (SIRS)-mediated organ injury and improving long-term outcomes in this high-risk population.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Liu 2025",
+          "year": "2025",
+          "design": "In vitro study",
+          "n": 330,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "By targeting post-operative immune system imbalance, this study aims to establish a novel therapeutic approach for reducing systemic inflammatory response syndrome (SIRS)-mediated organ injury and improving long-term…"
+        }
+      },
+      {
+        "value": "In vitro study, 2025: We initially selected specified ingredients, with ethanol serving to reduce viscosity and stabilize the peptide drug Tα1, lecithin contributing to LCCs formation and stabilization, and glycerol monooleate or glycerol monolinoleate representing the hexagonal LCCs forming matrix material.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-40066714"
+        ],
+        "source_excerpt": "We initially selected specified ingredients, with ethanol serving to reduce viscosity and stabilize the peptide drug Tα1, lecithin contributing to LCCs formation and stabilization, and glycerol monooleate or glycerol monolinoleate representing the hexagonal LCCs forming matrix material.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Vitek 2025",
+          "year": "2025",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "2 weeks",
+          "outcome": "We initially selected specified ingredients, with ethanol serving to reduce viscosity and stabilize the peptide drug Tα1, lecithin contributing to LCCs formation and stabilization, and glycerol monooleate or glycerol…"
+        }
+      },
+      {
+        "value": "In vitro study, humans, n=19, 2023: Moving from ex vivo data showing an enhancement in the frequency of inflammatory monocytes and activated mDC in COVID-19 patients, a PBMC-based experimental setting reproduced in vitro a similar profile with an increased percentage of CD16 + inflammatory monocytes and mDC expressing CD86 and HLA-DR…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-36933449"
+        ],
+        "source_excerpt": "Moving from ex vivo data showing an enhancement in the frequency of inflammatory monocytes and activated mDC in COVID-19 patients, a PBMC-based experimental setting reproduced in vitro a similar profile with an increased percentage of CD16 + inflammatory monocytes and mDC expressing CD86 and HLA-DR activation markers in response to SARS-CoV-2 stimulation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ricci 2023",
+          "year": "2023",
+          "design": "In vitro study",
+          "n": 19,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Moving from ex vivo data showing an enhancement in the frequency of inflammatory monocytes and activated mDC in COVID-19 patients, a PBMC-based experimental setting reproduced in vitro a similar profile with an…"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2020: This study was designed to test the hypothesis that the administration of thymosin alpha 1 during the acute phase of ANP will result in a reduced incidence of IPN.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-32994239"
+        ],
+        "source_excerpt": "This study was designed to test the hypothesis that the administration of thymosin alpha 1 during the acute phase of ANP will result in a reduced incidence of IPN.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhou 2020",
+          "year": "2020",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "90 days",
+          "outcome": "This study was designed to test the hypothesis that the administration of thymosin alpha 1 during the acute phase of ANP will result in a reduced incidence of IPN."
+        }
       }
     ]
   },
@@ -75,15 +635,45 @@
         "Zadaxin"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2103979/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 24,
+      "claims": 20,
+      "evidence_table_rows": 19
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports doses used for Thymosin alpha-1.",
+    "No study in this record's ledger reports weight-normalized doses for Thymosin alpha-1.",
+    "No study in this record's ledger reports dose-escalation schedules for Thymosin alpha-1.",
+    "No study in this record's ledger reports storage or stability for Thymosin alpha-1."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Thymosin alpha-1 been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 61 clinical trials and 65 randomized controlled trials naming Thymosin alpha-1 or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Thymosin alpha-1?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Thymosin alpha-1 an approved medicine?",
+      "answer": "ChEMBL records CHEMBL2103979 at maximum clinical phase 3, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has Thymosin alpha-1 been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42063096",
@@ -255,7 +845,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 76.3,
   "review": {
     "author": "",
     "reviewer": "",
@@ -270,6 +860,14 @@
     {
       "date": "2026-09-14",
       "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: chembl None -> CHEMBL2103979."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 24 ledger sources by scripts/draft_claims.py: 36 claims, 19 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 24 ledger sources by scripts/draft_claims.py: 19 claims, 19 evidence-table rows. Status researched -> draft."
     }
   ]
 }

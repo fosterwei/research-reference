@@ -41,6 +41,18 @@ Use these exact values in `evidence_tier` and in every claim's `evidence_label`:
 | `mechanistic-in-vitro` | Cell, tissue, or mechanistic work |
 | `community-reported` | Anecdotal or community protocol; never presented as clinical fact |
 
+## Claim fields
+
+Every entry in `attributes.<field>` is a claim object. Required: `value`, `evidence_label`, `source_ids`. Optional, and expected on anything the agent drafted:
+
+| Field | Meaning |
+|---|---|
+| `source_excerpt` | The sentence or sentences from the source that `value` restates, copied exactly. The reviewer checks `value` against this, not against memory. Required when `drafting` is `extractive`; enforced by the validator. |
+| `drafting` | How the claim was produced. `extractive` means `value` is a verbatim source sentence prefixed with study context (design, species, n, year) and nothing else. Absent means a person wrote it. |
+| `fields` | Structured columns for the evidence table (`study`, `year`, `design`, `n`, `species`, `dose`, `route`, `duration`, `outcome`). Used only under `attributes.evidence_table`. |
+
+`attributes.evidence_table` holds one claim per primary study in the ledger and renders as the "What the evidence shows" table. Reviews never appear in it.
+
 ## Source ledger
 
 Each source has `id`, `title`, `url` (http or https), `published` (YYYY-MM-DD), and optional `kind` (`peer-reviewed`, `regulatory`, `preprint`, `clinical-registry`, `manufacturer`, `community`, `other`). Claims reference sources by `id`, so a claim can never point at a source that is not in the ledger.

@@ -1,0 +1,72 @@
+{
+  "type": "comparison",
+  "title": "Selank vs Semax",
+  "slug": "selank-vs-semax",
+  "status": "draft",
+  "summary": "Selank: tier human clinical trial, 96 indexed publications, 2 randomized trials. Semax: tier human clinical trial, 208 indexed publications, 1 randomized trials. 2 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "seo": {
+    "title": "Selank vs Semax: what the studies show",
+    "description": "Selank vs Semax, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+  },
+  "attributes": {
+    "head_to_head": [
+      {
+        "value": "Animal study, mice, 2017: Analysis of differentiation of embryonic stem cells into GABA + neurons showed that Selank, thyroliberin (100 μM), and NGF (100 ng/ml) decrease the ratio of these cells by 61, 58, and 87%, respectively, in comparison with the control.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-29063333"
+        ],
+        "source_excerpt": "Analysis of differentiation of embryonic stem cells into GABA + neurons showed that Selank, thyroliberin (100 μM), and NGF (100 ng/ml) decrease the ratio of these cells by 61, 58, and 87%, respectively, in comparison with the control.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2014: Biologically active regulatory peptide, tripeptide Pro-Gly-Pro (PGP) was used as C-terminal fragment for peptide drugs Semax and Selank.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-25850296"
+        ],
+        "source_excerpt": "Biologically active regulatory peptide, tripeptide Pro-Gly-Pro (PGP) was used as C-terminal fragment for peptide drugs Semax and Selank.",
+        "drafting": "extractive"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "pmid-29063333",
+      "title": "Studying the Toxic Effects of Some Biologically Active Peptides on the Model of Mouse Embryonic Stem Cells.",
+      "url": "https://europepmc.org/article/MED/29063333",
+      "published": "2017-10-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25850296",
+      "title": "[Effect of tripeptide Pro-Gly-Pro on rat brain transcriptome in focal ischemia].",
+      "url": "https://europepmc.org/article/MED/25850296",
+      "published": "2014-03-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [
+    "selank",
+    "semax"
+  ],
+  "faq": [],
+  "open_questions": [],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "uniqueness_pct": 76.3,
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Comparison record generated from research/registry.json plan; 2 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    }
+  ],
+  "sides": [
+    "selank",
+    "semax"
+  ]
+}

@@ -9,26 +9,508 @@
     "tetrasubstituted GRF(1-29)"
   ],
   "slug": "cjc-1295",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for CJC-1295. Europe PMC indexes 37 publications, including 1 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "CJC-1295 is a peptide in the ghrh analogs class (GHRH receptor agonist, modified GRF(1-29), with or without DAC). Europe PMC indexes 37 publications naming it or a listed alias in a title or abstract, including 1 randomized controlled trials and 1 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "CJC-1295: what the research shows",
-    "description": "Cited overview of published CJC-1295 research: 37 indexed publications, 1 randomized controlled trials. Evidence tier on every claim."
+    "description": "CJC-1295 research, cited: 37 indexed publications, 1 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, 2006: administration by subcutaneous route reported. CJC-1295 or placebo was administered sc in one of four ascending single doses in the first study and in two or three weekly or biweekly doses in the second study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "source_excerpt": "CJC-1295 or placebo was administered sc in one of four ascending single doses in the first study and in two or three weekly or biweekly doses in the second study.",
+        "drafting": "extractive"
+      }
+    ],
     "study_doses": [],
     "escalation_schedules": [],
-    "interactions": [],
+    "interactions": [
+      {
+        "value": "Animal study, rats, 2026: Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42578445"
+        ],
+        "source_excerpt": "Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2022: The affinity profiles of CBD and carboxy-THC are significantly different from the profiles of synthetic GHR mimetics such as CJC-1295 or [D-Arg 1 -D-Phe 5 -D-Trp 7,9 -Leu 11 ]-Substance P peptides, which are the most common interferents; the cannabinoids promoted the GHR/GHS-R1a interaction, while the ghrelin…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-34736642"
+        ],
+        "source_excerpt": "The affinity profiles of CBD and carboxy-THC are significantly different from the profiles of synthetic GHR mimetics such as CJC-1295 or [D-Arg 1 -D-Phe 5 -D-Trp 7,9 -Leu 11 ]-Substance P peptides, which are the most common interferents; the cannabinoids promoted the GHR/GHS-R1a interaction, while the ghrelin mimetics acted rather as competitive inhibitors.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
+    "adverse_events": [
+      {
+        "value": "Randomized controlled trial, humans, 2006: Subcutaneous administration of CJC-1295 resulted in sustained, dose-dependent increases in GH and IGF-I levels in healthy adults and was safe and relatively well tolerated, particularly at doses of 30 or 60 microg/kg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "source_excerpt": "Subcutaneous administration of CJC-1295 resulted in sustained, dose-dependent increases in GH and IGF-I levels in healthy adults and was safe and relatively well tolerated, particularly at doses of 30 or 60 microg/kg.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Clinical trial, humans, 2006: A synthetic GHRH analog (CJC-1295) that binds permanently to endogenous albumin after injection (half-life = 8 d) stimulates GH and IGF-I secretion in several animal species and in normal human subjects and enhances growth in rats.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17018654"
+        ],
+        "source_excerpt": "A synthetic GHRH analog (CJC-1295) that binds permanently to endogenous albumin after injection (half-life = 8 d) stimulates GH and IGF-I secretion in several animal species and in normal human subjects and enhances growth in rats.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2006: The main outcome measures were peak concentrations and area under the curve of GH and IGF-I; standard pharmacokinetic parameters were used for CJC-1295.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "source_excerpt": "The main outcome measures were peak concentrations and area under the curve of GH and IGF-I; standard pharmacokinetic parameters were used for CJC-1295.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2009: Serum GH and IGF-1 levels have been shown to increase with administration of GHRH or CJC-1295, a long-acting GHRH analog.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-19386527"
+        ],
+        "source_excerpt": "Serum GH and IGF-1 levels have been shown to increase with administration of GHRH or CJC-1295, a long-acting GHRH analog.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, swine, 2022: Co-extraction and analysis of several different peptides such as insulins (human, lispro, aspart, glulisine, tresiba, detemir, glargine, bovine insulin and porcine insulin), growth hormone releasing hormones (sermorelin, CJC-1295 and tesamorelin), insulin-like growth factors (long-R 3 -IGF-I, R 3 -IGF-I and…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38716080"
+        ],
+        "source_excerpt": "Co-extraction and analysis of several different peptides such as insulins (human, lispro, aspart, glulisine, tresiba, detemir, glargine, bovine insulin and porcine insulin), growth hormone releasing hormones (sermorelin, CJC-1295 and tesamorelin), insulin-like growth factors (long-R 3 -IGF-I, R 3 -IGF-I and Des 1-3 -IGF-I) and mechano growth factors (human MGF and MGF-Goldspink) with criteria that fulfil the requirements of the WADA documents (TD2022 MRPL) for doping controls.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2019: CJC-1295 is a peptide-based drug that stimulates the production of growth hormone (GH) from the pituitary gland.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-30938069"
+        ],
+        "source_excerpt": "CJC-1295 is a peptide-based drug that stimulates the production of growth hormone (GH) from the pituitary gland.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2009: Remarkably, treatment of Br-M3-KO mice with CJC-1295, a synthetic GH-releasing hormone (GHRH) analog, rescued the growth deficit displayed by Br-M3-KO mice by restoring normal pituitary size and normal serum GH and IGF-1 levels.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-19332789"
+        ],
+        "source_excerpt": "Remarkably, treatment of Br-M3-KO mice with CJC-1295, a synthetic GH-releasing hormone (GHRH) analog, rescued the growth deficit displayed by Br-M3-KO mice by restoring normal pituitary size and normal serum GH and IGF-1 levels.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Clinical trial, humans, 2006: A synthetic GHRH analog (CJC-1295) that binds permanently to endogenous albumin after injection (half-life = 8 d) stimulates GH and IGF-I secretion in several animal species and in normal human subjects and enhances growth in rats.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17018654"
+        ],
+        "source_excerpt": "A synthetic GHRH analog (CJC-1295) that binds permanently to endogenous albumin after injection (half-life = 8 d) stimulates GH and IGF-I secretion in several animal species and in normal human subjects and enhances growth in rats.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2006: The main outcome measures were peak concentrations and area under the curve of GH and IGF-I; standard pharmacokinetic parameters were used for CJC-1295.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "source_excerpt": "The main outcome measures were peak concentrations and area under the curve of GH and IGF-I; standard pharmacokinetic parameters were used for CJC-1295.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2019: These CJC-1295-protein conjugates have a much greater half-life compared to the unconjugated peptide and are capable of stimulating GH production for more than six days in humans after a single administration.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-30938069"
+        ],
+        "source_excerpt": "These CJC-1295-protein conjugates have a much greater half-life compared to the unconjugated peptide and are capable of stimulating GH production for more than six days in humans after a single administration.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2006: CJC-1295 is a synthetic GHRH analog that selectively and covalently binds to endogenous albumin after injection, thereby extending its half-life and duration of action.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-16822960"
+        ],
+        "source_excerpt": "CJC-1295 is a synthetic GHRH analog that selectively and covalently binds to endogenous albumin after injection, thereby extending its half-life and duration of action.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2005: These results led to the identification of CJC-1295 as a stable and active hGRF(1-29) analog with an extended plasma half-life.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-15817669"
+        ],
+        "source_excerpt": "These results led to the identification of CJC-1295 as a stable and active hGRF(1-29) analog with an extended plasma half-life.",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [
+      {
+        "value": "In vitro study, humans, 2016: A temporal analysis illustrates the stability of the most popular products as well as the emergence of new products such as peptides (e.g. CJC-1295).",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-27710891"
+        ],
+        "source_excerpt": "A temporal analysis illustrates the stability of the most popular products as well as the emergence of new products such as peptides (e.g. CJC-1295).",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Animal study, mice, 2006: durations stated: 1 wk; 5 wk. Three groups of 1-wk-old GHRHKO mice were treated for 5 wk with 2 microg of CJC-1295 at intervals of 24, 48, and 72 h.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-16822960"
+        ],
+        "source_excerpt": "Three groups of 1-wk-old GHRHKO mice were treated for 5 wk with 2 microg of CJC-1295 at intervals of 24, 48, and 72 h.",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
-    "regulatory_status": []
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Clinical trial, humans, 2006: GH secretion was increased after CJC-1295 administration with preserved pulsatility.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17018654"
+        ],
+        "source_excerpt": "GH secretion was increased after CJC-1295 administration with preserved pulsatility.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ionescu 2006",
+          "year": "2006",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "GH secretion was increased after CJC-1295 administration with preserved pulsatility."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2006: After a single injection of CJC-1295, there were dose-dependent increases in mean plasma GH concentrations by 2- to 10-fold for 6 d or more and in mean plasma IGF-I concentrations by 1.5- to 3-fold for 9-11 d.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "source_excerpt": "After a single injection of CJC-1295, there were dose-dependent increases in mean plasma GH concentrations by 2- to 10-fold for 6 d or more and in mean plasma IGF-I concentrations by 1.5- to 3-fold for 9-11 d.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Teichman 2006",
+          "year": "2006",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "After a single injection of CJC-1295, there were dose-dependent increases in mean plasma GH concentrations by 2- to 10-fold for 6 d or more and in mean plasma IGF-I concentrations by 1.5- to 3-fold for 9-11 d."
+        }
+      },
+      {
+        "value": "Human study, humans, 2009: Serum proteins displaying significant changes before and after treatment were subsequently identified using mass spectrometry.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-19386527"
+        ],
+        "source_excerpt": "Serum proteins displaying significant changes before and after treatment were subsequently identified using mass spectrometry.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Sackmann-Sala 2009",
+          "year": "2009",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Serum proteins displaying significant changes before and after treatment were subsequently identified using mass spectrometry."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42578445"
+        ],
+        "source_excerpt": "Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Tewari 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain."
+        }
+      },
+      {
+        "value": "Animal study, swine, 2022: In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38716080"
+        ],
+        "source_excerpt": "In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Thomas 2022",
+          "year": "2022",
+          "design": "Animal study",
+          "n": null,
+          "species": "Swine",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine."
+        }
+      },
+      {
+        "value": "Animal study, 2019: These CJC-1295-protein conjugates have a much greater half-life compared to the unconjugated peptide and are capable of stimulating GH production for more than six days in humans after a single administration.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-30938069"
+        ],
+        "source_excerpt": "These CJC-1295-protein conjugates have a much greater half-life compared to the unconjugated peptide and are capable of stimulating GH production for more than six days in humans after a single administration.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Timms 2019",
+          "year": "2019",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "These CJC-1295-protein conjugates have a much greater half-life compared to the unconjugated peptide and are capable of stimulating GH production for more than six days in humans after a single administration."
+        }
+      },
+      {
+        "value": "Animal study, 2013: In our study, a simple mixed-mode anion exchange solid-phase extraction cartridge was employed for the extraction of seven target peptides (GHRP-1, GHRP-2, GHRP-6, ipamorelin, hexarelin, CJC-1295, and N-acetylated LKKTETQ (active ingredient of TB-500)) and their in vitro metabolites from horse plasma.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-23318763"
+        ],
+        "source_excerpt": "In our study, a simple mixed-mode anion exchange solid-phase extraction cartridge was employed for the extraction of seven target peptides (GHRP-1, GHRP-2, GHRP-6, ipamorelin, hexarelin, CJC-1295, and N-acetylated LKKTETQ (active ingredient of TB-500)) and their in vitro metabolites from horse plasma.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kwok 2013",
+          "year": "2013",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2009: We report the surprising observation that mutant mice that selectively lack the M(3) muscarinic acetylcholine receptor subtype in the brain (neurons and glial cells; Br-M3-KO mice) showed a dwarf phenotype associated with a pronounced hypoplasia of the anterior pituitary gland and a marked decrease in pituitary…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-19332789"
+        ],
+        "source_excerpt": "We report the surprising observation that mutant mice that selectively lack the M(3) muscarinic acetylcholine receptor subtype in the brain (neurons and glial cells; Br-M3-KO mice) showed a dwarf phenotype associated with a pronounced hypoplasia of the anterior pituitary gland and a marked decrease in pituitary and serum growth hormone (GH) and prolactin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gautam 2009",
+          "year": "2009",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "We report the surprising observation that mutant mice that selectively lack the M(3) muscarinic acetylcholine receptor subtype in the brain (neurons and glial cells; Br-M3-KO mice) showed a dwarf phenotype associated…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2006: CJC-1295 caused an increase in total pituitary RNA and GH mRNA, suggesting that proliferation of somatotroph cells had occurred, as confirmed by immunohistochemistry images.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-16822960"
+        ],
+        "source_excerpt": "CJC-1295 caused an increase in total pituitary RNA and GH mRNA, suggesting that proliferation of somatotroph cells had occurred, as confirmed by immunohistochemistry images.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Alba 2006",
+          "year": "2006",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "1 wk; 5 wk",
+          "outcome": "CJC-1295 caused an increase in total pituitary RNA and GH mRNA, suggesting that proliferation of somatotroph cells had occurred, as confirmed by immunohistochemistry images."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2005: The best compound, CJC-1295, showed a 4-fold increase in GH area under the curve over a 2-h period compared with hGRF(1-29).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-15817669"
+        ],
+        "source_excerpt": "The best compound, CJC-1295, showed a 4-fold increase in GH area under the curve over a 2-h period compared with hGRF(1-29).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Jetté 2005",
+          "year": "2005",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The best compound, CJC-1295, showed a 4-fold increase in GH area under the curve over a 2-h period compared with hGRF(1-29)."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2026: The present study aimed to develop a robust nano-LC quadrupole/orbitrap mass spectrometry (nano-LC-Q/Orbitrap MS) method for both screening and confirmation analyses of GHRH and its synthetic analogs (sermorelin/CJC-1293, tesamorelin, and CJC-1295) and the primary metabolite of sermorelin in urine, in…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41138283"
+        ],
+        "source_excerpt": "The present study aimed to develop a robust nano-LC quadrupole/orbitrap mass spectrometry (nano-LC-Q/Orbitrap MS) method for both screening and confirmation analyses of GHRH and its synthetic analogs (sermorelin/CJC-1293, tesamorelin, and CJC-1295) and the primary metabolite of sermorelin in urine, in accordance with WADA requirements.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Uçaktürk 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, 2023: The present developed and validated method for some GHRHs (tesamorelin, CJC-1295, sermorelin (GRF 1-29), sermorelin (3-29)-NH 2 , somatorelin) is based on the triple quadrupole UHPLC/MS-MS method with solid phase extraction (SPE) with weak cation exchange and is able to detect concentrations as low as 0.2 ng/mL…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-37806509"
+        ],
+        "source_excerpt": "The present developed and validated method for some GHRHs (tesamorelin, CJC-1295, sermorelin (GRF 1-29), sermorelin (3-29)-NH 2 , somatorelin) is based on the triple quadrupole UHPLC/MS-MS method with solid phase extraction (SPE) with weak cation exchange and is able to detect concentrations as low as 0.2 ng/mL (LOD), a limit of quantification (LOQ) at 0.6 ng/mL, and linearity across the range of 0.1 ng/mL to 1.2 ng/mL.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Cristea 2023",
+          "year": "2023",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, 2022: In a comparison with immuno-affinity purification, enhanced recoveries (59 - 115%) and similar sensitivity were achieved, yet at lower operational costs.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-35298973"
+        ],
+        "source_excerpt": "In a comparison with immuno-affinity purification, enhanced recoveries (59 - 115%) and similar sensitivity were achieved, yet at lower operational costs.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Coppieters 2022",
+          "year": "2022",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In a comparison with immuno-affinity purification, enhanced recoveries (59 - 115%) and similar sensitivity were achieved, yet at lower operational costs."
+        }
+      },
+      {
+        "value": "In vitro study, 2022: The affinity profiles of CBD and carboxy-THC are significantly different from the profiles of synthetic GHR mimetics such as CJC-1295 or [D-Arg 1 -D-Phe 5 -D-Trp 7,9 -Leu 11 ]-Substance P peptides, which are the most common interferents; the cannabinoids promoted the GHR/GHS-R1a interaction, while the ghrelin…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-34736642"
+        ],
+        "source_excerpt": "The affinity profiles of CBD and carboxy-THC are significantly different from the profiles of synthetic GHR mimetics such as CJC-1295 or [D-Arg 1 -D-Phe 5 -D-Trp 7,9 -Leu 11 ]-Substance P peptides, which are the most common interferents; the cannabinoids promoted the GHR/GHS-R1a interaction, while the ghrelin mimetics acted rather as competitive inhibitors.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Danila 2022",
+          "year": "2022",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The affinity profiles of CBD and carboxy-THC are significantly different from the profiles of synthetic GHR mimetics such as CJC-1295 or [D-Arg 1 -D-Phe 5 -D-Trp 7,9 -Leu 11 ]-Substance P peptides, which are the most…"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2016: A temporal analysis illustrates the stability of the most popular products as well as the emergence of new products such as peptides (e.g. CJC-1295).",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-27710891"
+        ],
+        "source_excerpt": "A temporal analysis illustrates the stability of the most popular products as well as the emergence of new products such as peptides (e.g. CJC-1295).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Pineau 2016",
+          "year": "2016",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2016: The target analytes included Geref (Sermorelin), CJC-1293, CJC-1295, and Egrifta (Tesamorelin) as well as two metabolites of Geref and CJC-1293, which were captured from plasma samples using a polyclonal GHRH antibody in concert with protein A/G monolithic MSIA™ D.A.R.T.'S® (Disposable Automation Research…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-26879649"
+        ],
+        "source_excerpt": "The target analytes included Geref (Sermorelin), CJC-1293, CJC-1295, and Egrifta (Tesamorelin) as well as two metabolites of Geref and CJC-1293, which were captured from plasma samples using a polyclonal GHRH antibody in concert with protein A/G monolithic MSIA™ D.A.R.T.'S® (Disposable Automation Research Tips) prior to separation and detection.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Knoop 2016",
+          "year": "2016",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -50,15 +532,45 @@
       "review": 0,
       "unclassified": 0
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 21,
+      "claims": 17,
+      "evidence_table_rows": 16
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports doses used for CJC-1295.",
+    "No study in this record's ledger reports weight-normalized doses for CJC-1295.",
+    "No study in this record's ledger reports dose-escalation schedules for CJC-1295.",
+    "No study in this record's ledger reports exclusion criteria for CJC-1295."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has CJC-1295 been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 1 clinical trials and 1 randomized controlled trials naming CJC-1295 or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for CJC-1295?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is CJC-1295 an approved medicine?",
+      "answer": "No ChEMBL record matches CJC-1295 or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has CJC-1295 been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats, Swine. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42578445",
@@ -230,7 +742,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 71.0,
   "review": {
     "author": "",
     "reviewer": "",
@@ -245,6 +757,18 @@
     {
       "date": "2026-09-14",
       "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 21 ledger sources by scripts/draft_claims.py: 24 claims, 16 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 21 ledger sources by scripts/draft_claims.py: 23 claims, 16 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 21 ledger sources by scripts/draft_claims.py: 17 claims, 16 evidence-table rows. Status researched -> draft."
     }
   ]
 }

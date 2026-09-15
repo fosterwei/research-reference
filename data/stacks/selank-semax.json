@@ -1,0 +1,161 @@
+{
+  "type": "stack",
+  "title": "Selank + semax",
+  "slug": "selank-semax",
+  "status": "draft",
+  "summary": "Selank + semax combines Selank (human clinical trial) and Semax (human clinical trial). A stack cannot carry a stronger evidence tier than its weakest component, which here is human clinical trial. 7 indexed studies mention both components; the combination-evidence section quotes what they state.",
+  "seo": {
+    "title": "Selank + semax: the evidence",
+    "description": "Selank + Semax: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+  },
+  "attributes": {
+    "combination_evidence": [
+      {
+        "value": "Human study, humans, 2020: The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-32342318"
+        ],
+        "source_excerpt": "The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2017: In the present study, we investigated the effects of the synthetic regulatory peptides Semax (analog of an ACTH 4-10 fragment (ACTH4-10)) and Selank (analog of immunomodulatory taftsin) on behavior of rats with 6-hydroxidopamine (6-OHDA) induced PD-like parkinsonism.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-28702721"
+        ],
+        "source_excerpt": "In the present study, we investigated the effects of the synthetic regulatory peptides Semax (analog of an ACTH 4-10 fragment (ACTH4-10)) and Selank (analog of immunomodulatory taftsin) on behavior of rats with 6-hydroxidopamine (6-OHDA) induced PD-like parkinsonism.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: This experiment is aimed at studying the effect of the Selank glyprolin neuropeptide drug on the level of cytokines in animals under conditions of \"social\" stress, the results of which indicate the presence of stress-protective activity.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32621722"
+        ],
+        "source_excerpt": "This experiment is aimed at studying the effect of the Selank glyprolin neuropeptide drug on the level of cytokines in animals under conditions of \"social\" stress, the results of which indicate the presence of stress-protective activity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2017: We studied the effects of peptide drugs (HLDF-6, PGP, RPGP, and PGLP) and peptide pharmaceutical products (Semax, Selank, and thyroliberin) on proliferation and survival of mouse embryonic stem cells and their derivatives.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-29063333"
+        ],
+        "source_excerpt": "We studied the effects of peptide drugs (HLDF-6, PGP, RPGP, and PGLP) and peptide pharmaceutical products (Semax, Selank, and thyroliberin) on proliferation and survival of mouse embryonic stem cells and their derivatives.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2020: It turned out that these samples contained the assumedly cognitive enhancing research peptides Selank and Semax, which, to our knowledge, have not completed any clinical trials.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-31667971"
+        ],
+        "source_excerpt": "It turned out that these samples contained the assumedly cognitive enhancing research peptides Selank and Semax, which, to our knowledge, have not completed any clinical trials.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2001: A dose-dependent effect of synthetic heptapeptides Semax (Met-Glu-His-Phe-Pro-Gly-Pro) and Selank (Thr-Lys-Pro-Arg-Pro-Gly-Pro) on the enkephalin-degrading enzymes of human serum was demonstrated.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-11443939"
+        ],
+        "source_excerpt": "A dose-dependent effect of synthetic heptapeptides Semax (Met-Glu-His-Phe-Pro-Gly-Pro) and Selank (Thr-Lys-Pro-Arg-Pro-Gly-Pro) on the enkephalin-degrading enzymes of human serum was demonstrated.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2014: Biologically active regulatory peptide, tripeptide Pro-Gly-Pro (PGP) was used as C-terminal fragment for peptide drugs Semax and Selank.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-25850296"
+        ],
+        "source_excerpt": "Biologically active regulatory peptide, tripeptide Pro-Gly-Pro (PGP) was used as C-terminal fragment for peptide drugs Semax and Selank.",
+        "drafting": "extractive"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "pmid-32342318",
+      "title": "Functional Connectomic Approach to Studying Selank and Semax Effects.",
+      "url": "https://europepmc.org/article/MED/32342318",
+      "published": "2020-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28702721",
+      "title": "Peptides semax and selank affect the behavior of rats with 6-OHDA induced PD-like parkinsonism.",
+      "url": "https://europepmc.org/article/MED/28702721",
+      "published": "2017-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32621722",
+      "title": "The Influence of Selank on the Level of Cytokines Under the Conditions of \"Social\" Stress.",
+      "url": "https://europepmc.org/article/MED/32621722",
+      "published": "2021-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29063333",
+      "title": "Studying the Toxic Effects of Some Biologically Active Peptides on the Model of Mouse Embryonic Stem Cells.",
+      "url": "https://europepmc.org/article/MED/29063333",
+      "published": "2017-10-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31667971",
+      "title": "The occurrence of putative cognitive enhancing research peptides in seized pharmaceutical preparations: An incentive for controlling agencies to prepare for future encounters of the kind.",
+      "url": "https://europepmc.org/article/MED/31667971",
+      "published": "2020-01-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11443939",
+      "title": "[Semax and selank inhibit the enkephalin-degrading enzymes from human serum]].",
+      "url": "https://europepmc.org/article/MED/11443939",
+      "published": "2001-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25850296",
+      "title": "[Effect of tripeptide Pro-Gly-Pro on rat brain transcriptome in focal ischemia].",
+      "url": "https://europepmc.org/article/MED/25850296",
+      "published": "2014-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-15837162",
+      "title": "Natural and hybrid (\"chimeric\") stable regulatory glyproline peptides.",
+      "url": "https://europepmc.org/article/MED/15837162",
+      "published": "2005-05-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [
+    "selank",
+    "semax"
+  ],
+  "faq": [],
+  "open_questions": [
+    "No published schedule reconciles the components' different reported frequencies onto one calendar."
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "uniqueness_pct": 86.2,
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Stack record generated from research/registry.json plan; 7 combination claims drafted extractively by scripts/draft_claims.py."
+    }
+  ],
+  "components": [
+    "selank",
+    "semax"
+  ]
+}

@@ -12,30 +12,793 @@
     "delta-sleep-inducing peptide"
   ],
   "slug": "dsip",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for DSIP. Europe PMC indexes 559 publications, including 7 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "DSIP is a peptide in the neuropeptides nootropic class (delta sleep-inducing peptide; receptor unidentified). Europe PMC indexes 559 publications naming it or a listed alias in a title or abstract, including 7 randomized controlled trials and 18 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "DSIP: what the research shows",
-    "description": "Cited overview of published DSIP research: 559 indexed publications, 7 randomized controlled trials. Evidence tier on every claim."
+    "description": "DSIP research, cited: 559 indexed publications, 7 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
+    "routes_studied": [
+      {
+        "value": "Clinical trial, humans, n=15, 2014: administration by intranasal route reported. Treatment with deltalicin (daily dose of 0.0003 g of delta sleep-inducing peptide intranasally for two months) decreased the latent period and led to less pronounced depression of VEP amplitude in patients with diabetic retinopathy, and reduced the period…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25739189"
+        ],
+        "source_excerpt": "Treatment with deltalicin (daily dose of 0.0003 g of delta sleep-inducing peptide intranasally for two months) decreased the latent period and led to less pronounced depression of VEP amplitude in patients with diabetic retinopathy, and reduced the period of restoration of VEP characteristics to 95.1 ± 6.8 s.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2009: administration by intravenous route reported. The other 12 were randomly allocated to receive one of three intravenous bolus doses of DSIP (Clinalfa) at 25, 50 or 100 nmol kg(-1).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19142086"
+        ],
+        "source_excerpt": "The other 12 were randomly allocated to receive one of three intravenous bolus doses of DSIP (Clinalfa) at 25, 50 or 100 nmol kg(-1).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=5, 1995: administration by intravenous route reported. DSIP (total doses of 3 and 4 mg, respectively, vs. placebo) was infused intravenously between 30 min prior to and 90 min after CRH injections.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7777652"
+        ],
+        "source_excerpt": "DSIP (total doses of 3 and 4 mg, respectively, vs. placebo) was infused intravenously between 30 min prior to and 90 min after CRH injections.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1992: administration by intravenous route reported. In the afternoon before the 3rd, 4th and 5th night, half of the patients received intravenously 25 nmol/kg body weight DSIP, and half of the patients a glucose solution (placebo).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-1299794"
+        ],
+        "source_excerpt": "In the afternoon before the 3rd, 4th and 5th night, half of the patients received intravenously 25 nmol/kg body weight DSIP, and half of the patients a glucose solution (placebo).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1989: administration by intravenous route reported. Eleven healthy male volunteers, ages 25-39 years, received a single dose of synthetic delta sleep-inducing peptide (DSIP) (25 nmol/kg BW) or saline intravenously in a randomized cross-over, double-blind study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-2554357"
+        ],
+        "source_excerpt": "Eleven healthy male volunteers, ages 25-39 years, received a single dose of synthetic delta sleep-inducing peptide (DSIP) (25 nmol/kg BW) or saline intravenously in a randomized cross-over, double-blind study.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Controlled clinical trial, humans, 1987: administration by intravenous route reported. DSIP in a dose of 25 nmol/kg or a placebo was administered i.v. during four nights using a double-blind crossover design.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-3583493"
+        ],
+        "source_excerpt": "DSIP in a dose of 25 nmol/kg or a placebo was administered i.v. during four nights using a double-blind crossover design.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Clinical trial, humans, n=5, 1995: doses stated in the abstract: 4 mg. In a second experiment, the influence of DSIP (4 mg, also administered as intravenous infusion) on meal-related ACTH and cortisol secretion was studied in another 10 men.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7777652"
+        ],
+        "source_excerpt": "In a second experiment, the influence of DSIP (4 mg, also administered as intravenous infusion) on meal-related ACTH and cortisol secretion was studied in another 10 men.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2007: doses stated in the abstract: 1.0 mg/kg. For the purpose of the study, valproate in the doses of 50 or 75 mg/kg and DSIP (1.0 mg/kg) was i.p. injected either alone or in combination to adult Wistar male rats with fully developed metaphit seizures after eight audiogenic testing.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17957464"
+        ],
+        "source_excerpt": "For the purpose of the study, valproate in the doses of 50 or 75 mg/kg and DSIP (1.0 mg/kg) was i.p. injected either alone or in combination to adult Wistar male rats with fully developed metaphit seizures after eight audiogenic testing.",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
-    "interactions": [],
+    "interactions": [
+      {
+        "value": "Animal study, rats, dogs, 1987: It was concluded that the rapid disappearance of injected DSIP in blood was due to degradation, whereas complex formation together with slower degradation resulted in longer persistence of apparently intact analogs.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-3628078"
+        ],
+        "source_excerpt": "It was concluded that the rapid disappearance of injected DSIP in blood was due to degradation, whereas complex formation together with slower degradation resulted in longer persistence of apparently intact analogs.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
+    "adverse_events": [
+      {
+        "value": "Human study, humans, n=67, 1983: It has been postulated that delta sleep-inducing peptide (DSIP) possesses an agonistic activity on opiate receptors and might be of value in the treatment of withdrawal syndromes.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-6328354"
+        ],
+        "source_excerpt": "It has been postulated that delta sleep-inducing peptide (DSIP) possesses an agonistic activity on opiate receptors and might be of value in the treatment of withdrawal syndromes.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, 2009: The aims were to assess depth of anaesthesia using bispectral index (BIS), the EEG and heart rate variability (HRV), and to determine whether DSIP altered the symmetry of EEG between the left and right cerebral hemispheres.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19142086"
+        ],
+        "source_excerpt": "The aims were to assess depth of anaesthesia using bispectral index (BIS), the EEG and heart rate variability (HRV), and to determine whether DSIP altered the symmetry of EEG between the left and right cerebral hemispheres.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=5, 1995: We examined, first, the influence of DSIP on ACTH and cortisol release following stimulation with human corticotropin-releasing hormone (h-CRH; 1.0 microgram/kg body weight, and 0.5 microgram/kg body weight, respectively) in healthy young men (n = 5 in each condition).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7777652"
+        ],
+        "source_excerpt": "We examined, first, the influence of DSIP on ACTH and cortisol release following stimulation with human corticotropin-releasing hormone (h-CRH; 1.0 microgram/kg body weight, and 0.5 microgram/kg body weight, respectively) in healthy young men (n = 5 in each condition).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, 1994: Thyroid-stimulating hormone (TSH), cortisol, melatonin, prolactin, luteinizing hormone (LH), delta-sleep-inducing peptide (DSIP), its phosphorylated form (P-DSIP), heart rate, and body temperature were measured every half hour during two 24-h periods in five normal men. tau-Amino-butyric acid (GABA) and…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7895296"
+        ],
+        "source_excerpt": "Thyroid-stimulating hormone (TSH), cortisol, melatonin, prolactin, luteinizing hormone (LH), delta-sleep-inducing peptide (DSIP), its phosphorylated form (P-DSIP), heart rate, and body temperature were measured every half hour during two 24-h periods in five normal men. tau-Amino-butyric acid (GABA) and 3-methoxy-4-hydroxyphenylglycol (MHPG) were measured less frequently.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1992: In the afternoon before the 3rd, 4th and 5th night, half of the patients received intravenously 25 nmol/kg body weight DSIP, and half of the patients a glucose solution (placebo).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-1299794"
+        ],
+        "source_excerpt": "In the afternoon before the 3rd, 4th and 5th night, half of the patients received intravenously 25 nmol/kg body weight DSIP, and half of the patients a glucose solution (placebo).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1989: Eleven healthy male volunteers, ages 25-39 years, received a single dose of synthetic delta sleep-inducing peptide (DSIP) (25 nmol/kg BW) or saline intravenously in a randomized cross-over, double-blind study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-2554357"
+        ],
+        "source_excerpt": "Eleven healthy male volunteers, ages 25-39 years, received a single dose of synthetic delta sleep-inducing peptide (DSIP) (25 nmol/kg BW) or saline intravenously in a randomized cross-over, double-blind study.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, 1981: The study corroborates the findings of previous investigations in healthy subjects and shows that DSIP has a normalizing influence on human sleep regulation.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7028502"
+        ],
+        "source_excerpt": "The study corroborates the findings of previous investigations in healthy subjects and shows that DSIP has a normalizing influence on human sleep regulation.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Controlled clinical trial, humans, 1987: The number of nocturnal awakenings, non-rapid-eye-movement (NREM) sleep latency, total waking time and waking time after sleep onset were decreased under DSIP treatment, but no significant differences were found in comparison to baseline or to double-blind placebo nights.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-3583493"
+        ],
+        "source_excerpt": "The number of nocturnal awakenings, non-rapid-eye-movement (NREM) sleep latency, total waking time and waking time after sleep onset were decreased under DSIP treatment, but no significant differences were found in comparison to baseline or to double-blind placebo nights.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=67, 1983: From the 49 evaluable patients, DSIP produced a beneficial effect in 48 (22 alcoholics and 26 from 27 opiate addicts), with an immediate onset of action, a good and lasting suspension of the somatic symptoms and signs.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-6328354"
+        ],
+        "source_excerpt": "From the 49 evaluable patients, DSIP produced a beneficial effect in 48 (22 alcoholics and 26 from 27 opiate addicts), with an immediate onset of action, a good and lasting suspension of the somatic symptoms and signs.",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [
+      {
+        "value": "Animal study, rats, 2005: Activity of enzymes catalyzing synthesis and degradation of serotonin and dopamine in brain structures of Wistar and August rats was measured biochemically under normal conditions and after short-term exposure to delta-sleep-inducing peptide.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-16758612"
+        ],
+        "source_excerpt": "Activity of enzymes catalyzing synthesis and degradation of serotonin and dopamine in brain structures of Wistar and August rats was measured biochemically under normal conditions and after short-term exposure to delta-sleep-inducing peptide.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2003: The membranotropic effect of DSIP in the norm and under stress is connected to increase of stability of protein--lipid interplays.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12635477"
+        ],
+        "source_excerpt": "The membranotropic effect of DSIP in the norm and under stress is connected to increase of stability of protein--lipid interplays.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rabbits, 1998: Enzyme inhibitors, such as o-phenanthroline, ethylene-diaminetetraacetic acid (EDTA), dilucine, and sodium deoxycholate, could inhibit the degradation of DSIP to a certain extent in the skin homogenate.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-9876605"
+        ],
+        "source_excerpt": "Enzyme inhibitors, such as o-phenanthroline, ethylene-diaminetetraacetic acid (EDTA), dilucine, and sodium deoxycholate, could inhibit the degradation of DSIP to a certain extent in the skin homogenate.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 1993: In the present study, we examined whether delta sleep-inducing peptide (DSIP) was (1) secreted from neurons on depolarization and (2) degraded by membrane-associated peptidases.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-8474631"
+        ],
+        "source_excerpt": "In the present study, we examined whether delta sleep-inducing peptide (DSIP) was (1) secreted from neurons on depolarization and (2) degraded by membrane-associated peptidases.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, dogs, 1987: The biostability of DSIP (delta sleep-inducing peptide) and two analogs in blood was investigated in order to determine if rates of inactivation contribute to variable effects in vivo.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-3628078"
+        ],
+        "source_excerpt": "The biostability of DSIP (delta sleep-inducing peptide) and two analogs in blood was investigated in order to determine if rates of inactivation contribute to variable effects in vivo.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, 1989: durations stated: 39 years. Eleven healthy male volunteers, ages 25-39 years, received a single dose of synthetic delta sleep-inducing peptide (DSIP) (25 nmol/kg BW) or saline intravenously in a randomized cross-over, double-blind study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-2554357"
+        ],
+        "source_excerpt": "Eleven healthy male volunteers, ages 25-39 years, received a single dose of synthetic delta sleep-inducing peptide (DSIP) (25 nmol/kg BW) or saline intravenously in a randomized cross-over, double-blind study.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: durations stated: 8 days. Background and Objectives : Mutual effect of the preliminary and therapeutic intranasal treatment of SD rats with DSIP (8 days) on the outcome of focal stroke, induced with intraluminal middle cerebral occlusion (MCAO), was investigated.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-34500605"
+        ],
+        "source_excerpt": "Background and Objectives : Mutual effect of the preliminary and therapeutic intranasal treatment of SD rats with DSIP (8 days) on the outcome of focal stroke, induced with intraluminal middle cerebral occlusion (MCAO), was investigated.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2009: durations stated: 5 days. Female SHR mice received 5-days long monthly courses of delta-sleep inducing peptide (DSIP) preparation \"Deltaran\" subcutaneously in dose 5 mkg/kg during all their lives.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-20405733"
+        ],
+        "source_excerpt": "Female SHR mice received 5-days long monthly courses of delta-sleep inducing peptide (DSIP) preparation \"Deltaran\" subcutaneously in dose 5 mkg/kg during all their lives.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, rabbits, dogs, cats, 1983: durations stated: 6 day. Results of 6-day consecutive intravenous administration (50 microgram/kg) indicate that there is no obvious sign of adaptation to DSIP.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-6857232"
+        ],
+        "source_excerpt": "Results of 6-day consecutive intravenous administration (50 microgram/kg) indicate that there is no obvious sign of adaptation to DSIP.",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Animal study, rats, 2007: weight-normalized doses as published: 1.0 mg/kg. For the purpose of the study, valproate in the doses of 50 or 75 mg/kg and DSIP (1.0 mg/kg) was i.p. injected either alone or in combination to adult Wistar male rats with fully developed metaphit seizures after eight audiogenic testing.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17957464"
+        ],
+        "source_excerpt": "For the purpose of the study, valproate in the doses of 50 or 75 mg/kg and DSIP (1.0 mg/kg) was i.p. injected either alone or in combination to adult Wistar male rats with fully developed metaphit seizures after eight audiogenic testing.",
+        "drafting": "extractive"
+      }
+    ],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL2104403: maximum clinical phase 2. Jurisdiction-level status pending human review.",
         "evidence_label": "human-clinical-trial",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Clinical trial, humans, n=15, 2014: Treatment with deltalicin (daily dose of 0.0003 g of delta sleep-inducing peptide intranasally for two months) decreased the latent period and led to less pronounced depression of VEP amplitude in patients with diabetic retinopathy, and reduced the period of restoration of VEP characteristics to 95.1…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25739189"
+        ],
+        "source_excerpt": "Treatment with deltalicin (daily dose of 0.0003 g of delta sleep-inducing peptide intranasally for two months) decreased the latent period and led to less pronounced depression of VEP amplitude in patients with diabetic retinopathy, and reduced the period of restoration of VEP characteristics to 95.1 ± 6.8 s.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kresiun 2014",
+          "year": "2014",
+          "design": "Clinical trial",
+          "n": 15,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intranasal",
+          "duration": "not stated in abstract",
+          "outcome": "Treatment with deltalicin (daily dose of 0.0003 g of delta sleep-inducing peptide intranasally for two months) decreased the latent period and led to less pronounced depression of VEP amplitude in patients with…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2009: DSIP significantly increased heart rate, decreased HRV and, paradoxically, significantly reduced delta rhythm along with reducing burst suppression and increasing BIS at 25 nmol kg(-1) during isoflurane anaesthesia.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19142086"
+        ],
+        "source_excerpt": "DSIP significantly increased heart rate, decreased HRV and, paradoxically, significantly reduced delta rhythm along with reducing burst suppression and increasing BIS at 25 nmol kg(-1) during isoflurane anaesthesia.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Pomfrett 2009",
+          "year": "2009",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "DSIP significantly increased heart rate, decreased HRV and, paradoxically, significantly reduced delta rhythm along with reducing burst suppression and increasing BIS at 25 nmol kg(-1) during isoflurane anaesthesia."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=5, 1995: Besides sleep-promoting properties, delta-sleep-inducing peptide (DSIP) has been reported to act as a corticotropin-releasing inhibiting factor in vitro and in vivo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7777652"
+        ],
+        "source_excerpt": "Besides sleep-promoting properties, delta-sleep-inducing peptide (DSIP) has been reported to act as a corticotropin-releasing inhibiting factor in vitro and in vivo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Späth-Schwalbe 1995",
+          "year": "1995",
+          "design": "Clinical trial",
+          "n": 5,
+          "species": "Humans",
+          "dose": "4 mg",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 1994: Thyroid-stimulating hormone (TSH), cortisol, melatonin, prolactin, luteinizing hormone (LH), delta-sleep-inducing peptide (DSIP), its phosphorylated form (P-DSIP), heart rate, and body temperature were measured every half hour during two 24-h periods in five normal men. tau-Amino-butyric acid (GABA) and…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7895296"
+        ],
+        "source_excerpt": "Thyroid-stimulating hormone (TSH), cortisol, melatonin, prolactin, luteinizing hormone (LH), delta-sleep-inducing peptide (DSIP), its phosphorylated form (P-DSIP), heart rate, and body temperature were measured every half hour during two 24-h periods in five normal men. tau-Amino-butyric acid (GABA) and 3-methoxy-4-hydroxyphenylglycol (MHPG) were measured less frequently.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Schulz 1994",
+          "year": "1994",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=7, 1994: The administration of DSIP or normal saline alone did not change the concentrations of circulating AVP.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7698722"
+        ],
+        "source_excerpt": "The administration of DSIP or normal saline alone did not change the concentrations of circulating AVP.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Chiodera 1994",
+          "year": "1994",
+          "design": "Randomized controlled trial",
+          "n": 7,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The administration of DSIP or normal saline alone did not change the concentrations of circulating AVP."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1992: The results for objective sleep quality indicated higher sleep efficiency and shorter sleep latency with DSIP as compared to placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-1299794"
+        ],
+        "source_excerpt": "The results for objective sleep quality indicated higher sleep efficiency and shorter sleep latency with DSIP as compared to placebo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bes 1992",
+          "year": "1992",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "The results for objective sleep quality indicated higher sleep efficiency and shorter sleep latency with DSIP as compared to placebo."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1989: A significant reduction of ACTH-like immunoreactivity (ACTH-LI) in plasma was detected for at least 3 hr after the DSIP injection, compared to the control subjects, in whom a slightly elevated concentration of ACTH-LI occurred.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-2554357"
+        ],
+        "source_excerpt": "A significant reduction of ACTH-like immunoreactivity (ACTH-LI) in plasma was detected for at least 3 hr after the DSIP injection, compared to the control subjects, in whom a slightly elevated concentration of ACTH-LI occurred.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bjartell 1989",
+          "year": "1989",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "39 years",
+          "outcome": "A significant reduction of ACTH-like immunoreactivity (ACTH-LI) in plasma was detected for at least 3 hr after the DSIP injection, compared to the control subjects, in whom a slightly elevated concentration of ACTH-LI…"
+        }
+      },
+      {
+        "value": "Controlled clinical trial, humans, 1987: The treatment substantially improved night sleep with the first and additionally with repeated doses.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-3622582"
+        ],
+        "source_excerpt": "The treatment substantially improved night sleep with the first and additionally with repeated doses.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Schneider-Helmert 1987",
+          "year": "1987",
+          "design": "Controlled clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The treatment substantially improved night sleep with the first and additionally with repeated doses."
+        }
+      },
+      {
+        "value": "Controlled clinical trial, humans, 1987: For NREM sleep time and stage 2 sleep differences between DSIP and a placebo were significant, but the same differences existed already for the baseline values.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-3583493"
+        ],
+        "source_excerpt": "For NREM sleep time and stage 2 sleep differences between DSIP and a placebo were significant, but the same differences existed already for the baseline values.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Monti 1987",
+          "year": "1987",
+          "design": "Controlled clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "For NREM sleep time and stage 2 sleep differences between DSIP and a placebo were significant, but the same differences existed already for the baseline values."
+        }
+      },
+      {
+        "value": "Controlled clinical trial, humans, 1983: During the active awake state, DSIP induced higher alertness and better performance.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-6689058"
+        ],
+        "source_excerpt": "During the active awake state, DSIP induced higher alertness and better performance.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Schneider-Helmert 1983",
+          "year": "1983",
+          "design": "Controlled clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "During the active awake state, DSIP induced higher alertness and better performance."
+        }
+      },
+      {
+        "value": "Controlled clinical trial, humans, 1981: Delayed effects on subsequent night sleep were shorter sleep onset, reduced percentage of stage 1, and better sleep efficiency.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-6895513"
+        ],
+        "source_excerpt": "Delayed effects on subsequent night sleep were shorter sleep onset, reduced percentage of stage 1, and better sleep efficiency.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Schneider-Helmert 1981",
+          "year": "1981",
+          "design": "Controlled clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Delayed effects on subsequent night sleep were shorter sleep onset, reduced percentage of stage 1, and better sleep efficiency."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 1981: The effects of acute intravenous administration of synthetic DSIP, 25 nmoles/kg b.wt, on disturbed human sleep were tested in 6 middle-aged chronic insomniacs.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7028502"
+        ],
+        "source_excerpt": "The effects of acute intravenous administration of synthetic DSIP, 25 nmoles/kg b.wt, on disturbed human sleep were tested in 6 middle-aged chronic insomniacs.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Schneider-Helmert 1981",
+          "year": "1981",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Human study, humans, 1995: No differences were found in the morning or evening plasma DSIP-LI levels in a second group of 11 normal controls and 8 sleep apneics.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-8532601"
+        ],
+        "source_excerpt": "No differences were found in the morning or evening plasma DSIP-LI levels in a second group of 11 normal controls and 8 sleep apneics.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Vgontzas 1995",
+          "year": "1995",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "No differences were found in the morning or evening plasma DSIP-LI levels in a second group of 11 normal controls and 8 sleep apneics."
+        }
+      },
+      {
+        "value": "Human study, humans, n=28, 1992: There was no age dependence of the plasma level of DSIP in the first year of life but there was an increase in the ratio of quiet/active sleep depending of maturity.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-1579657"
+        ],
+        "source_excerpt": "There was no age dependence of the plasma level of DSIP in the first year of life but there was an increase in the ratio of quiet/active sleep depending of maturity.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Scholle 1992",
+          "year": "1992",
+          "design": "Human study",
+          "n": 28,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "There was no age dependence of the plasma level of DSIP in the first year of life but there was an increase in the ratio of quiet/active sleep depending of maturity."
+        }
+      },
+      {
+        "value": "Human study, humans, 1991: The plasma concentrations of DSIP, beta-END, m-ENK, beta-LPH, and alpha-MSH were increased.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-1667974"
+        ],
+        "source_excerpt": "The plasma concentrations of DSIP, beta-END, m-ENK, beta-LPH, and alpha-MSH were increased.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hegbrant 1991",
+          "year": "1991",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The plasma concentrations of DSIP, beta-END, m-ENK, beta-LPH, and alpha-MSH were increased."
+        }
+      },
+      {
+        "value": "Human study, humans, n=67, 1983: It has been postulated that delta sleep-inducing peptide (DSIP) possesses an agonistic activity on opiate receptors and might be of value in the treatment of withdrawal syndromes.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-6328354"
+        ],
+        "source_excerpt": "It has been postulated that delta sleep-inducing peptide (DSIP) possesses an agonistic activity on opiate receptors and might be of value in the treatment of withdrawal syndromes.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Dick 1983",
+          "year": "1983",
+          "design": "Human study",
+          "n": 67,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2024: Pichia pastoris -secreted delta sleep inducing peptide and crossing the blood-brain barrier peptides (DSIP-CBBBP) fusion peptides holds significant promise for its potential sleep-enhancing and neurotransmitter balancing effects.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39444618"
+        ],
+        "source_excerpt": "Pichia pastoris -secreted delta sleep inducing peptide and crossing the blood-brain barrier peptides (DSIP-CBBBP) fusion peptides holds significant promise for its potential sleep-enhancing and neurotransmitter balancing effects.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mu 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Pichia pastoris -secreted delta sleep inducing peptide and crossing the blood-brain barrier peptides (DSIP-CBBBP) fusion peptides holds significant promise for its potential sleep-enhancing and neurotransmitter…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2021: Although brain infarction in DSIP-treated animals was smaller than in vehicle-treated animals, the difference was not significant.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-34500605"
+        ],
+        "source_excerpt": "Although brain infarction in DSIP-treated animals was smaller than in vehicle-treated animals, the difference was not significant.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Tukhovskaya 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "intranasal",
+          "duration": "8 days",
+          "outcome": "Although brain infarction in DSIP-treated animals was smaller than in vehicle-treated animals, the difference was not significant."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2009: Female SHR mice received 5-days long monthly courses of delta-sleep inducing peptide (DSIP) preparation \"Deltaran\" subcutaneously in dose 5 mkg/kg during all their lives.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-20405733"
+        ],
+        "source_excerpt": "Female SHR mice received 5-days long monthly courses of delta-sleep inducing peptide (DSIP) preparation \"Deltaran\" subcutaneously in dose 5 mkg/kg during all their lives.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Voĭtenkov 2009",
+          "year": "2009",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "5 days",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2007: In EEGs of metaphit-treated animals polyspikes, spike-wave complexes and sleep-like patterns were recorded, while the power spectra were increased.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17957464"
+        ],
+        "source_excerpt": "In EEGs of metaphit-treated animals polyspikes, spike-wave complexes and sleep-like patterns were recorded, while the power spectra were increased.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stanojlović 2007",
+          "year": "2007",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "1.0 mg/kg",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "In EEGs of metaphit-treated animals polyspikes, spike-wave complexes and sleep-like patterns were recorded, while the power spectra were increased."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2006: Deltaran decreased the mortality rate (by 62%) and alleviated the symptoms of cerebral ischemia.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17181053"
+        ],
+        "source_excerpt": "Deltaran decreased the mortality rate (by 62%) and alleviated the symptoms of cerebral ischemia.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Konorova 2006",
+          "year": "2006",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Deltaran decreased the mortality rate (by 62%) and alleviated the symptoms of cerebral ischemia."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2005: Activity of enzymes catalyzing synthesis and degradation of serotonin and dopamine in brain structures of Wistar and August rats was measured biochemically under normal conditions and after short-term exposure to delta-sleep-inducing peptide.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-16758612"
+        ],
+        "source_excerpt": "Activity of enzymes catalyzing synthesis and degradation of serotonin and dopamine in brain structures of Wistar and August rats was measured biochemically under normal conditions and after short-term exposure to delta-sleep-inducing peptide.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Dovedova 2005",
+          "year": "2005",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, n=54, 2003: The results of this study show that the treatment with Deltaran did not influence food consumption, but decreased the body weight of mice; it slowed down the age-related switching-off of estrous function; it decreased by 22.6% the frequency of chromosome aberrations in bone marrow cells; it did not…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12782416"
+        ],
+        "source_excerpt": "The results of this study show that the treatment with Deltaran did not influence food consumption, but decreased the body weight of mice; it slowed down the age-related switching-off of estrous function; it decreased by 22.6% the frequency of chromosome aberrations in bone marrow cells; it did not influence mean life span; and it increased by 17.1% life span of the last 10% of the survivors and by 24.1% maximum life span in comparison with the control group.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Popovich 2003",
+          "year": "2003",
+          "design": "Animal study",
+          "n": 54,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "The results of this study show that the treatment with Deltaran did not influence food consumption, but decreased the body weight of mice; it slowed down the age-related switching-off of estrous function; it decreased…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2003: The anti-stress effect of DSIP is directed as on increase of power endogenic enzymatic antioxidant system activity, specially glutathione peroxidase activity, and not enzymatic of antioxidant protection.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12635477"
+        ],
+        "source_excerpt": "The anti-stress effect of DSIP is directed as on increase of power endogenic enzymatic antioxidant system activity, specially glutathione peroxidase activity, and not enzymatic of antioxidant protection.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Shustanova 2003",
+          "year": "2003",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The anti-stress effect of DSIP is directed as on increase of power endogenic enzymatic antioxidant system activity, specially glutathione peroxidase activity, and not enzymatic of antioxidant protection."
+        }
+      },
+      {
+        "value": "Animal study, rabbits, 1998: By using 0.2 mM o-phenanthroline in the iontophoretic delivery of DSIP at pH 4, we were able to significantly enhance the penetration of DSIP.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-9876605"
+        ],
+        "source_excerpt": "By using 0.2 mM o-phenanthroline in the iontophoretic delivery of DSIP at pH 4, we were able to significantly enhance the penetration of DSIP.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Chiang 1998",
+          "year": "1998",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rabbits",
+          "dose": "not stated in abstract",
+          "route": "transdermal",
+          "duration": "not stated in abstract",
+          "outcome": "By using 0.2 mM o-phenanthroline in the iontophoretic delivery of DSIP at pH 4, we were able to significantly enhance the penetration of DSIP."
+        }
       }
     ]
   },
@@ -75,15 +838,43 @@
         "Trp-ala-gly-gly-asp-ala-ser-gly-glu"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2104403/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 38,
+      "claims": 29,
+      "evidence_table_rows": 25
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports dose-escalation schedules for DSIP.",
+    "No study in this record's ledger reports exclusion criteria for DSIP."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has DSIP been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 18 clinical trials and 7 randomized controlled trials naming DSIP or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for DSIP?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is DSIP an approved medicine?",
+      "answer": "ChEMBL records CHEMBL2104403 at maximum clinical phase 2, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has DSIP been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rabbits, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-39444618",
@@ -353,7 +1144,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 79.1,
   "review": {
     "author": "",
     "reviewer": "",
@@ -368,6 +1159,18 @@
     {
       "date": "2026-09-14",
       "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 38 ledger sources by scripts/draft_claims.py: 35 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 38 ledger sources by scripts/draft_claims.py: 35 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 38 ledger sources by scripts/draft_claims.py: 28 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

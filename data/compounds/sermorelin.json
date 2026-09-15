@@ -13,30 +13,716 @@
     "Sermoreline"
   ],
   "slug": "sermorelin",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "approved-label",
-  "summary": "Research record for Sermorelin. Europe PMC indexes 579 publications, including 39 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Sermorelin is a peptide in the ghrh analogs class (GHRH receptor agonist, GHRH(1-29)). Europe PMC indexes 579 publications naming it or a listed alias in a title or abstract, including 39 randomized controlled trials and 71 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is an approved medicine with a regulator-reviewed label. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Sermorelin: what the research shows",
-    "description": "Cited overview of published Sermorelin research: 579 indexed publications, 39 randomized controlled trials. Evidence tier on every claim."
+    "description": "Sermorelin research, cited: 579 indexed publications, 39 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, 2000: administration by intravenous route reported. An intravenous bolus of GHRH(1-29)NH(2) was administered in doses at the lower (0.05 microg/kg) and upper (0.15 microg/kg) range of the dose-response curves for young males, as well as the standard supramaximal dose (1.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10754477"
+        ],
+        "source_excerpt": "An intravenous bolus of GHRH(1-29)NH(2) was administered in doses at the lower (0.05 microg/kg) and upper (0.15 microg/kg) range of the dose-response curves for young males, as well as the standard supramaximal dose (1.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1999: administration by intravenous, subcutaneous route reported. Serum GH concentrations in 24 h spontaneous GH profiles and during three 'clamp' studies: continuous GHRH(1-29)NH2 (60 ng/kg/minutes, subcutaneous infusion, 24 h); intermittent SS(1-14) withdrawal (20microg/m2/hour, intravenous…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10594518"
+        ],
+        "source_excerpt": "Serum GH concentrations in 24 h spontaneous GH profiles and during three 'clamp' studies: continuous GHRH(1-29)NH2 (60 ng/kg/minutes, subcutaneous infusion, 24 h); intermittent SS(1-14) withdrawal (20microg/m2/hour, intravenous infusion, 3 h on/1 h off, 2-3 cycles over 8-12 h); intermittent SS and continuous GHRH combined (2-3 cycles over 8-12 h).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=10, 1997: administration by subcutaneous route reported. This hypothesis was tested by a single blind randomized placebo-controlled trial of 5 months duration, in which healthy elderly subjects (10 women, 9 men) self-administered sc nightly placebo for 4 weeks, followed by 16 weeks of…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-9360512"
+        ],
+        "source_excerpt": "This hypothesis was tested by a single blind randomized placebo-controlled trial of 5 months duration, in which healthy elderly subjects (10 women, 9 men) self-administered sc nightly placebo for 4 weeks, followed by 16 weeks of [norleucine27]GHRH (1-29)-NH2 at a dose of 10 micrograms/kg.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Controlled clinical trial, humans, 1997: administration by intravenous route reported. Boluses of saline, hexarelin (1 microgram/kg), GHRH-(1-29)-NH2 (1 microgram/kg) or hexarelin plus GHRH-(1-29)-NH2 were administered intravenously 1 hour after the start of a 3-hour constant intravenous infusion of saline, SS(1-14) (20 micrograms/m2/h)…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-9425393"
+        ],
+        "source_excerpt": "Boluses of saline, hexarelin (1 microgram/kg), GHRH-(1-29)-NH2 (1 microgram/kg) or hexarelin plus GHRH-(1-29)-NH2 were administered intravenously 1 hour after the start of a 3-hour constant intravenous infusion of saline, SS(1-14) (20 micrograms/m2/h) (SS20) or SS(1-14) (50 micrograms/m2/h) (SS50).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=9, 1997: administration by intravenous, subcutaneous route reported. Ten women and 9 men between the ages of 55-71 yr self-injected placebo (saline) s.c. nightly for 4 weeks followed by 16 weeks of [Nle27]GHRH-(1-29)-NH2 at a dose of 10 microg/kg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-9141536"
+        ],
+        "source_excerpt": "Ten women and 9 men between the ages of 55-71 yr self-injected placebo (saline) s.c. nightly for 4 weeks followed by 16 weeks of [Nle27]GHRH-(1-29)-NH2 at a dose of 10 microg/kg.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1996: administration by intravenous route reported. We studied the effects of varying doses (0-1.0 microgram/kg) of hexarelin, a novel GH-releasing peptide, administered iv to healthy adult males on GH, PRL, and cortisol release.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8954038"
+        ],
+        "source_excerpt": "We studied the effects of varying doses (0-1.0 microgram/kg) of hexarelin, a novel GH-releasing peptide, administered iv to healthy adult males on GH, PRL, and cortisol release.",
+        "drafting": "extractive"
+      }
+    ],
     "study_doses": [],
     "escalation_schedules": [],
     "interactions": [],
     "exclusion_criteria": [],
     "adverse_events": [],
-    "biomarkers_monitored": [],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, 1993: The growth hormone-releasing hormone analogue GHRH(1-29)-NH2 was administered intravenously or intranasally to 30 healthy men aged 19-43 years.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8329825"
+        ],
+        "source_excerpt": "The growth hormone-releasing hormone analogue GHRH(1-29)-NH2 was administered intravenously or intranasally to 30 healthy men aged 19-43 years.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, 1993: The growth-promoting potential of growth hormone-releasing hormone(1-29)-NH2 (GHRH(1-29)-NH2) in a new formulation for intranasal use was examined in a 6-month pilot study of eight short prepubertal children.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8329828"
+        ],
+        "source_excerpt": "The growth-promoting potential of growth hormone-releasing hormone(1-29)-NH2 (GHRH(1-29)-NH2) in a new formulation for intranasal use was examined in a 6-month pilot study of eight short prepubertal children.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=325, 2021: Lastly, the Kaplan-Meier method showed the patient's benefit from sermorelin was independent of postoperative adjuvant treatment.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-33842627"
+        ],
+        "source_excerpt": "Lastly, the Kaplan-Meier method showed the patient's benefit from sermorelin was independent of postoperative adjuvant treatment.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=105, 2017: Several GH secretagogues are available, including GH-releasing peptides (GHRPs) GHRP-2 and GHRP-6, and the GH-releasing hormone analog, sermorelin (SERM).",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-28830317"
+        ],
+        "source_excerpt": "Several GH secretagogues are available, including GH-releasing peptides (GHRPs) GHRP-2 and GHRP-6, and the GH-releasing hormone analog, sermorelin (SERM).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 1991: A radioimmunoassay (RIA) for growth hormone-releasing hormone (GHRH) using a polyclonal antibody against synthetic GHRH(1-29)-Gly4-Cys-NH2 has been developed.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-1687674"
+        ],
+        "source_excerpt": "A radioimmunoassay (RIA) for growth hormone-releasing hormone (GHRH) using a polyclonal antibody against synthetic GHRH(1-29)-Gly4-Cys-NH2 has been developed.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, swine, 2022: Co-extraction and analysis of several different peptides such as insulins (human, lispro, aspart, glulisine, tresiba, detemir, glargine, bovine insulin and porcine insulin), growth hormone releasing hormones (sermorelin, CJC-1295 and tesamorelin), insulin-like growth factors (long-R 3 -IGF-I, R 3 -IGF-I and…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38716080"
+        ],
+        "source_excerpt": "Co-extraction and analysis of several different peptides such as insulins (human, lispro, aspart, glulisine, tresiba, detemir, glargine, bovine insulin and porcine insulin), growth hormone releasing hormones (sermorelin, CJC-1295 and tesamorelin), insulin-like growth factors (long-R 3 -IGF-I, R 3 -IGF-I and Des 1-3 -IGF-I) and mechano growth factors (human MGF and MGF-Goldspink) with criteria that fulfil the requirements of the WADA documents (TD2022 MRPL) for doping controls.",
+        "drafting": "extractive"
+      }
+    ],
     "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
+    "storage": [
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2005: Polyethylene glycol-conjugated GHRH (PEG-GHRH) was developed to provide increased stability compared with the currently available GHRH(1-29).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16061831"
+        ],
+        "source_excerpt": "Polyethylene glycol-conjugated GHRH (PEG-GHRH) was developed to provide increased stability compared with the currently available GHRH(1-29).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2022: Stability experiments showed the importance of the proper handling of urine samples to avoid degradation of these peptide hormones, especially for sermorelin and its metabolite which were found to rapidly degrade at temperatures > 4 °C and pH values < 7 in accordance with earlier studies.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-35298973"
+        ],
+        "source_excerpt": "Stability experiments showed the importance of the proper handling of urine samples to avoid degradation of these peptide hormones, especially for sermorelin and its metabolite which were found to rapidly degrade at temperatures > 4 °C and pH values < 7 in accordance with earlier studies.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2005: durations stated: 60 years. PEG-GHRH was administered by subcutaneous injection to young healthy men (n = 12) and elderly men and women (aged > 60 years; n = 20).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16061831"
+        ],
+        "source_excerpt": "PEG-GHRH was administered by subcutaneous injection to young healthy men (n = 12) and elderly men and women (aged > 60 years; n = 20).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2000: durations stated: 8 years; 7 years. Five adult male long-term survivors of childhood brain tumours (median age 21.8 years (18.4-26.7); 13.7 years (11.4-15.7) post-radiotherapy, >30Gy) and five matched controls were studied.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10754477"
+        ],
+        "source_excerpt": "Five adult male long-term survivors of childhood brain tumours (median age 21.8 years (18.4-26.7); 13.7 years (11.4-15.7) post-radiotherapy, >30Gy) and five matched controls were studied.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1999: durations stated: 2 years; 4 years; 5 years. 7); 12.2 years (5.8-14.0) postradiotherapy, > 30Gy whole brain irradiation) with 9 matched control volunteers and 6 short-term survivors of childhood brain tumours (median age 6.4 years (5.9-7.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10594518"
+        ],
+        "source_excerpt": "7); 12.2 years (5.8-14.0) postradiotherapy, > 30Gy whole brain irradiation) with 9 matched control volunteers and 6 short-term survivors of childhood brain tumours (median age 6.4 years (5.9-7.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=10, 1997: durations stated: 5 months; 4 weeks; 16 weeks. This hypothesis was tested by a single blind randomized placebo-controlled trial of 5 months duration, in which healthy elderly subjects (10 women, 9 men) self-administered sc nightly placebo for 4 weeks, followed by 16 weeks of…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-9360512"
+        ],
+        "source_excerpt": "This hypothesis was tested by a single blind randomized placebo-controlled trial of 5 months duration, in which healthy elderly subjects (10 women, 9 men) self-administered sc nightly placebo for 4 weeks, followed by 16 weeks of [norleucine27]GHRH (1-29)-NH2 at a dose of 10 micrograms/kg.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=9, 1997: durations stated: 4 weeks; 16 weeks; 12 weeks. Ten women and 9 men between the ages of 55-71 yr self-injected placebo (saline) s.c. nightly for 4 weeks followed by 16 weeks of [Nle27]GHRH-(1-29)-NH2 at a dose of 10 microg/kg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-9141536"
+        ],
+        "source_excerpt": "Ten women and 9 men between the ages of 55-71 yr self-injected placebo (saline) s.c. nightly for 4 weeks followed by 16 weeks of [Nle27]GHRH-(1-29)-NH2 at a dose of 10 microg/kg.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=110, 1996: durations stated: 12 months. The mean height velocity for the group increased from 4.1 +/- 0.9 cm/yr at baseline to 8.0 +/- 1.5 and 7.2 +/- 1.3 cm/yr after 6 and 12 months of therapy, respectively.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8772599"
+        ],
+        "source_excerpt": "The mean height velocity for the group increased from 4.1 +/- 0.9 cm/yr at baseline to 8.0 +/- 1.5 and 7.2 +/- 1.3 cm/yr after 6 and 12 months of therapy, respectively.",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL1201490: maximum clinical phase 4, first approval 1990, ATC V04CD03, H01AC04. Jurisdiction-level status pending human review.",
         "evidence_label": "approved-label",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2005: Serum insulin-like growth factor-I also increased in response to PEG-GHRH treatment.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16061831"
+        ],
+        "source_excerpt": "Serum insulin-like growth factor-I also increased in response to PEG-GHRH treatment.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Munafo 2005",
+          "year": "2005",
+          "design": "Randomized controlled trial",
+          "n": 12,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "60 years",
+          "outcome": "Serum insulin-like growth factor-I also increased in response to PEG-GHRH treatment."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2000: An intravenous bolus of GHRH(1-29)NH(2) was administered in doses at the lower (0.05 microg/kg) and upper (0.15 microg/kg) range of the dose-response curves for young males, as well as the standard supramaximal dose (1.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10754477"
+        ],
+        "source_excerpt": "An intravenous bolus of GHRH(1-29)NH(2) was administered in doses at the lower (0.05 microg/kg) and upper (0.15 microg/kg) range of the dose-response curves for young males, as well as the standard supramaximal dose (1.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Achermann 2000",
+          "year": "2000",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "8 years; 7 years",
+          "outcome": "An intravenous bolus of GHRH(1-29)NH(2) was administered in doses at the lower (0.05 microg/kg) and upper (0.15 microg/kg) range of the dose-response curves for young males, as well as the standard supramaximal dose (1."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1999: Spontaneous peak GH release was reduced in the children following irradiation (Irradiation 14.9 mU/l vs. Control 25.1 mU/l, P = 0.007).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10594518"
+        ],
+        "source_excerpt": "Spontaneous peak GH release was reduced in the children following irradiation (Irradiation 14.9 mU/l vs. Control 25.1 mU/l, P = 0.007).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Achermann 1999",
+          "year": "1999",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous, subcutaneous",
+          "duration": "2 years; 4 years",
+          "outcome": "Spontaneous peak GH release was reduced in the children following irradiation (Irradiation 14.9 mU/l vs. Control 25.1 mU/l, P = 0.007)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=10, 1997: A 30% increase (P < .001) in lymphocytes expressing the transferrin receptor (CD71) and in monocytes (CD14) (P < .05) occurred within 4 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-9360512"
+        ],
+        "source_excerpt": "A 30% increase (P < .001) in lymphocytes expressing the transferrin receptor (CD71) and in monocytes (CD14) (P < .05) occurred within 4 weeks.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Khorram 1997",
+          "year": "1997",
+          "design": "Randomized controlled trial",
+          "n": 10,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "5 months; 4 weeks",
+          "outcome": "A 30% increase (P < .001) in lymphocytes expressing the transferrin receptor (CD71) and in monocytes (CD14) (P < .05) occurred within 4 weeks."
+        }
+      },
+      {
+        "value": "Controlled clinical trial, humans, 1997: Infusion of SS20 resulted in a significant reduction in the peak GH response to hexarelin, GHRH-(1-29)-NH2 or hexarelin plus GHRH-(1-29)-NH2 (P Conclusions This study shows that SS and hexarelin counteract their respective inhibitory and stimulatory action on GH secretion and provides further…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-9425393"
+        ],
+        "source_excerpt": "Infusion of SS20 resulted in a significant reduction in the peak GH response to hexarelin, GHRH-(1-29)-NH2 or hexarelin plus GHRH-(1-29)-NH2 (P Conclusions This study shows that SS and hexarelin counteract their respective inhibitory and stimulatory action on GH secretion and provides further evidence for their interaction in vivo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Massoud 1997",
+          "year": "1997",
+          "design": "Controlled clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Infusion of SS20 resulted in a significant reduction in the peak GH response to hexarelin, GHRH-(1-29)-NH2 or hexarelin plus GHRH-(1-29)-NH2 (P Conclusions This study shows that SS and hexarelin counteract their…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=9, 1997: Compared with placebo, GHRH analog induced a significant increase in 12-h integrated nocturnal GH levels in women (P < 0.01) and men (P < 0.05).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-9141536"
+        ],
+        "source_excerpt": "Compared with placebo, GHRH analog induced a significant increase in 12-h integrated nocturnal GH levels in women (P < 0.01) and men (P < 0.05).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Khorram 1997",
+          "year": "1997",
+          "design": "Randomized controlled trial",
+          "n": 9,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous, subcutaneous",
+          "duration": "4 weeks; 16 weeks",
+          "outcome": "Compared with placebo, GHRH analog induced a significant increase in 12-h integrated nocturnal GH levels in women (P < 0.01) and men (P < 0.05)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1996: The cortisol dose-response curve showed a step increase to approximately 40% at a hexarelin dose of 0.5 microgram/kg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8954038"
+        ],
+        "source_excerpt": "The cortisol dose-response curve showed a step increase to approximately 40% at a hexarelin dose of 0.5 microgram/kg.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Massoud 1996",
+          "year": "1996",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "The cortisol dose-response curve showed a step increase to approximately 40% at a hexarelin dose of 0.5 microgram/kg."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1996: The peak GH secretion rate following the first intravenous bolus of hexarelin was greater than that following the first bolus of GHRH-(1-29)-NH2 (P Conclusion This study shows that hexarelin is a potent GH secretagogue active after two successive doses; the magnitude of the GH response to the…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8762732"
+        ],
+        "source_excerpt": "The peak GH secretion rate following the first intravenous bolus of hexarelin was greater than that following the first bolus of GHRH-(1-29)-NH2 (P Conclusion This study shows that hexarelin is a potent GH secretagogue active after two successive doses; the magnitude of the GH response to the second dose was influenced by the dosing interval.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Massoud 1996",
+          "year": "1996",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "The peak GH secretion rate following the first intravenous bolus of hexarelin was greater than that following the first bolus of GHRH-(1-29)-NH2 (P Conclusion This study shows that hexarelin is a potent GH secretagogue…"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=110, 1996: The ratio of the change in bone age to height age was not significantly different from unity at 12 months (1.04 +/- 0.58; P = 0.63).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8772599"
+        ],
+        "source_excerpt": "The ratio of the change in bone age to height age was not significantly different from unity at 12 months (1.04 +/- 0.58; P = 0.63).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Thorner 1996",
+          "year": "1996",
+          "design": "Clinical trial",
+          "n": 110,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "12 months",
+          "outcome": "The ratio of the change in bone age to height age was not significantly different from unity at 12 months (1.04 +/- 0.58; P = 0.63)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1996: In every case, GH release was significantly suppressed by GHRH-Ant.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8613546"
+        ],
+        "source_excerpt": "In every case, GH release was significantly suppressed by GHRH-Ant.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Jaffe 1996",
+          "year": "1996",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous, oral",
+          "duration": "not stated in abstract",
+          "outcome": "In every case, GH release was significantly suppressed by GHRH-Ant."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=8, 1994: Priming increased the plasma GH response to acute GHRH in all the children in this group (6.0 +/- 2.1 ng/ml to 18.0 +/- 5.4 ng/ml; p < 0.001); b) non-responders to priming (n = 8), whose GH responses to pharmacological and acute GHRH tests were also < 10 ng/ml, with 12-hour sleep secretion < 3…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7735368"
+        ],
+        "source_excerpt": "Priming increased the plasma GH response to acute GHRH in all the children in this group (6.0 +/- 2.1 ng/ml to 18.0 +/- 5.4 ng/ml; p < 0.001); b) non-responders to priming (n = 8), whose GH responses to pharmacological and acute GHRH tests were also < 10 ng/ml, with 12-hour sleep secretion < 3 ng/ml/min, but in whom priming with GH did not increase the plasma GH response (5.5 +/- 2.8 ng/ml to 6.2 +/- 2.9 ng/ml; p = NS).(ABSTRACT TRUNCATED AT 250 WORDS)",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bueno 1994",
+          "year": "1994",
+          "design": "Clinical trial",
+          "n": 8,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous, subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Priming increased the plasma GH response to acute GHRH in all the children in this group (6.0 +/- 2.1 ng/ml to 18.0 +/- 5.4 ng/ml; p < 0.001); b) non-responders to priming (n = 8), whose GH responses to pharmacological…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=16, 1994: Deconvolution analysis demonstrated that the increase in serum GH concentrations stimulated by L and GHRH resulted from enhanced GH secretion rates, with no change in the half-life of GH disappearance.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7962302"
+        ],
+        "source_excerpt": "Deconvolution analysis demonstrated that the increase in serum GH concentrations stimulated by L and GHRH resulted from enhanced GH secretion rates, with no change in the half-life of GH disappearance.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Aloi 1994",
+          "year": "1994",
+          "design": "Randomized controlled trial",
+          "n": 16,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Deconvolution analysis demonstrated that the increase in serum GH concentrations stimulated by L and GHRH resulted from enhanced GH secretion rates, with no change in the half-life of GH disappearance."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=11, 1994: As part of a multicenter study to evaluate the efficacy and safety of one daily subcutaneous dose of 30 micrograms/kg of GHRH, 16 prepubertal GH-deficient children with a mean chronological age of 9.0 +/- 2.3 years were treated for 12 to 24 months.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7735367"
+        ],
+        "source_excerpt": "As part of a multicenter study to evaluate the efficacy and safety of one daily subcutaneous dose of 30 micrograms/kg of GHRH, 16 prepubertal GH-deficient children with a mean chronological age of 9.0 +/- 2.3 years were treated for 12 to 24 months.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lanes 1994",
+          "year": "1994",
+          "design": "Clinical trial",
+          "n": 11,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "3 years; 24 months",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1994: Although the average rate of serum GH rise was similar after both 10 micrograms (2.05 (1.13-2.97) mU.l-1.min-1) and 100 micrograms of GHRH(1-29)NH2 (1.52 (0.69-2.35) mU.l-1.min-1; ANOVA F = 0.93, p = 0.35), the average rate of serum GH decline after peak GH was slower after the higher dose (10…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7921207"
+        ],
+        "source_excerpt": "Although the average rate of serum GH rise was similar after both 10 micrograms (2.05 (1.13-2.97) mU.l-1.min-1) and 100 micrograms of GHRH(1-29)NH2 (1.52 (0.69-2.35) mU.l-1.min-1; ANOVA F = 0.93, p = 0.35), the average rate of serum GH decline after peak GH was slower after the higher dose (10 micrograms vs 100 micrograms: 0.65 (0.40-0.90) vs 0.37 (0.23-0.50) mU.l-1.min-1; ANOVA F = 5.14, p = 0.04), suggesting continued GH secretion.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Spoudeas 1994",
+          "year": "1994",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Although the average rate of serum GH rise was similar after both 10 micrograms (2.05 (1.13-2.97) mU.l-1.min-1) and 100 micrograms of GHRH(1-29)NH2 (1.52 (0.69-2.35) mU.l-1.min-1; ANOVA F = 0.93, p = 0.35), the average…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1993: The growth hormone-releasing hormone analogue GHRH(1-29)-NH2 was administered intravenously or intranasally to 30 healthy men aged 19-43 years.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8329825"
+        ],
+        "source_excerpt": "The growth hormone-releasing hormone analogue GHRH(1-29)-NH2 was administered intravenously or intranasally to 30 healthy men aged 19-43 years.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wilton 1993",
+          "year": "1993",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intranasal, intravenous",
+          "duration": "43 years",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 1993: The mean knemometric growth rate rose from 0.24 to 0.48 mm/week after 6 weeks of treatment (p = 0.03) and then rapidly declined; the mean 6-month stadiometric height velocity did not increase.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8329828"
+        ],
+        "source_excerpt": "The mean knemometric growth rate rose from 0.24 to 0.48 mm/week after 6 weeks of treatment (p = 0.03) and then rapidly declined; the mean 6-month stadiometric height velocity did not increase.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hümmelink 1993",
+          "year": "1993",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intranasal",
+          "duration": "6 weeks; 6 month",
+          "outcome": "The mean knemometric growth rate rose from 0.24 to 0.48 mm/week after 6 weeks of treatment (p = 0.03) and then rapidly declined; the mean 6-month stadiometric height velocity did not increase."
+        }
+      },
+      {
+        "value": "Human study, humans, n=325, 2021: After high-throughput drug screening, we found that recurrent glioma patients were most sensitive to sermorelin.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-33842627"
+        ],
+        "source_excerpt": "After high-throughput drug screening, we found that recurrent glioma patients were most sensitive to sermorelin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Chang 2021",
+          "year": "2021",
+          "design": "Human study",
+          "n": 325,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Human study, humans, n=105, 2017: Inhibition of E production or estrogen receptor blockade resulted in smaller increases in IGF-1 levels.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-28830317"
+        ],
+        "source_excerpt": "Inhibition of E production or estrogen receptor blockade resulted in smaller increases in IGF-1 levels.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Sigalos 2017",
+          "year": "2017",
+          "design": "Human study",
+          "n": 105,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Inhibition of E production or estrogen receptor blockade resulted in smaller increases in IGF-1 levels."
+        }
+      },
+      {
+        "value": "Multicentre study, humans, 2013: Using the separate cut points of 6.8 ng/mL for nonobese and 2.7 for obese subjects reduced the misclassification rate to 11%.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-23559086"
+        ],
+        "source_excerpt": "Using the separate cut points of 6.8 ng/mL for nonobese and 2.7 for obese subjects reduced the misclassification rate to 11%.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Garcia 2013",
+          "year": "2013",
+          "design": "Multicentre study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Using the separate cut points of 6.8 ng/mL for nonobese and 2.7 for obese subjects reduced the misclassification rate to 11%."
+        }
+      },
+      {
+        "value": "Human study, humans, n=5, 2001: GH pulsatility before estrogen replacement therapy (ERT) in these 5 patients was: X: 0.48 +/- 0.22, 0.38 +/- 0.17, 0.45 +/- 0.25 and 0.29 (at baseline, 1, 3 and 6 months respectively) and 2.74 +/- o 1.21; 3.48 +/- 1.32 (p > 0.05) 4.91 +/- 1.57 (p Comments and conclusions These results demonstrate that…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-11816525"
+        ],
+        "source_excerpt": "GH pulsatility before estrogen replacement therapy (ERT) in these 5 patients was: X: 0.48 +/- 0.22, 0.38 +/- 0.17, 0.45 +/- 0.25 and 0.29 (at baseline, 1, 3 and 6 months respectively) and 2.74 +/- o 1.21; 3.48 +/- 1.32 (p > 0.05) 4.91 +/- 1.57 (p Comments and conclusions These results demonstrate that transdermal estrogen therapy does not modify the pulsatility of growth hormone but it does increase the magnitude of response to the stimulus with GH-RH-1-29 proportional to the time of treatment.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Vadillo 2001",
+          "year": "2001",
+          "design": "Human study",
+          "n": 5,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous, transdermal",
+          "duration": "6 months",
+          "outcome": "GH pulsatility before estrogen replacement therapy (ERT) in these 5 patients was: X: 0.48 +/- 0.22, 0.38 +/- 0.17, 0.45 +/- 0.25 and 0.29 (at baseline, 1, 3 and 6 months respectively) and 2.74 +/- o 1.21; 3.48 +/- 1.32…"
+        }
+      },
+      {
+        "value": "Human study, humans, 1991: In contrast, the plasma GHRH level in hemodialysis-dependent, chronic renal failure (CRF-HD) patients (38.7 +/- 13.1 ng/l) was significantly higher than normal.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-1687674"
+        ],
+        "source_excerpt": "In contrast, the plasma GHRH level in hemodialysis-dependent, chronic renal failure (CRF-HD) patients (38.7 +/- 13.1 ng/l) was significantly higher than normal.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhang 1991",
+          "year": "1991",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In contrast, the plasma GHRH level in hemodialysis-dependent, chronic renal failure (CRF-HD) patients (38.7 +/- 13.1 ng/l) was significantly higher than normal."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2024: The development of resistance remains the primary challenge in treating castration-resistant prostate cancer (CRPC).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39456984"
+        ],
+        "source_excerpt": "The development of resistance remains the primary challenge in treating castration-resistant prostate cancer (CRPC).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Muñoz-Moreno 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, n=7, 2023: Daily treatment with MIA-602 conferred weight recovery, reduced lung perivascular inflammation/pneumonia, and decreased lung/heart ICAM-1 expression compared to vehicle.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-37983492"
+        ],
+        "source_excerpt": "Daily treatment with MIA-602 conferred weight recovery, reduced lung perivascular inflammation/pneumonia, and decreased lung/heart ICAM-1 expression compared to vehicle.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Condor 2023",
+          "year": "2023",
+          "design": "Animal study",
+          "n": 7,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Daily treatment with MIA-602 conferred weight recovery, reduced lung perivascular inflammation/pneumonia, and decreased lung/heart ICAM-1 expression compared to vehicle."
+        }
+      },
+      {
+        "value": "Animal study, swine, 2022: In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38716080"
+        ],
+        "source_excerpt": "In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Thomas 2022",
+          "year": "2022",
+          "design": "Animal study",
+          "n": null,
+          "species": "Swine",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2020: The extrahypothalamic growth hormone-releasing hormone (GHRH) and its cognate receptors (GHRH-Rs) and splice variants are expressed in a variety of cancers.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32156725"
+        ],
+        "source_excerpt": "The extrahypothalamic growth hormone-releasing hormone (GHRH) and its cognate receptors (GHRH-Rs) and splice variants are expressed in a variety of cancers.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Xiong 2020",
+          "year": "2020",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
       }
     ]
   },
@@ -79,15 +765,48 @@
         "Sermoreline"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201490/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 39,
+      "claims": 21,
+      "evidence_table_rows": 25
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports doses used for Sermorelin.",
+    "No study in this record's ledger reports weight-normalized doses for Sermorelin.",
+    "No study in this record's ledger reports dose-escalation schedules for Sermorelin.",
+    "No study in this record's ledger reports interactions with other agents for Sermorelin.",
+    "No study in this record's ledger reports exclusion criteria for Sermorelin.",
+    "No study in this record's ledger reports adverse events or their frequency for Sermorelin.",
+    "No study in this record's ledger reports onset or duration of effects for Sermorelin."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Sermorelin been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 71 clinical trials and 39 randomized controlled trials naming Sermorelin or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Sermorelin?",
+      "answer": "The strongest tier is approved label: an approved medicine with a regulator-reviewed label. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Sermorelin an approved medicine?",
+      "answer": "ChEMBL records CHEMBL1201490 at maximum clinical phase 4, first approved 1990. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has Sermorelin been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice, Swine. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "doi-10-20944-preprints202512-1011-v3",
@@ -371,7 +1090,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 79.3,
   "review": {
     "author": "",
     "reviewer": "",
@@ -382,6 +1101,14 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 39 ledger sources by scripts/draft_claims.py: 44 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 39 ledger sources by scripts/draft_claims.py: 20 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

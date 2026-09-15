@@ -17,30 +17,840 @@
     "Wegovy"
   ],
   "slug": "semaglutide",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "approved-label",
-  "summary": "Research record for Semaglutide. Europe PMC indexes 6039 publications, including 305 randomized controlled trials, as of 2026-09-09. Claims are pending human authorship and review.",
+  "summary": "Semaglutide is a peptide in the incretin & amylin analogs class (GLP-1 receptor agonist). Europe PMC indexes 6,039 publications naming it or a listed alias in a title or abstract, including 305 randomized controlled trials and 198 clinical trials of any design, as of 2026-09-09. The strongest evidence tier in that literature is an approved medicine with a regulator-reviewed label. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Semaglutide: what the research shows",
-    "description": "Cited overview of published Semaglutide research: 6039 indexed publications, 305 randomized controlled trials. Evidence tier on every claim."
+    "description": "Semaglutide research, cited: 6,039 indexed publications, 305 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
-    "escalation_schedules": [],
-    "interactions": [],
-    "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, n=99, 2026: administration by subcutaneous route reported. Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg,…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "source_excerpt": "Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: administration by subcutaneous route reported. In the FLOW trial (Evaluate Renal Function with Semaglutide Once-Weekly; ClinicalTrials.gov, NCT03819153), once-weekly subcutaneous semaglutide 1.0 mg versus placebo reduced the risk of major kidney, cardiovascular (CV) and mortality outcomes in…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41728915"
+        ],
+        "source_excerpt": "In the FLOW trial (Evaluate Renal Function with Semaglutide Once-Weekly; ClinicalTrials.gov, NCT03819153), once-weekly subcutaneous semaglutide 1.0 mg versus placebo reduced the risk of major kidney, cardiovascular (CV) and mortality outcomes in participants with type 2 diabetes (T2D) and chronic kidney disease (CKD).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: administration by oral route reported. This phase 2 double-blind, randomized, parallel-arm trial evaluated the effects of oral semaglutide on alcohol craving and consumption among treatment-seeking adults with alcohol use disorder (AUD).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42522065"
+        ],
+        "source_excerpt": "This phase 2 double-blind, randomized, parallel-arm trial evaluated the effects of oral semaglutide on alcohol craving and consumption among treatment-seeking adults with alcohol use disorder (AUD).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2026: administration by oral route reported. In this randomized controlled trial, 120 patients with early-stage diabetic kidney disease were randomly allocated (1:1:1:1) to four groups (n = 30 each): canagliflozin (100 mg orally once daily), semaglutide (0.25 mg once weekly with escalation to…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42170981"
+        ],
+        "source_excerpt": "In this randomized controlled trial, 120 patients with early-stage diabetic kidney disease were randomly allocated (1:1:1:1) to four groups (n = 30 each): canagliflozin (100 mg orally once daily), semaglutide (0.25 mg once weekly with escalation to 1.0 mg after 4 weeks), combination treatment, or placebo/control.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=35, 2026: administration by oral route reported. A total of 72 participants with a diagnosis of MDD and a body mass index (calculated as weight in kilograms divided by height in meters squared) of 25 or higher were randomized to oral semaglutide (n = 35) or placebo (n = 37).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42054055"
+        ],
+        "source_excerpt": "A total of 72 participants with a diagnosis of MDD and a body mass index (calculated as weight in kilograms divided by height in meters squared) of 25 or higher were randomized to oral semaglutide (n = 35) or placebo (n = 37).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: administration by subcutaneous route reported. Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]), semaglutide 2·4 mg, cagrilintide 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]), semaglutide 1·0 mg, or corresponding placebo for 68 weeks.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Randomized controlled trial, humans, n=99, 2026: doses stated in the abstract: 2·4 mg; 30 mg. Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg,…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "source_excerpt": "Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: doses stated in the abstract: 1.0 mg. In the FLOW trial (Evaluate Renal Function with Semaglutide Once-Weekly; ClinicalTrials.gov, NCT03819153), once-weekly subcutaneous semaglutide 1.0 mg versus placebo reduced the risk of major kidney, cardiovascular (CV) and mortality outcomes in…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41728915"
+        ],
+        "source_excerpt": "In the FLOW trial (Evaluate Renal Function with Semaglutide Once-Weekly; ClinicalTrials.gov, NCT03819153), once-weekly subcutaneous semaglutide 1.0 mg versus placebo reduced the risk of major kidney, cardiovascular (CV) and mortality outcomes in participants with type 2 diabetes (T2D) and chronic kidney disease (CKD).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: doses stated in the abstract: 3 mg/day; 7 mg/day. Fifty individuals with moderate to severe AUD were randomized to receive semaglutide (3 mg/day for 4 weeks, then 7 mg/day for 4 weeks) or placebo for 8 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42522065"
+        ],
+        "source_excerpt": "Fifty individuals with moderate to severe AUD were randomized to receive semaglutide (3 mg/day for 4 weeks, then 7 mg/day for 4 weeks) or placebo for 8 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2026: doses stated in the abstract: 0.25 mg once weekly. In this randomized controlled trial, 120 patients with early-stage diabetic kidney disease were randomly allocated (1:1:1:1) to four groups (n = 30 each): canagliflozin (100 mg orally once daily), semaglutide (0.25 mg once weekly with…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42170981"
+        ],
+        "source_excerpt": "In this randomized controlled trial, 120 patients with early-stage diabetic kidney disease were randomly allocated (1:1:1:1) to four groups (n = 30 each): canagliflozin (100 mg orally once daily), semaglutide (0.25 mg once weekly with escalation to 1.0 mg after 4 weeks), combination treatment, or placebo/control.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=35, 2026: doses stated in the abstract: 14 mg; 4 mg. Patients were randomized 1:1 to receive placebo or oral semaglutide, 14 mg (initiated at 4 mg and titrated using a 4-week dose-escalation regimen), adjunctive to their treatment as usual.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42054055"
+        ],
+        "source_excerpt": "Patients were randomized 1:1 to receive placebo or oral semaglutide, 14 mg (initiated at 4 mg and titrated using a 4-week dose-escalation regimen), adjunctive to their treatment as usual.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: doses stated in the abstract: 2·4 mg; 1·0 mg. Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]), semaglutide 2·4 mg, cagrilintide 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]), semaglutide 1·0 mg, or corresponding placebo for 68 weeks.",
+        "drafting": "extractive"
+      }
+    ],
+    "escalation_schedules": [
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2026: In this randomized controlled trial, 120 patients with early-stage diabetic kidney disease were randomly allocated (1:1:1:1) to four groups (n = 30 each): canagliflozin (100 mg orally once daily), semaglutide (0.25 mg once weekly with escalation to 1.0 mg after 4 weeks), combination…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42170981"
+        ],
+        "source_excerpt": "In this randomized controlled trial, 120 patients with early-stage diabetic kidney disease were randomly allocated (1:1:1:1) to four groups (n = 30 each): canagliflozin (100 mg orally once daily), semaglutide (0.25 mg once weekly with escalation to 1.0 mg after 4 weeks), combination treatment, or placebo/control.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=35, 2026: Patients were randomized 1:1 to receive placebo or oral semaglutide, 14 mg (initiated at 4 mg and titrated using a 4-week dose-escalation regimen), adjunctive to their treatment as usual.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42054055"
+        ],
+        "source_excerpt": "Patients were randomized 1:1 to receive placebo or oral semaglutide, 14 mg (initiated at 4 mg and titrated using a 4-week dose-escalation regimen), adjunctive to their treatment as usual.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=177, 2026: A total of 270 patients with body mass index ≥ 30 kg/m 2 or ≥ 27 kg/m 2 with the presence of at least one of the weight-related comorbidities (hypertension, dyslipidemia or type 2 diabetes mellitus) were randomized (2:1) to receive either Test semaglutide (N = 177) or Reference…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42403263"
+        ],
+        "source_excerpt": "A total of 270 patients with body mass index ≥ 30 kg/m 2 or ≥ 27 kg/m 2 with the presence of at least one of the weight-related comorbidities (hypertension, dyslipidemia or type 2 diabetes mellitus) were randomized (2:1) to receive either Test semaglutide (N = 177) or Reference semaglutide injection (N = 90) once weekly with dose escalation from 0.25 to 2.4 mg.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=314, 2026: Adults aged 18-65 years with T2DM and baseline glycated haemoglobin (HbA1c) ≥ 7.0% to ≤ 10.5% despite stable metformin therapy and diet & exercise control were randomised (1:1) to receive subcutaneous injections of Test semaglutide or Reference semaglutide once weekly for 24 weeks, using…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42219226"
+        ],
+        "source_excerpt": "Adults aged 18-65 years with T2DM and baseline glycated haemoglobin (HbA1c) ≥ 7.0% to ≤ 10.5% despite stable metformin therapy and diet & exercise control were randomised (1:1) to receive subcutaneous injections of Test semaglutide or Reference semaglutide once weekly for 24 weeks, using an identical dose-escalation regimen (from 0.25 to 2.0 mg per week).",
+        "drafting": "extractive"
+      }
+    ],
+    "interactions": [
+      {
+        "value": "Randomized controlled trial, humans, n=35, 2026: Semaglutide-treated participants exhibited a pattern of increased willingness to exert physical efforts with higher expected values of reward (treatment × visit × expected value interaction: χ2 = 12.024; P = .02).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42054055"
+        ],
+        "source_excerpt": "Semaglutide-treated participants exhibited a pattern of increased willingness to exert physical efforts with higher expected values of reward (treatment × visit × expected value interaction: χ2 = 12.024; P = .02).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=45, 2026: Semaglutide reduced cigarette craving (treatment-by-time interaction: β = -0.11 [95% CI, -0.20 to -0.03]; P = .01) and body weight (β = -0.04 [95% CI, -0.05 to -0.03]; P Conclusions and relevance In this phase 2a randomized clinical trial, semaglutide monotherapy did not significantly…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42189538"
+        ],
+        "source_excerpt": "Semaglutide reduced cigarette craving (treatment-by-time interaction: β = -0.11 [95% CI, -0.20 to -0.03]; P = .01) and body weight (β = -0.04 [95% CI, -0.05 to -0.03]; P Conclusions and relevance In this phase 2a randomized clinical trial, semaglutide monotherapy did not significantly increase laboratory smoking resistance or reduce weekly cigarettes per day but reduced nicotine craving and body weight.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 2026: No significant changes were observed in midazolam exposure (AUC inf and C max ) following co-administration with semaglutide.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42053447"
+        ],
+        "source_excerpt": "No significant changes were observed in midazolam exposure (AUC inf and C max ) following co-administration with semaglutide.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=9,650, 2026: For participants with HF at baseline, the hazard ratio (HR) for risk of the composite HF outcome with oral semaglutide vs placebo was 0.78 (95% CI, 0.63-0.96) and was 1.01 (95% CI, 0.84-1.20) in those without HF at baseline (P for interaction = .06).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41627802"
+        ],
+        "source_excerpt": "For participants with HF at baseline, the hazard ratio (HR) for risk of the composite HF outcome with oral semaglutide vs placebo was 0.78 (95% CI, 0.63-0.96) and was 1.01 (95% CI, 0.84-1.20) in those without HF at baseline (P for interaction = .06).",
+        "drafting": "extractive"
+      }
+    ],
+    "exclusion_criteria": [
+      {
+        "value": "Randomized controlled trial, humans, n=99, 2026: Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg,…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "source_excerpt": "Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: From Oct 10, 2023, to July 29, 2024, 3593 people were screened for eligibility, 2713 of whom were randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=603), semaglutide 2·4 mg (n=605), cagrilintide 2·4 mg (n=152), cagrilintide-semaglutide (1·0 mg each; n=595), semaglutide 1·0 mg…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "From Oct 10, 2023, to July 29, 2024, 3593 people were screened for eligibility, 2713 of whom were randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=603), semaglutide 2·4 mg (n=605), cagrilintide 2·4 mg (n=152), cagrilintide-semaglutide (1·0 mg each; n=595), semaglutide 1·0 mg (n=609), or placebo (pooled 2·4 mg and 1·0 mg; n=149).",
+        "drafting": "extractive"
+      }
+    ],
+    "adverse_events": [
+      {
+        "value": "Randomized controlled trial, humans, n=99, 2026: The most frequent adverse events were gastrointestinal, reported in 79 (80%) of 99 participants in the zalfermin 30 mg plus semaglutide 2·4 mg group, 61 (60%) of 101 participants in the zalfermin 30 mg group, 73 (73%) of 100 participants in the semaglutide 2·4 mg group, and 51 (51%) of…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "source_excerpt": "The most frequent adverse events were gastrointestinal, reported in 79 (80%) of 99 participants in the zalfermin 30 mg plus semaglutide 2·4 mg group, 61 (60%) of 101 participants in the zalfermin 30 mg group, 73 (73%) of 100 participants in the semaglutide 2·4 mg group, and 51 (51%) of 100 participants in the placebo group.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: Adverse events were reported in 524 (86·9%) of 603 participants in the cagrilintide-semaglutide (2·4 mg each) group, 491 (81·2%) of 605 in the semaglutide 2·4 mg group, 125 (82·2%) of 152 in the cagrilintide 2·4 mg group, 485 (81·6%) of 594 in the cagrilintide-semaglutide (1·0 mg each)…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "Adverse events were reported in 524 (86·9%) of 603 participants in the cagrilintide-semaglutide (2·4 mg each) group, 491 (81·2%) of 605 in the semaglutide 2·4 mg group, 125 (82·2%) of 152 in the cagrilintide 2·4 mg group, 485 (81·6%) of 594 in the cagrilintide-semaglutide (1·0 mg each) group, 477 (78·5%) of 608 in the semaglutide 1·0 mg group, and 105 (70·5%) of 149 in the placebo group.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=35, 2026: Adverse events (AEs) were consistent with the known safety and tolerability profile of semaglutide, with no new safety concerns for the post-bariatric population.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42174253"
+        ],
+        "source_excerpt": "Adverse events (AEs) were consistent with the known safety and tolerability profile of semaglutide, with no new safety concerns for the post-bariatric population.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=9,650, 2026: Serious adverse event occurrence among participants with HF was similar with oral semaglutide (594 [53.8%]) and placebo (642 [57.1%]).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41627802"
+        ],
+        "source_excerpt": "Serious adverse event occurrence among participants with HF was similar with oral semaglutide (594 [53.8%]) and placebo (642 [57.1%]).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=507, 2026: Common adverse events for bimagrumab included muscle spasms, diarrhea and acne, and semaglutide was associated with nausea, diarrhea, constipation and fatigue.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41772149"
+        ],
+        "source_excerpt": "Common adverse events for bimagrumab included muscle spasms, diarrhea and acne, and semaglutide was associated with nausea, diarrhea, constipation and fatigue.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2026: However, most individuals regain weight after abrupt withdrawal of semaglutide, with reversal of its beneficial cardiometabolic effects.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42507673"
+        ],
+        "source_excerpt": "However, most individuals regain weight after abrupt withdrawal of semaglutide, with reversal of its beneficial cardiometabolic effects.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, n=99, 2026: The most frequent adverse events were gastrointestinal, reported in 79 (80%) of 99 participants in the zalfermin 30 mg plus semaglutide 2·4 mg group, 61 (60%) of 101 participants in the zalfermin 30 mg group, 73 (73%) of 100 participants in the semaglutide 2·4 mg group, and 51 (51%) of…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "source_excerpt": "The most frequent adverse events were gastrointestinal, reported in 79 (80%) of 99 participants in the zalfermin 30 mg plus semaglutide 2·4 mg group, 61 (60%) of 101 participants in the zalfermin 30 mg group, 73 (73%) of 100 participants in the semaglutide 2·4 mg group, and 51 (51%) of 100 participants in the placebo group.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: In the FLOW trial (Evaluate Renal Function with Semaglutide Once-Weekly; ClinicalTrials.gov, NCT03819153), once-weekly subcutaneous semaglutide 1.0 mg versus placebo reduced the risk of major kidney, cardiovascular (CV) and mortality outcomes in participants with type 2 diabetes (T2D) and…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41728915"
+        ],
+        "source_excerpt": "In the FLOW trial (Evaluate Renal Function with Semaglutide Once-Weekly; ClinicalTrials.gov, NCT03819153), once-weekly subcutaneous semaglutide 1.0 mg versus placebo reduced the risk of major kidney, cardiovascular (CV) and mortality outcomes in participants with type 2 diabetes (T2D) and chronic kidney disease (CKD).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=177, 2026: A total of 270 patients with body mass index ≥ 30 kg/m 2 or ≥ 27 kg/m 2 with the presence of at least one of the weight-related comorbidities (hypertension, dyslipidemia or type 2 diabetes mellitus) were randomized (2:1) to receive either Test semaglutide (N = 177) or Reference…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42403263"
+        ],
+        "source_excerpt": "A total of 270 patients with body mass index ≥ 30 kg/m 2 or ≥ 27 kg/m 2 with the presence of at least one of the weight-related comorbidities (hypertension, dyslipidemia or type 2 diabetes mellitus) were randomized (2:1) to receive either Test semaglutide (N = 177) or Reference semaglutide injection (N = 90) once weekly with dose escalation from 0.25 to 2.4 mg.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: The amylin receptor agonist cagrilintide and the GLP-1 receptor agonist semaglutide have complementary effects on glycaemic control and bodyweight.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "The amylin receptor agonist cagrilintide and the GLP-1 receptor agonist semaglutide have complementary effects on glycaemic control and bodyweight.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 2 clinical trial, humans, n=36, 2026: Lipidomics: semaglutide reduced triglycerides, diglycerides, and sphingomyelins and increased some bile acids and phosphatidylcholines.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42084141"
+        ],
+        "source_excerpt": "Lipidomics: semaglutide reduced triglycerides, diglycerides, and sphingomyelins and increased some bile acids and phosphatidylcholines.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=314, 2026: Adults aged 18-65 years with T2DM and baseline glycated haemoglobin (HbA1c) ≥ 7.0% to ≤ 10.5% despite stable metformin therapy and diet & exercise control were randomised (1:1) to receive subcutaneous injections of Test semaglutide or Reference semaglutide once weekly for 24 weeks, using…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42219226"
+        ],
+        "source_excerpt": "Adults aged 18-65 years with T2DM and baseline glycated haemoglobin (HbA1c) ≥ 7.0% to ≤ 10.5% despite stable metformin therapy and diet & exercise control were randomised (1:1) to receive subcutaneous injections of Test semaglutide or Reference semaglutide once weekly for 24 weeks, using an identical dose-escalation regimen (from 0.25 to 2.0 mg per week).",
+        "drafting": "extractive"
+      }
+    ],
     "reported_timelines": [],
     "storage": [],
-    "study_durations": [],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, n=99, 2026: durations stated: 52 weeks. Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "source_excerpt": "Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: durations stated: 4 weeks; 8 weeks. Fifty individuals with moderate to severe AUD were randomized to receive semaglutide (3 mg/day for 4 weeks, then 7 mg/day for 4 weeks) or placebo for 8 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42522065"
+        ],
+        "source_excerpt": "Fifty individuals with moderate to severe AUD were randomized to receive semaglutide (3 mg/day for 4 weeks, then 7 mg/day for 4 weeks) or placebo for 8 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2026: durations stated: 4 weeks; 24 weeks. In this randomized controlled trial, 120 patients with early-stage diabetic kidney disease were randomly allocated (1:1:1:1) to four groups (n = 30 each): canagliflozin (100 mg orally once daily), semaglutide (0.25 mg once weekly with escalation to 1.0…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42170981"
+        ],
+        "source_excerpt": "In this randomized controlled trial, 120 patients with early-stage diabetic kidney disease were randomly allocated (1:1:1:1) to four groups (n = 30 each): canagliflozin (100 mg orally once daily), semaglutide (0.25 mg once weekly with escalation to 1.0 mg after 4 weeks), combination treatment, or placebo/control.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=35, 2026: durations stated: 4 week. Patients were randomized 1:1 to receive placebo or oral semaglutide, 14 mg (initiated at 4 mg and titrated using a 4-week dose-escalation regimen), adjunctive to their treatment as usual.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42054055"
+        ],
+        "source_excerpt": "Patients were randomized 1:1 to receive placebo or oral semaglutide, 14 mg (initiated at 4 mg and titrated using a 4-week dose-escalation regimen), adjunctive to their treatment as usual.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: durations stated: 18 years; 68 weeks. Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]), semaglutide 2·4 mg, cagrilintide 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]), semaglutide 1·0 mg, or corresponding placebo for 68 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=314, 2026: durations stated: 65 years; 24 weeks. Adults aged 18-65 years with T2DM and baseline glycated haemoglobin (HbA1c) ≥ 7.0% to ≤ 10.5% despite stable metformin therapy and diet & exercise control were randomised (1:1) to receive subcutaneous injections of Test semaglutide or Reference…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42219226"
+        ],
+        "source_excerpt": "Adults aged 18-65 years with T2DM and baseline glycated haemoglobin (HbA1c) ≥ 7.0% to ≤ 10.5% despite stable metformin therapy and diet & exercise control were randomised (1:1) to receive subcutaneous injections of Test semaglutide or Reference semaglutide once weekly for 24 weeks, using an identical dose-escalation regimen (from 0.25 to 2.0 mg per week).",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL2108724: maximum clinical phase 4, first approval 2017, ATC A10BJ06. Jurisdiction-level status pending human review.",
         "evidence_label": "approved-label",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, 2026: RHI increased compared to baseline (0.11, 95%CI [0.008;0.21], p = 0.03) but not compared to placebo in the semaglutide group (0.11, 95%CI [-0.04;0.24], p = 0.16).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42679726"
+        ],
+        "source_excerpt": "RHI increased compared to baseline (0.11, 95%CI [0.008;0.21], p = 0.03) but not compared to placebo in the semaglutide group (0.11, 95%CI [-0.04;0.24], p = 0.16).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gullaksen 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "RHI increased compared to baseline (0.11, 95%CI [0.008;0.21], p = 0.03) but not compared to placebo in the semaglutide group (0.11, 95%CI [-0.04;0.24], p = 0.16)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=99, 2026: At week 52, the proportion of participants who had an improvement in liver fibrosis and no worsening of metabolic dysfunction-associated steatohepatitis with zalfermin 30 mg plus semaglutide 2·4 mg was not significantly greater than with placebo (24 [24%] of 99 participants in the…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "source_excerpt": "At week 52, the proportion of participants who had an improvement in liver fibrosis and no worsening of metabolic dysfunction-associated steatohepatitis with zalfermin 30 mg plus semaglutide 2·4 mg was not significantly greater than with placebo (24 [24%] of 99 participants in the combination group vs 16 [16%] of 100 participants in the placebo group; estimated difference in responder proportions [EDP] 7·98, 95% CI -3·82 to 19·79; p=0·19).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Loomba 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 99,
+          "species": "Humans",
+          "dose": "2·4 mg; 30 mg",
+          "route": "subcutaneous",
+          "duration": "52 weeks",
+          "outcome": "At week 52, the proportion of participants who had an improvement in liver fibrosis and no worsening of metabolic dysfunction-associated steatohepatitis with zalfermin 30 mg plus semaglutide 2·4 mg was not…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: Semaglutide reduced the risk of the main outcome versus placebo [hazard ratio (HR) (95% confidence interval) 0.79 (0.69-0.89); P = .0002].",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41728915"
+        ],
+        "source_excerpt": "Semaglutide reduced the risk of the main outcome versus placebo [hazard ratio (HR) (95% confidence interval) 0.79 (0.69-0.89); P = .0002].",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Rayner 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "1.0 mg",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Semaglutide reduced the risk of the main outcome versus placebo [hazard ratio (HR) (95% confidence interval) 0.79 (0.69-0.89); P = .0002]."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: Semaglutide did not significantly reduce laboratory-assessed craving or drinks per day compared with placebo, but significantly reduced heavy drinking days (b=-0.580, 95% CI=-1.012, -0.148).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42522065"
+        ],
+        "source_excerpt": "Semaglutide did not significantly reduce laboratory-assessed craving or drinks per day compared with placebo, but significantly reduced heavy drinking days (b=-0.580, 95% CI=-1.012, -0.148).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Schacht 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "3 mg/day; 7 mg/day",
+          "route": "oral",
+          "duration": "4 weeks; 8 weeks",
+          "outcome": "Semaglutide did not significantly reduce laboratory-assessed craving or drinks per day compared with placebo, but significantly reduced heavy drinking days (b=-0.580, 95% CI=-1.012, -0.148)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2026: At 24 weeks, combination therapy achieved significantly greater reductions in UACR compared with monotherapy and placebo (P Conclusion Combined canagliflozin and semaglutide therapy demonstrated superior short-term benefits in reducing albuminuria, improving metabolic control, and…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42170981"
+        ],
+        "source_excerpt": "At 24 weeks, combination therapy achieved significantly greater reductions in UACR compared with monotherapy and placebo (P Conclusion Combined canagliflozin and semaglutide therapy demonstrated superior short-term benefits in reducing albuminuria, improving metabolic control, and attenuating systemic inflammation in early DKD, supporting further long-term evaluation of renal and cardiovascular outcomes.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Long 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 30,
+          "species": "Humans",
+          "dose": "0.25 mg once weekly",
+          "route": "oral",
+          "duration": "4 weeks; 24 weeks",
+          "outcome": "At 24 weeks, combination therapy achieved significantly greater reductions in UACR compared with monotherapy and placebo (P Conclusion Combined canagliflozin and semaglutide therapy demonstrated superior short-term…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=35, 2026: Semaglutide-treated participants exhibited a pattern of increased willingness to exert physical efforts with higher expected values of reward (treatment × visit × expected value interaction: χ2 = 12.024; P = .02).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42054055"
+        ],
+        "source_excerpt": "Semaglutide-treated participants exhibited a pattern of increased willingness to exert physical efforts with higher expected values of reward (treatment × visit × expected value interaction: χ2 = 12.024; P = .02).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gill 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 35,
+          "species": "Humans",
+          "dose": "14 mg; 4 mg",
+          "route": "oral",
+          "duration": "4 week",
+          "outcome": "Semaglutide-treated participants exhibited a pattern of increased willingness to exert physical efforts with higher expected values of reward (treatment × visit × expected value interaction: χ2 = 12.024; P = .02)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=177, 2026: Improvements in body mass index, waist circumference, SF-36 total score, and glycemic parameters were comparable between groups.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42403263"
+        ],
+        "source_excerpt": "Improvements in body mass index, waist circumference, SF-36 total score, and glycemic parameters were comparable between groups.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ambika 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 177,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Improvements in body mass index, waist circumference, SF-36 total score, and glycemic parameters were comparable between groups."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: For the primary endpoint using the efficacy estimand, mean HbA 1c change was significantly greater with cagrilintide-semaglutide (2·4 mg each) versus semaglutide 2·4 mg (-1·91 percentage points [SE 0·04] vs -1·75 percentage points [0·04]; estimated treatment difference -0·16 percentage…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "For the primary endpoint using the efficacy estimand, mean HbA 1c change was significantly greater with cagrilintide-semaglutide (2·4 mg each) versus semaglutide 2·4 mg (-1·91 percentage points [SE 0·04] vs -1·75 percentage points [0·04]; estimated treatment difference -0·16 percentage points [95% CI -0·27 to -0·05]; p=0·0035).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Buse 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 603,
+          "species": "Humans",
+          "dose": "2·4 mg; 1·0 mg",
+          "route": "subcutaneous",
+          "duration": "18 years; 68 weeks",
+          "outcome": "For the primary endpoint using the efficacy estimand, mean HbA 1c change was significantly greater with cagrilintide-semaglutide (2·4 mg each) versus semaglutide 2·4 mg (-1·91 percentage points [SE 0·04] vs -1·75…"
+        }
+      },
+      {
+        "value": "Phase 2 clinical trial, humans, n=36, 2026: Lipidomics: semaglutide reduced triglycerides, diglycerides, and sphingomyelins and increased some bile acids and phosphatidylcholines.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42084141"
+        ],
+        "source_excerpt": "Lipidomics: semaglutide reduced triglycerides, diglycerides, and sphingomyelins and increased some bile acids and phosphatidylcholines.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lake 2026",
+          "year": "2026",
+          "design": "Phase 2 clinical trial",
+          "n": 36,
+          "species": "Humans",
+          "dose": "1 mg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Lipidomics: semaglutide reduced triglycerides, diglycerides, and sphingomyelins and increased some bile acids and phosphatidylcholines."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: Semaglutide, a GLP-1 receptor agonist, has demonstrated significant weight loss benefits for patients with overweight or obesity in both oral and subcutaneous (s.c.) formulations.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42225300"
+        ],
+        "source_excerpt": "Semaglutide, a GLP-1 receptor agonist, has demonstrated significant weight loss benefits for patients with overweight or obesity in both oral and subcutaneous (s.c.) formulations.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Plotkin 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "25 mg; 2.4 mg",
+          "route": "oral, subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Semaglutide, a GLP-1 receptor agonist, has demonstrated significant weight loss benefits for patients with overweight or obesity in both oral and subcutaneous (s.c.) formulations."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=314, 2026: At Week 24, both treatments produced significant and comparable reductions in HbA1c (Test: -2.04%, Reference: -1.95%; p Conclusions The Test synthetic semaglutide injection demonstrated non-inferior glycaemic efficacy, comparable safety in comparison to Reference semaglutide, supporting…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42219226"
+        ],
+        "source_excerpt": "At Week 24, both treatments produced significant and comparable reductions in HbA1c (Test: -2.04%, Reference: -1.95%; p Conclusions The Test synthetic semaglutide injection demonstrated non-inferior glycaemic efficacy, comparable safety in comparison to Reference semaglutide, supporting its use as an effective therapeutic option for patients with T2DM.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ambika 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 314,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "65 years; 24 weeks",
+          "outcome": "At Week 24, both treatments produced significant and comparable reductions in HbA1c (Test: -2.04%, Reference: -1.95%; p Conclusions The Test synthetic semaglutide injection demonstrated non-inferior glycaemic efficacy,…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=45, 2026: Supplementary change score analyses indicated significantly greater reductions in laboratory smoking (β = -0.69 [95% CI, -1.26 to -0.13]; P = .02; d = 0.67) in the semaglutide group vs the placebo group after treatment.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42189538"
+        ],
+        "source_excerpt": "Supplementary change score analyses indicated significantly greater reductions in laboratory smoking (β = -0.69 [95% CI, -1.26 to -0.13]; P = .02; d = 0.67) in the semaglutide group vs the placebo group after treatment.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hendershot 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 45,
+          "species": "Humans",
+          "dose": "0.25 mg; 0.5 mg",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Supplementary change score analyses indicated significantly greater reductions in laboratory smoking (β = -0.69 [95% CI, -1.26 to -0.13]; P = .02; d = 0.67) in the semaglutide group vs the placebo group after treatment."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=9,495, 2026: Early (13 weeks) improvements in HbA1c (-0.87 percentage points), body weight (-2.54%), systolic BP (SBP, -3.84 mm Hg), pulse pressure (-3.81 mm Hg), hsCRP (-18.08%), total cholesterol (TC, -7.00%), non-high-density lipoprotein cholesterol (non-HDL-C, -8.02%), HDL-C (-4.49%), and…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41879791"
+        ],
+        "source_excerpt": "Early (13 weeks) improvements in HbA1c (-0.87 percentage points), body weight (-2.54%), systolic BP (SBP, -3.84 mm Hg), pulse pressure (-3.81 mm Hg), hsCRP (-18.08%), total cholesterol (TC, -7.00%), non-high-density lipoprotein cholesterol (non-HDL-C, -8.02%), HDL-C (-4.49%), and triglycerides (-8.15%) were observed with oral semaglutide vs placebo and sustained over the trial duration.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mulvagh 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 9495,
+          "species": "Humans",
+          "dose": "14 mg",
+          "route": "oral",
+          "duration": "not stated in abstract",
+          "outcome": "Early (13 weeks) improvements in HbA1c (-0.87 percentage points), body weight (-2.54%), systolic BP (SBP, -3.84 mm Hg), pulse pressure (-3.81 mm Hg), hsCRP (-18.08%), total cholesterol (TC, -7.00%), non-high-density…"
+        }
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 2026: No significant changes were observed in midazolam exposure (AUC inf and C max ) following co-administration with semaglutide.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42053447"
+        ],
+        "source_excerpt": "No significant changes were observed in midazolam exposure (AUC inf and C max ) following co-administration with semaglutide.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Cronenberger 2026",
+          "year": "2026",
+          "design": "Phase 1 clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "No significant changes were observed in midazolam exposure (AUC inf and C max ) following co-administration with semaglutide."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=35, 2026: BARI-STEP demonstrates that in people with a suboptimal clinical response after MBS, semaglutide results in substantial and clinically significant body weight reduction along with improvement in metabolic parameters and quality of life, compared to placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42174253"
+        ],
+        "source_excerpt": "BARI-STEP demonstrates that in people with a suboptimal clinical response after MBS, semaglutide results in substantial and clinically significant body weight reduction along with improvement in metabolic parameters and quality of life, compared to placebo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stanley 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 35,
+          "species": "Humans",
+          "dose": "2.4 mg weekly; 2.4 mg",
+          "route": "not stated in abstract",
+          "duration": "68 week",
+          "outcome": "BARI-STEP demonstrates that in people with a suboptimal clinical response after MBS, semaglutide results in substantial and clinically significant body weight reduction along with improvement in metabolic parameters…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=45, 2026: In adjusted analyses, semaglutide reduced epigenetic aging across multiple second- and third-generation clocks, including PhenoAge ( - 4.9 years/year, p = 0.004), PCGrimAge ( - 3.1, p = 0.007), GrimAge V2 ( - 2.3, p = 0.009), OMICmAge ( - 2.2, p = 0.009), RetroAge ( - 2.2, p = 0.030), and…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42156721"
+        ],
+        "source_excerpt": "In adjusted analyses, semaglutide reduced epigenetic aging across multiple second- and third-generation clocks, including PhenoAge ( - 4.9 years/year, p = 0.004), PCGrimAge ( - 3.1, p = 0.007), GrimAge V2 ( - 2.3, p = 0.009), OMICmAge ( - 2.2, p = 0.009), RetroAge ( - 2.2, p = 0.030), and DunedinPACE ( - 0.09 units, 9% slower, p = 0.01).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Corley 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 45,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "32 week",
+          "outcome": "In adjusted analyses, semaglutide reduced epigenetic aging across multiple second- and third-generation clocks, including PhenoAge ( - 4.9 years/year, p = 0.004), PCGrimAge ( - 3.1, p = 0.007), GrimAge V2 ( - 2.3, p =…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=9,650, 2026: There was no heterogeneity in the risk reduction of MACE with oral semaglutide in participants with HF history (HR, 0.83; 95% CI, 0.68-1.01) or without HF history (HR, 0.86; 95% CI, 0.75-0.98) (P for interaction = .77).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41627802"
+        ],
+        "source_excerpt": "There was no heterogeneity in the risk reduction of MACE with oral semaglutide in participants with HF history (HR, 0.83; 95% CI, 0.68-1.01) or without HF history (HR, 0.86; 95% CI, 0.75-0.98) (P for interaction = .77).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Pop-Busui 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 9650,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "oral",
+          "duration": "not stated in abstract",
+          "outcome": "There was no heterogeneity in the risk reduction of MACE with oral semaglutide in participants with HF history (HR, 0.83; 95% CI, 0.68-1.01) or without HF history (HR, 0.86; 95% CI, 0.75-0.98) (P for interaction = .77)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=507, 2026: Common adverse events for bimagrumab included muscle spasms, diarrhea and acne, and semaglutide was associated with nausea, diarrhea, constipation and fatigue.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41772149"
+        ],
+        "source_excerpt": "Common adverse events for bimagrumab included muscle spasms, diarrhea and acne, and semaglutide was associated with nausea, diarrhea, constipation and fatigue.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Heymsfield 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 507,
+          "species": "Humans",
+          "dose": "1.0 mg; 2.4 mg",
+          "route": "intravenous, subcutaneous",
+          "duration": "48 weeks; 12 weeks",
+          "outcome": "Common adverse events for bimagrumab included muscle spasms, diarrhea and acne, and semaglutide was associated with nausea, diarrhea, constipation and fatigue."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=24, 2026: Compared with usual care (n = 24), semaglutide (n = 22) led to a greater increase in the number of VR cells [high aldehyde dehydrogenase 1A1 activity and low side scatter (ALDHhiSSClow): +0.8% vs +34.8%; P = .036], pan-haematopoietic myeloid progenitors (ALDHhiSSClowCD45+: +2.8% vs…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40886061"
+        ],
+        "source_excerpt": "Compared with usual care (n = 24), semaglutide (n = 22) led to a greater increase in the number of VR cells [high aldehyde dehydrogenase 1A1 activity and low side scatter (ALDHhiSSClow): +0.8% vs +34.8%; P = .036], pan-haematopoietic myeloid progenitors (ALDHhiSSClowCD45+: +2.8% vs +40.1%; P = .017), and endothelial precursors (ALDHhiSSClowCD34+ CD133+ CD45-: -2.3% vs +66.2%; P = .037) from baseline.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Park 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 24,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Compared with usual care (n = 24), semaglutide (n = 22) led to a greater increase in the number of VR cells [high aldehyde dehydrogenase 1A1 activity and low side scatter (ALDHhiSSClow): +0.8% vs +34.8%; P = .036],…"
+        }
+      },
+      {
+        "value": "Human study, humans, n=252, 2026: The 'semaglutide for the treatment of pre-diabetes in women with prior gestational diabetes (SERENA) study' aims to evaluate the efficacy, safety and cost-effectiveness of semaglutide in preventing progression to T2DM during the early postpartum period.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42493207"
+        ],
+        "source_excerpt": "The 'semaglutide for the treatment of pre-diabetes in women with prior gestational diabetes (SERENA) study' aims to evaluate the efficacy, safety and cost-effectiveness of semaglutide in preventing progression to T2DM during the early postpartum period.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Vanlaer 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": 252,
+          "species": "Humans",
+          "dose": "1 mg",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: Glucagon-like peptide-1 receptor agonists, such as semaglutide, have shown promise in modulating reward-related behaviours and may offer therapeutic benefits for CUD.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42161545"
+        ],
+        "source_excerpt": "Glucagon-like peptide-1 receptor agonists, such as semaglutide, have shown promise in modulating reward-related behaviours and may offer therapeutic benefits for CUD.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yammine 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "0.25-1.0 mg",
+          "route": "not stated in abstract",
+          "duration": "14 weeks",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2026: Discussion We hypothesize that gradual reduction of semaglutide will be associated with less weight regain and cardiometabolic deterioration compared with immediate cessation.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42507673"
+        ],
+        "source_excerpt": "Discussion We hypothesize that gradual reduction of semaglutide will be associated with less weight regain and cardiometabolic deterioration compared with immediate cessation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yevusiak 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "12 weeks; 16 weeks",
+          "outcome": "Discussion We hypothesize that gradual reduction of semaglutide will be associated with less weight regain and cardiometabolic deterioration compared with immediate cessation."
+        }
       }
     ]
   },
@@ -88,15 +898,44 @@
         "Semaglutide component of nn1535 laisema"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2108724/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 27,
+      "claims": 41,
+      "evidence_table_rows": 22
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports weight-normalized doses for Semaglutide.",
+    "No study in this record's ledger reports onset or duration of effects for Semaglutide.",
+    "No study in this record's ledger reports storage or stability for Semaglutide."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Semaglutide been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 198 clinical trials and 305 randomized controlled trials naming Semaglutide or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Semaglutide?",
+      "answer": "The strongest tier is approved label: an approved medicine with a regulator-reviewed label. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Semaglutide an approved medicine?",
+      "answer": "ChEMBL records CHEMBL2108724 at maximum clinical phase 4, first approved 2017. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has Semaglutide been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42679726",
@@ -289,7 +1128,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 81.1,
   "review": {
     "author": "",
     "reviewer": "",
@@ -300,6 +1139,22 @@
     {
       "date": "2026-09-09",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 42 claims, 22 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 42 claims, 22 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 42 claims, 22 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 40 claims, 22 evidence-table rows. Status researched -> draft."
     }
   ]
 }

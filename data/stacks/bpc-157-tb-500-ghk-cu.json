@@ -1,0 +1,60 @@
+{
+  "type": "stack",
+  "title": "BPC-157 + TB-500 + GHK-Cu",
+  "slug": "bpc-157-tb-500-ghk-cu",
+  "status": "draft",
+  "summary": "BPC-157 + TB-500 + GHK-Cu combines BPC-157 (observational human) and TB-500 (human clinical trial) and GHK-Cu (human clinical trial). A stack cannot carry a stronger evidence tier than its weakest component, which here is observational human. 1 indexed studies mention both components; the combination-evidence section quotes what they state.",
+  "seo": {
+    "title": "BPC-157 + TB-500 + GHK-Cu: the evidence",
+    "description": "BPC-157 + TB-500 + GHK-Cu: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+  },
+  "attributes": {
+    "combination_evidence": [
+      {
+        "value": "Animal study, rats, 2026: To summarize existing peer-reviewed data on 6 emerging peptides (BPC-157, thymosin beta-4 or TB-500, CJC-1295, MK-677, ipamorelin, and GHK-Cu [copper peptide]) for musculoskeletal recovery and enhancement in animal and human models.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42578445"
+        ],
+        "source_excerpt": "To summarize existing peer-reviewed data on 6 emerging peptides (BPC-157, thymosin beta-4 or TB-500, CJC-1295, MK-677, ipamorelin, and GHK-Cu [copper peptide]) for musculoskeletal recovery and enhancement in animal and human models.",
+        "drafting": "extractive"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "pmid-42578445",
+      "title": "Peptide Supplements and Their Therapeutic Applications in Sports Medicine.",
+      "url": "https://europepmc.org/article/MED/42578445",
+      "published": "2026-08-11",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [
+    "bpc-157",
+    "tb-500",
+    "ghk-cu"
+  ],
+  "faq": [],
+  "open_questions": [
+    "No published schedule reconciles the components' different reported frequencies onto one calendar."
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "uniqueness_pct": 63.8,
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Stack record generated from research/registry.json plan; 1 combination claims drafted extractively by scripts/draft_claims.py."
+    }
+  ],
+  "components": [
+    "bpc-157",
+    "tb-500",
+    "ghk-cu"
+  ]
+}

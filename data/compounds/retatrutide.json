@@ -7,30 +7,846 @@
     "Retatrutide"
   ],
   "slug": "retatrutide",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for Retatrutide. Europe PMC indexes 197 publications, including 7 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Retatrutide is a peptide in the incretin & amylin analogs class (GIP, GLP-1 and glucagon receptor triple agonist). Europe PMC indexes 197 publications naming it or a listed alias in a title or abstract, including 7 randomized controlled trials and 9 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Retatrutide: what the research shows",
-    "description": "Cited overview of published Retatrutide research: 197 indexed publications, 7 randomized controlled trials. Evidence tier on every claim."
+    "description": "Retatrutide research, cited: 197 indexed publications, 7 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, n=930, 2026: administration by subcutaneous route reported. Participants were randomly assigned (1:1:1:1) to receive retatrutide (4 mg, 9 mg, or 12 mg) or placebo by once-weekly subcutaneous injection.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42250575"
+        ],
+        "source_excerpt": "Participants were randomly assigned (1:1:1:1) to receive retatrutide (4 mg, 9 mg, or 12 mg) or placebo by once-weekly subcutaneous injection.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=534, 2025: administration by subcutaneous route reported. Eligible participants were randomly assigned in a 2:2:2:1:1:1:1:2 ratio to once-weekly subcutaneous placebo, dulaglutide 1·5 mg, or retatrutide 0·5 mg, 4 mg (2 mg initial dose), 4 mg (4 mg initial dose), 8 mg (2 mg initial dose), 8 mg (4 mg…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40609566"
+        ],
+        "source_excerpt": "Eligible participants were randomly assigned in a 2:2:2:1:1:1:1:2 ratio to once-weekly subcutaneous placebo, dulaglutide 1·5 mg, or retatrutide 0·5 mg, 4 mg (2 mg initial dose), 4 mg (4 mg initial dose), 8 mg (2 mg initial dose), 8 mg (4 mg initial dose), or 12 mg.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=98, 2024: administration by subcutaneous route reported. Here, in this randomized, double-blind, placebo-controlled trial, participants (n = 98) were randomly assigned to 48 weeks of once-weekly subcutaneous retatrutide (1, 4, 8 or 12 mg dose) or placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38858523"
+        ],
+        "source_excerpt": "Here, in this randomized, double-blind, placebo-controlled trial, participants (n = 98) were randomly assigned to 48 weeks of once-weekly subcutaneous retatrutide (1, 4, 8 or 12 mg dose) or placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=338, 2023: administration by subcutaneous route reported. Participants were randomly assigned in a 2:1:1:1:1:2:2 ratio to receive subcutaneous retatrutide (1 mg, 4 mg [initial dose, 2 mg], 4 mg [initial dose, 4 mg], 8 mg [initial dose, 2 mg], 8 mg [initial dose, 4 mg], or 12 mg [initial dose, 2…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37366315"
+        ],
+        "source_excerpt": "Participants were randomly assigned in a 2:1:1:1:1:2:2 ratio to receive subcutaneous retatrutide (1 mg, 4 mg [initial dose, 2 mg], 4 mg [initial dose, 4 mg], 8 mg [initial dose, 2 mg], 8 mg [initial dose, 4 mg], or 12 mg [initial dose, 2 mg]) or placebo once weekly for 48 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=5,800, 2026: administration by subcutaneous route reported. TRIUMPH consists of four Phase 3, multicenter, randomized, double-blind studies assessing weekly subcutaneous retatrutide compared to placebo, in conjunction with healthy diet and physical activity in over 5800 participants.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41090431"
+        ],
+        "source_excerpt": "TRIUMPH consists of four Phase 3, multicenter, randomized, double-blind studies assessing weekly subcutaneous retatrutide compared to placebo, in conjunction with healthy diet and physical activity in over 5800 participants.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2026: administration by oral route reported. Recent evidence reinforces this framework: the SOUL trial established cardiovascular superiority for oral semaglutide, extending disease-modifying properties beyond injectable formulations, while Phase 3 TRIUMPH data position retatrutide as an emerging triple-agonist candidate…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42649514"
+        ],
+        "source_excerpt": "Recent evidence reinforces this framework: the SOUL trial established cardiovascular superiority for oral semaglutide, extending disease-modifying properties beyond injectable formulations, while Phase 3 TRIUMPH data position retatrutide as an emerging triple-agonist candidate awaiting cardiovascular outcome data.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Randomized controlled trial, humans, n=930, 2026: doses stated in the abstract: 4 mg; 9 mg; 12 mg. Participants were randomly assigned (1:1:1:1) to receive retatrutide (4 mg, 9 mg, or 12 mg) or placebo by once-weekly subcutaneous injection.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42250575"
+        ],
+        "source_excerpt": "Participants were randomly assigned (1:1:1:1) to receive retatrutide (4 mg, 9 mg, or 12 mg) or placebo by once-weekly subcutaneous injection.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=213, 2026: doses stated in the abstract: 12 mg. Intervention(s) Obesity trial; retatrutide (1, 4, 8, 12 mg) or placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42135195"
+        ],
+        "source_excerpt": "Intervention(s) Obesity trial; retatrutide (1, 4, 8, 12 mg) or placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=40, 2025: doses stated in the abstract: 1 mg. Participants (N = 40; mean age 51 years; 52.5 % male) received retatrutide 4/8/12 mg (n = 23), retatrutide 1 mg (n = 13), or placebo (n = 4).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41216380"
+        ],
+        "source_excerpt": "Participants (N = 40; mean age 51 years; 52.5 % male) received retatrutide 4/8/12 mg (n = 23), retatrutide 1 mg (n = 13), or placebo (n = 4).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=275, 2025: doses stated in the abstract: 4 mg. Compared with placebo, participants who received retatrutide ≥4 mg reported greater reductions from baseline in overall appetite, hunger, and prospective food consumption (l at Week 24 (all p Conclusions Perceived hunger and tendency to overeat…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40916752"
+        ],
+        "source_excerpt": "Compared with placebo, participants who received retatrutide ≥4 mg reported greater reductions from baseline in overall appetite, hunger, and prospective food consumption (l at Week 24 (all p Conclusions Perceived hunger and tendency to overeat (disinhibition) were reduced with higher doses of retatrutide, compared with placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=534, 2025: doses stated in the abstract: 0·5 mg; 4 mg; 2 mg; 8 mg. Eligible participants were randomly assigned in a 2:2:2:1:1:1:1:2 ratio to once-weekly subcutaneous placebo, dulaglutide 1·5 mg, or retatrutide 0·5 mg, 4 mg (2 mg initial dose), 4 mg (4 mg initial dose), 8 mg (2 mg initial dose), 8…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40609566"
+        ],
+        "source_excerpt": "Eligible participants were randomly assigned in a 2:2:2:1:1:1:1:2 ratio to once-weekly subcutaneous placebo, dulaglutide 1·5 mg, or retatrutide 0·5 mg, 4 mg (2 mg initial dose), 4 mg (4 mg initial dose), 8 mg (2 mg initial dose), 8 mg (4 mg initial dose), or 12 mg.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=281, 2025: doses stated in the abstract: 0.5-12 mg; 12 mg; 8 mg. A post hoc analysis of 2 retatrutide studies (dose range: 0.5-12 mg) was performed in participants (estimated glomerular filtration rate [eGFR] ≥ 45 ml/min per 1.73 m 2 ) with T2D ( n = 281) and with overweight or obesity without T2D ( n = 338).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40630318"
+        ],
+        "source_excerpt": "A post hoc analysis of 2 retatrutide studies (dose range: 0.5-12 mg) was performed in participants (estimated glomerular filtration rate [eGFR] ≥ 45 ml/min per 1.73 m 2 ) with T2D ( n = 281) and with overweight or obesity without T2D ( n = 338).",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
     "interactions": [],
-    "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
+    "exclusion_criteria": [
+      {
+        "value": "Randomized controlled trial, humans, n=534, 2025: Eligible participants were randomly assigned in a 2:2:2:1:1:1:1:2 ratio to once-weekly subcutaneous placebo, dulaglutide 1·5 mg, or retatrutide 0·5 mg, 4 mg (2 mg initial dose), 4 mg (4 mg initial dose), 8 mg (2 mg initial dose), 8 mg (4 mg initial dose), or 12 mg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40609566"
+        ],
+        "source_excerpt": "Eligible participants were randomly assigned in a 2:2:2:1:1:1:1:2 ratio to once-weekly subcutaneous placebo, dulaglutide 1·5 mg, or retatrutide 0·5 mg, 4 mg (2 mg initial dose), 4 mg (4 mg initial dose), 8 mg (2 mg initial dose), 8 mg (4 mg initial dose), or 12 mg.",
+        "drafting": "extractive"
+      }
+    ],
+    "adverse_events": [
+      {
+        "value": "Clinical trial, humans, n=214, 2026: Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42688617"
+        ],
+        "source_excerpt": "Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=930, 2026: For the treatment regimen estimand, the mean change from baseline in HbA 1c concentration was -1·69% (SE 0·11) with retatrutide 4 mg, -1·86% (0·10) with 9 mg, and -1·94% (0·08) with 12 mg, versus -0·81% (0·12) with placebo, resulting in estimated treatment differences versus placebo of…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42250575"
+        ],
+        "source_excerpt": "For the treatment regimen estimand, the mean change from baseline in HbA 1c concentration was -1·69% (SE 0·11) with retatrutide 4 mg, -1·86% (0·10) with 9 mg, and -1·94% (0·08) with 12 mg, versus -0·81% (0·12) with placebo, resulting in estimated treatment differences versus placebo of -0·88% (95% CI -1·18 to -0·59) with retatrutide 4 mg, -1·04% (-1·32 to -0·76) with 9 mg, and -1·12% (-1·39 to -0·85) with 12 mg (all p Interpretation Retatrutide showed significant improvements in glycaemic control and bodyweight reduction as a monotherapy in adults with type 2 diabetes that is inadequately controlled with diet and exercise alone, with an adverse event profile consistent with molecules with GLP-1 agonist activity, supporting its potential as an effective treatment for type 2 diabetes.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=40, 2025: Some retatrutide-treated participants reported reduced participation in social activities due to adverse events (n = 2) or new eating habits (n = 2) and frustration due to disappointing weight loss (n = 3).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41216380"
+        ],
+        "source_excerpt": "Some retatrutide-treated participants reported reduced participation in social activities due to adverse events (n = 2) or new eating habits (n = 2) and frustration due to disappointing weight loss (n = 3).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=338, 2023: The most common adverse events in the retatrutide groups were gastrointestinal; these events were dose-related, were mostly mild to moderate in severity, and were partially mitigated with a lower starting dose (2 mg vs. 4 mg).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37366315"
+        ],
+        "source_excerpt": "The most common adverse events in the retatrutide groups were gastrointestinal; these events were dose-related, were mostly mild to moderate in severity, and were partially mitigated with a lower starting dose (2 mg vs. 4 mg).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=210, 2022: Treatment-emergent adverse events were reported by 33 (63%), three (60%), and eight (54%) participants who received LY3437943, dulaglutide 1·5 mg, and placebo, respectively, with gastrointestinal disorders being the most frequently reported treatment-emergent adverse events.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36354040"
+        ],
+        "source_excerpt": "Treatment-emergent adverse events were reported by 33 (63%), three (60%), and eight (54%) participants who received LY3437943, dulaglutide 1·5 mg, and placebo, respectively, with gastrointestinal disorders being the most frequently reported treatment-emergent adverse events.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Case report, humans, 2026: We report a man in his mid-30s with longstanding type 1 diabetes mellitus who presented with severe vomiting, diarrhoea, hyperglycaemia, ketonaemia and acute kidney injury shortly after self-administering an online-purchased product marketed as retatrutide for weight loss.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42669023"
+        ],
+        "source_excerpt": "We report a man in his mid-30s with longstanding type 1 diabetes mellitus who presented with severe vomiting, diarrhoea, hyperglycaemia, ketonaemia and acute kidney injury shortly after self-administering an online-purchased product marketed as retatrutide for weight loss.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Clinical trial, humans, 2026: To further characterise the effects of retatrutide on cardiometabolic risk, lipoprotein and inflammatory biomarkers were assessed post hoc in phase 2 trials of adults with obesity/overweight with or without type 2 diabetes (T2D).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42608321"
+        ],
+        "source_excerpt": "To further characterise the effects of retatrutide on cardiometabolic risk, lipoprotein and inflammatory biomarkers were assessed post hoc in phase 2 trials of adults with obesity/overweight with or without type 2 diabetes (T2D).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=930, 2026: For the treatment regimen estimand, the mean change from baseline in HbA 1c concentration was -1·69% (SE 0·11) with retatrutide 4 mg, -1·86% (0·10) with 9 mg, and -1·94% (0·08) with 12 mg, versus -0·81% (0·12) with placebo, resulting in estimated treatment differences versus placebo of…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42250575"
+        ],
+        "source_excerpt": "For the treatment regimen estimand, the mean change from baseline in HbA 1c concentration was -1·69% (SE 0·11) with retatrutide 4 mg, -1·86% (0·10) with 9 mg, and -1·94% (0·08) with 12 mg, versus -0·81% (0·12) with placebo, resulting in estimated treatment differences versus placebo of -0·88% (95% CI -1·18 to -0·59) with retatrutide 4 mg, -1·04% (-1·32 to -0·76) with 9 mg, and -1·12% (-1·39 to -0·85) with 12 mg (all p Interpretation Retatrutide showed significant improvements in glycaemic control and bodyweight reduction as a monotherapy in adults with type 2 diabetes that is inadequately controlled with diet and exercise alone, with an adverse event profile consistent with molecules with GLP-1 agonist activity, supporting its potential as an effective treatment for type 2 diabetes.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=213, 2026: Context In phase 2 trials, retatrutide reduced body weight, hemoglobin A1c, and improved the lipid profiles of participants living with obesity, with and without T2D.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42135195"
+        ],
+        "source_excerpt": "Context In phase 2 trials, retatrutide reduced body weight, hemoglobin A1c, and improved the lipid profiles of participants living with obesity, with and without T2D.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=40, 2025: Retatrutide, an agonist of glucose-dependent insulinotropic polypeptide, glucagon-like peptide-1, and glucagon receptors, is in development for the treatment of obesity.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41216380"
+        ],
+        "source_excerpt": "Retatrutide, an agonist of glucose-dependent insulinotropic polypeptide, glucagon-like peptide-1, and glucagon receptors, is in development for the treatment of obesity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=275, 2025: This study compared the changes in appetite and eating behaviours of adults with T2D who were treated with retatrutide, dulaglutide (an alternative treatment), or placebo (i.e., no treatment).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40916752"
+        ],
+        "source_excerpt": "This study compared the changes in appetite and eating behaviours of adults with T2D who were treated with retatrutide, dulaglutide (an alternative treatment), or placebo (i.e., no treatment).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 2 clinical trial, humans, 2025: The aim of this study was to determine if retatrutide, a triple agonist of glucose-dependent insulinotropic polypeptide (GIP) receptor, glucagon-like peptide 1 (GLP-1) receptor and glucagon (GCG) receptor, may lower serum triglyceride (TG) and low-density lipoprotein cholesterol (LDL-C) levels in…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40726454"
+        ],
+        "source_excerpt": "The aim of this study was to determine if retatrutide, a triple agonist of glucose-dependent insulinotropic polypeptide (GIP) receptor, glucagon-like peptide 1 (GLP-1) receptor and glucagon (GCG) receptor, may lower serum triglyceride (TG) and low-density lipoprotein cholesterol (LDL-C) levels in part by decreasing circulating concentrations of the angiopoietin-like protein 3/8 complex (ANGPTL3/8).",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Clinical trial, humans, 2024: The pharmacokinetics of retatrutide were dose proportional and its mean half-life of approximately 6 days supported a once-weekly dosing.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39724554"
+        ],
+        "source_excerpt": "The pharmacokinetics of retatrutide were dose proportional and its mean half-life of approximately 6 days supported a once-weekly dosing.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=210, 2022: The pharmacokinetics of LY3437943 were dose proportional and its half-life was approximately 6 days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36354040"
+        ],
+        "source_excerpt": "The pharmacokinetics of LY3437943 were dose proportional and its half-life was approximately 6 days.",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [
+      {
+        "value": "Animal study, mice, 2025: It is found that Retatrutide, an anti-obesity agent, inhibits HBP and YAP O-GlcNAcylation leading to increased YAP degradation through the deprivation of EIF3H-mediated deubiquitylation of YAP.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39868848"
+        ],
+        "source_excerpt": "It is found that Retatrutide, an anti-obesity agent, inhibits HBP and YAP O-GlcNAcylation leading to increased YAP degradation through the deprivation of EIF3H-mediated deubiquitylation of YAP.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Clinical trial, humans, 2026: durations stated: 36 weeks; 48 weeks. In Study 1, adults with obesity/overweight and T2D received once-weekly retatrutide (0.5/4/8/12 mg), dulaglutide (1.5 mg) or placebo for 36 weeks; in Study 2, adults with clinical obesity without T2D received retatrutide (1/4/8/12 mg) or placebo for 48 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42608321"
+        ],
+        "source_excerpt": "In Study 1, adults with obesity/overweight and T2D received once-weekly retatrutide (0.5/4/8/12 mg), dulaglutide (1.5 mg) or placebo for 36 weeks; in Study 2, adults with clinical obesity without T2D received retatrutide (1/4/8/12 mg) or placebo for 48 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=213, 2026: durations stated: 48 weeks. Participants living with obesity with and without T2D were treated for 36 and 48 weeks, respectively.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42135195"
+        ],
+        "source_excerpt": "Participants living with obesity with and without T2D were treated for 36 and 48 weeks, respectively.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=40, 2025: durations stated: 51 years; 8 weeks. Participants (N = 40; mean age 51 years; 52.5 % male) received retatrutide 4/8/12 mg (n = 23), retatrutide 1 mg (n = 13), or placebo (n = 4).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41216380"
+        ],
+        "source_excerpt": "Participants (N = 40; mean age 51 years; 52.5 % male) received retatrutide 4/8/12 mg (n = 23), retatrutide 1 mg (n = 13), or placebo (n = 4).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=275, 2025: durations stated: 36 weeks; 36 week. These pre-specified exploratory analyses examined changes from baseline in Appetite Visual Analogue Scale (VAS) and Eating Inventory (EI) scores after 24 and 36 weeks of once-weekly treatment with placebo, dulaglutide 1.5 mg, or retatrutide 0.5, 4, 8,…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40916752"
+        ],
+        "source_excerpt": "These pre-specified exploratory analyses examined changes from baseline in Appetite Visual Analogue Scale (VAS) and Eating Inventory (EI) scores after 24 and 36 weeks of once-weekly treatment with placebo, dulaglutide 1.5 mg, or retatrutide 0.5, 4, 8, or 12 mg in 275 adults with T2D.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, 2024: durations stated: 6 days. The pharmacokinetics of retatrutide were dose proportional and its mean half-life of approximately 6 days supported a once-weekly dosing.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39724554"
+        ],
+        "source_excerpt": "The pharmacokinetics of retatrutide were dose proportional and its mean half-life of approximately 6 days supported a once-weekly dosing.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=338, 2023: durations stated: 48 weeks. Participants were randomly assigned in a 2:1:1:1:1:2:2 ratio to receive subcutaneous retatrutide (1 mg, 4 mg [initial dose, 2 mg], 4 mg [initial dose, 4 mg], 8 mg [initial dose, 2 mg], 8 mg [initial dose, 4 mg], or 12 mg [initial dose, 2 mg]) or placebo once…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37366315"
+        ],
+        "source_excerpt": "Participants were randomly assigned in a 2:1:1:1:1:2:2 ratio to receive subcutaneous retatrutide (1 mg, 4 mg [initial dose, 2 mg], 4 mg [initial dose, 4 mg], 8 mg [initial dose, 2 mg], 8 mg [initial dose, 4 mg], or 12 mg [initial dose, 2 mg]) or placebo once weekly for 48 weeks.",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL5095485: maximum clinical phase 3. Jurisdiction-level status pending human review.",
         "evidence_label": "human-clinical-trial",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Clinical trial, humans, 2026: In both studies, retatrutide was associated with significant reductions in non-high-density lipoprotein cholesterol (Study 1: up to -21.0%, Study 2: up to -26.9%), apolipoprotein B (-21.4%, -24.2%), total triglyceride-rich lipoprotein particles (-22.5%, -33.7%), large triglyceride-rich lipoprotein particles…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42608321"
+        ],
+        "source_excerpt": "In both studies, retatrutide was associated with significant reductions in non-high-density lipoprotein cholesterol (Study 1: up to -21.0%, Study 2: up to -26.9%), apolipoprotein B (-21.4%, -24.2%), total triglyceride-rich lipoprotein particles (-22.5%, -33.7%), large triglyceride-rich lipoprotein particles (-84.4%, -76.6%), triglyceride-rich lipoprotein cholesterol (-29.4%, -38.6%), total low-density lipoprotein particles (-19.7%, -23.5%) and small low-density lipoprotein particles (-32.6%, -32.3%).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ruotolo 2026",
+          "year": "2026",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "36 weeks; 48 weeks",
+          "outcome": "In both studies, retatrutide was associated with significant reductions in non-high-density lipoprotein cholesterol (Study 1: up to -21.0%, Study 2: up to -26.9%), apolipoprotein B (-21.4%, -24.2%), total…"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=214, 2026: Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42688617"
+        ],
+        "source_excerpt": "Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Chen 2026",
+          "year": "2026",
+          "design": "Clinical trial",
+          "n": 214,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=930, 2026: For the treatment regimen estimand, the mean change from baseline in HbA 1c concentration was -1·69% (SE 0·11) with retatrutide 4 mg, -1·86% (0·10) with 9 mg, and -1·94% (0·08) with 12 mg, versus -0·81% (0·12) with placebo, resulting in estimated treatment differences versus placebo of…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42250575"
+        ],
+        "source_excerpt": "For the treatment regimen estimand, the mean change from baseline in HbA 1c concentration was -1·69% (SE 0·11) with retatrutide 4 mg, -1·86% (0·10) with 9 mg, and -1·94% (0·08) with 12 mg, versus -0·81% (0·12) with placebo, resulting in estimated treatment differences versus placebo of -0·88% (95% CI -1·18 to -0·59) with retatrutide 4 mg, -1·04% (-1·32 to -0·76) with 9 mg, and -1·12% (-1·39 to -0·85) with 12 mg (all p Interpretation Retatrutide showed significant improvements in glycaemic control and bodyweight reduction as a monotherapy in adults with type 2 diabetes that is inadequately controlled with diet and exercise alone, with an adverse event profile consistent with molecules with GLP-1 agonist activity, supporting its potential as an effective treatment for type 2 diabetes.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bajaj 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 930,
+          "species": "Humans",
+          "dose": "4 mg; 9 mg",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "For the treatment regimen estimand, the mean change from baseline in HbA 1c concentration was -1·69% (SE 0·11) with retatrutide 4 mg, -1·86% (0·10) with 9 mg, and -1·94% (0·08) with 12 mg, versus -0·81% (0·12) with…"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=213, 2026: At both primary and study endpoints for both populations, higher doses of retatrutide were associated with changes in a cluster of metabolites comprising 3-hydroxybutyrate, acetylcarnitine, free carnitine and fatty acid-derived long-chain acylcarnitines.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42135195"
+        ],
+        "source_excerpt": "At both primary and study endpoints for both populations, higher doses of retatrutide were associated with changes in a cluster of metabolites comprising 3-hydroxybutyrate, acetylcarnitine, free carnitine and fatty acid-derived long-chain acylcarnitines.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Pearson 2026",
+          "year": "2026",
+          "design": "Clinical trial",
+          "n": 213,
+          "species": "Humans",
+          "dose": "12 mg",
+          "route": "not stated in abstract",
+          "duration": "48 weeks",
+          "outcome": "At both primary and study endpoints for both populations, higher doses of retatrutide were associated with changes in a cluster of metabolites comprising 3-hydroxybutyrate, acetylcarnitine, free carnitine and fatty…"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=40, 2025: Some retatrutide-treated participants reported reduced participation in social activities due to adverse events (n = 2) or new eating habits (n = 2) and frustration due to disappointing weight loss (n = 3).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41216380"
+        ],
+        "source_excerpt": "Some retatrutide-treated participants reported reduced participation in social activities due to adverse events (n = 2) or new eating habits (n = 2) and frustration due to disappointing weight loss (n = 3).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Goetz 2025",
+          "year": "2025",
+          "design": "Clinical trial",
+          "n": 40,
+          "species": "Humans",
+          "dose": "1 mg",
+          "route": "not stated in abstract",
+          "duration": "51 years; 8 weeks",
+          "outcome": "Some retatrutide-treated participants reported reduced participation in social activities due to adverse events (n = 2) or new eating habits (n = 2) and frustration due to disappointing weight loss (n = 3)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=275, 2025: WHAT WERE THE MAIN RESULTS?: This study showed that adults with type 2 diabetes who received higher doses of retatrutide reported being less likely to feel hungry or overeat compared to those who received no treatment (i.e., placebo) or those who received dulaglutide.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40916752"
+        ],
+        "source_excerpt": "WHAT WERE THE MAIN RESULTS?: This study showed that adults with type 2 diabetes who received higher doses of retatrutide reported being less likely to feel hungry or overeat compared to those who received no treatment (i.e., placebo) or those who received dulaglutide.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kanu 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": 275,
+          "species": "Humans",
+          "dose": "4 mg",
+          "route": "not stated in abstract",
+          "duration": "36 weeks; 36 week",
+          "outcome": "WHAT WERE THE MAIN RESULTS?: This study showed that adults with type 2 diabetes who received higher doses of retatrutide reported being less likely to feel hungry or overeat compared to those who received no treatment…"
+        }
+      },
+      {
+        "value": "Phase 2 clinical trial, humans, 2025: ANGPTL3/8 reductions were observed with 8 and 12 mg retatrutide doses in participants with type 2 diabetes, and with 1, 4, 8 and 12 mg retatrutide doses in participants with obesity or overweight but without diabetes.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40726454"
+        ],
+        "source_excerpt": "ANGPTL3/8 reductions were observed with 8 and 12 mg retatrutide doses in participants with type 2 diabetes, and with 1, 4, 8 and 12 mg retatrutide doses in participants with obesity or overweight but without diabetes.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wen 2025",
+          "year": "2025",
+          "design": "Phase 2 clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "ANGPTL3/8 reductions were observed with 8 and 12 mg retatrutide doses in participants with type 2 diabetes, and with 1, 4, 8 and 12 mg retatrutide doses in participants with obesity or overweight but without diabetes."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=534, 2025: Percent reduction from baseline in total fat mass was 4·9% (SE 1·4%) with retatrutide 0·5 mg, 15·2% (3·2%) with retatrutide 4 mg (pooled), 26·1% (2·5%) with retatrutide 8 mg (pooled), 23·2% (3·0%) with retatrutide 12 mg, 2·6% (1·6%) with dulaglutide, and 4·5% (1·2%) with placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40609566"
+        ],
+        "source_excerpt": "Percent reduction from baseline in total fat mass was 4·9% (SE 1·4%) with retatrutide 0·5 mg, 15·2% (3·2%) with retatrutide 4 mg (pooled), 26·1% (2·5%) with retatrutide 8 mg (pooled), 23·2% (3·0%) with retatrutide 12 mg, 2·6% (1·6%) with dulaglutide, and 4·5% (1·2%) with placebo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Coskun 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": 534,
+          "species": "Humans",
+          "dose": "0·5 mg; 4 mg",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Percent reduction from baseline in total fat mass was 4·9% (SE 1·4%) with retatrutide 0·5 mg, 15·2% (3·2%) with retatrutide 4 mg (pooled), 26·1% (2·5%) with retatrutide 8 mg (pooled), 23·2% (3·0%) with retatrutide 12…"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=281, 2025: In participants with T2D, retatrutide 12 mg was associated with reduced UACR compared with placebo at 36 weeks by -37.0% (95% CI: -57.3 to -7.0); eGFR was unchanged compared with placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40630318"
+        ],
+        "source_excerpt": "In participants with T2D, retatrutide 12 mg was associated with reduced UACR compared with placebo at 36 weeks by -37.0% (95% CI: -57.3 to -7.0); eGFR was unchanged compared with placebo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Heerspink 2025",
+          "year": "2025",
+          "design": "Clinical trial",
+          "n": 281,
+          "species": "Humans",
+          "dose": "0.5-12 mg; 12 mg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In participants with T2D, retatrutide 12 mg was associated with reduced UACR compared with placebo at 36 weeks by -37.0% (95% CI: -57.3 to -7.0); eGFR was unchanged compared with placebo."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=269, 2025: The maximum weight reduction effect ranged from 4.25 kg (Liraglutide) to 22.6 kg (Retatrutide).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39980735"
+        ],
+        "source_excerpt": "The maximum weight reduction effect ranged from 4.25 kg (Liraglutide) to 22.6 kg (Retatrutide).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Guo 2025",
+          "year": "2025",
+          "design": "Clinical trial",
+          "n": 269,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The maximum weight reduction effect ranged from 4.25 kg (Liraglutide) to 22.6 kg (Retatrutide)."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2024: Each trial demonstrated greater weight loss with retatrutide treatment in comparison to placebo, with greatest efficacy at higher doses.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39724554"
+        ],
+        "source_excerpt": "Each trial demonstrated greater weight loss with retatrutide treatment in comparison to placebo, with greatest efficacy at higher doses.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Tetelbaun 2024",
+          "year": "2024",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "6 days",
+          "outcome": "Each trial demonstrated greater weight loss with retatrutide treatment in comparison to placebo, with greatest efficacy at higher doses."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=98, 2024: LF reductions were significantly related to changes in body weight, abdominal fat and metabolic measures associated with improved insulin sensitivity and lipid metabolism.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38858523"
+        ],
+        "source_excerpt": "LF reductions were significantly related to changes in body weight, abdominal fat and metabolic measures associated with improved insulin sensitivity and lipid metabolism.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Sanyal 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": 98,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "LF reductions were significantly related to changes in body weight, abdominal fat and metabolic measures associated with improved insulin sensitivity and lipid metabolism."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=338, 2023: At 48 weeks, a weight reduction of 5% or more, 10% or more, and 15% or more had occurred in 92%, 75%, and 60%, respectively, of the participants who received 4 mg of retatrutide; 100%, 91%, and 75% of those who received 8 mg; 100%, 93%, and 83% of those who received 12 mg; and 27%, 9%,…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37366315"
+        ],
+        "source_excerpt": "At 48 weeks, a weight reduction of 5% or more, 10% or more, and 15% or more had occurred in 92%, 75%, and 60%, respectively, of the participants who received 4 mg of retatrutide; 100%, 91%, and 75% of those who received 8 mg; 100%, 93%, and 83% of those who received 12 mg; and 27%, 9%, and 2% of those who received placebo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Jastreboff 2023",
+          "year": "2023",
+          "design": "Randomized controlled trial",
+          "n": 338,
+          "species": "Humans",
+          "dose": "1 mg; 4 mg",
+          "route": "subcutaneous",
+          "duration": "48 weeks",
+          "outcome": "At 48 weeks, a weight reduction of 5% or more, 10% or more, and 15% or more had occurred in 92%, 75%, and 60%, respectively, of the participants who received 4 mg of retatrutide; 100%, 91%, and 75% of those who…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=210, 2022: At week 12, placebo-adjusted mean daily plasma glucose significantly decreased from baseline at the three highest dose LY3437943 groups (least-squares mean difference -2·8 mmol/L [90% CI -4·63 to -0·94] for 3 mg; -3·1 mmol/L [-4·91 to -1·22] for 3/6 mg; and -2·9 mmol/L [-4·70 to -1·01]…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36354040"
+        ],
+        "source_excerpt": "At week 12, placebo-adjusted mean daily plasma glucose significantly decreased from baseline at the three highest dose LY3437943 groups (least-squares mean difference -2·8 mmol/L [90% CI -4·63 to -0·94] for 3 mg; -3·1 mmol/L [-4·91 to -1·22] for 3/6 mg; and -2·9 mmol/L [-4·70 to -1·01] for 3/6/9/12 mg).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Urva 2022",
+          "year": "2022",
+          "design": "Randomized controlled trial",
+          "n": 210,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "70 years; 3 months",
+          "outcome": "At week 12, placebo-adjusted mean daily plasma glucose significantly decreased from baseline at the three highest dose LY3437943 groups (least-squares mean difference -2·8 mmol/L [90% CI -4·63 to -0·94] for 3 mg; -3·1…"
+        }
+      },
+      {
+        "value": "Case report, humans, 2026: In type 1 diabetes mellitus, where patients remain dependent on exogenous insulin to suppress ketogenesis, gastrointestinal illness may rapidly precipitate ketosis when insulin is omitted and oral intake is reduced.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42669023"
+        ],
+        "source_excerpt": "In type 1 diabetes mellitus, where patients remain dependent on exogenous insulin to suppress ketogenesis, gastrointestinal illness may rapidly precipitate ketosis when insulin is omitted and oral intake is reduced.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Branine 2026",
+          "year": "2026",
+          "design": "Case report",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In type 1 diabetes mellitus, where patients remain dependent on exogenous insulin to suppress ketogenesis, gastrointestinal illness may rapidly precipitate ketosis when insulin is omitted and oral intake is reduced."
+        }
+      },
+      {
+        "value": "Human study, humans, n=367, 2026: Background and hypothesis Retatrutide is an agonist of the glucose-dependent insulinotropic polypeptide, glucagon-like peptide-1 and glucagon receptors that reduced weight and hemoglobin A1c (HbA1c) in individuals with obesity and type 2 diabetes (T2D).",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41160422"
+        ],
+        "source_excerpt": "Background and hypothesis Retatrutide is an agonist of the glucose-dependent insulinotropic polypeptide, glucagon-like peptide-1 and glucagon receptors that reduced weight and hemoglobin A1c (HbA1c) in individuals with obesity and type 2 diabetes (T2D).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Heerspink 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": 367,
+          "species": "Humans",
+          "dose": "12 mg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Background and hypothesis Retatrutide is an agonist of the glucose-dependent insulinotropic polypeptide, glucagon-like peptide-1 and glucagon receptors that reduced weight and hemoglobin A1c (HbA1c) in individuals with…"
+        }
+      },
+      {
+        "value": "Human study, humans, n=5,800, 2026: Retatrutide, a novel synthetic molecule, is a triple agonist activating the glucose-dependent insulinotropic polypeptide, glucagon-like peptide-1 and glucagon receptors.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41090431"
+        ],
+        "source_excerpt": "Retatrutide, a novel synthetic molecule, is a triple agonist activating the glucose-dependent insulinotropic polypeptide, glucagon-like peptide-1 and glucagon receptors.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Giblin 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": 5800,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: In the additional presence of the phosphodiesterase III inhibitor cilostamide (1 µM), retatrutide was more potent and more effective to increase FOC in HAP.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40613938"
+        ],
+        "source_excerpt": "In the additional presence of the phosphodiesterase III inhibitor cilostamide (1 µM), retatrutide was more potent and more effective to increase FOC in HAP.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Neumann 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In the additional presence of the phosphodiesterase III inhibitor cilostamide (1 µM), retatrutide was more potent and more effective to increase FOC in HAP."
+        }
+      },
+      {
+        "value": "Animal study, 2026: Recent evidence reinforces this framework: the SOUL trial established cardiovascular superiority for oral semaglutide, extending disease-modifying properties beyond injectable formulations, while Phase 3 TRIUMPH data position retatrutide as an emerging triple-agonist candidate awaiting cardiovascular outcome data.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42649514"
+        ],
+        "source_excerpt": "Recent evidence reinforces this framework: the SOUL trial established cardiovascular superiority for oral semaglutide, extending disease-modifying properties beyond injectable formulations, while Phase 3 TRIUMPH data position retatrutide as an emerging triple-agonist candidate awaiting cardiovascular outcome data.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Koca 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "oral",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: In the UUO model, semaglutide effects were associated with PI3K-AKT inhibition, tirzepatide effects with PI3K-AKT inhibition and PPAR pathway activation, and retatrutide effects with concurrent inhibition of both PI3K-AKT and NF-κB pathways.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42630988"
+        ],
+        "source_excerpt": "In the UUO model, semaglutide effects were associated with PI3K-AKT inhibition, tirzepatide effects with PI3K-AKT inhibition and PPAR pathway activation, and retatrutide effects with concurrent inhibition of both PI3K-AKT and NF-κB pathways.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ding 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In the UUO model, semaglutide effects were associated with PI3K-AKT inhibition, tirzepatide effects with PI3K-AKT inhibition and PPAR pathway activation, and retatrutide effects with concurrent inhibition of both…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: Therapeutic interventions promoting lymphangiogenesis, either through VEGFC administration or weight loss intervention by LY3437943 (the novel triple GIP, GLP-1, and glucagon receptor agonist), significantly attenuate atrial fibrillation inducibility.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42156758"
+        ],
+        "source_excerpt": "Therapeutic interventions promoting lymphangiogenesis, either through VEGFC administration or weight loss intervention by LY3437943 (the novel triple GIP, GLP-1, and glucagon receptor agonist), significantly attenuate atrial fibrillation inducibility.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Takahashi 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Therapeutic interventions promoting lymphangiogenesis, either through VEGFC administration or weight loss intervention by LY3437943 (the novel triple GIP, GLP-1, and glucagon receptor agonist), significantly attenuate…"
+        }
+      },
+      {
+        "value": "Animal study, rats, mice, 2026: BWB3054, a fatty acylated GIPR:GCGR co-agonist, was identified as comparably potent as retatrutide to induce cAMP production at the mGIPR, and 4-fold reduced at mGCGR, but notably more than 100-fold diminished at mGLP-1R.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41997446"
+        ],
+        "source_excerpt": "BWB3054, a fatty acylated GIPR:GCGR co-agonist, was identified as comparably potent as retatrutide to induce cAMP production at the mGIPR, and 4-fold reduced at mGCGR, but notably more than 100-fold diminished at mGLP-1R.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Perez-Tilve 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats, Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "BWB3054, a fatty acylated GIPR:GCGR co-agonist, was identified as comparably potent as retatrutide to induce cAMP production at the mGIPR, and 4-fold reduced at mGCGR, but notably more than 100-fold diminished at…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: Metabolomic analysis further demonstrated clearance of lipotoxic intermediates, decreased pro-inflammatory lipids, reduced collagen-derived metabolites, and elevated anti-inflammatory 15-HETE, confirming metabolic restoration at multiple regulatory levels.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41964043"
+        ],
+        "source_excerpt": "Metabolomic analysis further demonstrated clearance of lipotoxic intermediates, decreased pro-inflammatory lipids, reduced collagen-derived metabolites, and elevated anti-inflammatory 15-HETE, confirming metabolic restoration at multiple regulatory levels.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Li 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Metabolomic analysis further demonstrated clearance of lipotoxic intermediates, decreased pro-inflammatory lipids, reduced collagen-derived metabolites, and elevated anti-inflammatory 15-HETE, confirming metabolic…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: Our findings demonstrate that all three GLP-1 analogs, semaglutide, tirzepatide, and retatrutide, exhibit significant anti-obesity effects in MC4R KO mice.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41723268"
+        ],
+        "source_excerpt": "Our findings demonstrate that all three GLP-1 analogs, semaglutide, tirzepatide, and retatrutide, exhibit significant anti-obesity effects in MC4R KO mice.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hitaka 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "21 days",
+          "outcome": "Our findings demonstrate that all three GLP-1 analogs, semaglutide, tirzepatide, and retatrutide, exhibit significant anti-obesity effects in MC4R KO mice."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: Building on prior work with GLP-1 receptor agonists, these results provide important context for interpreting clinical observations of reduced drinking behavior among individuals receiving this class of therapeutics.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40699363"
+        ],
+        "source_excerpt": "Building on prior work with GLP-1 receptor agonists, these results provide important context for interpreting clinical observations of reduced drinking behavior among individuals receiving this class of therapeutics.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Windram 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "15 day",
+          "outcome": "Building on prior work with GLP-1 receptor agonists, these results provide important context for interpreting clinical observations of reduced drinking behavior among individuals receiving this class of therapeutics."
+        }
       }
     ]
   },
@@ -67,15 +883,44 @@
         "Retatrutide"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL5095485/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 33,
+      "claims": 35,
+      "evidence_table_rows": 25
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports weight-normalized doses for Retatrutide.",
+    "No study in this record's ledger reports dose-escalation schedules for Retatrutide.",
+    "No study in this record's ledger reports interactions with other agents for Retatrutide."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Retatrutide been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 9 clinical trials and 7 randomized controlled trials naming Retatrutide or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Retatrutide?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Retatrutide an approved medicine?",
+      "answer": "ChEMBL records CHEMBL5095485 at maximum clinical phase 3, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has Retatrutide been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "doi-10-22541-authorea-15008173-v1",
@@ -331,7 +1176,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 82.0,
   "review": {
     "author": "",
     "reviewer": "",
@@ -342,6 +1187,14 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 33 ledger sources by scripts/draft_claims.py: 40 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 33 ledger sources by scripts/draft_claims.py: 34 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

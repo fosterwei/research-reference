@@ -1,0 +1,141 @@
+{
+  "type": "comparison",
+  "title": "Semaglutide vs Tirzepatide",
+  "slug": "semaglutide-vs-tirzepatide",
+  "status": "draft",
+  "summary": "Semaglutide: tier approved label, 6,039 indexed publications, 305 randomized trials. Tirzepatide: tier approved label, 2,756 indexed publications, 131 randomized trials. 5 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "seo": {
+    "title": "Semaglutide vs Tirzepatide: what the studies show",
+    "description": "Semaglutide vs Tirzepatide, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+  },
+  "attributes": {
+    "head_to_head": [
+      {
+        "value": "Phase 3 clinical trial, humans, 2026: This study evaluated the cost-effectiveness (from the United States [US] societal perspective) of tirzepatide at its maximum-tolerated-dose (MTD) compared to semaglutide (MTD), both administered adjunct to a reduced-calorie diet and increased physical activity.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42012820"
+        ],
+        "source_excerpt": "This study evaluated the cost-effectiveness (from the United States [US] societal perspective) of tirzepatide at its maximum-tolerated-dose (MTD) compared to semaglutide (MTD), both administered adjunct to a reduced-calorie diet and increased physical activity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=376, 2026: Among 553 073 adults with at least one semaglutide ( n = 376 697) or tirzepatide ( n = 176 376) prescription and baseline weight availability, documented initiation within ±3 months of the first structured prescription was identified in 141 189 semaglutide patients and 62 040 tirzepatide patients.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42433615"
+        ],
+        "source_excerpt": "Among 553 073 adults with at least one semaglutide ( n = 376 697) or tirzepatide ( n = 176 376) prescription and baseline weight availability, documented initiation within ±3 months of the first structured prescription was identified in 141 189 semaglutide patients and 62 040 tirzepatide patients.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, 2026: Patients treated with tirzepatide lost more weight than those treated with semaglutide (mean reduction, 14.7 vs. 10.8%; P P < 0.001), accompanied by faster monthly weight-loss velocity (2.54 vs. 2.18%).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42311474"
+        ],
+        "source_excerpt": "Patients treated with tirzepatide lost more weight than those treated with semaglutide (mean reduction, 14.7 vs. 10.8%; P P < 0.001), accompanied by faster monthly weight-loss velocity (2.54 vs. 2.18%).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=920, 2026: Glucagon-like peptide-1 receptor agonists demonstrate cardiovascular benefits; however, head-to-head comparisons between semaglutide and tirzepatide remain limited.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42489387"
+        ],
+        "source_excerpt": "Glucagon-like peptide-1 receptor agonists demonstrate cardiovascular benefits; however, head-to-head comparisons between semaglutide and tirzepatide remain limited.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2026: Given the therapeutic potential of GLP-1 receptor agonists (semaglutide, tirzepatide, and retatrutide) in diabetic nephropathy, we evaluated their anti-fibrotic and anti-inflammatory effects in non-diabetic renal fibrosis using HK-2 cells and murine UUO and aging models.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42630988"
+        ],
+        "source_excerpt": "Given the therapeutic potential of GLP-1 receptor agonists (semaglutide, tirzepatide, and retatrutide) in diabetic nephropathy, we evaluated their anti-fibrotic and anti-inflammatory effects in non-diabetic renal fibrosis using HK-2 cells and murine UUO and aging models.",
+        "drafting": "extractive"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "pmid-42147968",
+      "title": "Decoding the hallmarks of GLP-1RA weight-loss super-responders.",
+      "url": "https://europepmc.org/article/MED/42147968",
+      "published": "2026-04-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40503067",
+      "title": "Comparative Efficacy of Tirzepatide vs. Semaglutide in Reducing Body Weight in Humans: A Systematic Review and Meta-Analysis of Clinical Trials and Real-World Data.",
+      "url": "https://europepmc.org/article/MED/40503067",
+      "published": "2025-05-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42012820",
+      "title": "Cost-effectiveness of tirzepatide versus semaglutide for patients with obesity or overweight in the US: evidence from the SURMOUNT-5 head-to-head phase-3 trial.",
+      "url": "https://europepmc.org/article/MED/42012820",
+      "published": "2026-04-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42639326",
+      "title": "Comparative Cardiovascular Pharmacovigilance of Semaglutide and Tirzepatide: A Food and Drug Administration Adverse Event Reporting System (FAERS) Database Analysis (2022-2026).",
+      "url": "https://europepmc.org/article/MED/42639326",
+      "published": "2026-07-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42433615",
+      "title": "Auditable large language model curation of clinical notes refines glucagon-like peptide-1 initiation, persistence ascertainment, and compounding use beyond prescription records.",
+      "url": "https://europepmc.org/article/MED/42433615",
+      "published": "2026-06-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42311474",
+      "title": "Weight-loss dynamics with tirzepatide versus semaglutide.",
+      "url": "https://europepmc.org/article/MED/42311474",
+      "published": "2026-06-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42489387",
+      "title": "Cardiovascular and Cerebrovascular Outcomes Risk Reduction Associated With Semaglutide vs Tirzepatide: A Target Trial Emulation.",
+      "url": "https://europepmc.org/article/MED/42489387",
+      "published": "2026-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42630988",
+      "title": "Comparative effects of semaglutide tirzepatide and retatrutide on renal fibrosis in UUO and aged mice.",
+      "url": "https://europepmc.org/article/MED/42630988",
+      "published": "2026-08-13",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [
+    "semaglutide",
+    "tirzepatide"
+  ],
+  "faq": [],
+  "open_questions": [],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "uniqueness_pct": 89.0,
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Comparison record generated from research/registry.json plan; 5 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    }
+  ],
+  "sides": [
+    "semaglutide",
+    "tirzepatide"
+  ]
+}

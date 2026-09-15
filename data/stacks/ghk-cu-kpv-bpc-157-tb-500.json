@@ -1,0 +1,45 @@
+{
+  "type": "stack",
+  "title": "GHK-Cu + KPV + BPC-157 + TB-500",
+  "slug": "ghk-cu-kpv-bpc-157-tb-500",
+  "status": "draft",
+  "summary": "GHK-Cu + KPV + BPC-157 + TB-500 combines GHK-Cu (human clinical trial) and KPV (animal preclinical) and BPC-157 (observational human) and TB-500 (human clinical trial). A stack cannot carry a stronger evidence tier than its weakest component, which here is animal preclinical. No indexed study tested this combination. What is known about each component is the whole of what is known.",
+  "seo": {
+    "title": "GHK-Cu + KPV + BPC-157 + TB-500: the evidence",
+    "description": "GHK-Cu + KPV + BPC-157 + TB-500: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+  },
+  "attributes": {
+    "combination_evidence": []
+  },
+  "sources": [],
+  "related": [
+    "ghk-cu",
+    "kpv",
+    "bpc-157",
+    "tb-500"
+  ],
+  "faq": [],
+  "open_questions": [
+    "No indexed study has tested GHK-Cu with KPV with BPC-157 with TB-500 together.",
+    "No published schedule reconciles the components' different reported frequencies onto one calendar."
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "uniqueness_pct": 65.1,
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Stack record generated from research/registry.json plan; 0 combination claims drafted extractively by scripts/draft_claims.py."
+    }
+  ],
+  "components": [
+    "ghk-cu",
+    "kpv",
+    "bpc-157",
+    "tb-500"
+  ]
+}

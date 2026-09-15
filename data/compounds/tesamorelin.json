@@ -10,30 +10,758 @@
     "Tesamoreline"
   ],
   "slug": "tesamorelin",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "approved-label",
-  "summary": "Research record for Tesamorelin. Europe PMC indexes 115 publications, including 22 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Tesamorelin is a peptide in the ghrh analogs class (GHRH receptor agonist, stabilised GHRH analog). Europe PMC indexes 115 publications naming it or a listed alias in a title or abstract, including 22 randomized controlled trials and 7 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is an approved medicine with a regulator-reviewed label. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Tesamorelin: what the research shows",
-    "description": "Cited overview of published Tesamorelin research: 115 indexed publications, 22 randomized controlled trials. Evidence tier on every claim."
+    "description": "Tesamorelin research, cited: 115 indexed publications, 22 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
+    "routes_studied": [
+      {
+        "value": "Phase 1 clinical trial, humans, n=41, 2015: administration by subcutaneous route reported. A total of 41 subjects in Phase I trials receiving subcutaneous daily doses of 1 or 2 mg of tesamorelin during 14 consecutive days were included in this analysis.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25895899"
+        ],
+        "source_excerpt": "A total of 41 subjects in Phase I trials receiving subcutaneous daily doses of 1 or 2 mg of tesamorelin during 14 consecutive days were included in this analysis.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2015: administration by subcutaneous route reported. A total of 38 HIV-infected patients and healthy subjects receiving subcutaneous tesamorelin doses of 1 or 2 mg administered daily during 14 consecutive days were included in the analysis.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25358450"
+        ],
+        "source_excerpt": "A total of 38 HIV-infected patients and healthy subjects receiving subcutaneous tesamorelin doses of 1 or 2 mg administered daily during 14 consecutive days were included in the analysis.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=28, 2014: administration by subcutaneous route reported. Participants were randomized to receive tesamorelin, 2 mg (n=28), or placebo (n=22), subcutaneously daily for 6 months.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25038357"
+        ],
+        "source_excerpt": "Participants were randomized to receive tesamorelin, 2 mg (n=28), or placebo (n=22), subcutaneously daily for 6 months.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=152, 2012: administration by subcutaneous route reported. Participants self-administered daily subcutaneous injections of tesamorelin (Theratechnologies Inc),a stabilized analog of human GHRH (1 mg/d), or placebo 30 minutes before bedtime for 20 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-22869065"
+        ],
+        "source_excerpt": "Participants self-administered daily subcutaneous injections of tesamorelin (Theratechnologies Inc),a stabilized analog of human GHRH (1 mg/d), or placebo 30 minutes before bedtime for 20 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2012: administration by subcutaneous route reported. IGF-I increased (86 ± 21 vs. -6 ± 8 μg/liter; 92 (+52, +132) μg/liter; P Conclusion Among obese subjects with relative reductions in GH, tesamorelin selectively reduces VAT without significant effects on sc adipose tissue and improves…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-23015655"
+        ],
+        "source_excerpt": "IGF-I increased (86 ± 21 vs. -6 ± 8 μg/liter; 92 (+52, +132) μg/liter; P Conclusion Among obese subjects with relative reductions in GH, tesamorelin selectively reduces VAT without significant effects on sc adipose tissue and improves triglycerides, C-reactive protein, and cIMT, without aggravating glucose.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=273, 2011: administration by subcutaneous route reported. Design and methods Four hundred and ten HIV-infected patients with abdominal adiposity were randomized to 2 mg tesamorelin (n = 273) or placebo (n = 137) subcutaneously daily for 26 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-21516030"
+        ],
+        "source_excerpt": "Design and methods Four hundred and ten HIV-infected patients with abdominal adiposity were randomized to 2 mg tesamorelin (n = 273) or placebo (n = 137) subcutaneously daily for 26 weeks.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Clinical trial, humans, n=22, 2026: doses stated in the abstract: 1 mg. In a double-blind, placebo-controlled pilot trial, we assessed 22 subjects with baseline cognition ranging from normal cognition to mild cognitive impairment before and after 10 weeks of treatment with low-dose tesamorelin (1 mg; GHRH analog) or placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42382101"
+        ],
+        "source_excerpt": "In a double-blind, placebo-controlled pilot trial, we assessed 22 subjects with baseline cognition ranging from normal cognition to mild cognitive impairment before and after 10 weeks of treatment with low-dose tesamorelin (1 mg; GHRH analog) or placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=38, 2024: doses stated in the abstract: 2 mg once daily. We leveraged a randomized double-blind trial of 61 PWH and metabolic dysfunction-associated steatotic liver disease to evaluate the efficacy and safety of tesamorelin 2 mg once daily vs. identical placebo among participants on INSTI-based…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38905488"
+        ],
+        "source_excerpt": "We leveraged a randomized double-blind trial of 61 PWH and metabolic dysfunction-associated steatotic liver disease to evaluate the efficacy and safety of tesamorelin 2 mg once daily vs. identical placebo among participants on INSTI-based regimens at baseline.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=61, 2019: doses stated in the abstract: 2 mg once daily; 2 mg daily. Participants were randomly assigned (1:1) to receive either tesamorelin 2 mg once daily or placebo once daily for 12 months, followed by a 6-month open-label phase during which all participants received tesamorelin 2 mg daily.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31611038"
+        ],
+        "source_excerpt": "Participants were randomly assigned (1:1) to receive either tesamorelin 2 mg once daily or placebo once daily for 12 months, followed by a 6-month open-label phase during which all participants received tesamorelin 2 mg daily.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2017: doses stated in the abstract: 2mg. Methods 50 HIV-infected men and women with increased abdominal adiposity participated in this randomized, placebo-controlled trial of tesamorelin, 2mg vs. identical placebo daily for six months.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-29031905"
+        ],
+        "source_excerpt": "Methods 50 HIV-infected men and women with increased abdominal adiposity participated in this randomized, placebo-controlled trial of tesamorelin, 2mg vs. identical placebo daily for six months.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=53, 2017: doses stated in the abstract: 2 mg. Total cholesterol (-0.3±0.6 mmol/L) and non-HDL cholesterol (-0.3±0.5 mmol/L) significantly decreased from baseline to Week 12 in the tesamorelin 2 mg group (p Conclusions Treatment of type 2 diabetic patients with tesamorelin for 12 weeks did not alter…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28617838"
+        ],
+        "source_excerpt": "Total cholesterol (-0.3±0.6 mmol/L) and non-HDL cholesterol (-0.3±0.5 mmol/L) significantly decreased from baseline to Week 12 in the tesamorelin 2 mg group (p Conclusions Treatment of type 2 diabetic patients with tesamorelin for 12 weeks did not alter insulin response or glycemic control.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=28, 2014: doses stated in the abstract: 2 mg; 9 mg/d; 5-13 mg/d. Participants were randomized to receive tesamorelin, 2 mg (n=28), or placebo (n=22), subcutaneously daily for 6 months.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25038357"
+        ],
+        "source_excerpt": "Participants were randomized to receive tesamorelin, 2 mg (n=28), or placebo (n=22), subcutaneously daily for 6 months.",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
     "interactions": [],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
+    "adverse_events": [
+      {
+        "value": "Randomized controlled trial, humans, n=38, 2024: Tesamorelin was well tolerated with a similar frequency of adverse events, including hyperglycemia, between groups.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38905488"
+        ],
+        "source_excerpt": "Tesamorelin was well tolerated with a similar frequency of adverse events, including hyperglycemia, between groups.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=61, 2019: Individuals in the tesamorelin group experienced more localised injection site complaints than those in the placebo group, though none were judged to be serious.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31611038"
+        ],
+        "source_excerpt": "Individuals in the tesamorelin group experienced more localised injection site complaints than those in the placebo group, though none were judged to be serious.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=273, 2008: Tesamorelin was generally well tolerated.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18690162"
+        ],
+        "source_excerpt": "Tesamorelin was generally well tolerated.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, 2021: This study used proteomics and gene set enrichment analysis to assess effects of a GH releasing hormone (GHRH) analog, tesamorelin, on circulating immune markers and liver tissue in people with human immunodeficiency virus (HIV) (PWH) and nonalcoholic fatty liver disease (NAFLD).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33852720"
+        ],
+        "source_excerpt": "This study used proteomics and gene set enrichment analysis to assess effects of a GH releasing hormone (GHRH) analog, tesamorelin, on circulating immune markers and liver tissue in people with human immunodeficiency virus (HIV) (PWH) and nonalcoholic fatty liver disease (NAFLD).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=58, 2021: We leveraged a randomized trial of the growth hormone-releasing hormone analogue tesamorelin to treat NAFLD in HIV.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32270862"
+        ],
+        "source_excerpt": "We leveraged a randomized trial of the growth hormone-releasing hormone analogue tesamorelin to treat NAFLD in HIV.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2020: In a recent randomized placebo-controlled trial, we demonstrated that the growth hormone-releasing hormone analog tesamorelin reduced liver fat and prevented fibrosis progression in HIV-associated NAFLD over 1 year.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32701508"
+        ],
+        "source_excerpt": "In a recent randomized placebo-controlled trial, we demonstrated that the growth hormone-releasing hormone analog tesamorelin reduced liver fat and prevented fibrosis progression in HIV-associated NAFLD over 1 year.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=193, 2019: Tesamorelin, a growth hormone-releasing hormone analogue, decreases visceral adipose tissue in people living with HIV, however, the effects on skeletal muscle fat and area are unknown.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31237318"
+        ],
+        "source_excerpt": "Tesamorelin, a growth hormone-releasing hormone analogue, decreases visceral adipose tissue in people living with HIV, however, the effects on skeletal muscle fat and area are unknown.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2017: Tesamorelin, a growth hormone releasing hormone agonist, reduces liver fat in HIV-infected individuals.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-29031905"
+        ],
+        "source_excerpt": "Tesamorelin, a growth hormone releasing hormone agonist, reduces liver fat in HIV-infected individuals.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=53, 2017: The objective of this study was to determine whether tesamorelin, a stabilized growth hormone-releasing hormone analogue, would alter insulin sensitivity or control of diabetes.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28617838"
+        ],
+        "source_excerpt": "The objective of this study was to determine whether tesamorelin, a stabilized growth hormone-releasing hormone analogue, would alter insulin sensitivity or control of diabetes.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Clinical trial, humans, n=22, 2026: In a double-blind, placebo-controlled pilot trial, we assessed 22 subjects with baseline cognition ranging from normal cognition to mild cognitive impairment before and after 10 weeks of treatment with low-dose tesamorelin (1 mg; GHRH analog) or placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42382101"
+        ],
+        "source_excerpt": "In a double-blind, placebo-controlled pilot trial, we assessed 22 subjects with baseline cognition ranging from normal cognition to mild cognitive impairment before and after 10 weeks of treatment with low-dose tesamorelin (1 mg; GHRH analog) or placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=193, 2019: Differences between muscle area and density before and after 26 weeks of tesamorelin or placebo treatment were compared and linear regression models were adjusted for baseline and treatment arm.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31237318"
+        ],
+        "source_excerpt": "Differences between muscle area and density before and after 26 weeks of tesamorelin or placebo treatment were compared and linear regression models were adjusted for baseline and treatment arm.",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [
+      {
+        "value": "Randomized controlled trial, humans, n=53, 2017: The objective of this study was to determine whether tesamorelin, a stabilized growth hormone-releasing hormone analogue, would alter insulin sensitivity or control of diabetes.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28617838"
+        ],
+        "source_excerpt": "The objective of this study was to determine whether tesamorelin, a stabilized growth hormone-releasing hormone analogue, would alter insulin sensitivity or control of diabetes.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=152, 2012: Participants self-administered daily subcutaneous injections of tesamorelin (Theratechnologies Inc),a stabilized analog of human GHRH (1 mg/d), or placebo 30 minutes before bedtime for 20 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-22869065"
+        ],
+        "source_excerpt": "Participants self-administered daily subcutaneous injections of tesamorelin (Theratechnologies Inc),a stabilized analog of human GHRH (1 mg/d), or placebo 30 minutes before bedtime for 20 weeks.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Clinical trial, humans, n=22, 2026: durations stated: 10 weeks. In a double-blind, placebo-controlled pilot trial, we assessed 22 subjects with baseline cognition ranging from normal cognition to mild cognitive impairment before and after 10 weeks of treatment with low-dose tesamorelin (1 mg; GHRH analog) or placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42382101"
+        ],
+        "source_excerpt": "In a double-blind, placebo-controlled pilot trial, we assessed 22 subjects with baseline cognition ranging from normal cognition to mild cognitive impairment before and after 10 weeks of treatment with low-dose tesamorelin (1 mg; GHRH analog) or placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=61, 2019: durations stated: 12 months; 6 month. Participants were randomly assigned (1:1) to receive either tesamorelin 2 mg once daily or placebo once daily for 12 months, followed by a 6-month open-label phase during which all participants received tesamorelin 2 mg daily.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31611038"
+        ],
+        "source_excerpt": "Participants were randomly assigned (1:1) to receive either tesamorelin 2 mg once daily or placebo once daily for 12 months, followed by a 6-month open-label phase during which all participants received tesamorelin 2 mg daily.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=193, 2019: durations stated: 26 weeks. Differences between muscle area and density before and after 26 weeks of tesamorelin or placebo treatment were compared and linear regression models were adjusted for baseline and treatment arm.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31237318"
+        ],
+        "source_excerpt": "Differences between muscle area and density before and after 26 weeks of tesamorelin or placebo treatment were compared and linear regression models were adjusted for baseline and treatment arm.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=53, 2017: durations stated: 12 week; 12 weeks. No significant differences were observed between groups in relative insulin response over the 12-week treatment period.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28617838"
+        ],
+        "source_excerpt": "No significant differences were observed between groups in relative insulin response over the 12-week treatment period.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=28, 2014: durations stated: 6 months; 2 weeks. Participants were randomized to receive tesamorelin, 2 mg (n=28), or placebo (n=22), subcutaneously daily for 6 months.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25038357"
+        ],
+        "source_excerpt": "Participants were randomized to receive tesamorelin, 2 mg (n=28), or placebo (n=22), subcutaneously daily for 6 months.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=152, 2012: durations stated: 20 weeks; 10 week. Participants self-administered daily subcutaneous injections of tesamorelin (Theratechnologies Inc),a stabilized analog of human GHRH (1 mg/d), or placebo 30 minutes before bedtime for 20 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-22869065"
+        ],
+        "source_excerpt": "Participants self-administered daily subcutaneous injections of tesamorelin (Theratechnologies Inc),a stabilized analog of human GHRH (1 mg/d), or placebo 30 minutes before bedtime for 20 weeks.",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL1237026: maximum clinical phase 4, first approval 2010, ATC H01AC06. Jurisdiction-level status pending human review.",
         "evidence_label": "approved-label",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Clinical trial, humans, n=22, 2026: Low-dose GHRH treatment was not directly linked with significant changes in study measures.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42382101"
+        ],
+        "source_excerpt": "Low-dose GHRH treatment was not directly linked with significant changes in study measures.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stewart 2026",
+          "year": "2026",
+          "design": "Clinical trial",
+          "n": 22,
+          "species": "Humans",
+          "dose": "1 mg",
+          "route": "not stated in abstract",
+          "duration": "10 weeks",
+          "outcome": "Low-dose GHRH treatment was not directly linked with significant changes in study measures."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=38, 2024: Tesamorelin led to significant declines in visceral fat (median [interquartile range]: -25 [-93, -2] vs. 14 [3, 41] cm 2 , P = 0.001), hepatic fat (-4.2% [-12.3%, -2.7%] vs. -0.5% [-3.9%, 2.7%], P = 0.01), and trunk-to-appendicular fat ratio (-0.1 [-0.3, 0.0] vs. 0.0 [-0.1, 0.1], P = 0.03).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38905488"
+        ],
+        "source_excerpt": "Tesamorelin led to significant declines in visceral fat (median [interquartile range]: -25 [-93, -2] vs. 14 [3, 41] cm 2 , P = 0.001), hepatic fat (-4.2% [-12.3%, -2.7%] vs. -0.5% [-3.9%, 2.7%], P = 0.01), and trunk-to-appendicular fat ratio (-0.1 [-0.3, 0.0] vs. 0.0 [-0.1, 0.1], P = 0.03).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Russo 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": 38,
+          "species": "Humans",
+          "dose": "2 mg once daily",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Tesamorelin led to significant declines in visceral fat (median [interquartile range]: -25 [-93, -2] vs. 14 [3, 41] cm 2 , P = 0.001), hepatic fat (-4.2% [-12.3%, -2.7%] vs. -0.5% [-3.9%, 2.7%], P = 0.01), and…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2021: Circulating concentrations of 13 proteins were significantly decreased, and no proteins increased, by tesamorelin.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33852720"
+        ],
+        "source_excerpt": "Circulating concentrations of 13 proteins were significantly decreased, and no proteins increased, by tesamorelin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stanley 2021",
+          "year": "2021",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Circulating concentrations of 13 proteins were significantly decreased, and no proteins increased, by tesamorelin."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=58, 2021: Individuals with fibrosis had higher NAFLD Activity Score (NAS) (mean ± standard deviation [SD], 3.6 ± 2.0 vs 2.0 ± 0.8; P Conclusions In this longitudinal study of HIV-associated NAFLD, high rates of hepatic fibrosis and progression were observed.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32270862"
+        ],
+        "source_excerpt": "Individuals with fibrosis had higher NAFLD Activity Score (NAS) (mean ± standard deviation [SD], 3.6 ± 2.0 vs 2.0 ± 0.8; P Conclusions In this longitudinal study of HIV-associated NAFLD, high rates of hepatic fibrosis and progression were observed.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Fourman 2021",
+          "year": "2021",
+          "design": "Randomized controlled trial",
+          "n": 58,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Individuals with fibrosis had higher NAFLD Activity Score (NAS) (mean ± standard deviation [SD], 3.6 ± 2.0 vs 2.0 ± 0.8; P Conclusions In this longitudinal study of HIV-associated NAFLD, high rates of hepatic fibrosis…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2020: Using gene set enrichment analysis, we found that tesamorelin increased hepatic expression of hallmark gene sets involved in oxidative phosphorylation and decreased hepatic expression of gene sets contributing to inflammation, tissue repair, and cell division.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32701508"
+        ],
+        "source_excerpt": "Using gene set enrichment analysis, we found that tesamorelin increased hepatic expression of hallmark gene sets involved in oxidative phosphorylation and decreased hepatic expression of gene sets contributing to inflammation, tissue repair, and cell division.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Fourman 2020",
+          "year": "2020",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Using gene set enrichment analysis, we found that tesamorelin increased hepatic expression of hallmark gene sets involved in oxidative phosphorylation and decreased hepatic expression of gene sets contributing to…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=61, 2019: Patients receiving tesamorelin had a greater reduction of HFF than did patients receiving placebo, with an absolute effect size of -4·1% (95% CI -7·6 to -0·7, p=0·018), corresponding to a -37% (95% CI -67 to -7, p=0·016) relative reduction from baseline.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31611038"
+        ],
+        "source_excerpt": "Patients receiving tesamorelin had a greater reduction of HFF than did patients receiving placebo, with an absolute effect size of -4·1% (95% CI -7·6 to -0·7, p=0·018), corresponding to a -37% (95% CI -67 to -7, p=0·016) relative reduction from baseline.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stanley 2019",
+          "year": "2019",
+          "design": "Randomized controlled trial",
+          "n": 61,
+          "species": "Humans",
+          "dose": "2 mg once daily; 2 mg daily",
+          "route": "not stated in abstract",
+          "duration": "12 months; 6 month",
+          "outcome": "Patients receiving tesamorelin had a greater reduction of HFF than did patients receiving placebo, with an absolute effect size of -4·1% (95% CI -7·6 to -0·7, p=0·018), corresponding to a -37% (95% CI -67 to -7,…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=193, 2019: In models adjusted for baseline differences and treatment arm, tesamorelin was associated with significantly greater increases in density of four truncal muscle groups (coefficient 1.56-4.86 Hounsfield units; all p Conclusions Among those with clinically significant decrease in visceral…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31237318"
+        ],
+        "source_excerpt": "In models adjusted for baseline differences and treatment arm, tesamorelin was associated with significantly greater increases in density of four truncal muscle groups (coefficient 1.56-4.86 Hounsfield units; all p Conclusions Among those with clinically significant decrease in visceral adipose tissue on treatment, tesamorelin was effective in increasing skeletal muscle area and density.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Adrian 2019",
+          "year": "2019",
+          "design": "Randomized controlled trial",
+          "n": 193,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "26 weeks",
+          "outcome": "In models adjusted for baseline differences and treatment arm, tesamorelin was associated with significantly greater increases in density of four truncal muscle groups (coefficient 1.56-4.86 Hounsfield units; all p…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2017: Log 10 FGF21 tended to decrease in the tesamorelin group compared to placebo (p=0.06).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-29031905"
+        ],
+        "source_excerpt": "Log 10 FGF21 tended to decrease in the tesamorelin group compared to placebo (p=0.06).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Braun 2017",
+          "year": "2017",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "2mg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Log 10 FGF21 tended to decrease in the tesamorelin group compared to placebo (p=0.06)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=53, 2017: Total cholesterol (-0.3±0.6 mmol/L) and non-HDL cholesterol (-0.3±0.5 mmol/L) significantly decreased from baseline to Week 12 in the tesamorelin 2 mg group (p Conclusions Treatment of type 2 diabetic patients with tesamorelin for 12 weeks did not alter insulin response or glycemic control.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28617838"
+        ],
+        "source_excerpt": "Total cholesterol (-0.3±0.6 mmol/L) and non-HDL cholesterol (-0.3±0.5 mmol/L) significantly decreased from baseline to Week 12 in the tesamorelin 2 mg group (p Conclusions Treatment of type 2 diabetic patients with tesamorelin for 12 weeks did not alter insulin response or glycemic control.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Clemmons 2017",
+          "year": "2017",
+          "design": "Randomized controlled trial",
+          "n": 53,
+          "species": "Humans",
+          "dose": "2 mg",
+          "route": "not stated in abstract",
+          "duration": "12 week; 12 weeks",
+          "outcome": "Total cholesterol (-0.3±0.6 mmol/L) and non-HDL cholesterol (-0.3±0.5 mmol/L) significantly decreased from baseline to Week 12 in the tesamorelin 2 mg group (p Conclusions Treatment of type 2 diabetic patients with…"
+        }
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, n=41, 2015: Within the range of the values evaluated no covariates were significantly associated with GH or IGF-1 model parameters.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25895899"
+        ],
+        "source_excerpt": "Within the range of the values evaluated no covariates were significantly associated with GH or IGF-1 model parameters.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "González-Sales 2015",
+          "year": "2015",
+          "design": "Phase 1 clinical trial",
+          "n": 41,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Within the range of the values evaluated no covariates were significantly associated with GH or IGF-1 model parameters."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2015: The fraction of tesamorelin absorbed by a first-order process is 13.1 % higher on day 14 compared with day 1.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25358450"
+        ],
+        "source_excerpt": "The fraction of tesamorelin absorbed by a first-order process is 13.1 % higher on day 14 compared with day 1.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "González-Sales 2015",
+          "year": "2015",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "The fraction of tesamorelin absorbed by a first-order process is 13.1 % higher on day 14 compared with day 1."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=28, 2014: Tesamorelin significantly reduced visceral adipose tissue (mean change, -34 cm2 [95% CI, -53 to -15 cm2] with tesamorelin vs 8 cm2 [95% CI, -14 to 30 cm2] with placebo; treatment effect, -42 cm2 [95% CI, -71 to -14 cm2]; P = .005) and liver fat (median change in lipid to water percentage,…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25038357"
+        ],
+        "source_excerpt": "Tesamorelin significantly reduced visceral adipose tissue (mean change, -34 cm2 [95% CI, -53 to -15 cm2] with tesamorelin vs 8 cm2 [95% CI, -14 to 30 cm2] with placebo; treatment effect, -42 cm2 [95% CI, -71 to -14 cm2]; P = .005) and liver fat (median change in lipid to water percentage, -2.0% [interquartile range {IQR}, -6.4% to 0.1%] with tesamorelin vs 0.9% [IQR, -0.6% to 3.7%] with placebo; P = .003) over 6 months, for a net treatment effect of -2.9% in lipid to water percentage.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stanley 2014",
+          "year": "2014",
+          "design": "Randomized controlled trial",
+          "n": 28,
+          "species": "Humans",
+          "dose": "2 mg; 9 mg/d",
+          "route": "subcutaneous",
+          "duration": "6 months; 2 weeks",
+          "outcome": "Tesamorelin significantly reduced visceral adipose tissue (mean change, -34 cm2 [95% CI, -53 to -15 cm2] with tesamorelin vs 8 cm2 [95% CI, -14 to 30 cm2] with placebo; treatment effect, -42 cm2 [95% CI, -71 to -14…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=152, 2012: Treatment with GHRH increased insulin like growth factor 1 levels by 117 %(P.001), which remained within the physiological range, and reduced percent body fat by 7.4%(P.001).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-22869065"
+        ],
+        "source_excerpt": "Treatment with GHRH increased insulin like growth factor 1 levels by 117 %(P.001), which remained within the physiological range, and reduced percent body fat by 7.4%(P.001).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Baker 2012",
+          "year": "2012",
+          "design": "Randomized controlled trial",
+          "n": 152,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "20 weeks; 10 week",
+          "outcome": "Treatment with GHRH increased insulin like growth factor 1 levels by 117 %(P.001), which remained within the physiological range, and reduced percent body fat by 7.4%(P.001)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2012: VAT [-16 ± 9 vs.19 ± 9 cm(2), tesamorelin vs. placebo; treatment effect (95% confidence interval): -35 (-58, -12) cm(2); P = 0.003], cIMT (-0.03 ± 0.01 vs. 0.01 ± 0.01 mm; -0.04 (-0.07, -0.01) mm; P = 0.02), log C-reactive protein (-0.17 ± 0.04 vs. -0.03 ± 0.05 mg/liter; -0.15 (-0.30, -0.01)…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-23015655"
+        ],
+        "source_excerpt": "VAT [-16 ± 9 vs.19 ± 9 cm(2), tesamorelin vs. placebo; treatment effect (95% confidence interval): -35 (-58, -12) cm(2); P = 0.003], cIMT (-0.03 ± 0.01 vs. 0.01 ± 0.01 mm; -0.04 (-0.07, -0.01) mm; P = 0.02), log C-reactive protein (-0.17 ± 0.04 vs. -0.03 ± 0.05 mg/liter; -0.15 (-0.30, -0.01) mg/liter, P = 0.04), and triglycerides (-26 ± 16 vs. 12 ± 8 mg/dl; -37 (-67, -7) mg/dl; P = 0.02) improved significantly in the tesamorelin group vs. placebo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Makimura 2012",
+          "year": "2012",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "12 months",
+          "outcome": "VAT [-16 ± 9 vs.19 ± 9 cm(2), tesamorelin vs. placebo; treatment effect (95% confidence interval): -35 (-58, -12) cm(2); P = 0.003], cIMT (-0.03 ± 0.01 vs. 0.01 ± 0.01 mm; -0.04 (-0.07, -0.01) mm; P = 0.02), log…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=273, 2011: At baseline, VAT was significantly associated with PAI-1 antigen (ρ = 0.36, P Conclusion In HIV patients with abdominal adiposity, tesamorelin may have a modest beneficial effect on adiponectin and fibrinolytic markers in association with changes in VAT.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-21516030"
+        ],
+        "source_excerpt": "At baseline, VAT was significantly associated with PAI-1 antigen (ρ = 0.36, P Conclusion In HIV patients with abdominal adiposity, tesamorelin may have a modest beneficial effect on adiponectin and fibrinolytic markers in association with changes in VAT.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stanley 2011",
+          "year": "2011",
+          "design": "Randomized controlled trial",
+          "n": 273,
+          "species": "Humans",
+          "dose": "2 mg",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "At baseline, VAT was significantly associated with PAI-1 antigen (ρ = 0.36, P Conclusion In HIV patients with abdominal adiposity, tesamorelin may have a modest beneficial effect on adiponectin and fibrinolytic markers…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=273, 2008: The change in VAT was sustained at -18% over 52 weeks of treatment (P Conclusion Treatment with tesamorelin was generally well tolerated and resulted in sustained decreases in VAT and triglycerides over 52 weeks without aggravating glucose.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18690162"
+        ],
+        "source_excerpt": "The change in VAT was sustained at -18% over 52 weeks of treatment (P Conclusion Treatment with tesamorelin was generally well tolerated and resulted in sustained decreases in VAT and triglycerides over 52 weeks without aggravating glucose.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Falutz 2008",
+          "year": "2008",
+          "design": "Randomized controlled trial",
+          "n": 273,
+          "species": "Humans",
+          "dose": "2 mg",
+          "route": "subcutaneous",
+          "duration": "26 weeks; 52 weeks",
+          "outcome": "The change in VAT was sustained at -18% over 52 weeks of treatment (P Conclusion Treatment with tesamorelin was generally well tolerated and resulted in sustained decreases in VAT and triglycerides over 52 weeks…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2005: TH9507 resulted in dose-related physiological increases in IGF-I (P Conclusions TH9507 reduced truncal fat, improved the lipid profile and did not increase glucose levels in HIV-infected patients with central fat accumulation.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16052083"
+        ],
+        "source_excerpt": "TH9507 resulted in dose-related physiological increases in IGF-I (P Conclusions TH9507 reduced truncal fat, improved the lipid profile and did not increase glucose levels in HIV-infected patients with central fat accumulation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Falutz 2005",
+          "year": "2005",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "TH9507 resulted in dose-related physiological increases in IGF-I (P Conclusions TH9507 reduced truncal fat, improved the lipid profile and did not increase glucose levels in HIV-infected patients with central fat…"
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: Study findings will be disseminated through peer-reviewed publications and scientific conferences and may inform future interventions to improve physical function among older adults living with HIV.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42419889"
+        ],
+        "source_excerpt": "Study findings will be disseminated through peer-reviewed publications and scientific conferences and may inform future interventions to improve physical function among older adults living with HIV.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Erlandson 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "24 weeks; 24 week",
+          "outcome": "Study findings will be disseminated through peer-reviewed publications and scientific conferences and may inform future interventions to improve physical function among older adults living with HIV."
+        }
+      },
+      {
+        "value": "Human study, humans, 2025: Ten drugs were found to have significant overreporting of CTS, including idursulfase (ROR=51.2, 95% CI=39.0-67.2), galsulfase (ROR=26.8, 95% CI=17.2-41.7), laronidase (ROR=20.9, 95% CI=14.4-30.3), tesamorelin (ROR=20.7, 95% CI=13.7-31.3), anastrozole (ROR=20.6, 95% CI=17.0-24.9), alendronic acid (ROR=17.1, 95%…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40510111"
+        ],
+        "source_excerpt": "Ten drugs were found to have significant overreporting of CTS, including idursulfase (ROR=51.2, 95% CI=39.0-67.2), galsulfase (ROR=26.8, 95% CI=17.2-41.7), laronidase (ROR=20.9, 95% CI=14.4-30.3), tesamorelin (ROR=20.7, 95% CI=13.7-31.3), anastrozole (ROR=20.6, 95% CI=17.0-24.9), alendronic acid (ROR=17.1, 95% CI=14.5-20.1), gamma-hydroxybutyric acid (GHB) (ROR=16.3, 95% CI=9.6-27.6), rofecoxib (ROR=16.1, 95% CI=14.3-18.2), alendronate (ROR=12.9, 95% CI=11.0-15.2), and tafamidis (ROR=12.0, 95% CI=9.2-15.7).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mihalache 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Ten drugs were found to have significant overreporting of CTS, including idursulfase (ROR=51.2, 95% CI=39.0-67.2), galsulfase (ROR=26.8, 95% CI=17.2-41.7), laronidase (ROR=20.9, 95% CI=14.4-30.3), tesamorelin…"
+        }
+      },
+      {
+        "value": "Animal study, swine, 2022: In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38716080"
+        ],
+        "source_excerpt": "In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Thomas 2022",
+          "year": "2022",
+          "design": "Animal study",
+          "n": null,
+          "species": "Swine",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2026: The present study aimed to develop a robust nano-LC quadrupole/orbitrap mass spectrometry (nano-LC-Q/Orbitrap MS) method for both screening and confirmation analyses of GHRH and its synthetic analogs (sermorelin/CJC-1293, tesamorelin, and CJC-1295) and the primary metabolite of sermorelin in urine, in…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41138283"
+        ],
+        "source_excerpt": "The present study aimed to develop a robust nano-LC quadrupole/orbitrap mass spectrometry (nano-LC-Q/Orbitrap MS) method for both screening and confirmation analyses of GHRH and its synthetic analogs (sermorelin/CJC-1293, tesamorelin, and CJC-1295) and the primary metabolite of sermorelin in urine, in accordance with WADA requirements.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Uçaktürk 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, 2023: The present developed and validated method for some GHRHs (tesamorelin, CJC-1295, sermorelin (GRF 1-29), sermorelin (3-29)-NH 2 , somatorelin) is based on the triple quadrupole UHPLC/MS-MS method with solid phase extraction (SPE) with weak cation exchange and is able to detect concentrations as low as 0.2 ng/mL…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-37806509"
+        ],
+        "source_excerpt": "The present developed and validated method for some GHRHs (tesamorelin, CJC-1295, sermorelin (GRF 1-29), sermorelin (3-29)-NH 2 , somatorelin) is based on the triple quadrupole UHPLC/MS-MS method with solid phase extraction (SPE) with weak cation exchange and is able to detect concentrations as low as 0.2 ng/mL (LOD), a limit of quantification (LOQ) at 0.6 ng/mL, and linearity across the range of 0.1 ng/mL to 1.2 ng/mL.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Cristea 2023",
+          "year": "2023",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
       }
     ]
   },
@@ -75,15 +803,45 @@
         "Tesamoreline"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1237026/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 27,
+      "claims": 32,
+      "evidence_table_rows": 22
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports weight-normalized doses for Tesamorelin.",
+    "No study in this record's ledger reports dose-escalation schedules for Tesamorelin.",
+    "No study in this record's ledger reports interactions with other agents for Tesamorelin.",
+    "No study in this record's ledger reports exclusion criteria for Tesamorelin."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Tesamorelin been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 7 clinical trials and 22 randomized controlled trials naming Tesamorelin or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Tesamorelin?",
+      "answer": "The strongest tier is approved label: an approved medicine with a regulator-reviewed label. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Tesamorelin an approved medicine?",
+      "answer": "ChEMBL records CHEMBL1237026 at maximum clinical phase 4, first approved 2010. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has Tesamorelin been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Swine. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42419889",
@@ -276,7 +1034,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 78.5,
   "review": {
     "author": "",
     "reviewer": "",
@@ -291,6 +1049,14 @@
     {
       "date": "2026-09-14",
       "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier human-clinical-trial -> approved-label; chembl None -> CHEMBL1237026."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 39 claims, 22 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 31 claims, 22 evidence-table rows. Status researched -> draft."
     }
   ]
 }

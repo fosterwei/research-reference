@@ -9,30 +9,668 @@
     "Survodutide"
   ],
   "slug": "survodutide",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for Survodutide. Europe PMC indexes 91 publications, including 10 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Survodutide is a peptide in the incretin & amylin analogs class (glucagon and GLP-1 receptor dual agonist). Europe PMC indexes 91 publications naming it or a listed alias in a title or abstract, including 10 randomized controlled trials and 15 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Survodutide: what the research shows",
-    "description": "Cited overview of published Survodutide research: 91 indexed publications, 10 randomized controlled trials. Evidence tier on every claim."
+    "description": "Survodutide research, cited: 91 indexed publications, 10 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
-    "escalation_schedules": [],
-    "interactions": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, n=725, 2026: administration by subcutaneous route reported. In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42253238"
+        ],
+        "source_excerpt": "In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to receive once-weekly survodutide administered subcutaneously at a dose adjusted up to 3.6 mg or 6.0 mg or placebo, in addition to counseling for lifestyle modification.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=146, 2026: administration by subcutaneous route reported. Participants were randomized (2:1) and treated with once-weekly subcutaneous injections of survodutide 6.0 mg (n = 146) or placebo (n = 70).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42252333"
+        ],
+        "source_excerpt": "Participants were randomized (2:1) and treated with once-weekly subcutaneous injections of survodutide 6.0 mg (n = 146) or placebo (n = 70).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: administration by subcutaneous route reported. Participants aged ≥18 years with a body mass index (BMI) ≥27 kg/m 2 and T2D were randomized 1:1:1 to weekly subcutaneous survodutide (up-titrated to 3.6 or 6.0 mg) or placebo with recommendations for modified diet and physical activity.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41216778"
+        ],
+        "source_excerpt": "Participants aged ≥18 years with a body mass index (BMI) ≥27 kg/m 2 and T2D were randomized 1:1:1 to weekly subcutaneous survodutide (up-titrated to 3.6 or 6.0 mg) or placebo with recommendations for modified diet and physical activity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=725, 2026: administration by subcutaneous route reported. Participants aged ≥18 years with BMI ≥30 or ≥27 kg/m 2 with ≥1 obesity complication without T2D were randomized 1:1:1 to double-blind, once-weekly, subcutaneous injections of survodutide (up-titrated to 3.6 or 6.0 mg) or placebo for 76 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41187967"
+        ],
+        "source_excerpt": "Participants aged ≥18 years with BMI ≥30 or ≥27 kg/m 2 with ≥1 obesity complication without T2D were randomized 1:1:1 to double-blind, once-weekly, subcutaneous injections of survodutide (up-titrated to 3.6 or 6.0 mg) or placebo for 76 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=387, 2025: administration by subcutaneous route reported. Totally 387 people (aged 18-75 years, BMI ≥27 kg/m 2 , without diabetes) were randomized 1:1:1:1:1 to once-weekly subcutaneous survodutide (0.6, 2.4, 3.6 or 4.8 mg) or placebo for 46 weeks (20-week dose escalation; 26-week dose maintenance).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39821928"
+        ],
+        "source_excerpt": "Totally 387 people (aged 18-75 years, BMI ≥27 kg/m 2 , without diabetes) were randomized 1:1:1:1:1 to once-weekly subcutaneous survodutide (0.6, 2.4, 3.6 or 4.8 mg) or placebo for 46 weeks (20-week dose escalation; 26-week dose maintenance).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=50, 2024: administration by subcutaneous route reported. Aims/hypothesis The aim of this study was to assess the dose-response effects of the subcutaneous glucagon receptor/glucagon-like peptide-1 receptor dual agonist survodutide (BI 456906) on HbA 1c levels and bodyweight reduction.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38095657"
+        ],
+        "source_excerpt": "Aims/hypothesis The aim of this study was to assess the dose-response effects of the subcutaneous glucagon receptor/glucagon-like peptide-1 receptor dual agonist survodutide (BI 456906) on HbA 1c levels and bodyweight reduction.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Randomized controlled trial, humans, n=725, 2026: doses stated in the abstract: 3.6 mg. In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42253238"
+        ],
+        "source_excerpt": "In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to receive once-weekly survodutide administered subcutaneously at a dose adjusted up to 3.6 mg or 6.0 mg or placebo, in addition to counseling for lifestyle modification.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=146, 2026: doses stated in the abstract: 6.0 mg. Participants were randomized (2:1) and treated with once-weekly subcutaneous injections of survodutide 6.0 mg (n = 146) or placebo (n = 70).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42252333"
+        ],
+        "source_excerpt": "Participants were randomized (2:1) and treated with once-weekly subcutaneous injections of survodutide 6.0 mg (n = 146) or placebo (n = 70).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=50, 2024: doses stated in the abstract: 1.8 mg. Mean (95% CI) bodyweight decreased dose-dependently up to -8.7% (-10.1, -7.3; DG6, n=37); survodutide ≥1.8 mg qw produced greater bodyweight reductions than semaglutide (-5.3% [-6.6, -4.1]; n=45).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38095657"
+        ],
+        "source_excerpt": "Mean (95% CI) bodyweight decreased dose-dependently up to -8.7% (-10.1, -7.3; DG6, n=37); survodutide ≥1.8 mg qw produced greater bodyweight reductions than semaglutide (-5.3% [-6.6, -4.1]; n=45).",
+        "drafting": "extractive"
+      }
+    ],
+    "escalation_schedules": [
+      {
+        "value": "Randomized controlled trial, humans, n=725, 2026: The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42253238"
+        ],
+        "source_excerpt": "The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=146, 2026: The most frequently reported adverse events with survodutide were gastrointestinal, commonly occurring during dose escalation, and were generally of mild-to-moderate severity.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42252333"
+        ],
+        "source_excerpt": "The most frequently reported adverse events with survodutide were gastrointestinal, commonly occurring during dose escalation, and were generally of mild-to-moderate severity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: Participants aged ≥18 years with a body mass index (BMI) ≥27 kg/m 2 and T2D were randomized 1:1:1 to weekly subcutaneous survodutide (up-titrated to 3.6 or 6.0 mg) or placebo with recommendations for modified diet and physical activity.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41216778"
+        ],
+        "source_excerpt": "Participants aged ≥18 years with a body mass index (BMI) ≥27 kg/m 2 and T2D were randomized 1:1:1 to weekly subcutaneous survodutide (up-titrated to 3.6 or 6.0 mg) or placebo with recommendations for modified diet and physical activity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=725, 2026: Participants aged ≥18 years with BMI ≥30 or ≥27 kg/m 2 with ≥1 obesity complication without T2D were randomized 1:1:1 to double-blind, once-weekly, subcutaneous injections of survodutide (up-titrated to 3.6 or 6.0 mg) or placebo for 76 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41187967"
+        ],
+        "source_excerpt": "Participants aged ≥18 years with BMI ≥30 or ≥27 kg/m 2 with ≥1 obesity complication without T2D were randomized 1:1:1 to double-blind, once-weekly, subcutaneous injections of survodutide (up-titrated to 3.6 or 6.0 mg) or placebo for 76 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=387, 2025: Totally 387 people (aged 18-75 years, BMI ≥27 kg/m 2 , without diabetes) were randomized 1:1:1:1:1 to once-weekly subcutaneous survodutide (0.6, 2.4, 3.6 or 4.8 mg) or placebo for 46 weeks (20-week dose escalation; 26-week dose maintenance).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39821928"
+        ],
+        "source_excerpt": "Totally 387 people (aged 18-75 years, BMI ≥27 kg/m 2 , without diabetes) were randomized 1:1:1:1:1 to once-weekly subcutaneous survodutide (0.6, 2.4, 3.6 or 4.8 mg) or placebo for 46 weeks (20-week dose escalation; 26-week dose maintenance).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, n=24, 2023: A phase Ib study (NCT03591718) investigated multiple rising doses (MRDs) of BI 456906 (escalated over 6 [Part A] or 16 [Part B] weeks) in 125 adults with a BMI of 27-40 kg/m 2 .",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36527386"
+        ],
+        "source_excerpt": "A phase Ib study (NCT03591718) investigated multiple rising doses (MRDs) of BI 456906 (escalated over 6 [Part A] or 16 [Part B] weeks) in 125 adults with a BMI of 27-40 kg/m 2 .",
+        "drafting": "extractive"
+      }
+    ],
+    "interactions": [
+      {
+        "value": "Randomized controlled trial, humans, n=50, 2024: Participants were randomised via interactive response technology to receive survodutide (up to 0.3, 0.9, 1.8 or 2.7 mg once weekly [qw; dose group (DG) 1-4, respectively] or 1.2 or 1.8 mg twice weekly [DG 5 and 6, respectively]), placebo or semaglutide (up to 1.0 mg qw).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38095657"
+        ],
+        "source_excerpt": "Participants were randomised via interactive response technology to receive survodutide (up to 0.3, 0.9, 1.8 or 2.7 mg once weekly [qw; dose group (DG) 1-4, respectively] or 1.2 or 1.8 mg twice weekly [DG 5 and 6, respectively]), placebo or semaglutide (up to 1.0 mg qw).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2025: We describe the discovery and pharmacology of the long-acting NPY2R agonist BI 1820237 and its potential bodyweight-lowering efficacy alone and in combination with the glucagon receptor (GCGR)/glucagon-like peptide-1 receptor (GLP-1R) dual agonist survodutide.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40619099"
+        ],
+        "source_excerpt": "We describe the discovery and pharmacology of the long-acting NPY2R agonist BI 1820237 and its potential bodyweight-lowering efficacy alone and in combination with the glucagon receptor (GCGR)/glucagon-like peptide-1 receptor (GLP-1R) dual agonist survodutide.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
+    "adverse_events": [
+      {
+        "value": "Randomized controlled trial, humans, n=725, 2026: The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42253238"
+        ],
+        "source_excerpt": "The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=146, 2026: The most frequently reported adverse events with survodutide were gastrointestinal, commonly occurring during dose escalation, and were generally of mild-to-moderate severity.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42252333"
+        ],
+        "source_excerpt": "The most frequently reported adverse events with survodutide were gastrointestinal, commonly occurring during dose escalation, and were generally of mild-to-moderate severity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=50, 2024: Adverse events (AEs) were reported for 77.8% of survodutide-treated participants (mainly gastrointestinal), 52.5% receiving placebo and 52.0% receiving semaglutide.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38095657"
+        ],
+        "source_excerpt": "Adverse events (AEs) were reported for 77.8% of survodutide-treated participants (mainly gastrointestinal), 52.5% receiving placebo and 52.0% receiving semaglutide.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, n=24, 2023: Drug-related adverse events (AEs) increased with BI 456906 dose.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36527386"
+        ],
+        "source_excerpt": "Drug-related adverse events (AEs) increased with BI 456906 dose.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, n=725, 2026: In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42253238"
+        ],
+        "source_excerpt": "In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to receive once-weekly survodutide administered subcutaneously at a dose adjusted up to 3.6 mg or 6.0 mg or placebo, in addition to counseling for lifestyle modification.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=413, 2026: This post hoc analysis evaluated the effect of survodutide on beta-cell function, insulin sensitivity, and glucose biomarkers in two phase 2 trial populations.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42331726"
+        ],
+        "source_excerpt": "This post hoc analysis evaluated the effect of survodutide on beta-cell function, insulin sensitivity, and glucose biomarkers in two phase 2 trial populations.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=146, 2026: Mean percentage change in body weight was -12.2% with survodutide and -1.0% with placebo using the efficacy estimand (P < 0.0001; treatment regimen estimand: -8.7% versus -1.4%, respectively; P < 0.0001).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42252333"
+        ],
+        "source_excerpt": "Mean percentage change in body weight was -12.2% with survodutide and -1.0% with placebo using the efficacy estimand (P < 0.0001; treatment regimen estimand: -8.7% versus -1.4%, respectively; P < 0.0001).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: Participants aged ≥18 years with a body mass index (BMI) ≥27 kg/m 2 and T2D were randomized 1:1:1 to weekly subcutaneous survodutide (up-titrated to 3.6 or 6.0 mg) or placebo with recommendations for modified diet and physical activity.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41216778"
+        ],
+        "source_excerpt": "Participants aged ≥18 years with a body mass index (BMI) ≥27 kg/m 2 and T2D were randomized 1:1:1 to weekly subcutaneous survodutide (up-titrated to 3.6 or 6.0 mg) or placebo with recommendations for modified diet and physical activity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=725, 2026: Participants aged ≥18 years with BMI ≥30 or ≥27 kg/m 2 with ≥1 obesity complication without T2D were randomized 1:1:1 to double-blind, once-weekly, subcutaneous injections of survodutide (up-titrated to 3.6 or 6.0 mg) or placebo for 76 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41187967"
+        ],
+        "source_excerpt": "Participants aged ≥18 years with BMI ≥30 or ≥27 kg/m 2 with ≥1 obesity complication without T2D were randomized 1:1:1 to double-blind, once-weekly, subcutaneous injections of survodutide (up-titrated to 3.6 or 6.0 mg) or placebo for 76 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=387, 2025: To explore the effects of sex and baseline body mass index (BMI) on the efficacy and safety of survodutide in people with a BMI ≥27 kg/m 2 .",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39821928"
+        ],
+        "source_excerpt": "To explore the effects of sex and baseline body mass index (BMI) on the efficacy and safety of survodutide in people with a BMI ≥27 kg/m 2 .",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Randomized controlled trial, humans, n=387, 2025: After 46 weeks of survodutide treatment, females had greater reductions in bodyweight and waist circumference than males.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39821928"
+        ],
+        "source_excerpt": "After 46 weeks of survodutide treatment, females had greater reductions in bodyweight and waist circumference than males.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2022: BI 456906 is a potent, acylated peptide containing a C18 fatty acid as a half-life extending principle to support once-weekly dosing in humans.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36356832"
+        ],
+        "source_excerpt": "BI 456906 is a potent, acylated peptide containing a C18 fatty acid as a half-life extending principle to support once-weekly dosing in humans.",
+        "drafting": "extractive"
+      }
+    ],
     "storage": [],
-    "study_durations": [],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, n=413, 2026: durations stated: 16 weeks; 46 weeks. Trial 1404-0002 randomised 413 participants with type 2 diabetes on metformin to receive survodutide, placebo, or semaglutide over 16 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42331726"
+        ],
+        "source_excerpt": "Trial 1404-0002 randomised 413 participants with type 2 diabetes on metformin to receive survodutide, placebo, or semaglutide over 16 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=387, 2025: durations stated: 46 weeks. After 46 weeks of survodutide treatment, females had greater reductions in bodyweight and waist circumference than males.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39821928"
+        ],
+        "source_excerpt": "After 46 weeks of survodutide treatment, females had greater reductions in bodyweight and waist circumference than males.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=50, 2024: durations stated: 75 years; 16 weeks. This Phase II, multicentre, randomised, double-blind, parallel-group, placebo-controlled study, conducted in clinical research centres, assessed survodutide in participants aged 18-75 years with type 2 diabetes, an HbA 1c level of 53-86 mmol/mol…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38095657"
+        ],
+        "source_excerpt": "This Phase II, multicentre, randomised, double-blind, parallel-group, placebo-controlled study, conducted in clinical research centres, assessed survodutide in participants aged 18-75 years with type 2 diabetes, an HbA 1c level of 53-86 mmol/mol (7.0-10.0%) and a BMI of 25-50 kg/m 2 on a background of metformin therapy.",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL5314776: maximum clinical phase 3. Jurisdiction-level status pending human review.",
         "evidence_label": "human-clinical-trial",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, n=725, 2026: At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the 6.0-mg group, and -5.4% (95% CI, -6.9 to -4.0) in the placebo group;…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42253238"
+        ],
+        "source_excerpt": "At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the 6.0-mg group, and -5.4% (95% CI, -6.9 to -4.0) in the placebo group; 72.6%, 71.9% and 46.3% of the participants, respectively, had weight reduction of at least 5% (P Conclusions Survodutide led to significantly greater reductions in body weight than placebo in adults with obesity without diabetes.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "le 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 725,
+          "species": "Humans",
+          "dose": "3.6 mg",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=413, 2026: Survodutide was associated with significant decreases in HOMA-IR, glucagon, C-peptide, fasting insulin, and FPG versus placebo, and significant increases in HMW adiponectin.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42331726"
+        ],
+        "source_excerpt": "Survodutide was associated with significant decreases in HOMA-IR, glucagon, C-peptide, fasting insulin, and FPG versus placebo, and significant increases in HMW adiponectin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ekinci 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 413,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "16 weeks; 46 weeks",
+          "outcome": "Survodutide was associated with significant decreases in HOMA-IR, glucagon, C-peptide, fasting insulin, and FPG versus placebo, and significant increases in HMW adiponectin."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=146, 2026: In total, 84.2% of survodutide-treated patients versus 24.3% of placebo-treated patients had ≥30% reduction in LFC using the efficacy estimand (P < 0.0001; treatment regimen estimand: 68.5% versus 28.6%, respectively; P < 0.0001).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42252333"
+        ],
+        "source_excerpt": "In total, 84.2% of survodutide-treated patients versus 24.3% of placebo-treated patients had ≥30% reduction in LFC using the efficacy estimand (P < 0.0001; treatment regimen estimand: 68.5% versus 28.6%, respectively; P < 0.0001).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kaplan 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 146,
+          "species": "Humans",
+          "dose": "6.0 mg",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "In total, 84.2% of survodutide-treated patients versus 24.3% of placebo-treated patients had ≥30% reduction in LFC using the efficacy estimand (P < 0.0001; treatment regimen estimand: 68.5% versus 28.6%, respectively;…"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2026: Recommendations from the CTS led to changes in visit interval, increased virtual visit options, and changes in participant materials.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41704810"
+        ],
+        "source_excerpt": "Recommendations from the CTS led to changes in visit interval, increased virtual visit options, and changes in participant materials.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Rubino 2026",
+          "year": "2026",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Recommendations from the CTS led to changes in visit interval, increased virtual visit options, and changes in participant materials."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: SYNCHRONIZE-2 will determine the efficacy, safety and tolerability of survodutide for BW reduction in people with obesity and T2D, whose baseline characteristics suggest a representative, diverse cohort.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41216778"
+        ],
+        "source_excerpt": "SYNCHRONIZE-2 will determine the efficacy, safety and tolerability of survodutide for BW reduction in people with obesity and T2D, whose baseline characteristics suggest a representative, diverse cohort.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wharton 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "SYNCHRONIZE-2 will determine the efficacy, safety and tolerability of survodutide for BW reduction in people with obesity and T2D, whose baseline characteristics suggest a representative, diverse cohort."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=725, 2026: Mean haemoglobin A1c was 5.5%, estimated glomerular filtration rate 93.0 mL/min/1.73 m 2 , systolic/diastolic blood pressure 127.0/82.7 mmHg, and low-density lipoprotein cholesterol 116.4 mg/dL; 21.8% were taking lipid-lowering drugs.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41187967"
+        ],
+        "source_excerpt": "Mean haemoglobin A1c was 5.5%, estimated glomerular filtration rate 93.0 mL/min/1.73 m 2 , systolic/diastolic blood pressure 127.0/82.7 mmHg, and low-density lipoprotein cholesterol 116.4 mg/dL; 21.8% were taking lipid-lowering drugs.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "le 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 725,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Mean haemoglobin A1c was 5.5%, estimated glomerular filtration rate 93.0 mL/min/1.73 m 2 , systolic/diastolic blood pressure 127.0/82.7 mmHg, and low-density lipoprotein cholesterol 116.4 mg/dL; 21.8% were taking…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=387, 2025: After 46 weeks of survodutide treatment, females had greater reductions in bodyweight and waist circumference than males.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39821928"
+        ],
+        "source_excerpt": "After 46 weeks of survodutide treatment, females had greater reductions in bodyweight and waist circumference than males.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "le 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": 387,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "46 weeks",
+          "outcome": "After 46 weeks of survodutide treatment, females had greater reductions in bodyweight and waist circumference than males."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=50, 2024: The mean reduction in HbA 1c was similar with low-dose survodutide (DG2: -15.95 mmol/mol [-1.46%]; n=46) and semaglutide (-16.07 mmol/mol [-1.47%]; n=45).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38095657"
+        ],
+        "source_excerpt": "The mean reduction in HbA 1c was similar with low-dose survodutide (DG2: -15.95 mmol/mol [-1.46%]; n=46) and semaglutide (-16.07 mmol/mol [-1.47%]; n=45).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Blüher 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": 50,
+          "species": "Humans",
+          "dose": "1.8 mg",
+          "route": "subcutaneous",
+          "duration": "75 years; 16 weeks",
+          "outcome": "The mean reduction in HbA 1c was similar with low-dose survodutide (DG2: -15.95 mmol/mol [-1.46%]; n=46) and semaglutide (-16.07 mmol/mol [-1.47%]; n=45)."
+        }
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, n=24, 2023: BI 456906 reduced plasma amino acids and glucagon, indicating target engagement at GCGRs and GLP-1Rs.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36527386"
+        ],
+        "source_excerpt": "BI 456906 reduced plasma amino acids and glucagon, indicating target engagement at GCGRs and GLP-1Rs.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Jungnik 2023",
+          "year": "2023",
+          "design": "Phase 1 clinical trial",
+          "n": 24,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "BI 456906 reduced plasma amino acids and glucagon, indicating target engagement at GCGRs and GLP-1Rs."
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: The primary endpoints are percentage change in body weight and achievement of body weight reduction ≥ 5% from baseline to Week 76.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42219222"
+        ],
+        "source_excerpt": "The primary endpoints are percentage change in body weight and achievement of body weight reduction ≥ 5% from baseline to Week 76.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yokote 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The primary endpoints are percentage change in body weight and achievement of body weight reduction ≥ 5% from baseline to Week 76."
+        }
+      },
+      {
+        "value": "Human study, humans, n=726, 2025: The primary endpoints are percentage change in body weight and proportion of participants achieving ≥5% body weight reduction from baseline to week 76.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39495965"
+        ],
+        "source_excerpt": "The primary endpoints are percentage change in body weight and proportion of participants achieving ≥5% body weight reduction from baseline to week 76.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wharton 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": 726,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "The primary endpoints are percentage change in body weight and proportion of participants achieving ≥5% body weight reduction from baseline to week 76."
+        }
+      },
+      {
+        "value": "Human study, humans, n=935, 2024: SYNCHRONIZE-CVOT is the first trial that will determine the CV safety and efficacy of survodutide in people with obesity and increased CV risk.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39453356"
+        ],
+        "source_excerpt": "SYNCHRONIZE-CVOT is the first trial that will determine the CV safety and efficacy of survodutide in people with obesity and increased CV risk.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kosiborod 2024",
+          "year": "2024",
+          "design": "Human study",
+          "n": 935,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "SYNCHRONIZE-CVOT is the first trial that will determine the CV safety and efficacy of survodutide in people with obesity and increased CV risk."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: Consistent with the hypothesis that the intake suppressive effects of survodutide are GLP-1R dependent, a long-acting GCGR agonist did not induce neuronal activation in satiety-mediating regions, nor reduced food intake but showed reduction in body weight.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41638399"
+        ],
+        "source_excerpt": "Consistent with the hypothesis that the intake suppressive effects of survodutide are GLP-1R dependent, a long-acting GCGR agonist did not induce neuronal activation in satiety-mediating regions, nor reduced food intake but showed reduction in body weight.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zimmermann 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Consistent with the hypothesis that the intake suppressive effects of survodutide are GLP-1R dependent, a long-acting GCGR agonist did not induce neuronal activation in satiety-mediating regions, nor reduced food…"
+        }
+      },
+      {
+        "value": "Animal study, rats, mice, 2025: Cystathionine-γ-lyase knockout worsened HFpEF, whereas pharmacological supplementation with an H 2 S donor improved diastolic function and reduced cardiac fibrosis.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40772898"
+        ],
+        "source_excerpt": "Cystathionine-γ-lyase knockout worsened HFpEF, whereas pharmacological supplementation with an H 2 S donor improved diastolic function and reduced cardiac fibrosis.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Doiron 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats, Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Cystathionine-γ-lyase knockout worsened HFpEF, whereas pharmacological supplementation with an H 2 S donor improved diastolic function and reduced cardiac fibrosis."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2025: Significant bodyweight reductions were not observed with BI 1820237 alone in diet-induced obese mice, however combination with survodutide led to bodyweight reduction of 22% which was significantly (p Conclusion Synergistic NPY2R and GCGR/GLP-1R agonism provides an attractive mode of action for clinically…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40619099"
+        ],
+        "source_excerpt": "Significant bodyweight reductions were not observed with BI 1820237 alone in diet-induced obese mice, however combination with survodutide led to bodyweight reduction of 22% which was significantly (p Conclusion Synergistic NPY2R and GCGR/GLP-1R agonism provides an attractive mode of action for clinically relevant weight loss in patients with obesity.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Augustin 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Significant bodyweight reductions were not observed with BI 1820237 alone in diet-induced obese mice, however combination with survodutide led to bodyweight reduction of 22% which was significantly (p Conclusion…"
+        }
+      },
+      {
+        "value": "Animal study, rats, mice, 2024: Upon acute dosing in lean mice, target engagement biomarkers for the GCGR and GLP-1R demonstrated a significant correlation (Spearman correlation coefficient with p Conclusions Survodutide was selected as the clinical candidate based on its balanced dual GCGR/GLP-1R pharmacology, engaging the GCGR for…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38560764"
+        ],
+        "source_excerpt": "Upon acute dosing in lean mice, target engagement biomarkers for the GCGR and GLP-1R demonstrated a significant correlation (Spearman correlation coefficient with p Conclusions Survodutide was selected as the clinical candidate based on its balanced dual GCGR/GLP-1R pharmacology, engaging the GCGR for robust body weight-lowering efficacy exceeding that of selective GLP-1R agonists, while achieving antidiabetic efficacy that was comparable to selective GLP-1R agonism.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Thomas 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats, Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Upon acute dosing in lean mice, target engagement biomarkers for the GCGR and GLP-1R demonstrated a significant correlation (Spearman correlation coefficient with p Conclusions Survodutide was selected as the clinical…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2022: Pharmacological doses of BI 456906 provided greater bodyweight reductions in mice compared with maximally effective doses of the GLP-1R agonist semaglutide.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36356832"
+        ],
+        "source_excerpt": "Pharmacological doses of BI 456906 provided greater bodyweight reductions in mice compared with maximally effective doses of the GLP-1R agonist semaglutide.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zimmermann 2022",
+          "year": "2022",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Pharmacological doses of BI 456906 provided greater bodyweight reductions in mice compared with maximally effective doses of the GLP-1R agonist semaglutide."
+        }
       }
     ]
   },
@@ -71,15 +709,44 @@
         "Survodutide"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL5314776/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 23,
+      "claims": 33,
+      "evidence_table_rows": 17
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports weight-normalized doses for Survodutide.",
+    "No study in this record's ledger reports exclusion criteria for Survodutide.",
+    "No study in this record's ledger reports storage or stability for Survodutide."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Survodutide been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 15 clinical trials and 10 randomized controlled trials naming Survodutide or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Survodutide?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Survodutide an approved medicine?",
+      "answer": "ChEMBL records CHEMBL5314776 at maximum clinical phase 3, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has Survodutide been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "doi-10-22541-authorea-15008173-v1",
@@ -265,7 +932,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 76.9,
   "review": {
     "author": "",
     "reviewer": "",
@@ -276,6 +943,14 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 23 ledger sources by scripts/draft_claims.py: 36 claims, 17 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 23 ledger sources by scripts/draft_claims.py: 32 claims, 17 evidence-table rows. Status researched -> draft."
     }
   ]
 }

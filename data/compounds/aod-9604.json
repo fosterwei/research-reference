@@ -10,30 +10,276 @@
     "hGH fragment 176-191"
   ],
   "slug": "aod-9604",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "animal-preclinical",
-  "summary": "Research record for AOD-9604. Europe PMC indexes 25 publications, including 0 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "AOD-9604 is a peptide in the metabolic other class (hGH(176-191) fragment; lipolytic activity claimed, GH-receptor independent). Europe PMC indexes 25 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is animal studies only, with no indexed human study. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "AOD-9604: what the research shows",
-    "description": "Cited overview of published AOD-9604 research: 25 indexed publications, 0 randomized controlled trials. Evidence tier on every claim."
+    "description": "AOD-9604 research, cited: 25 indexed publications, 0 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
+    "routes_studied": [
+      {
+        "value": "Animal study, mice, 2001: administration by intraperitoneal route reported. Here we describe how hGH and AOD9604 can reduce body weight and body fat in obese mice following 14 d of chronic ip administration.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11713213"
+        ],
+        "source_excerpt": "Here we describe how hGH and AOD9604 can reduce body weight and body fat in obese mice following 14 d of chronic ip administration.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2000: administration by oral route reported. Daily treatment with an oral dose of AOD9604 of 500 microg/kg body weight for 19 days reduced over 50% (15.8 +/- 0.6 vs. 35.6 +/- 0.8 g) body weight gain of the animals in comparison with the control.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11146367"
+        ],
+        "source_excerpt": "Daily treatment with an oral dose of AOD9604 of 500 microg/kg body weight for 19 days reduced over 50% (15.8 +/- 0.6 vs. 35.6 +/- 0.8 g) body weight gain of the animals in comparison with the control.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2003: administration by inhaled, oral route reported. This issue focuses on the following selection of drugs: Abetimus sodium, adefovir dipivoxil, AGI-1067, alefacept, alemtuzumab, ALVAC-p53, aminolevulinic acid hydrochloride, aminolevulinic acid methyl ester, Anti-CTLA-4 Mab, AOD-9604, apafant, aprinocarsen…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-14571286"
+        ],
+        "source_excerpt": "This issue focuses on the following selection of drugs: Abetimus sodium, adefovir dipivoxil, AGI-1067, alefacept, alemtuzumab, ALVAC-p53, aminolevulinic acid hydrochloride, aminolevulinic acid methyl ester, Anti-CTLA-4 Mab, AOD-9604, apafant, aprinocarsen sodium, arsenic trioxide; Balaglitazone, BIM-23190, bimatoprost, bortezomib, bosentan, BR-1; Canertinib dihydrochloride, CDP-850, cevimeline hydrochloride, cinacalcet hydrochloride, clenoliximab, clevudine, CN-787; D-003, darusentan, deferasirox, desloratadine dexanabinol, duloxetine hydrochloride; E-5564, edaravone, efaproxiral sodium, elvucitabine emfilermin, EN-101, enfuvirtide, entecavir, epithalon, eplerenone, erlotinib hydrochloride, escitalopram oxalate, esomeprazole magnesium, eszopiclone, etilefrine pivalate hydrochloride etoricoxib, everolimus, exenatide; Fidarestat, fondaparinux sodium; Ganstigmine hydrochloride; Homoharringtonine, HuMax-IL-15, hyperimmune IVIG; Imatinib mesylate, IMC-1C11, Inhaled insulin, irofulven, iseganan hydrochloride, ISIS-14803, ISIS-5132, ivabradine hydrochloride; Keratinocyte growth factor; Lafutidine, lanthanum carbonate, LAS-34475, levocetirizine, liraglutide, LY-307161 SR; Magnesium sulfate, maribavir, melatonin, mycobacterium cell wall complex; NN-414, NO-aspirin, nociceptin, nolomirole hydrochloride; Olmesartan medoxomil oral insulin, ospemifene; PDX, perillyl alcohol, pimecrolimus, pitavastatin calcium, pramlintide acetate, prasterone, pregabalin, PRO-542, PV-701, pyrazoloacridine; R-744, ranelic acid distrontium salt, rasburicase, rDNA insulin, resiniferatoxin, reslizumab, ridogrel, riplizumab ropivacaine, rosuvastatin calcium, roxifiban acetate, ruboxistaurin mesilate hydrate; Satraplatin, Sch-58500, semaxanib, sitaxsentan sodium, SMP-114, SU-6668; Teriparatide, tetrathiomolybdate, tipifarnib, tolvaptan, travoprost, treprostinil sodium; Valdecoxib, valganciclovir hydrochloride, vardenafil hydrochloride hydrate, vatalanib succinate; Ximelagatran; Z-335, ziprasidone hydrochloride, zoledronic acid monohydrate, ZYC-00101.",
+        "drafting": "extractive"
+      }
+    ],
     "study_doses": [],
     "escalation_schedules": [],
     "interactions": [],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
+    "adverse_events": [
+      {
+        "value": "Animal study, rats, 2000: In contrast to chronic treatment with intact hGH, chronic treatment with AOD9604 showed no adverse effect on insulin sensitivity of the animals, as demonstrated with euglycemic clamp techniques.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11146367"
+        ],
+        "source_excerpt": "In contrast to chronic treatment with intact hGH, chronic treatment with AOD9604 showed no adverse effect on insulin sensitivity of the animals, as demonstrated with euglycemic clamp techniques.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Animal study, mice, 2001: Both human GH (hGH) and a lipolytic fragment (AOD9604) synthesized from its C-terminus are capable of inducing weight loss and increasing lipolytic sensitivity following long-term treatment in mice.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11713213"
+        ],
+        "source_excerpt": "Both human GH (hGH) and a lipolytic fragment (AOD9604) synthesized from its C-terminus are capable of inducing weight loss and increasing lipolytic sensitivity following long-term treatment in mice.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2000: A synthetic analogue (AOD9604) of the lipolytic domain of human growth hormone (hGH) has been studied for its metabolic actions in obese Zucker rats.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11146367"
+        ],
+        "source_excerpt": "A synthetic analogue (AOD9604) of the lipolytic domain of human growth hormone (hGH) has been studied for its metabolic actions in obese Zucker rats.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2022: To evaluate the anticancer efficacy of Chitosan nanoparticles loaded with human growth hormone hGH fragment 176-191 peptide plus the clinical chemotherapeutic doxorubicin in comparison with Chitosan loaded with doxorubicin alone.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-35783198"
+        ],
+        "source_excerpt": "To evaluate the anticancer efficacy of Chitosan nanoparticles loaded with human growth hormone hGH fragment 176-191 peptide plus the clinical chemotherapeutic doxorubicin in comparison with Chitosan loaded with doxorubicin alone.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2003: This issue focuses on the following selection of drugs: Abetimus sodium, adefovir dipivoxil, AGI-1067, alefacept, alemtuzumab, ALVAC-p53, aminolevulinic acid hydrochloride, aminolevulinic acid methyl ester, Anti-CTLA-4 Mab, AOD-9604, apafant, aprinocarsen sodium, arsenic trioxide; Balaglitazone, BIM-23190,…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-14571286"
+        ],
+        "source_excerpt": "This issue focuses on the following selection of drugs: Abetimus sodium, adefovir dipivoxil, AGI-1067, alefacept, alemtuzumab, ALVAC-p53, aminolevulinic acid hydrochloride, aminolevulinic acid methyl ester, Anti-CTLA-4 Mab, AOD-9604, apafant, aprinocarsen sodium, arsenic trioxide; Balaglitazone, BIM-23190, bimatoprost, bortezomib, bosentan, BR-1; Canertinib dihydrochloride, CDP-850, cevimeline hydrochloride, cinacalcet hydrochloride, clenoliximab, clevudine, CN-787; D-003, darusentan, deferasirox, desloratadine dexanabinol, duloxetine hydrochloride; E-5564, edaravone, efaproxiral sodium, elvucitabine emfilermin, EN-101, enfuvirtide, entecavir, epithalon, eplerenone, erlotinib hydrochloride, escitalopram oxalate, esomeprazole magnesium, eszopiclone, etilefrine pivalate hydrochloride etoricoxib, everolimus, exenatide; Fidarestat, fondaparinux sodium; Ganstigmine hydrochloride; Homoharringtonine, HuMax-IL-15, hyperimmune IVIG; Imatinib mesylate, IMC-1C11, Inhaled insulin, irofulven, iseganan hydrochloride, ISIS-14803, ISIS-5132, ivabradine hydrochloride; Keratinocyte growth factor; Lafutidine, lanthanum carbonate, LAS-34475, levocetirizine, liraglutide, LY-307161 SR; Magnesium sulfate, maribavir, melatonin, mycobacterium cell wall complex; NN-414, NO-aspirin, nociceptin, nolomirole hydrochloride; Olmesartan medoxomil oral insulin, ospemifene; PDX, perillyl alcohol, pimecrolimus, pitavastatin calcium, pramlintide acetate, prasterone, pregabalin, PRO-542, PV-701, pyrazoloacridine; R-744, ranelic acid distrontium salt, rasburicase, rDNA insulin, resiniferatoxin, reslizumab, ridogrel, riplizumab ropivacaine, rosuvastatin calcium, roxifiban acetate, ruboxistaurin mesilate hydrate; Satraplatin, Sch-58500, semaxanib, sitaxsentan sodium, SMP-114, SU-6668; Teriparatide, tetrathiomolybdate, tipifarnib, tolvaptan, travoprost, treprostinil sodium; Valdecoxib, valganciclovir hydrochloride, vardenafil hydrochloride hydrate, vatalanib succinate; Ximelagatran; Z-335, ziprasidone hydrochloride, zoledronic acid monohydrate, ZYC-00101.",
+        "drafting": "extractive"
+      }
+    ],
     "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
+    "storage": [
+      {
+        "value": "In vitro study, humans, 2026: At 4 and 22 °C, alexamorelin, AOD9604, buserelin, hGH 176-191, kisspeptin-10 and LHRH were extensively degraded after one week in serum and plasma, whereas BPC-157, TB500, vasopressin, lypressin, and terlipressin showed complete degradation only in serum.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42328738"
+        ],
+        "source_excerpt": "At 4 and 22 °C, alexamorelin, AOD9604, buserelin, hGH 176-191, kisspeptin-10 and LHRH were extensively degraded after one week in serum and plasma, whereas BPC-157, TB500, vasopressin, lypressin, and terlipressin showed complete degradation only in serum.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Animal study, rabbits, n=32, 2015: durations stated: 7 weeks. Weekly injections of 0.6 mL saline (Group 1), 6 mg HA (Group 2), 0.25 mg AOD9604 (Group 3), and 0.25 mg AOD9604 with 6 mg HA (Group 4) were administered for 4-7 weeks after the first intra-articular collagenase injection.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-26275694"
+        ],
+        "source_excerpt": "Weekly injections of 0.6 mL saline (Group 1), 6 mg HA (Group 2), 0.25 mg AOD9604 (Group 3), and 0.25 mg AOD9604 with 6 mg HA (Group 4) were administered for 4-7 weeks after the first intra-articular collagenase injection.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2000: durations stated: 19 days. Daily treatment with an oral dose of AOD9604 of 500 microg/kg body weight for 19 days reduced over 50% (15.8 +/- 0.6 vs. 35.6 +/- 0.8 g) body weight gain of the animals in comparison with the control.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11146367"
+        ],
+        "source_excerpt": "Daily treatment with an oral dose of AOD9604 of 500 microg/kg body weight for 19 days reduced over 50% (15.8 +/- 0.6 vs. 35.6 +/- 0.8 g) body weight gain of the animals in comparison with the control.",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL6068615: maximum clinical phase 2. Jurisdiction-level status pending human review.",
         "evidence_label": "human-clinical-trial",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Animal study, rabbits, n=32, 2015: Mean gross morphological and histopathological scores were significantly higher in Group 1 than in Groups 2, 3, and 4, and the scores were significantly lower in Group 4 than in Groups 2 and 3.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-26275694"
+        ],
+        "source_excerpt": "Mean gross morphological and histopathological scores were significantly higher in Group 1 than in Groups 2, 3, and 4, and the scores were significantly lower in Group 4 than in Groups 2 and 3.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kwon 2015",
+          "year": "2015",
+          "design": "Animal study",
+          "n": 32,
+          "species": "Rabbits",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "7 weeks",
+          "outcome": "Mean gross morphological and histopathological scores were significantly higher in Group 1 than in Groups 2, 3, and 4, and the scores were significantly lower in Group 4 than in Groups 2 and 3."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2001: Importantly, both hGH and AOD9604 are capable of increasing the repressed levels of beta(3)-AR RNA in obese mice to levels comparable with those in lean mice.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11713213"
+        ],
+        "source_excerpt": "Importantly, both hGH and AOD9604 are capable of increasing the repressed levels of beta(3)-AR RNA in obese mice to levels comparable with those in lean mice.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Heffernan 2001",
+          "year": "2001",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "Importantly, both hGH and AOD9604 are capable of increasing the repressed levels of beta(3)-AR RNA in obese mice to levels comparable with those in lean mice."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2000: The adipose tissues of the AOD9604--treated animals were found to have an increase in lipolytic activity.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11146367"
+        ],
+        "source_excerpt": "The adipose tissues of the AOD9604--treated animals were found to have an increase in lipolytic activity.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ng 2000",
+          "year": "2000",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "oral",
+          "duration": "19 days",
+          "outcome": "The adipose tissues of the AOD9604--treated animals were found to have an increase in lipolytic activity."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2026: Stability studies showed that all compounds were stable (variation lower than 15%) for at least two months at -20 °C in all the blood matrices considered.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42328738"
+        ],
+        "source_excerpt": "Stability studies showed that all compounds were stable (variation lower than 15%) for at least two months at -20 °C in all the blood matrices considered.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mazzarino 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Stability studies showed that all compounds were stable (variation lower than 15%) for at least two months at -20 °C in all the blood matrices considered."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2022: These dual-loaded Chitosan nanoparticles demonstrated greater anti-proliferative activity against a breast cancer cell line (MCF-7) than doxorubicin-loaded Chitosan.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-35783198"
+        ],
+        "source_excerpt": "These dual-loaded Chitosan nanoparticles demonstrated greater anti-proliferative activity against a breast cancer cell line (MCF-7) than doxorubicin-loaded Chitosan.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Habibullah 2022",
+          "year": "2022",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "These dual-loaded Chitosan nanoparticles demonstrated greater anti-proliferative activity against a breast cancer cell line (MCF-7) than doxorubicin-loaded Chitosan."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2016: Several peptides <2 kDa with performance-enhancing properties are covered by the list of prohibited substances of the World Anti-Doping Agency including Desmopressin, LH-RH, Buserelin, Triptorelin, Leuprolide, GHRP-1, GHRP-2, GHRP-3, GHRP-4, GHRP-5,GHRP-6, Alexamorelin, Ipamorelin, Hexarelin, ARA-290,…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-26578461"
+        ],
+        "source_excerpt": "Several peptides <2 kDa with performance-enhancing properties are covered by the list of prohibited substances of the World Anti-Doping Agency including Desmopressin, LH-RH, Buserelin, Triptorelin, Leuprolide, GHRP-1, GHRP-2, GHRP-3, GHRP-4, GHRP-5,GHRP-6, Alexamorelin, Ipamorelin, Hexarelin, ARA-290, AOD-9604, TB-500 and Anamorelin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Thomas 2016",
+          "year": "2016",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2003: This issue focuses on the following selection of drugs: Abetimus sodium, adefovir dipivoxil, AGI-1067, alefacept, alemtuzumab, ALVAC-p53, aminolevulinic acid hydrochloride, aminolevulinic acid methyl ester, Anti-CTLA-4 Mab, AOD-9604, apafant, aprinocarsen sodium, arsenic trioxide; Balaglitazone, BIM-23190,…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-14571286"
+        ],
+        "source_excerpt": "This issue focuses on the following selection of drugs: Abetimus sodium, adefovir dipivoxil, AGI-1067, alefacept, alemtuzumab, ALVAC-p53, aminolevulinic acid hydrochloride, aminolevulinic acid methyl ester, Anti-CTLA-4 Mab, AOD-9604, apafant, aprinocarsen sodium, arsenic trioxide; Balaglitazone, BIM-23190, bimatoprost, bortezomib, bosentan, BR-1; Canertinib dihydrochloride, CDP-850, cevimeline hydrochloride, cinacalcet hydrochloride, clenoliximab, clevudine, CN-787; D-003, darusentan, deferasirox, desloratadine dexanabinol, duloxetine hydrochloride; E-5564, edaravone, efaproxiral sodium, elvucitabine emfilermin, EN-101, enfuvirtide, entecavir, epithalon, eplerenone, erlotinib hydrochloride, escitalopram oxalate, esomeprazole magnesium, eszopiclone, etilefrine pivalate hydrochloride etoricoxib, everolimus, exenatide; Fidarestat, fondaparinux sodium; Ganstigmine hydrochloride; Homoharringtonine, HuMax-IL-15, hyperimmune IVIG; Imatinib mesylate, IMC-1C11, Inhaled insulin, irofulven, iseganan hydrochloride, ISIS-14803, ISIS-5132, ivabradine hydrochloride; Keratinocyte growth factor; Lafutidine, lanthanum carbonate, LAS-34475, levocetirizine, liraglutide, LY-307161 SR; Magnesium sulfate, maribavir, melatonin, mycobacterium cell wall complex; NN-414, NO-aspirin, nociceptin, nolomirole hydrochloride; Olmesartan medoxomil oral insulin, ospemifene; PDX, perillyl alcohol, pimecrolimus, pitavastatin calcium, pramlintide acetate, prasterone, pregabalin, PRO-542, PV-701, pyrazoloacridine; R-744, ranelic acid distrontium salt, rasburicase, rDNA insulin, resiniferatoxin, reslizumab, ridogrel, riplizumab ropivacaine, rosuvastatin calcium, roxifiban acetate, ruboxistaurin mesilate hydrate; Satraplatin, Sch-58500, semaxanib, sitaxsentan sodium, SMP-114, SU-6668; Teriparatide, tetrathiomolybdate, tipifarnib, tolvaptan, travoprost, treprostinil sodium; Valdecoxib, valganciclovir hydrochloride, vardenafil hydrochloride hydrate, vatalanib succinate; Ximelagatran; Z-335, ziprasidone hydrochloride, zoledronic acid monohydrate, ZYC-00101.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bayés 2003",
+          "year": "2003",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "inhaled, oral",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
       }
     ]
   },
@@ -71,15 +317,49 @@
         "Lat8881"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6068615/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 12,
+      "claims": 12,
+      "evidence_table_rows": 7
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports doses used for AOD-9604.",
+    "No study in this record's ledger reports weight-normalized doses for AOD-9604.",
+    "No study in this record's ledger reports dose-escalation schedules for AOD-9604.",
+    "No study in this record's ledger reports interactions with other agents for AOD-9604.",
+    "No study in this record's ledger reports exclusion criteria for AOD-9604.",
+    "No study in this record's ledger reports onset or duration of effects for AOD-9604.",
+    "No randomized controlled trial of AOD-9604 is indexed in Europe PMC.",
+    "Whether any finding about AOD-9604 holds in humans is untested."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has AOD-9604 been tested in humans?",
+      "answer": "Not in any indexed clinical trial. The studies in this record's ledger report work in mice, rabbits, rats. Any human dosing information circulating about AOD-9604 does not come from a published trial."
+    },
+    {
+      "question": "What kind of evidence exists for AOD-9604?",
+      "answer": "The strongest tier is animal preclinical: animal studies only, with no indexed human study. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is AOD-9604 an approved medicine?",
+      "answer": "ChEMBL records CHEMBL6068615 at maximum clinical phase 2, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has AOD-9604 been studied in?",
+      "answer": "Studies in this record's ledger report work in: Mice, Rabbits, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42328738",
@@ -181,7 +461,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 67.4,
   "review": {
     "author": "",
     "reviewer": "",
@@ -196,6 +476,18 @@
     {
       "date": "2026-09-14",
       "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: chembl None -> CHEMBL6068615."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 12 ledger sources by scripts/draft_claims.py: 16 claims, 7 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 12 ledger sources by scripts/draft_claims.py: 15 claims, 7 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 12 ledger sources by scripts/draft_claims.py: 11 claims, 7 evidence-table rows. Status researched -> draft."
     }
   ]
 }

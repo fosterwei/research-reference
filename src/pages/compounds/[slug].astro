@@ -4,9 +4,15 @@ import Base from '../../layouts/Base.astro';
 import ReviewedBy from '../../components/ReviewedBy.astro';
 import Snapshot from '../../components/Snapshot.astro';
 import ClaimList from '../../components/ClaimList.astro';
+import EvidenceTable from '../../components/EvidenceTable.astro';
 import SourceList from '../../components/SourceList.astro';
 import Compare from '../../components/Compare.astro';
-import { SECTIONS, isIndexable, title, description, lastmod } from '../../lib/site';
+import ReferenceCard from '../../components/ReferenceCard.astro';
+import ReconstitutionMath from '../../components/shared/ReconstitutionMath.astro';
+import EquipmentInStudies from '../../components/shared/EquipmentInStudies.astro';
+import ReadingACoA from '../../components/shared/ReadingACoA.astro';
+import WeightCaveat from '../../components/shared/WeightCaveat.astro';
+import { isIndexable, title, description, lastmod } from '../../lib/site';
 import { compound as regCompound, peers as regPeers, stacksContaining, comparisonsWith } from '../../lib/registry';
 
 export async function getStaticPaths() {
@@ -16,52 +22,80 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const d = entry.data;
+const A = d.attributes as Record<string, any[]>;
+const has = (f: string) => (A[f] ?? []).length > 0;
 const reg = regCompound(d.slug);
 const all = await records('compounds');
-const peerEntries = regPeers(d.slug)
-  .map((p) => all.find((e) => e.data.slug === p.slug))
-  .filter((e): e is NonNullable<typeof e> => Boolean(e));
+const peerEntries = regPeers(d.slug).map((p) => all.find((e) => e.data.slug === p.slug)).filter((e): e is NonNullable<typeof e> => Boolean(e));
 const inStacks = stacksContaining(d.slug);
 const inComparisons = comparisonsWith(d.slug);
 const indexable = isIndexable(entry);
-const populated = SECTIONS.filter(([field]) => (d.attributes[field] ?? []).length > 0);
 const noEvidence = (d.evidence_summary?.publications?.total ?? 0) === 0;
+const hasAnyEvidence = has('evidence_table');
 const path = `/compounds/${d.slug}`;
 const jsonld = {
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  headline: title(entry),
-  description: description(entry),
-  dateModified: lastmod(entry),
+  '@context': 'https://schema.org', '@type': 'Article',
+  headline: title(entry), description: description(entry), dateModified: lastmod(entry),
   mainEntityOfPage: new URL(path, Astro.site).toString(),
   ...(d.review.reviewer ? { reviewedBy: { '@type': 'Person', name: d.review.reviewer, jobTitle: d.review.reviewer_credential } } : {}),
 };
+// Template-spec order. Each entry renders only when its data exists.
+const evidenceSections: Array<[string, string]> = [
+  ['study_doses', 'Doses reported in studies'],
+  ['study_durations', 'Study durations'],
+];
+const laterSections: Array<[string, string]> = [
+  ['escalation_schedules', 'Escalation schedules used in studies'],
+  ['interactions', 'Reported interactions'],
+  ['exclusion_criteria', 'Exclusion criteria in studies'],
+  ['adverse_events', 'Adverse events and frequency'],
+  ['biomarkers_monitored', 'Biomarkers measured in studies'],
+  ['reported_timelines', 'Reported timelines'],
+  ['storage', 'Storage and stability'],
+];
 ---
 <Base title={title(entry)} description={description(entry)} path={path} indexable={indexable} jsonld={jsonld}>
   <article>
     <p class="eyebrow">Compound{reg ? ` · wave ${reg.pilot_wave}` : ''}</p>
     <h1>{d.preferred_name}</h1>
 
-    <ReviewedBy review={d.review} status={d.status} />
-
     <h2>Snapshot</h2>
     <Snapshot tier={d.evidence_tier} summary={d.evidence_summary} reg={reg} aliases={d.aliases} />
+
+    <ReviewedBy review={d.review} status={d.status} />
 
     <h2>What it is</h2>
     <div class="prose"><p>{d.summary}</p></div>
 
     {noEvidence && (
-      <div class="notice">
-        <p>No indexed study names this compound in its title or abstract. Everything that circulates about it is community-reported, and this page does not restate it as fact. The sections below that depend on published evidence are omitted rather than filled.</p>
-      </div>
+      <div class="notice"><p>No indexed study names this compound in its title or abstract. Everything that circulates about it is community-reported, and this page does not restate it as fact. The sections that depend on published evidence are omitted rather than filled.</p></div>
     )}
 
-    {populated.map(([field, heading]) => (
+    {hasAnyEvidence && (
       <section>
-        <h2>{heading}</h2>
-        <ClaimList claims={d.attributes[field]} />
+        <h2>What the evidence shows</h2>
+        <p class="lede">One row per primary study in this record's ledger. Fields are read from each paper's indexing and abstract; a dash or "not stated" means the abstract did not say. Open a study's row in the sources to read the passage each figure came from.</p>
+        <EvidenceTable rows={A.evidence_table} />
       </section>
-    ))}
+    )}
+
+    {evidenceSections.filter(([f]) => has(f)).map(([f, h]) => <section><h2>{h}</h2><ClaimList claims={A[f]} /></section>)}
+
+    {has('routes_studied') && <section><h2>Routes studied</h2><ClaimList claims={A.routes_studied} /></section>}
+
+    {has('weight_normalized_doses') && (
+      <section><h2>Weight-normalized doses, as published</h2><ClaimList claims={A.weight_normalized_doses} /><WeightCaveat /></section>
+    )}
+
+    {hasAnyEvidence && <section><h2>Reconstitution mathematics</h2><ReconstitutionMath /></section>}
+
+    {d.media?.transcript && <section><h2>Preparation walkthrough</h2><div class="prose" set:html={d.media.transcript} /></section>}
+
+    {hasAnyEvidence && <section><h2>Equipment described in studies</h2><EquipmentInStudies /></section>}
+
+    {laterSections.filter(([f]) => has(f)).map(([f, h]) => <section><h2>{h}</h2><ClaimList claims={A[f]} /></section>)}
+
+    {hasAnyEvidence && <section><h2>Reading a certificate of analysis</h2><ReadingACoA /></section>}
 
     {peerEntries.length > 0 && (
       <section>
@@ -71,26 +105,15 @@ const jsonld = {
       </section>
     )}
 
-    {d.open_questions.length > 0 && (
-      <section>
-        <h2>Open questions</h2>
-        <ul>{d.open_questions.map((q) => <li>{q}</li>)}</ul>
-      </section>
-    )}
+    {has('regulatory_status') && <section><h2>Regulatory status</h2><ClaimList claims={A.regulatory_status} /></section>}
 
-    {d.faq.length > 0 && (
-      <section>
-        <h2>Questions people ask</h2>
-        {d.faq.map((f) => <><h3>{f.question}</h3><p>{f.answer}</p></>)}
-      </section>
-    )}
+    {d.open_questions.length > 0 && <section><h2>Open questions</h2><ul>{d.open_questions.map((q) => <li>{q}</li>)}</ul></section>}
 
-    {d.sources.length > 0 && (
-      <section>
-        <h2>Sources</h2>
-        <SourceList sources={d.sources} />
-      </section>
-    )}
+    {d.faq.length > 0 && <section><h2>Questions people ask</h2>{d.faq.map((f) => <><h3>{f.question}</h3><p>{f.answer}</p></>)}</section>}
+
+    {d.sources.length > 0 && <section><h2>Sources</h2><SourceList sources={d.sources} /></section>}
+
+    <section><h2>Reference card</h2><ReferenceCard record={d} reg={reg} /></section>
 
     {(inStacks.length > 0 || inComparisons.length > 0 || peerEntries.length > 0) && (
       <section>
@@ -103,11 +126,6 @@ const jsonld = {
       </section>
     )}
 
-    {d.changelog.length > 0 && (
-      <section id="changelog">
-        <h2>Last reviewed and what changed</h2>
-        <ul>{[...d.changelog].reverse().map((c) => <li><code>{c.date}</code> {c.change}</li>)}</ul>
-      </section>
-    )}
+    {d.changelog.length > 0 && <section id="changelog"><h2>Last reviewed and what changed</h2><ul>{[...d.changelog].reverse().map((c) => <li><code>{c.date}</code> {c.change}</li>)}</ul></section>}
   </article>
 </Base>

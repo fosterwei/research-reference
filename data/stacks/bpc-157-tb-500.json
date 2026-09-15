@@ -1,0 +1,90 @@
+{
+  "type": "stack",
+  "title": "BPC-157 + TB-500",
+  "slug": "bpc-157-tb-500",
+  "status": "draft",
+  "summary": "BPC-157 + TB-500 combines BPC-157 (observational human) and TB-500 (human clinical trial). A stack cannot carry a stronger evidence tier than its weakest component, which here is observational human. 3 indexed studies mention both components; the combination-evidence section quotes what they state.",
+  "seo": {
+    "title": "BPC-157 + TB-500: the evidence",
+    "description": "BPC-157 + TB-500: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+  },
+  "attributes": {
+    "combination_evidence": [
+      {
+        "value": "Animal study, rats, 2026: This study aims to evaluate the effects of BPC-157, synthetic thymosin beta-4 (TB-500), and their combination on Achilles tendon healing using biomechanical, histopathological, histochemical, and immunohistochemical analyses in a rat model.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42542926"
+        ],
+        "source_excerpt": "This study aims to evaluate the effects of BPC-157, synthetic thymosin beta-4 (TB-500), and their combination on Achilles tendon healing using biomechanical, histopathological, histochemical, and immunohistochemical analyses in a rat model.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2026: To summarize existing peer-reviewed data on 6 emerging peptides (BPC-157, thymosin beta-4 or TB-500, CJC-1295, MK-677, ipamorelin, and GHK-Cu [copper peptide]) for musculoskeletal recovery and enhancement in animal and human models.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42578445"
+        ],
+        "source_excerpt": "To summarize existing peer-reviewed data on 6 emerging peptides (BPC-157, thymosin beta-4 or TB-500, CJC-1295, MK-677, ipamorelin, and GHK-Cu [copper peptide]) for musculoskeletal recovery and enhancement in animal and human models.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, n=17, 2021: A retrospective study was done at the Institute for Hormonal Balance in Orlando, Florida, USA to see whether intra-articular injection of the peptide BPC 157, alone or combined with TB4, helped relieve knee pain.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-34324435"
+        ],
+        "source_excerpt": "A retrospective study was done at the Institute for Hormonal Balance in Orlando, Florida, USA to see whether intra-articular injection of the peptide BPC 157, alone or combined with TB4, helped relieve knee pain.",
+        "drafting": "extractive"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "pmid-42542926",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study.",
+      "url": "https://europepmc.org/article/MED/42542926",
+      "published": "2026-07-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42578445",
+      "title": "Peptide Supplements and Their Therapeutic Applications in Sports Medicine.",
+      "url": "https://europepmc.org/article/MED/42578445",
+      "published": "2026-08-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34324435",
+      "title": "Intra-Articular Injection of BPC 157 for Multiple Types of Knee Pain.",
+      "url": "https://europepmc.org/article/MED/34324435",
+      "published": "2021-07-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [
+    "bpc-157",
+    "tb-500"
+  ],
+  "faq": [],
+  "open_questions": [
+    "No published schedule reconciles the components' different reported frequencies onto one calendar."
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "uniqueness_pct": 75.8,
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Stack record generated from research/registry.json plan; 3 combination claims drafted extractively by scripts/draft_claims.py."
+    }
+  ],
+  "components": [
+    "bpc-157",
+    "tb-500"
+  ]
+}
