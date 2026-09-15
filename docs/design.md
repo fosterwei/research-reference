@@ -244,6 +244,7 @@ Until they get a v2 pass they keep the current single-column layout.
 | Contrast | WCAG AA on both themes | review; tier dots always paired with text |
 | Canonical | absolute, real hostname, self-referencing | `site-url.mjs` (must reject wildcard hosts) |
 | Images | none required; any image has alt text and fixed dimensions | review |
+| Formatting minimums | see §9.10 | `measure_pages.py` (to implement) |
 
 ## 7. Anti-patterns
 
@@ -270,8 +271,163 @@ Do not ship any of these, whatever a reference site does:
 4. Record the decision and date in the changelog below, then move components
    into the shared template in a separate pull request.
 
+## 9. Content formatting for reading experience
+
+Structure is not enough; a 5,000-word page of uniform paragraphs is unread.
+These rules govern the HTML the templates emit and the prose the drafting
+scripts write. Each has a minimum the build can count, listed in the table at
+the end of this section. Formatting is applied to **our own prose** (dek,
+summary, ledes, FAQ, open questions, method notes, captions). **Quotations are
+verbatim by `agent/AGENT.md`**; the one permitted change inside a quotation is
+typographic emphasis, and it must be declared (9.3).
+
+### 9.1 Emphasis
+
+- **Bold the figure a reader is scanning for**, in our own prose: sample sizes,
+  trial counts, years of approval, tier names, and the phrase *not yet
+  reviewed*. Use `<b>` for scanning emphasis and `<strong>` only for
+  importance a reader must not miss (a safety statement, an empty-evidence
+  notice).
+- At most **two bold runs per paragraph**, each at most five words. Never a
+  whole sentence. Never a heading. Bold that is everywhere is bold nowhere.
+- Italic (`<em>`) is for terms of art on first use and for study names
+  (*FLOW*, *SURMOUNT-5*), never for emphasis.
+- Never bold or colour a word as the sole signal of meaning; the tier dot is
+  always paired with its label for this reason.
+
+### 9.2 Tables
+
+- **Every compound, stack and comparison page renders at least one data
+  table.** When evidence exists it is the evidence table. When none exists,
+  the page renders an *evidence landscape* table instead: indexed
+  publications, randomized controlled trials, other clinical trials, human
+  studies, animal studies, with a zero in each cell rather than an empty
+  section. A zero in a table is information; a missing table is not.
+- Every table has a `<caption>` (visible, set in `--ink-3`, above the table)
+  stating what it shows and the dash convention: "22 primary studies,
+  strongest evidence first. A dash means the abstract did not say."
+- Header cells use `<th scope="col">`; the first column of a row-keyed table
+  uses `<th scope="row">`. Numeric columns are right-aligned with
+  `font-variant-numeric: tabular-nums`. Tables scroll inside their own
+  container; the page never scrolls sideways.
+- Use a table when the reader compares across rows or columns. Do not use a
+  table for a single key/value set; that is a `<dl>` (9.5).
+
+### 9.3 Quotations
+
+- Every verbatim source sentence is a `<q>` (inline, inside a claim card) or
+  a `<blockquote>` (a passage longer than two sentences), and in either case
+  carries `cite="<source url>"` so the quotation is machine-attributable.
+- The source line under a quotation states how it was produced: *quoted
+  verbatim from the abstract*.
+- Typographic emphasis inside a quotation is allowed for exactly one thing:
+  the compound's own dose and route strings already extracted by the drafter
+  (the `extra` field). Mark them with `<mark>` (not `<b>`), and change the
+  source line to *quoted verbatim from the abstract, emphasis added*. Nothing
+  else inside a quotation is ever marked, cut, reordered or corrected;
+  spelling and decimal marks stay as the source printed them (7·5 mg stays
+  7·5 mg).
+
+### 9.4 Lists
+
+- `<ul>` for unordered sets: open questions, aliases, related records.
+- `<ol>` for anything with an order that carries meaning: the four
+  certificate-of-analysis checks, sources (numbered so a reader can cite
+  "source 12"), reconstitution steps, changelog in reverse chronological
+  order.
+- Each item is one point, at most two lines at the content width; an item
+  that needs a second sentence becomes a paragraph. No single-item lists.
+  No nested lists deeper than one level.
+- Lists of figures align their numbers (tabular numerals) and lead with the
+  figure: "**305** randomized controlled trials", not "There are 305".
+
+### 9.5 Definition lists, code, abbreviations, dates
+
+- Key/value data is a `<dl>`: the reference card, the snapshot on narrow
+  screens, a study's design/n/species/dose block when shown outside a table.
+- `<code>` marks identifiers and states, never emphasis: `pmid-42456707`,
+  `CHEMBL2108724`, `draft`, `published`.
+- Abbreviations are expanded once per page with `<abbr title="…">` on first
+  use: RCT, GLP-1, MASH, AUD, HbA1c, ATC. After that the short form alone.
+- Dates are `<time datetime="2026-09-14">14 Sep 2026</time>` in prose and
+  cards; ISO form in tables and the changelog, where alignment matters.
+
+### 9.6 Callouts and collapsibles
+
+- A **status callout** (the `.status` component) carries any statement the
+  reader must not miss: not yet reviewed; no indexed study names this
+  compound; no published study tested this combination. One callout per
+  message; never two adjacent callouts; never a callout for decoration.
+- `<details>` collapses secondary material the reader may not want: FAQ
+  items after the first, the source list beyond the first twelve, the mobile
+  table of contents. Never collapse a claim, a caption, a warning or the
+  first item of anything.
+
+### 9.7 Paragraphs, sentences, headings
+
+- Own prose: paragraphs of two to four sentences and at most about seventy
+  words; the first sentence carries the point. One idea per paragraph.
+- Sentences average under about 22 words. Split at "and", "which" and
+  "while" before reaching for a semicolon.
+- Every H2 with more than three items beneath it has a lede of at most 25
+  words saying what the section holds and how it was produced.
+- Headings are sentence case, descriptive or question-form, without a
+  trailing colon and without the compound name (the entity lives in the
+  title, dek and first paragraph). FAQ questions are real questions a reader
+  types, answered in the first sentence.
+
+### 9.8 Numbers and units
+
+- Thousands separators in prose and tables (6,039). Tabular numerals wherever
+  numbers stack.
+- A number and its unit never break across a line: `2.4&nbsp;mg`.
+- Ranges use an en dash (0.25–1.0 mg); a change uses an arrow (0.25 mg →
+  1.0 mg).
+- Percentages carry their denominator when the source gives one: 80% (79 of
+  99). A percentage without a denominator is not written in our prose.
+- Inside quotations, numbers appear exactly as the source printed them.
+
+### 9.9 Links
+
+- Anchor text says where the link goes: "the FLOW trial", "source
+  pmid-41728915", "tirzepatide", never "here" or "this study".
+- External source links open in a new tab (`target="_blank"
+  rel="noopener"`) so the reader keeps their place in a long page; internal
+  links open in the same tab.
+- Three to five internal links per 1,000 words, placed where the entity is
+  mentioned in prose, not gathered at the end. Peer compounds named in the
+  comparison table and the FAQ are linked at first mention.
+
+### 9.10 Minimums per page
+
+Counts the build should verify (`scripts/measure_pages.py`; the ones marked
+*to implement* are not yet checked):
+
+| Element | Minimum per compound page | Where it comes from | Checked |
+|---|---|---|---|
+| Data table with caption | 1 (evidence table, or the evidence-landscape table) | `EvidenceTable`, landscape fallback | to implement |
+| Bold runs in own prose | 6, none longer than 5 words, ≤ 2 per paragraph | dek, summary, FAQ, ledes | to implement |
+| `<ol>` | 1 (sources) | `Sources` | to implement |
+| `<ul>` | 1 (open questions or related) | page | to implement |
+| `<q>`/`<blockquote>` with `cite` | every quotation | `ClaimCards` | to implement |
+| `<dl>` | 1 (reference card) | `RefCard` | to implement |
+| `<abbr>` on first use | every abbreviation in own prose | drafting scripts | review |
+| `<time>` | every date in prose and cards | components | to implement |
+| Status callout | 1 when unreviewed or evidence is absent | `StatusBar` | yes |
+| Section ledes | every H2 with > 3 items | page | review |
+| Internal links | 3–5 per 1,000 words | page | to implement |
+| Own-prose sentence length | ≤ ~22 words average | drafting scripts | `measure_pages.py` Flesch, indirect |
+
+A page that fails a minimum is not broken; it is unread. Fix the template or
+the drafting script, not the record, so the fix applies to every page.
+
 ## Changelog
 
+- 2026-09-15 — Section 9 added: content formatting rules for reading
+  experience (emphasis, tables with captions, quotation markup and the
+  emphasis-added rule, lists, definition lists, abbreviations, dates,
+  callouts, paragraph and sentence limits, numbers, links) with per-page
+  minimums for the build to check.
 - 2026-09-15 — Spec written from the competitive baseline, the semaglutide
   design canvas and the trial route. v2 live on `/compounds/semaglutide`
   only; the other compound pages, stacks, comparisons and tools remain on
