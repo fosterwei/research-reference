@@ -3,26 +3,796 @@
   "preferred_name": "Semax",
   "aliases": [],
   "slug": "semax",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for Semax. Europe PMC indexes 208 publications, including 1 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Semax is a peptide in the neuropeptides nootropic class (ACTH(4-7) analog; BDNF and monoaminergic effects reported). Europe PMC indexes 208 publications naming it or a listed alias in a title or abstract, including 1 randomized controlled trials and 3 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Semax: what the research shows",
-    "description": "Cited overview of published Semax research: 208 indexed publications, 1 randomized controlled trials. Evidence tier on every claim."
+    "description": "Semax research, cited: 208 indexed publications, 1 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
+    "routes_studied": [
+      {
+        "value": "Human study, humans, n=58, 2015: administration by intranasal route reported. In group 1, 58 patients received conventional therapy, while 60 patients in group 2 received the same with additional 0.1% semax solution intranasally 600 mg/day for 10 days.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-27051926"
+        ],
+        "source_excerpt": "In group 1, 58 patients received conventional therapy, while 60 patients in group 2 received the same with additional 0.1% semax solution intranasally 600 mg/day for 10 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2024: administration by intraperitoneal route reported. Stressed and control male adult Sprague-Dawley rats received daily intraperitoneal injections of saline or a low dose (60 nmol/kg of body weight (BW)) of Semax or MTII.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39442746"
+        ],
+        "source_excerpt": "Stressed and control male adult Sprague-Dawley rats received daily intraperitoneal injections of saline or a low dose (60 nmol/kg of body weight (BW)) of Semax or MTII.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2024: administration by intraperitoneal route reported. Here, we used high-throughput RNA sequencing (RNA-Seq) to identify differentially expressed genes (DEGs) in the brain frontal cortex of rat receiving intraperitoneal administration of ACTH-like peptides ACTH(4-7)PGP (Semax) and ACTH(6-9)PGP, or saline.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39418522"
+        ],
+        "source_excerpt": "Here, we used high-throughput RNA sequencing (RNA-Seq) to identify differentially expressed genes (DEGs) in the brain frontal cortex of rat receiving intraperitoneal administration of ACTH-like peptides ACTH(4-7)PGP (Semax) and ACTH(6-9)PGP, or saline.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: administration by intranasal, intraperitoneal route reported. Mexidol (100 mg/kg) was administered intraperitoneally, and Semax (25 μg/kg) was administered intranasally, for 7 days each.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33806692"
+        ],
+        "source_excerpt": "Mexidol (100 mg/kg) was administered intraperitoneally, and Semax (25 μg/kg) was administered intranasally, for 7 days each.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: administration by intraperitoneal route reported. We studied the effect of intraperitoneal administration ACTH (4-7) -PGP in doses of 5, 50, 150, and 450 μg/kg to Wistar male rats 12-15 min before modeling restraint stress on the morphofunctional state of the colon.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33459919"
+        ],
+        "source_excerpt": "We studied the effect of intraperitoneal administration ACTH (4-7) -PGP in doses of 5, 50, 150, and 450 μg/kg to Wistar male rats 12-15 min before modeling restraint stress on the morphofunctional state of the colon.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=2, 2004: administration by subcutaneous route reported. DBA/2, CBA mice, and their F1 hybrids (first series) and 101/HY and C3H mice (second series) were injected as neonates (2-7 days of life) with Semax (sc., 7 microg per animal).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-15658043"
+        ],
+        "source_excerpt": "DBA/2, CBA mice, and their F1 hybrids (first series) and 101/HY and C3H mice (second series) were injected as neonates (2-7 days of life) with Semax (sc., 7 microg per animal).",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Clinical trial, humans, n=43, 2018: doses stated in the abstract: 6000 mcg/day. Standard regimen of semax included 2 courses (6000 mcg/day) for 10 days with 20 day interval.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-29798983"
+        ],
+        "source_excerpt": "Standard regimen of semax included 2 courses (6000 mcg/day) for 10 days with 20 day interval.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=58, 2015: doses stated in the abstract: 600 mg/day. In group 1, 58 patients received conventional therapy, while 60 patients in group 2 received the same with additional 0.1% semax solution intranasally 600 mg/day for 10 days.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-27051926"
+        ],
+        "source_excerpt": "In group 1, 58 patients received conventional therapy, while 60 patients in group 2 received the same with additional 0.1% semax solution intranasally 600 mg/day for 10 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: doses stated in the abstract: 25 μg/kg. Mexidol (100 mg/kg) was administered intraperitoneally, and Semax (25 μg/kg) was administered intranasally, for 7 days each.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33806692"
+        ],
+        "source_excerpt": "Mexidol (100 mg/kg) was administered intraperitoneally, and Semax (25 μg/kg) was administered intranasally, for 7 days each.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2020: doses stated in the abstract: 200 μg/kg. Deltalicin in a dose 100 μg/kg and Semax in a dose 200 μg/kg as well as sulodexide corrected lipid metabolism disorders: the content of total cholesterol, triglycerides, LDL, index of atherogenicity decreased and HDL concentration increased.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32246363"
+        ],
+        "source_excerpt": "Deltalicin in a dose 100 μg/kg and Semax in a dose 200 μg/kg as well as sulodexide corrected lipid metabolism disorders: the content of total cholesterol, triglycerides, LDL, index of atherogenicity decreased and HDL concentration increased.",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
-    "interactions": [],
+    "interactions": [
+      {
+        "value": "Human study, humans, n=58, 2015: It was studied the possibility of correcting lipid metabolism in patients with psoriasis and concomitant metabolic syndrome (MS) by using additional treatment with semax.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-27051926"
+        ],
+        "source_excerpt": "It was studied the possibility of correcting lipid metabolism in patients with psoriasis and concomitant metabolic syndrome (MS) by using additional treatment with semax.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2016: At physiological pH, the main complex species formed by Ac-Semax, [CuLH -2 ] 2- , consists in a distorted CuN 3 O chromophore with a weak apical interaction of the methionine sulphur.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-27586814"
+        ],
+        "source_excerpt": "At physiological pH, the main complex species formed by Ac-Semax, [CuLH -2 ] 2- , consists in a distorted CuN 3 O chromophore with a weak apical interaction of the methionine sulphur.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
     "adverse_events": [],
-    "biomarkers_monitored": [],
+    "biomarkers_monitored": [
+      {
+        "value": "Clinical trial, humans, n=43, 2018: Administration of semax, regardless of the timing of rehabilitation, increased BDNF plasma levels which remained high during the whole study period.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-29798983"
+        ],
+        "source_excerpt": "Administration of semax, regardless of the timing of rehabilitation, increased BDNF plasma levels which remained high during the whole study period.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2020: The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-32342318"
+        ],
+        "source_excerpt": "The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=58, 2015: It was found that the inclusion of semax in complex treatment of patients with psoriasis complicated by metabolic syndrome led to a decrease in the initially elevated serum levels of total cholesterol, triglycerides, LDL cholesterol and to an increase in the initially reduced levels of HDL cholesterol,…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-27051926"
+        ],
+        "source_excerpt": "It was found that the inclusion of semax in complex treatment of patients with psoriasis complicated by metabolic syndrome led to a decrease in the initially elevated serum levels of total cholesterol, triglycerides, LDL cholesterol and to an increase in the initially reduced levels of HDL cholesterol, in contrast to the standard treatment, which did not produce any statistically significant effect on the levels of total cholesterol, triglycerides, LDL cholesterol, and HDL cholesterol in the blood serum.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2024: Stressed and control male adult Sprague-Dawley rats received daily intraperitoneal injections of saline or a low dose (60 nmol/kg of body weight (BW)) of Semax or MTII.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39442746"
+        ],
+        "source_excerpt": "Stressed and control male adult Sprague-Dawley rats received daily intraperitoneal injections of saline or a low dose (60 nmol/kg of body weight (BW)) of Semax or MTII.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: Administration of Semax or ACTH(6-9)PGP (100 μg/kg) to rats 30 min before ARS attenuated ARS-induced behavioral alterations.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-34576218"
+        ],
+        "source_excerpt": "Administration of Semax or ACTH(6-9)PGP (100 μg/kg) to rats 30 min before ARS attenuated ARS-induced behavioral alterations.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: Thus, peptide Semax can prevent behavioural deficits caused by altered 5-HT levels during development.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33418449"
+        ],
+        "source_excerpt": "Thus, peptide Semax can prevent behavioural deficits caused by altered 5-HT levels during development.",
+        "drafting": "extractive"
+      }
+    ],
     "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
-    "regulatory_status": []
+    "storage": [
+      {
+        "value": "Human study, humans, 2005: Semax treatment resulted in significant clinical improvement, stabilization of the disease progress and reduced a risk of stroke and transitory ischemic attacks in the disease course.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-15792140"
+        ],
+        "source_excerpt": "Semax treatment resulted in significant clinical improvement, stabilization of the disease progress and reduced a risk of stroke and transitory ischemic attacks in the disease course.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2008: The stability of Semax in cell cultures was tested by HPLC analysis.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-18431004"
+        ],
+        "source_excerpt": "The stability of Semax in cell cultures was tested by HPLC analysis.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=2, 2004: Semax is a peptide analogue of ACHT4-10 fragment which is resistant to degradation.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-15658043"
+        ],
+        "source_excerpt": "Semax is a peptide analogue of ACHT4-10 fragment which is resistant to degradation.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, n=27, 2007: durations stated: 10 day; 2 weeks. The drug was administered intranasally in two 10-day-long courses with 2-weeks break in daily dose of 12 mg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18379501"
+        ],
+        "source_excerpt": "The drug was administered intranasally in two 10-day-long courses with 2-weeks break in daily dose of 12 mg.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Controlled clinical trial, humans, n=30, 1997: durations stated: 10 days. The most effective daily doses were 12 mg for patients with strokes of moderate severity and 18 mg for patients with severe strokes (treatment course--5 and 10 days).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11517472"
+        ],
+        "source_excerpt": "The most effective daily doses were 12 mg for patients with strokes of moderate severity and 18 mg for patients with severe strokes (treatment course--5 and 10 days).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2026: durations stated: 12 months. Maxillary protraction was performed using a modified Alt-RAMEC protocol followed by continuous intermaxillary elastic traction for 12 months.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42074872"
+        ],
+        "source_excerpt": "Maxillary protraction was performed using a modified Alt-RAMEC protocol followed by continuous intermaxillary elastic traction for 12 months.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=58, 2015: durations stated: 10 days. In group 1, 58 patients received conventional therapy, while 60 patients in group 2 received the same with additional 0.1% semax solution intranasally 600 mg/day for 10 days.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-27051926"
+        ],
+        "source_excerpt": "In group 1, 58 patients received conventional therapy, while 60 patients in group 2 received the same with additional 0.1% semax solution intranasally 600 mg/day for 10 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: durations stated: 7 days; 21 days. Mexidol (100 mg/kg) was administered intraperitoneally, and Semax (25 μg/kg) was administered intranasally, for 7 days each.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33806692"
+        ],
+        "source_excerpt": "Mexidol (100 mg/kg) was administered intraperitoneally, and Semax (25 μg/kg) was administered intranasally, for 7 days each.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2021: durations stated: 40 weeks. Rat pups received FA or vehicle injections on postnatal days 1-14, a time period equivalent to 27-40 weeks of human foetal age.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33418449"
+        ],
+        "source_excerpt": "Rat pups received FA or vehicle injections on postnatal days 1-14, a time period equivalent to 27-40 weeks of human foetal age.",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Animal study, rats, 2021: weight-normalized doses as published: 25 μg/kg. Mexidol (100 mg/kg) was administered intraperitoneally, and Semax (25 μg/kg) was administered intranasally, for 7 days each.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33806692"
+        ],
+        "source_excerpt": "Mexidol (100 mg/kg) was administered intraperitoneally, and Semax (25 μg/kg) was administered intranasally, for 7 days each.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2020: weight-normalized doses as published: 200 μg/kg. Deltalicin in a dose 100 μg/kg and Semax in a dose 200 μg/kg as well as sulodexide corrected lipid metabolism disorders: the content of total cholesterol, triglycerides, LDL, index of atherogenicity decreased and HDL concentration increased.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32246363"
+        ],
+        "source_excerpt": "Deltalicin in a dose 100 μg/kg and Semax in a dose 200 μg/kg as well as sulodexide corrected lipid metabolism disorders: the content of total cholesterol, triglycerides, LDL, index of atherogenicity decreased and HDL concentration increased.",
+        "drafting": "extractive"
+      }
+    ],
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Clinical trial, humans, n=43, 2018: Administration of semax, regardless of the timing of rehabilitation, increased BDNF plasma levels which remained high during the whole study period.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-29798983"
+        ],
+        "source_excerpt": "Administration of semax, regardless of the timing of rehabilitation, increased BDNF plasma levels which remained high during the whole study period.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gusev 2018",
+          "year": "2018",
+          "design": "Clinical trial",
+          "n": 43,
+          "species": "Humans",
+          "dose": "6000 mcg/day",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Administration of semax, regardless of the timing of rehabilitation, increased BDNF plasma levels which remained high during the whole study period."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=27, 2007: However, 1% semax significantly improves the total estimate of life quality due to the improvement of emotional state and motivation in MND patients with the maximal effect on day 10.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18379501"
+        ],
+        "source_excerpt": "However, 1% semax significantly improves the total estimate of life quality due to the improvement of emotional state and motivation in MND patients with the maximal effect on day 10.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Serdiuk 2007",
+          "year": "2007",
+          "design": "Randomized controlled trial",
+          "n": 27,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "10 day; 2 weeks",
+          "outcome": "However, 1% semax significantly improves the total estimate of life quality due to the improvement of emotional state and motivation in MND patients with the maximal effect on day 10."
+        }
+      },
+      {
+        "value": "Controlled clinical trial, humans, 2000: Addition of semax to therapeutic complex in patients with diseases of the optic nerve had a favorable impact on the intensity and rate of recovery and improved the visual functions.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10741256"
+        ],
+        "source_excerpt": "Addition of semax to therapeutic complex in patients with diseases of the optic nerve had a favorable impact on the intensity and rate of recovery and improved the visual functions.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Polunin 2000",
+          "year": "2000",
+          "design": "Controlled clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Addition of semax to therapeutic complex in patients with diseases of the optic nerve had a favorable impact on the intensity and rate of recovery and improved the visual functions."
+        }
+      },
+      {
+        "value": "Controlled clinical trial, humans, n=30, 1997: It was established that including of Semax in combined intensive therapy of acute ischemic stroke had some influence on the rate of restoration of the damaged neurological functions in terms of increasing the regress of general cerebral and focal, especially motor disorders.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11517472"
+        ],
+        "source_excerpt": "It was established that including of Semax in combined intensive therapy of acute ischemic stroke had some influence on the rate of restoration of the damaged neurological functions in terms of increasing the regress of general cerebral and focal, especially motor disorders.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gusev 1997",
+          "year": "1997",
+          "design": "Controlled clinical trial",
+          "n": 30,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "10 days",
+          "outcome": "It was established that including of Semax in combined intensive therapy of acute ischemic stroke had some influence on the rate of restoration of the damaged neurological functions in terms of increasing the regress…"
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: A significant increase in SNA was observed (mean +6.1°, p p = 0.007), and the SeMax increased by 2.9 mm ( p = 0.0013).",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42074872"
+        ],
+        "source_excerpt": "A significant increase in SNA was observed (mean +6.1°, p p = 0.007), and the SeMax increased by 2.9 mm ( p = 0.0013).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Arcos 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "12 months",
+          "outcome": "A significant increase in SNA was observed (mean +6.1°, p p = 0.007), and the SeMax increased by 2.9 mm ( p = 0.0013)."
+        }
+      },
+      {
+        "value": "Human study, humans, 2020: The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-32342318"
+        ],
+        "source_excerpt": "The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Panikratova 2020",
+          "year": "2020",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Human study, humans, n=58, 2015: It was found that the inclusion of semax in complex treatment of patients with psoriasis complicated by metabolic syndrome led to a decrease in the initially elevated serum levels of total cholesterol, triglycerides, LDL cholesterol and to an increase in the initially reduced levels of HDL cholesterol,…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-27051926"
+        ],
+        "source_excerpt": "It was found that the inclusion of semax in complex treatment of patients with psoriasis complicated by metabolic syndrome led to a decrease in the initially elevated serum levels of total cholesterol, triglycerides, LDL cholesterol and to an increase in the initially reduced levels of HDL cholesterol, in contrast to the standard treatment, which did not produce any statistically significant effect on the levels of total cholesterol, triglycerides, LDL cholesterol, and HDL cholesterol in the blood serum.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Dontsova 2015",
+          "year": "2015",
+          "design": "Human study",
+          "n": 58,
+          "species": "Humans",
+          "dose": "600 mg/day",
+          "route": "intranasal",
+          "duration": "10 days",
+          "outcome": "It was found that the inclusion of semax in complex treatment of patients with psoriasis complicated by metabolic syndrome led to a decrease in the initially elevated serum levels of total cholesterol, triglycerides,…"
+        }
+      },
+      {
+        "value": "Human study, humans, 2005: Semax treatment resulted in significant clinical improvement, stabilization of the disease progress and reduced a risk of stroke and transitory ischemic attacks in the disease course.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-15792140"
+        ],
+        "source_excerpt": "Semax treatment resulted in significant clinical improvement, stabilization of the disease progress and reduced a risk of stroke and transitory ischemic attacks in the disease course.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gusev 2005",
+          "year": "2005",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Semax treatment resulted in significant clinical improvement, stabilization of the disease progress and reduced a risk of stroke and transitory ischemic attacks in the disease course."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2025: The open field, novel object recognition, and Barnes maze tests demonstrated that both Semax and its derivative improved cognitive functions in mice.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41479572"
+        ],
+        "source_excerpt": "The open field, novel object recognition, and Barnes maze tests demonstrated that both Semax and its derivative improved cognitive functions in mice.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Radchenko 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The open field, novel object recognition, and Barnes maze tests demonstrated that both Semax and its derivative improved cognitive functions in mice."
+        }
+      },
+      {
+        "value": "Animal study, rats, mice, n=6, 2025: Key results Semax improved SCI functional recovery and inhibited LMP-related pyroptosis in SCI mice and neuroinflammation models, by decreasing oxidative stress.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40692165"
+        ],
+        "source_excerpt": "Key results Semax improved SCI functional recovery and inhibited LMP-related pyroptosis in SCI mice and neuroinflammation models, by decreasing oxidative stress.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Liu 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": 6,
+          "species": "Rats, Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Key results Semax improved SCI functional recovery and inhibited LMP-related pyroptosis in SCI mice and neuroinflammation models, by decreasing oxidative stress."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2025: These DEGs were associated with inflammation, predominantly.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40650034"
+        ],
+        "source_excerpt": "These DEGs were associated with inflammation, predominantly.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Filippenkov 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "These DEGs were associated with inflammation, predominantly."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2024: Previously, using RNA-Seq we first revealed differential expressed genes (DEGs) associated with ACTH(4-7)PGP (Semax) and ACTH(6-9)PGP peptides under cerebral ischemia conditions.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39767736"
+        ],
+        "source_excerpt": "Previously, using RNA-Seq we first revealed differential expressed genes (DEGs) associated with ACTH(4-7)PGP (Semax) and ACTH(6-9)PGP peptides under cerebral ischemia conditions.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Filippenkov 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2024: We found that chronic treatment with Semax and MTII reversed or substantially attenuated CUS-induced anhedonia, BW gain suppression, adrenal hypertrophy and a decrease in the hippocampal levels of BDNF.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39442746"
+        ],
+        "source_excerpt": "We found that chronic treatment with Semax and MTII reversed or substantially attenuated CUS-induced anhedonia, BW gain suppression, adrenal hypertrophy and a decrease in the hippocampal levels of BDNF.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Inozemtseva 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "We found that chronic treatment with Semax and MTII reversed or substantially attenuated CUS-induced anhedonia, BW gain suppression, adrenal hypertrophy and a decrease in the hippocampal levels of BDNF."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2024: Both peptides predominantly caused decrease in expression of the genes associated with the immune system.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39418522"
+        ],
+        "source_excerpt": "Both peptides predominantly caused decrease in expression of the genes associated with the immune system.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Filippenkov 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "Both peptides predominantly caused decrease in expression of the genes associated with the immune system."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2023: The first was ACTH(4-7)PGP, which is known as Semax.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-37510287"
+        ],
+        "source_excerpt": "The first was ACTH(4-7)PGP, which is known as Semax.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Filippenkov 2023",
+          "year": "2023",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2022: Moreover, there were IC genes ( iL1b , iL6 , and Socs3 ) for PGP, as well as IC ( iL6 , Ccl3 , Socs3 , and Fos ) and NC genes ( Cplx2 , Neurod6 , and Ptk2b ) for PGPL, that significantly changed in expression levels after peptide administration compared to Semax treatment under tMCAO conditions.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36553646"
+        ],
+        "source_excerpt": "Moreover, there were IC genes ( iL1b , iL6 , and Socs3 ) for PGP, as well as IC ( iL6 , Ccl3 , Socs3 , and Fos ) and NC genes ( Cplx2 , Neurod6 , and Ptk2b ) for PGPL, that significantly changed in expression levels after peptide administration compared to Semax treatment under tMCAO conditions.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stavchansky 2022",
+          "year": "2022",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Moreover, there were IC genes ( iL1b , iL6 , and Socs3 ) for PGP, as well as IC ( iL6 , Ccl3 , Socs3 , and Fos ) and NC genes ( Cplx2 , Neurod6 , and Ptk2b ) for PGPL, that significantly changed in expression levels…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2021: Furthermore, both peptides upregulated the expression levels of many genes that displayed decreased expression after ARS, and vice versa, the MC peptides downregulated the expression levels of genes that were upregulated by ARS.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-34576218"
+        ],
+        "source_excerpt": "Furthermore, both peptides upregulated the expression levels of many genes that displayed decreased expression after ARS, and vice versa, the MC peptides downregulated the expression levels of genes that were upregulated by ARS.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Filippenkov 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Furthermore, both peptides upregulated the expression levels of many genes that displayed decreased expression after ARS, and vice versa, the MC peptides downregulated the expression levels of genes that were…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2021: However, SEMAX, slightly but reliably, increased striatal dopamine when administered before MPTP treatment, which indicates that it is more effective as an inductor of endogenous neurotrophic factor secretion rather than as an antioxidant.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-34707903"
+        ],
+        "source_excerpt": "However, SEMAX, slightly but reliably, increased striatal dopamine when administered before MPTP treatment, which indicates that it is more effective as an inductor of endogenous neurotrophic factor secretion rather than as an antioxidant.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kolacheva 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "However, SEMAX, slightly but reliably, increased striatal dopamine when administered before MPTP treatment, which indicates that it is more effective as an inductor of endogenous neurotrophic factor secretion rather…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2021: The Semax (Met-Glu-His-Phe-Pro-Gly-Pro) peptide is a synthetic melanocortin derivative that is used in the treatment of ischemic stroke.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-34201112"
+        ],
+        "source_excerpt": "The Semax (Met-Glu-His-Phe-Pro-Gly-Pro) peptide is a synthetic melanocortin derivative that is used in the treatment of ischemic stroke.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Sudarkina 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2021: Administration of Mexidol or Semax was associated with preservation of the neuron number and neuronal expression of PGC-1α, stimulation of the nuclear translocation of PGC-1α, and increased contents of protein markers for PGC-1α activation.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33806692"
+        ],
+        "source_excerpt": "Administration of Mexidol or Semax was associated with preservation of the neuron number and neuronal expression of PGC-1α, stimulation of the nuclear translocation of PGC-1α, and increased contents of protein markers for PGC-1α activation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Shakova 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "25 μg/kg",
+          "route": "intranasal, intraperitoneal",
+          "duration": "7 days; 21 days",
+          "outcome": "Administration of Mexidol or Semax was associated with preservation of the neuron number and neuronal expression of PGC-1α, stimulation of the nuclear translocation of PGC-1α, and increased contents of protein markers…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2021: Administration of the peptide led to a decrease in corticosterone concentration, alleviated stress-induced pathomorphological changes, and promoted adaptation of the intestinal wall to stress.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33459919"
+        ],
+        "source_excerpt": "Administration of the peptide led to a decrease in corticosterone concentration, alleviated stress-induced pathomorphological changes, and promoted adaptation of the intestinal wall to stress.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Svishcheva 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "Administration of the peptide led to a decrease in corticosterone concentration, alleviated stress-induced pathomorphological changes, and promoted adaptation of the intestinal wall to stress."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2021: Semax administration reduced the anxiety-like behaviour, improved learning abilities and normalized the levels of brain biogenic amines impaired by the FA exposure.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33418449"
+        ],
+        "source_excerpt": "Semax administration reduced the anxiety-like behaviour, improved learning abilities and normalized the levels of brain biogenic amines impaired by the FA exposure.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Glazova 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "40 weeks",
+          "outcome": "Semax administration reduced the anxiety-like behaviour, improved learning abilities and normalized the levels of brain biogenic amines impaired by the FA exposure."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2020: The synthetic melanocortin derivative, ACTH (4-7) PGP (Semax), has been used successfully in the treatment of patients with severe impairment of cerebral blood circulation.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32580520"
+        ],
+        "source_excerpt": "The synthetic melanocortin derivative, ACTH (4-7) PGP (Semax), has been used successfully in the treatment of patients with severe impairment of cerebral blood circulation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Filippenkov 2020",
+          "year": "2020",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2020: Deltalicin in a dose 100 μg/kg and Semax in a dose 200 μg/kg as well as sulodexide corrected lipid metabolism disorders: the content of total cholesterol, triglycerides, LDL, index of atherogenicity decreased and HDL concentration increased.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32246363"
+        ],
+        "source_excerpt": "Deltalicin in a dose 100 μg/kg and Semax in a dose 200 μg/kg as well as sulodexide corrected lipid metabolism disorders: the content of total cholesterol, triglycerides, LDL, index of atherogenicity decreased and HDL concentration increased.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Elagina 2020",
+          "year": "2020",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "200 μg/kg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Deltalicin in a dose 100 μg/kg and Semax in a dose 200 μg/kg as well as sulodexide corrected lipid metabolism disorders: the content of total cholesterol, triglycerides, LDL, index of atherogenicity decreased and HDL…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2014: Three hours after pMCAO, Semax influenced the expression of some genes that affect the activity of immune cells, and, 24 h after pMCAO, the action of Semax on the immune response increased considerably.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-24661604"
+        ],
+        "source_excerpt": "Three hours after pMCAO, Semax influenced the expression of some genes that affect the activity of immune cells, and, 24 h after pMCAO, the action of Semax on the immune response increased considerably.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Medvedeva 2014",
+          "year": "2014",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Three hours after pMCAO, Semax influenced the expression of some genes that affect the activity of immune cells, and, 24 h after pMCAO, the action of Semax on the immune response increased considerably."
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -44,15 +814,45 @@
       "review": 0,
       "unclassified": 0
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 37,
+      "claims": 29,
+      "evidence_table_rows": 25
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports dose-escalation schedules for Semax.",
+    "No study in this record's ledger reports exclusion criteria for Semax.",
+    "No study in this record's ledger reports adverse events or their frequency for Semax.",
+    "No study in this record's ledger reports onset or duration of effects for Semax."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Semax been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 3 clinical trials and 1 randomized controlled trials naming Semax or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Semax?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Semax an approved medicine?",
+      "answer": "No ChEMBL record matches Semax or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has Semax been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42074872",
@@ -322,7 +1122,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 79.0,
   "review": {
     "author": "",
     "reviewer": "",
@@ -337,6 +1137,14 @@
     {
       "date": "2026-09-14",
       "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 37 ledger sources by scripts/draft_claims.py: 39 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 37 ledger sources by scripts/draft_claims.py: 29 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

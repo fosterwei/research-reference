@@ -8,26 +8,688 @@
     "timbetasin"
   ],
   "slug": "tb-500",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for TB-500. Europe PMC indexes 1257 publications, including 7 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "TB-500 is a peptide in the repair & anti inflammatory class (thymosin beta-4 fragment; actin sequestration, angiogenesis). Europe PMC indexes 1,257 publications naming it or a listed alias in a title or abstract, including 7 randomized controlled trials and 6 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "TB-500: what the research shows",
-    "description": "Cited overview of published TB-500 research: 1257 indexed publications, 7 randomized controlled trials. Evidence tier on every claim."
+    "description": "TB-500 research, cited: 1,257 indexed publications, 7 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
-    "escalation_schedules": [],
-    "interactions": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, 2021: administration by intravenous route reported. The study evaluated the safety, tolerability, pharmacokinetics (PK) and anti-drug antibody (ADA) of the recombinant human thymosin β4 (NL005) for single and multiple intravenous injections in healthy subjects.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34346165"
+        ],
+        "source_excerpt": "The study evaluated the safety, tolerability, pharmacokinetics (PK) and anti-drug antibody (ADA) of the recombinant human thymosin β4 (NL005) for single and multiple intravenous injections in healthy subjects.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=72, 2007: administration by topical route reported. The objective of this double-blind, placebo-controlled, dose-escalation study is to evaluate safety, tolerability, and enhancement on healing of thymosin beta-4 (Tbeta-4) administered topically in patients with venous ulcers.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17495250"
+        ],
+        "source_excerpt": "The objective of this double-blind, placebo-controlled, dose-escalation study is to evaluate safety, tolerability, and enhancement on healing of thymosin beta-4 (Tbeta-4) administered topically in patients with venous ulcers.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2026: administration by oral route reported. Conversely, oral administration of recombinant human Tβ4 (rhTβ4) significantly improved survival, alleviated body weight loss, reduced epithelial injury, and suppressed inflammatory cytokine production in both prophylactic and therapeutic colitis models.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42606759"
+        ],
+        "source_excerpt": "Conversely, oral administration of recombinant human Tβ4 (rhTβ4) significantly improved survival, alleviated body weight loss, reduced epithelial injury, and suppressed inflammatory cytokine production in both prophylactic and therapeutic colitis models.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Animal study, rats, 2026: doses stated in the abstract: 60 µg/kg/day. Thirty-two male Sprague-Dawley rats, each aged 12 weeks and weighing approximately 330 g, underwent standardized Achilles tendon transection and repair and were randomly assigned to four groups, with eight rats in each group: control, BPC-157 (10 µg/kg/day), TB-500…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42542926"
+        ],
+        "source_excerpt": "Thirty-two male Sprague-Dawley rats, each aged 12 weeks and weighing approximately 330 g, underwent standardized Achilles tendon transection and repair and were randomly assigned to four groups, with eight rats in each group: control, BPC-157 (10 µg/kg/day), TB-500 (60 µg/kg/day), and combined BPC-157 + TB-500 (BPC + TB).",
+        "drafting": "extractive"
+      }
+    ],
+    "escalation_schedules": [
+      {
+        "value": "Randomized controlled trial, humans, n=72, 2007: The objective of this double-blind, placebo-controlled, dose-escalation study is to evaluate safety, tolerability, and enhancement on healing of thymosin beta-4 (Tbeta-4) administered topically in patients with venous ulcers.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17495250"
+        ],
+        "source_excerpt": "The objective of this double-blind, placebo-controlled, dose-escalation study is to evaluate safety, tolerability, and enhancement on healing of thymosin beta-4 (Tbeta-4) administered topically in patients with venous ulcers.",
+        "drafting": "extractive"
+      }
+    ],
+    "interactions": [
+      {
+        "value": "Animal study, rats, 2026: Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42578445"
+        ],
+        "source_excerpt": "Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
     "adverse_events": [],
-    "biomarkers_monitored": [],
+    "biomarkers_monitored": [
+      {
+        "value": "Human study, humans, 2026: Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1, thymosin beta-4, clusterin, interleukin-6, superoxide dismutase, and selected matrix…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41742019"
+        ],
+        "source_excerpt": "Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1, thymosin beta-4, clusterin, interleukin-6, superoxide dismutase, and selected matrix metalloproteinases can be distinguished.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=43, 2025: Although thymosin beta 4 has shown cardioprotective effects in preclinical MI models, its impact on chronic cardiac functional recovery post ischemia/reperfusion (I/R), especially in STEMI, warrants further investigation.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41229390"
+        ],
+        "source_excerpt": "Although thymosin beta 4 has shown cardioprotective effects in preclinical MI models, its impact on chronic cardiac functional recovery post ischemia/reperfusion (I/R), especially in STEMI, warrants further investigation.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2024: In previous studies, it was confirmed that thymosin beta 4 (Tβ4) could enhance fat survival in vivo, although the precise mechanism remains unclear.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-38409346"
+        ],
+        "source_excerpt": "In previous studies, it was confirmed that thymosin beta 4 (Tβ4) could enhance fat survival in vivo, although the precise mechanism remains unclear.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2021: Tmsb4x (thymosin beta-4 X-linked), Hmox1, Ifitm3, Ldhb, and Itgb7 were identified as strong candidate genes that promote metastasis.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-34081824"
+        ],
+        "source_excerpt": "Tmsb4x (thymosin beta-4 X-linked), Hmox1, Ifitm3, Ldhb, and Itgb7 were identified as strong candidate genes that promote metastasis.",
+        "drafting": "extractive"
+      }
+    ],
     "reported_timelines": [],
     "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
-    "regulatory_status": []
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, 2021: durations stated: 10 days; 28 days. A total of 30 healthy subjects were randomly enrolled in the multiple-dose trial, and 3 cohorts (0.5, 2.0 and 5.0 μg/kg) were administered once human thymosin β4 daily for 10 days and observed for 28 days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34346165"
+        ],
+        "source_excerpt": "A total of 30 healthy subjects were randomly enrolled in the multiple-dose trial, and 3 cohorts (0.5, 2.0 and 5.0 μg/kg) were administered once human thymosin β4 daily for 10 days and observed for 28 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=5, 2016: durations stated: 6 months. After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27288307"
+        ],
+        "source_excerpt": "After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking distance was 37.5 m (95% confidence interval [CI], 28.7-56.3 m; P Discussion Our pilot study suggested that Tβ4-optimized EPC transplantation appeared to be feasible and safe, and might have beneficial effects on exercise capacity and left ventricular function in patients with STEMI.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2015: durations stated: 56 day; 28 day; 28 days. A small, multicenter, randomized, double-masked, placebo-controlled 56-day phase 2 clinical trial including a 28-day follow-up at 2 US sites.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25826322"
+        ],
+        "source_excerpt": "A small, multicenter, randomized, double-masked, placebo-controlled 56-day phase 2 clinical trial including a 28-day follow-up at 2 US sites.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2010: durations stated: 14 days. Following safety review, subjects were given the same dose regimen daily for 14 days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-20536472"
+        ],
+        "source_excerpt": "Following safety review, subjects were given the same dose regimen daily for 14 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=72, 2007: durations stated: 84 days; 14 days. So, the study design comprehends 72 patients treated for 84 days and followed for 14 days at the end of treatment.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17495250"
+        ],
+        "source_excerpt": "So, the study design comprehends 72 patients treated for 84 days and followed for 14 days at the end of treatment.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=43, 2025: durations stated: 7 day; 28 days; 1 day. Methods and results In C57BL/6J mice, 7-day rhTB4 treatment prevented cardiac dysfunction and fibrosis 28 days post-I/R surgery and significantly reduced plasma NT-proBNP levels at both 1 day and 28 days post-I/R.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41229390"
+        ],
+        "source_excerpt": "Methods and results In C57BL/6J mice, 7-day rhTB4 treatment prevented cardiac dysfunction and fibrosis 28 days post-I/R surgery and significantly reduced plasma NT-proBNP levels at both 1 day and 28 days post-I/R.",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Animal study, rats, 2026: weight-normalized doses as published: 60 µg/kg/day. Thirty-two male Sprague-Dawley rats, each aged 12 weeks and weighing approximately 330 g, underwent standardized Achilles tendon transection and repair and were randomly assigned to four groups, with eight rats in each group: control, BPC-157 (10 µg/kg/day),…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42542926"
+        ],
+        "source_excerpt": "Thirty-two male Sprague-Dawley rats, each aged 12 weeks and weighing approximately 330 g, underwent standardized Achilles tendon transection and repair and were randomly assigned to four groups, with eight rats in each group: control, BPC-157 (10 µg/kg/day), TB-500 (60 µg/kg/day), and combined BPC-157 + TB-500 (BPC + TB).",
+        "drafting": "extractive"
+      }
+    ],
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, 2021: The plasma concentration, maximum peak concentration (C max ) and AUC of each dose group increased with the increase in the dose.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34346165"
+        ],
+        "source_excerpt": "The plasma concentration, maximum peak concentration (C max ) and AUC of each dose group increased with the increase in the dose.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wang 2021",
+          "year": "2021",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "10 days; 28 days",
+          "outcome": "The plasma concentration, maximum peak concentration (C max ) and AUC of each dose group increased with the increase in the dose."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2020: A subset model of 4 variables (kerosene uses, ventilation, workplace, and gender) based on significant AOR was adjudged acceptable for estimating the probability of TB incidences.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33318598"
+        ],
+        "source_excerpt": "A subset model of 4 variables (kerosene uses, ventilation, workplace, and gender) based on significant AOR was adjudged acceptable for estimating the probability of TB incidences.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Pathak 2020",
+          "year": "2020",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "A subset model of 4 variables (kerosene uses, ventilation, workplace, and gender) based on significant AOR was adjudged acceptable for estimating the probability of TB incidences."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=5, 2016: After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking distance was 37.5 m (95% confidence…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27288307"
+        ],
+        "source_excerpt": "After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking distance was 37.5 m (95% confidence interval [CI], 28.7-56.3 m; P Discussion Our pilot study suggested that Tβ4-optimized EPC transplantation appeared to be feasible and safe, and might have beneficial effects on exercise capacity and left ventricular function in patients with STEMI.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhu 2016",
+          "year": "2016",
+          "design": "Randomized controlled trial",
+          "n": 5,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "6 months",
+          "outcome": "After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2015: Statistically significant differences in both symptom and sign assessments, were seen at various time points throughout the study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25826322"
+        ],
+        "source_excerpt": "Statistically significant differences in both symptom and sign assessments, were seen at various time points throughout the study.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Sosne 2015",
+          "year": "2015",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "56 day; 28 day",
+          "outcome": "Statistically significant differences in both symptom and sign assessments, were seen at various time points throughout the study."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2010: Pharmacokinetic profile for single dose showed a dose proportional response, and an increasing half-life with increasing dose.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-20536472"
+        ],
+        "source_excerpt": "Pharmacokinetic profile for single dose showed a dose proportional response, and an increasing half-life with increasing dose.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ruff 2010",
+          "year": "2010",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "14 days",
+          "outcome": "Pharmacokinetic profile for single dose showed a dose proportional response, and an increasing half-life with increasing dose."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=73, 2010: Thymosin beta 4 (Tbeta4), a synthetic copy of the naturally occurring 43 amino-acid peptide, has been found to have wound healing and anti-inflammatory properties, and is thought to exert its therapeutic effect through promotion of keratinocyte and endothelial cell migration, increased…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-20536470"
+        ],
+        "source_excerpt": "Thymosin beta 4 (Tbeta4), a synthetic copy of the naturally occurring 43 amino-acid peptide, has been found to have wound healing and anti-inflammatory properties, and is thought to exert its therapeutic effect through promotion of keratinocyte and endothelial cell migration, increased collagen deposition, and stimulation of angiogenesis.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Guarnera 2010",
+          "year": "2010",
+          "design": "Randomized controlled trial",
+          "n": 73,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Thymosin beta 4 (Tbeta4), a synthetic copy of the naturally occurring 43 amino-acid peptide, has been found to have wound healing and anti-inflammatory properties, and is thought to exert its therapeutic effect through…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=72, 2007: The study is ongoing and a total of 21 patients have been enrolled so far in the first treatment group at the lower dose.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17495250"
+        ],
+        "source_excerpt": "The study is ongoing and a total of 21 patients have been enrolled so far in the first treatment group at the lower dose.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Guarnera 2007",
+          "year": "2007",
+          "design": "Randomized controlled trial",
+          "n": 72,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "topical",
+          "duration": "84 days; 14 days",
+          "outcome": "The study is ongoing and a total of 21 patients have been enrolled so far in the first treatment group at the lower dose."
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: In diabetic ischemic mice, TLR4 inhibition was associated with altered abundance of several circulating proteins, including reductions in selected amyloid-associated proteins.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42440461"
+        ],
+        "source_excerpt": "In diabetic ischemic mice, TLR4 inhibition was associated with altered abundance of several circulating proteins, including reductions in selected amyloid-associated proteins.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Uyy 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In diabetic ischemic mice, TLR4 inhibition was associated with altered abundance of several circulating proteins, including reductions in selected amyloid-associated proteins."
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1, thymosin beta-4, clusterin, interleukin-6, superoxide dismutase, and selected matrix…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41742019"
+        ],
+        "source_excerpt": "Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1, thymosin beta-4, clusterin, interleukin-6, superoxide dismutase, and selected matrix metalloproteinases can be distinguished.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Simiczyjew 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1,…"
+        }
+      },
+      {
+        "value": "Human study, humans, n=43, 2025: In a randomized, placebo-controlled, double-blind trial involving 96 STEMI patients, the infarcted areas were significantly reduced in the rhTB4 group, which received the first dose of rhTB4 within 8 h after PCI (n = 43), as compared to the placebo group at the 90-day follow-up.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41229390"
+        ],
+        "source_excerpt": "In a randomized, placebo-controlled, double-blind trial involving 96 STEMI patients, the infarcted areas were significantly reduced in the rhTB4 group, which received the first dose of rhTB4 within 8 h after PCI (n = 43), as compared to the placebo group at the 90-day follow-up.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhang 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": 43,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "7 day; 28 days",
+          "outcome": "In a randomized, placebo-controlled, double-blind trial involving 96 STEMI patients, the infarcted areas were significantly reduced in the rhTB4 group, which received the first dose of rhTB4 within 8 h after PCI (n =…"
+        }
+      },
+      {
+        "value": "Human study, humans, 2025: The goal of this study was to analyze in depth the importance of the thymosin beta 4 X-linked gene (TMSB4X) in the disease process of gliomas for the prediction of patient prognosis.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40502330"
+        ],
+        "source_excerpt": "The goal of this study was to analyze in depth the importance of the thymosin beta 4 X-linked gene (TMSB4X) in the disease process of gliomas for the prediction of patient prognosis.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Li 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Human study, humans, 2024: Tβ4 enhances adipose viability in AFG via facilitating ADSC proliferation and reducing apoptosis, and acts as a crucial positive regulator of ADSC-associated angiogenesis.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-38409346"
+        ],
+        "source_excerpt": "Tβ4 enhances adipose viability in AFG via facilitating ADSC proliferation and reducing apoptosis, and acts as a crucial positive regulator of ADSC-associated angiogenesis.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Li 2024",
+          "year": "2024",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Tβ4 enhances adipose viability in AFG via facilitating ADSC proliferation and reducing apoptosis, and acts as a crucial positive regulator of ADSC-associated angiogenesis."
+        }
+      },
+      {
+        "value": "Observational study, humans, n=64, 2021: Lower Tβ4 stages were correlated with poor prognosis, including AKI(odds ratio [OR], 2.102 per stage lower; 95% confidence interval [CI], 1.448 to 3.050; P Conclusions Lower Tβ4 stages are associated with higher odds of poor prognosis in ICU patients with sepsis.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-34607232"
+        ],
+        "source_excerpt": "Lower Tβ4 stages were correlated with poor prognosis, including AKI(odds ratio [OR], 2.102 per stage lower; 95% confidence interval [CI], 1.448 to 3.050; P Conclusions Lower Tβ4 stages are associated with higher odds of poor prognosis in ICU patients with sepsis.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhang 2021",
+          "year": "2021",
+          "design": "Observational study",
+          "n": 64,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "7 days; 28 days",
+          "outcome": "Lower Tβ4 stages were correlated with poor prognosis, including AKI(odds ratio [OR], 2.102 per stage lower; 95% confidence interval [CI], 1.448 to 3.050; P Conclusions Lower Tβ4 stages are associated with higher odds…"
+        }
+      },
+      {
+        "value": "Human study, humans, n=219, 2017: Stratifying by sex, only women (1623 [1040-2625] ng/mL versus 942 [386-1891] ng/mL, P P =1.0), had significantly elevated TB4 in the setting of HFpEF.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-28611096"
+        ],
+        "source_excerpt": "Stratifying by sex, only women (1623 [1040-2625] ng/mL versus 942 [386-1891] ng/mL, P P =1.0), had significantly elevated TB4 in the setting of HFpEF.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Drum 2017",
+          "year": "2017",
+          "design": "Human study",
+          "n": 219,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Stratifying by sex, only women (1623 [1040-2625] ng/mL versus 942 [386-1891] ng/mL, P P =1.0), had significantly elevated TB4 in the setting of HFpEF."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42578445"
+        ],
+        "source_excerpt": "Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Tewari 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42542926"
+        ],
+        "source_excerpt": "Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters and extracellular matrix organization during early Achilles tendon repair, with TB-500 additionally demonstrating a significant biomechanical advantage at four weeks.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Biçer 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "60 µg/kg/day",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: Conversely, oral administration of recombinant human Tβ4 (rhTβ4) significantly improved survival, alleviated body weight loss, reduced epithelial injury, and suppressed inflammatory cytokine production in both prophylactic and therapeutic colitis models.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42606759"
+        ],
+        "source_excerpt": "Conversely, oral administration of recombinant human Tβ4 (rhTβ4) significantly improved survival, alleviated body weight loss, reduced epithelial injury, and suppressed inflammatory cytokine production in both prophylactic and therapeutic colitis models.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhao 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "oral",
+          "duration": "not stated in abstract",
+          "outcome": "Conversely, oral administration of recombinant human Tβ4 (rhTβ4) significantly improved survival, alleviated body weight loss, reduced epithelial injury, and suppressed inflammatory cytokine production in both…"
+        }
+      },
+      {
+        "value": "Animal study, 2026: Although Tβ4 improved wound healing and barrier function, the disruptive effects of CPFX were not fully mitigated.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42431294"
+        ],
+        "source_excerpt": "Although Tβ4 improved wound healing and barrier function, the disruptive effects of CPFX were not fully mitigated.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Banga 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Although Tβ4 improved wound healing and barrier function, the disruptive effects of CPFX were not fully mitigated."
+        }
+      },
+      {
+        "value": "Animal study, mice, n=6, 2026: Adjunctive Tβ4 + ciprofloxacin treatment markedly improved visual acuity and contrast sensitivity and significantly enhanced corneal sensitivity and nerve regeneration compared with PBS, Tβ4, and ciprofloxacin monotherapies.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42283548"
+        ],
+        "source_excerpt": "Adjunctive Tβ4 + ciprofloxacin treatment markedly improved visual acuity and contrast sensitivity and significantly enhanced corneal sensitivity and nerve regeneration compared with PBS, Tβ4, and ciprofloxacin monotherapies.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ebrahim 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 6,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Adjunctive Tβ4 + ciprofloxacin treatment markedly improved visual acuity and contrast sensitivity and significantly enhanced corneal sensitivity and nerve regeneration compared with PBS, Tβ4, and ciprofloxacin…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: Intrauterine adhesions (IUA), a leading cause of female infertility, result from a pathological switch in the uterine injury response from regeneration to fibrotic scarring.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41565687"
+        ],
+        "source_excerpt": "Intrauterine adhesions (IUA), a leading cause of female infertility, result from a pathological switch in the uterine injury response from regeneration to fibrotic scarring.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Liang 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, 2026: Consistent with these findings, we demonstrate that IPO9 modestly decreases the rate of actin filament assembly, a process that requires both actin faces, and that IPO9 exhibits minimal binding to actin filaments.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41478570"
+        ],
+        "source_excerpt": "Consistent with these findings, we demonstrate that IPO9 modestly decreases the rate of actin filament assembly, a process that requires both actin faces, and that IPO9 exhibits minimal binding to actin filaments.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Keplinger 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Consistent with these findings, we demonstrate that IPO9 modestly decreases the rate of actin filament assembly, a process that requires both actin faces, and that IPO9 exhibits minimal binding to actin filaments."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2025: In vitro, tTB4 promoted increased hTCEpi viability and migration compared to TB4.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41235866"
+        ],
+        "source_excerpt": "In vitro, tTB4 promoted increased hTCEpi viability and migration compared to TB4.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Nguyen 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In vitro, tTB4 promoted increased hTCEpi viability and migration compared to TB4."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2025: Interestingly, the expression level of the gene TMSB4X that encodes thymosin beta 4 (Tβ4) significantly decreased both in fAD organoids' neurons and AD patients' excitatory neurons.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40816274"
+        ],
+        "source_excerpt": "Interestingly, the expression level of the gene TMSB4X that encodes thymosin beta 4 (Tβ4) significantly decreased both in fAD organoids' neurons and AD patients' excitatory neurons.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zeng 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Interestingly, the expression level of the gene TMSB4X that encodes thymosin beta 4 (Tβ4) significantly decreased both in fAD organoids' neurons and AD patients' excitatory neurons."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2025: Our results revealed a significant increase in miR139-5p expression and identified ROCK1 as a potential target protein aligned.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40362372"
+        ],
+        "source_excerpt": "Our results revealed a significant increase in miR139-5p expression and identified ROCK1 as a potential target protein aligned.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Maar 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Our results revealed a significant increase in miR139-5p expression and identified ROCK1 as a potential target protein aligned."
+        }
+      },
+      {
+        "value": "Animal study, rats, mice, 2025: Furthermore, single-cell sequencing revealed a distinct subset of pro-inflammatory and pro-fibrotic corneal epithelial cells in the dry eye model, while glutamine treatment downregulated those subclusters, thereby reducing their inflammatory cytokine secretion.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39837870"
+        ],
+        "source_excerpt": "Furthermore, single-cell sequencing revealed a distinct subset of pro-inflammatory and pro-fibrotic corneal epithelial cells in the dry eye model, while glutamine treatment downregulated those subclusters, thereby reducing their inflammatory cytokine secretion.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Chen 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats, Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Furthermore, single-cell sequencing revealed a distinct subset of pro-inflammatory and pro-fibrotic corneal epithelial cells in the dry eye model, while glutamine treatment downregulated those subclusters, thereby…"
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -49,15 +711,45 @@
       "review": 0,
       "unclassified": 2
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 50,
+      "claims": 17,
+      "evidence_table_rows": 25
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports exclusion criteria for TB-500.",
+    "No study in this record's ledger reports adverse events or their frequency for TB-500.",
+    "No study in this record's ledger reports onset or duration of effects for TB-500.",
+    "No study in this record's ledger reports storage or stability for TB-500."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has TB-500 been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 6 clinical trials and 7 randomized controlled trials naming TB-500 or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for TB-500?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is TB-500 an approved medicine?",
+      "answer": "No ChEMBL record matches TB-500 or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has TB-500 been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42606759",
@@ -418,7 +1110,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 79.4,
   "review": {
     "author": "",
     "reviewer": "",
@@ -429,6 +1121,14 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 50 ledger sources by scripts/draft_claims.py: 36 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 50 ledger sources by scripts/draft_claims.py: 17 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

@@ -3,12 +3,12 @@
   "preferred_name": "Cartalax",
   "aliases": [],
   "slug": "cartalax",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "community-reported",
-  "summary": "Research record for Cartalax. Europe PMC indexes 0 publications, including 0 randomized controlled trials, as of 2026-09-09. Claims are pending human authorship and review.",
+  "summary": "Cartalax is a peptide in the bioregulator short peptides class (cartilage bioregulator claimed; no indexed primary literature). Europe PMC indexes 0 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-09. The strongest evidence tier in that literature is no indexed study at all; what circulates about it is community-reported. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Cartalax: what the research shows",
-    "description": "Cited overview of published Cartalax research: 0 indexed publications, 0 randomized controlled trials. Evidence tier on every claim."
+    "description": "Cartalax research, cited: 0 indexed publications, 0 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
     "routes_studied": [],
@@ -44,18 +44,41 @@
       "review": 0,
       "unclassified": 0
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 0,
+      "claims": 0,
+      "evidence_table_rows": 0
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No indexed study names Cartalax in its title or abstract. Everything currently said about it is unverified."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Cartalax been tested in humans?",
+      "answer": "Not in any indexed clinical trial. The studies in this record's ledger report work in laboratory systems. Any human dosing information circulating about Cartalax does not come from a published trial."
+    },
+    {
+      "question": "What kind of evidence exists for Cartalax?",
+      "answer": "The strongest tier is community reported: no indexed study at all; what circulates about it is community-reported. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Cartalax an approved medicine?",
+      "answer": "No ChEMBL record matches Cartalax or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    }
+  ],
   "sources": [],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 66.1,
   "review": {
     "author": "",
     "reviewer": "",
@@ -66,6 +89,22 @@
     {
       "date": "2026-09-09",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 0 ledger sources by scripts/draft_claims.py: 0 claims, 0 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 0 ledger sources by scripts/draft_claims.py: 0 claims, 0 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 0 ledger sources by scripts/draft_claims.py: 0 claims, 0 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 0 ledger sources by scripts/draft_claims.py: 0 claims, 0 evidence-table rows. Status researched -> draft."
     }
   ]
 }

@@ -1,0 +1,90 @@
+{
+  "type": "stack",
+  "title": "CJC-1295 + ipamorelin",
+  "slug": "cjc-1295-ipamorelin",
+  "status": "draft",
+  "summary": "CJC-1295 + ipamorelin combines CJC-1295 (human clinical trial) and Ipamorelin (human clinical trial). A stack cannot carry a stronger evidence tier than its weakest component, which here is human clinical trial. 3 indexed studies mention both components; the combination-evidence section quotes what they state.",
+  "seo": {
+    "title": "CJC-1295 + ipamorelin: the evidence",
+    "description": "CJC-1295 + Ipamorelin: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+  },
+  "attributes": {
+    "combination_evidence": [
+      {
+        "value": "Animal study, rats, 2026: To summarize existing peer-reviewed data on 6 emerging peptides (BPC-157, thymosin beta-4 or TB-500, CJC-1295, MK-677, ipamorelin, and GHK-Cu [copper peptide]) for musculoskeletal recovery and enhancement in animal and human models.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42578445"
+        ],
+        "source_excerpt": "To summarize existing peer-reviewed data on 6 emerging peptides (BPC-157, thymosin beta-4 or TB-500, CJC-1295, MK-677, ipamorelin, and GHK-Cu [copper peptide]) for musculoskeletal recovery and enhancement in animal and human models.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2019: Comparison with reference standards unequivocally identified the content of the powders as analogs of the growth hormone secretagogues GHRP-2 (Pralmorelin), GHRP-6, Ipamorelin, and modified growth hormone releasing factor (modified GRF 1-29), which can be used as performance-enhancing substances in sports.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-30136411"
+        ],
+        "source_excerpt": "Comparison with reference standards unequivocally identified the content of the powders as analogs of the growth hormone secretagogues GHRP-2 (Pralmorelin), GHRP-6, Ipamorelin, and modified growth hormone releasing factor (modified GRF 1-29), which can be used as performance-enhancing substances in sports.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2013: In our study, a simple mixed-mode anion exchange solid-phase extraction cartridge was employed for the extraction of seven target peptides (GHRP-1, GHRP-2, GHRP-6, ipamorelin, hexarelin, CJC-1295, and N-acetylated LKKTETQ (active ingredient of TB-500)) and their in vitro metabolites from horse plasma.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-23318763"
+        ],
+        "source_excerpt": "In our study, a simple mixed-mode anion exchange solid-phase extraction cartridge was employed for the extraction of seven target peptides (GHRP-1, GHRP-2, GHRP-6, ipamorelin, hexarelin, CJC-1295, and N-acetylated LKKTETQ (active ingredient of TB-500)) and their in vitro metabolites from horse plasma.",
+        "drafting": "extractive"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "pmid-42578445",
+      "title": "Peptide Supplements and Their Therapeutic Applications in Sports Medicine.",
+      "url": "https://europepmc.org/article/MED/42578445",
+      "published": "2026-08-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-30136411",
+      "title": "Glycine-modified growth hormone secretagogues identified in seized doping material.",
+      "url": "https://europepmc.org/article/MED/30136411",
+      "published": "2018-09-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23318763",
+      "title": "Doping control analysis of seven bioactive peptides in horse plasma by liquid chromatography-mass spectrometry.",
+      "url": "https://europepmc.org/article/MED/23318763",
+      "published": "2013-01-15",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [
+    "cjc-1295",
+    "ipamorelin"
+  ],
+  "faq": [],
+  "open_questions": [
+    "No published schedule reconciles the components' different reported frequencies onto one calendar."
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "uniqueness_pct": 76.6,
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Stack record generated from research/registry.json plan; 3 combination claims drafted extractively by scripts/draft_claims.py."
+    }
+  ],
+  "components": [
+    "cjc-1295",
+    "ipamorelin"
+  ]
+}

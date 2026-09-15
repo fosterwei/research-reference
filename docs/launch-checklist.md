@@ -29,7 +29,8 @@
 - [ ] Baseline for the metrics in `docs/PRD.md` recorded.
 - [ ] Batch review scheduled 2–4 weeks after launch.
 - [ ] Every indexable record has a named reviewer with a stated credential.
-- [ ] Uniqueness measured per page and recorded in `uniqueness_pct`.
+- [ ] Uniqueness measured per page with `scripts/measure_pages.py --write` and recorded in `uniqueness_pct`.
+- [ ] Every extractive claim's excerpt checked against its value and heading by the reviewer; comparator doses removed where the attribution heuristic missed.
 - [ ] Titles within 60 characters and descriptions within 160, checked across all page types.
 - [ ] Sitemap contains no redirecting or placeholder URLs.
 - [ ] `lastmod` matches record revision time, not build time.

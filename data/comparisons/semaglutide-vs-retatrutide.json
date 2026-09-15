@@ -1,0 +1,168 @@
+{
+  "type": "comparison",
+  "title": "Semaglutide vs Retatrutide",
+  "slug": "semaglutide-vs-retatrutide",
+  "status": "draft",
+  "summary": "Semaglutide: tier approved label, 6,039 indexed publications, 305 randomized trials. Retatrutide: tier human clinical trial, 197 indexed publications, 7 randomized trials. 8 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "seo": {
+    "title": "Semaglutide vs Retatrutide: what the studies show",
+    "description": "Semaglutide vs Retatrutide, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+  },
+  "attributes": {
+    "head_to_head": [
+      {
+        "value": "Animal study, mice, 2026: Given the therapeutic potential of GLP-1 receptor agonists (semaglutide, tirzepatide, and retatrutide) in diabetic nephropathy, we evaluated their anti-fibrotic and anti-inflammatory effects in non-diabetic renal fibrosis using HK-2 cells and murine UUO and aging models.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42630988"
+        ],
+        "source_excerpt": "Given the therapeutic potential of GLP-1 receptor agonists (semaglutide, tirzepatide, and retatrutide) in diabetic nephropathy, we evaluated their anti-fibrotic and anti-inflammatory effects in non-diabetic renal fibrosis using HK-2 cells and murine UUO and aging models.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2026: Recently, glucagon-like peptide-1 (GLP-1) analogs, including semaglutide, tirzepatide, and retatrutide, have been explored as potential anti-obesity therapies.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41723268"
+        ],
+        "source_excerpt": "Recently, glucagon-like peptide-1 (GLP-1) analogs, including semaglutide, tirzepatide, and retatrutide, have been explored as potential anti-obesity therapies.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2026: GLP-1 receptor agonists, including semaglutide, reduce alcohol intake and relapse-like behaviors in rodent and non-human primate models, and a recent clinical trial found that semaglutide decreased alcohol craving and drinking in adults with AUD.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40699363"
+        ],
+        "source_excerpt": "GLP-1 receptor agonists, including semaglutide, reduce alcohol intake and relapse-like behaviors in rodent and non-human primate models, and a recent clinical trial found that semaglutide decreased alcohol craving and drinking in adults with AUD.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2025: We report that in pre-clinical models with significant retatrutide (RETA, LY3437943)-induced weight loss, pancreatic cancer engraftment was reduced, tumor onset was delayed, and progression was attenuated resulting in a 14-fold reduction in tumor volume compared to only 4-fold reduction in single agonist…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40094000"
+        ],
+        "source_excerpt": "We report that in pre-clinical models with significant retatrutide (RETA, LY3437943)-induced weight loss, pancreatic cancer engraftment was reduced, tumor onset was delayed, and progression was attenuated resulting in a 14-fold reduction in tumor volume compared to only 4-fold reduction in single agonist semaglutide-treated mice.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=214, 2026: Compared with placebo, weight loss was greatest with retatrutide (-22.10%, 95% confidence interval -25.60% to -18.60%), followed by tirzepatide (-19.28%, -20.39% to -18.16%), and CagriSema (a combination of cagrilintide and semaglutide, -17.32%, -19.32% to -15.32%).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42688617"
+        ],
+        "source_excerpt": "Compared with placebo, weight loss was greatest with retatrutide (-22.10%, 95% confidence interval -25.60% to -18.60%), followed by tirzepatide (-19.28%, -20.39% to -18.16%), and CagriSema (a combination of cagrilintide and semaglutide, -17.32%, -19.32% to -15.32%).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2023: Although retatrutide may be superior to the GLP-1 receptor agonist dulaglutide in reducing plasma glucose and body weight, this is not a meaningful comparison, as another GLP-1 receptor agonist (semaglutide) is more potent than dulaglutide at this and may have similar efficacy to retatrutide.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-37086147"
+        ],
+        "source_excerpt": "Although retatrutide may be superior to the GLP-1 receptor agonist dulaglutide in reducing plasma glucose and body weight, this is not a meaningful comparison, as another GLP-1 receptor agonist (semaglutide) is more potent than dulaglutide at this and may have similar efficacy to retatrutide.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2026: Recent evidence reinforces this framework: the SOUL trial established cardiovascular superiority for oral semaglutide, extending disease-modifying properties beyond injectable formulations, while Phase 3 TRIUMPH data position retatrutide as an emerging triple-agonist candidate awaiting cardiovascular outcome data.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42649514"
+        ],
+        "source_excerpt": "Recent evidence reinforces this framework: the SOUL trial established cardiovascular superiority for oral semaglutide, extending disease-modifying properties beyond injectable formulations, while Phase 3 TRIUMPH data position retatrutide as an emerging triple-agonist candidate awaiting cardiovascular outcome data.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2026: In patients with type 2 diabetes, semaglutide prevents chronic kidney disease (CKD), while retatrutide reduces albuminuria in patients with diabetes and established CKD.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41540866"
+        ],
+        "source_excerpt": "In patients with type 2 diabetes, semaglutide prevents chronic kidney disease (CKD), while retatrutide reduces albuminuria in patients with diabetes and established CKD.",
+        "drafting": "extractive"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "pmid-42630988",
+      "title": "Comparative effects of semaglutide tirzepatide and retatrutide on renal fibrosis in UUO and aged mice.",
+      "url": "https://europepmc.org/article/MED/42630988",
+      "published": "2026-08-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41723268",
+      "title": "Efficacy of GLP-1 analog peptides, semaglutide, tirzepatide, and retatrutide on MC4R deficient obesity and their comparison.",
+      "url": "https://europepmc.org/article/MED/41723268",
+      "published": "2026-02-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40699363",
+      "title": "Semaglutide, tirzepatide, and retatrutide attenuate the interoceptive effects of alcohol in male and female rats.",
+      "url": "https://europepmc.org/article/MED/40699363",
+      "published": "2025-07-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40094000",
+      "title": "Incretin triple agonist retatrutide (LY3437943) alleviates obesity-associated cancer progression.",
+      "url": "https://europepmc.org/article/MED/40094000",
+      "published": "2025-03-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42688617",
+      "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
+      "url": "https://europepmc.org/article/MED/42688617",
+      "published": "2026-08-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37086147",
+      "title": "Is retatrutide (LY3437943), a GLP-1, GIP, and glucagon receptor agonist a step forward in the treatment of diabetes and obesity?",
+      "url": "https://europepmc.org/article/MED/37086147",
+      "published": "2023-04-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42649514",
+      "title": "Disease-modifying anti-diabetic drugs (DMADDs): bridging the SIMPLE approach to disease interception.",
+      "url": "https://europepmc.org/article/MED/42649514",
+      "published": "2026-08-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41540866",
+      "title": "[Nephrology : what's new in 2025].",
+      "url": "https://europepmc.org/article/MED/41540866",
+      "published": "2026-01-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [
+    "semaglutide",
+    "retatrutide"
+  ],
+  "faq": [],
+  "open_questions": [],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "uniqueness_pct": 91.3,
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Comparison record generated from research/registry.json plan; 8 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    }
+  ],
+  "sides": [
+    "semaglutide",
+    "retatrutide"
+  ]
+}

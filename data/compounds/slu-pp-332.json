@@ -6,26 +6,228 @@
     "SLU-PP332"
   ],
   "slug": "slu-pp-332",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "observational-human",
-  "summary": "Research record for SLU-PP-332. Europe PMC indexes 12 publications, including 0 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "SLU-PP-332 is a small molecule in the metabolic other class (ERR pan-agonist, exercise mimetic). Europe PMC indexes 12 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is observational human studies, with no indexed randomized trial. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "SLU-PP-332: what the research shows",
-    "description": "Cited overview of published SLU-PP-332 research: 12 indexed publications, 0 randomized controlled trials. Evidence tier on every claim."
+    "description": "SLU-PP-332 research, cited: 12 indexed publications, 0 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
+    "routes_studied": [
+      {
+        "value": "Animal study, mice, 2026: administration by oral route reported. We previously developed an ERR pan-agonist, SLU-PP-332 (332), which improves aerobic performance in mice but lacks oral bioavailability.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41421047"
+        ],
+        "source_excerpt": "We previously developed an ERR pan-agonist, SLU-PP-332 (332), which improves aerobic performance in mice but lacks oral bioavailability.",
+        "drafting": "extractive"
+      }
+    ],
     "study_doses": [],
     "escalation_schedules": [],
     "interactions": [],
     "exclusion_criteria": [],
     "adverse_events": [],
-    "biomarkers_monitored": [],
+    "biomarkers_monitored": [
+      {
+        "value": "Human study, humans, n=10, 2025: Primary cultures of myoblasts were set up from the muscle tissue of inactive women and treated with the ERRs agonist, SLU-PP-332, for subsequent qualitative and quantitative investigations.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40692696"
+        ],
+        "source_excerpt": "Primary cultures of myoblasts were set up from the muscle tissue of inactive women and treated with the ERRs agonist, SLU-PP-332, for subsequent qualitative and quantitative investigations.",
+        "drafting": "extractive"
+      }
+    ],
     "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
+    "storage": [
+      {
+        "value": "In vitro study, humans, 2026: While SLU-PP-332 remains a strong benchmark for ERR activation, several analogues achieve comparable or context-dependent transcriptional responses while exhibiting improved ligand efficiency, solubility, or metabolic stability.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41850449"
+        ],
+        "source_excerpt": "While SLU-PP-332 remains a strong benchmark for ERR activation, several analogues achieve comparable or context-dependent transcriptional responses while exhibiting improved ligand efficiency, solubility, or metabolic stability.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Human study, humans, 2023: durations stated: 21 month; 8 weeks; 3 weeks. A pan-ERR agonist, SLU-PP-332, was used to treat 21-month-old mice for 8 weeks.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-37717940"
+        ],
+        "source_excerpt": "A pan-ERR agonist, SLU-PP-332, was used to treat 21-month-old mice for 8 weeks.",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
-    "regulatory_status": []
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Human study, humans, n=10, 2025: Interestingly, SLU-PP-332 treatment promoted down-regulation of NOX4 and upregulation of SIRT1, PGC-1α, ERRα, FNDC5, Akt, and B-cell lymphoma 2 (Bcl-2) in myoblasts, reducing cytotoxicity, oxidative stress, and senescence, as well as increasing levels of reduced glutathione.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40692696"
+        ],
+        "source_excerpt": "Interestingly, SLU-PP-332 treatment promoted down-regulation of NOX4 and upregulation of SIRT1, PGC-1α, ERRα, FNDC5, Akt, and B-cell lymphoma 2 (Bcl-2) in myoblasts, reducing cytotoxicity, oxidative stress, and senescence, as well as increasing levels of reduced glutathione.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bonanni 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": 10,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Interestingly, SLU-PP-332 treatment promoted down-regulation of NOX4 and upregulation of SIRT1, PGC-1α, ERRα, FNDC5, Akt, and B-cell lymphoma 2 (Bcl-2) in myoblasts, reducing cytotoxicity, oxidative stress, and…"
+        }
+      },
+      {
+        "value": "Human study, humans, 2023: Remarkably, similar to CR, an 8-week treatment with a pan-ERR agonist reversed the age-related increases in albuminuria, podocyte loss, mitochondrial dysfunction, and inflammatory cytokines, via the cyclic GMP-AMP synthase-STING and STAT3 signaling pathways.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-37717940"
+        ],
+        "source_excerpt": "Remarkably, similar to CR, an 8-week treatment with a pan-ERR agonist reversed the age-related increases in albuminuria, podocyte loss, mitochondrial dysfunction, and inflammatory cytokines, via the cyclic GMP-AMP synthase-STING and STAT3 signaling pathways.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wang 2023",
+          "year": "2023",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "21 month; 8 weeks",
+          "outcome": "Remarkably, similar to CR, an 8-week treatment with a pan-ERR agonist reversed the age-related increases in albuminuria, podocyte loss, mitochondrial dysfunction, and inflammatory cytokines, via the cyclic GMP-AMP…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: We previously developed an ERR pan-agonist, SLU-PP-332 (332), which improves aerobic performance in mice but lacks oral bioavailability.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41421047"
+        ],
+        "source_excerpt": "We previously developed an ERR pan-agonist, SLU-PP-332 (332), which improves aerobic performance in mice but lacks oral bioavailability.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Billon 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "oral",
+          "duration": "not stated in abstract",
+          "outcome": "We previously developed an ERR pan-agonist, SLU-PP-332 (332), which improves aerobic performance in mice but lacks oral bioavailability."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2024: SLU-PP-332 administration mimics exercise-induced benefits on whole-body metabolism in mice including increased energy expenditure and fatty acid oxidation.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-37739806"
+        ],
+        "source_excerpt": "SLU-PP-332 administration mimics exercise-induced benefits on whole-body metabolism in mice including increased energy expenditure and fatty acid oxidation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Billon 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "SLU-PP-332 administration mimics exercise-induced benefits on whole-body metabolism in mice including increased energy expenditure and fatty acid oxidation."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2024: Both SLU-PP-332 and SLU-PP-915 significantly improved ejection fraction, ameliorated fibrosis, and increased survival associated with pressure overload-induced HF without affecting cardiac hypertrophy.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-37961903"
+        ],
+        "source_excerpt": "Both SLU-PP-332 and SLU-PP-915 significantly improved ejection fraction, ameliorated fibrosis, and increased survival associated with pressure overload-induced HF without affecting cardiac hypertrophy.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Xu 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Both SLU-PP-332 and SLU-PP-915 significantly improved ejection fraction, ameliorated fibrosis, and increased survival associated with pressure overload-induced HF without affecting cardiac hypertrophy."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2023: SLU-PP-332 increases mitochondrial function and cellular respiration in a skeletal muscle cell line.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36988910"
+        ],
+        "source_excerpt": "SLU-PP-332 increases mitochondrial function and cellular respiration in a skeletal muscle cell line.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Billon 2023",
+          "year": "2023",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "SLU-PP-332 increases mitochondrial function and cellular respiration in a skeletal muscle cell line."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2026: Rationale Estrogen-related receptor (ERR) agonists such as the drug candidates SLU-PP-332 and SLU-PP-915 are currently being investigated as exercise mimetics, given their ability to trigger human physiological processes similar to those initiated by actual physical activity.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41588687"
+        ],
+        "source_excerpt": "Rationale Estrogen-related receptor (ERR) agonists such as the drug candidates SLU-PP-332 and SLU-PP-915 are currently being investigated as exercise mimetics, given their ability to trigger human physiological processes similar to those initiated by actual physical activity.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Möller 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2026: While SLU-PP-332 remains a strong benchmark for ERR activation, several analogues achieve comparable or context-dependent transcriptional responses while exhibiting improved ligand efficiency, solubility, or metabolic stability.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41850449"
+        ],
+        "source_excerpt": "While SLU-PP-332 remains a strong benchmark for ERR activation, several analogues achieve comparable or context-dependent transcriptional responses while exhibiting improved ligand efficiency, solubility, or metabolic stability.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Okda 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "While SLU-PP-332 remains a strong benchmark for ERR activation, several analogues achieve comparable or context-dependent transcriptional responses while exhibiting improved ligand efficiency, solubility, or metabolic…"
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -47,15 +249,49 @@
       "review": 0,
       "unclassified": 0
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 9,
+      "claims": 4,
+      "evidence_table_rows": 8
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports doses used for SLU-PP-332.",
+    "No study in this record's ledger reports weight-normalized doses for SLU-PP-332.",
+    "No study in this record's ledger reports dose-escalation schedules for SLU-PP-332.",
+    "No study in this record's ledger reports interactions with other agents for SLU-PP-332.",
+    "No study in this record's ledger reports exclusion criteria for SLU-PP-332.",
+    "No study in this record's ledger reports adverse events or their frequency for SLU-PP-332.",
+    "No study in this record's ledger reports onset or duration of effects for SLU-PP-332.",
+    "No randomized controlled trial of SLU-PP-332 is indexed in Europe PMC."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has SLU-PP-332 been tested in humans?",
+      "answer": "Not in any indexed clinical trial. The studies in this record's ledger report work in humans, mice. Any human dosing information circulating about SLU-PP-332 does not come from a published trial."
+    },
+    {
+      "question": "What kind of evidence exists for SLU-PP-332?",
+      "answer": "The strongest tier is observational human: observational human studies, with no indexed randomized trial. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is SLU-PP-332 an approved medicine?",
+      "answer": "No ChEMBL record matches SLU-PP-332 or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has SLU-PP-332 been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-41588687",
@@ -122,7 +358,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 55.4,
   "review": {
     "author": "",
     "reviewer": "",
@@ -133,6 +369,14 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 9 ledger sources by scripts/draft_claims.py: 9 claims, 8 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 9 ledger sources by scripts/draft_claims.py: 4 claims, 8 evidence-table rows. Status researched -> draft."
     }
   ]
 }

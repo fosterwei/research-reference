@@ -7,26 +7,889 @@
     "melanotan 2"
   ],
   "slug": "melanotan-ii",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for Melanotan II. Europe PMC indexes 646 publications, including 1 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Melanotan II is a peptide in the melanocortin agonists class (non-selective melanocortin receptor agonist). Europe PMC indexes 646 publications naming it or a listed alias in a title or abstract, including 1 randomized controlled trials and 6 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Melanotan II: what the research shows",
-    "description": "Cited overview of published Melanotan II research: 646 indexed publications, 1 randomized controlled trials. Evidence tier on every claim."
+    "description": "Melanotan II research, cited: 646 indexed publications, 1 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
-    "escalation_schedules": [],
-    "interactions": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, 2000: administration by subcutaneous route reported. Melanotan II (0.025 mg/kg) and vehicle were each administered twice by subcutaneous injection; real-time RigiScan monitoring and a visual analog were used to quantify the erections during a 6-hour period.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11018622"
+        ],
+        "source_excerpt": "Melanotan II (0.025 mg/kg) and vehicle were each administered twice by subcutaneous injection; real-time RigiScan monitoring and a visual analog were used to quantify the erections during a 6-hour period.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 1996: administration by subcutaneous route reported. Subcutaneous injections of MT-II or saline were given daily (Monday-Friday) for 2 consecutive weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8637402"
+        ],
+        "source_excerpt": "Subcutaneous injections of MT-II or saline were given daily (Monday-Friday) for 2 consecutive weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Case report, humans, 2026: administration by oral route reported. To date, there is a lack of published data specifically addressing the timeline for resolution of oral pigmentation associated with Melanotan II use, making this case a valuable contribution to the limited existing literature on the subject.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41752902"
+        ],
+        "source_excerpt": "To date, there is a lack of published data specifically addressing the timeline for resolution of oral pigmentation associated with Melanotan II use, making this case a valuable contribution to the limited existing literature on the subject.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Case report, humans, 2025: administration by intranasal route reported. The case of a 22-year-old female who developed a mass in the anterior maxilla after using Melanotan II, a nasal spray containing a synthetic analogue of melanocyte-stimulating hormone, is reported.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40210573"
+        ],
+        "source_excerpt": "The case of a 22-year-old female who developed a mass in the anterior maxilla after using Melanotan II, a nasal spray containing a synthetic analogue of melanocyte-stimulating hormone, is reported.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Case report, humans, 2021: administration by subcutaneous route reported. We describe in this case report a patient presenting with acute ischemic priapism after subcutaneous injection of melanotan II.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-33460908"
+        ],
+        "source_excerpt": "We describe in this case report a patient presenting with acute ischemic priapism after subcutaneous injection of melanotan II.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2019: administration by intraperitoneal route reported. During the experimental period (15 days), glyphosate (50 mg/kg b.w.) was administered every two days by intraperitoneal way while quercetin (20 mg/kg b.w./day) was administered daily by gavage.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-30821249"
+        ],
+        "source_excerpt": "During the experimental period (15 days), glyphosate (50 mg/kg b.w.) was administered every two days by intraperitoneal way while quercetin (20 mg/kg b.w./day) was administered daily by gavage.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Randomized controlled trial, humans, 2000: doses stated in the abstract: 0.025 mg/kg. Melanotan II (0.025 mg/kg) and vehicle were each administered twice by subcutaneous injection; real-time RigiScan monitoring and a visual analog were used to quantify the erections during a 6-hour period.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11018622"
+        ],
+        "source_excerpt": "Melanotan II (0.025 mg/kg) and vehicle were each administered twice by subcutaneous injection; real-time RigiScan monitoring and a visual analog were used to quantify the erections during a 6-hour period.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 1996: doses stated in the abstract: 0.01 mg/kg; 0.025 mg/kg/day. A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8637402"
+        ],
+        "source_excerpt": "A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2018: doses stated in the abstract: 120 μg. After the mice recovered from surgery and stable baseline measurements, the MC3/4R agonist melanotan II (MTII, 120 μg·kg -1 ·day -1 iv) was infused for 7 days followed by a recovery period.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-29351428"
+        ],
+        "source_excerpt": "After the mice recovered from surgery and stable baseline measurements, the MC3/4R agonist melanotan II (MTII, 120 μg·kg -1 ·day -1 iv) was infused for 7 days followed by a recovery period.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2014: doses stated in the abstract: 0.3 mg/kg per day. Approach and results Low-density lipoprotein receptor-deficient mice expressing only apolipoprotein B100 were fed a high-fat diet for 8 or 16 weeks and treated with either vehicle or a stable melanocortin analog, melanotan II (MT-II, 0.3 mg/kg per day, 4 weeks).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-24790139"
+        ],
+        "source_excerpt": "Approach and results Low-density lipoprotein receptor-deficient mice expressing only apolipoprotein B100 were fed a high-fat diet for 8 or 16 weeks and treated with either vehicle or a stable melanocortin analog, melanotan II (MT-II, 0.3 mg/kg per day, 4 weeks).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2015: doses stated in the abstract: 10 mg. The total amount of melanotan II in vials ranged between 4.32 and 8.84 mg, although each shop claimed that vials contained 10 mg melanotan II.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-24771717"
+        ],
+        "source_excerpt": "The total amount of melanotan II in vials ranged between 4.32 and 8.84 mg, although each shop claimed that vials contained 10 mg melanotan II.",
+        "drafting": "extractive"
+      }
+    ],
+    "escalation_schedules": [
+      {
+        "value": "Animal study, dogs, 2020: Titration of the antiviral effect against Dengue virus revealed Mt-I to be highly potent (IC 50 0.5-2 ng/mL), whereas Mt-II was 1000-fold weaker.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-31839332"
+        ],
+        "source_excerpt": "Titration of the antiviral effect against Dengue virus revealed Mt-I to be highly potent (IC 50 0.5-2 ng/mL), whereas Mt-II was 1000-fold weaker.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 1986: 113Cd n.m.r. allows direct observation of the effects on bound Cd of stepwise titration of 113Cd-MT-II with pHOHgBzO-.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-3718492"
+        ],
+        "source_excerpt": "113Cd n.m.r. allows direct observation of the effects on bound Cd of stepwise titration of 113Cd-MT-II with pHOHgBzO-.",
+        "drafting": "extractive"
+      }
+    ],
+    "interactions": [
+      {
+        "value": "Animal study, mice, 2015: In the present report, a mouse model of binge EtOH drinking was employed to determine whether the MCR agonist, melanotan-II (MTII), would improve the effectiveness of NAL in reducing excessive binge-like EtOH drinking when these drugs were co-administered prior to EtOH access.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-26108334"
+        ],
+        "source_excerpt": "In the present report, a mouse model of binge EtOH drinking was employed to determine whether the MCR agonist, melanotan-II (MTII), would improve the effectiveness of NAL in reducing excessive binge-like EtOH drinking when these drugs were co-administered prior to EtOH access.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, n=205, 2021: Melanotan II (MT II) is a synthetic analogue of α-melanocyte-stimulating hormone that, via interaction with the melanocortin 1 receptor, induces skin hyperpigmentation.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-34464955"
+        ],
+        "source_excerpt": "Melanotan II (MT II) is a synthetic analogue of α-melanocyte-stimulating hormone that, via interaction with the melanocortin 1 receptor, induces skin hyperpigmentation.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2020: The drug-MT-II conjugates maintain strong binding interactions to MC1R and induce selective drug delivery to A375 melanoma cells through its MT-II moiety in vitro .",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-33073191"
+        ],
+        "source_excerpt": "The drug-MT-II conjugates maintain strong binding interactions to MC1R and induce selective drug delivery to A375 melanoma cells through its MT-II moiety in vitro .",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
-    "regulatory_status": []
+    "adverse_events": [
+      {
+        "value": "Controlled clinical trial, humans, n=20, 2000: Nausea and yawning were frequently reported side effects due to Melanotan II; at a dose of 0.025 mg/kg, 12.9% of subjects had severe nausea.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11035391"
+        ],
+        "source_excerpt": "Nausea and yawning were frequently reported side effects due to Melanotan II; at a dose of 0.025 mg/kg, 12.9% of subjects had severe nausea.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2000: Nausea and stretching/yawning occurred more frequently with Melanotan II, and 4 of 19 injections were associated with severe nausea.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11018622"
+        ],
+        "source_excerpt": "Nausea and stretching/yawning occurred more frequently with Melanotan II, and 4 of 19 injections were associated with severe nausea.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Controlled clinical trial, humans, n=10, 1998: Transient side effects of nausea, stretching and yawning, and decreased appetite were reported more frequently after injections of Melanotan-II than placebo but none required treatment.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-9679884"
+        ],
+        "source_excerpt": "Transient side effects of nausea, stretching and yawning, and decreased appetite were reported more frequently after injections of Melanotan-II than placebo but none required treatment.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 1996: Mild nausea, not requiring antiemetic treatment, was reported at most MT-II dose levels.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8637402"
+        ],
+        "source_excerpt": "Mild nausea, not requiring antiemetic treatment, was reported at most MT-II dose levels.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Case report, humans, 2026: Despite its popularity, particularly through promotion on social media, Melanotan II remains unregulated, and its use is associated with a range of potential adverse effects.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41752902"
+        ],
+        "source_excerpt": "Despite its popularity, particularly through promotion on social media, Melanotan II remains unregulated, and its use is associated with a range of potential adverse effects.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Case report, humans, 2025: This report highlights the need for awareness of the possible serious side effects associated with Melanotan II nasal spray.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40210573"
+        ],
+        "source_excerpt": "This report highlights the need for awareness of the possible serious side effects associated with Melanotan II nasal spray.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Phase 1 clinical trial, humans, 1996: A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8637402"
+        ],
+        "source_excerpt": "A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Case report, humans, 2024: Fortunately, the vials were labeled as \"Melanotan II\", although the UV spectrum was not available.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39302005"
+        ],
+        "source_excerpt": "Fortunately, the vials were labeled as \"Melanotan II\", although the UV spectrum was not available.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2022: There was no development of conditioned taste avoidance or change in metabolic parameters following anorexic doses of MT-II.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36155088"
+        ],
+        "source_excerpt": "There was no development of conditioned taste avoidance or change in metabolic parameters following anorexic doses of MT-II.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2021: Consistent with MC4R activation in other areas of the brain, we found that Mes5 microinjection of the MC4R agonist melanotan-II (MTII) suppresses food intake and body weight in the mouse.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-34068091"
+        ],
+        "source_excerpt": "Consistent with MC4R activation in other areas of the brain, we found that Mes5 microinjection of the MC4R agonist melanotan-II (MTII) suppresses food intake and body weight in the mouse.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2019: Normal background C57 male mice treated with MT-II showed no significant alteration in social behavioral metrics.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-30629642"
+        ],
+        "source_excerpt": "Normal background C57 male mice treated with MT-II showed no significant alteration in social behavioral metrics.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2017: In contrast, neither melanotan II nor AgRP altered the optogenetically evoked release of catecholamines from isolated chromaffin cells.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-28531318"
+        ],
+        "source_excerpt": "In contrast, neither melanotan II nor AgRP altered the optogenetically evoked release of catecholamines from isolated chromaffin cells.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Phase 1 clinical trial, humans, 1996: A stretching and yawning complex appeared to correlate with the onset of spontaneous, penile erections which were intermittently experienced for 1-5 hours after MT-II dosing, depending on the MT-II dose.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8637402"
+        ],
+        "source_excerpt": "A stretching and yawning complex appeared to correlate with the onset of spontaneous, penile erections which were intermittently experienced for 1-5 hours after MT-II dosing, depending on the MT-II dose.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2018: In study 2, rats fed a HFD were administered a long-acting α-MSH analog at either light onset [melanotan II (MTII) light] or dark onset (MTII dark) or saline (Control).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-30024775"
+        ],
+        "source_excerpt": "In study 2, rats fed a HFD were administered a long-acting α-MSH analog at either light onset [melanotan II (MTII) light] or dark onset (MTII dark) or saline (Control).",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [
+      {
+        "value": "Animal study, 2000: In a similar reconstitution experiment performed with Caenorhabditis elegans MT-II, a series of signals corresponding to apoMT and Cd3MT to Cd6MT species were observed.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-10716192"
+        ],
+        "source_excerpt": "In a similar reconstitution experiment performed with Caenorhabditis elegans MT-II, a series of signals corresponding to apoMT and Cd3MT to Cd6MT species were observed.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Phase 1 clinical trial, humans, 1996: durations stated: 1 week. Two subjects had increased pigmentation in the face, upper body and buttock, as measured by quantitative reflectance and by visual perception 1 week after MT-II dosing ended.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8637402"
+        ],
+        "source_excerpt": "Two subjects had increased pigmentation in the face, upper body and buttock, as measured by quantitative reflectance and by visual perception 1 week after MT-II dosing ended.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Case report, humans, 2026: durations stated: 64 days. This case report presents a three-month follow-up of a patient who self-administered Melanotan II injections over a period of 64 days with the goal of achieving a deeper tanning effect.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41752902"
+        ],
+        "source_excerpt": "This case report presents a three-month follow-up of a patient who self-administered Melanotan II injections over a period of 64 days with the goal of achieving a deeper tanning effect.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2019: durations stated: 15 days. During the experimental period (15 days), glyphosate (50 mg/kg b.w.) was administered every two days by intraperitoneal way while quercetin (20 mg/kg b.w./day) was administered daily by gavage.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-30821249"
+        ],
+        "source_excerpt": "During the experimental period (15 days), glyphosate (50 mg/kg b.w.) was administered every two days by intraperitoneal way while quercetin (20 mg/kg b.w./day) was administered daily by gavage.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2018: durations stated: 7 days; 1 wk. After the mice recovered from surgery and stable baseline measurements, the MC3/4R agonist melanotan II (MTII, 120 μg·kg -1 ·day -1 iv) was infused for 7 days followed by a recovery period.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-29351428"
+        ],
+        "source_excerpt": "After the mice recovered from surgery and stable baseline measurements, the MC3/4R agonist melanotan II (MTII, 120 μg·kg -1 ·day -1 iv) was infused for 7 days followed by a recovery period.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2014: durations stated: 16 weeks; 4 weeks. Approach and results Low-density lipoprotein receptor-deficient mice expressing only apolipoprotein B100 were fed a high-fat diet for 8 or 16 weeks and treated with either vehicle or a stable melanocortin analog, melanotan II (MT-II, 0.3 mg/kg per day, 4 weeks).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-24790139"
+        ],
+        "source_excerpt": "Approach and results Low-density lipoprotein receptor-deficient mice expressing only apolipoprotein B100 were fed a high-fat diet for 8 or 16 weeks and treated with either vehicle or a stable melanocortin analog, melanotan II (MT-II, 0.3 mg/kg per day, 4 weeks).",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Randomized controlled trial, humans, 2000: weight-normalized doses as published: 0.025 mg/kg. Melanotan II (0.025 mg/kg) and vehicle were each administered twice by subcutaneous injection; real-time RigiScan monitoring and a visual analog were used to quantify the erections during a 6-hour period.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11018622"
+        ],
+        "source_excerpt": "Melanotan II (0.025 mg/kg) and vehicle were each administered twice by subcutaneous injection; real-time RigiScan monitoring and a visual analog were used to quantify the erections during a 6-hour period.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 1996: weight-normalized doses as published: 0.01 mg/kg; 0.025 mg/kg/day. A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8637402"
+        ],
+        "source_excerpt": "A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2014: weight-normalized doses as published: 0.3 mg/kg per day. Approach and results Low-density lipoprotein receptor-deficient mice expressing only apolipoprotein B100 were fed a high-fat diet for 8 or 16 weeks and treated with either vehicle or a stable melanocortin analog, melanotan II (MT-II, 0.3 mg/kg per day, 4…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-24790139"
+        ],
+        "source_excerpt": "Approach and results Low-density lipoprotein receptor-deficient mice expressing only apolipoprotein B100 were fed a high-fat diet for 8 or 16 weeks and treated with either vehicle or a stable melanocortin analog, melanotan II (MT-II, 0.3 mg/kg per day, 4 weeks).",
+        "drafting": "extractive"
+      }
+    ],
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Controlled clinical trial, humans, n=20, 2000: Increased sexual desire was reported after 13/19 (68%) doses of Melanotan II vs 4/21 (19%) of placebo (P<0.01).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11035391"
+        ],
+        "source_excerpt": "Increased sexual desire was reported after 13/19 (68%) doses of Melanotan II vs 4/21 (19%) of placebo (P<0.01).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wessells 2000",
+          "year": "2000",
+          "design": "Controlled clinical trial",
+          "n": 20,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Increased sexual desire was reported after 13/19 (68%) doses of Melanotan II vs 4/21 (19%) of placebo (P<0.01)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2000: The mean duration of tip rigidity greater than 80% was 45.3 minutes with Melanotan II versus 1.9 for placebo (P = 0.047).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11018622"
+        ],
+        "source_excerpt": "The mean duration of tip rigidity greater than 80% was 45.3 minutes with Melanotan II versus 1.9 for placebo (P = 0.047).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wessells 2000",
+          "year": "2000",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "0.025 mg/kg",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "The mean duration of tip rigidity greater than 80% was 45.3 minutes with Melanotan II versus 1.9 for placebo (P = 0.047)."
+        }
+      },
+      {
+        "value": "Controlled clinical trial, humans, n=10, 1998: Mean duration of tip rigidity greater than 80% was 38.0 minutes with Melanotan-II and 3.0 with placebo (p=0.0045).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-9679884"
+        ],
+        "source_excerpt": "Mean duration of tip rigidity greater than 80% was 38.0 minutes with Melanotan-II and 3.0 with placebo (p=0.0045).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wessells 1998",
+          "year": "1998",
+          "design": "Controlled clinical trial",
+          "n": 10,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Mean duration of tip rigidity greater than 80% was 38.0 minutes with Melanotan-II and 3.0 with placebo (p=0.0045)."
+        }
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 1996: Two subjects had increased pigmentation in the face, upper body and buttock, as measured by quantitative reflectance and by visual perception 1 week after MT-II dosing ended.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8637402"
+        ],
+        "source_excerpt": "Two subjects had increased pigmentation in the face, upper body and buttock, as measured by quantitative reflectance and by visual perception 1 week after MT-II dosing ended.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Dorr 1996",
+          "year": "1996",
+          "design": "Phase 1 clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "0.01 mg/kg; 0.025 mg/kg/day",
+          "route": "subcutaneous",
+          "duration": "1 week",
+          "outcome": "Two subjects had increased pigmentation in the face, upper body and buttock, as measured by quantitative reflectance and by visual perception 1 week after MT-II dosing ended."
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: TT/DD was associated with hypertension in crude analysis (OR 2.67, 95% CI 1.38-5.40; p = 0.002) and remained associated after adjustment (adjusted OR 3.26, 95% CI 1.53-6.92; p = 0.002).",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42310546"
+        ],
+        "source_excerpt": "TT/DD was associated with hypertension in crude analysis (OR 2.67, 95% CI 1.38-5.40; p = 0.002) and remained associated after adjustment (adjusted OR 3.26, 95% CI 1.53-6.92; p = 0.002).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Tran 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "TT/DD was associated with hypertension in crude analysis (OR 2.67, 95% CI 1.38-5.40; p = 0.002) and remained associated after adjustment (adjusted OR 3.26, 95% CI 1.53-6.92; p = 0.002)."
+        }
+      },
+      {
+        "value": "Case report, humans, 2026: The lesions were almost symmetrically distributed, with a more intense coloration in the anterior region of the lower jaw.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41752902"
+        ],
+        "source_excerpt": "The lesions were almost symmetrically distributed, with a more intense coloration in the anterior region of the lower jaw.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bonchev 2026",
+          "year": "2026",
+          "design": "Case report",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "oral",
+          "duration": "64 days",
+          "outcome": "The lesions were almost symmetrically distributed, with a more intense coloration in the anterior region of the lower jaw."
+        }
+      },
+      {
+        "value": "Human study, humans, n=36, 2025: This study may enhance our understanding of how hd-tDCS can induce reading improvement and guide neurobiological-based interventions for children and adolescents with DD.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40624571"
+        ],
+        "source_excerpt": "This study may enhance our understanding of how hd-tDCS can induce reading improvement and guide neurobiological-based interventions for children and adolescents with DD.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Somma 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": 36,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "This study may enhance our understanding of how hd-tDCS can induce reading improvement and guide neurobiological-based interventions for children and adolescents with DD."
+        }
+      },
+      {
+        "value": "Case report, humans, 2025: The case of a 22-year-old female who developed a mass in the anterior maxilla after using Melanotan II, a nasal spray containing a synthetic analogue of melanocyte-stimulating hormone, is reported.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40210573"
+        ],
+        "source_excerpt": "The case of a 22-year-old female who developed a mass in the anterior maxilla after using Melanotan II, a nasal spray containing a synthetic analogue of melanocyte-stimulating hormone, is reported.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yassin 2025",
+          "year": "2025",
+          "design": "Case report",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intranasal",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Case report, humans, 2024: Mass spectrometric analysis of melanotan II was challenging, as it is a small peptide with a molecular weight of 1024 Da, which is significantly heavier than classical drugs that the laboratory usually handles.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39302005"
+        ],
+        "source_excerpt": "Mass spectrometric analysis of melanotan II was challenging, as it is a small peptide with a molecular weight of 1024 Da, which is significantly heavier than classical drugs that the laboratory usually handles.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Deville 2024",
+          "year": "2024",
+          "design": "Case report",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Mass spectrometric analysis of melanotan II was challenging, as it is a small peptide with a molecular weight of 1024 Da, which is significantly heavier than classical drugs that the laboratory usually handles."
+        }
+      },
+      {
+        "value": "Case report, humans, 2021: Melanotan II, an injectable melanocortin analog, is illicitly available on the internet to generate a sunless tan through melanocyte induction.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-33460908"
+        ],
+        "source_excerpt": "Melanotan II, an injectable melanocortin analog, is illicitly available on the internet to generate a sunless tan through melanocyte induction.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mallory 2021",
+          "year": "2021",
+          "design": "Case report",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, 2026: Motivated by these considerations, we designed and synthesized a series of 14 macrocyclic peptide analogs (19-23-membered rings) based on MT-II, SHU-9119, and PG-901 scaffolds.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42340853"
+        ],
+        "source_excerpt": "Motivated by these considerations, we designed and synthesized a series of 14 macrocyclic peptide analogs (19-23-membered rings) based on MT-II, SHU-9119, and PG-901 scaffolds.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Merlino 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2025: However, incubation of C2C12 myotubes in culture with the RyR1 antagonist dantrolene did not reduce the extent of cytotoxicity induced by Mt-II, suggesting that the RyR1-mediated increase in cytosolic Ca 2+ does not contribute to the overall myotoxicity of this toxin.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40983303"
+        ],
+        "source_excerpt": "However, incubation of C2C12 myotubes in culture with the RyR1 antagonist dantrolene did not reduce the extent of cytotoxicity induced by Mt-II, suggesting that the RyR1-mediated increase in cytosolic Ca 2+ does not contribute to the overall myotoxicity of this toxin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Szentesi 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "However, incubation of C2C12 myotubes in culture with the RyR1 antagonist dantrolene did not reduce the extent of cytotoxicity induced by Mt-II, suggesting that the RyR1-mediated increase in cytosolic Ca 2+ does not…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2024: We found that chronic treatment with Semax and MTII reversed or substantially attenuated CUS-induced anhedonia, BW gain suppression, adrenal hypertrophy and a decrease in the hippocampal levels of BDNF.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39442746"
+        ],
+        "source_excerpt": "We found that chronic treatment with Semax and MTII reversed or substantially attenuated CUS-induced anhedonia, BW gain suppression, adrenal hypertrophy and a decrease in the hippocampal levels of BDNF.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Inozemtseva 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "We found that chronic treatment with Semax and MTII reversed or substantially attenuated CUS-induced anhedonia, BW gain suppression, adrenal hypertrophy and a decrease in the hippocampal levels of BDNF."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2024: Strikingly, promoting wheel-running activity in Htr2cF327L/Y mice results in a decrease in HFD consumption and improved glucose homeostasis.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38815086"
+        ],
+        "source_excerpt": "Strikingly, promoting wheel-running activity in Htr2cF327L/Y mice results in a decrease in HFD consumption and improved glucose homeostasis.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Liu 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Strikingly, promoting wheel-running activity in Htr2cF327L/Y mice results in a decrease in HFD consumption and improved glucose homeostasis."
+        }
+      },
+      {
+        "value": "Animal study, 2024: However, during social interactions, MTII selectively increased oxytocin-dependent activation of nucleus accumbens, a site critical for social learning.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38253222"
+        ],
+        "source_excerpt": "However, during social interactions, MTII selectively increased oxytocin-dependent activation of nucleus accumbens, a site critical for social learning.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ford 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "However, during social interactions, MTII selectively increased oxytocin-dependent activation of nucleus accumbens, a site critical for social learning."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2022: MT-II injected into the NAcc significantly decreased consumption in both home cage and operant paradigms, and furthermore decreased appetitive responding to gain access to food.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36155088"
+        ],
+        "source_excerpt": "MT-II injected into the NAcc significantly decreased consumption in both home cage and operant paradigms, and furthermore decreased appetitive responding to gain access to food.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Eliason 2022",
+          "year": "2022",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "MT-II injected into the NAcc significantly decreased consumption in both home cage and operant paradigms, and furthermore decreased appetitive responding to gain access to food."
+        }
+      },
+      {
+        "value": "Animal study, zebrafish, 2021: Using α-MSH human form as a standard, we could identify derivatives that induced greater physiological effects; particularly, the synthetic analogue melanotan-II (MT-II) exhibited a higher capacity for melanophore dispersion than human α-MSH.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-34502223"
+        ],
+        "source_excerpt": "Using α-MSH human form as a standard, we could identify derivatives that induced greater physiological effects; particularly, the synthetic analogue melanotan-II (MT-II) exhibited a higher capacity for melanophore dispersion than human α-MSH.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hong 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Zebrafish",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Using α-MSH human form as a standard, we could identify derivatives that induced greater physiological effects; particularly, the synthetic analogue melanotan-II (MT-II) exhibited a higher capacity for melanophore…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2021: Consistent with MC4R activation in other areas of the brain, we found that Mes5 microinjection of the MC4R agonist melanotan-II (MTII) suppresses food intake and body weight in the mouse.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-34068091"
+        ],
+        "source_excerpt": "Consistent with MC4R activation in other areas of the brain, we found that Mes5 microinjection of the MC4R agonist melanotan-II (MTII) suppresses food intake and body weight in the mouse.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Fortin 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2021: Interestingly, the expression of the WT-hMC4R in mice revealed lower sensitivity of the human receptor to α-melanocyte-stimulating hormone (α-MSH) but not β-MSH or melanotan II, resulting in a lower penetrance obese phenotype in the WT-hMC4R versus R165W-hMC4R mice.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33434184"
+        ],
+        "source_excerpt": "Interestingly, the expression of the WT-hMC4R in mice revealed lower sensitivity of the human receptor to α-melanocyte-stimulating hormone (α-MSH) but not β-MSH or melanotan II, resulting in a lower penetrance obese phenotype in the WT-hMC4R versus R165W-hMC4R mice.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "René 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Interestingly, the expression of the WT-hMC4R in mice revealed lower sensitivity of the human receptor to α-melanocyte-stimulating hormone (α-MSH) but not β-MSH or melanotan II, resulting in a lower penetrance obese…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2020: A tool proof-of-concept cyclic peptide, melanotan II, was used in this study.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32674774"
+        ],
+        "source_excerpt": "A tool proof-of-concept cyclic peptide, melanotan II, was used in this study.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Chen 2020",
+          "year": "2020",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2020: By immunoblot and immunohistochemical analysis, it was found that MTII dose-dependently increased the phosphatase and tensin homolog (PTEN) protein level while reducing PTEN phosphorylation, which resulted in the inhibition of AKT/nuclear factor kappa B (NFκB) signaling.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-31968661"
+        ],
+        "source_excerpt": "By immunoblot and immunohistochemical analysis, it was found that MTII dose-dependently increased the phosphatase and tensin homolog (PTEN) protein level while reducing PTEN phosphorylation, which resulted in the inhibition of AKT/nuclear factor kappa B (NFκB) signaling.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wu 2020",
+          "year": "2020",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "By immunoblot and immunohistochemical analysis, it was found that MTII dose-dependently increased the phosphatase and tensin homolog (PTEN) protein level while reducing PTEN phosphorylation, which resulted in the…"
+        }
+      },
+      {
+        "value": "Animal study, dogs, 2020: We evaluated the antiviral action of Mt-I (catalytically-active sPLA 2 ) and Mt-II (catalytically-inactive variant) isolated from the venom of Bothrops asper, against a diverse group of viruses.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-31839332"
+        ],
+        "source_excerpt": "We evaluated the antiviral action of Mt-I (catalytically-active sPLA 2 ) and Mt-II (catalytically-inactive variant) isolated from the venom of Bothrops asper, against a diverse group of viruses.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Brenes 2020",
+          "year": "2020",
+          "design": "Animal study",
+          "n": null,
+          "species": "Dogs",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2019: The present work evaluated the possible protective effects of quercetin against glyphosate-induced hepatotoxicity in adult rats.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-30821249"
+        ],
+        "source_excerpt": "The present work evaluated the possible protective effects of quercetin against glyphosate-induced hepatotoxicity in adult rats.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Soudani 2019",
+          "year": "2019",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "intraperitoneal",
+          "duration": "15 days",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2019: Normal background C57 male mice treated with MT-II showed no significant alteration in social behavioral metrics.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-30629642"
+        ],
+        "source_excerpt": "Normal background C57 male mice treated with MT-II showed no significant alteration in social behavioral metrics.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Minakova 2019",
+          "year": "2019",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Normal background C57 male mice treated with MT-II showed no significant alteration in social behavioral metrics."
+        }
+      },
+      {
+        "value": "Animal study, 2018: Interestingly, systolic and mean arterial pressure (MAP) was lower in the TRF group.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-30024775"
+        ],
+        "source_excerpt": "Interestingly, systolic and mean arterial pressure (MAP) was lower in the TRF group.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Cote 2018",
+          "year": "2018",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Interestingly, systolic and mean arterial pressure (MAP) was lower in the TRF group."
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -48,15 +911,42 @@
       "review": 0,
       "unclassified": 3
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 50,
+      "claims": 39,
+      "evidence_table_rows": 25
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports exclusion criteria for Melanotan II."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Melanotan II been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 6 clinical trials and 1 randomized controlled trials naming Melanotan II or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Melanotan II?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Melanotan II an approved medicine?",
+      "answer": "No ChEMBL record matches Melanotan II or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has Melanotan II been studied in?",
+      "answer": "Studies in this record's ledger report work in: Dogs, Humans, Mice, Rats, Zebrafish. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42340853",
@@ -410,7 +1300,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 80.9,
   "review": {
     "author": "",
     "reviewer": "",
@@ -421,6 +1311,14 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 50 ledger sources by scripts/draft_claims.py: 50 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 50 ledger sources by scripts/draft_claims.py: 39 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

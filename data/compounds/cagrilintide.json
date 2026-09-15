@@ -9,30 +9,946 @@
     "NNC0174-0833"
   ],
   "slug": "cagrilintide",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for Cagrilintide. Europe PMC indexes 105 publications, including 15 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Cagrilintide is a peptide in the incretin & amylin analogs class (long-acting amylin analog). Europe PMC indexes 105 publications naming it or a listed alias in a title or abstract, including 15 randomized controlled trials and 13 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Cagrilintide: what the research shows",
-    "description": "Cited overview of published Cagrilintide research: 105 indexed publications, 15 randomized controlled trials. Evidence tier on every claim."
+    "description": "Cagrilintide research, cited: 105 indexed publications, 15 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
-    "escalation_schedules": [],
-    "interactions": [],
-    "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, n=99, 2026: administration by subcutaneous route reported. Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg,…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "source_excerpt": "Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=90, 2026: administration by subcutaneous route reported. Adults with type 2 diabetes (glycated haemoglobin [HbA 1c ] 7·0-10·5%) receiving stable once per day basal insulin with or without metformin were randomly assigned (2:2:1:1) to once per week subcutaneous cagrilintide 2·4 mg plus semaglutide…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251856"
+        ],
+        "source_excerpt": "Adults with type 2 diabetes (glycated haemoglobin [HbA 1c ] 7·0-10·5%) receiving stable once per day basal insulin with or without metformin were randomly assigned (2:2:1:1) to once per week subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]) or cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]) or dose-matched placebo (2·4 mg plus 2·4 mg or 1·0 mg plus 1·0 mg) for 40 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=62, 2026: administration by subcutaneous route reported. Adults aged 18 years or older with type 2 diabetes inadequately controlled with diet and exercise were randomly assigned (2:1:2:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (cagrilintide-semaglutide [2·4…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251860"
+        ],
+        "source_excerpt": "Adults aged 18 years or older with type 2 diabetes inadequately controlled with diet and exercise were randomly assigned (2:1:2:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (cagrilintide-semaglutide [2·4 mg each]), placebo 2·4 mg plus 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (cagrilintide-semaglutide [1·0 mg each]), or placebo 1·0 mg plus 1·0 mg for 40 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: administration by subcutaneous route reported. Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]), semaglutide 2·4 mg, cagrilintide 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]), semaglutide 1·0 mg, or corresponding placebo for 68 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=164, 2026: administration by subcutaneous route reported. Participants were randomly assigned (1:1) to once-weekly subcutaneous injections of cagrilintide-semaglutide or semaglutide (both escalated to 2·4 mg), plus lifestyle intervention, for 68 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42009015"
+        ],
+        "source_excerpt": "Participants were randomly assigned (1:1) to once-weekly subcutaneous injections of cagrilintide-semaglutide or semaglutide (both escalated to 2·4 mg), plus lifestyle intervention, for 68 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=53, 2024: administration by subcutaneous route reported. This was a double-blind study (NCT05804162) in which healthy participants were randomized to cagrilintide, administered as a once-weekly subcutaneous injection dose escalated to 4.5 mg, or a placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39279639"
+        ],
+        "source_excerpt": "This was a double-blind study (NCT05804162) in which healthy participants were randomized to cagrilintide, administered as a once-weekly subcutaneous injection dose escalated to 4.5 mg, or a placebo.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Randomized controlled trial, humans, 2026: doses stated in the abstract: 2.4 mg. The phase 3a, 68-week REDEFINE 1 trial randomised adults without diabetes with BMI ≥ 30 kg/m 2 , or ≥ 27 kg/m 2 with ≥ 1 obesity-related complication, to once-weekly CagriSema 2.4 mg/2.4 mg, semaglutide 2.4 mg, cagrilintide 2.4 mg, or placebo, plus…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42503495"
+        ],
+        "source_excerpt": "The phase 3a, 68-week REDEFINE 1 trial randomised adults without diabetes with BMI ≥ 30 kg/m 2 , or ≥ 27 kg/m 2 with ≥ 1 obesity-related complication, to once-weekly CagriSema 2.4 mg/2.4 mg, semaglutide 2.4 mg, cagrilintide 2.4 mg, or placebo, plus lifestyle intervention.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=99, 2026: doses stated in the abstract: 2·4 mg. Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg,…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "source_excerpt": "Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=90, 2026: doses stated in the abstract: 2·4 mg; 1·0 mg. Adults with type 2 diabetes (glycated haemoglobin [HbA 1c ] 7·0-10·5%) receiving stable once per day basal insulin with or without metformin were randomly assigned (2:2:1:1) to once per week subcutaneous cagrilintide 2·4 mg plus semaglutide…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251856"
+        ],
+        "source_excerpt": "Adults with type 2 diabetes (glycated haemoglobin [HbA 1c ] 7·0-10·5%) receiving stable once per day basal insulin with or without metformin were randomly assigned (2:2:1:1) to once per week subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]) or cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]) or dose-matched placebo (2·4 mg plus 2·4 mg or 1·0 mg plus 1·0 mg) for 40 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=62, 2026: doses stated in the abstract: 2·4 mg; 1·0 mg. Adults aged 18 years or older with type 2 diabetes inadequately controlled with diet and exercise were randomly assigned (2:1:2:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (cagrilintide-semaglutide [2·4…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251860"
+        ],
+        "source_excerpt": "Adults aged 18 years or older with type 2 diabetes inadequately controlled with diet and exercise were randomly assigned (2:1:2:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (cagrilintide-semaglutide [2·4 mg each]), placebo 2·4 mg plus 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (cagrilintide-semaglutide [1·0 mg each]), or placebo 1·0 mg plus 1·0 mg for 40 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: doses stated in the abstract: 2·4 mg; 1·0 mg. Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]), semaglutide 2·4 mg, cagrilintide 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]), semaglutide 1·0 mg, or corresponding placebo for 68 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=164, 2026: doses stated in the abstract: 2·4 mg. We assessed the efficacy and safety of a fixed-dose combination of cagrilintide 2·4 mg and semaglutide 2·4 mg versus semaglutide 2·4 mg for weight management in an east Asian population.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42009015"
+        ],
+        "source_excerpt": "We assessed the efficacy and safety of a fixed-dose combination of cagrilintide 2·4 mg and semaglutide 2·4 mg versus semaglutide 2·4 mg for weight management in an east Asian population.",
+        "drafting": "extractive"
+      }
+    ],
+    "escalation_schedules": [
+      {
+        "value": "Randomized controlled trial, humans, n=164, 2026: Participants were randomly assigned (1:1) to once-weekly subcutaneous injections of cagrilintide-semaglutide or semaglutide (both escalated to 2·4 mg), plus lifestyle intervention, for 68 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42009015"
+        ],
+        "source_excerpt": "Participants were randomly assigned (1:1) to once-weekly subcutaneous injections of cagrilintide-semaglutide or semaglutide (both escalated to 2·4 mg), plus lifestyle intervention, for 68 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=53, 2024: This was a double-blind study (NCT05804162) in which healthy participants were randomized to cagrilintide, administered as a once-weekly subcutaneous injection dose escalated to 4.5 mg, or a placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39279639"
+        ],
+        "source_excerpt": "This was a double-blind study (NCT05804162) in which healthy participants were randomized to cagrilintide, administered as a once-weekly subcutaneous injection dose escalated to 4.5 mg, or a placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=31, 2023: Adults with type 2 diabetes and a BMI of 27 kg/m 2 or higher on metformin with or without an SGLT2 inhibitor were randomly assigned (1:1:1) to once-weekly subcutaneous CagriSema, semaglutide, or cagrilintide (all escalated to 2·4 mg).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37364590"
+        ],
+        "source_excerpt": "Adults with type 2 diabetes and a BMI of 27 kg/m 2 or higher on metformin with or without an SGLT2 inhibitor were randomly assigned (1:1:1) to once-weekly subcutaneous CagriSema, semaglutide, or cagrilintide (all escalated to 2·4 mg).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2021: In each cohort, the doses of cagrilintide and semaglutide were co-escalated in 4-week intervals to the desired dose over 16 weeks, participants were treated at the target dose for 4 weeks, and then followed up for 5 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33894838"
+        ],
+        "source_excerpt": "In each cohort, the doses of cagrilintide and semaglutide were co-escalated in 4-week intervals to the desired dose over 16 weeks, participants were treated at the target dose for 4 weeks, and then followed up for 5 weeks.",
+        "drafting": "extractive"
+      }
+    ],
+    "interactions": [
+      {
+        "value": "Randomized controlled trial, humans, n=90, 2026: We aimed to compare the efficacy and safety of a once per week combination of cagrilintide with semaglutide (CagriSema) versus placebo as an add-on to basal insulin in individuals with type 2 diabetes.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251856"
+        ],
+        "source_excerpt": "We aimed to compare the efficacy and safety of a once per week combination of cagrilintide with semaglutide (CagriSema) versus placebo as an add-on to basal insulin in individuals with type 2 diabetes.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=1,206, 2025: Data are needed on the coadministration of cagrilintide and semaglutide (called CagriSema) for weight management in adults with type 2 diabetes, including those in a subgroup who are undergoing continuous glucose monitoring.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40544432"
+        ],
+        "source_excerpt": "Data are needed on the coadministration of cagrilintide and semaglutide (called CagriSema) for weight management in adults with type 2 diabetes, including those in a subgroup who are undergoing continuous glucose monitoring.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=31, 2023: This trial assessed the efficacy and safety of co-administered semaglutide with cagrilintide (CagriSema) in participants with type 2 diabetes.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37364590"
+        ],
+        "source_excerpt": "This trial assessed the efficacy and safety of co-administered semaglutide with cagrilintide (CagriSema) in participants with type 2 diabetes.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2021: The trial included six sequential overlapping cohorts, and in each cohort eligible participants were randomly assigned (3:1) to once-weekly subcutaneous cagrilintide (0·16, 0·30, 0·60, 1·2, 2·4, or 4·5 mg) or matched placebo, in combination with once-weekly subcutaneous semaglutide 2·4…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33894838"
+        ],
+        "source_excerpt": "The trial included six sequential overlapping cohorts, and in each cohort eligible participants were randomly assigned (3:1) to once-weekly subcutaneous cagrilintide (0·16, 0·30, 0·60, 1·2, 2·4, or 4·5 mg) or matched placebo, in combination with once-weekly subcutaneous semaglutide 2·4 mg, without lifestyle interventions.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2025: Here, we determine structures of cagrilintide bound to Gs-coupled, active, amylin receptors (AMY 1 R, AMY 2 R, AMY 3 R) and calcitonin receptor (CTR) and compare cagrilintide interactions and the dynamics of receptor complexes with previously reported structures of receptors bound to rat amylin, salmon…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40204768"
+        ],
+        "source_excerpt": "Here, we determine structures of cagrilintide bound to Gs-coupled, active, amylin receptors (AMY 1 R, AMY 2 R, AMY 3 R) and calcitonin receptor (CTR) and compare cagrilintide interactions and the dynamics of receptor complexes with previously reported structures of receptors bound to rat amylin, salmon calcitonin or recently developed amylin-based peptides.",
+        "drafting": "extractive"
+      }
+    ],
+    "exclusion_criteria": [
+      {
+        "value": "Randomized controlled trial, humans, n=99, 2026: Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg,…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "source_excerpt": "Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=5,425, 2026: Eligible randomized controlled trials (RCTs) assessed Cagrilintide monotherapy or CagriSema versus placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42583410"
+        ],
+        "source_excerpt": "Eligible randomized controlled trials (RCTs) assessed Cagrilintide monotherapy or CagriSema versus placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=62, 2026: Between March 19 and Dec 5, 2024, 294 people were screened for eligibility, 189 of whom were enrolled and randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=62), cagrilintide-semaglutide (1·0 mg each; n=63), or placebo (n=64).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251860"
+        ],
+        "source_excerpt": "Between March 19 and Dec 5, 2024, 294 people were screened for eligibility, 189 of whom were enrolled and randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=62), cagrilintide-semaglutide (1·0 mg each; n=63), or placebo (n=64).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: From Oct 10, 2023, to July 29, 2024, 3593 people were screened for eligibility, 2713 of whom were randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=603), semaglutide 2·4 mg (n=605), cagrilintide 2·4 mg (n=152), cagrilintide-semaglutide (1·0 mg each; n=595), semaglutide 1·0 mg…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "From Oct 10, 2023, to July 29, 2024, 3593 people were screened for eligibility, 2713 of whom were randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=603), semaglutide 2·4 mg (n=605), cagrilintide 2·4 mg (n=152), cagrilintide-semaglutide (1·0 mg each; n=595), semaglutide 1·0 mg (n=609), or placebo (pooled 2·4 mg and 1·0 mg; n=149).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2021: The trial included six sequential overlapping cohorts, and in each cohort eligible participants were randomly assigned (3:1) to once-weekly subcutaneous cagrilintide (0·16, 0·30, 0·60, 1·2, 2·4, or 4·5 mg) or matched placebo, in combination with once-weekly subcutaneous semaglutide 2·4…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33894838"
+        ],
+        "source_excerpt": "The trial included six sequential overlapping cohorts, and in each cohort eligible participants were randomly assigned (3:1) to once-weekly subcutaneous cagrilintide (0·16, 0·30, 0·60, 1·2, 2·4, or 4·5 mg) or matched placebo, in combination with once-weekly subcutaneous semaglutide 2·4 mg, without lifestyle interventions.",
+        "drafting": "extractive"
+      }
+    ],
+    "adverse_events": [
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: Adverse events were reported in 524 (86·9%) of 603 participants in the cagrilintide-semaglutide (2·4 mg each) group, 491 (81·2%) of 605 in the semaglutide 2·4 mg group, 125 (82·2%) of 152 in the cagrilintide 2·4 mg group, 485 (81·6%) of 594 in the cagrilintide-semaglutide (1·0 mg each)…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "Adverse events were reported in 524 (86·9%) of 603 participants in the cagrilintide-semaglutide (2·4 mg each) group, 491 (81·2%) of 605 in the semaglutide 2·4 mg group, 125 (82·2%) of 152 in the cagrilintide 2·4 mg group, 485 (81·6%) of 594 in the cagrilintide-semaglutide (1·0 mg each) group, 477 (78·5%) of 608 in the semaglutide 1·0 mg group, and 105 (70·5%) of 149 in the placebo group.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=14, 2026: No increase in number of adverse events with increasing renal or hepatic impairment was observed, and no new safety or tolerability findings with cagrilintide were identified with renal or hepatic impairment.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42228334"
+        ],
+        "source_excerpt": "No increase in number of adverse events with increasing renal or hepatic impairment was observed, and no new safety or tolerability findings with cagrilintide were identified with renal or hepatic impairment.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=164, 2026: 17 (10%) participants discontinued cagrilintide-semaglutide and ten (6%) discontinued semaglutide.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42009015"
+        ],
+        "source_excerpt": "17 (10%) participants discontinued cagrilintide-semaglutide and ten (6%) discontinued semaglutide.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=31, 2023: Treatment with CagriSema resulted in significantly greater weight loss versus semaglutide and cagrilintide and was well tolerated.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37364590"
+        ],
+        "source_excerpt": "Treatment with CagriSema resulted in significantly greater weight loss versus semaglutide and cagrilintide and was well tolerated.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=73, 2021: According to the trial product estimand, mean percentage weight reductions from baseline were greater with all doses of cagrilintide (0·3-4·5 mg, 6·0%-10·8% [6·4-11·5 kg]) versus placebo (3·0% [3·3 kg]; estimated treatment difference range 3·0%-7·8%; p Interpretation Treatment with…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34798060"
+        ],
+        "source_excerpt": "According to the trial product estimand, mean percentage weight reductions from baseline were greater with all doses of cagrilintide (0·3-4·5 mg, 6·0%-10·8% [6·4-11·5 kg]) versus placebo (3·0% [3·3 kg]; estimated treatment difference range 3·0%-7·8%; p Interpretation Treatment with cagrilintide in people with overweight and obesity led to significant reductions in bodyweight and was well tolerated.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2021: Of 566 adverse events reported in 92 participants (69 [97%] of 71 participants assigned to 0·16-4·5 mg cagrilintide and 23 [96%] of 24 assigned to placebo), 207 (37%) were gastrointestinal disorders.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33894838"
+        ],
+        "source_excerpt": "Of 566 adverse events reported in 92 participants (69 [97%] of 71 participants assigned to 0·16-4·5 mg cagrilintide and 23 [96%] of 24 assigned to placebo), 207 (37%) were gastrointestinal disorders.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, 2026: The phase 3a, 68-week REDEFINE 1 trial randomised adults without diabetes with BMI ≥ 30 kg/m 2 , or ≥ 27 kg/m 2 with ≥ 1 obesity-related complication, to once-weekly CagriSema 2.4 mg/2.4 mg, semaglutide 2.4 mg, cagrilintide 2.4 mg, or placebo, plus lifestyle intervention.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42503495"
+        ],
+        "source_excerpt": "The phase 3a, 68-week REDEFINE 1 trial randomised adults without diabetes with BMI ≥ 30 kg/m 2 , or ≥ 27 kg/m 2 with ≥ 1 obesity-related complication, to once-weekly CagriSema 2.4 mg/2.4 mg, semaglutide 2.4 mg, cagrilintide 2.4 mg, or placebo, plus lifestyle intervention.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=5,425, 2026: Cagrilintide monotherapy produced significant reductions in body weight (MD: -6.08%; MD: -5.89 kg) and blood pressure, without meaningful HbA1c improvement.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42583410"
+        ],
+        "source_excerpt": "Cagrilintide monotherapy produced significant reductions in body weight (MD: -6.08%; MD: -5.89 kg) and blood pressure, without meaningful HbA1c improvement.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=90, 2026: We aimed to compare the efficacy and safety of a once per week combination of cagrilintide with semaglutide (CagriSema) versus placebo as an add-on to basal insulin in individuals with type 2 diabetes.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251856"
+        ],
+        "source_excerpt": "We aimed to compare the efficacy and safety of a once per week combination of cagrilintide with semaglutide (CagriSema) versus placebo as an add-on to basal insulin in individuals with type 2 diabetes.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: The amylin receptor agonist cagrilintide and the GLP-1 receptor agonist semaglutide have complementary effects on glycaemic control and bodyweight.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "The amylin receptor agonist cagrilintide and the GLP-1 receptor agonist semaglutide have complementary effects on glycaemic control and bodyweight.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=14, 2026: The primary endpoint was area under the cagrilintide plasma concentration curve from time zero extrapolated to infinity (AUC 0-∞ ) from baseline (day 1) to day 36 (renal impairment study) or day 39 (hepatic impairment study).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42228334"
+        ],
+        "source_excerpt": "The primary endpoint was area under the cagrilintide plasma concentration curve from time zero extrapolated to infinity (AUC 0-∞ ) from baseline (day 1) to day 36 (renal impairment study) or day 39 (hepatic impairment study).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=164, 2026: The combination of cagrilintide and semaglutide has been shown in global studies to induce reductions in bodyweight.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42009015"
+        ],
+        "source_excerpt": "The combination of cagrilintide and semaglutide has been shown in global studies to induce reductions in bodyweight.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2021: Secondary pharmacokinetic endpoints assessed from day of last dose (week 19) to end of treatment (week 20) were area under the plasma concentration-time curve from 0 to 168 h (AUC 0-168 h ) and maximum concentration [C max ] of cagrilintide and semaglutide; exploratory pharmacokinetic…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33894838"
+        ],
+        "source_excerpt": "Secondary pharmacokinetic endpoints assessed from day of last dose (week 19) to end of treatment (week 20) were area under the plasma concentration-time curve from 0 to 168 h (AUC 0-168 h ) and maximum concentration [C max ] of cagrilintide and semaglutide; exploratory pharmacokinetic endpoints were half-life, time to C max [t max ], plasma clearance, and volume of distribution of cagrilintide and semaglutide; and exploratory pharmacodynamic endpoints were changes in bodyweight, glycaemic parameters, and hormones.",
+        "drafting": "extractive"
+      }
+    ],
     "storage": [],
-    "study_durations": [],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, n=99, 2026: durations stated: 52 weeks. Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "source_excerpt": "Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=90, 2026: durations stated: 40 weeks. Adults with type 2 diabetes (glycated haemoglobin [HbA 1c ] 7·0-10·5%) receiving stable once per day basal insulin with or without metformin were randomly assigned (2:2:1:1) to once per week subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251856"
+        ],
+        "source_excerpt": "Adults with type 2 diabetes (glycated haemoglobin [HbA 1c ] 7·0-10·5%) receiving stable once per day basal insulin with or without metformin were randomly assigned (2:2:1:1) to once per week subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]) or cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]) or dose-matched placebo (2·4 mg plus 2·4 mg or 1·0 mg plus 1·0 mg) for 40 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=62, 2026: durations stated: 18 years; 40 weeks. Adults aged 18 years or older with type 2 diabetes inadequately controlled with diet and exercise were randomly assigned (2:1:2:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (cagrilintide-semaglutide [2·4 mg…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251860"
+        ],
+        "source_excerpt": "Adults aged 18 years or older with type 2 diabetes inadequately controlled with diet and exercise were randomly assigned (2:1:2:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (cagrilintide-semaglutide [2·4 mg each]), placebo 2·4 mg plus 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (cagrilintide-semaglutide [1·0 mg each]), or placebo 1·0 mg plus 1·0 mg for 40 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: durations stated: 18 years; 68 weeks. Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]), semaglutide 2·4 mg, cagrilintide 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]), semaglutide 1·0 mg, or corresponding placebo for 68 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=1,206, 2025: durations stated: 68 weeks. In this phase 3a, double-blind, randomized, placebo-controlled trial conducted in 12 countries, we assigned adults with a body-mass index of 27 or more, a glycated hemoglobin level of 7 to 10%, and type 2 diabetes in a 3:1 ratio to receive once-weekly…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40544432"
+        ],
+        "source_excerpt": "In this phase 3a, double-blind, randomized, placebo-controlled trial conducted in 12 countries, we assigned adults with a body-mass index of 27 or more, a glycated hemoglobin level of 7 to 10%, and type 2 diabetes in a 3:1 ratio to receive once-weekly cagrilintide-semaglutide (2.4 mg each) or placebo, along with lifestyle intervention, for 68 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=73, 2021: durations stated: 26 week; 6 weeks; 6 week. The trial had a 26-week treatment period, including a dose-escalation period of up to 6 weeks, and a 6-week follow-up period without treatment.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34798060"
+        ],
+        "source_excerpt": "The trial had a 26-week treatment period, including a dose-escalation period of up to 6 weeks, and a 6-week follow-up period without treatment.",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL4802169: maximum clinical phase 3. Jurisdiction-level status pending human review.",
         "evidence_label": "human-clinical-trial",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Clinical trial, humans, n=214, 2026: Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42688617"
+        ],
+        "source_excerpt": "Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Chen 2026",
+          "year": "2026",
+          "design": "Clinical trial",
+          "n": 214,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: This secondary, post hoc analysis assessed the proportions of participants achieving BMI 2 and/or WHtR Results The proportion of participants achieving both BMI 2 and WHtR Conclusions The proportion of participants achieving anthropometric targets was greater with CagriSema Versus other…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42503495"
+        ],
+        "source_excerpt": "This secondary, post hoc analysis assessed the proportions of participants achieving BMI 2 and/or WHtR Results The proportion of participants achieving both BMI 2 and WHtR Conclusions The proportion of participants achieving anthropometric targets was greater with CagriSema Versus other treatments.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Busetto 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "2.4 mg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "This secondary, post hoc analysis assessed the proportions of participants achieving BMI 2 and/or WHtR Results The proportion of participants achieving both BMI 2 and WHtR Conclusions The proportion of participants…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=99, 2026: Similarly, the proportions of participants achieving this endpoint in the two groups that combined lower doses of zalfermin with semaglutide 2·4 mg and in the exploratory group combining cagrilintide 2·4 mg with semaglutide 2·4 mg were not substantially different than with placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "source_excerpt": "Similarly, the proportions of participants achieving this endpoint in the two groups that combined lower doses of zalfermin with semaglutide 2·4 mg and in the exploratory group combining cagrilintide 2·4 mg with semaglutide 2·4 mg were not substantially different than with placebo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Loomba 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 99,
+          "species": "Humans",
+          "dose": "2·4 mg",
+          "route": "subcutaneous",
+          "duration": "52 weeks",
+          "outcome": "Similarly, the proportions of participants achieving this endpoint in the two groups that combined lower doses of zalfermin with semaglutide 2·4 mg and in the exploratory group combining cagrilintide 2·4 mg with…"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=5,425, 2026: Cagrilintide monotherapy produced significant reductions in body weight (MD: -6.08%; MD: -5.89 kg) and blood pressure, without meaningful HbA1c improvement.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42583410"
+        ],
+        "source_excerpt": "Cagrilintide monotherapy produced significant reductions in body weight (MD: -6.08%; MD: -5.89 kg) and blood pressure, without meaningful HbA1c improvement.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yaseen 2026",
+          "year": "2026",
+          "design": "Clinical trial",
+          "n": 5425,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Cagrilintide monotherapy produced significant reductions in body weight (MD: -6.08%; MD: -5.89 kg) and blood pressure, without meaningful HbA1c improvement."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=90, 2026: Mean HbA 1c reductions were significantly greater with cagrilintide-semaglutide (2·4 mg each -2·33% [SE 0·08] and 1·0 mg each -2·10% [0·08]) versus placebo (-0·66% [0·11]) at week 40, using the efficacy estimand (estimated treatment difference for cagrilintide-semaglutide [2·4 mg each] vs…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251856"
+        ],
+        "source_excerpt": "Mean HbA 1c reductions were significantly greater with cagrilintide-semaglutide (2·4 mg each -2·33% [SE 0·08] and 1·0 mg each -2·10% [0·08]) versus placebo (-0·66% [0·11]) at week 40, using the efficacy estimand (estimated treatment difference for cagrilintide-semaglutide [2·4 mg each] vs placebo -1·68 percentage points [95% CI -1·95 to -1·41], p Interpretation Cagrilintide-semaglutide at doses of 2·4 mg each and 1·0 mg each met the primary endpoint, with statistically significant and clinically relevant HbA 1c reductions versus placebo when added to basal insulin-treated type 2 diabetes.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Rosenstock 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 90,
+          "species": "Humans",
+          "dose": "2·4 mg; 1·0 mg",
+          "route": "subcutaneous",
+          "duration": "40 weeks",
+          "outcome": "Mean HbA 1c reductions were significantly greater with cagrilintide-semaglutide (2·4 mg each -2·33% [SE 0·08] and 1·0 mg each -2·10% [0·08]) versus placebo (-0·66% [0·11]) at week 40, using the efficacy estimand…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=62, 2026: This corresponded to an estimated treatment difference of -1·7 percentage points (95% CI -2·0 to -1·3; p Interpretation In a population of people with early-stage type 2 diabetes inadequately controlled with diet and exercise, cagrilintide-semaglutide (2·4 mg each and 1·0 mg each) was…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251860"
+        ],
+        "source_excerpt": "This corresponded to an estimated treatment difference of -1·7 percentage points (95% CI -2·0 to -1·3; p Interpretation In a population of people with early-stage type 2 diabetes inadequately controlled with diet and exercise, cagrilintide-semaglutide (2·4 mg each and 1·0 mg each) was superior to placebo in reducing HbA 1c .",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Aroda 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 62,
+          "species": "Humans",
+          "dose": "2·4 mg; 1·0 mg",
+          "route": "subcutaneous",
+          "duration": "18 years; 40 weeks",
+          "outcome": "This corresponded to an estimated treatment difference of -1·7 percentage points (95% CI -2·0 to -1·3; p Interpretation In a population of people with early-stage type 2 diabetes inadequately controlled with diet and…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=603, 2026: For the primary endpoint using the efficacy estimand, mean HbA 1c change was significantly greater with cagrilintide-semaglutide (2·4 mg each) versus semaglutide 2·4 mg (-1·91 percentage points [SE 0·04] vs -1·75 percentage points [0·04]; estimated treatment difference -0·16 percentage…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "source_excerpt": "For the primary endpoint using the efficacy estimand, mean HbA 1c change was significantly greater with cagrilintide-semaglutide (2·4 mg each) versus semaglutide 2·4 mg (-1·91 percentage points [SE 0·04] vs -1·75 percentage points [0·04]; estimated treatment difference -0·16 percentage points [95% CI -0·27 to -0·05]; p=0·0035).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Buse 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 603,
+          "species": "Humans",
+          "dose": "2·4 mg; 1·0 mg",
+          "route": "subcutaneous",
+          "duration": "18 years; 68 weeks",
+          "outcome": "For the primary endpoint using the efficacy estimand, mean HbA 1c change was significantly greater with cagrilintide-semaglutide (2·4 mg each) versus semaglutide 2·4 mg (-1·91 percentage points [SE 0·04] vs -1·75…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=14, 2026: No increase in number of adverse events with increasing renal or hepatic impairment was observed, and no new safety or tolerability findings with cagrilintide were identified with renal or hepatic impairment.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42228334"
+        ],
+        "source_excerpt": "No increase in number of adverse events with increasing renal or hepatic impairment was observed, and no new safety or tolerability findings with cagrilintide were identified with renal or hepatic impairment.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Nielsen 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 14,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "No increase in number of adverse events with increasing renal or hepatic impairment was observed, and no new safety or tolerability findings with cagrilintide were identified with renal or hepatic impairment."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=164, 2026: The combination of cagrilintide and semaglutide has been shown in global studies to induce reductions in bodyweight.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42009015"
+        ],
+        "source_excerpt": "The combination of cagrilintide and semaglutide has been shown in global studies to induce reductions in bodyweight.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yamauchi 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 164,
+          "species": "Humans",
+          "dose": "2·4 mg",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "The combination of cagrilintide and semaglutide has been shown in global studies to induce reductions in bodyweight."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=2,108, 2026: Among participants who used antihypertensive medication during the study, 39.6% in the CagriSema group decreased or stopped treatment from week 0 to week 68 versus 18.8% with placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41328546"
+        ],
+        "source_excerpt": "Among participants who used antihypertensive medication during the study, 39.6% in the CagriSema group decreased or stopped treatment from week 0 to week 68 versus 18.8% with placebo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Verma 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 2108,
+          "species": "Humans",
+          "dose": "2.4 mg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Among participants who used antihypertensive medication during the study, 39.6% in the CagriSema group decreased or stopped treatment from week 0 to week 68 versus 18.8% with placebo."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=5, 2025: Network meta-analysis integrated evidence across CagriSema, cagrilintide, and amycretin formulations.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41255585"
+        ],
+        "source_excerpt": "Network meta-analysis integrated evidence across CagriSema, cagrilintide, and amycretin formulations.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Al-Harbi 2025",
+          "year": "2025",
+          "design": "Clinical trial",
+          "n": 5,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=15, 2025: Eloralintide induced significantly less conditioned taste avoidance in lean rats than cagrilintide, a non-selective amylin receptor agonist (p 2 .",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41109426"
+        ],
+        "source_excerpt": "Eloralintide induced significantly less conditioned taste avoidance in lean rats than cagrilintide, a non-selective amylin receptor agonist (p 2 .",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Briere 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": 15,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Eloralintide induced significantly less conditioned taste avoidance in lean rats than cagrilintide, a non-selective amylin receptor agonist (p 2 ."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=3,417, 2025: The estimated mean percent change in body weight from baseline to week 68 was -20.4% with cagrilintide-semaglutide as compared with -3.0% with placebo (estimated difference, -17.3 percentage points; 95% confidence interval, -18.1 to -16.6; P Conclusions Cagrilintide-semaglutide…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40544433"
+        ],
+        "source_excerpt": "The estimated mean percent change in body weight from baseline to week 68 was -20.4% with cagrilintide-semaglutide as compared with -3.0% with placebo (estimated difference, -17.3 percentage points; 95% confidence interval, -18.1 to -16.6; P Conclusions Cagrilintide-semaglutide provided significant and clinically relevant body-weight reductions in adults with overweight or obesity, as compared with placebo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Garvey 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": 3417,
+          "species": "Humans",
+          "dose": "2.4 mg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The estimated mean percent change in body weight from baseline to week 68 was -20.4% with cagrilintide-semaglutide as compared with -3.0% with placebo (estimated difference, -17.3 percentage points; 95% confidence…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=1,206, 2025: The estimated mean change in body weight from baseline to week 68 was -13.7% in the cagrilintide-semaglutide group and -3.4% in the placebo group (estimated difference, -10.4 percentage points; 95% confidence interval, -11.2 to -9.5; P Conclusions Once-weekly cagrilintide-semaglutide…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40544432"
+        ],
+        "source_excerpt": "The estimated mean change in body weight from baseline to week 68 was -13.7% in the cagrilintide-semaglutide group and -3.4% in the placebo group (estimated difference, -10.4 percentage points; 95% confidence interval, -11.2 to -9.5; P Conclusions Once-weekly cagrilintide-semaglutide (at a dose of 2.4 mg each) resulted in a significantly lower body weight than placebo in adults with obesity and type 2 diabetes.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Davies 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": 1206,
+          "species": "Humans",
+          "dose": "2.4 mg",
+          "route": "not stated in abstract",
+          "duration": "68 weeks",
+          "outcome": "The estimated mean change in body weight from baseline to week 68 was -13.7% in the cagrilintide-semaglutide group and -3.4% in the placebo group (estimated difference, -10.4 percentage points; 95% confidence interval,…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=53, 2024: Cagrilintide did not result in clinically relevant QTcF prolongation, indicating no increased risk of ventricular tachyarrhythmias.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39279639"
+        ],
+        "source_excerpt": "Cagrilintide did not result in clinically relevant QTcF prolongation, indicating no increased risk of ventricular tachyarrhythmias.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gabe 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": 53,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Cagrilintide did not result in clinically relevant QTcF prolongation, indicating no increased risk of ventricular tachyarrhythmias."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=31, 2023: The mean change in HbA 1c from baseline to week 32 (CagriSema: -2·2 percentage points [SE 0·15]; semaglutide: -1·8 percentage points [0·16]; cagrilintide: -0·9 percentage points [0·15]) was greater with CagriSema versus cagrilintide (estimated treatment difference -1·3 percentage points…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37364590"
+        ],
+        "source_excerpt": "The mean change in HbA 1c from baseline to week 32 (CagriSema: -2·2 percentage points [SE 0·15]; semaglutide: -1·8 percentage points [0·16]; cagrilintide: -0·9 percentage points [0·15]) was greater with CagriSema versus cagrilintide (estimated treatment difference -1·3 percentage points [95% CI -1·7 to -0·8]; p Interpretation In people with type 2 diabetes, treatment with CagriSema resulted in clinically relevant improvements in glycaemic control (including CGM parameters).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Frias 2023",
+          "year": "2023",
+          "design": "Randomized controlled trial",
+          "n": 31,
+          "species": "Humans",
+          "dose": "2·4 mg",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "The mean change in HbA 1c from baseline to week 32 (CagriSema: -2·2 percentage points [SE 0·15]; semaglutide: -1·8 percentage points [0·16]; cagrilintide: -0·9 percentage points [0·15]) was greater with CagriSema…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=73, 2021: According to the trial product estimand, mean percentage weight reductions from baseline were greater with all doses of cagrilintide (0·3-4·5 mg, 6·0%-10·8% [6·4-11·5 kg]) versus placebo (3·0% [3·3 kg]; estimated treatment difference range 3·0%-7·8%; p Interpretation Treatment with…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34798060"
+        ],
+        "source_excerpt": "According to the trial product estimand, mean percentage weight reductions from baseline were greater with all doses of cagrilintide (0·3-4·5 mg, 6·0%-10·8% [6·4-11·5 kg]) versus placebo (3·0% [3·3 kg]; estimated treatment difference range 3·0%-7·8%; p Interpretation Treatment with cagrilintide in people with overweight and obesity led to significant reductions in bodyweight and was well tolerated.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lau 2021",
+          "year": "2021",
+          "design": "Randomized controlled trial",
+          "n": 73,
+          "species": "Humans",
+          "dose": "0·3-4·5 mg; 3·0 mg",
+          "route": "subcutaneous",
+          "duration": "26 week; 6 weeks",
+          "outcome": "According to the trial product estimand, mean percentage weight reductions from baseline were greater with all doses of cagrilintide (0·3-4·5 mg, 6·0%-10·8% [6·4-11·5 kg]) versus placebo (3·0% [3·3 kg]; estimated…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2021: Exposure was proportional to cagrilintide dose and did not affect semaglutide exposure or elimination.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33894838"
+        ],
+        "source_excerpt": "Exposure was proportional to cagrilintide dose and did not affect semaglutide exposure or elimination.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Enebo 2021",
+          "year": "2021",
+          "design": "Randomized controlled trial",
+          "n": 12,
+          "species": "Humans",
+          "dose": "0·16-2·4 mg; 0·60 mg",
+          "route": "subcutaneous",
+          "duration": "4 week; 16 weeks",
+          "outcome": "Exposure was proportional to cagrilintide dose and did not affect semaglutide exposure or elimination."
+        }
+      },
+      {
+        "value": "Animal study, rats, mice, 2026: Amylin receptor agonists such as cagrilintide represent emerging obesity therapies.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42260119"
+        ],
+        "source_excerpt": "Amylin receptor agonists such as cagrilintide represent emerging obesity therapies.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ludwig 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats, Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: In healthy myotubes, semaglutide and cagrilintide transiently reduced basal respiration (↓21%-28%, p Conclusion Incretin-based therapies exert distinct, time and dose-dependent effects on skeletal muscle mitochondrial function.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41852165"
+        ],
+        "source_excerpt": "In healthy myotubes, semaglutide and cagrilintide transiently reduced basal respiration (↓21%-28%, p Conclusion Incretin-based therapies exert distinct, time and dose-dependent effects on skeletal muscle mitochondrial function.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Old 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "5 days",
+          "outcome": "In healthy myotubes, semaglutide and cagrilintide transiently reduced basal respiration (↓21%-28%, p Conclusion Incretin-based therapies exert distinct, time and dose-dependent effects on skeletal muscle mitochondrial…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: Given that amylin signalling is a key therapeutic target for next-generation weight-loss drugs, amylin receptor agonists such as pramlintide, cagrilintide and KBP-066 also warrant consideration as to metabolism and detection strategies in sports drug testing programs.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41702251"
+        ],
+        "source_excerpt": "Given that amylin signalling is a key therapeutic target for next-generation weight-loss drugs, amylin receptor agonists such as pramlintide, cagrilintide and KBP-066 also warrant consideration as to metabolism and detection strategies in sports drug testing programs.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Alhalabi 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, 2026: Cagrilintide (Cagri), functioning as a dual amylin receptor (AMYRs) and calcitonin receptor (CTR) agonist (DACRA), demonstrates significant efficacy in obesity treatment, although its structural activation mechanism remains unclear.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40847076"
+        ],
+        "source_excerpt": "Cagrilintide (Cagri), functioning as a dual amylin receptor (AMYRs) and calcitonin receptor (CTR) agonist (DACRA), demonstrates significant efficacy in obesity treatment, although its structural activation mechanism remains unclear.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gu 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Cagrilintide (Cagri), functioning as a dual amylin receptor (AMYRs) and calcitonin receptor (CTR) agonist (DACRA), demonstrates significant efficacy in obesity treatment, although its structural activation mechanism…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2025: Quantifying CagriSema's action on energy intake and expenditure in rats we observe 12% weight loss with a 39% reduction in food intake.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40629149"
+        ],
+        "source_excerpt": "Quantifying CagriSema's action on energy intake and expenditure in rats we observe 12% weight loss with a 39% reduction in food intake.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Jacobsen 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Quantifying CagriSema's action on energy intake and expenditure in rats we observe 12% weight loss with a 39% reduction in food intake."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2025: Body weight loss was observed in WT cagrilintide-treated mice (-3.4 ± 0.51 g, P Interpretation Altogether, these results demonstrate the dependency of cagrilintide on AMY 1 R and AMY 3 R to lower body weight.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40609154"
+        ],
+        "source_excerpt": "Body weight loss was observed in WT cagrilintide-treated mice (-3.4 ± 0.51 g, P Interpretation Altogether, these results demonstrate the dependency of cagrilintide on AMY 1 R and AMY 3 R to lower body weight.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Carvas 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "23 weeks; 3 week",
+          "outcome": "Body weight loss was observed in WT cagrilintide-treated mice (-3.4 ± 0.51 g, P Interpretation Altogether, these results demonstrate the dependency of cagrilintide on AMY 1 R and AMY 3 R to lower body weight."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2025: Among the most promising candidates, supported by phase 1 and 2 clinical trials, is cagrilintide, a long-acting amylin and calcitonin receptor agonist.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40204768"
+        ],
+        "source_excerpt": "Among the most promising candidates, supported by phase 1 and 2 clinical trials, is cagrilintide, a long-acting amylin and calcitonin receptor agonist.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Cao 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
       }
     ]
   },
@@ -69,15 +985,43 @@
         "NNC0174-0833"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL4802169/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 31,
+      "claims": 46,
+      "evidence_table_rows": 25
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports weight-normalized doses for Cagrilintide.",
+    "No study in this record's ledger reports storage or stability for Cagrilintide."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Cagrilintide been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 13 clinical trials and 15 randomized controlled trials naming Cagrilintide or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Cagrilintide?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Cagrilintide an approved medicine?",
+      "answer": "ChEMBL records CHEMBL4802169 at maximum clinical phase 3, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has Cagrilintide been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42688617",
@@ -298,7 +1242,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 82.7,
   "review": {
     "author": "",
     "reviewer": "",
@@ -309,6 +1253,18 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 31 ledger sources by scripts/draft_claims.py: 53 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 31 ledger sources by scripts/draft_claims.py: 53 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 31 ledger sources by scripts/draft_claims.py: 45 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

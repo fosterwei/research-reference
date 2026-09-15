@@ -8,26 +8,459 @@
     "Long R3 IGF-1"
   ],
   "slug": "igf-1-lr3",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "animal-preclinical",
-  "summary": "Research record for IGF-1 LR3. Europe PMC indexes 27 publications, including 0 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "IGF-1 LR3 is a peptide in the growth factors & reproductive class (IGF-1 receptor agonist, extended analog with reduced IGFBP binding). Europe PMC indexes 27 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is animal studies only, with no indexed human study. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "IGF-1 LR3: what the research shows",
-    "description": "Cited overview of published IGF-1 LR3 research: 27 indexed publications, 0 randomized controlled trials. Evidence tier on every claim."
+    "description": "IGF-1 LR3 research, cited: 27 indexed publications, 0 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
+    "routes_studied": [
+      {
+        "value": "Animal study, sheep, n=8, 2021: administration by intravenous route reported. Catheterized fetuses from late gestation pregnant sheep received an intravenous infusion of LR3 IGF-1 (LR3 IGF-1; n = 8) or saline (SAL; n = 8) for 1 wk.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33427051"
+        ],
+        "source_excerpt": "Catheterized fetuses from late gestation pregnant sheep received an intravenous infusion of LR3 IGF-1 (LR3 IGF-1; n = 8) or saline (SAL; n = 8) for 1 wk.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Animal study, sheep, n=7, 2025: doses stated in the abstract: 0.12 μg. In this study, FGR fetal sheep received either IGF-1 LR3 treatment at 1.17 ± 0.12 μg·kg -1 ·h -1 (LR3; n = 7) or vehicle (VEH; n = 7) for 1 wk.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39679943"
+        ],
+        "source_excerpt": "In this study, FGR fetal sheep received either IGF-1 LR3 treatment at 1.17 ± 0.12 μg·kg -1 ·h -1 (LR3; n = 7) or vehicle (VEH; n = 7) for 1 wk.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, sheep, 2012: doses stated in the abstract: 20 μg. Compared with controls, J(net)Na increased by about 60% (P < 0.05) following the serosal application of LR3-IGF-1 (20 μg l(-1)).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-22227200"
+        ],
+        "source_excerpt": "Compared with controls, J(net)Na increased by about 60% (P < 0.05) following the serosal application of LR3-IGF-1 (20 μg l(-1)).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, swine, 2003: doses stated in the abstract: 10 ng; 100 ng; 0-10 ng; 1 ng. Granulosa and theca cells were isolated from 2-6 mm healthy follicles of mature porcine ovaries and cultured under serum-free conditions, supplemented with: 100 ng/ml LR3 IGF-1, 10 ng/ml insulin, 100 ng/ml testosterone, 0-10 ng/ml SCF, 1 ng/ml FSH…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12941156"
+        ],
+        "source_excerpt": "Granulosa and theca cells were isolated from 2-6 mm healthy follicles of mature porcine ovaries and cultured under serum-free conditions, supplemented with: 100 ng/ml LR3 IGF-1, 10 ng/ml insulin, 100 ng/ml testosterone, 0-10 ng/ml SCF, 1 ng/ml FSH (granulosa), 0.01 ng/ml LH (theca) or 1 ng/ml FSH and 0.01 ng/ml LH (co-culture) and with/without oocyte conditioned medium (OCM) or 5 oocytes.",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
     "interactions": [],
     "exclusion_criteria": [],
     "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
+    "biomarkers_monitored": [
+      {
+        "value": "Animal study, sheep, n=7, 2025: We previously demonstrated that a 1-wk infusion of IGF-1 LR3, an IGF-1 analog with low affinity for IGF-binding proteins and high affinity for the IGF-1 receptor, at 6.6 µg·kg -1 ·h -1 into normal fetal sheep increased body weight but lowered insulin concentrations and GSIS.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39679943"
+        ],
+        "source_excerpt": "We previously demonstrated that a 1-wk infusion of IGF-1 LR3, an IGF-1 analog with low affinity for IGF-binding proteins and high affinity for the IGF-1 receptor, at 6.6 µg·kg -1 ·h -1 into normal fetal sheep increased body weight but lowered insulin concentrations and GSIS.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=19, 2025: Long arginine 3-IGF-1 (LR3-IGF-1) is a potent IGF-1 analogue.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39610283"
+        ],
+        "source_excerpt": "Long arginine 3-IGF-1 (LR3-IGF-1) is a potent IGF-1 analogue.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, sheep, n=10, 2023: We previously demonstrated that a 1-week IGF-1 LR3 infusion into fetal sheep reduces in vivo and in vitro insulin secretion suggesting an intrinsic islet defect.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-37114757"
+        ],
+        "source_excerpt": "We previously demonstrated that a 1-week IGF-1 LR3 infusion into fetal sheep reduces in vivo and in vitro insulin secretion suggesting an intrinsic islet defect.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2022: Significant reductions of phosphorylation of ERK1 and ERK2 in Lec1 and Lec4 cells were observed upon IGF-1R ligand (IGF-1 LR3) stimulation.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36499281"
+        ],
+        "source_excerpt": "Significant reductions of phosphorylation of ERK1 and ERK2 in Lec1 and Lec4 cells were observed upon IGF-1R ligand (IGF-1 LR3) stimulation.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, sheep, n=8, 2021: Late gestation fetal sheep received infusions with IGF-1 LR3 (IGF-1, n = 8), an analog of IGF-1 with low affinity for the IGF binding proteins and high affinity for the IGF-1 receptor, or vehicle control (CON, n = 9).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33938236"
+        ],
+        "source_excerpt": "Late gestation fetal sheep received infusions with IGF-1 LR3 (IGF-1, n = 8), an analog of IGF-1 with low affinity for the IGF binding proteins and high affinity for the IGF-1 receptor, or vehicle control (CON, n = 9).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, sheep, n=8, 2021: Catheterized fetuses from late gestation pregnant sheep received an intravenous infusion of LR3 IGF-1 (LR3 IGF-1; n = 8) or saline (SAL; n = 8) for 1 wk.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33427051"
+        ],
+        "source_excerpt": "Catheterized fetuses from late gestation pregnant sheep received an intravenous infusion of LR3 IGF-1 (LR3 IGF-1; n = 8) or saline (SAL; n = 8) for 1 wk.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Animal study, sheep, 2012: At concentrations ranging from 20 to 100 μg l(-1), serosal LR3-IGF-1, a recombinant analogue of IGF-1, rapidly (within 30 min) stimulated the mucosal-to-serosal Na(+) flux (J(ms)Na) and consequently the net Na(+) flux (J(net)Na).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-22227200"
+        ],
+        "source_excerpt": "At concentrations ranging from 20 to 100 μg l(-1), serosal LR3-IGF-1, a recombinant analogue of IGF-1, rapidly (within 30 min) stimulated the mucosal-to-serosal Na(+) flux (J(ms)Na) and consequently the net Na(+) flux (J(net)Na).",
+        "drafting": "extractive"
+      }
+    ],
     "storage": [],
-    "study_durations": [],
+    "study_durations": [
+      {
+        "value": "Animal study, sheep, n=7, 2025: durations stated: 1 wk. In this study, FGR fetal sheep received either IGF-1 LR3 treatment at 1.17 ± 0.12 μg·kg -1 ·h -1 (LR3; n = 7) or vehicle (VEH; n = 7) for 1 wk.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39679943"
+        ],
+        "source_excerpt": "In this study, FGR fetal sheep received either IGF-1 LR3 treatment at 1.17 ± 0.12 μg·kg -1 ·h -1 (LR3; n = 7) or vehicle (VEH; n = 7) for 1 wk.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=19, 2025: durations stated: 7 months; 10 months. Wildtype and 5XFAD male mice were treated for 7 months (3-10 months of age), with IN LR3-IGF-1 or IN Vehicle (Veh) (n = 19-27 mice/group).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39610283"
+        ],
+        "source_excerpt": "Wildtype and 5XFAD male mice were treated for 7 months (3-10 months of age), with IN LR3-IGF-1 or IN Vehicle (Veh) (n = 19-27 mice/group).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, sheep, n=8, 2021: durations stated: 1 wk. Catheterized fetuses from late gestation pregnant sheep received an intravenous infusion of LR3 IGF-1 (LR3 IGF-1; n = 8) or saline (SAL; n = 8) for 1 wk.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33427051"
+        ],
+        "source_excerpt": "Catheterized fetuses from late gestation pregnant sheep received an intravenous infusion of LR3 IGF-1 (LR3 IGF-1; n = 8) or saline (SAL; n = 8) for 1 wk.",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
-    "regulatory_status": []
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Animal study, sheep, n=7, 2025: In summary, a 1-wk IGF-1 LR3 treatment did not improve growth in FGR fetuses.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39679943"
+        ],
+        "source_excerpt": "In summary, a 1-wk IGF-1 LR3 treatment did not improve growth in FGR fetuses.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "White 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": 7,
+          "species": "Sheep",
+          "dose": "0.12 μg",
+          "route": "not stated in abstract",
+          "duration": "1 wk",
+          "outcome": "In summary, a 1-wk IGF-1 LR3 treatment did not improve growth in FGR fetuses."
+        }
+      },
+      {
+        "value": "Animal study, mice, n=19, 2025: In male 5XFAD mice, IN LR3-IGF-1 treatment improved body composition, but did not significantly alter cognitive symptoms, as assessed by multiple assays.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39610283"
+        ],
+        "source_excerpt": "In male 5XFAD mice, IN LR3-IGF-1 treatment improved body composition, but did not significantly alter cognitive symptoms, as assessed by multiple assays.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Engel 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": 19,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "7 months; 10 months",
+          "outcome": "In male 5XFAD mice, IN LR3-IGF-1 treatment improved body composition, but did not significantly alter cognitive symptoms, as assessed by multiple assays."
+        }
+      },
+      {
+        "value": "Animal study, sheep, n=10, 2023: Fetal plasma insulin concentrations decreased with IGF-1 LR3 infusion ( P P in vitro retains the ability to recover GSIS.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-37114757"
+        ],
+        "source_excerpt": "Fetal plasma insulin concentrations decreased with IGF-1 LR3 infusion ( P P in vitro retains the ability to recover GSIS.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "White 2023",
+          "year": "2023",
+          "design": "Animal study",
+          "n": 10,
+          "species": "Sheep",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Fetal plasma insulin concentrations decreased with IGF-1 LR3 infusion ( P P in vitro retains the ability to recover GSIS."
+        }
+      },
+      {
+        "value": "Animal study, 2022: Significant reductions of phosphorylation of ERK1 and ERK2 in Lec1 and Lec4 cells were observed upon IGF-1R ligand (IGF-1 LR3) stimulation.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36499281"
+        ],
+        "source_excerpt": "Significant reductions of phosphorylation of ERK1 and ERK2 in Lec1 and Lec4 cells were observed upon IGF-1R ligand (IGF-1 LR3) stimulation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Salvi 2022",
+          "year": "2022",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Significant reductions of phosphorylation of ERK1 and ERK2 in Lec1 and Lec4 cells were observed upon IGF-1R ligand (IGF-1 LR3) stimulation."
+        }
+      },
+      {
+        "value": "Animal study, sheep, n=8, 2021: In summary, IGF-1 LR3 infusion for 1 wk into fetal sheep lowers insulin concentrations and reduces fetal GSIS.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33938236"
+        ],
+        "source_excerpt": "In summary, IGF-1 LR3 infusion for 1 wk into fetal sheep lowers insulin concentrations and reduces fetal GSIS.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "White 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": 8,
+          "species": "Sheep",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In summary, IGF-1 LR3 infusion for 1 wk into fetal sheep lowers insulin concentrations and reduces fetal GSIS."
+        }
+      },
+      {
+        "value": "Animal study, sheep, n=8, 2021: Fetal heart, adrenal gland, and spleen weights were higher ( P P P P NEW & NOTEWORTHY After a 1-wk infusion of LR3 IGF-1, late gestation fetal sheep had lower umbilical uptake rates of amino acids, lower fetal arterial amino acid and insulin concentrations, and lower fetal oxygen content; however, LR-3…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33427051"
+        ],
+        "source_excerpt": "Fetal heart, adrenal gland, and spleen weights were higher ( P P P P NEW & NOTEWORTHY After a 1-wk infusion of LR3 IGF-1, late gestation fetal sheep had lower umbilical uptake rates of amino acids, lower fetal arterial amino acid and insulin concentrations, and lower fetal oxygen content; however, LR-3 IGF-1-treated fetuses were still able to effectively utilize the available nutrients and oxygen to support organ growth and myoblast proliferation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stremming 2021",
+          "year": "2021",
+          "design": "Animal study",
+          "n": 8,
+          "species": "Sheep",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "1 wk",
+          "outcome": "Fetal heart, adrenal gland, and spleen weights were higher ( P P P P NEW & NOTEWORTHY After a 1-wk infusion of LR3 IGF-1, late gestation fetal sheep had lower umbilical uptake rates of amino acids, lower fetal arterial…"
+        }
+      },
+      {
+        "value": "Animal study, sheep, 2020: These findings support IGF-1 as a potential strategy to increase cardiac myocyte and coronary vascular endowment at birth.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-32573852"
+        ],
+        "source_excerpt": "These findings support IGF-1 as a potential strategy to increase cardiac myocyte and coronary vascular endowment at birth.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Jonker 2020",
+          "year": "2020",
+          "design": "Animal study",
+          "n": null,
+          "species": "Sheep",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "These findings support IGF-1 as a potential strategy to increase cardiac myocyte and coronary vascular endowment at birth."
+        }
+      },
+      {
+        "value": "Animal study, sheep, 2012: Application of LR3-IGF-1 (20 μg l(-1)) significantly increased the rate of pH(i) recovery to 0.33 ± 0.02 pH units (15 min)(-1).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-22227200"
+        ],
+        "source_excerpt": "Application of LR3-IGF-1 (20 μg l(-1)) significantly increased the rate of pH(i) recovery to 0.33 ± 0.02 pH units (15 min)(-1).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Shen 2012",
+          "year": "2012",
+          "design": "Animal study",
+          "n": null,
+          "species": "Sheep",
+          "dose": "20 μg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Application of LR3-IGF-1 (20 μg l(-1)) significantly increased the rate of pH(i) recovery to 0.33 ± 0.02 pH units (15 min)(-1)."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2011: In vivo, treatment with the stable IGF-1 analog Long R3 IGF-1 in apolipoprotein E knockout mice reduced stenosis and core size, and doubled cap/core ratio in early atherosclerosis.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-21281823"
+        ],
+        "source_excerpt": "In vivo, treatment with the stable IGF-1 analog Long R3 IGF-1 in apolipoprotein E knockout mice reduced stenosis and core size, and doubled cap/core ratio in early atherosclerosis.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "von 2011",
+          "year": "2011",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In vivo, treatment with the stable IGF-1 analog Long R3 IGF-1 in apolipoprotein E knockout mice reduced stenosis and core size, and doubled cap/core ratio in early atherosclerosis."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2009: Compared with free methotrexate, the IGF-methotrexate conjugate required slightly higher concentrations to inhibit the in vitro growth of the human prostate cancer cell line LNCaP.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-19446281"
+        ],
+        "source_excerpt": "Compared with free methotrexate, the IGF-methotrexate conjugate required slightly higher concentrations to inhibit the in vitro growth of the human prostate cancer cell line LNCaP.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "McTavish 2009",
+          "year": "2009",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Compared with free methotrexate, the IGF-methotrexate conjugate required slightly higher concentrations to inhibit the in vitro growth of the human prostate cancer cell line LNCaP."
+        }
+      },
+      {
+        "value": "Animal study, cattle, n=18, 2007: Progesterone production by luteal cells was increased (P<0.001) by treatment with LH (10 ng/ml) but treatment with leptin alone had no effect.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17154301"
+        ],
+        "source_excerpt": "Progesterone production by luteal cells was increased (P<0.001) by treatment with LH (10 ng/ml) but treatment with leptin alone had no effect.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Nicklin 2007",
+          "year": "2007",
+          "design": "Animal study",
+          "n": 18,
+          "species": "Cattle",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Progesterone production by luteal cells was increased (P<0.001) by treatment with LH (10 ng/ml) but treatment with leptin alone had no effect."
+        }
+      },
+      {
+        "value": "Animal study, swine, 2003: Thecal cell numbers were increased by oocyte secreted factors (P = 0.02), together with a suppression in progesterone and androstenedione synthesis after 48 hours (P < 0.001) and after 144 hours (P = 0.02), respectively.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12941156"
+        ],
+        "source_excerpt": "Thecal cell numbers were increased by oocyte secreted factors (P = 0.02), together with a suppression in progesterone and androstenedione synthesis after 48 hours (P < 0.001) and after 144 hours (P = 0.02), respectively.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Brankin 2003",
+          "year": "2003",
+          "design": "Animal study",
+          "n": null,
+          "species": "Swine",
+          "dose": "10 ng; 100 ng",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Thecal cell numbers were increased by oocyte secreted factors (P = 0.02), together with a suppression in progesterone and androstenedione synthesis after 48 hours (P < 0.001) and after 144 hours (P = 0.02), respectively."
+        }
+      },
+      {
+        "value": "Animal study, chickens, 2002: Again, these inter-follicle differences decreased over time in culture (not significant on day 3 of treatment).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11866696"
+        ],
+        "source_excerpt": "Again, these inter-follicle differences decreased over time in culture (not significant on day 3 of treatment).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lovell 2002",
+          "year": "2002",
+          "design": "Animal study",
+          "n": null,
+          "species": "Chickens",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Again, these inter-follicle differences decreased over time in culture (not significant on day 3 of treatment)."
+        }
+      },
+      {
+        "value": "Animal study, mice, 1998: Two IGF-1 analogs (long R3 IGF-1 and des [1-3] IGF-1) were also used in parallel with regular IGF-1 to indicate the involvement of IGFBPs in BMDM development.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-9867252"
+        ],
+        "source_excerpt": "Two IGF-1 analogs (long R3 IGF-1 and des [1-3] IGF-1) were also used in parallel with regular IGF-1 to indicate the involvement of IGFBPs in BMDM development.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Long 1998",
+          "year": "1998",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, 2022: When infused for 1 week, oIGF-1 increased organ growth of the heart, kidney, spleen, and adrenal glands and stimulated skeletal myoblast proliferation compared to SAL without increasing muscle fractional synthetic rate or hindlimb muscle mass.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-36091374"
+        ],
+        "source_excerpt": "When infused for 1 week, oIGF-1 increased organ growth of the heart, kidney, spleen, and adrenal glands and stimulated skeletal myoblast proliferation compared to SAL without increasing muscle fractional synthetic rate or hindlimb muscle mass.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stremming 2022",
+          "year": "2022",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "When infused for 1 week, oIGF-1 increased organ growth of the heart, kidney, spleen, and adrenal glands and stimulated skeletal myoblast proliferation compared to SAL without increasing muscle fractional synthetic rate…"
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -49,15 +482,49 @@
       "review": 0,
       "unclassified": 0
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 16,
+      "claims": 14,
+      "evidence_table_rows": 15
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports weight-normalized doses for IGF-1 LR3.",
+    "No study in this record's ledger reports dose-escalation schedules for IGF-1 LR3.",
+    "No study in this record's ledger reports interactions with other agents for IGF-1 LR3.",
+    "No study in this record's ledger reports exclusion criteria for IGF-1 LR3.",
+    "No study in this record's ledger reports adverse events or their frequency for IGF-1 LR3.",
+    "No study in this record's ledger reports storage or stability for IGF-1 LR3.",
+    "No randomized controlled trial of IGF-1 LR3 is indexed in Europe PMC.",
+    "Whether any finding about IGF-1 LR3 holds in humans is untested."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has IGF-1 LR3 been tested in humans?",
+      "answer": "Not in any indexed clinical trial. The studies in this record's ledger report work in cattle, chickens, mice, sheep, swine. Any human dosing information circulating about IGF-1 LR3 does not come from a published trial."
+    },
+    {
+      "question": "What kind of evidence exists for IGF-1 LR3?",
+      "answer": "The strongest tier is animal preclinical: animal studies only, with no indexed human study. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is IGF-1 LR3 an approved medicine?",
+      "answer": "No ChEMBL record matches IGF-1 LR3 or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has IGF-1 LR3 been studied in?",
+      "answer": "Studies in this record's ledger report work in: Cattle, Chickens, Mice, Sheep, Swine. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42395176",
@@ -173,7 +640,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 71.4,
   "review": {
     "author": "",
     "reviewer": "",
@@ -184,6 +651,14 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 16 ledger sources by scripts/draft_claims.py: 19 claims, 15 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 16 ledger sources by scripts/draft_claims.py: 14 claims, 15 evidence-table rows. Status researched -> draft."
     }
   ]
 }

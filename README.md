@@ -20,6 +20,8 @@ Product goals, audience, non-goals, milestones, and success metrics are in [`doc
 | `scripts/validate_content.py` | Dependency-free content gate, mirrors the content contract |
 | `scripts/import_to_wordpress.py` | Idempotent REST importer from `data/` to a WordPress staging site |
 | `scripts/fetch_evidence.py` | Fills a compound record's source ledger from Europe PMC and ChEMBL; writes a research brief; never writes claims |
+| `scripts/draft_claims.py` | Drafts extractive, excerpt-backed claims from the ledger; generates stack and comparison records from the registry plan |
+| `scripts/measure_pages.py` | Words, sections and 6-gram uniqueness per built page; writes `uniqueness_pct` into records |
 | `research/registry.json` | Compound registry: identity, class, target, peers, and the stack/comparison/tool plan by wave. Hand-maintained |
 | `research/registry.md` | Generated table view of the registry joined with fetched evidence counts. Never edit by hand |
 | `scripts/build_registry.py` | Builds `registry.md` and fails on dangling stack components, comparison sides or classes |
@@ -105,6 +107,27 @@ It writes no claims. Under `agent/AGENT.md` deciding what a paper supports is
 human work; the script imports cited source metadata and stops. It also refuses
 to touch any record a human has moved past `researched`. Standard library only,
 no API key.
+
+## Drafting claims
+
+`scripts/draft_claims.py` fills a record's evidence sections from the papers
+already in its ledger. It is extractive by design: each claim's `source_excerpt`
+is a sentence copied verbatim from the abstract, and its `value` is that
+sentence prefixed with the study's design, species, sample size and year read
+from the paper's indexing. Doses are attributed to the compound only when its
+name appears beside them; comparator doses are left out. Reviews never become
+claims. Summary, FAQ and open questions are derived from the record's own
+counts and tiers, so a compound with no evidence gets a short page that says so.
+
+```bash
+python3 scripts/draft_claims.py --all --stacks --comparisons
+python3 scripts/draft_claims.py bpc-157 --force     # re-draft one record already in draft
+npm run build && python3 scripts/measure_pages.py --write   # words, sections, uniqueness_pct
+```
+
+Records move `researched` → `draft`. The reviewer's check is mechanical: does
+the excerpt say what the value says, does it belong under that heading, and is
+the tier right. Nothing reaches `published` without that person.
 
 ## Building the site (Vercel)
 

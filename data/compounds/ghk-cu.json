@@ -9,26 +9,727 @@
     "glycyl-L-histidyl-L-lysine"
   ],
   "slug": "ghk-cu",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for GHK-Cu. Europe PMC indexes 169 publications, including 1 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "GHK-Cu is a peptide in the repair & anti inflammatory class (copper-binding tripeptide; wound-healing and gene-expression effects reported). Europe PMC indexes 169 publications naming it or a listed alias in a title or abstract, including 1 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "GHK-Cu: what the research shows",
-    "description": "Cited overview of published GHK-Cu research: 169 indexed publications, 1 randomized controlled trials. Evidence tier on every claim."
+    "description": "GHK-Cu research, cited: 169 indexed publications, 1 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
-    "escalation_schedules": [],
-    "interactions": [],
-    "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
+    "routes_studied": [
+      {
+        "value": "Animal study, mice, 2024: administration by intranasal route reported. Male and female 5xFAD transgenic mice on the C57BL/6J background at 4 months of age were given 15 mg/kg GHK-Cu intranasally 3 times per week for 3 months until 7 months of age.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40766919"
+        ],
+        "source_excerpt": "Male and female 5xFAD transgenic mice on the C57BL/6J background at 4 months of age were given 15 mg/kg GHK-Cu intranasally 3 times per week for 3 months until 7 months of age.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2024: administration by topical route reported. Copper peptides (GHK-Cu) are a powerful hair growth promoter with minimal side effects when compared with minoxidil and finasteride; however, challenges in delivering GHK-Cu topically limits their non-invasive applications.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38026438"
+        ],
+        "source_excerpt": "Copper peptides (GHK-Cu) are a powerful hair growth promoter with minimal side effects when compared with minoxidil and finasteride; however, challenges in delivering GHK-Cu topically limits their non-invasive applications.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2022: administration by intraperitoneal route reported. GHK-Cu was injected intraperitoneally at doses of 0.2, 2 and 20 μg/g/day in 100 µl of saline on alternative days from the 1st day after CS exposure.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-35936787"
+        ],
+        "source_excerpt": "GHK-Cu was injected intraperitoneally at doses of 0.2, 2 and 20 μg/g/day in 100 µl of saline on alternative days from the 1st day after CS exposure.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Animal study, mice, 2024: doses stated in the abstract: 15 mg/kg. Male and female 5xFAD transgenic mice on the C57BL/6J background at 4 months of age were given 15 mg/kg GHK-Cu intranasally 3 times per week for 3 months until 7 months of age.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40766919"
+        ],
+        "source_excerpt": "Male and female 5xFAD transgenic mice on the C57BL/6J background at 4 months of age were given 15 mg/kg GHK-Cu intranasally 3 times per week for 3 months until 7 months of age.",
+        "drafting": "extractive"
+      }
+    ],
+    "escalation_schedules": [
+      {
+        "value": "In vitro study, humans, 1981: The interaction between Cu(II) and the growth-modulating tripeptide glycyl-L-histidyl-L-lysine in the presence and absence of L-histidine was investigated by potentiometric titration and visible-absorption spectrophotometry at 25 degrees C in 0.15 M-NaCl.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-7340824"
+        ],
+        "source_excerpt": "The interaction between Cu(II) and the growth-modulating tripeptide glycyl-L-histidyl-L-lysine in the presence and absence of L-histidine was investigated by potentiometric titration and visible-absorption spectrophotometry at 25 degrees C in 0.15 M-NaCl.",
+        "drafting": "extractive"
+      }
+    ],
+    "interactions": [
+      {
+        "value": "Human study, humans, 2026: The present study aims to explore the skin protective effects of a novel extract of ferment in combination with copper tripeptide-1 GHK-Cu from an anti-inflammation perspective.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42573538"
+        ],
+        "source_excerpt": "The present study aims to explore the skin protective effects of a novel extract of ferment in combination with copper tripeptide-1 GHK-Cu from an anti-inflammation perspective.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2026: Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42578445"
+        ],
+        "source_excerpt": "Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2023: Anionic (AL) and cationic (CL) hydrogenated lecithin-based liposomes were obtained as GHK-Cu skin delivery systems using the thin-film hydration method combined with freeze-thaw cycles and the extrusion process.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-37896245"
+        ],
+        "source_excerpt": "Anionic (AL) and cationic (CL) hydrogenated lecithin-based liposomes were obtained as GHK-Cu skin delivery systems using the thin-film hydration method combined with freeze-thaw cycles and the extrusion process.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 1981: The interaction between Cu(II) and the growth-modulating tripeptide glycyl-L-histidyl-L-lysine in the presence and absence of L-histidine was investigated by potentiometric titration and visible-absorption spectrophotometry at 25 degrees C in 0.15 M-NaCl.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-7340824"
+        ],
+        "source_excerpt": "The interaction between Cu(II) and the growth-modulating tripeptide glycyl-L-histidyl-L-lysine in the presence and absence of L-histidine was investigated by potentiometric titration and visible-absorption spectrophotometry at 25 degrees C in 0.15 M-NaCl.",
+        "drafting": "extractive"
+      }
+    ],
+    "exclusion_criteria": [
+      {
+        "value": "Clinical trial, humans, 2026: Eligible studies included clinical and preclinical models investigating GHK-Cu as a standalone intervention for aesthetic applications.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42619529"
+        ],
+        "source_excerpt": "Eligible studies included clinical and preclinical models investigating GHK-Cu as a standalone intervention for aesthetic applications.",
+        "drafting": "extractive"
+      }
+    ],
+    "adverse_events": [
+      {
+        "value": "Animal study, mice, 2024: Copper peptides (GHK-Cu) are a powerful hair growth promoter with minimal side effects when compared with minoxidil and finasteride; however, challenges in delivering GHK-Cu topically limits their non-invasive applications.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38026438"
+        ],
+        "source_excerpt": "Copper peptides (GHK-Cu) are a powerful hair growth promoter with minimal side effects when compared with minoxidil and finasteride; however, challenges in delivering GHK-Cu topically limits their non-invasive applications.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Human study, humans, 2026: The combination outperformed TBFE or GHK-Cu alone in inhibiting secretion of inflammatory cytokines by lipopolysaccharide-stimulated macrophages.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42573538"
+        ],
+        "source_excerpt": "The combination outperformed TBFE or GHK-Cu alone in inhibiting secretion of inflammatory cytokines by lipopolysaccharide-stimulated macrophages.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2024: This study aimed to evaluate the safety, efficacy, and tolerability of a novel regimen combining a scalp scrub with hydroxy acid derivatives for exfoliation and dandruff removal, and a serum containing copper tripeptide-1, witch hazel ( Hamamelis virginiana) , hesperidin, hyaluronic acid, and pea protein (…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39449909"
+        ],
+        "source_excerpt": "This study aimed to evaluate the safety, efficacy, and tolerability of a novel regimen combining a scalp scrub with hydroxy acid derivatives for exfoliation and dandruff removal, and a serum containing copper tripeptide-1, witch hazel ( Hamamelis virginiana) , hesperidin, hyaluronic acid, and pea protein ( Pisum sativum ) for hydration and scalp health.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, zebrafish, 2026: GHK-Cu notably decreased the migration of neutrophils and macrophages, suppressed the expression of pro-inflammatory cytokines (tnf-a, il-1β, il6) and increased the expression of the anti-inflammatory cytokine il-10.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41997403"
+        ],
+        "source_excerpt": "GHK-Cu notably decreased the migration of neutrophils and macrophages, suppressed the expression of pro-inflammatory cytokines (tnf-a, il-1β, il6) and increased the expression of the anti-inflammatory cytokine il-10.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2025: GHK-Cu alleviated weight loss, improved the disease activity index (DAI), reduced colonic edema and shortening, attenuated inflammatory damage, increased goblet cell numbers, suppressed inflammatory cytokines such as TNF-α, IL-6, and IL-1β, and promoted mucosal repair.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40672369"
+        ],
+        "source_excerpt": "GHK-Cu alleviated weight loss, improved the disease activity index (DAI), reduced colonic edema and shortening, attenuated inflammatory damage, increased goblet cell numbers, suppressed inflammatory cytokines such as TNF-α, IL-6, and IL-1β, and promoted mucosal repair.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2024: Copper peptides (GHK-Cu) are a powerful hair growth promoter with minimal side effects when compared with minoxidil and finasteride; however, challenges in delivering GHK-Cu topically limits their non-invasive applications.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38026438"
+        ],
+        "source_excerpt": "Copper peptides (GHK-Cu) are a powerful hair growth promoter with minimal side effects when compared with minoxidil and finasteride; however, challenges in delivering GHK-Cu topically limits their non-invasive applications.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2022: GHK-Cu was injected intraperitoneally at doses of 0.2, 2 and 20 μg/g/day in 100 µl of saline on alternative days from the 1st day after CS exposure.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-35936787"
+        ],
+        "source_excerpt": "GHK-Cu was injected intraperitoneally at doses of 0.2, 2 and 20 μg/g/day in 100 µl of saline on alternative days from the 1st day after CS exposure.",
+        "drafting": "extractive"
+      }
+    ],
     "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
-    "regulatory_status": []
+    "storage": [
+      {
+        "value": "In vitro study, 2026: In this study, glycyl-l-histidyl-l-lysine (GHK) was selected as a co-former due to its biocompatibility and multiple functional groups, which were expected to enhance the dissolution and the physical stability of pure amorphous drugs.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41771428"
+        ],
+        "source_excerpt": "In this study, glycyl-l-histidyl-l-lysine (GHK) was selected as a co-former due to its biocompatibility and multiple functional groups, which were expected to enhance the dissolution and the physical stability of pure amorphous drugs.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, 2006: durations stated: 12 weeks. In addition, overall improvement in wrinkles and overall improvement in skin appearance 12 weeks after treatment were assessed.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16847171"
+        ],
+        "source_excerpt": "In addition, overall improvement in wrinkles and overall improvement in skin appearance 12 weeks after treatment were assessed.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2024: durations stated: 15 day. As per the ASFS scale for adherent scalp flaking, a significant improvement of 61.24% (p Hamamelis virginiana , hesperidin, hyaluronic acid, and pea protein ( Pisum sativum ) for hydration and overall scalp health over the 15-day treatment period.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39449909"
+        ],
+        "source_excerpt": "As per the ASFS scale for adherent scalp flaking, a significant improvement of 61.24% (p Hamamelis virginiana , hesperidin, hyaluronic acid, and pea protein ( Pisum sativum ) for hydration and overall scalp health over the 15-day treatment period.",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Animal study, mice, 2024: weight-normalized doses as published: 15 mg/kg. Male and female 5xFAD transgenic mice on the C57BL/6J background at 4 months of age were given 15 mg/kg GHK-Cu intranasally 3 times per week for 3 months until 7 months of age.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40766919"
+        ],
+        "source_excerpt": "Male and female 5xFAD transgenic mice on the C57BL/6J background at 4 months of age were given 15 mg/kg GHK-Cu intranasally 3 times per week for 3 months until 7 months of age.",
+        "drafting": "extractive"
+      }
+    ],
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Clinical trial, humans, 2026: Clinically, GHK-Cu improved patient-reported satisfaction after laser resurfacing and significantly reduced wrinkle volume and depth compared with controls.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42619529"
+        ],
+        "source_excerpt": "Clinically, GHK-Cu improved patient-reported satisfaction after laser resurfacing and significantly reduced wrinkle volume and depth compared with controls.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mokhtar 2026",
+          "year": "2026",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Clinically, GHK-Cu improved patient-reported satisfaction after laser resurfacing and significantly reduced wrinkle volume and depth compared with controls."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2006: The results of the questionnaire indicated a significant difference in the posttreatment improvement of overall skin quality for patients using GHK-Cu (P = .04).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16847171"
+        ],
+        "source_excerpt": "The results of the questionnaire indicated a significant difference in the posttreatment improvement of overall skin quality for patients using GHK-Cu (P = .04).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Miller 2006",
+          "year": "2006",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "12 weeks",
+          "outcome": "The results of the questionnaire indicated a significant difference in the posttreatment improvement of overall skin quality for patients using GHK-Cu (P = .04)."
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: In addition, one face cream formulated with the combination as the sole active ingredients protected human skin explants from ultraviolet irradiation induced damage by maintaining skin morphology and decreasing the degradation of extracellular matrix.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42573538"
+        ],
+        "source_excerpt": "In addition, one face cream formulated with the combination as the sole active ingredients protected human skin explants from ultraviolet irradiation induced damage by maintaining skin morphology and decreasing the degradation of extracellular matrix.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wang 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In addition, one face cream formulated with the combination as the sole active ingredients protected human skin explants from ultraviolet irradiation induced damage by maintaining skin morphology and decreasing the…"
+        }
+      },
+      {
+        "value": "Human study, humans, 2025: Digital photographs documented progressive scar visibility reduction.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41001334"
+        ],
+        "source_excerpt": "Digital photographs documented progressive scar visibility reduction.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Patel 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Digital photographs documented progressive scar visibility reduction."
+        }
+      },
+      {
+        "value": "Human study, humans, 2024: As per the ASFS scale for adherent scalp flaking, a significant improvement of 61.24% (p Hamamelis virginiana , hesperidin, hyaluronic acid, and pea protein ( Pisum sativum ) for hydration and overall scalp health over the 15-day treatment period.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39449909"
+        ],
+        "source_excerpt": "As per the ASFS scale for adherent scalp flaking, a significant improvement of 61.24% (p Hamamelis virginiana , hesperidin, hyaluronic acid, and pea protein ( Pisum sativum ) for hydration and overall scalp health over the 15-day treatment period.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Patel 2024",
+          "year": "2024",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "15 day",
+          "outcome": "As per the ASFS scale for adherent scalp flaking, a significant improvement of 61.24% (p Hamamelis virginiana , hesperidin, hyaluronic acid, and pea protein ( Pisum sativum ) for hydration and overall scalp health over…"
+        }
+      },
+      {
+        "value": "Animal study, swine, 2026: Skin treatment with polymer STAR particles increased intradermal drug delivery by up to 37-fold, depending on the drug type and the STAR particle material and application duration.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42712263"
+        ],
+        "source_excerpt": "Skin treatment with polymer STAR particles increased intradermal drug delivery by up to 37-fold, depending on the drug type and the STAR particle material and application duration.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Sadeqi 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Swine",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Skin treatment with polymer STAR particles increased intradermal drug delivery by up to 37-fold, depending on the drug type and the STAR particle material and application duration."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42578445"
+        ],
+        "source_excerpt": "Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Tewari 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain."
+        }
+      },
+      {
+        "value": "Animal study, zebrafish, 2026: GHK-Cu notably decreased the migration of neutrophils and macrophages, suppressed the expression of pro-inflammatory cytokines (tnf-a, il-1β, il6) and increased the expression of the anti-inflammatory cytokine il-10.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41997403"
+        ],
+        "source_excerpt": "GHK-Cu notably decreased the migration of neutrophils and macrophages, suppressed the expression of pro-inflammatory cytokines (tnf-a, il-1β, il6) and increased the expression of the anti-inflammatory cytokine il-10.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hu 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Zebrafish",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "GHK-Cu notably decreased the migration of neutrophils and macrophages, suppressed the expression of pro-inflammatory cytokines (tnf-a, il-1β, il6) and increased the expression of the anti-inflammatory cytokine il-10."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2025: Discussion This study found that GHK-Cu demonstrated significant therapeutic effects in DSS-induced UC in mice.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40672369"
+        ],
+        "source_excerpt": "Discussion This study found that GHK-Cu demonstrated significant therapeutic effects in DSS-induced UC in mice.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mao 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Discussion This study found that GHK-Cu demonstrated significant therapeutic effects in DSS-induced UC in mice."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2024: Results showed that intranasal GHK-Cu treatment delayed cognitive impairment, reduced amyloid plaques, and lowered MCP1-mediated inflammation levels in the frontal cortex and hippocampus.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40766919"
+        ],
+        "source_excerpt": "Results showed that intranasal GHK-Cu treatment delayed cognitive impairment, reduced amyloid plaques, and lowered MCP1-mediated inflammation levels in the frontal cortex and hippocampus.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Tucker 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "15 mg/kg",
+          "route": "intranasal",
+          "duration": "not stated in abstract",
+          "outcome": "Results showed that intranasal GHK-Cu treatment delayed cognitive impairment, reduced amyloid plaques, and lowered MCP1-mediated inflammation levels in the frontal cortex and hippocampus."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2024: Its molecular target, peroxiredoxin 6 (PRDX6), has been identified, and GHK-Cu can bind to PRDX6, thus attenuating lung inflammation and fibrosis in silicosis mice without significant systemic toxicity.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38879894"
+        ],
+        "source_excerpt": "Its molecular target, peroxiredoxin 6 (PRDX6), has been identified, and GHK-Cu can bind to PRDX6, thus attenuating lung inflammation and fibrosis in silicosis mice without significant systemic toxicity.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bian 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Its molecular target, peroxiredoxin 6 (PRDX6), has been identified, and GHK-Cu can bind to PRDX6, thus attenuating lung inflammation and fibrosis in silicosis mice without significant systemic toxicity."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2024: Furthermore, the exact effects of the IL-M system on the expression of growth factors, such as vascular endothelial growth factor, were revealed, and it was found that microemulsion increased the activation of the Wnt/β-catenin signaling pathway, which includes factors involved in hair growth regulation.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38026438"
+        ],
+        "source_excerpt": "Furthermore, the exact effects of the IL-M system on the expression of growth factors, such as vascular endothelial growth factor, were revealed, and it was found that microemulsion increased the activation of the Wnt/β-catenin signaling pathway, which includes factors involved in hair growth regulation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Liu 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "topical",
+          "duration": "not stated in abstract",
+          "outcome": "Furthermore, the exact effects of the IL-M system on the expression of growth factors, such as vascular endothelial growth factor, were revealed, and it was found that microemulsion increased the activation of the…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2023: Sleep-deprived mice treated with GHK did not show the acute learning impairment seen in sleep-deprived mice treated with saline.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-37035833"
+        ],
+        "source_excerpt": "Sleep-deprived mice treated with GHK did not show the acute learning impairment seen in sleep-deprived mice treated with saline.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Rosenfeld 2023",
+          "year": "2023",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Sleep-deprived mice treated with GHK did not show the acute learning impairment seen in sleep-deprived mice treated with saline."
+        }
+      },
+      {
+        "value": "Animal study, mice, n=9, 2023: GHK-Cu was found to rescue CSE-induced skeletal muscle dysfunction in C2C12 myotubes, as evidenced by increased expression of myosin heavy chain, reduced expression of MuRF1 and atrogin-1, elevated mitochondrial content, and enhanced resistance to oxidative stress.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-36905132"
+        ],
+        "source_excerpt": "GHK-Cu was found to rescue CSE-induced skeletal muscle dysfunction in C2C12 myotubes, as evidenced by increased expression of myosin heavy chain, reduced expression of MuRF1 and atrogin-1, elevated mitochondrial content, and enhanced resistance to oxidative stress.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Deng 2023",
+          "year": "2023",
+          "design": "Animal study",
+          "n": 9,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "GHK-Cu was found to rescue CSE-induced skeletal muscle dysfunction in C2C12 myotubes, as evidenced by increased expression of myosin heavy chain, reduced expression of MuRF1 and atrogin-1, elevated mitochondrial…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2022: GHK-Cu reduced the inflammation and oxidation by decreasing the expression of inflammatory cytokines (IL-1β and TNF-α) in the bronchoalveolar lavage and the enzymatic activity of MPO and MDA in the lung homogenate while restoring the T-AOC and GSH content.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-35936787"
+        ],
+        "source_excerpt": "GHK-Cu reduced the inflammation and oxidation by decreasing the expression of inflammatory cytokines (IL-1β and TNF-α) in the bronchoalveolar lavage and the enzymatic activity of MPO and MDA in the lung homogenate while restoring the T-AOC and GSH content.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhang 2022",
+          "year": "2022",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "GHK-Cu reduced the inflammation and oxidation by decreasing the expression of inflammatory cytokines (IL-1β and TNF-α) in the bronchoalveolar lavage and the enzymatic activity of MPO and MDA in the lung homogenate…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2020: GHK (glycyl-L-histidyl-L-lysine) is a naturally occurring peptide found in human serum with levels averaging 200 ng/ml at age 20 but declining to an average of 80 ng/ml by age 60.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-35083444"
+        ],
+        "source_excerpt": "GHK (glycyl-L-histidyl-L-lysine) is a naturally occurring peptide found in human serum with levels averaging 200 ng/ml at age 20 but declining to an average of 80 ng/ml by age 60.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Dou 2020",
+          "year": "2020",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, cattle, 1995: As the pD is increased and the carboxylic acid groups are titrated, chemical shift data indicate that ammonium groups of GHK are hydrogen bonded to heparin carboxylate groups, while the histidyl imidazolium ring occupies the imidazolium-binding site of heparin.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-7498545"
+        ],
+        "source_excerpt": "As the pD is increased and the carboxylic acid groups are titrated, chemical shift data indicate that ammonium groups of GHK are hydrogen bonded to heparin carboxylate groups, while the histidyl imidazolium ring occupies the imidazolium-binding site of heparin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Rabenstein 1995",
+          "year": "1995",
+          "design": "Animal study",
+          "n": null,
+          "species": "Cattle",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "As the pD is increased and the carboxylic acid groups are titrated, chemical shift data indicate that ammonium groups of GHK are hydrogen bonded to heparin carboxylate groups, while the histidyl imidazolium ring…"
+        }
+      },
+      {
+        "value": "In vitro study, 2026: In vitro and in vivo evaluations have confirmed that the HCG@CDs hydrogel effectively alleviates radiation-induced oxidative damage and inflammatory responses, significantly accelerating the healing of skin wounds.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42058630"
+        ],
+        "source_excerpt": "In vitro and in vivo evaluations have confirmed that the HCG@CDs hydrogel effectively alleviates radiation-induced oxidative damage and inflammatory responses, significantly accelerating the healing of skin wounds.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yu 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In vitro and in vivo evaluations have confirmed that the HCG@CDs hydrogel effectively alleviates radiation-induced oxidative damage and inflammatory responses, significantly accelerating the healing of skin wounds."
+        }
+      },
+      {
+        "value": "In vitro study, 2026: In this study, the laccase-like property of copper peptide (GHK-Cu) has been revealed.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42041438"
+        ],
+        "source_excerpt": "In this study, the laccase-like property of copper peptide (GHK-Cu) has been revealed.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Chen 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, 2026: The drug-GHK systems exhibited significantly enhanced dissolution performance, including faster dissolution rates, higher drug concentration and sustained supersaturation (up to 1440 min) compared to both the pure crystalline and amorphous drugs.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41771428"
+        ],
+        "source_excerpt": "The drug-GHK systems exhibited significantly enhanced dissolution performance, including faster dissolution rates, higher drug concentration and sustained supersaturation (up to 1440 min) compared to both the pure crystalline and amorphous drugs.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Huang 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The drug-GHK systems exhibited significantly enhanced dissolution performance, including faster dissolution rates, higher drug concentration and sustained supersaturation (up to 1440 min) compared to both the pure…"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2025: In recent years, hyaluronic acid (HA) and the natural tripeptide glycyl-l-histidyl-l-lysine (GHK), especially its copper(II) complex (GHK-Cu), individually have been shown to exert helpful properties for bone protection and regeneration.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-40123442"
+        ],
+        "source_excerpt": "In recent years, hyaluronic acid (HA) and the natural tripeptide glycyl-l-histidyl-l-lysine (GHK), especially its copper(II) complex (GHK-Cu), individually have been shown to exert helpful properties for bone protection and regeneration.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Greco 2025",
+          "year": "2025",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, 2023: The obtained results confirmed that the liposomes can be used as carriers for biomimetic peptides such as copper-binding peptide and that the GHK-Cu did not significantly affect the tyrosinase activity but led to 48.90 ± 2.50% elastase inhibition, thus reducing the rate of elastin degeneration and supporting the…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-37896245"
+        ],
+        "source_excerpt": "The obtained results confirmed that the liposomes can be used as carriers for biomimetic peptides such as copper-binding peptide and that the GHK-Cu did not significantly affect the tyrosinase activity but led to 48.90 ± 2.50% elastase inhibition, thus reducing the rate of elastin degeneration and supporting the structural integrity of the skin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Dymek 2023",
+          "year": "2023",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The obtained results confirmed that the liposomes can be used as carriers for biomimetic peptides such as copper-binding peptide and that the GHK-Cu did not significantly affect the tyrosinase activity but led to 48.90…"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2020: The tripeptide NH 2 -Gly-His-Lys-COOH (GHK), cis -urocanic acid ( cis -UCA) and Cu(II) ions are physiological constituents of the human body and they co-occur (e.g., in the skin and the plasma).",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-32867146"
+        ],
+        "source_excerpt": "The tripeptide NH 2 -Gly-His-Lys-COOH (GHK), cis -urocanic acid ( cis -UCA) and Cu(II) ions are physiological constituents of the human body and they co-occur (e.g., in the skin and the plasma).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bossak-Ahmad 2020",
+          "year": "2020",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2016: We determined cell viability and cytotoxicity by using tetrazolium reduction assay and Lactate Dehydrogenase (LDH) assay, performed real-time PCR and protein quantification to assess the expression of biomarkers after treating cells with copper peptide (GHK-Cu), copper chloride (CuCl 2 ) and copper acetate…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-27892491"
+        ],
+        "source_excerpt": "We determined cell viability and cytotoxicity by using tetrazolium reduction assay and Lactate Dehydrogenase (LDH) assay, performed real-time PCR and protein quantification to assess the expression of biomarkers after treating cells with copper peptide (GHK-Cu), copper chloride (CuCl 2 ) and copper acetate (Cu(OAc) 2 ).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Li 2016",
+          "year": "2016",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "We determined cell viability and cytotoxicity by using tetrazolium reduction assay and Lactate Dehydrogenase (LDH) assay, performed real-time PCR and protein quantification to assess the expression of biomarkers after…"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 1983: Interaction of Cu(II) and Gly-His-Lys, a growth-modulating tripeptide from plasma, was investigated by 13C- and 1H-n.m.r. and e.p.r. spectroscopy.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-6303307"
+        ],
+        "source_excerpt": "Interaction of Cu(II) and Gly-His-Lys, a growth-modulating tripeptide from plasma, was investigated by 13C- and 1H-n.m.r. and e.p.r. spectroscopy.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Laussac 1983",
+          "year": "1983",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -50,15 +751,42 @@
       "review": 0,
       "unclassified": 11
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 37,
+      "claims": 21,
+      "evidence_table_rows": 25
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports onset or duration of effects for GHK-Cu."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has GHK-Cu been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 0 clinical trials and 1 randomized controlled trials naming GHK-Cu or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for GHK-Cu?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is GHK-Cu an approved medicine?",
+      "answer": "No ChEMBL record matches GHK-Cu or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has GHK-Cu been studied in?",
+      "answer": "Studies in this record's ledger report work in: Cattle, Humans, Mice, Rats, Swine, Zebrafish. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42712263",
@@ -370,7 +1098,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 77.4,
   "review": {
     "author": "",
     "reviewer": "",
@@ -385,6 +1113,18 @@
     {
       "date": "2026-09-14",
       "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 37 ledger sources by scripts/draft_claims.py: 42 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 37 ledger sources by scripts/draft_claims.py: 33 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 37 ledger sources by scripts/draft_claims.py: 21 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

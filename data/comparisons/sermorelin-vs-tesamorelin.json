@@ -1,0 +1,120 @@
+{
+  "type": "comparison",
+  "title": "Sermorelin vs Tesamorelin",
+  "slug": "sermorelin-vs-tesamorelin",
+  "status": "draft",
+  "summary": "Sermorelin: tier approved label, 579 indexed publications, 39 randomized trials. Tesamorelin: tier approved label, 115 indexed publications, 22 randomized trials. 5 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "seo": {
+    "title": "Sermorelin vs Tesamorelin: what the studies show",
+    "description": "Sermorelin vs Tesamorelin, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+  },
+  "attributes": {
+    "head_to_head": [
+      {
+        "value": "In vitro study, humans, 2026: The present study aimed to develop a robust nano-LC quadrupole/orbitrap mass spectrometry (nano-LC-Q/Orbitrap MS) method for both screening and confirmation analyses of GHRH and its synthetic analogs (sermorelin/CJC-1293, tesamorelin, and CJC-1295) and the primary metabolite of sermorelin in urine, in…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41138283"
+        ],
+        "source_excerpt": "The present study aimed to develop a robust nano-LC quadrupole/orbitrap mass spectrometry (nano-LC-Q/Orbitrap MS) method for both screening and confirmation analyses of GHRH and its synthetic analogs (sermorelin/CJC-1293, tesamorelin, and CJC-1295) and the primary metabolite of sermorelin in urine, in accordance with WADA requirements.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2022: This work presents an ultrafiltration-based, validated method for the screening and confirmation of prohibited growth hormone-releasing hormone (GHRH) analogues (sermorelin/CJC-1293, sermorelin metabolite, CJC-1295 and tesamorelin) in urine by nanoLC-HRMS/MS.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-35298973"
+        ],
+        "source_excerpt": "This work presents an ultrafiltration-based, validated method for the screening and confirmation of prohibited growth hormone-releasing hormone (GHRH) analogues (sermorelin/CJC-1293, sermorelin metabolite, CJC-1295 and tesamorelin) in urine by nanoLC-HRMS/MS.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2016: The target analytes included Geref (Sermorelin), CJC-1293, CJC-1295, and Egrifta (Tesamorelin) as well as two metabolites of Geref and CJC-1293, which were captured from plasma samples using a polyclonal GHRH antibody in concert with protein A/G monolithic MSIA™ D.A.R.T.'S® (Disposable Automation Research…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-26879649"
+        ],
+        "source_excerpt": "The target analytes included Geref (Sermorelin), CJC-1293, CJC-1295, and Egrifta (Tesamorelin) as well as two metabolites of Geref and CJC-1293, which were captured from plasma samples using a polyclonal GHRH antibody in concert with protein A/G monolithic MSIA™ D.A.R.T.'S® (Disposable Automation Research Tips) prior to separation and detection.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, swine, 2022: Co-extraction and analysis of several different peptides such as insulins (human, lispro, aspart, glulisine, tresiba, detemir, glargine, bovine insulin and porcine insulin), growth hormone releasing hormones (sermorelin, CJC-1295 and tesamorelin), insulin-like growth factors (long-R 3 -IGF-I, R 3 -IGF-I and…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38716080"
+        ],
+        "source_excerpt": "Co-extraction and analysis of several different peptides such as insulins (human, lispro, aspart, glulisine, tresiba, detemir, glargine, bovine insulin and porcine insulin), growth hormone releasing hormones (sermorelin, CJC-1295 and tesamorelin), insulin-like growth factors (long-R 3 -IGF-I, R 3 -IGF-I and Des 1-3 -IGF-I) and mechano growth factors (human MGF and MGF-Goldspink) with criteria that fulfil the requirements of the WADA documents (TD2022 MRPL) for doping controls.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2020: Growth hormone-releasing hormone and its analogues sermorelin, tesamorelin and CJC-1295 are included in the prohibited list of the World Antidoping Agency.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-32971474"
+        ],
+        "source_excerpt": "Growth hormone-releasing hormone and its analogues sermorelin, tesamorelin and CJC-1295 are included in the prohibited list of the World Antidoping Agency.",
+        "drafting": "extractive"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "pmid-41138283",
+      "title": "Analysis of growth hormone releasing hormone and its analogs in urine using nano liquid chromatography coupled with quadrupole/orbitrap mass spectrometry.",
+      "url": "https://europepmc.org/article/MED/41138283",
+      "published": "2025-10-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35298973",
+      "title": "An antibody-free, ultrafiltration-based assay for the detection of growth hormone-releasing hormones in urine at low pg/mL concentrations using nanoLC-HRMS/MS.",
+      "url": "https://europepmc.org/article/MED/35298973",
+      "published": "2022-03-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26879649",
+      "title": "Qualitative identification of growth hormone-releasing hormones in human plasma by means of immunoaffinity purification and LC-HRMS/MS.",
+      "url": "https://europepmc.org/article/MED/26879649",
+      "published": "2016-02-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38716080",
+      "title": "Probing for peptidic drugs (2-10 kDa) in doping control blood samples.",
+      "url": "https://europepmc.org/article/MED/38716080",
+      "published": "2022-08-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32971474",
+      "title": "Comparison of magnetic bead surface functionalities for the immunopurification of growth hormone-releasing hormones prior to liquid chromatography-high resolution mass spectrometry.",
+      "url": "https://europepmc.org/article/MED/32971474",
+      "published": "2020-09-17",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [
+    "sermorelin",
+    "tesamorelin"
+  ],
+  "faq": [],
+  "open_questions": [],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "uniqueness_pct": 89.1,
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Comparison record generated from research/registry.json plan; 5 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    }
+  ],
+  "sides": [
+    "sermorelin",
+    "tesamorelin"
+  ]
+}

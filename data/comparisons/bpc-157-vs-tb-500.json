@@ -1,0 +1,56 @@
+{
+  "type": "comparison",
+  "title": "BPC-157 vs TB-500",
+  "slug": "bpc-157-vs-tb-500",
+  "status": "draft",
+  "summary": "BPC-157: tier observational human, 228 indexed publications, 0 randomized trials. TB-500: tier human clinical trial, 1,257 indexed publications, 7 randomized trials. 1 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "seo": {
+    "title": "BPC-157 vs TB-500: what the studies show",
+    "description": "BPC-157 vs TB-500, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+  },
+  "attributes": {
+    "head_to_head": [
+      {
+        "value": "Animal study, rats, 2026: Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42542926"
+        ],
+        "source_excerpt": "Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters and extracellular matrix organization during early Achilles tendon repair, with TB-500 additionally demonstrating a significant biomechanical advantage at four weeks.",
+        "drafting": "extractive"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "pmid-42542926",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study.",
+      "url": "https://europepmc.org/article/MED/42542926",
+      "published": "2026-07-23",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [
+    "bpc-157",
+    "tb-500"
+  ],
+  "faq": [],
+  "open_questions": [],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "uniqueness_pct": 74.5,
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Comparison record generated from research/registry.json plan; 1 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    }
+  ],
+  "sides": [
+    "bpc-157",
+    "tb-500"
+  ]
+}

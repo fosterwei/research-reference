@@ -7,26 +7,880 @@
     "growth hormone-releasing peptide 6"
   ],
   "slug": "ghrp-6",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for GHRP-6. Europe PMC indexes 738 publications, including 22 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "GHRP-6 is a peptide in the ghrelin mimetics class (ghrelin receptor (GHS-R1a) agonist). Europe PMC indexes 738 publications naming it or a listed alias in a title or abstract, including 22 randomized controlled trials and 41 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "GHRP-6: what the research shows",
-    "description": "Cited overview of published GHRP-6 research: 738 indexed publications, 22 randomized controlled trials. Evidence tier on every claim."
+    "description": "GHRP-6 research, cited: 738 indexed publications, 22 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, 2016: administration by intravenous route reported. Eight Holstein steers were randomly and intravenously injected with synthetic bovine gastrin-releasing peptide (GRP; 0.9 nmol/kg BW), neuromedin B (NMB; 0.9 nmol/kg BW), or neuromedin C (NMC; 0.9 nmol/kg BW), each alone or combined with the…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26812312"
+        ],
+        "source_excerpt": "Eight Holstein steers were randomly and intravenously injected with synthetic bovine gastrin-releasing peptide (GRP; 0.9 nmol/kg BW), neuromedin B (NMB; 0.9 nmol/kg BW), or neuromedin C (NMC; 0.9 nmol/kg BW), each alone or combined with the antagonist of GRP receptors N-acetyl-GRP-OCHCH (N-GRP-EE; 22.5 nmol/kg BW) or the antagonist of GH secretagogue receptor type 1a (GHS-R1a) [D-Lys]-GHRP-6 (21.5 nmol/kg BW).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, 2004: administration by intravenous route reported. GH response to i.v. bolus of GHRH+GHRP-6 (100 mcg, each) was measured in 12 male patients with type 2 diabetes (mean age: 53.9+/-1.59 years; BMI: 25.58+/-0.39 kg/m(2); mean HbA(1c): 8.7+/-0.42%), during a euglycemic (mean glucose: 4.92+/-0.08 mmol)…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-14693411"
+        ],
+        "source_excerpt": "GH response to i.v. bolus of GHRH+GHRP-6 (100 mcg, each) was measured in 12 male patients with type 2 diabetes (mean age: 53.9+/-1.59 years; BMI: 25.58+/-0.39 kg/m(2); mean HbA(1c): 8.7+/-0.42%), during a euglycemic (mean glucose: 4.92+/-0.08 mmol) hyperinsulinemic clamp (insulin infusion rate of 100 mU/kg/h) and a hyperglycemic clamp (mean glucose: 12.19+/-0.11 mmol/l).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, 2000: administration by intravenous route reported. All cases and controls were given GHRH 1 microg per kg bodyweight intravenously plus GHRP-6 1 microg per kg intravenously at 0 min and blood samples were obtained during a subsequent 120 min period.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11030292"
+        ],
+        "source_excerpt": "All cases and controls were given GHRH 1 microg per kg bodyweight intravenously plus GHRP-6 1 microg per kg intravenously at 0 min and blood samples were obtained during a subsequent 120 min period.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1999: administration by intravenous, oral route reported. One group of subjects received iv GHRP-6 (1 microg/kg), GH-releasing hormone (GHRH; 100 microg), GHRH plus GHRP-6 or saline 3.5 h after oral acute dexamethasone administration (4 mg; at 0600 h).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10583306"
+        ],
+        "source_excerpt": "One group of subjects received iv GHRP-6 (1 microg/kg), GH-releasing hormone (GHRH; 100 microg), GHRH plus GHRP-6 or saline 3.5 h after oral acute dexamethasone administration (4 mg; at 0600 h).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, 1999: administration by intravenous, oral route reported. After repeated intravenous (i.v.) boluses of growth hormone-releasing peptide-6 (GHRP-6) we found recently increases of growth hormone (GH), corticotropin (ACTH) and cortisol levels and of the amount of stage 2 sleep.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10336729"
+        ],
+        "source_excerpt": "After repeated intravenous (i.v.) boluses of growth hormone-releasing peptide-6 (GHRP-6) we found recently increases of growth hormone (GH), corticotropin (ACTH) and cortisol levels and of the amount of stage 2 sleep.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Controlled clinical trial, humans, 1995: administration by intravenous route reported. The subjects underwent 3 different tests on separate occasions, being challenged with GHRH (1 microgram/kg, iv), GHRP-6 (1 microgram/kg, iv), or GHRH plus GHRP-6.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7593423"
+        ],
+        "source_excerpt": "The subjects underwent 3 different tests on separate occasions, being challenged with GHRH (1 microgram/kg, iv), GHRP-6 (1 microgram/kg, iv), or GHRH plus GHRP-6.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Clinical trial, humans, 2004: doses stated in the abstract: 100 mcg. GH response to i.v. bolus of GHRH+GHRP-6 (100 mcg, each) was measured in 12 male patients with type 2 diabetes (mean age: 53.9+/-1.59 years; BMI: 25.58+/-0.39 kg/m(2); mean HbA(1c): 8.7+/-0.42%), during a euglycemic (mean glucose: 4.92+/-0.08 mmol) hyperinsulinemic…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-14693411"
+        ],
+        "source_excerpt": "GH response to i.v. bolus of GHRH+GHRP-6 (100 mcg, each) was measured in 12 male patients with type 2 diabetes (mean age: 53.9+/-1.59 years; BMI: 25.58+/-0.39 kg/m(2); mean HbA(1c): 8.7+/-0.42%), during a euglycemic (mean glucose: 4.92+/-0.08 mmol) hyperinsulinemic clamp (insulin infusion rate of 100 mU/kg/h) and a hyperglycemic clamp (mean glucose: 12.19+/-0.11 mmol/l).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2025: doses stated in the abstract: 5 mg/kg. Only GHRP-6 (5 mg/kg) increased food intake without adverse effects, prompting detailed analysis of meal patterns, neuronal activation in the arcuate nucleus (via Fos mapping) and neurochemical identification of c-fos messenger RNA (mRNA)-expressing neurons using RNAscope.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39813130"
+        ],
+        "source_excerpt": "Only GHRP-6 (5 mg/kg) increased food intake without adverse effects, prompting detailed analysis of meal patterns, neuronal activation in the arcuate nucleus (via Fos mapping) and neurochemical identification of c-fos messenger RNA (mRNA)-expressing neurons using RNAscope.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, rabbits, 2016: doses stated in the abstract: 400 μg. Treatments for both species were based on a CMC jelly composition containing GHRP-6 400 μg/mL.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-27200188"
+        ],
+        "source_excerpt": "Treatments for both species were based on a CMC jelly composition containing GHRP-6 400 μg/mL.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2025: doses stated in the abstract: 75 ng. The optimal concentration of GHRP-6 for the IVM procedure was determined to be 75 ng/ml, resulting in a maturation rate of 70% on the first day and 80% on the second day.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41090425"
+        ],
+        "source_excerpt": "The optimal concentration of GHRP-6 for the IVM procedure was determined to be 75 ng/ml, resulting in a maturation rate of 70% on the first day and 80% on the second day.",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
-    "interactions": [],
-    "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
-    "regulatory_status": []
+    "interactions": [
+      {
+        "value": "Randomized controlled trial, humans, 2016: Eight Holstein steers were randomly and intravenously injected with synthetic bovine gastrin-releasing peptide (GRP; 0.9 nmol/kg BW), neuromedin B (NMB; 0.9 nmol/kg BW), or neuromedin C (NMC; 0.9 nmol/kg BW), each alone or combined with the antagonist of GRP receptors N-acetyl-GRP-OCHCH…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26812312"
+        ],
+        "source_excerpt": "Eight Holstein steers were randomly and intravenously injected with synthetic bovine gastrin-releasing peptide (GRP; 0.9 nmol/kg BW), neuromedin B (NMB; 0.9 nmol/kg BW), or neuromedin C (NMC; 0.9 nmol/kg BW), each alone or combined with the antagonist of GRP receptors N-acetyl-GRP-OCHCH (N-GRP-EE; 22.5 nmol/kg BW) or the antagonist of GH secretagogue receptor type 1a (GHS-R1a) [D-Lys]-GHRP-6 (21.5 nmol/kg BW).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Controlled clinical trial, humans, n=7, 1995: As the GHRH-induced GH rise in children is potentiated by arginine (ARG), even when administered by oral route at low dose (4 g), we studied also the interaction of oral GHRP-6 and ARG administration.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7581965"
+        ],
+        "source_excerpt": "As the GHRH-induced GH rise in children is potentiated by arginine (ARG), even when administered by oral route at low dose (4 g), we studied also the interaction of oral GHRP-6 and ARG administration.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=9, 1995: The marked increase of plasma GH levels observed after administration of GHRP-6 alone or in combination with GHRH indicates that impaired GH secretion in late adulthood is a functional and potentially reversible state.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7734029"
+        ],
+        "source_excerpt": "The marked increase of plasma GH levels observed after administration of GHRP-6 alone or in combination with GHRH indicates that impaired GH secretion in late adulthood is a functional and potentially reversible state.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=6, 2026: The co-administration of epidermal growth factor (EGF) and growth hormone-releasing peptide 6 (GHRP6) emerges as a promising neuroprotective candidate.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42399524"
+        ],
+        "source_excerpt": "The co-administration of epidermal growth factor (EGF) and growth hormone-releasing peptide 6 (GHRP6) emerges as a promising neuroprotective candidate.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2024: Here we examined whether GHRP-6 administration concomitant to Dox prevented the onset of DCM/HF and multiple organs damages in otherwise healthy rats.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38873418"
+        ],
+        "source_excerpt": "Here we examined whether GHRP-6 administration concomitant to Dox prevented the onset of DCM/HF and multiple organs damages in otherwise healthy rats.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2016: The coadministration of rhEGF and GHRP-6 at doses of 100 and 600 μg/kg, respectively, administered up to 4 hours following the ischaemic insult, significantly improved survival and neurological outcome, and reduced infarct volume compared with vehicle treatment.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-26311576"
+        ],
+        "source_excerpt": "The coadministration of rhEGF and GHRP-6 at doses of 100 and 600 μg/kg, respectively, administered up to 4 hours following the ischaemic insult, significantly improved survival and neurological outcome, and reduced infarct volume compared with vehicle treatment.",
+        "drafting": "extractive"
+      }
+    ],
+    "exclusion_criteria": [
+      {
+        "value": "Clinical trial, humans, 2000: Inclusion criteria were severe GH deficiency--ie, a GH peak after ITT of Findings GH peaks seen after the GHRH/GHRP-6 test did not result in any side-effects and were not affected by age, sex, amount of adipose tissue, or by the GH assay system used.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11030292"
+        ],
+        "source_excerpt": "Inclusion criteria were severe GH deficiency--ie, a GH peak after ITT of Findings GH peaks seen after the GHRH/GHRP-6 test did not result in any side-effects and were not affected by age, sex, amount of adipose tissue, or by the GH assay system used.",
+        "drafting": "extractive"
+      }
+    ],
+    "adverse_events": [
+      {
+        "value": "Clinical trial, humans, 2000: Inclusion criteria were severe GH deficiency--ie, a GH peak after ITT of Findings GH peaks seen after the GHRH/GHRP-6 test did not result in any side-effects and were not affected by age, sex, amount of adipose tissue, or by the GH assay system used.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11030292"
+        ],
+        "source_excerpt": "Inclusion criteria were severe GH deficiency--ie, a GH peak after ITT of Findings GH peaks seen after the GHRH/GHRP-6 test did not result in any side-effects and were not affected by age, sex, amount of adipose tissue, or by the GH assay system used.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2025: The present study aimed to investigate the impacts of ghrelin and GHRP-6 on the horizontal and vertical activity in rats exposed to chronic nicotine treatment followed by acute nicotine withdrawal.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39857727"
+        ],
+        "source_excerpt": "The present study aimed to investigate the impacts of ghrelin and GHRP-6 on the horizontal and vertical activity in rats exposed to chronic nicotine treatment followed by acute nicotine withdrawal.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2025: Only GHRP-6 (5 mg/kg) increased food intake without adverse effects, prompting detailed analysis of meal patterns, neuronal activation in the arcuate nucleus (via Fos mapping) and neurochemical identification of c-fos messenger RNA (mRNA)-expressing neurons using RNAscope.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39813130"
+        ],
+        "source_excerpt": "Only GHRP-6 (5 mg/kg) increased food intake without adverse effects, prompting detailed analysis of meal patterns, neuronal activation in the arcuate nucleus (via Fos mapping) and neurochemical identification of c-fos messenger RNA (mRNA)-expressing neurons using RNAscope.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, n=95, 2026: Combined therapy of Epidermal Growth Factor (EGF) and Growth Hormone Releasing Peptide-6 (GHRP6) has shown potential benefits in stroke patients.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42462342"
+        ],
+        "source_excerpt": "Combined therapy of Epidermal Growth Factor (EGF) and Growth Hormone Releasing Peptide-6 (GHRP6) has shown potential benefits in stroke patients.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2016: Eight Holstein steers were randomly and intravenously injected with synthetic bovine gastrin-releasing peptide (GRP; 0.9 nmol/kg BW), neuromedin B (NMB; 0.9 nmol/kg BW), or neuromedin C (NMC; 0.9 nmol/kg BW), each alone or combined with the antagonist of GRP receptors N-acetyl-GRP-OCHCH…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26812312"
+        ],
+        "source_excerpt": "Eight Holstein steers were randomly and intravenously injected with synthetic bovine gastrin-releasing peptide (GRP; 0.9 nmol/kg BW), neuromedin B (NMB; 0.9 nmol/kg BW), or neuromedin C (NMC; 0.9 nmol/kg BW), each alone or combined with the antagonist of GRP receptors N-acetyl-GRP-OCHCH (N-GRP-EE; 22.5 nmol/kg BW) or the antagonist of GH secretagogue receptor type 1a (GHS-R1a) [D-Lys]-GHRP-6 (21.5 nmol/kg BW).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 2013: GHRP-6 is a growth hormone secretagogue that also enhances tissue viability in different organs.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-23099431"
+        ],
+        "source_excerpt": "GHRP-6 is a growth hormone secretagogue that also enhances tissue viability in different organs.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=9, 2010: Ghrelin is a GH secretagogue that also increases adrenocorticotropic hormone (ACTH) and cortisol levels, similarly to GH-releasing peptide-6 (GHRP-6).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-20189610"
+        ],
+        "source_excerpt": "Ghrelin is a GH secretagogue that also increases adrenocorticotropic hormone (ACTH) and cortisol levels, similarly to GH-releasing peptide-6 (GHRP-6).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2010: In Cushing's disease (CD), adrenocorticotrophic hormone (ACTH)/cortisol responses to growth hormone secretagogues (GHS), such as ghrelin and GHRP-6, are exaggerated.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19453623"
+        ],
+        "source_excerpt": "In Cushing's disease (CD), adrenocorticotrophic hormone (ACTH)/cortisol responses to growth hormone secretagogues (GHS), such as ghrelin and GHRP-6, are exaggerated.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, 2004: The aim of this study was to investigate the effect of two different glucose levels on GH response to the combined administration of GHRH+GHRP-6 in patients with type 2 diabetes.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-14693411"
+        ],
+        "source_excerpt": "The aim of this study was to investigate the effect of two different glucose levels on GH response to the combined administration of GHRH+GHRP-6 in patients with type 2 diabetes.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Phase 1 clinical trial, humans, 2013: Averaging all three dose levels, the distribution and elimination half-life of GHRP-6 were 7.6 ± 1.9 min and 2.5 ± 1.1h, respectively.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-23099431"
+        ],
+        "source_excerpt": "Averaging all three dose levels, the distribution and elimination half-life of GHRP-6 were 7.6 ± 1.9 min and 2.5 ± 1.1h, respectively.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2024: Here we examined whether GHRP-6 administration concomitant to Dox prevented the onset of DCM/HF and multiple organs damages in otherwise healthy rats.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38873418"
+        ],
+        "source_excerpt": "Here we examined whether GHRP-6 administration concomitant to Dox prevented the onset of DCM/HF and multiple organs damages in otherwise healthy rats.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, rabbits, 2016: Importantly, in the hypertrophic scars rabbit's model, GHRP-6 intervention dramatically reduced the onset of exuberant scars by activating PPARγ and reducing the expression of fibrogenic cytokines.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-27200188"
+        ],
+        "source_excerpt": "Importantly, in the hypertrophic scars rabbit's model, GHRP-6 intervention dramatically reduced the onset of exuberant scars by activating PPARγ and reducing the expression of fibrogenic cytokines.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2016: Four different doses of rhEGF, GHRP-6 and these combined agents were intraperitoneally administered immediately after the onset of reperfusion.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-26311576"
+        ],
+        "source_excerpt": "Four different doses of rhEGF, GHRP-6 and these combined agents were intraperitoneally administered immediately after the onset of reperfusion.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2012: GHRP-6 was injected [intraperitoneal (IP) or intracerebroventricular (ICV)] 2 h before the onset of stress to observe its potential prevention of the mucosal lesion.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-22791951"
+        ],
+        "source_excerpt": "GHRP-6 was injected [intraperitoneal (IP) or intracerebroventricular (ICV)] 2 h before the onset of stress to observe its potential prevention of the mucosal lesion.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2025: In summary, while GHRP-6 showed potential in promoting nucleonic maturation by significantly inducing the appearance of PB1 between GVs within 24 hours, it did not exhibit statistically significant improvements in cytoplasmic maturation in metaphase 2 oocytes (MII) during this timeframe.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41090425"
+        ],
+        "source_excerpt": "In summary, while GHRP-6 showed potential in promoting nucleonic maturation by significantly inducing the appearance of PB1 between GVs within 24 hours, it did not exhibit statistically significant improvements in cytoplasmic maturation in metaphase 2 oocytes (MII) during this timeframe.",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [
+      {
+        "value": "In vitro study, 2021: Degradation products (DPs) of GHRP-6, generated by heating in the dark at 60 °C with pH ranging from 3.0 to 8.0 and in presence of common buffers, were isolated by RP-HPLC and characterized by ESI-MS/MS.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-33272786"
+        ],
+        "source_excerpt": "Degradation products (DPs) of GHRP-6, generated by heating in the dark at 60 °C with pH ranging from 3.0 to 8.0 and in presence of common buffers, were isolated by RP-HPLC and characterized by ESI-MS/MS.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, n=95, 2026: durations stated: 7 days; 3 years; 6 months. Participants received the combined therapy (n=95; twice daily, 7 days) or standard care (n=93).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42462342"
+        ],
+        "source_excerpt": "Participants received the combined therapy (n=95; twice daily, 7 days) or standard care (n=93).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2010: durations stated: 6 months. Design/patients Eight untreated patients with CD (BMI: 28.5 +/- 0.8 kg/m(2)) were evaluated before and after 3 and 6 months of ketoconazole treatment and compared with 11 controls (BMI: 25.0 +/- 0.8).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19453623"
+        ],
+        "source_excerpt": "Design/patients Eight untreated patients with CD (BMI: 28.5 +/- 0.8 kg/m(2)) were evaluated before and after 3 and 6 months of ketoconazole treatment and compared with 11 controls (BMI: 25.0 +/- 0.8).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2026: durations stated: 7 days. Treatments were initiated post-surgery and continued for 7 days.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41901314"
+        ],
+        "source_excerpt": "Treatments were initiated post-surgery and continued for 7 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, rabbits, 2016: durations stated: 5 days; 30 days. Excisional full-thickness wounds (6 mmØ) were created in the dorsum of Wistar rats and topically treated twice a day for 5 days.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-27200188"
+        ],
+        "source_excerpt": "Excisional full-thickness wounds (6 mmØ) were created in the dorsum of Wistar rats and topically treated twice a day for 5 days.",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Animal study, mice, 2025: weight-normalized doses as published: 5 mg/kg. Only GHRP-6 (5 mg/kg) increased food intake without adverse effects, prompting detailed analysis of meal patterns, neuronal activation in the arcuate nucleus (via Fos mapping) and neurochemical identification of c-fos messenger RNA (mRNA)-expressing neurons using…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39813130"
+        ],
+        "source_excerpt": "Only GHRP-6 (5 mg/kg) increased food intake without adverse effects, prompting detailed analysis of meal patterns, neuronal activation in the arcuate nucleus (via Fos mapping) and neurochemical identification of c-fos messenger RNA (mRNA)-expressing neurons using RNAscope.",
+        "drafting": "extractive"
+      }
+    ],
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, n=95, 2026: In the intention-to-treat population, no differences were found in mRS, Barthel index nor survival.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42462342"
+        ],
+        "source_excerpt": "In the intention-to-treat population, no differences were found in mRS, Barthel index nor survival.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hernández-Bernal 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 95,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "7 days; 3 years",
+          "outcome": "In the intention-to-treat population, no differences were found in mRS, Barthel index nor survival."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2016: Plasma glucose was observed in 2 phases; a significant rise followed a remarkable fall after NMC or GRP administration compared with injection of the vehicle ( 0.05).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26812312"
+        ],
+        "source_excerpt": "Plasma glucose was observed in 2 phases; a significant rise followed a remarkable fall after NMC or GRP administration compared with injection of the vehicle ( 0.05).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhao 2016",
+          "year": "2016",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Plasma glucose was observed in 2 phases; a significant rise followed a remarkable fall after NMC or GRP administration compared with injection of the vehicle ( 0.05)."
+        }
+      },
+      {
+        "value": "Phase 1 clinical trial, humans, 2013: Disposition of GHRP-6 best fitted a bi-exponential function with R(2) higher than 0.99, according to a mathematic modeling and confirmed by an Akaike index (AIC) lower than that of the corresponding one-compartment model for all subjects.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-23099431"
+        ],
+        "source_excerpt": "Disposition of GHRP-6 best fitted a bi-exponential function with R(2) higher than 0.99, according to a mathematic modeling and confirmed by an Akaike index (AIC) lower than that of the corresponding one-compartment model for all subjects.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Cabrales 2013",
+          "year": "2013",
+          "design": "Phase 1 clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Disposition of GHRP-6 best fitted a bi-exponential function with R(2) higher than 0.99, according to a mathematic modeling and confirmed by an Akaike index (AIC) lower than that of the corresponding one-compartment…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=9, 2010: When analyzing Δ area under the curve (ΔAUC) GH values after ghrelin, GHRP-6, and GHRH, no significant differences were observed in T1DM compared with controls.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-20189610"
+        ],
+        "source_excerpt": "When analyzing Δ area under the curve (ΔAUC) GH values after ghrelin, GHRP-6, and GHRH, no significant differences were observed in T1DM compared with controls.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "de 2010",
+          "year": "2010",
+          "design": "Randomized controlled trial",
+          "n": 9,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "When analyzing Δ area under the curve (ΔAUC) GH values after ghrelin, GHRP-6, and GHRH, no significant differences were observed in T1DM compared with controls."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2010: GHRP-6-induced ACTH release also increased (before: 60.7 +/- 17.2; 6th month: 78.5 +/- 12.1), although not significantly.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19453623"
+        ],
+        "source_excerpt": "GHRP-6-induced ACTH release also increased (before: 60.7 +/- 17.2; 6th month: 78.5 +/- 12.1), although not significantly.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Correa-Silva 2010",
+          "year": "2010",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "6 months",
+          "outcome": "GHRP-6-induced ACTH release also increased (before: 60.7 +/- 17.2; 6th month: 78.5 +/- 12.1), although not significantly."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2004: Peak GH response to GHRH+GHRP-6 during the hyperglycemic clamp was lower than in the englycemic clamp (112.45+/-14.45 mU/l versus 151.06+/-16.87 mU/l; P<0.05).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-14693411"
+        ],
+        "source_excerpt": "Peak GH response to GHRH+GHRP-6 during the hyperglycemic clamp was lower than in the englycemic clamp (112.45+/-14.45 mU/l versus 151.06+/-16.87 mU/l; P<0.05).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Micic 2004",
+          "year": "2004",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "100 mcg",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Peak GH response to GHRH+GHRP-6 during the hyperglycemic clamp was lower than in the englycemic clamp (112.45+/-14.45 mU/l versus 151.06+/-16.87 mU/l; P<0.05)."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2000: Inclusion criteria were severe GH deficiency--ie, a GH peak after ITT of Findings GH peaks seen after the GHRH/GHRP-6 test did not result in any side-effects and were not affected by age, sex, amount of adipose tissue, or by the GH assay system used.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11030292"
+        ],
+        "source_excerpt": "Inclusion criteria were severe GH deficiency--ie, a GH peak after ITT of Findings GH peaks seen after the GHRH/GHRP-6 test did not result in any side-effects and were not affected by age, sex, amount of adipose tissue, or by the GH assay system used.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Popovic 2000",
+          "year": "2000",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Inclusion criteria were severe GH deficiency--ie, a GH peak after ITT of Findings GH peaks seen after the GHRH/GHRP-6 test did not result in any side-effects and were not affected by age, sex, amount of adipose tissue,…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 1999: The association of the two peptides markedly increased GH levels (peak: 172.4 +/- 34.2; AUC: 10393.0 +/- 1894.8) compared with the isolated administration of GHRP-6 or GHRH.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10583306"
+        ],
+        "source_excerpt": "The association of the two peptides markedly increased GH levels (peak: 172.4 +/- 34.2; AUC: 10393.0 +/- 1894.8) compared with the isolated administration of GHRP-6 or GHRH.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Pinto 1999",
+          "year": "1999",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous, oral",
+          "duration": "not stated in abstract",
+          "outcome": "The association of the two peptides markedly increased GH levels (peak: 172.4 +/- 34.2; AUC: 10393.0 +/- 1894.8) compared with the isolated administration of GHRP-6 or GHRH."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 1999: GHRP-6 i.n. prompted a significant increase in GH concentration during the total night and a trend toward an increase in ACTH secretion during the first half of the night, whereas cortisol secretion remained unchanged.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10336729"
+        ],
+        "source_excerpt": "GHRP-6 i.n. prompted a significant increase in GH concentration during the total night and a trend toward an increase in ACTH secretion during the first half of the night, whereas cortisol secretion remained unchanged.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Frieboes 1999",
+          "year": "1999",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous, oral",
+          "duration": "not stated in abstract",
+          "outcome": "GHRP-6 i.n. prompted a significant increase in GH concentration during the total night and a trend toward an increase in ACTH secretion during the first half of the night, whereas cortisol secretion remained unchanged."
+        }
+      },
+      {
+        "value": "Controlled clinical trial, humans, 1995: In normal subjects, GH secretion was 1029 +/- 202 after GHRH treatment, 1221 +/- 345 after GHRP-6, and 3542 +/- 650 after GHRH plus GHRP-6; the latter value was significantly (P < 0.05) higher than the secretion elicited by GHRH or GHRP-6 alone.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7593423"
+        ],
+        "source_excerpt": "In normal subjects, GH secretion was 1029 +/- 202 after GHRH treatment, 1221 +/- 345 after GHRP-6, and 3542 +/- 650 after GHRH plus GHRP-6; the latter value was significantly (P < 0.05) higher than the secretion elicited by GHRH or GHRP-6 alone.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Pombo 1995",
+          "year": "1995",
+          "design": "Controlled clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "In normal subjects, GH secretion was 1029 +/- 202 after GHRH treatment, 1221 +/- 345 after GHRP-6, and 3542 +/- 650 after GHRH plus GHRP-6; the latter value was significantly (P < 0.05) higher than the secretion…"
+        }
+      },
+      {
+        "value": "Controlled clinical trial, humans, n=7, 1995: Growth hormone-releasing peptide 6 (GHRP-6) is a synthetic hexapeptide with a potent GH-releasing activity after intravenous, subcutaneous, intranasal and oral administration in man.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7581965"
+        ],
+        "source_excerpt": "Growth hormone-releasing peptide 6 (GHRP-6) is a synthetic hexapeptide with a potent GH-releasing activity after intravenous, subcutaneous, intranasal and oral administration in man.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bellone 1995",
+          "year": "1995",
+          "design": "Controlled clinical trial",
+          "n": 7,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intranasal, intravenous, oral, subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=9, 1995: In the group of young adult subjects the combined administration of GHRH and GHRP-6 elicited a greater GH increase than GHRH alone (F = 21.9, P Conclusions These data show that GH responses to GHRP-6 are much greater than to GHRH in late adulthood.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7734029"
+        ],
+        "source_excerpt": "In the group of young adult subjects the combined administration of GHRH and GHRP-6 elicited a greater GH increase than GHRH alone (F = 21.9, P Conclusions These data show that GH responses to GHRP-6 are much greater than to GHRH in late adulthood.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Micic 1995",
+          "year": "1995",
+          "design": "Randomized controlled trial",
+          "n": 9,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "In the group of young adult subjects the combined administration of GHRH and GHRP-6 elicited a greater GH increase than GHRH alone (F = 21.9, P Conclusions These data show that GH responses to GHRP-6 are much greater…"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=8, 1993: Small transient increases in cortical and PRL were observed (increases in cortical averaged 182.1 +/- 33.1 nmol/L and peak PRL was 21 +/- 2.6 micrograms/L after 1.0 mg/kg L-692,429, respectively), whereas no significant changes occurred in LH, FSH, TSH, insulin, or glucose concentrations.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8077339"
+        ],
+        "source_excerpt": "Small transient increases in cortical and PRL were observed (increases in cortical averaged 182.1 +/- 33.1 nmol/L and peak PRL was 21 +/- 2.6 micrograms/L after 1.0 mg/kg L-692,429, respectively), whereas no significant changes occurred in LH, FSH, TSH, insulin, or glucose concentrations.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gertz 1993",
+          "year": "1993",
+          "design": "Clinical trial",
+          "n": 8,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Small transient increases in cortical and PRL were observed (increases in cortical averaged 182.1 +/- 33.1 nmol/L and peak PRL was 21 +/- 2.6 micrograms/L after 1.0 mg/kg L-692,429, respectively), whereas no…"
+        }
+      },
+      {
+        "value": "Animal study, mice, n=6, 2026: In aged animals, EGF + GHRP6 treatment increased step length (p = 0.04).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42399524"
+        ],
+        "source_excerpt": "In aged animals, EGF + GHRP6 treatment increased step length (p = 0.04).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Risco-Acevedo 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 6,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In aged animals, EGF + GHRP6 treatment increased step length (p = 0.04)."
+        }
+      },
+      {
+        "value": "Animal study, rats, n=12, 2026: At 24 h post-treatment, proteins associated with reactive oxygen species (ROS) detoxification, heat shock factor 1 (HSF1) activation, and negative regulation of cellular hypoxia response were significantly modulated.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42258095"
+        ],
+        "source_excerpt": "At 24 h post-treatment, proteins associated with reactive oxygen species (ROS) detoxification, heat shock factor 1 (HSF1) activation, and negative regulation of cellular hypoxia response were significantly modulated.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Rodríguez-Ulloa 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 12,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "At 24 h post-treatment, proteins associated with reactive oxygen species (ROS) detoxification, heat shock factor 1 (HSF1) activation, and negative regulation of cellular hypoxia response were significantly modulated."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: YJP improved cardiac dysfunction and myocardial fibrosis and markedly ameliorated depressive behaviors.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42365400"
+        ],
+        "source_excerpt": "YJP improved cardiac dysfunction and myocardial fibrosis and markedly ameliorated depressive behaviors.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yunjia 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "YJP improved cardiac dysfunction and myocardial fibrosis and markedly ameliorated depressive behaviors."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: Here, we show that GHRP-6 attenuated myocardial tissue demise, reduced myocardial interstitial fibrosis/scarring, and integrally improved left ventricle physiology.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41901314"
+        ],
+        "source_excerpt": "Here, we show that GHRP-6 attenuated myocardial tissue demise, reduced myocardial interstitial fibrosis/scarring, and integrally improved left ventricle physiology.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wang 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "7 days",
+          "outcome": "Here, we show that GHRP-6 attenuated myocardial tissue demise, reduced myocardial interstitial fibrosis/scarring, and integrally improved left ventricle physiology."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2025: Here, we designed a self-assembling GHRP-6 peptide hydrogel, and we hypothesized that this hydrogel could reprogram the metabolism of TECs, further enhancing recovery from AKI.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41327290"
+        ],
+        "source_excerpt": "Here, we designed a self-assembling GHRP-6 peptide hydrogel, and we hypothesized that this hydrogel could reprogram the metabolism of TECs, further enhancing recovery from AKI.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhao 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2025: Compared with the E. granulosus (Eg) group, the GHSR-KO group presented a significant reduction in the number of liver infection foci.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40065480"
+        ],
+        "source_excerpt": "Compared with the E. granulosus (Eg) group, the GHSR-KO group presented a significant reduction in the number of liver infection foci.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhu 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Compared with the E. granulosus (Eg) group, the GHSR-KO group presented a significant reduction in the number of liver infection foci."
+        }
+      },
+      {
+        "value": "Animal study, dogs, 2025: Hypersalivation, hypoactivity, reduced heart rate, changes in respiration, pale gums and erythema of the head region were observed in some animals administered at 1000 and 2000 μg/kg/day.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40024561"
+        ],
+        "source_excerpt": "Hypersalivation, hypoactivity, reduced heart rate, changes in respiration, pale gums and erythema of the head region were observed in some animals administered at 1000 and 2000 μg/kg/day.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Castro 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Dogs",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Hypersalivation, hypoactivity, reduced heart rate, changes in respiration, pale gums and erythema of the head region were observed in some animals administered at 1000 and 2000 μg/kg/day."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2025: On the eighth day, in nicotine-treated rats a significant hyperactivity was observed, that was reduced significantly by ghrelin and GHRP-6.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39857727"
+        ],
+        "source_excerpt": "On the eighth day, in nicotine-treated rats a significant hyperactivity was observed, that was reduced significantly by ghrelin and GHRP-6.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ayman 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "On the eighth day, in nicotine-treated rats a significant hyperactivity was observed, that was reduced significantly by ghrelin and GHRP-6."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2025: Only GHRP-6 (5 mg/kg) increased food intake without adverse effects, prompting detailed analysis of meal patterns, neuronal activation in the arcuate nucleus (via Fos mapping) and neurochemical identification of c-fos messenger RNA (mRNA)-expressing neurons using RNAscope.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39813130"
+        ],
+        "source_excerpt": "Only GHRP-6 (5 mg/kg) increased food intake without adverse effects, prompting detailed analysis of meal patterns, neuronal activation in the arcuate nucleus (via Fos mapping) and neurochemical identification of c-fos messenger RNA (mRNA)-expressing neurons using RNAscope.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Poelman 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "5 mg/kg",
+          "route": "intranasal",
+          "duration": "not stated in abstract",
+          "outcome": "Only GHRP-6 (5 mg/kg) increased food intake without adverse effects, prompting detailed analysis of meal patterns, neuronal activation in the arcuate nucleus (via Fos mapping) and neurochemical identification of c-fos…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2025: EM-1-DLS demonstrated the highest antinociceptive potency among the peptides, with an ED 50 approximately 8-fold greater than EM-1, while EM-2-DLS showed comparable effects to EM-2.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39147011"
+        ],
+        "source_excerpt": "EM-1-DLS demonstrated the highest antinociceptive potency among the peptides, with an ED 50 approximately 8-fold greater than EM-1, while EM-2-DLS showed comparable effects to EM-2.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wu 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "EM-1-DLS demonstrated the highest antinociceptive potency among the peptides, with an ED 50 approximately 8-fold greater than EM-1, while EM-2-DLS showed comparable effects to EM-2."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2024: Reperfusion of ischemic skeletal muscle triggers oxidative stress and an immediate inflammatory reaction, leading to damage of distant organs such as the lungs.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39552437"
+        ],
+        "source_excerpt": "Reperfusion of ischemic skeletal muscle triggers oxidative stress and an immediate inflammatory reaction, leading to damage of distant organs such as the lungs.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Elimam 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2024: Serum Ghrelin levels were increased in E.g-infected 4- and 12-week mice, and reduced in 36-week mice.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39436864"
+        ],
+        "source_excerpt": "Serum Ghrelin levels were increased in E.g-infected 4- and 12-week mice, and reduced in 36-week mice.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhu 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Serum Ghrelin levels were increased in E.g-infected 4- and 12-week mice, and reduced in 36-week mice."
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -48,15 +902,42 @@
       "review": 0,
       "unclassified": 1
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 48,
+      "claims": 38,
+      "evidence_table_rows": 25
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports dose-escalation schedules for GHRP-6."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has GHRP-6 been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 41 clinical trials and 22 randomized controlled trials naming GHRP-6 or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for GHRP-6?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is GHRP-6 an approved medicine?",
+      "answer": "No ChEMBL record matches GHRP-6 or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has GHRP-6 been studied in?",
+      "answer": "Studies in this record's ledger report work in: Dogs, Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42462342",
@@ -396,7 +1277,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 82.3,
   "review": {
     "author": "",
     "reviewer": "",
@@ -407,6 +1288,18 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 48 ledger sources by scripts/draft_claims.py: 48 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 48 ledger sources by scripts/draft_claims.py: 45 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 48 ledger sources by scripts/draft_claims.py: 38 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

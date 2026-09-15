@@ -5,26 +5,778 @@
     "humanin peptide"
   ],
   "slug": "humanin",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for Humanin. Europe PMC indexes 589 publications, including 5 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Humanin is a peptide in the mitochondrial peptides class (mitochondria-derived cytoprotective peptide). Europe PMC indexes 589 publications naming it or a listed alias in a title or abstract, including 5 randomized controlled trials and 3 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Humanin: what the research shows",
-    "description": "Cited overview of published Humanin research: 589 indexed publications, 5 randomized controlled trials. Evidence tier on every claim."
+    "description": "Humanin research, cited: 589 indexed publications, 5 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
+    "routes_studied": [
+      {
+        "value": "Animal study, rats, n=10, 2026: administration by oral, subcutaneous route reported. In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group) to evaluate sexual behavior, sperm quality, serum…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42480246"
+        ],
+        "source_excerpt": "In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group) to evaluate sexual behavior, sperm quality, serum hormones, and dopaminergic activity within the nucleus accumbens (NAc) and medial preoptic area (MPOA).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=10, 2026: administration by intraperitoneal route reported. Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42438323"
+        ],
+        "source_excerpt": "Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=10, 2026: administration by intraperitoneal route reported. Humanin was administered intraperitoneally for 15 consecutive days.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42346352"
+        ],
+        "source_excerpt": "Humanin was administered intraperitoneally for 15 consecutive days.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Human study, humans, 2026: doses stated in the abstract: 6 ng. Receiver operating characteristic (ROC) curve analysis showed that 5.26 ng/ml cut-off value of humanin-like 3 level discriminated MS-SCON from NMOSD by 66.7% sensitivity and 90% specificity.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41777515"
+        ],
+        "source_excerpt": "Receiver operating characteristic (ROC) curve analysis showed that 5.26 ng/ml cut-off value of humanin-like 3 level discriminated MS-SCON from NMOSD by 66.7% sensitivity and 90% specificity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, n=10, 2026: doses stated in the abstract: 1 mg/kg/day. In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group) to evaluate sexual behavior, sperm quality, serum hormones, and…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42480246"
+        ],
+        "source_excerpt": "In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group) to evaluate sexual behavior, sperm quality, serum hormones, and dopaminergic activity within the nucleus accumbens (NAc) and medial preoptic area (MPOA).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=10, 2026: doses stated in the abstract: 4 mg/kg. Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42438323"
+        ],
+        "source_excerpt": "Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
-    "interactions": [],
+    "interactions": [
+      {
+        "value": "Animal study, rats, n=10, 2026: Humanin co-administration significantly reversed these adverse effects, restoring ejaculatory frequency, copulatory efficiency, sperm parameters, and hormonal balance.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42480246"
+        ],
+        "source_excerpt": "Humanin co-administration significantly reversed these adverse effects, restoring ejaculatory frequency, copulatory efficiency, sperm parameters, and hormonal balance.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2007: By using NMR chemical shift mapping experiments, we demonstrate that the interaction between Humanin-derived peptides and Bid is specific, and we localize the binding site to a region on the surface of Bid, which includes residues from the conserved helical BH3 domain of the protein.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17927731"
+        ],
+        "source_excerpt": "By using NMR chemical shift mapping experiments, we demonstrate that the interaction between Humanin-derived peptides and Bid is specific, and we localize the binding site to a region on the surface of Bid, which includes residues from the conserved helical BH3 domain of the protein.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2026: This study presents an in-depth analysis of an interactome comprising approximately 1033 nodes, focusing on its topology, reliability, and functional implications, with particular attention to the small mitochondrial proteins of the Humanin family and their nuclear-encoded MTRNR2Lx paralogs.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42509775"
+        ],
+        "source_excerpt": "This study presents an in-depth analysis of an interactome comprising approximately 1033 nodes, focusing on its topology, reliability, and functional implications, with particular attention to the small mitochondrial proteins of the Humanin family and their nuclear-encoded MTRNR2Lx paralogs.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2025: Humanin is an endogenous human peptide with cytoprotective effects, including inhibition of apoptosis via interaction with BCL-2 proteins such as BAX.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-40543583"
+        ],
+        "source_excerpt": "Humanin is an endogenous human peptide with cytoprotective effects, including inhibition of apoptosis via interaction with BCL-2 proteins such as BAX.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2021: Recent reports identify a naturally occurring peptide, Humanin (HN), that could block amyloid-beta-associated neuronal apoptosis by interacting with BCL-2 proteins.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-33764501"
+        ],
+        "source_excerpt": "Recent reports identify a naturally occurring peptide, Humanin (HN), that could block amyloid-beta-associated neuronal apoptosis by interacting with BCL-2 proteins.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2020: A mitochondrial-derived peptide, Humanin (HN), was reported being expressed from an alternate ORF in the mitochondrial genome and inhibiting apoptosis through interactions with the pro-apoptotic BCL-2 proteins.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-33106313"
+        ],
+        "source_excerpt": "A mitochondrial-derived peptide, Humanin (HN), was reported being expressed from an alternate ORF in the mitochondrial genome and inhibiting apoptosis through interactions with the pro-apoptotic BCL-2 proteins.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
+    "adverse_events": [
+      {
+        "value": "Animal study, rats, n=10, 2026: Humanin co-administration significantly reversed these adverse effects, restoring ejaculatory frequency, copulatory efficiency, sperm parameters, and hormonal balance.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42480246"
+        ],
+        "source_excerpt": "Humanin co-administration significantly reversed these adverse effects, restoring ejaculatory frequency, copulatory efficiency, sperm parameters, and hormonal balance.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2026: Brain structural changes were assessed using magnetic resonance imaging (MRI), and blood samples were analyzed for Humanin (HN), Fibroblast Growth Factor 21 (FGF21), Growth Differentiation Factor 15 (GDF-15), Brain-Derived Neurotrophic Factor (BDNF), and Insulin-like Growth Factor 1…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41975304"
+        ],
+        "source_excerpt": "Brain structural changes were assessed using magnetic resonance imaging (MRI), and blood samples were analyzed for Humanin (HN), Fibroblast Growth Factor 21 (FGF21), Growth Differentiation Factor 15 (GDF-15), Brain-Derived Neurotrophic Factor (BDNF), and Insulin-like Growth Factor 1 (IGF-1) as well as oxidative and inflammation biomarkers.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=49, 2025: To investigate Humanin and SHMOOSE (Small Human Mitochondrial ORF Over SErine tRNA), as potential mitochondrial biomarkers of Med-Diet adherence and their associations with markers of oxidative stress.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41883858"
+        ],
+        "source_excerpt": "To investigate Humanin and SHMOOSE (Small Human Mitochondrial ORF Over SErine tRNA), as potential mitochondrial biomarkers of Med-Diet adherence and their associations with markers of oxidative stress.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=15, 2025: This study examined whether combined aerobic and resistance training (CT) and astaxanthin (AST) supplementation synergistically improve oxidant and inflammatory status as well as metabolic indices in T2DM, focusing on the mediatory role of Humanin (HN) and microRNAs (miRNA-122,…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41249265"
+        ],
+        "source_excerpt": "This study examined whether combined aerobic and resistance training (CT) and astaxanthin (AST) supplementation synergistically improve oxidant and inflammatory status as well as metabolic indices in T2DM, focusing on the mediatory role of Humanin (HN) and microRNAs (miRNA-122, miRNA-126-3p, and miRNA-146a).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Multicentre study, humans, n=33, 2026: Integration of Humanin significantly enhances the predictive accuracy of CVMM risk models in HD patients, supporting its potential role as an additive biomarker in this high-risk population.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41849628"
+        ],
+        "source_excerpt": "Integration of Humanin significantly enhances the predictive accuracy of CVMM risk models in HD patients, supporting its potential role as an additive biomarker in this high-risk population.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2026: Humanin, a mitochondrial-derived peptide (MDP) with reported cytoprotective properties, has been implicated in cancer biology and may play a role in breast cancer pathogenesis.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41518474"
+        ],
+        "source_excerpt": "Humanin, a mitochondrial-derived peptide (MDP) with reported cytoprotective properties, has been implicated in cancer biology and may play a role in breast cancer pathogenesis.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2026: Our aim was to determine whether serum levels of humanin-like 3 (encoded by the MTRNR2L3 gene) may serve as a diagnostic biomarker for differentiation of NMOSD from relapsing remitting multiple sclerosis (RRMS) presenting with clinical features reminiscent of NMOSD.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41777515"
+        ],
+        "source_excerpt": "Our aim was to determine whether serum levels of humanin-like 3 (encoded by the MTRNR2L3 gene) may serve as a diagnostic biomarker for differentiation of NMOSD from relapsing remitting multiple sclerosis (RRMS) presenting with clinical features reminiscent of NMOSD.",
+        "drafting": "extractive"
+      }
+    ],
     "reported_timelines": [],
     "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
-    "regulatory_status": []
+    "study_durations": [
+      {
+        "value": "Clinical trial, humans, n=158, 2019: durations stated: 5 days; 12 weeks. The following HBO protocol was practiced: 5 days per week, 60 min each, 100% oxygen at 2 standard atmospheric pressures for 12 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31134827"
+        ],
+        "source_excerpt": "The following HBO protocol was practiced: 5 days per week, 60 min each, 100% oxygen at 2 standard atmospheric pressures for 12 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=55, 2016: durations stated: 12 weeks. In this intervention study we show, for the first time, that HN protein levels increase in human skeletal muscle following 12 weeks of resistance training in persons with prediabetes.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27923980"
+        ],
+        "source_excerpt": "In this intervention study we show, for the first time, that HN protein levels increase in human skeletal muscle following 12 weeks of resistance training in persons with prediabetes.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2026: durations stated: 4 weeks. Starting at postnatal day 21, RCS rats received twice a week intraperitoneal injection of either Low Dose HNG (0.4 mg/kg), High Dose HNG (4 mg/kg), or sham-saline for 1 or 4 weeks.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42471450"
+        ],
+        "source_excerpt": "Starting at postnatal day 21, RCS rats received twice a week intraperitoneal injection of either Low Dose HNG (0.4 mg/kg), High Dose HNG (4 mg/kg), or sham-saline for 1 or 4 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=10, 2026: durations stated: 15 days. Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42438323"
+        ],
+        "source_excerpt": "Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2026: durations stated: 9 weeks. Male mdx mice (B10.mdx and D2.mdx) were treated with GCs, with/without HNG, from 5 to 9 weeks of age using two different treatment regimens.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41550496"
+        ],
+        "source_excerpt": "Male mdx mice (B10.mdx and D2.mdx) were treated with GCs, with/without HNG, from 5 to 9 weeks of age using two different treatment regimens.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, mice, 2024: durations stated: 2 days; 14 days. Ex vivo studies were performed in fetal rat metatarsal bones and human growth plate samples cultured for 12 and 2 days, respectively, while in vivo studies were performed in young neuroblastoma mice being treated daily for 14 days.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38328478"
+        ],
+        "source_excerpt": "Ex vivo studies were performed in fetal rat metatarsal bones and human growth plate samples cultured for 12 and 2 days, respectively, while in vivo studies were performed in young neuroblastoma mice being treated daily for 14 days.",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Animal study, rats, n=10, 2026: weight-normalized doses as published: 1 mg/kg/day. In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group) to evaluate sexual behavior, sperm quality, serum…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42480246"
+        ],
+        "source_excerpt": "In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group) to evaluate sexual behavior, sperm quality, serum hormones, and dopaminergic activity within the nucleus accumbens (NAc) and medial preoptic area (MPOA).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=10, 2026: weight-normalized doses as published: 4 mg/kg. Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42438323"
+        ],
+        "source_excerpt": "Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
+        "drafting": "extractive"
+      }
+    ],
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2026: The WBRT group showed significant increases in gray matter, subcortical gray matter, cerebellar gray matter volume, and cerebrum white matter compared to the CON group (p < 0.05).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41975304"
+        ],
+        "source_excerpt": "The WBRT group showed significant increases in gray matter, subcortical gray matter, cerebellar gray matter volume, and cerebrum white matter compared to the CON group (p < 0.05).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hosseini 2026",
+          "year": "2026",
+          "design": "Randomized controlled trial",
+          "n": 12,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The WBRT group showed significant increases in gray matter, subcortical gray matter, cerebellar gray matter volume, and cerebrum white matter compared to the CON group (p < 0.05)."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=49, 2025: Patients with high adherence exhibited higher plasma levels of SHMOOSE ( p = 0.046) and Humanin ( p = 0.045).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41883858"
+        ],
+        "source_excerpt": "Patients with high adherence exhibited higher plasma levels of SHMOOSE ( p = 0.046) and Humanin ( p = 0.045).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Vicinanza 2025",
+          "year": "2025",
+          "design": "Clinical trial",
+          "n": 49,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Patients with high adherence exhibited higher plasma levels of SHMOOSE ( p = 0.046) and Humanin ( p = 0.045)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=15, 2025: Both CT and AST enhanced antioxidant defenses and reduced IF, with CT + S showing the best effects.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41249265"
+        ],
+        "source_excerpt": "Both CT and AST enhanced antioxidant defenses and reduced IF, with CT + S showing the best effects.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Basereh 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": 15,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Both CT and AST enhanced antioxidant defenses and reduced IF, with CT + S showing the best effects."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2023: NDEV levels of proBDNF, BDNF, and humanin increased in the exercise group, especially in APOE ε4 carriers, but remained unchanged in the control group.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37730689"
+        ],
+        "source_excerpt": "NDEV levels of proBDNF, BDNF, and humanin increased in the exercise group, especially in APOE ε4 carriers, but remained unchanged in the control group.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Delgado-Peraza 2023",
+          "year": "2023",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "NDEV levels of proBDNF, BDNF, and humanin increased in the exercise group, especially in APOE ε4 carriers, but remained unchanged in the control group."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=10, 2021: Circulating levels of HN were significantly elevated by acute EE but not RE.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34351816"
+        ],
+        "source_excerpt": "Circulating levels of HN were significantly elevated by acute EE but not RE.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "von 2021",
+          "year": "2021",
+          "design": "Randomized controlled trial",
+          "n": 10,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Circulating levels of HN were significantly elevated by acute EE but not RE."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=158, 2019: There was no significant difference in MMSE scores and serum Humanin levels between the two groups before treatment ( p > 0.05).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31134827"
+        ],
+        "source_excerpt": "There was no significant difference in MMSE scores and serum Humanin levels between the two groups before treatment ( p > 0.05).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Xu 2019",
+          "year": "2019",
+          "design": "Clinical trial",
+          "n": 158,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "5 days; 12 weeks",
+          "outcome": "There was no significant difference in MMSE scores and serum Humanin levels between the two groups before treatment ( p > 0.05)."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2019: Results- In the screening stage, 1012 differentially methylated CpG sites annotated in 672 genes were found to be significantly associated with large-artery atherosclerotic stroke (mean methylation difference >5%, P -14 ).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31084332"
+        ],
+        "source_excerpt": "Results- In the screening stage, 1012 differentially methylated CpG sites annotated in 672 genes were found to be significantly associated with large-artery atherosclerotic stroke (mean methylation difference >5%, P -14 ).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Shen 2019",
+          "year": "2019",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Results- In the screening stage, 1012 differentially methylated CpG sites annotated in 672 genes were found to be significantly associated with large-artery atherosclerotic stroke (mean methylation difference >5%, P…"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2017: In AMD cybrids, HNG protected the AMD mitochondria, reduced pro-apoptosis gene and protein levels, upregulated gp130 (a component of the HN receptor complex), and increased the protection against amyloid-β-induced damage.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28726777"
+        ],
+        "source_excerpt": "In AMD cybrids, HNG protected the AMD mitochondria, reduced pro-apoptosis gene and protein levels, upregulated gp130 (a component of the HN receptor complex), and increased the protection against amyloid-β-induced damage.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Nashine 2017",
+          "year": "2017",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In AMD cybrids, HNG protected the AMD mitochondria, reduced pro-apoptosis gene and protein levels, upregulated gp130 (a component of the HN receptor complex), and increased the protection against amyloid-β-induced…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=55, 2016: There was a significant correlation between humanin levels in serum and the improvements in the 2 h glucose loading test in the resistance training group.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27923980"
+        ],
+        "source_excerpt": "There was a significant correlation between humanin levels in serum and the improvements in the 2 h glucose loading test in the resistance training group.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gidlund 2016",
+          "year": "2016",
+          "design": "Randomized controlled trial",
+          "n": 55,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "12 weeks",
+          "outcome": "There was a significant correlation between humanin levels in serum and the improvements in the 2 h glucose loading test in the resistance training group."
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: DHQ adjunctive therapy reduced serum circulating mitochondrial DNA levels in patients with CLF, increased serum SOD2 and Humanin expression, inhibited activation of the NLRP3-mediated pyroptotic pathway, improved remission rates of decompensated complications, and showed favorable safety and tolerability in…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42630864"
+        ],
+        "source_excerpt": "DHQ adjunctive therapy reduced serum circulating mitochondrial DNA levels in patients with CLF, increased serum SOD2 and Humanin expression, inhibited activation of the NLRP3-mediated pyroptotic pathway, improved remission rates of decompensated complications, and showed favorable safety and tolerability in patients with end-stage liver diseases.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Shen 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "DHQ adjunctive therapy reduced serum circulating mitochondrial DNA levels in patients with CLF, increased serum SOD2 and Humanin expression, inhibited activation of the NLRP3-mediated pyroptotic pathway, improved…"
+        }
+      },
+      {
+        "value": "Multicentre study, humans, n=33, 2026: Humanin displayed a curvilinear association with CVMM, with both low ( 778 pg/mL) levels linked to an increased risk.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41849628"
+        ],
+        "source_excerpt": "Humanin displayed a curvilinear association with CVMM, with both low ( 778 pg/mL) levels linked to an increased risk.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bolignano 2026",
+          "year": "2026",
+          "design": "Multicentre study",
+          "n": 33,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Humanin displayed a curvilinear association with CVMM, with both low ( 778 pg/mL) levels linked to an increased risk."
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: HNF 14 treatment was associated with improved metabolic activity and reduced cytotoxicity in AMD cybrids, with minimal effects in normal cybrids.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41827105"
+        ],
+        "source_excerpt": "HNF 14 treatment was associated with improved metabolic activity and reduced cytotoxicity in AMD cybrids, with minimal effects in normal cybrids.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Nashine 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "HNF 14 treatment was associated with improved metabolic activity and reduced cytotoxicity in AMD cybrids, with minimal effects in normal cybrids."
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: Serum humanin concentrations were significantly elevated in breast cancer patients compared with healthy controls (p Conclusion These findings suggest that humanin could serve as a promising biomarker for breast cancer screening and early detection.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41518474"
+        ],
+        "source_excerpt": "Serum humanin concentrations were significantly elevated in breast cancer patients compared with healthy controls (p Conclusion These findings suggest that humanin could serve as a promising biomarker for breast cancer screening and early detection.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mohamed 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Serum humanin concentrations were significantly elevated in breast cancer patients compared with healthy controls (p Conclusion These findings suggest that humanin could serve as a promising biomarker for breast cancer…"
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: Humanin-like 3 levels did not correlate with demographic and clinical variables of MS and NMOSD.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41777515"
+        ],
+        "source_excerpt": "Humanin-like 3 levels did not correlate with demographic and clinical variables of MS and NMOSD.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Küçükali 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "6 ng",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Humanin-like 3 levels did not correlate with demographic and clinical variables of MS and NMOSD."
+        }
+      },
+      {
+        "value": "Human study, humans, 2025: HN and MOTS-c transcript levels differed significantly among study groups, whereas plasma protein concentrations did not discriminate between AD and MCI.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41303353"
+        ],
+        "source_excerpt": "HN and MOTS-c transcript levels differed significantly among study groups, whereas plasma protein concentrations did not discriminate between AD and MCI.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Rodríguez-Esparragón 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "HN and MOTS-c transcript levels differed significantly among study groups, whereas plasma protein concentrations did not discriminate between AD and MCI."
+        }
+      },
+      {
+        "value": "Human study, humans, 2025: Results showed significant downregulation of Humanin and GAS5 in both PL and PCa compared to BPH, supporting their role in early disease transition.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40768089"
+        ],
+        "source_excerpt": "Results showed significant downregulation of Humanin and GAS5 in both PL and PCa compared to BPH, supporting their role in early disease transition.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Coradduzza 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Results showed significant downregulation of Humanin and GAS5 in both PL and PCa compared to BPH, supporting their role in early disease transition."
+        }
+      },
+      {
+        "value": "Human study, humans, n=40, 2023: Serum humanin levels were significantly decreased in children with IBD compared to healthy controls.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-38322155"
+        ],
+        "source_excerpt": "Serum humanin levels were significantly decreased in children with IBD compared to healthy controls.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhao 2023",
+          "year": "2023",
+          "design": "Human study",
+          "n": 40,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Serum humanin levels were significantly decreased in children with IBD compared to healthy controls."
+        }
+      },
+      {
+        "value": "Animal study, rats, n=48, 2026: Glutathione level and superoxide dismutase activity, which were diminished in the I/R group, were significantly restored following HNG administration.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42672739"
+        ],
+        "source_excerpt": "Glutathione level and superoxide dismutase activity, which were diminished in the I/R group, were significantly restored following HNG administration.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Abueid 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 48,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Glutathione level and superoxide dismutase activity, which were diminished in the I/R group, were significantly restored following HNG administration."
+        }
+      },
+      {
+        "value": "Animal study, rats, n=10, 2026: Humanin co-administration significantly reversed these adverse effects, restoring ejaculatory frequency, copulatory efficiency, sperm parameters, and hormonal balance.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42480246"
+        ],
+        "source_excerpt": "Humanin co-administration significantly reversed these adverse effects, restoring ejaculatory frequency, copulatory efficiency, sperm parameters, and hormonal balance.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Köm 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 10,
+          "species": "Rats",
+          "dose": "1 mg/kg/day",
+          "route": "oral, subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Humanin co-administration significantly reversed these adverse effects, restoring ejaculatory frequency, copulatory efficiency, sperm parameters, and hormonal balance."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: The results showed that high dose HNG at 4 weeks after first injection (WAFI) was associated with the largest change in gene expression in the RPE and retina of treated animals, altering expression of genes involved in apoptosis, oxidative stress, inflammation and retinal/RPE function.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42471450"
+        ],
+        "source_excerpt": "The results showed that high dose HNG at 4 weeks after first injection (WAFI) was associated with the largest change in gene expression in the RPE and retina of treated animals, altering expression of genes involved in apoptosis, oxidative stress, inflammation and retinal/RPE function.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lin 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "4 weeks",
+          "outcome": "The results showed that high dose HNG at 4 weeks after first injection (WAFI) was associated with the largest change in gene expression in the RPE and retina of treated animals, altering expression of genes involved in…"
+        }
+      },
+      {
+        "value": "Animal study, 2026: We investigated the protective role of Humanin (HN), a mitochondria-derived peptide with known neuroprotective effects in Aβ-related neurodegenerative diseases, in retinal pathology induced by subretinal injection of FITC-labeled Aβ.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42333946"
+        ],
+        "source_excerpt": "We investigated the protective role of Humanin (HN), a mitochondria-derived peptide with known neuroprotective effects in Aβ-related neurodegenerative diseases, in retinal pathology induced by subretinal injection of FITC-labeled Aβ.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Jang 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, mice, n=10, 2026: Humanin treatment significantly increased TAS and GSH levels while reducing TOS levels compared to the STZ group (P < 0.05).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42438323"
+        ],
+        "source_excerpt": "Humanin treatment significantly increased TAS and GSH levels while reducing TOS levels compared to the STZ group (P < 0.05).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hekim 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 10,
+          "species": "Mice",
+          "dose": "4 mg/kg",
+          "route": "intraperitoneal",
+          "duration": "15 days",
+          "outcome": "Humanin treatment significantly increased TAS and GSH levels while reducing TOS levels compared to the STZ group (P < 0.05)."
+        }
+      },
+      {
+        "value": "Animal study, mice, n=10, 2026: STZ-induced diabetes significantly increased oxidative stress markers, pro-inflammatory cytokines, and apoptotic activity while reducing antioxidant defenses and anti-inflammatory cytokines compared with controls.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42450608"
+        ],
+        "source_excerpt": "STZ-induced diabetes significantly increased oxidative stress markers, pro-inflammatory cytokines, and apoptotic activity while reducing antioxidant defenses and anti-inflammatory cytokines compared with controls.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bulut 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 10,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "STZ-induced diabetes significantly increased oxidative stress markers, pro-inflammatory cytokines, and apoptotic activity while reducing antioxidant defenses and anti-inflammatory cytokines compared with controls."
+        }
+      },
+      {
+        "value": "Animal study, cattle, 2026: Humanin levels in seminal plasma were significantly higher (p < 0.05) in normozoospermic individuals than in other groups.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42223320"
+        ],
+        "source_excerpt": "Humanin levels in seminal plasma were significantly higher (p < 0.05) in normozoospermic individuals than in other groups.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gemeda 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Cattle",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Humanin levels in seminal plasma were significantly higher (p < 0.05) in normozoospermic individuals than in other groups."
+        }
+      },
+      {
+        "value": "Animal study, mice, n=10, 2026: STZ-induced diabetes markedly disrupted metabolic hormone balance, as indicated by decreased leptin and irisin levels and increased asprosin concentrations.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42346352"
+        ],
+        "source_excerpt": "STZ-induced diabetes markedly disrupted metabolic hormone balance, as indicated by decreased leptin and irisin levels and increased asprosin concentrations.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bulut 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 10,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "STZ-induced diabetes markedly disrupted metabolic hormone balance, as indicated by decreased leptin and irisin levels and increased asprosin concentrations."
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -46,15 +798,45 @@
       "review": 0,
       "unclassified": 2
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 46,
+      "claims": 27,
+      "evidence_table_rows": 25
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports dose-escalation schedules for Humanin.",
+    "No study in this record's ledger reports exclusion criteria for Humanin.",
+    "No study in this record's ledger reports onset or duration of effects for Humanin.",
+    "No study in this record's ledger reports storage or stability for Humanin."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Humanin been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 3 clinical trials and 5 randomized controlled trials naming Humanin or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Humanin?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Humanin an approved medicine?",
+      "answer": "No ChEMBL record matches Humanin or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has Humanin been studied in?",
+      "answer": "Studies in this record's ledger report work in: Cattle, Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42672739",
@@ -387,7 +1169,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 79.7,
   "review": {
     "author": "",
     "reviewer": "",
@@ -398,6 +1180,14 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 46 ledger sources by scripts/draft_claims.py: 33 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 46 ledger sources by scripts/draft_claims.py: 27 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

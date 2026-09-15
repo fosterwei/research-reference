@@ -10,30 +10,709 @@
     "Tesofensine"
   ],
   "slug": "tesofensine",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for Tesofensine. Europe PMC indexes 63 publications, including 12 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Tesofensine is a small molecule in the metabolic other class (triple monoamine reuptake inhibitor). Europe PMC indexes 63 publications naming it or a listed alias in a title or abstract, including 12 randomized controlled trials and 7 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Tesofensine: what the research shows",
-    "description": "Cited overview of published Tesofensine research: 63 indexed publications, 12 randomized controlled trials. Evidence tier on every claim."
+    "description": "Tesofensine research, cited: 63 indexed publications, 12 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, 2009: administration by intravenous route reported. The aim of this analysis was to accomplish a model that is able to describe typical plasma concentration-time profiles of compounds undergoing EHC using data from intravenous studies of tesofensine and meloxicam.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19705923"
+        ],
+        "source_excerpt": "The aim of this analysis was to accomplish a model that is able to describe typical plasma concentration-time profiles of compounds undergoing EHC using data from intravenous studies of tesofensine and meloxicam.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=320, 2007: administration by oral route reported. Plasma data from 320 subjects undergoing multiple oral dosing, and consisting of 1969 NS2330 and 1714 metabolite concentrations were fitted simultaneously using NONMEM.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17324246"
+        ],
+        "source_excerpt": "Plasma data from 320 subjects undergoing multiple oral dosing, and consisting of 1969 NS2330 and 1714 metabolite concentrations were fitted simultaneously using NONMEM.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=28, 2010: administration by oral route reported. Overall, 28 subjects received a single oral dose of tesofensine 2 mg; 14 of these subjects were coadministered an oral itraconazole 400 mg loading dose and a 200 mg maintenance dose for 6 days before and 5 days after administration of tesofensine.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-20000889"
+        ],
+        "source_excerpt": "Overall, 28 subjects received a single oral dose of tesofensine 2 mg; 14 of these subjects were coadministered an oral itraconazole 400 mg loading dose and a 200 mg maintenance dose for 6 days before and 5 days after administration of tesofensine.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2010: administration by subcutaneous route reported. DIO rats treated with tesofensine (2.0 mg/kg, s.c.) for 16 days showed significantly lower body weights than vehicle-treated DIO rats, being reflected by a marked hypophagic response.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-20200509"
+        ],
+        "source_excerpt": "DIO rats treated with tesofensine (2.0 mg/kg, s.c.) for 16 days showed significantly lower body weights than vehicle-treated DIO rats, being reflected by a marked hypophagic response.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Randomized controlled trial, humans, 2022: doses stated in the abstract: 0.5 mg. To investigate the safety and efficacy of Tesomet (0.5 mg tesofensine/50 mg metoprolol) in adults with hypothalamic obesity.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35294397"
+        ],
+        "source_excerpt": "To investigate the safety and efficacy of Tesomet (0.5 mg tesofensine/50 mg metoprolol) in adults with hypothalamic obesity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2009: doses stated in the abstract: 0.5 mg. Tesofensine 0.5 mg might have the potential to produce a weight loss twice that of currently approved anti-obesity drugs.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19824222"
+        ],
+        "source_excerpt": "Tesofensine 0.5 mg might have the potential to produce a weight loss twice that of currently approved anti-obesity drugs.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2009: doses stated in the abstract: 1.2 mg. Twenty-one healthy subjects received a single 6-hour infusion of tesofensine (0.3, 0.6, 0.9, 1.2 mg) in a double-blind, randomized, placebo-controlled, single rising-dose study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19705923"
+        ],
+        "source_excerpt": "Twenty-one healthy subjects received a single 6-hour infusion of tesofensine (0.3, 0.6, 0.9, 1.2 mg) in a double-blind, randomized, placebo-controlled, single rising-dose study.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2008: doses stated in the abstract: 0.25 mg; 0.5 mg. Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively, greater than diet and placebo (p Interpretation Our results suggest that tesofensine 0.5 mg might have the…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18950853"
+        ],
+        "source_excerpt": "Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively, greater than diet and placebo (p Interpretation Our results suggest that tesofensine 0.5 mg might have the potential to produce a weight loss twice that of currently approved drugs.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2008: doses stated in the abstract: 0.5 mg; 0.25 mg. The adjusted mean differences (relative to placebo) were -4.7 points in UPDRS subscale II plus subscale III total score (P =.005) with tesofensine, 0.5 mg, and -7.1% in off time (-68 minutes, P =.02) with tesofensine, 0.25 mg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18474731"
+        ],
+        "source_excerpt": "The adjusted mean differences (relative to placebo) were -4.7 points in UPDRS subscale II plus subscale III total score (P =.005) with tesofensine, 0.5 mg, and -7.1% in off time (-68 minutes, P =.02) with tesofensine, 0.25 mg.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2007: doses stated in the abstract: 0.25 mg; 0.5 mg; 1.0 mg. Two hundred sixty-one subjects with PD < 5 years and not receiving dopaminergic treatment were randomly assigned to daily treatment with NS 2330 at 0.25 mg, 0.5 mg, 1.0 mg, or placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17149725"
+        ],
+        "source_excerpt": "Two hundred sixty-one subjects with PD < 5 years and not receiving dopaminergic treatment were randomly assigned to daily treatment with NS 2330 at 0.25 mg, 0.5 mg, 1.0 mg, or placebo.",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
-    "interactions": [],
+    "interactions": [
+      {
+        "value": "Randomized controlled trial, humans, n=320, 2007: Low apparent clearances together with large apparent volumes of distribution resulted in long half-lives of 234 h (NS2330) and 374 h (M1).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17324246"
+        ],
+        "source_excerpt": "Low apparent clearances together with large apparent volumes of distribution resulted in long half-lives of 234 h (NS2330) and 374 h (M1).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2004: Moreover, NS 2330 coadministration did not appear to alter dyskinesia severity or the duration of the antiparkinsonian response to levodopa.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-15390018"
+        ],
+        "source_excerpt": "Moreover, NS 2330 coadministration did not appear to alter dyskinesia severity or the duration of the antiparkinsonian response to levodopa.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=28, 2010: Overall, 28 subjects received a single oral dose of tesofensine 2 mg; 14 of these subjects were coadministered an oral itraconazole 400 mg loading dose and a 200 mg maintenance dose for 6 days before and 5 days after administration of tesofensine.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-20000889"
+        ],
+        "source_excerpt": "Overall, 28 subjects received a single oral dose of tesofensine 2 mg; 14 of these subjects were coadministered an oral itraconazole 400 mg loading dose and a 200 mg maintenance dose for 6 days before and 5 days after administration of tesofensine.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2010: Using an automatized food intake monitoring system during a 12 h nocturnal test period, tesofensine-induced hypophagia was investigated further by studying the acute interaction of a variety of monoamine receptor antagonists with tesofensine-induced hypophagia in the DIO rat.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-20200509"
+        ],
+        "source_excerpt": "Using an automatized food intake monitoring system during a 12 h nocturnal test period, tesofensine-induced hypophagia was investigated further by studying the acute interaction of a variety of monoamine receptor antagonists with tesofensine-induced hypophagia in the DIO rat.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=228, 2008: Concentrations of tesofensine and M1 were measured; inhibition of the dopamine transporter was determined by co-administration of [(3)H]WIN35,428 as the pharmacodynamic measure.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17982477"
+        ],
+        "source_excerpt": "Concentrations of tesofensine and M1 were measured; inhibition of the dopamine transporter was determined by co-administration of [(3)H]WIN35,428 as the pharmacodynamic measure.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
+    "adverse_events": [
+      {
+        "value": "Randomized controlled trial, humans, 2008: Gastrointestinal tract and neuropsychiatric adverse events were more frequent with tesofensine than with placebo, especially at the higher dosages.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18474731"
+        ],
+        "source_excerpt": "Gastrointestinal tract and neuropsychiatric adverse events were more frequent with tesofensine than with placebo, especially at the higher dosages.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2007: NS 2330 was generally well tolerated and the most commonly reported adverse events were constipation, insomnia, and dry mouth.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17149725"
+        ],
+        "source_excerpt": "NS 2330 was generally well tolerated and the most commonly reported adverse events were constipation, insomnia, and dry mouth.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Clinical trial, humans, 2011: This paper reviews the efficacy and safety of pharmacotherapies for obesity focusing on drugs approved for long-term therapy (orlistat), drugs approved for short-term use (amfepramone [diethylpropion], phentermine), recently withdrawn therapies (rimonabant, sibutamine) and drugs evaluated in Phase III…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-21197148"
+        ],
+        "source_excerpt": "This paper reviews the efficacy and safety of pharmacotherapies for obesity focusing on drugs approved for long-term therapy (orlistat), drugs approved for short-term use (amfepramone [diethylpropion], phentermine), recently withdrawn therapies (rimonabant, sibutamine) and drugs evaluated in Phase III studies (taranabant, pramlintide, lorcaserin and tesofensine and combination therapies of topiramate plus phentermine, bupropion plus naltrexone, and bupropion plus zonisamide).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2009: The aim of this analysis was to accomplish a model that is able to describe typical plasma concentration-time profiles of compounds undergoing EHC using data from intravenous studies of tesofensine and meloxicam.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19705923"
+        ],
+        "source_excerpt": "The aim of this analysis was to accomplish a model that is able to describe typical plasma concentration-time profiles of compounds undergoing EHC using data from intravenous studies of tesofensine and meloxicam.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2008: Gastrointestinal tract and neuropsychiatric adverse events were more frequent with tesofensine than with placebo, especially at the higher dosages.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18474731"
+        ],
+        "source_excerpt": "Gastrointestinal tract and neuropsychiatric adverse events were more frequent with tesofensine than with placebo, especially at the higher dosages.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=320, 2007: Plasma concentration-time profiles of NS2330 and M1 were best described by one-compartment models with first-order elimination for both compounds.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17324246"
+        ],
+        "source_excerpt": "Plasma concentration-time profiles of NS2330 and M1 were best described by one-compartment models with first-order elimination for both compounds.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2004: Moreover, NS 2330 coadministration did not appear to alter dyskinesia severity or the duration of the antiparkinsonian response to levodopa.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-15390018"
+        ],
+        "source_excerpt": "Moreover, NS 2330 coadministration did not appear to alter dyskinesia severity or the duration of the antiparkinsonian response to levodopa.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2026: Due to its impact on body weight, tesofensine could be relevant in competitive sports, particularly in weight-class disciplines and sports where power-to-weight ratio is decisive.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42320973"
+        ],
+        "source_excerpt": "Due to its impact on body weight, tesofensine could be relevant in competitive sports, particularly in weight-class disciplines and sports where power-to-weight ratio is decisive.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Human study, humans, n=28, 2010: To accomplish a semi-mechanistic DDI model for a long-elimination-half-life drug substrate, tesofensine, and the cytochrome P450 (CYP) 3A4 inhibitor itraconazole, and to compare the results of the semi-mechanistic model with the results obtained from the standard NCA approach.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-20000889"
+        ],
+        "source_excerpt": "To accomplish a semi-mechanistic DDI model for a long-elimination-half-life drug substrate, tesofensine, and the cytochrome P450 (CYP) 3A4 inhibitor itraconazole, and to compare the results of the semi-mechanistic model with the results obtained from the standard NCA approach.",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [
+      {
+        "value": "In vitro study, humans, 2025: Tesofensine and dasotraline stabilize DAT in an outward-facing conformation, while centanafadine, ansofaxine, and nefazodone capture the inward-facing conformation.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41392177"
+        ],
+        "source_excerpt": "Tesofensine and dasotraline stabilize DAT in an outward-facing conformation, while centanafadine, ansofaxine, and nefazodone capture the inward-facing conformation.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Clinical trial, humans, 2011: durations stated: 12 months. Of the Phase III pharmacotherapies, lorcaserin, taranabant, topiramate and bupropion with naltrexone have demonstrated significant weight loss compared to placebo at ≥12 months.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-21197148"
+        ],
+        "source_excerpt": "Of the Phase III pharmacotherapies, lorcaserin, taranabant, topiramate and bupropion with naltrexone have demonstrated significant weight loss compared to placebo at ≥12 months.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2009: durations stated: 24 weeks. In total 203 obese persons were randomised to treatment with Tesofensine 0.25, 0.5, or 1.0 mg, or placebo daily for 24 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19824222"
+        ],
+        "source_excerpt": "In total 203 obese persons were randomised to treatment with Tesofensine 0.25, 0.5, or 1.0 mg, or placebo daily for 24 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2008: durations stated: 6 months. Weight-loss drugs produce an additional mean weight loss of only 3-5 kg above that of diet and placebo over 6 months, and more effective pharmacotherapy of obesity is needed.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18950853"
+        ],
+        "source_excerpt": "Weight-loss drugs produce an additional mean weight loss of only 3-5 kg above that of diet and placebo over 6 months, and more effective pharmacotherapy of obesity is needed.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2008: durations stated: 14 weeks. Tesofensine (0.125, 0.25, 0.5, or 1 mg) or placebo tablets were administered once daily for 14 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18474731"
+        ],
+        "source_excerpt": "Tesofensine (0.125, 0.25, 0.5, or 1 mg) or placebo tablets were administered once daily for 14 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2007: durations stated: 5 years. Two hundred sixty-one subjects with PD < 5 years and not receiving dopaminergic treatment were randomly assigned to daily treatment with NS 2330 at 0.25 mg, 0.5 mg, 1.0 mg, or placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17149725"
+        ],
+        "source_excerpt": "Two hundred sixty-one subjects with PD < 5 years and not receiving dopaminergic treatment were randomly assigned to daily treatment with NS 2330 at 0.25 mg, 0.5 mg, 1.0 mg, or placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=28, 2010: durations stated: 6 days; 5 days. Overall, 28 subjects received a single oral dose of tesofensine 2 mg; 14 of these subjects were coadministered an oral itraconazole 400 mg loading dose and a 200 mg maintenance dose for 6 days before and 5 days after administration of tesofensine.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-20000889"
+        ],
+        "source_excerpt": "Overall, 28 subjects received a single oral dose of tesofensine 2 mg; 14 of these subjects were coadministered an oral itraconazole 400 mg loading dose and a 200 mg maintenance dose for 6 days before and 5 days after administration of tesofensine.",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Animal study, rats, 2010: weight-normalized doses as published: 2.0 mg/kg; 0.5-3.0 mg/kg; 1.5 mg/kg; 0.3 mg/kg. DIO rats treated with tesofensine (2.0 mg/kg, s.c.) for 16 days showed significantly lower body weights than vehicle-treated DIO rats, being reflected by a marked hypophagic response.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-20200509"
+        ],
+        "source_excerpt": "DIO rats treated with tesofensine (2.0 mg/kg, s.c.) for 16 days showed significantly lower body weights than vehicle-treated DIO rats, being reflected by a marked hypophagic response.",
+        "drafting": "extractive"
+      }
+    ],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL3989690: maximum clinical phase 2. Jurisdiction-level status pending human review.",
         "evidence_label": "human-clinical-trial",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, 2022: No significant differences in heart rate or blood pressure were observed between groups.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35294397"
+        ],
+        "source_excerpt": "No significant differences in heart rate or blood pressure were observed between groups.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Huynh 2022",
+          "year": "2022",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "0.5 mg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "No significant differences in heart rate or blood pressure were observed between groups."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2011: Meta-analyses support a significant though modest loss in bodyweight with a mean weight difference of 4.7 kg (95% CI 4.1 to 5.3 kg) for rimonabant, 4.2 kg (95% CI 3.6 to 4.8 kg) for sibutramine and 2.9 kg (95% CI 2.5 to 3.2 kg) for orlistat compared to placebo at ≥12 months.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-21197148"
+        ],
+        "source_excerpt": "Meta-analyses support a significant though modest loss in bodyweight with a mean weight difference of 4.7 kg (95% CI 4.1 to 5.3 kg) for rimonabant, 4.2 kg (95% CI 3.6 to 4.8 kg) for sibutramine and 2.9 kg (95% CI 2.5 to 3.2 kg) for orlistat compared to placebo at ≥12 months.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ioannides-Demos 2011",
+          "year": "2011",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "12 months",
+          "outcome": "Meta-analyses support a significant though modest loss in bodyweight with a mean weight difference of 4.7 kg (95% CI 4.1 to 5.3 kg) for rimonabant, 4.2 kg (95% CI 3.6 to 4.8 kg) for sibutramine and 2.9 kg (95% CI 2.5…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2010: The aim of this analysis was to exemplify the QP-A by eventually predicting the clinical outcome of a proof-of-concept (PoC) trial of tesofensine in AD patients from two small phase IIa trials.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-20077053"
+        ],
+        "source_excerpt": "The aim of this analysis was to exemplify the QP-A by eventually predicting the clinical outcome of a proof-of-concept (PoC) trial of tesofensine in AD patients from two small phase IIa trials.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lehr 2010",
+          "year": "2010",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2009: Treatment with Tesofensine resulted in a mean weight reduction of 4.5, 9.2 and 10.6% higher than that of placebo for 0.25, 0.5 and 1.0 mg, respectively.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19824222"
+        ],
+        "source_excerpt": "Treatment with Tesofensine resulted in a mean weight reduction of 4.5, 9.2 and 10.6% higher than that of placebo for 0.25, 0.5 and 1.0 mg, respectively.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Nielsen 2009",
+          "year": "2009",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "0.5 mg",
+          "route": "not stated in abstract",
+          "duration": "24 weeks",
+          "outcome": "Treatment with Tesofensine resulted in a mean weight reduction of 4.5, 9.2 and 10.6% higher than that of placebo for 0.25, 0.5 and 1.0 mg, respectively."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2009: Coadministration of cholestyramine resulted in a predicted 56% withdrawal of meloxicam from the EHC process causing a reduction in the t((1/2)) from approximately 19 hours to approximately 12 hours.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19705923"
+        ],
+        "source_excerpt": "Coadministration of cholestyramine resulted in a predicted 56% withdrawal of meloxicam from the EHC process causing a reduction in the t((1/2)) from approximately 19 hours to approximately 12 hours.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lehr 2009",
+          "year": "2009",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "1.2 mg",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "Coadministration of cholestyramine resulted in a predicted 56% withdrawal of meloxicam from the EHC process causing a reduction in the t((1/2)) from approximately 19 hours to approximately 12 hours."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2008: Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively, greater than diet and placebo (p Interpretation Our results suggest that tesofensine 0.5 mg might have the potential to produce a weight loss twice that of…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18950853"
+        ],
+        "source_excerpt": "Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively, greater than diet and placebo (p Interpretation Our results suggest that tesofensine 0.5 mg might have the potential to produce a weight loss twice that of currently approved drugs.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Astrup 2008",
+          "year": "2008",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "0.25 mg; 0.5 mg",
+          "route": "not stated in abstract",
+          "duration": "6 months",
+          "outcome": "Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively, greater than diet and placebo (p Interpretation Our results suggest that…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2008: Gastrointestinal tract and neuropsychiatric adverse events were more frequent with tesofensine than with placebo, especially at the higher dosages.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18474731"
+        ],
+        "source_excerpt": "Gastrointestinal tract and neuropsychiatric adverse events were more frequent with tesofensine than with placebo, especially at the higher dosages.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Rascol 2008",
+          "year": "2008",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "0.5 mg; 0.25 mg",
+          "route": "not stated in abstract",
+          "duration": "14 weeks",
+          "outcome": "Gastrointestinal tract and neuropsychiatric adverse events were more frequent with tesofensine than with placebo, especially at the higher dosages."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=320, 2007: However, simulations performed revealed that only CL(CR) and sex had a significant effect on the steady-state plasma concentration-time profiles.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17324246"
+        ],
+        "source_excerpt": "However, simulations performed revealed that only CL(CR) and sex had a significant effect on the steady-state plasma concentration-time profiles.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lehr 2007",
+          "year": "2007",
+          "design": "Randomized controlled trial",
+          "n": 320,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "oral",
+          "duration": "not stated in abstract",
+          "outcome": "However, simulations performed revealed that only CL(CR) and sex had a significant effect on the steady-state plasma concentration-time profiles."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2007: At the dosages tested, NS 2330 did not provide significantly greater benefit than placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17149725"
+        ],
+        "source_excerpt": "At the dosages tested, NS 2330 did not provide significantly greater benefit than placebo.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hauser 2007",
+          "year": "2007",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "0.25 mg; 0.5 mg",
+          "route": "not stated in abstract",
+          "duration": "5 years",
+          "outcome": "At the dosages tested, NS 2330 did not provide significantly greater benefit than placebo."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2004: Moreover, NS 2330 coadministration did not appear to alter dyskinesia severity or the duration of the antiparkinsonian response to levodopa.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-15390018"
+        ],
+        "source_excerpt": "Moreover, NS 2330 coadministration did not appear to alter dyskinesia severity or the duration of the antiparkinsonian response to levodopa.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Bara-Jimenez 2004",
+          "year": "2004",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Moreover, NS 2330 coadministration did not appear to alter dyskinesia severity or the duration of the antiparkinsonian response to levodopa."
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: Tesofensine (NS-2330) is a pharmacologically active compound with weight-reducing effects in obese patients.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42320973"
+        ],
+        "source_excerpt": "Tesofensine (NS-2330) is a pharmacologically active compound with weight-reducing effects in obese patients.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Krug 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "483 μg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Tesofensine (NS-2330) is a pharmacologically active compound with weight-reducing effects in obese patients."
+        }
+      },
+      {
+        "value": "Human study, humans, 2013: Sibutramine was associated with an increase in major adverse cardiovascular events in the Sibutramine Cardiovascular Outcomes (SCOUT) trial and it was withdrawn from the market in 2010.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-25114779"
+        ],
+        "source_excerpt": "Sibutramine was associated with an increase in major adverse cardiovascular events in the Sibutramine Cardiovascular Outcomes (SCOUT) trial and it was withdrawn from the market in 2010.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Cheung 2013",
+          "year": "2013",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Sibutramine was associated with an increase in major adverse cardiovascular events in the Sibutramine Cardiovascular Outcomes (SCOUT) trial and it was withdrawn from the market in 2010."
+        }
+      },
+      {
+        "value": "Human study, humans, n=28, 2010: Inhibition resulted in reduced clearances and prolonged elimination half-lives for tesofensine and itraconazole: using NCA, the actual study revealed an approximately 9% increase in exposure for the timeframe of the coadministration with itraconazole (the area under the plasma concentration-time curve…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-20000889"
+        ],
+        "source_excerpt": "Inhibition resulted in reduced clearances and prolonged elimination half-lives for tesofensine and itraconazole: using NCA, the actual study revealed an approximately 9% increase in exposure for the timeframe of the coadministration with itraconazole (the area under the plasma concentration-time curve (AUC) from 0 to 144 hours [AUC(144h)]), and the impact on exposure estimated to infinity (AUC(infinity)) was approximately 26%.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lehr 2010",
+          "year": "2010",
+          "design": "Human study",
+          "n": 28,
+          "species": "Humans",
+          "dose": "2 mg",
+          "route": "oral",
+          "duration": "6 days; 5 days",
+          "outcome": "Inhibition resulted in reduced clearances and prolonged elimination half-lives for tesofensine and itraconazole: using NCA, the actual study revealed an approximately 9% increase in exposure for the timeframe of the…"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2025: However, in contrast, female rats demonstrated greater and more homogenous weight loss than males following the administration of diethylpropion and tesofensine.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40554466"
+        ],
+        "source_excerpt": "However, in contrast, female rats demonstrated greater and more homogenous weight loss than males following the administration of diethylpropion and tesofensine.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lopez 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "However, in contrast, female rats demonstrated greater and more homogenous weight loss than males following the administration of diethylpropion and tesofensine."
+        }
+      },
+      {
+        "value": "Animal study, rats, mice, 2024: We found that tesofensine induces a greater weight loss in obese rats than lean rats, while differentially modulating the neuronal ensembles and population activity in LH.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38656972"
+        ],
+        "source_excerpt": "We found that tesofensine induces a greater weight loss in obese rats than lean rats, while differentially modulating the neuronal ensembles and population activity in LH.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Perez 2024",
+          "year": "2024",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats, Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "We found that tesofensine induces a greater weight loss in obese rats than lean rats, while differentially modulating the neuronal ensembles and population activity in LH."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2010: DIO rats treated with tesofensine (2.0 mg/kg, s.c.) for 16 days showed significantly lower body weights than vehicle-treated DIO rats, being reflected by a marked hypophagic response.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-20200509"
+        ],
+        "source_excerpt": "DIO rats treated with tesofensine (2.0 mg/kg, s.c.) for 16 days showed significantly lower body weights than vehicle-treated DIO rats, being reflected by a marked hypophagic response.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Axel 2010",
+          "year": "2010",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "2.0 mg/kg; 0.5-3.0 mg/kg",
+          "route": "subcutaneous",
+          "duration": "16 days",
+          "outcome": "DIO rats treated with tesofensine (2.0 mg/kg, s.c.) for 16 days showed significantly lower body weights than vehicle-treated DIO rats, being reflected by a marked hypophagic response."
+        }
+      },
+      {
+        "value": "Animal study, mice, n=228, 2008: EC(50) values of M1, as an inhibitor of the dopamine transporter, were 4-5-fold higher than those for tesofensine in mice.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17982477"
+        ],
+        "source_excerpt": "EC(50) values of M1, as an inhibitor of the dopamine transporter, were 4-5-fold higher than those for tesofensine in mice.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lehr 2008",
+          "year": "2008",
+          "design": "Animal study",
+          "n": 228,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "EC(50) values of M1, as an inhibitor of the dopamine transporter, were 4-5-fold higher than those for tesofensine in mice."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2007: We find that chronic, but not sub-chronic treatment with Tesofensine increases BDNF mRNA in the CA3 region of the hippocampus (35%), and Arc mRNA in the CA1 of the hippocampus (65%).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17112503"
+        ],
+        "source_excerpt": "We find that chronic, but not sub-chronic treatment with Tesofensine increases BDNF mRNA in the CA3 region of the hippocampus (35%), and Arc mRNA in the CA1 of the hippocampus (65%).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Larsen 2007",
+          "year": "2007",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "5 days; 14 days",
+          "outcome": "We find that chronic, but not sub-chronic treatment with Tesofensine increases BDNF mRNA in the CA3 region of the hippocampus (35%), and Arc mRNA in the CA1 of the hippocampus (65%)."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2025: Tesofensine and dasotraline stabilize DAT in an outward-facing conformation, while centanafadine, ansofaxine, and nefazodone capture the inward-facing conformation.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41392177"
+        ],
+        "source_excerpt": "Tesofensine and dasotraline stabilize DAT in an outward-facing conformation, while centanafadine, ansofaxine, and nefazodone capture the inward-facing conformation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Li 2025",
+          "year": "2025",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
       }
     ]
   },
@@ -72,15 +751,43 @@
         "Tesofensine"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3989690/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 23,
+      "claims": 33,
+      "evidence_table_rows": 19
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports dose-escalation schedules for Tesofensine.",
+    "No study in this record's ledger reports exclusion criteria for Tesofensine."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Tesofensine been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 7 clinical trials and 12 randomized controlled trials naming Tesofensine or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Tesofensine?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Tesofensine an approved medicine?",
+      "answer": "ChEMBL records CHEMBL3989690 at maximum clinical phase 2, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has Tesofensine been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42320973",
@@ -245,7 +952,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 76.5,
   "review": {
     "author": "",
     "reviewer": "",
@@ -260,6 +967,14 @@
     {
       "date": "2026-09-14",
       "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: chembl None -> CHEMBL3989690."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 23 ledger sources by scripts/draft_claims.py: 41 claims, 19 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 23 ledger sources by scripts/draft_claims.py: 32 claims, 19 evidence-table rows. Status researched -> draft."
     }
   ]
 }

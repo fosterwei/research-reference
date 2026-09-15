@@ -1,21 +1,33 @@
 ---
-// Renders one attribute field's claims. The parent must only include this
-// component when the list is non-empty: a heading over nothing is a defect.
+// One attribute field's claims. The parent only includes this when the list is
+// non-empty. An extractive claim is a verbatim source sentence with the study
+// context in front of it; it renders as an attributed quotation, once. Any
+// other claim shows its source passage on demand for the reviewer to check.
 import EvidenceLabel from './EvidenceLabel.astro';
-interface Claim { value: string; evidence_label: string; source_ids: string[] }
+interface Claim { value: string; evidence_label: string; source_ids: string[]; source_excerpt?: string; drafting?: string }
 interface Props { claims: Claim[] }
 const { claims } = Astro.props;
+function split(c: Claim): { lead: string; quote: string | null } {
+  const ex = c.source_excerpt ?? '';
+  if (c.drafting === 'extractive' && ex) {
+    const i = c.value.indexOf(ex.slice(0, 40));
+    if (i > 0) return { lead: c.value.slice(0, i).trim(), quote: ex };
+    if (c.value.endsWith('…')) return { lead: c.value.slice(0, c.value.lastIndexOf(':') + 1).trim(), quote: ex };
+  }
+  return { lead: c.value, quote: null };
+}
 ---
 <ul class="claims">
-  {claims.map((c) => (
+  {claims.map((c) => { const { lead, quote } = split(c); return (
     <li>
-      {c.value}
-      <EvidenceLabel tier={c.evidence_label} />
-      {c.source_ids.length > 0 && (
-        <span class="cite">
-          [{c.source_ids.map((id, i) => <><a href={`#${id}`}>{id}</a>{i < c.source_ids.length - 1 ? ', ' : ''}</>)}]
-        </span>
+      <p class="claim-value">
+        {quote ? <><span class="claim-lead">{lead}</span> <q class="claim-quote">{quote}</q></> : lead}
+        <EvidenceLabel tier={c.evidence_label} />
+        {c.source_ids.length > 0 && <span class="cite">[{c.source_ids.map((id, i) => <><a href={`#${id}`}>{id}</a>{i < c.source_ids.length - 1 ? ', ' : ''}</>)}]</span>}
+      </p>
+      {!quote && c.source_excerpt && (
+        <details class="excerpt"><summary>Source passage</summary><blockquote>{c.source_excerpt}</blockquote></details>
       )}
     </li>
-  ))}
+  ); })}
 </ul>

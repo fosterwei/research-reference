@@ -9,30 +9,767 @@
     "Vyleesi (autoinjector)"
   ],
   "slug": "bremelanotide-pt-141",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "approved-label",
-  "summary": "Research record for Bremelanotide. Europe PMC indexes 127 publications, including 14 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Bremelanotide is a peptide in the melanocortin agonists class (MC4 receptor agonist). Europe PMC indexes 127 publications naming it or a listed alias in a title or abstract, including 14 randomized controlled trials and 9 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is an approved medicine with a regulator-reviewed label. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Bremelanotide: what the research shows",
-    "description": "Cited overview of published Bremelanotide research: 127 indexed publications, 14 randomized controlled trials. Evidence tier on every claim."
+    "description": "Bremelanotide research, cited: 127 indexed publications, 14 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
-    "escalation_schedules": [],
-    "interactions": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, n=1,202, 2022: administration by subcutaneous route reported. Patients self-administered bremelanotide 1.75 mg or placebo subcutaneously using an autoinjector, as needed, before sexual activity for 24 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35230162"
+        ],
+        "source_excerpt": "Patients self-administered bremelanotide 1.75 mg or placebo subcutaneously using an autoinjector, as needed, before sexual activity for 24 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=267, 2019: administration by subcutaneous route reported. Two identical phase 3, randomized, double-blind, placebo-controlled, multicenter clinical trials (RECONNECT) evaluated the safety and efficacy of bremelanotide 1.75 mg administered subcutaneously as needed in premenopausal women with…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31599840"
+        ],
+        "source_excerpt": "Two identical phase 3, randomized, double-blind, placebo-controlled, multicenter clinical trials (RECONNECT) evaluated the safety and efficacy of bremelanotide 1.75 mg administered subcutaneously as needed in premenopausal women with hypoactive sexual desire disorder.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2019: administration by subcutaneous route reported. Clinical implications These responder definitions were subsequently used in the bremelanotide phase 3 registration studies (RECONNECT) that evaluated the safety and efficacy of the bremelanotide 1.75 mg subcutaneous dose in premenopausal women with…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31277966"
+        ],
+        "source_excerpt": "Clinical implications These responder definitions were subsequently used in the bremelanotide phase 3 registration studies (RECONNECT) that evaluated the safety and efficacy of the bremelanotide 1.75 mg subcutaneous dose in premenopausal women with HSDD.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2017: administration by subcutaneous route reported. Bremelanotide is an on-demand, subcutaneous melanocortin-receptor agonist that binds to the melanocortin receptor 4 and is being developed for the treatment of female sexual dysfunction.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27977473"
+        ],
+        "source_excerpt": "Bremelanotide is an on-demand, subcutaneous melanocortin-receptor agonist that binds to the melanocortin receptor 4 and is being developed for the treatment of female sexual dysfunction.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2005: administration by intranasal route reported. Nineteen patients with erectile dysfunction who were responders to either Viagra or Levitra by self-report were given 25 mg sildenafil and 7.5 mg intranasal PT-141, 25 mg sildenafil and an intranasal placebo spray, and a placebo tablet and an…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-15833522"
+        ],
+        "source_excerpt": "Nineteen patients with erectile dysfunction who were responders to either Viagra or Levitra by self-report were given 25 mg sildenafil and 7.5 mg intranasal PT-141, 25 mg sildenafil and an intranasal placebo spray, and a placebo tablet and an intranasal placebo spray in a randomized cross-over design.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2004: administration by subcutaneous route reported. PT-141, a cyclic heptapeptide melanocortin analog, was evaluated following subcutaneous administration to healthy male subjects and to patients with erectile dysfunction (ED) who report an inadequate response to Viagra.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-14999221"
+        ],
+        "source_excerpt": "PT-141, a cyclic heptapeptide melanocortin analog, was evaluated following subcutaneous administration to healthy male subjects and to patients with erectile dysfunction (ED) who report an inadequate response to Viagra.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Randomized controlled trial, humans, n=1,202, 2022: doses stated in the abstract: 1.75 mg. Patients self-administered bremelanotide 1.75 mg or placebo subcutaneously using an autoinjector, as needed, before sexual activity for 24 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35230162"
+        ],
+        "source_excerpt": "Patients self-administered bremelanotide 1.75 mg or placebo subcutaneously using an autoinjector, as needed, before sexual activity for 24 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=267, 2019: doses stated in the abstract: 1.75 mg. Two identical phase 3, randomized, double-blind, placebo-controlled, multicenter clinical trials (RECONNECT) evaluated the safety and efficacy of bremelanotide 1.75 mg administered subcutaneously as needed in premenopausal women with hypoactive…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31599840"
+        ],
+        "source_excerpt": "Two identical phase 3, randomized, double-blind, placebo-controlled, multicenter clinical trials (RECONNECT) evaluated the safety and efficacy of bremelanotide 1.75 mg administered subcutaneously as needed in premenopausal women with hypoactive sexual desire disorder.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2019: doses stated in the abstract: 1.75 mg. Clinical implications These responder definitions were subsequently used in the bremelanotide phase 3 registration studies (RECONNECT) that evaluated the safety and efficacy of the bremelanotide 1.75 mg subcutaneous dose in premenopausal women with HSDD.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31277966"
+        ],
+        "source_excerpt": "Clinical implications These responder definitions were subsequently used in the bremelanotide phase 3 registration studies (RECONNECT) that evaluated the safety and efficacy of the bremelanotide 1.75 mg subcutaneous dose in premenopausal women with HSDD.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2005: doses stated in the abstract: 25 mg. Nineteen patients with erectile dysfunction who were responders to either Viagra or Levitra by self-report were given 25 mg sildenafil and 7.5 mg intranasal PT-141, 25 mg sildenafil and an intranasal placebo spray, and a placebo tablet and an intranasal…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-15833522"
+        ],
+        "source_excerpt": "Nineteen patients with erectile dysfunction who were responders to either Viagra or Levitra by self-report were given 25 mg sildenafil and 7.5 mg intranasal PT-141, 25 mg sildenafil and an intranasal placebo spray, and a placebo tablet and an intranasal placebo spray in a randomized cross-over design.",
+        "drafting": "extractive"
+      }
+    ],
+    "escalation_schedules": [
+      {
+        "value": "Randomized controlled trial, humans, 2019: Althof S, Derogatis LR, Greenberg S, et al. Responder Analyses from a Phase 2b Dose-Ranging Study of Bremelanotide.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31277966"
+        ],
+        "source_excerpt": "Althof S, Derogatis LR, Greenberg S, et al. Responder Analyses from a Phase 2b Dose-Ranging Study of Bremelanotide.",
+        "drafting": "extractive"
+      }
+    ],
+    "interactions": [
+      {
+        "value": "Randomized controlled trial, humans, n=24, 2017: This was a Phase I study to evaluate the safety, tolerability, and hemodynamic and pharmacokinetic effects of bremelanotide (BMT) coadministered with ethanol to healthy male and female participants.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28189361"
+        ],
+        "source_excerpt": "This was a Phase I study to evaluate the safety, tolerability, and hemodynamic and pharmacokinetic effects of bremelanotide (BMT) coadministered with ethanol to healthy male and female participants.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2005: To evaluate the safety and pharmacodynamic effect of co-administration of subtherapeutic doses of PT-141, a cyclic heptapeptide melanocortin analogue, and sildenafil to patients with erectile dysfunction.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-15833522"
+        ],
+        "source_excerpt": "To evaluate the safety and pharmacodynamic effect of co-administration of subtherapeutic doses of PT-141, a cyclic heptapeptide melanocortin analogue, and sildenafil to patients with erectile dysfunction.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2025: The results of this study are discussed in conjunction with similar studies in rats, with the conclusion that bremelanotide does not act on the VTA-NAc reward circuit and does not enhance the rewarding effects of sexual interactions.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39793696"
+        ],
+        "source_excerpt": "The results of this study are discussed in conjunction with similar studies in rats, with the conclusion that bremelanotide does not act on the VTA-NAc reward circuit and does not enhance the rewarding effects of sexual interactions.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
+    "adverse_events": [
+      {
+        "value": "Randomized controlled trial, humans, n=1,247, 2022: The most common adverse events (AEs) were nausea (40.0% vs. 1.3%), flushing (20.3% vs. 1.3%), headache (11.3% vs. 1.9%), and injection site reactions (5.4 vs. 0.5), bremelanotide versus placebo groups, respectively, in the integrated double-blind portion of the phase 3 studies ( N =…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35147466"
+        ],
+        "source_excerpt": "The most common adverse events (AEs) were nausea (40.0% vs. 1.3%), flushing (20.3% vs. 1.3%), headache (11.3% vs. 1.9%), and injection site reactions (5.4 vs. 0.5), bremelanotide versus placebo groups, respectively, in the integrated double-blind portion of the phase 3 studies ( N = 1247).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2019: Bremelanotide was safe and well tolerated and demonstrated significant improvement in efficacy vs placebo in the phase 2b trial.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31277966"
+        ],
+        "source_excerpt": "Bremelanotide was safe and well tolerated and demonstrated significant improvement in efficacy vs placebo in the phase 2b trial.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2005: Co-administration of PT-141 and sildenafil was safe and well-tolerated and did not result in new adverse events or adverse events that were increased in frequency or severity compared with monotherapy.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-15833522"
+        ],
+        "source_excerpt": "Co-administration of PT-141 and sildenafil was safe and well-tolerated and did not result in new adverse events or adverse events that were increased in frequency or severity compared with monotherapy.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2004: PT-141 was safe and well tolerated in both studies.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-14999221"
+        ],
+        "source_excerpt": "PT-141 was safe and well tolerated in both studies.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2004: PT-141 was safely administered and well tolerated in both studies.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-14963471"
+        ],
+        "source_excerpt": "PT-141 was safely administered and well tolerated in both studies.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2019: Women who completed the 24-week double-blind core phase of RECONNECT, composed of two parallel phase 3 trials (301 and 302) examining the safety and efficacy of bremelanotide compared with placebo in premenopausal women with hypoactive sexual desire disorder, could enroll in the 52-week open-label extension,…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-31599847"
+        ],
+        "source_excerpt": "Women who completed the 24-week double-blind core phase of RECONNECT, composed of two parallel phase 3 trials (301 and 302) examining the safety and efficacy of bremelanotide compared with placebo in premenopausal women with hypoactive sexual desire disorder, could enroll in the 52-week open-label extension, provided they had not experienced serious adverse events during the core phase.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, n=1,202, 2022: This report investigates efficacy of bremelanotide versus placebo according to prespecified subgroups (age, weight, body mass index [BMI], and bioavailable testosterone) in the RECONNECT studies.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35230162"
+        ],
+        "source_excerpt": "This report investigates efficacy of bremelanotide versus placebo according to prespecified subgroups (age, weight, body mass index [BMI], and bioavailable testosterone) in the RECONNECT studies.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=1,247, 2022: Although not deemed clinically important, bremelanotide should be used with caution in patients at risk of cardiovascular disease, and blood pressure should be well controlled during treatment.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35147466"
+        ],
+        "source_excerpt": "Although not deemed clinically important, bremelanotide should be used with caution in patients at risk of cardiovascular disease, and blood pressure should be well controlled during treatment.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2019: Althof S, Derogatis LR, Greenberg S, et al. Responder Analyses from a Phase 2b Dose-Ranging Study of Bremelanotide.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31277966"
+        ],
+        "source_excerpt": "Althof S, Derogatis LR, Greenberg S, et al. Responder Analyses from a Phase 2b Dose-Ranging Study of Bremelanotide.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2017: We studied the effects of bremelanotide administration on ambulatory BP and heart rate (HR), in a randomized, double-blind, placebo-controlled, and parallel-arm trial of three doses of bremelanotide (0.75, 1.25, and 1.75 mg) in 397 premenopausal women with female sexual dysfunction with…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27977473"
+        ],
+        "source_excerpt": "We studied the effects of bremelanotide administration on ambulatory BP and heart rate (HR), in a randomized, double-blind, placebo-controlled, and parallel-arm trial of three doses of bremelanotide (0.75, 1.25, and 1.75 mg) in 397 premenopausal women with female sexual dysfunction with normotension or controlled hypertension.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=24, 2017: This was a Phase I study to evaluate the safety, tolerability, and hemodynamic and pharmacokinetic effects of bremelanotide (BMT) coadministered with ethanol to healthy male and female participants.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28189361"
+        ],
+        "source_excerpt": "This was a Phase I study to evaluate the safety, tolerability, and hemodynamic and pharmacokinetic effects of bremelanotide (BMT) coadministered with ethanol to healthy male and female participants.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2005: Co-administration of intranasal PT-141 and a phosphodiesterase type 5 inhibitor may constitute a treatment alternative for patients in whom higher doses of a single therapy are not effective or well tolerated.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-15833522"
+        ],
+        "source_excerpt": "Co-administration of intranasal PT-141 and a phosphodiesterase type 5 inhibitor may constitute a treatment alternative for patients in whom higher doses of a single therapy are not effective or well tolerated.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Randomized controlled trial, humans, 2004: In both studies, an erectile response induced by PT-141 administration was statistically significant, compared to placebo, at doses greater than 7 mg, with the onset of the first erection occurring in approximately 30 min.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-14963471"
+        ],
+        "source_excerpt": "In both studies, an erectile response induced by PT-141 administration was statistically significant, compared to placebo, at doses greater than 7 mg, with the onset of the first erection occurring in approximately 30 min.",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [
+      {
+        "value": "Animal study, 2026: The recent clinical success of macrocyclic peptides, such as bremelanotide and setmelanotide, highlights the potential of this modality as a \"Goldilocks\" chemical class, effectively balancing the properties of small molecules and biologics while optimizing their affinity, stability, and pharmacokinetics.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42340853"
+        ],
+        "source_excerpt": "The recent clinical success of macrocyclic peptides, such as bremelanotide and setmelanotide, highlights the potential of this modality as a \"Goldilocks\" chemical class, effectively balancing the properties of small molecules and biologics while optimizing their affinity, stability, and pharmacokinetics.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2026: Bremelanotide (BRM) is a cyclic peptide therapeutic whose intrinsic stability and degradation behavior have not been extensively investigated.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42485063"
+        ],
+        "source_excerpt": "Bremelanotide (BRM) is a cyclic peptide therapeutic whose intrinsic stability and degradation behavior have not been extensively investigated.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, n=1,202, 2022: durations stated: 52 week; 24 weeks. Food and Drug Administration for treatment of acquired generalized HSDD in premenopausal women, were established in the phase 3 RECONNECT studies, two identically designed double-blind randomized placebo-controlled studies with an optional 52-week…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35230162"
+        ],
+        "source_excerpt": "Food and Drug Administration for treatment of acquired generalized HSDD in premenopausal women, were established in the phase 3 RECONNECT studies, two identically designed double-blind randomized placebo-controlled studies with an optional 52-week open-label extension.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=267, 2019: durations stated: 24 weeks. Patients were randomized 1:1 to 24 weeks of treatment with bremelanotide or placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31599840"
+        ],
+        "source_excerpt": "Patients were randomized 1:1 to 24 weeks of treatment with bremelanotide or placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=327, 2016: durations stated: 12 weeks. Patients randomized to receive placebo or BMT 0.75, 1.25 or 1.75 mg self-administered subcutaneously, as desired, over 12 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27181790"
+        ],
+        "source_excerpt": "Patients randomized to receive placebo or BMT 0.75, 1.25 or 1.75 mg self-administered subcutaneously, as desired, over 12 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2019: durations stated: 52 week. During the 52-week open-label extension of RECONNECT, no new safety signals were observed, and premenopausal women treated with bremelanotide exhibited sustained improvements in hypoactive sexual desire disorder symptoms.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-31599847"
+        ],
+        "source_excerpt": "During the 52-week open-label extension of RECONNECT, no new safety signals were observed, and premenopausal women treated with bremelanotide exhibited sustained improvements in hypoactive sexual desire disorder symptoms.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2022: durations stated: 4 day. Study B was a crossover trial with six distinct treatment sequences consisting of three 4-day treatment periods, investigating once-a-day and twice-a-day exposure to bremelanotide versus placebo.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-35170192"
+        ],
+        "source_excerpt": "Study B was a crossover trial with six distinct treatment sequences consisting of three 4-day treatment periods, investigating once-a-day and twice-a-day exposure to bremelanotide versus placebo.",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL4297533: maximum clinical phase 4, first approval 2019. Jurisdiction-level status pending human review.",
         "evidence_label": "approved-label",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, n=1,202, 2022: Among 1202 patients included in the integrated and subgroup analyses, bremelanotide achieved statistically significant improvements in measures of increased desire and decreased distress associated with low desire across all age, weight, and BMI subgroups, and all baseline bioavailable…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35230162"
+        ],
+        "source_excerpt": "Among 1202 patients included in the integrated and subgroup analyses, bremelanotide achieved statistically significant improvements in measures of increased desire and decreased distress associated with low desire across all age, weight, and BMI subgroups, and all baseline bioavailable testosterone quartiles, with few exceptions.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Simon 2022",
+          "year": "2022",
+          "design": "Randomized controlled trial",
+          "n": 1202,
+          "species": "Humans",
+          "dose": "1.75 mg",
+          "route": "subcutaneous",
+          "duration": "52 week; 24 weeks",
+          "outcome": "Among 1202 patients included in the integrated and subgroup analyses, bremelanotide achieved statistically significant improvements in measures of increased desire and decreased distress associated with low desire…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=1,247, 2022: Small and transient but statistically significant blood pressure increases were observed during ambulatory blood pressure monitoring.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35147466"
+        ],
+        "source_excerpt": "Small and transient but statistically significant blood pressure increases were observed during ambulatory blood pressure monitoring.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Clayton 2022",
+          "year": "2022",
+          "design": "Randomized controlled trial",
+          "n": 1247,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Small and transient but statistically significant blood pressure increases were observed during ambulatory blood pressure monitoring."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=325, 2021: Acceptable construct validity was demonstrated by significant correlations with related PRO scales in the expected directions and magnitude.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34559353"
+        ],
+        "source_excerpt": "Acceptable construct validity was demonstrated by significant correlations with related PRO scales in the expected directions and magnitude.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Derogatis 2021",
+          "year": "2021",
+          "design": "Clinical trial",
+          "n": 325,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Acceptable construct validity was demonstrated by significant correlations with related PRO scales in the expected directions and magnitude."
+        }
+      },
+      {
+        "value": "Clinical trial, humans, n=676, 2020: After 6 months, there was a significantly greater improvement for bremelanotide versus placebo in both the monthly and daily recall versions (both P Conclusions The results demonstrated that EDQ exhibited good reliability, validity, and sensitivity to change.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33033885"
+        ],
+        "source_excerpt": "After 6 months, there was a significantly greater improvement for bremelanotide versus placebo in both the monthly and daily recall versions (both P Conclusions The results demonstrated that EDQ exhibited good reliability, validity, and sensitivity to change.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Revicki 2020",
+          "year": "2020",
+          "design": "Clinical trial",
+          "n": 676,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "After 6 months, there was a significantly greater improvement for bremelanotide versus placebo in both the monthly and daily recall versions (both P Conclusions The results demonstrated that EDQ exhibited good…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=267, 2019: From baseline to end-of-study, women taking bremelanotide had statistically significant increases in sexual desire (study 301: 0.30, P Conclusions Both studies demonstrated that bremelanotide significantly improved sexual desire and related distress in premenopausal women with hypoactive…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31599840"
+        ],
+        "source_excerpt": "From baseline to end-of-study, women taking bremelanotide had statistically significant increases in sexual desire (study 301: 0.30, P Conclusions Both studies demonstrated that bremelanotide significantly improved sexual desire and related distress in premenopausal women with hypoactive sexual desire disorder.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kingsberg 2019",
+          "year": "2019",
+          "design": "Randomized controlled trial",
+          "n": 267,
+          "species": "Humans",
+          "dose": "1.75 mg",
+          "route": "subcutaneous",
+          "duration": "24 weeks",
+          "outcome": "From baseline to end-of-study, women taking bremelanotide had statistically significant increases in sexual desire (study 301: 0.30, P Conclusions Both studies demonstrated that bremelanotide significantly improved…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2019: Bremelanotide was safe and well tolerated and demonstrated significant improvement in efficacy vs placebo in the phase 2b trial.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31277966"
+        ],
+        "source_excerpt": "Bremelanotide was safe and well tolerated and demonstrated significant improvement in efficacy vs placebo in the phase 2b trial.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Althof 2019",
+          "year": "2019",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "1.75 mg",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Bremelanotide was safe and well tolerated and demonstrated significant improvement in efficacy vs placebo in the phase 2b trial."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2017: Increases in BP were accompanied by reductions in HR during the 0-4-h interval for the 1.75-mg dose (-4.6 to -4.7 bpm; P Conclusion These data show that ambulatory monitoring was a useful methodology to detect small, transient increases in ambulatory BP accompanied by reductions in HR following…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27977473"
+        ],
+        "source_excerpt": "Increases in BP were accompanied by reductions in HR during the 0-4-h interval for the 1.75-mg dose (-4.6 to -4.7 bpm; P Conclusion These data show that ambulatory monitoring was a useful methodology to detect small, transient increases in ambulatory BP accompanied by reductions in HR following bremelanotide.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "White 2017",
+          "year": "2017",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "Increases in BP were accompanied by reductions in HR during the 0-4-h interval for the 1.75-mg dose (-4.6 to -4.7 bpm; P Conclusion These data show that ambulatory monitoring was a useful methodology to detect small,…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=24, 2017: No clinically significant pharmacokinetic interactions were found between ethanol and BMT either overall or by sex.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28189361"
+        ],
+        "source_excerpt": "No clinically significant pharmacokinetic interactions were found between ethanol and BMT either overall or by sex.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Clayton 2017",
+          "year": "2017",
+          "design": "Randomized controlled trial",
+          "n": 24,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "No clinically significant pharmacokinetic interactions were found between ethanol and BMT either overall or by sex."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=327, 2016: Evaluate efficacy/safety of bremelanotide (BMT), a melanocortin-receptor-4 agonist, to treat female sexual dysfunctions in premenopausal women.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27181790"
+        ],
+        "source_excerpt": "Evaluate efficacy/safety of bremelanotide (BMT), a melanocortin-receptor-4 agonist, to treat female sexual dysfunctions in premenopausal women.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Clayton 2016",
+          "year": "2016",
+          "design": "Randomized controlled trial",
+          "n": 327,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "12 weeks",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2005: The erectile response induced by co-administration of PT-141 and sildenafil was significantly greater than the response elicited by administration of sildenafil alone.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-15833522"
+        ],
+        "source_excerpt": "The erectile response induced by co-administration of PT-141 and sildenafil was significantly greater than the response elicited by administration of sildenafil alone.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Diamond 2005",
+          "year": "2005",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "25 mg",
+          "route": "intranasal",
+          "duration": "not stated in abstract",
+          "outcome": "The erectile response induced by co-administration of PT-141 and sildenafil was significantly greater than the response elicited by administration of sildenafil alone."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2004: The erectile response induced by PT-141 was statistically significant at both doses.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-14999221"
+        ],
+        "source_excerpt": "The erectile response induced by PT-141 was statistically significant at both doses.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Rosen 2004",
+          "year": "2004",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "The erectile response induced by PT-141 was statistically significant at both doses."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2004: In both studies, an erectile response induced by PT-141 administration was statistically significant, compared to placebo, at doses greater than 7 mg, with the onset of the first erection occurring in approximately 30 min.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-14963471"
+        ],
+        "source_excerpt": "In both studies, an erectile response induced by PT-141 administration was statistically significant, compared to placebo, at doses greater than 7 mg, with the onset of the first erection occurring in approximately 30 min.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Diamond 2004",
+          "year": "2004",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intranasal",
+          "duration": "not stated in abstract",
+          "outcome": "In both studies, an erectile response induced by PT-141 administration was statistically significant, compared to placebo, at doses greater than 7 mg, with the onset of the first erection occurring in approximately 30…"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2003: Administration of PT-141 to normal men and to patients with erectile dysfunction resulted in a rapid dose-dependent increase in erectile activity.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-12851303"
+        ],
+        "source_excerpt": "Administration of PT-141 to normal men and to patients with erectile dysfunction resulted in a rapid dose-dependent increase in erectile activity.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Molinoff 2003",
+          "year": "2003",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Administration of PT-141 to normal men and to patients with erectile dysfunction resulted in a rapid dose-dependent increase in erectile activity."
+        }
+      },
+      {
+        "value": "Human study, humans, 2019: During the 52-week open-label extension of RECONNECT, no new safety signals were observed, and premenopausal women treated with bremelanotide exhibited sustained improvements in hypoactive sexual desire disorder symptoms.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-31599847"
+        ],
+        "source_excerpt": "During the 52-week open-label extension of RECONNECT, no new safety signals were observed, and premenopausal women treated with bremelanotide exhibited sustained improvements in hypoactive sexual desire disorder symptoms.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Simon 2019",
+          "year": "2019",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "52 week",
+          "outcome": "During the 52-week open-label extension of RECONNECT, no new safety signals were observed, and premenopausal women treated with bremelanotide exhibited sustained improvements in hypoactive sexual desire disorder…"
+        }
+      },
+      {
+        "value": "Animal study, 2026: The recent clinical success of macrocyclic peptides, such as bremelanotide and setmelanotide, highlights the potential of this modality as a \"Goldilocks\" chemical class, effectively balancing the properties of small molecules and biologics while optimizing their affinity, stability, and pharmacokinetics.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42340853"
+        ],
+        "source_excerpt": "The recent clinical success of macrocyclic peptides, such as bremelanotide and setmelanotide, highlights the potential of this modality as a \"Goldilocks\" chemical class, effectively balancing the properties of small molecules and biologics while optimizing their affinity, stability, and pharmacokinetics.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Merlino 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, dogs, swine, 2025: In beagle dogs, the bioavailability of semaglutide (4.11 kDa) was substantially improved compared to the commercially available tablet, with an application time of only 10 min.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40513668"
+        ],
+        "source_excerpt": "In beagle dogs, the bioavailability of semaglutide (4.11 kDa) was substantially improved compared to the commercially available tablet, with an application time of only 10 min.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Krupke 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Dogs, Swine",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "In beagle dogs, the bioavailability of semaglutide (4.11 kDa) was substantially improved compared to the commercially available tablet, with an application time of only 10 min."
+        }
+      },
+      {
+        "value": "Animal study, 2025: Bremelanotide, trade name Vyleesi, has been approved by the United States Food and Drug Administration to treat HSDD.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39793696"
+        ],
+        "source_excerpt": "Bremelanotide, trade name Vyleesi, has been approved by the United States Food and Drug Administration to treat HSDD.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Borland 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, 2007: Through their centrally mediated activity, melanocortin agonists have potential to treat erectile dysfunction as well as possible applications to the unmet medical needs of decreased sexual motivation and loss of libido.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17584130"
+        ],
+        "source_excerpt": "Through their centrally mediated activity, melanocortin agonists have potential to treat erectile dysfunction as well as possible applications to the unmet medical needs of decreased sexual motivation and loss of libido.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "King 2007",
+          "year": "2007",
+          "design": "Animal study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Through their centrally mediated activity, melanocortin agonists have potential to treat erectile dysfunction as well as possible applications to the unmet medical needs of decreased sexual motivation and loss of libido."
+        }
+      },
+      {
+        "value": "In vitro study, 2026: Forced degradation studies revealed that BRM exhibited lower degradation under acidic conditions compared with basic conditions and showed significant susceptibility to oxidative conditions.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42485063"
+        ],
+        "source_excerpt": "Forced degradation studies revealed that BRM exhibited lower degradation under acidic conditions compared with basic conditions and showed significant susceptibility to oxidative conditions.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yuvaraaj 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Forced degradation studies revealed that BRM exhibited lower degradation under acidic conditions compared with basic conditions and showed significant susceptibility to oxidative conditions."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2022: In Study A, 27 of 30 bremelanotide subjects (90.0%) completed the trial and exhibited a significantly greater reduction in body weight after 16 days versus placebo [least squares mean difference (95% CI), -1.3 (-1.9 to -0.8) kg; p Conclusions Agonist activity at the MC4R may aid in reducing caloric intake…",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-35170192"
+        ],
+        "source_excerpt": "In Study A, 27 of 30 bremelanotide subjects (90.0%) completed the trial and exhibited a significantly greater reduction in body weight after 16 days versus placebo [least squares mean difference (95% CI), -1.3 (-1.9 to -0.8) kg; p Conclusions Agonist activity at the MC4R may aid in reducing caloric intake and weight loss in obese women.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Spana 2022",
+          "year": "2022",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "4 day",
+          "outcome": "In Study A, 27 of 30 bremelanotide subjects (90.0%) completed the trial and exhibited a significantly greater reduction in body weight after 16 days versus placebo [least squares mean difference (95% CI), -1.3 (-1.9 to…"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2021: Here, we report four high-resolution structures of full-length MC4R in complex with the heterotrimeric G s protein stimulated by the endogenous peptide ligand α-MSH, FDA-approved drugs afamelanotide (Scenesse™) and bremelanotide (Vyleesi™), and a selective small-molecule ligand THIQ, respectively.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-34433901"
+        ],
+        "source_excerpt": "Here, we report four high-resolution structures of full-length MC4R in complex with the heterotrimeric G s protein stimulated by the endogenous peptide ligand α-MSH, FDA-approved drugs afamelanotide (Scenesse™) and bremelanotide (Vyleesi™), and a selective small-molecule ligand THIQ, respectively.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhang 2021",
+          "year": "2021",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
       }
     ]
   },
@@ -71,15 +808,43 @@
         "Vyleesi (autoinjector)"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL4297533/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 27,
+      "claims": 35,
+      "evidence_table_rows": 21
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports weight-normalized doses for Bremelanotide.",
+    "No study in this record's ledger reports exclusion criteria for Bremelanotide."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Bremelanotide been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 9 clinical trials and 14 randomized controlled trials naming Bremelanotide or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Bremelanotide?",
+      "answer": "The strongest tier is approved label: an approved medicine with a regulator-reviewed label. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Bremelanotide an approved medicine?",
+      "answer": "ChEMBL records CHEMBL4297533 at maximum clinical phase 4, first approved 2019. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has Bremelanotide been studied in?",
+      "answer": "Studies in this record's ledger report work in: Dogs, Humans, Swine. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42485063",
@@ -272,7 +1037,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 77.5,
   "review": {
     "author": "",
     "reviewer": "",
@@ -283,6 +1048,18 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 42 claims, 21 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 40 claims, 21 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 34 claims, 21 evidence-table rows. Status researched -> draft."
     }
   ]
 }

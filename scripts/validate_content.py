@@ -208,6 +208,11 @@ def check_claims(record: dict, path: pathlib.Path, report: Report, source_ids: s
                 report.error(path, f"{label} cites unknown source ids {unknown}")
             if gated and not refs:
                 report.error(path, f"{label} must cite at least one source on reviewed/published records")
+            # agent/AGENT.md: a drafted claim carries the passage it paraphrases, verbatim.
+            if claim.get("drafting") == "extractive" and not (claim.get("source_excerpt") or "").strip():
+                report.error(path, f"{label} is marked extractive but has no source_excerpt")
+            if claim.get("source_excerpt") and not refs:
+                report.error(path, f"{label} has a source_excerpt but cites no source id")
 
 
 def check_review(record: dict, path: pathlib.Path, report: Report, gated: bool) -> None:

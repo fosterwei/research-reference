@@ -18,30 +18,921 @@
     "elamipretide"
   ],
   "slug": "ss-31",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for SS-31. Europe PMC indexes 493 publications, including 16 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "SS-31 is a peptide in the mitochondrial peptides class (cardiolipin-binding, inner-membrane targeted). Europe PMC indexes 493 publications naming it or a listed alias in a title or abstract, including 16 randomized controlled trials and 14 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "SS-31: what the research shows",
-    "description": "Cited overview of published SS-31 research: 493 indexed publications, 16 randomized controlled trials. Evidence tier on every claim."
+    "description": "SS-31 research, cited: 493 indexed publications, 16 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
-    "escalation_schedules": [],
-    "interactions": [],
-    "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2025: administration by subcutaneous route reported. The BTHS-SA was administered in TAZPOWER, a phase 2, randomized, double-blind, placebo-controlled crossover study to evaluate daily subcutaneous injections of elamipretide in subjects with genetically confirmed BTHS.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40281531"
+        ],
+        "source_excerpt": "The BTHS-SA was administered in TAZPOWER, a phase 2, randomized, double-blind, placebo-controlled crossover study to evaluate daily subcutaneous injections of elamipretide in subjects with genetically confirmed BTHS.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2024: administration by subcutaneous route reported. Patients entering the OLE continued elamipretide 40 mg subcutaneous daily.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38602181"
+        ],
+        "source_excerpt": "Patients entering the OLE continued elamipretide 40 mg subcutaneous daily.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2024: administration by topical route reported. This study aimed to assess the safety, tolerability, and potential efficacy of topical elamipretide in patients affected with Leber hereditary optic neuropathy (LHON).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37923251"
+        ],
+        "source_excerpt": "This study aimed to assess the safety, tolerability, and potential efficacy of topical elamipretide in patients affected with Leber hereditary optic neuropathy (LHON).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=218, 2023: administration by subcutaneous route reported. After screening, eligible participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37268435"
+        ],
+        "source_excerpt": "After screening, eligible participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2020: administration by subcutaneous route reported. This study aims to evaluate the effect of subcutaneous (SC) elamipretide dosing on exercise performance using the 6 min walk test (6MWT), patient-reported outcomes measuring fatigue, functional assessments, and safety to guide the development…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32096613"
+        ],
+        "source_excerpt": "This study aims to evaluate the effect of subcutaneous (SC) elamipretide dosing on exercise performance using the 6 min walk test (6MWT), patient-reported outcomes measuring fatigue, functional assessments, and safety to guide the development of the Phase 3 trial.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=36, 2018: administration by intravenous route reported. Participants were randomized to intravenous elamipretide (0.01, 0.1, and 0.25 mg/kg/h or placebo for 2 hours in a dose-escalating sequence).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-29500292"
+        ],
+        "source_excerpt": "Participants were randomized to intravenous elamipretide (0.01, 0.1, and 0.25 mg/kg/h or placebo for 2 hours in a dose-escalating sequence).",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Randomized controlled trial, humans, 2024: doses stated in the abstract: 40 mg. Patients entering the OLE continued elamipretide 40 mg subcutaneous daily.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38602181"
+        ],
+        "source_excerpt": "Patients entering the OLE continued elamipretide 40 mg subcutaneous daily.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=218, 2023: doses stated in the abstract: 40 mg/d. After screening, eligible participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37268435"
+        ],
+        "source_excerpt": "After screening, eligible participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 3 clinical trial, humans, n=8, 2022: doses stated in the abstract: 40 mg daily. A phase 3, observational, retrospective, and non-interventional study was designed to establish a natural history control (NHC) cohort of patients with Barth syndrome (BTHS) to provide further analysis of the efficacy of elamipretide observed in an…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36056411"
+        ],
+        "source_excerpt": "A phase 3, observational, retrospective, and non-interventional study was designed to establish a natural history control (NHC) cohort of patients with Barth syndrome (BTHS) to provide further analysis of the efficacy of elamipretide observed in an open-label extension (OLE) phase of the TAZPOWER trial, a clinical trial that tested the efficacy of 40 mg daily of elamipretide in patients with BTHS.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2021: doses stated in the abstract: 40 mg per day. In part 1, 12 subjects were randomized to 40 mg per day of elamipretide or placebo for 12 weeks, followed by a 4-week washout and then 12 weeks on the opposite arm.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33077895"
+        ],
+        "source_excerpt": "In part 1, 12 subjects were randomized to 40 mg per day of elamipretide or placebo for 12 weeks, followed by a 4-week washout and then 12 weeks on the opposite arm.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2020: doses stated in the abstract: 40 mg/day. Participants were randomly assigned (1:1) to 40 mg/day SC elamipretide for 4 weeks followed by placebo SC for 4 weeks, separated by a 4-week washout period, or the opposite sequence.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32096613"
+        ],
+        "source_excerpt": "Participants were randomly assigned (1:1) to 40 mg/day SC elamipretide for 4 weeks followed by placebo SC for 4 weeks, separated by a 4-week washout period, or the opposite sequence.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Case report, humans, 2025: doses stated in the abstract: 0.25 mg/kg; 0.5 mg/kg. On day of life (DOL) 34, therapy with daily IV elamipretide (0.25 mg/kg increased to 0.5 mg/kg on DOL39) began, followed by standard-of-care oral heart failure medications.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39917770"
+        ],
+        "source_excerpt": "On day of life (DOL) 34, therapy with daily IV elamipretide (0.25 mg/kg increased to 0.5 mg/kg on DOL39) began, followed by standard-of-care oral heart failure medications.",
+        "drafting": "extractive"
+      }
+    ],
+    "escalation_schedules": [
+      {
+        "value": "Randomized controlled trial, humans, n=36, 2018: Participants were randomized to intravenous elamipretide (0.01, 0.1, and 0.25 mg/kg/h or placebo for 2 hours in a dose-escalating sequence).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-29500292"
+        ],
+        "source_excerpt": "Participants were randomized to intravenous elamipretide (0.01, 0.1, and 0.25 mg/kg/h or placebo for 2 hours in a dose-escalating sequence).",
+        "drafting": "extractive"
+      }
+    ],
+    "interactions": [
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2021: We performed a randomized, double-blind, placebo-controlled crossover trial followed by an open-label extension in BTHS to test the effect of elamipretide, a mitochondrial tetrapeptide that interacts with cardiolipin.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33077895"
+        ],
+        "source_excerpt": "We performed a randomized, double-blind, placebo-controlled crossover trial followed by an open-label extension in BTHS to test the effect of elamipretide, a mitochondrial tetrapeptide that interacts with cardiolipin.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2026: Co-administration of SS-31 and NMN significantly attenuated post-ischemic brain damage and ameliorated neurological deficits (P < 0.0001), demonstrating effects markedly superior to either monotherapy.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42443448"
+        ],
+        "source_excerpt": "Co-administration of SS-31 and NMN significantly attenuated post-ischemic brain damage and ameliorated neurological deficits (P < 0.0001), demonstrating effects markedly superior to either monotherapy.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2020: In this study, using biophysical and computational approaches, we have analyzed the interactions of the lead compound SS-31 (elamipretide) with model and mitochondrial membranes.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-32273339"
+        ],
+        "source_excerpt": "In this study, using biophysical and computational approaches, we have analyzed the interactions of the lead compound SS-31 (elamipretide) with model and mitochondrial membranes.",
+        "drafting": "extractive"
+      }
+    ],
+    "exclusion_criteria": [
+      {
+        "value": "Randomized controlled trial, humans, n=218, 2023: After screening, eligible participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37268435"
+        ],
+        "source_excerpt": "After screening, eligible participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "drafting": "extractive"
+      }
+    ],
+    "adverse_events": [
+      {
+        "value": "Randomized controlled trial, humans, 2024: Elamipretide was well tolerated, with injection-site reactions being the most common adverse events.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38602181"
+        ],
+        "source_excerpt": "Elamipretide was well tolerated, with injection-site reactions being the most common adverse events.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2024: The primary outcome measure was assessment of adverse events (AEs) from the administration of topical elamipretide, and the primary efficacy end point was change in best-corrected visual acuity (BCVA).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37923251"
+        ],
+        "source_excerpt": "The primary outcome measure was assessment of adverse events (AEs) from the administration of topical elamipretide, and the primary efficacy end point was change in best-corrected visual acuity (BCVA).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=218, 2023: Elamipretide treatment was well-tolerated with most adverse events being mild to moderate in severity.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37268435"
+        ],
+        "source_excerpt": "Elamipretide treatment was well-tolerated with most adverse events being mild to moderate in severity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2020: Injection site reactions were the most commonly reported adverse events with elamipretide (80%), the majority of which were mild.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32096613"
+        ],
+        "source_excerpt": "Injection site reactions were the most commonly reported adverse events with elamipretide (80%), the majority of which were mild.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2024: Elamipretide was well tolerated and both patients demonstrated improvement in symptoms while on therapy.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39619320"
+        ],
+        "source_excerpt": "Elamipretide was well tolerated and both patients demonstrated improvement in symptoms while on therapy.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, n=218, 2023: Between the participants receiving elamipretide and those receiving placebo, the difference in the least squares mean (SE) from baseline to week 24 on distance walked on the 6MWT was -3.2 (95% CI -18.7 to 12.3; p = 0.69) meters, and on the PMMSA, the total fatigue score was -0.07 (95% CI…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37268435"
+        ],
+        "source_excerpt": "Between the participants receiving elamipretide and those receiving placebo, the difference in the least squares mean (SE) from baseline to week 24 on distance walked on the 6MWT was -3.2 (95% CI -18.7 to 12.3; p = 0.69) meters, and on the PMMSA, the total fatigue score was -0.07 (95% CI -0.10 to 0.26; p = 0.37).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 3 clinical trial, humans, n=8, 2022: For the 6-min walk test (6MWT, primary endpoint), the least squares (LS) mean difference between groups was 79.7 m (P = 0.0004) at week 64 and 91.0 m (P = 0.0005) at week 76 in favor of elamipretide.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36056411"
+        ],
+        "source_excerpt": "For the 6-min walk test (6MWT, primary endpoint), the least squares (LS) mean difference between groups was 79.7 m (P = 0.0004) at week 64 and 91.0 m (P = 0.0005) at week 76 in favor of elamipretide.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=19, 2019: Elamipretide significantly reduced the HtrA2 median serum level after myocardial infarction 1805.5 (981.3-2220.1) pg/mL vs. 496.5 (379.4-703.8) pg/mL ( P ⩽0.05).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28534645"
+        ],
+        "source_excerpt": "Elamipretide significantly reduced the HtrA2 median serum level after myocardial infarction 1805.5 (981.3-2220.1) pg/mL vs. 496.5 (379.4-703.8) pg/mL ( P ⩽0.05).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2026: In contrast, SS-31 reduced oocyte aneuploidy, ROS accumulation and DNA damage.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41612464"
+        ],
+        "source_excerpt": "In contrast, SS-31 reduced oocyte aneuploidy, ROS accumulation and DNA damage.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2026: We therefore tested whether elamipretide, a synthetic cardiolipin-binding peptide, could improve mitochondrial function and cardiolipin levels in βTFP-deficient mice and patient-derived fibroblasts.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41500837"
+        ],
+        "source_excerpt": "We therefore tested whether elamipretide, a synthetic cardiolipin-binding peptide, could improve mitochondrial function and cardiolipin levels in βTFP-deficient mice and patient-derived fibroblasts.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, mice, 2026: In vitro experiments were performed on BV2 cells subjected to oxygen-glucose deprivation/reoxygenation, assessing cell viability, lipid peroxidation, ferroptosis-associated protein expression, and cytokine secretion following SS-31 intervention.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41136322"
+        ],
+        "source_excerpt": "In vitro experiments were performed on BV2 cells subjected to oxygen-glucose deprivation/reoxygenation, assessing cell viability, lipid peroxidation, ferroptosis-associated protein expression, and cytokine secretion following SS-31 intervention.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Randomized controlled trial, humans, n=36, 2018: Elamipretide increased exercise performance after 5 days of treatment in patients with PMM without increased safety concerns.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-29500292"
+        ],
+        "source_excerpt": "Elamipretide increased exercise performance after 5 days of treatment in patients with PMM without increased safety concerns.",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [
+      {
+        "value": "Clinical trial, humans, 2023: Elamipretide targets the inner mitochondrial membrane where it binds to cardiolipin, resulting in improved membrane stability, cellular respiration, and ATP production.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36636586"
+        ],
+        "source_excerpt": "Elamipretide targets the inner mitochondrial membrane where it binds to cardiolipin, resulting in improved membrane stability, cellular respiration, and ATP production.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Case report, humans, 2025: Elamipretide, an investigational drug that binds to cardiolipin on the inner mitochondrial membrane, leads to improved membrane stability, enhanced adenosine triphosphate production, and reduced reactive oxygen species.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39917770"
+        ],
+        "source_excerpt": "Elamipretide, an investigational drug that binds to cardiolipin on the inner mitochondrial membrane, leads to improved membrane stability, enhanced adenosine triphosphate production, and reduced reactive oxygen species.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2026: Mechanistically, single-cell transcriptome analysis reveals that SS-31 increased the maternal mRNA degradation, and the levels of genes associated with mitochondrial function and mitophagy in aged oocytes, such as Pink1, Rps27a, Tomm7 and Map1lc3b.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41612464"
+        ],
+        "source_excerpt": "Mechanistically, single-cell transcriptome analysis reveals that SS-31 increased the maternal mRNA degradation, and the levels of genes associated with mitochondrial function and mitophagy in aged oocytes, such as Pink1, Rps27a, Tomm7 and Map1lc3b.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2026: These results support a mechanism in which elamipretide stabilizes between FAO enzymes and ETC complexes, thereby improving mitochondrial function independently of changes in cardiolipin levels.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41500837"
+        ],
+        "source_excerpt": "These results support a mechanism in which elamipretide stabilizes between FAO enzymes and ETC complexes, thereby improving mitochondrial function independently of changes in cardiolipin levels.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2025: To investigate the role of endothelial glycocalyx (eGC) degradation in mediating the progression from systemic inflammation to neuroinflammation and cognitive impairment in aged rats, and to explore the protective effects of the mitochondrial-targeted peptide SS-31.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41247543"
+        ],
+        "source_excerpt": "To investigate the role of endothelial glycocalyx (eGC) degradation in mediating the progression from systemic inflammation to neuroinflammation and cognitive impairment in aged rats, and to explore the protective effects of the mitochondrial-targeted peptide SS-31.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, 2020: We found that SS-31 binding does not destabilize lamellar bilayers even at the highest binding concentrations; however, it did cause saturable alterations in lipid packing.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-32273339"
+        ],
+        "source_excerpt": "We found that SS-31 binding does not destabilize lamellar bilayers even at the highest binding concentrations; however, it did cause saturable alterations in lipid packing.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, 2024: durations stated: 28 week; 168 week. TAZPOWER was a 28-week randomized, double-blind, and placebo-controlled trial followed by a 168-week OLE.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38602181"
+        ],
+        "source_excerpt": "TAZPOWER was a 28-week randomized, double-blind, and placebo-controlled trial followed by a 168-week OLE.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2024: durations stated: 52 week; 52 weeks. This phase II, prospective, randomized, vehicle-controlled, single-center clinical trial involved administration of elamipretide 1% topical ophthalmic solution to patients with LHON over a 52-week double-masked treatment period, followed by an…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37923251"
+        ],
+        "source_excerpt": "This phase II, prospective, randomized, vehicle-controlled, single-center clinical trial involved administration of elamipretide 1% topical ophthalmic solution to patients with LHON over a 52-week double-masked treatment period, followed by an open-label extension (OLE) for up to 108 additional weeks of treatment.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=218, 2023: durations stated: 24 weeks. After screening, eligible participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37268435"
+        ],
+        "source_excerpt": "After screening, eligible participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, 2023: durations stated: 12 years. In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in younger patients is limited and to our knowledge, these are the…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36636586"
+        ],
+        "source_excerpt": "In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in younger patients is limited and to our knowledge, these are the first case reports on the safety and efficacy of elamipretide treatment in children under 12 years of age.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2021: durations stated: 12 weeks; 4 week. In part 1, 12 subjects were randomized to 40 mg per day of elamipretide or placebo for 12 weeks, followed by a 4-week washout and then 12 weeks on the opposite arm.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33077895"
+        ],
+        "source_excerpt": "In part 1, 12 subjects were randomized to 40 mg per day of elamipretide or placebo for 12 weeks, followed by a 4-week washout and then 12 weeks on the opposite arm.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2020: durations stated: 4 weeks; 4 week; 6 month. Participants were randomly assigned (1:1) to 40 mg/day SC elamipretide for 4 weeks followed by placebo SC for 4 weeks, separated by a 4-week washout period, or the opposite sequence.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32096613"
+        ],
+        "source_excerpt": "Participants were randomly assigned (1:1) to 40 mg/day SC elamipretide for 4 weeks followed by placebo SC for 4 weeks, separated by a 4-week washout period, or the opposite sequence.",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Case report, humans, 2025: weight-normalized doses as published: 0.25 mg/kg; 0.5 mg/kg. On day of life (DOL) 34, therapy with daily IV elamipretide (0.25 mg/kg increased to 0.5 mg/kg on DOL39) began, followed by standard-of-care oral heart failure medications.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39917770"
+        ],
+        "source_excerpt": "On day of life (DOL) 34, therapy with daily IV elamipretide (0.25 mg/kg increased to 0.5 mg/kg on DOL39) began, followed by standard-of-care oral heart failure medications.",
+        "drafting": "extractive"
+      }
+    ],
     "regulatory_status": [
       {
         "value": "ChEMBL CHEMBL3833370: maximum clinical phase 3. Jurisdiction-level status pending human review.",
         "evidence_label": "human-clinical-trial",
         "source_ids": []
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2025: The BTHS-SA was administered in TAZPOWER, a phase 2, randomized, double-blind, placebo-controlled crossover study to evaluate daily subcutaneous injections of elamipretide in subjects with genetically confirmed BTHS.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40281531"
+        ],
+        "source_excerpt": "The BTHS-SA was administered in TAZPOWER, a phase 2, randomized, double-blind, placebo-controlled crossover study to evaluate daily subcutaneous injections of elamipretide in subjects with genetically confirmed BTHS.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gwaltney 2025",
+          "year": "2025",
+          "design": "Randomized controlled trial",
+          "n": 12,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2024: The mtDNA replisome post-hoc cohort displayed an improvement on the 6MWT, trending towards significant, in the elamipretide group when compared with placebo (25.2 ± 8.7 m versus 2.0 ± 8.6 m for placebo group; p = 0.06).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39574155"
+        ],
+        "source_excerpt": "The mtDNA replisome post-hoc cohort displayed an improvement on the 6MWT, trending towards significant, in the elamipretide group when compared with placebo (25.2 ± 8.7 m versus 2.0 ± 8.6 m for placebo group; p = 0.06).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Karaa 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The mtDNA replisome post-hoc cohort displayed an improvement on the 6MWT, trending towards significant, in the elamipretide group when compared with placebo (25.2 ± 8.7 m versus 2.0 ± 8.6 m for placebo group; p = 0.06)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2024: Elamipretide was associated with sustained long-term tolerability and efficacy, with improvements in functional assessments and cardiac function in BTHS.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38602181"
+        ],
+        "source_excerpt": "Elamipretide was associated with sustained long-term tolerability and efficacy, with improvements in functional assessments and cardiac function in BTHS.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Thompson 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "40 mg",
+          "route": "subcutaneous",
+          "duration": "28 week; 168 week",
+          "outcome": "Elamipretide was associated with sustained long-term tolerability and efficacy, with improvements in functional assessments and cardiac function in BTHS."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2024: The change from baseline in BCVA in elamipretide-treated eyes was not significantly different from the vehicle eyes at any time point.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37923251"
+        ],
+        "source_excerpt": "The change from baseline in BCVA in elamipretide-treated eyes was not significantly different from the vehicle eyes at any time point.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Karanjia 2024",
+          "year": "2024",
+          "design": "Randomized controlled trial",
+          "n": 12,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "topical",
+          "duration": "52 week; 52 weeks",
+          "outcome": "The change from baseline in BCVA in elamipretide-treated eyes was not significantly different from the vehicle eyes at any time point."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=218, 2023: Discussion Subcutaneous elamipretide treatment did not improve outcomes in the 6MWT and PMMSA TFS in patients with PMM.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37268435"
+        ],
+        "source_excerpt": "Discussion Subcutaneous elamipretide treatment did not improve outcomes in the 6MWT and PMMSA TFS in patients with PMM.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Karaa 2023",
+          "year": "2023",
+          "design": "Randomized controlled trial",
+          "n": 218,
+          "species": "Humans",
+          "dose": "40 mg/d",
+          "route": "subcutaneous",
+          "duration": "24 weeks",
+          "outcome": "Discussion Subcutaneous elamipretide treatment did not improve outcomes in the 6MWT and PMMSA TFS in patients with PMM."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2023: Recently, elamipretide has been tested as a potential first disease-modifying drug.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37041653"
+        ],
+        "source_excerpt": "Recently, elamipretide has been tested as a potential first disease-modifying drug.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Van 2023",
+          "year": "2023",
+          "design": "Randomized controlled trial",
+          "n": 12,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Clinical trial, humans, 2023: In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in younger patients is limited and to our knowledge, these are the first case reports on the…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36636586"
+        ],
+        "source_excerpt": "In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in younger patients is limited and to our knowledge, these are the first case reports on the safety and efficacy of elamipretide treatment in children under 12 years of age.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Koenig 2023",
+          "year": "2023",
+          "design": "Clinical trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "12 years",
+          "outcome": "In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in…"
+        }
+      },
+      {
+        "value": "Phase 3 clinical trial, humans, n=8, 2022: Significant improvements in muscle strength (secondary endpoint), as assessed by handheld dynamometry (HHD) were also observed with elamipretide, with LS mean differences of 40.8 Newtons at 64 weeks (P = 0.0002) and 56.7 Newtons at 76 weeks (P = 0.0005).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36056411"
+        ],
+        "source_excerpt": "Significant improvements in muscle strength (secondary endpoint), as assessed by handheld dynamometry (HHD) were also observed with elamipretide, with LS mean differences of 40.8 Newtons at 64 weeks (P = 0.0002) and 56.7 Newtons at 76 weeks (P = 0.0005).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hornby 2022",
+          "year": "2022",
+          "design": "Phase 3 clinical trial",
+          "n": 8,
+          "species": "Humans",
+          "dose": "40 mg daily",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Significant improvements in muscle strength (secondary endpoint), as assessed by handheld dynamometry (HHD) were also observed with elamipretide, with LS mean differences of 40.8 Newtons at 64 weeks (P = 0.0002) and…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2021: No difference was found on day 7 after treatment, which is consistent with the half-life of ELAM in human blood.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34264994"
+        ],
+        "source_excerpt": "No difference was found on day 7 after treatment, which is consistent with the half-life of ELAM in human blood.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Roshanravan 2021",
+          "year": "2021",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "No difference was found on day 7 after treatment, which is consistent with the half-life of ELAM in human blood."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2021: In this interventional clinical trial in BTHS, daily administration of elamipretide led to improvement in BTHS symptoms.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33077895"
+        ],
+        "source_excerpt": "In this interventional clinical trial in BTHS, daily administration of elamipretide led to improvement in BTHS symptoms.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Reid 2021",
+          "year": "2021",
+          "design": "Randomized controlled trial",
+          "n": 12,
+          "species": "Humans",
+          "dose": "40 mg per day",
+          "route": "not stated in abstract",
+          "duration": "12 weeks; 4 week",
+          "outcome": "In this interventional clinical trial in BTHS, daily administration of elamipretide led to improvement in BTHS symptoms."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2020: Participants who received a short-course treatment of daily SC elamipretide for 4 weeks experienced a clinically meaningful change in the 6MWT, which did not achieve statistical significance as the primary endpoint of the study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32096613"
+        ],
+        "source_excerpt": "Participants who received a short-course treatment of daily SC elamipretide for 4 weeks experienced a clinically meaningful change in the 6MWT, which did not achieve statistical significance as the primary endpoint of the study.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Karaa 2020",
+          "year": "2020",
+          "design": "Randomized controlled trial",
+          "n": 30,
+          "species": "Humans",
+          "dose": "40 mg/day",
+          "route": "subcutaneous",
+          "duration": "4 weeks; 4 week",
+          "outcome": "Participants who received a short-course treatment of daily SC elamipretide for 4 weeks experienced a clinically meaningful change in the 6MWT, which did not achieve statistical significance as the primary endpoint of…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=19, 2019: Elamipretide significantly reduced the HtrA2 median serum level after myocardial infarction 1805.5 (981.3-2220.1) pg/mL vs. 496.5 (379.4-703.8) pg/mL ( P ⩽0.05).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28534645"
+        ],
+        "source_excerpt": "Elamipretide significantly reduced the HtrA2 median serum level after myocardial infarction 1805.5 (981.3-2220.1) pg/mL vs. 496.5 (379.4-703.8) pg/mL ( P ⩽0.05).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Hortmann 2019",
+          "year": "2019",
+          "design": "Randomized controlled trial",
+          "n": 19,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Elamipretide significantly reduced the HtrA2 median serum level after myocardial infarction 1805.5 (981.3-2220.1) pg/mL vs. 496.5 (379.4-703.8) pg/mL ( P ⩽0.05)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=36, 2018: In addition, there was a dose-dependent increase in distance walked on the 6MWT with elamipretide treatment ( p = 0.014).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-29500292"
+        ],
+        "source_excerpt": "In addition, there was a dose-dependent increase in distance walked on the 6MWT with elamipretide treatment ( p = 0.014).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Karaa 2018",
+          "year": "2018",
+          "design": "Randomized controlled trial",
+          "n": 36,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "5 days",
+          "outcome": "In addition, there was a dose-dependent increase in distance walked on the 6MWT with elamipretide treatment ( p = 0.014)."
+        }
+      },
+      {
+        "value": "Human study, humans, 2025: Additionally, SS-31 reduced NOS2 expression by 50%, highlighting its therapeutic potential in age-related bone loss.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40570323"
+        ],
+        "source_excerpt": "Additionally, SS-31 reduced NOS2 expression by 50%, highlighting its therapeutic potential in age-related bone loss.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Duan 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Additionally, SS-31 reduced NOS2 expression by 50%, highlighting its therapeutic potential in age-related bone loss."
+        }
+      },
+      {
+        "value": "Case report, humans, 2025: On day of life (DOL) 34, therapy with daily IV elamipretide (0.25 mg/kg increased to 0.5 mg/kg on DOL39) began, followed by standard-of-care oral heart failure medications.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39917770"
+        ],
+        "source_excerpt": "On day of life (DOL) 34, therapy with daily IV elamipretide (0.25 mg/kg increased to 0.5 mg/kg on DOL39) began, followed by standard-of-care oral heart failure medications.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ortmann 2025",
+          "year": "2025",
+          "design": "Case report",
+          "n": null,
+          "species": "Humans",
+          "dose": "0.25 mg/kg; 0.5 mg/kg",
+          "route": "intravenous, oral, subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "On day of life (DOL) 34, therapy with daily IV elamipretide (0.25 mg/kg increased to 0.5 mg/kg on DOL39) began, followed by standard-of-care oral heart failure medications."
+        }
+      },
+      {
+        "value": "Human study, humans, 2024: Elamipretide was well tolerated and both patients demonstrated improvement in symptoms while on therapy.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39619320"
+        ],
+        "source_excerpt": "Elamipretide was well tolerated and both patients demonstrated improvement in symptoms while on therapy.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ansari 2024",
+          "year": "2024",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Elamipretide was well tolerated and both patients demonstrated improvement in symptoms while on therapy."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: Co-administration of SS-31 and NMN significantly attenuated post-ischemic brain damage and ameliorated neurological deficits (P < 0.0001), demonstrating effects markedly superior to either monotherapy.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42443448"
+        ],
+        "source_excerpt": "Co-administration of SS-31 and NMN significantly attenuated post-ischemic brain damage and ameliorated neurological deficits (P < 0.0001), demonstrating effects markedly superior to either monotherapy.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yang 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Co-administration of SS-31 and NMN significantly attenuated post-ischemic brain damage and ameliorated neurological deficits (P < 0.0001), demonstrating effects markedly superior to either monotherapy."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: Mechanistically, single-cell transcriptome analysis reveals that SS-31 increased the maternal mRNA degradation, and the levels of genes associated with mitochondrial function and mitophagy in aged oocytes, such as Pink1, Rps27a, Tomm7 and Map1lc3b.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41612464"
+        ],
+        "source_excerpt": "Mechanistically, single-cell transcriptome analysis reveals that SS-31 increased the maternal mRNA degradation, and the levels of genes associated with mitochondrial function and mitophagy in aged oocytes, such as Pink1, Rps27a, Tomm7 and Map1lc3b.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Xiong 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Mechanistically, single-cell transcriptome analysis reveals that SS-31 increased the maternal mRNA degradation, and the levels of genes associated with mitochondrial function and mitophagy in aged oocytes, such as…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: We therefore tested whether elamipretide, a synthetic cardiolipin-binding peptide, could improve mitochondrial function and cardiolipin levels in βTFP-deficient mice and patient-derived fibroblasts.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41500837"
+        ],
+        "source_excerpt": "We therefore tested whether elamipretide, a synthetic cardiolipin-binding peptide, could improve mitochondrial function and cardiolipin levels in βTFP-deficient mice and patient-derived fibroblasts.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Vieira 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "We therefore tested whether elamipretide, a synthetic cardiolipin-binding peptide, could improve mitochondrial function and cardiolipin levels in βTFP-deficient mice and patient-derived fibroblasts."
+        }
+      },
+      {
+        "value": "Animal study, rats, mice, 2026: Treatment with SS-31 substantially improved survival rates, reduced neurological deficits, and lowered serum NSE and S100B levels.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41136322"
+        ],
+        "source_excerpt": "Treatment with SS-31 substantially improved survival rates, reduced neurological deficits, and lowered serum NSE and S100B levels.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Jiang 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats, Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Treatment with SS-31 substantially improved survival rates, reduced neurological deficits, and lowered serum NSE and S100B levels."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2025: SS-31 pretreatment attenuated eGC degradation, reduced neuroinflammation, and restored PSD-95 levels, suggesting its potential protective role. eGC degradation is a key intermediary linking systemic inflammation to neuroinflammation and cognitive decline in aged rats.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41247543"
+        ],
+        "source_excerpt": "SS-31 pretreatment attenuated eGC degradation, reduced neuroinflammation, and restored PSD-95 levels, suggesting its potential protective role. eGC degradation is a key intermediary linking systemic inflammation to neuroinflammation and cognitive decline in aged rats.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kan 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "SS-31 pretreatment attenuated eGC degradation, reduced neuroinflammation, and restored PSD-95 levels, suggesting its potential protective role. eGC degradation is a key intermediary linking systemic inflammation to…"
+        }
+      },
+      {
+        "value": "Animal study, swine, 2025: Oocytes cultured in medium with 1 µM SS-31 exhibited higher maturation and blastocyst formation rates than the control (0 µM) (78.3 ± 3.8% vs. 55.2 ± 4.1% and 7.6 ± 1.6% vs. 2.8 ± 1.8%, respectively).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40941292"
+        ],
+        "source_excerpt": "Oocytes cultured in medium with 1 µM SS-31 exhibited higher maturation and blastocyst formation rates than the control (0 µM) (78.3 ± 3.8% vs. 55.2 ± 4.1% and 7.6 ± 1.6% vs. 2.8 ± 1.8%, respectively).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Nguyen 2025",
+          "year": "2025",
+          "design": "Animal study",
+          "n": null,
+          "species": "Swine",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Oocytes cultured in medium with 1 µM SS-31 exhibited higher maturation and blastocyst formation rates than the control (0 µM) (78.3 ± 3.8% vs. 55.2 ± 4.1% and 7.6 ± 1.6% vs. 2.8 ± 1.8%, respectively)."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2023: Impressively, the expression percentage of IL-1β and IL-18 was downregulated to lower than half with SS-31 treatment.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38136142"
+        ],
+        "source_excerpt": "Impressively, the expression percentage of IL-1β and IL-18 was downregulated to lower than half with SS-31 treatment.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Nie 2023",
+          "year": "2023",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Impressively, the expression percentage of IL-1β and IL-18 was downregulated to lower than half with SS-31 treatment."
+        }
+      },
+      {
+        "value": "In vitro study, 2026: SS-31 also prevented increases in the p16, p21, and SASP markers and mitigated mitochondrial ROS production.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42450582"
+        ],
+        "source_excerpt": "SS-31 also prevented increases in the p16, p21, and SASP markers and mitigated mitochondrial ROS production.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Fan 2026",
+          "year": "2026",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "3 days",
+          "outcome": "SS-31 also prevented increases in the p16, p21, and SASP markers and mitigated mitochondrial ROS production."
+        }
+      },
+      {
+        "value": "In vitro study, 2023: Protein abundance in the ADP/ATP transport and synthesis pathway was unchanged, but ELAM treatment decreased protein s-glutathionylation incuding of ANT.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-37462785"
+        ],
+        "source_excerpt": "Protein abundance in the ADP/ATP transport and synthesis pathway was unchanged, but ELAM treatment decreased protein s-glutathionylation incuding of ANT.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Pharaoh 2023",
+          "year": "2023",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Protein abundance in the ADP/ATP transport and synthesis pathway was unchanged, but ELAM treatment decreased protein s-glutathionylation incuding of ANT."
+        }
       }
     ]
   },
@@ -87,6 +978,14 @@
         "SS-31"
       ],
       "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3833370/"
+    },
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 32,
+      "claims": 43,
+      "evidence_table_rows": 25
     }
   },
   "comparison_peers": [],
@@ -95,7 +994,24 @@
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has SS-31 been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 14 clinical trials and 16 randomized controlled trials naming SS-31 or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for SS-31?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is SS-31 an approved medicine?",
+      "answer": "ChEMBL records CHEMBL3833370 at maximum clinical phase 3, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+    },
+    {
+      "question": "Which species has SS-31 been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats, Swine. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "doi-10-20944-preprints202607-2136-v1",
@@ -337,7 +1253,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 80.9,
   "review": {
     "author": "",
     "reviewer": "",
@@ -348,6 +1264,14 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 32 ledger sources by scripts/draft_claims.py: 45 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 32 ledger sources by scripts/draft_claims.py: 42 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

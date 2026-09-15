@@ -6,26 +6,834 @@
     "mitochondrial open reading frame of the 12S rRNA type-c"
   ],
   "slug": "mots-c",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for MOTS-c. Europe PMC indexes 277 publications, including 4 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "MOTS-c is a peptide in the mitochondrial peptides class (mitochondria-derived; AMPK and folate-cycle effects reported). Europe PMC indexes 277 publications naming it or a listed alias in a title or abstract, including 4 randomized controlled trials and 1 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "MOTS-c: what the research shows",
-    "description": "Cited overview of published MOTS-c research: 277 indexed publications, 4 randomized controlled trials. Evidence tier on every claim."
+    "description": "MOTS-c research, cited: 277 indexed publications, 4 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
+    "routes_studied": [
+      {
+        "value": "Human study, humans, 2024: administration by intravenous route reported. Notably, MOTS-c protein expression declined with ACC progression (stages III and IV) but was unrelated to patient age or sex.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39201408"
+        ],
+        "source_excerpt": "Notably, MOTS-c protein expression declined with ACC progression (stages III and IV) but was unrelated to patient age or sex.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2026: administration by intraperitoneal route reported. In vivo , male mice were inoculated with Colon-26 (C26) carcinoma cells and treated daily with MOTS-c (15 mg/kg/2x Day, i.p.) or vehicle.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42266945"
+        ],
+        "source_excerpt": "In vivo , male mice were inoculated with Colon-26 (C26) carcinoma cells and treated daily with MOTS-c (15 mg/kg/2x Day, i.p.) or vehicle.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=6, 2026: administration by intraperitoneal route reported. In vivo studies demonstrated that daily intraperitoneal administration of R13A-MOTS-c (5 mg/kg for 2 weeks) effectively mitigated radiation-induced pulmonary inflammation, oxidative stress, and mitochondrial dysfunction in C57BL/6 mice exposed to 20 Gy…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42142418"
+        ],
+        "source_excerpt": "In vivo studies demonstrated that daily intraperitoneal administration of R13A-MOTS-c (5 mg/kg for 2 weeks) effectively mitigated radiation-induced pulmonary inflammation, oxidative stress, and mitochondrial dysfunction in C57BL/6 mice exposed to 20 Gy thoracic irradiation.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, n=16, 2026: administration by subcutaneous route reported. Adult male Wistar rats (n = 16) received continuous MOTS-c (0.1 μmol/24 h) or saline via subcutaneous micro-osmotic pumps for 24 hours.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41811086"
+        ],
+        "source_excerpt": "Adult male Wistar rats (n = 16) received continuous MOTS-c (0.1 μmol/24 h) or saline via subcutaneous micro-osmotic pumps for 24 hours.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2026: administration by intraperitoneal route reported. Female and male offspring were treated with 0.5 mg/kg/day MOTS-c or saline intraperitoneally from postnatal days 21 to 46.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41706383"
+        ],
+        "source_excerpt": "Female and male offspring were treated with 0.5 mg/kg/day MOTS-c or saline intraperitoneally from postnatal days 21 to 46.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=6, 2026: administration by intraperitoneal route reported. Administration of MOTS-c via i.p. injection markedly attenuated APAP-induced increases in AST and ALT levels, histopathological liver damage, and other liver injury markers.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41764620"
+        ],
+        "source_excerpt": "Administration of MOTS-c via i.p. injection markedly attenuated APAP-induced increases in AST and ALT levels, histopathological liver damage, and other liver injury markers.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Animal study, mice, 2026: doses stated in the abstract: 15 mg/kg. In vivo , male mice were inoculated with Colon-26 (C26) carcinoma cells and treated daily with MOTS-c (15 mg/kg/2x Day, i.p.) or vehicle.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42266945"
+        ],
+        "source_excerpt": "In vivo , male mice were inoculated with Colon-26 (C26) carcinoma cells and treated daily with MOTS-c (15 mg/kg/2x Day, i.p.) or vehicle.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=6, 2026: doses stated in the abstract: 5 mg/kg. In vivo studies demonstrated that daily intraperitoneal administration of R13A-MOTS-c (5 mg/kg for 2 weeks) effectively mitigated radiation-induced pulmonary inflammation, oxidative stress, and mitochondrial dysfunction in C57BL/6 mice exposed to 20 Gy thoracic…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42142418"
+        ],
+        "source_excerpt": "In vivo studies demonstrated that daily intraperitoneal administration of R13A-MOTS-c (5 mg/kg for 2 weeks) effectively mitigated radiation-induced pulmonary inflammation, oxidative stress, and mitochondrial dysfunction in C57BL/6 mice exposed to 20 Gy thoracic irradiation.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2026: doses stated in the abstract: 0.25-0.7 mg/kg; 0.5 mg. Isolated Langendorff-perfused rat hearts underwent 30-min global ischemia and 60-min reperfusion with or without MOTS-c (0.25-0.7 mg/kg) delivered via Krebs-Henseleit buffer during the first 10 min of reperfusion.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41593376"
+        ],
+        "source_excerpt": "Isolated Langendorff-perfused rat hearts underwent 30-min global ischemia and 60-min reperfusion with or without MOTS-c (0.25-0.7 mg/kg) delivered via Krebs-Henseleit buffer during the first 10 min of reperfusion.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2025: doses stated in the abstract: 15 mg/kg. Treated diabetic group received MOTS-c (15 mg/kg) daily injection for 3 weeks.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40661667"
+        ],
+        "source_excerpt": "Treated diabetic group received MOTS-c (15 mg/kg) daily injection for 3 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2021: doses stated in the abstract: 500 μg. Long-term repeated administration of MOTS-c (500 μg) and PMO at the dose of 12.5 mg/kg/week for 3 weeks followed by 12.5 mg/kg/month for 3 months (PMO-M) induced therapeutic levels of dystrophin expression in peripheral muscles, with up to 25-fold increase in diaphragm of…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33337582"
+        ],
+        "source_excerpt": "Long-term repeated administration of MOTS-c (500 μg) and PMO at the dose of 12.5 mg/kg/week for 3 weeks followed by 12.5 mg/kg/month for 3 months (PMO-M) induced therapeutic levels of dystrophin expression in peripheral muscles, with up to 25-fold increase in diaphragm of mdx mice over PMO alone.",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
-    "interactions": [],
+    "interactions": [
+      {
+        "value": "Randomized controlled trial, humans, 2022: Here, we measured circulating MOTS-c in paired baseline and post-treatment sera obtained from HER2-positive breast cancer patients randomized to receive either metformin combined with neoadjuvant chemotherapy and trastuzumab or an equivalent regimen without metformin.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36490309"
+        ],
+        "source_excerpt": "Here, we measured circulating MOTS-c in paired baseline and post-treatment sera obtained from HER2-positive breast cancer patients randomized to receive either metformin combined with neoadjuvant chemotherapy and trastuzumab or an equivalent regimen without metformin.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, mice, 2026: Key findings We found that hyperoxia exposure in neonatal mice led to significant cardiac hypertrophy, fibrosis, and dysfunction, concomitant with decreased serum MOTS-c content.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42128272"
+        ],
+        "source_excerpt": "Key findings We found that hyperoxia exposure in neonatal mice led to significant cardiac hypertrophy, fibrosis, and dysfunction, concomitant with decreased serum MOTS-c content.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2026: Molecular docking demonstrated high-affinity interactions of MOTS-c with MAPK, mTOR, AMPK, NRF2, PI3K, and caspase 3.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41593376"
+        ],
+        "source_excerpt": "Molecular docking demonstrated high-affinity interactions of MOTS-c with MAPK, mTOR, AMPK, NRF2, PI3K, and caspase 3.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
-    "regulatory_status": []
+    "adverse_events": [
+      {
+        "value": "Human study, humans, n=34, 2026: The MIRI group exhibited lower systolic blood pressure, preoperative thrombolysis in myocardial infarction (TIMI) grade, and HDL-C, but higher total ischemic time, door-to-balloon time, culprit vessel stenosis severity, Killip grade and adverse event incidence (all p p Conclusions : Postoperative…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42072458"
+        ],
+        "source_excerpt": "The MIRI group exhibited lower systolic blood pressure, preoperative thrombolysis in myocardial infarction (TIMI) grade, and HDL-C, but higher total ischemic time, door-to-balloon time, culprit vessel stenosis severity, Killip grade and adverse event incidence (all p p Conclusions : Postoperative peripheral serum MOTS-c levels represent an independent protective factor against MIRI in patients with acute myocardial infarction and suggest a potential predictive value for MIRI, although its clinical utility as a standalone predictor requires further validation through dynamic monitoring and larger-scale studies.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Randomized controlled trial, humans, 2022: MOTS-c mechanisms of action (MoA) involve insulin sensitization, enhanced glucose utilization, suppression of mitochondrial respiration, and targeting of the folate-AICAR-AMPK pathway.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36490309"
+        ],
+        "source_excerpt": "MOTS-c mechanisms of action (MoA) involve insulin sensitization, enhanced glucose utilization, suppression of mitochondrial respiration, and targeting of the folate-AICAR-AMPK pathway.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2021: We conducted a secondary analysis of the effects of a 16-week aerobic and resistance exercise intervention on MOTS-c in Hispanic and Non-Hispanic White breast cancer survivors (BCS).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34413391"
+        ],
+        "source_excerpt": "We conducted a secondary analysis of the effects of a 16-week aerobic and resistance exercise intervention on MOTS-c in Hispanic and Non-Hispanic White breast cancer survivors (BCS).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=10, 2021: Plasma concentration of HN and MOTS-c, skeletal muscle MOTS-c as well as gene expression of exercise-related genes were analyzed.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34351816"
+        ],
+        "source_excerpt": "Plasma concentration of HN and MOTS-c, skeletal muscle MOTS-c as well as gene expression of exercise-related genes were analyzed.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=180, 2026: Mitochondria-derived peptides (MDPs), particularly mitochondrial open-reading frame of the 12S rRNA-c (MOTS-c), have emerged as key regulators of cellular metabolism, insulin sensitivity, oxidative stress, and inflammatory responses.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42278864"
+        ],
+        "source_excerpt": "Mitochondria-derived peptides (MDPs), particularly mitochondrial open-reading frame of the 12S rRNA-c (MOTS-c), have emerged as key regulators of cellular metabolism, insulin sensitivity, oxidative stress, and inflammatory responses.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2026: MOTS-c, a mitochondria-derived peptide, is emerging as a key regulator of skeletal muscle health, metabolic homeostasis, and vascular function, yet its role in the uremic environment remains unexplored.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42126770"
+        ],
+        "source_excerpt": "MOTS-c, a mitochondria-derived peptide, is emerging as a key regulator of skeletal muscle health, metabolic homeostasis, and vascular function, yet its role in the uremic environment remains unexplored.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, n=34, 2026: The MIRI group exhibited lower systolic blood pressure, preoperative thrombolysis in myocardial infarction (TIMI) grade, and HDL-C, but higher total ischemic time, door-to-balloon time, culprit vessel stenosis severity, Killip grade and adverse event incidence (all p p Conclusions : Postoperative…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42072458"
+        ],
+        "source_excerpt": "The MIRI group exhibited lower systolic blood pressure, preoperative thrombolysis in myocardial infarction (TIMI) grade, and HDL-C, but higher total ischemic time, door-to-balloon time, culprit vessel stenosis severity, Killip grade and adverse event incidence (all p p Conclusions : Postoperative peripheral serum MOTS-c levels represent an independent protective factor against MIRI in patients with acute myocardial infarction and suggest a potential predictive value for MIRI, although its clinical utility as a standalone predictor requires further validation through dynamic monitoring and larger-scale studies.",
+        "drafting": "extractive"
+      }
+    ],
+    "reported_timelines": [
+      {
+        "value": "Animal study, rats, n=6, 2026: MOTS-c (53 µM) was administered either before ischemia or at reperfusion onset.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42228044"
+        ],
+        "source_excerpt": "MOTS-c (53 µM) was administered either before ischemia or at reperfusion onset.",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [
+      {
+        "value": "Animal study, rats, 2025: Thus, the MOTS-C injections during hind limb unloading lead to the normalization of several protein synthesis and degradation processes and support the expression of genes that ensure muscle resistance to fatigue.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40608240"
+        ],
+        "source_excerpt": "Thus, the MOTS-C injections during hind limb unloading lead to the normalization of several protein synthesis and degradation processes and support the expression of genes that ensure muscle resistance to fatigue.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, 2022: durations stated: 24 weeks. We failed to find any significant alteration of circulating MOTS-c -as measured using the commercially available competitive ELISA CEX132Hu- in response to 24 weeks of a neoadjuvant chemotherapy/trastuzumab regimen with or without daily metformin.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36490309"
+        ],
+        "source_excerpt": "We failed to find any significant alteration of circulating MOTS-c -as measured using the commercially available competitive ELISA CEX132Hu- in response to 24 weeks of a neoadjuvant chemotherapy/trastuzumab regimen with or without daily metformin.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=6, 2026: durations stated: 2 weeks. In vivo studies demonstrated that daily intraperitoneal administration of R13A-MOTS-c (5 mg/kg for 2 weeks) effectively mitigated radiation-induced pulmonary inflammation, oxidative stress, and mitochondrial dysfunction in C57BL/6 mice exposed to 20 Gy thoracic irradiation.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42142418"
+        ],
+        "source_excerpt": "In vivo studies demonstrated that daily intraperitoneal administration of R13A-MOTS-c (5 mg/kg for 2 weeks) effectively mitigated radiation-induced pulmonary inflammation, oxidative stress, and mitochondrial dysfunction in C57BL/6 mice exposed to 20 Gy thoracic irradiation.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2025: durations stated: 7 day. After the end of the experiment, we conducted an ex vivo fatigue test of soleus muscle and showed that the MOTS-c administration prevents increased fatigue during 7-day hind limb unloading.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40608240"
+        ],
+        "source_excerpt": "After the end of the experiment, we conducted an ex vivo fatigue test of soleus muscle and showed that the MOTS-c administration prevents increased fatigue during 7-day hind limb unloading.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2025: durations stated: 3 weeks. Treated diabetic group received MOTS-c (15 mg/kg) daily injection for 3 weeks.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40661667"
+        ],
+        "source_excerpt": "Treated diabetic group received MOTS-c (15 mg/kg) daily injection for 3 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=5, 2025: durations stated: 16 weeks. The therapeutic efficacy of FGF21, semaglutide and an amylin analogue was assessed from 8 to 16 weeks of age (n = 8-12 per group).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40496439"
+        ],
+        "source_excerpt": "The therapeutic efficacy of FGF21, semaglutide and an amylin analogue was assessed from 8 to 16 weeks of age (n = 8-12 per group).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2021: durations stated: 3 weeks; 3 months. Long-term repeated administration of MOTS-c (500 μg) and PMO at the dose of 12.5 mg/kg/week for 3 weeks followed by 12.5 mg/kg/month for 3 months (PMO-M) induced therapeutic levels of dystrophin expression in peripheral muscles, with up to 25-fold increase in diaphragm of…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33337582"
+        ],
+        "source_excerpt": "Long-term repeated administration of MOTS-c (500 μg) and PMO at the dose of 12.5 mg/kg/week for 3 weeks followed by 12.5 mg/kg/month for 3 months (PMO-M) induced therapeutic levels of dystrophin expression in peripheral muscles, with up to 25-fold increase in diaphragm of mdx mice over PMO alone.",
+        "drafting": "extractive"
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "Animal study, mice, 2026: weight-normalized doses as published: 15 mg/kg. In vivo , male mice were inoculated with Colon-26 (C26) carcinoma cells and treated daily with MOTS-c (15 mg/kg/2x Day, i.p.) or vehicle.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42266945"
+        ],
+        "source_excerpt": "In vivo , male mice were inoculated with Colon-26 (C26) carcinoma cells and treated daily with MOTS-c (15 mg/kg/2x Day, i.p.) or vehicle.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=6, 2026: weight-normalized doses as published: 5 mg/kg. In vivo studies demonstrated that daily intraperitoneal administration of R13A-MOTS-c (5 mg/kg for 2 weeks) effectively mitigated radiation-induced pulmonary inflammation, oxidative stress, and mitochondrial dysfunction in C57BL/6 mice exposed to 20 Gy…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42142418"
+        ],
+        "source_excerpt": "In vivo studies demonstrated that daily intraperitoneal administration of R13A-MOTS-c (5 mg/kg for 2 weeks) effectively mitigated radiation-induced pulmonary inflammation, oxidative stress, and mitochondrial dysfunction in C57BL/6 mice exposed to 20 Gy thoracic irradiation.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2026: weight-normalized doses as published: 0.25-0.7 mg/kg. Isolated Langendorff-perfused rat hearts underwent 30-min global ischemia and 60-min reperfusion with or without MOTS-c (0.25-0.7 mg/kg) delivered via Krebs-Henseleit buffer during the first 10 min of reperfusion.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41593376"
+        ],
+        "source_excerpt": "Isolated Langendorff-perfused rat hearts underwent 30-min global ischemia and 60-min reperfusion with or without MOTS-c (0.25-0.7 mg/kg) delivered via Krebs-Henseleit buffer during the first 10 min of reperfusion.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2025: weight-normalized doses as published: 15 mg/kg. Treated diabetic group received MOTS-c (15 mg/kg) daily injection for 3 weeks.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-40661667"
+        ],
+        "source_excerpt": "Treated diabetic group received MOTS-c (15 mg/kg) daily injection for 3 weeks.",
+        "drafting": "extractive"
+      }
+    ],
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, 2022: We failed to find any significant alteration of circulating MOTS-c -as measured using the commercially available competitive ELISA CEX132Hu- in response to 24 weeks of a neoadjuvant chemotherapy/trastuzumab regimen with or without daily metformin.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36490309"
+        ],
+        "source_excerpt": "We failed to find any significant alteration of circulating MOTS-c -as measured using the commercially available competitive ELISA CEX132Hu- in response to 24 weeks of a neoadjuvant chemotherapy/trastuzumab regimen with or without daily metformin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Cuyàs 2022",
+          "year": "2022",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "24 weeks",
+          "outcome": "We failed to find any significant alteration of circulating MOTS-c -as measured using the commercially available competitive ELISA CEX132Hu- in response to 24 weeks of a neoadjuvant chemotherapy/trastuzumab regimen…"
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2021: Post-exercise levels of MOTS-c among non-Hispanic White BCS were significantly associated with reductions in fat mass, body weight, HOMA-IR, CRP, and an increase in lean mass (p < 0.01).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34413391"
+        ],
+        "source_excerpt": "Post-exercise levels of MOTS-c among non-Hispanic White BCS were significantly associated with reductions in fat mass, body weight, HOMA-IR, CRP, and an increase in lean mass (p < 0.01).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Dieli-Conwright 2021",
+          "year": "2021",
+          "design": "Randomized controlled trial",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Post-exercise levels of MOTS-c among non-Hispanic White BCS were significantly associated with reductions in fat mass, body weight, HOMA-IR, CRP, and an increase in lean mass (p < 0.01)."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=10, 2021: MOTS-C levels showed a trend to increase after EE.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34351816"
+        ],
+        "source_excerpt": "MOTS-C levels showed a trend to increase after EE.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "von 2021",
+          "year": "2021",
+          "design": "Randomized controlled trial",
+          "n": 10,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "MOTS-C levels showed a trend to increase after EE."
+        }
+      },
+      {
+        "value": "Human study, humans, n=180, 2026: Circulating MOTS-c levels were significantly lower in patients with HT compared to controls ( p p p p Conclusions : Circulating MOTS-c levels are markedly reduced in patients with HT and are independently associated with insulin resistance and autoimmune burden.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42278864"
+        ],
+        "source_excerpt": "Circulating MOTS-c levels were significantly lower in patients with HT compared to controls ( p p p p Conclusions : Circulating MOTS-c levels are markedly reduced in patients with HT and are independently associated with insulin resistance and autoimmune burden.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Sonay 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": 180,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Circulating MOTS-c levels were significantly lower in patients with HT compared to controls ( p p p p Conclusions : Circulating MOTS-c levels are markedly reduced in patients with HT and are independently associated…"
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: Conversely, dialysate MOTS-c (dMOTS-c) were strongly and inversely correlated with PWV (R = - 0.717, p = 0.019) as well as systolic and diastolic blood pressure (R = -0.5, p Conclusion Ηigher urinary MOTS-c was linked to lower systemic oxidative stress, suggesting a potential protective role, and associated…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42126770"
+        ],
+        "source_excerpt": "Conversely, dialysate MOTS-c (dMOTS-c) were strongly and inversely correlated with PWV (R = - 0.717, p = 0.019) as well as systolic and diastolic blood pressure (R = -0.5, p Conclusion Ηigher urinary MOTS-c was linked to lower systemic oxidative stress, suggesting a potential protective role, and associated with greater arterial stiffness, potentially reflecting a compensatory response to vascular injury.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Musolino 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Conversely, dialysate MOTS-c (dMOTS-c) were strongly and inversely correlated with PWV (R = - 0.717, p = 0.019) as well as systolic and diastolic blood pressure (R = -0.5, p Conclusion Ηigher urinary MOTS-c was linked…"
+        }
+      },
+      {
+        "value": "Human study, humans, n=34, 2026: The MIRI group exhibited lower systolic blood pressure, preoperative thrombolysis in myocardial infarction (TIMI) grade, and HDL-C, but higher total ischemic time, door-to-balloon time, culprit vessel stenosis severity, Killip grade and adverse event incidence (all p p Conclusions : Postoperative…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42072458"
+        ],
+        "source_excerpt": "The MIRI group exhibited lower systolic blood pressure, preoperative thrombolysis in myocardial infarction (TIMI) grade, and HDL-C, but higher total ischemic time, door-to-balloon time, culprit vessel stenosis severity, Killip grade and adverse event incidence (all p p Conclusions : Postoperative peripheral serum MOTS-c levels represent an independent protective factor against MIRI in patients with acute myocardial infarction and suggest a potential predictive value for MIRI, although its clinical utility as a standalone predictor requires further validation through dynamic monitoring and larger-scale studies.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Peng 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": 34,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The MIRI group exhibited lower systolic blood pressure, preoperative thrombolysis in myocardial infarction (TIMI) grade, and HDL-C, but higher total ischemic time, door-to-balloon time, culprit vessel stenosis…"
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: The mean serum MOTS-c levels in the PCOS group were higher than in the control group; however, this difference did not reach statistical significance (p = 0.059).",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41945630"
+        ],
+        "source_excerpt": "The mean serum MOTS-c levels in the PCOS group were higher than in the control group; however, this difference did not reach statistical significance (p = 0.059).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Filibeli 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The mean serum MOTS-c levels in the PCOS group were higher than in the control group; however, this difference did not reach statistical significance (p = 0.059)."
+        }
+      },
+      {
+        "value": "Human study, humans, 2026: Women with PCOS exhibited lower circulating MOTS-c concentrations compared with controls (220.2 ± 147.6 pg/mL vs. 498.3 ± 224.4 pg/mL, p < 0.001).",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41680431"
+        ],
+        "source_excerpt": "Women with PCOS exhibited lower circulating MOTS-c concentrations compared with controls (220.2 ± 147.6 pg/mL vs. 498.3 ± 224.4 pg/mL, p < 0.001).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kutuk 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Women with PCOS exhibited lower circulating MOTS-c concentrations compared with controls (220.2 ± 147.6 pg/mL vs. 498.3 ± 224.4 pg/mL, p < 0.001)."
+        }
+      },
+      {
+        "value": "Human study, humans, n=6, 2026: Circulating MOTS-c levels were significantly higher in obese compared to lean individuals (273 ± 56 vs. 223 ± 50 pg/mL; P P = 0.035 and P = 0.032, respectively).",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41551324"
+        ],
+        "source_excerpt": "Circulating MOTS-c levels were significantly higher in obese compared to lean individuals (273 ± 56 vs. 223 ± 50 pg/mL; P P = 0.035 and P = 0.032, respectively).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yoon 2026",
+          "year": "2026",
+          "design": "Human study",
+          "n": 6,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Circulating MOTS-c levels were significantly higher in obese compared to lean individuals (273 ± 56 vs. 223 ± 50 pg/mL; P P = 0.035 and P = 0.032, respectively)."
+        }
+      },
+      {
+        "value": "Human study, humans, 2025: Patients who responded to treatment exhibited a substantial post-therapy increase in MOTS-c levels, while refractory cases showed little to no change.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41479490"
+        ],
+        "source_excerpt": "Patients who responded to treatment exhibited a substantial post-therapy increase in MOTS-c levels, while refractory cases showed little to no change.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Erol 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Patients who responded to treatment exhibited a substantial post-therapy increase in MOTS-c levels, while refractory cases showed little to no change."
+        }
+      },
+      {
+        "value": "Human study, humans, n=85, 2025: We found no significant difference in serum MOTS-c levels between individuals with obesity and those with normal body mass index (14.33 ± 3.76 pg/mL versus 13.67 ± 3.44 pg/mL; p = 0.395).",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41004666"
+        ],
+        "source_excerpt": "We found no significant difference in serum MOTS-c levels between individuals with obesity and those with normal body mass index (14.33 ± 3.76 pg/mL versus 13.67 ± 3.44 pg/mL; p = 0.395).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ozkaya 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": 85,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "We found no significant difference in serum MOTS-c levels between individuals with obesity and those with normal body mass index (14.33 ± 3.76 pg/mL versus 13.67 ± 3.44 pg/mL; p = 0.395)."
+        }
+      },
+      {
+        "value": "Human study, humans, n=17, 2025: We observed significantly reduced levels of both proteins in patients, suggesting that substantial mitochondrial dysfunction occurs in AVD patients, independent of sex or age, but directly related to the disease.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40104672"
+        ],
+        "source_excerpt": "We observed significantly reduced levels of both proteins in patients, suggesting that substantial mitochondrial dysfunction occurs in AVD patients, independent of sex or age, but directly related to the disease.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Sánchez-Quintero 2025",
+          "year": "2025",
+          "design": "Human study",
+          "n": 17,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "We observed significantly reduced levels of both proteins in patients, suggesting that substantial mitochondrial dysfunction occurs in AVD patients, independent of sex or age, but directly related to the disease."
+        }
+      },
+      {
+        "value": "Human study, humans, 2024: These findings suggest disrupted expression of MOTS-c in the spectrum of adrenal diseases, which might be caused by mechanisms involving increased mitochondrial dysfunction and structural changes in the tissue associated with disease progression.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39201408"
+        ],
+        "source_excerpt": "These findings suggest disrupted expression of MOTS-c in the spectrum of adrenal diseases, which might be caused by mechanisms involving increased mitochondrial dysfunction and structural changes in the tissue associated with disease progression.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kamiński 2024",
+          "year": "2024",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "intravenous",
+          "duration": "not stated in abstract",
+          "outcome": "These findings suggest disrupted expression of MOTS-c in the spectrum of adrenal diseases, which might be caused by mechanisms involving increased mitochondrial dysfunction and structural changes in the tissue…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: We demonstrate that MOTS-c (mitochondrial open reading frame from the 12 S rRNA type-c) is a mitochondrial-encoded amphipathic and cationic peptide with direct antibacterial and immunomodulatory functions, consistent with the peptide chemistry and functions of known HDPs.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42611943"
+        ],
+        "source_excerpt": "We demonstrate that MOTS-c (mitochondrial open reading frame from the 12 S rRNA type-c) is a mitochondrial-encoded amphipathic and cationic peptide with direct antibacterial and immunomodulatory functions, consistent with the peptide chemistry and functions of known HDPs.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Rice 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, rats, n=6, 2026: MOTS-c treatment improved post-ischemic mechanical recovery, attenuated oxidative stress, partially preserved mitochondrial enzyme activities and membrane potential, and mitigated reductions in mtDNA copy number and mitochondrial gene expression.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42228044"
+        ],
+        "source_excerpt": "MOTS-c treatment improved post-ischemic mechanical recovery, attenuated oxidative stress, partially preserved mitochondrial enzyme activities and membrane potential, and mitigated reductions in mtDNA copy number and mitochondrial gene expression.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Santhanam 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 6,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "MOTS-c treatment improved post-ischemic mechanical recovery, attenuated oxidative stress, partially preserved mitochondrial enzyme activities and membrane potential, and mitigated reductions in mtDNA copy number and…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: In vitro , MOTS-c increased PGC-1α mRNA (+84.6%) and AMPK phosphorylation (+103.1%).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42266945"
+        ],
+        "source_excerpt": "In vitro , MOTS-c increased PGC-1α mRNA (+84.6%) and AMPK phosphorylation (+103.1%).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Jamnick 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "15 mg/kg",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "In vitro , MOTS-c increased PGC-1α mRNA (+84.6%) and AMPK phosphorylation (+103.1%)."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: MOTS-c treatment significantly reduced fasting blood glucose and circulating C-reactive protein levels, while selectively modulating plasma inflammatory cytokines, including interleukin (IL)-10 and IL-1β.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42321010"
+        ],
+        "source_excerpt": "MOTS-c treatment significantly reduced fasting blood glucose and circulating C-reactive protein levels, while selectively modulating plasma inflammatory cytokines, including interleukin (IL)-10 and IL-1β.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Mills 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "MOTS-c treatment significantly reduced fasting blood glucose and circulating C-reactive protein levels, while selectively modulating plasma inflammatory cytokines, including interleukin (IL)-10 and IL-1β."
+        }
+      },
+      {
+        "value": "Animal study, rats, mice, 2026: Key findings We found that hyperoxia exposure in neonatal mice led to significant cardiac hypertrophy, fibrosis, and dysfunction, concomitant with decreased serum MOTS-c content.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42128272"
+        ],
+        "source_excerpt": "Key findings We found that hyperoxia exposure in neonatal mice led to significant cardiac hypertrophy, fibrosis, and dysfunction, concomitant with decreased serum MOTS-c content.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Li 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats, Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Key findings We found that hyperoxia exposure in neonatal mice led to significant cardiac hypertrophy, fibrosis, and dysfunction, concomitant with decreased serum MOTS-c content."
+        }
+      },
+      {
+        "value": "Animal study, mice, n=6, 2026: Mechanistically, R13A-MOTS-c activated the Nrf2 signaling pathway, as evidenced by increased nuclear translocation of Nrf2 and upregulation of its downstream targets gene.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42142418"
+        ],
+        "source_excerpt": "Mechanistically, R13A-MOTS-c activated the Nrf2 signaling pathway, as evidenced by increased nuclear translocation of Nrf2 and upregulation of its downstream targets gene.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhang 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 6,
+          "species": "Mice",
+          "dose": "5 mg/kg",
+          "route": "intraperitoneal",
+          "duration": "2 weeks",
+          "outcome": "Mechanistically, R13A-MOTS-c activated the Nrf2 signaling pathway, as evidenced by increased nuclear translocation of Nrf2 and upregulation of its downstream targets gene."
+        }
+      },
+      {
+        "value": "Animal study, rats, mice, n=36, 2026: In vivo, HNG or MOTS-c treatment reduced AF inducibility and attenuated AngII-induced atrial fibrosis and hypertrophy.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42193373"
+        ],
+        "source_excerpt": "In vivo, HNG or MOTS-c treatment reduced AF inducibility and attenuated AngII-induced atrial fibrosis and hypertrophy.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Liao 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 36,
+          "species": "Rats, Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In vivo, HNG or MOTS-c treatment reduced AF inducibility and attenuated AngII-induced atrial fibrosis and hypertrophy."
+        }
+      },
+      {
+        "value": "Animal study, rats, n=16, 2026: MOTS-c showed significantly higher expression in ZF/ZR vs. ZG.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41811086"
+        ],
+        "source_excerpt": "MOTS-c showed significantly higher expression in ZF/ZR vs. ZG.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Blatkiewicz 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 16,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "MOTS-c showed significantly higher expression in ZF/ZR vs. ZG."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: Both approaches led to marked enhancements in glucose and lipid metabolism, lowered collagen buildup, and bettered both systolic and diastolic heart functions.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41710402"
+        ],
+        "source_excerpt": "Both approaches led to marked enhancements in glucose and lipid metabolism, lowered collagen buildup, and bettered both systolic and diastolic heart functions.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Li 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Both approaches led to marked enhancements in glucose and lipid metabolism, lowered collagen buildup, and bettered both systolic and diastolic heart functions."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: Lactate dehydrogenase release decreased by 65%.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41593376"
+        ],
+        "source_excerpt": "Lactate dehydrogenase release decreased by 65%.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Santhanam 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "0.25-0.7 mg/kg; 0.5 mg",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Lactate dehydrogenase release decreased by 65%."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2026: Valproic acid exposure led to impaired sociability, repetitive behaviors, anxiety, cerebellar Purkinje cell loss, and increased oxidative stress and neuronal damage in the prefrontal cortex.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41706383"
+        ],
+        "source_excerpt": "Valproic acid exposure led to impaired sociability, repetitive behaviors, anxiety, cerebellar Purkinje cell loss, and increased oxidative stress and neuronal damage in the prefrontal cortex.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Güvenir 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "Valproic acid exposure led to impaired sociability, repetitive behaviors, anxiety, cerebellar Purkinje cell loss, and increased oxidative stress and neuronal damage in the prefrontal cortex."
+        }
+      },
+      {
+        "value": "Animal study, mice, n=6, 2026: Furthermore, MOTS-c treatment significantly restored GSH content, diminished reactive oxygen species (ROS) production, and oxidative stress.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-41764620"
+        ],
+        "source_excerpt": "Furthermore, MOTS-c treatment significantly restored GSH content, diminished reactive oxygen species (ROS) production, and oxidative stress.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Li 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": 6,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "Furthermore, MOTS-c treatment significantly restored GSH content, diminished reactive oxygen species (ROS) production, and oxidative stress."
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -47,15 +855,43 @@
       "review": 0,
       "unclassified": 2
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 40,
+      "claims": 33,
+      "evidence_table_rows": 25
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports dose-escalation schedules for MOTS-c.",
+    "No study in this record's ledger reports exclusion criteria for MOTS-c."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has MOTS-c been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 1 clinical trials and 4 randomized controlled trials naming MOTS-c or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for MOTS-c?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is MOTS-c an approved medicine?",
+      "answer": "No ChEMBL record matches MOTS-c or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has MOTS-c been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "pmid-42611943",
@@ -367,7 +1203,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 79.6,
   "review": {
     "author": "",
     "reviewer": "",
@@ -378,6 +1214,14 @@
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 40 ledger sources by scripts/draft_claims.py: 38 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 40 ledger sources by scripts/draft_claims.py: 33 claims, 25 evidence-table rows. Status researched -> draft."
     }
   ]
 }

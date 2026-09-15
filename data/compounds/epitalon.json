@@ -6,26 +6,694 @@
     "epithalon"
   ],
   "slug": "epitalon",
-  "status": "researched",
+  "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Research record for Epitalon. Europe PMC indexes 170 publications, including 5 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "summary": "Epitalon is a peptide in the bioregulator short peptides class (telomerase activation claimed; mechanism unconfirmed). Europe PMC indexes 170 publications naming it or a listed alias in a title or abstract, including 5 randomized controlled trials and 5 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Epitalon: what the research shows",
-    "description": "Cited overview of published Epitalon research: 170 indexed publications, 5 randomized controlled trials. Evidence tier on every claim."
+    "description": "Epitalon research, cited: 170 indexed publications, 5 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "attributes": {
-    "routes_studied": [],
-    "study_doses": [],
+    "routes_studied": [
+      {
+        "value": "Randomized controlled trial, humans, n=100, 1999: administration by intramuscular route reported. The modality also included immunotherapy with epithalamin 100 mg, intramuscularly, neoadjuvant intraarterial polychemotherapy with 5-fluorouracil 2 g/m2 and cisplatin 100 mg/m2, concurrent radiotherapy with an interval and 4-6 courses of…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10532103"
+        ],
+        "source_excerpt": "The modality also included immunotherapy with epithalamin 100 mg, intramuscularly, neoadjuvant intraarterial polychemotherapy with 5-fluorouracil 2 g/m2 and cisplatin 100 mg/m2, concurrent radiotherapy with an interval and 4-6 courses of adjuvant polychemotherapy.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human study, humans, 2020: administration by oral route reported. Issues related to the immunopharmacological effect and clinical use of natural and synthetic peptide thymomimetics (thymalin, thymogen, vilon, epithalamin, cortexin) and peptide bioregulators from cartilaginous (sigumir, chondrolux) and other tissues in case of trauma, as…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-32362097"
+        ],
+        "source_excerpt": "Issues related to the immunopharmacological effect and clinical use of natural and synthetic peptide thymomimetics (thymalin, thymogen, vilon, epithalamin, cortexin) and peptide bioregulators from cartilaginous (sigumir, chondrolux) and other tissues in case of trauma, as well as inflammatory, inflammatory and other pathological processes of tissues of the oral cavity and maxillofacial region.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2007: administration by intranasal route reported. Intranasal administration of epitalon was selected as a noninvasive means of applying the agent to the CNS by bypassing the blood-brain barrier.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17955380"
+        ],
+        "source_excerpt": "Intranasal administration of epitalon was selected as a noninvasive means of applying the agent to the CNS by bypassing the blood-brain barrier.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2005: administration by subcutaneous route reported. (prone) and SAMR-1 (resistant) were exposed 5 times a week monthly to melatonin (with drinking water 20mg/ml during the night hours) or to s.c. injections of epitalon (Ala-Glu-Asp-Gly) at a single dose 1mkg/mouse.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-15909815"
+        ],
+        "source_excerpt": "(prone) and SAMR-1 (resistant) were exposed 5 times a week monthly to melatonin (with drinking water 20mg/ml during the night hours) or to s.c. injections of epitalon (Ala-Glu-Asp-Gly) at a single dose 1mkg/mouse.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=54, 2003: administration by subcutaneous route reported. From the age of 3 months until their natural deaths, female outbred Swiss-derived SHR mice were subcutaneously injected on 5 consecutive days every month with 0.1 ml of normal saline (control) or with 1.0 microg/mouse (approximately 30-40 microg/kg) of…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-14501183"
+        ],
+        "source_excerpt": "From the age of 3 months until their natural deaths, female outbred Swiss-derived SHR mice were subcutaneously injected on 5 consecutive days every month with 0.1 ml of normal saline (control) or with 1.0 microg/mouse (approximately 30-40 microg/kg) of tetrapeptide Epitalon (Ala-Glu-Asp-Gly) dissolved in 0.1 ml saline.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2002: administration by intranasal route reported. The content of C-Fos protein was tested in rat pinealocytes in the norm and stress and in case of intranasal administration of Epitalon (Ala-Glu-Asp-Gly), which regulated pineal secretion processes, presumably, via protooncogenes.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12500171"
+        ],
+        "source_excerpt": "The content of C-Fos protein was tested in rat pinealocytes in the norm and stress and in case of intranasal administration of Epitalon (Ala-Glu-Asp-Gly), which regulated pineal secretion processes, presumably, via protooncogenes.",
+        "drafting": "extractive"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "Randomized controlled trial, humans, n=100, 1999: doses stated in the abstract: 100 mg. The modality also included immunotherapy with epithalamin 100 mg, intramuscularly, neoadjuvant intraarterial polychemotherapy with 5-fluorouracil 2 g/m2 and cisplatin 100 mg/m2, concurrent radiotherapy with an interval and 4-6 courses of adjuvant…",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10532103"
+        ],
+        "source_excerpt": "The modality also included immunotherapy with epithalamin 100 mg, intramuscularly, neoadjuvant intraarterial polychemotherapy with 5-fluorouracil 2 g/m2 and cisplatin 100 mg/m2, concurrent radiotherapy with an interval and 4-6 courses of adjuvant polychemotherapy.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 1999: doses stated in the abstract: 2.5 mg. The effects of a single-shot intraperitoneally administration of melatonin in a dose of 1 mg per kg body weight and epithalamin in a dose of 2.5 mg per kg body weight on the activities of Na+, K(+)-ATPase and 5'-nucleotidase were investigated in the forebrain of juvenile…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-10820844"
+        ],
+        "source_excerpt": "The effects of a single-shot intraperitoneally administration of melatonin in a dose of 1 mg per kg body weight and epithalamin in a dose of 2.5 mg per kg body weight on the activities of Na+, K(+)-ATPase and 5'-nucleotidase were investigated in the forebrain of juvenile male white rats under the acute hypobaric hypoxia.",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
-    "interactions": [],
+    "interactions": [
+      {
+        "value": "Animal study, mice, 2002: The concomitant effect of Epitalon was determined according to its influence on thymocyte proliferation stimulated by concanavalin A at a sub-optimal dose and recombinant IL-1beta.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12500162"
+        ],
+        "source_excerpt": "The concomitant effect of Epitalon was determined according to its influence on thymocyte proliferation stimulated by concanavalin A at a sub-optimal dose and recombinant IL-1beta.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2000: The influence of co-administration of alpha-methyl-p-tyrosine (inhibitor of catecholamine synthesis) and alpha-(+) beta-adrenergic antagonists under conditions of acute hypobaric hypoxia or pretreatment with epithalamin on cyclic nucleotide content in the pineal gland of juvenile male albino rats was…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-10802883"
+        ],
+        "source_excerpt": "The influence of co-administration of alpha-methyl-p-tyrosine (inhibitor of catecholamine synthesis) and alpha-(+) beta-adrenergic antagonists under conditions of acute hypobaric hypoxia or pretreatment with epithalamin on cyclic nucleotide content in the pineal gland of juvenile male albino rats was investigated.",
+        "drafting": "extractive"
+      }
+    ],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
+    "adverse_events": [
+      {
+        "value": "Animal study, mice, 2005: As age advanced, the incidence of irregular estrous cycles increased both in SAMP-1 and SAMR-1, whereas the treatment with both melatonin and epitalon prevented such disturbances.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-15909815"
+        ],
+        "source_excerpt": "As age advanced, the incidence of irregular estrous cycles increased both in SAMP-1 and SAMR-1, whereas the treatment with both melatonin and epitalon prevented such disturbances.",
+        "drafting": "extractive"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Animal study, rats, 2007: At least the first peak of increased neuron activity following exposure to epitalon was found to be associated with the direct action of the peptide on cortical cells.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17955380"
+        ],
+        "source_excerpt": "At least the first peak of increased neuron activity following exposure to epitalon was found to be associated with the direct action of the peptide on cortical cells.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, 2005: Melatonin or epitalon treatment was followed by longer mean and maximum survival in the 10% of the last survivors among SAMP-1.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-15909815"
+        ],
+        "source_excerpt": "Melatonin or epitalon treatment was followed by longer mean and maximum survival in the 10% of the last survivors among SAMP-1.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, mice, n=54, 2003: The results of this study show that treatment with Epitalon did not influence food consumption, body weight or mean life span of mice.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-14501183"
+        ],
+        "source_excerpt": "The results of this study show that treatment with Epitalon did not influence food consumption, body weight or mean life span of mice.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2002: All animals were intranasally administered with Epitalon, the last infusion made in two hours before the biopsy.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12500171"
+        ],
+        "source_excerpt": "All animals were intranasally administered with Epitalon, the last infusion made in two hours before the biopsy.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 1999: The effects of a single-shot intraperitoneally administration of melatonin in a dose of 1 mg per kg body weight and epithalamin in a dose of 2.5 mg per kg body weight on the activities of Na+, K(+)-ATPase and 5'-nucleotidase were investigated in the forebrain of juvenile male white rats under the acute…",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-10820844"
+        ],
+        "source_excerpt": "The effects of a single-shot intraperitoneally administration of melatonin in a dose of 1 mg per kg body weight and epithalamin in a dose of 2.5 mg per kg body weight on the activities of Na+, K(+)-ATPase and 5'-nucleotidase were investigated in the forebrain of juvenile male white rats under the acute hypobaric hypoxia.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In vitro study, humans, 2025: Epitalon has been the subject of several anti-aging studies however, quantitative data on the biomolecular pathway leading to telomere length increase, hTERT mRNA expression, telomerase enzyme activity, and ALT activation have not been extensively studied in different cell types.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-40908429"
+        ],
+        "source_excerpt": "Epitalon has been the subject of several anti-aging studies however, quantitative data on the biomolecular pathway leading to telomere length increase, hTERT mRNA expression, telomerase enzyme activity, and ALT activation have not been extensively studied in different cell types.",
+        "drafting": "extractive"
+      }
+    ],
     "reported_timelines": [],
     "storage": [],
-    "study_durations": [],
+    "study_durations": [
+      {
+        "value": "Randomized controlled trial, humans, n=100, 1999: durations stated: 3 year. The adjuvant polychemotherapy component was thought to be responsible for a 25.4% increase in one-year survival and 12.5%--in 3-year survival.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10532103"
+        ],
+        "source_excerpt": "The adjuvant polychemotherapy component was thought to be responsible for a 25.4% increase in one-year survival and 12.5%--in 3-year survival.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2003: durations stated: 6 months; 5 weeks. Rats in group 2 were treated with Epitalon at a dose of 1 micro g, five times a week, for 6 months, from the first injection of DMH till the end of the experiment.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12964022"
+        ],
+        "source_excerpt": "Rats in group 2 were treated with Epitalon at a dose of 1 micro g, five times a week, for 6 months, from the first injection of DMH till the end of the experiment.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2002: durations stated: 1 month. Vilon (Lys-Glu) and Epithalon (Ala-Glu-Asp-Gly) administered orally for 1 month improved transport characteristics of the small intestine in aged rats.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12420071"
+        ],
+        "source_excerpt": "Vilon (Lys-Glu) and Epithalon (Ala-Glu-Asp-Gly) administered orally for 1 month improved transport characteristics of the small intestine in aged rats.",
+        "drafting": "extractive"
+      }
+    ],
     "weight_normalized_doses": [],
-    "regulatory_status": []
+    "regulatory_status": [],
+    "evidence_table": [
+      {
+        "value": "Randomized controlled trial, humans, n=100, 1999: As a consequence, short-term results improved by 18.8% in cases tumor size under T3; end-results--by 14%.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10532103"
+        ],
+        "source_excerpt": "As a consequence, short-term results improved by 18.8% in cases tumor size under T3; end-results--by 14%.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Vishnevskaia 1999",
+          "year": "1999",
+          "design": "Randomized controlled trial",
+          "n": 100,
+          "species": "Humans",
+          "dose": "100 mg",
+          "route": "intramuscular",
+          "duration": "3 year",
+          "outcome": "As a consequence, short-term results improved by 18.8% in cases tumor size under T3; end-results--by 14%."
+        }
+      },
+      {
+        "value": "Human study, humans, 2020: Issues related to the immunopharmacological effect and clinical use of natural and synthetic peptide thymomimetics (thymalin, thymogen, vilon, epithalamin, cortexin) and peptide bioregulators from cartilaginous (sigumir, chondrolux) and other tissues in case of trauma, as well as inflammatory, inflammatory and…",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-32362097"
+        ],
+        "source_excerpt": "Issues related to the immunopharmacological effect and clinical use of natural and synthetic peptide thymomimetics (thymalin, thymogen, vilon, epithalamin, cortexin) and peptide bioregulators from cartilaginous (sigumir, chondrolux) and other tissues in case of trauma, as well as inflammatory, inflammatory and other pathological processes of tissues of the oral cavity and maxillofacial region.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Pinelis 2020",
+          "year": "2020",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "oral",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Human study, humans, 2017: Similar effect was obtained early for medical drug Epithalamin.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-28849889"
+        ],
+        "source_excerpt": "Similar effect was obtained early for medical drug Epithalamin.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Trofimova 2017",
+          "year": "2017",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Human study, humans, 2007: On the other hand, the rhythms of changes in the thymic serum factor and hydrocortisone were retained in patients with chronic coronary disease after 6 courses of epithalamin by the optimal protocol (period of observation 30 months) and blood T cell count increased in the fall.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-18214303"
+        ],
+        "source_excerpt": "On the other hand, the rhythms of changes in the thymic serum factor and hydrocortisone were retained in patients with chronic coronary disease after 6 courses of epithalamin by the optimal protocol (period of observation 30 months) and blood T cell count increased in the fall.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Labunets 2007",
+          "year": "2007",
+          "design": "Human study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "On the other hand, the rhythms of changes in the thymic serum factor and hydrocortisone were retained in patients with chronic coronary disease after 6 courses of epithalamin by the optimal protocol (period of…"
+        }
+      },
+      {
+        "value": "Animal study, mice, 2026: Of these, LCP2 expression was significantly reduced in the plasma of R/R NKTCL patients and in chemoresistant cells, correlating inversely with senescence marker SA-β-gal.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42209466"
+        ],
+        "source_excerpt": "Of these, LCP2 expression was significantly reduced in the plasma of R/R NKTCL patients and in chemoresistant cells, correlating inversely with senescence marker SA-β-gal.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhang 2026",
+          "year": "2026",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Of these, LCP2 expression was significantly reduced in the plasma of R/R NKTCL patients and in chemoresistant cells, correlating inversely with senescence marker SA-β-gal."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2022: We found that 0.1mM Epitalon reduced intracellular reactive oxygen species.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-35413689"
+        ],
+        "source_excerpt": "We found that 0.1mM Epitalon reduced intracellular reactive oxygen species.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Yue 2022",
+          "year": "2022",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "We found that 0.1mM Epitalon reduced intracellular reactive oxygen species."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2008: They also elevate the stationary level of intracellular reactive oxygen species and at the same time decrease (all excepting epitalon) percent of dead cells in neuronal population.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-18546826"
+        ],
+        "source_excerpt": "They also elevate the stationary level of intracellular reactive oxygen species and at the same time decrease (all excepting epitalon) percent of dead cells in neuronal population.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kozina 2008",
+          "year": "2008",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "They also elevate the stationary level of intracellular reactive oxygen species and at the same time decrease (all excepting epitalon) percent of dead cells in neuronal population."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2008: The maximal number of significant changes in antioxidant system parameters was found under continuous light exposure.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-19432171"
+        ],
+        "source_excerpt": "The maximal number of significant changes in antioxidant system parameters was found under continuous light exposure.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Il'ina 2008",
+          "year": "2008",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The maximal number of significant changes in antioxidant system parameters was found under continuous light exposure."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2007: At least the first peak of increased neuron activity following exposure to epitalon was found to be associated with the direct action of the peptide on cortical cells.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17955380"
+        ],
+        "source_excerpt": "At least the first peak of increased neuron activity following exposure to epitalon was found to be associated with the direct action of the peptide on cortical cells.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Sibarov 2007",
+          "year": "2007",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "intranasal",
+          "duration": "not stated in abstract",
+          "outcome": "At least the first peak of increased neuron activity following exposure to epitalon was found to be associated with the direct action of the peptide on cortical cells."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2005: The mean life span of the 10% of the last survivors among treated SAMP-1 was shorter than that of SAMR-1, aging rate increased and mortality doubling time decreased.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-15909815"
+        ],
+        "source_excerpt": "The mean life span of the 10% of the last survivors among treated SAMP-1 was shorter than that of SAMR-1, aging rate increased and mortality doubling time decreased.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Anisimov 2005",
+          "year": "2005",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "The mean life span of the 10% of the last survivors among treated SAMP-1 was shorter than that of SAMR-1, aging rate increased and mortality doubling time decreased."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2003: Mitotic activity of tumor cells was significantly inhibited by Epitalon when the treatment was given throughout the experiment (group 2).",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12964022"
+        ],
+        "source_excerpt": "Mitotic activity of tumor cells was significantly inhibited by Epitalon when the treatment was given throughout the experiment (group 2).",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Kossoy 2003",
+          "year": "2003",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "6 months; 5 weeks",
+          "outcome": "Mitotic activity of tumor cells was significantly inhibited by Epitalon when the treatment was given throughout the experiment (group 2)."
+        }
+      },
+      {
+        "value": "Animal study, mice, n=54, 2003: We also found that treatment with Epitalon did not influence total spontaneous tumor incidence, but inhibited the development of leukemia (6.0-fold), as compared with the control group.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-14501183"
+        ],
+        "source_excerpt": "We also found that treatment with Epitalon did not influence total spontaneous tumor incidence, but inhibited the development of leukemia (6.0-fold), as compared with the control group.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Anisimov 2003",
+          "year": "2003",
+          "design": "Animal study",
+          "n": 54,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "outcome": "We also found that treatment with Epitalon did not influence total spontaneous tumor incidence, but inhibited the development of leukemia (6.0-fold), as compared with the control group."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2002: The dilation of capillaries and pericapillary space induced by an osmotic stress was partially reduced by the intranasal infusions of Epitalon.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12500171"
+        ],
+        "source_excerpt": "The dilation of capillaries and pericapillary space induced by an osmotic stress was partially reduced by the intranasal infusions of Epitalon.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Sibarov 2002",
+          "year": "2002",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "intranasal",
+          "duration": "not stated in abstract",
+          "outcome": "The dilation of capillaries and pericapillary space induced by an osmotic stress was partially reduced by the intranasal infusions of Epitalon."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2002: The investigation demonstrated that Epitalon increased thymocyte proliferative activity, both enhanced under rotation stress and suppressed under combined one.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12500162"
+        ],
+        "source_excerpt": "The investigation demonstrated that Epitalon increased thymocyte proliferative activity, both enhanced under rotation stress and suppressed under combined one.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Khavinson 2002",
+          "year": "2002",
+          "design": "Animal study",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The investigation demonstrated that Epitalon increased thymocyte proliferative activity, both enhanced under rotation stress and suppressed under combined one."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2002: Glycine absorption increased only in the proximal intestinal segment under the effect of Epithalon.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12420071"
+        ],
+        "source_excerpt": "Glycine absorption increased only in the proximal intestinal segment under the effect of Epithalon.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Khavinson 2002",
+          "year": "2002",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "oral",
+          "duration": "1 month",
+          "outcome": "Glycine absorption increased only in the proximal intestinal segment under the effect of Epithalon."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2001: Immunohistochemical and morphometric analysis showed that epithalamin and epithalon produced similar effects on the functional morphology of the spleen in pinealectomized rats.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11865335"
+        ],
+        "source_excerpt": "Immunohistochemical and morphometric analysis showed that epithalamin and epithalon produced similar effects on the functional morphology of the spleen in pinealectomized rats.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Khavinson 2001",
+          "year": "2001",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "see source"
+        }
+      },
+      {
+        "value": "Animal study, rats, 2000: Administration of epithalamin caused an increase of pineal cGMP.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-10802883"
+        ],
+        "source_excerpt": "Administration of epithalamin caused an increase of pineal cGMP.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zamorskiĭ 2000",
+          "year": "2000",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Administration of epithalamin caused an increase of pineal cGMP."
+        }
+      },
+      {
+        "value": "Animal study, rats, 1999: The melatonin and epithalamin administration against the background of acute hypoxia prevented an acute hypoxia inducing decrease in the activity of Na+, K(+)-ATPase as well as increased in the activity of 5'-nucleotidase.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-10820844"
+        ],
+        "source_excerpt": "The melatonin and epithalamin administration against the background of acute hypoxia prevented an acute hypoxia inducing decrease in the activity of Na+, K(+)-ATPase as well as increased in the activity of 5'-nucleotidase.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zamors'kyĭ 1999",
+          "year": "1999",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "2.5 mg",
+          "route": "intraperitoneal",
+          "duration": "not stated in abstract",
+          "outcome": "The melatonin and epithalamin administration against the background of acute hypoxia prevented an acute hypoxia inducing decrease in the activity of Na+, K(+)-ATPase as well as increased in the activity of…"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2025: Epitalon has been the subject of several anti-aging studies however, quantitative data on the biomolecular pathway leading to telomere length increase, hTERT mRNA expression, telomerase enzyme activity, and ALT activation have not been extensively studied in different cell types.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-40908429"
+        ],
+        "source_excerpt": "Epitalon has been the subject of several anti-aging studies however, quantitative data on the biomolecular pathway leading to telomere length increase, hTERT mRNA expression, telomerase enzyme activity, and ALT activation have not been extensively studied in different cell types.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Al-Dulaimi 2025",
+          "year": "2025",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Epitalon has been the subject of several anti-aging studies however, quantitative data on the biomolecular pathway leading to telomere length increase, hTERT mRNA expression, telomerase enzyme activity, and ALT…"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2025: These findings support using the antioxidant agent Epitalon as a promising therapeutic strategy for DR to improve retinal wound healing compromised by hyperglycemia.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-40493162"
+        ],
+        "source_excerpt": "These findings support using the antioxidant agent Epitalon as a promising therapeutic strategy for DR to improve retinal wound healing compromised by hyperglycemia.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Gatta 2025",
+          "year": "2025",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "These findings support using the antioxidant agent Epitalon as a promising therapeutic strategy for DR to improve retinal wound healing compromised by hyperglycemia."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2022: Lastly, by incubating the THP1 cells, treated with the peptides, on a layer of activated endothelial cells (HUVECs activated by LPS), we observed a reduction in cell adhesion, a typical pro-inflammatory mechanism.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-35408963"
+        ],
+        "source_excerpt": "Lastly, by incubating the THP1 cells, treated with the peptides, on a layer of activated endothelial cells (HUVECs activated by LPS), we observed a reduction in cell adhesion, a typical pro-inflammatory mechanism.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Avolio 2022",
+          "year": "2022",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Lastly, by incubating the THP1 cells, treated with the peptides, on a layer of activated endothelial cells (HUVECs activated by LPS), we observed a reduction in cell adhesion, a typical pro-inflammatory mechanism."
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2020: AEDG peptide increased Nestin, GAP43, β Tubulin III and Doublecortin mRNA expression by 1.6-1.8 times in hGMSCs.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-32019204"
+        ],
+        "source_excerpt": "AEDG peptide increased Nestin, GAP43, β Tubulin III and Doublecortin mRNA expression by 1.6-1.8 times in hGMSCs.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Khavinson 2020",
+          "year": "2020",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "AEDG peptide increased Nestin, GAP43, β Tubulin III and Doublecortin mRNA expression by 1.6-1.8 times in hGMSCs."
+        }
+      },
+      {
+        "value": "In vitro study, 2017: Exogenous short biologically active peptides epitalon (Ala-Glu-Asp-Gly), bronchogen (Ala-Glu-Asp-Leu), and vilon (Lys-Glu) at concentrations 10 -7 -10 -9 M significantly influence growth, development, and differentiation of tobacco (Nicotiana tabacum) callus cultures.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-28371610"
+        ],
+        "source_excerpt": "Exogenous short biologically active peptides epitalon (Ala-Glu-Asp-Gly), bronchogen (Ala-Glu-Asp-Leu), and vilon (Lys-Glu) at concentrations 10 -7 -10 -9 M significantly influence growth, development, and differentiation of tobacco (Nicotiana tabacum) callus cultures.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Fedoreyeva 2017",
+          "year": "2017",
+          "design": "In vitro study",
+          "n": null,
+          "species": "not indexed",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "Exogenous short biologically active peptides epitalon (Ala-Glu-Asp-Gly), bronchogen (Ala-Glu-Asp-Leu), and vilon (Lys-Glu) at concentrations 10 -7 -10 -9 M significantly influence growth, development, and…"
+        }
+      },
+      {
+        "value": "In vitro study, humans, 2013: As for epithalon, it appears that was shown a pronounced protective effect after treatment, on the test of chromosome aberrations, by reducing both overall mean frequency aberrant cells and indicators for all individuals.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-24323970"
+        ],
+        "source_excerpt": "As for epithalon, it appears that was shown a pronounced protective effect after treatment, on the test of chromosome aberrations, by reducing both overall mean frequency aberrant cells and indicators for all individuals.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Dzhokhadze 2013",
+          "year": "2013",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "As for epithalon, it appears that was shown a pronounced protective effect after treatment, on the test of chromosome aberrations, by reducing both overall mean frequency aberrant cells and indicators for all…"
+        }
+      }
+    ]
   },
   "evidence_summary": {
     "retrieved_at": "2026-09-14",
@@ -47,15 +715,46 @@
       "review": 0,
       "unclassified": 0
     },
-    "chembl": null
+    "chembl": null,
+    "drafting": {
+      "method": "extractive",
+      "script": "scripts/draft_claims.py",
+      "date": "2026-09-14",
+      "papers_analysed": 29,
+      "claims": 20,
+      "evidence_table_rows": 24
+    }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "No study in this record's ledger reports weight-normalized doses for Epitalon.",
+    "No study in this record's ledger reports dose-escalation schedules for Epitalon.",
+    "No study in this record's ledger reports exclusion criteria for Epitalon.",
+    "No study in this record's ledger reports onset or duration of effects for Epitalon.",
+    "No study in this record's ledger reports storage or stability for Epitalon."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has Epitalon been tested in humans?",
+      "answer": "Yes. Europe PMC indexes 5 clinical trials and 5 randomized controlled trials naming Epitalon or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+    },
+    {
+      "question": "What kind of evidence exists for Epitalon?",
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+    },
+    {
+      "question": "Is Epitalon an approved medicine?",
+      "answer": "No ChEMBL record matches Epitalon or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+    },
+    {
+      "question": "Which species has Epitalon been studied in?",
+      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+    }
+  ],
   "sources": [
     {
       "id": "doi-10-20944-preprints202609-0801-v1",
@@ -283,7 +982,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": null,
+  "uniqueness_pct": 76.2,
   "review": {
     "author": "",
     "reviewer": "",
@@ -298,6 +997,18 @@
     {
       "date": "2026-09-14",
       "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 29 ledger sources by scripts/draft_claims.py: 28 claims, 24 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 29 ledger sources by scripts/draft_claims.py: 25 claims, 24 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Claims drafted extractively from 29 ledger sources by scripts/draft_claims.py: 20 claims, 24 evidence-table rows. Status researched -> draft."
     }
   ]
 }
