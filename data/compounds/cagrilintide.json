@@ -1,0 +1,314 @@
+{
+  "type": "compound",
+  "preferred_name": "Cagrilintide",
+  "aliases": [
+    "AM833",
+    "Cagrilintide",
+    "Cagrilintide component of cagrisema",
+    "NN9838",
+    "NNC0174-0833"
+  ],
+  "slug": "cagrilintide",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for Cagrilintide. Europe PMC indexes 105 publications, including 15 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Cagrilintide: what the research shows",
+    "description": "Cited overview of published Cagrilintide research: 105 indexed publications, 15 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL4802169: maximum clinical phase 3. Jurisdiction-level status pending human review.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 105,
+      "randomized_controlled_trials": 15,
+      "clinical_trials": 13,
+      "reviews": 45,
+      "human_indexed": 4,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 42,
+      "observational-human": 0,
+      "animal-preclinical": 7,
+      "mechanistic-in-vitro": 1,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL4802169",
+      "pref_name": "CAGRILINTIDE",
+      "molecule_type": "Protein",
+      "max_phase": 3.0,
+      "first_approval": null,
+      "atc": [],
+      "synonyms": [
+        "Cagrilintide",
+        "Cagrilintide component of cagrisema",
+        "NNC0174-0833"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL4802169/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42688617",
+      "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
+      "url": "https://europepmc.org/article/MED/42688617",
+      "published": "2026-08-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42503495",
+      "title": "Efficacy of CagriSema for Reaching Anthropometric Treatment Targets and Cardiometabolic Outcomes: A Secondary, Post hoc Analysis of REDEFINE 1.",
+      "url": "https://europepmc.org/article/MED/42503495",
+      "published": "2026-07-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42456707",
+      "title": "Efficacy and safety of zalfermin co-administered with semaglutide in participants with fibrosis and cirrhosis due to metabolic dysfunction-associated steatohepatitis: a phase 2, dose-ranging, double-blind, randomised controlled trial.",
+      "url": "https://europepmc.org/article/MED/42456707",
+      "published": "2026-07-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42583410",
+      "title": "Amylin-based obesity therapy: a meta-analysis of Cagrilintide and CagriSema versus placebo.",
+      "url": "https://europepmc.org/article/MED/42583410",
+      "published": "2026-07-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42260119",
+      "title": "A cross-species atlas of the dorsal vagal complex reveals neural mediators of the effects of cagrilintide on energy balance.",
+      "url": "https://europepmc.org/article/MED/42260119",
+      "published": "2026-06-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251859",
+      "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251859",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251860",
+      "title": "Efficacy and safety of once-weekly cagrilintide-semaglutide (CagriSema) in adults with type 2 diabetes inadequately controlled on diet and exercise (REIMAGINE 1): a randomised, double-blind, placebo-controlled, phase 3a study.",
+      "url": "https://europepmc.org/article/MED/42251860",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251856",
+      "title": "Cagrilintide-semaglutide (CagriSema) as an add-on to basal insulin in adults with type 2 diabetes (REIMAGINE 3): a randomised, double-blind, placebo-controlled, multicentre, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251856",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42228334",
+      "title": "Renal or Hepatic Impairment Does Not Affect Pharmacokinetics, Safety, or Tolerability of Subcutaneous Cagrilintide.",
+      "url": "https://europepmc.org/article/MED/42228334",
+      "published": "2026-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42009015",
+      "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+      "url": "https://europepmc.org/article/MED/42009015",
+      "published": "2026-04-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41852165",
+      "title": "Mitochondrial Adaptations in Skeletal Muscle Following Incretin-Based Therapies: In Vitro.",
+      "url": "https://europepmc.org/article/MED/41852165",
+      "published": "2026-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41702251",
+      "title": "In vitro metabolic profiling of weight-loss-inducing amylin receptor agonists in the context of preventive doping research.",
+      "url": "https://europepmc.org/article/MED/41702251",
+      "published": "2026-02-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41328546",
+      "title": "CagriSema Reduces Blood Pressure in Adults With Overweight or Obesity: REDEFINE 1.",
+      "url": "https://europepmc.org/article/MED/41328546",
+      "published": "2025-12-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41255585",
+      "title": "Synthetic target trial emulation and predictive modeling of amylin-pathway therapies for obesity and type 2 diabetes.",
+      "url": "https://europepmc.org/article/MED/41255585",
+      "published": "2025-10-31",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41109426",
+      "title": "Eloralintide (LY3841136), a novel amylin receptor agonist for the treatment of obesity: From discovery to clinical proof of concept.",
+      "url": "https://europepmc.org/article/MED/41109426",
+      "published": "2025-10-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40976663",
+      "title": "Cardiovascular effects of incretin-based drugs in patients with and without a history of heart failure: a protocol for a systematic review, meta-analysis and trial sequential analysis of randomised controlled trials.",
+      "url": "https://europepmc.org/article/MED/40976663",
+      "published": "2025-09-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40847076",
+      "title": "Structural and mechanistic insights into dual activation of cagrilintide in amylin and calcitonin receptors.",
+      "url": "https://europepmc.org/article/MED/40847076",
+      "published": "2025-08-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40629149",
+      "title": "CagriSema drives weight loss in rats by reducing energy intake and preserving energy expenditure.",
+      "url": "https://europepmc.org/article/MED/40629149",
+      "published": "2025-07-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40609154",
+      "title": "Cagrilintide lowers bodyweight through brain amylin receptors 1 and 3.",
+      "url": "https://europepmc.org/article/MED/40609154",
+      "published": "2025-07-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40544433",
+      "title": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity.",
+      "url": "https://europepmc.org/article/MED/40544433",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40544432",
+      "title": "Cagrilintide-Semaglutide in Adults with Overweight or Obesity and Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/40544432",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40204768",
+      "title": "Structural and dynamic features of cagrilintide binding to calcitonin and amylin receptors.",
+      "url": "https://europepmc.org/article/MED/40204768",
+      "published": "2025-04-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39279639",
+      "title": "Cagrilintide is not associated with clinically relevant QTc prolongation: A thorough QT study in healthy participants.",
+      "url": "https://europepmc.org/article/MED/39279639",
+      "published": "2024-09-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38286487",
+      "title": "Comparative effectiveness of GLP-1 receptor agonists on glycaemic control, body weight, and lipid profile for type 2 diabetes: systematic review and network meta-analysis.",
+      "url": "https://europepmc.org/article/MED/38286487",
+      "published": "2024-01-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37364590",
+      "title": "Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a multicentre, randomised, double-blind, active-controlled, phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/37364590",
+      "published": "2023-06-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36608818",
+      "title": "An update on peptide-based therapies for type 2 diabetes and obesity.",
+      "url": "https://europepmc.org/article/MED/36608818",
+      "published": "2023-01-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35183619",
+      "title": "Creating the amylin story.",
+      "url": "https://europepmc.org/article/MED/35183619",
+      "published": "2022-02-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34929674",
+      "title": "Amylin as a Future Obesity Treatment.",
+      "url": "https://europepmc.org/article/MED/34929674",
+      "published": "2021-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34798060",
+      "title": "Once-weekly cagrilintide for weight management in people with overweight and obesity: a multicentre, randomised, double-blind, placebo-controlled and active-controlled, dose-finding phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/34798060",
+      "published": "2021-11-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34176426",
+      "title": "Emerging glucagon-like peptide 1 receptor agonists for the treatment of obesity.",
+      "url": "https://europepmc.org/article/MED/34176426",
+      "published": "2021-07-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33894838",
+      "title": "Safety, tolerability, pharmacokinetics, and pharmacodynamics of concomitant administration of multiple doses of cagrilintide with semaglutide 2·4 mg for weight management: a randomised, controlled, phase 1b trial.",
+      "url": "https://europepmc.org/article/MED/33894838",
+      "published": "2021-04-22",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

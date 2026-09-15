@@ -1,0 +1,201 @@
+{
+  "type": "compound",
+  "preferred_name": "AOD-9604",
+  "aliases": [
+    "AOD 9604",
+    "AOD-9604",
+    "AOD9604",
+    "Lat-8881",
+    "Lat8881",
+    "hGH fragment 176-191"
+  ],
+  "slug": "aod-9604",
+  "status": "researched",
+  "evidence_tier": "animal-preclinical",
+  "summary": "Research record for AOD-9604. Europe PMC indexes 25 publications, including 0 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "AOD-9604: what the research shows",
+    "description": "Cited overview of published AOD-9604 research: 25 indexed publications, 0 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL6068615: maximum clinical phase 2. Jurisdiction-level status pending human review.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 25,
+      "randomized_controlled_trials": 0,
+      "clinical_trials": 0,
+      "reviews": 9,
+      "human_indexed": 0,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 0,
+      "observational-human": 2,
+      "animal-preclinical": 6,
+      "mechanistic-in-vitro": 7,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL6068615",
+      "pref_name": "LAT-8881",
+      "molecule_type": "Protein",
+      "max_phase": 2.0,
+      "first_approval": null,
+      "atc": [],
+      "synonyms": [
+        "AOD-9604",
+        "AOD9604",
+        "Lat-8881",
+        "Lat8881"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6068615/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42328738",
+      "title": "Rapid and harmonized analytical workflow for the determination of peptidic and non-peptidic doping agents in dried and liquid blood matrices.",
+      "url": "https://europepmc.org/article/MED/42328738",
+      "published": "2026-07-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-20944-preprints202512-1011-v3",
+      "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance",
+      "url": "https://doi.org/10.20944/preprints202512.1011.v3",
+      "published": "2026-04-07",
+      "kind": "preprint"
+    },
+    {
+      "id": "doi-10-20944-preprints202512-1011-v1",
+      "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance",
+      "url": "https://doi.org/10.20944/preprints202512.1011.v1",
+      "published": "2025-12-12",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-35783198",
+      "title": "Human Growth Hormone Fragment 176-191 Peptide Enhances the Toxicity of Doxorubicin-Loaded Chitosan Nanoparticles Against MCF-7 Breast Cancer Cells.",
+      "url": "https://europepmc.org/article/MED/35783198",
+      "published": "2022-06-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26578461",
+      "title": "Simplifying and expanding the screening for peptides <2 kDa by direct urine injection, liquid chromatography, and ion mobility mass spectrometry.",
+      "url": "https://europepmc.org/article/MED/26578461",
+      "published": "2015-12-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26275694",
+      "title": "Effect of Intra-articular Injection of AOD9604 with or without Hyaluronic Acid in Rabbit Osteoarthritis Model.",
+      "url": "https://europepmc.org/article/MED/26275694",
+      "published": "2015-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24906629",
+      "title": "Analytical approaches for the detection of emerging therapeutics and non-approved drugs in human doping controls.",
+      "url": "https://europepmc.org/article/MED/24906629",
+      "published": "2014-05-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22435392",
+      "title": "Current updates in the medical management of obesity.",
+      "url": "https://europepmc.org/article/MED/22435392",
+      "published": "2012-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17971763",
+      "title": "[Obesity: a review of currently used antiobesity drugs and new compounds in clinical development].",
+      "url": "https://europepmc.org/article/MED/17971763",
+      "published": "2007-10-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16931496",
+      "title": "Potential role of new therapies in modifying cardiovascular risk in overweight patients with metabolic risk factors.",
+      "url": "https://europepmc.org/article/MED/16931496",
+      "published": "2006-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16625817",
+      "title": "Obesity drugs in clinical development.",
+      "url": "https://europepmc.org/article/MED/16625817",
+      "published": "2006-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-14571286",
+      "title": "Gateways to clinical trials.",
+      "url": "https://europepmc.org/article/MED/14571286",
+      "published": "2003-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11713213",
+      "title": "The effects of human GH and its lipolytic fragment (AOD9604) on lipid metabolism following chronic treatment in obese mice and beta(3)-AR knock-out mice.",
+      "url": "https://europepmc.org/article/MED/11713213",
+      "published": "2001-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11146367",
+      "title": "Metabolic studies of a synthetic lipolytic domain (AOD9604) of human growth hormone.",
+      "url": "https://europepmc.org/article/MED/11146367",
+      "published": "2000-01-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: chembl None -> CHEMBL6068615."
+    }
+  ]
+}

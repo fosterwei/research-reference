@@ -1,0 +1,303 @@
+{
+  "type": "compound",
+  "preferred_name": "Epitalon",
+  "aliases": [
+    "epithalamin",
+    "epithalon"
+  ],
+  "slug": "epitalon",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for Epitalon. Europe PMC indexes 170 publications, including 5 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Epitalon: what the research shows",
+    "description": "Cited overview of published Epitalon research: 170 indexed publications, 5 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 170,
+      "randomized_controlled_trials": 5,
+      "clinical_trials": 5,
+      "reviews": 17,
+      "human_indexed": 0,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 3,
+      "observational-human": 5,
+      "animal-preclinical": 22,
+      "mechanistic-in-vitro": 9,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "doi-10-20944-preprints202609-0801-v1",
+      "title": "Epitalon and Epithalamin in Regenerative and Longevity Medicine: Mechanisms, Evidence, and Translational Gaps",
+      "url": "https://doi.org/10.20944/preprints202609.0801.v1",
+      "published": "2026-09-09",
+      "kind": "preprint"
+    },
+    {
+      "id": "doi-10-20944-preprints202607-2123-v1",
+      "title": "From Cellular Aging to Tissue Protection: Epitalon in Regenerative and Longevity Medicine",
+      "url": "https://doi.org/10.20944/preprints202607.2123.v1",
+      "published": "2026-07-29",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-42209466",
+      "title": "LCP2 mediates SUV39H1-driven cellular senescence-related chemoresistance in natural killer/T-cell lymphoma.",
+      "url": "https://europepmc.org/article/MED/42209466",
+      "published": "2026-05-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40908429",
+      "title": "Epitalon increases telomere length in human cell lines through telomerase upregulation or ALT activity.",
+      "url": "https://europepmc.org/article/MED/40908429",
+      "published": "2025-09-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-21203-rs-3-rs-7066545-v1",
+      "title": "Epitalon increases telomere length in human cell lines through telomerase upregulation or ALT activity",
+      "url": "https://doi.org/10.21203/rs.3.rs-7066545/v1",
+      "published": "2025-07-15",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-40493162",
+      "title": "The Antioxidant Tetrapeptide Epitalon Enhances Delayed Wound Healing in an in Vitro Model of Diabetic Retinopathy.",
+      "url": "https://europepmc.org/article/MED/40493162",
+      "published": "2025-06-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40141333",
+      "title": "Overview of Epitalon-Highly Bioactive Pineal Tetrapeptide with Promising Properties.",
+      "url": "https://europepmc.org/article/MED/40141333",
+      "published": "2025-03-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35413689",
+      "title": "Epitalon protects against post-ovulatory aging-related damage of mouse oocytes in vitro .",
+      "url": "https://europepmc.org/article/MED/35413689",
+      "published": "2022-04-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35408963",
+      "title": "Peptides Regulating Proliferative Activity and Inflammatory Pathways in the Monocyte/Macrophage THP-1 Cell Line.",
+      "url": "https://europepmc.org/article/MED/35408963",
+      "published": "2022-03-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32019204",
+      "title": "AEDG Peptide (Epitalon) Stimulates Gene Expression and Protein Synthesis during Neurogenesis: Possible Epigenetic Mechanism.",
+      "url": "https://europepmc.org/article/MED/32019204",
+      "published": "2020-01-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32362097",
+      "title": "[Age features of bioregulatory therapy of dental diseases.]",
+      "url": "https://europepmc.org/article/MED/32362097",
+      "published": "2020-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28371610",
+      "title": "Short Exogenous Peptides Regulate Expression of CLE, KNOX1, and GRF Family Genes in Nicotiana tabacum.",
+      "url": "https://europepmc.org/article/MED/28371610",
+      "published": "2017-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28849889",
+      "title": "[Pineamin increased pineal melatonin synthesis in elderly people].",
+      "url": "https://europepmc.org/article/MED/28849889",
+      "published": "2017-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24323970",
+      "title": "[Genome instability in pulmonary tuberculosis before and after treatment].",
+      "url": "https://europepmc.org/article/MED/24323970",
+      "published": "2013-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24003726",
+      "title": "[Peptide bioregulators: the new class of geroprotectors. Message 2. Clinical studies results].",
+      "url": "https://europepmc.org/article/MED/24003726",
+      "published": "2013-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21510076",
+      "title": "[Influence of peptides from pineal gland on thymus function at aging].",
+      "url": "https://europepmc.org/article/MED/21510076",
+      "published": "2010-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18546826",
+      "title": "[Biological activity of regulatory peptides in model experiments in vitro].",
+      "url": "https://europepmc.org/article/MED/18546826",
+      "published": "2008-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19432171",
+      "title": "[The influences of geroprotectors on age-related changes of antioxidant system in rats liver under different light condition].",
+      "url": "https://europepmc.org/article/MED/19432171",
+      "published": "2008-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17955380",
+      "title": "Effects of intranasal administration of epitalon on neuron activity in the rat neocortex.",
+      "url": "https://europepmc.org/article/MED/17955380",
+      "published": "2007-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18214303",
+      "title": "Effect of epithalamin on the rhythm of immune and endocrine systems functioning in patients with chronic coronary disease.",
+      "url": "https://europepmc.org/article/MED/18214303",
+      "published": "2007-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-15909815",
+      "title": "[Effect of epitalon and melatonin on life span and spontaneous carcinogenesis in senescence accelerated mice (SAM)].",
+      "url": "https://europepmc.org/article/MED/15909815",
+      "published": "2005-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12964022",
+      "title": "Epitalon and colon carcinogenesis in rats: proliferative activity and apoptosis in colon tumors and mucosa.",
+      "url": "https://europepmc.org/article/MED/12964022",
+      "published": "2003-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-14501183",
+      "title": "Effect of Epitalon on biomarkers of aging, life span and spontaneous tumor incidence in female Swiss-derived SHR mice.",
+      "url": "https://europepmc.org/article/MED/14501183",
+      "published": "2003-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12500171",
+      "title": "Epitalon influences pineal secretion in stress-exposed rats in the daytime.",
+      "url": "https://europepmc.org/article/MED/12500171",
+      "published": "2002-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12500162",
+      "title": "Effect of epitalon on interleukin-1beta signal transduction and the reaction of thymocyte blast transformation under stress.",
+      "url": "https://europepmc.org/article/MED/12500162",
+      "published": "2002-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12420071",
+      "title": "Effect of Vilon and Epithalon on glucose and glycine absorption in various regions of small intestine in aged rats.",
+      "url": "https://europepmc.org/article/MED/12420071",
+      "published": "2002-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12374906",
+      "title": "Peptides and Ageing.",
+      "url": "https://europepmc.org/article/MED/12374906",
+      "published": "2002-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11865335",
+      "title": "Modulating effects of epithalamin and epithalon on the functional morphology of the spleen in old pinealectomized rats.",
+      "url": "https://europepmc.org/article/MED/11865335",
+      "published": "2001-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11335874",
+      "title": "Effects of pineal peptide preparation Epithalamin on free-radical processes in humans and animals.",
+      "url": "https://europepmc.org/article/MED/11335874",
+      "published": "2001-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10802883",
+      "title": "[The role on non-adrenergic regulation in the reaction of the rat pineal body to acute hypoxia and epithalamine administration].",
+      "url": "https://europepmc.org/article/MED/10802883",
+      "published": "2000-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10820844",
+      "title": "[Effect of melatonin and epithalamin on activity of marker enzymes in the cell membrane in the forebrain of rats under acute hypoxia].",
+      "url": "https://europepmc.org/article/MED/10820844",
+      "published": "1999-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10532103",
+      "title": "[Long-term results of comprehensive treatment for cervical cancer with poor prognosis].",
+      "url": "https://europepmc.org/article/MED/10532103",
+      "published": "1999-01-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    }
+  ]
+}

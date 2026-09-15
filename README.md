@@ -20,7 +20,10 @@ Product goals, audience, non-goals, milestones, and success metrics are in [`doc
 | `scripts/validate_content.py` | Dependency-free content gate, mirrors the content contract |
 | `scripts/import_to_wordpress.py` | Idempotent REST importer from `data/` to a WordPress staging site |
 | `scripts/fetch_evidence.py` | Fills a compound record's source ledger from Europe PMC and ChEMBL; writes a research brief; never writes claims |
-| `research/` | Compound seed list and per-compound research briefs with abstracts for the writer |
+| `research/registry.json` | Compound registry: identity, class, target, peers, and the stack/comparison/tool plan by wave. Hand-maintained |
+| `research/registry.md` | Generated table view of the registry joined with fetched evidence counts. Never edit by hand |
+| `scripts/build_registry.py` | Builds `registry.md` and fails on dangling stack components, comparison sides or classes |
+| `research/<slug>.md` | Per-compound research briefs with abstracts for the writer |
 | `.github/workflows/` | CI: validator on every PR and push to `main`, plus PHP lint |
 | `.github/ISSUE_TEMPLATE/` | Structured issue form for content requests |
 | `.github/CODEOWNERS` | Required reviewer per area |
@@ -76,7 +79,16 @@ Milestones 1 to 4 in [`docs/PRD.md`](docs/PRD.md) are complete: content contract
 
 ## Researching a compound
 
-`scripts/fetch_evidence.py` runs targeted Europe PMC queries for each section in
+The compound list, its taxonomy and the page plan live in `research/registry.json`.
+Identity goes in the registry; evidence goes in records. A half-life or a dose is a
+claim with a source, never a table cell.
+
+```bash
+python3 scripts/build_registry.py --check   # cross-reference check, runs in CI
+python3 scripts/build_registry.py           # regenerate research/registry.md
+```
+
+`scripts/fetch_evidence.py` reads the registry and runs targeted Europe PMC queries for each section in
 `docs/page-template-spec.md`, classifies every paper's evidence tier from its
 publication type and MeSH species headings, looks the compound up in ChEMBL, and
 writes two files: a record in status `researched` whose source ledger holds real,

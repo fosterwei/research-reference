@@ -6,7 +6,7 @@ Usage:
     python3 scripts/fetch_evidence.py --all                   # every seed entry
     python3 scripts/fetch_evidence.py --all --dry-run         # counts only, no files
 
-For each compound in research/compounds.seed.json this writes:
+For each compound in research/registry.json this writes:
 
     data/compounds/<slug>.json   a record in status "researched": the source
                                  ledger is filled with real, resolvable
@@ -38,7 +38,7 @@ import urllib.parse
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-SEED = ROOT / "research" / "compounds.seed.json"
+REGISTRY = ROOT / "research" / "registry.json"
 RECORDS = ROOT / "data" / "compounds"
 BRIEFS = ROOT / "research"
 
@@ -423,21 +423,90 @@ def fetch_compound(entry: dict, max_papers: int, counts_only: bool = False) -> d
 
     primary_tiers = {r["tier"] for rows in sections.values() for r in rows if r["tier"] in TIER_ORDER}
     chembl = chembl_lookup(names)
-    if chembl and phase_of(chembl) >= 4:
-        primary_tiers.add("approved-label")
-    tier = next((t for t in TIER_ORDER if t in primary_tiers), "mechanistic-in-vitro")
-    # The landscape counts cap the tier. A handful of misclassified candidate
-    # papers must not promote a compound with no indexed human trials.
-    if tier == "human-clinical-trial" and not (counts["clinical_trials"] or counts["randomized_controlled_trials"]):
-        tier = "observational-human"
-    if tier in ("human-clinical-trial", "observational-human") and not counts["human_indexed"]:
-        tier = "animal-preclinical"
-    if counts["total"] == 0 and not chembl:
-        # Nothing indexed anywhere: whatever circulates about it is anecdote.
-        tier = "community-reported"
+    tier = resolve_tier(primary_tiers, counts, chembl)
 
     return {"entry": entry, "counts": counts, "sections": sections, "ledger": ledger,
             "reviews": reviews, "mentions": mentions, "tier": tier, "chembl": chembl, "retrieved": today}
+
+
+def resolve_tier(candidate_tiers: set[str], counts: dict, chembl: dict | None) -> str:
+    """Overall evidence tier from candidate papers, MEDLINE counts and ChEMBL.
+
+    Candidate papers give the starting point. The counts then both floor and
+    cap it: an indexed clinical trial is human trial evidence even when the
+    paper has no abstract and so never became a candidate (DSIP's 1980s trials),
+    and a handful of misclassified candidates must not promote a compound past
+    what its counts support. An approved drug is approved-label regardless.
+    Nothing indexed at all is community-reported, because that is what any
+    circulating information about it is.
+    """
+    tiers = set(candidate_tiers)
+    trials = counts.get("clinical_trials", 0) + counts.get("randomized_controlled_trials", 0)
+    if trials:
+        tiers.add("human-clinical-trial")
+    if chembl and phase_of(chembl) >= 4:
+        tiers.add("approved-label")
+    tier = next((t for t in TIER_ORDER if t in tiers), "mechanistic-in-vitro")
+    if tier == "human-clinical-trial" and not trials:
+        tier = "observational-human"
+    if tier in ("human-clinical-trial", "observational-human") and not counts.get("human_indexed") and not trials:
+        tier = "animal-preclinical"
+    if counts.get("total", 0) == 0 and not chembl:
+        tier = "community-reported"
+    return tier
+
+
+def regulatory_claim(chembl: dict | None) -> list[dict]:
+    if not chembl:
+        return []
+    phase = phase_of(chembl)
+    return [{
+        "value": (
+            f"ChEMBL {chembl['chembl_id']}: maximum clinical phase {phase:g}"
+            + (f", first approval {chembl['first_approval']}" if chembl.get("first_approval") else "")
+            + (f", ATC {', '.join(chembl['atc'])}" if chembl.get("atc") else "")
+            + ". Jurisdiction-level status pending human review."
+        ),
+        "evidence_label": "approved-label" if phase >= 4 else "human-clinical-trial" if phase >= 1 else "mechanistic-in-vitro",
+        "source_ids": [],
+    }]
+
+
+def refresh_meta(slug: str, entry: dict) -> str:
+    """Redo the ChEMBL lookup and re-tier an existing record from its stored counts.
+
+    No literature calls. Used when ChEMBL lookups failed (they are the flakiest
+    call) or when the tier rules change and records should catch up.
+    """
+    path = RECORDS / f"{slug}.json"
+    record = json.loads(path.read_text(encoding="utf-8"))
+    if record.get("status") not in ("discovered", "researched"):
+        return f"skip: record is '{record.get('status')}', a human owns it now"
+    es = record.get("evidence_summary") or {}
+    counts = es.get("publications") or {}
+    by_tier = es.get("candidate_papers_by_tier") or {}
+    candidates = {t for t, n in by_tier.items() if n and t in TIER_ORDER}
+    chembl = chembl_lookup([entry["name"], *entry.get("aliases", [])])
+    old_tier, old_chembl = record.get("evidence_tier"), (es.get("chembl") or {}).get("chembl_id")
+    tier = resolve_tier(candidates, counts, chembl)
+    record["evidence_tier"] = tier
+    es["chembl"] = chembl
+    record["evidence_summary"] = es
+    record.setdefault("attributes", {})["regulatory_status"] = regulatory_claim(chembl)
+    record["aliases"] = sorted(set(record.get("aliases", [])) | set((chembl or {}).get("synonyms", [])))
+    changes = []
+    if tier != old_tier:
+        changes.append(f"tier {old_tier} -> {tier}")
+    if (chembl or {}).get("chembl_id") != old_chembl:
+        changes.append(f"chembl {old_chembl} -> {(chembl or {}).get('chembl_id')}")
+    if changes:
+        record.setdefault("changelog", []).append({
+            "date": dt.date.today().isoformat(),
+            "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: " + "; ".join(changes) + ".",
+        })
+        path.write_text(json.dumps(record, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        return "updated: " + "; ".join(changes)
+    return "unchanged"
 
 
 def build_record(result: dict) -> dict:
@@ -458,19 +527,7 @@ def build_record(result: dict) -> dict:
     if len(title) > 60:
         title = f"{name} research overview"[:60]
 
-    regulatory_note = []
-    if chembl:
-        phase = phase_of(chembl)
-        regulatory_note.append({
-            "value": (
-                f"ChEMBL {chembl['chembl_id']}: maximum clinical phase {phase:g}"
-                + (f", first approval {chembl['first_approval']}" if chembl.get("first_approval") else "")
-                + (f", ATC {', '.join(chembl['atc'])}" if chembl.get("atc") else "")
-                + ". Jurisdiction-level status pending human review."
-            ),
-            "evidence_label": "approved-label" if phase >= 4 else "human-clinical-trial" if phase >= 1 else "mechanistic-in-vitro",
-            "source_ids": [],
-        })
+    regulatory_note = regulatory_claim(chembl)
 
     aliases = sorted(set(entry.get("aliases", [])) | set((chembl or {}).get("synonyms", [])))
     return {
@@ -602,7 +659,8 @@ def build_brief(result: dict) -> str:
 
 
 def load_seed() -> list[dict]:
-    entries = json.loads(SEED.read_text(encoding="utf-8"))
+    """Compounds from the registry; identity fields only are used here."""
+    entries = json.loads(REGISTRY.read_text(encoding="utf-8"))["compounds"]
     for e in entries:
         if not e.get("name") or not e.get("slug"):
             raise SystemExit(f"seed entry needs name and slug: {e}")
@@ -626,6 +684,8 @@ def main(argv: list[str]) -> int:
     parser.add_argument("--dry-run", action="store_true", help="print evidence counts only, write nothing")
     parser.add_argument("--max-papers", type=int, default=8, help="candidate papers per section (default 8)")
     parser.add_argument("--force", action="store_true", help="refresh an existing 'researched' record")
+    parser.add_argument("--refresh-meta", action="store_true",
+                        help="redo ChEMBL lookup and re-tier existing records from stored counts; no literature calls")
     args = parser.parse_args(argv)
     # Progress lines should appear as each compound finishes, even when piped.
     sys.stdout.reconfigure(line_buffering=True)
@@ -638,7 +698,7 @@ def main(argv: list[str]) -> int:
         chosen = [e for e in seed if e["slug"] in wanted]
         missing = wanted - {e["slug"] for e in chosen}
         if missing:
-            print(f"not in {SEED.relative_to(ROOT)}: {', '.join(sorted(missing))}")
+            print(f"not in {REGISTRY.relative_to(ROOT)}: {', '.join(sorted(missing))}")
             return 1
     if not chosen:
         parser.print_help()
@@ -650,6 +710,16 @@ def main(argv: list[str]) -> int:
     for entry in chosen:
         slug = entry["slug"]
         status = existing_status(slug)
+        if args.refresh_meta:
+            if status is None:
+                print(f"  skip      {slug}: no record to refresh")
+                continue
+            try:
+                print(f"  {slug:<22} {refresh_meta(slug, entry)}")
+            except RuntimeError as exc:
+                failures += 1
+                print(f"  FAILED    {slug}: {exc}")
+            continue
         if status and status not in ("discovered", "researched"):
             print(f"  skip      {slug}: record is '{status}', a human owns it now")
             continue

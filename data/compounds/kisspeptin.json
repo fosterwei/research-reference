@@ -1,0 +1,308 @@
+{
+  "type": "compound",
+  "preferred_name": "Kisspeptin",
+  "aliases": [
+    "Human metastin 45-54",
+    "Kisspeptin-10",
+    "Kisspeptin-10 (human)",
+    "kisspeptin-10",
+    "kisspeptin-54",
+    "metastin"
+  ],
+  "slug": "kisspeptin",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for Kisspeptin. Europe PMC indexes 3850 publications, including 44 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Kisspeptin: what the research shows",
+    "description": "Cited overview of published Kisspeptin research: 3850 indexed publications, 44 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL376756: maximum clinical phase 3. Jurisdiction-level status pending human review.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 3850,
+      "randomized_controlled_trials": 44,
+      "clinical_trials": 34,
+      "reviews": 812,
+      "human_indexed": 29,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 45,
+      "observational-human": 0,
+      "animal-preclinical": 8,
+      "mechanistic-in-vitro": 1,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL376756",
+      "pref_name": "KISSPEPTIN-10",
+      "molecule_type": "Protein",
+      "max_phase": 3.0,
+      "first_approval": null,
+      "atc": [],
+      "synonyms": [
+        "Human metastin 45-54",
+        "Kisspeptin-10",
+        "Kisspeptin-10 (human)"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL376756/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42549827",
+      "title": "Chronic subcutaneous kisspeptin-10 stimulates gonadotropin secretion for 12 days in healthy men.",
+      "url": "https://europepmc.org/article/MED/42549827",
+      "published": "2026-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41343946",
+      "title": "Effect of post-mating TAK-683 (Kisspeptin analog) treatment on luteal morphology and function in suckling goats with lactational anestrus.",
+      "url": "https://europepmc.org/article/MED/41343946",
+      "published": "2025-12-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41273106",
+      "title": "Intravenous kisspeptin 112-121 bolus does not acutely impact circulating vasopressin in humans.",
+      "url": "https://europepmc.org/article/MED/41273106",
+      "published": "2025-11-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41109977",
+      "title": "Concentration-QTc Modeling to Support Clinical Development of Fezolinetant.",
+      "url": "https://europepmc.org/article/MED/41109977",
+      "published": "2025-10-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40036336",
+      "title": "Kisspeptin Administration Stimulates Reproductive Hormones but Does Not Affect Anxiety in Humans.",
+      "url": "https://europepmc.org/article/MED/40036336",
+      "published": "2025-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40816115",
+      "title": "Effect of kisspeptin with or without cabergoline on the estrus cycle and reproductive hormones in female dogs.",
+      "url": "https://europepmc.org/article/MED/40816115",
+      "published": "2025-08-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40215751",
+      "title": "Intranasal kisspeptin administration rapidly stimulates gonadotropin release in humans.",
+      "url": "https://europepmc.org/article/MED/40215751",
+      "published": "2025-04-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39965102",
+      "title": "Sex-dependent increases in oxytocin levels in response to intravenous kisspeptin in humans.",
+      "url": "https://europepmc.org/article/MED/39965102",
+      "published": "2025-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39847034",
+      "title": "Effect of a GnRH injection on kisspeptin levels in girls with suspected precocious puberty: a randomized-controlled pilot study.",
+      "url": "https://europepmc.org/article/MED/39847034",
+      "published": "2025-01-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39254333",
+      "title": "Identification of Environmental Compounds That May Trigger Early Female Puberty by Activating Human GnRHR and KISS1R.",
+      "url": "https://europepmc.org/article/MED/39254333",
+      "published": "2024-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38996103",
+      "title": "Kisspeptin expression levels in patients with placenta previa: A randomized trial.",
+      "url": "https://europepmc.org/article/MED/38996103",
+      "published": "2024-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37925096",
+      "title": "Endocrine profile of the kisspeptin receptor agonist MVT-602 in healthy premenopausal women with and without ovarian stimulation: results from 2 randomized, placebo-controlled clinical tricals.",
+      "url": "https://europepmc.org/article/MED/37925096",
+      "published": "2023-11-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36906579",
+      "title": "Recapitulating thyroid cancer histotypes through engineering embryonic stem cells.",
+      "url": "https://europepmc.org/article/MED/36906579",
+      "published": "2023-03-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36735255",
+      "title": "Effects of Kisspeptin on Sexual Brain Processing and Penile Tumescence in Men With Hypoactive Sexual Desire Disorder: A Randomized Clinical Trial.",
+      "url": "https://europepmc.org/article/MED/36735255",
+      "published": "2023-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36287566",
+      "title": "Effects of Kisspeptin Administration in Women With Hypoactive Sexual Desire Disorder: A Randomized Clinical Trial.",
+      "url": "https://europepmc.org/article/MED/36287566",
+      "published": "2022-10-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34000049",
+      "title": "Randomized Controlled Trial of Neurokinin 3 Receptor Antagonist Fezolinetant for Treatment of Polycystic Ovary Syndrome.",
+      "url": "https://europepmc.org/article/MED/34000049",
+      "published": "2021-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34126799",
+      "title": "Safety Evaluation of KP-10 (Metastin 45-54) Following once Daily Intravenous Administration for 14 Days in Dog.",
+      "url": "https://europepmc.org/article/MED/34126799",
+      "published": "2021-06-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33543882",
+      "title": "Role of the kisspeptin/KISS1 receptor system in the testicular development of mice.",
+      "url": "https://europepmc.org/article/MED/33543882",
+      "published": "2021-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33196464",
+      "title": "Kisspeptin receptor agonist has therapeutic potential for female reproductive disorders.",
+      "url": "https://europepmc.org/article/MED/33196464",
+      "published": "2020-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32510130",
+      "title": "Kisspeptin and neurokinin B interactions in modulating gonadotropin secretion in women with polycystic ovary syndrome.",
+      "url": "https://europepmc.org/article/MED/32510130",
+      "published": "2020-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31820802",
+      "title": "Kisspeptin treatment induces gonadotropic responses and rescues ovulation in a subset of preclinical models and women with polycystic ovary syndrome.",
+      "url": "https://europepmc.org/article/MED/31820802",
+      "published": "2019-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28854728",
+      "title": "A second dose of kisspeptin-54 improves oocyte maturation in women at high risk of ovarian hyperstimulation syndrome: a Phase 2 randomized controlled trial.",
+      "url": "https://europepmc.org/article/MED/28854728",
+      "published": "2017-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27199290",
+      "title": "Control of puberty onset and fertility by gonadotropin-releasing hormone neurons.",
+      "url": "https://europepmc.org/article/MED/27199290",
+      "published": "2016-05-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26572695",
+      "title": "Subcutaneous infusion of kisspeptin-54 stimulates gonadotrophin release in women and the response correlates with basal oestradiol levels.",
+      "url": "https://europepmc.org/article/MED/26572695",
+      "published": "2015-12-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25036713",
+      "title": "Kisspeptin-54 triggers egg maturation in women undergoing in vitro fertilization.",
+      "url": "https://europepmc.org/article/MED/25036713",
+      "published": "2014-07-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24517142",
+      "title": "Increasing LH pulsatility in women with hypothalamic amenorrhoea using intravenous infusion of Kisspeptin-54.",
+      "url": "https://europepmc.org/article/MED/24517142",
+      "published": "2014-02-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22811428",
+      "title": "Kisspeptins and reproduction: physiological roles and regulatory mechanisms.",
+      "url": "https://europepmc.org/article/MED/22811428",
+      "published": "2012-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20501670",
+      "title": "Minireview: kisspeptin/neurokinin B/dynorphin (KNDy) cells of the arcuate nucleus: a central node in the control of gonadotropin-releasing hormone secretion.",
+      "url": "https://europepmc.org/article/MED/20501670",
+      "published": "2010-05-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19770291",
+      "title": "Kisspeptin signaling in the brain.",
+      "url": "https://europepmc.org/article/MED/19770291",
+      "published": "2009-09-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19393655",
+      "title": "Neuroendocrinology of reproduction in teleost fish.",
+      "url": "https://europepmc.org/article/MED/19393655",
+      "published": "2009-04-23",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

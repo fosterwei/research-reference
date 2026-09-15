@@ -1,0 +1,281 @@
+{
+  "type": "compound",
+  "preferred_name": "Survodutide",
+  "aliases": [
+    "BI 456906",
+    "BI-456906",
+    "BI456906",
+    "Survodutida",
+    "Survodutide"
+  ],
+  "slug": "survodutide",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for Survodutide. Europe PMC indexes 91 publications, including 10 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Survodutide: what the research shows",
+    "description": "Cited overview of published Survodutide research: 91 indexed publications, 10 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL5314776: maximum clinical phase 3. Jurisdiction-level status pending human review.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 91,
+      "randomized_controlled_trials": 10,
+      "clinical_trials": 15,
+      "reviews": 44,
+      "human_indexed": 3,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 35,
+      "observational-human": 11,
+      "animal-preclinical": 6,
+      "mechanistic-in-vitro": 0,
+      "review": 0,
+      "unclassified": 2
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL5314776",
+      "pref_name": "SURVODUTIDE",
+      "molecule_type": "Protein",
+      "max_phase": 3.0,
+      "first_approval": null,
+      "atc": [],
+      "synonyms": [
+        "BI 456906",
+        "BI-456906",
+        "BI456906",
+        "Survodutida",
+        "Survodutide"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL5314776/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "doi-10-22541-authorea-15008173-v1",
+      "title": "From Potency Ratios to Target Engagement: Translational Identifiability of Multi-Incretin Receptor Balance",
+      "url": "https://doi.org/10.22541/authorea.15008173/v1",
+      "published": "2026-09-01",
+      "kind": "preprint"
+    },
+    {
+      "id": "doi-10-20944-preprints202607-0236-v2",
+      "title": "Phenotype-Directed Precision Therapeutics: A Framework for Multi-Agonist Therapy in Obesity, MASH and Cardio-Renal-Metabolic Disorders",
+      "url": "https://doi.org/10.20944/preprints202607.0236.v2",
+      "published": "2026-07-10",
+      "kind": "preprint"
+    },
+    {
+      "id": "doi-10-20944-preprints202607-0236-v1",
+      "title": "Phenotype-Directed Precision Therapeutics: A Framework for Multi-Agonist Therapy in Obesity, MASH and Cardio-Renal-Metabolic Disorders",
+      "url": "https://doi.org/10.20944/preprints202607.0236.v1",
+      "published": "2026-07-03",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-42331726",
+      "title": "Dual Glucagon and GLP-1 Receptor Agonist Survodutide Improves Biomarkers of Beta-Cell Function and Insulin Sensitivity in People With Type 2 Diabetes or Living With Overweight/Obesity.",
+      "url": "https://europepmc.org/article/MED/42331726",
+      "published": "2026-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42253238",
+      "title": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
+      "url": "https://europepmc.org/article/MED/42253238",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42252333",
+      "title": "Survodutide in adults with obesity and metabolic dysfunction-associated steatotic liver disease: SYNCHRONIZE-MASLD, a randomized, double-blind, placebo-controlled phase 3 trial.",
+      "url": "https://europepmc.org/article/MED/42252333",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42219222",
+      "title": "Survodutide for the Treatment of Obesity Disease in Japanese Participants: Rationale, Design and Baseline Characteristics of the Phase 3 SYNCHRONIZE-JP Trial.",
+      "url": "https://europepmc.org/article/MED/42219222",
+      "published": "2026-05-31",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41704810",
+      "title": "Optimization of patient and site engagement in the SYNCHRONIZE™ phase 3 clinical trial program for survodutide in obesity through clinical trial simulation.",
+      "url": "https://europepmc.org/article/MED/41704810",
+      "published": "2026-02-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41638399",
+      "title": "Survodutide acts through circumventricular organs in the brain and activates neuronal regions associated with appetite regulation.",
+      "url": "https://europepmc.org/article/MED/41638399",
+      "published": "2026-02-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41216778",
+      "title": "Baseline characteristics in the SYNCHRONIZE™-2 randomized phase 3 trial of survodutide, a glucagon receptor/GLP-1 receptor dual agonist, for obesity in people with type 2 diabetes.",
+      "url": "https://europepmc.org/article/MED/41216778",
+      "published": "2025-11-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41187967",
+      "title": "Survodutide for treatment of obesity: Baseline characteristics of participants in a randomized, double-blind, placebo-controlled, phase 3 trial (SYNCHRONIZE™-1).",
+      "url": "https://europepmc.org/article/MED/41187967",
+      "published": "2025-11-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40772898",
+      "title": "Hydrogen Sulfide Deficiency and Therapeutic Targeting in Cardiometabolic HFpEF: Evidence for Synergistic Benefit With GLP-1/Glucagon Agonism.",
+      "url": "https://europepmc.org/article/MED/40772898",
+      "published": "2025-08-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40619099",
+      "title": "Novel NPY2R agonist BI 1820237 provides synergistic anti-obesity efficacy when combined with the GCGR/GLP-1R dual agonist survodutide.",
+      "url": "https://europepmc.org/article/MED/40619099",
+      "published": "2025-07-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40590228",
+      "title": "Therapeutic horizons in metabolic dysfunction-associated steatohepatitis.",
+      "url": "https://europepmc.org/article/MED/40590228",
+      "published": "2025-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40557198",
+      "title": "Evaluating the efficacy and safety of survodutide for obesity: a systematic review and meta-analysis of randomized controlled trials.",
+      "url": "https://europepmc.org/article/MED/40557198",
+      "published": "2025-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39903735",
+      "title": "Comparison of pharmacological therapies in metabolic dysfunction-associated steatohepatitis for fibrosis regression and MASH resolution: Systematic review and network meta-analysis.",
+      "url": "https://europepmc.org/article/MED/39903735",
+      "published": "2025-02-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39821928",
+      "title": "Subgroup analysis by sex and baseline BMI in people with a BMI ≥27 kg/m 2 in the phase 2 trial of survodutide, a glucagon/GLP-1 receptor dual agonist.",
+      "url": "https://europepmc.org/article/MED/39821928",
+      "published": "2025-01-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39952695",
+      "title": "Emerging pharmacotherapies for obesity: A systematic review.",
+      "url": "https://europepmc.org/article/MED/39952695",
+      "published": "2024-11-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39495965",
+      "title": "Survodutide for treatment of obesity: rationale and design of two randomized phase 3 clinical trials (SYNCHRONIZE™-1 and -2).",
+      "url": "https://europepmc.org/article/MED/39495965",
+      "published": "2024-11-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38843460",
+      "title": "Efficacy and Safety of GLP-1 Medicines for Type 2 Diabetes and Obesity.",
+      "url": "https://europepmc.org/article/MED/38843460",
+      "published": "2024-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39481534",
+      "title": "The impact of weight loss on fat-free mass, muscle, bone and hematopoiesis health: Implications for emerging pharmacotherapies aiming at fat reduction and lean mass preservation.",
+      "url": "https://europepmc.org/article/MED/39481534",
+      "published": "2024-10-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39453356",
+      "title": "Survodutide for the Treatment of Obesity: Rationale and Design of the SYNCHRONIZE Cardiovascular Outcomes Trial.",
+      "url": "https://europepmc.org/article/MED/39453356",
+      "published": "2024-10-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38560764",
+      "title": "The dual GCGR/GLP-1R agonist survodutide: Biomarkers and pharmacological profiling for clinical candidate selection.",
+      "url": "https://europepmc.org/article/MED/38560764",
+      "published": "2024-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38095657",
+      "title": "Dose-response effects on HbA 1c and bodyweight reduction of survodutide, a dual glucagon/GLP-1 receptor agonist, compared with placebo and open-label semaglutide in people with type 2 diabetes: a randomised clinical trial.",
+      "url": "https://europepmc.org/article/MED/38095657",
+      "published": "2023-12-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36527386",
+      "title": "Phase I studies of the safety, tolerability, pharmacokinetics and pharmacodynamics of the dual glucagon receptor/glucagon-like peptide-1 receptor agonist BI 456906.",
+      "url": "https://europepmc.org/article/MED/36527386",
+      "published": "2023-01-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36356832",
+      "title": "BI 456906: Discovery and preclinical pharmacology of a novel GCGR/GLP-1R dual agonist with robust anti-obesity efficacy.",
+      "url": "https://europepmc.org/article/MED/36356832",
+      "published": "2022-11-07",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

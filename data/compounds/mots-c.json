@@ -1,0 +1,383 @@
+{
+  "type": "compound",
+  "preferred_name": "MOTS-c",
+  "aliases": [
+    "MOTS c",
+    "mitochondrial open reading frame of the 12S rRNA type-c"
+  ],
+  "slug": "mots-c",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for MOTS-c. Europe PMC indexes 277 publications, including 4 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "MOTS-c: what the research shows",
+    "description": "Cited overview of published MOTS-c research: 277 indexed publications, 4 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 277,
+      "randomized_controlled_trials": 4,
+      "clinical_trials": 1,
+      "reviews": 56,
+      "human_indexed": 5,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 7,
+      "observational-human": 13,
+      "animal-preclinical": 26,
+      "mechanistic-in-vitro": 3,
+      "review": 0,
+      "unclassified": 2
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42611943",
+      "title": "MOTS-c is a mitochondrial-encoded interferon-linked host defense peptide.",
+      "url": "https://europepmc.org/article/MED/42611943",
+      "published": "2026-08-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42321010",
+      "title": "Mitochondrial peptide MOTS-c suppresses systemic and cardiac inflammasome activation in a diabetic rat model.",
+      "url": "https://europepmc.org/article/MED/42321010",
+      "published": "2026-06-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42228044",
+      "title": "MOTS-c preserves mitochondrial subpopulation bioenergetics and genome integrity to attenuate cardiac ischemia reperfusion injury.",
+      "url": "https://europepmc.org/article/MED/42228044",
+      "published": "2026-06-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42266945",
+      "title": "MOTS-c partially protects against skeletal muscle deterioration in C26 cachexia.",
+      "url": "https://europepmc.org/article/MED/42266945",
+      "published": "2026-05-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42278864",
+      "title": "Reduced Circulating MOTS-c Levels in Hashimoto's Thyroiditis Reflect Integrated Autoimmune and Metabolic Dysregulation: A Cross-Sectional Study.",
+      "url": "https://europepmc.org/article/MED/42278864",
+      "published": "2026-05-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42126770",
+      "title": "MOTS-c is associated with oxidative stress and arterial stiffness in peritoneal dialysis patients: a pilot study.",
+      "url": "https://europepmc.org/article/MED/42126770",
+      "published": "2026-05-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42128272",
+      "title": "MOTS-c attenuates hyperoxia-induced neonatal cardiac injury by inhibiting oxeiptosis via maintaining the KEAP1-PGAM5 interaction.",
+      "url": "https://europepmc.org/article/MED/42128272",
+      "published": "2026-05-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42142418",
+      "title": "LAT1-mediated delivery of engineered R13A-MOTS-c attenuates radiation-induced lung injury via Nrf2 activation and mitochondrial protection.",
+      "url": "https://europepmc.org/article/MED/42142418",
+      "published": "2026-05-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42193373",
+      "title": "Humanin and MOTS-c Attenuate Atrial Fibrillation by Suppressing Fibrosis and Mitochondrial Dysfunction.",
+      "url": "https://europepmc.org/article/MED/42193373",
+      "published": "2026-05-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42072458",
+      "title": "The Association Between Serum MOTS-c Levels and Myocardial Ischemia-Reperfusion Injury in Patients with Acute Myocardial Infarction: A Cross-Sectional Study.",
+      "url": "https://europepmc.org/article/MED/42072458",
+      "published": "2026-04-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41945630",
+      "title": "Are serum MOTS-c levels and MOTS-c m.1382A>C polymorphism related to polycystic ovary syndrome?",
+      "url": "https://europepmc.org/article/MED/41945630",
+      "published": "2026-04-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-20944-preprints202512-1011-v3",
+      "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance",
+      "url": "https://doi.org/10.20944/preprints202512.1011.v3",
+      "published": "2026-04-07",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-41811086",
+      "title": "MOTS-c primes adrenal cortex metabolism without directly driving steroidogenesis.",
+      "url": "https://europepmc.org/article/MED/41811086",
+      "published": "2026-03-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41706383",
+      "title": "Therapeutic Effects of MOTS-c in the Valproic Acid-Induced Autism Model in Rats: Role of Tetrahydrobiopterin and Brain-Derived Neurotrophic Factor.",
+      "url": "https://europepmc.org/article/MED/41706383",
+      "published": "2026-02-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41680431",
+      "title": "Reduced serum and skeletal muscle MOTS c levels in women with polycystic ovary syndrome are associated with mitochondrial dysfunction.",
+      "url": "https://europepmc.org/article/MED/41680431",
+      "published": "2026-02-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41710402",
+      "title": "Aerobic exercise and MOTS-c attenuate diabetic myocardial fibrosis via inhibition of the THBS1/TGF-β signaling pathway.",
+      "url": "https://europepmc.org/article/MED/41710402",
+      "published": "2026-02-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41732124",
+      "title": "Mitochondrial-derived peptides MOTS-c and humanin attenuate dexamethasone-induced atrophy in human skeletal muscle cells.",
+      "url": "https://europepmc.org/article/MED/41732124",
+      "published": "2026-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41593376",
+      "title": "Exogenous MOTS-c mitigates myocardial ischemia-reperfusion injury: experimental and in silico evidence from rat heart models.",
+      "url": "https://europepmc.org/article/MED/41593376",
+      "published": "2026-01-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41764620",
+      "title": "MOTS-c Protects Against Acetaminophen-induced Liver Injury through the MAPK Signaling Pathway.",
+      "url": "https://europepmc.org/article/MED/41764620",
+      "published": "2026-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41551324",
+      "title": "Systemic MOTS-c levels are increased in adults with obesity in association with metabolic dysregulation and remain unchanged after weight loss.",
+      "url": "https://europepmc.org/article/MED/41551324",
+      "published": "2025-12-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-20944-preprints202512-1011-v1",
+      "title": "Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance",
+      "url": "https://doi.org/10.20944/preprints202512.1011.v1",
+      "published": "2025-12-12",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-41479490",
+      "title": "Serum Mitochondrial Open Reading Frame of the 12S rRNA-c (MOTS-c) Dynamics as a Complementary Marker of Treatment Response in Newly Diagnosed Multiple Myeloma: A Prospective Analysis.",
+      "url": "https://europepmc.org/article/MED/41479490",
+      "published": "2025-11-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41268602",
+      "title": "MOTS‑c protects against placental injury via Nrf2 activation in hypoxia‑induced intrauterine growth restriction mice.",
+      "url": "https://europepmc.org/article/MED/41268602",
+      "published": "2025-11-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41043625",
+      "title": "MOTS-c attenuates mitochondrial dysfunction induces pyroptosis and cartilage degradation in osteoarthritis via an Nrf2-Dependent Mechanism.",
+      "url": "https://europepmc.org/article/MED/41043625",
+      "published": "2025-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41004666",
+      "title": "MOTS-C levels ın ındividuals with and without obesity and ıts association with ınflammation, insulin resistance and endothelial dysfunction.",
+      "url": "https://europepmc.org/article/MED/41004666",
+      "published": "2025-09-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40805020",
+      "title": "Characterization of the Avian Mitochondrial-Derived Peptide MOTS-c and Its Potential Role as a Metabolic Regulator.",
+      "url": "https://europepmc.org/article/MED/40805020",
+      "published": "2025-07-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-20944-preprints202507-0058-v2",
+      "title": "Redefining Mitochondrial Therapy for ME/CFS: The Case for MOTS-c",
+      "url": "https://doi.org/10.20944/preprints202507.0058.v2",
+      "published": "2025-07-15",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-40608240",
+      "title": "The impact of mitokine MOTS-c administration on the soleus muscle of rats subjected to a 7-day hindlimb suspension.",
+      "url": "https://europepmc.org/article/MED/40608240",
+      "published": "2025-07-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-20944-preprints202507-0058-v1",
+      "title": "Redefining Mitochondrial Therapy for ME/CFS: The Case for MOTS-c",
+      "url": "https://doi.org/10.20944/preprints202507.0058.v1",
+      "published": "2025-07-01",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-40661667",
+      "title": "Mitochondria-derived peptide MOTS-c restores mitochondrial respiration in type 2 diabetic heart.",
+      "url": "https://europepmc.org/article/MED/40661667",
+      "published": "2025-06-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40510834",
+      "title": "MOTS-c-modified functional self-assembly peptide hydrogels enhance the activity of nucleus pulposus-derived mesenchymal stem cells of intervertebral disc degeneration.",
+      "url": "https://europepmc.org/article/MED/40510834",
+      "published": "2025-05-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40496439",
+      "title": "Mitochondrial dysfunction characterises the multigenerational effects of maternal obesity on MASLD.",
+      "url": "https://europepmc.org/article/MED/40496439",
+      "published": "2025-03-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40104672",
+      "title": "Circulating PGC-1α and MOTS-c Peptide as Potential Mitochondrial Biomarkers in Patients Undergoing Aortic Valve Replacement.",
+      "url": "https://europepmc.org/article/MED/40104672",
+      "published": "2025-03-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39201408",
+      "title": "Expression Patterns of MOTS-c in Adrenal Tumors: Results from a Preliminary Study.",
+      "url": "https://europepmc.org/article/MED/39201408",
+      "published": "2024-08-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36629605",
+      "title": "Evaluation of Coronary Flow Level with Mots-C in Patients with STEMI Undergoing Primary PCI.",
+      "url": "https://europepmc.org/article/MED/36629605",
+      "published": "2023-01-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36490309",
+      "title": "Circulating levels of MOTS-c in patients with breast cancer treated with metformin.",
+      "url": "https://europepmc.org/article/MED/36490309",
+      "published": "2022-12-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35499074",
+      "title": "Mitochondria-derived peptides in aging and healthspan.",
+      "url": "https://europepmc.org/article/MED/35499074",
+      "published": "2022-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34413391",
+      "title": "Effect of aerobic and resistance exercise on the mitochondrial peptide MOTS-c in Hispanic and Non-Hispanic White breast cancer survivors.",
+      "url": "https://europepmc.org/article/MED/34413391",
+      "published": "2021-08-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34351816",
+      "title": "Acute endurance exercise stimulates circulating levels of mitochondrial-derived peptides in humans.",
+      "url": "https://europepmc.org/article/MED/34351816",
+      "published": "2021-08-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33337582",
+      "title": "MOTS-c promotes phosphorodiamidate morpholino oligomer uptake and efficacy in dystrophic mice.",
+      "url": "https://europepmc.org/article/MED/33337582",
+      "published": "2020-12-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32776825",
+      "title": "Mitochondrial-derived peptides in energy metabolism.",
+      "url": "https://europepmc.org/article/MED/32776825",
+      "published": "2020-08-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31185388",
+      "title": "The role of mitochondria-derived peptides in cardiovascular disease: Recent updates.",
+      "url": "https://europepmc.org/article/MED/31185388",
+      "published": "2019-06-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28574175",
+      "title": "Mitochondrially derived peptides as novel regulators of metabolism.",
+      "url": "https://europepmc.org/article/MED/28574175",
+      "published": "2017-07-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27216708",
+      "title": "MOTS-c: A novel mitochondrial-derived peptide regulating muscle and fat metabolism.",
+      "url": "https://europepmc.org/article/MED/27216708",
+      "published": "2016-05-20",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

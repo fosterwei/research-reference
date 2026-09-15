@@ -1,0 +1,311 @@
+{
+  "type": "compound",
+  "preferred_name": "Tirzepatide",
+  "aliases": [
+    "BG-121",
+    "LY-3298176",
+    "LY3298176",
+    "Ly3298176",
+    "Mounjaro",
+    "Mounjaro (autoinjector)",
+    "Tirzepatida",
+    "Tirzepatide",
+    "Zepbound",
+    "Zepbound (autoinjector)"
+  ],
+  "slug": "tirzepatide",
+  "status": "researched",
+  "evidence_tier": "approved-label",
+  "summary": "Research record for Tirzepatide. Europe PMC indexes 2756 publications, including 131 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Tirzepatide: what the research shows",
+    "description": "Cited overview of published Tirzepatide research: 2756 indexed publications, 131 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL4297839: maximum clinical phase 4, first approval 2022, ATC A10BX16. Jurisdiction-level status pending human review.",
+        "evidence_label": "approved-label",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 2756,
+      "randomized_controlled_trials": 131,
+      "clinical_trials": 109,
+      "reviews": 876,
+      "human_indexed": 58,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 46,
+      "observational-human": 2,
+      "animal-preclinical": 0,
+      "mechanistic-in-vitro": 6,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL4297839",
+      "pref_name": "TIRZEPATIDE",
+      "molecule_type": "Protein",
+      "max_phase": 4.0,
+      "first_approval": 2022,
+      "atc": [
+        "A10BX16"
+      ],
+      "synonyms": [
+        "BG-121",
+        "LY-3298176",
+        "LY3298176",
+        "Ly3298176",
+        "Mounjaro",
+        "Mounjaro (autoinjector)",
+        "Tirzepatida",
+        "Tirzepatide",
+        "Zepbound",
+        "Zepbound (autoinjector)"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL4297839/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42576670",
+      "title": "Liver Fat Changes in Patients With Type 2 Diabetes by Presence of Genetic Hepatic Steatosis: A Post Hoc Analysis of SURPASS-3 MRI.",
+      "url": "https://europepmc.org/article/MED/42576670",
+      "published": "2026-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42675225",
+      "title": "Association of tirzepatide with changes in OSA-related measures based on baseline characteristics - post hoc analyses of SURMOUNT-OSA.",
+      "url": "https://europepmc.org/article/MED/42675225",
+      "published": "2026-08-31",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42594122",
+      "title": "Achieving the triple endpoint of body weight reduction thresholds, systolic blood pressure reduction ≥5 mmHg and non-HDL cholesterol <130 mg/dL with tirzepatide in people with obesity: A post hoc analysis from the SURMOUNT trials.",
+      "url": "https://europepmc.org/article/MED/42594122",
+      "published": "2026-08-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42139049",
+      "title": "Ixekizumab With or Without Tirzepatide in Adults With Psoriasis and Overweight or Obesity: A Phase 3b Randomized Clinical Trial.",
+      "url": "https://europepmc.org/article/MED/42139049",
+      "published": "2026-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42348366",
+      "title": "Tirzepatide Efficacy and Tolerability According to Early Weight Response: A Post Hoc Analysis of the SURMOUNT-1 and SURMOUNT-2 Trials.",
+      "url": "https://europepmc.org/article/MED/42348366",
+      "published": "2026-06-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42260100",
+      "title": "Apitegromab for lean mass preservation during tirzepatide-induced weight loss: a randomized, double-blind, placebo-controlled phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/42260100",
+      "published": "2026-06-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42236268",
+      "title": "Short-Term Combined Treatment With Tirzepatide and Metformin for Overweight/Obese Chinese Women With Polycystic Ovary Syndrome: A Prospective, Open-Label, Randomised Controlled Trial.",
+      "url": "https://europepmc.org/article/MED/42236268",
+      "published": "2026-06-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42233927",
+      "title": "Comprehensive Long-Term Changes in Cardiovascular Risk Biomarkers With Tirzepatide: A SURMOUNT-1 Post Hoc Analysis.",
+      "url": "https://europepmc.org/article/MED/42233927",
+      "published": "2026-06-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41903177",
+      "title": "Cardiorenal Outcomes With Tirzepatide Compared With Dulaglutide in Patients With Diabetes and Cardiovascular Disease: A Post Hoc Analysis of the SURPASS-CVOT Randomized Clinical Trial.",
+      "url": "https://europepmc.org/article/MED/41903177",
+      "published": "2026-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42434924",
+      "title": "Tirzepatide compared with semaglutide in obesity disease: a subpopulation analysis applying Japan Society for the Study of Obesity criteria in the global SURMOUNT-5 trial.",
+      "url": "https://europepmc.org/article/MED/42434924",
+      "published": "2026-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42120723",
+      "title": "Orforglipron for maintenance of body weight reduction: the double-blind, randomized phase 3b ATTAIN-MAINTAIN trial.",
+      "url": "https://europepmc.org/article/MED/42120723",
+      "published": "2026-05-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42119587",
+      "title": "Tirzepatide for maintenance of bodyweight reduction in people with obesity in the USA (SURMOUNT-MAINTAIN): a multicentre, double-blind, randomised, placebo-controlled trial.",
+      "url": "https://europepmc.org/article/MED/42119587",
+      "published": "2026-05-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42108080",
+      "title": "Effect of Tirzepatide on Health-Related Quality of Life in Japanese Patients With Obesity Disease: Patient-Reported Outcomes From the SURMOUNT-J Study.",
+      "url": "https://europepmc.org/article/MED/42108080",
+      "published": "2026-05-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42097660",
+      "title": "Treatment of the disease of obesity in patients with type 1 diabetes with tirzepatide: a protocol for a randomised controlled trial in a single-centre setting.",
+      "url": "https://europepmc.org/article/MED/42097660",
+      "published": "2026-05-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42082865",
+      "title": "Shifts in waist-to-height ratio categories within tirzepatide groups: a post-hoc analysis of SURMOUNT-1.",
+      "url": "https://europepmc.org/article/MED/42082865",
+      "published": "2026-05-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41912265",
+      "title": "Safety and efficacy of switching from dulaglutide to tirzepatide across clinically relevant baseline characteristics in participants with T2D: subgroup analysis of SURPASS-SWITCH.",
+      "url": "https://europepmc.org/article/MED/41912265",
+      "published": "2026-03-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41612966",
+      "title": "Efficacy and Safety of Tirzepatide in Japanese Participants With Obesity: A Subpopulation Analysis of the SURMOUNT-1 Trial.",
+      "url": "https://europepmc.org/article/MED/41612966",
+      "published": "2026-01-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41066427",
+      "title": "Relationship Between Metabolic and Histological Responses in People With Metabolic Dysfunction- Associated Steatohepatitis With and Without Type 2 Diabetes: Participant-Level Exploratory Analysis of the SYNERGY-NASH Trial With Tirzepatide.",
+      "url": "https://europepmc.org/article/MED/41066427",
+      "published": "2025-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41198197",
+      "title": "Tirzepatide for fertility-sparing treatment in obese/overweight patients with endometrial cancer and atypical hyperplasia: a phase II single-arm clinical trial protocol.",
+      "url": "https://europepmc.org/article/MED/41198197",
+      "published": "2025-11-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40964167",
+      "title": "Counterregulatory response to hypoglycemia during a hypoglycemic clamp in people with type 2 diabetes treated with tirzepatide.",
+      "url": "https://europepmc.org/article/MED/40964167",
+      "published": "2025-09-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40694530",
+      "title": "Tirzepatide Treatment and Associated Changes in β-Cell Function and Insulin Sensitivity in People With Obesity or Overweight With Prediabetes or Normoglycemia: A Post Hoc Analysis From the SURMOUNT-1 Trial.",
+      "url": "https://europepmc.org/article/MED/40694530",
+      "published": "2025-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40847412",
+      "title": "Effect of tirzepatide-induced weight loss on adipose tissue in obesity: rationale and design of the randomized placebo-controlled Tirzepatide Brown and Beige Adipose Tissue Activation (TABFAT) trial.",
+      "url": "https://europepmc.org/article/MED/40847412",
+      "published": "2025-08-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40555748",
+      "title": "Tirzepatide on ingestive behavior in adults with overweight or obesity: a randomized 6-week phase 1 trial.",
+      "url": "https://europepmc.org/article/MED/40555748",
+      "published": "2025-06-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38286487",
+      "title": "Comparative effectiveness of GLP-1 receptor agonists on glycaemic control, body weight, and lipid profile for type 2 diabetes: systematic review and network meta-analysis.",
+      "url": "https://europepmc.org/article/MED/38286487",
+      "published": "2024-01-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38015216",
+      "title": "Obesity Management in Adults: A Review.",
+      "url": "https://europepmc.org/article/MED/38015216",
+      "published": "2023-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36992862",
+      "title": "Pharmacotherapy of obesity: an update on the available medications and drugs under investigation.",
+      "url": "https://europepmc.org/article/MED/36992862",
+      "published": "2023-03-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36050763",
+      "title": "Tirzepatide, a dual GIP/GLP-1 receptor co-agonist for the treatment of type 2 diabetes with unmatched effectiveness regrading glycaemic control and body weight reduction.",
+      "url": "https://europepmc.org/article/MED/36050763",
+      "published": "2022-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32396843",
+      "title": "How May GIP Enhance the Therapeutic Efficacy of GLP-1?",
+      "url": "https://europepmc.org/article/MED/32396843",
+      "published": "2020-03-16",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier human-clinical-trial -> approved-label; chembl None -> CHEMBL4297839."
+    }
+  ]
+}

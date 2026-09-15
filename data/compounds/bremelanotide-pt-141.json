@@ -1,0 +1,288 @@
+{
+  "type": "compound",
+  "preferred_name": "Bremelanotide",
+  "aliases": [
+    "Bremelanotide acetate",
+    "PT 141",
+    "PT-141",
+    "Vyleesi",
+    "Vyleesi (autoinjector)"
+  ],
+  "slug": "bremelanotide-pt-141",
+  "status": "researched",
+  "evidence_tier": "approved-label",
+  "summary": "Research record for Bremelanotide. Europe PMC indexes 127 publications, including 14 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Bremelanotide: what the research shows",
+    "description": "Cited overview of published Bremelanotide research: 127 indexed publications, 14 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL4297533: maximum clinical phase 4, first approval 2019. Jurisdiction-level status pending human review.",
+        "evidence_label": "approved-label",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 127,
+      "randomized_controlled_trials": 14,
+      "clinical_trials": 9,
+      "reviews": 54,
+      "human_indexed": 2,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 29,
+      "observational-human": 1,
+      "animal-preclinical": 7,
+      "mechanistic-in-vitro": 4,
+      "review": 0,
+      "unclassified": 2
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL4297533",
+      "pref_name": "BREMELANOTIDE ACETATE",
+      "molecule_type": "Protein",
+      "max_phase": 4.0,
+      "first_approval": 2019,
+      "atc": [],
+      "synonyms": [
+        "Bremelanotide acetate",
+        "PT 141",
+        "PT-141",
+        "Vyleesi",
+        "Vyleesi (autoinjector)"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL4297533/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42485063",
+      "title": "Comprehensive characterization of bremelanotide acetate and its degradants by LC-HRMS/MS and predicting epimerization through computational modelling.",
+      "url": "https://europepmc.org/article/MED/42485063",
+      "published": "2026-08-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42340853",
+      "title": "Goldilocks-Inspired Design of Mid-Size Macrocycles for Selective Targeting of Human Melanocortin Receptors.",
+      "url": "https://europepmc.org/article/MED/42340853",
+      "published": "2026-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40513668",
+      "title": "A biodegradable suction patch for sustainable transbuccal peptide delivery.",
+      "url": "https://europepmc.org/article/MED/40513668",
+      "published": "2025-06-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40678415",
+      "title": "FDA-approved drugs as potential covalent inhibitors of key SARS-CoV-2 proteins: an in silico approach.",
+      "url": "https://europepmc.org/article/MED/40678415",
+      "published": "2025-04-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39793696",
+      "title": "Female Syrian hamster analyses of bremelanotide, a US FDA approved drug for the treatment of female hypoactive sexual desire disorder.",
+      "url": "https://europepmc.org/article/MED/39793696",
+      "published": "2025-01-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37365323",
+      "title": "Targeting the central melanocortin system for the treatment of metabolic disorders.",
+      "url": "https://europepmc.org/article/MED/37365323",
+      "published": "2023-06-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35170192",
+      "title": "Effect of bremelanotide on body weight of obese women: Data from two phase 1 randomized controlled trials.",
+      "url": "https://europepmc.org/article/MED/35170192",
+      "published": "2022-03-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35230162",
+      "title": "Prespecified and Integrated Subgroup Analyses from the RECONNECT Phase 3 Studies of Bremelanotide.",
+      "url": "https://europepmc.org/article/MED/35230162",
+      "published": "2022-02-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35147466",
+      "title": "Safety Profile of Bremelanotide Across the Clinical Development Program.",
+      "url": "https://europepmc.org/article/MED/35147466",
+      "published": "2022-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34559353",
+      "title": "Psychometric validation of the Female Sexual Distress Scale-Desire/Arousal/Orgasm.",
+      "url": "https://europepmc.org/article/MED/34559353",
+      "published": "2021-09-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34433901",
+      "title": "Structural insights into ligand recognition and activation of the melanocortin-4 receptor.",
+      "url": "https://europepmc.org/article/MED/34433901",
+      "published": "2021-08-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33033885",
+      "title": "Reliability and validity of the elements of desire questionnaire in premenopausal women with hypoactive sexual desire disorder.",
+      "url": "https://europepmc.org/article/MED/33033885",
+      "published": "2020-10-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32151051",
+      "title": "2019 FDA TIDES (Peptides and Oligonucleotides) Harvest.",
+      "url": "https://europepmc.org/article/MED/32151051",
+      "published": "2020-03-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31599840",
+      "title": "Bremelanotide for the Treatment of Hypoactive Sexual Desire Disorder: Two Randomized Phase 3 Trials.",
+      "url": "https://europepmc.org/article/MED/31599840",
+      "published": "2019-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31599847",
+      "title": "Long-Term Safety and Efficacy of Bremelanotide for Hypoactive Sexual Desire Disorder.",
+      "url": "https://europepmc.org/article/MED/31599847",
+      "published": "2019-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31429064",
+      "title": "Bremelanotide: First Approval.",
+      "url": "https://europepmc.org/article/MED/31429064",
+      "published": "2019-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31277966",
+      "title": "Responder Analyses from a Phase 2b Dose-Ranging Study of Bremelanotide.",
+      "url": "https://europepmc.org/article/MED/31277966",
+      "published": "2019-07-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27977473",
+      "title": "Usefulness of ambulatory blood pressure monitoring to assess the melanocortin receptor agonist bremelanotide.",
+      "url": "https://europepmc.org/article/MED/27977473",
+      "published": "2017-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28189361",
+      "title": "Phase I Randomized Placebo-controlled, Double-blind Study of the Safety and Tolerability of Bremelanotide Coadministered With Ethanol in Healthy Male and Female Participants.",
+      "url": "https://europepmc.org/article/MED/28189361",
+      "published": "2017-02-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27181790",
+      "title": "Bremelanotide for female sexual dysfunctions in premenopausal women: a randomized, placebo-controlled dose-finding trial.",
+      "url": "https://europepmc.org/article/MED/27181790",
+      "published": "2016-05-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26519340",
+      "title": "The Female Sexual Response: Current Models, Neurobiological Underpinnings and Agents Currently Approved or Under Investigation for the Treatment of Hypoactive Sexual Desire Disorder.",
+      "url": "https://europepmc.org/article/MED/26519340",
+      "published": "2015-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17584130",
+      "title": "Melanocortin receptors, melanotropic peptides and penile erection.",
+      "url": "https://europepmc.org/article/MED/17584130",
+      "published": "2007-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16412534",
+      "title": "Melanocortin peptide therapeutics: historical milestones, clinical studies and commercialization.",
+      "url": "https://europepmc.org/article/MED/16412534",
+      "published": "2006-01-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-15833522",
+      "title": "Co-administration of low doses of intranasal PT-141, a melanocortin receptor agonist, and sildenafil to men with erectile dysfunction results in an enhanced erectile response.",
+      "url": "https://europepmc.org/article/MED/15833522",
+      "published": "2005-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-14999221",
+      "title": "Evaluation of the safety, pharmacokinetics and pharmacodynamic effects of subcutaneously administered PT-141, a melanocortin receptor agonist, in healthy male subjects and in patients with an inadequate response to Viagra.",
+      "url": "https://europepmc.org/article/MED/14999221",
+      "published": "2004-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-14963471",
+      "title": "Double-blind, placebo-controlled evaluation of the safety, pharmacokinetic properties and pharmacodynamic effects of intranasal PT-141, a melanocortin receptor agonist, in healthy males and patients with mild-to-moderate erectile dysfunction.",
+      "url": "https://europepmc.org/article/MED/14963471",
+      "published": "2004-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12851303",
+      "title": "PT-141: a melanocortin agonist for the treatment of sexual dysfunction.",
+      "url": "https://europepmc.org/article/MED/12851303",
+      "published": "2003-06-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

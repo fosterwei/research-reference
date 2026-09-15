@@ -1,0 +1,434 @@
+{
+  "type": "compound",
+  "preferred_name": "TB-500",
+  "aliases": [
+    "thymosin beta 4",
+    "thymosin beta-4",
+    "thymosin beta4",
+    "timbetasin"
+  ],
+  "slug": "tb-500",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for TB-500. Europe PMC indexes 1257 publications, including 7 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "TB-500: what the research shows",
+    "description": "Cited overview of published TB-500 research: 1257 indexed publications, 7 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 1257,
+      "randomized_controlled_trials": 7,
+      "clinical_trials": 6,
+      "reviews": 126,
+      "human_indexed": 6,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 13,
+      "observational-human": 7,
+      "animal-preclinical": 24,
+      "mechanistic-in-vitro": 8,
+      "review": 0,
+      "unclassified": 2
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42606759",
+      "title": "Recombinant human Thymosin β4 ameliorates experimental colitis and intestinal fibrosis through suppression of mineralocorticoid receptor signaling.",
+      "url": "https://europepmc.org/article/MED/42606759",
+      "published": "2026-08-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42578445",
+      "title": "Peptide Supplements and Their Therapeutic Applications in Sports Medicine.",
+      "url": "https://europepmc.org/article/MED/42578445",
+      "published": "2026-08-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42542926",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study.",
+      "url": "https://europepmc.org/article/MED/42542926",
+      "published": "2026-07-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42431294",
+      "title": "Understanding the effects of ciprofloxacin on corneal epithelial cells: a study using electric cell-substrate impedance sensing (ECIS) technology.",
+      "url": "https://europepmc.org/article/MED/42431294",
+      "published": "2026-07-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42440461",
+      "title": "Dysregulation of circulating damage-associated molecular patterns in diabetic foot syndrome.",
+      "url": "https://europepmc.org/article/MED/42440461",
+      "published": "2026-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42283548",
+      "title": "Reparative Outcomes in Corneal Infection: Linking Adjunctive Tβ4 Treatment to Nerve Regeneration and Visual Function.",
+      "url": "https://europepmc.org/article/MED/42283548",
+      "published": "2026-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-20944-preprints202605-1124-v1",
+      "title": "Thymosin Beta-4 and TB-500 in Tissue Healing, Regeneration, and Musculoskeletal Repair: A Scoping Review",
+      "url": "https://doi.org/10.20944/preprints202605.1124.v1",
+      "published": "2026-05-18",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-42394899",
+      "title": "PEGylated thymosin β4 is a thiol-site-specific prodrug treating myocardial infarction in vivo.",
+      "url": "https://europepmc.org/article/MED/42394899",
+      "published": "2026-03-31",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41742019",
+      "title": "Comparative Proteomic Analysis of the Secretome of Control and BRAF/MEK Inhibitor-Resistant Melanoma Cells.",
+      "url": "https://europepmc.org/article/MED/41742019",
+      "published": "2026-02-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41751875",
+      "title": "Zinc Coordination by Thymosin β4: Structural Determinants and Functional Implications.",
+      "url": "https://europepmc.org/article/MED/41751875",
+      "published": "2026-02-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41565687",
+      "title": "Decidualization-empowered ECM hydrogel integrating sustained Tβ4 release drives endometrial regeneration in intrauterine adhesions.",
+      "url": "https://europepmc.org/article/MED/41565687",
+      "published": "2026-01-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41478570",
+      "title": "A revised model of nuclear actin import: Importin 9 competes with cofilin, profilin, and RanGTP for actin binding.",
+      "url": "https://europepmc.org/article/MED/41478570",
+      "published": "2025-12-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41229390",
+      "title": "Recombinant human thymosin beta 4 improves ischemic cardiac dysfunction in mice and patients with acute ST-segment elevation myocardial infarction after reperfusion.",
+      "url": "https://europepmc.org/article/MED/41229390",
+      "published": "2025-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41326489",
+      "title": "Thymosin β4 stabilizes hypoxia induced brain microvascular endothelial cell dysfunction through S1PR1 dependent mechanisms.",
+      "url": "https://europepmc.org/article/MED/41326489",
+      "published": "2025-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41205079",
+      "title": "Tβ4-17 peptide enhances the chemo-sensitivity of ovarian cancer cells to DDP by affecting NF-κB signaling pathway.",
+      "url": "https://europepmc.org/article/MED/41205079",
+      "published": "2025-11-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41235866",
+      "title": "Engineered Tandem Thymosin Peptide Promotes Corneal Wound Healing.",
+      "url": "https://europepmc.org/article/MED/41235866",
+      "published": "2025-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40816274",
+      "title": "Thymosin beta 4 as an Alzheimer disease intervention target identified using human brain organoids.",
+      "url": "https://europepmc.org/article/MED/40816274",
+      "published": "2025-08-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40502330",
+      "title": "The Prognostic Significance of TMSB4X in Glioma Patients.",
+      "url": "https://europepmc.org/article/MED/40502330",
+      "published": "2025-06-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40362372",
+      "title": "Thymosin Beta-4 Modulates Cardiac Remodeling by Regulating ROCK1 Expression in Adult Mammals.",
+      "url": "https://europepmc.org/article/MED/40362372",
+      "published": "2025-04-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39837870",
+      "title": "Identification of glutamine as a potential therapeutic target in dry eye disease.",
+      "url": "https://europepmc.org/article/MED/39837870",
+      "published": "2025-01-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39443925",
+      "title": "Thymosin β4 promotes zebrafish Mauthner axon regeneration by facilitating actin polymerization through binding to G-actin.",
+      "url": "https://europepmc.org/article/MED/39443925",
+      "published": "2024-10-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39380984",
+      "title": "Activation of pro-resolving pathways mediate the therapeutic effects of thymosin beta-4 during Pseudomonas aeruginosa -induced keratitis.",
+      "url": "https://europepmc.org/article/MED/39380984",
+      "published": "2024-09-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38409346",
+      "title": "In Vitro Study of Thymosin Beta 4 Promoting Transplanted Fat Survival by Regulating Adipose-Derived Stem Cells.",
+      "url": "https://europepmc.org/article/MED/38409346",
+      "published": "2024-02-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37689229",
+      "title": "Thymosin beta-4 participate in antibacterial immunity and wound healing in black tiger shrimp, Penaeus monodon.",
+      "url": "https://europepmc.org/article/MED/37689229",
+      "published": "2023-09-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37175330",
+      "title": "Thymosin Beta 4 Protects Hippocampal Neuronal Cells against PrP (106-126) via Neurotrophic Factor Signaling.",
+      "url": "https://europepmc.org/article/MED/37175330",
+      "published": "2023-05-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36125329",
+      "title": "Thymosin β4 and prothymosin α promote cardiac regeneration post-ischaemic injury in mice.",
+      "url": "https://europepmc.org/article/MED/36125329",
+      "published": "2023-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37018981",
+      "title": "Thymosin beta 4: A potential novel adjunct treatment for bacterial keratitis.",
+      "url": "https://europepmc.org/article/MED/37018981",
+      "published": "2023-04-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36835236",
+      "title": "Exogenous Thymosin Beta 4 Suppresses IPF-Lung Cancer in Mice: Possibly Associated with Its Inhibitory Effect on the JAK2/STAT3 Signaling Pathway.",
+      "url": "https://europepmc.org/article/MED/36835236",
+      "published": "2023-02-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36834849",
+      "title": "Thymosin Beta 4 Inhibits LPS and ATP-Induced Hepatic Stellate Cells via the Regulation of Multiple Signaling Pathways.",
+      "url": "https://europepmc.org/article/MED/36834849",
+      "published": "2023-02-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36424462",
+      "title": "Nuclear factor (erythroid-derived 2)-like 2 counter-regulates thymosin beta-4 expression and primary cilium formation for HeLa cervical cancer cell survival.",
+      "url": "https://europepmc.org/article/MED/36424462",
+      "published": "2022-11-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36321670",
+      "title": "Aberrant Expression of Thymosin Beta-4 Correlates With Advanced Disease and BRAF V600E Mutation in Thyroid Cancer.",
+      "url": "https://europepmc.org/article/MED/36321670",
+      "published": "2022-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34944086",
+      "title": "Adjunctive Thymosin Beta-4 Treatment Influences PMN Effector Cell Function during Pseudomonas aeruginosa -Induced Corneal Infection.",
+      "url": "https://europepmc.org/article/MED/34944086",
+      "published": "2021-12-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34607232",
+      "title": "Association between Thymosin beta-4, acute kidney injury, and mortality in patients with sepsis: An observational cohort study.",
+      "url": "https://europepmc.org/article/MED/34607232",
+      "published": "2021-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34346165",
+      "title": "A first-in-human, randomized, double-blind, single- and multiple-dose, phase I study of recombinant human thymosin β4 in healthy Chinese volunteers.",
+      "url": "https://europepmc.org/article/MED/34346165",
+      "published": "2021-08-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34081824",
+      "title": "In vivo CRISPR-Cas9 knockout screening using quantitative PCR identifies thymosin beta-4 X-linked that promotes diffuse-type gastric cancer metastasis.",
+      "url": "https://europepmc.org/article/MED/34081824",
+      "published": "2021-06-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33967626",
+      "title": "Recombinant Human Thymosin Beta-4 Protects against Mouse Coronavirus Infection.",
+      "url": "https://europepmc.org/article/MED/33967626",
+      "published": "2021-04-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33318598",
+      "title": "Logistic regression analysis of environmental and other variables and incidences of tuberculosis in respiratory patients.",
+      "url": "https://europepmc.org/article/MED/33318598",
+      "published": "2020-12-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29710844",
+      "title": "Synthesis and Characterization of Injectable Hydrogels with Varying Collagen⁻Chitosan⁻Thymosin β4 Composition for Myocardial Infarction Therapy.",
+      "url": "https://europepmc.org/article/MED/29710844",
+      "published": "2018-04-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29467032",
+      "title": "Pegylated and liposomal doxorubicin is associated with high mortality and causes limited cardiotoxicity in mice.",
+      "url": "https://europepmc.org/article/MED/29467032",
+      "published": "2018-02-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28611096",
+      "title": "Thymosin Beta-4 Is Elevated in Women With Heart Failure With Preserved Ejection Fraction.",
+      "url": "https://europepmc.org/article/MED/28611096",
+      "published": "2017-06-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27288307",
+      "title": "Safety and efficacy of autologous thymosin β4 pre-treated endothelial progenitor cell transplantation in patients with acute ST segment elevation myocardial infarction: A pilot study.",
+      "url": "https://europepmc.org/article/MED/27288307",
+      "published": "2016-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25826322",
+      "title": "Thymosin β4 significantly improves signs and symptoms of severe dry eye in a phase 2 randomized trial.",
+      "url": "https://europepmc.org/article/MED/25826322",
+      "published": "2015-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20536472",
+      "title": "A randomized, placebo-controlled, single and multiple dose study of intravenous thymosin beta4 in healthy volunteers.",
+      "url": "https://europepmc.org/article/MED/20536472",
+      "published": "2010-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20536470",
+      "title": "The effect of thymosin treatment of venous ulcers.",
+      "url": "https://europepmc.org/article/MED/20536470",
+      "published": "2010-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19101749",
+      "title": "Collateral circulation: past and present.",
+      "url": "https://europepmc.org/article/MED/19101749",
+      "published": "2008-12-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18327913",
+      "title": "Widely distributed residues in thymosin beta4 are critical for actin binding.",
+      "url": "https://europepmc.org/article/MED/18327913",
+      "published": "2008-03-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17495250",
+      "title": "Thymosin beta-4 and venous ulcers: clinical remarks on a European prospective, randomized study on safety, tolerability, and enhancement on healing.",
+      "url": "https://europepmc.org/article/MED/17495250",
+      "published": "2007-05-10",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16099219",
+      "title": "Thymosin beta4: actin-sequestering protein moonlights to repair injured tissues.",
+      "url": "https://europepmc.org/article/MED/16099219",
+      "published": "2005-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12663865",
+      "title": "Actin binding proteins: regulation of cytoskeletal microfilaments.",
+      "url": "https://europepmc.org/article/MED/12663865",
+      "published": "2003-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11311852",
+      "title": "beta-Thymosins, small acidic peptides with multiple functions.",
+      "url": "https://europepmc.org/article/MED/11311852",
+      "published": "2001-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10940259",
+      "title": "Molecular mechanisms controlling actin filament dynamics in nonmuscle cells.",
+      "url": "https://europepmc.org/article/MED/10940259",
+      "published": "2000-01-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

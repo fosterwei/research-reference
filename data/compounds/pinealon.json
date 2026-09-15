@@ -1,0 +1,146 @@
+{
+  "type": "compound",
+  "preferred_name": "Pinealon",
+  "aliases": [],
+  "slug": "pinealon",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for Pinealon. Europe PMC indexes 17 publications, including 0 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Pinealon: what the research shows",
+    "description": "Cited overview of published Pinealon research: 17 indexed publications, 0 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 17,
+      "randomized_controlled_trials": 0,
+      "clinical_trials": 1,
+      "reviews": 2,
+      "human_indexed": 0,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 0,
+      "observational-human": 2,
+      "animal-preclinical": 11,
+      "mechanistic-in-vitro": 0,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "doi-10-21203-rs-3-rs-9682683-v1",
+      "title": "Short-Term Performance Assay Identifies Functional Benefits and Early Toxicity of Longevity Interventions in Mice",
+      "url": "https://doi.org/10.21203/rs.3.rs-9682683/v1",
+      "published": "2026-06-16",
+      "kind": "preprint"
+    },
+    {
+      "id": "doi-10-64898-2026-02-25-707674",
+      "title": "Short-Term Performance Assay Identifies Functional Benefits and Early Toxicity of Longevity Interventions in Mice",
+      "url": "https://doi.org/10.64898/2026.02.25.707674",
+      "published": "2026-02-26",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-41490200",
+      "title": "Therapeutic Peptides in Orthopaedics: Applications, Challenges, and Future Directions.",
+      "url": "https://europepmc.org/article/MED/41490200",
+      "published": "2026-01-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28539017",
+      "title": "[Comparative analysis of different methods of geroprotective].",
+      "url": "https://europepmc.org/article/MED/28539017",
+      "published": "2016-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26390612",
+      "title": "[EFFECT OF SYNTHETIC PEPTIDES ON AGING OF PATIENTS WITH CHRONIC POLYMORBIDITY AND ORGANIC BRAIN SYNDROME OF THE CENTRAL NERVOUS SYSTEM IN REMISSION].",
+      "url": "https://europepmc.org/article/MED/26390612",
+      "published": "2015-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24738258",
+      "title": "[Neuroprotective effects of peptides bioregulators in people of various age].",
+      "url": "https://europepmc.org/article/MED/24738258",
+      "published": "2013-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22567179",
+      "title": "Pinealon protects the rat offspring from prenatal hyperhomocysteinemia.",
+      "url": "https://europepmc.org/article/MED/22567179",
+      "published": "2012-04-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21978084",
+      "title": "Pinealon increases cell viability by suppression of free radical levels and activating proliferative processes.",
+      "url": "https://europepmc.org/article/MED/21978084",
+      "published": "2011-10-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21809624",
+      "title": "[Effects of introduction of short peptides before carotid artery occlusion on behaviour and caspase-3 activity in the brain of old rats].",
+      "url": "https://europepmc.org/article/MED/21809624",
+      "published": "2011-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18546826",
+      "title": "[Biological activity of regulatory peptides in model experiments in vitro].",
+      "url": "https://europepmc.org/article/MED/18546826",
+      "published": "2008-01-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    }
+  ]
+}

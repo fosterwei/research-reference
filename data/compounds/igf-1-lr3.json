@@ -1,0 +1,189 @@
+{
+  "type": "compound",
+  "preferred_name": "IGF-1 LR3",
+  "aliases": [
+    "IGF-I LR3",
+    "LR3 IGF-1",
+    "LR3-IGF-1",
+    "Long R3 IGF-1"
+  ],
+  "slug": "igf-1-lr3",
+  "status": "researched",
+  "evidence_tier": "animal-preclinical",
+  "summary": "Research record for IGF-1 LR3. Europe PMC indexes 27 publications, including 0 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "IGF-1 LR3: what the research shows",
+    "description": "Cited overview of published IGF-1 LR3 research: 27 indexed publications, 0 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 27,
+      "randomized_controlled_trials": 0,
+      "clinical_trials": 0,
+      "reviews": 1,
+      "human_indexed": 0,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 0,
+      "observational-human": 0,
+      "animal-preclinical": 26,
+      "mechanistic-in-vitro": 2,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42395176",
+      "title": "The emerging landscape of performance-enhancing peptides modulating GH-IGF1 axis: bridging the gap between clinical evidence and patient self-administration.",
+      "url": "https://europepmc.org/article/MED/42395176",
+      "published": "2026-06-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39679943",
+      "title": "IGF-1 LR3 does not promote growth in late-gestation growth-restricted fetal sheep.",
+      "url": "https://europepmc.org/article/MED/39679943",
+      "published": "2024-12-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39610283",
+      "title": "Intranasal long R3 insulin-like growth factor-1 treatment promotes amyloid plaque remodeling in cerebral cortex but fails to preserve cognitive function in male 5XFAD mice.",
+      "url": "https://europepmc.org/article/MED/39610283",
+      "published": "2024-11-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37114757",
+      "title": "Attenuated glucose-stimulated insulin secretion during an acute IGF-1 LR3 infusion into fetal sheep does not persist in isolated islets.",
+      "url": "https://europepmc.org/article/MED/37114757",
+      "published": "2023-04-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36499281",
+      "title": "N-Linked Glycosylation in Chinese Hamster Ovary Cells Is Critical for Insulin-like Growth Factor 1 Signaling.",
+      "url": "https://europepmc.org/article/MED/36499281",
+      "published": "2022-11-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36091374",
+      "title": "Sheep recombinant IGF-1 promotes organ-specific growth in fetal sheep.",
+      "url": "https://europepmc.org/article/MED/36091374",
+      "published": "2022-08-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33938236",
+      "title": "Reduced glucose-stimulated insulin secretion following a 1-wk IGF-1 infusion in late gestation fetal sheep is due to an intrinsic islet defect.",
+      "url": "https://europepmc.org/article/MED/33938236",
+      "published": "2021-05-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33427051",
+      "title": "IGF-1 infusion to fetal sheep increases organ growth but not by stimulating nutrient transfer to the fetus.",
+      "url": "https://europepmc.org/article/MED/33427051",
+      "published": "2021-01-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32573852",
+      "title": "Coronary vascular growth matches IGF-1-stimulated cardiac growth in fetal sheep.",
+      "url": "https://europepmc.org/article/MED/32573852",
+      "published": "2020-06-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22227200",
+      "title": "Na+ transport across rumen epithelium of hay-fed sheep is acutely stimulated by the peptide IGF-1 in vitro.",
+      "url": "https://europepmc.org/article/MED/22227200",
+      "published": "2012-01-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21281823",
+      "title": "IGF-1 has plaque-stabilizing effects in atherosclerosis by altering vascular smooth muscle cell phenotype.",
+      "url": "https://europepmc.org/article/MED/21281823",
+      "published": "2011-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19446281",
+      "title": "Novel insulin-like growth factor-methotrexate covalent conjugate inhibits tumor growth in vivo at lower dosage than methotrexate alone.",
+      "url": "https://europepmc.org/article/MED/19446281",
+      "published": "2009-03-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17154301",
+      "title": "Leptin in the bovine corpus luteum: receptor expression and effects on progesterone production.",
+      "url": "https://europepmc.org/article/MED/17154301",
+      "published": "2007-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12941156",
+      "title": "Paracrine effects of oocyte secreted factors and stem cell factor on porcine granulosa and theca cells in vitro.",
+      "url": "https://europepmc.org/article/MED/12941156",
+      "published": "2003-08-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11866696",
+      "title": "Modulatory effects of gonadotrophins and insulin-like growth factor on the secretion of inhibin A and progesterone by granulosa cells from chicken preovulatory (F1-F3) follicles.",
+      "url": "https://europepmc.org/article/MED/11866696",
+      "published": "2002-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9867252",
+      "title": "Involvement of insulin-like growth factor-1 and its binding proteins in proliferation and differentiation of murine bone marrow-derived macrophage precursors.",
+      "url": "https://europepmc.org/article/MED/9867252",
+      "published": "1998-10-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

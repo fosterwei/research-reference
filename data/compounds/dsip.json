@@ -1,0 +1,373 @@
+{
+  "type": "compound",
+  "preferred_name": "DSIP",
+  "aliases": [
+    "Delta sleep inducing peptide",
+    "Delta sleep-inducing peptide",
+    "Dsip",
+    "Emideltida",
+    "Emideltide",
+    "Trp-ala-gly-gly-asp-ala-ser-gly-glu",
+    "delta sleep-inducing peptide",
+    "delta-sleep-inducing peptide"
+  ],
+  "slug": "dsip",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for DSIP. Europe PMC indexes 559 publications, including 7 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "DSIP: what the research shows",
+    "description": "Cited overview of published DSIP research: 559 indexed publications, 7 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL2104403: maximum clinical phase 2. Jurisdiction-level status pending human review.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 559,
+      "randomized_controlled_trials": 7,
+      "clinical_trials": 18,
+      "reviews": 47,
+      "human_indexed": 0,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 18,
+      "observational-human": 4,
+      "animal-preclinical": 16,
+      "mechanistic-in-vitro": 2,
+      "review": 0,
+      "unclassified": 2
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL2104403",
+      "pref_name": "EMIDELTIDE",
+      "molecule_type": "Protein",
+      "max_phase": 2.0,
+      "first_approval": null,
+      "atc": [],
+      "synonyms": [
+        "Delta sleep inducing peptide",
+        "Delta sleep-inducing peptide",
+        "Dsip",
+        "Emideltida",
+        "Emideltide",
+        "Trp-ala-gly-gly-asp-ala-ser-gly-glu"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2104403/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-39444618",
+      "title": "Pichia pastoris secreted peptides crossing the blood-brain barrier and DSIP fusion peptide efficacy in PCPA-induced insomnia mouse models.",
+      "url": "https://europepmc.org/article/MED/39444618",
+      "published": "2024-10-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36042828",
+      "title": "Single-surface Intensive Phototherapy or Double-Surface Intensive Phototherapy in Neonatal Non-Hemolytic Hyperbilirubinemia: A Comparison of Effectiveness and Complications.",
+      "url": "https://europepmc.org/article/MED/36042828",
+      "published": "2021-12-31",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34500605",
+      "title": "Delta Sleep-Inducing Peptide Recovers Motor Function in SD Rats after Focal Stroke.",
+      "url": "https://europepmc.org/article/MED/34500605",
+      "published": "2021-08-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25805003",
+      "title": "Peptides and the blood-brain barrier.",
+      "url": "https://europepmc.org/article/MED/25805003",
+      "published": "2015-03-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25739189",
+      "title": "[Using deltalicin for the treatment of patients with diabetic retinopathy].",
+      "url": "https://europepmc.org/article/MED/25739189",
+      "published": "2014-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23650723",
+      "title": "[Delta-sleep inducing peptide entrapment and release from polymer hydrogels based on modified polyvinyl alcohol in vitro].",
+      "url": "https://europepmc.org/article/MED/23650723",
+      "published": "2013-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19142086",
+      "title": "Delta sleep-inducing peptide alters bispectral index, the electroencephalogram and heart rate variability when used as an adjunct to isoflurane anaesthesia.",
+      "url": "https://europepmc.org/article/MED/19142086",
+      "published": "2009-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20405733",
+      "title": "[Effect of delta-sleep inducing peptide preparation Deltaran on longevity, physiological functions, and carcinogenesis in mice].",
+      "url": "https://europepmc.org/article/MED/20405733",
+      "published": "2009-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17957464",
+      "title": "Interaction of Delta sleep-inducing peptide and valproate on metaphit audiogenic seizure model in rats.",
+      "url": "https://europepmc.org/article/MED/17957464",
+      "published": "2007-10-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17181053",
+      "title": "Deltaran prevents an adverse effect of emotional stress on the course of cerebral ischemia in low-resistant animals.",
+      "url": "https://europepmc.org/article/MED/17181053",
+      "published": "2006-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16758612",
+      "title": "Effect of delta-sleep-inducing peptide on activity of enzymes of biogenic amine metabolism in the brain of Wistar and August rats.",
+      "url": "https://europepmc.org/article/MED/16758612",
+      "published": "2005-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12782416",
+      "title": "Effect of delta-sleep inducing peptide-containing preparation Deltaran on biomarkers of aging, life span and spontaneous tumor incidence in female SHR mice.",
+      "url": "https://europepmc.org/article/MED/12782416",
+      "published": "2003-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12700031",
+      "title": "Biochemical regulation of non-rapid-eye-movement sleep.",
+      "url": "https://europepmc.org/article/MED/12700031",
+      "published": "2003-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12635477",
+      "title": "[Features of regulating delta sleep-inducing peptide by free radical processes in tissue and erythrocyte membranes in intact animals and under stress].",
+      "url": "https://europepmc.org/article/MED/12635477",
+      "published": "2003-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9876605",
+      "title": "Effects of pH, electric current, and enzyme inhibitors on iontophoresis of delta sleep-inducing peptide.",
+      "url": "https://europepmc.org/article/MED/9876605",
+      "published": "1998-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9456470",
+      "title": "Neuropeptides and human sleep.",
+      "url": "https://europepmc.org/article/MED/9456470",
+      "published": "1997-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7777652",
+      "title": "Delta-sleep-inducing peptide does not affect CRH and meal-induced ACTH and cortisol secretion.",
+      "url": "https://europepmc.org/article/MED/7777652",
+      "published": "1995-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8532601",
+      "title": "Delta sleep-inducing peptide in normal humans and in patients with sleep apnea and narcolepsy.",
+      "url": "https://europepmc.org/article/MED/8532601",
+      "published": "1995-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7895296",
+      "title": "Plasma concentration of nine hormones and neurotransmitters during usual activities or constant bed rest for 34 H.",
+      "url": "https://europepmc.org/article/MED/7895296",
+      "published": "1994-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7698722",
+      "title": "Different effects of delta-sleep-inducing peptide on arginine-vasopressin and ACTH secretion in normal men.",
+      "url": "https://europepmc.org/article/MED/7698722",
+      "published": "1994-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8474631",
+      "title": "Characterization of the release and metabolism of delta sleep-inducing peptide (DSIP) in the rat brain.",
+      "url": "https://europepmc.org/article/MED/8474631",
+      "published": "1993-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-1579657",
+      "title": "Plasma levels of DSIP in infants in the first year of life and SIDS risk.",
+      "url": "https://europepmc.org/article/MED/1579657",
+      "published": "1992-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-1299794",
+      "title": "Effects of delta sleep-inducing peptide on sleep of chronic insomniac patients. A double-blind study.",
+      "url": "https://europepmc.org/article/MED/1299794",
+      "published": "1992-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-1667974",
+      "title": "Elevated plasma levels of opioid peptides and delta sleep-inducing peptide but not of corticotropin-releasing hormone in patients receiving chronic hemodialysis.",
+      "url": "https://europepmc.org/article/MED/1667974",
+      "published": "1991-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-2361467",
+      "title": "Co-circulating sleep substances interactingly modulate sleep and wakefulness in rats.",
+      "url": "https://europepmc.org/article/MED/2361467",
+      "published": "1990-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-2554357",
+      "title": "Reduction of immunoreactive ACTH in plasma following intravenous injection of delta sleep-inducing peptide in man.",
+      "url": "https://europepmc.org/article/MED/2554357",
+      "published": "1989-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-3628078",
+      "title": "Degradation and aggregation of delta sleep-inducing peptide (DSIP) and two analogs in plasma and serum.",
+      "url": "https://europepmc.org/article/MED/3628078",
+      "published": "1987-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-3583493",
+      "title": "Study of delta sleep-inducing peptide efficacy in improving sleep on short-term administration to chronic insomniacs.",
+      "url": "https://europepmc.org/article/MED/3583493",
+      "published": "1987-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-3622582",
+      "title": "Effects of delta-sleep-inducing peptide on 24-hour sleep-wake behaviour in severe chronic insomnia.",
+      "url": "https://europepmc.org/article/MED/3622582",
+      "published": "1987-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-3550726",
+      "title": "Delta-sleep-inducing peptide (DSIP): an update.",
+      "url": "https://europepmc.org/article/MED/3550726",
+      "published": "1986-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-6592612",
+      "title": "Differential sleep-promoting effects of five sleep substances nocturnally infused in unrestrained rats.",
+      "url": "https://europepmc.org/article/MED/6592612",
+      "published": "1984-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-6589598",
+      "title": "Fibrinopeptide A binds Gly-Pro-Arg-Pro.",
+      "url": "https://europepmc.org/article/MED/6589598",
+      "published": "1984-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-6304442",
+      "title": "Minireview. Peptides and the blood-brain barrier.",
+      "url": "https://europepmc.org/article/MED/6304442",
+      "published": "1983-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-6857232",
+      "title": "Synthesis of delta sleep-inducing peptide (DSIP) and its physiological activity.",
+      "url": "https://europepmc.org/article/MED/6857232",
+      "published": "1983-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-6689058",
+      "title": "Effects of DSIP in man. Multifunctional psychophysiological properties besides induction of natural sleep.",
+      "url": "https://europepmc.org/article/MED/6689058",
+      "published": "1983-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-6328354",
+      "title": "Successful treatment of withdrawal symptoms with delta sleep-inducing peptide, a neuropeptide with potential agonistic activity on opiate receptors.",
+      "url": "https://europepmc.org/article/MED/6328354",
+      "published": "1983-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-6895513",
+      "title": "Acute and delayed effects of DSIP (delta sleep-inducing peptide) on human sleep behavior.",
+      "url": "https://europepmc.org/article/MED/6895513",
+      "published": "1981-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7028502",
+      "title": "The influence of synthetic DSIP (delta-sleep-inducing-peptide) on disturbed human sleep.",
+      "url": "https://europepmc.org/article/MED/7028502",
+      "published": "1981-01-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier animal-preclinical -> human-clinical-trial."
+    }
+  ]
+}

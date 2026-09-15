@@ -1,0 +1,412 @@
+{
+  "type": "compound",
+  "preferred_name": "GHRP-6",
+  "aliases": [
+    "GHRP 6",
+    "growth hormone releasing peptide-6",
+    "growth hormone-releasing peptide 6"
+  ],
+  "slug": "ghrp-6",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for GHRP-6. Europe PMC indexes 738 publications, including 22 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "GHRP-6: what the research shows",
+    "description": "Cited overview of published GHRP-6 research: 738 indexed publications, 22 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 738,
+      "randomized_controlled_trials": 22,
+      "clinical_trials": 41,
+      "reviews": 29,
+      "human_indexed": 3,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 20,
+      "observational-human": 0,
+      "animal-preclinical": 24,
+      "mechanistic-in-vitro": 5,
+      "review": 0,
+      "unclassified": 1
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42462342",
+      "title": "Phase III Open-Label, Randomized Clinical Trial of Epidermal Growth Factor and Growth Hormone Releasing Hexapeptide in Acute Ischemic Stroke.",
+      "url": "https://europepmc.org/article/MED/42462342",
+      "published": "2026-07-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42399524",
+      "title": "EGF and GHRP6 Co-Administration Attenuates Cognitive Decline in Preclinical Models: Behavioral and Molecular Evidences.",
+      "url": "https://europepmc.org/article/MED/42399524",
+      "published": "2026-07-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42258095",
+      "title": "A discovery-based proteomic approach of epidermal growth factor and growth hormone-releasing peptide-6 in a model of acute ischemic stroke.",
+      "url": "https://europepmc.org/article/MED/42258095",
+      "published": "2026-06-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42365400",
+      "title": "Activation of the nucleus nuclear factor erythroid 2-related factor 2ghrelin/growth hormone secretagogue receptor 1a signaling by Yueju pill confers cardioprotective and antidepressant effects.",
+      "url": "https://europepmc.org/article/MED/42365400",
+      "published": "2026-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41901314",
+      "title": "Growth Hormone-Releasing Peptide-6 (GHRP-6) Ameliorates Post-Infarct Ventricular Remodeling and Systolic Dysfunction in a Model of Permanent Coronary Ligation.",
+      "url": "https://europepmc.org/article/MED/41901314",
+      "published": "2026-03-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41327290",
+      "title": "Growth hormone-releasing peptide 6 (GHRP-6) hydrogel for acute kidney injury therapy via metabolic regulation.",
+      "url": "https://europepmc.org/article/MED/41327290",
+      "published": "2025-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41090425",
+      "title": "Assessing The Effectiveness of Growth Hormone Releasing Protein-6 in Improving Human Oocyte Maturation and Meiotic Progression in In Vitro Maturation Culture Media.",
+      "url": "https://europepmc.org/article/MED/41090425",
+      "published": "2025-09-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40906090",
+      "title": "The Ghrelin Analog GHRP-6, Delivered Through Aquafeeds, Modulates the Endocrine and Immune Responses of Sparus aurata Following IFA Treatment.",
+      "url": "https://europepmc.org/article/MED/40906090",
+      "published": "2025-07-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40065480",
+      "title": "GHSR gene knockout alleviates the liver pathological response in Echinococcus granulosus infection by reducing parasite survival.",
+      "url": "https://europepmc.org/article/MED/40065480",
+      "published": "2025-03-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40024561",
+      "title": "Subchronic safety assessment of CIGB-500 in beagle dog after repeated daily dose administration over 28 days.",
+      "url": "https://europepmc.org/article/MED/40024561",
+      "published": "2025-02-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39813130",
+      "title": "Intranasal Delivery of a Ghrelin Mimetic Engages the Brain Ghrelin Signaling System in Mice.",
+      "url": "https://europepmc.org/article/MED/39813130",
+      "published": "2025-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39857727",
+      "title": "Changes in Locomotor Activity Observed During Acute Nicotine Withdrawal Can Be Attenuated by Ghrelin and GHRP-6 in Rats.",
+      "url": "https://europepmc.org/article/MED/39857727",
+      "published": "2025-01-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39552437",
+      "title": "Targeting CD36 With EP 80317 Reduces Remote Inflammatory Response to Hind Limb Ischemia-Reperfusion in Mice.",
+      "url": "https://europepmc.org/article/MED/39552437",
+      "published": "2024-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39436864",
+      "title": "Ghrelin is involved in regulating the progression of Echinococcus Granulosus-infected liver lesions through suppression of immunoinflammation and fibrosis.",
+      "url": "https://europepmc.org/article/MED/39436864",
+      "published": "2024-10-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39187389",
+      "title": "Ghrelin Modulates Voltage-Gated Ca 2+ Channels through Voltage-Dependent and Voltage-Independent Pathways in Rat Gastric Vagal Afferent Neurons.",
+      "url": "https://europepmc.org/article/MED/39187389",
+      "published": "2024-10-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39147011",
+      "title": "Novel chimeric peptides based on endomorphins and ghrelin receptor antagonist produced supraspinal antinociceptive effects with reduced acute tolerance in mice.",
+      "url": "https://europepmc.org/article/MED/39147011",
+      "published": "2024-08-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38958606",
+      "title": "Calorie restriction activates a gastric Notch-FOXO1 pathway to expand ghrelin cells.",
+      "url": "https://europepmc.org/article/MED/38958606",
+      "published": "2024-07-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38873418",
+      "title": "Growth hormone releasing peptide-6 (GHRP-6) prevents doxorubicin-induced myocardial and extra-myocardial damages by activating prosurvival mechanisms.",
+      "url": "https://europepmc.org/article/MED/38873418",
+      "published": "2024-05-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37688464",
+      "title": "In-house standards derived from doping peptides: Enzymatic and serum stability and degradation profile of GHRP and GHRH-related peptides.",
+      "url": "https://europepmc.org/article/MED/37688464",
+      "published": "2023-09-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37760897",
+      "title": "Ghrelin Amplifies the Nicotine-Induced Release of Dopamine in the Bed Nucleus of Stria Terminalis (BNST).",
+      "url": "https://europepmc.org/article/MED/37760897",
+      "published": "2023-09-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35760980",
+      "title": "Efficient transdermal delivery of functional protein cargoes by a hydrophobic peptide MTD 1067.",
+      "url": "https://europepmc.org/article/MED/35760980",
+      "published": "2022-06-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34215058",
+      "title": "A quantitative UHPLC-MS/MS method for the growth hormone-releasing peptide-6 determination in complex biological matrices and transdermal formulations.",
+      "url": "https://europepmc.org/article/MED/34215058",
+      "published": "2021-05-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33272786",
+      "title": "Mass spectrometric and kinetics characterization of modified species of Growth Hormone Releasing Hexapeptide generated under thermal stress in different pH and buffers.",
+      "url": "https://europepmc.org/article/MED/33272786",
+      "published": "2020-11-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29464859",
+      "title": "Growth hormone-releasing peptide 6 prevents cutaneous hypertrophic scarring: early mechanistic data from a proteome study.",
+      "url": "https://europepmc.org/article/MED/29464859",
+      "published": "2018-02-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28893476",
+      "title": "Growth hormone releasing peptide-6 enhanced antibody titers against subunit antigens in mice (BALB/c), tilapia (Oreochromis niloticus) and African catfish (Clarias gariepinus).",
+      "url": "https://europepmc.org/article/MED/28893476",
+      "published": "2017-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28903914",
+      "title": "Long-term treatment with the ghrelin receptor antagonist [d-Lys3]-GHRP-6 does not improve glucose homeostasis in nonobese diabetic MKR mice.",
+      "url": "https://europepmc.org/article/MED/28903914",
+      "published": "2017-09-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27200188",
+      "title": "Growth Hormone-Releasing Peptide 6 Enhances the Healing Process and Improves the Esthetic Outcome of the Wounds.",
+      "url": "https://europepmc.org/article/MED/27200188",
+      "published": "2016-04-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26311576",
+      "title": "Assessment of dose-effect and therapeutic time window in preclinical studies of rhEGF and GHRP-6 coadministration for stroke therapy.",
+      "url": "https://europepmc.org/article/MED/26311576",
+      "published": "2016-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26812312",
+      "title": "Insulinotropic action of bombesin-like peptides mediated by gastrin-releasing peptide receptors in steers.",
+      "url": "https://europepmc.org/article/MED/26812312",
+      "published": "2016-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23099431",
+      "title": "Pharmacokinetic study of Growth Hormone-Releasing Peptide 6 (GHRP-6) in nine male healthy volunteers.",
+      "url": "https://europepmc.org/article/MED/23099431",
+      "published": "2012-10-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22791951",
+      "title": "Gastric mucosal damage in water immersion stress: mechanism and prevention with GHRP-6.",
+      "url": "https://europepmc.org/article/MED/22791951",
+      "published": "2012-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22185212",
+      "title": "Interaction between PEO-PPO-PEO copolymers and a hexapeptide in aqueous solutions.",
+      "url": "https://europepmc.org/article/MED/22185212",
+      "published": "2012-01-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20189610",
+      "title": "Effects of ghrelin, growth hormone-releasing peptide-6, and growth hormone-releasing hormone on growth hormone, adrenocorticotropic hormone, and cortisol release in type 1 diabetes mellitus.",
+      "url": "https://europepmc.org/article/MED/20189610",
+      "published": "2010-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19453623",
+      "title": "Adrenocorticotrophic hormone (ACTH) responsiveness to ghrelin increases after 6 months of ketoconazole use in patients with Cushing's disease: comparison with GH-releasing peptide-6 (GHRP-6).",
+      "url": "https://europepmc.org/article/MED/19453623",
+      "published": "2009-04-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17766155",
+      "title": "Diagnosis of adult GH deficiency.",
+      "url": "https://europepmc.org/article/MED/17766155",
+      "published": "2007-09-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-14693411",
+      "title": "Growth hormone response to GHRH + GHRP-6 in type 2 diabetes during euglycemic and hyperglycemic clamp.",
+      "url": "https://europepmc.org/article/MED/14693411",
+      "published": "2004-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11322507",
+      "title": "Growth hormone secretagogue receptor family members and ligands.",
+      "url": "https://europepmc.org/article/MED/11322507",
+      "published": "2001-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11311846",
+      "title": "Neuroregulation of growth hormone secretion in domestic animals.",
+      "url": "https://europepmc.org/article/MED/11311846",
+      "published": "2001-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11030292",
+      "title": "GH-releasing hormone and GH-releasing peptide-6 for diagnostic testing in GH-deficient adults.",
+      "url": "https://europepmc.org/article/MED/11030292",
+      "published": "2000-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10583306",
+      "title": "Acute dexamethasone administration enhances GH responsiveness to GH releasing peptide-6 (GHRP-6) in man.",
+      "url": "https://europepmc.org/article/MED/10583306",
+      "published": "1999-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10336729",
+      "title": "Effects of growth hormone-releasing peptide-6 on the nocturnal secretion of GH, ACTH and cortisol and on the sleep EEG in man: role of routes of administration.",
+      "url": "https://europepmc.org/article/MED/10336729",
+      "published": "1999-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10193871",
+      "title": "Growth hormone in obesity.",
+      "url": "https://europepmc.org/article/MED/10193871",
+      "published": "1999-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9186261",
+      "title": "Growth hormone-releasing peptides.",
+      "url": "https://europepmc.org/article/MED/9186261",
+      "published": "1997-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7593423",
+      "title": "Absence of growth hormone (GH) secretion after the administration of either GH-releasing hormone (GHRH), GH-releasing peptide (GHRP-6), or GHRH plus GHRP-6 in children with neonatal pituitary stalk transection.",
+      "url": "https://europepmc.org/article/MED/7593423",
+      "published": "1995-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7581965",
+      "title": "Growth hormone-releasing effect of oral growth hormone-releasing peptide 6 (GHRP-6) administration in children with short stature.",
+      "url": "https://europepmc.org/article/MED/7581965",
+      "published": "1995-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7734029",
+      "title": "Growth hormone secretion after the administration of GHRP-6 or GHRH combined with GHRP-6 does not decline in late adulthood.",
+      "url": "https://europepmc.org/article/MED/7734029",
+      "published": "1995-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7830002",
+      "title": "Effects of acute and repeated intravenous administration of L-692,585, a novel non-peptidyl growth hormone secretagogue, on plasma growth hormone, IGF-1, ACTH, cortisol, prolactin, insulin, and thyroxine levels in beagles.",
+      "url": "https://europepmc.org/article/MED/7830002",
+      "published": "1994-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8077339",
+      "title": "Growth hormone response in man to L-692,429, a novel nonpeptide mimic of growth hormone-releasing peptide-6.",
+      "url": "https://europepmc.org/article/MED/8077339",
+      "published": "1993-11-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

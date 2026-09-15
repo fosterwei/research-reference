@@ -1,0 +1,353 @@
+{
+  "type": "compound",
+  "preferred_name": "SS-31",
+  "aliases": [
+    "Bendavia",
+    "Elamipretida",
+    "Elamipretide",
+    "MTP 131",
+    "MTP-131",
+    "MTP131",
+    "Nh2-d-arg-dmt-lys-phe-nh2",
+    "Ocuvia",
+    "RX 31",
+    "RX-31",
+    "RX31",
+    "SS 31",
+    "SS-31",
+    "elamipretide"
+  ],
+  "slug": "ss-31",
+  "status": "researched",
+  "evidence_tier": "human-clinical-trial",
+  "summary": "Research record for SS-31. Europe PMC indexes 493 publications, including 16 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "SS-31: what the research shows",
+    "description": "Cited overview of published SS-31 research: 493 indexed publications, 16 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL3833370: maximum clinical phase 3. Jurisdiction-level status pending human review.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 493,
+      "randomized_controlled_trials": 16,
+      "clinical_trials": 14,
+      "reviews": 95,
+      "human_indexed": 5,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 38,
+      "observational-human": 3,
+      "animal-preclinical": 8,
+      "mechanistic-in-vitro": 3,
+      "review": 0,
+      "unclassified": 2
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL3833370",
+      "pref_name": "ELAMIPRETIDE",
+      "molecule_type": "Protein",
+      "max_phase": 3.0,
+      "first_approval": null,
+      "atc": [],
+      "synonyms": [
+        "Elamipretida",
+        "Elamipretide",
+        "MTP 131",
+        "MTP-131",
+        "MTP131",
+        "Nh2-d-arg-dmt-lys-phe-nh2",
+        "Ocuvia",
+        "RX 31",
+        "RX-31",
+        "RX31",
+        "SS 31",
+        "SS-31"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3833370/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "doi-10-20944-preprints202607-2136-v1",
+      "title": "Mitochondrial Stress Commitment as an ARCH-Governed Biological Decision:Cardiolipin as the Ancestral Φ Substrate",
+      "url": "https://doi.org/10.20944/preprints202607.2136.v1",
+      "published": "2026-07-29",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-42443448",
+      "title": "Elamipretide (SS-31) and Nicotinamide Mononucleotide (NMN) Combination Therapy Targets TREM2 to Mitigate Post-ischemic Brain Injury in Mice.",
+      "url": "https://europepmc.org/article/MED/42443448",
+      "published": "2026-07-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "doi-10-64898-2026-07-03-736409",
+      "title": "Mitochondrial-targeted therapy with elamipretide preserves cardiac function and prevents late mortality in murine polymicrobial sepsis",
+      "url": "https://doi.org/10.64898/2026.07.03.736409",
+      "published": "2026-07-09",
+      "kind": "preprint"
+    },
+    {
+      "id": "pmid-42450582",
+      "title": "Mitochondrial-Targeted SS-31 Attenuates the Doxorubicin-Induced Cardiomyoblast H9C2 Cell Senescence.",
+      "url": "https://europepmc.org/article/MED/42450582",
+      "published": "2026-06-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41612464",
+      "title": "SS-31 improves the quality of maternally aged oocytes by ameliorating mitochondrial function and metabolism.",
+      "url": "https://europepmc.org/article/MED/41612464",
+      "published": "2026-01-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41500837",
+      "title": "Elamipretide Improves Mitochondrial Function in Mitochondrial Trifunctional Protein-Deficient Mice and Human Fibroblasts.",
+      "url": "https://europepmc.org/article/MED/41500837",
+      "published": "2026-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41247543",
+      "title": "Endothelial Glycocalyx Degradation as a Mediator of Neuroinflammation and Cognitive Impairment in Aged Rats: Protective Role of SS-31.",
+      "url": "https://europepmc.org/article/MED/41247543",
+      "published": "2025-11-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41136322",
+      "title": "SS-31 improves post-cardiac arrest brain injury by inhibiting microglial ferroptosis and polarization.",
+      "url": "https://europepmc.org/article/MED/41136322",
+      "published": "2025-10-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40941292",
+      "title": "Mitochondrial-Targeted Protective Potential of Elamipretide for the In Vitro Production of Porcine Embryos.",
+      "url": "https://europepmc.org/article/MED/40941292",
+      "published": "2025-08-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40570323",
+      "title": "SS-31 Targets NOS2 to Enhance Osteogenic Differentiation in Aged BMSCs by Restoring Mitochondrial Function.",
+      "url": "https://europepmc.org/article/MED/40570323",
+      "published": "2025-06-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40281531",
+      "title": "Initial Psychometric Evaluation of the Barth Syndrome Symptom Assessment (BTHS-SA) for Adolescents and Adults in a Phase 2 Clinical Study.",
+      "url": "https://europepmc.org/article/MED/40281531",
+      "published": "2025-04-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39917770",
+      "title": "Expanded-access use of elamipretide in a newborn with Barth syndrome: a case report.",
+      "url": "https://europepmc.org/article/MED/39917770",
+      "published": "2025-01-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39619320",
+      "title": "Expanded-Access Use of Elamipretide Improves Quality of Life in Patients With Rare Mitochondrial Disorders Characterized by Ophthalmic Symptoms: A Case Series.",
+      "url": "https://europepmc.org/article/MED/39619320",
+      "published": "2024-11-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39574155",
+      "title": "Genotype-specific effects of elamipretide in patients with primary mitochondrial myopathy: a post hoc analysis of the MMPOWER-3 trial.",
+      "url": "https://europepmc.org/article/MED/39574155",
+      "published": "2024-11-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39506934",
+      "title": "SS-31 modification alleviates ferroptosis induced by superparamagnetic iron oxide nanoparticles in hypoxia/reoxygenation cardiomyocytes.",
+      "url": "https://europepmc.org/article/MED/39506934",
+      "published": "2024-09-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38602181",
+      "title": "Long-term efficacy and safety of elamipretide in patients with Barth syndrome: 168-week open-label extension results of TAZPOWER.",
+      "url": "https://europepmc.org/article/MED/38602181",
+      "published": "2024-04-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38136142",
+      "title": "Elamipretide(SS-31) Attenuates Idiopathic Pulmonary Fibrosis by Inhibiting the Nrf2-Dependent NLRP3 Inflammasome in Macrophages.",
+      "url": "https://europepmc.org/article/MED/38136142",
+      "published": "2023-11-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37923251",
+      "title": "Elamipretide Topical Ophthalmic Solution for the Treatment of Subjects with Leber Hereditary Optic Neuropathy: A Randomized Trial.",
+      "url": "https://europepmc.org/article/MED/37923251",
+      "published": "2023-11-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37462785",
+      "title": "The mitochondrially targeted peptide elamipretide (SS-31) improves ADP sensitivity in aged mitochondria by increasing uptake through the adenine nucleotide translocator (ANT).",
+      "url": "https://europepmc.org/article/MED/37462785",
+      "published": "2023-07-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37268435",
+      "title": "Efficacy and Safety of Elamipretide in Individuals With Primary Mitochondrial Myopathy: The MMPOWER-3 Randomized Clinical Trial.",
+      "url": "https://europepmc.org/article/MED/37268435",
+      "published": "2023-06-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37041653",
+      "title": "Identifying responders to elamipretide in Barth syndrome: Hierarchical clustering for time series data.",
+      "url": "https://europepmc.org/article/MED/37041653",
+      "published": "2023-04-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36636586",
+      "title": "Use of Elamipretide in patients assigned treatment in the compassionate use program: Case series in pediatric patients with rare orphan diseases.",
+      "url": "https://europepmc.org/article/MED/36636586",
+      "published": "2022-09-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36056411",
+      "title": "Natural history comparison study to assess the efficacy of elamipretide in patients with Barth syndrome.",
+      "url": "https://europepmc.org/article/MED/36056411",
+      "published": "2022-09-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34264994",
+      "title": "In vivo mitochondrial ATP production is improved in older adult skeletal muscle after a single dose of elamipretide in a randomized trial.",
+      "url": "https://europepmc.org/article/MED/34264994",
+      "published": "2021-07-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33077895",
+      "title": "A phase 2/3 randomized clinical trial followed by an open-label extension to evaluate the effectiveness of elamipretide in Barth syndrome, a genetic disorder of mitochondrial cardiolipin metabolism.",
+      "url": "https://europepmc.org/article/MED/33077895",
+      "published": "2020-10-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32273339",
+      "title": "The mitochondria-targeted peptide SS-31 binds lipid bilayers and modulates surface electrostatics as a key component of its mechanism of action.",
+      "url": "https://europepmc.org/article/MED/32273339",
+      "published": "2020-04-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32096613",
+      "title": "A randomized crossover trial of elamipretide in adults with primary mitochondrial myopathy.",
+      "url": "https://europepmc.org/article/MED/32096613",
+      "published": "2020-02-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31412712",
+      "title": "Oxidative stress and inflammation in the evolution of heart failure: From pathophysiology to therapeutic strategies.",
+      "url": "https://europepmc.org/article/MED/31412712",
+      "published": "2019-08-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-30042332",
+      "title": "Targeting Oxidative Stress and Mitochondrial Dysfunction in the Treatment of Impaired Wound Healing: A Systematic Review.",
+      "url": "https://europepmc.org/article/MED/30042332",
+      "published": "2018-07-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29500292",
+      "title": "Randomized dose-escalation trial of elamipretide in adults with primary mitochondrial myopathy.",
+      "url": "https://europepmc.org/article/MED/29500292",
+      "published": "2018-03-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28534645",
+      "title": "The mitochondria-targeting peptide elamipretide diminishes circulating HtrA2 in ST-segment elevation myocardial infarction.",
+      "url": "https://europepmc.org/article/MED/28534645",
+      "published": "2017-05-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24860647",
+      "title": "Mitochondrial oxidative stress in aging and healthspan.",
+      "url": "https://europepmc.org/article/MED/24860647",
+      "published": "2014-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24117165",
+      "title": "First-in-class cardiolipin-protective compound as a therapeutic agent to restore mitochondrial bioenergetics.",
+      "url": "https://europepmc.org/article/MED/24117165",
+      "published": "2014-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19076459",
+      "title": "Mitochondrial approaches for neuroprotection.",
+      "url": "https://europepmc.org/article/MED/19076459",
+      "published": "2008-12-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

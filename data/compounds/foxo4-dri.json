@@ -1,0 +1,181 @@
+{
+  "type": "compound",
+  "preferred_name": "FOXO4-DRI",
+  "aliases": [
+    "FOXO4 DRI",
+    "FOXO4-D-retro-inverso",
+    "proxofim"
+  ],
+  "slug": "foxo4-dri",
+  "status": "researched",
+  "evidence_tier": "observational-human",
+  "summary": "Research record for FOXO4-DRI. Europe PMC indexes 19 publications, including 0 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "FOXO4-DRI: what the research shows",
+    "description": "Cited overview of published FOXO4-DRI research: 19 indexed publications, 0 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": []
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 19,
+      "randomized_controlled_trials": 0,
+      "clinical_trials": 0,
+      "reviews": 5,
+      "human_indexed": 1,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 0,
+      "observational-human": 3,
+      "animal-preclinical": 23,
+      "mechanistic-in-vitro": 11,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": null
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42510573",
+      "title": "FOXO4 as a Redox-Sensitive Regulator of Antioxidant Defense and Cellular Senescence: Cysteine-Based Signaling, p53 Interaction, and Therapeutic Targeting.",
+      "url": "https://europepmc.org/article/MED/42510573",
+      "published": "2026-07-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42391447",
+      "title": "Acylglycerol Kinase Sensitizes Glioblastoma to Temozolomide via Limiting Mitochondrial Damage Related Cellular Senescence.",
+      "url": "https://europepmc.org/article/MED/42391447",
+      "published": "2026-07-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42024235",
+      "title": "Targeting the FOXO4-p53 axis by retro-inverso peptide senolytic agents: a pharmacological strategy to mitigate brain aging and cognitive decline.",
+      "url": "https://europepmc.org/article/MED/42024235",
+      "published": "2026-04-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41625068",
+      "title": "FOXO4-DRI regulates endothelial cell senescence via the P53 signaling pathway.",
+      "url": "https://europepmc.org/article/MED/41625068",
+      "published": "2026-01-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40593617",
+      "title": "The disordered p53 transactivation domain is the target of FOXO4 and the senolytic compound FOXO4-DRI.",
+      "url": "https://europepmc.org/article/MED/40593617",
+      "published": "2025-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39994346",
+      "title": "FOXO4-DRI induces keloid senescent fibroblast apoptosis by promoting nuclear exclusion of upregulated p53-serine 15 phosphorylation.",
+      "url": "https://europepmc.org/article/MED/39994346",
+      "published": "2025-02-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37874230",
+      "title": "Cellular Senescence Contributes to the Progression of Hyperoxic Bronchopulmonary Dysplasia.",
+      "url": "https://europepmc.org/article/MED/37874230",
+      "published": "2024-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36430735",
+      "title": "Targeting Multiple Homeostasis-Maintaining Systems by Ionophore Nigericin Is a Novel Approach for Senolysis.",
+      "url": "https://europepmc.org/article/MED/36430735",
+      "published": "2022-11-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35510614",
+      "title": "FOXO4 peptide targets myofibroblast ameliorates bleomycin-induced pulmonary fibrosis in mice through ECM-receptor interaction pathway.",
+      "url": "https://europepmc.org/article/MED/35510614",
+      "published": "2022-05-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34877934",
+      "title": "Targeting senescence-like fibroblasts radiosensitizes non-small cell lung cancer and reduces radiation-induced pulmonary fibrosis.",
+      "url": "https://europepmc.org/article/MED/34877934",
+      "published": "2021-12-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33996787",
+      "title": "Senolytic Peptide FOXO4-DRI Selectively Removes Senescent Cells From in vitro Expanded Human Chondrocytes.",
+      "url": "https://europepmc.org/article/MED/33996787",
+      "published": "2021-04-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31959736",
+      "title": "FOXO4-DRI alleviates age-related testosterone secretion insufficiency by targeting senescent Leydig cells in aged mice.",
+      "url": "https://europepmc.org/article/MED/31959736",
+      "published": "2020-01-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29471104",
+      "title": "Cellular senescence as a therapeutic target to improve renal transplantation outcome.",
+      "url": "https://europepmc.org/article/MED/29471104",
+      "published": "2018-02-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29260442",
+      "title": "Cellular senescence in the aging and diseased kidney.",
+      "url": "https://europepmc.org/article/MED/29260442",
+      "published": "2017-12-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29171222",
+      "title": "[Molecular regulative mechanisms of aging and interventional effects of Chinese herbal medicine].",
+      "url": "https://europepmc.org/article/MED/29171222",
+      "published": "2017-08-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    }
+  ]
+}

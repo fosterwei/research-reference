@@ -1,0 +1,296 @@
+{
+  "type": "compound",
+  "preferred_name": "Tesamorelin",
+  "aliases": [
+    "Egrifta",
+    "TH-9507",
+    "TH9507",
+    "Tesamorelin",
+    "Tesamorelina",
+    "Tesamoreline"
+  ],
+  "slug": "tesamorelin",
+  "status": "researched",
+  "evidence_tier": "approved-label",
+  "summary": "Research record for Tesamorelin. Europe PMC indexes 115 publications, including 22 randomized controlled trials, as of 2026-09-14. Claims are pending human authorship and review.",
+  "seo": {
+    "title": "Tesamorelin: what the research shows",
+    "description": "Cited overview of published Tesamorelin research: 115 indexed publications, 22 randomized controlled trials. Evidence tier on every claim."
+  },
+  "attributes": {
+    "routes_studied": [],
+    "study_doses": [],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [],
+    "biomarkers_monitored": [],
+    "reported_timelines": [],
+    "storage": [],
+    "study_durations": [],
+    "weight_normalized_doses": [],
+    "regulatory_status": [
+      {
+        "value": "ChEMBL CHEMBL1237026: maximum clinical phase 4, first approval 2010, ATC H01AC06. Jurisdiction-level status pending human review.",
+        "evidence_label": "approved-label",
+        "source_ids": []
+      }
+    ]
+  },
+  "evidence_summary": {
+    "retrieved_at": "2026-09-14",
+    "source": "Europe PMC, ChEMBL",
+    "publications": {
+      "total": 115,
+      "randomized_controlled_trials": 22,
+      "clinical_trials": 7,
+      "reviews": 35,
+      "human_indexed": 1,
+      "animal_indexed": 0
+    },
+    "candidate_papers_by_tier": {
+      "approved-label": 0,
+      "human-clinical-trial": 40,
+      "observational-human": 7,
+      "animal-preclinical": 1,
+      "mechanistic-in-vitro": 2,
+      "review": 0,
+      "unclassified": 0
+    },
+    "chembl": {
+      "chembl_id": "CHEMBL1237026",
+      "pref_name": "TESAMORELIN",
+      "molecule_type": "Protein",
+      "max_phase": 4.0,
+      "first_approval": 2010,
+      "atc": [
+        "H01AC06"
+      ],
+      "synonyms": [
+        "Egrifta",
+        "TH-9507",
+        "TH9507",
+        "Tesamorelin",
+        "Tesamorelina",
+        "Tesamoreline"
+      ],
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1237026/"
+    }
+  },
+  "comparison_peers": [],
+  "open_questions": [],
+  "media": {
+    "walkthrough_video": "",
+    "transcript": ""
+  },
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-42419889",
+      "title": "Tesamorelin as an Adjunct to Exercise for Improving Physical Function in HIV (TRIUMPH): a clinical trial protocol.",
+      "url": "https://europepmc.org/article/MED/42419889",
+      "published": "2026-07-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42382101",
+      "title": "The effect of growth hormone-releasing hormone on cognition and brain connectivity in adults with cognition ranging from normal to mild cognitive impairment.",
+      "url": "https://europepmc.org/article/MED/42382101",
+      "published": "2026-06-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41138283",
+      "title": "Analysis of growth hormone releasing hormone and its analogs in urine using nano liquid chromatography coupled with quadrupole/orbitrap mass spectrometry.",
+      "url": "https://europepmc.org/article/MED/41138283",
+      "published": "2025-10-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40510111",
+      "title": "Carpal Tunnel Syndrome Attributed to Medication Use: A Pharmacovigilance Study.",
+      "url": "https://europepmc.org/article/MED/40510111",
+      "published": "2025-05-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38905488",
+      "title": "Efficacy and safety of tesamorelin in people with HIV on integrase inhibitors.",
+      "url": "https://europepmc.org/article/MED/38905488",
+      "published": "2024-06-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37806509",
+      "title": "Cationic exchange SPE combined with triple quadrupole UHPLC-MS/MS for detection of GHRHs in urine samples.",
+      "url": "https://europepmc.org/article/MED/37806509",
+      "published": "2023-10-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38716080",
+      "title": "Probing for peptidic drugs (2-10 kDa) in doping control blood samples.",
+      "url": "https://europepmc.org/article/MED/38716080",
+      "published": "2022-08-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34588764",
+      "title": "Non-Alcoholic Steatohepatitis (NASH) - A Review of a Crowded Clinical Landscape, Driven by a Complex Disease.",
+      "url": "https://europepmc.org/article/MED/34588764",
+      "published": "2021-09-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33852720",
+      "title": "Growth Hormone Releasing Hormone Reduces Circulating Markers of Immune Activation in Parallel with Effects on Hepatic Immune Pathways in Individuals with HIV-infection and Nonalcoholic Fatty Liver Disease.",
+      "url": "https://europepmc.org/article/MED/33852720",
+      "published": "2021-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32270862",
+      "title": "Clinical Predictors of Liver Fibrosis Presence and Progression in Human Immunodeficiency Virus-Associated Nonalcoholic Fatty Liver Disease.",
+      "url": "https://europepmc.org/article/MED/32270862",
+      "published": "2021-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32701508",
+      "title": "Effects of tesamorelin on hepatic transcriptomic signatures in HIV-associated NAFLD.",
+      "url": "https://europepmc.org/article/MED/32701508",
+      "published": "2020-08-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31611038",
+      "title": "Effects of tesamorelin on non-alcoholic fatty liver disease in HIV: a randomised, double-blind, multicentre trial.",
+      "url": "https://europepmc.org/article/MED/31611038",
+      "published": "2019-10-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31237318",
+      "title": "The Growth Hormone Releasing Hormone Analogue, Tesamorelin, Decreases Muscle Fat and Increases Muscle Area in Adults with HIV.",
+      "url": "https://europepmc.org/article/MED/31237318",
+      "published": "2019-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29031905",
+      "title": "Fibroblast growth factor 21 decreases after liver fat reduction via growth hormone augmentation.",
+      "url": "https://europepmc.org/article/MED/29031905",
+      "published": "2017-10-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28793863",
+      "title": "Cardiovascular risk and dyslipidemia among persons living with HIV: a review.",
+      "url": "https://europepmc.org/article/MED/28793863",
+      "published": "2017-08-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28617838",
+      "title": "Safety and metabolic effects of tesamorelin, a growth hormone-releasing factor analogue, in patients with type 2 diabetes: A randomized, placebo-controlled trial.",
+      "url": "https://europepmc.org/article/MED/28617838",
+      "published": "2017-06-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27192539",
+      "title": "Therapeutic augmentation of the growth hormone axis to improve outcomes following peripheral nerve injury.",
+      "url": "https://europepmc.org/article/MED/27192539",
+      "published": "2016-05-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25895899",
+      "title": "Population pharmacokinetic and pharmacodynamic analysis of tesamorelin in HIV-infected patients and healthy subjects.",
+      "url": "https://europepmc.org/article/MED/25895899",
+      "published": "2015-04-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25358450",
+      "title": "Population pharmacokinetic analysis of tesamorelin in HIV-infected patients and healthy subjects.",
+      "url": "https://europepmc.org/article/MED/25358450",
+      "published": "2015-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25038357",
+      "title": "Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation: a randomized clinical trial.",
+      "url": "https://europepmc.org/article/MED/25038357",
+      "published": "2014-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-24054930",
+      "title": "Growth hormone in the aging male.",
+      "url": "https://europepmc.org/article/MED/24054930",
+      "published": "2013-06-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22869065",
+      "title": "Effects of growth hormone–releasing hormone on cognitive function in adults with mild cognitive impairment and healthy older adults: results of a controlled trial.",
+      "url": "https://europepmc.org/article/MED/22869065",
+      "published": "2012-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23015655",
+      "title": "Metabolic effects of a growth hormone-releasing factor in obese subjects with reduced growth hormone secretion: a randomized controlled trial.",
+      "url": "https://europepmc.org/article/MED/23015655",
+      "published": "2012-09-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22748602",
+      "title": "How to diagnose a lipodystrophy syndrome.",
+      "url": "https://europepmc.org/article/MED/22748602",
+      "published": "2012-06-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21516030",
+      "title": "Effects of tesamorelin on inflammatory markers in HIV patients with excess abdominal fat: relationship with visceral adipose reduction.",
+      "url": "https://europepmc.org/article/MED/21516030",
+      "published": "2011-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18690162",
+      "title": "Long-term safety and effects of tesamorelin, a growth hormone-releasing factor analogue, in HIV patients with abdominal fat accumulation.",
+      "url": "https://europepmc.org/article/MED/18690162",
+      "published": "2008-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16052083",
+      "title": "A placebo-controlled, dose-ranging study of a growth hormone releasing factor in HIV-infected patients with abdominal fat accumulation.",
+      "url": "https://europepmc.org/article/MED/16052083",
+      "published": "2005-08-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "related": [],
+  "uniqueness_pct": null,
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewer_credential": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-09-14",
+      "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
+    },
+    {
+      "date": "2026-09-14",
+      "change": "Metadata refreshed by scripts/fetch_evidence.py --refresh-meta: tier human-clinical-trial -> approved-label; chembl None -> CHEMBL1237026."
+    }
+  ]
+}

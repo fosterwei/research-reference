@@ -33,10 +33,10 @@ English-language information about research peptides is split between primary li
 
 | Content | Target count |
 |---|---|
-| Compound records | 20–30 |
-| Stack or comparison pages | 2–3 |
+| Compound records | 16 in wave 1, 34 across all waves |
+| Stack or comparison pages | 3 + 3 in wave 1, 8 + 8 across all waves |
 | Editorial posts | 5–8 |
-| Tools or calculators | 1–2 |
+| Tools or calculators | 2 in wave 1, 3 total |
 
 Hard cap of 50 indexable pages before the indexation review.
 
@@ -63,7 +63,7 @@ Measured 4 weeks after the pilot goes live unless noted.
 | 4 | Importer | A script reads `data/**/*.json` and creates or updates posts via REST on staging, idempotently. Done: `scripts/import_to_wordpress.py` |
 | 5 | Schema, canonical, sitemap QA | Every page type passes Rich Results Test and has a self-canonical on staging |
 | 6 | Internal-link graph | Each compound page links to its related stacks, comparisons, and posts, and vice versa |
-| 7 | Pilot content | Counts in the pilot scope table are met, all in `published` state with named reviewers. Source ledgers are seeded by `scripts/fetch_evidence.py`; sequence compounds by evidence density, not search volume |
+| 7 | Pilot content | Counts in the pilot scope table are met, all in `published` state with named reviewers. Source ledgers are seeded by `scripts/fetch_evidence.py`; pages ship in the three waves defined in `research/registry.json`, wave 1 first |
 | 8 | Launch and indexation review | Search Console verified, sitemap submitted, 2–4 week review scheduled |
 
 Milestones 1 to 4 are complete in this repository. Milestone 5, schema and canonical QA on staging, is next and needs a staging host.
@@ -76,5 +76,5 @@ Milestones 1 to 4 are complete in this repository. Milestone 5, schema and canon
 
 ## Open decisions
 
-- Whether cycle pages stay in scope, given how close "cycle" sits to protocol advice.
+- Cycle pages: proposed cut. `research/registry.json` plans none; duration evidence lives in compound sections 5 and 15. Confirm or reinstate.
 - Which SEO plugin (core sitemap, Yoast, or Rank Math) staging will use; the plugin supports all three. The `lastmod` and redirect-free sitemap checks have to be verified against whichever is chosen.
