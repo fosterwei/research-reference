@@ -120,7 +120,10 @@ npm run dev                                          # local preview
 ```
 
 On Vercel: import the repository, leave the root directory as the repo root,
-framework preset Astro, and set `SITE_URL` to the production origin. Every pull
+framework preset Astro, and set `SITE_URL` to the production origin, for
+example `https://peptides.example.com`. A bare host or a trailing slash is
+normalised, and if the variable is absent the build falls back to the
+production host Vercel injects, so a first deploy works with no settings. Every pull
 request gets a preview deployment, which is where a reviewer sees the rendered
 page with its evidence labels and sources before approving.
 
