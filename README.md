@@ -13,6 +13,7 @@ Product goals, audience, non-goals, milestones, and success metrics are in [`doc
 | `docs/PRD.md` | Product requirements, non-goals, milestones, metrics |
 | `docs/content-contract.md` | Canonical page types, URL patterns, record states, evidence labels, source ledger shape, metadata limits |
 | `docs/page-template-spec.md` | Section-level structure per page type, shared-text budget, heading style |
+| `docs/design.md` | Rendering spec: tokens, type, component anatomy, budgets, anti-patterns, how design changes are made |
 | `docs/competitive-baseline.md` | Measured competitor benchmark behind the uniqueness target and metadata limits |
 | `docs/launch-checklist.md` | Pilot launch QA checklist |
 | `agent/AGENT.md` | Agent mission, allowed and prohibited actions, release gates |
