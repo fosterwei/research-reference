@@ -8,11 +8,12 @@ const dash = (v: any) => (!v || String(v).startsWith('not stated') || v === 'not
 <div class="card clip">
   <div class="tblwrap">
     <table class="tbl">
-      <thead><tr><th>Study</th><th>Design</th><th class="num">n</th><th>Species</th><th>Dose</th><th>Route</th><th>Duration</th><th>Reported outcome</th><th>Tier</th></tr></thead>
+      <caption><b>{rows.length}</b> primary studies in this record's ledger, strongest evidence first. A dash means the abstract did not state the value.</caption>
+      <thead><tr><th scope="col">Study</th><th scope="col">Design</th><th scope="col" class="num">n</th><th scope="col">Species</th><th scope="col">Dose</th><th scope="col">Route</th><th scope="col">Duration</th><th scope="col">Reported outcome</th><th scope="col">Tier</th></tr></thead>
       <tbody>
         {rows.map((r) => { const f = r.fields ?? {}; return (
           <tr>
-            <td class="study"><a href={`#${r.source_ids[0]}`}>{f.study || r.source_ids[0]}</a></td>
+            <th scope="row" class="study"><a href={`#${r.source_ids[0]}`}>{f.study || r.source_ids[0]}</a></th>
             <td>{f.design}</td>
             <td class="num">{f.n ? Number(f.n).toLocaleString('en-US') : '—'}</td>
             <td>{dash(f.species)}</td><td>{dash(f.dose)}</td><td>{dash(f.route)}</td><td>{dash(f.duration)}</td>
@@ -23,5 +24,4 @@ const dash = (v: any) => (!v || String(v).startsWith('not stated') || v === 'not
       </tbody>
     </table>
   </div>
-  <div class="foot">{rows.length} primary studies, strongest evidence first. A dash means the abstract did not say.</div>
 </div>

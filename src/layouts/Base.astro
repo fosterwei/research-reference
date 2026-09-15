@@ -10,10 +10,12 @@ interface Props {
   /** Only published records are indexable; everything else is noindex. */
   indexable?: boolean;
   jsonld?: Record<string, unknown> | Record<string, unknown>[];
+  /** Append the site name to the title. Pages on the 60-character budget pass false when the base title is long. */
+  siteSuffix?: boolean;
 }
-const { title, description, path, indexable = false, jsonld } = Astro.props;
+const { title, description, path, indexable = false, jsonld, siteSuffix = true } = Astro.props;
 const canonical = new URL(path, Astro.site).toString();
-const pageTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
+const pageTitle = title.includes(SITE_NAME) || !siteSuffix ? title : `${title} | ${SITE_NAME}`;
 ---
 <!doctype html>
 <html lang="en">

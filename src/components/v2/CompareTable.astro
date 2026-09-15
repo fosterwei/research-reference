@@ -1,0 +1,28 @@
+---
+// Section 9.2: captioned, scoped comparison table. Computed from each record; nothing inferred across rows.
+import Tier from './Tier.astro';
+import { formatCount } from '../../lib/site';
+import type { CollectionEntry } from 'astro:content';
+interface Props { self: CollectionEntry<'compounds'>; peers: CollectionEntry<'compounds'>[]; cls: string }
+const { self, peers, cls } = Astro.props;
+const rows = [self, ...peers];
+---
+<div class="card clip">
+  <div class="tblwrap">
+    <table class="tbl">
+      <caption><b>{rows.length}</b> compounds in the {cls} class. Each row states what that compound's own record says; nothing is inferred across rows.</caption>
+      <thead><tr><th scope="col">Compound</th><th scope="col">Tier</th><th scope="col" class="num">Publications</th><th scope="col" class="num">RCTs</th><th scope="col">Record</th></tr></thead>
+      <tbody>
+        {rows.map((e) => { const p = e.data.evidence_summary?.publications ?? {}; return (
+          <tr>
+            <th scope="row" class="study">{e.id === self.id ? e.data.preferred_name : <a href={`/compounds/${e.data.slug}`}>{e.data.preferred_name}</a>}</th>
+            <td><Tier tier={e.data.evidence_tier} /></td>
+            <td class="num">{formatCount(p.total)}</td>
+            <td class="num">{formatCount(p.randomized_controlled_trials)}</td>
+            <td><code>{e.data.status}</code></td>
+          </tr>
+        ); })}
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,32 +1,42 @@
 ---
 import Tier from './Tier.astro';
 import { parseClaim, type Claim } from '../../lib/claims';
-interface Props { claims: Claim[] }
-const { claims } = Astro.props;
-const rows = claims.map((c) => ({ c, p: parseClaim(c) }));
+import { markTerms } from '../../lib/format';
+interface Props { claims: Claim[]; sources?: Array<{ id: string; url: string }> }
+const { claims, sources = [] } = Astro.props;
+const urlOf: Record<string, string> = Object.fromEntries(sources.map((s) => [s.id, s.url]));
+const rows = claims.map((c) => {
+  const p = parseClaim(c);
+  // Section 9.3: the only permitted in-quote emphasis is the compound's own dose or route
+  // strings the drafter extracted; the source line then says "emphasis added".
+  const extraLabel = p.extra && p.extra.includes(':') ? p.extra.slice(0, p.extra.indexOf(':')) : '';
+  const extraVal = p.extra ? p.extra.slice(p.extra.indexOf(':') + 1).trim() : '';
+  const terms = extraVal ? extraVal.split(/;\s*/) : [];
+  const [quoteHtml, marked] = p.quote ? markTerms(p.quote, terms) : ['', false];
+  return { c, p, quoteHtml, marked, extraLabel, extraVal, cite: urlOf[c.source_ids[0]] };
+});
 ---
 <ul class="claims">
-  {rows.map(({ c, p }) => (
+  {rows.map(({ c, p, quoteHtml, marked, extraLabel, extraVal, cite }) => (
     <li class="claim">
       {p.quote ? (
         <>
           <div class="meta">
-            {p.design && <b>{p.design}</b>}
+            {p.design && <span class="k">{p.design}</span>}
             {p.species && <span>{p.species}</span>}
-            {p.n && <span>n = <b>{p.n}</b></span>}
+            {p.n && <span>n = <span class="k">{p.n}</span></span>}
             {p.year && <span>{p.year}</span>}
             <Tier tier={c.evidence_label} />
           </div>
-          {p.extra && (() => { const i = p.extra.indexOf(':'); const k = i > 0 ? p.extra.slice(0, i) : ''; const v = i > 0 ? p.extra.slice(i + 1).trim() : p.extra;
-            return <div class="extra">{k && <>{k.charAt(0).toUpperCase() + k.slice(1)}: </>}<b>{v}</b></div>; })()}
-          <q>{p.quote}</q>
+          {p.extra && <div class="extra">{extraLabel && <>{extraLabel.charAt(0).toUpperCase() + extraLabel.slice(1)}: </>}<span class="k">{extraVal}</span></div>}
+          <q cite={cite} set:html={quoteHtml} />
         </>
       ) : (
         <div class="meta" style="align-items:flex-start"><span class="plain">{p.text}</span><Tier tier={c.evidence_label} /></div>
       )}
       <div class="src">
-        {c.source_ids.length > 0 ? <>Source {c.source_ids.map((id, i) => <><a href={`#${id}`}>{id}</a>{i < c.source_ids.length - 1 ? ', ' : ''}</>)}</> : 'Registry entry'}
-        {p.quote && <> · quoted verbatim from the abstract</>}
+        {c.source_ids.length > 0 ? <>Source {c.source_ids.map((id, i) => <><a href={`#${id}`}><code>{id}</code></a>{i < c.source_ids.length - 1 ? ', ' : ''}</>)}</> : 'Registry entry'}
+        {p.quote && <> · quoted verbatim from the abstract{marked ? ', emphasis added' : ''}</>}
       </div>
     </li>
   ))}

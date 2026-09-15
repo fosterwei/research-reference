@@ -20,6 +20,9 @@ export function resolveSiteUrl(env = process.env) {
     try {
       const url = new URL(withScheme);
       if (url.protocol !== 'https:' && url.protocol !== 'http:') continue;
+      // A wildcard or otherwise invalid hostname parses as a URL but is not
+      // one. "*.vercel.app" reached production canonicals this way.
+      if (url.hostname !== 'localhost' && !/^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$/i.test(url.hostname)) continue;
       url.pathname = '/'; url.search = ''; url.hash = '';
       return url.origin;
     } catch {
