@@ -1,0 +1,21 @@
+---
+// Renders one attribute field's claims. The parent must only include this
+// component when the list is non-empty: a heading over nothing is a defect.
+import EvidenceLabel from './EvidenceLabel.astro';
+interface Claim { value: string; evidence_label: string; source_ids: string[] }
+interface Props { claims: Claim[] }
+const { claims } = Astro.props;
+---
+<ul class="claims">
+  {claims.map((c) => (
+    <li>
+      {c.value}
+      <EvidenceLabel tier={c.evidence_label} />
+      {c.source_ids.length > 0 && (
+        <span class="cite">
+          [{c.source_ids.map((id, i) => <><a href={`#${id}`}>{id}</a>{i < c.source_ids.length - 1 ? ', ' : ''}</>)}]
+        </span>
+      )}
+    </li>
+  ))}
+</ul>

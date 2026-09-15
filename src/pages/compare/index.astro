@@ -1,0 +1,16 @@
+---
+import { records } from '../../lib/collections';
+import Base from '../../layouts/Base.astro';
+import { comparisons as planned } from '../../lib/registry';
+const entries = await records('comparisons');
+const have = new Set(entries.map((e) => e.data.slug));
+---
+<Base title="Comparisons" description="Head-to-head comparisons built from each compound's own record, with the trial evidence where a direct comparison exists." path="/compare" indexable={entries.some((e) => e.data.status === 'published')}>
+  <p class="eyebrow">Directory</p>
+  <h1>Comparisons</h1>
+  <ul class="cards">
+    {planned.sort((a, b) => a.pilot_wave - b.pilot_wave).map((c) => (
+      <li>{have.has(c.slug) ? <a href={`/compare/${c.slug}`}>{c.sides.join(' vs ')}</a> : <span>{c.sides.join(' vs ')}</span>}<div class="sub">wave {c.pilot_wave}{have.has(c.slug) ? '' : ' · planned'}</div></li>
+    ))}
+  </ul>
+</Base>

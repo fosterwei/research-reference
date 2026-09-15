@@ -1,0 +1,19 @@
+---
+import { records } from '../lib/collections';
+import Base from '../layouts/Base.astro';
+import EvidenceLabel from '../components/EvidenceLabel.astro';
+import { compounds as reg } from '../lib/registry';
+const entries = await records('compounds');
+const wave1 = reg.filter((c) => c.pilot_wave === 1).map((c) => entries.find((e) => e.data.slug === c.slug)).filter((e): e is NonNullable<typeof e> => Boolean(e));
+const published = entries.filter((e) => e.data.status === 'published').length;
+---
+<Base title="Peptide Research Reference" description="A cited, evidence-tiered reference for research peptides: what has actually been studied, in whom, and where the evidence stops." path="/" indexable={published > 0}>
+  <p class="eyebrow">Research reference</p>
+  <h1>What the research actually shows</h1>
+  <p class="lede prose">Every claim on this site carries an evidence tier and cites a source a reader can open. Where no study exists, the page says so instead of filling the space. Nothing here is dosing or treatment advice.</p>
+  <h2>Compounds</h2>
+  <ul class="cards">
+    {wave1.map((e) => <li><a href={`/compounds/${e.data.slug}`}>{e.data.preferred_name}</a><div class="sub"><EvidenceLabel tier={e.data.evidence_tier} /></div></li>)}
+  </ul>
+  <p><a href="/compounds">All {entries.length} compounds by class</a></p>
+</Base>

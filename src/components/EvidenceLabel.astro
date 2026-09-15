@@ -1,0 +1,6 @@
+---
+import { TIER_LABEL } from '../lib/site';
+interface Props { tier: string }
+const { tier } = Astro.props;
+---
+<span class="label" data-tier={tier} title={`Evidence tier: ${TIER_LABEL[tier] ?? tier}`}>{TIER_LABEL[tier] ?? tier}</span>

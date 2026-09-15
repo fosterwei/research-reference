@@ -1,0 +1,22 @@
+---
+import { records } from '../../lib/collections';
+import Base from '../../layouts/Base.astro';
+import ReviewedBy from '../../components/ReviewedBy.astro';
+import SourceList from '../../components/SourceList.astro';
+import { isIndexable, title, description } from '../../lib/site';
+export async function getStaticPaths() {
+  const entries = await records('posts');
+  return entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const d = entry.data;
+---
+<Base title={title(entry)} description={description(entry)} path={`/blog/${d.slug}`} indexable={isIndexable(entry)}>
+  <article>
+    <p class="eyebrow">{d.category}</p>
+    <h1>{d.title}</h1>
+    <ReviewedBy review={d.review} status={d.status} />
+    <div class="prose" set:html={d.body} />
+    {d.sources.length > 0 && <section><h2>Sources</h2><SourceList sources={d.sources} /></section>}
+  </article>
+</Base>

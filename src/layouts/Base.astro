@@ -1,0 +1,54 @@
+---
+import '../styles/global.css';
+import { SITE_NAME } from '../lib/site';
+
+interface Props {
+  title: string;
+  description: string;
+  /** Path beginning with "/", used for the self-referencing canonical. */
+  path: string;
+  /** Only published records are indexable; everything else is noindex. */
+  indexable?: boolean;
+  jsonld?: Record<string, unknown> | Record<string, unknown>[];
+}
+const { title, description, path, indexable = false, jsonld } = Astro.props;
+const canonical = new URL(path, Astro.site).toString();
+const pageTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content={indexable ? 'index, follow, max-image-preview:large' : 'noindex, follow'} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="article" />
+    {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+  </head>
+  <body>
+    <header class="site-head">
+      <div class="wrap">
+        <a class="brand" href="/">{SITE_NAME}</a>
+        <nav aria-label="Primary">
+          <a href="/compounds">Compounds</a>
+          <a href="/stacks">Stacks</a>
+          <a href="/compare">Comparisons</a>
+          <a href="/tools">Tools</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <slot />
+    </main>
+    <footer class="site-foot">
+      <div class="wrap prose">
+        <p>A cited research reference. Every claim carries an evidence tier and a source. Nothing here is medical, dosing or treatment advice, and nothing here is a recommendation to use any compound.</p>
+      </div>
+    </footer>
+  </body>
+</html>

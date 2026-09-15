@@ -1,0 +1,20 @@
+---
+import { records } from '../../lib/collections';
+import Base from '../../layouts/Base.astro';
+import { stacks as planned } from '../../lib/registry';
+const entries = await records('stacks');
+const have = new Set(entries.map((e) => e.data.slug));
+---
+<Base title="Stacks" description="Combinations of compounds, each with a component evidence matrix and a plain statement of whether the combination itself has ever been studied." path="/stacks" indexable={entries.some((e) => e.data.status === 'published')}>
+  <p class="eyebrow">Directory</p>
+  <h1>Stacks</h1>
+  <p class="lede prose">A stack page states what is known about each component and, separately, whether any study tested the combination. For most combinations the honest answer is no, and the page says so.</p>
+  <ul class="cards">
+    {planned.sort((a, b) => a.pilot_wave - b.pilot_wave).map((s) => (
+      <li>
+        {have.has(s.slug) ? <a href={`/stacks/${s.slug}`}>{s.name}</a> : <span>{s.name}</span>}
+        <div class="sub">{s.components.join(' + ')} · wave {s.pilot_wave}{have.has(s.slug) ? '' : ' · planned'}</div>
+      </li>
+    ))}
+  </ul>
+</Base>

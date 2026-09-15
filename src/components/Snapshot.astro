@@ -1,0 +1,25 @@
+---
+import EvidenceLabel from './EvidenceLabel.astro';
+import { formatCount } from '../lib/site';
+import { className, classes } from '../lib/registry';
+interface Props {
+  tier: string;
+  summary: Record<string, any> | undefined;
+  reg: { class: string; target: string; molecule_type: string; length_aa: number | null } | undefined;
+  aliases: string[];
+}
+const { tier, summary, reg, aliases } = Astro.props;
+const pubs = summary?.publications ?? {};
+const chembl = summary?.chembl;
+---
+<dl class="facts">
+  <dt>Evidence tier</dt><dd><EvidenceLabel tier={tier} /></dd>
+  {reg && <><dt>Class</dt><dd title={classes[reg.class]}>{className(reg.class)}</dd></>}
+  {reg && <><dt>Target</dt><dd>{reg.target}</dd></>}
+  {reg && <><dt>Molecule</dt><dd>{reg.molecule_type}{reg.length_aa ? `, ${reg.length_aa} residues` : ''}</dd></>}
+  {aliases.length > 0 && <><dt>Also called</dt><dd>{aliases.join(', ')}</dd></>}
+  {'total' in pubs && <><dt>Indexed publications</dt><dd>{formatCount(pubs.total)} in Europe PMC{summary?.retrieved_at ? `, as of ${summary.retrieved_at}` : ''}</dd></>}
+  {'randomized_controlled_trials' in pubs && <><dt>Randomized controlled trials</dt><dd>{formatCount(pubs.randomized_controlled_trials)}</dd></>}
+  {'clinical_trials' in pubs && <><dt>Clinical trials, any design</dt><dd>{formatCount(pubs.clinical_trials)}</dd></>}
+  {chembl?.chembl_id && <><dt>ChEMBL</dt><dd><a href={chembl.url} rel="noopener">{chembl.chembl_id}</a>{typeof chembl.max_phase === 'number' ? `, max clinical phase ${chembl.max_phase}` : ''}{chembl.first_approval ? `, first approval ${chembl.first_approval}` : ''}</dd></>}
+</dl>

@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import { tools } from '../../lib/registry';
+---
+<Base title="Tools" description="Calculators that show their formula, define every input with units, and refuse to turn arithmetic into advice." path="/tools" indexable={false}>
+  <p class="eyebrow">Directory</p>
+  <h1>Tools</h1>
+  <ul class="cards">{tools.map((t) => <li><a href={`/tools/${t.slug}`}>{t.name}</a><div class="sub">{t.computes}</div></li>)}</ul>
+</Base>

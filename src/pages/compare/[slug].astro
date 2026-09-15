@@ -1,0 +1,34 @@
+---
+import { records } from '../../lib/collections';
+import Base from '../../layouts/Base.astro';
+import ReviewedBy from '../../components/ReviewedBy.astro';
+import Compare from '../../components/Compare.astro';
+import ClaimList from '../../components/ClaimList.astro';
+import SourceList from '../../components/SourceList.astro';
+import { isIndexable, title, description } from '../../lib/site';
+import { comparisons as planned } from '../../lib/registry';
+
+export async function getStaticPaths() {
+  const entries = await records('comparisons');
+  return entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const d = entry.data;
+const sides = d.sides ?? planned.find((p) => p.slug === d.slug)?.sides ?? [];
+const compounds = await records('compounds');
+const [a, b] = sides.map((s) => compounds.find((c) => c.data.slug === s));
+const path = `/compare/${d.slug}`;
+---
+<Base title={title(entry)} description={description(entry)} path={path} indexable={isIndexable(entry)}>
+  <article>
+    <p class="eyebrow">Comparison</p>
+    <h1>{d.title}</h1>
+    <ReviewedBy review={d.review} status={d.status} />
+    <div class="prose"><p>{d.summary}</p></div>
+    {a && b && <section><h2>Side by side</h2><Compare self={a} peers={[b]} /></section>}
+    {Object.entries(d.attributes).filter(([, v]) => v.length > 0).map(([k, v]) => (
+      <section><h2>{k.replace(/_/g, ' ').replace(/^./, (s) => s.toUpperCase())}</h2><ClaimList claims={v} /></section>
+    ))}
+    {d.sources.length > 0 && <section><h2>Sources</h2><SourceList sources={d.sources} /></section>}
+  </article>
+</Base>

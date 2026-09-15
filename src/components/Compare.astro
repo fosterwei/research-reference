@@ -1,0 +1,30 @@
+---
+// Section 19: peers from the registry with each one's own tier and counts.
+// The table is computed, so it never invents a comparison; it only lines up
+// what each record already states about itself.
+import EvidenceLabel from './EvidenceLabel.astro';
+import { formatCount } from '../lib/site';
+import type { CollectionEntry } from 'astro:content';
+interface Props { self: CollectionEntry<'compounds'>; peers: CollectionEntry<'compounds'>[] }
+const { self, peers } = Astro.props;
+const rows = [self, ...peers];
+---
+<div class="tscroll">
+<table>
+  <thead><tr><th>Compound</th><th>Tier</th><th class="num">Publications</th><th class="num">RCTs</th><th>Record</th></tr></thead>
+  <tbody>
+    {rows.map((e) => {
+      const p = e.data.evidence_summary?.publications ?? {};
+      return (
+        <tr>
+          <td>{e.id === self.id ? <strong>{e.data.preferred_name}</strong> : <a href={`/compounds/${e.data.slug}`}>{e.data.preferred_name}</a>}</td>
+          <td><EvidenceLabel tier={e.data.evidence_tier} /></td>
+          <td class="num">{formatCount(p.total)}</td>
+          <td class="num">{formatCount(p.randomized_controlled_trials)}</td>
+          <td><code>{e.data.status}</code></td>
+        </tr>
+      );
+    })}
+  </tbody>
+</table>
+</div>
