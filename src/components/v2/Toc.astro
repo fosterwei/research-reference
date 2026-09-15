@@ -1,0 +1,15 @@
+---
+interface Item { id: string; label: string; group?: string }
+interface Props { items: Item[] }
+const { items } = Astro.props;
+const groups: Array<[string, Item[]]> = [];
+for (const it of items) { const g = it.group ?? ''; const last = groups.at(-1); if (last && last[0] === g) last[1].push(it); else groups.push([g, [it]]); }
+---
+<nav class="toc" aria-label="On this page">
+  <div class="eyebrow" style="margin:0 0 8px 12px">On this page</div>
+  {groups.map(([g, its]) => <>{g && <div class="g">{g}</div>}{its.map((it) => <a href={`#${it.id}`}>{it.label}</a>)}</>)}
+</nav>
+<details class="toc-m card">
+  <summary><span>On this page</span><span style="color:var(--ink-3);font-weight:400;display:flex;align-items:center;gap:6px">{items.length} sections <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></span></summary>
+  <div class="in">{items.map((it) => <a href={`#${it.id}`}>{it.label}</a>)}</div>
+</details>

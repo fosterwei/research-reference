@@ -1,0 +1,21 @@
+---
+import Tier from './Tier.astro';
+import { formatCount } from '../../lib/site';
+interface Props { record: any; reg: any }
+const { record: d, reg } = Astro.props;
+const pubs = d.evidence_summary?.publications ?? {};
+const chembl = d.evidence_summary?.chembl;
+const rows = d.attributes?.evidence_table ?? [];
+const species = [...new Set(rows.map((r: any) => r.fields?.species).filter((s: string) => s && s !== 'not indexed').flatMap((s: string) => s.split(', ')))].sort();
+const routes = [...new Set(rows.map((r: any) => r.fields?.route).filter((s: string) => s && !s.startsWith('not stated')).flatMap((s: string) => s.split(', ')))].sort();
+const phase = chembl ? Number(chembl.max_phase) : NaN;
+---
+<div class="facts">
+  <div class="fact"><div class="k">Evidence tier</div><div class="v"><Tier tier={d.evidence_tier} class="lg" /></div><div class="s">{d.evidence_tier === 'approved-label' ? 'Regulator-reviewed label exists' : 'Strongest tier in the indexed literature'}</div></div>
+  <div class="fact"><div class="k">Indexed publications</div><div class="v">{formatCount(pubs.total)}</div><div class="s">Europe PMC, title or abstract{d.evidence_summary?.retrieved_at ? `, ${d.evidence_summary.retrieved_at}` : ''}</div></div>
+  <div class="fact"><div class="k">Randomized controlled trials</div><div class="v">{formatCount(pubs.randomized_controlled_trials)}</div><div class="s">plus {formatCount(pubs.clinical_trials)} indexed as other clinical trials</div></div>
+  <div class="fact"><div class="k">Approval</div><div class="v">{chembl ? (phase >= 4 ? (chembl.first_approval ?? 'approved') : 'not approved') : 'none found'}</div><div class="s">{chembl ? `ChEMBL phase ${isNaN(phase) ? '—' : phase}${chembl.atc?.length ? ` · ATC ${chembl.atc.join(', ')}` : ''}` : 'no registered development programme'}</div></div>
+  <div class="fact"><div class="k">Routes reported</div><div class="v sm">{routes.length ? routes.join(', ') : '—'}</div><div class="s">from studies in this ledger</div></div>
+  <div class="fact"><div class="k">Studied in</div><div class="v sm">{species.length ? species.join(', ') : '—'}</div><div class="s">{rows.length} primary studies in the evidence table</div></div>
+</div>
+<style>.v2 .tier.lg { font-family: var(--serif); font-size: 22px; font-weight: 600; color: var(--ink); } .v2 .tier.lg i { width: 11px; height: 11px; }</style>

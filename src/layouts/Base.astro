@@ -29,6 +29,7 @@ const pageTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
     <meta property="og:url" content={canonical} />
     <meta property="og:type" content="article" />
     {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+    <slot name="head" />
   </head>
   <body>
     <header class="site-head">
