@@ -100,12 +100,37 @@ keyword difficulty in bulk, and search-intent classification. Seed the set from
 the compound name plus its aliases crossed with the six intent heads above,
 then keep whatever comes back with real volume.
 
-**Record volumes honestly.** A query with no volume data carries
-`"volume": null`, never a guess. `"source"` says where the number came from so
-a later reader can tell measured demand from inference.
+**Use the right volume column.** Google Ads returns **0** for most terms it
+classifies as pharmaceutical, and for research peptides that is most of the
+set: on the ipamorelin run, 21 of 28 keywords came back 0 from Ads, including
+`ipamorelin` itself, which DataForSEO's clickstream column puts at about 20,800
+searches a month. Labs' own `search_volume` mirrors Ads and inherits the same
+zeros. So the instrument is `dataforseo_labs/google/keyword_overview` with
+`include_clickstream_data: true`, and the figure recorded is
+`clickstream_keyword_info.search_volume`. Keep the Ads number beside it: the
+few terms Ads does report (combination and comparison phrasings) are a useful
+cross-check, and where the two agree the number is solid.
 
-Exit gate: `queries[]` has at least five entries, each with `query`, `source`,
-and `volume` (a number or explicit null).
+**Record volumes honestly.** Each query carries
+`"volume": {"clickstream": N, "google_ads": N, "kd": N, "source": "..."}`; a
+missing figure is `null`, never a guess. `"source"` names the endpoint and the
+date so a later reader can tell measured demand from inference.
+
+**Measured cost.** Stage 1 for one compound page, 28 keywords, four endpoints
+(Ads search volume, Labs keyword overview, bulk difficulty, search intent):
+**$0.15**. The whole compound set is about $5.
+
+**Then read what the numbers say before writing anything.** The ipamorelin run
+changed the plan: demand sits on the combination and comparison queries
+(`cjc 1295 ipamorelin dosage` 8,100/mo, `ipamorelin vs sermorelin` 4,400/mo)
+far more than on the compound alone, and the comparison the registry planned
+(`vs ghrp-6`, 90/mo) was chosen for evidence availability, not demand. Stage 1
+is allowed to add stack and comparison pages to the plan; that is one of the
+things it is for.
+
+Exit gate: `queries[]` has at least five entries, each with `query`, `source`
+and a `volume` object; queries are ordered by clickstream volume, and any
+demand the registry plan does not cover is recorded as an `open_action`.
 
 ## Stage 2: SERP research
 
@@ -140,7 +165,7 @@ the bridge between what people search and what the page is allowed to say.
   "queries": [
     {
       "query": "ipamorelin dosage",
-      "volume": null,
+      "volume": { "clickstream": 3408, "google_ads": 0, "kd": 7, "source": "dataforseo keyword_overview, US/en, 2026-09-20" },
       "source": "competitor-h2+paa",
       "intent": "informational",
       "policy": "evidence-with-boundary",
@@ -274,10 +299,11 @@ reason.
 
 ## Worked example
 
-`research/intents/ipamorelin.json` is the first intent map, built from SERP
-evidence before DataForSEO was configured. It carries eleven informational
-queries across the three policies, the four scored competitors, the
-information-gain paragraph the outline was ordered around, and four
+`research/intents/ipamorelin.json` is the first intent map. It was built from
+SERP evidence, then re-run with measured volumes once DataForSEO was
+configured. It carries fifteen informational queries ordered by demand across
+the three policies, the four scored competitors, a `demand_findings` list, the
+information-gain paragraph the outline was ordered around, and the
 `open_actions` the research exposed.
 
 Two of those actions are worth noting because they show the SOP working as
@@ -290,6 +316,9 @@ alone; both came from asking what people search for.
 
 ## Changelog
 
+- 2026-09-20 — Stage 1 run on ipamorelin with DataForSEO. Clickstream adopted as
+  the volume column after Google Ads returned 0 for 21 of 28 terms; cost and
+  demand findings recorded; stage 1 may now add pages to the registry plan.
 - 2026-09-20 — SOP written. Stages 1 to 5 are new process; stages 0, 6 and 7
   describe what already existed. The `policy` field and the intent map are the
   new mechanism. Commercial and transactional intent placed out of scope for the
