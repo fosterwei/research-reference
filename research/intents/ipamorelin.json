@@ -1,0 +1,158 @@
+{
+  "slug": "ipamorelin",
+  "type": "compound",
+  "generated": "2026-09-20",
+  "sources": ["serp-paa", "competitor-h2", "competitor-faq"],
+  "scope": "Informational intent only. Commercial and transactional queries (where to buy, price, supplier comparison) are out of scope for the pilot and are not researched, mapped or answered here.",
+  "note": "Built from SERP-revealed demand before DataForSEO was configured, so every volume is null rather than estimated. Re-run stage 1 with real volume data and replace the nulls; the policies and destinations below do not change when volumes arrive.",
+  "thin_serp": false,
+  "queries": [
+    {
+      "query": "ipamorelin dosage",
+      "volume": null,
+      "source": "competitor-h2+paa",
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "study_doses",
+      "heading": "What doses did studies use?",
+      "boundary": "State in the lede that these are pharmacokinetic and animal doses, not a therapeutic range, and that no human trial established a dose for the uses the compound is marketed for."
+    },
+    {
+      "query": "ipamorelin side effects",
+      "volume": null,
+      "source": "competitor-h2+paa",
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "adverse_events",
+      "heading": "What side effects did studies report?",
+      "note": "Record holds one adverse-event claim. The lede must name the single trial that reported safety rather than implying a body of safety evidence."
+    },
+    {
+      "query": "how does ipamorelin work",
+      "volume": null,
+      "source": "competitor-h2+paa",
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What it is and how it acts",
+      "note": "Selective GHS-R1a agonist. The summary carries the mechanism; the biomarker claims are the measurements behind it. Do not write mechanism prose that no source states."
+    },
+    {
+      "query": "does ipamorelin raise cortisol",
+      "volume": null,
+      "source": "paa+competitor-faq",
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "biomarkers_monitored",
+      "heading": "What did studies measure: growth hormone, cortisol, ACTH",
+      "note": "Selectivity is the central claim made for ipamorelin and this is the evidence for it. Six biomarker claims exist. High-value section: competitors assert selectivity, we can quote the measurements."
+    },
+    {
+      "query": "ipamorelin half life",
+      "volume": null,
+      "source": "paa+competitor-faq",
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How long is ipamorelin's half-life?",
+      "gap": "Gobburu 1999 states the 2-hour terminal half-life in its abstract but reported_timelines has 0 claims. Drafter miss: re-run draft_claims.py and check the timeline pattern against that source before publishing."
+    },
+    {
+      "query": "ipamorelin results",
+      "volume": null,
+      "source": "paa",
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "evidence_table",
+      "heading": "What the evidence shows",
+      "note": "The reported-outcome column is the answer. Beck 2014 found no significant difference from placebo; that belongs above the table, not buried in it."
+    },
+    {
+      "query": "ipamorelin cjc-1295 stack",
+      "volume": null,
+      "source": "competitor-h2+paa",
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "combination",
+      "target": "/stacks/cjc-1295-ipamorelin",
+      "heading": "Studied in combination",
+      "note": "3 indexed studies mention both; no study tested the pair for the marketed outcome."
+    },
+    {
+      "query": "ipamorelin vs ghrp-6",
+      "volume": null,
+      "source": "registry+competitor-h2",
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "compare",
+      "target": "/compare/ipamorelin-vs-ghrp-6",
+      "heading": "How it compares"
+    },
+    {
+      "query": "ipamorelin vs sermorelin",
+      "volume": null,
+      "source": "competitor-faq",
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "compare",
+      "target": "/compounds/sermorelin",
+      "note": "Different class (GHRH analog vs ghrelin mimetic), so not a registry peer and not in the comparison plan. Answer in the comparison lede by naming the class difference and linking; do not invent a head-to-head that no study ran."
+    },
+    {
+      "query": "is ipamorelin approved",
+      "volume": null,
+      "source": "competitor-faq+paa",
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Is ipamorelin an approved medicine?",
+      "gap": "Record holds only the ChEMBL phase. Add the FDA bulk-substances categorisation and the WADA Prohibited List S2 entry to the source ledger first; both are citable primary documents."
+    },
+    {
+      "query": "ipamorelin cycle length",
+      "volume": null,
+      "source": "paa",
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "study_durations",
+      "heading": "How long did studies run?",
+      "boundary": "Study duration is not a recommended cycle. Say so in the lede."
+    }
+  ],
+  "competitors": [
+    { "url": "https://www.peptidedosingprotocols.com/protocol/ipamorelin", "words": 7053, "tables": 13, "score": 25, "gap": "Byline has no credential; 7 primary-source links against 28 supplier mentions; dosing schedules with no human efficacy evidence behind them" },
+    { "url": "https://superpower.com/guides/ipamorelin", "words": 6500, "tables": 0, "score": 31, "gap": "Strongest competitor: MD reviewer, 27 primary citations, honest about the evidence gap. But no tables, so the evidence is narrated rather than shown, and no per-study structure" },
+    { "url": "https://riteaid.com/peptides/ipamorelin", "words": 1800, "tables": 0, "score": 18, "gap": "Reviewed by an unnamed 'Health Team'; dosage section without trial support; exists to sell a tracking toolkit" },
+    { "url": "https://biomeme.com/applications/wellness/peptide-evidence/ipamorelin/", "words": 800, "tables": 0, "score": 13, "gap": "A single 'evidence score' of 52 built on one cited source; no studies listed, no author, no date" }
+  ],
+  "serp_format_rewarded": "Long-form explainer that resolves the status question early: what it is, whether human evidence exists, what was actually measured.",
+  "information_gain": "This is the only page on the SERP that shows the ipamorelin literature as data rather than describing it: 22 primary studies in one table with design, sample size, species, dose, route, duration and reported outcome, each row linked to its source, and both human randomized trials quoted verbatim from their abstracts. From that table it states a fact no competitor states as a measurement: 2 of 63 indexed publications are human trials, one tested pharmacokinetics in volunteers and one tested a surgical indication that failed, and none tests the growth-hormone, body-composition, sleep or recovery outcomes the compound is marketed for. On selectivity, the claim every competitor asserts in prose, it quotes the biomarker measurements from the studies that made it. It answers the stacking question with counts from its own records rather than protocols.",
+  "outline": [
+    "glance",
+    "what",
+    "human-trials",
+    "evidence",
+    "doses",
+    "adverse",
+    "biomarkers",
+    "durations",
+    "routes",
+    "weight",
+    "method",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "open_actions": [
+    "Add FDA bulk-substances and WADA S2 documents to the ipamorelin source ledger, then re-draft regulatory_status.",
+    "Re-run draft_claims.py and confirm the Gobburu 1999 half-life sentence lands in reported_timelines.",
+    "Reviewer to rule on three evidence-table rows: Lu 2024 is an anamorelin paper, Timms 2014 is an anti-doping detection method, one row's author parsed as 'N'.",
+    "Replace null volumes with DataForSEO search-volume data now that the API is configured."
+  ]
+}

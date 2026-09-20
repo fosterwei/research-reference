@@ -63,7 +63,11 @@ Enforced by humans until tooling exists:
 - no more than 50 pilot pages before indexation review.
 
 ## Structure
-Section-level page structure is specified in `docs/page-template-spec.md`. How
+Section-level page structure is specified in `docs/page-template-spec.md`. The
+per-page content process that decides which of those sections lead, and in whose
+words they are headed, is `docs/content-sop.md`; its intent map is the only
+place search demand is allowed to influence a page, and it can reorder and
+rename sections but never change a claim, a tier or a source. How
 those sections are rendered, the tokens, type, component anatomy, budgets and
 anti-patterns, is `docs/design.md`; changes to `src/` follow it, and the
 design changes only through the process it describes. The
