@@ -49,8 +49,29 @@ const pageTitle = title.includes(SITE_NAME) || !siteSuffix ? title : `${title} |
       <slot />
     </main>
     <footer class="site-foot">
-      <div class="wrap prose">
-        <p>A cited research reference. Every claim carries an evidence tier and a source. Nothing here is medical, dosing or treatment advice, and nothing here is a recommendation to use any compound.</p>
+      <div class="wrap foot-grid">
+        <div class="foot-col foot-about">
+          <p class="foot-brand">{SITE_NAME}</p>
+          <p>A cited research reference for peptides. Every claim carries an evidence tier and links to the study it came from, quoted verbatim. Nothing here is medical, dosing or treatment advice, and nothing here is a recommendation to use any compound.</p>
+        </div>
+        <nav class="foot-col" aria-label="Browse">
+          <p class="foot-head">Browse</p>
+          <a href="/compounds">Compounds</a>
+          <a href="/stacks">Stacks</a>
+          <a href="/compare">Comparisons</a>
+          <a href="/tools">Tools</a>
+        </nav>
+        <nav class="foot-col" aria-label="About this site">
+          <p class="foot-head">About</p>
+          <a href="/about">How pages are made</a>
+          <a href="/about#tiers">Evidence tiers</a>
+          <a href="/about#review">Review status</a>
+          <a href="/about#not">What this site does not do</a>
+        </nav>
+      </div>
+      <div class="wrap foot-meta">
+        <span>Sources: Europe PMC and ChEMBL. Records carry their own revision dates.</span>
+        <span>Pages not yet signed by a named reviewer are excluded from search indexing.</span>
       </div>
     </footer>
   </body>

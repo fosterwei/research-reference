@@ -1,0 +1,64 @@
+---
+// The method, stated for readers. Every figure here is computed from the
+// records at build time so the page cannot drift from the site it describes.
+import Base from '../layouts/Base.astro';
+import { records } from '../lib/collections';
+import { compounds as regCompounds, stacks as regStacks, comparisons as regComparisons, tools as regTools } from '../lib/registry';
+import { TIER_LABEL } from '../lib/site';
+const all = await records('compounds');
+const byStatus: Record<string, number> = {};
+for (const e of all) byStatus[e.data.status] = (byStatus[e.data.status] ?? 0) + 1;
+const published = byStatus['published'] ?? 0;
+const reviewed = all.filter((e) => e.data.review?.reviewer_credential).length;
+const sources = all.reduce((n, e) => n + e.data.sources.length, 0);
+const claims = all.reduce((n, e) => n + Object.entries(e.data.attributes).filter(([k]) => k !== 'evidence_table').reduce((m, [, v]) => m + (v as unknown[]).length, 0), 0);
+const tierOrder = ['approved-label', 'human-clinical-trial', 'observational-human', 'animal-preclinical', 'mechanistic-in-vitro', 'community-reported'];
+const tierMeans: Record<string, string> = {
+  'approved-label': 'A regulator has reviewed the evidence and approved a label. The strongest tier, and still specific to the approved use and population.',
+  'human-clinical-trial': 'At least one indexed clinical trial in people. The trial\'s size, design and outcome are what matter, and the evidence table shows them.',
+  'observational-human': 'Human data without randomisation: cohorts, case series, registries. Association, not cause.',
+  'animal-preclinical': 'Studies in animals only. Findings do not transfer to people, and weight-normalised doses do not scale between species.',
+  'mechanistic-in-vitro': 'Cell or tissue work. Shows what a molecule can do to a receptor or pathway, not what it does in a body.',
+  'community-reported': 'No indexed study. What circulates is reported as circulating, sourced to where it appears, and never restated as fact.',
+};
+---
+<Base title="How these pages are made" description="How this research reference retrieves, quotes, tiers and reviews evidence about peptides, and what it deliberately does not do." path="/about" indexable={false}>
+  <article class="prose">
+    <p class="eyebrow">About</p>
+    <h1>How these pages are made</h1>
+    <p class="lede">Every page on this site is built from a record: a list of studies retrieved from public indexes, quoted sentence by sentence, labelled by the kind of evidence each is, and held back from search engines until a named person has checked it. This page describes that process and its limits.</p>
+
+    <h2 id="method">The method, in order</h2>
+    <ol>
+      <li><strong>Retrieve.</strong> For each compound, every publication in <a href="https://europepmc.org" rel="noopener" target="_blank">Europe PMC</a> whose title or abstract names it or a listed alias is fetched, with its MEDLINE publication type and subject headings. Compound identity, clinical phase and approval status come from <a href="https://www.ebi.ac.uk/chembl/" rel="noopener" target="_blank">ChEMBL</a>. Counts on a page are counts from this retrieval, dated.</li>
+      <li><strong>Classify.</strong> Each paper is labelled by study design and species from its own indexing, with a text fallback for papers not yet indexed. Reviews are kept as background reading and never become claims.</li>
+      <li><strong>Quote, do not paraphrase.</strong> A claim on this site is a sentence copied verbatim from a paper's abstract, with the study's design, sample size, species and year in front of it and the source identifier after it. Nothing is combined across papers. Where a dose appears in a quotation, it is attributed to the compound only when its name sits beside it; comparator doses in the same sentence are left out.</li>
+      <li><strong>Suppress, do not fill.</strong> A section with no evidence is not rendered. A compound with no indexed studies gets a short page that says so. A zero is reported as a zero.</li>
+      <li><strong>Review.</strong> A record may be marked published only when a named reviewer with a stated credential has checked each claim against its quoted sentence, its heading and its tier. Until then the page carries a visible notice and a <code>noindex</code> instruction.</li>
+    </ol>
+
+    <h2 id="tiers">Evidence tiers</h2>
+    <p>Every claim carries one of six labels. They describe the kind of evidence, not its conclusion: a compound with one human trial and forty animal studies is described by both facts, not the better one.</p>
+    <dl class="facts">
+      {tierOrder.map((t) => <><dt>{TIER_LABEL[t] ?? t}</dt><dd>{tierMeans[t]}</dd></>)}
+    </dl>
+
+    <h2 id="review">Review status</h2>
+    <p>This site is in its pilot. It holds <strong>{regCompounds.length}</strong> compound records, <strong>{regStacks.length}</strong> stack records, <strong>{regComparisons.length}</strong> comparison records and <strong>{regTools.length}</strong> tools, built on <strong>{sources.toLocaleString('en-US')}</strong> sources and <strong>{claims.toLocaleString('en-US')}</strong> quoted claims.</p>
+    <p><strong>{reviewed}</strong> of {all.length} compound records have been signed by a named reviewer, and <strong>{published}</strong> are published. Every page not yet reviewed says so at the top, and none is submitted to search engines. Each record's own page lists its revision history under "Last reviewed and what changed".</p>
+
+    <h2 id="not">What this site does not do</h2>
+    <ul>
+      <li>It does not recommend a dose, a schedule, a cycle or a route. Doses on a page are the doses studies administered, reported as published, and the page says so wherever they appear.</li>
+      <li>It does not sell, rate, link to or name suppliers, and it carries no affiliate placement.</li>
+      <li>It does not translate a study finding into advice for any person. Study populations, species and conditions are stated so a reader can see how far a finding is from their situation.</li>
+      <li>It does not write a compound-specific clinical, dosing, safety, interaction or regulatory statement that has no source in its ledger. Where no source exists, the page says that instead, which is itself the finding.</li>
+    </ul>
+
+    <h2 id="reading">How to read a page</h2>
+    <p>Start with the evidence table: one row per primary study, with design, sample size, species, dose, route, duration and reported outcome. Then read the quoted claims under each heading, checking the tier dot beside each. Open a source from the numbered list to read the passage in context. The reference card at the end summarises the record with its generation date, so a saved copy can be checked against a later version.</p>
+
+    <h2 id="corrections">Corrections</h2>
+    <p>A record's changelog is the record of what changed and when. Anything found to be wrong is corrected in the record, the correction is dated in the changelog, and the page rebuilds from the corrected record.</p>
+  </article>
+</Base>

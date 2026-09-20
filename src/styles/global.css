@@ -27,7 +27,16 @@ p { margin: .6rem 0; }
 .site-head .wrap { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: baseline; padding: 1rem 1.25rem; }
 .site-head .brand { font-family: var(--serif); font-weight: 600; color: var(--ink); text-decoration: none; }
 .site-head nav a { margin-right: 1.1rem; color: var(--ink-2); text-decoration: none; font-size: .95rem; }
-.site-foot { margin-top: 4rem; border-top: 1px solid var(--rule); padding: 1.5rem 0 3rem; color: var(--ink-3); font-size: .9rem; }
+.site-foot { margin-top: 4rem; border-top: 1px solid var(--rule); padding: 2.25rem 0 2.5rem; color: var(--ink-3); font-size: .9rem; background: var(--surface); }
+.foot-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr); gap: 2rem 3rem; }
+.foot-col { display: flex; flex-direction: column; gap: .4rem; }
+.foot-col a { color: var(--ink-2); text-decoration: none; }
+.foot-col a:hover { color: var(--ink); text-decoration: underline; }
+.foot-brand { font-family: var(--serif); font-weight: 600; color: var(--ink); font-size: 1.05rem; margin: 0 0 .5rem; }
+.foot-about p { margin: 0; max-width: 52ch; line-height: 1.55; }
+.foot-head { font-family: var(--mono); font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 .35rem; }
+.foot-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); font-size: .8rem; }
+@media (max-width: 720px) { .foot-grid { grid-template-columns: 1fr 1fr; } .foot-about { grid-column: 1 / -1; } }
 .eyebrow { font-family: var(--mono); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
 .lede { color: var(--ink-2); font-size: 1.05rem; }
 .notice { border: 1px solid var(--rule); border-left: 3px solid var(--t-animal); background: var(--surface); padding: .8rem 1rem; border-radius: 0 4px 4px 0; margin: 1.25rem 0; }
