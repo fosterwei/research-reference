@@ -13,10 +13,22 @@
   "slug": "ipamorelin",
   "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Ipamorelin is a peptide in the ghrelin mimetics class (ghrelin receptor (GHS-R1a) agonist). Europe PMC indexes 63 publications naming it or a listed alias in a title or abstract, including 2 randomized controlled trials and 2 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
+  "summary": "Ipamorelin is a peptide in the ghrelin mimetics class (ghrelin receptor, or GHS-R1a, agonist) studied in human and preclinical research. Europe PMC indexes 63 publications naming Ipamorelin or a listed alias in a title or abstract as of 2026-09-14. The current ledger contains 2 human clinical studies, both randomized, alongside animal, analytical, and in-vitro records. That publication count is a discovery measure, not proof of efficacy or safety. The cited human evidence is limited and mixed: one postoperative-ileus trial reported no significant difference from placebo in its key efficacy analyses. This page reports what the studies state, sentence by sentence, with each statement tied to its source and labeled by evidence type. It does not recommend use or translate study doses into personal instructions.",
   "seo": {
     "title": "Ipamorelin: what the research shows",
-    "description": "Ipamorelin research, cited: 63 indexed publications, 2 randomized trials. Evidence tier on every claim; nothing is advice."
+    "description": "Ipamorelin research: 63 indexed publications, 2 human clinical studies, and limited mixed evidence. Every claim is source-linked; nothing is advice."
+  },
+  "evidence_assessment": {
+    "availability": "Human clinical research",
+    "strength": "Limited and mixed",
+    "efficacy_label": "No clear benefit shown",
+    "efficacy_summary": "The 2014 randomized postoperative-ileus study reported no significant differences between ipamorelin and placebo in its key and secondary efficacy analyses. The 1999 randomized study examined growth-hormone release and pharmacokinetics, not an approved therapeutic indication.",
+    "limitations": [
+      "The current ledger contains only two human clinical studies, and their populations, routes, and research questions are not interchangeable.",
+      "Most indexed records are preclinical, analytical, or mechanistic rather than human efficacy studies.",
+      "No record in this ledger establishes an approved dose, a safe personal regimen, or a reliable conversion from animal dosing to humans.",
+      "The evidence summary is based on indexed titles and abstracts; full-text review may change study classification or interpretation."
+    ]
   },
   "attributes": {
     "routes_studied": [
@@ -746,11 +758,11 @@
   "faq": [
     {
       "question": "Has Ipamorelin been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 2 clinical trials and 2 randomized controlled trials naming Ipamorelin or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "answer": "Yes. The current ledger contains 2 human clinical studies, both randomized. One evaluated postoperative ileus and reported no significant difference from placebo in its key efficacy analyses; the other examined growth-hormone release and pharmacokinetics. These studies do not establish an approved therapeutic dose or prove efficacy for other uses."
     },
     {
       "question": "What kind of evidence exists for Ipamorelin?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "answer": "The indexed literature includes human clinical, animal, analytical, and in-vitro records. Human clinical evidence is available but limited and mixed; the evidence table keeps those records separate from preclinical and measurement studies. A human-clinical label means that a study exists, not that efficacy or safety has been established."
     },
     {
       "question": "Is Ipamorelin an approved medicine?",
