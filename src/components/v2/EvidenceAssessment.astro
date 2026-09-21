@@ -1,0 +1,22 @@
+---
+interface Props { record: any }
+const { record: d } = Astro.props;
+const rows = d.attributes?.evidence_table ?? [];
+const humanRows = rows.filter((r: any) => r.fields?.species === 'Humans' && !/method|in vitro/i.test(r.fields?.design ?? ''));
+const randomizedRows = humanRows.filter((r: any) => /random/i.test(r.fields?.design ?? ''));
+const nonRandomizedRows = humanRows.filter((r: any) => !/random/i.test(r.fields?.design ?? ''));
+const assessment = d.evidence_assessment ?? {};
+---
+<section id="assessment" class="assessment" aria-labelledby="assessment-title">
+  <div>
+    <h2 id="assessment-title">What the evidence level means</h2>
+    <p class="lede">Publication counts show what is indexed, not how strong the evidence is. The ledger below separates human clinical records from preclinical, analytical, and in-vitro work.</p>
+  </div>
+  <div class="assessment-grid">
+    <div class="assessment-item"><span class="k">Human clinical studies in this ledger</span><strong>{humanRows.length}</strong><span class="s">{randomizedRows.length} randomized · {nonRandomizedRows.length} other human clinical</span></div>
+    <div class="assessment-item"><span class="k">Evidence strength</span><strong>{assessment.strength ?? 'Not yet assessed'}</strong><span class="s">Separate from evidence availability</span></div>
+    <div class="assessment-item"><span class="k">Efficacy signal</span><strong>{assessment.efficacy_label ?? 'Not yet assessed'}</strong><span class="s">Read the study result, not the tier alone</span></div>
+  </div>
+  {assessment.efficacy_summary && <p class="assessment-note"><b>Human-study result:</b> {assessment.efficacy_summary}</p>}
+  <p class="assessment-note"><b>Interpretation boundary:</b> An indexed publication count is a discovery measure. It does not establish efficacy, safety, approval, or a personal treatment plan.</p>
+</section>
