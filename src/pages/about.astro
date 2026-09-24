@@ -12,7 +12,7 @@ const published = byStatus['published'] ?? 0;
 const reviewed = all.filter((e) => e.data.review?.reviewer_credential).length;
 const sources = all.reduce((n, e) => n + e.data.sources.length, 0);
 const claims = all.reduce((n, e) => n + Object.entries(e.data.attributes).filter(([k]) => k !== 'evidence_table').reduce((m, [, v]) => m + (v as unknown[]).length, 0), 0);
-const tierOrder = ['approved-label', 'human-clinical-trial', 'observational-human', 'animal-preclinical', 'mechanistic-in-vitro', 'community-reported'];
+const tierOrder = ['approved-label', 'human-clinical-trial', 'observational-human', 'animal-preclinical', 'mechanistic-in-vitro', 'community-reported', 'editorial'];
 const tierMeans: Record<string, string> = {
   'approved-label': 'A regulator has reviewed the evidence and approved a label. The strongest tier, and still specific to the approved use and population.',
   'human-clinical-trial': 'At least one indexed clinical trial in people. The trial\'s size, design and outcome are what matter, and the evidence table shows them.',
@@ -20,6 +20,7 @@ const tierMeans: Record<string, string> = {
   'animal-preclinical': 'Studies in animals only. Findings do not transfer to people, and weight-normalised doses do not scale between species.',
   'mechanistic-in-vitro': 'Cell or tissue work. Shows what a molecule can do to a receptor or pathway, not what it does in a body.',
   'community-reported': 'No indexed study. What circulates is reported as circulating, sourced to where it appears, and never restated as fact.',
+  'editorial': 'Written from general knowledge rather than a ledger source: mechanism, history, class context, regulatory status, common reports. Marked as editorial synthesis wherever it appears.',
 };
 ---
 <Base title="How these pages are made" description="How this research reference retrieves, quotes, tiers and reviews evidence about peptides, and what it deliberately does not do." path="/about" indexable={false}>
@@ -34,7 +35,8 @@ const tierMeans: Record<string, string> = {
       <li><strong>Classify.</strong> Each paper is labelled by study design and species from its own indexing, with a text fallback for papers not yet indexed. Reviews are kept as background reading and never become claims.</li>
       <li><strong>Quote, do not paraphrase.</strong> A claim on this site is a sentence copied verbatim from a paper's abstract, with the study's design, sample size, species and year in front of it and the source identifier after it. Nothing is combined across papers. Where a dose appears in a quotation, it is attributed to the compound only when its name sits beside it; comparator doses in the same sentence are left out.</li>
       <li><strong>Suppress, do not fill.</strong> A section with no evidence is not rendered. A compound with no indexed studies gets a short page that says so. A zero is reported as a zero.</li>
-      <li><strong>Review.</strong> A record may be marked published only when a named reviewer with a stated credential has checked each claim against its quoted sentence, its heading and its tier. Until then the page carries a visible notice and a <code>noindex</code> instruction.</li>
+      <li><strong>Fill the gaps, labelled.</strong> Where the literature is silent on something a reader needs, mechanism, development history, regulatory status, or what is commonly reported outside the studies, the page says it from general knowledge and marks the passage <em>editorial synthesis</em>, so a cited finding and an editorial passage are never confused.</li>
+      <li><strong>Review, when it happens, is shown.</strong> When a named person with a stated credential has checked a record, their name, credential and date appear at the top of the page and in its structured data. Pages are published as compiled and improved in place; every change is dated in the changelog.</li>
     </ol>
 
     <h2 id="tiers">Evidence tiers</h2>
@@ -43,16 +45,16 @@ const tierMeans: Record<string, string> = {
       {tierOrder.map((t) => <><dt>{TIER_LABEL[t] ?? t}</dt><dd>{tierMeans[t]}</dd></>)}
     </dl>
 
-    <h2 id="review">Review status</h2>
+    <h2 id="review">Publication and review</h2>
     <p>This site is in its pilot. It holds <strong>{regCompounds.length}</strong> compound records, <strong>{regStacks.length}</strong> stack records, <strong>{regComparisons.length}</strong> comparison records and <strong>{regTools.length}</strong> tools, built on <strong>{sources.toLocaleString('en-US')}</strong> sources and <strong>{claims.toLocaleString('en-US')}</strong> quoted claims.</p>
-    <p><strong>{reviewed}</strong> of {all.length} compound records have been signed by a named reviewer, and <strong>{published}</strong> are published. Every page not yet reviewed says so at the top, and none is submitted to search engines. Each record's own page lists its revision history under "Last reviewed and what changed".</p>
+    <p>Pages are published as they are compiled and improved in place. <strong>{reviewed}</strong> of {all.length} compound records carry a named reviewer's sign-off, shown at the top of those pages. Each record's own page lists its revision history under "Last reviewed and what changed".</p>
 
     <h2 id="not">What this site does not do</h2>
     <ul>
       <li>It does not recommend a dose, a schedule, a cycle or a route. Doses on a page are the doses studies administered, reported as published, and the page says so wherever they appear.</li>
       <li>It does not sell, rate, link to or name suppliers, and it carries no affiliate placement.</li>
       <li>It does not translate a study finding into advice for any person. Study populations, species and conditions are stated so a reader can see how far a finding is from their situation.</li>
-      <li>It does not write a compound-specific clinical, dosing, safety, interaction or regulatory statement that has no source in its ledger. Where no source exists, the page says that instead, which is itself the finding.</li>
+      <li>It does not present a statement written from general knowledge as a cited finding. Editorial passages are marked as such, and a primary document is added when one exists.</li>
     </ul>
 
     <h2 id="reading">How to read a page</h2>

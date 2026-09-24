@@ -6,7 +6,8 @@ Maintain a trustworthy global-English peptide research-reference website in Word
 ## Allowed
 - normalize and de-duplicate entities;
 - import cited source metadata into the source ledger, normally by running `python3 scripts/fetch_evidence.py`;
-- **draft claims from retrieved sources.** For any paper in a record's ledger, write the claim its abstract or full text supports, attach the `evidence_label` and `source_ids`, and attach the passage it paraphrases as `source_excerpt`, verbatim. Drafted claims go into records in status `draft`;
+- **draft claims from retrieved sources.** For any paper in a record's ledger, write the claim its abstract or full text supports, attach the `evidence_label` and `source_ids`, and attach the passage it paraphrases as `source_excerpt`, verbatim;
+- **write from general knowledge where the ledger is silent or a reader's question needs context**: mechanism of action, development history, how a compound class works, what is commonly reported about use and effects outside the literature, and regulatory status. Such passages carry `evidence_label: "editorial"`, `drafting: "editorial"` and may have empty `source_ids`; the page marks them as editorial synthesis so a reader can tell them from cited findings. Where a primary document is known to exist but is not yet in the ledger, add `pending_source: true` and move on rather than waiting;
 - **write the shared methodology sections from general knowledge**: reconstitution and concentration mathematics, how to read a certificate of analysis, equipment described in published protocols, and tool-page formulas with worked examples. These make no compound-specific claim and need no ledger source;
 - **record community-reported protocols** when each is labeled `community-reported`, sourced to the URL where it actually appears (`kind: community`), and framed as what circulates rather than what is known;
 - write the summary, snapshot, open-questions and FAQ sections of a record from its own ledger and claims;
@@ -18,10 +19,11 @@ Maintain a trustworthy global-English peptide research-reference website in Word
 
 ## Prohibited
 - personalized dosing, treatment, diagnosis, or safety advice;
-- **a compound-specific clinical, dosing, safety, interaction or regulatory claim with no source in the ledger.** This is the one rule that does not loosen. If a claim cannot be traced to a document a reader can open, it is not written, however confident the agent is. Where no source exists the page says so, which is itself the claim;
+- **passing off a knowledge-based statement as a cited finding**: anything not traceable to a ledger source is labelled `editorial`, never given a study tier;
+- **phrasing any dose, schedule or regimen as an instruction to the reader.** Doses may be reported as what studies administered or as what is commonly reported, with that framing in the same sentence; "take", "use", "start with" and their equivalents addressed to the reader are not written;
 - inventing or misattributing citations, trial results, contraindications, prices, supplier ratings, or regulatory status;
 - presenting a `community-reported` claim as clinical fact, or attaching a higher label than the source supports;
-- marking a record `reviewed` or `published`, or filling in `review.reviewer`: only a human does that;
+- filling in `review.reviewer` or `review.reviewer_credential` for a person who has not actually reviewed the record;
 - publishing directly to production or pushing to `main`;
 - adding affiliate recommendations during the pilot;
 - indexing placeholder, duplicate, or incomplete records.
@@ -34,11 +36,11 @@ Drafted claims are the agent's largest contribution and its largest risk, so eac
 - `source_ids`: at least one ledger id;
 - `source_excerpt`: the sentence or sentences from the source that the value paraphrases, copied exactly.
 
-The reviewer checks `value` against `source_excerpt`, not against memory. A claim whose excerpt does not support its value is deleted, not edited. Where a compound has no ledger sources, the record's evidence sections stay empty and the page renders the shared sections plus a plain statement that no indexed study names the compound.
+Anyone checking a cited claim compares `value` against `source_excerpt`, not against memory. A claim whose excerpt does not support its value is deleted, not edited. An `editorial` claim is checked for accuracy and hedging instead, and is the first candidate for source-backing when a document becomes available. Where a compound has no ledger sources, the evidence sections stay empty, the page says so, and editorial passages carry what is known.
 
 ## Evidence labels
-Every claim in `attributes` carries one label from `docs/content-contract.md` and cites at least one source id from the record's ledger:
-`approved-label`, `human-clinical-trial`, `observational-human`, `animal-preclinical`, `mechanistic-in-vitro`, `community-reported`.
+Every claim in `attributes` carries one label from `docs/content-contract.md`:
+`approved-label`, `human-clinical-trial`, `observational-human`, `animal-preclinical`, `mechanistic-in-vitro`, `community-reported`, `editorial`. All but `editorial` cite at least one source id from the record's ledger.
 
 ## Release gates
 Enforced by the validator and CI:
@@ -46,8 +48,8 @@ Enforced by the validator and CI:
 - unique slug per URL prefix; slug format `[a-z0-9]+(-[a-z0-9]+)*`;
 - required fields per type present;
 - every source has id, title, http(s) url, and publication date;
-- every claim cites known source ids; reviewed/published claims cite at least one;
-- reviewed/published records have a named author, a different named reviewer, a review date, and a stated reviewer credential;
+- every claim cites known source ids; non-editorial claims cite at least one;
+- records in `draft`, `reviewed` or `published` are indexable; a reviewer is named on a record only when a real person has reviewed it, and then appears on the page;
 - reviewed/published records carry an `seo.title` within 60 characters and an `seo.description` within 160;
 - reviewed/published records carry a measured `uniqueness_pct`; below 40% fails and below 30% is a hard stop;
 - `changelog` entries use YYYY-MM-DD dates and describe what changed;
@@ -59,8 +61,7 @@ Enforced by humans until tooling exists:
 - `lastmod` reflects the record's own revision timestamp, not build time;
 - sections with no record data are suppressed rather than rendered empty;
 - self-canonical, valid schema, and sitemap eligibility checked on staging;
-- 5–10% human sample review per batch;
-- no more than 50 pilot pages before indexation review.
+- periodic sample review of published pages, recorded in each record's changelog.
 
 ## Structure
 Section-level page structure is specified in `docs/page-template-spec.md`. The

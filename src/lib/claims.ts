@@ -27,5 +27,5 @@ export function parseClaim(c: Claim): Parsed {
 
 export const TIER_SHORT: Record<string, string> = {
   'approved-label': 'Approved label', 'human-clinical-trial': 'Human clinical trial', 'observational-human': 'Observational, human',
-  'animal-preclinical': 'Animal, preclinical', 'mechanistic-in-vitro': 'Mechanistic, in vitro', 'community-reported': 'Community-reported',
+  'animal-preclinical': 'Animal, preclinical', 'mechanistic-in-vitro': 'Mechanistic, in vitro', 'community-reported': 'Community-reported', 'editorial': 'Editorial synthesis',
 };

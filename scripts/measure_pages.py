@@ -151,7 +151,7 @@ def intent_coverage(slug: str) -> int:
     field_to_id = {"study_doses": "doses", "escalation_schedules": "escalation", "adverse_events": "adverse", "study_durations": "durations",
                    "routes_studied": "routes", "weight_normalized_doses": "weight", "interactions": "interactions", "exclusion_criteria": "exclusion",
                    "biomarkers_monitored": "biomarkers", "reported_timelines": "timelines", "storage": "storage", "evidence_table": "evidence",
-                   "regulatory_status": "regulatory", "what": "what", "compare": "compare", "combination": "combination", "faq": "faq"}
+                   "regulatory_status": "regulatory", "what": "what", "mechanism": "mechanism", "reported_use": "reported-use", "compare": "compare", "combination": "combination", "faq": "faq"}
     def section_html(sid):
         mm = re.search(rf'<section id="{sid}".*?</section>', main, re.S); return mm.group(0) if mm else ""
     rows = []; tally = {}

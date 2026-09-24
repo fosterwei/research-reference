@@ -19,7 +19,7 @@ const generated = d.evidence_summary?.drafting?.date ?? d.evidence_summary?.retr
     <dt>Indexed publications</dt><dd><b>{formatCount(pubs.total)}</b> · {formatCount(pubs.randomized_controlled_trials)} RCTs · {formatCount(pubs.clinical_trials)} other clinical trials</dd>
     <dt>Approval</dt><dd>{chembl ? (phase >= 4 ? `approved (${chembl.first_approval ?? 'year not recorded'})` : `not approved · max phase ${isNaN(phase) ? '—' : phase}`) : 'no registered development programme found'}{chembl?.atc?.length ? ` · ATC ${chembl.atc.join(', ')}` : ''}</dd>
     <dt>Routes reported</dt><dd>{routes.length ? routes.join(', ') : '—'}</dd>
-    <dt>Reviewed</dt><dd>{d.review?.reviewer ? <>{d.review.reviewer}, {d.review.reviewer_credential}, <Fragment set:html={timeTag(d.review.reviewed_at)} /></> : 'not yet'}</dd>
+    {d.review?.reviewer && <><dt>Reviewed</dt><dd>{d.review.reviewer}, {d.review.reviewer_credential}, <Fragment set:html={timeTag(d.review.reviewed_at)} /></dd></>}
   </dl>
   <p class="foot">Study figures are as published in each source and are not recommendations. Print or save this card with its date.</p>
 </div>

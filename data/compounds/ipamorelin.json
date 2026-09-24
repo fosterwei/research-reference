@@ -282,6 +282,20 @@
         "value": "ChEMBL CHEMBL58547: maximum clinical phase 2. Jurisdiction-level status pending human review.",
         "evidence_label": "human-clinical-trial",
         "source_ids": []
+      },
+      {
+        "value": "United States: ipamorelin is not approved by the FDA for any use. It was nominated for the FDA's list of bulk drug substances that may be used in compounding under section 503A, and has appeared in Category 2 of the interim list, the category for substances FDA considers to raise significant safety concerns and which may not be compounded while under evaluation. The Pharmacy Compounding Advisory Committee discussed ipamorelin in 2024, and nominations have since been withdrawn and re-reviewed, so the current category should be checked against FDA's live list.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      },
+      {
+        "value": "Sport: the World Anti-Doping Agency's Prohibited List names ipamorelin among growth hormone secretagogues under section S2 (peptide hormones, growth factors, related substances and mimetics). Substances in S2 are prohibited at all times, in and out of competition.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "evidence_table": [
@@ -725,6 +739,40 @@
           "outcome": "see source"
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "Ipamorelin is a synthetic pentapeptide (Aib-His-D-2-Nal-D-Phe-Lys-NH2) developed at Novo Nordisk in the 1990s as a growth hormone secretagogue. It acts as an agonist at the ghrelin receptor, GHS-R1a, on pituitary somatotrophs and in the hypothalamus, and the result is a pulse of growth hormone release rather than a sustained rise; in the human pharmacokinetic study the pulse peaked at about 40 minutes and had faded within hours.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Its distinguishing property in early pharmacology was selectivity. At growth-hormone-releasing doses it did not meaningfully raise ACTH, cortisol or prolactin in the way the earlier secretagogues GHRP-6 and GHRP-2 do. The biomarker measurements quoted on this page are the published basis for that description; selectivity in animals and healthy volunteers is not the same as a demonstrated benefit.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Development history: after Novo Nordisk's characterisation in 1998 and 1999, ipamorelin was taken into a phase 2 programme by Helsinn for postoperative ileus after bowel surgery. The 2014 randomized trial found no significant difference from placebo on its efficacy measures, and clinical development stopped. It is not an approved medicine in any jurisdiction.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Outside the literature, ipamorelin is most often discussed at 100 to 300 micrograms per subcutaneous injection, one to three times a day, frequently alongside CJC-1295 (modified GRF 1-29), with an evening injection favoured on the reasoning that it coincides with the natural nocturnal growth hormone pulse. These figures circulate in user communities and in compounding-clinic marketing. No clinical trial has tested them for any outcome, and they are reported here so a reader knows what the figures are and where they come from, not as a suggestion.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The effects most often reported in those communities are improved sleep, faster recovery and changes in body composition; the side effects most often reported are transient flushing or warmth after injection, headache, water retention and increased hunger. None of these has been measured in a controlled study of ipamorelin. The only human trials measured growth hormone release in volunteers and a surgical recovery outcome.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -1044,6 +1092,10 @@
     {
       "date": "2026-09-23",
       "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 25 claims, 22 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-23",
+      "change": "Editorial sections added from general knowledge, labelled editorial synthesis: mechanism and development history (3), what is commonly reported outside the literature (2), FDA compounding and WADA status (2, primary documents pending). Indexing opened: pages publish as compiled."
     }
   ],
   "prose_reviewed": true

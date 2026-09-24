@@ -12,6 +12,7 @@ export const EVIDENCE_LABELS = [
   'animal-preclinical',
   'mechanistic-in-vitro',
   'community-reported',
+  'editorial',
 ] as const;
 
 const status = z.enum(STATUSES);

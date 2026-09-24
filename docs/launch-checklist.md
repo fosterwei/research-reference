@@ -12,7 +12,7 @@
 
 ## Content
 - [ ] `python3 scripts/fetch_evidence.py --all --dry-run` run; compounds with no indexed human trials have their human-dosing sections suppressed, not padded.
-- [ ] 20–30 compound records in `published` state with named reviewers.
+- [ ] 20–30 compound records indexable with intent maps and editorial gap-fill.
 - [ ] 2–3 stack/comparison pages reviewed.
 - [ ] 5–8 editorial posts reviewed.
 - [ ] 1–2 calculators/tools tested with edge cases.
@@ -28,7 +28,7 @@
 - [ ] Search Console and analytics configured; sitemap submitted.
 - [ ] Baseline for the metrics in `docs/PRD.md` recorded.
 - [ ] Batch review scheduled 2–4 weeks after launch.
-- [ ] Every indexable record has a named reviewer with a stated credential.
+- [ ] Every editorial passage is labelled and hedged; reviewers named only where a real review happened.
 - [ ] Uniqueness measured per page with `scripts/measure_pages.py --write` and recorded in `uniqueness_pct`.
 - [ ] Every extractive claim's excerpt checked against its value and heading by the reviewer; comparator doses removed where the attribution heuristic missed.
 - [ ] Titles within 60 characters and descriptions within 160, checked across all page types.

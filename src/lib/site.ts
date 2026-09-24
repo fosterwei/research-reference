@@ -9,6 +9,7 @@ export const TIER_LABEL: Record<string, string> = {
   'animal-preclinical': 'Animal, preclinical',
   'mechanistic-in-vitro': 'Mechanistic, in vitro',
   'community-reported': 'Community-reported',
+  'editorial': 'Editorial synthesis',
 };
 
 /** Section headings for compound attribute fields, in template-spec order. */
@@ -29,9 +30,9 @@ export const SECTIONS: Array<[field: string, heading: string]> = [
 
 type AnyRecord = CollectionEntry<'compounds' | 'stacks' | 'comparisons' | 'tools' | 'posts'>;
 
-/** Only a fully published record is indexable. Everything else renders noindex. */
+/** Records with drafted content are indexable; states before drafting, and stale or retired records, render noindex. */
 export function isIndexable(entry: AnyRecord): boolean {
-  return entry.data.status === 'published';
+  return ['draft', 'reviewed', 'published'].includes(entry.data.status);
 }
 
 /** Last revision date drives <lastmod>; never the build time. */

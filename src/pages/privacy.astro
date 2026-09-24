@@ -1,0 +1,24 @@
+---
+// Privacy: true to how the site is built. Static HTML on Vercel, no accounts,
+// no analytics script, no cookies set by the pages themselves.
+import Base from '../layouts/Base.astro';
+---
+<Base title="Privacy" description="What this site collects (almost nothing), what the host logs, and what we do not do with any of it." path="/privacy" indexable={true}>
+  <article class="prose">
+    <p class="eyebrow">Privacy</p>
+    <h1>Privacy</h1>
+    <p class="lede">This is a static reference site. It has no accounts, no comments, no forms that store data, and no analytics or advertising script. This page describes the little that remains.</p>
+    <h2 id="collect">What the pages collect</h2>
+    <p>Nothing. The pages are pre-built HTML. They set no cookies, run no tracking code, and do not ask for your name, email or health information. The reconstitution calculator runs entirely in your browser and sends nothing anywhere.</p>
+    <h2 id="host">What the host logs</h2>
+    <p>The site is served by Vercel. Like any web host, Vercel's servers receive your IP address, the page requested, your browser's user-agent string and the referring page, and keep standard request logs for operating and securing the service. We do not add identifiers to those logs and do not use them to profile readers. Vercel's own handling of that data is described in <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener">Vercel's privacy policy</a>.</p>
+    <h2 id="fonts">Fonts</h2>
+    <p>Pages load two typefaces from Google Fonts. Your browser requests the font files from Google's servers, which receive your IP address and user-agent in the process. If you prefer to avoid that, blocking <code>fonts.googleapis.com</code> and <code>fonts.gstatic.com</code> leaves the site fully readable in your system fonts.</p>
+    <h2 id="links">Outbound links</h2>
+    <p>Source links go to Europe PMC, ChEMBL, regulators and journals. Once you follow one, that site's privacy terms apply. We receive no report of which links you follow.</p>
+    <h2 id="storage">Local storage</h2>
+    <p>The site does not use browser storage. If that changes, for a preference such as a remembered unit setting, it will be stored only in your browser and this page will say so.</p>
+    <h2 id="changes">Changes</h2>
+    <p>This page is revised when the site's behaviour changes. The site's source, including every page template, is public, so what the pages do can be checked directly rather than taken on trust.</p>
+  </article>
+</Base>

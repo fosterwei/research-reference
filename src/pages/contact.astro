@@ -1,0 +1,31 @@
+---
+// Contact and corrections: the routes that actually exist. The repository is
+// public, so issues are the durable, attributable way to report a problem.
+import Base from '../layouts/Base.astro';
+const repo = 'https://github.com/fosterwei/research-reference';
+---
+<Base title="Contact and corrections" description="How to report an error in a claim, a missing source or a broken page, and how corrections are made and recorded." path="/contact" indexable={true}>
+  <article class="prose">
+    <p class="eyebrow">Contact</p>
+    <h1>Contact and corrections</h1>
+    <p class="lede">Every claim on this site names its source, so most problems can be pointed at exactly: a quotation that does not match its source, a study in the wrong tier, a figure that has since changed, a page that does not render. Here is how to report one and what happens next.</p>
+    <h2 id="report">Report a problem</h2>
+    <p>Open an issue in the public repository: <a href={`${repo}/issues/new`} target="_blank" rel="noopener">{repo.replace('https://', '')}/issues</a>. Include the page URL, the section heading, and, for a claim, its source id (the <code>pmid-…</code> or <code>doi-…</code> code beneath it). Issues are public, dated and attributable, which is why they are the primary route.</p>
+    <p>If you would rather not use GitHub, the same repository lists the maintainers on its profile page; a message there reaches them.</p>
+    <h2 id="what">What is worth reporting</h2>
+    <ul>
+      <li>A quoted sentence that differs from the source abstract, or a source id that does not resolve.</li>
+      <li>A claim carrying a higher evidence tier than its source supports.</li>
+      <li>A study in the evidence table that is about a different compound, or a detection-method paper presented as an effect study.</li>
+      <li>An editorial passage that has become inaccurate, or for which a primary document now exists.</li>
+      <li>A regulatory status that has changed.</li>
+      <li>Anything that reads as a recommendation to use a compound. It should not, and if it does, that is a defect.</li>
+    </ul>
+    <h2 id="how">How corrections are made</h2>
+    <p>Corrections are made in the record, not on the page. The record's changelog gains a dated entry saying what changed and why, the page rebuilds from the corrected record, and the sitemap's last-modified date updates from that entry. A claim whose source does not support it is removed rather than reworded. Nothing is corrected silently.</p>
+    <h2 id="research">Research and review</h2>
+    <p>Clinicians, pharmacologists and researchers who would like to review a record are welcome. A reviewed record shows the reviewer's name, credential and date at the top of its page and in its structured data. Open an issue titled "Review: &lt;compound&gt;" to start.</p>
+    <h2 id="not">What this site does not do</h2>
+    <p>It does not give individual advice, and questions about whether or how to use a compound cannot be answered here. A clinician who knows your history can; this site can only show what has been studied.</p>
+  </article>
+</Base>

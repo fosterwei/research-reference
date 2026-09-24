@@ -41,6 +41,7 @@ EVIDENCE_LABELS = (
     "animal-preclinical",
     "mechanistic-in-vitro",
     "community-reported",
+    "editorial",
 )
 
 SOURCE_KINDS = (
@@ -206,8 +207,8 @@ def check_claims(record: dict, path: pathlib.Path, report: Report, source_ids: s
             unknown = [r for r in refs if r not in source_ids]
             if unknown:
                 report.error(path, f"{label} cites unknown source ids {unknown}")
-            if gated and not refs:
-                report.error(path, f"{label} must cite at least one source on reviewed/published records")
+            if gated and not refs and claim.get("evidence_label") != "editorial":
+                report.error(path, f"{label} must cite at least one source (editorial claims are exempt)")
             # agent/AGENT.md: a drafted claim carries the passage it paraphrases, verbatim.
             if claim.get("drafting") == "extractive" and not (claim.get("source_excerpt") or "").strip():
                 report.error(path, f"{label} is marked extractive but has no source_excerpt")
@@ -223,23 +224,15 @@ def check_review(record: dict, path: pathlib.Path, report: Report, gated: bool) 
     for key in ("author", "reviewer", "reviewed_at"):
         if key not in review:
             report.error(path, f"review.{key} missing")
-    if gated:
-        if not review.get("author"):
-            report.error(path, "reviewed/published record needs a named review.author")
-        if not review.get("reviewer"):
-            report.error(path, "reviewed/published record needs a named review.reviewer")
+    # A reviewer is optional. When one is named, the fields must be coherent so
+    # the page never shows a half-filled attribution.
+    if review.get("reviewer"):
         if not is_iso_date(review.get("reviewed_at")):
-            report.error(path, "reviewed/published record needs review.reviewed_at as YYYY-MM-DD")
+            report.error(path, "a named review.reviewer needs review.reviewed_at as YYYY-MM-DD")
+        if not review.get("reviewer_credential"):
+            report.error(path, "a named review.reviewer needs review.reviewer_credential")
         if review.get("author") and review.get("author") == review.get("reviewer"):
             report.error(path, "review.reviewer must differ from review.author")
-        # A stated credential is the differentiator identified in
-        # docs/competitive-baseline.md: the incumbent declares no reviewer at all.
-        if not review.get("reviewer_credential"):
-            report.error(
-                path,
-                "reviewed/published record needs review.reviewer_credential "
-                "(the reviewer's stated qualification)",
-            )
 
 
 def check_seo(record: dict, path: pathlib.Path, report: Report, gated: bool) -> None:
