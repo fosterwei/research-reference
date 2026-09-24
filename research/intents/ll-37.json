@@ -1,0 +1,516 @@
+{
+  "slug": "ll-37",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "stage0_note": "Twenty-three of the ledger's human rows are studies that measured the body's own LL-37 (vitamin D trials, probiotic trials, serum levels in tuberculosis, synovial biomarkers) and gave none; three gave it (topical gel, topical cream, engineered oral bacterium). The trial table labels the difference; the fetcher cannot, which is the same 'measured versus administered' script item as kisspeptin.",
+  "serp_2026-09-24": {
+    "query": "ll-37 peptide",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "scholarly_articles",
+      "related_searches"
+    ],
+    "organic_top": [
+      "pmc (2021 review)",
+      "anaspec.com (reagent vendor)",
+      "pmc (2013 review)",
+      "superpower.com",
+      "nature.com (2022 paper)",
+      "phoenixpeptide.com (vendor)",
+      "invivogen.com (reagent vendor)",
+      "youtube.com",
+      "sciencedirect.com (2024 review)"
+    ],
+    "note": "Reviews, reagent vendors and one physician-reviewed guide; Google shows a scholarly-articles block. The AI Overview cites PMC, Superpower, MDPI and ScienceDirect. The incumbent dosing guide is absent."
+  },
+  "demand_findings": "Four spellings carry 4,628 clickstream (KD 9 to 15) and 'cathelicidin' 661; 'nasal spray' 152 is the one route query with demand. Benefits, dosage, side effects and 'what is' 50 each; the condition queries (Lyme, SIBO, mould, psoriasis, rosacea) are unindexed or Ads-only, yet they are what the People-also-ask block and the forums are about.",
+  "h1": "LL-37 peptide: the antimicrobial your body already makes, what three trials found, why it drives psoriasis, and what the injectable vials rest on",
+  "dek": "The only human cathelicidin, a natural defence peptide that kills bacteria and also inflames psoriasis and rosacea. Three trials have given it to people, two as a wound gel and one as an engineered oral bacterium; none has injected it. This page tables them, separates the studies that gave LL-37 from the many that only measured it, and says what that means for the vials sold for Lyme disease and biofilms.",
+  "queries": [
+    {
+      "query": "ll-37",
+      "volume": {
+        "clickstream": 2442,
+        "google_ads": 4400,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What LL-37 is, and why the body already makes it"
+    },
+    {
+      "query": "ll-37 peptide",
+      "volume": {
+        "clickstream": 915,
+        "google_ads": 6600,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What LL-37 is, and why the body already makes it"
+    },
+    {
+      "query": "ll37",
+      "volume": {
+        "clickstream": 915,
+        "google_ads": 4400,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What LL-37 is, and why the body already makes it"
+    },
+    {
+      "query": "cathelicidin",
+      "volume": {
+        "clickstream": 661,
+        "google_ads": 880,
+        "kd": 10,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How LL-37 works: the only human cathelicidin, in defence and in disease"
+    },
+    {
+      "query": "ll 37",
+      "volume": {
+        "clickstream": 356,
+        "google_ads": 4400,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What LL-37 is, and why the body already makes it"
+    },
+    {
+      "query": "ll-37 nasal spray",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 40,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: topical gel and cream, an oral bacterium, and nothing injected",
+      "boundary": "Topical gel on leg ulcers, cream on foot ulcers, and an engineered oral bacterium in the trials; nasal sprays and subcutaneous injection, the products people buy, have never been studied in people."
+    },
+    {
+      "query": "ll-37 benefits",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 140,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what LL-37 did in people",
+      "boundary": "Three trials gave LL-37 to people: a 148-person topical trial on venous leg ulcers (negative overall), a small diabetic-foot-ulcer cream trial (positive on a wound-healing index), and a 238-person trial of an oral bacterium engineered to make LL-37 for COVID-19. Every other 'human study' in the ledger measured the body's own LL-37 and gave none."
+    },
+    {
+      "query": "ll-37 dosage",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 110,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every LL-37 dose in the trials, in one table",
+      "boundary": "Every dose here is a topical concentration or a probiotic formulation. No study has injected LL-37 into a person, which is the only way it is sold; the 100 to 250 mcg figures on vendor pages have no study behind them."
+    },
+    {
+      "query": "ll-37 side effects",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 70,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the topical trials recorded, and what the biology warns",
+      "boundary": "The topical trials called it well tolerated at both strengths. The concern with injecting it comes from biology, not trials: LL-37 disrupts human cell membranes at high concentrations and drives inflammation in psoriasis, rosacea and lupus, where the body already makes too much."
+    },
+    {
+      "query": "what is ll-37",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 260,
+        "kd": 11,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is LL-37?",
+      "answer": "LL-37 is a 37-amino-acid peptide the human body makes itself, the only member of the cathelicidin family of antimicrobial peptides in humans. It is cut from a precursor protein (hCAP18) in neutrophils, skin and the lining of the gut and airways, kills bacteria by punching holes in their membranes, and signals to immune cells. As a drug it has been tested as a wound gel (ropocamptide) and as an engineered oral bacterium; the injectable vials sold online have never been studied."
+    },
+    {
+      "query": "ll-37 cathelicidin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 170,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How LL-37 works: the only human cathelicidin, in defence and in disease"
+    },
+    {
+      "query": "ll-37 psoriasis",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does LL-37 cause or treat psoriasis?",
+      "answer": "LL-37 is part of what drives psoriasis, not a treatment for it. In psoriatic skin it is overproduced, binds to the body's own DNA and RNA, and turns those complexes into triggers for the interferon-producing cells that inflame the plaque; it acts similarly in rosacea and lupus. No study has given LL-37 to a person with psoriasis, and the mechanism argues against it."
+    },
+    {
+      "query": "ll-37 reddit",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 70,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe subcutaneous injection for Lyme disease, mould illness, SIBO, biofilms and chronic infections, often with die-off symptoms and injection-site pain. None of it has a study, and the route has none either."
+    },
+    {
+      "query": "ll-37 rosacea",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does LL-37 cause or treat psoriasis?"
+    },
+    {
+      "query": "ll-37 sibo",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe subcutaneous injection for Lyme disease, mould illness, SIBO, biofilms and chronic infections, often with die-off symptoms and injection-site pain. None of it has a study, and the route has none either."
+    },
+    {
+      "query": "ll-37 lyme",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe subcutaneous injection for Lyme disease, mould illness, SIBO, biofilms and chronic infections, often with die-off symptoms and injection-site pain. None of it has a study, and the route has none either."
+    },
+    {
+      "query": "ll-37 biofilm",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does LL-37 break biofilms?",
+      "answer": "In the laboratory, yes: LL-37 inhibits biofilm formation and disrupts existing biofilms of several bacteria at concentrations that do not kill the free-living cells, and that property is well documented in reviews. No human study has tested it against a biofilm infection, and the injectable route has no study at all; the biofilm claim on vendor pages is a laboratory result carried to a use it has never been tried in."
+    },
+    {
+      "query": "ll-37 half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of LL-37?",
+      "answer": "Short and unmeasured for the injected route. LL-37 is degraded quickly by proteases in blood and tissue, which is one reason the drug programmes chose topical and oral-bacterial delivery; no human pharmacokinetic study exists, and no abstract in the ledger states a figure."
+    },
+    {
+      "query": "ll-37 reconstitution",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "ll-37 injection",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: topical gel and cream, an oral bacterium, and nothing injected",
+      "boundary": "Topical gel on leg ulcers, cream on foot ulcers, and an engineered oral bacterium in the trials; nasal sprays and subcutaneous injection, the products people buy, have never been studied in people."
+    },
+    {
+      "query": "ll-37 vs bpc-157",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "LL-37 vs thymosin alpha-1, KPV, BPC-157 and antibiotics",
+      "boundary": "Thymosin alpha-1 is an approved immune regulator with dozens of trials; KPV is a three-amino-acid anti-inflammatory with none; antibiotics are antibiotics. LL-37 has three trials, two topical and one oral, and no injected study to compare with any of them."
+    },
+    {
+      "query": "ll-37 kpv",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "LL-37 vs thymosin alpha-1, KPV, BPC-157 and antibiotics",
+      "boundary": "Thymosin alpha-1 is an approved immune regulator with dozens of trials; KPV is a three-amino-acid anti-inflammatory with none; antibiotics are antibiotics. LL-37 has three trials, two topical and one oral, and no injected study to compare with any of them."
+    },
+    {
+      "query": "ll-37 fda",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: an investigational wound drug abroad, a research chemical in the United States"
+    },
+    {
+      "query": "what are the side effects of ll-37 treatment",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the topical trials recorded, and what the biology warns",
+      "boundary": "The topical trials called it well tolerated at both strengths. The concern with injecting it comes from biology, not trials: LL-37 disrupts human cell membranes at high concentrations and drives inflammation in psoriasis, rosacea and lupus, where the body already makes too much.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "can ll-37 peptide help with weight loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Can LL-37 help with weight loss?",
+      "answer": "No study has looked, in any species, and nothing in its biology points that way. LL-37 is an antimicrobial and immune-signalling peptide; the weight-loss question comes from its being sold beside peptides that are.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "is ll-37 more effective than antibiotics",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is LL-37 more effective than antibiotics?",
+      "answer": "No trial has compared them. LL-37 kills a broad range of bacteria in the laboratory by disrupting membranes, a mechanism bacteria find harder to resist, which is why drug developers are interested in it and its analogues. In people it has been tested only as a wound gel, where the endpoint was healing, not infection, and as an oral bacterium for a virus. Antibiotics have seventy years of trials; LL-37 has three.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "when to take ll-37 peptide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe subcutaneous injection for Lyme disease, mould illness, SIBO, biofilms and chronic infections, often with die-off symptoms and injection-site pain. None of it has a study, and the route has none either.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://superpower.com/guides/peptides/ll-37",
+      "rank": 6,
+      "words": 6877,
+      "tables": 0,
+      "h2": 19,
+      "h3": 23,
+      "sci_links": 46,
+      "byline": "Reviewed by William Maish, MD MBA MPH",
+      "score": 26,
+      "gap": "46 citations and a physician reviewer; correct on the HEAL LL-37 trial design and on the disease-driver biology; states it is 'available as a compounded prescription', which the site's own scope cannot verify; no trial table separating given from measured",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F5 S9 U4"
+    },
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/ll-37",
+      "rank": null,
+      "words": 3689,
+      "tables": 10,
+      "h2": 21,
+      "h3": 45,
+      "sci_links": 8,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 23,
+      "gap": "Unusually candid: says the human trials were topical and the daily subcutaneous protocol is community-derived; then supplies ten tables for it; not in the Google top 10 for 'll-37 peptide' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F8 S4 U3"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cathelicidin",
+      "rank": null,
+      "words": 5045,
+      "tables": 27,
+      "h2": 10,
+      "sci_links": 190,
+      "score": 25,
+      "gap": "190 references on the peptide family; the clinical-significance section covers the disease-driver biology; no trial table, nothing on the products people buy",
+      "source": "fetched 2026-09-24, metrics measured; scored D6 F4 S9 U6"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8227053/",
+      "rank": 2,
+      "score": null,
+      "gap": "A 2021 review ranks second and a 2013 review fifth; the SERP rewards reviews",
+      "source": "SERP result; not in the ledger"
+    },
+    {
+      "url": "https://www.anaspec.com/en/catalog/ll-37-antimicrobial-peptide-human-1-mg~0",
+      "rank": 4,
+      "score": null,
+      "gap": "Reagent-vendor catalogue page ranking fourth; InvivoGen ranks ninth. The molecule is a laboratory reagent first",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that separates the three human studies that gave LL-37 (HEAL LL-37: 148 venous-ulcer patients, topical 0.5 and 1.6 mg/mL, negative on the full population; a diabetic-foot-ulcer cream trial, positive on a granulation index; an oral recombinant Lactococcus in 238 COVID-19 inpatients) from the twenty studies that measured the body's own LL-37 after vitamin D, probiotics or infection; that states no study has injected LL-37 into a person, the only route it is sold for; that explains the disease-driver biology, LL-37 complexing self-DNA in psoriasis, rosacea and lupus, as a reason injection is not obviously benign; and that names the drug programme (ropocamptide) and why it chose the skin.",
+  "serp_format_rewarded": "Review-style explainer. Reviews and a physician-reviewed guide rank; a cited page with a given-versus-measured trial table and the disease-driver section fits.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add the psoriasis (Lande 2007, Nature) and rosacea (Yamasaki 2007) papers that establish LL-37 as a disease driver; cited editorially.",
+    "Add Promore Pharma's ropocamptide programme documents and any later HEAL trial publication.",
+    "The fetcher's human rows should distinguish 'administered' from 'measured' studies; twenty of twenty-three rows here measured endogenous LL-37 (accept-script, precedent kisspeptin).",
+    "No pharmacokinetic study of injected LL-37 exists in any species in the ledger."
+  ]
+}
