@@ -509,7 +509,7 @@
     {
       "slug": "thymosin-alpha-1",
       "name": "Thymosin alpha-1",
-      "approved": false,
+      "approved": "abroad",
       "evidence_tier": "human-clinical-trial",
       "indexed_publications": 1079,
       "head_clickstream": 2747,
@@ -522,8 +522,8 @@
         "peptide": 254,
         "benefits": 152
       },
-      "status": "queued",
-      "note": null,
+      "status": "done",
+      "note": "Written 2026-09-24 under the sequencing rule; audit research/audits/thymosin-alpha-1-2026-09-24.md. Approved as thymalfasin (Zadaxin) in about 35 countries, not the US; ChEMBL shows no first_approval, so the queue listed it as unapproved (see intent map queue_note).",
       "rank": 25
     },
     {

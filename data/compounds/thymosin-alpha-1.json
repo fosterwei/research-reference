@@ -16,8 +16,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "Thymosin alpha-1 is a peptide in the immunomodulators & host defense class (thymic peptide; TLR-mediated immunomodulation). Europe PMC indexes 1,079 publications naming it or a listed alias in a title or abstract, including 65 randomized controlled trials and 61 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "Thymosin alpha-1: what the research shows",
-    "description": "Thymosin alpha-1 research, cited: 1,079 indexed publications, 65 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Thymosin Alpha-1 (Zadaxin): 65 Trials, Dose, Side Effects",
+    "description": "Thymosin alpha-1 (thymalfasin, Zadaxin): what 65 randomized trials found, the two big negative ones, the licensed dose, side effects, and where it is approved."
   },
   "attributes": {
     "routes_studied": [
@@ -58,7 +58,62 @@
         "drafting": "extractive"
       }
     ],
-    "study_doses": [],
+    "study_doses": [
+      {
+        "value": "In TESTS, 1,106 septic adults received 1.6 mg thymosin alpha-1 or placebo subcutaneously every 12 hours for seven days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39814420"
+        ],
+        "source_excerpt": "Interventions Subcutaneous injection of thymosin α1 or placebo every 12 hours for seven days unless discontinued owing to discharge from the intensive care unit, death, or withdrawal of consent.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In the pancreatitis trial, 508 patients received 1.6 mg every 12 hours for seven days, then once daily for seven more.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35713670"
+        ],
+        "source_excerpt": "Enrolled patients were assigned to receive a subcutaneous injection of Tα1 1.6 mg every 12 h for the first 7 days and 1.6 mg once a day for the subsequent 7 days or matching placebos",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In chronic hepatitis B, 1.6 mg twice a week for six months was compared with interferon alpha.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17075991"
+        ],
+        "source_excerpt": "The patients in group A received subcutaneous injection of 1.6 mg thymosin-alpha1, twice a week (T-alpha1 group) for six months, and the patients in group B received 5 MU interferon alpha (IFN-alpha) each day for fifteen days, then three times weekly (IFN-alpha group) for six months.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In severe acute pancreatitis, a pilot gave 3.2 mg twice a day for seven days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-20549321"
+        ],
+        "source_excerpt": "The patients in the thymosin group were injected with Talpha1 3.2 mg twice per day for 7 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In colorectal cancer surgery, 1.6 mg twice a week (conventional) or three times a week (high dose) alongside chemotherapy.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37248723"
+        ],
+        "source_excerpt": "the experimental group was randomly divided into conventional-dose group ( n  = 100, 1.6 mg of thymalfasin for injection, twice a week) and high-dose group ( n  = 100, 1.6 mg of thymalfasin for injection, thrice a week)",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Mice were protected from lethal Candida infection by 100 micrograms.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-7085074"
+        ],
+        "source_excerpt": "Significant resistance ot lethal infection was afforded by 100 micrograms of thy",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
     "interactions": [
       {
@@ -84,40 +139,47 @@
     ],
     "adverse_events": [
       {
-        "value": "Randomized controlled trial, humans, n=100, 2024: The conventional-dose and high-dose thymalfasin for injection effectively improves the perioperative immune function of CRC patients and reduces the incidence of postoperative complications, as an effective treatment for such patients, which can benefit patients.",
+        "value": "In the 1,106-person sepsis phase 3, no secondary or safety outcome differed from placebo.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-37248723"
+          "pmid-39814420"
         ],
-        "source_excerpt": "The conventional-dose and high-dose thymalfasin for injection effectively improves the perioperative immune function of CRC patients and reduces the incidence of postoperative complications, as an effective treatment for such patients, which can benefit patients.",
+        "source_excerpt": "No secondary or safety outcome differed statistically significantly between the two groups.",
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=508, 2022: This trial aimed to evaluate whether early immune-enhancing Thymosin alpha 1 (Tα1) treatment reduces the incidence of IPN in patients with predicted severe ANP.",
+        "value": "In the pancreatitis trial there was no difference in other major complications, including new organ failure.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-35713670"
         ],
-        "source_excerpt": "This trial aimed to evaluate whether early immune-enhancing Thymosin alpha 1 (Tα1) treatment reduces the incidence of IPN in patients with predicted severe ANP.",
+        "source_excerpt": "There was no difference in other major complications, including new-onset organ failure",
         "drafting": "extractive"
       },
       {
-        "value": "Phase 3 clinical trial, humans, n=8, 2016: Eight of the 9 patients transitioning to combined treatment with immunotherapy (pegylated interferon or thymosin alpha 1) in the REP 102 study experienced HBsAg loss and all 9 patients experienced substantial increases in serum anti-HBsAg antibody titers before withdrawal of therapy.",
+        "value": "In hepatitis B it was better tolerated than interferon alpha.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-27257978"
+          "pmid-17075991"
         ],
-        "source_excerpt": "Eight of the 9 patients transitioning to combined treatment with immunotherapy (pegylated interferon or thymosin alpha 1) in the REP 102 study experienced HBsAg loss and all 9 patients experienced substantial increases in serum anti-HBsAg antibody titers before withdrawal of therapy.",
+        "source_excerpt": "T-alpha1 is better tolerated than IFN-alpha and can gradually induce more sustained ALT normalization and HBV DNA and HBeAg loss.",
         "drafting": "extractive"
       },
       {
-        "value": "In vitro study, humans, 2020: This study was designed to test the hypothesis that the administration of thymosin alpha 1 during the acute phase of ANP will result in a reduced incidence of IPN.",
-        "evidence_label": "mechanistic-in-vitro",
+        "value": "Both entecavir alone and with thymosin alpha-1 were well tolerated over two years in cirrhosis.",
+        "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-32994239"
+          "pmid-30063860"
         ],
-        "source_excerpt": "This study was designed to test the hypothesis that the administration of thymosin alpha 1 during the acute phase of ANP will result in a reduced incidence of IPN.",
+        "source_excerpt": "Both therapies were well-tolerated.",
         "drafting": "extractive"
+      },
+      {
+        "value": "Across the randomized trials, the licensed dose has one of the cleanest tolerability records on this site: the common complaint is redness at the injection site, and hepatitis trials chose it over interferon partly because it lacks interferon's flu-like effects. The label's contraindications, deliberate immunosuppression after transplant and hypersensitivity, come from its mechanism rather than from trial events. What the trials could not show is a benefit to justify the dose in the two conditions they tested most rigorously.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "biomarkers_monitored": [
@@ -142,78 +204,71 @@
     ],
     "reported_timelines": [
       {
-        "value": "In vitro study, 2025: In this study, we thus aimed to exploit the potential of a liquid crystalline platform for the sustained release of peptide drug thymosin alpha 1 (Tα1), characterized by a short plasma half-life and with that associated twice-weekly SC administration regimen.",
-        "evidence_label": "mechanistic-in-vitro",
+        "value": "In the 2013 sepsis trial, the monocyte HLA-DR marker of immune recovery improved faster by day 3 on treatment.",
+        "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-40066714"
+          "pmid-23327199"
         ],
-        "source_excerpt": "In this study, we thus aimed to exploit the potential of a liquid crystalline platform for the sustained release of peptide drug thymosin alpha 1 (Tα1), characterized by a short plasma half-life and with that associated twice-weekly SC administration regimen.",
+        "source_excerpt": "Greater improvement of mHLA-DR was observed in the Tα1 group on d",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In hepatitis B, response continued to rise after treatment ended: 31% at six months of therapy, 48% six months later.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17075991"
+        ],
+        "source_excerpt": "At the end of treatment, complete response, which was defined as alanine aminotransferase (ALT) normalization and HBV DNA and HBeAg loss, occurred in 9 of 29 (31.0%) patients in the T-alpha1 group and in 15 of 33 (45.5%) patients in the IFN-alpha group (chi2=1.36, P>0.05). After a follow-up period of six months, a complete response was observed in 14 of 29 (48.3%) patients in the T-alpha1 group and in 9 of 33 (27.3%) patients in the IFN-alpha group (chi2=2.93, P>0.05)",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The 2020 protocol's primary endpoint was infected pancreatic necrosis during the index admission.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32994239"
+        ],
+        "source_excerpt": "The primary endpoint is the incidence of IPN during the index admission.",
         "drafting": "extractive"
       }
     ],
     "storage": [],
     "study_durations": [
       {
-        "value": "Randomized controlled trial, humans, n=34, 2026: durations stated: 0 months. The median follow-up duration was 6.0 months.",
+        "value": "Seven days of twice-daily injection in the sepsis phase 3, with 28-day mortality as the endpoint.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-42063096"
+          "pmid-39814420"
         ],
-        "source_excerpt": "The median follow-up duration was 6.0 months.",
+        "source_excerpt": "Subcutaneous injection of thymosin α1 or placebo every 12 hours for seven days",
         "drafting": "extractive"
       },
       {
-        "value": "Phase 2 clinical trial, humans, 2026: durations stated: 21 day; 9 weeks; 0 months. Treatment included three 21-day cycles of serplulimab (anti-PD-1) plus SOX (S-1 and oxaliplatin) and 9 weeks of thymalfasin, followed by curative gastrectomy.",
+        "value": "Fourteen days in the pancreatitis trial; six months in the hepatitis B trial; a median 38 months of follow-up in the cirrhosis trial.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-30063860"
+        ],
+        "source_excerpt": "The median followed up was 38.2 months.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Nine weeks of thymalfasin with three chemotherapy cycles before gastrectomy.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-41749205"
         ],
         "source_excerpt": "Treatment included three 21-day cycles of serplulimab (anti-PD-1) plus SOX (S-1 and oxaliplatin) and 9 weeks of thymalfasin, followed by curative gastrectomy.",
         "drafting": "extractive"
-      },
-      {
-        "value": "Phase 2 clinical trial, humans, n=6, 2025: durations stated: 14 days; 3 weeks; 7 days. HFRT was administered to targeted tumors, and GM-CSF was administered for 14 days from day 1 of radiotherapy.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-39904914"
-        ],
-        "source_excerpt": "HFRT was administered to targeted tumors, and GM-CSF was administered for 14 days from day 1 of radiotherapy.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Randomized controlled trial, humans, n=552, 2025: durations stated: 85 years. Participants 1106 adults aged 18-85 years with a diagnosis of sepsis according to sepsis-3 criteria and randomly assigned in a 1:1 ratio to receive thymosin α1 (n=552) or placebo (n=554).",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-39814420"
-        ],
-        "source_excerpt": "Participants 1106 adults aged 18-85 years with a diagnosis of sepsis according to sepsis-3 criteria and randomly assigned in a 1:1 ratio to receive thymosin α1 (n=552) or placebo (n=554).",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Randomized controlled trial, humans, n=194, 2023: durations stated: 8 weeks; 8 week; 4 months. Of these, 194 patients have been randomized 1:1 to either Group A (1.6 mg Ta1 given subcutaneously twice weekly for 8 weeks), or Group B (control group not receiving Ta1).",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-36881981"
-        ],
-        "source_excerpt": "Of these, 194 patients have been randomized 1:1 to either Group A (1.6 mg Ta1 given subcutaneously twice weekly for 8 weeks), or Group B (control group not receiving Ta1).",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Randomized controlled trial, humans, n=508, 2022: durations stated: 7 days. Enrolled patients were assigned to receive a subcutaneous injection of Tα1 1.6 mg every 12 h for the first 7 days and 1.6 mg once a day for the subsequent 7 days or matching placebos (normal saline).",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-35713670"
-        ],
-        "source_excerpt": "Enrolled patients were assigned to receive a subcutaneous injection of Tα1 1.6 mg every 12 h for the first 7 days and 1.6 mg once a day for the subsequent 7 days or matching placebos (normal saline).",
-        "drafting": "extractive"
       }
     ],
     "weight_normalized_doses": [],
     "regulatory_status": [
       {
-        "value": "ChEMBL CHEMBL2103979: maximum clinical phase 3. Jurisdiction-level status pending human review.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": []
+        "value": "Approved as thymalfasin (Zadaxin, SciClone) in about 35 countries, including China, Italy and much of Asia and Latin America, for chronic hepatitis B and C and as an immune adjuvant in some cancers and vaccination; the licensed dose is 1.6 mg subcutaneously twice a week. Never approved in the United States: applications for hepatitis C and melanoma did not succeed, and in September 2023 FDA placed thymosin alpha-1 in category 2 of the interim 503A bulk-substances list, barring compounding pharmacies from making it; press reports in 2026 describe a possible further review. In the United States it is therefore a research chemical with a foreign licence, which is the position of no other compound on this site. Not named on the WADA Prohibited List, and as an approved medicine abroad it does not fall under S0 automatically; athletes should check. The ChEMBL record shows no first_approval because it is not FDA-approved, so this record's tier was set by the trial evidence rather than the approval.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "evidence_table": [
@@ -398,26 +453,6 @@
         }
       },
       {
-        "value": "Phase 3 clinical trial, humans, n=8, 2016: Eight of the 9 patients transitioning to combined treatment with immunotherapy (pegylated interferon or thymosin alpha 1) in the REP 102 study experienced HBsAg loss and all 9 patients experienced substantial increases in serum anti-HBsAg antibody titers before withdrawal of therapy.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-27257978"
-        ],
-        "source_excerpt": "Eight of the 9 patients transitioning to combined treatment with immunotherapy (pegylated interferon or thymosin alpha 1) in the REP 102 study experienced HBsAg loss and all 9 patients experienced substantial increases in serum anti-HBsAg antibody titers before withdrawal of therapy.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Al-Mahtab 2016",
-          "year": "2016",
-          "design": "Phase 3 clinical trial",
-          "n": 8,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "52 weeks",
-          "outcome": "Eight of the 9 patients transitioning to combined treatment with immunotherapy (pegylated interferon or thymosin alpha 1) in the REP 102 study experienced HBsAg loss and all 9 patients experienced substantial increases…"
-        }
-      },
-      {
         "value": "Randomized controlled trial, humans, n=180, 2013: Greater improvement of mHLA-DR was observed in the Tα1 group on day 3 (mean difference in mHLA-DR changes between the two groups was 3.9%, 95% CI 0.2 to 7.6%, P = 0.037) and day 7 (mean difference in mHLA-DR changes between the two groups was 5.8%, 95% CI 1.0 to 10.5%, P = 0.017) than in…",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
@@ -597,6 +632,34 @@
           "outcome": "This study was designed to test the hypothesis that the administration of thymosin alpha 1 during the acute phase of ANP will result in a reduced incidence of IPN."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "Thymosin alpha-1 is a 28-amino-acid acidic peptide, the N-terminal fragment of prothymosin alpha, first isolated from calf thymus fraction 5 by Allan Goldstein's group in 1972 and later made synthetically as thymalfasin. It is not a hormone in the classical sense: it acts on immune cells directly, above all on dendritic cells, through Toll-like receptors 2 and 9 and the MyD88 pathway, priming them toward a Th1, interferon-gamma response and, in other settings, toward tolerance through indoleamine 2,3-dioxygenase. That double action, stimulating against infection and tumour and restraining inflammation, is what its Italian investigators mean by calling it a regulator rather than a booster.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "In people the measurable effects are on immune markers: faster recovery of monocyte HLA-DR in sepsis, higher CD4 counts and CD4/CD8 ratios in pancreatitis and after surgery, and, in hepatitis B, loss of viral DNA and e-antigen that continued after treatment stopped, which is read as an immune rather than an antiviral effect. Whether those marker changes translate into outcomes is the question the trials answer inconsistently: yes in a 2013 sepsis trial with a marginal result, no in the 2025 phase 3 built to confirm it, no on the primary endpoint in the 2022 pancreatitis trial with a positive subgroup afterwards.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "What is not known is why the large trials failed where the small ones succeeded, whether any patient group benefits in intensive care, and what the peptide does in the healthy people who now inject it for 'immune support': every trial enrolled people who were seriously ill, and the immune markers it moves are abnormal in them to begin with.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Thymosin alpha-1 circulates as 'TA1', injected subcutaneously at the licensed 1.6 mg once or twice a week, for immune support, frequent infections, long COVID, Lyme disease, chronic fatigue, mould illness and autoimmune conditions, often through functional-medicine clinics as well as research-chemical vendors. Reports describe fewer colds, more energy, a transient flu-like day after injection, and frequently no noticeable effect; some with autoimmune disease report flares, which is the direction the mechanism predicts. None of these uses has a trial. The dose people use is the licensed dose, so the question with a gray-market vial is not the number on it but what is in it.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -647,10 +710,9 @@
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports doses used for Thymosin alpha-1.",
-    "No study in this record's ledger reports weight-normalized doses for Thymosin alpha-1.",
-    "No study in this record's ledger reports dose-escalation schedules for Thymosin alpha-1.",
-    "No study in this record's ledger reports storage or stability for Thymosin alpha-1."
+    "Why the two largest, best-designed trials (sepsis 2025, pancreatitis 2022) were negative while older and smaller trials were positive is unexplained.",
+    "The hepatitis C trials and the 1990s hepatitis B trials behind the foreign approvals are not in the ledger; the Zadaxin product information and FDA's 2023 notice are cited editorially.",
+    "No trial has studied thymosin alpha-1 in healthy people or for any community use (immune support, long COVID, Lyme disease, autoimmune disease)."
   ],
   "media": {
     "walkthrough_video": "",
@@ -658,20 +720,52 @@
   },
   "faq": [
     {
-      "question": "Has Thymosin alpha-1 been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 61 clinical trials and 65 randomized controlled trials naming Thymosin alpha-1 or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "question": "Is thymosin alpha-1 FDA approved?",
+      "answer": "No. Thymalfasin (Zadaxin) is approved in about 35 countries for chronic hepatitis B and C and as an immune adjuvant, but never in the United States, where applications for hepatitis C and melanoma did not succeed. In September 2023 FDA placed it in category 2 of the compounding bulk-substances list, barring pharmacies from compounding it; press reports in 2026 describe a possible further review."
     },
     {
-      "question": "What kind of evidence exists for Thymosin alpha-1?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What is the dose of thymosin alpha-1?",
+      "answer": "The licensed dose is 1.6 mg by subcutaneous injection twice a week, for six to twelve months in hepatitis. Intensive-care trials used 1.6 mg every 12 hours for seven days, a pancreatitis pilot used 3.2 mg twice daily, and a cancer trial compared twice- and three-times-weekly 1.6 mg. Vendor vials print the licensed figure."
     },
     {
-      "question": "Is Thymosin alpha-1 an approved medicine?",
-      "answer": "ChEMBL records CHEMBL2103979 at maximum clinical phase 3, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+      "question": "Does thymosin alpha-1 work for sepsis?",
+      "answer": "The best evidence says no. The 2025 TESTS phase 3 in 1,106 septic adults found 28-day mortality of 23.4% on thymosin alpha-1 against 24.1% on placebo, with no secondary or safety outcome differing. The 2013 ETASS trial of 361 had found a marginal reduction (26% vs 35%), which TESTS was designed to confirm and did not."
     },
     {
-      "question": "Which species has Thymosin alpha-1 been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "Does thymosin alpha-1 work for hepatitis B?",
+      "answer": "In the 2006 randomized trial against interferon alpha, 48% of thymosin-treated patients had a complete response six months after a six-month course, against 27% on interferon, a difference that did not reach significance in 62 patients, with better tolerability. In HBV cirrhosis, adding it to entecavir for two years changed no hard outcome. The approvals in 35 countries rest mainly on hepatitis trials of the 1990s and 2000s."
+    },
+    {
+      "question": "What are the side effects of thymosin alpha-1?",
+      "answer": "In the 1,106-person sepsis trial no safety outcome differed from placebo, and the pancreatitis and cirrhosis trials reported the same. It is better tolerated than interferon, lacking its flu-like effects. Injection-site redness is the common complaint; the label's contraindications are deliberate immunosuppression and hypersensitivity."
+    },
+    {
+      "question": "Who should not take thymosin alpha-1?",
+      "answer": "By the label, people deliberately immunosuppressed after organ transplantation, and anyone hypersensitive to it. By the evidence, anyone expecting a benefit outside hepatitis: the community uses, including autoimmune disease, have no trials and, for autoimmunity, a mechanism pointing the wrong way."
+    },
+    {
+      "question": "Is thymosin alpha-1 the same as TB-500 or thymosin beta-4?",
+      "answer": "No. Thymosin alpha-1 is a 28-amino-acid immune regulator with 65 randomized trials and foreign approvals; TB-500 is a fragment of thymosin beta-4, a 43-amino-acid actin-binding protein studied for tissue repair, with no human trial of the fragment. They share a name from 1970s thymus extracts and nothing else."
+    },
+    {
+      "question": "What is the half-life of thymosin alpha-1?",
+      "answer": "About two hours in plasma after subcutaneous injection, by the Zadaxin product information, with peak levels at one to two hours. The immune effects last days to weeks, which is why the licensed schedule is twice weekly. The figure is from the label, not from an abstract in the ledger."
+    },
+    {
+      "question": "Does thymosin alpha-1 help with COVID-19 or long COVID?",
+      "answer": "For acute COVID-19, Chinese observational studies and a small US randomized pilot in dialysis patients (preliminary: 3 deaths on treatment vs 7 without, most participants vaccinated during the study) exist, plus cell studies of innate immune effects. For long COVID, no study at all."
+    },
+    {
+      "question": "Does thymosin alpha-1 treat cancer?",
+      "answer": "Not on its own, and no trial has tested it that way. It has been given alongside chemotherapy, PD-1 inhibitors and radiotherapy in single-arm trials of 30 to 56 patients with encouraging response rates in which its contribution cannot be separated, and in a 400-patient surgical trial it improved perioperative immune markers. The 2018 cirrhosis trial saw a trend to fewer liver cancers without a change in outcomes."
+    },
+    {
+      "question": "Is thymosin alpha-1 banned in sport?",
+      "answer": "It is not named on the WADA Prohibited List, and as a medicine approved abroad it does not fall under the S0 catch-all for unapproved substances the way most research peptides do. The list changes yearly; an athlete should check it and their own federation's rules."
+    },
+    {
+      "question": "Why is a drug approved in 35 countries sold as a research chemical in the United States?",
+      "answer": "Because approval is national. SciClone never obtained US approval, so there is no US product, and the only US route, compounding, was closed by FDA's September 2023 category 2 decision. What is sold in the US is therefore an unlicensed copy of a licensed foreign drug, with no pharmacist, indication or quality control attached."
     }
   ],
   "sources": [
@@ -845,7 +939,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 75.9,
+  "uniqueness_pct": 87.6,
   "review": {
     "author": "",
     "reviewer": "",
@@ -868,6 +962,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 24 ledger sources by scripts/draft_claims.py: 19 claims, 19 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/thymosin-alpha-1.json: guide (8 sections incl. a twelve-trial table with verdicts), FAQ to 12 plus 6 from the map, dose, duration, timeline and adverse-event claims from the abstracts, mechanism, reported-use, regulatory (approved in 35 countries, not the US, FDA category 2) with pending_source; a hepatitis study of nucleic acid polymers using thymosin as a comparator removed from the evidence table; intent-driven H1 and title."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Thymosin alpha-1 in two minutes",
+      "html": "<p><strong>What it is.</strong> A 28-amino-acid immune-regulating peptide from the thymus, isolated in 1972 and sold synthetically as thymalfasin (Zadaxin). Approved in about 35 countries for hepatitis B and C and as an immune adjuvant; never approved in the United States, where it is a research chemical on FDA's compounding category 2 list.</p><p><strong>What the research actually shows.</strong> 1,079 indexed publications and 65 randomized trials, more than any peptide on this site. The two largest and best-designed, <strong>1,106 septic adults in 2025 and 508 with severe pancreatitis in 2022</strong>, found no benefit on their primary endpoints. A 2013 sepsis trial of 361 found a marginal mortality reduction; a 2006 hepatitis B trial found a sustained response of 48% against 27% for interferon; a 2018 cirrhosis trial found no difference in outcomes; cancer trials show immune-marker changes and small uncontrolled response signals.</p><p><strong>Safety.</strong> In the large placebo-controlled trials, nothing differed from placebo. Better tolerated than interferon. Injection-site redness is the common complaint.</p><p><strong>The dose.</strong> 1.6 mg subcutaneously, twice a week on the label and for months in hepatitis, or every 12 hours for a week in intensive care.</p><p><strong>Where the evidence is thinnest.</strong> Everything it is bought for in the United States: immune support in healthy people, long COVID, Lyme disease and autoimmune conditions, none of which has a trial.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "Trial by trial: what thymosin alpha-1 did, and did not do",
+      "lede": "The randomized and controlled human studies in the ledger, largest first. Read the primary-endpoint column.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human trials of thymosin alpha-1 (thymalfasin) in the ledger.</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Participants</th><th scope=\"col\">Dose and duration</th><th scope=\"col\">Primary endpoint</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>TESTS (Wu 2025, BMJ)</td><td>1,106 adults with sepsis, 22 Chinese ICUs</td><td>1.6 mg SC every 12 h, 7 days, vs placebo</td><td>28-day mortality</td><td><strong>No effect:</strong> 23.4% vs 24.1%; no secondary or safety outcome differed</td></tr><tr><td>TRACE (Ke 2022)</td><td>508 adults with predicted severe necrotising pancreatitis, 94% in ICU</td><td>1.6 mg SC every 12 h for 7 days then daily for 7, vs placebo</td><td>Infected pancreatic necrosis</td><td><strong>No effect:</strong> 15.7% vs 18.1%; no difference in organ failure</td></tr><tr><td>TRACE post hoc (Huang 2024)</td><td>502 of the above, by metabolic subgroup</td><td>As above</td><td>Infected necrosis at 90 days</td><td>Benefit in the hyperglycaemic subgroup only (18.8% vs 29.7%); hypothesis-generating</td></tr><tr><td>Colorectal cancer perioperative (Niu 2024)</td><td>400 patients having curative resection with XELOX</td><td>1.6 mg SC twice or three times a week, vs chemotherapy alone</td><td>Perioperative immune function; long-term prognosis</td><td>Both schedules improved immune markers per the abstract; prognosis detail in full text</td></tr><tr><td>ETASS (Wu 2013)</td><td>361 adults with severe sepsis, 6 Chinese hospitals</td><td>Thymosin alpha-1 vs conventional care (single-blind)</td><td>28-day mortality</td><td>26.0% vs 35.0%, relative risk 0.74, <strong>marginal</strong> (p 0.049 to 0.062); HLA-DR recovered faster</td></tr><tr><td>Entecavir combination in cirrhosis (Wu 2018)</td><td>351 with HBV-related compensated cirrhosis</td><td>Entecavir with or without thymosin alpha-1; median 38 months follow-up</td><td>Decompensation, liver cancer or death</td><td><strong>No difference;</strong> a trend to fewer liver cancers</td></tr><tr><td>COVID-19 prevention in dialysis (Tuthill 2023)</td><td>194 haemodialysis patients, United States</td><td>Thymalfasin vs control</td><td>Infection and morbidity (preliminary report)</td><td>3 deaths on treatment vs 7 in controls, 5 vs 7 serious events; preliminary, most participants vaccinated during the study</td></tr><tr><td>Hepatitis B vs interferon (You 2006)</td><td>62 with chronic hepatitis B</td><td>1.6 mg SC twice a week for 6 months, vs interferon alpha</td><td>Complete response (ALT, HBV DNA, HBeAg)</td><td>31% vs 45% at end of treatment; <strong>48% vs 27% six months later</strong> (not significant); better tolerated</td></tr><tr><td>Gastric cancer neoadjuvant (Xu 2026)</td><td>30 with stage III gastric cancer</td><td>9 weeks with anti-PD-1 and SOX chemotherapy</td><td>Pathological complete response</td><td>30% complete, 57% major response; single-arm, no control</td></tr><tr><td>Radiotherapy combinations (Yu 2025; Zhou 2026)</td><td>37 and 34 with advanced or bulky tumours</td><td>Twice weekly with PD-1 inhibitor, GM-CSF and radiotherapy</td><td>Response and safety</td><td>Response rates reported; single-arm; thymosin's contribution not separable</td></tr><tr><td>Severe acute pancreatitis pilot (Wang 2011)</td><td>24 patients</td><td>3.2 mg SC twice a day, 7 days</td><td>Immune markers; infection</td><td>Faster HLA-DR recovery; fewer positive cultures</td></tr><tr><td>Lung cancer chemoimmunotherapy (Garaci 1995)</td><td>56 with advanced NSCLC</td><td>With cisplatin, etoposide and interferon</td><td>Response; immune markers</td><td>24 responses; immune suppression by chemotherapy blunted; no control arm</td></tr></tbody></table></div></div><p>The two trials that meet modern standards, double-blind, placebo-controlled, powered and pre-registered, are the negative ones. The approvals in 35 countries rest on the hepatitis work of the 1990s and 2000s, most of it not in this ledger, and on a regulatory culture that accepts immune-marker evidence.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every thymosin alpha-1 dose in the trials, in one table",
+      "lede": "Every figure here is a licensed or trial dose. Gray-market vials print the same 1.6 mg; the difference is what is in them.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses of thymosin alpha-1 administered in trials and on the label.</caption><thead><tr><th scope=\"col\">Setting</th><th scope=\"col\">Route</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Population</th></tr></thead><tbody><tr><td>Zadaxin label (approving countries)</td><td>Subcutaneous</td><td>1.6 mg</td><td>Twice a week, 6 to 12 months</td><td>Chronic hepatitis B and C</td></tr><tr><td>Hepatitis B trial (2006)</td><td>Subcutaneous</td><td>1.6 mg</td><td>Twice a week, 6 months</td><td>Chronic hepatitis B</td></tr><tr><td>Sepsis phase 3 (2025); pancreatitis (2022)</td><td>Subcutaneous</td><td>1.6 mg</td><td>Every 12 hours for 7 days (then daily for 7 in pancreatitis)</td><td>Intensive-care patients</td></tr><tr><td>Severe pancreatitis pilot (2011)</td><td>Subcutaneous</td><td>3.2 mg</td><td>Twice a day, 7 days</td><td>24 patients</td></tr><tr><td>Colorectal cancer (2024)</td><td>Subcutaneous</td><td>1.6 mg</td><td>Twice or three times a week, perioperative</td><td>400 surgical patients</td></tr><tr><td>Cancer combination trials (2025 to 2026)</td><td>Subcutaneous</td><td>Not stated in the abstracts</td><td>Twice weekly; 9 weeks</td><td>Advanced or resectable tumours</td></tr><tr><td>Mice (1982)</td><td>Intravenous</td><td>100 micrograms</td><td>Single</td><td>Candida infection model</td></tr></tbody></table></div></div><p>Nothing on this page is an instruction to take anything. The point of the table is that the dose is not the variable: the same 1.6 mg failed in sepsis at one schedule and helped in hepatitis at another, and the vials sold in the United States carry the number without the licence, the pharmacist or the indication.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who thymosin alpha-1 is discussed for, and the cautions that recur",
+      "html": "<p><strong>Licensed for:</strong> chronic hepatitis B and C, and as an immune adjuvant, in about 35 countries. <strong>Trialled in:</strong> sepsis, severe pancreatitis, cancer alongside chemotherapy or radiotherapy, cirrhosis, dialysis patients during COVID-19. <strong>Community:</strong> people seeking immune support, and people with long COVID, Lyme disease, chronic fatigue or autoimmune disease.</p><p>The cautions come from the label's contraindications and from where the evidence stops:</p><ul class=\"list\"><li><strong>Deliberate immunosuppression.</strong> The label excludes transplant recipients on immunosuppressants: a drug that primes T cells works against the treatment.</li><li><strong>Autoimmune disease.</strong> Not a trial population and a mechanistic concern; forum reports of flares match the prediction. The label's regulator, not a vendor, is the source to read.</li><li><strong>Healthy people.</strong> Every trial enrolled the seriously ill, whose immune markers were abnormal. What the peptide does to a normal immune system over months is unstudied.</li><li><strong>Expecting the sepsis or pancreatitis result.</strong> Both large trials were negative; a clinic citing 'sepsis trials' is citing the 2013 result and not the 2025 one.</li><li><strong>Cancer.</strong> Trials used it as an adjunct to chemotherapy, immunotherapy or radiotherapy in supervised settings; it is not a cancer treatment on its own and no trial tested it as one.</li><li><strong>Pregnancy and children.</strong> Not studied in the ledger's trials.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The peptide clears in about <strong>two hours</strong>, by the label, and its effects are measured in days and months. In sepsis the immune marker HLA-DR recovered faster by <strong>day 3</strong> and mortality was counted at <strong>28 days</strong>, where the large trial found nothing. In pancreatitis the outcome was infected necrosis over the <strong>index admission</strong> and <strong>90 days</strong>. In hepatitis B the response kept rising for <strong>six months after treatment ended</strong>, the clearest sign that the effect is immune rather than directly antiviral. The cirrhosis trial followed people for <strong>38 months</strong> and found no difference in hard outcomes. Nothing has been measured in healthy people over any period, so 'how long until I feel it' has no answer in the literature; the trials did not ask how anyone felt.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>The licensed product is supplied as a lyophilised powder with a diluent, stored refrigerated and reconstituted immediately before subcutaneous injection, under instructions in the approving countries' product information. Vials sold in the United States are not that product; their content and stability are unverified.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how thymosin alpha-1 is discussed",
+      "html": "<ol class=\"list\"><li><strong>Citing '35 countries' as if it settled efficacy.</strong> The approvals are for hepatitis B and C and as an adjuvant, from older evidence; the largest modern trials, in intensive care, were negative.</li><li><strong>Quoting the 2013 sepsis trial without the 2025 one.</strong> ETASS found a marginal benefit in 361 patients; TESTS found none in 1,106. The second was designed to confirm the first.</li><li><strong>Confusing it with TB-500.</strong> Different thymosin, different molecule, different purpose, and TB-500 has no human trial. The shared word comes from the 1970s thymus extracts.</li><li><strong>Treating immune-marker changes as clinical benefit.</strong> HLA-DR, CD4 counts and cytokine shifts move reliably; mortality and infection rates did not in the trials built to test them.</li><li><strong>Reading the FDA category 2 listing as a safety verdict.</strong> It was a compounding decision about evidence sufficiency for US pharmacies, made about a drug licensed elsewhere; the safety record in trials is clean.</li><li><strong>Assuming a vial equals Zadaxin.</strong> The licensed product has a manufacturer, a regulator and a pharmacist; a research-chemical vial has a label.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Thymosin alpha-1 vs TB-500 (thymosin beta-4), LL-37 and interferon",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Thymosin alpha-1 beside the compounds it is confused or compared with, from their own records where one exists.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">What it is</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>Thymosin alpha-1</strong></td><td>28-amino-acid immune-regulating peptide; 1,079 indexed publications</td><td>65 randomized trials; two large negative ICU trials; hepatitis approvals</td><td>Approved in about 35 countries; not in the US; FDA category 2 (2023)</td></tr><tr><td><a href=\"/compounds/tb-500\">TB-500</a></td><td>Fragment of thymosin beta-4, an actin-binding repair protein; 1257 indexed publications</td><td>14 human studies of the fragment in its ledger; thymosin beta-4 itself in small trials</td><td>Not approved; WADA S2</td></tr><tr><td><a href=\"/compounds/ll-37\">LL-37</a></td><td>Human antimicrobial peptide of the innate immune system; 2826 indexed publications</td><td>23 human studies in its ledger, none as a treatment</td><td>Not approved; research chemical</td></tr><tr><td>Interferon alpha</td><td>The comparator in the hepatitis B trial</td><td>Decades of trials; approved for hepatitis and cancers; flu-like toxicity</td><td>Approved worldwide; no record on this site</td></tr><tr><td><a href=\"/compounds/bpc-157\">BPC-157</a></td><td>Gastric repair pentadecapeptide often stacked with TA1; 228 indexed publications</td><td>2 small uncontrolled human studies</td><td>Not approved; WADA S0</td></tr></tbody></table></div></div><p>The search 'thymosin alpha 1 vs thymosin beta 4' compares an approved immune drug with an unapproved repair fragment that shares a word. The comparison with interferon is the one that was actually run, and thymosin alpha-1 won it on tolerability and lost on end-of-treatment response.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
