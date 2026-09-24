@@ -316,7 +316,6 @@
     "reported-use",
     "reconstitution",
     "method",
-    "storage",
     "storage-guide",
     "monitoring",
     "mistakes",
@@ -344,5 +343,8 @@
     "Side effects (661/mo) outranks half-life (101), results (203) and legality (203); dosage (3,408) outranks all of them. The evidence-with-boundary sections carry the most demand on the page.",
     "Keyword difficulty is 0-24 for every measured term. This SERP is winnable on evidence, not authority."
   ],
-  "h1": "Ipamorelin: dosing in studies, side effects, half-life and how it works"
+  "h1": "Ipamorelin: dosing in studies, side effects, half-life and how it works",
+  "suppress": [
+    "storage"
+  ]
 }
