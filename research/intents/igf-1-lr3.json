@@ -1,0 +1,498 @@
+{
+  "slug": "igf-1-lr3",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "serp_2026-09-24": {
+    "query": "igf-1 lr3",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "video",
+      "product_considerations",
+      "related_searches"
+    ],
+    "organic_top": [
+      "americanpeptides.us (vendor)",
+      "peptiq.io",
+      "chemicalbook.com (reagent)",
+      "riteaid.com",
+      "caymanchem.com (reagent vendor)",
+      "americanwellnesspharmacy.com",
+      "reddit.com r/steroids",
+      "tucsonwellnessmd.com"
+    ],
+    "note": "Two reagent vendors rank because the compound is a cell-culture product; the rest is vendors, an app blog and clinic marketing. No page with a scientific citation count above ten is in the top 10; the incumbent dosing guide is absent."
+  },
+  "demand_findings": "Head term 8,547 clickstream plus 1,017 unhyphenated; 'dosage' and 'reddit' tie at 915 as the second question; 'igf-1 des' (508) is the only comparison with demand and is a sibling reagent, not a competitor product; 'before and after' 457. Side effects 305 with the only non-zero KD (3). Half-life, cycle, results and reconstruction have Ads volume but no clickstream. Google Ads reports 22,200 for the head, the highest Ads figure of any unapproved compound in the queue.",
+  "h1": "IGF-1 LR3 peptide: what the animal studies show, why no human dose exists, and what 'Long R3' means",
+  "dek": "A cell-culture growth factor that bodybuilding adopted. This page says what the fetal-sheep and mouse studies measured, why the name does not mean long-acting, what the approved native IGF-1 warns about, and where the evidence stops: at zero human studies.",
+  "queries": [
+    {
+      "query": "igf-1 lr3",
+      "volume": {
+        "clickstream": 8547,
+        "google_ads": 22200,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What IGF-1 LR3 is and what 'Long R3' means"
+    },
+    {
+      "query": "igf 1 lr3",
+      "volume": {
+        "clickstream": 1017,
+        "google_ads": 22200,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What IGF-1 LR3 is and what 'Long R3' means"
+    },
+    {
+      "query": "igf-1 lr3 dosage",
+      "volume": {
+        "clickstream": 915,
+        "google_ads": 3600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every IGF-1 LR3 dose in the literature, in one table",
+      "boundary": "Every figure here was infused into a fetal sheep, given to a mouse or added to a culture dish. No human dose exists, and the figures that circulate are not reproduced."
+    },
+    {
+      "query": "igf-1 lr3 reddit",
+      "volume": {
+        "clickstream": 915,
+        "google_ads": 590,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. The doses and cycles people describe are not reproduced; no human study has tested any of them."
+    },
+    {
+      "query": "igf-1 des",
+      "volume": {
+        "clickstream": 508,
+        "google_ads": 1300,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "comparison-table",
+      "heading": "IGF-1 LR3 vs IGF-1 DES, mecasermin and growth hormone"
+    },
+    {
+      "query": "igf-1 lr3 before and after",
+      "volume": {
+        "clickstream": 457,
+        "google_ads": 2400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. The doses and cycles people describe are not reproduced; no human study has tested any of them."
+    },
+    {
+      "query": "igf-1 lr3 benefits",
+      "volume": {
+        "clickstream": 305,
+        "google_ads": 590,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "evidence_table",
+      "heading": "What did the studies find?",
+      "boundary": "Results in fetal sheep, mice and cell cultures. No human study of IGF-1 LR3 exists, so nothing here is a benefit in people."
+    },
+    {
+      "query": "igf-1 lr3 peptide",
+      "volume": {
+        "clickstream": 305,
+        "google_ads": 4400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What IGF-1 LR3 is and what 'Long R3' means"
+    },
+    {
+      "query": "igf-1 lr3 side effects",
+      "volume": {
+        "clickstream": 305,
+        "google_ads": 1300,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what is known, and from where",
+      "boundary": "No human study recorded side effects because none exists. What follows is what the animal studies measured, what a 2026 clinical review reports in people self-administering IGF-1 analogues, and what the label of the approved native IGF-1 warns about."
+    },
+    {
+      "query": "what is igf-1 lr3",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 720,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is IGF-1 LR3?",
+      "answer": "IGF-1 LR3 is a recombinant analogue of human insulin-like growth factor 1 with a 13-amino-acid extension at one end and an arginine swapped for glutamate at position 3. Those changes stop it binding to the IGF-binding proteins, so more of it is free to act. It was designed in Adelaide in the early 1990s as a cell-culture growth factor and is still sold for that purpose under the name LONG R3 IGF-I; it has never been tested in a human study."
+    },
+    {
+      "query": "igf-1 lr3 vs igf-1 des",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 30,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "comparison-table",
+      "heading": "IGF-1 LR3 vs IGF-1 DES, mecasermin and growth hormone"
+    },
+    {
+      "query": "igf-1 lr3 cycle",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 170,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. The doses and cycles people describe are not reproduced; no human study has tested any of them."
+    },
+    {
+      "query": "igf-1 lr3 reconstitution",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 260,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "igf-1 lr3 results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 390,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. The doses and cycles people describe are not reproduced; no human study has tested any of them."
+    },
+    {
+      "query": "igf-1 lr3 half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 90,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of IGF-1 LR3?",
+      "answer": "Not measured in people. 'Long' in the name refers to the 13-amino-acid extension, not to a long half-life. Because IGF-1 LR3 does not bind the carrier proteins that hold native IGF-1 in the blood for hours, it is expected to clear faster than native IGF-1, not slower; the 20-to-30-hour figure on vendor pages has no published measurement behind it."
+    },
+    {
+      "query": "igf-1 lr3 vs hgh",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 110,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is IGF-1 LR3 better than HGH?",
+      "answer": "No study has compared them, in animals or people. Growth hormone is an approved medicine with decades of trial data that acts partly by raising the body's own IGF-1 under the control of its binding proteins; IGF-1 LR3 is a cell-culture reagent that bypasses those proteins and has no human data. 'Better' has nothing to rest on.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "long r3 igf-1",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 170,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What IGF-1 LR3 is and what 'Long R3' means"
+    },
+    {
+      "query": "igf-1 lr3 cancer",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": 12,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does IGF-1 LR3 cause cancer?",
+      "answer": "No study has tested it. The concern is mechanistic and stronger than for most peptides: IGF-1 receptor signalling drives cell proliferation, the approved native IGF-1 carries a label warning about malignancy reported in treated children, and IGF-1 LR3 is designed to act more freely than the native hormone. Nothing has been measured either way."
+    },
+    {
+      "query": "igf-1 lr3 bodybuilding",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is IGF-1 LR3 safe for bodybuilding?",
+      "answer": "Unknown, because no human has been given it in a study. The specific risks are hypoglycaemia, which the approved native IGF-1 label treats as its main warning, unchecked growth signalling, and the unknown composition of research-chemical vials. It is prohibited in tested sport at all times.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "igf-1 lr3 muscle growth",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does IGF-1 LR3 build muscle?",
+      "answer": "In fetal sheep a one-week infusion increased skeletal-muscle myoblast proliferation and the weight of some organs, but not hindlimb muscle mass or protein synthesis rate; in mice with Alzheimer's-type pathology seven months of intranasal treatment improved body composition. No human muscle measurement exists."
+    },
+    {
+      "query": "igf-1 lr3 fat loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 40,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does IGF-1 LR3 burn fat?",
+      "answer": "No study measured fat loss in any species. The fetal-sheep infusions lowered insulin and blood glucose, which is a metabolic effect, not a fat-loss result, and in growth-restricted fetuses it lowered circulating amino acids."
+    },
+    {
+      "query": "igf-1 lr3 injection",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: what the studies used",
+      "boundary": "Intravenous infusion into fetal sheep, intranasal drops in mice, and culture medium. No study has injected it under the skin of any animal or person, which is how it circulates."
+    },
+    {
+      "query": "igf-1 lr3 storage",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "storage-guide",
+      "target": "/compounds/igf-1-lr3#storage-guide"
+    },
+    {
+      "query": "what is igf-1 lr3 used for",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is IGF-1 LR3 used for?",
+      "answer": "Legitimately, as a growth-factor supplement in cell-culture media for making antibodies and other biologic drugs, where it replaces insulin. In research, as a tool for raising IGF-1 signalling in fetal sheep and mice. Outside the literature, for muscle growth and fat loss in bodybuilding, a use no study has tested.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "does igf lr3 increase testosterone",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does IGF-1 LR3 increase testosterone?",
+      "answer": "No study has measured it in any species. IGF-1 acts on its own receptor, not on the pituitary-gonadal axis, and the sheep and mouse work reported insulin, glucose, growth and amyloid, never testosterone.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/igf-1-lr3",
+      "rank": null,
+      "words": 7543,
+      "tables": 13,
+      "h2": 20,
+      "h3": 88,
+      "sci_links": 10,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 27,
+      "gap": "Thirteen dosing and reconstitution tables and a 20-to-30-hour half-life for a compound with no human study; concedes 'no human clinical trial has validated a dosing range'; not in the Google top 10 for 'igf-1 lr3' on 2026-09-24",
+      "source": "cached crawl 2026-09-24, metrics measured; scored D9 F9 S6 U3"
+    },
+    {
+      "url": "https://peptiq.io/blog/igf-1-lr3-muscle-growth-guide",
+      "rank": 4,
+      "words": 2043,
+      "tables": 1,
+      "h2": 11,
+      "h3": 23,
+      "sci_links": 0,
+      "byline": null,
+      "score": 14,
+      "gap": "Starting-dose and cycle instructions with zero citations; sells a tracking app",
+      "source": "fetched 2026-09-24, metrics measured; scored D6 F4 S2 U2"
+    },
+    {
+      "url": "https://riteaid.com/peptides/igf-1-lr3",
+      "rank": 6,
+      "words": 868,
+      "tables": 0,
+      "h2": 11,
+      "sci_links": 1,
+      "byline": "Rite Aid Health Team",
+      "score": 14,
+      "gap": "Short status page; correctly names mecasermin as the approved comparator and WADA; two lead-capture forms; one citation",
+      "source": "fetched 2026-09-24, metrics measured; scored D3 F2 S5 U4"
+    },
+    {
+      "url": "https://tucsonwellnessmd.com/igf-1-lr3-explained-your-complete-beginners-guide/",
+      "rank": 11,
+      "words": 1795,
+      "tables": 2,
+      "h2": 17,
+      "sci_links": 0,
+      "byline": "RobTatum",
+      "score": 12,
+      "gap": "Clinic marketing page; no citations; sources peptides from compounding pharmacies",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F4 S1 U2"
+    },
+    {
+      "url": "https://www.americanwellnesspharmacy.com/news/igf-1-lr3-injections-benefits",
+      "rank": 9,
+      "words": 734,
+      "tables": 0,
+      "h2": 5,
+      "sci_links": 0,
+      "byline": null,
+      "score": 7,
+      "gap": "Pharmacy marketing page",
+      "source": "fetched 2026-09-24, metrics measured; scored D2 F2 S1 U2"
+    }
+  ],
+  "information_gain": "The only page that states IGF-1 LR3's actual provenance and use, a reagent designed in Adelaide in 1992 to replace insulin in cell-culture media and still sold for that purpose; that explains 'Long' refers to a 13-amino-acid extension and that losing binding-protein affinity should shorten, not lengthen, its time in blood, so the 20-to-30-hour half-life on vendor pages has no measurement behind it; that tabulates the fetal-sheep infusion programme with its per-kilogram-per-hour doses and its consistent finding that insulin secretion falls; and that says no study has ever injected it subcutaneously into any animal.",
+  "serp_format_rewarded": "Definitional explainer. The SERP has no medically reviewed page above 900 words, so a cited explainer with the dose table and the reagent history fills an empty slot.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add Francis et al. 1992 (J Mol Endocrinol), the LR3 design paper, to the ledger; the reagent history is editorial until then.",
+    "Add the Increlex (mecasermin) label to the ledger for the hypoglycaemia, intracranial hypertension and malignancy warnings quoted as the approved-IGF-1 reference; pending_source.",
+    "The drafter parsed '1.17 ± 0.12 μg·kg-1·h-1' as a 0.12 μg dose in the evidence table and study_doses; corrected by hand, regex item open.",
+    "No study has measured IGF-1 LR3 pharmacokinetics in any species in the ledger; the half-life FAQ says so rather than borrowing a figure."
+  ]
+}

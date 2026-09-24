@@ -12,8 +12,8 @@
   "evidence_tier": "animal-preclinical",
   "summary": "IGF-1 LR3 is a peptide in the growth factors & reproductive class (IGF-1 receptor agonist, extended analog with reduced IGFBP binding). Europe PMC indexes 27 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is animal studies only, with no indexed human study. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "IGF-1 LR3: what the research shows",
-    "description": "IGF-1 LR3 research, cited: 27 indexed publications, 0 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "IGF-1 LR3: What the Animal Studies Show, Dose, Status",
+    "description": "IGF-1 LR3 explained: a cell-culture reagent with no human study, what the fetal-sheep and mouse work shows, why no dose exists, side effects, and status."
   },
   "attributes": {
     "routes_studied": [
@@ -29,37 +29,90 @@
     ],
     "study_doses": [
       {
-        "value": "Animal study, sheep, n=7, 2025: doses stated in the abstract: 0.12 μg. In this study, FGR fetal sheep received either IGF-1 LR3 treatment at 1.17 ± 0.12 μg·kg -1 ·h -1 (LR3; n = 7) or vehicle (VEH; n = 7) for 1 wk.",
+        "value": "Normal late-gestation fetal sheep received a one-week intravenous infusion at 6.6 micrograms per kilogram per hour, which raised body weight but lowered insulin and glucose-stimulated insulin secretion.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-39679943"
         ],
-        "source_excerpt": "In this study, FGR fetal sheep received either IGF-1 LR3 treatment at 1.17 ± 0.12 μg·kg -1 ·h -1 (LR3; n = 7) or vehicle (VEH; n = 7) for 1 wk.",
+        "source_excerpt": "We previously demonstrated that a 1-wk infusion of IGF-1 LR3, an IGF-1 analog with low affinity for IGF-binding proteins and high affinity for the IGF-1 receptor, at 6.6 µg·kg-1·h-1 into normal fetal sheep increased body weight but lowered insulin concentrations and GSIS.",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, sheep, 2012: doses stated in the abstract: 20 μg. Compared with controls, J(net)Na increased by about 60% (P < 0.05) following the serosal application of LR3-IGF-1 (20 μg l(-1)).",
+        "value": "Growth-restricted fetal sheep received 1.17 micrograms per kilogram per hour for one week, and did not grow more than vehicle-treated fetuses.",
         "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39679943"
+        ],
+        "source_excerpt": "In this study, FGR fetal sheep received either IGF-1 LR3 treatment at 1.17 ± 0.12 μg·kg-1·h-1 (LR3; n = 7) or vehicle (VEH; n = 7) for 1 wk.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In isolated sheep rumen tissue, 20 to 100 micrograms per litre stimulated sodium transport within 30 minutes.",
+        "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-22227200"
         ],
-        "source_excerpt": "Compared with controls, J(net)Na increased by about 60% (P < 0.05) following the serosal application of LR3-IGF-1 (20 μg l(-1)).",
+        "source_excerpt": "At concentrations ranging from 20 to 100 μg l(-1), serosal LR3-IGF-1, a recombinant analogue of IGF-1, rapidly (within 30 min) stimulated the mucosal-to-serosal Na(+) flux (J(ms)Na) and consequently the net Na(+) flux (J(net)Na).",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, swine, 2003: doses stated in the abstract: 10 ng; 100 ng; 0-10 ng; 1 ng. Granulosa and theca cells were isolated from 2-6 mm healthy follicles of mature porcine ovaries and cultured under serum-free conditions, supplemented with: 100 ng/ml LR3 IGF-1, 10 ng/ml insulin, 100 ng/ml testosterone, 0-10 ng/ml SCF, 1 ng/ml FSH…",
+        "value": "Male mice with Alzheimer's-type pathology received intranasal IGF-1 LR3 for seven months; the abstract states no dose.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
-          "pmid-12941156"
+          "pmid-39610283"
         ],
-        "source_excerpt": "Granulosa and theca cells were isolated from 2-6 mm healthy follicles of mature porcine ovaries and cultured under serum-free conditions, supplemented with: 100 ng/ml LR3 IGF-1, 10 ng/ml insulin, 100 ng/ml testosterone, 0-10 ng/ml SCF, 1 ng/ml FSH (granulosa), 0.01 ng/ml LH (theca) or 1 ng/ml FSH and 0.01 ng/ml LH (co-culture) and with/without oocyte conditioned medium (OCM) or 5 oocytes.",
+        "source_excerpt": "Wildtype and 5XFAD male mice were treated for 7 months (3-10 months of age), with IN LR3-IGF-1 or IN Vehicle (Veh) (n = 19-27 mice/group).",
         "drafting": "extractive"
       }
     ],
     "escalation_schedules": [],
     "interactions": [],
     "exclusion_criteria": [],
-    "adverse_events": [],
+    "adverse_events": [
+      {
+        "value": "In fetal sheep a one-week infusion lowered plasma insulin and glucose and reduced glucose-stimulated insulin secretion, and the defect persisted in islets removed from the fetuses.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-33938236"
+        ],
+        "source_excerpt": "In summary, IGF-1 LR3 infusion for 1 wk into fetal sheep lowers insulin concentrations and reduces fetal GSIS. Impaired insulin secretion persists in isolated fetal islets indicating an intrinsic islet defect in insulin release when exposed to IGF-1 LR3 infusion for 1 wk.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "A 90-minute infusion cut insulin during a glucose challenge by two thirds; islets recovered once removed, suggesting the acute effect is direct suppression.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-37114757"
+        ],
+        "source_excerpt": "Fetal plasma insulin concentrations decreased with IGF-1 LR3 infusion (P < 0.05), and insulin concentrations during the hyperglycemic clamp were 66% lower with IGF-1 LR3 infusion compared to CON (P < 0.0001).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In growth-restricted fetuses, circulating amino acids fell during treatment.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39679943"
+        ],
+        "source_excerpt": "Amino acid concentrations decreased in LR3 (baseline vs. final individual means comparison P = 0.0232) but not in VEH (P = 0.3866).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "A 2026 clinical review of people self-administering GH-axis peptides, including IGF-1 LR3, lists the adverse effects seen in practice: endocrine and metabolic disturbance including dysglycaemia, fluid retention, muscle and joint pain, and injection-site reactions.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42395176"
+        ],
+        "source_excerpt": "Reported adverse effects span endocrine and metabolic disturbances (including prolactin and cortisol elevations, appetite changes, and dysglycaemia), fluid retention syndromes, musculoskeletal symptoms (myalgia/arthralgia), and injection-site reactions.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The approved native IGF-1, mecasermin (Increlex), is the nearest human reference. Its label's principal warning is hypoglycaemia, with the instruction that a meal or snack be taken within 20 minutes of every injection; it also warns of intracranial hypertension, enlargement of tonsils and other lymphoid tissue, and, in later revisions, cases of malignancy reported in treated children. IGF-1 LR3 is built to act more freely than mecasermin, so these are the risks to reason from, not a measured profile of the analogue. The label is not in the ledger.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "biomarkers_monitored": [
       {
         "value": "Animal study, sheep, n=7, 2025: We previously demonstrated that a 1-wk infusion of IGF-1 LR3, an IGF-1 analog with low affinity for IGF-binding proteins and high affinity for the IGF-1 receptor, at 6.6 µg·kg -1 ·h -1 into normal fetal sheep increased body weight but lowered insulin concentrations and GSIS.",
@@ -157,8 +210,35 @@
         "drafting": "extractive"
       }
     ],
-    "weight_normalized_doses": [],
-    "regulatory_status": [],
+    "weight_normalized_doses": [
+      {
+        "value": "6.6 micrograms per kilogram per hour, intravenous, normal fetal sheep, one week.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39679943"
+        ],
+        "source_excerpt": "at 6.6 µg·kg-1·h-1 into normal fetal sheep",
+        "drafting": "extractive"
+      },
+      {
+        "value": "1.17 micrograms per kilogram per hour, intravenous, growth-restricted fetal sheep, one week.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39679943"
+        ],
+        "source_excerpt": "IGF-1 LR3 treatment at 1.17 ± 0.12 μg·kg-1·h-1",
+        "drafting": "extractive"
+      }
+    ],
+    "regulatory_status": [
+      {
+        "value": "Not approved anywhere for any human use; sold as a cell-culture reagent and, by other vendors, as a research chemical. The approved IGF-1 medicine is mecasermin (Increlex), native recombinant IGF-1 approved in the United States in 2005 for severe primary IGF-1 deficiency in children; IGF-1 LR3 is a different molecule and has no approval pathway. The WADA Prohibited List bans insulin-like growth factor-1 and its analogues under S2 at all times. Its position on FDA's 503A compounding lists should be checked against the live lists.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Animal study, sheep, n=7, 2025: In summary, a 1-wk IGF-1 LR3 treatment did not improve growth in FGR fetuses.",
@@ -172,9 +252,9 @@
           "study": "White 2025",
           "year": "2025",
           "design": "Animal study",
-          "n": 7,
+          "n": 14,
           "species": "Sheep",
-          "dose": "0.12 μg",
+          "dose": "1.17 μg/kg/h IV, 1 wk (FGR fetuses)",
           "route": "not stated in abstract",
           "duration": "1 wk",
           "outcome": "In summary, a 1-wk IGF-1 LR3 treatment did not improve growth in FGR fetuses."
@@ -460,6 +540,34 @@
           "outcome": "When infused for 1 week, oIGF-1 increased organ growth of the heart, kidney, spleen, and adrenal glands and stimulated skeletal myoblast proliferation compared to SAL without increasing muscle fractional synthetic rate…"
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "IGF-1 LR3 is human IGF-1 with two changes: a 13-amino-acid extension on the N-terminus (the 'Long') and arginine in place of glutamate at position 3 (the 'R3'). Native IGF-1 spends almost all its time in blood bound to six binding proteins, mostly IGFBP-3, which stop it reaching its receptor and give it a half-life of hours. The two changes wreck that binding, so IGF-1 LR3 is nearly all free and acts about three times as potently on the IGF-1 receptor in culture. It was designed at GroPep and the University of Adelaide, described by Francis and colleagues in 1992, and is still sold by Repligen as LONG R3 IGF-I, a supplement that replaces insulin in the media used to grow antibody-producing cells.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "What free IGF-1 signalling does is well understood from the native hormone: it drives cell proliferation and survival through the PI3K-Akt and MAPK pathways, promotes glucose uptake, and suppresses insulin secretion by feedback. The fetal-sheep infusions show exactly that pattern: heart, spleen and adrenal growth, myoblast proliferation, lower insulin and glucose, and reduced amino-acid uptake. Muscle mass and protein synthesis rate did not rise in the sheep.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "What is not known is anything pharmacokinetic. No study in the ledger measured how fast IGF-1 LR3 leaves the blood of any species. Because it does not bind the carrier proteins that protect native IGF-1 from clearance, the expectation from its design is a shorter, not longer, time in circulation; 'long-acting' is a misreading of the name. Nor has any study given it subcutaneously to any animal, the only route it circulates by.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "IGF-1 LR3 circulates in bodybuilding for muscle growth and fat loss, injected subcutaneously or into muscle after training, in cycles of a few weeks, often stacked with growth hormone or growth-hormone secretagogues. Reported effects are fullness and pumps, hunger, and hypoglycaemic episodes; the 2016 forum literature on peptides and the 2026 clinical review both describe users managing blood sugar around injections. None of this comes from a study. Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -494,11 +602,9 @@
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports weight-normalized doses for IGF-1 LR3.",
+    "No study in the ledger measured IGF-1 LR3 pharmacokinetics in any species, and none used the subcutaneous route.",
     "No study in this record's ledger reports dose-escalation schedules for IGF-1 LR3.",
-    "No study in this record's ledger reports interactions with other agents for IGF-1 LR3.",
     "No study in this record's ledger reports exclusion criteria for IGF-1 LR3.",
-    "No study in this record's ledger reports adverse events or their frequency for IGF-1 LR3.",
     "No study in this record's ledger reports storage or stability for IGF-1 LR3.",
     "No randomized controlled trial of IGF-1 LR3 is indexed in Europe PMC.",
     "Whether any finding about IGF-1 LR3 holds in humans is untested."
@@ -510,19 +616,47 @@
   "faq": [
     {
       "question": "Has IGF-1 LR3 been tested in humans?",
-      "answer": "Not in any indexed clinical trial. The studies in this record's ledger report work in cattle, chickens, mice, sheep, swine. Any human dosing information circulating about IGF-1 LR3 does not come from a published trial."
+      "answer": "No. Not one of the 27 indexed publications is a human study, and none has ever been registered. The human evidence people cite is either for native IGF-1 (mecasermin) or for growth hormone, which are different molecules."
     },
     {
-      "question": "What kind of evidence exists for IGF-1 LR3?",
-      "answer": "The strongest tier is animal preclinical: animal studies only, with no indexed human study. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "Is there an IGF-1 LR3 dose?",
+      "answer": "Not for people. The only doses in the literature are intravenous infusions into fetal sheep at 6.6 or 1.17 micrograms per kilogram per hour for a week, intranasal drops in mice at an unstated dose, and 20 to 100 micrograms per litre in tissue baths. The microgram figures that circulate were not derived from any of these."
     },
     {
-      "question": "Is IGF-1 LR3 an approved medicine?",
-      "answer": "No ChEMBL record matches IGF-1 LR3 or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "What did the fetal-sheep studies show?",
+      "answer": "A week of infusion made hearts, spleens and adrenals heavier and multiplied muscle precursor cells, but did not increase muscle mass or protein synthesis, and it lowered insulin and glucose in every experiment, with the insulin defect persisting in islets removed from the fetuses. In growth-restricted fetuses it did not restore growth."
+    },
+    {
+      "question": "Why is it called Long R3?",
+      "answer": "'Long' is a 13-amino-acid extension added to the front of the IGF-1 sequence; 'R3' is an arginine replacing glutamate at position 3. Together they stop the molecule binding the IGF-binding proteins, which is why it is more potent in culture. Neither has anything to do with how long it lasts in the body."
+    },
+    {
+      "question": "What are the side effects of IGF-1 LR3?",
+      "answer": "Unmeasured in people. The animal work points to low blood sugar and suppressed insulin. The approved native IGF-1 warns of hypoglycaemia, intracranial hypertension, lymphoid-tissue enlargement and reported malignancy. A 2026 clinical review of people self-administering IGF-1 analogues lists dysglycaemia, fluid retention, muscle and joint pain and injection-site reactions."
+    },
+    {
+      "question": "Is IGF-1 LR3 FDA approved?",
+      "answer": "No. It has no approval anywhere and no development programme. The approved IGF-1 is mecasermin (Increlex), for children with severe primary IGF-1 deficiency, and it is a different molecule."
+    },
+    {
+      "question": "Is IGF-1 LR3 banned in sport?",
+      "answer": "Yes. WADA prohibits insulin-like growth factor-1 and its analogues under S2 at all times, in and out of competition."
+    },
+    {
+      "question": "Can IGF-1 LR3 be taken intranasally or orally?",
+      "answer": "Intranasal delivery was used in one seven-month mouse study, which measured brain pathology and body composition. No oral study exists, and a 83-amino-acid protein would be expected to be digested. No human study of any route exists."
     },
     {
       "question": "Which species has IGF-1 LR3 been studied in?",
-      "answer": "Studies in this record's ledger report work in: Cattle, Chickens, Mice, Sheep, Swine. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "answer": "Fetal sheep, mice, and cells and tissues from sheep, cattle, pigs and chickens. Its widest use is in Chinese hamster ovary cells, where it is a media supplement for manufacturing biologic drugs."
+    },
+    {
+      "question": "Does IGF-1 LR3 help Alzheimer's disease?",
+      "answer": "In male mice with Alzheimer's-type pathology, seven months of intranasal IGF-1 LR3 changed the form of amyloid plaques and improved body composition but did not preserve memory or behaviour. The authors concluded it does not support use on its own."
+    },
+    {
+      "question": "Who makes IGF-1 LR3?",
+      "answer": "It was developed at GroPep and the University of Adelaide and is manufactured by Repligen as LONG R3 IGF-I for cell culture. Vials sold as research chemicals for injection come from other suppliers, whose content and purity are not verified by any regulator."
     }
   ],
   "sources": [
@@ -640,7 +774,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 70.4,
+  "uniqueness_pct": 85.6,
   "review": {
     "author": "",
     "reviewer": "",
@@ -659,6 +793,49 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 16 ledger sources by scripts/draft_claims.py: 14 claims, 15 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/igf-1-lr3.json: guide (7 sections), FAQ to 11 plus 12 from the map, hand-corrected dose claims (the drafter had parsed '1.17 ± 0.12 μg/kg/h' as 0.12 μg), weight-normalized, adverse-event, mechanism, reported-use and regulatory claims; the reagent origin and the meaning of 'Long R3' stated; intent-driven H1 and title."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "IGF-1 LR3 in two minutes",
+      "html": "<p><strong>What it is.</strong> Human IGF-1 with a 13-amino-acid extension and one substitution, designed in Adelaide in 1992 so that it ignores the binding proteins that normally hold IGF-1 in check. Its real job is replacing insulin in the culture media used to manufacture antibody drugs; it is still sold for that under the name LONG R3 IGF-I.</p><p><strong>What the research actually shows.</strong> 27 indexed publications and no human study of any kind. The substantive work is a fetal-sheep infusion programme in Colorado: a week of intravenous IGF-1 LR3 grew hearts, spleens and adrenals and multiplied muscle precursor cells, but did not add muscle mass, and it consistently lowered insulin and glucose. In growth-restricted fetuses it did not restore growth. In mice, seven months of intranasal treatment remodelled amyloid plaques without helping memory.</p><p><strong>The name.</strong> 'Long' is the extension, not the duration. No study has measured its half-life in any species, and losing binding-protein affinity should make it clear faster than native IGF-1.</p><p><strong>Status.</strong> Not approved anywhere; prohibited in sport at all times as an IGF-1 analogue. The approved IGF-1, mecasermin, carries a hypoglycaemia warning and a malignancy warning.</p><p><strong>Where the evidence is thinnest.</strong> Everything in people, and, unusually, everything about subcutaneous injection, which no animal study has used either.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every IGF-1 LR3 dose in the literature, in one table",
+      "lede": "Every figure here was infused into a fetal sheep, given to a mouse, or added to a culture. No human dose exists.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Every IGF-1 LR3 administration in the ledger.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Model</th><th scope=\"col\">Route and dose</th><th scope=\"col\">Duration</th><th scope=\"col\">What was found</th></tr></thead><tbody><tr><td>White 2021; Stremming 2021</td><td>Normal late-gestation fetal sheep</td><td>Intravenous infusion, 6.6 mcg/kg/h</td><td>One week</td><td>Body weight up; heart, adrenal and spleen heavier; myoblast proliferation up; insulin and glucose down; amino-acid uptake down; muscle mass and protein synthesis unchanged</td></tr><tr><td>White 2025</td><td>Growth-restricted fetal sheep</td><td>Intravenous infusion, 1.17 mcg/kg/h</td><td>One week</td><td>No growth improvement; amino acids fell; insulin not further suppressed</td></tr><tr><td>White 2023</td><td>Fetal sheep</td><td>Intravenous infusion; dose not stated in the abstract</td><td>90 minutes</td><td>Insulin during a glucose challenge 66% lower; islets recovered once isolated</td></tr><tr><td>Jonker 2020</td><td>Near-term fetal sheep</td><td>Dose not stated in the abstract</td><td>Seven days</td><td>Heart growth with matching coronary vascular growth</td></tr><tr><td>Engel 2025</td><td>Male mice with Alzheimer's-type pathology</td><td>Intranasal; dose not stated in the abstract</td><td>Seven months</td><td>Body composition improved; plaques remodelled; no cognitive benefit</td></tr><tr><td>von der Thüsen 2011</td><td>Mice lacking apolipoprotein E</td><td>Dose not stated in the abstract</td><td>Not stated</td><td>Smaller, more stable atherosclerotic plaques; fewer intraplaque haemorrhages</td></tr><tr><td>Shen 2012</td><td>Sheep rumen tissue and cells</td><td>20 to 100 mcg per litre in the bath</td><td>30 minutes</td><td>Sodium transport up 60%</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered. Note the route: every living-animal study infused the compound intravenously or gave it intranasally. No study, in any species, has injected it under the skin.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who IGF-1 LR3 is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> fetal sheep, as a model of growth restriction in pregnancy, and mice, as models of Alzheimer's disease and atherosclerosis. <strong>Never studied:</strong> any human, any adult animal given it for muscle. <strong>Community:</strong> bodybuilders seeking muscle growth and fat loss, usually alongside growth hormone or its secretagogues.</p><p>No exclusion criteria exist because no human study exists. These cautions come from the compound's design, the animal data and the label of the approved native IGF-1:</p><ul class=\"list\"><li><strong>Blood sugar.</strong> Every sheep infusion lowered insulin and glucose. Mecasermin's label makes hypoglycaemia its first warning and requires food within 20 minutes of each dose. Anyone on insulin or a sulfonylurea has a compounding risk.</li><li><strong>Cancer, present or past.</strong> IGF-1 receptor signalling drives proliferation; the native hormone's label reports malignancy in treated children; IGF-1 LR3 is designed to act more freely. Nothing has been measured, in either direction.</li><li><strong>Growth of the wrong tissues.</strong> The sheep grew hearts, spleens and adrenals rather than muscle; mecasermin's label warns of lymphoid-tissue enlargement and intracranial hypertension.</li><li><strong>Diabetic retinopathy and other proliferative conditions.</strong> A theoretical caution that follows from the mechanism; no data.</li><li><strong>Pregnancy.</strong> The only data are in fetuses, where the compound changed insulin secretion in a way that persisted in isolated islets.</li><li><strong>Tested athletes.</strong> Prohibited at all times under WADA S2 as an IGF-1 analogue.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The time course in the literature is short and physiological: sodium transport in tissue within <strong>30 minutes</strong>; insulin suppression within <strong>90 minutes</strong> of infusion; organ growth and lower insulin after <strong>one week</strong>; amyloid remodelling after <strong>seven months</strong> in mice. Nothing was measured after treatment stopped in any study, so nothing is known about persistence or rebound. No pharmacokinetic study exists, so onset and duration after a subcutaneous injection, the questions people actually ask, have no data behind them in any species.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>As a cell-culture reagent IGF-1 LR3 has a manufacturer's data sheet: lyophilised powder stored frozen, reconstituted stock refrigerated and used within a stated period. That is the only handling guidance for this compound with a source behind it, and it was written for laboratory use.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how IGF-1 LR3 is discussed",
+      "html": "<ol class=\"list\"><li><strong>Reading 'Long' as long-acting.</strong> It names the 13-amino-acid extension. No half-life has been measured, and the design predicts faster clearance than native IGF-1.</li><li><strong>Treating it as a drug candidate.</strong> It is a manufacturing reagent. No company has taken it into human development in more than thirty years, and the approved IGF-1 is a different molecule.</li><li><strong>Turning fetal-sheep organ growth into adult muscle growth.</strong> The sheep grew hearts, spleens and adrenals and multiplied muscle precursors; hindlimb muscle mass and protein synthesis did not change.</li><li><strong>Quoting a dose.</strong> The only doses are per kilogram per hour into a fetal vein, or per litre into a dish. The microgram figures that circulate come from forums.</li><li><strong>Assuming subcutaneous data exist.</strong> No study in any species has used that route.</li><li><strong>Calling the cancer question settled.</strong> It is untested. The mechanism and the approved hormone's label make it the most serious open question about this compound.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "IGF-1 LR3 vs IGF-1 DES, mecasermin and growth hormone",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>IGF-1 LR3 beside the molecules it is confused or compared with.</caption><thead><tr><th scope=\"col\">Molecule</th><th scope=\"col\">What it is</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>IGF-1 LR3</strong></td><td>IGF-1 with a 13-amino-acid extension and Arg3; low binding-protein affinity</td><td>None</td><td>Cell-culture reagent; WADA S2</td></tr><tr><td>IGF-1 DES (des(1-3)IGF-1)</td><td>IGF-1 missing its first three amino acids; also low binding-protein affinity; from the same Adelaide programme</td><td>None</td><td>Research reagent; WADA S2; no record on this site</td></tr><tr><td>Mecasermin (Increlex)</td><td>Native recombinant human IGF-1</td><td>Approved 2005 for severe primary IGF-1 deficiency in children; trials and a label with hypoglycaemia, intracranial-hypertension and malignancy warnings</td><td>Prescription medicine; WADA S2; no record on this site</td></tr><tr><td>Growth hormone (somatropin)</td><td>The pituitary hormone that raises the body's own IGF-1, bound to its carrier proteins</td><td>Decades of trials in deficiency and other indications</td><td>Prescription medicine; WADA S2</td></tr><tr><td><a href=\"/compounds/cjc-1295\">CJC-1295</a> and <a href=\"/compounds/ipamorelin\">ipamorelin</a></td><td>Upstream: they make the pituitary release growth hormone</td><td>CJC-1295: 2006 trials; ipamorelin: small trials</td><td>Not approved; WADA S2</td></tr></tbody></table></div></div><p>The demand for 'IGF-1 LR3 vs IGF-1 DES' compares two reagents from the same laboratory, neither with a human study. The comparison that matters is with mecasermin, the approved native hormone, whose label is the closest thing to a human safety record for this receptor. <a href=\"/compounds/kisspeptin\">Kisspeptin</a> shares this site's growth-factor and reproductive class but acts on a different axis.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
