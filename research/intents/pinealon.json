@@ -1,0 +1,388 @@
+{
+  "slug": "pinealon",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only. 'where can i buy pinealon' (People also ask) declined as commercial.",
+  "thin_serp": false,
+  "serp_2026-09-24": {
+    "query": "pinealon",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "video",
+      "perspectives",
+      "product_considerations"
+    ],
+    "organic_top": [
+      "americanpeptides.us (vendor)",
+      "pmc.ncbi.nlm.nih.gov (Arutjunyan 2012)",
+      "riteaid.com",
+      "en.wikipedia.org",
+      "medchemexpress.com (reagent vendor)",
+      "superpower.com",
+      "reddit.com r/CleanHealth"
+    ],
+    "ai_overview_cites": [
+      "wikipedia",
+      "youtube",
+      "riteaid",
+      "americanpeptides",
+      "medchemexpress",
+      "paragonsportsmedicine",
+      "two vendors"
+    ],
+    "note": "peptidedosingprotocols.com absent from the top 10; the SERP is a mix of vendors, one primary paper and two explainers, with an AI Overview drawn from them."
+  },
+  "demand_findings": "Head term carries 8,445 clickstream and 'pinealon peptide' 2,747; 'pinealon reddit' (1,322) outranks 'pinealon dosage' (814), so what people report is the second question after the definition. 'pinealon vs epitalon' (407) is the only comparison with demand. Side effects (50) is small but is the only safety query. Google Ads shows 8,100 for the head and zero for every modifier. 'pinealon sleep' has 0 clickstream and 50 Ads; the video results on the SERP are about sleep, so it is answered in the mechanism boundary and the FAQ rather than given a section.",
+  "h1": "Pinealon peptide: what the two human studies and the rat work show, and what remains unverified",
+  "dek": "A Russian bioregulator tripeptide with a small literature. This page separates the two indexed human studies from the one case series everyone quotes, lists every dose a study gave, and reports the safety signals dosing guides leave out.",
+  "queries": [
+    {
+      "query": "pinealon",
+      "volume": {
+        "clickstream": 8445,
+        "google_ads": 8100,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Pinealon is and how it acts"
+    },
+    {
+      "query": "pinealon peptide",
+      "volume": {
+        "clickstream": 2747,
+        "google_ads": 0,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Pinealon is and how it acts"
+    },
+    {
+      "query": "pinealon reddit",
+      "volume": {
+        "clickstream": 1322,
+        "google_ads": 480,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence; nothing described here has been tested in a controlled study."
+    },
+    {
+      "query": "pinealon dosage",
+      "volume": {
+        "clickstream": 814,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Pinealon doses in studies",
+      "boundary": "Every dose here is one a study administered. The only human figure anywhere is an oral 0.2 mg twice daily reported second-hand in a 2020 review; the injectable and nasal figures on vendor pages have never been tested."
+    },
+    {
+      "query": "pinealon vs epitalon",
+      "volume": {
+        "clickstream": 407,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "comparison-table",
+      "heading": "Pinealon vs Epitalon, Semax and Cortexin"
+    },
+    {
+      "query": "pinealon benefits",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "evidence_table",
+      "heading": "What did the studies find?",
+      "boundary": "Outcomes in two small Russian-language studies of older adults and in rats and cells. Neither human study was randomized or blinded, and neither abstract states a dose."
+    },
+    {
+      "query": "what is pinealon",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 210,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is Pinealon?",
+      "answer": "Pinealon is the synthetic tripeptide glutamate-aspartate-arginine (Glu-Asp-Arg, or EDR), one of the short bioregulator peptides developed by Vladimir Khavinson's group at the St Petersburg Institute of Bioregulation and Gerontology. It is studied for neuroprotection and biological-age markers, mostly in Russian-language literature."
+    },
+    {
+      "query": "pinealon side effects",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 110,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what has been recorded",
+      "boundary": "No study in the ledger recorded adverse events as such. The 2015 study of 32 patients did report two laboratory signals, described below, that dosing guides leave out."
+    },
+    {
+      "query": "pinealon nasal",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24 (keyword_overview returned no item); recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: what the studies used",
+      "boundary": "Only the oral route appears in any human report. No study in the ledger describes an injected or intranasal dose."
+    },
+    {
+      "query": "pinealon half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24 (keyword_overview returned no item); recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of Pinealon?",
+      "answer": "Unknown. No pharmacokinetic study of Pinealon is indexed in Europe PMC, so no half-life, absorption or elimination figure exists for any route. Figures quoted for it online are assumptions carried over from other short peptides."
+    },
+    {
+      "query": "pinealon bioregulator",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Why is Pinealon called a bioregulator?",
+      "answer": "Bioregulator is the term Khavinson's group uses for short peptides derived from the amino-acid composition of organ extracts, here a pineal-gland complex, and proposed to regulate gene expression in the matching tissue. The label describes a hypothesis and a product family, not a demonstrated mechanism in people."
+    },
+    {
+      "query": "pinealon before and after",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24 (keyword_overview returned no item); recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence; nothing described here has been tested in a controlled study."
+    },
+    {
+      "query": "what is pinealon used for",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is Pinealon used for?",
+      "answer": "In the indexed literature it has been given to older adults with organic brain syndrome and multiple chronic conditions, as a proposed geroprotector, and (in one unverified report) to adults with consequences of traumatic brain injury. Outside the literature it circulates for memory, sleep and brain ageing; none of those uses has been tested in a controlled study.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "who should not take pinealon",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24 (keyword_overview returned no item); recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "who",
+      "heading": "Who Pinealon is discussed for, and the cautions that recur",
+      "boundary": "No study defined exclusion criteria. What follows is what the studies themselves found and where no data exist, not a list of contraindications.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "is pinealon legal to purchase",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24 (keyword_overview returned no item); recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is Pinealon legal?",
+      "answer": "It is not an approved medicine anywhere. In Russia it is sold as a dietary supplement; in the United States, the EU and the UK it is sold only as a research chemical, not approved by the FDA or any equivalent for human use. Purchase legality depends on the country and is outside this page's scope.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "where can i buy pinealon",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24 (keyword_overview returned no item); recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "decline",
+      "section": "none",
+      "source": "people-also-ask",
+      "note": "Commercial intent; out of scope per docs/content-sop.md."
+    },
+    {
+      "query": "pinealon sleep",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "mechanism",
+      "heading": "How Pinealon is thought to work, and why sleep keeps coming up",
+      "boundary": "No human study has measured sleep, melatonin or circadian markers; the sleep framing comes from the pineal origin of the sequence."
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/pinealon",
+      "rank": null,
+      "words": 4593,
+      "tables": 9,
+      "h2": 21,
+      "h3": 58,
+      "sci_links": 4,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 24,
+      "gap": "Nine dosing, reconstitution and cycle tables for a compound whose only human dose is one second-hand case series; presents the 72-patient report as established; omits the 2015 study's prooxidant and CD34+ findings; not in the Google top 10 for 'pinealon' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F8 S5 U3"
+    },
+    {
+      "url": "https://riteaid.com/peptides/pinealon",
+      "rank": 5,
+      "words": 1200,
+      "tables": 0,
+      "h2": 5,
+      "sci_links": 0,
+      "byline": "Rite Aid Health Team",
+      "score": 17,
+      "gap": "Named health-team review but zero citations, no dose, no human study; 'sources to check' are PubMed search links",
+      "source": "fetched 2026-09-24 via summary; scored D4 F3 S6 U4"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pinealon",
+      "rank": 7,
+      "words": 894,
+      "tables": 2,
+      "h2": 4,
+      "sci_links": 17,
+      "score": 18,
+      "gap": "Cites the rat and cell papers, no human study, no dose, no safety section",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S8 U3"
+    },
+    {
+      "url": "https://www.americanpeptides.us/products/pinealon",
+      "rank": 2,
+      "words": 621,
+      "tables": 0,
+      "h2": 5,
+      "sci_links": 0,
+      "score": 8,
+      "gap": "Vendor product page ranking second; FAQ only; research-use disclaimer",
+      "source": "fetched 2026-09-24, metrics measured"
+    },
+    {
+      "url": "https://superpower.com/guides/peptides/pinealon",
+      "rank": 10,
+      "score": null,
+      "gap": "Explainer; states no completed RCT exists and that all evidence comes from one affiliated research network",
+      "source": "SERP result and snippet; fetch failed (socket hang up)"
+    }
+  ],
+  "information_gain": "The only page that separates Pinealon's two indexed human studies (both Russian-language, both in older adults with organic brain syndrome, neither randomized, neither stating a dose in its abstract) from the 72-patient traumatic-brain-injury series that every dosing guide quotes and that exists only second-hand in a 2020 review; that reports the 2015 study's own safety signals, prooxidant activity on chemiluminescence and a fall in CD34+ cells the authors called inhibition of hemopoiesis, which no ranking page mentions; and that states plainly that no pharmacokinetic, sleep or injected-dose study exists.",
+  "serp_format_rewarded": "Definitional explainer with an FAQ. The AI Overview leads with structure, mechanism and regulatory status, so a clear 'what it is / status / what was tested' opening fits; no ranking page has a table of the human studies.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add the 2020 narrative review that reports the 72-patient series to the ledger once its Europe PMC record is identified, with the series marked as second-hand and uncontrolled.",
+    "Locate the 2026 'Short-Term Performance Assay' preprint's pinealon arm and record its dose and result; the ledger holds only the title.",
+    "Russian-language full texts of Meshchaninov 2015 and Myakotnykh 2016 may state doses and routes the abstracts omit; pending_source."
+  ]
+}
