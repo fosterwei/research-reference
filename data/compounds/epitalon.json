@@ -10,8 +10,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "Epitalon is a peptide in the bioregulator short peptides class (telomerase activation claimed; mechanism unconfirmed). Europe PMC indexes 170 publications naming it or a listed alias in a title or abstract, including 5 randomized controlled trials and 5 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "Epitalon: what the research shows",
-    "description": "Epitalon research, cited: 170 indexed publications, 5 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Epitalon (Epithalon): Studies, Dose, Telomeres, Status",
+    "description": "Epitalon (Epithalon): the lifelong mouse study, telomere cell studies, why the human results belong to Epithalamin, every study dose, side effects, and status."
   },
   "attributes": {
     "routes_studied": [
@@ -72,7 +72,43 @@
     ],
     "study_doses": [
       {
-        "value": "Randomized controlled trial, humans, n=100, 1999: doses stated in the abstract: 100 mg. The modality also included immunotherapy with epithalamin 100 mg, intramuscularly, neoadjuvant intraarterial polychemotherapy with 5-fluorouracil 2 g/m2 and cisplatin 100 mg/m2, concurrent radiotherapy with an interval and 4-6 courses of adjuvant…",
+        "value": "Female SHR mice received 1 microgram of Epitalon (about 30 to 40 micrograms per kilogram) subcutaneously on five consecutive days each month from age three months until death.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-14501183"
+        ],
+        "source_excerpt": "From the age of 3 months until their natural deaths, female outbred Swiss-derived SHR mice were subcutaneously injected on 5 consecutive days every month with 0.1 ml of normal saline (control) or with 1.0 microg/mouse (approximately 30-40 microg/kg) of tetrapeptide Epitalon (Ala-Glu-Asp-Gly) dissolved in 0.1 ml saline.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Senescence-accelerated mice received the same 1 microgram subcutaneous dose five times a week, monthly.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-15909815"
+        ],
+        "source_excerpt": "Female senescence accelerated mice SAMP-1. (prone) and SAMR-1 (resistant) were exposed 5 times a week monthly to melatonin (with drinking water 20mg/ml during the night hours) or to s.c. injections of epitalon (Ala-Glu-Asp-Gly) at a single dose 1mkg/mouse.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Rats in a chemical colon-cancer model received 1 microgram five times a week for six months.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-12964022"
+        ],
+        "source_excerpt": "Rats in group 2 were treated with Epitalon at a dose of 1 micro g, five times a week, for 6 months, from the first injection of DMH till the end of the experiment.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Anaesthetised rats received 30 nanograms intranasally, after which cortical neuron firing rose within minutes.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-17955380"
+        ],
+        "source_excerpt": "Recording of spontaneous neuron discharges for 10-15 min was followed by intranasal administration of epitalon solution and recording of neuron activity to 30 min after doses of 30 ng per animal.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In the one randomized human trial in the ledger, the extract Epithalamin, not synthetic Epitalon, was given at 100 mg intramuscularly as one component of combined cervical-cancer treatment.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-10532103"
@@ -81,46 +117,42 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 1999: doses stated in the abstract: 2.5 mg. The effects of a single-shot intraperitoneally administration of melatonin in a dose of 1 mg per kg body weight and epithalamin in a dose of 2.5 mg per kg body weight on the activities of Na+, K(+)-ATPase and 5'-nucleotidase were investigated in the forebrain of juvenile…",
-        "evidence_label": "animal-preclinical",
+        "value": "Mouse oocytes were cultured with 0.1 millimolar Epitalon.",
+        "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
-          "pmid-10820844"
+          "pmid-35413689"
         ],
-        "source_excerpt": "The effects of a single-shot intraperitoneally administration of melatonin in a dose of 1 mg per kg body weight and epithalamin in a dose of 2.5 mg per kg body weight on the activities of Na+, K(+)-ATPase and 5'-nucleotidase were investigated in the forebrain of juvenile male white rats under the acute hypobaric hypoxia.",
+        "source_excerpt": "We found that 0.1mM Epitalon reduced intracellular reactive oxygen species.",
         "drafting": "extractive"
       }
     ],
     "escalation_schedules": [],
-    "interactions": [
-      {
-        "value": "Animal study, mice, 2002: The concomitant effect of Epitalon was determined according to its influence on thymocyte proliferation stimulated by concanavalin A at a sub-optimal dose and recombinant IL-1beta.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-12500162"
-        ],
-        "source_excerpt": "The concomitant effect of Epitalon was determined according to its influence on thymocyte proliferation stimulated by concanavalin A at a sub-optimal dose and recombinant IL-1beta.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, rats, 2000: The influence of co-administration of alpha-methyl-p-tyrosine (inhibitor of catecholamine synthesis) and alpha-(+) beta-adrenergic antagonists under conditions of acute hypobaric hypoxia or pretreatment with epithalamin on cyclic nucleotide content in the pineal gland of juvenile male albino rats was…",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-10802883"
-        ],
-        "source_excerpt": "The influence of co-administration of alpha-methyl-p-tyrosine (inhibitor of catecholamine synthesis) and alpha-(+) beta-adrenergic antagonists under conditions of acute hypobaric hypoxia or pretreatment with epithalamin on cyclic nucleotide content in the pineal gland of juvenile male albino rats was investigated.",
-        "drafting": "extractive"
-      }
-    ],
+    "interactions": [],
     "exclusion_criteria": [],
     "adverse_events": [
       {
-        "value": "Animal study, mice, 2005: As age advanced, the incidence of irregular estrous cycles increased both in SAMP-1 and SAMR-1, whereas the treatment with both melatonin and epitalon prevented such disturbances.",
+        "value": "The lifelong mouse study found no effect on food intake, body weight or total tumour incidence, and its authors read that as evidence of safety with long-term dosing in mice.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
-          "pmid-15909815"
+          "pmid-14501183"
         ],
-        "source_excerpt": "As age advanced, the incidence of irregular estrous cycles increased both in SAMP-1 and SAMR-1, whereas the treatment with both melatonin and epitalon prevented such disturbances.",
+        "source_excerpt": "We also found that treatment with Epitalon did not influence total spontaneous tumor incidence, but inhibited the development of leukemia (6.0-fold), as compared with the control group. The data obtained suggest a geroprotector activity of Epitalon and the safety of its long-term administration in mice.",
         "drafting": "extractive"
+      },
+      {
+        "value": "A 2025 cell study found Epitalon lengthened telomeres in breast-cancer lines through the alternative lengthening pathway, the mechanism cancers use to keep dividing.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-40908429"
+        ],
+        "source_excerpt": "In cancer cells, significant telomere length extension also occurred through ALT (Alternative Lengthening of Telomeres) activation.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "No human study of synthetic Epitalon recorded adverse events, because no such study exists at a stated dose. The Russian trials of the extract Epithalamin report tolerability in passing. Forum complaints are limited to injection-site reactions and vivid dreams. The open safety question is not a side effect but the mechanism itself: an agent that raises telomerase or activates ALT in cells that already have cancer is doing what the cancer wants, and no study has looked for that in a person.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
       }
     ],
     "biomarkers_monitored": [
@@ -179,20 +211,39 @@
         "drafting": "extractive"
       }
     ],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [
+    "reported_timelines": [
       {
-        "value": "Randomized controlled trial, humans, n=100, 1999: durations stated: 3 year. The adjuvant polychemotherapy component was thought to be responsible for a 25.4% increase in one-year survival and 12.5%--in 3-year survival.",
-        "evidence_label": "human-clinical-trial",
+        "value": "After an intranasal dose in rats, cortical neuron discharge rose two- to two-and-a-half-fold within five to seven minutes, sometimes in several waves over 20 minutes.",
+        "evidence_label": "animal-preclinical",
         "source_ids": [
-          "pmid-10532103"
+          "pmid-17955380"
         ],
-        "source_excerpt": "The adjuvant polychemotherapy component was thought to be responsible for a 25.4% increase in one-year survival and 12.5%--in 3-year survival.",
+        "source_excerpt": "Significant activation of neuron activity was seen several minutes after dosage, with an increase (by factors of 2-2.5) in discharge frequency. In some experiments, the effect of epitalon was multiphasic. The first peak of increased neuron discharge frequency at 5-7 min was followed by peaks at 11-12 and 17-18 min.",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 2003: durations stated: 6 months; 5 weeks. Rats in group 2 were treated with Epitalon at a dose of 1 micro g, five times a week, for 6 months, from the first injection of DMH till the end of the experiment.",
+        "value": "In the lifelong mouse study the measurable differences were at the end of life: the last 10% of survivors lived 13.3% longer and maximum lifespan was 12.3% longer, while mean lifespan did not change.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-14501183"
+        ],
+        "source_excerpt": "The results of this study show that treatment with Epitalon did not influence food consumption, body weight or mean life span of mice. However, it slowed down the age-related switching-off of estrous function and decreased the frequency of chromosome aberrations in bone marrow cells (by 17.1%, P<0.05). It also increased by 13.3% the life span of the last 10% of the survivors (P<0.01) and by 12.3% the maximum life span in comparison with the control group.",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [],
+    "study_durations": [
+      {
+        "value": "Lifelong: from age three months until natural death, in 54 treated and 54 control mice.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-14501183"
+        ],
+        "source_excerpt": "From the age of 3 months until their natural deaths, female outbred Swiss-derived SHR mice were subcutaneously injected on 5 consecutive days every month",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Six months in the rat colon-cancer model, or shorter windows during initiation or promotion.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-12964022"
@@ -201,17 +252,44 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 2002: durations stated: 1 month. Vilon (Lys-Glu) and Epithalon (Ala-Glu-Asp-Gly) administered orally for 1 month improved transport characteristics of the small intestine in aged rats.",
-        "evidence_label": "animal-preclinical",
+        "value": "Six courses of the extract Epithalamin over 30 months of observation in elderly coronary patients.",
+        "evidence_label": "observational-human",
         "source_ids": [
-          "pmid-12420071"
+          "pmid-18214303"
         ],
-        "source_excerpt": "Vilon (Lys-Glu) and Epithalon (Ala-Glu-Asp-Gly) administered orally for 1 month improved transport characteristics of the small intestine in aged rats.",
+        "source_excerpt": "the rhythms of changes in the thymic serum factor and hydrocortisone were retained in patients with chronic coronary disease after 6 courses of epithalamin by the optimal protocol (period of observation 30 months)",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=100, 1999: durations stated: 3 year. The adjuvant polychemotherapy component was thought to be responsible for a 25.4% increase in one-year survival and 12.5%--in 3-year survival.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10532103"
+        ],
+        "source_excerpt": "The adjuvant polychemotherapy component was thought to be responsible for a 25.4% increase in one-year survival and 12.5%--in 3-year survival.",
         "drafting": "extractive"
       }
     ],
-    "weight_normalized_doses": [],
-    "regulatory_status": [],
+    "weight_normalized_doses": [
+      {
+        "value": "About 30 to 40 micrograms per kilogram, subcutaneous, in the lifelong mouse study.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-14501183"
+        ],
+        "source_excerpt": "1.0 microg/mouse (approximately 30-40 microg/kg) of tetrapeptide Epitalon",
+        "drafting": "extractive"
+      }
+    ],
+    "regulatory_status": [
+      {
+        "value": "Not approved anywhere as a medicine. The parent extract Epithalamin was registered as a drug in Russia; synthetic Epitalon has no registration documented in the ledger in any country. In the United States it is sold as a research chemical and is reported to have been placed in category 2 of FDA's interim 503A bulk-substances list in September 2023, which bars compounding; the live list should be checked. Not named on the WADA Prohibited List, but as an unapproved substance it falls under S0 at all times.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Randomized controlled trial, humans, n=100, 1999: As a consequence, short-term results improved by 18.8% in cases tumor size under T3; end-results--by 14%.",
@@ -693,6 +771,34 @@
           "outcome": "As for epithalon, it appears that was shown a pronounced protective effect after treatment, on the test of chromosome aberrations, by reducing both overall mean frequency aberrant cells and indicators for all…"
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "Epitalon is the tetrapeptide alanine-glutamate-aspartate-glycine (AEDG). Khavinson's group in St Petersburg designed it in the 1990s from the amino-acid composition of Epithalamin, a polypeptide extract of bovine pineal gland that had been used as a medicine in the Soviet Union since the 1980s. The two are not the same substance: Epithalamin is a mixture of pineal peptides given by injection at milligram doses; Epitalon is one synthetic molecule given to animals at micrograms. Most of the human literature cited for Epitalon is about Epithalamin.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Three mechanisms are proposed. First, telomerase: a 2003 report from the developers found Epitalon induced telomerase activity and telomere elongation in human fibroblast cultures, and a 2025 independent study confirmed telomere lengthening in normal cells through hTERT upregulation, while finding that in breast-cancer lines the lengthening ran through the ALT pathway instead. Second, the pineal gland and melatonin: in rats, intranasal Epitalon changed pinealocyte activity only under stress, and the extract restored night-time melatonin in elderly people. Third, gene regulation: molecular modelling suggests the peptide binds histone H1 at DNA-contacting sites, and it changes gene expression in cells from thymus to tobacco plants, which argues for a broad, not specific, effect.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "What is not established is any of this in a living person. No human study has measured telomere length, telomerase activity, or melatonin after synthetic Epitalon. The lifelong mouse study, the strongest whole-animal evidence, found no change in mean lifespan and a 12 to 13% gain at the tail of the survival curve, alongside fewer chromosome aberrations and less leukaemia.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Epitalon circulates for longevity, sleep and 'telomere health', injected subcutaneously in short courses, often paired with Pinealon or DSIP and repeated once or twice a year. Reports describe deeper sleep, vivid dreams and a sense of calm, and, as often, no noticeable effect; the ten-day cycle structure comes from the Russian Epithalamin protocols, not from any study of the synthetic peptide. None of this comes from a controlled study. Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -727,11 +833,9 @@
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports weight-normalized doses for Epitalon.",
-    "No study in this record's ledger reports dose-escalation schedules for Epitalon.",
-    "No study in this record's ledger reports exclusion criteria for Epitalon.",
-    "No study in this record's ledger reports onset or duration of effects for Epitalon.",
-    "No study in this record's ledger reports storage or stability for Epitalon."
+    "No human study has given synthetic Epitalon at a stated dose or measured a telomere, melatonin or an adverse event after it.",
+    "Whether telomere lengthening through the ALT pathway in cancer cells has any consequence in a person is untested in either direction.",
+    "Khavinson 2003 (fibroblast telomerase), the elderly melatonin study and FDA's 2023 compounding notice are cited from summaries and are not yet in the ledger."
   ],
   "media": {
     "walkthrough_video": "",
@@ -740,19 +844,51 @@
   "faq": [
     {
       "question": "Has Epitalon been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 5 clinical trials and 5 randomized controlled trials naming Epitalon or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "answer": "Not the synthetic peptide at a stated dose. The human studies cited for it are of Epithalamin, the bovine pineal extract it was modelled on: a randomized cervical-cancer trial where the extract was one of five treatments, a 30-month study of immune and cortisol rhythms in elderly coronary patients, and melatonin restoration in elderly people. One in vitro study used cultured cells from tuberculosis patients."
     },
     {
-      "question": "What kind of evidence exists for Epitalon?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "Does Epitalon lengthen telomeres?",
+      "answer": "In cell cultures, yes. The developers reported telomerase activation in human fibroblasts in 2003, and an independent 2025 study confirmed dose-dependent telomere lengthening in normal cells through hTERT and telomerase, while finding that breast-cancer cell lines lengthened their telomeres through the ALT pathway instead. No human study has measured telomere length after Epitalon."
     },
     {
-      "question": "Is Epitalon an approved medicine?",
-      "answer": "No ChEMBL record matches Epitalon or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "Does Epitalon extend lifespan?",
+      "answer": "In the one lifelong study, 54 female mice injected on five days a month from age three months showed no change in mean lifespan. The last 10% of survivors lived 13.3% longer and maximum lifespan was 12.3% longer, chromosome aberrations fell 17% and leukaemia was six times rarer. Total tumour incidence did not change. No human lifespan data exist."
+    },
+    {
+      "question": "Is there an Epitalon dose?",
+      "answer": "For people, no. The mouse dose was 1 microgram per mouse, about 30 to 40 micrograms per kilogram, subcutaneously on five consecutive days a month; rats received 1 microgram five times a week or 30 nanograms intranasally. The extract Epithalamin was given at 100 mg intramuscular courses in Russian trials. The milligram courses that circulate for the peptide come from the extract's regimen and were never studied."
+    },
+    {
+      "question": "What are the side effects of Epitalon?",
+      "answer": "Unmeasured in people. The lifelong mouse study found no effect on weight, food intake or total tumours. The open question is mechanistic: an agent that activates telomerase or the ALT pathway in cells that already have cancer may help the cancer, and no study has looked for that in a person. Forum complaints are limited to injection-site reactions and vivid dreams."
+    },
+    {
+      "question": "Is Epitalon the same as Epithalamin?",
+      "answer": "No. Epithalamin is a polypeptide extract of bovine pineal gland, a registered Russian medicine given at milligram doses. Epitalon is a single synthetic tetrapeptide designed from the extract's amino-acid composition and given to animals at micrograms. Their evidence does not transfer either way."
+    },
+    {
+      "question": "Does Epitalon raise melatonin?",
+      "answer": "In people, the melatonin data are for the extract Epithalamin and the complex Pineamin, which raised night-time melatonin excretion 1.9-fold in 55 elderly patients. For the peptide, rats showed pineal activation only under stress and none in the normal state; no human melatonin measurement after Epitalon exists."
+    },
+    {
+      "question": "Is Epitalon FDA approved?",
+      "answer": "No. It has never been approved anywhere. It is reported to have been placed in category 2 of FDA's interim 503A bulk-substances list in September 2023, which bars compounding; check the live list."
+    },
+    {
+      "question": "Is Epitalon banned in sport?",
+      "answer": "It is not named on the WADA Prohibited List, but as a substance with no regulatory approval it falls under the list's S0 category, prohibited at all times."
+    },
+    {
+      "question": "Can Epitalon be taken as a nasal spray?",
+      "answer": "Rats have received it intranasally, at 30 nanograms per animal, with cortical neurons firing within minutes and pineal cells responding under stress. No human study has used any route, so nothing is known about nasal absorption or effect in people."
+    },
+    {
+      "question": "Who developed Epitalon?",
+      "answer": "Vladimir Khavinson's group at the St Petersburg Institute of Bioregulation and Gerontology, in the 1990s, from the composition of the Soviet pineal extract Epithalamin. Most of the literature is theirs; independent work since 2020 includes the Italian cell studies and the 2025 telomere study in London."
     },
     {
       "question": "Which species has Epitalon been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "answer": "Mice, for lifespan, tumours and oocytes; rats, for colon cancer, cortex, pineal gland and intestine; human cell lines, for telomeres, retinal cells, monocytes and gingival stem cells; and tobacco plants, where it also changed gene expression. No human has received it in a published study at a stated dose."
     }
   ],
   "sources": [
@@ -982,7 +1118,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 76.9,
+  "uniqueness_pct": 88.0,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1009,6 +1145,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 29 ledger sources by scripts/draft_claims.py: 20 claims, 24 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/epitalon.json: guide (8 sections incl. an Epitalon-vs-Epithalamin study table), FAQ to 12 plus 9 from the map, hand-written dose, weight-normalized, duration, timeline and adverse-event claims from the abstracts; mechanism, reported-use and regulatory claims; two misdrafted interactions removed; intent-driven H1 and title with both spellings. Triage: two contextual links added."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Epitalon in two minutes",
+      "html": "<p><strong>What it is.</strong> A synthetic four-amino-acid peptide, Ala-Glu-Asp-Gly, designed in St Petersburg from the composition of Epithalamin, a bovine pineal extract used as a Soviet medicine. Also spelled Epithalon.</p><p><strong>What the research actually shows.</strong> 170 indexed publications. In cells it lengthens telomeres, in normal cells through telomerase and in breast-cancer cells through the ALT pathway. In 54 mice injected monthly for life, mean lifespan did not change, total tumours did not change, the longest-lived 10% lived 13% longer and leukaemia was six times rarer. Every human result in the ledger is for the extract Epithalamin or a related complex, not the synthetic peptide.</p><p><strong>The confusion at the centre.</strong> Pages that cite 'human studies of Epitalon' are citing Epithalamin: a cervical-cancer trial where it was one of five treatments, a coronary-disease rhythm study, and melatonin restoration in elderly people.</p><p><strong>Status.</strong> Not approved anywhere; reported to be on FDA's 2023 compounding category 2 list; caught by WADA's S0 rule.</p><p><strong>Where the evidence is thinnest.</strong> In people: no study has given synthetic Epitalon at a stated dose, measured a telomere, or recorded a side effect.</p>"
+    },
+    {
+      "id": "extract",
+      "heading": "Epitalon vs Epithalamin: which studies are about which",
+      "lede": "The two names are used interchangeably online. They are different substances with different evidence, and sorting the studies by name changes the picture.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human and animal studies in the ledger, sorted by the substance actually given.</caption><thead><tr><th scope=\"col\">Substance</th><th scope=\"col\">What it is</th><th scope=\"col\">Human studies</th><th scope=\"col\">Animal and cell studies</th></tr></thead><tbody><tr><td><strong>Epithalamin</strong></td><td>Polypeptide extract of bovine pineal gland; a registered Soviet and Russian medicine given by injection at milligram doses</td><td>Cervical cancer (100 patients, randomized, 100 mg IM as one of five components); elderly coronary patients (6 courses, 30 months, immune and cortisol rhythms); free-radical review; melatonin restoration in the elderly (cited, not in ledger)</td><td>Hypoxia in rats (2.5 mg intraperitoneal); free radicals in aged rats</td></tr><tr><td><strong>Epitalon (AEDG)</strong></td><td>Single synthetic tetrapeptide modelled on the extract's amino-acid composition</td><td><strong>None at a stated dose.</strong> One in vitro study used cultured cells from tuberculosis patients</td><td>Lifelong mouse study; senescence-accelerated mice; rat colon cancer; rat cortex and pineal (intranasal); rat intestine (oral); thymocytes; telomeres in human cell lines; oocytes; retinal cells; gingival stem cells; tobacco plants</td></tr><tr><td><strong>Pineamin</strong></td><td>A newer pineal polypeptide complex</td><td>55 elderly patients: night melatonin metabolite up 1.9-fold after a 100 mg course</td><td>—</td></tr></tbody></table></div></div><p>The practical consequence: the dosing, the ten-day courses and the melatonin claim belong to the extract. The telomere and lifespan claims belong to the peptide, in cells and mice. Nothing belongs to both.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every Epitalon and Epithalamin dose in the literature, in one table",
+      "lede": "Every figure here was given to an animal, added to a culture, or is the extract in a Russian trial. No human dose of synthetic Epitalon exists.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses administered in studies of Epitalon and its parent extract.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Substance and model</th><th scope=\"col\">Route and dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">What was found</th></tr></thead><tbody><tr><td>Anisimov 2003</td><td>Epitalon; 54 female SHR mice</td><td>Subcutaneous, 1 mcg per mouse (about 30 to 40 mcg/kg)</td><td>5 consecutive days a month, from 3 months of age for life</td><td>Mean lifespan unchanged; last 10% lived 13.3% longer; chromosome aberrations down 17%; leukaemia 6-fold rarer; total tumours unchanged</td></tr><tr><td>Anisimov 2005</td><td>Epitalon; senescence-accelerated mice</td><td>Subcutaneous, 1 mcg per mouse</td><td>5 times a week, monthly</td><td>Prevented irregular oestrous cycles; no effect on weight, food or temperature</td></tr><tr><td>Kossoy 2003</td><td>Epitalon; rats with chemically induced colon cancer</td><td>Subcutaneous, 1 mcg</td><td>5 times a week for 6 months, or during initiation or promotion only</td><td>Tumour-cell mitotic activity inhibited</td></tr><tr><td>Sibarov 2007</td><td>Epitalon; anaesthetised rats</td><td>Intranasal, 30 ng per rat</td><td>Single</td><td>Cortical neuron firing 2 to 2.5-fold within 5 to 7 minutes</td></tr><tr><td>Sibarov 2002</td><td>Epitalon; stressed rats</td><td>Intranasal; dose not stated</td><td>Repeated, last 2 hours before sampling</td><td>C-Fos rose in pinealocytes under stress only</td></tr><tr><td>Khavinson 2002</td><td>Epitalon; rats</td><td>Oral; dose not stated</td><td>One month</td><td>Glycine absorption up in the proximal intestine</td></tr><tr><td>Vishnevskaia 1999</td><td><em>Epithalamin</em>; 100 women with advanced cervical cancer</td><td>Intramuscular, 100 mg, with chemotherapy and radiotherapy</td><td>Course within combined treatment</td><td>Combined therapy improved outcomes; the extract's own contribution cannot be separated</td></tr><tr><td>Trofimova 2017</td><td><em>Pineamin</em>; 55 elderly patients</td><td>Course dose 100 mg</td><td>Course</td><td>Night melatonin metabolite 1.9-fold higher</td></tr><tr><td>Al-Dulaimi 2025; Yue 2022; Gatta 2025</td><td>Epitalon; human cell lines, mouse oocytes, retinal cells</td><td>In culture; 0.1 mM in oocytes; others dose-dependent</td><td>Hours to days</td><td>Telomere lengthening; less reactive oxygen; wound closure restored</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table holds every dose a study actually administered. The mouse dose, scaled by body weight, is a fraction of a milligram for an adult; the courses that circulate are hundreds of times larger and were never given to any animal in a study.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who Epitalon is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> mice and rats, for lifespan, tumours and pineal function; human cells, for telomeres. <strong>Studied with the extract:</strong> elderly Russian patients with coronary disease or low melatonin, and women with advanced cervical cancer. <strong>Community:</strong> people seeking longevity, better sleep or 'telomere health'.</p><p>No human study of the peptide set exclusion criteria. The cautions below come from the mechanism and from what was never measured:</p><ul class=\"list\"><li><strong>Cancer, present or past.</strong> Telomerase activation and, in breast-cancer cells, ALT activation are the two ways tumours escape the limit on cell division. The mouse study found fewer leukaemias; the cell study found cancer cells lengthening their telomeres. No human data resolve this.</li><li><strong>Anyone reading the extract's trials as their own evidence.</strong> Epithalamin's human studies were in specific elderly and oncology populations, at milligram doses of a mixture, in Russia; none transfers to synthetic Epitalon at any dose.</li><li><strong>Pregnancy and fertility.</strong> The peptide altered oestrous function in mice and protected mouse oocytes in culture; nothing in people.</li><li><strong>Sleep expectations.</strong> No human sleep or melatonin measurement exists for the peptide; the same gap holds for <a href=\"/compounds/dsip\">DSIP</a>, the other sleep peptide it is paired with.</li><li><strong>Injection technique and vial content.</strong> Research-chemical vials are unverified; the mouse dose was 1 microgram, so any vial sold for human use is dosed by convention, not by data.</li><li><strong>Tested athletes.</strong> Unapproved substances are prohibited under WADA S0 at all times.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The time course in the literature spans <strong>minutes</strong>, in rat cortex after an intranasal dose, to <strong>a lifetime</strong>, in the mouse study where the only differences appeared at the end of life. Nothing was measured in between that a person would notice. The extract's human studies ran <strong>30 months</strong> with six courses and reported the persistence of immune and cortisol rhythms, not how anyone felt. 'How long does Epitalon take to work' therefore has no human answer; the honest one is that the mouse outcomes took a lifetime to show and were modest.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>No storage or stability study of Epitalon for human use is indexed. Vendor sheets follow general practice for lyophilised peptides. The developers' hydrogel and iontophoresis papers concern delivery formats, not storage.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how Epitalon is discussed",
+      "html": "<ol class=\"list\"><li><strong>Merging Epitalon with Epithalamin.</strong> Every human result cited for the peptide belongs to the extract. Sorting the studies by name is the single most useful thing a reader can do; the same confusion recurs with <a href=\"/compounds/pinealon\">Pinealon</a> and its parent complex.</li><li><strong>Saying it extends lifespan.</strong> In the one lifelong study, mean lifespan did not change. The gain was in the last 10% of survivors and in maximum lifespan.</li><li><strong>Treating telomere lengthening as unambiguously good.</strong> The 2025 study found cancer cells lengthening telomeres through ALT. Longer telomeres in a tumour are the tumour's advantage.</li><li><strong>Quoting a ten-day course as a study protocol.</strong> The ten-day pattern is the extract's Russian regimen. No study gave synthetic Epitalon to a person on any schedule.</li><li><strong>Calling it a melatonin booster.</strong> The melatonin restoration was measured after Epithalamin and Pineamin, not after Epitalon, and in rats the peptide changed pineal activity only under stress.</li><li><strong>Reading gene-expression results as specificity.</strong> Epitalon changes gene expression in thymocytes, stem cells and tobacco plants alike, which argues for a broad chemical effect rather than a targeted one.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Epitalon vs Epithalamin, Pinealon, melatonin and DSIP",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Epitalon beside the substances it is confused with or paired with.</caption><thead><tr><th scope=\"col\">Substance</th><th scope=\"col\">What it is</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>Epitalon</strong></td><td>Synthetic tetrapeptide AEDG</td><td>None at a stated dose; telomeres in cells; lifespan in mice</td><td>Research chemical; reported FDA category 2; WADA S0</td></tr><tr><td>Epithalamin</td><td>Bovine pineal polypeptide extract</td><td>Russian trials in elderly and oncology patients at 100 mg courses</td><td>Registered medicine in Russia; not approved elsewhere</td></tr><tr><td><a href=\"/compounds/pinealon\">Pinealon</a></td><td>Sibling tripeptide Glu-Asp-Arg from the same programme; 17 indexed publications</td><td>2 non-randomized Russian studies in older adults</td><td>Supplement in Russia; research chemical elsewhere</td></tr><tr><td>Melatonin</td><td>The pineal hormone the extract was shown to restore</td><td>Dozens of randomized sleep trials</td><td>Prescription medicine in the EU and UK; supplement in the US; no record on this site</td></tr><tr><td><a href=\"/compounds/dsip\">DSIP</a></td><td>Nine-amino-acid sleep peptide of disputed origin; 559 indexed publications</td><td>16 small intravenous studies, split on sleep</td><td>Research chemical; reported FDA category 2</td></tr></tbody></table></div></div><p>The pairings that circulate, Epitalon with Pinealon or with DSIP, have no study behind them in any species. The one comparison with data is Epitalon against its own extract, and the data favour the extract, because the extract is the one that was given to people.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
