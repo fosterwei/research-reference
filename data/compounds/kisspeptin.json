@@ -14,8 +14,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "Kisspeptin is a peptide in the growth factors & reproductive class (KISS1 receptor agonist; GnRH release). Europe PMC indexes 3,850 publications naming it or a listed alias in a title or abstract, including 44 randomized controlled trials and 34 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "Kisspeptin: what the research shows",
-    "description": "Kisspeptin research, cited: 3,850 indexed publications, 44 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Kisspeptin (KP-10, KP-54): Trials, Doses, Side Effects",
+    "description": "Kisspeptin peptide: every human trial with isoform, dose and duration, the desensitisation problem, what the testosterone and libido uses rest on, side effects."
   },
   "attributes": {
     "routes_studied": [
@@ -76,6 +76,87 @@
     ],
     "study_doses": [
       {
+        "value": "Healthy men received acute eight-hour subcutaneous kisspeptin-10 infusions at 1.25 to 10 nmol/kg/h, then continuous infusion at 180 nmol/h for five days, then daily eight-hour infusions at 150 nmol/h for 12 days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42549827"
+        ],
+        "source_excerpt": "Luteinizing hormone (LH), follicle-stimulating hormone (FSH), and testosterone were assessed during an acute 8 h dose-response subcutaneous kisspeptin-10 infusions (1.25-10.0 nmol/kg/h). Thereafter, we evaluated chronic subcutaneous administration, including continuous kisspeptin-10 infusion at 180 nmol/h for 5 days, and daily 8 h infusions at 150 nmol/h for 12 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Women with hypothalamic amenorrhoea received continuous intravenous kisspeptin-54 at 0.01 to 1.00 nmol/kg/h.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-24517142"
+        ],
+        "source_excerpt": "Single-blinded continuous iv infusion of vehicle or kisspeptin-54 (0.01, 0.03, 0.10, 0.30, or 1.00 nmol/kg/h) was administered.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Women at high risk of ovarian hyperstimulation received a single subcutaneous injection of kisspeptin-54 at 9.6 nmol/kg 36 hours before egg retrieval, half of them a second dose 10 hours later.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28854728"
+        ],
+        "source_excerpt": "Following controlled ovarian stimulation, all patients (n = 62) received a subcutaneous injection of kisspeptin-54 (9.6 nmol/kg) 36 h prior to oocyte retrieval. Patients were randomized 1:1 to receive either a second dose of kisspeptin-54 (D; Double, n = 31), or saline (S; Single, n = 31) 10 h thereafter.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Healthy women received subcutaneous infusions of kisspeptin-54 at 0.3 and 1.0 nmol/kg/h.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26572695"
+        ],
+        "source_excerpt": "The LH response to SC infusion of kisspeptin-54 (0·3 and 1·0 nmol/kg/h) positively correlated with baseline oestradiol levels",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Women and men with hypoactive sexual desire disorder received a 75-minute intravenous infusion of kisspeptin-54 at 1 nmol/kg/h.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36287566"
+        ],
+        "source_excerpt": "A 75-minute intravenous infusion of kisspeptin-54 (1 nmol/kg/h) vs equivalent-rate placebo infusion.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Ninety-five volunteers received the same 75-minute infusion at 1 nmol/kg/h in the anxiety study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40036336"
+        ],
+        "source_excerpt": "attending both for a 75-minute intravenous kisspeptin-54 infusion (1 nmol/kg/h) and rate-matched placebo (in random order)",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Intranasal kisspeptin-54 at 12.8 nmol/kg produced clinically significant gonadotropin release.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40215751"
+        ],
+        "source_excerpt": "Specifically, intranasal kisspeptin (at 12.8 nmol/kg) induced clinically-significant",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The receptor agonist MVT-602 was given at 0.01 and 0.03 nmol/kg against kisspeptin-54 at 9.6 nmol/kg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33196464"
+        ],
+        "source_excerpt": "We determined the pharmacokinetic and pharmacodynamic properties of MVT-602 (doses 0.01 and 0.03 nmol/kg) versus KP54 (9.6 nmol/kg)",
+        "drafting": "extractive"
+      },
+      {
+        "value": "A kisspeptin 112-121 analogue was given as a 0.24 nmol/kg intravenous bolus to 12 healthy adults.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39965102"
+        ],
+        "source_excerpt": "Kisspeptin-112-121 (KP analog, 0.24 nmol/kg bolus) was administered to 12 healthy adults (50% female).",
+        "drafting": "extractive"
+      },
+      {
         "value": "Randomized controlled trial, humans, n=8, 2020: doses stated in the abstract: 4 µg/kg. On the last day of NK3Ra administration or the equivalent day in those not treated, women were randomized to 7-h kisspeptin-10 (4 µg/kg/h i.v.) or vehicle infusion.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
@@ -85,17 +166,7 @@
         "drafting": "extractive"
       }
     ],
-    "escalation_schedules": [
-      {
-        "value": "Randomized controlled trial, humans, n=63, 2025: Context Kisspeptin is a critical endogenous activator of the reproductive system, with escalating clinical interest as a novel therapeutic for common reproductive and psychosexual disorders.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-40036336"
-        ],
-        "source_excerpt": "Context Kisspeptin is a critical endogenous activator of the reproductive system, with escalating clinical interest as a novel therapeutic for common reproductive and psychosexual disorders.",
-        "drafting": "extractive"
-      }
-    ],
+    "escalation_schedules": [],
     "interactions": [
       {
         "value": "Randomized controlled trial, humans, n=8, 2020: Study question What is the role of the hypothalamic neuropeptide neurokinin B (NKB) and its interaction with kisspeptin on GnRH/LH secretion in women with polycystic ovary syndrome (PCOS)?",
@@ -110,13 +181,46 @@
     "exclusion_criteria": [],
     "adverse_events": [
       {
-        "value": "Randomized controlled trial, humans, 2025: Intranasal kisspeptin-54 rapidly stimulates gonadotropin release in healthy men and women, and in patients with a common reproductive disorder (hypothalamic amenorrhoea), without any side effects or adverse events encountered.",
+        "value": "The problem the trials design around is desensitisation: high-dose kisspeptin-54 stimulates LH acutely, but chronic administration switches the response off.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-40215751"
+          "pmid-24517142"
         ],
-        "source_excerpt": "Intranasal kisspeptin-54 rapidly stimulates gonadotropin release in healthy men and women, and in patients with a common reproductive disorder (hypothalamic amenorrhoea), without any side effects or adverse events encountered.",
+        "source_excerpt": "High-dose kisspeptin-54 acutely stimulates LH secretion in women with HA, but chronic administration causes desensitization.",
         "drafting": "extractive"
+      },
+      {
+        "value": "A biologically active dose in 95 men and women did not change behavioural, biochemical or physiological measures of anxiety.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40036336"
+        ],
+        "source_excerpt": "This is the first study demonstrating that a biologically active dose of kisspeptin to men and women does not affect behavioral, biochemical, or physiological measures of anxiety.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The receptor agonist MVT-602 was safe and well tolerated across its dose range in two trials.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37925096"
+        ],
+        "source_excerpt": "In both the trials, MVT-602 was safe and well tolerated across the entire dose range.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "A kisspeptin analogue bolus did not change circulating vasopressin in healthy adults.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41273106"
+        ],
+        "source_excerpt": "AVP levels were higher in males at all time points (p = .028) and did not chang",
+        "drafting": "extractive"
+      },
+      {
+        "value": "No trial in the ledger reports a serious adverse event attributed to kisspeptin, and the IVF programme adopted it precisely because it triggers egg maturation without the ovarian hyperstimulation that hCG can cause. What no trial has measured is what happens after weeks or months of intermittent injection outside a laboratory, which is the community exposure; the physiology predicts a fading response and nothing predicts harm, but nothing has looked.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
       }
     ],
     "biomarkers_monitored": [
@@ -177,12 +281,39 @@
     ],
     "reported_timelines": [
       {
-        "value": "Randomized controlled trial, humans, 2025: Kisspeptin plays a major role in the onset of puberty by stimulating the gonadotropin-releasing hormone (GnRH) neurons.",
+        "value": "A single subcutaneous dose of kisspeptin-54 produces an LH surge lasting about 12 to 14 hours, the basis of its use as an IVF trigger.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-39847034"
+          "pmid-28854728"
         ],
-        "source_excerpt": "Kisspeptin plays a major role in the onset of puberty by stimulating the gonadotropin-releasing hormone (GnRH) neurons.",
+        "source_excerpt": "We have previously reported that a single dose of kisspeptin-54 results in an LH-surge of ~12-14 h duration, which safely triggers oocyte maturation in women at high risk of OHSS.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The receptor agonist MVT-602 was absorbed and eliminated rapidly, with a half-life of 1.3 to 2.2 hours.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37925096"
+        ],
+        "source_excerpt": "It was rapidly absorbed and eliminated, with a mean elimination half-life of 1.3-2.2 hours.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Chronic subcutaneous kisspeptin-10 kept gonadotropins and testosterone raised for 12 days in healthy men.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42549827"
+        ],
+        "source_excerpt": "We demonstrate that chronic subcutaneous kisspeptin administration sustains gonadotropin and testosterone secretion in healthy men for 12 days.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Intranasal kisspeptin-54 stimulated gonadotropin release rapidly.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40215751"
+        ],
+        "source_excerpt": "Intranasal kisspeptin-54 rapidly stimulates gonadotropin release in healthy men and women, and in patients with a common reproduct",
         "drafting": "extractive"
       }
     ],
@@ -255,6 +386,24 @@
     ],
     "weight_normalized_doses": [
       {
+        "value": "Kisspeptin-54: 0.01 to 1.0 nmol/kg/h by infusion; 9.6 nmol/kg as a single subcutaneous trigger; 12.8 nmol/kg intranasally.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-24517142"
+        ],
+        "source_excerpt": "kisspeptin-54 (0.01, 0.03, 0.10, 0.30, or 1.00 nmol/kg/h)",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Kisspeptin-10: 1.25 to 10 nmol/kg/h by subcutaneous infusion in men.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42549827"
+        ],
+        "source_excerpt": "acute 8 h dose-response subcutaneous kisspeptin-10 infusions (1.25-10.0 nmol/kg/h)",
+        "drafting": "extractive"
+      },
+      {
         "value": "Randomized controlled trial, humans, n=8, 2020: weight-normalized doses as published: 4 µg/kg. On the last day of NK3Ra administration or the equivalent day in those not treated, women were randomized to 7-h kisspeptin-10 (4 µg/kg/h i.v.) or vehicle infusion.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
@@ -266,9 +415,11 @@
     ],
     "regulatory_status": [
       {
-        "value": "ChEMBL CHEMBL376756: maximum clinical phase 3. Jurisdiction-level status pending human review.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": []
+        "value": "Kisspeptin itself is not an approved medicine anywhere; kisspeptin-54 and kisspeptin-10 are investigational peptides used in academic trials, and vials sold as research chemicals are unapproved products. Two drugs act on its pathway and are often confused with it: fezolinetant (Veozah), an oral neurokinin-3 receptor antagonist approved in the United States in 2023 and elsewhere for menopausal hot flushes, which works one step upstream of kisspeptin; and MVT-602, a kisspeptin receptor agonist in phase 2 development for IVF triggering. Kisspeptin-10's position on FDA's 503A compounding lists should be checked against the live lists. Kisspeptin is not named on the WADA Prohibited List, but as an unapproved substance that raises testosterone it falls under S0 and, arguably, S2; athletes should treat it as prohibited.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "evidence_table": [
@@ -772,6 +923,34 @@
           "outcome": "Increasing radioiodine uptake, KISS1R and TIMP1 targeting may represent a therapeutic adjuvant option for undifferentiated TCs."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "Kisspeptins are peptides cut from the 145-amino-acid product of the KISS1 gene, named for Hershey, Pennsylvania, where the gene was found as a metastasis suppressor in 1996. Kisspeptin-54 is the main circulating form; kisspeptin-14, -13 and -10 share its ten-amino-acid C-terminal tail, which is all the receptor needs. In 2003 two groups found that people with inactivating mutations in the receptor, KISS1R (then GPR54), never went through puberty, which made kisspeptin the switch above GnRH.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The action is one step up from where most hormone drugs act. Kisspeptin neurons in the hypothalamus release the peptide onto GnRH neurons, which release GnRH in pulses into the pituitary's portal blood; the pituitary answers with LH within minutes and FSH more slowly; the gonads answer LH with testosterone or oestradiol over hours. Because kisspeptin works through the body's own GnRH pulse generator, its effect depends on the state of that generator: women respond most in the late follicular phase when oestradiol is high, and the 2014 trial found each woman with hypothalamic amenorrhoea had her own best dose.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The limiting property is desensitisation. GnRH neurons exposed to continuous high kisspeptin stop responding, as they do to continuous GnRH; that is why the trials give pulses, low-rate infusions or single doses, and why a 2026 study testing 12 days of daily eight-hour infusions in men was news. The 'kisspeptin/neurokinin B/dynorphin' (KNDy) neurons that generate the pulses are also the target of fezolinetant, the approved hot-flush drug, which blocks neurokinin B one step upstream.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Kisspeptin-10 circulates in two communities: men using it after anabolic steroids or alongside testosterone to restart or preserve their own production, and people of both sexes using it for libido, sometimes with PT-141. It is injected subcutaneously, usually at night, in daily or alternating patterns for weeks. Reports describe raised LH and testosterone on blood tests in the first days, then, often, a fading effect; libido reports are mixed. None of this comes from a controlled study of those uses. The trials dosed by body weight in nanomoles, mostly as infusions in a laboratory, and the community microgram figures were not derived from them; they are not reproduced here.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -819,7 +998,9 @@
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports exclusion criteria for Kisspeptin."
+    "No study has dosed kisspeptin for longer than 12 days, measured fertility or libido as a treatment outcome over weeks, or included men with low testosterone.",
+    "Dhillo 2005, George 2011 and Jayasena 2009 (desensitisation) are cited from summaries and are not yet in the ledger.",
+    "Whether kisspeptin-10 appears on FDA's compounding lists is unverified."
   ],
   "media": {
     "walkthrough_video": "",
@@ -827,20 +1008,52 @@
   },
   "faq": [
     {
-      "question": "Has Kisspeptin been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 34 clinical trials and 44 randomized controlled trials naming Kisspeptin or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "question": "Has kisspeptin been tested in humans?",
+      "answer": "Yes, extensively for a research peptide: the ledger holds 20 human studies, most of them randomized and placebo-controlled, from Imperial College London and others, in healthy volunteers, women with amenorrhoea or polycystic ovaries, women in IVF and people with low sexual desire. Almost all gave a single infusion or injection; the longest exposure is 12 days."
     },
     {
-      "question": "What kind of evidence exists for Kisspeptin?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What is the difference between kisspeptin-10 and kisspeptin-54?",
+      "answer": "Both come from the KISS1 gene product and both activate the same receptor through the same ten-amino-acid tail. Kisspeptin-54 is the main circulating form and the one in nearly every trial; kisspeptin-10 is the tail alone, shorter-lived, dosed at different rates, and the form usually sold as a research chemical."
     },
     {
-      "question": "Is Kisspeptin an approved medicine?",
-      "answer": "ChEMBL records CHEMBL376756 at maximum clinical phase 3, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+      "question": "Is there a kisspeptin dose?",
+      "answer": "For the trials, yes, by body weight: kisspeptin-54 at 0.01 to 1.0 nmol/kg/h by infusion, 9.6 nmol/kg as a single IVF trigger, 12.8 nmol/kg intranasally; kisspeptin-10 at 1.25 to 10 nmol/kg/h by subcutaneous infusion in men. No dose has been established for any use outside those settings, and the microgram figures that circulate were not derived from the trials."
     },
     {
-      "question": "Which species has Kisspeptin been studied in?",
-      "answer": "Studies in this record's ledger report work in: Dogs, Humans, Mice, Zebrafish. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "Does kisspeptin increase testosterone?",
+      "answer": "Acutely, in men, yes: kisspeptin-10 infusions raised LH, FSH and testosterone dose-dependently, and daily eight-hour infusions kept them raised for 12 days in a 2026 study. Whether intermittent injections keep working for weeks is unstudied, and older work found twice-daily kisspeptin-54 lost its effect within two weeks in women. Nothing has been tested in men with low testosterone or after steroids."
+    },
+    {
+      "question": "What are the side effects of kisspeptin?",
+      "answer": "The placebo-controlled trials report no serious adverse event attributed to it, no effect on anxiety, and, for the receptor agonist MVT-602, good tolerability across doses. The clinically important effect is not a side effect but a loss of effect: continuous high-dose kisspeptin desensitises the GnRH neurons it stimulates."
+    },
+    {
+      "question": "Is kisspeptin FDA approved?",
+      "answer": "No. Kisspeptin-54 and kisspeptin-10 are investigational. Two approved or near-approved drugs act on its pathway and are often confused with it: fezolinetant, an NK3 receptor antagonist approved in 2023 for menopausal hot flushes, and MVT-602, a kisspeptin receptor agonist in IVF trials."
+    },
+    {
+      "question": "Does kisspeptin help with libido?",
+      "answer": "Two randomized crossover trials found that a single 75-minute infusion of kisspeptin-54 changed sexual-processing brain activity in women and men with hypoactive sexual desire disorder, and in men raised penile tumescence and rated desire during the session. Those are single-dose mechanistic results, not a treatment trial over weeks, which has not been done."
+    },
+    {
+      "question": "How does kisspeptin compare with hCG for fertility?",
+      "answer": "In IVF, a single subcutaneous dose of kisspeptin-54 triggers egg maturation like hCG does but produces a shorter LH surge, which is why it was tested in women at high risk of ovarian hyperstimulation; a second dose 10 hours later improved oocyte yield. hCG acts directly on the ovary and is the approved, established trigger. Kisspeptin is not approved for this."
+    },
+    {
+      "question": "Can kisspeptin be taken as a nasal spray?",
+      "answer": "A 2025 randomized crossover study gave intranasal kisspeptin-54 at 12.8 nmol/kg to healthy men and women and to patients with a reproductive disorder and found rapid gonadotropin release, with stability testing of the nasal formulation. It is the first non-injected route with human data, and it is a clinical formulation, not a product."
+    },
+    {
+      "question": "Why do the trials worry about desensitisation?",
+      "answer": "Because GnRH neurons exposed to continuous high kisspeptin stop responding, as they do to continuous GnRH; the 2014 amenorrhoea paper states that chronic high-dose kisspeptin-54 causes desensitisation, and the 2009 study behind it saw the effect fade within two weeks of twice-daily injections. The whole trial programme uses pulses, low infusion rates or single doses for that reason."
+    },
+    {
+      "question": "Is kisspeptin banned in sport?",
+      "answer": "It is not named on the WADA Prohibited List. As an unapproved substance it falls under S0 at all times, and because it raises testosterone through the body's own axis it arguably falls under S2 as well; an athlete should treat it as prohibited."
+    },
+    {
+      "question": "Which species has kisspeptin been studied in?",
+      "answer": "Humans in 20 studies in the ledger; dogs, in a 14-day intravenous safety study and oestrus work; mice, for testicular development and puberty-triggering environmental compounds; zebrafish; and, for the analogue TAK-683, cattle. The human literature is unusually strong for a peptide sold as a research chemical."
     }
   ],
   "sources": [
@@ -1056,7 +1269,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 77.9,
+  "uniqueness_pct": 89.1,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1075,6 +1288,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 30 ledger sources by scripts/draft_claims.py: 25 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/kisspeptin.json: guide (8 sections incl. a table of all 20 human studies with isoform, dose, route and duration), FAQ to 12 plus 8 from the map, hand-written dose, weight-normalized, timeline and adverse-event claims from the abstracts (the drafter had missed every nmol/kg figure), mechanism, reported-use and regulatory claims; intent-driven H1 and title. Triage: a misdrafted escalation claim removed (regex matched 'escalating clinical interest'); two directory links added."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Kisspeptin in two minutes",
+      "html": "<p><strong>What it is.</strong> The hormone that starts puberty: peptides from the KISS1 gene that act on GnRH neurons, one step above where most reproductive drugs act. Kisspeptin-54 is the circulating form; kisspeptin-10 is its active tail, and the one sold as a research chemical.</p><p><strong>What the research actually shows.</strong> 3,850 indexed publications and a real trial programme, mostly at Imperial College London. Single infusions or injections raise LH within minutes and testosterone or oestradiol over hours; a single subcutaneous dose triggers egg maturation in IVF as well as hCG does, with less hyperstimulation; a 75-minute infusion changes sexual brain processing in people with low desire; 12 days of daily infusions kept testosterone raised in healthy men. Nothing has been given for longer.</p><p><strong>The catch.</strong> Continuous high-dose kisspeptin desensitises the system. The trials are built around that fact; the community 'restart' protocols are built against it.</p><p><strong>Status.</strong> Not approved. The approved drug on its pathway, fezolinetant, blocks a step upstream and treats hot flushes; the kisspeptin receptor agonist MVT-602 is in IVF trials.</p><p><strong>Where the evidence is thinnest.</strong> Weeks of intermittent injection, fertility or libido as an outcome rather than a hormone or an image, and anyone with low testosterone: none has been studied.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "Trial by trial: what kisspeptin did in people",
+      "lede": "Every human study in the ledger, with what was given and for how long. Rows marked 'measured only' gave no kisspeptin; they are in the ledger because they measured it or tested a related drug.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of kisspeptin in the ledger, by what was administered.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Participants</th><th scope=\"col\">Isoform, dose, route</th><th scope=\"col\">Duration</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Yeung 2026</td><td>15 healthy men (7, 4, 7) plus 12 controls</td><td>KP-10 subcutaneous: 1.25 to 10 nmol/kg/h acute; 180 nmol/h continuous; 150 nmol/h daily 8 h</td><td>8 hours; 5 days; <strong>12 days</strong></td><td>LH, FSH and testosterone rose dose-dependently and stayed raised through 12 days</td></tr><tr><td>Mills 2025 (anxiety)</td><td>95 volunteers, 63 men</td><td>KP-54 IV 1 nmol/kg/h</td><td>75 minutes, crossover</td><td>LH robustly up; <strong>no effect on anxiety</strong> by any measure</td></tr><tr><td>Mills 2025 (intranasal)</td><td>Healthy men and women; patients with a reproductive disorder</td><td>KP-54 intranasal 12.8 nmol/kg</td><td>Single</td><td>Rapid, clinically significant gonadotropin release</td></tr><tr><td>Mills 2023</td><td>37 men with hypoactive sexual desire disorder, 32 completed</td><td>KP-54 IV 1 nmol/kg/h</td><td>75 minutes, crossover</td><td>Sexual-processing brain activity modulated; penile tumescence and rated desire up during the session</td></tr><tr><td>Thurston 2022</td><td>40 women with hypoactive sexual desire disorder, 32 completed</td><td>KP-54 IV 1 nmol/kg/h</td><td>75 minutes, crossover</td><td>Sexual and facial-attraction brain processing modulated</td></tr><tr><td>Abbara 2017</td><td>62 women at high risk of ovarian hyperstimulation in IVF</td><td>KP-54 subcutaneous 9.6 nmol/kg, one or two doses 10 h apart</td><td>Single or double dose</td><td>Second dose improved oocyte yield</td></tr><tr><td>Jayasena 2014 (IVF)</td><td>53 women in IVF</td><td>KP-54 subcutaneous, single, dose-ranging</td><td>Single</td><td>Egg maturation at every dose, rising with dose; live births followed</td></tr><tr><td>Jayasena 2014 (amenorrhoea)</td><td>5 women with hypothalamic amenorrhoea</td><td>KP-54 IV 0.01 to 1.0 nmol/kg/h</td><td>8-hour infusions</td><td>LH pulses tripled; each woman's best dose differed; background: chronic high dose desensitises</td></tr><tr><td>Narayanaswamy 2016</td><td>Healthy women</td><td>KP-54 subcutaneous infusion 0.3 and 1.0 nmol/kg/h</td><td>Infusion</td><td>LH and FSH up; response tracked baseline oestradiol</td></tr><tr><td>Abbara 2024; Abbara 2020</td><td>Healthy premenopausal women, with and without ovarian stimulation</td><td>MVT-602 (receptor agonist) 0.01 and 0.03 nmol/kg vs KP-54 9.6 nmol/kg</td><td>Single</td><td>Safe and well tolerated; half-life 1.3 to 2.2 h; LH rose dose-dependently</td></tr><tr><td>Galbiati 2025; Galbiati 2026</td><td>12 healthy adults</td><td>KP 112-121 analogue IV bolus 0.24 nmol/kg</td><td>Single, 60 minutes</td><td>Oxytocin rose, more in one sex; vasopressin unchanged</td></tr><tr><td>Romero-Ruiz 2019</td><td>Women with polycystic ovary syndrome (n = 20 in the human part) and rat models</td><td>Kisspeptin, regimen in full text</td><td>Course</td><td>Gonadotropin responses and ovulation in a subset</td></tr><tr><td>Skorupskaite 2020</td><td>8 women with polycystic ovary syndrome</td><td>KP-10 4 mcg/kg after 7 days of an NK3 receptor antagonist</td><td>Single test dose</td><td>LH response to kisspeptin preserved while the antagonist lowered LH</td></tr><tr><td>Fraser 2021; Nielsen 2026</td><td>Women with polycystic ovary syndrome; healthy volunteers</td><td><em>Fezolinetant</em>, an NK3 antagonist, not kisspeptin</td><td>12 weeks; single and multiple doses</td><td>Testosterone lowered in PCOS; QT modelling. <strong>Measured only</strong> for kisspeptin</td></tr><tr><td>Rodanaki 2025; Katirci 2024</td><td>Girls with suspected precocious puberty; pregnant women with placenta previa</td><td>No kisspeptin given</td><td>—</td><td>Kisspeptin levels measured. <strong>Measured only</strong></td></tr></tbody></table></div></div><p>Two often-cited studies are not yet in the ledger: Dhillo 2005, the first kisspeptin-54 infusion in men, which raised LH and testosterone, and Jayasena 2009, which found that twice-daily subcutaneous kisspeptin-54 for two weeks in women with hypothalamic amenorrhoea lost its effect, the desensitisation the later trials work around.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every kisspeptin dose in the trials, in one table",
+      "lede": "Every figure here was given in a trial, by body weight in nanomoles. The microgram figures that circulate were not derived from them.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses of kisspeptin and analogues administered in human studies.</caption><thead><tr><th scope=\"col\">Isoform</th><th scope=\"col\">Route</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Population</th></tr></thead><tbody><tr><td>Kisspeptin-54</td><td>Intravenous infusion</td><td>0.01 to 1.0 nmol/kg/h</td><td>8-hour infusions; 75-minute infusions</td><td>Hypothalamic amenorrhoea; sexual-desire disorder; healthy volunteers</td></tr><tr><td>Kisspeptin-54</td><td>Subcutaneous injection</td><td>9.6 nmol/kg (about 56 mcg/kg by arithmetic on a molecular weight near 5,900)</td><td>Single, or two doses 10 h apart</td><td>IVF trigger</td></tr><tr><td>Kisspeptin-54</td><td>Subcutaneous infusion</td><td>0.3 and 1.0 nmol/kg/h</td><td>Infusion</td><td>Healthy women</td></tr><tr><td>Kisspeptin-54</td><td>Intranasal</td><td>12.8 nmol/kg</td><td>Single</td><td>Healthy men and women; reproductive-disorder patients</td></tr><tr><td>Kisspeptin-10</td><td>Subcutaneous infusion</td><td>1.25 to 10 nmol/kg/h acute; 180 nmol/h continuous; 150 nmol/h for 8 h daily</td><td>8 h; 5 days; 12 days</td><td>Healthy men</td></tr><tr><td>Kisspeptin-10</td><td>Intravenous</td><td>4 mcg/kg test dose</td><td>Single</td><td>Women with polycystic ovary syndrome</td></tr><tr><td>MVT-602 (receptor agonist)</td><td>Subcutaneous</td><td>0.01 and 0.03 nmol/kg</td><td>Single</td><td>Healthy premenopausal women</td></tr><tr><td>Kisspeptin 112-121 analogue</td><td>Intravenous bolus</td><td>0.24 nmol/kg</td><td>Single</td><td>Healthy adults</td></tr><tr><td>Kisspeptin-10</td><td>Intravenous, dogs</td><td>Not stated in the abstract</td><td>Daily for 14 days</td><td>Safety study</td></tr></tbody></table></div></div><p>Figures for kisspeptin that circulate on forums and vendor pages were not derived from these trials, which dosed by body weight in nanomoles, mostly as infusions. They are not reproduced here; the table holds every dose a study actually administered. Two things stand out in it: the isoforms differ in potency and duration and are not interchangeable, and the exposures are hours, with 12 days the longest anyone has been dosed.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who kisspeptin is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> healthy men and women; women with hypothalamic amenorrhoea, polycystic ovary syndrome, or undergoing IVF at high risk of hyperstimulation; men and women with hypoactive sexual desire disorder. <strong>Never studied:</strong> men with low testosterone or after anabolic steroids, anyone dosed for more than 12 days, adolescents, or anyone taking it with testosterone. <strong>Community:</strong> men on 'post-cycle' or on testosterone replacement, and people seeking libido.</p><p>The trials screened participants but their abstracts state no exclusion criteria. These cautions come from the physiology and the record:</p><ul class=\"list\"><li><strong>Desensitisation.</strong> Continuous high-dose exposure switches the response off. Daily injection for weeks is closer to continuous than to pulsatile, and its effect over months is unmeasured.</li><li><strong>Hormone-sensitive conditions.</strong> Kisspeptin raises oestradiol and testosterone; anyone with a hormone-driven cancer, endometriosis or a prostate condition is in territory the trials excluded by design.</li><li><strong>Men on testosterone.</strong> Exogenous testosterone suppresses GnRH at the same neurons kisspeptin stimulates; the combination has not been studied.</li><li><strong>Pregnancy.</strong> Kisspeptin is made by the placenta at high levels; giving more has not been studied, and the IVF use ends at egg retrieval.</li><li><strong>Puberty.</strong> The hormone that starts puberty should not be near anyone who has not finished it; no study has looked, for good reason.</li><li><strong>Tested athletes.</strong> Not named on the WADA list (see the <a href=\"/compounds\">compound directory</a> for how each record states sport status), but an unapproved testosterone-raising agent falls under S0 and arguably S2.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The hormone timeline is precise. <strong>Minutes:</strong> LH rises during an infusion or after a nasal dose. <strong>Hours:</strong> testosterone and oestradiol follow; a single subcutaneous dose of kisspeptin-54 produces an LH surge of about <strong>12 to 14 hours</strong>, and the receptor agonist MVT-602 clears with a half-life of 1.3 to 2.2 hours. <strong>Days:</strong> in one 2026 study, daily eight-hour infusions kept testosterone raised through <strong>12 days</strong>. <strong>Weeks:</strong> in the 2009 study not yet in the ledger, twice-daily injections for two weeks lost their effect. Nothing has been measured beyond that. 'How long does it take to kick in' has an answer in minutes; 'how long does it keep working' has an answer that stops at 12 days, and the older data say the answer after that is 'less'.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>The 2025 intranasal study included pharmaceutical stability testing of kisspeptin-54 for nasal delivery, the only handling data in the ledger, and it concerns a clinical formulation. Research-chemical vials follow vendor sheets for lyophilised peptides; nothing about their stability has been published.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how kisspeptin is discussed",
+      "html": "<ol class=\"list\"><li><strong>Treating kisspeptin-10 and kisspeptin-54 as the same product.</strong> Kisspeptin-54 is the isoform in almost every trial; kisspeptin-10 is shorter-acting and was dosed differently. Vials sold as 'kisspeptin' are usually the ten.</li><li><strong>Reading acute testosterone rises as a restart protocol.</strong> The trials show hours of stimulation, one shows 12 days; the 2009 study shows the effect fading with twice-daily injections. Nobody has studied men after steroids.</li><li><strong>Calling the libido trials treatment trials.</strong> They were single 75-minute infusions with brain imaging. Desire was rated during the session, not over weeks.</li><li><strong>Converting nmol/kg to a vial dose by guesswork.</strong> The trial doses depend on the isoform's molecular weight and on body weight, and were given as infusions; the arithmetic in the table above is labelled as arithmetic.</li><li><strong>Confusing kisspeptin with fezolinetant or MVT-602.</strong> Fezolinetant blocks neurokinin B upstream and treats hot flushes; MVT-602 is a receptor agonist in IVF trials. Neither is kisspeptin, and neither is sold as it; the site's <a href=\"/compare\">comparison pages</a> keep such pairs apart.</li><li><strong>Assuming safety data cover community use.</strong> The trials found nothing serious in hours to days under supervision. Months of home injection have never been observed.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Kisspeptin vs hCG, clomiphene, GnRH, PT-141 and the kisspeptin-pathway drugs",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Kisspeptin beside the agents it is compared with for fertility, testosterone and libido.</caption><thead><tr><th scope=\"col\">Agent</th><th scope=\"col\">Where it acts</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>Kisspeptin (KP-54, KP-10)</strong></td><td>Hypothalamus, on GnRH neurons</td><td>Controlled trials, hours to 12 days; IVF trigger phase 2</td><td>Investigational; research chemical</td></tr><tr><td>hCG</td><td>Directly on the gonads, as an LH mimic</td><td>Decades of use; approved</td><td>Prescription medicine; WADA S2 in men</td></tr><tr><td>Clomiphene</td><td>Hypothalamus and pituitary, blocking oestrogen feedback</td><td>Approved for ovulation induction; off-label in men</td><td>Prescription medicine; WADA S4</td></tr><tr><td>GnRH / gonadorelin</td><td>Pituitary</td><td>Pulsatile pumps for hypothalamic hypogonadism; approved</td><td>Prescription medicine</td></tr><tr><td><a href=\"/compounds/bremelanotide-pt-141\">Bremelanotide (PT-141)</a></td><td>Melanocortin receptors in the brain, not the reproductive axis; 127 indexed publications</td><td>14 randomized trials; approved 2019 for premenopausal low desire</td><td>Prescription medicine (Vyleesi)</td></tr><tr><td>Fezolinetant (Veozah)</td><td>Neurokinin-3 receptor on the KNDy neurons upstream of kisspeptin</td><td>Phase 3 trials; approved 2023</td><td>Prescription medicine for hot flushes</td></tr><tr><td>MVT-602</td><td>Kisspeptin receptor, as a longer-acting agonist</td><td>Phase 1 and 2 in IVF</td><td>Investigational</td></tr></tbody></table></div></div><p>For libido, the approved comparator is <a href=\"/compounds/bremelanotide-pt-141\">PT-141</a>, which acts on a different system and has the treatment trials kisspeptin lacks. For testosterone, hCG and clomiphene have the clinical record; kisspeptin's advantage is physiological, acting through the body's own pulse generator, and its disadvantage is the same thing, since that generator desensitises. <a href=\"/compounds/igf-1-lr3\">IGF-1 LR3</a> shares this site's growth-factor and reproductive class but has nothing to do with the axis.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
