@@ -3,13 +3,49 @@
   "title": "Ipamorelin vs GHRP-6",
   "slug": "ipamorelin-vs-ghrp-6",
   "status": "draft",
-  "summary": "Ipamorelin: tier human clinical trial, 63 indexed publications, 2 randomized trials. GHRP-6: tier human clinical trial, 738 indexed publications, 22 randomized trials. 7 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "summary": "Ipamorelin and GHRP-6 act on the same receptor, the ghrelin receptor, to make the pituitary release growth hormone. GHRP-6 came first and is not selective: it raises ACTH and cortisol alongside growth hormone and produces marked hunger. Ipamorelin was designed afterwards to separate the growth hormone effect from the rest, and its selectivity is why it displaced the older compounds in research use. GHRP-6 is more potent per milligram, by roughly fifty times in the rat study that gave both. Neither has shown a clinical benefit in a randomised human trial: ipamorelin's largest, in 114 people after bowel surgery, found no significant difference from placebo, and GHRP-6's 2026 trial in 95 people after stroke found no difference in disability, function or survival. The direct comparisons between them are all in animals.",
   "seo": {
-    "title": "Ipamorelin vs GHRP-6: what the studies show",
-    "description": "Ipamorelin vs GHRP-6, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+    "title": "Ipamorelin vs GHRP-6: Selectivity, and Two Failed Trials",
+    "description": "Ipamorelin vs GHRP-6: selectivity, potency, the rat comparisons, and the randomised human trials in which neither compound beat placebo."
   },
   "attributes": {
     "head_to_head": [
+      {
+        "value": "Randomized controlled trial, humans, n=114, 2014: There were no significant differences between ipamorelin and placebo in the key and secondary efficacy analyses.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25331030"
+        ],
+        "source_excerpt": "There were no significant differences between ipamorelin and placebo in the key and secondary efficacy analyses.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Phase 3 randomized trial, humans, n=95, 2026: In the intention-to-treat population, no differences were found in mRS, Barthel index nor survival.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42462342"
+        ],
+        "source_excerpt": "In the intention-to-treat population, no differences were found in mRS, Barthel index nor survival.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Pharmacokinetic study, humans, n=9, 2012: Disposition of GHRP-6 best fitted a bi-exponential function with R(2) higher than 0.99, according to a mathematic modeling",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-23099431"
+        ],
+        "source_excerpt": "Disposition of GHRP-6 best fitted a bi-exponential function with R(2) higher than 0.99, according to a mathematic modeling",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Diagnostic testing study, humans, 2000: GH peaks seen after the GHRH/GHRP-6 test did not result in any side-effects and were not affected by age, sex, amount of adipose tissue",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11030292"
+        ],
+        "source_excerpt": "GH peaks seen after the GHRH/GHRP-6 test did not result in any side-effects and were not affected by age, sex, amount of adipose tissue",
+        "drafting": "extractive"
+      },
       {
         "value": "In vitro study, 2019: Comparison with reference standards unequivocally identified the content of the powders as analogs of the growth hormone secretagogues GHRP-2 (Pralmorelin), GHRP-6, Ipamorelin, and modified growth hormone releasing factor (modified GRF 1-29), which can be used as performance-enhancing substances in sports.",
         "evidence_label": "mechanistic-in-vitro",
@@ -77,10 +113,31 @@
   },
   "sources": [
     {
+      "id": "pmid-42462342",
+      "title": "Phase III Open-Label, Randomized Clinical Trial of Epidermal Growth Factor and Growth Hormone-Releasing Peptide 6 in stroke.",
+      "url": "https://europepmc.org/article/MED/42462342",
+      "published": "2026-07-16",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-30136411",
       "title": "Glycine-modified growth hormone secretagogues identified in seized doping material.",
       "url": "https://europepmc.org/article/MED/30136411",
       "published": "2018-09-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25331030",
+      "title": "Prospective, randomized, controlled, proof-of-concept study of the Ghrelin mimetic ipamorelin for the management of postoperative ileus.",
+      "url": "https://europepmc.org/article/MED/25331030",
+      "published": "2014-10-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23099431",
+      "title": "Pharmacokinetic study of Growth Hormone-Releasing Peptide 6 (GHRP-6) in nine male healthy volunteers.",
+      "url": "https://europepmc.org/article/MED/23099431",
+      "published": "2012-10-23",
       "kind": "peer-reviewed"
     },
     {
@@ -91,24 +148,10 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-9879640",
-      "title": "Pharmacokinetic evaluation of ipamorelin and other peptidyl growth hormone secretagogues with emphasis on nasal absorption.",
-      "url": "https://europepmc.org/article/MED/9879640",
-      "published": "1998-11-01",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-12168778",
       "title": "Influence of chronic treatment with the growth hormone secretagogue Ipamorelin, in young female rats: somatotroph response in vitro.",
       "url": "https://europepmc.org/article/MED/12168778",
       "published": "2002-01-01",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-10828840",
-      "title": "The GH secretagogues ipamorelin and GH-releasing peptide-6 increase bone mineral content in adult female rats.",
-      "url": "https://europepmc.org/article/MED/10828840",
-      "published": "2000-06-01",
       "kind": "peer-reviewed"
     },
     {
@@ -119,10 +162,31 @@
       "kind": "peer-reviewed"
     },
     {
+      "id": "pmid-11030292",
+      "title": "GH-releasing hormone and GH-releasing peptide-6 for diagnostic testing in GH-deficient adults.",
+      "url": "https://europepmc.org/article/MED/11030292",
+      "published": "2000-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10828840",
+      "title": "The GH secretagogues ipamorelin and GH-releasing peptide-6 increase bone mineral content in adult female rats.",
+      "url": "https://europepmc.org/article/MED/10828840",
+      "published": "2000-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-10427162",
       "title": "Pharmacological characterisation of a new oral GH secretagogue, NN703.",
       "url": "https://europepmc.org/article/MED/10427162",
       "published": "1999-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9879640",
+      "title": "Pharmacokinetic evaluation of ipamorelin and other peptidyl growth hormone secretagogues with emphasis on nasal absorption.",
+      "url": "https://europepmc.org/article/MED/9879640",
+      "published": "1998-11-01",
       "kind": "peer-reviewed"
     }
   ],
@@ -130,23 +194,131 @@
     "ipamorelin",
     "ghrp-6"
   ],
-  "faq": [],
-  "open_questions": [],
+  "faq": [
+    {
+      "question": "What is the difference between ipamorelin and GHRP-6?",
+      "answer": "Selectivity. Both activate the ghrelin receptor to release growth hormone; GHRP-6 also raises ACTH and cortisol and produces marked hunger, and ipamorelin was designed to avoid those. GHRP-6 is also more potent per milligram."
+    },
+    {
+      "question": "Has either been shown to work in people?",
+      "answer": "Not for a clinical outcome. Ipamorelin's largest randomised trial, in 114 people after bowel surgery, found no significant difference from placebo. GHRP-6's most recent randomised trial, in 95 people after stroke, found no difference in disability, function or survival. Both reliably release growth hormone."
+    },
+    {
+      "question": "Has anyone compared them directly?",
+      "answer": "In rats, several times: for bowel motility after surgery, for growth hormone release, and in pharmacokinetic work. No human study has given both."
+    },
+    {
+      "question": "Does GHRP-6 make you hungry?",
+      "answer": "Yes, markedly, and that is the ghrelin pathway doing what ghrelin does rather than an incidental side effect. Ipamorelin's selectivity is partly defined by not doing this."
+    },
+    {
+      "question": "Which is stronger?",
+      "answer": "GHRP-6 per milligram, by a wide margin: the rat comparison used 20 micrograms per kilogram of GHRP-6 against 1 milligram per kilogram of ipamorelin. Strength in that sense is a potency measure and says nothing about which produces a better result."
+    },
+    {
+      "question": "Does ipamorelin raise cortisol?",
+      "answer": "It was specifically developed not to, and that selectivity is why it displaced the older secretagogues in research use. GHRP-6's own record shows repeated dosing raising ACTH and cortisol alongside growth hormone."
+    },
+    {
+      "question": "What is GHRP-6 actually used for clinically?",
+      "answer": "As a diagnostic agent. Combined with growth hormone-releasing hormone it tests how much growth hormone the pituitary can release, which is used in assessing growth hormone deficiency. That is a laboratory test, not a treatment."
+    },
+    {
+      "question": "How do they compare with GHRP-2 or MK-677?",
+      "answer": "GHRP-2 is more potent than GHRP-6 and also raises cortisol; hexarelin is more potent still and raises prolactin; MK-677 is orally active and long-acting, so it raises growth hormone continuously rather than in a pulse. The useful axis across the family is how much else moves with the growth hormone."
+    },
+    {
+      "question": "Are they approved?",
+      "answer": "Neither is approved as a medicine anywhere. Both are sold as research chemicals and both are prohibited in sport as growth hormone secretagogues."
+    },
+    {
+      "question": "What doses were used in the studies?",
+      "answer": "The rat comparison used ipamorelin 1 mg/kg against GHRP-6 20 micrograms per kilogram. Human doses come from each compound's own trials and are on their own records; neither has an approved label."
+    },
+    {
+      "question": "Is one safer than the other?",
+      "answer": "Neither has a safety database worth the name. Ipamorelin's selectivity means fewer hormones are disturbed, which is a plausible safety advantage that no long-term study has tested in either direction."
+    },
+    {
+      "question": "Why are they always mentioned together?",
+      "answer": "Because ipamorelin was designed as the answer to GHRP-6's problems, so the two define the before and after of one design decision. They also appear together in doping-control assay papers, because both are prohibited in sport."
+    }
+  ],
+  "open_questions": [
+    "No human study has given both compounds, so the comparison rests on rat studies and on each one's separate human trials.",
+    "No study has tested whether ipamorelin's selectivity produces any clinical advantage over GHRP-6.",
+    "Neither compound has a long-term safety study in people.",
+    "Neither has an approved label, so no regulator has set a dose for either."
+  ],
   "review": {
     "author": "",
     "reviewer": "",
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 88.5,
+  "uniqueness_pct": 94.4,
   "changelog": [
     {
       "date": "2026-09-14",
       "change": "Comparison record generated from research/registry.json plan; 7 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/ipamorelin-vs-ghrp-6.json. Stage 0: the seven drafted head-to-head claims are genuine direct comparisons and all are animal or analytical work; ipamorelin's postoperative-ileus trial was added by hand so the page can state what each compound showed in people. Nine guide sections including the selectivity explanation, a table of the randomised human evidence for each, and the rat comparisons with their doses."
     }
   ],
   "sides": [
     "ipamorelin",
     "ghrp-6"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "The comparison in two minutes",
+      "html": "<p><strong>Same receptor, different manners.</strong> Both act on the ghrelin receptor to make the pituitary release growth hormone. GHRP-6 came first, in the 1980s; ipamorelin was designed afterwards to do the same job with fewer side effects.</p><p><strong>The difference is selectivity.</strong> GHRP-6 raises <b>ACTH and cortisol</b> as well as growth hormone, and produces strong hunger. Ipamorelin was selected for releasing growth hormone without those.</p><p><strong>Neither has shown a clinical benefit in a randomised human trial.</strong> Ipamorelin's largest, in 114 people after bowel surgery, found no significant difference from placebo. GHRP-6's most recent, in 95 people after stroke, found no difference in disability, function or survival.</p><p><strong>The direct comparisons are in rats.</strong> Several studies gave both compounds to the same animals, for bowel motility and for growth hormone release.</p><p><strong>GHRP-6 has a real clinical use that has nothing to do with why it is sold:</strong> combined with growth hormone-releasing hormone, it is a diagnostic test of pituitary reserve.</p>"
+    },
+    {
+      "id": "selectivity",
+      "heading": "Selectivity: the whole of the difference",
+      "lede": "This is not marketing language. It is the design brief ipamorelin was built to.",
+      "html": "<p>The ghrelin receptor sits on pituitary cells that release growth hormone, and also on pathways that release ACTH, which drives cortisol, and on the circuits that drive appetite. A compound that activates the receptor without discrimination does all of it.</p><p><b>GHRP-6</b> does all of it. Its own record shows repeated intravenous dosing raising ACTH and cortisol alongside growth hormone, and in Cushing's disease that ACTH response is exaggerated. The hunger it produces is not a side effect in the incidental sense: it is the ghrelin pathway doing what ghrelin does.</p><p><b>Ipamorelin</b> was developed from that starting point with the explicit aim of separating the growth hormone effect from the rest, and its selectivity is the reason it displaced the older compounds in research use.</p><p>What follows from that is narrower than the marketing suggests. Selectivity is a statement about which hormones move, demonstrated in pharmacology studies. It is not evidence that either compound produces a result a person would notice, and on that question the two are level, because neither has.</p>"
+    },
+    {
+      "id": "human-evidence",
+      "heading": "What each has shown in people",
+      "lede": "Both have human trials. Read what they found.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>The randomised human evidence for each compound.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Trial</th><th scope=\"col\">People</th><th scope=\"col\">Finding</th></tr></thead><tbody><tr><td><b>Ipamorelin</b></td><td>Postoperative ileus, 2014</td><td>114</td><td><b>No significant differences</b> from placebo in the key and secondary efficacy analyses</td></tr><tr><td>Ipamorelin</td><td>Dose-ranging pharmacology</td><td>Early trials</td><td>Releases growth hormone at all dose levels, dose-dependently</td></tr><tr><td><b>GHRP-6</b></td><td>Stroke recovery, 2026</td><td>95</td><td><b>No differences</b> in modified Rankin score, Barthel index or survival</td></tr><tr><td>GHRP-6</td><td>Phase 1 pharmacokinetics</td><td>—</td><td>Disposition fitted a two-compartment model</td></tr><tr><td>GHRP-6</td><td>Pituitary testing, 2000 onwards</td><td>Varied</td><td>Used with growth hormone-releasing hormone as a test of growth hormone reserve</td></tr><tr><td>GHRP-6</td><td>Endocrine studies</td><td>Varied</td><td>Raises ACTH and cortisol; response exaggerated in Cushing's disease</td></tr></tbody></table></div></div><p>The pattern is the same for both and it is worth stating plainly: each reliably does something measurable to hormones, and neither has been shown to change an outcome that matters to a patient. Ipamorelin's failure was in a condition, slow return of bowel function, chosen because a ghrelin agonist should plausibly help it. GHRP-6's 2026 stroke trial measured disability and survival and found nothing.</p><p>That is a stronger statement than either vendor page makes, and it rests on the trials themselves rather than on mechanism.</p>"
+    },
+    {
+      "id": "head-to-head-animals",
+      "heading": "The direct comparisons, which are in rats",
+      "html": "<p>Unusually for this site, direct comparisons exist. They are animal studies, and several of them gave both compounds to the same animals under the same conditions.</p><p>In a 2009 rat model of postoperative ileus, <q cite='https://europepmc.org/article/MED/19289567'>compared with the vehicle, a single dose of ipamorelin (1 mg/kg) or GHRP-6 (20 microg/kg) decreased the time to the first bowel movement</q>. Note the doses: ipamorelin was given at fifty times the amount, which is a potency difference rather than an effect difference, and it is the kind of detail that disappears when a comparison is made from prose.</p><p>A 2000 study set out <q cite='https://europepmc.org/article/MED/10828840'>to investigate whether the GHSs, ipamorelin (IPA) and GH-releasing peptide-6 (GHRP-6), increase</q> the measure it was testing, in seven rats. A 1998 study compared the pharmacokinetics of ipamorelin with two related compounds in rats. And a 2019 forensic analysis identified seized powders as analogues of these same secretagogues, which is a comparison of a different kind.</p><p>No human study has given both.</p>"
+    },
+    {
+      "id": "family",
+      "heading": "The rest of the family, briefly",
+      "html": "<p>These two sit in a family of ghrelin-receptor agonists that includes <b>GHRP-2</b>, more potent than GHRP-6 and also cortisol-raising; <b>hexarelin</b>, the most potent and the most prolactin-raising; and <b>MK-677</b>, an orally active non-peptide with a much longer duration, which is a different proposition because it raises growth hormone around the clock rather than in a pulse.</p><p>The ordering people want, from weakest to strongest, is not the useful axis. The useful axis is how much else moves with the growth hormone, and on that axis ipamorelin is at one end and hexarelin at the other.</p><p>Related pages: <a href=\"/compounds/ipamorelin\">ipamorelin</a>, <a href=\"/compounds/ghrp-6\">GHRP-6</a>, and the pairing with a releasing-hormone analogue at <a href=\"/stacks/cjc-1295-ipamorelin\">CJC-1295 with ipamorelin</a>.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Doses as studied",
+      "html": "<p>The rat comparison used <b>1 mg/kg</b> of ipamorelin against <b>20 micrograms per kilogram</b> of GHRP-6, which is the clearest published statement of their relative potency in a matched setting. Human doses for each come from their own trials and sit on their own records, with the studies that produced them.</p><p>Neither has an approved label, so there is no dose from a regulator for either.</p>"
+    },
+    {
+      "id": "status",
+      "heading": "Status: neither is an approved medicine",
+      "html": "<p>Both are unapproved and sold as research chemicals. GHRP-6 has a clinical footprint as a diagnostic agent in endocrine testing, used with growth hormone-releasing hormone to assess pituitary reserve, and that use is a laboratory procedure rather than a treatment. Both are prohibited in sport as growth hormone secretagogues, which is why they appear together in doping-control assay papers.</p>"
+    },
+    {
+      "id": "choosing",
+      "heading": "What the evidence lets you say",
+      "html": "<p><strong>Supported:</strong> both release growth hormone through the ghrelin receptor; GHRP-6 also raises ACTH, cortisol and appetite and ipamorelin largely does not; ipamorelin is less potent per milligram; both improved bowel transit in rats; neither changed a clinical outcome in its randomised human trial.</p><p><strong>Not supported:</strong> that either produces a benefit a person would notice; that selectivity translates into better results rather than fewer hormonal side effects; that the rat potency difference tells you anything about human dosing; that either is safer, since neither has a safety database worth the name.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in this comparison",
+      "html": "<ol class=\"list\"><li><strong>Treating selectivity as efficacy.</strong> It means fewer hormones move, not that more happens.</li><li><strong>Omitting the failed trials.</strong> Both compounds have a randomised human trial that found nothing.</li><li><strong>Comparing potency without the doses.</strong> The rat study used fifty times more ipamorelin than GHRP-6.</li><li><strong>Reading GHRP-6's hunger as a bonus or a flaw.</strong> It is the ghrelin pathway working as designed.</li><li><strong>Assuming a human head-to-head exists.</strong> The direct comparisons are in rats.</li><li><strong>Ignoring that GHRP-6 has a legitimate diagnostic use.</strong> It is a pituitary test agent, which is not what it is sold for.</li></ol>"
+    }
+  ],
+  "prose_reviewed": true
 }
