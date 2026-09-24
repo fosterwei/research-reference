@@ -1,0 +1,569 @@
+{
+  "slug": "foxo4-dri",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "europepmc-search"
+  ],
+  "scope": "Informational intent only. Vendor and price queries declined under the commercial-intent rule.",
+  "thin_serp": false,
+  "stage0_note": "The record's tier read observational-human although no human has received the peptide; the rows so labelled are human cells in culture and human autopsy lung tissue. Corrected to animal-preclinical at stage 0. The 2017 Cell paper that introduced the peptide was missing from the ledger and is added by hand.",
+  "serp_2026-09-24": {
+    "query": "foxo4-dri",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "video",
+      "related_searches"
+    ],
+    "organic_top": [
+      "pmc.ncbi.nlm.nih.gov (2020 Leydig mouse study)",
+      "fightaging.org",
+      "frontiersin.org (endothelial senescence)",
+      "en.wikipedia.org",
+      "dvm360.com",
+      "nature.com (keloid fibroblasts)",
+      "biolongevitylabs.com (vendor)",
+      "instagram.com"
+    ],
+    "note": "A literature SERP: four of the ten results are primary papers or journals, one is Wikipedia, one a longevity blog, one a vendor and one a video reel. The AI Overview cites Wikipedia, Nature, PMC, Frontiers and two peptide directories. No dosing guide ranks."
+  },
+  "demand_findings": "A small, low-difficulty head: foxo4-dri at 1,831 with KD 12, plus foxo4-dri peptide 457 and foxo4 dri 254, about 2,500 across spellings. What follows is telling: reddit at 254 and benefits at 203 outrank dosage and side effects at 50 each, and the vendor name proxofim draws 152 of its own. Fourteen of the thirty keywords measured are not in the index at all, including every versus-query and every commercial modifier. This is an audience reading about a compound, not one following a schedule.",
+  "h1": "FOXO4-DRI: the senolytic peptide that has never been given to a person, what it did in mice, and why it stalled",
+  "dek": "Nine years after the paper that designed it, FOXO4-DRI has no first-in-human study, no registered trial and no measured half-life. This page tables every study by species, sets the only dose ever tested beside the schedule that circulates, and records what became of the company formed to develop it.",
+  "queries": [
+    {
+      "query": "foxo4-dri",
+      "volume": {
+        "clickstream": 1831,
+        "google_ads": 1600,
+        "kd": 12,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What FOXO4-DRI is, and how far it has got"
+    },
+    {
+      "query": "foxo4 dri",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 1600,
+        "kd": 12,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What FOXO4-DRI is, and how far it has got"
+    },
+    {
+      "query": "foxo4-dri peptide",
+      "volume": {
+        "clickstream": 457,
+        "google_ads": 1000,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What FOXO4-DRI is, and how far it has got"
+    },
+    {
+      "query": "foxo4 peptide",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 480,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What FOXO4-DRI is, and how far it has got"
+    },
+    {
+      "query": "what is foxo4-dri",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 40,
+        "kd": 13,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is FOXO4-DRI?",
+      "answer": "FOXO4-DRI is a synthetic peptide designed in 2017 at the Erasmus University Medical Center to break the grip senescent cells keep on the protein p53. It is built from D-amino acids in reverse order, which is what D-retro-inverso means, so enzymes cannot easily degrade it. In mice it killed senescent cells selectively and restored fur density, fitness and kidney function in old animals. It has never been given to a person in a trial, and it is sold online under the vendor name Proxofim."
+    },
+    {
+      "query": "foxo4-dri benefits",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 260,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "assessment",
+      "heading": "What the studies found, and in what",
+      "boundary": "No human trial of FOXO4-DRI has ever been run or registered. Every study here is a mouse, a rat or a dish of cells, including the ones labelled human, which are human cells in culture and human autopsy tissue."
+    },
+    {
+      "query": "foxo4-dri senolytic",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How it works: a decoy that frees p53"
+    },
+    {
+      "query": "senolytic peptide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 90,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How it works: a decoy that frees p53"
+    },
+    {
+      "query": "foxo4-dri reddit",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 110,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Community posts describe injecting a few hundred micrograms a day in cycles of a few weeks, sometimes under the vendor name Proxofim, with before-and-after photographs and self-reported energy and skin changes. None of it is measured, and the schedule is not the one the mouse studies used."
+    },
+    {
+      "query": "foxo4-dri before and after",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 50,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Community posts describe injecting a few hundred micrograms a day in cycles of a few weeks, sometimes under the vendor name Proxofim, with before-and-after photographs and self-reported energy and skin changes. None of it is measured, and the schedule is not the one the mouse studies used."
+    },
+    {
+      "query": "foxo4-dri results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "assessment",
+      "heading": "What the studies found, and in what",
+      "boundary": "No human trial of FOXO4-DRI has ever been run or registered. Every study here is a mouse, a rat or a dish of cells, including the ones labelled human, which are human cells in culture and human autopsy tissue."
+    },
+    {
+      "query": "proxofim",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 90,
+        "kd": 18,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is Proxofim?",
+      "answer": "Proxofim is a name several research-chemical vendors use for FOXO4-DRI. It is not the brand of an approved medicine, it denotes no particular purity or manufacturer, and no regulator has assessed anything sold under it. The name appears in vendor listings and search suggestions, not in the scientific literature."
+    },
+    {
+      "query": "foxo4-dri proxofim",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is Proxofim?"
+    },
+    {
+      "query": "foxo4-dri dosage",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 260,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every dose in the studies, and the species that received it",
+      "boundary": "The only dosing figures that exist are the ones mice received, by intraperitoneal injection, in the studies below. The sixteen-week microgram ladders on vendor pages correspond to nothing that was ever tested."
+    },
+    {
+      "query": "foxo4-dri side effects",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 110,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what is known, which is almost nothing",
+      "boundary": "There are no human safety data at all. What the mouse papers report is that the peptide was tolerated at the doses they used; what they did not do is look for harm systematically, in a species whose senescent cells also help wounds heal."
+    },
+    {
+      "query": "foxo4 dri human trial",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "human-gap",
+      "heading": "The human trial that does not exist"
+    },
+    {
+      "query": "foxo4-dri fda",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: no approval, no registered trial, sold as a research chemical"
+    },
+    {
+      "query": "foxo4-dri half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of FOXO4-DRI?",
+      "answer": "No published study gives one, and no abstract in this ledger states a figure. The D-retro-inverso design exists precisely to slow degradation, because a peptide of ordinary L-amino acids would be cleared quickly, but resistance to enzymes is not the same as a measured half-life. Nothing has been measured in a person at all."
+    },
+    {
+      "query": "foxo4-dri cycle",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every dose in the studies, and the species that received it",
+      "boundary": "The only dosing figures that exist are the ones mice received, by intraperitoneal injection, in the studies below. The sixteen-week microgram ladders on vendor pages correspond to nothing that was ever tested."
+    },
+    {
+      "query": "foxo4-dri reconstitution",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "foxo4-dri injection",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "routes_studied",
+      "heading": "Routes: intraperitoneal in the mouse studies"
+    },
+    {
+      "query": "foxo4-dri mice",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "trials",
+      "heading": "Study by study: what FOXO4-DRI did, and in what"
+    },
+    {
+      "query": "foxo4-dri longevity",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "assessment",
+      "heading": "What the studies found, and in what",
+      "boundary": "No human trial of FOXO4-DRI has ever been run or registered. Every study here is a mouse, a rat or a dish of cells, including the ones labelled human, which are human cells in culture and human autopsy tissue."
+    },
+    {
+      "query": "foxo4-dri vs fisetin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "FOXO4-DRI beside the senolytics that have reached human trials",
+      "boundary": "FOXO4-DRI is the least far along of the senolytics people discuss. Dasatinib with quercetin, fisetin and navitoclax have all reached human trials; this peptide has not reached a first-in-human study nine years after the paper that introduced it."
+    },
+    {
+      "query": "foxo4-dri vs dasatinib",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "FOXO4-DRI beside the senolytics that have reached human trials",
+      "boundary": "FOXO4-DRI is the least far along of the senolytics people discuss. Dasatinib with quercetin, fisetin and navitoclax have all reached human trials; this peptide has not reached a first-in-human study nine years after the paper that introduced it."
+    },
+    {
+      "query": "cleara biotech",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 30,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "company",
+      "heading": "Who owns it, and why it has not moved"
+    },
+    {
+      "query": "foxo4-dri hair",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does FOXO4-DRI regrow hair?",
+      "answer": "The 2017 mouse paper reported restored fur density in old and in chemotherapy-treated mice, which is where the question comes from. Fur density in a mouse is not hair growth in a person, no trial has looked, and the mechanism proposed is the clearance of senescent cells in aged skin rather than anything acting on hair follicles."
+    },
+    {
+      "query": "foxo4-dri kidney",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What did FOXO4-DRI do to kidney function in mice?",
+      "answer": "The 2017 paper reported that renal function improved in fast-ageing and in naturally aged mice after the peptide was given. Senescent-cell accumulation in the kidney is one of the better-studied targets for senolytics generally, and a 2018 review in this ledger argues the same for transplanted kidneys. No human kidney has been studied."
+    },
+    {
+      "query": "foxo4-dri testosterone",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "trials",
+      "heading": "Study by study: what FOXO4-DRI did, and in what"
+    },
+    {
+      "query": "what does foxo4 dri peptide do",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is FOXO4-DRI?",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "best supplement to get rid of senescent cells",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "FOXO4-DRI beside the senolytics that have reached human trials",
+      "boundary": "FOXO4-DRI is the least far along of the senolytics people discuss. Dasatinib with quercetin, fisetin and navitoclax have all reached human trials; this peptide has not reached a first-in-human study nine years after the paper that introduced it.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/foxo4-dri",
+      "rank": null,
+      "words": 4052,
+      "tables": 9,
+      "h2": 21,
+      "sci_links": 4,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 24,
+      "gap": "States plainly that there is no human trial and that the mouse regimen was milligrams per kilogram intraperitoneally, then prints a sixteen-week ladder of a few hundred micrograms a day as a reported community schedule, with a reconstitution calculator; never notices that the ladder is orders of magnitude below the only dose that did anything. Not in the Google top 10 on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F7 S6 U3"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/FOXO4-DRI",
+      "rank": 7,
+      "words": 706,
+      "tables": 1,
+      "h2": 3,
+      "sci_links": 34,
+      "score": 14,
+      "gap": "A stub: structure, the 2017 paper, a chemical box. Heavily cited but almost no content; no dose, no study table, no status",
+      "source": "fetched 2026-09-24, metrics measured; scored D2 F2 S6 U4"
+    },
+    {
+      "url": "https://www.fightaging.org/archives/2026/02/people-are-still-working-on-the-senolytic-peptide-foxo4-dri/",
+      "rank": 4,
+      "words": 1184,
+      "tables": 0,
+      "h2": 1,
+      "sci_links": 3,
+      "byline": "Reason (pseudonymous longevity writer)",
+      "score": 15,
+      "gap": "The best contextual page on the SERP: explains that Cleara Biotech has moved towards the FOXO4-p53 interaction rather than the peptide itself, that anyone can buy it, and that no useful data will come of that use. One study quoted in full; no dose, no trial table",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S4 U4"
+    },
+    {
+      "url": "https://www.dvm360.com/view/cellpenetrating-peptide-targets-senescent-cells-to-fight-aging",
+      "rank": 8,
+      "score": null,
+      "gap": "Veterinary trade coverage of the 2017 paper; fetch blocked by the site's bot protection",
+      "source": "SERP result; not fetched"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7053614/",
+      "rank": 2,
+      "score": null,
+      "gap": "The 2020 Leydig-cell mouse paper ranks second on its own; the top organic result for the query is a primary study",
+      "source": "SERP result; abstract in the ledger (pmid-31959736)"
+    },
+    {
+      "url": "https://biolongevitylabs.com/product/foxo4-dri-10-mg/",
+      "rank": 10,
+      "score": null,
+      "gap": "Vendor listing under the Proxofim name; out of scope by the commercial-intent rule",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that tables FOXO4-DRI's entire evidence base by species and shows the human column empty, including the studies whose records carry the word human, which used human cells in culture and human autopsy tissue. The only page to set the mouse regimen from the 2017 paper beside the microgram ladders that circulate, and show they differ by roughly two orders of magnitude, so the schedule people follow does not follow from the mouse work it cites. The only page that records what became of the development: a company formed on the Erasmus work that has moved towards the FOXO4-p53 interaction rather than the peptide, no registered trial, and a literature in which the peptide is mostly a laboratory probe for other diseases, pulmonary fibrosis, keloid scars, glioblastoma, bronchopulmonary dysplasia, Leydig-cell ageing and endothelial ageing, rather than a candidate being developed for ageing itself.",
+  "serp_format_rewarded": "A cited explainer, not a protocol. Four of the top ten results are primary papers; the SERP rewards pages that read the literature, and the one dosing guide in this space does not rank. A study-by-species table plus an explicit statement of what has not been done fits what is already winning.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "human-gap",
+    "mechanism",
+    "assessment",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "company",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add the 2017 Cell paper (Baar et al., PMID 28340339) to the ledger by hand; the fetcher missed it and it is the paper the whole page rests on.",
+    "Add the 2024 spermatogenesis mouse study (PMID 39025385) and the 2023 extracellular-matrix study (PMID 37074394) found in the Europe PMC search but absent from the ledger.",
+    "The mouse dose is in the 2017 paper's methods, not its abstract; cited editorially with pending_source until the full text is in the ledger.",
+    "Registry: evidence_tier corrected from observational-human to animal-preclinical; the species field on human-cell rows still reads Humans, which is the standing accept-script item."
+  ]
+}
