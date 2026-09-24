@@ -24,9 +24,9 @@ Categories: Research, Evidence, Safety & Regulation, Methodology, Industry News,
 
 `discovered` → `researched` → `draft` → `reviewed` → `published` → `stale` → `retired`
 
-- Only `published` records are indexable and enter the sitemap. The plugin enforces this from the `record_status` field.
-- `reviewed` and `published` records must have a named author, a different named reviewer, a review date, at least one source, and a source citation on every claim.
-- Records in any other state are noindex even if WordPress has published them.
+- Records in `draft`, `reviewed` or `published` are indexable and enter the sitemap; `discovered`, `researched`, `stale` and `retired` render noindex.
+- `reviewed` marks that a named person has checked the record; their name and credential then appear on the page. It is not a precondition for indexing.
+- Every non-editorial claim cites at least one source; editorial claims are labelled as such on the page.
 
 ## Evidence labels
 
@@ -40,6 +40,7 @@ Use these exact values in `evidence_tier` and in every claim's `evidence_label`:
 | `animal-preclinical` | Animal study |
 | `mechanistic-in-vitro` | Cell, tissue, or mechanistic work |
 | `community-reported` | Anecdotal or community protocol; never presented as clinical fact |
+| `editorial` | Written from general knowledge, not from a ledger source: mechanism, history, class context, regulatory status, what is commonly reported. Marked on the page as editorial synthesis; may carry `pending_source: true` when a known document is still to be added |
 
 ## Claim fields
 
@@ -75,7 +76,7 @@ purpose, and move qualifiers into subheadings.
 
 ## Sitemap rules
 
-Only `published` records that pass the gates enter the sitemap. Entries must be
+Records in `draft`, `reviewed` or `published` that pass the gates enter the sitemap. Entries must be
 final 200-status URLs; a redirecting or placeholder URL in the sitemap is a
 defect. `lastmod` carries the record's own revision timestamp from `changelog`,
 never the build time.

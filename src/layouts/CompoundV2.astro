@@ -74,12 +74,14 @@ const baseTitle = title(entry);
 
 // Evidence fields in spec order: [record field, block id, default heading, human label for absence statements].
 const evidence: Array<[string, string, string, string]> = [
+  ['mechanism', 'mechanism', 'How it works', 'mechanism of action'],
   ['study_doses', 'doses', 'Doses reported in studies', 'doses'],
   ['escalation_schedules', 'escalation', 'Escalation schedules used in studies', 'dose-escalation schedules'],
   ['adverse_events', 'adverse', 'Adverse events and frequency', 'adverse events or their frequency'],
   ['study_durations', 'durations', 'Study durations', 'treatment durations'],
   ['routes_studied', 'routes', 'Routes studied', 'routes of administration'],
   ['weight_normalized_doses', 'weight', 'Weight-normalized doses, as published', 'weight-normalized doses'],
+  ['reported_use', 'reported-use', 'What is commonly reported outside the literature', 'commonly reported use'],
   ['interactions', 'interactions', 'Reported interactions', 'interactions with other agents'],
   ['exclusion_criteria', 'exclusion', 'Exclusion criteria in studies', 'exclusion criteria'],
   ['biomarkers_monitored', 'biomarkers', 'Biomarkers measured in studies', 'biomarkers'],
@@ -98,6 +100,8 @@ const defaultLedes: Record<string, string> = {
   weight_normalized_doses: 'Per-kilogram figures exactly as each study published them, for the species it studied.',
   storage: 'Stability and storage conditions as reported.',
   reported_timelines: 'Onset, peak and duration figures as each study reported them.',
+  mechanism: 'Written from general pharmacology and the development record, and marked as editorial synthesis; the measurements behind it are quoted in the biomarker section.',
+  reported_use: 'What circulates in user communities and clinic marketing, reported so a reader knows the figures and their origin. None of it has been tested in a trial, and none of it is a suggestion.',
 };
 // A boundary sentence from the intent map opens the lede when one exists (policy evidence-with-boundary).
 const ledeFor = (f: string) => [boundaryFor(intent, f), defaultLedes[f]].filter(Boolean).join(' ');
@@ -175,7 +179,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
       <p class="dek" set:html={dek} />
       <div class="pills">
         <span class="pill"><Tier tier={d.evidence_tier} /></span>
-        {d.status !== 'published' ? <span class="pill draft">{d.status.charAt(0).toUpperCase() + d.status.slice(1)} · not yet reviewed</span> : <span class="pill">Reviewed {d.review.reviewed_at}</span>}
+        {d.review?.reviewer && <span class="pill">Reviewed {d.review.reviewed_at}</span>}
         <span class="pill">{d.sources.length} sources</span>
         {updated && <span class="pill">Updated <Fragment set:html={timeTag(updated)} /></span>}
         {brandAliases.length > 0 && <span class="pill dashed">Also: {brandAliases.join(', ')}</span>}
@@ -186,7 +190,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
       <aside><Toc items={toc} /></aside>
       <div class="content">
         <section id="glance"><h2>At a glance</h2><FactTiles record={d} reg={reg} /></section>
-        <StatusBar review={d.review} status={d.status} />
+        <StatusBar review={d.review} status={d.status} sources={d.sources.length} updated={updated} />
         {intent?.decline_notice && <p class="lede">{intent.decline_notice}</p>}
         <section id="what"><h2>{headingFor(intent, 'what', 'What it is')}</h2>{summaryParas.map((html) => <p class="prose-lg" set:html={html} />)}</section>
         <EvidenceAssessment record={d} />

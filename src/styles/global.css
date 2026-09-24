@@ -2,14 +2,14 @@
   --ink: #17202a; --ink-2: #4a5663; --ink-3: #6f7c89;
   --paper: #fbfbf9; --surface: #ffffff; --rule: #dde2e7; --sunk: #f1f3f5;
   --accent: #1f5fa8;
-  --t-approved: #12704a; --t-trial: #1f5fa8; --t-obs: #5b6ea8; --t-animal: #b4700f; --t-vitro: #8a5a2b; --t-community: #a8324a;
+  --t-approved: #12704a; --t-trial: #1f5fa8; --t-obs: #5b6ea8; --t-animal: #b4700f; --t-vitro: #8a5a2b; --t-community: #a8324a; --t-editorial: #5d6b7a;
   --serif: Georgia, "Times New Roman", serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 @media (prefers-color-scheme: dark) {
   :root { --ink:#e4e9ee; --ink-2:#a7b1bb; --ink-3:#7f8a95; --paper:#0e1317; --surface:#151c22; --rule:#28323b; --sunk:#111820; --accent:#5a9be0;
-    --t-approved:#2fb07e; --t-trial:#5a9be0; --t-obs:#8fa0d6; --t-animal:#d49a3a; --t-vitro:#c48a5a; --t-community:#e07a90; }
+    --t-approved:#2fb07e; --t-trial:#5a9be0; --t-obs:#8fa0d6; --t-animal:#d49a3a; --t-vitro:#c48a5a; --t-community:#e07a90; --t-editorial:#98a6b5; }
 }
 * { box-sizing: border-box; }
 html { color-scheme: light dark; }
@@ -48,6 +48,7 @@ p { margin: .6rem 0; }
 .label[data-tier="animal-preclinical"] { background: var(--t-animal); }
 .label[data-tier="mechanistic-in-vitro"] { background: var(--t-vitro); }
 .label[data-tier="community-reported"] { background: var(--t-community); }
+.label[data-tier="editorial"] { background: var(--t-editorial); }
 dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: .4rem 1.25rem; margin: 1rem 0; }
 dl.facts dt { color: var(--ink-3); font-size: .9rem; } dl.facts dd { margin: 0; }
 table { border-collapse: collapse; width: 100%; font-size: .95rem; }

@@ -57,7 +57,7 @@ compliance afterthought, and stages 3 and 5 below encode it.
 | 4 | Information gain | `information_gain` in the intent map | One sentence naming something no competitor has |
 | 5 | Outline | `outline[]` in the intent map | Every section maps to record data or a stated absence |
 | 6 | Draft, format, measure | Record claims, built page | Validator passes; formatting and intent coverage reported |
-| 7 | Human review | `review.reviewer_credential` | A named credentialed person signed it |
+| 7 | Editorial check | changelog entry | Editorial passages accurate and hedged; a reviewer named only if one really reviewed |
 
 Stages 1 to 5 are research and cost money or time but touch no page. Stage 6 is
 mechanical. Stage 7 is the launch blocker and cannot be automated.

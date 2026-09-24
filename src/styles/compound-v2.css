@@ -21,6 +21,9 @@
 .v2 .tier[data-tier="approved-label"] i { background: var(--t-approved); } .v2 .tier[data-tier="human-clinical-trial"] i { background: var(--t-trial); }
 .v2 .tier[data-tier="observational-human"] i { background: var(--t-obs); } .v2 .tier[data-tier="animal-preclinical"] i { background: var(--t-animal); }
 .v2 .tier[data-tier="mechanistic-in-vitro"] i { background: var(--t-vitro); } .v2 .tier[data-tier="community-reported"] i { background: var(--t-community); }
+.v2 .tier[data-tier="editorial"] i { background: var(--t-editorial); }
+.v2 .claim.editorial { border-left: 3px solid var(--t-editorial); }
+.v2 .claim .plain { font-size: 16.5px; line-height: 1.6; }
 .v2 .layout { display: grid; grid-template-columns: 232px minmax(0, 1fr); gap: 56px; margin-top: 40px; align-items: start; }
 .v2 .content { display: flex; flex-direction: column; gap: 44px; min-width: 0; }
 .v2 section { display: flex; flex-direction: column; gap: 16px; }
@@ -36,6 +39,7 @@
 .v2 .fact .v.sm { font-size: 19px; }
 .v2 .fact .s { font-size: 13px; color: var(--ink-3); }
 .v2 .status { display: flex; gap: 12px; align-items: flex-start; padding: 12px 16px; background: var(--v2-warn-bg); border: 1px solid var(--v2-warn-bd); border-radius: 6px; color: var(--v2-warn-fg); font-size: 15px; }
+.v2 .status.neutral { background: var(--sunk); border-color: var(--rule); color: var(--ink-2); }
 .v2 .status.ok { background: var(--v2-ok-bg); border-color: var(--v2-ok-bd); color: var(--v2-ok-fg); }
 .v2 .status a { color: inherit; text-decoration: underline; }
 .v2 .status svg { flex: none; margin-top: 3px; }

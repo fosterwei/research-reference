@@ -7,7 +7,7 @@ interface Props {
   description: string;
   /** Path beginning with "/", used for the self-referencing canonical. */
   path: string;
-  /** Only published records are indexable; everything else is noindex. */
+  /** Records with drafted content are indexable (see lib/site.ts isIndexable). */
   indexable?: boolean;
   jsonld?: Record<string, unknown> | Record<string, unknown>[];
   /** Append the site name to the title. Pages on the 60-character budget pass false when the base title is long. */
@@ -65,7 +65,9 @@ const pageTitle = title.includes(SITE_NAME) || !siteSuffix ? title : `${title} |
           <p class="foot-head">About</p>
           <a href="/about">How pages are made</a>
           <a href="/about#tiers">Evidence tiers</a>
-          <a href="/about#review">Review status</a>
+          <a href="/about#review">Publication and review</a>
+          <a href="/privacy">Privacy</a>
+          <a href="/contact">Contact and corrections</a>
           <a href="/about#not">What this site does not do</a>
         </nav>
       </div>

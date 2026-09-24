@@ -223,9 +223,8 @@
       "source": "competitor-h2+paa",
       "intent": "informational",
       "policy": "evidence-only",
-      "section": "what",
-      "heading": "What it is and how it acts",
-      "note": "Selective GHS-R1a agonist. The summary carries the mechanism; the biomarker claims are the measurements behind it. Do not write mechanism prose that no source states.",
+      "section": "mechanism",
+      "heading": "How ipamorelin works",
       "measured_as": "how does ipamorelin work",
       "answer": null
     },
@@ -298,6 +297,7 @@
   "outline": [
     "glance",
     "what",
+    "mechanism",
     "assessment",
     "human-trials",
     "evidence",
@@ -309,6 +309,7 @@
     "durations",
     "routes",
     "weight",
+    "reported-use",
     "method",
     "compare",
     "combination",
@@ -321,11 +322,11 @@
     "changelog"
   ],
   "open_actions": [
-    "FDA 503A bulk-substances notice (Federal Register 2024-21241) and the WADA Prohibited List S2.2 entry could not be fetched from the build environment on 2026-09-23 (TLS failures on every route; DataForSEO OnPage not enabled on the account). Fetch from another machine, add both to the ledger with verbatim excerpts, then re-draft regulatory_status.",
     "Add FDA bulk-substances and WADA S2 documents to the ipamorelin source ledger, then re-draft regulatory_status.",
     "Reviewer to rule on three evidence-table rows: Lu 2024 is an anamorelin paper, Timms 2014 is an anti-doping detection method, one row's author parsed as 'N'.",
     "Add 'ipamorelin-vs-sermorelin' and 'ipamorelin-vs-tesamorelin' to the comparison plan in research/registry.json; both cross class lines, so the comparison record must lead with the class difference rather than a head-to-head that no study ran.",
-    "Add the boundary sentence to the cjc-1295-ipamorelin stack record: it receives the highest-demand query in the set."
+    "Add the boundary sentence to the cjc-1295-ipamorelin stack record: it receives the highest-demand query in the set.",
+    "FDA 503A notice and WADA S2 list: editorial statements are on the page marked pending; add the primary documents with verbatim excerpts when they can be fetched."
   ],
   "demand_findings": [
     "Demand concentrates on combination and comparison, not on the compound alone: 'cjc 1295 ipamorelin dosage' 8,100/mo and 'ipamorelin cjc 1295' 6,600/mo (Ads and clickstream agree) against 20,809/mo clickstream for the bare name.",

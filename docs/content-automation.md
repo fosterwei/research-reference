@@ -18,7 +18,7 @@ anything runs unattended.
 | 4 | triage (a person) | the audit | `research/audits/<slug>-<date>.md`, part 2 | every suggestion labelled |
 | 5 | adjust at the right layer | the triage | commits | accepted items applied; rejected items have a written reason |
 | 6 | gate | build | `measure_pages.py` reports; second `/seo-content` run | minimums met; exit audit compared to the first, not looped |
-| 7 | human review | the page | `review.reviewer_credential` set | a named person signed it |
+| 7 | editorial check | the page | dated changelog entry; reviewer named if one reviewed | editorial passages accurate; nothing reads as an instruction |
 
 Steps 1 and 3 are skills that already exist. Steps 0, 2 and 6 are scripts that
 already exist. Steps 4 and 7 are people. Step 5 is whoever the triage assigns.
