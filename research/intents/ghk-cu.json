@@ -5,7 +5,8 @@
   "sources": [
     "dataforseo-keyword-overview-clickstream",
     "serp-top-results",
-    "competitor-faq"
+    "competitor-faq",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "thin_serp": false,
@@ -250,5 +251,31 @@
   ],
   "suppress": [
     "storage"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/ghk-cu",
+      "words": 5261,
+      "tables": 10,
+      "h2": 20,
+      "score": 25,
+      "gap": "Injection dosing guide built on topical evidence; byline without credential",
+      "source": "cached crawl, metrics measured; scored D8 F8 S6 U3 like the other incumbent pages"
+    },
+    {
+      "url": "https://www.joinmidi.com/post/ghk-cu",
+      "words": 2800,
+      "tables": 0,
+      "score": 27,
+      "gap": "MD-reviewed, 7 DOI citations, explicitly separates topical from injected; no tables, no dose data, sells a clinician service"
+    },
+    {
+      "url": "https://riteaid.com/peptides/ghk-cu",
+      "score": null,
+      "gap": "Health-team byline",
+      "source": "SERP top result, not fetched"
+    }
+  ],
+  "information_gain": "The only page that tabulates GHK-Cu's human studies and shows that every one is topical, sets injected use against that record explicitly, gives the reconstitution arithmetic for the milligram-scale vials people actually buy, and lists the copper-balance measures a repeated injection would call for. The topical-versus-injected distinction is stated in a table, not a paragraph.",
+  "serp_format_rewarded": "Long-form explainer; Wikipedia and one PMC review rank; the injected-use question is answered only by vendors and clinics"
 }

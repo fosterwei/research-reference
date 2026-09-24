@@ -333,11 +333,28 @@
     ],
     "regulatory_status": [
       {
-        "value": "Not approved anywhere and never administered to people in a registered trial; the analogue CB4211 completed phase 1 before development stopped. MOTS-c activates AMPK, and WADA's Prohibited List bans AMPK activators under metabolic modulators (class S4.4); athletes should treat it as prohibited. Its status on FDA compounding lists should be checked against the live list.",
+        "value": "U.S. Anti-Doping Agency: MOTS-c is prohibited at all times under WADA section 4.4 (metabolic modulators), 4.4.1 activators of AMP-activated protein kinase.",
+        "evidence_label": "approved-label",
+        "source_ids": [
+          "usada-mots-c"
+        ],
+        "source_excerpt": "Yes, MOTS-c is prohibited at all times under Section 4.4 Metabolic Modulators, 4.4.1. Activators of the AMP-activated protein kinase (AMPK) on the World Anti-Doping Agency Prohibited List.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "U.S. Anti-Doping Agency: not FDA-approved for use in humans or in compounded medications; no completed human clinical trials.",
+        "evidence_label": "approved-label",
+        "source_ids": [
+          "usada-mots-c"
+        ],
+        "source_excerpt": "Currently, MOTS-c is not approved by the Food and Drug Administration (FDA) for use in humans or in compounded medications. Currently, it is unknown under what conditions (if any) it is safe to use MOTS-c because there are no completed human clinical trials.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The synthetic analogue CB4211 completed a phase 1 study in obesity and fatty liver before its developer discontinued the programme; MOTS-c itself has never been administered to people in a registered trial.",
         "evidence_label": "editorial",
         "source_ids": [],
-        "drafting": "editorial",
-        "pending_source": true
+        "drafting": "editorial"
       }
     ],
     "evidence_table": [
@@ -941,7 +958,7 @@
     },
     {
       "question": "Is MOTS-c banned in sport?",
-      "answer": "It activates AMPK, and WADA bans AMPK activators under metabolic modulators (S4.4). Athletes should treat it as prohibited."
+      "answer": "Yes. USADA states it is prohibited at all times under WADA section 4.4, metabolic modulators, as an activator of AMPK."
     },
     {
       "question": "Does MOTS-c help with weight loss?",
@@ -1284,10 +1301,17 @@
       "url": "https://europepmc.org/article/MED/27216708",
       "published": "2016-05-20",
       "kind": "peer-reviewed"
+    },
+    {
+      "id": "usada-mots-c",
+      "title": "What is the MOTS-c peptide? (U.S. Anti-Doping Agency, accessed 2026-09-24)",
+      "url": "https://www.usada.org/spirit-of-sport/what-is-mots-c-peptide/",
+      "published": "2026-09-24",
+      "kind": "regulatory"
     }
   ],
   "related": [],
-  "uniqueness_pct": 84.8,
+  "uniqueness_pct": 85.0,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1310,13 +1334,17 @@
     {
       "date": "2026-09-24",
       "change": "Written guide, FAQ to 16, mechanism, reported-use (no circulating figures reproduced) and regulatory editorial sections; the observational-versus-administered distinction made explicit; intent-driven H1 and title."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "USADA added to the ledger; the sport-status statement is now a verbatim regulatory claim (S4.4, prohibited at all times) instead of an editorial hedge. Stage 2 competitors and information gain written to the intent map."
     }
   ],
   "guide": [
     {
       "id": "quick-answer",
       "heading": "MOTS-c in two minutes",
-      "html": "<p><strong>What it is.</strong> A small peptide made by mitochondria themselves, released with exercise and metabolic stress, that activates the cell's energy sensor and shifts metabolism toward burning fat and taking up glucose.</p><p><strong>What the research actually shows.</strong> 277 indexed publications. Mice: better insulin sensitivity, resistance to diet-induced obesity, better late-life fitness. People: circulating levels rise with exercise and track metabolic health in observational studies. No human has been given MOTS-c in a trial; a synthetic analogue completed phase 1 and was dropped.</p><p><strong>Status.</strong> Not approved anywhere; an AMPK activator, so within the class WADA prohibits.</p><p><strong>Where the evidence is thinnest.</strong> Any effect of administering it to a person, at any dose, for anything.</p>"
+      "html": "<p><strong>What it is.</strong> A small peptide made by mitochondria themselves, released with exercise and metabolic stress, that activates the cell's energy sensor and shifts metabolism toward burning fat and taking up glucose.</p><p><strong>What the research actually shows.</strong> 277 indexed publications. Mice: better insulin sensitivity, resistance to diet-induced obesity, better late-life fitness. People: circulating levels rise with exercise and track metabolic health in observational studies. No human has been given MOTS-c in a trial; a synthetic analogue completed phase 1 and was dropped.</p><p><strong>Status.</strong> Not approved anywhere; prohibited at all times under WADA S4.4 as an AMPK activator, per USADA.</p><p><strong>Where the evidence is thinnest.</strong> Any effect of administering it to a person, at any dose, for anything.</p>"
     },
     {
       "id": "dosage-chart",

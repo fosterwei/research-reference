@@ -4,7 +4,9 @@
   "generated": "2026-09-24",
   "sources": [
     "dataforseo-keyword-overview-clickstream",
-    "competitor-faq"
+    "competitor-faq",
+    "serp-top-results",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "thin_serp": false,
@@ -220,5 +222,31 @@
   ],
   "suppress": [
     "storage"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/slu-pp-332",
+      "words": 7972,
+      "tables": 13,
+      "h2": 20,
+      "score": 25,
+      "gap": "7,972 words of dosing and reconstitution for a compound with zero human data; byline without credential",
+      "source": "cached crawl, metrics measured; scored D8 F8 S6 U3 like the other incumbent pages"
+    },
+    {
+      "url": "https://superpower.com/guides/peptides/slu-pp-332",
+      "words": 8200,
+      "tables": 0,
+      "score": 31,
+      "gap": "MD byline, 27 PubMed citations, states animal doses only; no tables; ends in a membership pitch"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SLU-PP-332",
+      "score": null,
+      "gap": "Authority; excluded",
+      "source": "SERP top result, not fetched"
+    }
+  ],
+  "information_gain": "The only page that says in its first line that SLU-PP-332 is a small molecule rather than a peptide, tabulates the four mouse studies by dose, route and duration, and places it against WADA's metabolic-modulator class with the reasoning rather than an assertion.",
+  "serp_format_rewarded": "Explainer; chemical-vendor catalogue pages and Wikipedia rank, so a page that resolves 'what is it and is there any human data' fits"
 }

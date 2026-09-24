@@ -3,7 +3,9 @@
   "type": "comparison",
   "generated": "2026-09-24",
   "sources": [
-    "dataforseo-keyword-overview-clickstream"
+    "dataforseo-keyword-overview-clickstream",
+    "serp-top-results",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "h1": "Ipamorelin vs sermorelin: two receptors, one hormone, and what the evidence can and cannot compare",
@@ -49,5 +51,27 @@
     "sources",
     "related",
     "changelog"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://riteaid.com/peptides/compare/sermorelin-vs-ipamorelin",
+      "score": null,
+      "gap": "Pharmacy comparison page",
+      "source": "SERP top result, not fetched"
+    },
+    {
+      "url": "https://ubiehealth.com/doctors-note/sermorelin-vs-ipamorelin-medical-reality-proven-4743q2",
+      "score": null,
+      "gap": "Symptom-checker site article",
+      "source": "SERP top result, not fetched"
+    },
+    {
+      "url": "https://healingmaps.com/sermorelin-vs-cjc-1295-vs-ipamorelin-comparison/",
+      "score": null,
+      "gap": "Three-way comparison listicle",
+      "source": "SERP top result, not fetched"
+    }
+  ],
+  "information_gain": "The only comparison that leads with the class difference (GHRH analogue versus ghrelin mimetic), sets a once-approved medicine against a never-approved one with dates, and states that no study compares them rather than ranking them by marketing attributes.",
+  "serp_format_rewarded": "Comparison pages from clinics; one pharmacy page"
 }

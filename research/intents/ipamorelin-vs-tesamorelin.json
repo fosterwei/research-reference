@@ -3,7 +3,9 @@
   "type": "comparison",
   "generated": "2026-09-24",
   "sources": [
-    "dataforseo-keyword-overview-clickstream"
+    "dataforseo-keyword-overview-clickstream",
+    "serp-top-results",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "h1": "Ipamorelin vs tesamorelin: an approved medicine with a label against an unapproved compound with two trials",
@@ -49,5 +51,27 @@
     "sources",
     "related",
     "changelog"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://riteaid.com/peptides/stacks/tesamorelin-and-ipamorelin",
+      "score": null,
+      "gap": "Pharmacy stack page",
+      "source": "SERP top result, not fetched"
+    },
+    {
+      "url": "https://www.perfectb.com/tesamorelin-vs-cjc-1295-ipamorelin/",
+      "score": null,
+      "gap": "Clinic comparison",
+      "source": "SERP top result, not fetched"
+    },
+    {
+      "url": "https://swolverine.com/blogs/blog/tesamorelin-vs-ipamorelin-which-peptide-is-right-for-you-a-comprehensive-comparison",
+      "score": null,
+      "gap": "Supplement-brand comparison",
+      "source": "SERP top result, not fetched"
+    }
+  ],
+  "information_gain": "The only comparison that treats the asymmetry as the content: an approved drug with a label, phase 3 trials and a defined dose for one indication against an unapproved compound with two trials, with the label's own cautions listed as the reason tesamorelin's risks are known rather than theoretical.",
+  "serp_format_rewarded": "Comparison pages from clinics and brands; one pharmacy page"
 }

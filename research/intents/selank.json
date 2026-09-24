@@ -4,7 +4,9 @@
   "generated": "2026-09-24",
   "sources": [
     "dataforseo-keyword-overview-clickstream",
-    "competitor-faq"
+    "competitor-faq",
+    "serp-top-results",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "thin_serp": false,
@@ -220,5 +222,31 @@
   ],
   "suppress": [
     "storage"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/selank",
+      "words": 6252,
+      "tables": 13,
+      "h2": 20,
+      "score": 25,
+      "gap": "Dosage chart and reconstitution for a Russian medicine's grey-market copies; byline without credential",
+      "source": "cached crawl, metrics measured; scored D8 F8 S6 U3 like the other incumbent pages"
+    },
+    {
+      "url": "https://montarebehavioralhealth.com/blog/selank-peptide/",
+      "words": 1850,
+      "tables": 1,
+      "score": 22,
+      "gap": "Treatment-centre page; 7 citations; cautions but no trial detail; no byline"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Selank",
+      "score": null,
+      "gap": "Authority; excluded",
+      "source": "SERP top result, not fetched"
+    }
+  ],
+  "information_gain": "The only page that lists the indexed Russian trials with designs and sample sizes, states the GABA-A and enkephalin mechanism as animal findings, and separates Semax from Selank by parent peptide and temperament in one table with links to both records and their comparison page.",
+  "serp_format_rewarded": "Explainer; Wikipedia, PMC and treatment centres rank; no authority page"
 }

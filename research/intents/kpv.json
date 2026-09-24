@@ -4,7 +4,9 @@
   "generated": "2026-09-24",
   "sources": [
     "dataforseo-keyword-overview-clickstream",
-    "competitor-faq"
+    "competitor-faq",
+    "serp-top-results",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "thin_serp": false,
@@ -208,5 +210,31 @@
   ],
   "suppress": [
     "storage"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+      "words": 5381,
+      "tables": 14,
+      "h2": 25,
+      "score": 25,
+      "gap": "14 tables of dosing and reconstitution for a compound with no human study; byline without credential",
+      "source": "cached crawl, metrics measured; scored D8 F8 S6 U3 like the other incumbent pages"
+    },
+    {
+      "url": "https://riteaid.com/peptides/kpv",
+      "words": 1900,
+      "tables": 1,
+      "score": 21,
+      "gap": "Health-team byline; 4 citations; frames doses as non-standardised; sells a tracking toolkit"
+    },
+    {
+      "url": "https://www.joinmidi.com/post/kpv",
+      "score": null,
+      "gap": "MD-reviewed explainer for a midlife audience",
+      "source": "SERP top result, not fetched"
+    }
+  ],
+  "information_gain": "The only page that tabulates every KPV study by model and route, showing the reader that the gut reputation rests on one 2008 mouse study and that no human study of any kind exists, and that says why the oral-dosing idea arose (PepT1 uptake in mice) without turning it into a human claim.",
+  "serp_format_rewarded": "Explainer; SERP is thin and mixed with unrelated 'KP' antimicrobial peptide papers, so a clear definitional page fits"
 }

@@ -4,7 +4,9 @@
   "generated": "2026-09-24",
   "sources": [
     "dataforseo-keyword-overview-clickstream",
-    "competitor-faq"
+    "competitor-faq",
+    "serp-top-results",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "thin_serp": false,
@@ -235,5 +237,31 @@
   ],
   "suppress": [
     "storage"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/mots-c",
+      "words": 5770,
+      "tables": 11,
+      "h2": 20,
+      "score": 25,
+      "gap": "Dosing chart and cycle guide for a peptide never administered to people; byline without credential",
+      "source": "cached crawl, metrics measured; scored D8 F8 S6 U3 like the other incumbent pages"
+    },
+    {
+      "url": "https://riteaid.com/peptides/mots-c",
+      "words": 2800,
+      "tables": 1,
+      "score": 24,
+      "gap": "Health-team byline; 5 citations incl. WADA; states no standard dose; sells a toolkit"
+    },
+    {
+      "url": "https://www.usada.org/spirit-of-sport/what-is-mots-c-peptide/",
+      "score": null,
+      "gap": "Authority page, used as a source: S4.4 prohibited, not FDA approved, no completed human trials",
+      "source": "SERP result; fetched and cited"
+    }
+  ],
+  "information_gain": "The only page that separates the thirteen human studies, all of which measured the body's own MOTS-c, from the mouse studies that administered it, in a table; quotes USADA verbatim on the S4.4 prohibition; and names the discontinued analogue rather than borrowing its phase 1 as safety data.",
+  "serp_format_rewarded": "Explainer; USADA, Nature Communications and Wikipedia rank alongside clinics"
 }

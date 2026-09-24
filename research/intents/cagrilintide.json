@@ -5,7 +5,8 @@
   "sources": [
     "dataforseo-keyword-overview-clickstream",
     "serp-top-results",
-    "competitor-faq"
+    "competitor-faq",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "thin_serp": false,
@@ -224,5 +225,31 @@
   ],
   "suppress": [
     "storage"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/cagrilintide",
+      "words": 6139,
+      "tables": 12,
+      "h2": 20,
+      "score": 25,
+      "gap": "Titration guide for a phase 3 drug's grey-market copies; byline without credential",
+      "source": "cached crawl, metrics measured; scored D8 F8 S6 U3 like the other incumbent pages"
+    },
+    {
+      "url": "https://www.joinmidi.com/post/cagrilintide-peptide",
+      "words": 4800,
+      "tables": 0,
+      "score": 29,
+      "gap": "MD-reviewed, 15 references, warns against self-dosing; no tables, promotes the clinic's own weight-loss service"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cagrilintide",
+      "score": null,
+      "gap": "Authority; excluded as competitor",
+      "source": "SERP top result, not fetched"
+    }
+  ],
+  "information_gain": "The only page that lays out the REDEFINE trials from fifteen indexed randomized trials in one table with doses, durations and outcomes, states plainly that the trial doses and the circulating doses are the same numbers while the product differs, and lists what the trials monitored rather than inventing a monitoring schedule.",
+  "serp_format_rewarded": "Long-form explainer; Wikipedia, PubMed and clinicaltrials.gov rank alongside clinics; news-driven"
 }
