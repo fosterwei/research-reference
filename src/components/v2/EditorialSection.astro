@@ -1,0 +1,16 @@
+---
+// A written section: prose, lists and tables from a record's `guide[]`,
+// marked once as editorial synthesis. Cited claim cards, when the page has
+// them for the same topic, render beneath the prose as its receipts.
+interface Props { id: string; heading: string; lede?: string; html: string; pending?: boolean }
+const { id, heading, lede, html, pending = false } = Astro.props;
+---
+<section id={id} class="guide">
+  <div>
+    <h2>{heading}</h2>
+    {lede && <p class="lede">{lede}</p>}
+  </div>
+  <div class="guide-body prose-lg" set:html={html} />
+  <p class="guide-mark"><span class="tier" data-tier="editorial"><i></i>Editorial synthesis</span> Written from general pharmacology, the development record and what is commonly reported; not a cited finding{pending ? '; primary documents to be added' : ''}. Cited findings on this page carry their own tier.</p>
+  <slot />
+</section>

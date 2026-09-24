@@ -140,3 +140,10 @@
 .v2 .next-q { display: flex; flex-wrap: wrap; align-items: baseline; gap: .4rem 1rem; padding: .75rem 1rem; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); font-size: 15px; }
 .v2 .next-q ul { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; list-style: none; margin: 0; padding: 0; }
 .v2 .next-q a { color: var(--accent); }
+
+.v2 .guide .guide-body p + p, .v2 .guide .guide-body p + ul, .v2 .guide .guide-body ul + p, .v2 .guide .guide-body .card + p, .v2 .guide .guide-body p + .card { margin-top: 12px; }
+.v2 .guide .guide-body ul { padding-left: 1.2rem; display: flex; flex-direction: column; gap: 6px; color: var(--ink-2); }
+.v2 .guide .guide-body ul strong { color: var(--ink); }
+.v2 .guide .guide-body .tbl td { color: var(--ink-2); }
+.v2 .guide-mark { font-size: 13px; color: var(--ink-3); margin: 0; display: flex; gap: .5rem; align-items: baseline; flex-wrap: wrap; }
+.v2 .title h1 { max-width: 24ch; }

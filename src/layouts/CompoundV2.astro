@@ -27,6 +27,7 @@ import CompareTable from '../components/v2/CompareTable.astro';
 import LandscapeTable from '../components/v2/LandscapeTable.astro';
 import HumanTrials from '../components/v2/HumanTrials.astro';
 import CombinationEvidence from '../components/v2/CombinationEvidence.astro';
+import EditorialSection from '../components/v2/EditorialSection.astro';
 import ReconstitutionMath from '../components/shared/ReconstitutionMath.astro';
 import EquipmentInStudies from '../components/shared/EquipmentInStudies.astro';
 import ReadingACoA from '../components/shared/ReadingACoA.astro';
@@ -108,8 +109,12 @@ const ledeFor = (f: string) => [boundaryFor(intent, f), defaultLedes[f]].filter(
 
 // Body blocks. Each renders only when it has content; an evidence field with no
 // claims but with mapped demand renders as an explicit absence statement.
-type Block = { id: string; kind: 'human' | 'table' | 'landscape' | 'claims' | 'absence' | 'method' | 'compare' | 'combination' | 'regulatory' | 'open' | 'faq'; field?: string; label: string; group: string };
+type Guide = { id: string; heading: string; lede?: string; html: string; pending?: boolean };
+const guide: Guide[] = ((d as any).guide ?? []) as Guide[];
+type Block = { id: string; kind: 'human' | 'table' | 'landscape' | 'claims' | 'absence' | 'method' | 'compare' | 'combination' | 'regulatory' | 'open' | 'faq' | 'guide'; field?: string; label: string; group: string; guide?: Guide };
 const blocks: Block[] = [];
+// Written sections from the record's guide[]; the outline places them among the evidence blocks.
+for (const g of guide) blocks.push({ id: g.id, kind: 'guide', label: g.heading, group: 'Evidence', guide: g });
 if (showHumanTrials) blocks.push({ id: 'human-trials', kind: 'human', label: 'What happened in the human studies?', group: 'Evidence' });
 if (hasAnyEvidence) blocks.push({ id: 'evidence', kind: 'table', field: 'evidence_table', label: headingFor(intent, 'evidence_table', 'What the evidence shows'), group: 'Evidence' });
 else blocks.push({ id: 'landscape', kind: 'landscape', label: 'What is indexed', group: 'Evidence' });
@@ -175,7 +180,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
   <article class="v2">
     <div class="title">
       <div class="crumbs"><a class="eyebrow" href="/compounds">Compounds</a>{reg && <><span class="dot">·</span><a class="eyebrow" href={`/compounds#${reg.class}`}>{className(reg.class)}</a><span class="dot">·</span><span class="eyebrow">{reg.target}</span></>}</div>
-      <h1>{d.preferred_name}</h1>
+      <h1>{intent?.h1 ?? d.preferred_name}</h1>
       <p class="dek" set:html={dek} />
       <div class="pills">
         <span class="pill"><Tier tier={d.evidence_tier} /></span>
@@ -203,6 +208,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
 
         {body.map((b) => {
           switch (b.kind) {
+            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={b.guide!.html} pending={b.guide!.pending} />;
             case 'human': return <HumanTrials rows={A.evidence_table} name={d.preferred_name} sources={d.sources} />;
             case 'landscape': return <section id="landscape"><div><h2>{b.label}</h2><p class="lede">Counts from Europe PMC. Zeros are measured, not missing.</p></div><LandscapeTable record={d} /></section>;
             case 'table': return (

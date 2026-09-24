@@ -23,6 +23,7 @@ export interface IntentQuery {
 export interface IntentMap {
   slug: string;
   queries: IntentQuery[];
+  h1?: string;               // searcher-facing H1; the record name is the fallback
   outline?: string[];        // block ids in reading order; the spine is fixed regardless
   information_gain?: string;
   decline_notice?: string;
