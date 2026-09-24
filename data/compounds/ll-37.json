@@ -11,8 +11,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "LL-37 is a peptide in the immunomodulators & host defense class (cathelicidin antimicrobial peptide; membrane-active, immunomodulatory). Europe PMC indexes 2,826 publications naming it or a listed alias in a title or abstract, including 38 randomized controlled trials and 23 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "LL-37: what the research shows",
-    "description": "LL-37 research, cited: 2,826 indexed publications, 38 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "LL-37 (Cathelicidin): Trials, Dose, Side Effects, Status",
+    "description": "LL-37 peptide explained: what three human trials found, why no injected study exists, the psoriasis and rosacea biology, doses, side effects, and status."
   },
   "attributes": {
     "routes_studied": [
@@ -35,66 +35,72 @@
         "drafting": "extractive"
       }
     ],
-    "study_doses": [],
-    "escalation_schedules": [
+    "study_doses": [
       {
-        "value": "In vitro study, humans, 2026: Fourier-transform infrared spectroscopy (FT-IR), differential scanning calorimetry (DSC), isothermal titration calorimetry (ITC), and fluorescence spectroscopy were employed to probe both structural and thermodynamic changes upon interaction with the human cathelicidin LL-37.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-42134226"
-        ],
-        "source_excerpt": "Fourier-transform infrared spectroscopy (FT-IR), differential scanning calorimetry (DSC), isothermal titration calorimetry (ITC), and fluorescence spectroscopy were employed to probe both structural and thermodynamic changes upon interaction with the human cathelicidin LL-37.",
-        "drafting": "extractive"
-      }
-    ],
-    "interactions": [
-      {
-        "value": "Randomized controlled trial, humans, n=148, 2021: This clinical trial HEAL LL-37 was a phase IIb double-blind, randomized, placebo-controlled study, with the aim to evaluate the efficacy and safety of a new drug LL-37 for topical administration, in combination with compression therapy, in 148 patients suffering from hard-to-heal venous…",
+        "value": "In HEAL LL-37, 148 patients with hard-to-heal venous leg ulcers received topical LL-37 at 0.5 or 1.6 mg/mL, or placebo, with compression.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-34687253"
         ],
-        "source_excerpt": "This clinical trial HEAL LL-37 was a phase IIb double-blind, randomized, placebo-controlled study, with the aim to evaluate the efficacy and safety of a new drug LL-37 for topical administration, in combination with compression therapy, in 148 patients suffering from hard-to-heal venous leg ulcers.",
+        "source_excerpt": "The study had three arms, consisting of two groups treated with LL-37 at concentrations of 0.5 or 1.6 mg/mL, and a placebo cohort.",
         "drafting": "extractive"
       },
       {
-        "value": "In vitro study, humans, 2026: Fourier-transform infrared spectroscopy (FT-IR), differential scanning calorimetry (DSC), isothermal titration calorimetry (ITC), and fluorescence spectroscopy were employed to probe both structural and thermodynamic changes upon interaction with the human cathelicidin LL-37.",
-        "evidence_label": "mechanistic-in-vitro",
+        "value": "Diabetic foot ulcers were treated with LL-37 cream or placebo cream twice a week for four weeks.",
+        "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-42134226"
+          "pmid-37480520"
         ],
-        "source_excerpt": "Fourier-transform infrared spectroscopy (FT-IR), differential scanning calorimetry (DSC), isothermal titration calorimetry (ITC), and fluorescence spectroscopy were employed to probe both structural and thermodynamic changes upon interaction with the human cathelicidin LL-37.",
+        "source_excerpt": "Subjects were instructed to apply either LL-37 cream or placebo cream twice a week for 4 weeks.",
         "drafting": "extractive"
       },
       {
-        "value": "In vitro study, 2026: The aggregation is driven primarily through hydrophobic interactions between several amino acids within LL-37 and HNP1.",
-        "evidence_label": "mechanistic-in-vitro",
+        "value": "238 COVID-19 inpatients received an oral recombinant Lactococcus lactis engineered to produce LL-37, or placebo.",
+        "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-41923698"
+          "pmid-37605995"
         ],
-        "source_excerpt": "The aggregation is driven primarily through hydrophobic interactions between several amino acids within LL-37 and HNP1.",
+        "source_excerpt": "Recombinant LL-37 Lactococcus lactis (Oral LL-37) was designed to prevent progression of COVID-19 by targeting virus envelope, however, effectiveness and safety of Oral LL-37 in clinical application was unclear. A total of 238 adult inpatients, open-labelled, randomized, placebo-controlled, single-center study was conducted",
         "drafting": "extractive"
       }
     ],
+    "escalation_schedules": [],
+    "interactions": [],
     "exclusion_criteria": [],
     "adverse_events": [
       {
-        "value": "Clinical trial, humans, 2026: Secondary outcomes included pneumonia, diarrhea, eczema, antibiotic use, gut microbiota (16S rRNA V3-V4 sequencing), and fecal immune biomarkers (calprotectin, sIgA, HBD-2, LL-37).",
+        "value": "Topical LL-37 was well tolerated and safe at both strengths in 148 leg-ulcer patients.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-42598364"
+          "pmid-34687253"
         ],
-        "source_excerpt": "Secondary outcomes included pneumonia, diarrhea, eczema, antibiotic use, gut microbiota (16S rRNA V3-V4 sequencing), and fecal immune biomarkers (calprotectin, sIgA, HBD-2, LL-37).",
+        "source_excerpt": "The study drug was well tolerated and safe in both dose strengths.",
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=101, 2024: Primary outcome was parent-reported number of ARI; secondary outcomes included number of ARI hospitalizations, change of serum 25-hydroxyvitamin D (25(OH)D) and LL-37/cathelicidin levels, and adverse events.",
+        "value": "No severe adverse events were seen with the oral LL-37 bacterium during hospitalisation and follow-up.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-39181322"
+          "pmid-37605995"
         ],
-        "source_excerpt": "Primary outcome was parent-reported number of ARI; secondary outcomes included number of ARI hospitalizations, change of serum 25-hydroxyvitamin D (25(OH)D) and LL-37/cathelicidin levels, and adverse events.",
+        "source_excerpt": "No severe AEs were observed during hospitalization and follow-up investigation.",
         "drafting": "extractive"
+      },
+      {
+        "value": "LL-37 drives neutrophils to form extracellular traps, which are increased in nasal polyps; the peptide is part of the inflammation there, not a remedy for it.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-31046155"
+        ],
+        "source_excerpt": "Neutrophil extracellular traps are significantly increased in nasal polyps and LL-37 induces NET formation in CRSwNP patients. These findings indicate that NETs may contribute to the pathogenesis of neutrophilic inflammation in CRSwNP.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "No study has injected LL-37 into a person, so the injectable product has no safety data at all. The biology is the caution: LL-37 is amphipathic and disrupts human cell membranes at high concentrations, and in psoriasis, rosacea and lupus the body's own overproduction of it is part of the disease, because it binds self-DNA and RNA and turns them into immune triggers. Whether injected LL-37 reaches concentrations that matter is unknown; whether that is reassuring depends on the peptide surviving long enough to do anything, which is also unknown.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "biomarkers_monitored": [
@@ -155,12 +161,21 @@
     ],
     "reported_timelines": [
       {
-        "value": "Randomized controlled trial, humans, 2023: For Oral LL-37, as early as treated in 6 days, the adjusted hazard ratio (HR) for a primary event of nucleic acid negative outcome was 6.27-fold higher than 7-day-later (HR: 6.276, 95% confidence interval [CI]: 3.631-10.848, p < 0.0001), and the adjusted HR of Oral LL-37 within 6 days is higher…",
+        "value": "Granulation improved more with LL-37 cream at every weekly measurement over four weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37480520"
+        ],
+        "source_excerpt": "The increase in granulation index was consistently greater in the LL-37 group on days 7, 14, 21, and 28 (p = 0.031, 0.009, 0.006, and 0.037, respectively).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Oral LL-37 started within six days of diagnosis shortened viral RNA clearance from 14 to about 10 days.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-37605995"
         ],
-        "source_excerpt": "For Oral LL-37, as early as treated in 6 days, the adjusted hazard ratio (HR) for a primary event of nucleic acid negative outcome was 6.27-fold higher than 7-day-later (HR: 6.276, 95% confidence interval [CI]: 3.631-10.848, p < 0.0001), and the adjusted HR of Oral LL-37 within 6 days is higher than placebo (HR: 2.427 95% CI: 1.239-4.751, p = 0.0097).",
+        "source_excerpt": "As early as intervened on 6th day of case confirmed, Oral LL-37 could significantly shorten NCT (LL-37 9.80 ± 2.67 vs. placebo 14.04 ± 5.89, p < 0.01).",
         "drafting": "extractive"
       }
     ],
@@ -177,62 +192,34 @@
     ],
     "study_durations": [
       {
-        "value": "Clinical trial, humans, 2026: durations stated: 12 weeks; 12 week. In this multicenter, double-blind, placebo-controlled, three-arm trial, 390 healthy toddlers were randomized (1:1:1) to receive: (1) synbiotic (2'-FL 1.0 g/day + B. infantis R0033 1.5 × 10 10 CFU + B. bifidum R0071 1.5 × 10 10 CFU); (2) probiotic (identical…",
+        "value": "Four weeks of twice-weekly cream in the diabetic-foot trial, with wounds measured weekly.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-42598364"
+          "pmid-37480520"
         ],
-        "source_excerpt": "In this multicenter, double-blind, placebo-controlled, three-arm trial, 390 healthy toddlers were randomized (1:1:1) to receive: (1) synbiotic (2'-FL 1.0 g/day + B. infantis R0033 1.5 × 10 10 CFU + B. bifidum R0071 1.5 × 10 10 CFU); (2) probiotic (identical strains/doses); or (3) placebo (maltodextrin 1.5 g/day) for 12 weeks, with 12-week follow-up.",
+        "source_excerpt": "Wounds were measured on days 7, 14, 21, and 28 and processed with ImageJ.",
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=24, 2026: durations stated: 8 weeks. Forty-eight healthy adults were recruited and randomly assigned to receive either B. infantis BI45 or a placebo (n = 24/group) for 8 weeks.",
+        "value": "The venous-ulcer patients had a median ulcer duration of 20 months at entry; the treatment phase followed a placebo run-in.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-42118446"
+          "pmid-34687253"
         ],
-        "source_excerpt": "Forty-eight healthy adults were recruited and randomly assigned to receive either B. infantis BI45 or a placebo (n = 24/group) for 8 weeks.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Randomized controlled trial, humans, n=101, 2024: durations stated: 6 months. Participants were allocated (1:1:1) to receive placebo, cholecalciferol (vitamin D3 (VD3)) 5600 IU/week (low-dose), or 11 200 IU/week (high-dose) for 6 months.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-39181322"
-        ],
-        "source_excerpt": "Participants were allocated (1:1:1) to receive placebo, cholecalciferol (vitamin D3 (VD3)) 5600 IU/week (low-dose), or 11 200 IU/week (high-dose) for 6 months.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Randomized controlled trial, humans, 2023: durations stated: 6 days; 7 day. For Oral LL-37, as early as treated in 6 days, the adjusted hazard ratio (HR) for a primary event of nucleic acid negative outcome was 6.27-fold higher than 7-day-later (HR: 6.276, 95% confidence interval [CI]: 3.631-10.848, p < 0.0001), and the adjusted HR of…",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-37605995"
-        ],
-        "source_excerpt": "For Oral LL-37, as early as treated in 6 days, the adjusted hazard ratio (HR) for a primary event of nucleic acid negative outcome was 6.27-fold higher than 7-day-later (HR: 6.276, 95% confidence interval [CI]: 3.631-10.848, p < 0.0001), and the adjusted HR of Oral LL-37 within 6 days is higher than placebo (HR: 2.427 95% CI: 1.239-4.751, p = 0.0097).",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Randomized controlled trial, humans, n=20, 2020: durations stated: 60 years; 90 days. Forty participants, 18-60 years old, were randomized 1:1 to receive 90 days of 1000 IU vitamin D 3 or placebo.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-32867053"
-        ],
-        "source_excerpt": "Forty participants, 18-60 years old, were randomized 1:1 to receive 90 days of 1000 IU vitamin D 3 or placebo.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Randomized controlled trial, humans, 2020: durations stated: 28 days. Randomized controlled trial (RCT) on otherwise healthy exclusively breastfed infants with infant colic randomly allocated to receive BB-12 (1 × 10 9 CFU/day) or placebo for 28 days.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-31797399"
-        ],
-        "source_excerpt": "Randomized controlled trial (RCT) on otherwise healthy exclusively breastfed infants with infant colic randomly allocated to receive BB-12 (1 × 10 9 CFU/day) or placebo for 28 days.",
+        "source_excerpt": "Patients had a mean age of 67.6 years, a median ulcer duration of 20.3 months, and a mean wound size at the time of randomization of 11.6 cm 2  .",
         "drafting": "extractive"
       }
     ],
     "weight_normalized_doses": [],
-    "regulatory_status": [],
+    "regulatory_status": [
+      {
+        "value": "Not approved anywhere. Promore Pharma developed topical LL-37 as ropocamptide for hard-to-heal leg ulcers through phase 2b (HEAL LL-37, 2021), which missed its primary endpoint; the programme's status since is not documented in the ledger. An engineered oral bacterium producing LL-37 was tested in a single-centre Chinese COVID-19 trial. In the United States LL-37 is sold as a research chemical; it does not appear on FDA's 503A compounding lists as far as this record can determine, and a physician-reviewed page's statement that it is 'available as a compounded prescription' could not be verified. Not named on the WADA Prohibited List; as an unapproved substance it falls under S0.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Clinical trial, humans, 2026: Synbiotic vs. placebo: URTI incidence reduced from 85.4 to 55.4% (adjusted risk ratio (aRR) 0.64, 95% CI 0.43-0.95; ARR 30.0%, NNT = 3.3; p = 0.028); pneumonia from 17.7 to 7.7% (RR 0.40, 0.17-0.94; p = 0.034); diarrhea from 17.7 to 10.0% (aRR 0.54, 0.30-0.95; p = 0.032); and eczema from 13.1 to 1.5% (aRR…",
@@ -245,7 +232,7 @@
         "fields": {
           "study": "Chen 2026",
           "year": "2026",
-          "design": "Clinical trial",
+          "design": "Clinical trial (LL-37 measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -265,7 +252,7 @@
         "fields": {
           "study": "Song 2026",
           "year": "2026",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": 24,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -285,7 +272,7 @@
         "fields": {
           "study": "Jin 2026",
           "year": "2026",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": 49,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -305,7 +292,7 @@
         "fields": {
           "study": "Ito 2026",
           "year": "2026",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -325,7 +312,7 @@
         "fields": {
           "study": "Gonçalves 2025",
           "year": "2025",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": 207,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -345,7 +332,7 @@
         "fields": {
           "study": "Reyes 2024",
           "year": "2024",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": 101,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -365,7 +352,7 @@
         "fields": {
           "study": "Ashoor 2024",
           "year": "2024",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -425,7 +412,7 @@
         "fields": {
           "study": "Fujita 2022",
           "year": "2022",
-          "design": "Clinical trial",
+          "design": "Clinical trial (LL-37 measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -465,7 +452,7 @@
         "fields": {
           "study": "Vargas 2020",
           "year": "2020",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": 20,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -485,7 +472,7 @@
         "fields": {
           "study": "Banke 2020",
           "year": "2020",
-          "design": "Clinical trial",
+          "design": "Clinical trial (LL-37 measured, not given)",
           "n": 8,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -505,7 +492,7 @@
         "fields": {
           "study": "Nocerino 2020",
           "year": "2020",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -525,7 +512,7 @@
         "fields": {
           "study": "Missailidis 2019",
           "year": "2019",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": 167,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -545,7 +532,7 @@
         "fields": {
           "study": "Cao 2019",
           "year": "2019",
-          "design": "Clinical trial",
+          "design": "Clinical trial (LL-37 measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -565,7 +552,7 @@
         "fields": {
           "study": "Majewski 2017",
           "year": "2017",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": 31,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -585,7 +572,7 @@
         "fields": {
           "study": "Han 2017",
           "year": "2017",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": 30,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -605,7 +592,7 @@
         "fields": {
           "study": "Thijs 2015",
           "year": "2015",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -625,7 +612,7 @@
         "fields": {
           "study": "Koziel 2014",
           "year": "2014",
-          "design": "Clinical trial",
+          "design": "Clinical trial (LL-37 measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -645,7 +632,7 @@
         "fields": {
           "study": "Raqib 2012",
           "year": "2012",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (LL-37 measured, not given)",
           "n": 40,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -685,7 +672,7 @@
         "fields": {
           "study": "Giraldo-Lorza 2026",
           "year": "2026",
-          "design": "In vitro study",
+          "design": "In vitro study (LL-37 measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -725,7 +712,7 @@
         "fields": {
           "study": "Ramotar 2026",
           "year": "2026",
-          "design": "In vitro study",
+          "design": "In vitro study (LL-37 measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -733,6 +720,34 @@
           "duration": "not stated in abstract",
           "outcome": "LL-37-mediated increase in COX-2 expression was significantly higher than that mediated by citLL-37."
         }
+      }
+    ],
+    "mechanism": [
+      {
+        "value": "LL-37 is a 37-amino-acid peptide beginning with two leucines, cut by proteinase 3 from the C-terminus of hCAP18, the only cathelicidin gene humans have. Neutrophils carry it in their granules; skin, gut and airway epithelium make it on demand, and vitamin D switches the gene on, which is why so many of the 'human studies' in the ledger are vitamin D trials measuring LL-37 rather than giving it. It is an amphipathic helix that sits in bacterial membranes and breaks them, kills a broad range of bacteria, fungi and enveloped viruses, binds and neutralises endotoxin, and blocks or disrupts biofilms at concentrations below those that kill free bacteria.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Its second job is signalling. LL-37 pulls immune cells to a wound through the formyl-peptide receptor FPR2, drives new blood vessels and skin regrowth, and triggers neutrophils to throw out extracellular traps. That second job is also where it turns on its owner: in psoriasis, LL-37 made in excess binds the skin's own DNA and RNA and converts them into a signal that plasmacytoid dendritic cells read as infection, pouring out interferon and inflaming the plaque; in rosacea, abnormal processing yields fragments that inflame vessels; in lupus, LL-37-DNA complexes feed the autoantibody cycle. The same molecule is defence at the right dose in the right place and disease at the wrong one.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "What is not known is anything about injecting it. The drug programmes that took LL-37 into people chose a wound gel (ropocamptide) and an engineered oral bacterium precisely because the peptide is degraded fast by proteases in blood and tissue and because a systemic antimicrobial peptide is a systemic membrane-active molecule. No pharmacokinetic, dose-finding or safety study of injected LL-37 exists in any species in the ledger.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "LL-37 circulates for 'biofilm infections', Lyme disease and its co-infections, mould illness, SIBO and gut dysbiosis, chronic sinusitis and general 'immune support', injected subcutaneously in daily or cycled patterns, sometimes as a nasal spray, often alongside KPV, BPC-157 or thymosin alpha-1 under functional-medicine protocols. Reports describe injection-site pain and swelling, 'die-off' symptoms read as evidence of effect, fatigue, and in some cases flares of skin or gut inflammation. None of this comes from a study: no human study has injected LL-37 or sprayed it into a nose, and the laboratory biofilm results were never carried into a patient. Figures for this compound circulate on forums and vendor pages. None has been tested in a human study by the route people use, so none is reproduced here; the table above holds every dose a study actually gave.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
       }
     ]
   },
@@ -768,9 +783,9 @@
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports doses used for LL-37.",
-    "No study in this record's ledger reports weight-normalized doses for LL-37.",
-    "No study in this record's ledger reports exclusion criteria for LL-37."
+    "No study in any species in the ledger has injected LL-37 or measured its pharmacokinetics, the route the product is sold for.",
+    "Twenty of the ledger's twenty-three human rows measured endogenous LL-37 rather than administering it; the tier reflects trial design, not treatment evidence.",
+    "The status of Promore Pharma's ropocamptide programme after the 2021 phase 2b, and the psoriasis and rosacea mechanism papers, are not in the ledger."
   ],
   "media": {
     "walkthrough_video": "",
@@ -779,19 +794,51 @@
   "faq": [
     {
       "question": "Has LL-37 been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 23 clinical trials and 38 randomized controlled trials naming LL-37 or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "answer": "Three times as a treatment: a 148-person phase 2b trial of topical LL-37 gel on venous leg ulcers, which missed its primary endpoint; a small randomized trial of LL-37 cream on diabetic foot ulcers, which improved a granulation index over four weeks; and a 238-person open-label trial of an oral bacterium engineered to secrete LL-37 in COVID-19, which shortened viral clearance. The other twenty human studies in the ledger measured the body's own LL-37 and gave none. No study has injected it."
     },
     {
-      "question": "What kind of evidence exists for LL-37?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "Is there an LL-37 dose?",
+      "answer": "For a wound gel, 0.5 or 1.6 mg/mL applied at dressing changes; for a cream, twice a week for four weeks; for the oral bacterium, a probiotic dose. For injection, none: no study in any species in the ledger has injected LL-37, so the microgram figures on vendor pages have no study behind them."
     },
     {
-      "question": "Is LL-37 an approved medicine?",
-      "answer": "No ChEMBL record matches LL-37 or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "What are the side effects of LL-37?",
+      "answer": "The topical trials called it well tolerated at both strengths and the oral trial saw no severe events. For injection there are no data. The biological caution is that LL-37 damages human cell membranes at high concentrations and drives inflammation in psoriasis, rosacea, lupus and nasal polyps when the body overproduces it."
     },
     {
-      "question": "Which species has LL-37 been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "Does LL-37 cause psoriasis?",
+      "answer": "It is part of the mechanism. In psoriatic skin LL-37 is overproduced, binds the skin's own DNA and RNA, and turns those complexes into a signal that plasmacytoid dendritic cells read as infection, releasing interferon and inflaming the plaque. Similar processes operate in rosacea and lupus. No study has given LL-37 to anyone with these diseases."
+    },
+    {
+      "question": "Does LL-37 kill biofilms?",
+      "answer": "In the laboratory it inhibits biofilm formation and disrupts existing biofilms of several bacteria at concentrations below those that kill free-living cells. No human biofilm infection has been treated with LL-37 in a study, and the injected route has not been studied at all."
+    },
+    {
+      "question": "Is LL-37 FDA approved?",
+      "answer": "No, and it is not approved anywhere. Promore Pharma took a topical form, ropocamptide, through phase 2b for leg ulcers; the trial missed its primary endpoint. In the United States it is sold as a research chemical."
+    },
+    {
+      "question": "What is the difference between LL-37 and cathelicidin?",
+      "answer": "Cathelicidins are a family of antimicrobial peptides found across mammals; humans have one gene, whose precursor protein is hCAP18, and LL-37 is the 37-amino-acid active peptide cut from it. In humans the terms are used interchangeably; in other species 'cathelicidin' means a different peptide."
+    },
+    {
+      "question": "Can LL-37 be taken as a nasal spray?",
+      "answer": "No study has tested it. The one relevant human finding runs the other way: LL-37 drives neutrophil extracellular traps in nasal polyps, where it is part of the inflammation. Vendor nasal sprays are untested products aimed at the tissue where the peptide was shown to inflame."
+    },
+    {
+      "question": "Does vitamin D increase LL-37?",
+      "answer": "Yes; vitamin D switches on the cathelicidin gene, which is why many trials in the ledger measured LL-37 after vitamin D supplementation. Results are mixed: some found higher LL-37 or antimicrobial activity, others no change in the outcome that mattered. Those are studies of the body's own LL-37, not of giving it."
+    },
+    {
+      "question": "Is LL-37 the same as thymosin alpha-1 or KPV?",
+      "answer": "No. Thymosin alpha-1 is a thymic immune regulator approved abroad for hepatitis; KPV is a three-amino-acid anti-inflammatory fragment of α-MSH with mouse data only; LL-37 is the body's antimicrobial cathelicidin. They are stacked together in functional-medicine protocols on theory, and no study has combined any two of them."
+    },
+    {
+      "question": "What is ropocamptide?",
+      "answer": "The drug name for topical LL-37 developed by Promore Pharma for hard-to-heal venous leg ulcers. Its phase 2b trial, HEAL LL-37, found no overall healing benefit in 148 patients but a post hoc benefit in large wounds; the programme's status after 2021 is not documented in the ledger."
+    },
+    {
+      "question": "Why is LL-37 sold for Lyme disease?",
+      "answer": "Because it is antimicrobial in the laboratory and Lyme disease is bacterial, and because functional-medicine protocols adopted it for 'biofilm' infections. No study has tested LL-37 against Borrelia in a person or animal in the ledger, and the injected route has never been studied in anyone."
     }
   ],
   "sources": [
@@ -1021,7 +1068,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 77.8,
+  "uniqueness_pct": 87.5,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1040,6 +1087,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 32 ledger sources by scripts/draft_claims.py: 22 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/ll-37.json: guide (8 sections incl. a given-versus-measured trial table), FAQ to 12 plus 8 from the map, dose, duration, timeline and adverse-event claims from the three administration trials, mechanism (defence and disease driver), reported-use, regulatory; twenty evidence rows relabelled as studies that measured LL-37 rather than gave it; misdrafted interactions removed; intent-driven H1 and title. Triage: escalation claims drawn from an in vitro calorimetry paper ('isothermal titration') removed."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "LL-37 in two minutes",
+      "html": "<p><strong>What it is.</strong> The one antimicrobial cathelicidin peptide humans make, stored in neutrophils and produced by skin, gut and airway linings. It kills bacteria by breaking their membranes, disrupts biofilms in the laboratory, and signals to immune cells.</p><p><strong>What the research actually shows.</strong> 2,826 indexed publications, most about the body's own LL-37. Three trials gave it to people: a 148-person topical trial on venous leg ulcers that <strong>missed its primary endpoint</strong> with a positive subgroup, a diabetic-foot-ulcer cream trial that improved a granulation index over four weeks, and a 238-person trial of an oral bacterium engineered to make LL-37 that shortened viral clearance in COVID-19. Twenty other 'human studies' in the ledger measured LL-37 after vitamin D, probiotics or infection and gave none.</p><p><strong>The part vendors leave out.</strong> LL-37 in excess is part of what causes psoriasis, rosacea and lupus: it binds the body's own DNA and RNA and turns them into immune triggers.</p><p><strong>Status.</strong> Not approved anywhere; a topical drug programme (ropocamptide) reached phase 2b; sold as a research chemical.</p><p><strong>Where the evidence is thinnest.</strong> Injection. No study, in any species in the ledger, has injected LL-37, measured how long it survives in blood, or tested it against a biofilm infection in a person.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "Trial by trial: what LL-37 did in people",
+      "lede": "The three studies that gave LL-37 to people, then the kind of study that fills the rest of the ledger.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies that administered LL-37.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Participants</th><th scope=\"col\">Form, dose, duration</th><th scope=\"col\">Primary result</th><th scope=\"col\">Safety</th></tr></thead><tbody><tr><td>HEAL LL-37 (Mahlapuu 2021), phase 2b</td><td>148 adults with hard-to-heal venous leg ulcers, median 20 months old, 11.6 cm² mean</td><td>Topical, 0.5 or 1.6 mg/mL, with compression</td><td><strong>No significant improvement in healing</strong> vs placebo in the full population; post hoc benefit in wounds of 10 cm² or more</td><td>Well tolerated and safe at both strengths</td></tr><tr><td>Diabetic foot ulcer cream (Miranda 2023)</td><td>Adults with mildly infected diabetic foot ulcers, Jakarta</td><td>Cream twice a week, 4 weeks</td><td>Granulation index higher at every week; bacterial counts lower until day 28; cytokines unchanged</td><td>Not detailed in the abstract</td></tr><tr><td>Oral LL-37 for Omicron (Zhao 2023)</td><td>238 adult inpatients, single centre, open label</td><td>Oral Lactococcus lactis engineered to secrete LL-37, vs placebo</td><td>Viral RNA cleared in 9.8 vs 14.0 days when started within six days</td><td>No severe adverse events</td></tr></tbody></table></div></div><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>What the other twenty 'human studies' in the ledger are.</caption><thead><tr><th scope=\"col\">Study type</th><th scope=\"col\">Examples in the ledger</th><th scope=\"col\">What was given</th><th scope=\"col\">What LL-37 was</th></tr></thead><tbody><tr><td>Vitamin D trials</td><td>Children's respiratory infections (2024); sepsis (2024, 2025); HIV and tuberculosis (2017, 2019)</td><td>Vitamin D, phenylbutyrate</td><td>A blood or airway biomarker measured as an outcome</td></tr><tr><td>Probiotic and synbiotic trials</td><td>Infant colic (2019); B. infantis (2026); L. fermentum (2026); synbiotics (2026)</td><td>Bacteria or prebiotics</td><td>A biomarker of mucosal immunity</td></tr><tr><td>Disease-marker studies</td><td>Tuberculosis serum levels (2017); periprosthetic joint infection (2020); nasal polyps (2019); asthma (2015)</td><td>Nothing</td><td>A marker of infection or inflammation, and in nasal polyps a driver of it</td></tr><tr><td>Other interventions</td><td>Butyrate enemas in shigellosis (2012); exercise (2025)</td><td>Butyrate; cycling</td><td>A marker of the intervention's effect</td></tr></tbody></table></div></div><p>The ledger's 'human clinical trial' tier is true and misleading at once: the trials are real, and almost none of them gave anyone LL-37.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every LL-37 dose in the trials, in one table",
+      "lede": "Every figure here is a topical concentration or a probiotic formulation. No study has injected LL-37 into a person.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses and forms of LL-37 administered in human studies.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Form</th><th scope=\"col\">Concentration or dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Site</th></tr></thead><tbody><tr><td>HEAL LL-37 (2021)</td><td>Topical gel with compression</td><td>0.5 mg/mL and 1.6 mg/mL</td><td>Applied at dressing changes over a 13-week treatment phase (full text)</td><td>Venous leg ulcer</td></tr><tr><td>Diabetic foot ulcer (2023)</td><td>Cream</td><td>Not stated in the abstract</td><td>Twice a week, 4 weeks</td><td>Foot ulcer</td></tr><tr><td>Oral LL-37 (2023)</td><td>Engineered Lactococcus lactis secreting LL-37</td><td>Bacterial dose, not a peptide dose</td><td>Daily, during admission</td><td>Gut</td></tr></tbody></table></div></div><p>Figures for injected LL-37 circulate on forums and vendor pages. None has been given to a person in any study, so none is reproduced here; the table holds every form a study actually used. The gap is not a missing number but a missing route: nobody has put this peptide into a human bloodstream on purpose and watched.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who LL-37 is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> adults with chronic venous or diabetic wounds, topically; COVID-19 inpatients, orally via an engineered bacterium. <strong>Never studied:</strong> anyone by injection or nasal spray; anyone with Lyme disease, mould illness, SIBO, biofilm infection or chronic sinusitis. <strong>Community:</strong> people with those diagnoses, under functional-medicine protocols.</p><p>No trial excluded anyone for the injected route because none used it. The cautions come from the peptide's biology:</p><ul class=\"list\"><li><strong>Psoriasis, rosacea, lupus and other autoimmune or inflammatory skin disease.</strong> LL-37 overproduction is part of the disease mechanism in all three. Adding more is the opposite of what the biology suggests.</li><li><strong>Inflammatory sinus and airway disease.</strong> LL-37 drives neutrophil extracellular traps in nasal polyps; the nasal spray is aimed at exactly the tissue where that was shown.</li><li><strong>Cell toxicity.</strong> An amphipathic membrane-active peptide is not fully selective for bacteria; at high local concentrations it damages human cells, which is why the drug programme used a gel on a wound.</li><li><strong>'Die-off' reasoning.</strong> Symptoms after injection are read by users as bacteria dying. No study supports that reading, and the same symptoms describe an inflammatory reaction to the peptide.</li><li><strong>Antibiotic replacement.</strong> No trial has tested LL-37 against an infection in a person; using it instead of antibiotics for a real infection has no evidence and an obvious cost.</li><li><strong>Tested athletes.</strong> Unapproved substances are prohibited under WADA S0 at all times.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The trials measured wounds and viruses over weeks. Granulation improved from <strong>day 7</strong> and at every weekly measurement to <strong>day 28</strong> under LL-37 cream; the leg-ulcer trial ran a <strong>13-week</strong> treatment phase after a three-week placebo run-in and found no overall difference in healing; viral RNA cleared in about <strong>10 days</strong> instead of 14 with the oral bacterium when started early. Nothing at all has been measured for injected LL-37: not how long it survives in blood, where it goes, what concentration it reaches, or what it does at any time point. 'When to take LL-37' and 'how long until it works' have no answers in the literature because the route has never been studied.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>LL-37 is a laboratory reagent with published handling data from reagent suppliers: lyophilised, stored frozen, reconstituted in low-binding tubes because the peptide sticks to plastic and aggregates in salt. That is laboratory guidance for cell-culture use, not for a vial sold for injection, whose contents are unverified.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how LL-37 is discussed",
+      "html": "<ol class=\"list\"><li><strong>Counting studies that measured LL-37 as studies that gave it.</strong> Twenty of the ledger's twenty-three human rows measured the body's own peptide after vitamin D, probiotics or infection. Three gave it, none by injection.</li><li><strong>Carrying laboratory biofilm results into people.</strong> LL-37 disrupts biofilms in a dish. No human biofilm infection has been treated with it in a study.</li><li><strong>Ignoring the disease-driver biology.</strong> The peptide vendors sell for 'immune support' is a known driver of psoriasis, rosacea and lupus when the body makes too much of it.</li><li><strong>Quoting a subcutaneous dose.</strong> The human trials used a gel, a cream and a bacterium. The microgram figures come from forums.</li><li><strong>Calling the wound trial positive.</strong> HEAL LL-37 missed its primary endpoint; the positive finding was a post hoc subgroup of large wounds, and the programme's next step is undocumented.</li><li><strong>Reading 'die-off' as efficacy.</strong> Feeling worse after injecting a membrane-active inflammatory peptide has a simpler explanation than dying bacteria.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "LL-37 vs thymosin alpha-1, KPV, BPC-157 and antibiotics",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>LL-37 beside the compounds it is stacked or compared with, from their own records where one exists.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">What it is</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>LL-37</strong></td><td>The human cathelicidin antimicrobial peptide</td><td>Three trials: two topical wound trials (one negative), one oral bacterium for COVID-19; nothing injected</td><td>Not approved; topical programme reached phase 2b; research chemical</td></tr><tr><td><a href=\"/compounds/thymosin-alpha-1\">Thymosin alpha-1</a></td><td>Thymic immune-regulating peptide; 1,079 indexed publications</td><td>65 randomized trials; approved abroad for hepatitis</td><td>Approved in about 35 countries; not in the US</td></tr><tr><td><a href=\"/compounds/kpv\">KPV</a></td><td>Three-amino-acid anti-inflammatory tail of α-MSH; 138 indexed publications</td><td>2 human studies; mouse and cell work only</td><td>Not approved; research chemical</td></tr><tr><td><a href=\"/compounds/bpc-157\">BPC-157</a></td><td>Gastric repair pentadecapeptide; 228 indexed publications</td><td>2 small uncontrolled human studies</td><td>Not approved; WADA S0</td></tr><tr><td>Antibiotics</td><td>Small molecules that kill or stop bacteria</td><td>Seventy years of randomized trials for every common infection</td><td>Approved; the standard LL-37 is sold against</td></tr></tbody></table></div></div><p>The functional-medicine stack of LL-37 with KPV and thymosin alpha-1 puts an antimicrobial, an anti-inflammatory and an immune regulator together on the theory that they cover each other's gaps. Only thymosin alpha-1 has trials, none of the three has a trial for the conditions the stack is used for, and no study has combined any two of them.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
