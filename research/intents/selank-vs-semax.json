@@ -1,0 +1,584 @@
+{
+  "slug": "selank-vs-semax",
+  "type": "comparison",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "europepmc"
+  ],
+  "scope": "Informational intent only. Both compounds have written records of their own, so component questions about dose and form are redirected there rather than duplicated here.",
+  "thin_serp": false,
+  "stage0_note": "The record holds two head-to-head claims and both are animal work: a toxicity screen in mouse embryonic stem cells, and a rat transcriptome study of Pro-Gly-Pro, the tripeptide both compounds carry at one end. The second is not a comparison but it is the most interesting fact about the pair, and the guide uses it.",
+  "serp_2026-09-24": {
+    "query": "semax vs selank",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "organic_top": [
+      "klearmindclinics.com",
+      "neuronmedical.com",
+      "agerejuvenation.com",
+      "ubiehealth.com",
+      "pubmed.ncbi.nlm.nih.gov",
+      "helimeds.com",
+      "americanpeptides.us",
+      "nursekey.com",
+      "youtube.com"
+    ],
+    "note": "Clinics, a symptom-checker service, a nursing-reference aggregator and a vendor, with one PubMed abstract at seventh. The AI Overview cites seven clinic and telehealth pages. No regulator and no journal ranks above the abstract."
+  },
+  "demand_findings": "The largest cluster in the remaining queue. The two component names carry 42,432 between them, semax 28,492 at KD 15 and selank 13,940 at KD 9, and both have written records here, so they are redirected rather than answered twice. The comparison itself is 3,357 at KD 0. What sits around it is more interesting: nasal-spray forms 11,803, the acetylated analogues 1,221, dosing 2,492, community discussion 3,662 and 'semax and selank together' 254. Google Ads volume is near zero on everything except selank itself, which is what an unapproved foreign medicine looks like in an ad auction.",
+  "h1": "Selank vs semax: two Russian peptides built on the same tail, tested for different things, and never compared",
+  "dek": "One came from a fragment of ACTH and was studied in stroke and attention; the other from a fragment of an immune peptide and was studied in anxiety. Both carry the same tripeptide at one end, both are approved only in Russia, and almost everything sold in the West is a modified version that no trial has tested.",
+  "queries": [
+    {
+      "query": "semax vs selank",
+      "volume": {
+        "clickstream": 1831,
+        "google_ads": 3600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "The short answer",
+      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end."
+    },
+    {
+      "query": "selank vs semax",
+      "volume": {
+        "clickstream": 1526,
+        "google_ads": 3600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "The short answer",
+      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end."
+    },
+    {
+      "query": "semax nootropic",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 0,
+        "kd": 17,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "The short answer",
+      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end."
+    },
+    {
+      "query": "selank vs semax for anxiety",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials-table",
+      "heading": "What each one was tested for, and in whom",
+      "boundary": "Selank's trials are in anxiety disorders. Semax's are in stroke, optic-nerve disease and attention. The two literatures answer different questions."
+    },
+    {
+      "query": "semax",
+      "volume": {
+        "clickstream": 28492,
+        "google_ads": 0,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "related",
+      "target": "/compounds/semax",
+      "heading": "Related records"
+    },
+    {
+      "query": "selank",
+      "volume": {
+        "clickstream": 13940,
+        "google_ads": 22200,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "related",
+      "target": "/compounds/selank",
+      "heading": "Related records"
+    },
+    {
+      "query": "semax nasal spray",
+      "volume": {
+        "clickstream": 9310,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "related",
+      "target": "/compounds/semax",
+      "heading": "Related records"
+    },
+    {
+      "query": "selank nasal spray",
+      "volume": {
+        "clickstream": 2493,
+        "google_ads": 0,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "related",
+      "target": "/compounds/selank",
+      "heading": "Related records"
+    },
+    {
+      "query": "semax dosage",
+      "volume": {
+        "clickstream": 1119,
+        "google_ads": 0,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "related",
+      "target": "/compounds/semax",
+      "heading": "Related records"
+    },
+    {
+      "query": "selank dosage",
+      "volume": {
+        "clickstream": 1373,
+        "google_ads": 0,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "related",
+      "target": "/compounds/selank",
+      "heading": "Related records"
+    },
+    {
+      "query": "semax reddit",
+      "volume": {
+        "clickstream": 2340,
+        "google_ads": 1600,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "choosing",
+      "heading": "What the evidence lets you say",
+      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end."
+    },
+    {
+      "query": "selank reddit",
+      "volume": {
+        "clickstream": 1322,
+        "google_ads": 1000,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "choosing",
+      "heading": "What the evidence lets you say",
+      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end."
+    },
+    {
+      "query": "semax benefits",
+      "volume": {
+        "clickstream": 661,
+        "google_ads": 0,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials-table",
+      "heading": "What each one was tested for, and in whom",
+      "boundary": "Semax's trials are in stroke, optic-nerve disease and attention."
+    },
+    {
+      "query": "selank benefits",
+      "volume": {
+        "clickstream": 356,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials-table",
+      "heading": "What each one was tested for, and in whom",
+      "boundary": "Selank's trials are in anxiety disorders."
+    },
+    {
+      "query": "selank anxiety",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "trials-table",
+      "heading": "What each one was tested for, and in whom"
+    },
+    {
+      "query": "semax adhd",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 0,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is semax useful for ADHD?",
+      "answer": "No trial has tested semax for ADHD as it is diagnosed outside Russia. The attention findings come from Russian studies in children with what those papers call minimal brain dysfunction and from cognitive measures in other conditions. The interest is real and the evidence is not the kind a regulator would accept for that indication."
+    },
+    {
+      "query": "n-acetyl semax amidate",
+      "volume": {
+        "clickstream": 814,
+        "google_ads": 1000,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "forms",
+      "heading": "What is actually sold: the acetylated and amidated versions",
+      "boundary": "Almost everything sold in the West is not the compound the trials studied. N-acetyl semax amidate and N-acetyl selank amidate are modified versions, and no trial has tested either."
+    },
+    {
+      "query": "n-acetyl selank amidate",
+      "volume": {
+        "clickstream": 407,
+        "google_ads": 390,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "forms",
+      "heading": "What is actually sold: the acetylated and amidated versions",
+      "boundary": "Almost everything sold in the West is not the compound the trials studied. N-acetyl semax amidate and N-acetyl selank amidate are modified versions, and no trial has tested either."
+    },
+    {
+      "query": "semax side effects",
+      "volume": {
+        "clickstream": 1017,
+        "google_ads": 0,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "side-effects",
+      "heading": "Side effects, and how thin the safety evidence is",
+      "boundary": "Both are described as well tolerated in small Russian trials. Neither has a modern safety study, neither has been tested for long-term use, and the products people actually buy are not the ones those trials used."
+    },
+    {
+      "query": "selank side effects",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "side-effects",
+      "heading": "Side effects, and how thin the safety evidence is",
+      "boundary": "Both are described as well tolerated in small Russian trials. Neither has a modern safety study, neither has been tested for long-term use, and the products people actually buy are not the ones those trials used."
+    },
+    {
+      "query": "semax and selank together",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "together",
+      "heading": "Taking both: what has been tested",
+      "boundary": "Nothing has tested the pair in people. The two studies naming both compounds are animal work, and one of them is about their shared chemistry rather than their combined use."
+    },
+    {
+      "query": "is semax legal",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 90,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "legality",
+      "heading": "Legal status: approved in Russia, unapproved everywhere else"
+    },
+    {
+      "query": "is selank legal",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 30,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "legality",
+      "heading": "Legal status: approved in Russia, unapproved everywhere else"
+    },
+    {
+      "query": "semax bdnf",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 49,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "shared-design",
+      "heading": "Same tail, different heads: how both were built"
+    },
+    {
+      "query": "selank gaba",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "shared-design",
+      "heading": "Same tail, different heads: how both were built"
+    },
+    {
+      "query": "semax half life",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 210,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How long do they last?",
+      "answer": "Both are short-acting, which is why the nasal route and repeated daily dosing are used. The parent peptides are broken down quickly in plasma, and their shared C-terminal tripeptide is itself active, so what circulates after a dose is not only the molecule that was given. No modern pharmacokinetic study of either is in this record's ledger."
+    },
+    {
+      "query": "selank half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 170,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How long do they last?"
+    },
+    {
+      "query": "semax vs noopept",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 0,
+        "kd": 24,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How does semax compare with noopept?",
+      "answer": "Noopept is a different thing: a synthetic dipeptide-like compound taken orally, also developed in Russia, and also lacking approval elsewhere. It has its own small Russian trial literature. No study has compared it with semax, and the same caution applies to both, that the evidence base is a national one that has not been replicated internationally."
+    },
+    {
+      "query": "best nootropic peptide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "choosing",
+      "heading": "What the evidence lets you say",
+      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end."
+    },
+    {
+      "query": "can selank and semax be used together",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "together",
+      "heading": "Taking both: what has been tested",
+      "boundary": "Nothing has tested the pair in people. The two studies naming both compounds are animal work, and one of them is about their shared chemistry rather than their combined use.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "are semax and selank safe",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "side-effects",
+      "heading": "Side effects, and how thin the safety evidence is",
+      "boundary": "Both are described as well tolerated in small Russian trials. Neither has a modern safety study, neither has been tested for long-term use, and the products people actually buy are not the ones those trials used.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "is there anything better than semax",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "choosing",
+      "heading": "What the evidence lets you say",
+      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://nursekey.com/semax-vs-selank-benefits-differences-and-mechanism/",
+      "rank": 10,
+      "words": 2668,
+      "tables": 2,
+      "h2": 19,
+      "sci_links": 1,
+      "score": 16,
+      "gap": "The longest comparison on the SERP, with a quick-comparison table and sections for anxiety and for focus. One citation, no trial detail, and nothing on what is actually sold",
+      "source": "fetched 2026-09-24, metrics measured; scored D6 F5 S2 U3"
+    },
+    {
+      "url": "https://www.klearmindclinics.com/blog/selank-vs-semax",
+      "rank": 2,
+      "words": 2206,
+      "tables": 2,
+      "h2": 6,
+      "sci_links": 3,
+      "score": 16,
+      "gap": "Ranks second; two tables and three citations, framed as which works better for anxiety. No trial table, no statement that no comparison exists, and no mention of the acetylated forms",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F5 S3 U3"
+    },
+    {
+      "url": "https://www.helimeds.com/blog/semax-vs-selank",
+      "rank": 8,
+      "words": 1584,
+      "tables": 0,
+      "h2": 10,
+      "sci_links": 7,
+      "byline": "Medically reviewed",
+      "score": 15,
+      "gap": "The best-cited page on the SERP with seven references, and the only one with a withdrawal section. No tables",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S5 U3"
+    },
+    {
+      "url": "https://ubiehealth.com/doctors-note/selank-vs-semax-results-science-meds-next-steps-7343q2",
+      "rank": 6,
+      "words": 1382,
+      "tables": 1,
+      "h2": 14,
+      "sci_links": 0,
+      "byline": "Reviewed by a physician",
+      "score": 13,
+      "gap": "A symptom-checker service's explainer with a clinical-evidence section carrying no citations, funnelling to 'medically approved next steps'",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S2 U4"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32342318/",
+      "rank": 7,
+      "score": null,
+      "gap": "A PubMed abstract ranks seventh on a nootropics comparison query, which is unusual and means the SERP tolerates primary literature",
+      "source": "SERP result; not fetched"
+    },
+    {
+      "url": "https://www.americanpeptides.us/products/selank-semax-nasal-spray",
+      "rank": 9,
+      "score": null,
+      "gap": "A vendor selling the two together as one nasal spray, which is the combination question answered commercially rather than evidentially; out of scope by the commercial-intent rule",
+      "source": "SERP result; fetched, product page"
+    },
+    {
+      "url": "https://www.peptidedosingprotocols.com/compare/semax-vs-selank",
+      "rank": null,
+      "score": null,
+      "gap": "The incumbent has no comparison page at this address",
+      "source": "fetched 2026-09-24; no page"
+    }
+  ],
+  "information_gain": "The only page on this query that explains what the two compounds share, which is not a mechanism but a design: both are a short active fragment with the tripeptide Pro-Gly-Pro attached to protect it, and one of the two studies naming both is about that tripeptide's own activity in the brain. The only page to separate the trial record by what each was actually tested for, stroke, optic-nerve disease and attention for semax, anxiety disorders for selank, with the study sizes, which are small. The only page to state that N-acetyl semax amidate and N-acetyl selank amidate, the forms actually sold in the West and drawing 1,221 searches a month of their own, are modified molecules with no trial evidence behind them. And the only page to answer the combining question with what exists, which is a mouse stem-cell screen and a rat transcriptome study.",
+  "serp_format_rewarded": "A cited comparison with tables. The ranking pages are clinic explainers with one to seven citations and no trial detail, and a PubMed abstract sits at seventh, so the query tolerates primary literature. The gaps are the trial table, the acetylated forms and the absence of any comparison.",
+  "outline": [
+    "glance",
+    "what",
+    "quick-answer",
+    "no-head-to-head",
+    "shared-design",
+    "side-by-side",
+    "trials-table",
+    "forms",
+    "doses",
+    "side-effects",
+    "together",
+    "legality",
+    "head-to-head",
+    "choosing",
+    "mistakes",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "open_actions": [
+    "Russian registration documents for both compounds are cited editorially with pending_source.",
+    "The acetylated analogues have no trial literature to cite; the statement that none exists is itself the finding and is recorded as a measured absence.",
+    "Both compound records are written and carry the dose and form detail; this page redirects rather than duplicating, and the redirect targets should be rechecked if either record's sections change."
+  ]
+}
