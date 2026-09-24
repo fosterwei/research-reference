@@ -1,0 +1,581 @@
+{
+  "slug": "melanotan-ii",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "stage0_note": "The alias 'MT-II' pulled metallothionein II, myotoxin II, the visual area V5/MT and an angiotensinogen genotype paper into the ledger as evidence rows and sources; those were removed at stage 0 and the alias problem is the same accept-script item as GHRP-6 and Cartalax.",
+  "serp_2026-09-24": {
+    "query": "melanotan 2",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "perspectives",
+      "related_searches"
+    ],
+    "organic_top": [
+      "pmc (2026 gum-pigmentation case report)",
+      "en.wikipedia.org",
+      "mcgill.ca (science communication)",
+      "webmd.com",
+      "americanpeptides.us (vendor)",
+      "westlakedermatology.com (clinic)",
+      "youtube.com",
+      "lktlabs.com (reagent vendor)"
+    ],
+    "note": "A harm-oriented SERP: a case report, WebMD, a dermatology clinic against it, a university science page and Wikipedia; the AI Overview cites PMC, the Skin Cancer Foundation, McGill, UNSW and an academic journal. One vendor in the top 10; the incumbent dosing guide is absent."
+  },
+  "demand_findings": "The largest head in the queue: 'melanotan 2' 9,412 (KD 18), 'melanotan' 6,359, 'melanotan ii' 2,849, 18,620 together. 'before and after' 1,933 and 'melanotan 1 vs 2' 1,221 are the second and third questions; reddit 1,170; dosage 1,068; afamelanotide 559 and scenesse 457 show the approved sibling draws its own searchers; side effects 508; nasal spray 254; uk 203 (KD 55); tanning injections 203; cancer and results 101. Google Ads is zero on every modifier because advertisers cannot bid on an illegal product.",
+  "h1": "Melanotan II ('tanning injections', the Barbie drug): what four small trials found, why it was abandoned, and what the case reports and vials show",
+  "dek": "A cyclic α-MSH analogue from Arizona that tans skin, causes erections and nausea, and was never developed past a handful of men in the 1990s; its metabolite became the approved libido drug PT-141 and its linear cousin the approved orphan drug Scenesse. This page tables the trials with their doses, the harm reports since, and what the analysed vials actually contained.",
+  "queries": [
+    {
+      "query": "melanotan 2",
+      "volume": {
+        "clickstream": 9412,
+        "google_ads": 27100,
+        "kd": 18,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What melanotan II is, and what happened to it"
+    },
+    {
+      "query": "melanotan",
+      "volume": {
+        "clickstream": 6359,
+        "google_ads": 27100,
+        "kd": 14,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What melanotan II is, and what happened to it"
+    },
+    {
+      "query": "melanotan ii",
+      "volume": {
+        "clickstream": 2849,
+        "google_ads": 0,
+        "kd": 19,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What melanotan II is, and what happened to it"
+    },
+    {
+      "query": "melanotan 2 before and after",
+      "volume": {
+        "clickstream": 1933,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe loading doses daily for a week or two, then weekly maintenance, with nausea, flushing, darker moles and freckles, spontaneous erections and appetite loss; a 2021 study of 623 forum entries catalogued the same. None of that schedule was ever tested in a study."
+    },
+    {
+      "query": "melanotan 1 vs 2",
+      "volume": {
+        "clickstream": 1221,
+        "google_ads": 1900,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Melanotan II vs melanotan I (afamelanotide, Scenesse), PT-141 and UV tanning",
+      "boundary": "Afamelanotide (Melanotan I) is the linear analogue that became an approved orphan drug; bremelanotide (PT-141) is melanotan II's own metabolite that became an approved libido drug. Melanotan II is the unapproved parent of both, and the one sold for tanning."
+    },
+    {
+      "query": "melanotan 2 reddit",
+      "volume": {
+        "clickstream": 1170,
+        "google_ads": 720,
+        "kd": 14,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe loading doses daily for a week or two, then weekly maintenance, with nausea, flushing, darker moles and freckles, spontaneous erections and appetite loss; a 2021 study of 623 forum entries catalogued the same. None of that schedule was ever tested in a study."
+    },
+    {
+      "query": "melanotan 2 dosage",
+      "volume": {
+        "clickstream": 1068,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every melanotan II dose in the trials, in one table",
+      "boundary": "Every figure here is a dose a trial gave: 0.01 to 0.03 mg per kilogram subcutaneously, in men, for erection studies and one two-week pilot. The 'loading and maintenance' schedules on vendor pages were never tested, and a 2015 analysis found online vials held 4 to 9 mg with impurities."
+    },
+    {
+      "query": "afamelanotide",
+      "volume": {
+        "clickstream": 559,
+        "google_ads": 0,
+        "kd": 22,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Melanotan II vs melanotan I (afamelanotide, Scenesse), PT-141 and UV tanning",
+      "boundary": "Afamelanotide (Melanotan I) is the linear analogue that became an approved orphan drug; bremelanotide (PT-141) is melanotan II's own metabolite that became an approved libido drug. Melanotan II is the unapproved parent of both, and the one sold for tanning."
+    },
+    {
+      "query": "melanotan 2 side effects",
+      "volume": {
+        "clickstream": 508,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded, and what the case reports added",
+      "boundary": "From the trials: nausea (severe in one in eight at the erection dose), yawning and stretching, spontaneous erections, sleepiness at the top dose, and darkening skin. From case reports since: priapism needing surgery, darkening and new moles, gum pigmentation, and a mucosal melanoma after nasal use, in people using unregulated product with sunbeds."
+    },
+    {
+      "query": "scenesse",
+      "volume": {
+        "clickstream": 457,
+        "google_ads": 0,
+        "kd": 22,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Melanotan II vs melanotan I (afamelanotide, Scenesse), PT-141 and UV tanning",
+      "boundary": "Afamelanotide (Melanotan I) is the linear analogue that became an approved orphan drug; bremelanotide (PT-141) is melanotan II's own metabolite that became an approved libido drug. Melanotan II is the unapproved parent of both, and the one sold for tanning."
+    },
+    {
+      "query": "melanotan 2 nasal spray",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: subcutaneous injection in every trial; nasal sprays untested and now in a case report",
+      "boundary": "Subcutaneous injection in all four trials. Nasal sprays were never studied; the one published account of nasal melanotan II is a 2025 case report of a mucosal melanoma in the mouth of a 22-year-old user."
+    },
+    {
+      "query": "melanotan 2 uk",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 10,
+        "kd": 55,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: unlicensed and illegal to sell in the UK, US and Australia; never approved anywhere"
+    },
+    {
+      "query": "tanning injections",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 2900,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What melanotan II is, and what happened to it"
+    },
+    {
+      "query": "melanotan 2 cancer",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does melanotan II cause melanoma?",
+      "answer": "Unproven and not ruled out. Case reports describe melanomas diagnosed in users, a 2025 report describes a mucosal melanoma in the mouth of a 22-year-old after nasal use, and the drug reliably darkens and enlarges moles, which can hide or mimic melanoma. Most reported users also used sunbeds. No study has followed users long enough to measure risk in either direction; the melanocortin-1 receptor melanotan II activates is the receptor that governs pigment, and melanocytes are the cells melanoma comes from."
+    },
+    {
+      "query": "melanotan 2 results",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe loading doses daily for a week or two, then weekly maintenance, with nausea, flushing, darker moles and freckles, spontaneous erections and appetite loss; a 2021 study of 623 forum entries catalogued the same. None of that schedule was ever tested in a study."
+    },
+    {
+      "query": "melanotan 2 maintenance dose",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every melanotan II dose in the trials, in one table",
+      "boundary": "Every figure here is a dose a trial gave: 0.01 to 0.03 mg per kilogram subcutaneously, in men, for erection studies and one two-week pilot. The 'loading and maintenance' schedules on vendor pages were never tested, and a 2015 analysis found online vials held 4 to 9 mg with impurities."
+    },
+    {
+      "query": "melanotan 2 moles",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 30,
+        "kd": 21,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded, and what the case reports added",
+      "boundary": "From the trials: nausea (severe in one in eight at the erection dose), yawning and stretching, spontaneous erections, sleepiness at the top dose, and darkening skin. From case reports since: priapism needing surgery, darkening and new moles, gum pigmentation, and a mucosal melanoma after nasal use, in people using unregulated product with sunbeds."
+    },
+    {
+      "query": "melanotan 2 vs pt-141",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Melanotan II vs melanotan I (afamelanotide, Scenesse), PT-141 and UV tanning",
+      "boundary": "Afamelanotide (Melanotan I) is the linear analogue that became an approved orphan drug; bremelanotide (PT-141) is melanotan II's own metabolite that became an approved libido drug. Melanotan II is the unapproved parent of both, and the one sold for tanning."
+    },
+    {
+      "query": "what is melanotan 2",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 170,
+        "kd": 24,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is melanotan II?",
+      "answer": "Melanotan II is a synthetic cyclic peptide copied from the active core of the pigment hormone α-MSH, made at the University of Arizona in the late 1980s as a possible sunless tanning agent to prevent skin cancer. It activates several melanocortin receptors at once: MC1R in skin, which darkens pigment, and MC3 and MC4 in the brain, which produce erections, nausea, yawning and appetite loss. It was tested in a handful of men in the 1990s, never developed further, and is now sold illegally online as the 'Barbie drug' for tanning."
+    },
+    {
+      "query": "melanotan 2 australia",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": 21,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: unlicensed and illegal to sell in the UK, US and Australia; never approved anywhere"
+    },
+    {
+      "query": "melanotan 2 death",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": 54,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded, and what the case reports added",
+      "boundary": "From the trials: nausea (severe in one in eight at the erection dose), yawning and stretching, spontaneous erections, sleepiness at the top dose, and darkening skin. From case reports since: priapism needing surgery, darkening and new moles, gum pigmentation, and a mucosal melanoma after nasal use, in people using unregulated product with sunbeds."
+    },
+    {
+      "query": "melanotan 2 half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 140,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of melanotan II?",
+      "answer": "Not stated in any abstract in the ledger. The erection trials monitored effects for six hours after a subcutaneous dose, and the phase 1 pilot reported spontaneous erections for one to five hours after dosing; a 1994 preformulation study measured 4.6 percent oral bioavailability in rats. The tan itself persists for weeks because it is melanin in the skin, not the drug in the blood, which is why users move to weekly maintenance."
+    },
+    {
+      "query": "melanotan 2 legal",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: unlicensed and illegal to sell in the UK, US and Australia; never approved anywhere"
+    },
+    {
+      "query": "melanotan 2 nausea",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded, and what the case reports added",
+      "boundary": "From the trials: nausea (severe in one in eight at the erection dose), yawning and stretching, spontaneous erections, sleepiness at the top dose, and darkening skin. From case reports since: priapism needing surgery, darkening and new moles, gum pigmentation, and a mucosal melanoma after nasal use, in people using unregulated product with sunbeds."
+    },
+    {
+      "query": "melanotan 2 reconstitution",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 44,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "melanotan 2 melanoma",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does melanotan II cause melanoma?"
+    },
+    {
+      "query": "tanning injections side effects",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 14,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded, and what the case reports added",
+      "boundary": "From the trials: nausea (severe in one in eight at the erection dose), yawning and stretching, spontaneous erections, sleepiness at the top dose, and darkening skin. From case reports since: priapism needing surgery, darkening and new moles, gum pigmentation, and a mucosal melanoma after nasal use, in people using unregulated product with sunbeds."
+    },
+    {
+      "query": "how long does melanotan 2 take to tan",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "is melanotan 2 hard on the kidneys",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is melanotan II hard on the kidneys?",
+      "answer": "No trial measured kidney function, and no case report in the ledger describes kidney injury. Vendor pages mention rhabdomyolysis at overdose, which would strain the kidneys; that claim comes from case reports not in this record and is unverified here. What the trials did record was nausea, yawning, erections and sleepiness at the top dose.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "does melanotan 2 burn fat",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does melanotan II burn fat?",
+      "answer": "In mice and rats, yes: melanotan II activates the MC4 receptor that suppresses appetite, and chronic infusion reduced food intake and body fat in several rodent studies in the ledger. In people the trials recorded decreased appetite as a side effect and measured nothing about weight; no human study has tested it for fat loss, and its effects on heart rate and blood pressure in rodents are the reason MC4 agonists for obesity have been hard to develop.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "can melanotan 2 make your eyes lighter",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Can melanotan II change eye colour?",
+      "answer": "No study has reported it, and the biology runs the other way: melanotan II stimulates melanin production, which darkens, not lightens. Forum reports of eye changes exist; the ledger has none, and a pigment-stimulating drug acting on the iris would be a reason for concern rather than a feature.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/melanotan-2",
+      "rank": null,
+      "words": 5867,
+      "tables": 12,
+      "h2": 22,
+      "h3": 95,
+      "sci_links": 12,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 26,
+      "gap": "Twelve tables of loading and maintenance schedules that no study tested; correct that it is illegal to sell in the US, UK and Australia and flags melanoma and priapism; not in the Google top 10 for 'melanotan 2' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D9 F8 S6 U3"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Melanotan_II",
+      "rank": 4,
+      "words": 2512,
+      "tables": 7,
+      "h2": 6,
+      "sci_links": 25,
+      "score": 19,
+      "gap": "History, mechanism and the MHRA and FDA warnings; hedged on melanoma; no trial table, no dose history",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F3 S7 U4"
+    },
+    {
+      "url": "https://www.webmd.com/vitamins-supplements/melanotan",
+      "rank": 7,
+      "words": 2470,
+      "tables": 0,
+      "h2": 5,
+      "sci_links": 0,
+      "byline": "WebMD editorial; medically reviewed",
+      "score": 17,
+      "gap": "Consumer safety page: mole changes, melanoma concern, priapism; no citations; treats melanotan I and II together",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F3 S5 U4"
+    },
+    {
+      "url": "https://www.westlakedermatology.com/trends/melanotan-II/",
+      "rank": 9,
+      "words": 2439,
+      "tables": 0,
+      "h2": 12,
+      "sci_links": 3,
+      "byline": "Haneen Issa, PA-C",
+      "score": 16,
+      "gap": "Dermatology clinic page against 'tan jabs'; three citations; correct on status and risks",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F3 S4 U4"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12942211/",
+      "rank": 2,
+      "score": null,
+      "gap": "The 2026 gum-pigmentation case report ranks second; the SERP surfaces harm reports",
+      "source": "SERP result; abstract in the ledger (pmid-41752902)"
+    },
+    {
+      "url": "https://www.mcgill.ca/oss/article/medical-critical-thinking-student-contributors/barbie-drug-your-dermatologist-has-never-heard",
+      "rank": 6,
+      "score": null,
+      "gap": "University science-communication article; fetch returned 404 at the SERP URL",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that tables melanotan II's entire human trial record, four studies in 3 to 20 men at 0.01 to 0.03 mg/kg by the group that invented it, with nausea, yawning and erection rates, and shows the tanning trial that everyone assumes exists was never run; that traces both approved descendants (bremelanotide, its metabolite, for libido; afamelanotide, the linear analogue, for erythropoietic protoporphyria) and explains why the parent was dropped; that reports the 2015 analysis of online vials (4 to 9 mg per vial, impurities to 5.9 percent), the 2021 forum study of 623 entries, and the 2025 and 2026 case reports of oral mucosal melanoma after nasal use, gingival pigmentation and surgical priapism; and that states the legal position in the UK, US and Australia rather than 'research use only'.",
+  "serp_format_rewarded": "Harm-aware explainer. The SERP is a case report, WebMD, a dermatology clinic and Wikipedia; a cited page with the trial table, the descendant-drug table and the case-report table fits what Google is already rewarding for this query, and answers the dose question with the trial doses.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add the MHRA 2008 'tan jab' warning, the FDA 2009 warning letter and the TGA position to the ledger; cited editorially with pending_source.",
+    "Add the melanoma case reports (e.g. Ong and Bygrave 2012; Reid 2013) and the rhabdomyolysis reports that vendors cite; the ledger holds the 2025 oral melanoma and 2021 priapism reports only.",
+    "Add the bremelanotide origin papers showing PT-141 as melanotan II's metabolite.",
+    "fetch_evidence: the alias 'MT-II' matched metallothionein II, myotoxin II and V5/MT; removed by hand, accept-script (precedent GHRP-6, Cartalax)."
+  ]
+}
