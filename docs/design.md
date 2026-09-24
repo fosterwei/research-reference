@@ -13,6 +13,12 @@ after review, by moving the v2 components into `[slug].astro` and deleting the
 trial route. Do not apply v2 to other pages before that decision is recorded
 in this file's changelog.
 
+This is the repository's single canonical design document. The standalone
+design-system draft has been consolidated here; do not add another
+`DESIGN.md`, `design-system.md`, or page-specific design source that repeats
+these rules. Repository-specific tokens, components, budgets and live-route
+decisions in this file take precedence over generic examples elsewhere.
+
 ## 1. What the research found, and what we took from it
 
 The incumbent (`docs/competitive-baseline.md`) was crawled and measured; its
@@ -437,3 +443,203 @@ the drafting script, not the record, so the fix applies to every page.
   design canvas and the trial route. v2 live on `/compounds/semaglutide`
   only; the other compound pages, stacks, comparisons and tools remain on
   the first template pending review.
+
+## 10. Shared template system
+
+This design is a reusable system for compound records, stacks, comparisons,
+tools, research posts and future index pages. Templates share the same header,
+breadcrumbs, title treatment, status language, evidence components, source
+links, review state, guardrails and footer. A page type may omit a module only
+when that module has no meaningful content; it must not invent placeholder
+content to fill the layout.
+
+The content model is the boundary between research data and presentation. A
+generated page receives structured fields for its slug, page type, title,
+description, category, evidence metrics, sections, claims, tables, sources,
+FAQs, related records, editorial owner, reviewer, dates, canonical URL and
+indexing state. Components render these fields; they do not parse arbitrary
+page HTML or embed content-specific CSS.
+
+Every section has a stable id and a declared type. The same section registry
+drives rendering and the table of contents. A section with no content is
+omitted from both. This keeps programmatic pages readable and prevents anchor
+links to empty headings.
+
+Supported reusable section types include overview, fact grid, evidence
+assessment, human studies, evidence ledger, reported research context, dose
+context, routes, durations, safety, interactions, biomarkers, storage,
+comparisons, combination evidence, regulation, open questions, FAQ, sources,
+reference card, related records and change log.
+
+## 11. Reader interface versus publishing controls
+
+SEO and answer-engine requirements are implemented through HTML semantics,
+server rendering, metadata, structured data, internal links, source
+relationships and validation. They are not public badges or marketing claims.
+
+Keep the following in templates, build checks, CMS/editorial tooling or
+authenticated QA views rather than exposing them as reader-facing content:
+
+- Meta-title and meta-description previews
+- Canonical URL configuration
+- Robots directives and sitemap eligibility
+- Schema-type labels and validation results
+- Crawler-delivery diagnostics
+- “SEO optimized”, “AI optimized” or “extractable passage” badges
+- Internal content-quality scores
+- Publishing pipeline or indexing explanations
+
+Readers should see only information that improves understanding or trust:
+
+- A direct research summary
+- Evidence type and strength
+- Source links and citations
+- Limitations and open questions
+- Editorial owner and truthful review status
+- Evidence refresh and review dates
+- Method notes and change history
+
+## 12. Unified SEO and answer-engine standard
+
+SEO and GEO are one publishing standard in this project. The same page must
+be useful to a person, a conventional search index and an answer engine.
+
+### 12.1 Answer-first opening
+
+The first substantive block after the title and navigation states the direct
+answer in one to four sentences, then gives the evidence qualifier, the most
+important limitation and a path to supporting sources. The conclusion must be
+understandable when extracted without surrounding design.
+
+### 12.2 Question-shaped information architecture
+
+Major sections should correspond to real reader questions: what it is, what
+has been studied, what human studies found, what remains uncertain, what
+safety evidence reports, how it compares and where the sources can be checked.
+Each question has a descriptive heading, stable id and self-contained answer
+block. The existing TOC exposes those headings.
+
+### 12.3 Self-contained passages
+
+Important claims use complete sentences that name the subject, evidence
+context, relevant date or population, result and limitation where needed.
+Avoid unresolved pronouns and claims that require a visual card to make sense.
+Claims remain linked to their source id. A source excerpt stays verbatim under
+the quotation rules in §9.3.
+
+### 12.4 Structured formats
+
+Use tables when a reader compares rows or columns, lists for ordered or
+unordered sets, definition lists for key/value metadata, native disclosures
+for FAQs and short paragraphs for conclusions. Important facts must not exist
+only in images, hover states, canvas elements or client-only content.
+
+### 12.5 Original data and synthesis
+
+When the project publishes an original count or statistic, display its value,
+measurement, denominator or sample, date range, method, source and limitation.
+Avoid context-free numbers. Editorial synthesis is welcome when it adds a
+cross-study pattern, disagreement or interpretive limitation, but label
+inference as interpretation rather than presenting it as a source finding.
+
+### 12.6 Entity, author and freshness signals
+
+Use one canonical entity name and store aliases separately. Keep author,
+organization and reviewer identities truthful and consistent across pages.
+Display last evidence refresh, last reviewed date and what changed when those
+dates are available. `dateModified` changes only after a material update; it
+must not be refreshed simply to make a page appear new.
+
+### 12.7 Machine-readable parity and crawlability
+
+Essential text is server-rendered: the direct answer, headings, evidence
+summary, citations, FAQs, review state and disclaimers must be present without
+JavaScript. JSON-LD, Open Graph metadata, canonical URLs, robots directives
+and sitemap state must agree with visible content. Use `WebPage`, `Article`,
+`BreadcrumbList`, `FAQPage`, `Dataset`, `Person` and `Organization` only when
+the visible page and verified data support them.
+
+Do not block answer-engine crawlers by default, but do not expose staging,
+private, user-specific or incomplete content. Draft records remain `noindex`
+until the content and review gates pass.
+
+## 13. Additional component requirements
+
+### 13.1 Direct-answer block
+
+Compound and question pages render a concise answer before the evidence table.
+It contains the conclusion, evidence boundary, source path and a statement
+that the record does not create personal instructions. It is a normal article
+component, not an “AI answer” label.
+
+### 13.2 Data and method callouts
+
+Use a compact, attributable statistic or method callout only when it adds
+reader value. The callout includes the number or formula, what it measures,
+the source or method, the date and the limitation. It must not become a
+decorative badge row.
+
+### 13.3 Author and review block
+
+The author/reviewer block states the editorial owner, named credentialed
+reviewer if one exists, review state, last reviewed date, evidence refresh and
+change-log path. Missing reviewer information is shown as pending; identities
+and credentials are never invented.
+
+### 13.4 Research guardrails
+
+The shared guardrails block remains near the bottom of every research page:
+
+- Study doses and routes are evidence context, not personal instructions.
+- Animal and in-vitro evidence is not proof of human benefit.
+- Publication volume is not evidence strength.
+- Draft status remains visible until review is complete.
+- The record does not replace professional medical care.
+
+## 14. Page-type contract
+
+The page-template spec defines the content contract; this document defines its
+presentation. At minimum, the following page types use the shared system:
+
+- **Compound record:** overview, facts, evidence assessment, human studies,
+  evidence ledger, safety, context sections, open questions, FAQ, sources,
+  reference card, related records and change log.
+- **Stack:** component evidence matrix and a mandatory combination-evidence
+  result, including an explicit no-study state when empty.
+- **Comparison:** side-by-side evidence table, head-to-head claims and an
+  explicit no-direct-comparison state when empty.
+- **Tool:** formula before the control, labeled units and no personal-health
+  inputs such as body weight, age or condition.
+- **Post:** same title, review, source and guardrail conventions in a 66ch
+  prose column.
+- **Index:** category scope, inclusion criteria, filters, record cards and a
+  methods note.
+
+## 15. Design-system acceptance checklist
+
+Before a template or component is accepted:
+
+- It uses the repository tokens and shared components.
+- It preserves one H1 and a valid H2/H3 hierarchy.
+- It renders a direct answer where the page type needs one.
+- Its TOC and anchors are generated from rendered, non-empty sections.
+- Claims retain source relationships and quotations retain attribution.
+- Tables have captions, scoped headers and an internal mobile scroll region.
+- Draft and review states are visible and truthful.
+- Author, reviewer and freshness fields are verified or marked pending.
+- Essential content is available without JavaScript.
+- Metadata and structured data match visible content.
+- Public UI does not expose internal SEO/GEO diagnostics.
+- Mobile touch targets are at least 44 px and there is no page-level overflow.
+- `npm run build` and the page-measurement checks pass.
+- The page is checked at approximately 390 px and 1440 px in both themes.
+
+## 16. Documentation and change control
+
+There is one design source of truth: `docs/design.md`. Do not create a second
+design document for a route or copy this file into the repository root.
+
+Proposals begin as a trial route or prototype, using real record content. Once
+validated, update this file's changelog and move the component into the shared
+template in a separate change. If a rule changes, update its implementation,
+tests or measurement check in the same pull request.
