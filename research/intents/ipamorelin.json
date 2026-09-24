@@ -28,8 +28,9 @@
       "policy": "evidence-with-boundary",
       "section": "study_doses",
       "heading": "What doses did studies use?",
-      "boundary": "State in the lede that these are pharmacokinetic and animal doses, not a therapeutic range, and that no human trial established a dose for the uses the compound is marketed for.",
-      "measured_as": "ipamorelin dosage"
+      "boundary": "These are the doses studies administered, in the species and populations they studied, not a therapeutic range. No human trial has established an ipamorelin dose for the uses it is marketed for.",
+      "measured_as": "ipamorelin dosage",
+      "note": "Writer note (former boundary): State in the lede that these are pharmacokinetic and animal doses, not a therapeutic range, and that no human trial established a dose for the uses the compound is marketed for."
     },
     {
       "query": "ipamorelin peptide",
@@ -87,8 +88,7 @@
       "section": "combination",
       "target": "/stacks/cjc-1295-ipamorelin",
       "heading": "Studied in combination",
-      "boundary": "The stack page must open with: no study established a dose for this combination; the doses shown are those the three indexed studies administered.",
-      "note": "Highest-demand query in the set and it lands on the stack page, not this one. The stack record needs the boundary sentence and the evidence-with-boundary treatment more than the compound page does.",
+      "note": "Highest-demand query in the set and it lands on the stack page, not this one. The stack record needs the boundary sentence and the evidence-with-boundary treatment more than the compound page does. stack_boundary is rendered on the stack page, not here.",
       "volume": {
         "clickstream": 1068,
         "google_ads": 8100,
@@ -96,7 +96,8 @@
         "source": "dataforseo keyword_overview + google_ads search_volume, US/en, 2026-09-20"
       },
       "measured_as": "cjc 1295 ipamorelin dosage",
-      "source": "dataforseo"
+      "source": "dataforseo",
+      "stack_boundary": "The stack page must open with: no study established a dose for this combination; the doses shown are those the three indexed studies administered."
     },
     {
       "query": "ipamorelin benefits",
@@ -104,8 +105,8 @@
       "policy": "evidence-only",
       "section": "evidence_table",
       "heading": "What did the studies find?",
-      "boundary": "Reported outcomes, not benefits: the lede names the two human trials and states that neither measured the outcomes the compound is marketed for.",
-      "note": "'Benefits' is a claim of efficacy. The honest answer is the outcome column plus the measured absence.",
+      "boundary": "Reported outcomes, not benefits. Two human trials exist, and neither measured the body-composition, sleep or recovery outcomes ipamorelin is marketed for.",
+      "note": "'Benefits' is a claim of efficacy. The honest answer is the outcome column plus the measured absence. Writer note (former boundary): Reported outcomes, not benefits: the lede names the two human trials and states that neither measured the outcomes the compound is marketed for.",
       "volume": {
         "clickstream": 814,
         "google_ads": 0,
@@ -191,8 +192,9 @@
       "policy": "evidence-only",
       "section": "faq",
       "heading": "How long is ipamorelin's half-life?",
-      "gap": "Gobburu 1999 states the 2-hour terminal half-life in its abstract but reported_timelines has 0 claims. Drafter miss: re-run draft_claims.py and check the timeline pattern against that source before publishing.",
-      "measured_as": "ipamorelin half life"
+      "measured_as": "ipamorelin half life",
+      "answer_from": "reported_timelines",
+      "note": "Answered from the first reported_timelines claim (Gobburu 1999, terminal half-life 2 hours) once the single-compound drafting rule has re-run."
     },
     {
       "query": "ipamorelin vs ghrp-6",
@@ -224,7 +226,8 @@
       "section": "what",
       "heading": "What it is and how it acts",
       "note": "Selective GHS-R1a agonist. The summary carries the mechanism; the biomarker claims are the measurements behind it. Do not write mechanism prose that no source states.",
-      "measured_as": "how does ipamorelin work"
+      "measured_as": "how does ipamorelin work",
+      "answer": null
     },
     {
       "query": "does ipamorelin raise cortisol",
@@ -255,8 +258,9 @@
       "policy": "evidence-with-boundary",
       "section": "study_durations",
       "heading": "How long did studies run?",
-      "boundary": "Study duration is not a recommended cycle. Say so in the lede.",
-      "measured_as": "ipamorelin cycle length"
+      "boundary": "A study's duration is how long the trial ran. It is not a recommended cycle, and no trial has tested one.",
+      "measured_as": "ipamorelin cycle length",
+      "note": "Writer note (former boundary): Study duration is not a recommended cycle. Say so in the lede."
     }
   ],
   "competitors": [
@@ -294,11 +298,14 @@
   "outline": [
     "glance",
     "what",
+    "assessment",
     "human-trials",
     "evidence",
     "doses",
     "adverse",
     "biomarkers",
+    "timelines",
+    "escalation",
     "durations",
     "routes",
     "weight",
@@ -314,8 +321,8 @@
     "changelog"
   ],
   "open_actions": [
+    "FDA 503A bulk-substances notice (Federal Register 2024-21241) and the WADA Prohibited List S2.2 entry could not be fetched from the build environment on 2026-09-23 (TLS failures on every route; DataForSEO OnPage not enabled on the account). Fetch from another machine, add both to the ledger with verbatim excerpts, then re-draft regulatory_status.",
     "Add FDA bulk-substances and WADA S2 documents to the ipamorelin source ledger, then re-draft regulatory_status.",
-    "Re-run draft_claims.py and confirm the Gobburu 1999 half-life sentence lands in reported_timelines.",
     "Reviewer to rule on three evidence-table rows: Lu 2024 is an anamorelin paper, Timms 2014 is an anti-doping detection method, one row's author parsed as 'N'.",
     "Add 'ipamorelin-vs-sermorelin' and 'ipamorelin-vs-tesamorelin' to the comparison plan in research/registry.json; both cross class lines, so the comparison record must lead with the class difference rather than a head-to-head that no study ran.",
     "Add the boundary sentence to the cjc-1295-ipamorelin stack record: it receives the highest-demand query in the set."

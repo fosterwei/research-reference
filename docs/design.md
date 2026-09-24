@@ -511,6 +511,15 @@ interface IntentProfile {
 }
 ```
 
+Implementation: the profile is `research/intents/<slug>.json` (`docs/content-sop.md`
+stage 3), loaded by `src/lib/intents.ts`. Its `outline[]` is `sectionOrder`;
+its `queries[].heading` and `queries[].boundary` rename sections and open their
+ledes; a mapped evidence field with no claims renders as an explicit absence
+statement; `queries[].section: "faq"` adds FAQ items answered from a claim
+(`answer_from`) or our own prose (`answer`). The spine (title, at a glance,
+status, what it is, evidence assessment; sources, reference card, related,
+changelog) is fixed on every page and is not part of the outline.
+
 The renderer uses `sectionOrder` after validating that each section has real
 content and source support. It does not append unrelated sections to increase
 word count or satisfy a fixed page length.

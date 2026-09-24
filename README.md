@@ -14,6 +14,7 @@ Product goals, audience, non-goals, milestones, and success metrics are in [`doc
 | `docs/content-contract.md` | Canonical page types, URL patterns, record states, evidence labels, source ledger shape, metadata limits |
 | `docs/page-template-spec.md` | Section-level structure per page type, shared-text budget, heading style |
 | `docs/content-sop.md` | Per-page content process: keyword research, SERP research, intent map, information gain, outline |
+| `docs/content-automation.md` | The loop around the SOP: brief → generate → audit → triage → adjust → gate → review, with the five triage labels |
 | `docs/design.md` | Rendering spec: tokens, type, component anatomy, budgets, anti-patterns, how design changes are made |
 | `docs/competitive-baseline.md` | Measured competitor benchmark behind the uniqueness target and metadata limits |
 | `docs/launch-checklist.md` | Pilot launch QA checklist |
@@ -23,8 +24,11 @@ Product goals, audience, non-goals, milestones, and success metrics are in [`doc
 | `scripts/import_to_wordpress.py` | Idempotent REST importer from `data/` to a WordPress staging site |
 | `scripts/fetch_evidence.py` | Fills a compound record's source ledger from Europe PMC and ChEMBL; writes a research brief; never writes claims |
 | `scripts/draft_claims.py` | Drafts extractive, excerpt-backed claims from the ledger; generates stack and comparison records from the registry plan |
-| `scripts/measure_pages.py` | Words, sections and 6-gram uniqueness per built page; writes `uniqueness_pct` into records |
+| `scripts/measure_pages.py` | Words, sections, 6-gram uniqueness, formatting minimums (`--formatting`) and intent coverage (`--intent`) per built page |
+| `scripts/audit_page.py` | Deterministic content-quality audit of one built page as Markdown, for the automation loop's step 3 |
 | `research/intents/<slug>.json` | Per-page intent map: queries, policies, competitors, information gain, outline (see `docs/content-sop.md`) |
+| `research/audits/<slug>-<date>.md` | Audit, triage and exit-audit for one page (see `docs/content-automation.md`) |
+| `src/lib/intents.ts` | Loads an intent map at build time; orders body blocks, supplies headings, boundaries, FAQ items and absence statements |
 | `research/registry.json` | Compound registry: identity, class, target, peers, and the stack/comparison/tool plan by wave. Hand-maintained |
 | `research/registry.md` | Generated table view of the registry joined with fetched evidence counts. Never edit by hand |
 | `scripts/build_registry.py` | Builds `registry.md` and fails on dangling stack components, comparison sides or classes |

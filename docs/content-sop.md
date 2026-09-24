@@ -192,8 +192,9 @@ with `agent/AGENT.md`, and every query must carry one.
 | `evidence-with-boundary` | Answer from claims **and** say in the same breath what the answer is not. | dosage, cycle length, how long to use |
 | `redirect` | Answer by pointing to the record that holds it. | "X vs Y", stacking, class questions |
 
-`evidence-with-boundary` carries a `boundary` field: the sentence that must
-appear in the section's lede. "These are the doses studies administered, not a
+`evidence-with-boundary` carries a `boundary` field: **reader-facing copy** that
+the renderer places at the start of the section's lede, verbatim. It is not an
+instruction to a writer; write it as the sentence the reader will see. "These are the doses studies administered, not a
 recommended range, and no human trial established a dose for the uses this
 compound is marketed for" is the whole mechanism in one sentence. Without it the
 section is a dosing guide with citations, which is the thing the site exists not

@@ -4,8 +4,8 @@
 // none does. Counts come from the stack records; nothing is inferred.
 import { records } from '../../lib/collections';
 import { stacksContaining, compound as regCompound } from '../../lib/registry';
-interface Props { slug: string; name: string }
-const { slug, name } = Astro.props;
+interface Props { slug: string; name: string; heading?: string; boundary?: string | null }
+const { slug, name, heading = 'Studied in combination', boundary = null } = Astro.props;
 const plans = stacksContaining(slug);
 const stackRecords = plans.length ? await records('stacks') : [];
 const rows = plans.map((p) => {
@@ -18,7 +18,7 @@ const rows = plans.map((p) => {
 {rows.length > 0 && (
   <section id="combination">
     <div>
-      <h2>Studied in combination</h2>
+      <h2>{heading}</h2>{boundary && <p class="lede">{boundary}</p>}
       <p class="lede">Whether any indexed study tested {name} together with the compounds it is commonly combined with. A count of zero is the finding, not a gap in this page.</p>
     </div>
     <ul class="list">

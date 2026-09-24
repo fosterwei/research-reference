@@ -5,6 +5,7 @@ Usage:
     python3 scripts/measure_pages.py            # report only
     python3 scripts/measure_pages.py --write    # also set uniqueness_pct on records
     python3 scripts/measure_pages.py --formatting [slug]   # docs/design.md section 9.10 minimums
+    python3 scripts/measure_pages.py --intent <slug>       # intent coverage: docs/content-sop.md stage 5
 
 Reads dist/ (run `npm run build` first). For every record page it counts words
 inside <main>, lists rendered sections, and computes uniqueness the same way
@@ -130,7 +131,57 @@ def formatting(slug_filter):
     return 0
 
 
+def intent_coverage(slug: str) -> int:
+    """For each query in research/intents/<slug>.json, how the built page answers it.
+
+    covered   : the mapped section renders with at least one claim
+    absence   : the mapped section renders as an explicit absence statement
+    redirect  : the target page exists in dist/
+    faq       : the question appears in the FAQ
+    unaddressed: none of the above
+    """
+    import json as _json
+    m_path = ROOT / "research" / "intents" / f"{slug}.json"
+    page = DIST / "compounds" / slug / "index.html"
+    if not m_path.exists() or not page.exists():
+        print("need research/intents/<slug>.json and a built page"); return 1
+    m = _json.loads(m_path.read_text(encoding="utf-8")); h = page.read_text(encoding="utf-8")
+    import html as _html
+    main = _html.unescape(re.search(r"<main.*?</main>", h, re.S).group(0))
+    field_to_id = {"study_doses": "doses", "escalation_schedules": "escalation", "adverse_events": "adverse", "study_durations": "durations",
+                   "routes_studied": "routes", "weight_normalized_doses": "weight", "interactions": "interactions", "exclusion_criteria": "exclusion",
+                   "biomarkers_monitored": "biomarkers", "reported_timelines": "timelines", "storage": "storage", "evidence_table": "evidence",
+                   "regulatory_status": "regulatory", "what": "what", "compare": "compare", "combination": "combination", "faq": "faq"}
+    def section_html(sid):
+        mm = re.search(rf'<section id="{sid}".*?</section>', main, re.S); return mm.group(0) if mm else ""
+    rows = []; tally = {}
+    for q in m.get("queries", []):
+        sec = q.get("section"); sid = field_to_id.get(sec, sec); vol = (q.get("volume") or {}).get("clickstream") or (q.get("volume") or {}).get("google_ads") or 0
+        status = "unaddressed"
+        if q.get("policy") == "redirect" and q.get("target"):
+            status = "redirect" if (DIST / q["target"].strip("/") / "index.html").exists() else "unaddressed (target missing)"
+        elif sec == "faq":
+            status = "faq" if (q.get("heading") or q["query"]) in main else "unaddressed"
+        elif sid:
+            sh = section_html(sid)
+            if sh and 'class="claim"' in sh or (sid in ("evidence", "what") and sh): status = "covered"
+            elif sh and "No study in this record" in sh: status = "absence"
+            elif sh: status = "covered"
+        heading_ok = bool(q.get("heading")) and q["heading"] in main
+        rows.append((vol, q["query"], q.get("policy"), sid, status, heading_ok)); tally[status.split(" ")[0]] = tally.get(status.split(" ")[0], 0) + 1
+    rows.sort(reverse=True)
+    print(f"{'demand':>7}  {'policy':<24}{'section':<14}{'status':<24}{'heading':<8} query")
+    for vol, q, pol, sid, st, hk in rows: print(f"{vol:>7}  {str(pol):<24}{str(sid):<14}{st:<24}{'yes' if hk else '-':<8} {q}")
+    n = len(rows); ok = sum(v for k, v in tally.items() if k in ("covered", "absence", "redirect", "faq"))
+    print(f"\n{slug}: {ok}/{n} queries addressed ({tally}); demand-weighted: "
+          f"{100*sum(r[0] for r in rows if not r[4].startswith('unaddressed'))/max(1,sum(r[0] for r in rows)):.0f}% of measured demand lands on a rendered answer")
+    return 0
+
+
 if __name__ == "__main__":
+    if "--intent" in sys.argv:
+        args = [a for a in sys.argv[1:] if not a.startswith("--")]
+        sys.exit(intent_coverage(args[0]) if args else 1)
     if "--formatting" in sys.argv:
         args = [a for a in sys.argv[1:] if not a.startswith("--")]
         sys.exit(formatting(args[0] if args else None))
