@@ -1,0 +1,514 @@
+{
+  "slug": "ara-290",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only. 'where can i buy ara-290 peptide in the usa' (People also ask) declined as commercial.",
+  "thin_serp": false,
+  "serp_2026-09-24": {
+    "query": "ara-290",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "perspectives",
+      "video",
+      "related_searches"
+    ],
+    "organic_top": [
+      "pmc (Brines 2015)",
+      "pmc (Dahan 2013)",
+      "americanpeptides.us (vendor)",
+      "americanwellnesspharmacy.com",
+      "riteaid.com",
+      "renewyouth.com (clinic)",
+      "journals.lww.com (Pain Reports review)"
+    ],
+    "note": "Two primary trials and a Pain Reports review rank; the AI Overview cites PMC three times. The incumbent dosing guide is absent."
+  },
+  "demand_findings": "Four spellings of the head carry 6,613 clickstream (KD 3 to 10); 'cibinetide' 152 shows the generic name barely registers. Dosage 152 ties the generic name; reddit, 'vs bpc-157', 'araim' and 'what is' at 101 each. Every indication query (neuropathy, sarcoidosis, diabetic neuropathy, long covid) is Ads-only or unindexed, which says the searcher knows the name before the disease.",
+  "h1": "ARA-290 (cibinetide) peptide: what four placebo-controlled trials found for nerve pain, why development stopped, and what the vials people buy rest on",
+  "dek": "An erythropoietin fragment designed to repair tissue without making blood, with four real trials in sarcoidosis and diabetic neuropathy that all pointed the same way, and then nothing. This page tables the trials, gives the doses they used, explains the two-minute half-life, and says what a phase 2 programme that stalled does and does not tell a buyer.",
+  "queries": [
+    {
+      "query": "ara-290",
+      "volume": {
+        "clickstream": 3001,
+        "google_ads": 5400,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What ARA-290 (cibinetide) is, and what its four trials found"
+    },
+    {
+      "query": "ara 290",
+      "volume": {
+        "clickstream": 1577,
+        "google_ads": 5400,
+        "kd": 8,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What ARA-290 (cibinetide) is, and what its four trials found"
+    },
+    {
+      "query": "ara-290 peptide",
+      "volume": {
+        "clickstream": 1221,
+        "google_ads": 0,
+        "kd": 10,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What ARA-290 (cibinetide) is, and what its four trials found"
+    },
+    {
+      "query": "ara290",
+      "volume": {
+        "clickstream": 814,
+        "google_ads": 1900,
+        "kd": 8,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What ARA-290 (cibinetide) is, and what its four trials found"
+    },
+    {
+      "query": "ara-290 dosage",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 0,
+        "kd": 14,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every ARA-290 dose in the trials, in one table",
+      "boundary": "Every figure here is a dose a trial gave: 2 mg intravenously three times a week, or 1 to 8 mg subcutaneously once a day, for 28 days to 12 weeks. Vendor vials copy the 4 mg figure; the trials that used it were four weeks long."
+    },
+    {
+      "query": "cibinetide",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 320,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What ARA-290 (cibinetide) is, and what its four trials found"
+    },
+    {
+      "query": "ara-290 reddit",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 140,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe use for nerve pain, small-fibre neuropathy, long-COVID symptoms and inflammation, at the trial dose or above, for months. The trials ran four weeks; nobody has measured what months of use does."
+    },
+    {
+      "query": "ara-290 vs bpc-157",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 90,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "ARA-290 vs BPC-157, erythropoietin and the neuropathy drugs",
+      "boundary": "BPC-157 is a repair peptide with no controlled human trial; ARA-290 has four. The comparison people search for runs the wrong way: ARA-290 is the one with evidence, and it is the one whose development stopped."
+    },
+    {
+      "query": "araim pharmaceuticals",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 30,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: orphan designation, phase 2, then silence"
+    },
+    {
+      "query": "what is ara-290",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 260,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is ARA-290?",
+      "answer": "ARA-290, generic name cibinetide, is an 11-amino-acid peptide copied from one helix of erythropoietin, designed by Araim Pharmaceuticals so that it activates the tissue-protective receptor erythropoietin uses (the EPO receptor paired with the beta common receptor, which Araim calls the innate repair receptor) without touching the receptor that makes red blood cells. It reached phase 2 in sarcoidosis-associated small-fibre neuropathy and diabetic neuropathy between 2012 and 2017, then stalled."
+    },
+    {
+      "query": "ara-290 benefits",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what ARA-290 did in people",
+      "boundary": "Outcomes from four placebo-controlled trials in sarcoidosis neuropathy and type 2 diabetes, 22 to 64 people each and 28 days long, all run by the developer, plus a nine-patient eye study that found nothing. Nothing has been tested for longer than 12 weeks, and development stopped after phase 2."
+    },
+    {
+      "query": "ara-290 half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of ARA-290?",
+      "answer": "About two minutes in plasma, by the developers' own account, and anti-doping laboratories found it broken down quickly by exopeptidases in blood. The developers argue that a brief receptor signal triggers effects lasting days, which is why once-daily dosing was used in the trials; that is a hypothesis about mechanism, not a measurement of how long the peptide persists."
+    },
+    {
+      "query": "ara-290 reconstitution",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 210,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "ara-290 side effects",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what four placebo-controlled trials recorded",
+      "boundary": "From placebo-controlled trials: no safety concerns and no antibodies in any of them. The limit of that reassurance is 28 days in most trials and 12 weeks in one, all under supervision."
+    },
+    {
+      "query": "ara-290 neuropathy",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what ARA-290 did in people",
+      "boundary": "Outcomes from four placebo-controlled trials in sarcoidosis neuropathy and type 2 diabetes, 22 to 64 people each and 28 days long, all run by the developer, plus a nine-patient eye study that found nothing. Nothing has been tested for longer than 12 weeks, and development stopped after phase 2."
+    },
+    {
+      "query": "ara-290 small fiber neuropathy",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what ARA-290 did in people",
+      "boundary": "Outcomes from four placebo-controlled trials in sarcoidosis neuropathy and type 2 diabetes, 22 to 64 people each and 28 days long, all run by the developer, plus a nine-patient eye study that found nothing. Nothing has been tested for longer than 12 weeks, and development stopped after phase 2."
+    },
+    {
+      "query": "ara-290 sarcoidosis",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what ARA-290 did in people",
+      "boundary": "Outcomes from four placebo-controlled trials in sarcoidosis neuropathy and type 2 diabetes, 22 to 64 people each and 28 days long, all run by the developer, plus a nine-patient eye study that found nothing. Nothing has been tested for longer than 12 weeks, and development stopped after phase 2."
+    },
+    {
+      "query": "ara-290 diabetic neuropathy",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what ARA-290 did in people",
+      "boundary": "Outcomes from four placebo-controlled trials in sarcoidosis neuropathy and type 2 diabetes, 22 to 64 people each and 28 days long, all run by the developer, plus a nine-patient eye study that found nothing. Nothing has been tested for longer than 12 weeks, and development stopped after phase 2."
+    },
+    {
+      "query": "ara-290 fda",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: orphan designation, phase 2, then silence"
+    },
+    {
+      "query": "ara-290 injection",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: intravenous in the first trial, subcutaneous in the rest",
+      "boundary": "Intravenous three times a week in the 2012 pilot; self-administered subcutaneous injection once daily in every later trial. The route people use is the route the trials used, which is unusual for this site."
+    },
+    {
+      "query": "ara-290 erythropoietin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How ARA-290 works: erythropoietin's repair signal without its blood effect"
+    },
+    {
+      "query": "ara-290 long covid",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does ARA-290 help long COVID?",
+      "answer": "No study has tested it. The idea comes from its small-fibre neuropathy trials and from reports of small-fibre neuropathy in some people after COVID-19. That is a hypothesis one step removed from the evidence, and no trial has been registered for it."
+    },
+    {
+      "query": "what is ara 290 used for",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is ARA-290 used for?",
+      "answer": "In trials, for neuropathic pain and small nerve fibre loss in sarcoidosis, for neuropathy and metabolic control in type 2 diabetes, and once for diabetic macular oedema, where it did nothing measurable. It has never been approved for any of them. Outside the trials it circulates for nerve pain, inflammation and long-COVID symptoms.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "does ara 290 actually work",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what ARA-290 did in people",
+      "boundary": "Outcomes from four placebo-controlled trials in sarcoidosis neuropathy and type 2 diabetes, 22 to 64 people each and 28 days long, all run by the developer, plus a nine-patient eye study that found nothing. Nothing has been tested for longer than 12 weeks, and development stopped after phase 2.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "where can i buy ara-290 peptide in the usa",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "decline",
+      "section": "none",
+      "source": "people-also-ask",
+      "note": "Commercial intent; out of scope per docs/content-sop.md."
+    },
+    {
+      "query": "what is the best peptide for neuropathy",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "ARA-290 vs BPC-157, erythropoietin and the neuropathy drugs",
+      "boundary": "BPC-157 is a repair peptide with no controlled human trial; ARA-290 has four. The comparison people search for runs the wrong way: ARA-290 is the one with evidence, and it is the one whose development stopped.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/ara-290",
+      "rank": null,
+      "words": 3601,
+      "tables": 9,
+      "h2": 21,
+      "h3": 45,
+      "sci_links": 5,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 24,
+      "gap": "Correctly lists the four trials, the 1 to 8 mg range, the orphan designation and that development stalled; nine reconstitution and cycle tables; not in the Google top 10 for 'ara-290' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F8 S5 U3"
+    },
+    {
+      "url": "https://riteaid.com/peptides/ara-290",
+      "rank": 9,
+      "words": 776,
+      "tables": 0,
+      "h2": 11,
+      "sci_links": 1,
+      "byline": "Rite Aid Health Team",
+      "score": 13,
+      "gap": "Short status page with two lead-capture forms; names sarcoidosis and neuropathy without a trial",
+      "source": "fetched 2026-09-24, metrics measured; scored D3 F2 S6 U2"
+    },
+    {
+      "url": "https://www.americanwellnesspharmacy.com/regulatory/ara290-peptide-benefits",
+      "rank": 8,
+      "words": 736,
+      "tables": 0,
+      "h2": 1,
+      "sci_links": 0,
+      "byline": null,
+      "score": 8,
+      "gap": "Pharmacy page with a reconstitution protocol for a 10 mg vial; no citations",
+      "source": "fetched 2026-09-24, metrics measured; scored D3 F2 S1 U2"
+    },
+    {
+      "url": "https://www.renewyouth.com/ara-290-a-new-frontier-in-pain-relief-and-healing/",
+      "rank": 10,
+      "words": 571,
+      "tables": 0,
+      "h2": 4,
+      "sci_links": 0,
+      "byline": null,
+      "score": 6,
+      "gap": "Clinic marketing; no citations",
+      "source": "fetched 2026-09-24, metrics measured; scored D2 F1 S1 U2"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cibinetide",
+      "rank": null,
+      "words": 761,
+      "tables": 6,
+      "h2": 1,
+      "sci_links": 9,
+      "score": 11,
+      "gap": "Stub under the generic name; notes discontinued development and Araim",
+      "source": "fetched 2026-09-24, metrics measured; scored D2 F1 S7 U1"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4365069/",
+      "rank": 2,
+      "score": null,
+      "gap": "Brines 2015 (type 2 diabetes trial) ranks second and Dahan 2013 fourth; the SERP rewards the primary trials",
+      "source": "SERP result; both papers in the ledger"
+    }
+  ],
+  "information_gain": "The only page that tables ARA-290's human trials with size, route, dose, duration and primary result, showing that four placebo-controlled trials of 22 to 64 people over 28 days consistently improved neuropathic symptoms and corneal nerve fibre counts while a nine-patient eye study found nothing; that reports the developers' own two-minute plasma half-life and their hypothesis for why once-daily dosing still works; that states the route people use is the route the trials used, a rarity on this site, and that the exposure people use (months) is not; and that separates the orphan designation and phase 2 history from approval, of which there is none, with development stalled since 2017.",
+  "serp_format_rewarded": "Evidence explainer. Two primary trials and a review rank above the vendors; a cited page with a trial table and a plain mechanism section fits.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add the FDA orphan-drug designation record for cibinetide in sarcoidosis-associated small fibre neuropathy to the ledger; cited editorially with pending_source.",
+    "The Dahan 2013 trial abstract omits its sample size and dose; the full text or the trial registration should supply them.",
+    "Araim's later long-acting derivatives and any post-2017 trial registrations should be checked; the record ends at the 2020 eye study."
+  ]
+}
