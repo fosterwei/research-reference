@@ -13,8 +13,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "GHK-Cu is a peptide in the repair & anti inflammatory class (copper-binding tripeptide; wound-healing and gene-expression effects reported). Europe PMC indexes 169 publications naming it or a listed alias in a title or abstract, including 1 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "GHK-Cu: what the research shows",
-    "description": "GHK-Cu research, cited: 169 indexed publications, 1 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "GHK-Cu: Topical Evidence, Injected Use, Doses, Side Effects",
+    "description": "GHK-Cu: topical trials versus injected use, doses that circulate, side effects, copper cautions, and comparison with BPC-157 and TB-500."
   },
   "attributes": {
     "routes_studied": [
@@ -227,7 +227,15 @@
         "drafting": "extractive"
       }
     ],
-    "regulatory_status": [],
+    "regulatory_status": [
+      {
+        "value": "GHK-Cu is a cosmetic ingredient (INCI name copper tripeptide-1) permitted in skincare in most jurisdictions, and a copper peptide gel was cleared in the United States in the 1990s as a wound-dressing device. As a drug, in any route, it is not approved anywhere. Injectable products are sold as research chemicals. It is not named on the WADA Prohibited List.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Clinical trial, humans, 2026: Clinically, GHK-Cu improved patient-reported satisfaction after laser resurfacing and significantly reduced wrinkle volume and depth compared with controls.",
@@ -729,6 +737,40 @@
           "outcome": "see source"
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "GHK-Cu is the tripeptide glycyl-L-histidyl-L-lysine bound to a copper(II) ion. Loren Pickart isolated it from human plasma in 1973 while studying why young plasma made liver cells behave more youthfully than old plasma. It occurs naturally in plasma, saliva and urine, and its reported plasma concentration falls with age, from roughly 200 nanograms per millilitre at twenty to about 80 at sixty, a decline that underlies most of the ageing claims made for it.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Its actions in cell and animal work fall into three groups: delivering copper to enzymes that cross-link collagen and elastin and to antioxidant enzymes; signalling on its own to increase collagen, glycosaminoglycans and growth factors while damping inflammatory signals and tissue-degrading enzymes; and, in computational analyses of gene-expression databases, shifting the activity of a large number of genes toward patterns seen in wound healing and away from those seen in inflammation and some cancers. The gene-expression findings are from database analyses by the compound's discoverer and have not been tested as predictions in people.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The human evidence is almost entirely topical: creams and gels on skin and scalp, in trials of photo-ageing, post-laser recovery, wound healing and hair. A copper peptide wound gel was cleared in the United States in the 1990s as a medical device for chronic ulcers. Injectable GHK-Cu, which is what most searchers mean by dosage, has no human trial at all; its use rests on the topical record, the plasma-decline story and the animal work.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Outside the literature, injectable GHK-Cu circulates at 1 to 2 milligrams by subcutaneous injection daily, or two to three times a week, for four to eight weeks, often near skin or hair the user wants to change; intranasal use appears too, borrowed from a mouse study. Topically, cosmetic serums at 1 to 3 percent are applied once or twice daily, and this is the one form with human trials behind it. The 'GLOW stack' adds BPC-157 and TB-500. None of the injected figures has been tested in a human study.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Effects people report from injection are firmer skin, thicker hair, faster healing of minor injuries and reduced joint discomfort; reported side effects are pain and bruising at the injection site, transient nausea, light-headedness or a drop in blood pressure shortly after injecting, and a metallic taste. Long-term effects of injecting a copper complex, including on copper balance, have not been studied. From topical use, irritation and contact sensitivity are the reported issues.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -771,20 +813,68 @@
   },
   "faq": [
     {
-      "question": "Has GHK-Cu been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 0 clinical trials and 1 randomized controlled trials naming GHK-Cu or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "question": "What is GHK-Cu?",
+      "answer": "A three-amino-acid peptide, glycyl-histidyl-lysine, bound to copper, found naturally in human plasma and isolated in 1973. It is the copper peptide of skincare and, more recently, an injected research chemical."
     },
     {
-      "question": "What kind of evidence exists for GHK-Cu?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What does GHK-Cu do?",
+      "answer": "In cells and animals it delivers copper to collagen-building and antioxidant enzymes, increases collagen and growth factors, damps inflammatory signals, and shifts gene expression in database analyses. In human trials, all topical, it improved skin measurements, post-laser recovery, scars and scalp flaking."
     },
     {
-      "question": "Is GHK-Cu an approved medicine?",
-      "answer": "No ChEMBL record matches GHK-Cu or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "What is the GHK-Cu injection dose?",
+      "answer": "No human study has tested injected GHK-Cu at any dose. The 1 to 2 milligram daily or thrice-weekly figures that circulate come from communities and clinics."
     },
     {
-      "question": "Which species has GHK-Cu been studied in?",
-      "answer": "Studies in this record's ledger report work in: Cattle, Humans, Mice, Rats, Swine, Zebrafish. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "Is GHK-Cu better topical or injected?",
+      "answer": "The evidence exists only for topical use. Injection assumes systemic delivery does more, and nothing has tested that assumption."
+    },
+    {
+      "question": "What are the side effects of GHK-Cu?",
+      "answer": "Topically: irritation and contact sensitivity. Injected, per community reports: injection-site pain and bruising, nausea, light-headedness or a drop in blood pressure, metallic taste. Long-term effects of injecting copper, including on copper balance, are unstudied."
+    },
+    {
+      "question": "Is GHK-Cu FDA approved?",
+      "answer": "Not as a drug by any route. It is a permitted cosmetic ingredient, and a copper peptide wound gel was cleared as a medical device in the 1990s."
+    },
+    {
+      "question": "Who should avoid GHK-Cu?",
+      "answer": "Anyone with Wilson's disease or another copper-handling disorder, since the compound delivers copper. Beyond that, the cautions are theoretical: copper balance with repeated injection, blood pressure, and unstudied effects in cancer."
+    },
+    {
+      "question": "How is GHK-Cu reconstituted?",
+      "answer": "Powder dissolved in bacteriostatic water; a 50 mg vial in 5 mL gives 10 mg per mL, so 1 mg is 0.1 mL. The solution is blue; a shift to green or brown means the copper has left the complex."
+    },
+    {
+      "question": "How long does GHK-Cu take to work?",
+      "answer": "In topical trials, skin measurements changed over twelve weeks. For injection, nothing is measured; users report skin changes in weeks and hair changes in months, from uncontrolled photographs."
+    },
+    {
+      "question": "Does GHK-Cu regrow hair?",
+      "answer": "Copper peptides have small topical studies and animal work on hair follicles; the one indexed scalp study measured flaking with GHK-Cu among several ingredients. No trial shows hair regrowth from injected GHK-Cu."
+    },
+    {
+      "question": "What is the GLOW stack?",
+      "answer": "A community name for GHK-Cu combined with BPC-157 and TB-500, aimed at skin and healing. No study has tested the combination; the stack page holds what exists for each component."
+    },
+    {
+      "question": "Can GHK-Cu be combined with BPC-157 and TB-500?",
+      "answer": "Communities do. Each component has its own evidence, none of it for the combination."
+    },
+    {
+      "question": "Is GHK-Cu banned in sport?",
+      "answer": "It is not named on the WADA Prohibited List."
+    },
+    {
+      "question": "Does GHK-Cu decline with age?",
+      "answer": "Its reported plasma level falls from about 200 nanograms per millilitre at twenty to about 80 at sixty. That decline is the basis of the ageing claims; whether replacing it by injection does anything has not been tested."
+    },
+    {
+      "question": "Can GHK-Cu be used with vitamin C or retinol?",
+      "answer": "Strong acids and high-dose vitamin C can strip the copper from the peptide on the skin, which is why formulators separate them. Retinol is usually alternated rather than layered, on formulation grounds."
+    },
+    {
+      "question": "How should GHK-Cu be stored?",
+      "answer": "Powder refrigerated or frozen, away from light; reconstituted solution refrigerated and used within about four weeks, discarded if it loses its blue colour or clouds."
     }
   ],
   "sources": [
@@ -1125,6 +1215,62 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 37 ledger sources by scripts/draft_claims.py: 21 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written guide (9 sections), FAQ to 16, mechanism, reported-use and regulatory editorial sections, intent-driven H1 and title; the topical-versus-injected distinction made explicit throughout. Fourth compound through the loop."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "GHK-Cu in two minutes",
+      "html": "<p><strong>What it is.</strong> A three-amino-acid peptide bound to copper, found naturally in human plasma, isolated in 1973. Its plasma level falls with age. It has been a cosmetic ingredient, the \"copper peptide\" of skincare, since the 1990s.</p><p><strong>What the research actually shows.</strong> 169 indexed publications; one randomized trial and a handful of human studies, all of them topical: skin ageing, recovery after laser treatment, scars, scalp flaking, wound gels. Cell and animal work on collagen, healing and gene expression. For injected GHK-Cu, which is what the dosage searches are about, there is no human study.</p><p><strong>What people commonly report using.</strong> 1 to 2 milligrams injected daily or a few times a week, or topical serums at 1 to 3 percent. Only the second has trials.</p><p><strong>Status.</strong> Permitted cosmetic ingredient; a cleared wound-dressing device in the 1990s; not an approved drug by any route; not named on the WADA list.</p><p><strong>Where the evidence is thinnest.</strong> Everything about injection: absorption, dose, effect, safety and copper balance.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "GHK-Cu dosage chart: topical trials versus injected use",
+      "lede": "The trials are topical. The dosage searches are about injections. The table keeps the two apart.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Source of the figure</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">What it showed</th></tr></thead><tbody><tr><td>Topical trials in skin ageing (1998 to 2002)</td><td>Creams at about 1 to 2%</td><td>Twice daily, 12 weeks</td><td>Improved skin thickness, density and wrinkle scores versus vehicle in small trials</td></tr><tr><td>Post-laser and scar studies (2025 to 2026)</td><td>Cosmetic formulations</td><td>Daily for weeks</td><td>Faster recovery and reduced scar visibility, per the indexed abstracts</td></tr><tr><td>Wound gel (1990s device clearance)</td><td>2% copper peptide gel</td><td>Daily dressing</td><td>Diabetic and chronic ulcers; cleared as a device</td></tr><tr><td>Scalp study (2024)</td><td>Topical formulation with other actives</td><td>Daily</td><td>Reduced flaking; GHK-Cu was one of several ingredients</td></tr><tr><td>Mouse studies</td><td>15 mg/kg intranasal; 0.2 to 20 µg/g intraperitoneal</td><td>Days to weeks</td><td>Alzheimer-model and healing models</td></tr><tr><td>Commonly reported, injected</td><td>1 to 2 mg subcutaneous</td><td>Daily or 2 to 3 times weekly, 4 to 8 weeks</td><td>No human study of any injected dose</td></tr><tr><td>Commonly reported, topical</td><td>1 to 3% serum</td><td>Once or twice daily</td><td>Closest to the trial evidence</td></tr></tbody></table></div></div><p>The injected doses that circulate are a thousand times the plasma concentrations the ageing story rests on, delivered by a route no study has used. That is not an argument against them; it is a statement that they came from nowhere in the literature.</p>"
+    },
+    {
+      "id": "reconstitution",
+      "heading": "Reconstituting GHK-Cu: concentrations for common vial sizes",
+      "lede": "Injectable GHK-Cu is sold as a blue powder dissolved before use. The arithmetic is exact; the choice of what to draw is not made here.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Vial</th><th scope=\"col\">Diluent added</th><th scope=\"col\">Concentration</th><th scope=\"col\">Volume holding 1 mg on a U-100 syringe</th></tr></thead><tbody><tr><td>50 mg</td><td>2 mL</td><td>25,000 µg/mL</td><td>0.04 mL (4 units)</td></tr><tr><td>50 mg</td><td>5 mL</td><td>10,000 µg/mL</td><td>0.10 mL (10 units)</td></tr><tr><td>100 mg</td><td>5 mL</td><td>20,000 µg/mL</td><td>0.05 mL (5 units)</td></tr><tr><td>100 mg</td><td>10 mL</td><td>10,000 µg/mL</td><td>0.10 mL (10 units)</td></tr></tbody></table></div></div><p>Vials are large because the circulating doses are in milligrams, not micrograms; a 50 mg vial at 2 mL gives a very concentrated solution and small volumes that are easy to misread on a syringe. The solution is blue from the copper. A change in colour toward green or brown suggests the copper has come out of the complex. The <a href=\"/tools/reconstitution-calculator\">reconstitution calculator</a> shows its formula.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who GHK-Cu is discussed for, and the cautions that recur",
+      "html": "<p><strong>The interest.</strong> Skin ageing, hair thinning, scars and healing, on the strength of the topical trials and the plasma-decline story; injection is chosen on the assumption that systemic delivery does more than a serum. Nothing tests that assumption.</p><p><strong>Cautions that recur.</strong></p><ul><li><strong>Wilson's disease and copper-handling disorders.</strong> The compound delivers copper; anyone who cannot excrete it should not add it. This is the one caution every source agrees on.</li><li><strong>Copper balance with repeated injection.</strong> Milligram doses for weeks add measurable copper; no study has measured what that does to serum copper, ceruloplasmin or the liver.</li><li><strong>Blood pressure.</strong> Transient light-headedness after injection is a recurring community report; the mechanism is unknown.</li><li><strong>Cancer.</strong> The gene-expression analyses suggest activity against some cancer-related patterns, and the compound promotes growth factors and blood vessels; both directions are theoretical and untested.</li><li><strong>Topical sensitivity.</strong> Contact irritation with serums, and interactions with vitamin C and acid products that can strip the copper from the peptide.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What happens after a dose, and what people report over weeks",
+      "html": "<p><strong>Measured.</strong> In the topical trials, changes in skin measurements appeared over twelve weeks of twice-daily use. Nothing is measured after injection in people.</p><p><strong>Commonly reported, untested.</strong> From injection, users describe improved skin texture within two to four weeks and hair changes over two to three months; before-and-after photographs circulate without controls, lighting standards or blinding, in a domain where such photographs are notoriously unreliable.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>Powder is refrigerated or frozen, protected from light. Reconstituted solution is refrigerated and typically used within about four weeks; the blue colour should persist, and a shift toward green or brown, or any cloudiness, is a reason to discard it. Topical products follow their own labels; copper peptides are unstable alongside strong acids and high-dose vitamin C, which is why formulators separate them.</p>"
+    },
+    {
+      "id": "monitoring",
+      "heading": "Blood tests and monitoring that would be relevant",
+      "lede": "Nothing has been validated for GHK-Cu. Given what it delivers, these are the measures a clinician would consider for repeated injection.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Measure</th><th scope=\"col\">Why it appears</th><th scope=\"col\">When</th></tr></thead><tbody><tr><td>Serum copper and ceruloplasmin</td><td>The compound delivers copper; excess accumulates in liver and brain</td><td>Baseline and after a course</td></tr><tr><td>Liver enzymes</td><td>Copper is handled by the liver</td><td>Baseline and after a course</td></tr><tr><td>Blood pressure</td><td>Post-injection light-headedness is a recurring report</td><td>Around injections</td></tr><tr><td>Zinc</td><td>Copper and zinc compete for absorption and binding</td><td>Baseline</td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how GHK-Cu is discussed",
+      "html": "<ul><li><strong>Applying topical evidence to injections.</strong> Every human trial is a cream, gel or serum.</li><li><strong>Reading the gene-expression analyses as clinical results.</strong> They are database computations, largely by the compound's discoverer, and untested as predictions.</li><li><strong>Treating \"natural\" and \"declines with age\" as proof that replacing it helps.</strong> Many things decline with age; the inference has been tested for none of them by injection.</li><li><strong>Combining it with acids or vitamin C on the skin.</strong> The copper leaves the peptide.</li><li><strong>Assuming the \"GLOW stack\" was studied.</strong> The <a href=\"/stacks/bpc-157-tb-500-ghk-cu\">BPC-157, TB-500 and GHK-Cu</a> combination has no study; each component's evidence is what it is.</li></ul>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "GHK-Cu vs BPC-157, TB-500 and KPV",
+      "lede": "The compounds it is combined with in the healing and skin stacks. GHK-Cu is the only one with human trials in its own class, and all of them are topical.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Mechanism (proposed)</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td>GHK-Cu</td><td>Copper-binding tripeptide; collagen, growth factors, gene expression</td><td>Topical trials in skin ageing, scars, wounds, scalp; none injected</td><td>Cosmetic ingredient; wound-device clearance; not a drug</td></tr><tr><td>BPC-157</td><td>Gastric-protein fragment; nitric oxide, growth-factor receptors</td><td>3 uncontrolled pilots; otherwise rats</td><td>Not approved; FDA compounding Category 2; WADA S0</td></tr><tr><td>TB-500</td><td>Thymosin β4 fragment; actin binding, cell migration</td><td>Trials of the parent protein in eyes and wounds</td><td>Not approved; WADA S2</td></tr><tr><td>KPV</td><td>α-MSH fragment; anti-inflammatory</td><td>Animal and cell studies</td><td>Not approved</td></tr></tbody></table></div></div><p>Class peers with their own records: <a href=\"/compounds/bpc-157\">BPC-157</a>, <a href=\"/compounds/tb-500\">TB-500</a>, <a href=\"/compounds/kpv\">KPV</a>; the <a href=\"/compounds#repair-and-anti-inflammatory\">repair and anti-inflammatory class page</a> lists them together.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }

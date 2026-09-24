@@ -1,0 +1,228 @@
+{
+  "slug": "cagrilintide",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "serp-top-results",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "h1": "Cagrilintide: CagriSema trial results, the doses and titration used, side effects and where approval stands",
+  "queries": [
+    {
+      "query": "cagrilintide",
+      "volume": {
+        "clickstream": 17146,
+        "google_ads": 33100,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What cagrilintide is and how it acts"
+    },
+    {
+      "query": "cagrisema",
+      "volume": {
+        "clickstream": 4172,
+        "google_ads": 5400,
+        "kd": 21,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "combination",
+      "heading": "CagriSema: cagrilintide with semaglutide",
+      "target": "/stacks/cagrisema"
+    },
+    {
+      "query": "cagrilintide dosage",
+      "volume": {
+        "clickstream": 2136,
+        "google_ads": 3600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "study_doses",
+      "heading": "What doses did the trials use?",
+      "boundary": "These are the doses the manufacturer tested in trials of its own product. They are not a recommendation, and nothing sold as a research chemical has been shown to contain the drug."
+    },
+    {
+      "query": "cagrilintide peptide",
+      "volume": {
+        "clickstream": 1780,
+        "google_ads": 9900,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What cagrilintide is and how it acts"
+    },
+    {
+      "query": "cagrilintide reddit",
+      "volume": {
+        "clickstream": 712,
+        "google_ads": 590,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported_use",
+      "heading": "What people report outside the trials"
+    },
+    {
+      "query": "cagrilintide vs retatrutide",
+      "volume": {
+        "clickstream": 356,
+        "google_ads": 390,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "comparison-table",
+      "heading": "Cagrilintide vs semaglutide, tirzepatide, retatrutide and survodutide"
+    },
+    {
+      "query": "cagrilintide side effects",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 880,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "adverse_events",
+      "heading": "What side effects did the trials report?"
+    },
+    {
+      "query": "cagrilintide semaglutide",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 390,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "combination",
+      "heading": "CagriSema: cagrilintide with semaglutide",
+      "target": "/stacks/cagrisema"
+    },
+    {
+      "query": "amylin analog",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 880,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How cagrilintide works"
+    },
+    {
+      "query": "cagrilintide weight loss",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 140,
+        "kd": 6,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "evidence_table",
+      "heading": "What did the trials find?"
+    },
+    {
+      "query": "cagrilintide vs semaglutide",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 0,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "compare",
+      "heading": "How it compares",
+      "target": "/compare/cagrilintide-vs-semaglutide"
+    },
+    {
+      "query": "cagrilintide fda approval",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 6,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Is cagrilintide approved?"
+    },
+    {
+      "query": "cagrilintide results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "evidence_table",
+      "heading": "What did the trials find?"
+    }
+  ],
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "reconstitution",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ]
+}

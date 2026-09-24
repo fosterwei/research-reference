@@ -1,14 +1,20 @@
 {
   "type": "compound",
   "preferred_name": "Semax",
-  "aliases": [],
+  "aliases": [
+    "Semax",
+    "N-acetyl Semax amidate",
+    "NA-Semax-amide",
+    "Met-Glu-His-Phe-Pro-Gly-Pro",
+    "ACTH(4-7)-PGP"
+  ],
   "slug": "semax",
   "status": "draft",
   "evidence_tier": "human-clinical-trial",
   "summary": "Semax is a peptide in the neuropeptides nootropic class (ACTH(4-7) analog; BDNF and monoaminergic effects reported). Europe PMC indexes 208 publications naming it or a listed alias in a title or abstract, including 1 randomized controlled trials and 3 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "Semax: what the research shows",
-    "description": "Semax research, cited: 208 indexed publications, 1 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Semax Nasal Spray: Doses in Studies, Side Effects, Evidence",
+    "description": "Semax: Russian label doses vs what circulates, spray concentrations, side effects, BDNF mechanism, and the trials behind it."
   },
   "attributes": {
     "routes_studied": [
@@ -290,7 +296,22 @@
         "drafting": "extractive"
       }
     ],
-    "regulatory_status": [],
+    "regulatory_status": [
+      {
+        "value": "Russia: Semax is a registered medicine (intranasal solution, 0.1 and 1 percent), with indications that have included acute ischaemic stroke, recovery after stroke, optic nerve atrophy, and cognitive impairment; the 0.1 percent form has been used in children for attention disorders. The registration and its indications are Russian regulatory decisions and do not transfer elsewhere.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      },
+      {
+        "value": "United States, European Union, United Kingdom: not approved or licensed. Sold as a research chemical; not a scheduled substance in these jurisdictions as far as public schedules show. It is not named on the WADA Prohibited List.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Clinical trial, humans, n=43, 2018: Administration of semax, regardless of the timing of rehabilitation, increased BDNF plasma levels which remained high during the whole study period.",
@@ -792,6 +813,40 @@
           "outcome": "Three hours after pMCAO, Semax influenced the expression of some genes that affect the activity of immune cells, and, 24 h after pMCAO, the action of Semax on the immune response increased considerably."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "Semax is a seven-amino-acid peptide, Met-Glu-His-Phe-Pro-Gly-Pro: the fragment of the pituitary hormone ACTH covering positions 4 to 7, extended with a Pro-Gly-Pro tail that slows its breakdown. It was developed at the Institute of Molecular Genetics of the Russian Academy of Sciences in the 1980s and 1990s and has been registered as a medicine in Russia since the 1990s, as intranasal drops or spray at 0.1 and 1 percent.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Despite coming from ACTH, it has no meaningful effect on the adrenal glands or cortisol at the doses studied: the fragment retains the part of the hormone associated with attention and memory effects in animals and loses the part that drives steroid release. The mechanisms proposed in Russian animal work are increased expression of brain-derived neurotrophic factor (BDNF) and its receptor TrkB in the hippocampus, modulation of dopamine and serotonin signalling, and a broad shift in gene expression toward neuroprotection after ischaemia. In the one indexed human mechanistic study, stroke patients given Semax showed raised plasma BDNF.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Almost all of the evidence is Russian, much of it published in Russian-language journals that Europe PMC indexes only by English abstract or not at all. That is why a compound with a national marketing authorisation shows 208 indexed publications, one randomized trial and no regulatory record in ChEMBL. The evidence is not absent; it is largely outside the indexes this site draws on, and it has not been replicated by groups outside Russia.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Outside Russian clinical use, Semax circulates as a nootropic: 0.1 percent nasal spray or drops at roughly 200 to 600 micrograms a day in one to three doses, often in courses of ten to fourteen days followed by a break, or on a five-days-on, two-days-off pattern. A vendor variant, N-acetyl Semax amidate, is sold at similar or higher doses and has no published human study of its own. Some users inject 100 to 300 micrograms subcutaneously. These figures follow the Russian label's 0.1 percent regimen for cognitive indications loosely, and the trial evidence behind that label is in the Russian literature rather than in anything a user can read.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Effects people report are sharper focus, improved mood and motivation, and a calmer kind of alertness without stimulant edge; reported side effects are nasal irritation, dryness or discoloration of the nasal lining, headache, difficulty sleeping if taken late, and increased anxiety in some. The Russian label lists nasal irritation as the main adverse effect. No indexed English-language study reports adverse-event frequencies.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -837,20 +892,68 @@
   },
   "faq": [
     {
-      "question": "Has Semax been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 3 clinical trials and 1 randomized controlled trials naming Semax or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "question": "What is Semax?",
+      "answer": "A seven-amino-acid fragment of the hormone ACTH with a stabilising tail, developed in Russia and registered there as a nasal medicine for stroke recovery, optic nerve disease and cognitive impairment. Unlicensed outside Russia."
     },
     {
-      "question": "What kind of evidence exists for Semax?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What does Semax do?",
+      "answer": "In animals it raises BDNF and its receptor in the hippocampus, modulates dopamine and serotonin, and protects neurons after ischaemia. In Russian clinical studies it improved functional outcomes after stroke and visual function in optic nerve disease. No controlled trial has measured cognition in healthy adults."
     },
     {
-      "question": "Is Semax an approved medicine?",
-      "answer": "No ChEMBL record matches Semax or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "What is the Semax nasal spray dose?",
+      "answer": "The Russian 0.1 percent label uses roughly 200 to 600 micrograms a day in two or three doses; the 1 percent stroke regimen is about 6 milligrams a day in hospital. Community nootropic use follows the lower figure. None of these has been tested for cognition in healthy people."
     },
     {
-      "question": "Which species has Semax been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "What are the side effects of Semax?",
+      "answer": "The Russian label lists nasal irritation. Community reports add headache, insomnia when taken late, anxiety, and nasal dryness or discoloration with prolonged use. No indexed English-language study reports adverse-event frequencies."
+    },
+    {
+      "question": "Is Semax FDA approved?",
+      "answer": "No. It is not approved or licensed in the United States, European Union or United Kingdom. It is a registered medicine in Russia."
+    },
+    {
+      "question": "What is N-acetyl Semax amidate?",
+      "answer": "A vendor-modified form with an acetyl group and an amide tail, marketed as longer-acting. It has no published human study; everything said about it is borrowed from Semax."
+    },
+    {
+      "question": "Semax vs Selank: what is the difference?",
+      "answer": "Siblings from the same Russian institute with the same stabilising tail. Semax derives from ACTH and is alerting and cognitive; Selank derives from tuftsin and is anxiolytic. Different peptides, different proposed mechanisms."
+    },
+    {
+      "question": "Can Semax and Selank be used together?",
+      "answer": "They are combined in communities for focus with calm. No study has tested the pair; the stack page holds what exists."
+    },
+    {
+      "question": "How fast does Semax work?",
+      "answer": "The peptide is cleared within minutes; users report effects within fifteen to thirty minutes lasting hours. In stroke patients, BDNF rose over ten-day courses. Onset for cognitive effects in healthy adults has never been measured."
+    },
+    {
+      "question": "Does Semax raise cortisol?",
+      "answer": "No meaningful effect at studied doses: the fragment lacks the part of ACTH that stimulates the adrenal glands."
+    },
+    {
+      "question": "Is Semax a stimulant?",
+      "answer": "Not pharmacologically. It does not act on stimulant targets; users describe alertness without the edge of stimulants, and anxiety in some."
+    },
+    {
+      "question": "How many human studies of Semax exist?",
+      "answer": "Eight are indexed here, almost all Russian and small: stroke, optic nerve disease, psoriasis, and one 2018 study measuring BDNF. Many more exist in Russian-language journals that the indexes this site uses do not cover."
+    },
+    {
+      "question": "Is Semax banned in sport?",
+      "answer": "It is not named on the WADA Prohibited List. Athletes remain responsible for anything they take."
+    },
+    {
+      "question": "How should Semax be stored?",
+      "answer": "Refrigerated, upright, away from light; opened solutions are usually described as usable for two to four weeks. Discard cloudy or discoloured solution."
+    },
+    {
+      "question": "Can Semax be injected?",
+      "answer": "Some users inject it subcutaneously; the Russian medicine and all its trials are intranasal. No study compares routes."
+    },
+    {
+      "question": "Why is so little Semax research in English?",
+      "answer": "It was developed and registered in Russia, and most trials were published in Russian journals. Europe PMC indexes some by English abstract and misses others; independent replication outside Russia has not happened."
     }
   ],
   "sources": [
@@ -1145,6 +1248,60 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 37 ledger sources by scripts/draft_claims.py: 29 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written guide (9 sections), FAQ to 16, mechanism, reported-use and regulatory editorial sections (Russian registration and non-approval elsewhere, documents pending), aliases added, intent-driven H1 and title. Third compound through the loop; second from the queue."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Semax in two minutes",
+      "html": "<p><strong>What it is.</strong> A seven-amino-acid fragment of the hormone ACTH, stabilised with a three-amino-acid tail, developed in Russia and registered there as a nasal medicine since the 1990s for stroke recovery, optic nerve disease and cognitive impairment. Outside Russia it is unlicensed and sold as a research chemical.</p><p><strong>What the research actually shows.</strong> 208 indexed publications, one randomized trial and several small Russian clinical studies in stroke patients, optic nerve disease and psoriasis, plus animal work on BDNF and neuroprotection. Most of the trial literature is in Russian and not indexed here. No English-language placebo-controlled trial in healthy adults exists for the cognitive uses it circulates for.</p><p><strong>What people commonly report using.</strong> 200 to 600 micrograms a day intranasally, in short courses; a vendor variant, N-acetyl Semax amidate, at similar doses. The Russian label doses for stroke are far higher, around 6 milligrams a day of the 1 percent solution.</p><p><strong>Status.</strong> A registered medicine in Russia; unapproved everywhere else; not named on the WADA list.</p><p><strong>Where the evidence is thinnest.</strong> Any controlled trial in healthy adults; any English-language safety data; anything at all on the acetylated amidate variant.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Semax dosage chart: the Russian label, the studies, and what circulates",
+      "lede": "Three different sources of figures that are routinely blended together online. The concentration of the solution changes the dose tenfold.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Source of the figure</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Note</th></tr></thead><tbody><tr><td>Russian label, 0.1% solution (cognitive, paediatric attention, optic nerve)</td><td>About 200 to 600 µg/day: 2 to 3 drops per nostril, 2 to 3 times daily</td><td>Courses of 10 to 14 days</td><td>Each drop of 0.1% delivers about 50 µg</td></tr><tr><td>Russian label, 1% solution (acute stroke)</td><td>6 to 18 mg/day intranasally</td><td>Up to 10 days</td><td>Ten times the concentration; hospital use</td></tr><tr><td>Indexed clinical study (Gusev 2018, stroke rehabilitation)</td><td>6,000 µg/day</td><td>Two 10-day courses, 20 days apart</td><td>43 patients; raised plasma BDNF</td></tr><tr><td>Indexed clinical study (Dontsova 2015, psoriasis with metabolic syndrome)</td><td>Printed as 600 mg/day; almost certainly 600 µg/day</td><td>Course within complex therapy</td><td>58 patients; intranasal</td></tr><tr><td>Rat studies</td><td>25 µg/kg intranasal; up to 600 µg/kg in some models</td><td>Single to repeated</td><td>Neuroprotection, BDNF, behaviour</td></tr><tr><td>Commonly reported (nootropic use)</td><td>200 to 600 µg/day of 0.1%, 1 to 3 doses</td><td>10 to 14 days on, break; or 5 on 2 off</td><td>Untested in controlled trials for this purpose</td></tr><tr><td>Commonly reported, N-acetyl Semax amidate</td><td>200 to 900 µg/day</td><td>Same patterns</td><td>No published human study of the variant</td></tr></tbody></table></div></div><p>The single most common confusion is between the 0.1 percent and 1 percent products. A drop of the 1 percent solution is 500 micrograms, not 50, and the stroke regimen that circulates as \"clinical dose\" is a hospital dose in an acute setting.</p>"
+    },
+    {
+      "id": "reconstitution",
+      "heading": "Semax as a nasal solution: concentrations and what a spray delivers",
+      "lede": "Semax is usually sold pre-dissolved or as powder to be dissolved for intranasal use. The arithmetic is exact; what to use is not decided here.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Product</th><th scope=\"col\">Concentration</th><th scope=\"col\">Per drop</th><th scope=\"col\">Per metered spray</th></tr></thead><tbody><tr><td>0.1% solution</td><td>1 mg/mL</td><td>~50 µg per drop (0.05 mL)</td><td>~100 µg per 0.1 mL spray</td></tr><tr><td>0.5% solution</td><td>5 mg/mL</td><td>~250 µg per drop</td><td>~500 µg per spray</td></tr><tr><td>1% solution</td><td>10 mg/mL</td><td>~500 µg per drop</td><td>~1,000 µg per spray</td></tr><tr><td>30 mg powder in 10 mL</td><td>3 mg/mL (0.3%)</td><td>~150 µg per drop</td><td>~300 µg per spray, the common vendor bottle</td></tr></tbody></table></div></div><p>Metered pumps vary between 0.05 and 0.14 millilitres; the delivered dose depends on the pump, not only the concentration. Solutions are refrigerated once opened and are usually described as stable for a few weeks; peptides in aqueous solution degrade faster in warmth and light. The <a href=\"/tools/reconstitution-calculator\">reconstitution calculator</a> does the concentration arithmetic for powder.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who Semax is discussed for, and the cautions that recur",
+      "html": "<p><strong>The interest.</strong> Focus, motivation and recovery from mental fatigue, on the strength of its Russian indications for cognitive impairment and the BDNF story from animal work. Students, shift workers and people with attention difficulties are the audience that appears in communities.</p><p><strong>Cautions that recur.</strong></p><ul><li><strong>Anxiety and insomnia.</strong> The most common reasons given for stopping in community reports; the compound is not a stimulant but is alerting.</li><li><strong>Nasal lining.</strong> Irritation and, with prolonged use, dryness or discoloration are reported; the Russian label lists irritation.</li><li><strong>Pregnancy and children.</strong> The 0.1 percent form has been used in children in Russia under medical supervision; there is no data on pregnancy and no English-language paediatric data.</li><li><strong>Psychiatric medication.</strong> Semax modulates dopamine and serotonin signalling in animals; interactions with antidepressants, stimulants or antipsychotics have not been studied.</li><li><strong>The acetylated variant.</strong> Whatever its marketing, N-acetyl Semax amidate has no human study at all; every claim about it is borrowed from Semax.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What happens after a dose, and what people report over weeks",
+      "html": "<p><strong>Measured.</strong> Very little in people. The peptide itself is cleared within minutes; effects in animals are attributed to gene-expression changes that persist for hours after the drug is gone. In stroke patients, plasma BDNF rose over ten-day courses.</p><p><strong>Commonly reported, untested.</strong> Users describe effects within fifteen to thirty minutes of a nasal dose lasting several hours, and a cumulative sense of improved mood over a course. Tolerance and rebound are debated in communities; no study addresses either.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>Solutions are kept refrigerated at 2 to 8 °C, upright, protected from light, and are usually described as usable for two to four weeks after opening; some vendors state longer shelf lives for unopened bottles. Freezing and repeated warming degrade peptide solutions. Powder is refrigerated or frozen dry. Discard cloudy or discoloured solution.</p>"
+    },
+    {
+      "id": "monitoring",
+      "heading": "What is measured in the studies, and what is not",
+      "html": "<p>The Russian clinical studies measured neurological and functional scores in stroke, visual function in optic nerve disease, and in one 2018 study plasma BDNF. None measured cognition in healthy adults, and none that is indexed here reported systematic adverse-event counts. There is no monitoring schedule to borrow from; blood pressure and mood are what communities watch, and neither has been measured in a trial of this use.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how Semax is discussed",
+      "html": "<ul><li><strong>\"Approved in Russia\" read as \"proven\".</strong> Registration there rests on Russian trials most readers cannot access and that have not been replicated elsewhere.</li><li><strong>Quoting stroke doses for cognition.</strong> The 1 percent hospital regimen is ten times the 0.1 percent one.</li><li><strong>Treating the acetylated variant as studied.</strong> It is not.</li><li><strong>Calling it an ACTH analogue and expecting steroid effects.</strong> The fragment lacks the adrenal-stimulating region.</li><li><strong>Assuming Semax and Selank are interchangeable.</strong> Different peptides, different parent molecules, different proposed effects.</li></ul>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Semax vs Selank, and how it sits among nootropic peptides",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Peptide</th><th scope=\"col\">Origin</th><th scope=\"col\">Proposed action</th><th scope=\"col\">Status</th><th scope=\"col\">Human evidence</th></tr></thead><tbody><tr><td>Semax</td><td>ACTH(4-7) fragment + Pro-Gly-Pro</td><td>BDNF and monoamine modulation; alerting, cognitive</td><td>Registered medicine in Russia; unlicensed elsewhere</td><td>Russian trials in stroke, optic nerve disease; 1 indexed RCT</td></tr><tr><td>Selank</td><td>Tuftsin analogue + Pro-Gly-Pro</td><td>GABA-ergic and enkephalin modulation; anxiolytic</td><td>Registered medicine in Russia; unlicensed elsewhere</td><td>Russian trials in anxiety disorders</td></tr><tr><td>Dihexa</td><td>Angiotensin IV analogue</td><td>HGF/c-Met signalling; animal cognition</td><td>Never approved; no human trials</td><td>Rat studies only</td></tr><tr><td>Cerebrolysin (for contrast)</td><td>Porcine brain peptide mixture</td><td>Neurotrophic; stroke and dementia</td><td>Approved in several countries; not US</td><td>Many trials; mixed results</td></tr></tbody></table></div></div><p>Semax and Selank are siblings from the same institute with the same stabilising tail and opposite temperaments, one alerting and one calming, which is why they are so often compared and combined. The <a href=\"/compare/selank-vs-semax\">Selank vs Semax</a> page lines up both records, and the <a href=\"/stacks/selank-semax\">Selank + Semax</a> stack page covers the combination; <a href=\"/compounds/selank\">Selank</a> and <a href=\"/compounds/pinealon\">Pinealon</a> are the class peers in this reference.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
