@@ -3,15 +3,33 @@
   "title": "Cagrilintide vs Semaglutide",
   "slug": "cagrilintide-vs-semaglutide",
   "status": "draft",
-  "summary": "Cagrilintide: tier human clinical trial, 105 indexed publications, 15 randomized trials. Semaglutide: tier approved label, 6,039 indexed publications, 305 randomized trials. 8 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "summary": "Cagrilintide and semaglutide are usually discussed as a combination, but the trial that made the combination famous also randomised people to each drug alone, which makes this one of the few comparisons with a direct answer. Over 68 weeks at 2.4 mg, semaglutide alone produced 16.1% weight loss and cagrilintide alone 11.8%, against 2.3% on placebo and 22.7% for the two together. Cagrilintide's own monotherapy evidence pools to about 6% against placebo, with significant blood-pressure reduction but no meaningful change in HbA1c, which is the clearest functional difference between them. Semaglutide is approved and has reduced cardiovascular events in 17,604 people followed for about three and a half years; cagrilintide is investigational, has no outcome data, and is developed as the addition rather than the base.",
   "seo": {
-    "title": "Cagrilintide vs Semaglutide: what the studies show",
-    "description": "Cagrilintide vs Semaglutide, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+    "title": "Cagrilintide vs Semaglutide: One Trial Tested Both Alone",
+    "description": "Cagrilintide vs semaglutide: one trial randomised people to each alone. Semaglutide 16.1 per cent, cagrilintide 11.8 per cent, over 68 weeks at the same dose."
   },
   "attributes": {
     "head_to_head": [
       {
-        "value": "Clinical trial, humans, n=5,425, 2026: Eligible randomized controlled trials (RCTs) assessed Cagrilintide monotherapy or CagriSema versus placebo.",
+        "value": "Randomized controlled trial, humans, n=1,961, 2021: The mean change in body weight from baseline to week 68 was -14.9% in the semaglutide group as compared with -2.4% with placebo",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33567185"
+        ],
+        "source_excerpt": "The mean change in body weight from baseline to week 68 was -14.9% in the semaglutide group as compared with -2.4% with placebo",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Cardiovascular outcome trial, humans, n=17,604, 2023: A primary cardiovascular end-point event occurred in 569 of the 8803 patients (6.5%) in the semaglutide group and in 701 of the 8801 patients (8.0%) in the placebo group (hazard ratio, 0.80; 95% confidence interval, 0.72 to 0.90)",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37952131"
+        ],
+        "source_excerpt": "A primary cardiovascular end-point event occurred in 569 of the 8803 patients (6.5%) in the semaglutide group and in 701 of the 8801 patients (8.0%) in the placebo group (hazard ratio, 0.80; 95% confidence interval, 0.72 to 0.90)",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Meta-analysis, 4 trials, n=5,425, 2026: Eligible randomized controlled trials (RCTs) assessed Cagrilintide monotherapy or CagriSema versus placebo.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42583410"
@@ -56,7 +74,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, mice, 2026: Amylin receptor agonists such as cagrilintide represent emerging obesity therapies.",
+        "value": "Animal study, rats and mice, 2026: Amylin receptor agonists such as cagrilintide represent emerging obesity therapies.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42260119"
@@ -65,7 +83,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=14, 2026: In these studies, within the limitations of small sample sizes, no clinically relevant differences in cagrilintide pharmacokinetics were observed in participants with renal or hepatic impairment compared with those with normal function, suggesting that dose adjustment is not warranted for…",
+        "value": "Pharmacokinetic studies, humans, n=65, 2026: In these studies, within the limitations of small sample sizes, no clinically relevant differences in cagrilintide pharmacokinetics were observed in participants with renal or hepatic impairment compared with those with normal function, suggesting that dose adjustment is not warranted for these populations.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42228334"
@@ -93,6 +111,13 @@
       "kind": "peer-reviewed"
     },
     {
+      "id": "pmid-42260119",
+      "title": "A cross-species atlas of the dorsal vagal complex reveals neural mediators of the effects of cagrilintide on energy balance.",
+      "url": "https://europepmc.org/article/MED/42260119",
+      "published": "2026-06-08",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-42251859",
       "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
       "url": "https://europepmc.org/article/MED/42251859",
@@ -114,24 +139,17 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-42009015",
-      "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
-      "url": "https://europepmc.org/article/MED/42009015",
-      "published": "2026-04-17",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-42260119",
-      "title": "A cross-species atlas of the dorsal vagal complex reveals neural mediators of the effects of cagrilintide on energy balance.",
-      "url": "https://europepmc.org/article/MED/42260119",
-      "published": "2026-06-08",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-42228334",
       "title": "Renal or Hepatic Impairment Does Not Affect Pharmacokinetics, Safety, or Tolerability of Subcutaneous Cagrilintide.",
       "url": "https://europepmc.org/article/MED/42228334",
       "published": "2026-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42009015",
+      "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+      "url": "https://europepmc.org/article/MED/42009015",
+      "published": "2026-04-17",
       "kind": "peer-reviewed"
     },
     {
@@ -140,29 +158,150 @@
       "url": "https://europepmc.org/article/MED/40544433",
       "published": "2025-06-22",
       "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37952131",
+      "title": "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes.",
+      "url": "https://europepmc.org/article/MED/37952131",
+      "published": "2023-11-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33567185",
+      "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity.",
+      "url": "https://europepmc.org/article/MED/33567185",
+      "published": "2021-02-10",
+      "kind": "peer-reviewed"
     }
   ],
   "related": [
     "cagrilintide",
     "semaglutide"
   ],
-  "faq": [],
-  "open_questions": [],
+  "faq": [
+    {
+      "question": "Which is better, cagrilintide or semaglutide?",
+      "answer": "For weight loss, semaglutide, on direct evidence. In the trial that randomised people to each drug alone at 2.4 mg for 68 weeks, semaglutide produced 16.1% weight loss and cagrilintide 11.8%. Semaglutide also lowers blood sugar, which cagrilintide alone does not meaningfully, and has cardiovascular outcome data, which cagrilintide has none of."
+    },
+    {
+      "question": "Has anyone compared them directly?",
+      "answer": "Yes, which is unusual. REDEFINE 1 randomised 3,417 adults to the combination, to semaglutide alone, to cagrilintide alone, or to placebo. The two monotherapy arms are a direct comparison at the same dose over the same period."
+    },
+    {
+      "question": "How much weight do you lose on cagrilintide alone?",
+      "answer": "11.8% over 68 weeks in the trial arm, and about 6% in a 2026 meta-analysis of four randomised trials pooling shorter and smaller studies. Both are real effects and both are smaller than semaglutide's."
+    },
+    {
+      "question": "Does cagrilintide help blood sugar?",
+      "answer": "Not meaningfully on its own. The pooled analysis of four trials found significant reductions in body weight and blood pressure with cagrilintide monotherapy but no meaningful improvement in HbA1c. In combination with semaglutide it does contribute to glycaemic outcomes, which is a different question."
+    },
+    {
+      "question": "Can I take cagrilintide instead of semaglutide?",
+      "answer": "There is no way to. Cagrilintide has never been approved as a single agent in any country and exists only inside its development programme, where it is used as an addition to semaglutide rather than as an alternative."
+    },
+    {
+      "question": "How do they work differently?",
+      "answer": "Semaglutide copies GLP-1, a gut hormone. Cagrilintide copies amylin, which the pancreas releases with insulin and which acts through calcitonin and amylin receptors in the brainstem. A 2026 study showed the separation directly: silencing a brainstem neuron population abolished cagrilintide's effect in rats while leaving semaglutide's intact."
+    },
+    {
+      "question": "What doses were compared?",
+      "answer": "2.4 mg once weekly for both, which is what makes the comparison clean. That is semaglutide's approved weight-management dose and the dose cagrilintide was tested at in the same trial."
+    },
+    {
+      "question": "Is cagrilintide better tolerated?",
+      "answer": "Not established. Adverse events were reported for the trial arms, and the comparison between the two monotherapy groups specifically is not published at a level that supports a tolerability claim either way. Both sit in a class dominated by gastrointestinal effects."
+    },
+    {
+      "question": "Why combine them if one is clearly better?",
+      "answer": "Because they work through different receptors, so their effects add. In the same trial the combination reached 22.7%, above either alone, and that is the whole rationale for the fixed-dose product."
+    },
+    {
+      "question": "Does semaglutide prevent heart attacks?",
+      "answer": "In people with established cardiovascular disease and overweight or obesity without diabetes, yes: 6.5% on semaglutide had a cardiovascular death, heart attack or stroke against 8.0% on placebo over a mean of 39.8 months, a hazard ratio of 0.80. Cagrilintide has no equivalent evidence."
+    },
+    {
+      "question": "When will cagrilintide be available?",
+      "answer": "Its route to market is as part of the fixed-dose combination, which is not yet approved and has no published approval date. There is no indication that it will be marketed as a single agent."
+    },
+    {
+      "question": "What is amylin?",
+      "answer": "A hormone released by the pancreas alongside insulin that signals fullness, slows gastric emptying and suppresses glucagon. Cagrilintide is a long-acting analogue of it, engineered for weekly dosing, which is the same design problem GLP-1 analogues solved a decade earlier."
+    }
+  ],
+  "open_questions": [
+    "The arm-level figures for REDEFINE 1 are the manufacturer's announced numbers; the published paper reports the combination under a different estimand.",
+    "Adverse events are not published at a level that supports comparing tolerability between the two monotherapy arms.",
+    "Cagrilintide has no cardiovascular or other outcome data, and no registration programme as a single agent.",
+    "No study has compared cagrilintide with another amylin analogue, or with tirzepatide, and no study has followed it for clinical outcomes."
+  ],
   "review": {
     "author": "",
     "reviewer": "",
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 90.4,
+  "uniqueness_pct": 94.6,
   "changelog": [
     {
       "date": "2026-09-14",
       "change": "Comparison record generated from research/registry.json plan; 8 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/cagrilintide-vs-semaglutide.json. Stage 0: the ledger is sound and the comparison is drawn from REDEFINE 1's monotherapy arms rather than across trials; two semaglutide landmark trials added by hand, and three drafted labels corrected, a meta-analysis and two pharmacokinetic studies that had been filed as clinical trials. Nine guide sections including the four-arm table, cagrilintide's monotherapy evidence and the outcome-data asymmetry."
     }
   ],
   "sides": [
     "cagrilintide",
     "semaglutide"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "The comparison in two minutes",
+      "html": "<p><strong>This one has a direct answer, which is rare on this site.</strong> The trial that made the combination famous also randomised people to each drug alone. Over 68 weeks at the same dose, semaglutide produced <b>16.1%</b> weight loss and cagrilintide <b>11.8%</b>, against 2.3% on placebo.</p><p><strong>Cagrilintide is the addition, not the base.</strong> Its own monotherapy evidence puts it at about 6% against placebo in pooled analysis, and the development programme uses it on top of semaglutide rather than instead of it.</p><p><strong>Semaglutide also has something cagrilintide has nothing of.</strong> A cardiovascular outcome trial in 17,604 people, where it cut cardiovascular death, heart attack and stroke by a fifth over about three and a half years.</p><p><strong>They work on different satiety systems</strong>, which is the reason to combine rather than choose: GLP-1 for one, the amylin receptors for the other.</p><p><strong>Status.</strong> Semaglutide is approved and prescribed. Cagrilintide is investigational and available only in trials.</p>"
+    },
+    {
+      "id": "head-to-head-arms",
+      "heading": "The one trial that gave each of them alone",
+      "lede": "No cross-trial arithmetic is needed here, which is unusual enough to be the point of the page.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>REDEFINE 1, all four arms at 68 weeks, as announced by the manufacturer.</caption><thead><tr><th scope=\"col\">Arm</th><th scope=\"col\">Participants</th><th scope=\"col\">Weight loss</th></tr></thead><tbody><tr><td>Cagrilintide 2.4 mg + semaglutide 2.4 mg</td><td>2,108</td><td>22.7%</td></tr><tr><td><b>Semaglutide 2.4 mg alone</b></td><td>302</td><td><b>16.1%</b></td></tr><tr><td><b>Cagrilintide 2.4 mg alone</b></td><td>302</td><td><b>11.8%</b></td></tr><tr><td>Placebo</td><td>705</td><td>2.3%</td></tr></tbody></table></div></div><p>The two middle rows are the comparison. Same trial, same 68 weeks, same 2.4 mg dose, same population, randomised allocation. Almost every comparison on this site has to be hedged because the figures come from different studies; this one does not.</p><p><b>Semaglutide alone beat cagrilintide alone by about four and a half percentage points</b>, which is roughly a third more weight loss. Both beat placebo comfortably.</p><p>One caveat belongs here. These arm-level figures are the manufacturer's, reported under the estimand that asks what the drug does when taken as intended. The published paper reports the combination arm as -20.4% under a different estimand, which is explained on the <a href='/stacks/cagrisema'>CagriSema page</a>. The relationship between the two monotherapy arms is unaffected, because both are counted the same way.</p>"
+    },
+    {
+      "id": "monotherapy",
+      "heading": "Cagrilintide on its own",
+      "html": "<p>Outside that trial, cagrilintide's own evidence is thinner than its partner's. A 2026 meta-analysis of four randomised trials in 5,425 participants found cagrilintide monotherapy produced <q cite='https://europepmc.org/article/MED/42583410'>significant reductions in body weight (MD: -6.08%; MD: -5.89 kg) and blood pressure, without meaningful HbA1c improvement</q>.</p><p>Two things in that sentence matter. The weight figure, around 6%, is well below what the same analysis found for the combination and below the 11.8% in the trial arm, which is what happens when shorter and smaller trials are pooled with longer ones. And the absence of an effect on HbA1c marks the clearest difference between the two drugs: semaglutide lowers blood sugar and cagrilintide, on its own, does not meaningfully.</p><p>That is the honest summary of cagrilintide alone: a real weight effect, smaller than semaglutide's, without the glycaemic benefit, in a compound that is not approved anywhere.</p>"
+    },
+    {
+      "id": "trials-table",
+      "heading": "The trials each one has behind it",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>What each compound has been through.</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">Cagrilintide</th><th scope=\"col\">Semaglutide</th></tr></thead><tbody><tr><td>Pivotal weight trial</td><td>No monotherapy registration trial; studied as a comparator arm and in phase 2</td><td>STEP 1: 1,961 adults, 68 weeks, -14.9%</td></tr><tr><td>Largest evidence</td><td>Four randomised trials pooled, 5,425 participants</td><td>Dozens of trials across obesity and diabetes</td></tr><tr><td>Cardiovascular outcomes</td><td>None</td><td>17,604 people, mean 39.8 months, hazard ratio 0.80</td></tr><tr><td>Role in the combination programme</td><td>The addition</td><td>The base</td></tr><tr><td>Approval</td><td>None</td><td>Approved since 2017 for diabetes, later for weight management</td></tr></tbody></table></div></div><p>The asymmetry in the bottom rows is what the weight percentages do not show. Semaglutide has been followed for years in a population at cardiovascular risk and reduced events; cagrilintide has not been followed for outcomes at all.</p>"
+    },
+    {
+      "id": "mechanism-guide",
+      "heading": "Two satiety signals, two different receptors",
+      "html": "<p><b>Semaglutide</b> copies GLP-1, a hormone released from the gut after eating, which slows gastric emptying, signals fullness and improves insulin secretion.</p><p><b>Cagrilintide</b> copies amylin, which the pancreas releases alongside insulin and which acts through calcitonin and amylin receptors in the brainstem. It also slows gastric emptying, by a different route, and is engineered to last a week.</p><p>A 2026 cross-species study showed how separate the two pathways are: silencing a specific brainstem neuron population abolished cagrilintide's effect in rats while leaving semaglutide's intact. Two drugs reaching different cells is the reason the combination adds up, and it is also why choosing between them is a different question from choosing between two GLP-1 drugs.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Doses as studied",
+      "html": "<p>Both were given at <b>2.4 mg once weekly</b> by subcutaneous injection in the trial that compared them, which is what makes that comparison clean. Semaglutide's 2.4 mg is its approved weight-management dose, reached after a 16-week escalation. Cagrilintide has no approved dose, because it has no approval.</p><p>Cagrilintide's full dose detail, including the lower 1.0 mg arms used in the diabetes trials, is on its own record.</p>"
+    },
+    {
+      "id": "status",
+      "heading": "Status: one approved, one investigational",
+      "html": "<p><b>Semaglutide</b> is an approved medicine, prescribed for type 2 diabetes and for weight management, with a label and a supply chain.</p><p><b>Cagrilintide</b> is investigational. It has never been approved anywhere as a single agent, and its route to market is as half of the fixed-dose combination, which is itself not yet approved. There is no legitimate way to obtain cagrilintide alone.</p><p>Records: <a href=\"/compounds/cagrilintide\">cagrilintide</a>, <a href=\"/compounds/semaglutide\">semaglutide</a>, and the combination at <a href=\"/stacks/cagrisema\">CagriSema</a>.</p>"
+    },
+    {
+      "id": "choosing",
+      "heading": "What the evidence lets you say",
+      "html": "<p><strong>Supported:</strong> semaglutide alone produces more weight loss than cagrilintide alone, measured directly in one trial at matched doses; cagrilintide alone produces a real but smaller effect, around 6% in pooled analysis, without a meaningful effect on blood sugar; the two together beat either; semaglutide reduces cardiovascular events and cagrilintide has no outcome data.</p><p><strong>Not supported:</strong> that cagrilintide is an alternative to semaglutide, since the programme treats it as an addition and there is no approved product; that its tolerability advantage is established, since the comparison of adverse events between the monotherapy arms is not published at that level; that any of this describes material sold outside the trials.</p><p>The practical answer to the question people ask is that it is not a choice anyone currently has: one of these is a medicine and the other exists only inside a development programme.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in this comparison",
+      "html": "<ol class=\"list\"><li><strong>Treating cagrilintide as the more powerful new drug.</strong> Alone it produced less weight loss than semaglutide in the trial that tested both.</li><li><strong>Quoting the combination's figure for cagrilintide.</strong> The 22.7% belongs to both drugs together.</li><li><strong>Assuming an amylin drug helps blood sugar.</strong> Pooled analysis found no meaningful change in HbA1c on cagrilintide monotherapy.</li><li><strong>Comparing across trials when a within-trial comparison exists.</strong> This is one of the few pairs where it does.</li><li><strong>Reading investigational as nearly available.</strong> Cagrilintide has never been approved as a single agent anywhere.</li><li><strong>Ignoring the outcome data.</strong> One of these two has prevented cardiovascular events in a trial of 17,604 people.</li></ol>"
+    }
+  ],
+  "prose_reviewed": true
 }
