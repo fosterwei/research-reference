@@ -591,7 +591,7 @@
       "slug": "foxo4-dri",
       "name": "FOXO4-DRI",
       "approved": false,
-      "evidence_tier": "observational-human",
+      "evidence_tier": "animal-preclinical",
       "indexed_publications": 19,
       "head_clickstream": 1831,
       "cluster_clickstream": 2641,
@@ -604,8 +604,8 @@
         "benefits": 203,
         "before and after": 50
       },
-      "status": "queued",
-      "note": null,
+      "status": "done",
+      "note": "Written 2026-09-24 under the sequencing rule; audit research/audits/foxo4-dri-2026-09-24.md. Tier corrected from observational-human: no person has received this peptide. Five papers added to the ledger by hand, including the 2017 study that designed it.",
       "rank": 29
     }
   ],
