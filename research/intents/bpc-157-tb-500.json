@@ -3,7 +3,9 @@
   "type": "stack",
   "generated": "2026-09-24",
   "sources": [
-    "dataforseo-keyword-overview-clickstream"
+    "dataforseo-keyword-overview-clickstream",
+    "serp-top-results",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "h1": "The Wolverine stack: BPC-157 and TB-500 doses that circulate, and the one study that tested them",
@@ -91,5 +93,27 @@
     "sources",
     "related",
     "changelog"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://healthymale.org.au/health-article/what-you-need-to-know-about-the-wolverine-stack",
+      "score": null,
+      "gap": "Australian men's-health authority; states no evidence for either or both",
+      "source": "SERP top result, not fetched"
+    },
+    {
+      "url": "https://conciergemdla.com/blog/wolverine-stack-explained/",
+      "score": null,
+      "gap": "Clinic explainer",
+      "source": "SERP top result, not fetched"
+    },
+    {
+      "url": "https://driphydration.com/blog/wolverine-stack/",
+      "score": null,
+      "gap": "Clinic guide with protocol",
+      "source": "SERP top result, not fetched"
+    }
+  ],
+  "information_gain": "The only Wolverine-stack page that names the one study of the pair (rats, tendon, 2026), separates it from the circulating schedule in a table, and states that the study did not show the pair beating either compound alone.",
+  "serp_format_rewarded": "Explainer; clinics and one authority page rank; the name is the query"
 }

@@ -5,7 +5,8 @@
   "sources": [
     "dataforseo-keyword-overview-clickstream",
     "serp-top-results",
-    "competitor-faq"
+    "competitor-faq",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "thin_serp": false,
@@ -237,5 +238,30 @@
   ],
   "suppress": [
     "storage"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/semax",
+      "words": 6425,
+      "tables": 11,
+      "h2": 20,
+      "score": 25,
+      "gap": "99 H3s and 11 tables of protocol content; byline without credential; stroke doses presented alongside nootropic use",
+      "source": "cached crawl, metrics measured; scored D8 F8 S6 U3 like the other incumbent pages"
+    },
+    {
+      "url": "https://riteaid.com/peptides/semax",
+      "score": null,
+      "gap": "Health-team byline; not fetched (network)",
+      "source": "SERP top result, not fetched"
+    },
+    {
+      "url": "https://helloregimen.com/blog/semax-nasal-spray-dosing-guide",
+      "score": null,
+      "gap": "Dosing guide format; vendor-adjacent",
+      "source": "SERP top result, not fetched"
+    }
+  ],
+  "information_gain": "The only page on this SERP that separates the Russian 0.1 and 1 percent products and their label indications from what circulates as a nootropic, quotes the indexed Russian trials with their sample sizes, and states why a registered medicine shows one indexed randomized trial: the evidence is largely outside English-language indexes and unreplicated elsewhere.",
+  "serp_format_rewarded": "Long-form explainer; vendor and dosing-guide pages dominate, with one pharmacy page and one authority page absent"
 }

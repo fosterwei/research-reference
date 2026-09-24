@@ -189,7 +189,7 @@
     ],
     "regulatory_status": [
       {
-        "value": "Not approved anywhere: neither the fragment nor the full protein has a marketing authorisation. Thymosin beta-4 products reached phase 2 and 3 trials in eye and wound conditions without approval. TB-500 is named on the WADA Prohibited List under S2 (peptide hormones, growth factors, related substances and mimetics), prohibited at all times. TB-500 was among the peptides scheduled for FDA's Pharmacy Compounding Advisory Committee in July 2026; the outcome should be checked against FDA's live list.",
+        "value": "Not approved anywhere: neither the fragment nor the full protein has a marketing authorisation. Thymosin beta-4 products reached phase 2 and 3 trials in eye and wound conditions without approval. TB-500 is named on the WADA Prohibited List under S2 (peptide hormones, growth factors, related substances and mimetics), prohibited at all times. TB-500 was among the peptides scheduled for FDA's Pharmacy Compounding Advisory Committee in July 2026; secondary reports say the committee recommended adding it to the compounding list; that is unverified here until FDA's own record is in the ledger, and it does not make TB-500 prescribable yet.",
         "evidence_label": "editorial",
         "source_ids": [],
         "drafting": "editorial",
@@ -795,7 +795,7 @@
     },
     {
       "question": "Is TB-500 FDA approved?",
-      "answer": "No, and neither is thymosin beta-4. TB-500 was on the agenda of FDA's compounding advisory committee in July 2026; check FDA's list for the outcome."
+      "answer": "No, and neither is thymosin beta-4. TB-500 was considered by FDA's compounding advisory committee in July 2026; secondary reports say the committee recommended adding it to the compounding list. FDA's own record is not yet in this ledger, and a recommendation does not make it prescribable."
     },
     {
       "question": "Is TB-500 banned in sport?",
@@ -1194,7 +1194,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 85.3,
+  "uniqueness_pct": 85.4,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1217,6 +1217,10 @@
     {
       "date": "2026-09-24",
       "change": "Written guide, FAQ to 16, mechanism, reported-use (no circulating figures reproduced) and regulatory editorial sections; fragment-versus-full-protein distinction made explicit throughout; intent-driven H1 and title."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Regulatory note updated: secondary reports of the July 2026 PCAC recommendation recorded as unverified pending FDA's record. Stage 2 competitors and information gain written to the intent map."
     }
   ],
   "guide": [

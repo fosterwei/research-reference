@@ -4,7 +4,9 @@
   "generated": "2026-09-24",
   "sources": [
     "dataforseo-keyword-overview-clickstream",
-    "competitor-faq"
+    "competitor-faq",
+    "serp-top-results",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "thin_serp": false,
@@ -236,5 +238,31 @@
   ],
   "suppress": [
     "storage"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/tb-500",
+      "words": 6668,
+      "tables": 11,
+      "h2": 20,
+      "score": 25,
+      "gap": "Dosing and cycle guide; treats thymosin β4 trials as TB-500 evidence; byline without credential",
+      "source": "cached crawl, metrics measured; scored D8 F8 S6 U3 like the other incumbent pages"
+    },
+    {
+      "url": "https://riteaid.com/peptides/tb-500",
+      "words": 1800,
+      "tables": 0,
+      "score": 20,
+      "gap": "Health-team byline; 3 citations; qualitative dosing; sells a toolkit"
+    },
+    {
+      "url": "https://www.joinmidi.com/post/tb-500",
+      "score": null,
+      "gap": "MD-reviewed explainer",
+      "source": "SERP top result, not fetched"
+    }
+  ],
+  "information_gain": "The only page that draws the fragment-versus-full-protein line through every section: which human trials exist and for which molecule and route, that the injected fragment has one rat study, and that 1,257 publications are mostly cell biology of a ubiquitous protein. Competitors either conflate the two or mention the distinction once.",
+  "serp_format_rewarded": "Explainer; Wikipedia, one PubMed primer and clinics rank; FDA compounding news drives interest"
 }

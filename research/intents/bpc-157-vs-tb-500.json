@@ -3,7 +3,9 @@
   "type": "comparison",
   "generated": "2026-09-24",
   "sources": [
-    "dataforseo-keyword-overview-clickstream"
+    "dataforseo-keyword-overview-clickstream",
+    "serp-top-results",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "h1": "BPC-157 vs TB-500: mechanisms, evidence, and the one study that tested both",
@@ -49,5 +51,27 @@
     "sources",
     "related",
     "changelog"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://riteaid.com/peptides/compare/bpc-157-vs-tb-500",
+      "score": null,
+      "gap": "Pharmacy comparison page",
+      "source": "SERP top result, not fetched"
+    },
+    {
+      "url": "https://healingmaps.com/bpc-157-vs-tb-500-comparison/",
+      "score": null,
+      "gap": "Comparison listicle",
+      "source": "SERP top result, not fetched"
+    },
+    {
+      "url": "https://moabtexas.com/bpc-157-vs-tb-500/",
+      "score": null,
+      "gap": "Orthopaedic clinic blog",
+      "source": "SERP top result, not fetched"
+    }
+  ],
+  "information_gain": "The only comparison that lines up both records' counts (publications, RCTs, human studies, approval) in a table computed from the records, names the single study that tested both, and says that 'which is better' has no evidence-based answer instead of choosing.",
+  "serp_format_rewarded": "Comparison listicles from clinics and vendors; one pharmacy page"
 }

@@ -816,7 +816,7 @@
     ],
     "mechanism": [
       {
-        "value": "Semax is a seven-amino-acid peptide, Met-Glu-His-Phe-Pro-Gly-Pro: the fragment of the pituitary hormone ACTH covering positions 4 to 7, extended with a Pro-Gly-Pro tail that slows its breakdown. It was developed at the Institute of Molecular Genetics of the Russian Academy of Sciences in the 1980s and 1990s and has been registered as a medicine in Russia since the 1990s, as intranasal drops or spray at 0.1 and 1 percent.",
+        "value": "Semax is a seven-amino-acid peptide, Met-Glu-His-Phe-Pro-Gly-Pro: the fragment of the pituitary hormone ACTH covering positions 4 to 7, extended with a Pro-Gly-Pro tail that slows its breakdown. It was developed at the Institute of Molecular Genetics of the Russian Academy of Sciences in the 1980s and 1990s and is registered as a medicine in Russia as intranasal drops or spray at 0.1 and 1 percent; sources give registration dates from the 1990s to 2011 depending on formulation and indication.",
         "evidence_label": "editorial",
         "source_ids": [],
         "drafting": "editorial"
@@ -1252,13 +1252,17 @@
     {
       "date": "2026-09-24",
       "change": "Written guide (9 sections), FAQ to 16, mechanism, reported-use and regulatory editorial sections (Russian registration and non-approval elsewhere, documents pending), aliases added, intent-driven H1 and title. Third compound through the loop; second from the queue."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Registration date hedged: sources disagree by formulation. Stage 2 competitors and information gain written to the intent map."
     }
   ],
   "guide": [
     {
       "id": "quick-answer",
       "heading": "Semax in two minutes",
-      "html": "<p><strong>What it is.</strong> A seven-amino-acid fragment of the hormone ACTH, stabilised with a three-amino-acid tail, developed in Russia and registered there as a nasal medicine since the 1990s for stroke recovery, optic nerve disease and cognitive impairment. Outside Russia it is unlicensed and sold as a research chemical.</p><p><strong>What the research actually shows.</strong> 208 indexed publications, one randomized trial and several small Russian clinical studies in stroke patients, optic nerve disease and psoriasis, plus animal work on BDNF and neuroprotection. Most of the trial literature is in Russian and not indexed here. No English-language placebo-controlled trial in healthy adults exists for the cognitive uses it circulates for.</p><p><strong>What people commonly report using.</strong> 200 to 600 micrograms a day intranasally, in short courses; a vendor variant, N-acetyl Semax amidate, at similar doses. The Russian label doses for stroke are far higher, around 6 milligrams a day of the 1 percent solution.</p><p><strong>Status.</strong> A registered medicine in Russia; unapproved everywhere else; not named on the WADA list.</p><p><strong>Where the evidence is thinnest.</strong> Any controlled trial in healthy adults; any English-language safety data; anything at all on the acetylated amidate variant.</p>"
+      "html": "<p><strong>What it is.</strong> A seven-amino-acid fragment of the hormone ACTH, stabilised with a three-amino-acid tail, developed in Russia and registered there as a nasal medicine (dates cited vary by formulation) for stroke recovery, optic nerve disease and cognitive impairment. Outside Russia it is unlicensed and sold as a research chemical.</p><p><strong>What the research actually shows.</strong> 208 indexed publications, one randomized trial and several small Russian clinical studies in stroke patients, optic nerve disease and psoriasis, plus animal work on BDNF and neuroprotection. Most of the trial literature is in Russian and not indexed here. No English-language placebo-controlled trial in healthy adults exists for the cognitive uses it circulates for.</p><p><strong>What people commonly report using.</strong> 200 to 600 micrograms a day intranasally, in short courses; a vendor variant, N-acetyl Semax amidate, at similar doses. The Russian label doses for stroke are far higher, around 6 milligrams a day of the 1 percent solution.</p><p><strong>Status.</strong> A registered medicine in Russia; unapproved everywhere else; not named on the WADA list.</p><p><strong>Where the evidence is thinnest.</strong> Any controlled trial in healthy adults; any English-language safety data; anything at all on the acetylated amidate variant.</p>"
     },
     {
       "id": "dosage-chart",

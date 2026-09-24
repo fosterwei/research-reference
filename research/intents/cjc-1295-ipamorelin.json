@@ -3,7 +3,9 @@
   "type": "stack",
   "generated": "2026-09-24",
   "sources": [
-    "dataforseo-keyword-overview-clickstream"
+    "dataforseo-keyword-overview-clickstream",
+    "serp-top-results",
+    "competitor-h2"
   ],
   "scope": "Informational intent only.",
   "h1": "CJC-1295 and ipamorelin: how the blend works, the doses that circulate, and what studies actually tested",
@@ -104,5 +106,27 @@
     "sources",
     "related",
     "changelog"
-  ]
+  ],
+  "competitors": [
+    {
+      "url": "https://riteaid.com/peptides/cjc-1295",
+      "score": null,
+      "gap": "Pharmacy explainer that distinguishes DAC and no-DAC",
+      "source": "SERP top result, not fetched"
+    },
+    {
+      "url": "https://www.perfectb.com/cjc-1295-ipamorelin-dosage-protocol/",
+      "score": null,
+      "gap": "Clinic protocol guide with dose figures",
+      "source": "SERP top result, not fetched"
+    },
+    {
+      "url": "https://www.pathtopeptides.com/cjc-1295-ipamorelin-protocol.html",
+      "score": null,
+      "gap": "Vendor protocol guide",
+      "source": "SERP top result, not fetched"
+    }
+  ],
+  "information_gain": "The only page that makes the DAC / no-DAC distinction the organising fact, showing that the two forms cannot share a schedule, that the 2006 human study was of the DAC form and produced a sustained rather than pulsed rise, and that the three indexed papers mentioning both compounds are detection chemistry and a review, not combination evidence.",
+  "serp_format_rewarded": "Protocol-guide SERP dominated by vendors; a pharmacy explainer ranks first"
 }
