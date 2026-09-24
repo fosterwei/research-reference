@@ -1,0 +1,454 @@
+{
+  "slug": "tesamorelin-ipamorelin",
+  "type": "stack",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "europepmc"
+  ],
+  "scope": "Informational intent only. Cost and vendor queries declined under the commercial-intent rule.",
+  "thin_serp": false,
+  "stage0_note": "The record's combination ledger is empty: no indexed study names both compounds. That is the page's central fact and the layout renders it as a banner. Six papers were added by hand so the page can cite the class-level pharmacology the combination borrows its rationale from, plus each component's own key trials.",
+  "serp_2026-09-24": {
+    "query": "tesamorelin ipamorelin",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "organic_top": [
+      "americanpeptides.us (vendor)",
+      "riteaid.com",
+      "creeksidefamilypractice.com",
+      "youtube.com",
+      "olympiaaesthetics.com",
+      "perfectb.com",
+      "instagram.com",
+      "globalpeptides.com.au (vendor)",
+      "tucsonwellnessmd.com"
+    ],
+    "note": "Two vendors, four clinics, a pharmacy chain, a YouTube video titled 'Dr. Explains How to Correctly Stack' and an Instagram reel. Nothing citing a study ranks. The AI Overview draws on the same commercial pages plus Instagram and YouTube."
+  },
+  "demand_findings": "1,626 for the stack phrasings at KD 0, of which 1,221 is 'tesamorelin ipamorelin blend', which is a product name rather than a question: people are searching for the pre-mixed vial. Ipamorelin's own questions are larger at 4,883 and go to its written record. Google Ads volume is heavy on the blend terms, 4,400 and 3,600, which is the vendors bidding.",
+  "h1": "Tesamorelin plus ipamorelin: a blend that no study has tested, and the class-level synergy its rationale is borrowed from",
+  "dek": "Two compounds that raise growth hormone through different doors, sold pre-mixed in one vial. The reasoning behind combining them is real and forty years old. The evidence for this particular pair is nothing at all, and the vial fixes a ratio that no trial chose.",
+  "queries": [
+    {
+      "query": "tesamorelin ipamorelin",
+      "volume": {
+        "clickstream": 1271,
+        "google_ads": 4400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "What this combination is",
+      "boundary": "No study has given tesamorelin and ipamorelin together to anyone. The combination-evidence section below is empty, and that emptiness is the finding rather than a gap in this page."
+    },
+    {
+      "query": "tesamorelin and ipamorelin",
+      "volume": {
+        "clickstream": 712,
+        "google_ads": 1300,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "What this combination is",
+      "boundary": "No study has given tesamorelin and ipamorelin together to anyone. The combination-evidence section below is empty, and that emptiness is the finding rather than a gap in this page."
+    },
+    {
+      "query": "tesamorelin ipamorelin stack",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "What this combination is",
+      "boundary": "No study has given tesamorelin and ipamorelin together to anyone. The combination-evidence section below is empty, and that emptiness is the finding rather than a gap in this page."
+    },
+    {
+      "query": "tesamorelin ipamorelin blend",
+      "volume": {
+        "clickstream": 1221,
+        "google_ads": 3600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "blend-problem",
+      "heading": "The pre-mixed vial, and what fixing a ratio does",
+      "boundary": "A blend is a commercial decision, not a studied formulation. Two compounds with different dosing rhythms in one vial can only be given on one schedule."
+    },
+    {
+      "query": "tesamorelin ipamorelin protocol",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 70,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "doses",
+      "heading": "Doses: each component's own, and nothing for the pair",
+      "boundary": "Each component's doses come from its own studies. Nothing published sets a dose for the two together, and the pre-mixed vials fix a ratio that no trial chose."
+    },
+    {
+      "query": "tesamorelin ipamorelin dosage",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 720,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "doses",
+      "heading": "Doses: each component's own, and nothing for the pair",
+      "boundary": "Each component's doses come from its own studies. Nothing published sets a dose for the two together, and the pre-mixed vials fix a ratio that no trial chose."
+    },
+    {
+      "query": "tesamorelin ipamorelin side effects",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 320,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "side-effects",
+      "heading": "Side effects: what each component's trials found",
+      "boundary": "Each component's side effects are known from its own trials. Nothing is known about giving both, and the two raise growth hormone through different doors, so their effects are not simply added."
+    },
+    {
+      "query": "tesamorelin ipamorelin results",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 260,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "components-evidence",
+      "heading": "What each component has actually shown",
+      "boundary": "No study has given tesamorelin and ipamorelin together to anyone. The combination-evidence section below is empty, and that emptiness is the finding rather than a gap in this page."
+    },
+    {
+      "query": "tesamorelin ipamorelin before and after",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 590,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "components-evidence",
+      "heading": "What each component has actually shown",
+      "boundary": "No study has given tesamorelin and ipamorelin together to anyone. The combination-evidence section below is empty, and that emptiness is the finding rather than a gap in this page."
+    },
+    {
+      "query": "tesamorelin ipamorelin reddit",
+      "volume": {
+        "clickstream": 559,
+        "google_ads": 170,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "who",
+      "heading": "Who this is discussed for, and what is unresolved",
+      "boundary": "No study has given tesamorelin and ipamorelin together to anyone. The combination-evidence section below is empty, and that emptiness is the finding rather than a gap in this page."
+    },
+    {
+      "query": "can you take tesamorelin and ipamorelin together",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 170,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "why-combined",
+      "heading": "Why the two are combined, and what that reasoning rests on",
+      "boundary": "No study has given tesamorelin and ipamorelin together to anyone. The combination-evidence section below is empty, and that emptiness is the finding rather than a gap in this page."
+    },
+    {
+      "query": "growth hormone peptide stack",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "why-combined",
+      "heading": "Why the two are combined, and what that reasoning rests on"
+    },
+    {
+      "query": "ghrh ghrp combination",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "why-combined",
+      "heading": "Why the two are combined, and what that reasoning rests on"
+    },
+    {
+      "query": "tesamorelin cjc-1295 ipamorelin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 70,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "why-combined",
+      "heading": "Why the two are combined, and what that reasoning rests on",
+      "boundary": "No study has given tesamorelin and ipamorelin together to anyone. The combination-evidence section below is empty, and that emptiness is the finding rather than a gap in this page."
+    },
+    {
+      "query": "ipamorelin dosage",
+      "volume": {
+        "clickstream": 3408,
+        "google_ads": 0,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "components",
+      "target": "/compounds/ipamorelin",
+      "heading": "Each component on its own evidence"
+    },
+    {
+      "query": "ipamorelin benefits",
+      "volume": {
+        "clickstream": 814,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "components",
+      "target": "/compounds/ipamorelin",
+      "heading": "Each component on its own evidence"
+    },
+    {
+      "query": "ipamorelin side effects",
+      "volume": {
+        "clickstream": 661,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "components",
+      "target": "/compounds/ipamorelin",
+      "heading": "Each component on its own evidence"
+    },
+    {
+      "query": "tesamorelin dosage chart",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "components",
+      "target": "/compare/sermorelin-vs-tesamorelin",
+      "heading": "Each component on its own evidence"
+    },
+    {
+      "query": "best peptide stack for fat loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 480,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "components-evidence",
+      "heading": "What each component has actually shown",
+      "boundary": "No study has given tesamorelin and ipamorelin together to anyone. The combination-evidence section below is empty, and that emptiness is the finding rather than a gap in this page."
+    },
+    {
+      "query": "what will tesamorelin and ipamorelin do",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "components-evidence",
+      "heading": "What each component has actually shown",
+      "boundary": "No study has given tesamorelin and ipamorelin together to anyone. The combination-evidence section below is empty, and that emptiness is the finding rather than a gap in this page.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how long does it take to see results from tesamorelin and ipamorelin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How long before anything happens?",
+      "answer": "Nobody has measured it for the combination. For tesamorelin alone, the visceral-fat trials measured at 26 weeks and again at 52. For ipamorelin, the growth hormone response is immediate, within minutes of a dose, and its one large clinical trial measured recovery of bowel function over days. Those are three different clocks and none of them is the clock for a blend.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "will tesamorelin get rid of belly fat",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does tesamorelin remove belly fat?",
+      "answer": "In its trials it reduced visceral fat, the fat around the organs, by about 15% over 26 weeks, in people with HIV-associated fat accumulation. Those trials were in that population, they measured visceral rather than subcutaneous fat, and the reduction reversed when treatment stopped in the extension data. No trial has tested it for belly fat in anyone else.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "whats the best peptide to stack with tesamorelin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "why-combined",
+      "heading": "Why the two are combined, and what that reasoning rests on",
+      "boundary": "No study has given tesamorelin and ipamorelin together to anyone. The combination-evidence section below is empty, and that emptiness is the finding rather than a gap in this page.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://riteaid.com/peptides/stacks/tesamorelin-and-ipamorelin",
+      "rank": 4,
+      "words": 1029,
+      "tables": 0,
+      "h2": 15,
+      "sci_links": 1,
+      "byline": "Rite Aid Health Team",
+      "score": 16,
+      "gap": "A pharmacy chain running templated stack pages behind an email capture. The best of the ranking set: it separates labelled tesamorelin dosing from experimental add-ons and has a section on why formulation matters. One citation, no trial detail, and no statement that the combination is unstudied",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F4 S4 U4"
+    },
+    {
+      "url": "https://olympiaaesthetics.com/tesamorelin-ipamorelin/",
+      "rank": 7,
+      "words": 1888,
+      "tables": 0,
+      "h2": 9,
+      "sci_links": 0,
+      "score": 12,
+      "gap": "Clinic page giving the protocol 'plainly', with cycles, what patients notice and who fits. No citations at all",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F3 S0 U4"
+    },
+    {
+      "url": "https://tucsonwellnessmd.com/tesamorelin-vs-ipamorelin-choosing-the-right-peptide/",
+      "rank": 11,
+      "words": 1285,
+      "tables": 0,
+      "h2": 10,
+      "sci_links": 0,
+      "score": 11,
+      "gap": "Answers a different question, which is better rather than what the pair does, and funnels to a consultation. No citations",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S0 U4"
+    },
+    {
+      "url": "https://www.creeksidefamilypractice.com/post/tesamorelinipamorelin",
+      "rank": 5,
+      "words": 673,
+      "tables": 1,
+      "h2": 0,
+      "sci_links": 0,
+      "score": 8,
+      "gap": "A primary-care practice's product page for the blend it sells; one table, no headings, no citations",
+      "source": "fetched 2026-09-24, metrics measured; scored D2 F2 S0 U4"
+    },
+    {
+      "url": "https://www.americanpeptides.us/products/tesamorelin-ipamorelin",
+      "rank": 2,
+      "score": null,
+      "gap": "A vendor selling the pre-mixed blend ranks second, above every clinic; out of scope by the commercial-intent rule",
+      "source": "SERP result; fetched, product page"
+    },
+    {
+      "url": "https://globalpeptides.com.au/product/tesamorelin-ipamorelin/",
+      "rank": 10,
+      "score": null,
+      "gap": "A second vendor in the top ten, selling the same blend",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page on this query that states plainly that no study has given these two compounds together to anyone, and then does the harder thing: explains why people combine them anyway, with the 1990s human work showing that a growth hormone-releasing hormone and a releasing peptide act at different levels and release more growth hormone together than either alone. The only page to separate what that class-level finding supports, a larger growth hormone pulse, from what it does not, any outcome a person would notice. The only page to point out what a pre-mixed blend does: tesamorelin's trials dosed once daily and ipamorelin's pharmacology is a pulse measured in minutes, so a single vial forces one schedule onto two different rhythms, and the ratio in it was chosen by a seller. And the only page to note that the tesamorelin in a research blend is not the approved product whose trials are being quoted for it.",
+  "serp_format_rewarded": "An evidence page in a results set that has none. Two vendors and four clinics rank, the best of them a pharmacy chain's templated page with one citation. A page that cites the class pharmacology, states the absence and explains the formulation problem has no competitor on this query.",
+  "outline": [
+    "glance",
+    "what",
+    "quick-answer",
+    "no-combination-study",
+    "components",
+    "why-combined",
+    "components-evidence",
+    "combination",
+    "blend-problem",
+    "doses",
+    "side-effects",
+    "who",
+    "legality",
+    "mistakes",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "open_actions": [
+    "Tesamorelin's own record is deferred under the approved-medicine rule and has no written sections; its trial detail is carried by the sermorelin comparison, which this page links to.",
+    "No study of the blend exists to add; the absence is recorded as a measured zero rather than as a missing source.",
+    "The class-level synergy papers use GHRP-6 rather than ipamorelin; that substitution is stated in the guide and is the weakest link in the rationale."
+  ]
+}
