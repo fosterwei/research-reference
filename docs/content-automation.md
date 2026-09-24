@@ -124,7 +124,9 @@ audit file as part 3, beside the first run. Compare; do not loop. Some
 deductions cannot move until step 7: a page with no named reviewer scores low
 on trust whatever its content does, and running the audit again will not change
 that. The exit check exists to confirm the accepted items landed, and nothing
-else.
+else. Confirm each one in the built HTML before its triage row says "done":
+the first ipamorelin run wrote "done" for two items a mid-script abort had
+skipped, and the merge carried the gap to `main`.
 
 ## Step 7: human review
 

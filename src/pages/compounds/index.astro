@@ -17,7 +17,7 @@ const published = entries.filter((e) => e.data.status === 'published').length;
   <p class="lede prose">{entries.length} records, grouped by class. The tier is the strongest evidence any indexed study provides for that compound, not a judgment of the compound.</p>
   {[...byClass.entries()].sort().map(([cls, list]) => (
     <section>
-      <h2 id={className}>{className(cls)}</h2>
+      <h2 id={cls}>{className(cls)}</h2>
       {classes[cls] && <p class="prose">{classes[cls]}</p>}
       <ul class="cards">
         {list.map((e) => (
