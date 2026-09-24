@@ -9,8 +9,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "Humanin is a peptide in the mitochondrial peptides class (mitochondria-derived cytoprotective peptide). Europe PMC indexes 589 publications naming it or a listed alias in a title or abstract, including 5 randomized controlled trials and 3 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "Humanin: what the research shows",
-    "description": "Humanin research, cited: 589 indexed publications, 5 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Humanin (HNG): Studies, Doses, Side Effects, Status",
+    "description": "Humanin (HNG) explained: what mouse and cell studies show, why every human study only measured it, the 2020 tumour-promotion finding, animal doses, and status."
   },
   "attributes": {
     "routes_studied": [
@@ -44,30 +44,39 @@
     ],
     "study_doses": [
       {
-        "value": "Human study, humans, 2026: doses stated in the abstract: 6 ng. Receiver operating characteristic (ROC) curve analysis showed that 5.26 ng/ml cut-off value of humanin-like 3 level discriminated MS-SCON from NMOSD by 66.7% sensitivity and 90% specificity.",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-41777515"
-        ],
-        "source_excerpt": "Receiver operating characteristic (ROC) curve analysis showed that 5.26 ng/ml cut-off value of humanin-like 3 level discriminated MS-SCON from NMOSD by 66.7% sensitivity and 90% specificity.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, rats, n=10, 2026: doses stated in the abstract: 1 mg/kg/day. In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group) to evaluate sexual behavior, sperm quality, serum hormones, and…",
+        "value": "Rats received humanin at 1 mg/kg a day by subcutaneous infusion alongside paroxetine.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42480246"
         ],
-        "source_excerpt": "In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group) to evaluate sexual behavior, sperm quality, serum hormones, and dopaminergic activity within the nucleus accumbens (NAc) and medial preoptic area (MPOA).",
+        "source_excerpt": "In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group)",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, n=10, 2026: doses stated in the abstract: 4 mg/kg. Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
+        "value": "Diabetic mice received humanin 4 mg/kg intraperitoneally for 15 days.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42438323"
         ],
         "source_excerpt": "Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Rats with retinal degeneration received the analogue HNG at 0.4 or 4 mg/kg intraperitoneally twice a week for one or four weeks.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42471450"
+        ],
+        "source_excerpt": "Starting at postnatal day 21, RCS rats received twice a week intraperitoneal injection of either Low Dose HNG (0.4 mg/kg), High Dose HNG (4 mg/kg), or sham-saline for 1 or 4 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Human muscle cells in culture were treated with 10 micromolar HNG or MOTS-c against dexamethasone.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-41732124"
+        ],
+        "source_excerpt": "Fully differentiated primary human myotubes were exposed to 10 μM DEXA ±10 μM HNG or 10 μM MOTS-c.",
         "drafting": "extractive"
       }
     ],
@@ -81,62 +90,33 @@
         ],
         "source_excerpt": "Humanin co-administration significantly reversed these adverse effects, restoring ejaculatory frequency, copulatory efficiency, sperm parameters, and hormonal balance.",
         "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, mice, 2007: By using NMR chemical shift mapping experiments, we demonstrate that the interaction between Humanin-derived peptides and Bid is specific, and we localize the binding site to a region on the surface of Bid, which includes residues from the conserved helical BH3 domain of the protein.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-17927731"
-        ],
-        "source_excerpt": "By using NMR chemical shift mapping experiments, we demonstrate that the interaction between Humanin-derived peptides and Bid is specific, and we localize the binding site to a region on the surface of Bid, which includes residues from the conserved helical BH3 domain of the protein.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "In vitro study, humans, 2026: This study presents an in-depth analysis of an interactome comprising approximately 1033 nodes, focusing on its topology, reliability, and functional implications, with particular attention to the small mitochondrial proteins of the Humanin family and their nuclear-encoded MTRNR2Lx paralogs.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-42509775"
-        ],
-        "source_excerpt": "This study presents an in-depth analysis of an interactome comprising approximately 1033 nodes, focusing on its topology, reliability, and functional implications, with particular attention to the small mitochondrial proteins of the Humanin family and their nuclear-encoded MTRNR2Lx paralogs.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "In vitro study, humans, 2025: Humanin is an endogenous human peptide with cytoprotective effects, including inhibition of apoptosis via interaction with BCL-2 proteins such as BAX.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-40543583"
-        ],
-        "source_excerpt": "Humanin is an endogenous human peptide with cytoprotective effects, including inhibition of apoptosis via interaction with BCL-2 proteins such as BAX.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "In vitro study, 2021: Recent reports identify a naturally occurring peptide, Humanin (HN), that could block amyloid-beta-associated neuronal apoptosis by interacting with BCL-2 proteins.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-33764501"
-        ],
-        "source_excerpt": "Recent reports identify a naturally occurring peptide, Humanin (HN), that could block amyloid-beta-associated neuronal apoptosis by interacting with BCL-2 proteins.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "In vitro study, humans, 2020: A mitochondrial-derived peptide, Humanin (HN), was reported being expressed from an alternate ORF in the mitochondrial genome and inhibiting apoptosis through interactions with the pro-apoptotic BCL-2 proteins.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-33106313"
-        ],
-        "source_excerpt": "A mitochondrial-derived peptide, Humanin (HN), was reported being expressed from an alternate ORF in the mitochondrial genome and inhibiting apoptosis through interactions with the pro-apoptotic BCL-2 proteins.",
-        "drafting": "extractive"
       }
     ],
     "exclusion_criteria": [],
     "adverse_events": [
       {
-        "value": "Animal study, rats, n=10, 2026: Humanin co-administration significantly reversed these adverse effects, restoring ejaculatory frequency, copulatory efficiency, sperm parameters, and hormonal balance.",
-        "evidence_label": "animal-preclinical",
+        "value": "No human has received humanin or HNG in a study, so no side effect has ever been recorded in a person. The one safety signal in the literature comes from mice: a 2020 study of triple-negative breast cancer found humanin and its receptors expressed in human tumours, that added humanin protected cancer cells from apoptosis, and that systemic humanin in tumour-bearing mice reduced tumour cell death, blunted chemotherapy's anti-tumour and anti-metastatic effect, and accelerated tumour growth and lung metastasis. That is what an anti-apoptotic peptide would be expected to do to a tumour, and it is not in the ledger yet; it ranks second on Google for the compound's name.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      },
+      {
+        "value": "Humanin levels are raised in breast-cancer patients' serum, which the authors propose as a diagnostic marker; it is also consistent with the tumour-protection biology.",
+        "evidence_label": "observational-human",
         "source_ids": [
-          "pmid-42480246"
+          "pmid-41518474"
         ],
-        "source_excerpt": "Humanin co-administration significantly reversed these adverse effects, restoring ejaculatory frequency, copulatory efficiency, sperm parameters, and hormonal balance.",
+        "source_excerpt": "Serum humanin concentrations were significantly elevated in breast cancer patien",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In dialysis patients, both low and high humanin levels predicted cardiovascular events, a U-shaped relationship.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-41849628"
+        ],
+        "source_excerpt": "Humanin displayed a curvilinear association with CVMM, with both low ( 778 pg/mL",
         "drafting": "extractive"
       }
     ],
@@ -196,20 +176,18 @@
         "drafting": "extractive"
       }
     ],
-    "reported_timelines": [],
-    "storage": [],
-    "study_durations": [
+    "reported_timelines": [
       {
-        "value": "Clinical trial, humans, n=158, 2019: durations stated: 5 days; 12 weeks. The following HBO protocol was practiced: 5 days per week, 60 min each, 100% oxygen at 2 standard atmospheric pressures for 12 weeks.",
+        "value": "Circulating humanin rose after a single bout of endurance exercise, but not resistance exercise, in healthy volunteers.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-31134827"
+          "pmid-34351816"
         ],
-        "source_excerpt": "The following HBO protocol was practiced: 5 days per week, 60 min each, 100% oxygen at 2 standard atmospheric pressures for 12 weeks.",
+        "source_excerpt": "Circulating levels of HN were significantly elevated by acute EE but not RE.",
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=55, 2016: durations stated: 12 weeks. In this intervention study we show, for the first time, that HN protein levels increase in human skeletal muscle following 12 weeks of resistance training in persons with prediabetes.",
+        "value": "Muscle humanin protein rose after 12 weeks of resistance training in men with impaired glucose regulation.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-27923980"
@@ -218,16 +196,19 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 2026: durations stated: 4 weeks. Starting at postnatal day 21, RCS rats received twice a week intraperitoneal injection of either Low Dose HNG (0.4 mg/kg), High Dose HNG (4 mg/kg), or sham-saline for 1 or 4 weeks.",
+        "value": "In rats, four weeks of high-dose HNG produced the largest gene-expression changes in the retina.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42471450"
         ],
-        "source_excerpt": "Starting at postnatal day 21, RCS rats received twice a week intraperitoneal injection of either Low Dose HNG (0.4 mg/kg), High Dose HNG (4 mg/kg), or sham-saline for 1 or 4 weeks.",
+        "source_excerpt": "The results showed that high dose HNG at 4 weeks after first injection (WAFI) was associated with the largest change in gene expression in the RPE and retina of treated animals, altering expression of genes involved in apoptosis, oxidative stress, inflammation and retinal/RPE function.",
         "drafting": "extractive"
-      },
+      }
+    ],
+    "storage": [],
+    "study_durations": [
       {
-        "value": "Animal study, mice, n=10, 2026: durations stated: 15 days. Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
+        "value": "Fifteen days of daily injection in diabetic mice; one or four weeks of twice-weekly HNG in rats.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42438323"
@@ -236,36 +217,18 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2026: durations stated: 9 weeks. Male mdx mice (B10.mdx and D2.mdx) were treated with GCs, with/without HNG, from 5 to 9 weeks of age using two different treatment regimens.",
-        "evidence_label": "animal-preclinical",
+        "value": "Human studies measured humanin after a single exercise bout (30 minutes and 3 hours), after 12 weeks of training, and over 24 months of follow-up in dialysis patients.",
+        "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-41550496"
+          "pmid-34351816"
         ],
-        "source_excerpt": "Male mdx mice (B10.mdx and D2.mdx) were treated with GCs, with/without HNG, from 5 to 9 weeks of age using two different treatment regimens.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, rats, mice, 2024: durations stated: 2 days; 14 days. Ex vivo studies were performed in fetal rat metatarsal bones and human growth plate samples cultured for 12 and 2 days, respectively, while in vivo studies were performed in young neuroblastoma mice being treated daily for 14 days.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-38328478"
-        ],
-        "source_excerpt": "Ex vivo studies were performed in fetal rat metatarsal bones and human growth plate samples cultured for 12 and 2 days, respectively, while in vivo studies were performed in young neuroblastoma mice being treated daily for 14 days.",
+        "source_excerpt": "Skeletal muscle biopsies and blood samples were collected before and at 30 min and 3 h following exercise.",
         "drafting": "extractive"
       }
     ],
     "weight_normalized_doses": [
       {
-        "value": "Animal study, rats, n=10, 2026: weight-normalized doses as published: 1 mg/kg/day. In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group) to evaluate sexual behavior, sperm quality, serum…",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-42480246"
-        ],
-        "source_excerpt": "In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group) to evaluate sexual behavior, sperm quality, serum hormones, and dopaminergic activity within the nucleus accumbens (NAc) and medial preoptic area (MPOA).",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, mice, n=10, 2026: weight-normalized doses as published: 4 mg/kg. Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
+        "value": "4 mg/kg intraperitoneal in mice and rats; 0.4 mg/kg as the low dose in rats; 1 mg/kg/day by subcutaneous infusion in rats.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42438323"
@@ -274,7 +237,15 @@
         "drafting": "extractive"
       }
     ],
-    "regulatory_status": [],
+    "regulatory_status": [
+      {
+        "value": "Not approved anywhere and not in clinical development: no company has registered a trial of humanin or HNG in people, and it has no drug-development code. It is sold as a research reagent by peptide-synthesis companies and as a research chemical for injection by others. Not named on the WADA Prohibited List; as an unapproved substance it falls under S0. Not known to have been nominated to FDA's compounding lists.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Randomized controlled trial, humans, n=12, 2026: The WBRT group showed significant increases in gray matter, subcortical gray matter, cerebellar gray matter volume, and cerebrum white matter compared to the CON group (p < 0.05).",
@@ -287,7 +258,7 @@
         "fields": {
           "study": "Hosseini 2026",
           "year": "2026",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (humanin measured, not given)",
           "n": 12,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -307,7 +278,7 @@
         "fields": {
           "study": "Vicinanza 2025",
           "year": "2025",
-          "design": "Clinical trial",
+          "design": "Clinical trial (humanin measured, not given)",
           "n": 49,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -327,7 +298,7 @@
         "fields": {
           "study": "Basereh 2025",
           "year": "2025",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (humanin measured, not given)",
           "n": 15,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -347,7 +318,7 @@
         "fields": {
           "study": "Delgado-Peraza 2023",
           "year": "2023",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (humanin measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -367,7 +338,7 @@
         "fields": {
           "study": "von 2021",
           "year": "2021",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (humanin measured, not given)",
           "n": 10,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -387,7 +358,7 @@
         "fields": {
           "study": "Xu 2019",
           "year": "2019",
-          "design": "Clinical trial",
+          "design": "Clinical trial (humanin measured, not given)",
           "n": 158,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -407,7 +378,7 @@
         "fields": {
           "study": "Shen 2019",
           "year": "2019",
-          "design": "Clinical trial",
+          "design": "Clinical trial (humanin measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -427,7 +398,7 @@
         "fields": {
           "study": "Nashine 2017",
           "year": "2017",
-          "design": "Clinical trial",
+          "design": "Clinical trial (humanin measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -447,7 +418,7 @@
         "fields": {
           "study": "Gidlund 2016",
           "year": "2016",
-          "design": "Randomized controlled trial",
+          "design": "Randomized controlled trial (humanin measured, not given)",
           "n": 55,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -467,7 +438,7 @@
         "fields": {
           "study": "Shen 2026",
           "year": "2026",
-          "design": "Human study",
+          "design": "Human study (humanin measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -487,7 +458,7 @@
         "fields": {
           "study": "Bolignano 2026",
           "year": "2026",
-          "design": "Multicentre study",
+          "design": "Multicentre study (humanin measured, not given)",
           "n": 33,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -507,7 +478,7 @@
         "fields": {
           "study": "Nashine 2026",
           "year": "2026",
-          "design": "Human study",
+          "design": "Human study (humanin measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -527,7 +498,7 @@
         "fields": {
           "study": "Mohamed 2026",
           "year": "2026",
-          "design": "Human study",
+          "design": "Human study (humanin measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -547,7 +518,7 @@
         "fields": {
           "study": "Küçükali 2026",
           "year": "2026",
-          "design": "Human study",
+          "design": "Human study (humanin measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "6 ng",
@@ -567,7 +538,7 @@
         "fields": {
           "study": "Rodríguez-Esparragón 2025",
           "year": "2025",
-          "design": "Human study",
+          "design": "Human study (humanin measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -587,7 +558,7 @@
         "fields": {
           "study": "Coradduzza 2025",
           "year": "2025",
-          "design": "Human study",
+          "design": "Human study (humanin measured, not given)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -607,7 +578,7 @@
         "fields": {
           "study": "Zhao 2023",
           "year": "2023",
-          "design": "Human study",
+          "design": "Human study (humanin measured, not given)",
           "n": 40,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -776,6 +747,34 @@
           "outcome": "STZ-induced diabetes markedly disrupted metabolic hormone balance, as indicated by decreased leptin and irisin levels and increased asprosin concentrations."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "Humanin is a 24-amino-acid peptide (21 when made inside mitochondria) encoded in an unexpected place: within the mitochondrial 16S ribosomal RNA gene, MT-RNR2. It was found in 2001 by Hashimoto and colleagues screening a brain library from an Alzheimer's patient for sequences that kept neurons alive under amyloid attack, and named for the hope that it would restore 'humanity' to people with dementia. It is the founding member of the mitochondrial-derived peptides, a family that includes MOTS-c and the SHLPs, which are challenging the idea that mitochondrial DNA encodes only respiratory-chain machinery.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "It protects cells two ways. Inside the cell it binds the pro-apoptotic proteins BAX and BID and sequesters them into fibrils, stopping them from puncturing the mitochondrial membrane; outside, it signals through a receptor complex (CNTFR, WSX-1 and gp130) and through formyl-peptide receptors to activate survival pathways. The analogue HNG, with a single serine-to-glycine change, is about a thousand times more potent in these assays and is what most animal studies use. In animals the effect is broad: protection of neurons, heart, retina, kidney, testis and muscle under various insults.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The human data are about levels, not treatment. Circulating humanin rises with age and is highest in centenarians; it rises after endurance exercise and with Mediterranean-diet adherence; it is altered in diabetes, kidney disease, heart failure and cancer. The field's reading is that humanin is a stress-response signal that mitochondria send when under pressure, so higher levels mark a body coping rather than a body thriving. Whether adding more from outside helps or harms a person has never been tested, and the tumour study is the reason 'helps' is not the default assumption.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Humanin, usually as HNG, circulates for longevity, energy, 'mitochondrial health' and neuroprotection, injected subcutaneously two or three times a week, often in a set with MOTS-c and SS-31 and sometimes with NAD+ precursors. Reports describe more energy and clearer thinking, or nothing, and few complaints; users scale their doses from the mouse studies by body weight. None of this comes from a human study, because none exists. Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually gave to an animal.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -810,10 +809,9 @@
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports dose-escalation schedules for Humanin.",
-    "No study in this record's ledger reports exclusion criteria for Humanin.",
-    "No study in this record's ledger reports onset or duration of effects for Humanin.",
-    "No study in this record's ledger reports storage or stability for Humanin."
+    "No human has been given humanin or HNG in a study; every human row in the ledger measured endogenous levels.",
+    "The 2020 tumour-progression study (Moreno Ayala, Sci Rep), the HNG healthspan mouse study and the 2001 discovery paper are cited editorially and are not in the ledger.",
+    "No pharmacokinetic study of humanin or HNG in any species is indexed."
   ],
   "media": {
     "walkthrough_video": "",
@@ -821,20 +819,52 @@
   },
   "faq": [
     {
-      "question": "Has Humanin been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 3 clinical trials and 5 randomized controlled trials naming Humanin or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "question": "Has humanin been tested in humans?",
+      "answer": "Not as a treatment. All seventeen human studies in the ledger measured the body's own humanin, in blood, muscle or neuron-derived vesicles, after exercise, diet or hyperbaric oxygen or as a disease marker. No person has been given humanin or HNG in a published study, and none is registered."
     },
     {
-      "question": "What kind of evidence exists for Humanin?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "Is there a humanin dose?",
+      "answer": "Not for people. In animals, humanin was given at 1 mg/kg a day by subcutaneous infusion in rats and 4 mg/kg intraperitoneally in mice; HNG at 0.4 or 4 mg/kg twice a week in rats and, in a cited mouse study, 4 mg/kg twice weekly for six months. The figures that circulate are those doses scaled by body weight."
     },
     {
-      "question": "Is Humanin an approved medicine?",
-      "answer": "No ChEMBL record matches Humanin or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "What is the difference between humanin and HNG?",
+      "answer": "HNG is humanin with glycine in place of serine at position 14, about a thousand times more potent in cell-protection assays and more stable. Most animal studies use HNG, and so do most vendors. Neither has been given to a person in a study."
     },
     {
-      "question": "Which species has Humanin been studied in?",
-      "answer": "Studies in this record's ledger report work in: Cattle, Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "Does humanin extend lifespan?",
+      "answer": "No study has shown that in any species. A cited mouse study gave old females HNG twice weekly for six months and found better cognition and metabolic markers, not a longer life. In people, humanin levels rise with age and peak in centenarians, which the field reads as a stress-response signal rather than a cause of longevity."
+    },
+    {
+      "question": "What are the side effects of humanin?",
+      "answer": "None recorded, because no human has received it in a study. The biological caution is that humanin blocks apoptosis: in a 2020 mouse study of triple-negative breast cancer, systemic humanin protected tumour cells, blunted chemotherapy and accelerated growth and lung metastasis, and its levels are raised in breast-cancer patients."
+    },
+    {
+      "question": "Is humanin FDA approved?",
+      "answer": "No. It is not approved anywhere, has no development programme or drug code, and is sold as a research reagent and, by other vendors, as a research chemical for injection."
+    },
+    {
+      "question": "Does humanin help Alzheimer's disease?",
+      "answer": "It was discovered in 2001 protecting neurons from Alzheimer's-type damage in culture and protects mouse models, which is where its name comes from. In people, exercise raised humanin in neuron-derived vesicles of Alzheimer's patients, and a dementia trial measured it as a marker. No one with Alzheimer's has been given humanin."
+    },
+    {
+      "question": "Why do centenarians have high humanin?",
+      "answer": "Levels rise with age and are highest in the oldest old, and within them correlate inversely with grip strength and insulin sensitivity, which points to humanin as a signal mitochondria send under stress rather than a marker of health. High levels also predicted cardiovascular events in dialysis patients. It is measured in these people, not given to them."
+    },
+    {
+      "question": "Does exercise increase humanin?",
+      "answer": "Yes. A single bout of endurance cycling raised circulating humanin within hours in healthy adults (resistance exercise did not), twelve weeks of resistance training raised muscle humanin in prediabetic men, and exercise raised humanin in neuron-derived vesicles in Alzheimer's patients. That is the body making its own; nothing was injected."
+    },
+    {
+      "question": "Is humanin the same as MOTS-c?",
+      "answer": "No. Both are mitochondrial-derived peptides, encoded in mitochondrial ribosomal-RNA genes, but humanin (16S rRNA) is anti-apoptotic and MOTS-c (12S rRNA) acts on metabolism through AMPK. MOTS-c has small human studies and mouse exercise data; humanin has no human treatment study. They are sold together on the strength of their shared origin."
+    },
+    {
+      "question": "Is humanin banned in sport?",
+      "answer": "It is not named on the WADA Prohibited List, but as a substance with no regulatory approval it falls under the list's S0 category, prohibited at all times."
+    },
+    {
+      "question": "Which species has humanin been studied in?",
+      "answer": "Given to mice and rats, in models of diabetes, retinal degeneration, kidney injury, SSRI side effects, atrial fibrillation and cancer; measured in humans, cattle and cells. No primate or human dosing study exists."
     }
   ],
   "sources": [
@@ -1169,7 +1199,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 79.6,
+  "uniqueness_pct": 88.1,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1188,6 +1218,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 46 ledger sources by scripts/draft_claims.py: 27 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/humanin.json: guide (8 sections incl. a measured-versus-given human table and an animal-dose table), FAQ to 12 plus 9 from the map, animal dose, duration, timeline and adverse-event claims from the abstracts, the 2020 tumour finding as editorial with pending_source, mechanism, reported-use, regulatory; seventeen human rows relabelled 'measured, not given'; misdrafted interactions removed; intent-driven H1 and title."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Humanin in two minutes",
+      "html": "<p><strong>What it is.</strong> A small peptide encoded inside a mitochondrial ribosomal-RNA gene, found in 2001 in a search for what keeps neurons alive under Alzheimer's-type attack. It blocks the cell-death proteins BAX and BID and signals survival from outside the cell. The analogue HNG, a thousand times more potent, is what animal studies and vendors use.</p><p><strong>What the research actually shows.</strong> 589 indexed publications. In mice and rats, humanin or HNG at 0.4 to 4 mg/kg protects neurons, heart, retina, kidney and testis from chemical and metabolic injury. In people, <strong>every study measured the body's own humanin</strong>: it rises after endurance exercise and with a Mediterranean diet, is highest in centenarians, and shifts in diabetes, kidney disease, heart failure and cancer. <strong>No human has been given humanin in a study.</strong></p><p><strong>The finding vendors leave out.</strong> In a 2020 mouse study of triple-negative breast cancer, humanin protected the tumour cells, blunted chemotherapy and accelerated growth and lung metastasis. An anti-apoptotic peptide protects whatever cells it reaches.</p><p><strong>Status.</strong> Not approved, not in development; a research reagent. Caught by WADA's S0 rule.</p><p><strong>Where the evidence is thinnest.</strong> All of it in people: dose, effect, safety, and whether a peptide that peaks in the oldest old is a cause of their longevity or a sign of their stress.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "Human studies: what was measured, since nothing was given",
+      "lede": "Every human study in the ledger measured humanin. None administered it. This table says what each one measured and after what.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of humanin in the ledger, all observational with respect to the peptide.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Participants</th><th scope=\"col\">What changed or was compared</th><th scope=\"col\">Where humanin was measured</th><th scope=\"col\">What it showed</th></tr></thead><tbody><tr><td>von Walden 2021</td><td>30 healthy adults</td><td>One bout of endurance or resistance exercise</td><td>Plasma and muscle</td><td>Circulating humanin rose after endurance exercise, not resistance</td></tr><tr><td>Gidlund 2016</td><td>55 men with impaired glucose regulation</td><td>12 weeks of resistance training or Nordic walking</td><td>Muscle biopsies and serum</td><td>Muscle humanin protein rose after resistance training</td></tr><tr><td>Delgado-Peraza 2023</td><td>People with Alzheimer's disease</td><td>Exercise programme</td><td>Neuron-derived extracellular vesicles in blood</td><td>Vesicle humanin and BDNF rose with exercise</td></tr><tr><td>Xu 2019</td><td>158 people with vascular dementia</td><td>Hyperbaric oxygen, 12 weeks</td><td>Serum</td><td>Humanin measured as a marker alongside cognition scores</td></tr><tr><td>Vicinanza 2025</td><td>49 older adults with atrial fibrillation</td><td>Mediterranean-diet adherence</td><td>Plasma</td><td>Higher adherence, higher humanin and SHMOOSE</td></tr><tr><td>Bolignano 2026</td><td>83 haemodialysis patients, 24 months</td><td>Cardiovascular events</td><td>Plasma</td><td>U-shaped: low and high humanin both predicted events</td></tr><tr><td>Liao 2026</td><td>39 atrial-fibrillation patients, 39 controls</td><td>Disease vs health</td><td>Plasma and atrial tissue</td><td>Humanin and MOTS-c altered in AF; HNG then tested in mice</td></tr><tr><td>Mohamed 2026; Coradduzza 2025</td><td>Breast and prostate cancer patients</td><td>Disease vs health</td><td>Serum; tissue</td><td>Raised in breast cancer serum; down-regulated in prostate lesions</td></tr><tr><td>Zhao 2023; Küçükali 2026; Rodríguez-Esparragón 2025</td><td>Children with IBD; multiple sclerosis; other cohorts</td><td>Disease vs health</td><td>Serum; transcripts</td><td>Levels shift with chronic inflammation and disease</td></tr><tr><td>Nashine 2017; Nashine 2026</td><td>Cells carrying mitochondria from macular-degeneration patients</td><td>HNG or a humanin fragment added in culture</td><td>Cultured cybrid cells</td><td>Protected the AMD mitochondria and reduced pro-apoptotic gene expression: a cell study, counted as human by the fetcher</td></tr></tbody></table></div></div><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Animal and cell studies that gave humanin or HNG.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Model</th><th scope=\"col\">Dose and route</th><th scope=\"col\">Duration</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Köm Akipek 2026</td><td>Rats given paroxetine</td><td>Humanin 1 mg/kg/day, subcutaneous infusion</td><td>Phase 1 dosing period</td><td>Reversed SSRI-induced sexual dysfunction and dopamine changes</td></tr><tr><td>Hekim 2026</td><td>Diabetic mice</td><td>Humanin 4 mg/kg intraperitoneal</td><td>15 days</td><td>Less testicular oxidative damage</td></tr><tr><td>Bulut 2026</td><td>Diabetic mice</td><td>Humanin intraperitoneal, repeated</td><td>Not stated</td><td>Lower oxidative stress, inflammation, apoptosis; hormone balance restored</td></tr><tr><td>Lin 2026</td><td>Rats with inherited retinal degeneration</td><td>HNG 0.4 or 4 mg/kg intraperitoneal, twice weekly</td><td>1 or 4 weeks</td><td>Gene-expression changes in retina; functional results in full text</td></tr><tr><td>Abueid 2026</td><td>Rats, renal ischaemia-reperfusion</td><td>S14G-humanin</td><td>Not stated</td><td>Antioxidant enzymes restored</td></tr><tr><td>Liao 2026</td><td>Mice with angiotensin-induced atrial fibrillation</td><td>HNG or MOTS-c</td><td>Not stated</td><td>Less fibrosis and mitochondrial dysfunction</td></tr><tr><td>Elhusseiny 2026</td><td>Human muscle cells</td><td>10 μM HNG or MOTS-c</td><td>Culture</td><td>MOTS-c preserved myotube size against dexamethasone; HNG partially</td></tr><tr><td>Moreno Ayala 2020 (not in ledger)</td><td>Mice with triple-negative breast cancer</td><td>Systemic humanin</td><td>Tumour growth period</td><td><strong>Tumour apoptosis reduced, chemotherapy blunted, growth and lung metastasis accelerated</strong></td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every humanin and HNG dose in the literature, in one table",
+      "lede": "Every figure here was given to a rodent or a culture. No human dose exists.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses of humanin and HNG administered in studies.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Species</th><th scope=\"col\">Route</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th></tr></thead><tbody><tr><td>Humanin</td><td>Rat</td><td>Subcutaneous infusion</td><td>1 mg/kg/day</td><td>Continuous, study phase</td></tr><tr><td>Humanin</td><td>Mouse</td><td>Intraperitoneal</td><td>4 mg/kg</td><td>Daily, 15 days</td></tr><tr><td>HNG</td><td>Rat</td><td>Intraperitoneal</td><td>0.4 mg/kg (low) or 4 mg/kg (high)</td><td>Twice weekly, 1 to 4 weeks</td></tr><tr><td>HNG (cited, not in ledger)</td><td>Mouse, aged females</td><td>Intraperitoneal</td><td>4 mg/kg</td><td>Twice weekly, 6 months</td></tr><tr><td>HNG or MOTS-c</td><td>Human muscle cells</td><td>Culture</td><td>10 μM</td><td>Co-treatment with dexamethasone</td></tr><tr><td>HNG or humanin fragment</td><td>Human AMD cybrid cells</td><td>Culture</td><td>Not stated in the abstract</td><td>Culture</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table holds every dose a study actually gave. The community's figures are the mouse doses scaled by body weight, a conversion that ignores the fact that the mouse studies dosed for weeks in animals with an induced disease, not for years in healthy people.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who humanin is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> rodents with induced injury to brain, heart, retina, kidney or testis; cells from macular-degeneration patients. <strong>Measured in:</strong> healthy exercisers, prediabetic men, people with dementia, dialysis patients, cancer patients, centenarians. <strong>Given to:</strong> no human. <strong>Community:</strong> longevity enthusiasts, usually with MOTS-c and SS-31.</p><p>No human study exists, so the cautions come from the biology:</p><ul class=\"list\"><li><strong>Cancer, present or past.</strong> Humanin blocks apoptosis, the process the body uses to remove damaged and malignant cells; in mice it protected breast-cancer cells, blunted chemotherapy and accelerated metastasis, and its levels are raised in breast-cancer patients. This is the strongest caution on the page and the one vendors omit.</li><li><strong>Reading high levels as good.</strong> Humanin is highest in centenarians and in the sickest dialysis patients alike; the field reads it as a stress signal. Adding more to a healthy person is untested in every direction.</li><li><strong>Chemotherapy.</strong> The mouse study found humanin protected tumour cells from chemotherapy specifically.</li><li><strong>Pregnancy, children, interactions.</strong> No data of any kind.</li><li><strong>Product identity.</strong> Humanin and HNG are different molecules with a thousandfold potency difference; a vial's label decides which the buyer gets, and no study has checked.</li><li><strong>Tested athletes.</strong> Unapproved substances are prohibited under WADA S0 at all times.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The human time course is the body's own peptide responding to stimuli: circulating humanin rose within <strong>30 minutes to 3 hours</strong> of a single endurance bout; muscle humanin rose over <strong>12 weeks</strong> of resistance training; blood levels predicted cardiovascular events over <strong>24 months</strong> of dialysis follow-up, at both extremes. The animal time course is weeks: <strong>15 days</strong> of daily injection in diabetic mice, <strong>4 weeks</strong> of twice-weekly HNG in rats, <strong>6 months</strong> in the cited aged-mouse study. Nothing has been measured after giving humanin to a person at any time point, so 'how long does it take to work' has no human answer and 'what does it do over years' has none in any species.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>Humanin and HNG are laboratory reagents with supplier handling data: lyophilised, stored frozen, reconstituted fresh; both aggregate into fibrils in solution, a property the mechanism papers study on purpose. That is laboratory guidance; vials sold for injection carry unverified contents.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how humanin is discussed",
+      "html": "<ol class=\"list\"><li><strong>Counting the human studies as trials of humanin.</strong> All seventeen in the ledger measured the body's own peptide. None gave it.</li><li><strong>Reading centenarians' high levels as the cause of their age.</strong> The field reads it as a mitochondrial stress signal; the dialysis data, where high levels predicted harm, fit that reading.</li><li><strong>Omitting the tumour study.</strong> An anti-apoptotic peptide protecting cancer cells in mice is the predictable result, and it ranks second on Google for the compound's name.</li><li><strong>Scaling mouse doses to people.</strong> The rodent studies dosed diseased animals for weeks; the conversion produces a number with no study behind it.</li><li><strong>Treating humanin and HNG as one product.</strong> HNG is a thousand times more potent in cell assays; which one a vial contains is unverified.</li><li><strong>Selling the mitochondrial trio as a set.</strong> SS-31 is an approved drug, MOTS-c has small human studies, humanin has none; no study has combined any two in a person.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Humanin vs MOTS-c, SS-31 and the other mitochondrial peptides",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Humanin beside the mitochondrial peptides it is sold with, from their own records.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">What it is</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>Humanin / HNG</strong></td><td>24-amino-acid peptide encoded in mitochondrial 16S rRNA; anti-apoptotic</td><td>None as a treatment; seventeen biomarker studies</td><td>Research reagent; not in development</td></tr><tr><td><a href=\"/compounds/mots-c\">MOTS-c</a></td><td>16-amino-acid peptide encoded in mitochondrial 12S rRNA; metabolic; 277 indexed publications</td><td>4 randomized trials; 13 human studies in its ledger</td><td>Not approved; WADA S4.4</td></tr><tr><td><a href=\"/compounds/ss-31\">SS-31 (elamipretide)</a></td><td>Synthetic tetrapeptide binding cardiolipin; 493 indexed publications</td><td>16 randomized trials; approved for Barth syndrome 2025</td><td>Prescription medicine (Forzinity)</td></tr><tr><td>SHLP2, SHLP3, SHMOOSE</td><td>Other small peptides encoded in mitochondrial DNA</td><td>Biomarker studies only</td><td>Research reagents</td></tr><tr><td>NAD+ precursors (NMN, NR)</td><td>Oral supplements raising NAD+</td><td>Small trials of NAD+ levels</td><td>Dietary supplements; no record on this site</td></tr></tbody></table></div></div><p>The 'mitochondrial stack' sold online puts a research reagent with no human data beside a compound with small human studies and an approved orphan drug, and treats them as one class of evidence. They are one class of origin. Only SS-31 has been given to people in controlled trials, and no study has combined any two of the three.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
