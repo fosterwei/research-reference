@@ -120,10 +120,10 @@
     {
       "query": "kpv peptide gut",
       "volume": {
-        "clickstream": null,
-        "google_ads": null,
+        "clickstream": 0,
+        "google_ads": 0,
         "kd": null,
-        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+        "source": "dataforseo keyword_overview, US/en, 2026-09-24: no data returned (treated as 0)"
       },
       "intent": "informational",
       "policy": "evidence-only",
@@ -146,10 +146,10 @@
     {
       "query": "kpv peptide half life",
       "volume": {
-        "clickstream": null,
-        "google_ads": null,
+        "clickstream": 0,
+        "google_ads": 0,
         "kd": null,
-        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+        "source": "dataforseo keyword_overview, US/en, 2026-09-24: no data returned (treated as 0)"
       },
       "intent": "informational",
       "policy": "evidence-only",
@@ -159,10 +159,10 @@
     {
       "query": "kpv peptide inflammation",
       "volume": {
-        "clickstream": null,
-        "google_ads": null,
+        "clickstream": 0,
+        "google_ads": 0,
         "kd": null,
-        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+        "source": "dataforseo keyword_overview, US/en, 2026-09-24: no data returned (treated as 0)"
       },
       "intent": "informational",
       "policy": "evidence-only",
