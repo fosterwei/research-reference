@@ -166,8 +166,9 @@
       },
       "intent": "informational",
       "policy": "evidence-only",
-      "section": "human-trials",
-      "heading": "What the human studies measured"
+      "section": "evidence_table",
+      "heading": "What did the studies find?",
+      "note": "Remapped from human-trials: this record has more than twelve human rows, so the evidence table carries them."
     },
     {
       "query": "mots-c injection",
