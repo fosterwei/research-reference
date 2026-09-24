@@ -89,7 +89,9 @@
     }
   ],
   "open_questions": [
-    "No published schedule reconciles the components' different reported frequencies onto one calendar."
+    "Whether the combination outperforms either compound alone, in any species, has not been tested.",
+    "No human study of the combination exists, and none is registered.",
+    "Whether injected TB-500 fragments behave like the thymosin β4 used in human eye and wound trials is unknown."
   ],
   "review": {
     "author": "",
@@ -106,10 +108,43 @@
     {
       "date": "2026-09-24",
       "change": "Named as the Wolverine stack (the query people use: 7,428 clickstream, 27,100 Ads searches a month); summary rewritten; five FAQs added; title and description within budget."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written guide added (quick answer, dosage chart, rationale, cautions, common mistakes); page moved to the v2 stack layout with an intent-driven H1."
     }
   ],
   "components": [
     "bpc-157",
     "tb-500"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "The Wolverine stack in two minutes",
+      "html": "<p><strong>What it is.</strong> BPC-157, a fragment of a gastric-juice protein, combined with TB-500, a fragment of thymosin beta-4. Named in fitness communities after the comic-book character who heals instantly. It is a community construct; no clinic, trial or regulator defined it.</p><p><strong>What has been tested.</strong> One study, in rats, in 2026: BPC-157 and TB-500 alone and together on Achilles tendon healing, with higher load-to-failure in treated groups than controls. That is the whole of the combination evidence. Nothing in people.</p><p><strong>What circulates.</strong> 250 to 500 micrograms of BPC-157 once or twice daily near the injury, plus 2 to 2.5 milligrams of TB-500 twice weekly, for four to six weeks. These figures come from forums and clinic pages, not studies.</p><p><strong>Status.</strong> Neither compound is approved anywhere. BPC-157 is prohibited in sport under WADA S0 and TB-500 under S2, both at all times.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Wolverine stack dosage: what circulates versus what any study used",
+      "lede": "Kept in separate rows so a reader can see that the community figures and the study figures never meet.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Figure</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Basis</th></tr></thead><tbody><tr><td>BPC-157, commonly reported</td><td>250 to 500 µg subcutaneous, near the injury</td><td>Once or twice daily, 4 to 6 weeks</td><td>Untested for these uses</td></tr><tr><td>TB-500, commonly reported</td><td>2 to 2.5 mg subcutaneous</td><td>Twice weekly for 4 to 6 weeks, then weekly</td><td>Untested for these uses</td></tr><tr><td>The pair, in the one study</td><td>Rat Achilles tendon model; doses per kilogram of rat</td><td>Post-injury course</td><td>Higher load to failure than controls; not a human dose</td></tr><tr><td>BPC-157, human data</td><td>10 and 20 mg intravenous, single infusion</td><td>Once, 24 h observation</td><td>Two healthy adults; safety only</td></tr><tr><td>Thymosin β4, human data</td><td>Eye drops and topical gels in trials of the parent molecule</td><td>Weeks</td><td>Different formulation and route from injected TB-500</td></tr></tbody></table></div></div><p>The community schedule pairs a daily compound with a twice-weekly one on the reasoning that BPC-157 acts locally and briefly while TB-500 acts systemically and longer. That reasoning is plausible and has never been measured in a person.</p>"
+    },
+    {
+      "id": "rationale",
+      "heading": "Why people combine them, and what the mechanisms actually are",
+      "html": "<p>BPC-157 is proposed to act on nitric-oxide signalling and growth-factor receptors and to promote new blood vessels; TB-500 is a fragment of thymosin beta-4, an actin-binding protein involved in cell migration, and is proposed to help cells move into a wound. Two different mechanisms with one shared outcome, tissue repair, is the whole argument for stacking them. It is a hypothesis about additive effect, and the single rat study is the only test of it. Notably, that study reported effects for each compound alone as well, so it does not show that the pair beats either one.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who discusses using it, and the cautions that recur",
+      "html": "<ul><li><strong>Athletes.</strong> The largest audience and the group for whom both compounds are prohibited at all times; both are detectable.</li><li><strong>Cancer, active or recent.</strong> Both compounds promote blood-vessel growth or cell migration in animals; both appear on every review's caution list for the same theoretical reason.</li><li><strong>Blood-pressure medication.</strong> BPC-157 shifts blood pressure in rats through nitric oxide; interactions are unstudied.</li><li><strong>Anyone relying on product labels.</strong> Two unregulated injectables double the exposure to identity, purity and impurity problems; a certificate of analysis matched to each batch is the only check.</li></ul>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how the Wolverine stack is discussed",
+      "html": "<ul><li><strong>Treating the name as evidence.</strong> A memorable name is not a studied regimen.</li><li><strong>Adding the animal literatures together.</strong> Hundreds of rat papers on BPC-157 and a trial record for thymosin β4 in eyes and skin do not sum to evidence for injected TB-500 plus BPC-157 in a tendon.</li><li><strong>Quoting the 2026 rat study as proof of synergy.</strong> It found effects in the treated groups; it did not establish that the combination outperformed either compound.</li><li><strong>Calling TB-500 \"thymosin beta-4\".</strong> Marketed TB-500 is usually a short fragment; the human trials used the full protein in eye drops and gels.</li></ul>"
+    }
+  ],
+  "prose_reviewed": true
 }

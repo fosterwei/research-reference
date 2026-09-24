@@ -1,50 +1,10 @@
 ---
 import { records } from '../../lib/collections';
-import Base from '../../layouts/Base.astro';
-import ReviewedBy from '../../components/ReviewedBy.astro';
-import EvidenceLabel from '../../components/EvidenceLabel.astro';
-import ClaimList from '../../components/ClaimList.astro';
-import SourceList from '../../components/SourceList.astro';
-import { isIndexable, title, description, formatCount } from '../../lib/site';
-
+import StackV2 from '../../layouts/StackV2.astro';
 export async function getStaticPaths() {
   const entries = await records('stacks');
-  return entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
+  return entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { slug: entry.data.slug } }));
 }
-const { entry } = Astro.props;
-const d = entry.data;
-const compounds = await records('compounds');
-const components = d.components.map((slug) => compounds.find((c) => c.data.slug === slug)).filter((c): c is NonNullable<typeof c> => Boolean(c));
-const combination = d.attributes['combination_evidence'] ?? [];
-const path = `/stacks/${d.slug}`;
+const { slug } = Astro.props;
 ---
-<Base title={title(entry)} description={description(entry)} path={path} indexable={isIndexable(entry)}>
-  <article>
-    <p class="eyebrow">Stack</p>
-    <h1>{d.title}</h1>
-    <ReviewedBy review={d.review} status={d.status} />
-    <div class="prose"><p>{d.summary}</p></div>
-
-    <h2>Component evidence</h2>
-    <p class="lede">Each component carries its own tier. A stack never inherits a stronger label than its weakest component supports.</p>
-    <div class="tscroll"><table>
-      <thead><tr><th>Component</th><th>Tier</th><th class="num">Publications</th><th class="num">RCTs</th></tr></thead>
-      <tbody>{components.map((c) => { const p = c.data.evidence_summary?.publications ?? {}; return (
-        <tr><td><a href={`/compounds/${c.data.slug}`}>{c.data.preferred_name}</a></td><td><EvidenceLabel tier={c.data.evidence_tier} /></td><td class="num">{formatCount(p.total)}</td><td class="num">{formatCount(p.randomized_controlled_trials)}</td></tr>
-      ); })}</tbody>
-    </table></div>
-
-    <h2>Combination evidence</h2>
-    {combination.length > 0 ? <ClaimList claims={combination} /> : (
-      <div class="notice"><p>No published study tested this combination. The component evidence above is the whole of what is known, and effects of the combination are not established by adding the components together.</p></div>
-    )}
-
-    {Object.entries(d.attributes).filter(([k, v]) => k !== 'combination_evidence' && v.length > 0).map(([k, v]) => (
-      <section><h2>{k.replace(/_/g, ' ').replace(/^./, (s) => s.toUpperCase())}</h2><ClaimList claims={v} /></section>
-    ))}
-
-    {d.open_questions.length > 0 && <section><h2>Open questions</h2><ul>{d.open_questions.map((q) => <li>{q}</li>)}</ul></section>}
-    {d.sources.length > 0 && <section><h2>Sources</h2><SourceList sources={d.sources} /></section>}
-    {d.changelog.length > 0 && <section><h2>Last reviewed and what changed</h2><ul>{[...d.changelog].reverse().map((c) => <li><code>{c.date}</code> {c.change}</li>)}</ul></section>}
-  </article>
-</Base>
+<StackV2 slug={slug} />

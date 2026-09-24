@@ -1,0 +1,123 @@
+---
+// v2 stack page. Composition follows research/intents/<slug>.json when a map
+// exists (docs/design.md §10): H1, block order, headings, boundary sentences.
+// The spine is fixed: title block, facts, status, summary at the top; sources,
+// related and changelog at the bottom. Written sections come from the record's
+// guide[]; cited claims stay as the receipts beneath them.
+import '../styles/compound-v2.css';
+import { records } from '../lib/collections';
+import Base from './Base.astro';
+import Tier from '../components/v2/Tier.astro';
+import Toc from '../components/v2/Toc.astro';
+import StatusBar from '../components/v2/StatusBar.astro';
+import ClaimCards from '../components/v2/ClaimCards.astro';
+import Faq from '../components/v2/Faq.astro';
+import Sources from '../components/v2/Sources.astro';
+import EditorialSection from '../components/v2/EditorialSection.astro';
+import { rich, paragraphs, timeTag } from '../lib/format';
+import { isIndexable, title, description, lastmod, formatCount, TIER_LABEL } from '../lib/site';
+import { compound as regCompound } from '../lib/registry';
+import { loadIntent, headingFor, boundaryFor, orderBlocks, queriesFor } from '../lib/intents';
+
+interface Props { slug: string }
+const { slug } = Astro.props;
+const all = await records('stacks');
+const entry = all.find((e) => e.data.slug === slug);
+if (!entry) throw new Error(`no stack record for ${slug}`);
+const d = entry.data as any;
+const intent = loadIntent(d.slug);
+const compounds = await records('compounds');
+const components = (d.components as string[]).map((s) => compounds.find((c) => c.data.slug === s)).filter((c): c is NonNullable<typeof c> => Boolean(c));
+const combination = (d.attributes?.combination_evidence ?? []) as any[];
+const tierRank = ['approved-label', 'human-clinical-trial', 'observational-human', 'animal-preclinical', 'mechanistic-in-vitro', 'community-reported'];
+const weakest = components.map((c) => c.data.evidence_tier).sort((a, b) => tierRank.indexOf(b) - tierRank.indexOf(a))[0];
+const path = `/stacks/${d.slug}`;
+const updated = lastmod(entry);
+const seen = new Set<string>();
+const summaryParas = paragraphs(d.summary, 3).map((p: string) => rich(p, { bold: 2, seen }));
+const baseTitle = title(entry);
+const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline: baseTitle, description: description(entry), dateModified: updated, datePublished: d.changelog?.[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(), publisher: { '@type': 'Organization', name: 'Peptide Research Reference', url: Astro.site?.toString() } };
+
+type Guide = { id: string; heading: string; lede?: string; html: string; pending?: boolean };
+const guide: Guide[] = (d.guide ?? []) as Guide[];
+type Block = { id: string; kind: 'components' | 'combination' | 'guide' | 'open' | 'faq'; label: string; group: string; guide?: Guide };
+const blocks: Block[] = [
+  { id: 'components', kind: 'components', label: headingFor(intent, 'components', 'Each component on its own evidence'), group: 'Evidence' },
+  { id: 'combination', kind: 'combination', label: headingFor(intent, 'combination', 'What has been tested as a combination'), group: 'Evidence' },
+  ...guide.map((g) => ({ id: g.id, kind: 'guide' as const, label: g.heading, group: 'Evidence', guide: g })),
+];
+if (d.open_questions?.length) blocks.push({ id: 'open', kind: 'open', label: 'Open questions', group: 'Context' });
+const intentFaq = queriesFor(intent, 'faq').filter((q) => q.answer).map((q) => ({ question: q.heading ?? q.query, answer: rich(q.answer!, { bold: 2, seen }) }));
+const faqItems = [...intentFaq, ...(d.faq ?? []).map((f: any) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))];
+if (faqItems.length) blocks.push({ id: 'faq', kind: 'faq', label: 'Questions people ask', group: 'Context' });
+const body = orderBlocks(intent, blocks);
+const toc = [
+  { id: 'glance', label: 'At a glance', group: '' },
+  { id: 'what', label: headingFor(intent, 'what', 'What this stack is'), group: '' },
+  ...body.map((b) => ({ id: b.id, label: b.label, group: b.group })),
+  ...(d.sources?.length ? [{ id: 'sources', label: `Sources (${d.sources.length})`, group: 'Reference' }] : []),
+  { id: 'related', label: 'Related records', group: 'Reference' },
+  ...(d.changelog?.length ? [{ id: 'changelog', label: 'What changed', group: 'Reference' }] : []),
+];
+---
+<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={jsonld} siteSuffix={`${baseTitle} | Peptide Research Reference`.length <= 60}>
+  <Fragment slot="head">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600&display=swap" />
+  </Fragment>
+  <article class="v2">
+    <div class="title">
+      <div class="crumbs"><a class="eyebrow" href="/stacks">Stacks</a><span class="dot">·</span><span class="eyebrow">{components.map((c) => c.data.preferred_name).join(' + ')}</span></div>
+      <h1>{intent?.h1 ?? d.title}</h1>
+      <p class="dek">{intent?.dek ?? `What each component's own studies show, whether any study tested them together, and where the doses that circulate actually come from.`}</p>
+      <div class="pills">
+        <span class="pill"><Tier tier={weakest} /> at most</span>
+        <span class="pill">{combination.length} combination {combination.length === 1 ? 'study' : 'studies'} indexed</span>
+        <span class="pill">{d.sources?.length ?? 0} sources</span>
+        {updated && <span class="pill">Updated <Fragment set:html={timeTag(updated)} /></span>}
+      </div>
+    </div>
+    <div class="layout">
+      <aside><Toc items={toc} /></aside>
+      <div class="content">
+        <section id="glance"><h2>At a glance</h2>
+          <div class="facts">
+            <div class="fact"><div class="k">Components</div><div class="v sm">{components.map((c) => c.data.preferred_name).join(' + ')}</div><div class="s">{components.length} compounds</div></div>
+            <div class="fact"><div class="k">Strongest possible tier</div><div class="v"><Tier tier={weakest} class="lg" /></div><div class="s">a stack cannot exceed its weakest component</div></div>
+            <div class="fact"><div class="k">Studies of the combination</div><div class="v">{combination.length}</div><div class="s">indexed papers mentioning both; see below for what they tested</div></div>
+          </div>
+        </section>
+        <StatusBar review={d.review ?? {}} status={d.status} sources={d.sources?.length ?? 0} updated={updated} />
+        <section id="what"><h2>{headingFor(intent, 'what', 'What this stack is')}</h2>{summaryParas.map((h: string) => <p class="prose-lg" set:html={h} />)}</section>
+        {body.map((b) => {
+          switch (b.kind) {
+            case 'components': return (
+              <section id="components"><div><h2>{b.label}</h2><p class="lede">{boundaryFor(intent, 'components') ?? 'Each component carries its own tier. Adding compounds together does not add their evidence together.'}</p></div>
+                <div class="card clip"><div class="tblwrap"><table class="tbl">
+                  <caption>Each component's own record. Nothing is inferred across rows.</caption>
+                  <thead><tr><th scope="col">Compound</th><th scope="col">Tier</th><th scope="col" class="num">Publications</th><th scope="col" class="num">RCTs</th><th scope="col">Human studies in ledger</th></tr></thead>
+                  <tbody>{components.map((c) => { const p = c.data.evidence_summary?.publications ?? {}; const hum = (c.data.attributes as any).evidence_table?.filter((r: any) => r.fields?.species === 'Humans').length ?? 0; return (
+                    <tr><th scope="row" class="study"><a href={`/compounds/${c.data.slug}`}>{c.data.preferred_name}</a></th><td><Tier tier={c.data.evidence_tier} /></td><td class="num">{formatCount(p.total)}</td><td class="num">{formatCount(p.randomized_controlled_trials)}</td><td>{hum}</td></tr>); })}</tbody>
+                </table></div></div>
+              </section>);
+            case 'combination': return (
+              <section id="combination"><div><h2>{b.label}</h2><p class="lede">{boundaryFor(intent, 'combination') ?? 'Indexed papers that mention every component, quoted. A count of zero is the finding, not a gap in this page.'}</p></div>
+                {combination.length > 0 ? <ClaimCards claims={combination} sources={d.sources} /> : <div class="status"><div><strong>No published study tested this combination.</strong> The component evidence above is the whole of what is known; effects of a combination are not established by adding the components together.</div></div>}
+              </section>);
+            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={b.guide!.html} pending={b.guide!.pending} />;
+            case 'open': return <section id="open"><h2>{b.label}</h2><ul class="list">{d.open_questions.map((q: string) => <li>{q}</li>)}</ul></section>;
+            case 'faq': return <section id="faq"><h2>{b.label}</h2><Faq items={faqItems} html /></section>;
+          }
+        })}
+        {d.sources?.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Full citations. Every quoted claim above links to one of these.</p></div><Sources sources={d.sources} /></section>}
+        <section id="related"><h2>Related records</h2><ul class="cards">
+          {components.map((c) => <li><a href={`/compounds/${c.data.slug}`}>{c.data.preferred_name}</a><div class="sub">Component record · {TIER_LABEL[c.data.evidence_tier]}</div></li>)}
+          <li><a href="/stacks">All stacks</a><div class="sub">Directory</div></li>
+          <li><a href="/tools/reconstitution-calculator">Reconstitution calculator</a><div class="sub">Tool</div></li>
+        </ul></section>
+        {d.changelog?.length > 0 && <section id="changelog"><div><h2>Last reviewed and what changed</h2></div><ol class="changelog" reversed>{[...d.changelog].reverse().map((c: any) => <li><Fragment set:html={timeTag(c.date, c.date)} /> · {c.change}</li>)}</ol></section>}
+      </div>
+    </div>
+  </article>
+</Base>

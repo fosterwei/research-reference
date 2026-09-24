@@ -8,40 +8,40 @@ Identity and taxonomy live here. Evidence claims never do; a half-life or a dose
 
 | Wave | Compound | Class | Target | Type | aa | Pubs | RCTs | Trials | Tier | ChEMBL | Phase | Record |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | `bremelanotide-pt-141` | melanocortin-agonists | MC4 receptor agonist | peptide | 7 | 127 | 14 | 9 | `approved-label` | CHEMBL4297533 | 4 | researched |
-| 1 | `cagrilintide` | incretin-and-amylin-analogs | long-acting amylin analog | peptide | ? | 105 | 15 | 13 | `human-clinical-trial` | CHEMBL4802169 | 3 | researched |
-| 1 | `dsip` | neuropeptides-nootropic | delta sleep-inducing peptide; receptor unidentified | peptide | 9 | 559 | 7 | 18 | `human-clinical-trial` | CHEMBL2104403 | 2 | researched |
-| 1 | `ghrp-6` | ghrelin-mimetics | ghrelin receptor (GHS-R1a) agonist | peptide | 6 | 738 | 22 | 41 | `human-clinical-trial` | — | — | researched |
-| 1 | `kisspeptin` | growth-factors-and-reproductive | KISS1 receptor agonist; GnRH release | peptide | ? | 3,850 | 44 | 34 | `human-clinical-trial` | CHEMBL376756 | 3 | researched |
-| 1 | `ll-37` | immunomodulators-and-host-defense | cathelicidin antimicrobial peptide; membrane-active, immunomodulatory | peptide | 37 | 2,826 | 38 | 23 | `human-clinical-trial` | — | — | researched |
-| 1 | `mots-c` | mitochondrial-peptides | mitochondria-derived; AMPK and folate-cycle effects reported | peptide | 16 | 277 | 4 | 1 | `human-clinical-trial` | — | — | researched |
-| 1 | `retatrutide` | incretin-and-amylin-analogs | GIP, GLP-1 and glucagon receptor triple agonist | peptide | 39 | 197 | 7 | 9 | `human-clinical-trial` | CHEMBL5095485 | 3 | researched |
-| 1 | `semaglutide` | incretin-and-amylin-analogs | GLP-1 receptor agonist | peptide | 31 | 6,039 | 305 | 198 | `approved-label` | CHEMBL2108724 | 4 | researched |
-| 1 | `sermorelin` | ghrh-analogs | GHRH receptor agonist, GHRH(1-29) | peptide | 29 | 579 | 39 | 71 | `approved-label` | CHEMBL1201490 | 4 | researched |
-| 1 | `ss-31` | mitochondrial-peptides | cardiolipin-binding, inner-membrane targeted | peptide | 4 | 493 | 16 | 14 | `human-clinical-trial` | CHEMBL3833370 | 3 | researched |
-| 1 | `survodutide` | incretin-and-amylin-analogs | glucagon and GLP-1 receptor dual agonist | peptide | ? | 91 | 10 | 15 | `human-clinical-trial` | CHEMBL5314776 | 3 | researched |
-| 1 | `tb-500` | repair-and-anti-inflammatory | thymosin beta-4 fragment; actin sequestration, angiogenesis | peptide | ? | 1,257 | 7 | 6 | `human-clinical-trial` | — | — | researched |
-| 1 | `tesamorelin` | ghrh-analogs | GHRH receptor agonist, stabilised GHRH analog | peptide | 44 | 115 | 22 | 7 | `approved-label` | CHEMBL1237026 | 4 | researched |
-| 1 | `thymosin-alpha-1` | immunomodulators-and-host-defense | thymic peptide; TLR-mediated immunomodulation | peptide | 28 | 1,079 | 65 | 61 | `human-clinical-trial` | CHEMBL2103979 | 3 | researched |
-| 1 | `tirzepatide` | incretin-and-amylin-analogs | GIP and GLP-1 receptor dual agonist | peptide | 39 | 2,756 | 131 | 109 | `approved-label` | CHEMBL4297839 | 4 | researched |
-| 2 | `ara-290` | senolytic-and-cytoprotective | innate repair receptor (EPOR/beta-common) agonist | peptide | 11 | 39 | 3 | 1 | `human-clinical-trial` | CHEMBL3545305 | 2 | researched |
-| 2 | `cjc-1295` | ghrh-analogs | GHRH receptor agonist, modified GRF(1-29), with or without DAC | peptide | 29 | 37 | 1 | 1 | `human-clinical-trial` | — | — | researched |
-| 2 | `epitalon` | bioregulator-short-peptides | telomerase activation claimed; mechanism unconfirmed | peptide | 4 | 170 | 5 | 5 | `human-clinical-trial` | — | — | researched |
-| 2 | `ghk-cu` | repair-and-anti-inflammatory | copper-binding tripeptide; wound-healing and gene-expression effects reported | peptide | 3 | 169 | 1 | 0 | `human-clinical-trial` | — | — | researched |
-| 2 | `humanin` | mitochondrial-peptides | mitochondria-derived cytoprotective peptide | peptide | 24 | 589 | 5 | 3 | `human-clinical-trial` | — | — | researched |
-| 2 | `ipamorelin` | ghrelin-mimetics | ghrelin receptor (GHS-R1a) agonist | peptide | 5 | 63 | 2 | 2 | `human-clinical-trial` | CHEMBL58547 | 2 | researched |
-| 2 | `melanotan-ii` | melanocortin-agonists | non-selective melanocortin receptor agonist | peptide | 7 | 646 | 1 | 6 | `human-clinical-trial` | — | — | researched |
-| 2 | `selank` | neuropeptides-nootropic | tuftsin analog; GABAergic and cytokine effects reported | peptide | 7 | 96 | 2 | 2 | `human-clinical-trial` | — | — | researched |
-| 2 | `semax` | neuropeptides-nootropic | ACTH(4-7) analog; BDNF and monoaminergic effects reported | peptide | 7 | 208 | 1 | 3 | `human-clinical-trial` | — | — | researched |
-| 2 | `tesofensine` | metabolic-other | triple monoamine reuptake inhibitor | small molecule | ? | 63 | 12 | 7 | `human-clinical-trial` | CHEMBL3989690 | 2 | researched |
-| 3 | `aod-9604` | metabolic-other | hGH(176-191) fragment; lipolytic activity claimed, GH-receptor independent | peptide | 16 | 25 | 0 | 0 | `animal-preclinical` | CHEMBL6068615 | 2 | researched |
-| 3 | `bpc-157` | repair-and-anti-inflammatory | unclear; NO-system and growth-factor pathways proposed | peptide | 15 | 228 | 0 | 0 | `observational-human` | CHEMBL4297358 | 1 | researched |
-| 3 | `cartalax` | bioregulator-short-peptides | cartilage bioregulator claimed; no indexed primary literature | peptide | 3 | 0 | 0 | 0 | `community-reported` | — | — | researched |
-| 3 | `foxo4-dri` | senolytic-and-cytoprotective | FOXO4-p53 interaction disruptor, senolytic | peptide | ? | 19 | 0 | 0 | `observational-human` | — | — | researched |
-| 3 | `igf-1-lr3` | growth-factors-and-reproductive | IGF-1 receptor agonist, extended analog with reduced IGFBP binding | peptide | 83 | 27 | 0 | 0 | `animal-preclinical` | — | — | researched |
-| 3 | `kpv` | repair-and-anti-inflammatory | alpha-MSH C-terminal tripeptide; anti-inflammatory, receptor unclear | peptide | 3 | 138 | 0 | 0 | `animal-preclinical` | — | — | researched |
-| 3 | `pinealon` | bioregulator-short-peptides | neuroprotective bioregulator claimed; small literature | peptide | 3 | 17 | 0 | 1 | `human-clinical-trial` | — | — | researched |
-| 3 | `slu-pp-332` | metabolic-other | ERR pan-agonist, exercise mimetic | small molecule | ? | 12 | 0 | 0 | `observational-human` | — | — | researched |
+| 1 | `bremelanotide-pt-141` | melanocortin-agonists | MC4 receptor agonist | peptide | 7 | 127 | 14 | 9 | `approved-label` | CHEMBL4297533 | 4 | draft |
+| 1 | `cagrilintide` | incretin-and-amylin-analogs | long-acting amylin analog | peptide | ? | 105 | 15 | 13 | `human-clinical-trial` | CHEMBL4802169 | 3 | draft |
+| 1 | `dsip` | neuropeptides-nootropic | delta sleep-inducing peptide; receptor unidentified | peptide | 9 | 559 | 7 | 18 | `human-clinical-trial` | CHEMBL2104403 | 2 | draft |
+| 1 | `ghrp-6` | ghrelin-mimetics | ghrelin receptor (GHS-R1a) agonist | peptide | 6 | 738 | 22 | 41 | `human-clinical-trial` | — | — | draft |
+| 1 | `kisspeptin` | growth-factors-and-reproductive | KISS1 receptor agonist; GnRH release | peptide | ? | 3,850 | 44 | 34 | `human-clinical-trial` | CHEMBL376756 | 3 | draft |
+| 1 | `ll-37` | immunomodulators-and-host-defense | cathelicidin antimicrobial peptide; membrane-active, immunomodulatory | peptide | 37 | 2,826 | 38 | 23 | `human-clinical-trial` | — | — | draft |
+| 1 | `mots-c` | mitochondrial-peptides | mitochondria-derived; AMPK and folate-cycle effects reported | peptide | 16 | 277 | 4 | 1 | `human-clinical-trial` | — | — | draft |
+| 1 | `retatrutide` | incretin-and-amylin-analogs | GIP, GLP-1 and glucagon receptor triple agonist | peptide | 39 | 197 | 7 | 9 | `human-clinical-trial` | CHEMBL5095485 | 3 | draft |
+| 1 | `semaglutide` | incretin-and-amylin-analogs | GLP-1 receptor agonist | peptide | 31 | 6,039 | 305 | 198 | `approved-label` | CHEMBL2108724 | 4 | draft |
+| 1 | `sermorelin` | ghrh-analogs | GHRH receptor agonist, GHRH(1-29) | peptide | 29 | 579 | 39 | 71 | `approved-label` | CHEMBL1201490 | 4 | draft |
+| 1 | `ss-31` | mitochondrial-peptides | cardiolipin-binding, inner-membrane targeted | peptide | 4 | 493 | 16 | 14 | `human-clinical-trial` | CHEMBL3833370 | 3 | draft |
+| 1 | `survodutide` | incretin-and-amylin-analogs | glucagon and GLP-1 receptor dual agonist | peptide | ? | 91 | 10 | 15 | `human-clinical-trial` | CHEMBL5314776 | 3 | draft |
+| 1 | `tb-500` | repair-and-anti-inflammatory | thymosin beta-4 fragment; actin sequestration, angiogenesis | peptide | ? | 1,257 | 7 | 6 | `human-clinical-trial` | — | — | draft |
+| 1 | `tesamorelin` | ghrh-analogs | GHRH receptor agonist, stabilised GHRH analog | peptide | 44 | 115 | 22 | 7 | `approved-label` | CHEMBL1237026 | 4 | draft |
+| 1 | `thymosin-alpha-1` | immunomodulators-and-host-defense | thymic peptide; TLR-mediated immunomodulation | peptide | 28 | 1,079 | 65 | 61 | `human-clinical-trial` | CHEMBL2103979 | 3 | draft |
+| 1 | `tirzepatide` | incretin-and-amylin-analogs | GIP and GLP-1 receptor dual agonist | peptide | 39 | 2,756 | 131 | 109 | `approved-label` | CHEMBL4297839 | 4 | draft |
+| 2 | `ara-290` | senolytic-and-cytoprotective | innate repair receptor (EPOR/beta-common) agonist | peptide | 11 | 39 | 3 | 1 | `human-clinical-trial` | CHEMBL3545305 | 2 | draft |
+| 2 | `cjc-1295` | ghrh-analogs | GHRH receptor agonist, modified GRF(1-29), with or without DAC | peptide | 29 | 37 | 1 | 1 | `human-clinical-trial` | — | — | draft |
+| 2 | `epitalon` | bioregulator-short-peptides | telomerase activation claimed; mechanism unconfirmed | peptide | 4 | 170 | 5 | 5 | `human-clinical-trial` | — | — | draft |
+| 2 | `ghk-cu` | repair-and-anti-inflammatory | copper-binding tripeptide; wound-healing and gene-expression effects reported | peptide | 3 | 169 | 1 | 0 | `human-clinical-trial` | — | — | draft |
+| 2 | `humanin` | mitochondrial-peptides | mitochondria-derived cytoprotective peptide | peptide | 24 | 589 | 5 | 3 | `human-clinical-trial` | — | — | draft |
+| 2 | `ipamorelin` | ghrelin-mimetics | ghrelin receptor (GHS-R1a) agonist | peptide | 5 | 63 | 2 | 2 | `human-clinical-trial` | CHEMBL58547 | 2 | draft |
+| 2 | `melanotan-ii` | melanocortin-agonists | non-selective melanocortin receptor agonist | peptide | 7 | 646 | 1 | 6 | `human-clinical-trial` | — | — | draft |
+| 2 | `selank` | neuropeptides-nootropic | tuftsin analog; GABAergic and cytokine effects reported | peptide | 7 | 96 | 2 | 2 | `human-clinical-trial` | — | — | draft |
+| 2 | `semax` | neuropeptides-nootropic | ACTH(4-7) analog; BDNF and monoaminergic effects reported | peptide | 7 | 208 | 1 | 3 | `human-clinical-trial` | — | — | draft |
+| 2 | `tesofensine` | metabolic-other | triple monoamine reuptake inhibitor | small molecule | ? | 63 | 12 | 7 | `human-clinical-trial` | CHEMBL3989690 | 2 | draft |
+| 3 | `aod-9604` | metabolic-other | hGH(176-191) fragment; lipolytic activity claimed, GH-receptor independent | peptide | 16 | 25 | 0 | 0 | `animal-preclinical` | CHEMBL6068615 | 2 | draft |
+| 3 | `bpc-157` | repair-and-anti-inflammatory | unclear; NO-system and growth-factor pathways proposed | peptide | 15 | 228 | 0 | 0 | `observational-human` | CHEMBL4297358 | 1 | draft |
+| 3 | `cartalax` | bioregulator-short-peptides | cartilage bioregulator claimed; no indexed primary literature | peptide | 3 | 0 | 0 | 0 | `community-reported` | — | — | draft |
+| 3 | `foxo4-dri` | senolytic-and-cytoprotective | FOXO4-p53 interaction disruptor, senolytic | peptide | ? | 19 | 0 | 0 | `observational-human` | — | — | draft |
+| 3 | `igf-1-lr3` | growth-factors-and-reproductive | IGF-1 receptor agonist, extended analog with reduced IGFBP binding | peptide | 83 | 27 | 0 | 0 | `animal-preclinical` | — | — | draft |
+| 3 | `kpv` | repair-and-anti-inflammatory | alpha-MSH C-terminal tripeptide; anti-inflammatory, receptor unclear | peptide | 3 | 138 | 0 | 0 | `animal-preclinical` | — | — | draft |
+| 3 | `pinealon` | bioregulator-short-peptides | neuroprotective bioregulator claimed; small literature | peptide | 3 | 17 | 0 | 1 | `human-clinical-trial` | — | — | draft |
+| 3 | `slu-pp-332` | metabolic-other | ERR pan-agonist, exercise mimetic | small molecule | ? | 12 | 0 | 0 | `observational-human` | — | — | draft |
 
 ## Classes
 
@@ -83,6 +83,8 @@ Identity and taxonomy live here. Evidence claims never do; a half-life or a dose
 | 2 | `bpc-157-vs-tb-500` | `bpc-157` vs `tb-500` | Constant demand; the honest answer, animal evidence only for both, is instructive. |
 | 2 | `cagrilintide-vs-semaglutide` | `cagrilintide` vs `semaglutide` | Monotherapy arms exist in the same trials. |
 | 2 | `ipamorelin-vs-ghrp-6` | `ipamorelin` vs `ghrp-6` | Same receptor, different selectivity; GHRP-6 has far more literature. |
+| 2 | `ipamorelin-vs-sermorelin` | `ipamorelin` vs `sermorelin` | Demand: 4,400 Ads / 2,085 clickstream searches a month across both word orders; cross-class comparison (ghrelin mimetic vs GHRH analogue). |
+| 2 | `ipamorelin-vs-tesamorelin` | `ipamorelin` vs `tesamorelin` | Demand: 2,400 Ads / 1,525 clickstream searches a month across both word orders; cross-class comparison; tesamorelin is an approved medicine. |
 | 2 | `selank-vs-semax` | `selank` vs `semax` | Frequently confused; different mechanisms. |
 | 3 | `semaglutide-vs-retatrutide` | `semaglutide` vs `retatrutide` | Demand-driven; no head-to-head yet. |
 
@@ -99,8 +101,8 @@ Identity and taxonomy live here. Evidence claims never do; a half-life or a dose
 | Wave | Compounds | Stacks | Comparisons | Tools | Cumulative programmatic pages |
 |---|---|---|---|---|---|
 | 1 | 16 | 3 | 3 | 2 | 24 |
-| 2 | 10 | 4 | 4 | 1 | 43 |
-| 3 | 8 | 1 | 1 | 0 | 53 |
+| 2 | 10 | 4 | 6 | 1 | 45 |
+| 3 | 8 | 1 | 1 | 0 | 55 |
 
 Wave 1 stays under the 50-page indexation-review cap in `docs/PRD.md`; the full plan stays under the 100-page content-audit gate in `docs/page-template-spec.md`. Cycle pages are deliberately absent.
 

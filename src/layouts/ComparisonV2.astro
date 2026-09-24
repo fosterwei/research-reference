@@ -1,0 +1,132 @@
+---
+// v2 comparison page: the side-by-side table first, then head-to-head evidence
+// (or the plain statement that none exists), then written sections from
+// guide[] in intent-map order. Spine fixed as on the compound page.
+import '../styles/compound-v2.css';
+import { records } from '../lib/collections';
+import Base from './Base.astro';
+import Tier from '../components/v2/Tier.astro';
+import Toc from '../components/v2/Toc.astro';
+import StatusBar from '../components/v2/StatusBar.astro';
+import ClaimCards from '../components/v2/ClaimCards.astro';
+import Faq from '../components/v2/Faq.astro';
+import Sources from '../components/v2/Sources.astro';
+import EditorialSection from '../components/v2/EditorialSection.astro';
+import { rich, paragraphs, timeTag } from '../lib/format';
+import { isIndexable, title, description, lastmod, formatCount, TIER_LABEL } from '../lib/site';
+import { compound as regCompound, className, comparisons as planned } from '../lib/registry';
+import { loadIntent, headingFor, boundaryFor, orderBlocks, queriesFor } from '../lib/intents';
+
+interface Props { slug: string }
+const { slug } = Astro.props;
+const all = await records('comparisons');
+const entry = all.find((e) => e.data.slug === slug);
+if (!entry) throw new Error(`no comparison record for ${slug}`);
+const d = entry.data as any;
+const intent = loadIntent(d.slug);
+const sides: string[] = d.sides ?? planned.find((p) => p.slug === d.slug)?.sides ?? [];
+const compounds = await records('compounds');
+const pair = sides.map((s) => compounds.find((c) => c.data.slug === s)).filter((c): c is NonNullable<typeof c> => Boolean(c));
+const [a, b] = pair;
+const h2h = (d.attributes?.head_to_head ?? []) as any[];
+const path = `/compare/${d.slug}`;
+const updated = lastmod(entry);
+const seen = new Set<string>();
+const summaryParas = paragraphs(d.summary, 3).map((p: string) => rich(p, { bold: 2, seen }));
+const baseTitle = title(entry);
+const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline: baseTitle, description: description(entry), dateModified: updated, datePublished: d.changelog?.[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(), publisher: { '@type': 'Organization', name: 'Peptide Research Reference', url: Astro.site?.toString() } };
+const regA = a && regCompound(a.data.slug), regB = b && regCompound(b.data.slug);
+const sameClass = regA && regB && regA.class === regB.class;
+const humanCount = (c: any) => ((c.data.attributes as any).evidence_table ?? []).filter((r: any) => r.fields?.species === 'Humans').length;
+const approval = (c: any) => { const ch = c.data.evidence_summary?.chembl; if (!ch) return 'no registered programme'; const ph = Number(ch.max_phase); return ph >= 4 ? `approved${ch.first_approval ? ` (${ch.first_approval})` : ''}` : `not approved · max phase ${isNaN(ph) ? '—' : ph}`; };
+const rows: Array<[string, string, string]> = a && b ? [
+  ['Class', regA ? className(regA.class) : '—', regB ? className(regB.class) : '—'],
+  ['Target', regA?.target ?? '—', regB?.target ?? '—'],
+  ['Evidence tier', TIER_LABEL[a.data.evidence_tier], TIER_LABEL[b.data.evidence_tier]],
+  ['Indexed publications', formatCount(a.data.evidence_summary?.publications?.total), formatCount(b.data.evidence_summary?.publications?.total)],
+  ['Randomized controlled trials', formatCount(a.data.evidence_summary?.publications?.randomized_controlled_trials), formatCount(b.data.evidence_summary?.publications?.randomized_controlled_trials)],
+  ['Human studies in ledger', String(humanCount(a)), String(humanCount(b))],
+  ['Approval status', approval(a), approval(b)],
+] : [];
+
+type Guide = { id: string; heading: string; lede?: string; html: string; pending?: boolean };
+const guide: Guide[] = (d.guide ?? []) as Guide[];
+type Block = { id: string; kind: 'side-by-side' | 'head-to-head' | 'guide' | 'open' | 'faq'; label: string; group: string; guide?: Guide };
+const blocks: Block[] = [
+  { id: 'side-by-side', kind: 'side-by-side', label: headingFor(intent, 'side-by-side', 'Side by side, from each record'), group: 'Evidence' },
+  { id: 'head-to-head', kind: 'head-to-head', label: headingFor(intent, 'head-to-head', 'Studies that compared them directly'), group: 'Evidence' },
+  ...guide.map((g) => ({ id: g.id, kind: 'guide' as const, label: g.heading, group: 'Evidence', guide: g })),
+];
+if (d.open_questions?.length) blocks.push({ id: 'open', kind: 'open', label: 'Open questions', group: 'Context' });
+const intentFaq = queriesFor(intent, 'faq').filter((q) => q.answer).map((q) => ({ question: q.heading ?? q.query, answer: rich(q.answer!, { bold: 2, seen }) }));
+const faqItems = [...intentFaq, ...(d.faq ?? []).map((f: any) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))];
+if (faqItems.length) blocks.push({ id: 'faq', kind: 'faq', label: 'Questions people ask', group: 'Context' });
+const body = orderBlocks(intent, blocks);
+const toc = [
+  { id: 'glance', label: 'At a glance', group: '' },
+  { id: 'what', label: headingFor(intent, 'what', 'The short answer'), group: '' },
+  ...body.map((x) => ({ id: x.id, label: x.label, group: x.group })),
+  ...(d.sources?.length ? [{ id: 'sources', label: `Sources (${d.sources.length})`, group: 'Reference' }] : []),
+  { id: 'related', label: 'Related records', group: 'Reference' },
+  ...(d.changelog?.length ? [{ id: 'changelog', label: 'What changed', group: 'Reference' }] : []),
+];
+---
+<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={jsonld} siteSuffix={`${baseTitle} | Peptide Research Reference`.length <= 60}>
+  <Fragment slot="head">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600&display=swap" />
+  </Fragment>
+  <article class="v2">
+    <div class="title">
+      <div class="crumbs"><a class="eyebrow" href="/compare">Comparisons</a>{regA && regB && <><span class="dot">·</span><span class="eyebrow">{sameClass ? className(regA.class) : `${className(regA.class)} vs ${className(regB.class)}`}</span></>}</div>
+      <h1>{intent?.h1 ?? d.title}</h1>
+      <p class="dek">{intent?.dek ?? `What each compound's own studies show, lined up side by side, and whether any study has compared them directly.`}</p>
+      <div class="pills">
+        {a && <span class="pill"><Tier tier={a.data.evidence_tier} /> {a.data.preferred_name}</span>}
+        {b && <span class="pill"><Tier tier={b.data.evidence_tier} /> {b.data.preferred_name}</span>}
+        <span class="pill">{h2h.length} head-to-head {h2h.length === 1 ? 'study' : 'studies'}</span>
+        {updated && <span class="pill">Updated <Fragment set:html={timeTag(updated)} /></span>}
+      </div>
+    </div>
+    <div class="layout">
+      <aside><Toc items={toc} /></aside>
+      <div class="content">
+        <section id="glance"><h2>At a glance</h2>
+          <div class="facts">
+            {a && <div class="fact"><div class="k">{a.data.preferred_name}</div><div class="v"><Tier tier={a.data.evidence_tier} class="lg" /></div><div class="s">{formatCount(a.data.evidence_summary?.publications?.total)} publications · {approval(a)}</div></div>}
+            {b && <div class="fact"><div class="k">{b.data.preferred_name}</div><div class="v"><Tier tier={b.data.evidence_tier} class="lg" /></div><div class="s">{formatCount(b.data.evidence_summary?.publications?.total)} publications · {approval(b)}</div></div>}
+            <div class="fact"><div class="k">Compared directly</div><div class="v">{h2h.length}</div><div class="s">{h2h.length ? 'indexed studies with both in the abstract' : 'no study has compared them head to head'}</div></div>
+          </div>
+        </section>
+        <StatusBar review={d.review ?? {}} status={d.status} sources={d.sources?.length ?? 0} updated={updated} />
+        <section id="what"><h2>{headingFor(intent, 'what', 'The short answer')}</h2>{summaryParas.map((h: string) => <p class="prose-lg" set:html={h} />)}</section>
+        {body.map((x) => {
+          switch (x.kind) {
+            case 'side-by-side': return (
+              <section id="side-by-side"><div><h2>{x.label}</h2><p class="lede">{boundaryFor(intent, 'side-by-side') ?? 'Each column states what that compound\'s own record says. Nothing is inferred across columns.'}</p></div>
+                <div class="card clip"><div class="tblwrap"><table class="tbl">
+                  <caption>{a?.data.preferred_name} and {b?.data.preferred_name}, from their own records.</caption>
+                  <thead><tr><th scope="col"></th><th scope="col">{a?.data.preferred_name}</th><th scope="col">{b?.data.preferred_name}</th></tr></thead>
+                  <tbody>{rows.map(([k, va, vb]) => <tr><th scope="row" class="study">{k}</th><td>{va}</td><td>{vb}</td></tr>)}</tbody>
+                </table></div></div>
+              </section>);
+            case 'head-to-head': return (
+              <section id="head-to-head"><div><h2>{x.label}</h2><p class="lede">{boundaryFor(intent, 'head-to-head') ?? 'Indexed papers whose abstracts compare the two, quoted.'}</p></div>
+                {h2h.length > 0 ? <ClaimCards claims={h2h} sources={d.sources} /> : <div class="status"><div><strong>No indexed study has compared {a?.data.preferred_name} and {b?.data.preferred_name} directly.</strong> The side-by-side table above lines up what each compound's own studies state; anything beyond that is inference, and this page does not make it.</div></div>}
+              </section>);
+            case 'guide': return <EditorialSection id={x.guide!.id} heading={x.guide!.heading} lede={x.guide!.lede} html={x.guide!.html} pending={x.guide!.pending} />;
+            case 'open': return <section id="open"><h2>{x.label}</h2><ul class="list">{d.open_questions.map((q: string) => <li>{q}</li>)}</ul></section>;
+            case 'faq': return <section id="faq"><h2>{x.label}</h2><Faq items={faqItems} html /></section>;
+          }
+        })}
+        {d.sources?.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Full citations. Every quoted claim above links to one of these.</p></div><Sources sources={d.sources} /></section>}
+        <section id="related"><h2>Related records</h2><ul class="cards">
+          {pair.map((c) => <li><a href={`/compounds/${c.data.slug}`}>{c.data.preferred_name}</a><div class="sub">Compound record · {TIER_LABEL[c.data.evidence_tier]}</div></li>)}
+          <li><a href="/compare">All comparisons</a><div class="sub">Directory</div></li>
+        </ul></section>
+        {d.changelog?.length > 0 && <section id="changelog"><div><h2>Last reviewed and what changed</h2></div><ol class="changelog" reversed>{[...d.changelog].reverse().map((c: any) => <li><Fragment set:html={timeTag(c.date, c.date)} /> · {c.change}</li>)}</ol></section>}
+      </div>
+    </div>
+  </article>
+</Base>
