@@ -3,10 +3,10 @@
   "title": "Sermorelin vs Tesamorelin",
   "slug": "sermorelin-vs-tesamorelin",
   "status": "draft",
-  "summary": "Sermorelin: tier approved label, 579 indexed publications, 39 randomized trials. Tesamorelin: tier approved label, 115 indexed publications, 22 randomized trials. 5 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "summary": "Sermorelin and tesamorelin are both analogues of growth hormone-releasing hormone acting on the same pituitary receptor, and that is most of what they share. Tesamorelin is an approved medicine, since 2010, for reducing excess visceral abdominal fat in people with HIV-associated lipodystrophy, supported by a 412-person randomised trial, pooled phase 3 data and later trials in liver fat. Sermorelin was approved in 1990 and its product was discontinued in the United States in 2008, so prescriptions today are compounded preparations with no approved label; its trial record is largely children with growth hormone deficiency in the 1980s, plus one modern cognition trial of the GHRH 1-29 fragment. No trial has compared them. The only published studies naming both are methods for detecting them in doping control.",
   "seo": {
-    "title": "Sermorelin vs Tesamorelin: what the studies show",
-    "description": "Sermorelin vs Tesamorelin, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+    "title": "Sermorelin vs Tesamorelin: Approval, Trials, and Doses",
+    "description": "Sermorelin vs tesamorelin: no trial has compared them. One is approved for one condition, the other left the US market in 2008. Trials, doses and side effects."
   },
   "attributes": {
     "head_to_head": [
@@ -54,6 +54,60 @@
         ],
         "source_excerpt": "Growth hormone-releasing hormone and its analogues sermorelin, tesamorelin and CJC-1295 are included in the prohibited list of the World Antidoping Agency.",
         "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=412, 2007: The measure of visceral adipose tissue decreased by 15.2% in the tesamorelin group and increased by 5.0% in the placebo group; the levels of triglycerides decreased by 50 mg per deciliter and increased by 9 mg per deciliter, respectively",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18057338"
+        ],
+        "source_excerpt": "The measure of visceral adipose tissue decreased by 15.2% in the tesamorelin group and increased by 5.0% in the placebo group; the levels of triglycerides decreased by 50 mg per deciliter and increased by 9 mg per deciliter, respectively",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Pooled phase 3 analysis, humans, 2010: Treatment with tesamorelin reduces VAT and maintains the reduction for up to 52 wk, preserves abdominal sc adipose tissue, improves body image and lipids, and is overall well tolerated without clinically meaningful changes in glucose parameters.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-20554713"
+        ],
+        "source_excerpt": "Treatment with tesamorelin reduces VAT and maintains the reduction for up to 52 wk, preserves abdominal sc adipose tissue, improves body image and lipids, and is overall well tolerated without clinically meaningful changes in glucose parameters.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=61, 2019: Patients receiving tesamorelin had a greater reduction of HFF than did patients receiving placebo, with an absolute effect size of -4·1% (95% CI -7·6 to -0·7, p=0·018), corresponding to a -37% (95% CI -67 to -7, p=0·016) relative reduction from baseline.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31611038"
+        ],
+        "source_excerpt": "Patients receiving tesamorelin had a greater reduction of HFF than did patients receiving placebo, with an absolute effect size of -4·1% (95% CI -7·6 to -0·7, p=0·018), corresponding to a -37% (95% CI -67 to -7, p=0·016) relative reduction from baseline.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=38, 2024: Tesamorelin led to significant declines in visceral fat (median [interquartile range]: -25 [-93, -2] vs. 14 [3, 41] cm 2 , P  = 0.001), hepatic fat (-4.2% [-12.3%, -2.7%] vs. -0.5% [-3.9%, 2.7%], P  = 0.01)",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38905488"
+        ],
+        "source_excerpt": "Tesamorelin led to significant declines in visceral fat (median [interquartile range]: -25 [-93, -2] vs. 14 [3, 41] cm 2 , P  = 0.001), hepatic fat (-4.2% [-12.3%, -2.7%] vs. -0.5% [-3.9%, 2.7%], P  = 0.01)",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2012: The intent-to-treat analysis indicated a favorable effect of GHRH on cognition (P=.03), which was comparable in adults with MCI and healthy older adults.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-22869065"
+        ],
+        "source_excerpt": "The intent-to-treat analysis indicated a favorable effect of GHRH on cognition (P=.03), which was comparable in adults with MCI and healthy older adults.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, children, n=18, 1987: 18 prepubertal growth-hormone (GH)-deficient children were treated with twice-daily subcutaneous injections of a growth-hormone-releasing hormone analogue, GHRH (1-29) NH2.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-2879138"
+        ],
+        "source_excerpt": "18 prepubertal growth-hormone (GH)-deficient children were treated with twice-daily subcutaneous injections of a growth-hormone-releasing hormone analogue, GHRH (1-29) NH2.",
+        "drafting": "extractive"
       }
     ]
   },
@@ -66,17 +120,10 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-35298973",
-      "title": "An antibody-free, ultrafiltration-based assay for the detection of growth hormone-releasing hormones in urine at low pg/mL concentrations using nanoLC-HRMS/MS.",
-      "url": "https://europepmc.org/article/MED/35298973",
-      "published": "2022-03-12",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-26879649",
-      "title": "Qualitative identification of growth hormone-releasing hormones in human plasma by means of immunoaffinity purification and LC-HRMS/MS.",
-      "url": "https://europepmc.org/article/MED/26879649",
-      "published": "2016-02-15",
+      "id": "pmid-38905488",
+      "title": "Efficacy and safety of tesamorelin in people with HIV on integrase inhibitors.",
+      "url": "https://europepmc.org/article/MED/38905488",
+      "published": "2024-06-20",
       "kind": "peer-reviewed"
     },
     {
@@ -87,10 +134,59 @@
       "kind": "peer-reviewed"
     },
     {
+      "id": "pmid-35298973",
+      "title": "An antibody-free, ultrafiltration-based assay for the detection of growth hormone-releasing hormones in urine at low pg/mL concentrations using nanoLC-HRMS/MS.",
+      "url": "https://europepmc.org/article/MED/35298973",
+      "published": "2022-03-12",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-32971474",
       "title": "Comparison of magnetic bead surface functionalities for the immunopurification of growth hormone-releasing hormones prior to liquid chromatography-high resolution mass spectrometry.",
       "url": "https://europepmc.org/article/MED/32971474",
       "published": "2020-09-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31611038",
+      "title": "Effects of tesamorelin on non-alcoholic fatty liver disease in HIV: a randomised, double-blind, multicentre trial.",
+      "url": "https://europepmc.org/article/MED/31611038",
+      "published": "2019-10-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26879649",
+      "title": "Qualitative identification of growth hormone-releasing hormones in human plasma by means of immunoaffinity purification and LC-HRMS/MS.",
+      "url": "https://europepmc.org/article/MED/26879649",
+      "published": "2016-02-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22869065",
+      "title": "Effects of growth hormone-releasing hormone on cognitive function in adults with mild cognitive impairment and healthy older adults: results of a controlled trial.",
+      "url": "https://europepmc.org/article/MED/22869065",
+      "published": "2012-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20554713",
+      "title": "Effects of tesamorelin (TH9507), a growth hormone-releasing factor analog, in human immunodeficiency virus-infected patients with excess abdominal fat: a pooled analysis of two multicenter, double-blind placebo-controlled phase 3 trials with safety extension data.",
+      "url": "https://europepmc.org/article/MED/20554713",
+      "published": "2010-06-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18057338",
+      "title": "Metabolic effects of a growth hormone-releasing factor in patients with HIV.",
+      "url": "https://europepmc.org/article/MED/18057338",
+      "published": "2007-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-2879138",
+      "title": "Treatment of growth-hormone deficiency with growth-hormone-releasing hormone.",
+      "url": "https://europepmc.org/article/MED/2879138",
+      "published": "1987-01-01",
       "kind": "peer-reviewed"
     }
   ],
@@ -98,23 +194,138 @@
     "sermorelin",
     "tesamorelin"
   ],
-  "faq": [],
-  "open_questions": [],
+  "faq": [
+    {
+      "question": "Has any trial compared sermorelin and tesamorelin?",
+      "answer": "No. There is no randomised comparison and no cohort comparing them. The published studies naming both are analytical methods for detecting growth hormone-releasing hormone analogues in doping control, which name them because both are prohibited in sport."
+    },
+    {
+      "question": "Is sermorelin FDA approved?",
+      "answer": "It was approved in 1990, under the brand Geref, and the product was discontinued in the United States in 2008. It is therefore not available as an approved medicine, and every sermorelin prescription today is a compounded preparation with no approved label behind it. Many pages answer this question with a flat yes, which stopped being accurate seventeen years ago."
+    },
+    {
+      "question": "What is tesamorelin approved for?",
+      "answer": "Reduction of excess visceral abdominal fat in people with HIV-associated lipodystrophy, approved in 2010 as Egrifta. That is the only approved indication; the trials behind it enrolled adults with HIV on antiretroviral therapy. Every other use is off-label."
+    },
+    {
+      "question": "Which one is better for fat loss?",
+      "answer": "Nothing has compared them, so there is no evidence-based answer. What can be said is that tesamorelin has repeatedly reduced visceral fat in randomised trials, by 15.2% against an increase on placebo in its pivotal study, in people with HIV-associated fat accumulation, and that no trial of either compound has measured fat loss in healthy adults."
+    },
+    {
+      "question": "What doses were used in the trials?",
+      "answer": "Tesamorelin was given at 2 mg once daily in its trials, with 1 mg in a pilot, subcutaneously, for 26 to 52 weeks. The sermorelin-era trials used twice-daily subcutaneous injections of GHRH 1-29 in children, and the abstracts in this ledger do not state the amount. Doses for compounded sermorelin come from compounding practice rather than from a trial or a label."
+    },
+    {
+      "question": "Can you take sermorelin and tesamorelin together?",
+      "answer": "Nothing has been studied, and the pharmacology suggests overlap rather than addition. Both bind the same pituitary receptor to release the same hormone, so the second one competes for what the first is already doing, within a ceiling set by the pituitary and its feedback."
+    },
+    {
+      "question": "What are the side effects?",
+      "answer": "For tesamorelin, measured in trials of hundreds over a year: injection-site reactions most consistently, with no clinically meaningful change in glucose in the pooled phase 3 analysis and hyperglycaemia no more frequent than placebo in a 2024 subgroup. Fluid retention, joint pain and carpal tunnel symptoms are class effects of raising growth hormone. For compounded sermorelin there is no comparable body of evidence in the population using it."
+    },
+    {
+      "question": "Do they raise IGF-1?",
+      "answer": "Yes, both, since that is the point: they release growth hormone, which raises IGF-1. In the cognition trial of GHRH 1-29, IGF-1 rose by 117% while remaining within the physiological range. IGF-1 is the measurement used to tell whether either is doing anything."
+    },
+    {
+      "question": "How do these compare with growth hormone itself?",
+      "answer": "Growth hormone is the hormone; these release it. A releasing analogue needs a working pituitary, produces pulses rather than a steady level, and stays subject to the body's feedback, which is the usual argument for preferring it. No trial has compared either with growth hormone for the uses people ask about."
+    },
+    {
+      "question": "Are they banned in sport?",
+      "answer": "Yes, both. Growth hormone-releasing hormone and its analogues, sermorelin and tesamorelin among them, are on the World Anti-Doping Agency's prohibited list, which is why a run of published papers exists on detecting them in urine and blood."
+    },
+    {
+      "question": "Why does tesamorelin last longer?",
+      "answer": "Chemistry. Sermorelin is the natural GHRH 1-29 fragment and is cleared quickly by the enzyme that degrades it. Tesamorelin carries a fatty acid group that blocks that enzyme, which is what makes once-daily dosing workable."
+    },
+    {
+      "question": "Is either studied for anti-ageing?",
+      "answer": "Not as such. The closest evidence is a randomised trial of GHRH 1-29 in older adults with and without mild cognitive impairment, which found a favourable effect on cognition and executive function over 20 weeks, alongside a 7.4% reduction in body fat. That is one trial of the fragment, not a programme, and not a study of either marketed product for ageing."
+    }
+  ],
+  "open_questions": [
+    "No trial has compared sermorelin and tesamorelin, in any population, for any endpoint.",
+    "No trial of either compound has measured body composition, sleep or recovery in healthy adults, which is what both are sold for.",
+    "Compounded sermorelin preparations have no approved label, no manufacturer trials and no adverse-event record specific to them.",
+    "The 2008 discontinuation of the approved sermorelin product and tesamorelin's label indication are cited editorially; the regulatory documents are not in this ledger.",
+    "No study has tested the two together, and none has tested either against growth hormone for the uses people ask about."
+  ],
   "review": {
     "author": "",
     "reviewer": "",
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 88.5,
+  "uniqueness_pct": 97.0,
   "changelog": [
     {
       "date": "2026-09-14",
       "change": "Comparison record generated from research/registry.json plan; 5 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Stage 0: the five drafted head-to-head claims are anti-doping assay papers rather than comparisons; kept and labelled as what they are, and six papers that bear on the comparison added to the ledger by hand, including the pivotal tesamorelin trial, its pooled phase 3 analysis, the liver-fat trial, the integrase-inhibitor subgroup, the GHRH cognition trial and the 1987 paediatric trial. Written under the sequencing rule after research/intents/sermorelin-vs-tesamorelin.json: nine guide sections including the regulatory table, the trial table, doses, side effects, combining and mechanism. The 2008 market discontinuation and the tesamorelin label indication are editorial with pending_source."
     }
   ],
   "sides": [
     "sermorelin",
     "tesamorelin"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "The comparison in two minutes",
+      "html": "<p><strong>Same target, different situations.</strong> Both are analogues of growth hormone-releasing hormone and both act on the same pituitary receptor. Sermorelin is the natural fragment, GHRH 1-29. Tesamorelin is that fragment with a chemical modification that makes it last longer.</p><p><strong>Tesamorelin is an approved medicine</strong>, since 2010, for one condition: reducing excess visceral abdominal fat in people with HIV-associated lipodystrophy. That approval rests on a <b>412-person</b> randomised trial and pooled phase 3 data.</p><p><strong>Sermorelin's approved product left the United States market in 2008.</strong> It was approved in 1990, is listed as both a diagnostic agent and a treatment, and is no longer marketed. Every sermorelin prescription written today is a compounded preparation with no approved label behind it.</p><p><strong>No trial has compared them.</strong> The only published studies naming both are anti-doping assays, which exist because both are on the World Anti-Doping Agency's prohibited list.</p><p><strong>Combining them adds overlap, not effect.</strong> Two analogues of the same hormone at the same receptor compete for the same thing.</p>"
+    },
+    {
+      "id": "approval-status",
+      "heading": "Approval status: the difference most pages get wrong",
+      "lede": "This is the fact that separates them, and the ranking pages either skip it or answer it in a sentence with no source.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Regulatory position of each compound.</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">Sermorelin</th><th scope=\"col\">Tesamorelin</th></tr></thead><tbody><tr><td>First approval</td><td>1990</td><td>2010</td></tr><tr><td>Brand</td><td>Geref</td><td>Egrifta</td></tr><tr><td>Currently marketed in the US</td><td><b>No.</b> Discontinued in 2008</td><td>Yes</td></tr><tr><td>Approved indication</td><td>Diagnostic assessment of growth hormone secretion, and growth hormone deficiency in children</td><td>Reduction of excess visceral abdominal fat in HIV-associated lipodystrophy</td></tr><tr><td>What a prescription is today</td><td>A compounded preparation</td><td>The approved product</td></tr><tr><td>Anti-doping status</td><td>Prohibited</td><td>Prohibited</td></tr></tbody></table></div></div><p>The discontinuation is the part that changes how everything else should be read. A compounded preparation is made to order by a pharmacy; it has no approved label, no manufacturer-run trials behind that specific preparation, and no regulator has assessed its potency, purity or shelf life. That is not the same as being unapproved, and it is not the same as being approved. The clinic pages that rank for this query describe sermorelin as FDA approved, which was true, and leave 2008 out.</p><p>Tesamorelin's approval is narrow in a different way. It is an approved medicine, but for one population, people with HIV on antiretroviral therapy who have accumulated visceral fat. Every other use discussed online, general fat loss, liver fat outside HIV, anti-ageing, is off-label, and the trials behind the approval did not study those populations.</p>"
+    },
+    {
+      "id": "no-head-to-head",
+      "heading": "No trial has compared them, and the studies naming both are about doping tests",
+      "html": "<p>There is no randomised comparison of sermorelin and tesamorelin. There is no cohort comparing them. The comparison that the clinic pages make is constructed from each compound's separate literature, and those literatures are not comparable, because they were produced decades apart in different populations for different endpoints.</p><p>What does name both, in this record's ledger, is a run of analytical chemistry papers: methods for detecting growth hormone-releasing hormone analogues in urine and blood. They exist because both compounds are prohibited in sport, and they mention sermorelin and tesamorelin the way a metal detector's manual mentions coins.</p><p>Five of this page's studies are that kind of paper. They are kept in the ledger because they are the honest answer to what has been published about the two together, and they are labelled with what they are.</p>"
+    },
+    {
+      "id": "trials-table",
+      "heading": "What each one was actually tested for",
+      "lede": "Set the two literatures side by side and the asymmetry is the finding.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>The trials behind each compound.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Study</th><th scope=\"col\">People</th><th scope=\"col\">What it measured</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td><b>Tesamorelin</b></td><td>Falutz 2007, randomised</td><td>412 adults with HIV and visceral fat</td><td>Visceral adipose tissue at 26 weeks</td><td>-15.2% against +5.0% on placebo; triglycerides fell 50 mg/dL</td></tr><tr><td>Tesamorelin</td><td>Pooled phase 3, 2010</td><td>Two multicentre trials with extension</td><td>Visceral fat to 52 weeks</td><td>Reduction maintained, subcutaneous fat preserved, no clinically meaningful glucose change</td></tr><tr><td>Tesamorelin</td><td>Stanley 2019, randomised</td><td>61 adults with HIV and fatty liver</td><td>Liver fat fraction at 12 months</td><td>37% relative reduction; 35% reached a liver fat below 5% against 4% on placebo</td></tr><tr><td>Tesamorelin</td><td>2024, randomised subgroup</td><td>38 adults on integrase inhibitors</td><td>Visceral and liver fat</td><td>Visceral fat -25 cm² against +14; liver fat -4.2% against -0.5%</td></tr><tr><td><b>Sermorelin</b> (as GHRH 1-29)</td><td>Lancet 1987</td><td>18 growth-hormone-deficient children</td><td>Height velocity</td><td>12 of 18 grew faster; 8 judged worthwhile responders</td></tr><tr><td>GHRH 1-29</td><td>Baker 2012, randomised</td><td>Adults with mild cognitive impairment and healthy older adults</td><td>Cognition over 20 weeks</td><td>Favourable effect on cognition and executive function; IGF-1 rose 117%; body fat fell 7.4%</td></tr></tbody></table></div></div><p>Two things follow. The first is that tesamorelin's evidence is recent, large and aimed at one endpoint that it hits repeatedly. The second is that sermorelin's own evidence is old and aimed at a different question entirely, whether a releasing hormone could replace growth hormone in deficient children, and that the modern cognition trial used the 1-29 fragment rather than the marketed product.</p><p>Nothing in either column supports the uses these compounds are actually sold for. There is no trial of either for general body composition in healthy adults, for sleep, for recovery or for ageing.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Doses: one label, one history",
+      "lede": "One column comes from an approved label. The other comes from studies of the 1980s and from compounding practice that no trial set.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses as published.</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">Sermorelin</th><th scope=\"col\">Tesamorelin</th></tr></thead><tbody><tr><td>Source of the figures</td><td>1980s trials of GHRH 1-29; compounded preparations today</td><td>Approved label and its trials</td></tr><tr><td>Route</td><td>Subcutaneous</td><td>Subcutaneous</td></tr><tr><td>Frequency in the trials</td><td>Twice daily in the paediatric trial</td><td>Once daily</td></tr><tr><td>Dose in the trials</td><td>Not stated in the abstracts in this ledger</td><td>2 mg daily; 1 mg in a pilot study</td></tr><tr><td>Typical course length studied</td><td>6 to 18 months in children</td><td>26 to 52 weeks, and 12 months in the liver trial</td></tr></tbody></table></div></div><p>The figures that circulate for compounded sermorelin are not in this table because no trial set them. That is the same boundary this site applies everywhere: a dose appears when a study or a label gave it.</p><p>The once-daily versus twice-daily difference is the practical consequence of the chemistry. Tesamorelin's modification slows its breakdown, which is why a single daily injection was enough in trials that ran for a year.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Side effects, and the asymmetry in how well they are known",
+      "html": "<p>For tesamorelin the answer comes from trials of hundreds of people over a year. Injection-site reactions are the most consistent finding: in the liver trial, more localised injection-site complaints than placebo, none judged serious. Glucose is the effect that gets watched, because growth hormone raises blood sugar, and the pooled phase 3 analysis reported no clinically meaningful change in glucose parameters, while the 2024 subgroup found hyperglycaemia no more common than placebo. Fluid retention, joint pain and carpal tunnel symptoms are the class effects of raising growth hormone, and a 2025 pharmacovigilance study in the tesamorelin record specifically examined carpal tunnel attributed to medication.</p><p>For sermorelin there is no equivalent body of evidence for how it is used now. The paediatric trials reported on children given a different preparation for a different reason, decades ago. A compounded product has no adverse-event reporting behind that specific preparation. The honest statement is that its side effects are presumed to be the class effects, and that presumption has not been tested at any scale in the population using it.</p><p>Both raise IGF-1, which is the intended effect and the one to monitor. In the cognition trial, IGF-1 rose 117% while staying within the physiological range.</p>"
+    },
+    {
+      "id": "combining",
+      "heading": "Taking both: what it would and would not add",
+      "html": "<p>Nothing has been studied, and the pharmacology argues against it. Both compounds bind the same receptor on the same pituitary cells to produce the same pulse of growth hormone. Giving both does not recruit a second pathway; it puts two agonists in front of one receptor, where the effect is bounded by how much hormone the pituitary can release and by the feedback that shuts the process down.</p><p>That is different from combining a releasing hormone with a ghrelin-receptor agonist such as ipamorelin, which acts on a separate receptor and is the combination the market actually promotes. Even there, the evidence is about each component rather than the pair.</p><p>Related comparisons on this site: <a href=\"/compare/ipamorelin-vs-tesamorelin\">ipamorelin vs tesamorelin</a> and <a href=\"/compare/ipamorelin-vs-sermorelin\">ipamorelin vs sermorelin</a>.</p>"
+    },
+    {
+      "id": "mechanism-guide",
+      "heading": "Same receptor, two molecules, thirty years apart",
+      "html": "<p>Growth hormone-releasing hormone is made in the hypothalamus and tells the pituitary to release growth hormone in pulses. Its biological activity lives in the first 29 amino acids, which is what <b>sermorelin</b> is: GHRH 1-29, the natural sequence, and therefore quickly broken down by the enzyme that clears it.</p><p><b>Tesamorelin</b> is the same 44-amino-acid hormone with a fatty acid group attached at one end, which blocks that enzyme. The result lasts longer in the blood, which is why it works as a once-daily injection while the natural fragment does not.</p><p>Both raise growth hormone and, downstream, IGF-1, and both depend on a pituitary that still works, which is the argument usually made for releasing analogues over growth hormone itself: the pulse is shaped by the body's own feedback rather than imposed on it.</p><p>Each compound has its own record: <a href=\"/compounds/sermorelin\">sermorelin</a> and <a href=\"/compounds/tesamorelin\">tesamorelin</a>.</p>"
+    },
+    {
+      "id": "choosing",
+      "heading": "What the evidence lets you say",
+      "html": "<p><strong>Supported:</strong> tesamorelin reduces visceral and liver fat in people with HIV, repeatedly and in trials designed to measure it; it is approved for that; it is tolerated over a year with injection-site reactions as the main complaint. Sermorelin raises growth hormone and IGF-1, and the GHRH 1-29 fragment improved height velocity in deficient children and cognition in one modern trial.</p><p><strong>Not supported:</strong> that either is better than the other for anything, since nothing has compared them; that tesamorelin's results in HIV-associated visceral fat transfer to healthy adults seeking fat loss; that compounded sermorelin performs like the product studied in the 1980s; that combining them adds anything; that either is a growth hormone substitute for a use neither was tested for.</p><p>The framing the ranking pages use, visceral fat versus anti-ageing, is a marketing division rather than an evidential one. The evidential division is that one of these compounds has been studied for a specific thing in this decade and the other has not.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in this comparison",
+      "html": "<ol class=\"list\"><li><strong>Calling sermorelin FDA approved without saying it was withdrawn.</strong> It was approved in 1990 and the product left the US market in 2008; what is prescribed now is compounded.</li><li><strong>Reading tesamorelin's approval as general.</strong> It is approved for visceral fat in HIV-associated lipodystrophy, and its trials enrolled that population only.</li><li><strong>Treating the two literatures as comparable.</strong> One is 1980s paediatric endocrinology, the other is modern HIV metabolic medicine.</li><li><strong>Assuming a head-to-head exists.</strong> The studies naming both are methods for detecting them in doping control.</li><li><strong>Stacking them.</strong> Two agonists at one receptor overlap; the pituitary's output and its feedback set the ceiling.</li><li><strong>Quoting compounded dosing as if it were a protocol.</strong> No trial set those figures, and this page does not reproduce them.</li></ol>"
+    }
+  ],
+  "prose_reviewed": true
 }
