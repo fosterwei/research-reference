@@ -116,8 +116,8 @@ def formatting(slug_filter):
         sents = [s for s in re.split(r"(?<=[.!?])\s+", text) if len(s.split()) > 2]
         avg = words / len(sents) if sents else 0
         page_words = len(re.findall(r"[A-Za-z0-9][A-Za-z0-9'\-\.]*", re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", main, flags=re.S)))))
-        internal = {u for u in re.findall(r'href="(/[^"#?]*)"', main)}
-        ext = re.findall(r'<a\b[^>]*href="https?://[^"]+"[^>]*>', main)
+        internal = {u for u in re.findall(r'href=["\'](/[^"\'#?]*)["\']', main)}
+        ext = re.findall(r'<a\b[^>]*href=["\']https?://[^"\']+["\'][^>]*>', main)
         vals = [
             len(re.findall(r"<table", main)), len(re.findall(r"<caption", main)),
             len(re.findall(r"<b>", own_prose_bold(main))), len(re.findall(r"<ol\b", main)), len(re.findall(r"<ul\b", main)),

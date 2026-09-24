@@ -61,7 +61,7 @@ def audit(slug: str, rtype: str, live: str | None) -> str:
     kw = slug.replace("-", " ")
     kc = len(re.findall(re.escape(kw), txt, re.I))
     # Whole anchor tag, so attributes after href (target, rel) are seen.
-    links = [(tag, re.search(r'href="([^"]+)"', tag).group(1)) for tag in re.findall(r"<a\b[^>]*>", body) if re.search(r'href="([^"]+)"', tag)]
+    links = [(tag, re.search(r'href=["\']([^"\']+)["\']', tag).group(1)) for tag in re.findall(r"<a\b[^>]*>", body) if re.search(r'href=["\']([^"\']+)["\']', tag)]
     internal = {u for a, u in links if u.startswith("/")}
     ext = [(a, u) for a, u in links if u.startswith("http")]
     hosts: dict[str, int] = {}
