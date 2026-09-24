@@ -13,8 +13,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "Survodutide is a peptide in the incretin & amylin analogs class (glucagon and GLP-1 receptor dual agonist). Europe PMC indexes 91 publications naming it or a listed alias in a title or abstract, including 10 randomized controlled trials and 15 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "Survodutide: what the research shows",
-    "description": "Survodutide research, cited: 91 indexed publications, 10 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Survodutide: Phase 3 Trials, Dose, Side Effects, Status",
+    "description": "Survodutide (BI 456906): the June 2026 phase 3 results with dose and duration, indirect comparisons with tirzepatide and retatrutide, side effects, and status."
   },
   "attributes": {
     "routes_studied": [
@@ -75,7 +75,7 @@
     ],
     "study_doses": [
       {
-        "value": "Randomized controlled trial, humans, n=725, 2026: doses stated in the abstract: 3.6 mg. In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication…",
+        "value": "In SYNCHRONIZE-1, 725 adults with obesity received once-weekly survodutide titrated to 3.6 mg or 6.0 mg, or placebo, for 76 weeks.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42253238"
@@ -84,7 +84,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=146, 2026: doses stated in the abstract: 6.0 mg. Participants were randomized (2:1) and treated with once-weekly subcutaneous injections of survodutide 6.0 mg (n = 146) or placebo (n = 70).",
+        "value": "In SYNCHRONIZE-MASLD, 216 adults with obesity and at-risk liver disease received 6.0 mg weekly or placebo, two to one.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42252333"
@@ -93,25 +93,25 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=50, 2024: doses stated in the abstract: 1.8 mg. Mean (95% CI) bodyweight decreased dose-dependently up to -8.7% (-10.1, -7.3; DG6, n=37); survodutide ≥1.8 mg qw produced greater bodyweight reductions than semaglutide (-5.3% [-6.6, -4.1]; n=45).",
+        "value": "The type 2 diabetes phase 2 tested 0.3 to 2.7 mg once weekly and 1.2 or 1.8 mg twice weekly for 16 weeks against placebo and open-label semaglutide.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-38095657"
         ],
-        "source_excerpt": "Mean (95% CI) bodyweight decreased dose-dependently up to -8.7% (-10.1, -7.3; DG6, n=37); survodutide ≥1.8 mg qw produced greater bodyweight reductions than semaglutide (-5.3% [-6.6, -4.1]; n=45).",
+        "source_excerpt": "Participants were randomised via interactive response technology to receive survodutide (up to 0.3, 0.9, 1.8 or 2.7 mg once weekly [qw; dose group (DG) 1-4, respectively] or 1.2 or 1.8 mg twice weekly [DG 5 and 6, respectively])",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The phase 3 programme titrates to 3.6 or 6.0 mg with dose flexibility permitted.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39495965"
+        ],
+        "source_excerpt": "Survodutide doses are uptitrated to 3.6 or 6.0 mg, and dose flexibility is permitted.",
         "drafting": "extractive"
       }
     ],
     "escalation_schedules": [
-      {
-        "value": "Randomized controlled trial, humans, n=725, 2026: The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-42253238"
-        ],
-        "source_excerpt": "The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period.",
-        "drafting": "extractive"
-      },
       {
         "value": "Randomized controlled trial, humans, n=146, 2026: The most frequently reported adverse events with survodutide were gastrointestinal, commonly occurring during dose escalation, and were generally of mild-to-moderate severity.",
         "evidence_label": "human-clinical-trial",
@@ -160,15 +160,6 @@
     ],
     "interactions": [
       {
-        "value": "Randomized controlled trial, humans, n=50, 2024: Participants were randomised via interactive response technology to receive survodutide (up to 0.3, 0.9, 1.8 or 2.7 mg once weekly [qw; dose group (DG) 1-4, respectively] or 1.2 or 1.8 mg twice weekly [DG 5 and 6, respectively]), placebo or semaglutide (up to 1.0 mg qw).",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-38095657"
-        ],
-        "source_excerpt": "Participants were randomised via interactive response technology to receive survodutide (up to 0.3, 0.9, 1.8 or 2.7 mg once weekly [qw; dose group (DG) 1-4, respectively] or 1.2 or 1.8 mg twice weekly [DG 5 and 6, respectively]), placebo or semaglutide (up to 1.0 mg qw).",
-        "drafting": "extractive"
-      },
-      {
         "value": "Animal study, mice, 2025: We describe the discovery and pharmacology of the long-acting NPY2R agonist BI 1820237 and its potential bodyweight-lowering efficacy alone and in combination with the glucagon receptor (GCGR)/glucagon-like peptide-1 receptor (GLP-1R) dual agonist survodutide.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
@@ -181,40 +172,46 @@
     "exclusion_criteria": [],
     "adverse_events": [
       {
-        "value": "Randomized controlled trial, humans, n=725, 2026: The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-42253238"
-        ],
-        "source_excerpt": "The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Randomized controlled trial, humans, n=146, 2026: The most frequently reported adverse events with survodutide were gastrointestinal, commonly occurring during dose escalation, and were generally of mild-to-moderate severity.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-42252333"
-        ],
-        "source_excerpt": "The most frequently reported adverse events with survodutide were gastrointestinal, commonly occurring during dose escalation, and were generally of mild-to-moderate severity.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Randomized controlled trial, humans, n=50, 2024: Adverse events (AEs) were reported for 77.8% of survodutide-treated participants (mainly gastrointestinal), 52.5% receiving placebo and 52.0% receiving semaglutide.",
+        "value": "In the diabetes phase 2, gastrointestinal adverse events were dose-related and could be reduced by slower titration.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-38095657"
         ],
-        "source_excerpt": "Adverse events (AEs) were reported for 77.8% of survodutide-treated participants (mainly gastrointestinal), 52.5% receiving placebo and 52.0% receiving semaglutide.",
+        "source_excerpt": "Survodutide reduced HbA 1c  levels and bodyweight after 16 weeks' treatment in participants with type 2 diabetes. Dose-related gastrointestinal AEs could be mitigated with slower dose escalations.",
         "drafting": "extractive"
       },
       {
-        "value": "Phase 1 clinical trial, humans, n=24, 2023: Drug-related adverse events (AEs) increased with BI 456906 dose.",
+        "value": "In phase 1, drug-related adverse events rose with dose; decreased appetite was the most frequent with single doses.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-36527386"
         ],
-        "source_excerpt": "Drug-related adverse events (AEs) increased with BI 456906 dose.",
+        "source_excerpt": "Drug-related adverse events (AEs) increased with BI 456906 dose. The most frequent drug-related AE with SRDs was decreased appetite (n = 9, 50.0%), and two subjects (8.3%) did not complete the tr",
         "drafting": "extractive"
+      },
+      {
+        "value": "Nausea was the most frequent gastrointestinal event across subgroups in the 46-week phase 2.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39821928"
+        ],
+        "source_excerpt": "Rates of adverse events (AEs) were comparable between subgroups for sex and baseline BMI. Nausea was the most frequently reported gastrointestinal AE in all subgroups.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "A 2025 meta-analysis of four randomized trials found overall adverse events comparable with placebo but more gastrointestinal events, with diarrhoea about 1.9 times as likely.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40557198"
+        ],
+        "source_excerpt": "Survodutide was associated with a higher risk of developing diarrhea than the placebo group in the four included trials (RR: 1.89; 95% CI: 1.2 to 2.97;  I   2 =0%",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The cardiovascular question is open by design: SYNCHRONIZE-CVOT, enrolling 4,935 people with obesity and cardiovascular or kidney disease, is the event-driven trial that will answer it and has not reported. The glucagon half of the molecule raises heart rate and energy expenditure in principle, and the NEJM paper's full adverse-event tables are behind its paywall; the abstract in the ledger gives efficacy, not the event rates.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
       }
     ],
     "biomarkers_monitored": [
@@ -275,21 +272,39 @@
     ],
     "reported_timelines": [
       {
-        "value": "Randomized controlled trial, humans, n=387, 2025: After 46 weeks of survodutide treatment, females had greater reductions in bodyweight and waist circumference than males.",
+        "value": "At 76 weeks, weight fell 12.2% on 3.6 mg and 13.0% on 6.0 mg against 5.4% on placebo.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-39821928"
+          "pmid-42253238"
         ],
-        "source_excerpt": "After 46 weeks of survodutide treatment, females had greater reductions in bodyweight and waist circumference than males.",
+        "source_excerpt": "At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the 6.0-mg group, and -5.4% (95% CI, -6.9 to -4.0) in the placebo gro",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2022: BI 456906 is a potent, acylated peptide containing a C18 fatty acid as a half-life extending principle to support once-weekly dosing in humans.",
+        "value": "In phase 1, placebo-corrected weight loss reached 13.8% by week 16 on the highest multiple-dose schedule.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36527386"
+        ],
+        "source_excerpt": "In the MRD study, the maximum decreases in placebo-corrected mean body weight were at week 6 (-5.79%, dosage schedule [DS] 1; Part A) and week 16 (-13.8%, DS7; Part B).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The molecule carries a C18 fatty acid to extend its half-life for once-weekly dosing.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-36356832"
         ],
         "source_excerpt": "BI 456906 is a potent, acylated peptide containing a C18 fatty acid as a half-life extending principle to support once-weekly dosing in humans.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Beta-cell function improved rapidly in the diabetes trial; how long that lasts after stopping is unknown.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42331726"
+        ],
+        "source_excerpt": "In trial 1404-0002, survodutide was associated with significant and rapid increases in HOMA-β versus placebo, with significant decreases in HOMA-IR, glucagon, and fasting plasma glucose (FPG).",
         "drafting": "extractive"
       }
     ],
@@ -326,9 +341,11 @@
     "weight_normalized_doses": [],
     "regulatory_status": [
       {
-        "value": "ChEMBL CHEMBL5314776: maximum clinical phase 3. Jurisdiction-level status pending human review.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": []
+        "value": "Not approved anywhere as of the sources available on 2026-09-24. Phase 3 is complete in obesity without diabetes (SYNCHRONIZE-1, published June 2026) and in obesity with at-risk metabolic liver disease (SYNCHRONIZE-MASLD, published June 2026); SYNCHRONIZE-2 in type 2 diabetes has enrolled 752 people and the Japanese trial 274; the cardiovascular outcomes trial is enrolling 4,935. Regulatory submissions were expected to follow the 2026 readouts; no approval decision is documented in the ledger. Vials sold as 'survodutide peptide' are unregulated products. WADA does not name survodutide; as an unapproved substance it falls under S0, and the GLP-1 class is under review by anti-doping authorities.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "evidence_table": [
@@ -672,6 +689,34 @@
           "outcome": "Pharmacological doses of BI 456906 provided greater bodyweight reductions in mice compared with maximally effective doses of the GLP-1R agonist semaglutide."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "Survodutide is a 29-amino-acid peptide built on the glucagon backbone, modified so that it activates both the glucagon receptor and the GLP-1 receptor, and fitted with a C18 fatty-acid side chain that binds albumin and stretches its half-life to a week. Zealand Pharma designed it; Boehringer Ingelheim licensed it in 2011 and carries the development.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The GLP-1 half does what semaglutide does: it slows gastric emptying, blunts appetite in the brain, and improves insulin secretion, which is where the weight loss and the HbA1c effect come from. The glucagon half is the wager. Glucagon raises energy expenditure and drives fat oxidation in the liver, which is why the developers expected more weight loss than GLP-1 alone and a direct effect on liver fat; in mice the combination out-performed maximal semaglutide through higher energy expenditure as well as lower intake, and in people the liver-fat result in SYNCHRONIZE-MASLD is the clearest signature of the second receptor. Glucagon also raises glucose, which the GLP-1 component has to offset, and the diabetes trials show it did.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "What is not yet known is whether the glucagon component changes outcomes rather than measurements. Heart rate, lean-mass loss and long-term cardiovascular events are the questions a glucagon agonist raises, and the outcomes trial that addresses them is still enrolling. Every comparison with tirzepatide or retatrutide on this page is indirect.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Survodutide circulates in the gray market as lyophilised vials labelled 'survodutide peptide', injected weekly by people who cannot or will not wait for approval or who want an alternative to the GLP-1 drugs. Reports describe weight loss and nausea similar to what users of semaglutide describe, plus uncertainty about whether a given vial contains the drug at all, since no reference standard is sold to the public and no pharmacy compounds it. The trial doses are public; what a vial holds is not. Nothing on this page is an instruction, and the doses in the table are those of a trial with medical supervision and slow titration.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -721,9 +766,9 @@
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports weight-normalized doses for Survodutide.",
-    "No study in this record's ledger reports exclusion criteria for Survodutide.",
-    "No study in this record's ledger reports storage or stability for Survodutide."
+    "SYNCHRONIZE-2 (type 2 diabetes) and SYNCHRONIZE-CVOT (cardiovascular outcomes) have not reported.",
+    "No head-to-head trial against tirzepatide, semaglutide, retatrutide or mazdutide exists.",
+    "No regulatory filing or decision document is in the ledger; the status paragraph is from the trial papers and the sponsor's timeline."
   ],
   "media": {
     "walkthrough_video": "",
@@ -731,20 +776,52 @@
   },
   "faq": [
     {
-      "question": "Has Survodutide been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 15 clinical trials and 10 randomized controlled trials naming Survodutide or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "question": "Is survodutide approved?",
+      "answer": "Not as of the sources available on 2026-09-24. Phase 3 trials in obesity without diabetes and in obesity with at-risk liver disease were published in June 2026; the type 2 diabetes phase 3 has published only its baseline; the cardiovascular outcomes trial is enrolling. No approval decision is documented."
     },
     {
-      "question": "What kind of evidence exists for Survodutide?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "How much weight do people lose on survodutide?",
+      "answer": "In SYNCHRONIZE-1, 725 adults with obesity lost a mean 12.2% on 3.6 mg and 13.0% on 6.0 mg over 76 weeks, against 5.4% on placebo with the same lifestyle counselling. Phase 2 found larger proportional losses in women and at lower starting BMI."
     },
     {
-      "question": "Is Survodutide an approved medicine?",
-      "answer": "ChEMBL records CHEMBL5314776 at maximum clinical phase 3, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+      "question": "What does survodutide do to the liver?",
+      "answer": "In SYNCHRONIZE-MASLD, 84.2% of adults with obesity and at-risk metabolic liver disease on 6.0 mg achieved at least a 30% reduction in MRI-measured liver fat, against 24.3% on placebo, alongside weight loss. The glucagon receptor, which drives fat oxidation in the liver, is the reason this result is expected to exceed GLP-1 drugs alone; no head-to-head trial has tested that."
     },
     {
-      "question": "Which species has Survodutide been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "What is the dose of survodutide?",
+      "answer": "In the phase 3 trials, once-weekly subcutaneous injection titrated over weeks to 3.6 mg or 6.0 mg, with flexibility allowed; the liver trial used 6.0 mg. Phase 2 tested 0.3 to 2.7 mg weekly and twice-weekly schedules in diabetes. The drug is not sold by any pharmacy, so no labelled dose exists."
+    },
+    {
+      "question": "What are the side effects of survodutide?",
+      "answer": "Gastrointestinal, as with every drug in the class: nausea most often, diarrhoea about 1.9 times as likely as placebo in a meta-analysis, decreased appetite, all dose-related and reduced by slower titration. Overall adverse-event rates matched placebo in the pooled analysis. Cardiovascular outcomes are still being measured."
+    },
+    {
+      "question": "How does survodutide compare with tirzepatide?",
+      "answer": "Indirectly, and unfavourably on the headline number: tirzepatide's pivotal trial reported 15 to 21% at 72 weeks against survodutide's 12 to 13% at 76 weeks, in different populations with different designs. Survodutide's distinctive result is liver fat; tirzepatide's is the larger weight loss and an approval. No trial has compared them."
+    },
+    {
+      "question": "How does survodutide compare with retatrutide?",
+      "answer": "Both add glucagon-receptor agonism to GLP-1; retatrutide adds GIP as well and reported about 24% weight loss at 48 weeks in phase 2, with phase 3 ongoing. Survodutide's phase 3 is complete. Neither is approved, and no trial has compared them."
+    },
+    {
+      "question": "How does survodutide compare with semaglutide?",
+      "answer": "Semaglutide's pivotal obesity trial reported about 15% at 68 weeks; survodutide's reported 12 to 13% at 76 weeks. The phase 2 diabetes trial included an open-label semaglutide arm for context but was not powered to compare them. Semaglutide is approved with a cardiovascular outcomes trial completed; survodutide's is enrolling."
+    },
+    {
+      "question": "What is a 'survodutide peptide' vial?",
+      "answer": "An unregulated product sold online claiming to contain an investigational drug that no regulator has approved and no pharmacy dispenses. There is no public reference standard, no titration guidance and no way for a buyer to verify contents; the trial data describe the sponsor's product, not the vial."
+    },
+    {
+      "question": "Who makes survodutide?",
+      "answer": "Zealand Pharma of Denmark designed it; Boehringer Ingelheim licensed it in 2011 and runs the SYNCHRONIZE phase 3 programme. Its development code is BI 456906."
+    },
+    {
+      "question": "What is the half-life of survodutide?",
+      "answer": "About a week, by design: a C18 fatty-acid side chain binds albumin, the same principle as semaglutide, which is why the trials dose once weekly. The abstracts in the ledger give the design and schedule rather than a figure in hours."
+    },
+    {
+      "question": "Is survodutide banned in sport?",
+      "answer": "Not by name. As an unapproved substance it falls under WADA's S0 category at all times, and anti-doping bodies have the GLP-1 class under review; an athlete should treat it as prohibited."
     }
   ],
   "sources": [
@@ -932,7 +1009,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 78.1,
+  "uniqueness_pct": 87.8,
   "review": {
     "author": "",
     "reviewer": "",
@@ -951,6 +1028,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 23 ledger sources by scripts/draft_claims.py: 32 claims, 17 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/survodutide.json: guide (8 sections incl. a trial table with the June 2026 phase 3 results), FAQ to 12 plus 3 from the map, dose, timeline and adverse-event claims from the abstracts, mechanism (glucagon plus GLP-1), reported-use (gray-market vials), regulatory; a misdrafted interaction claim ('interactive response technology') removed; intent-driven H1 and title. Triage: escalation claims that quoted the NEJM estimand sentence removed."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Survodutide in two minutes",
+      "html": "<p><strong>What it is.</strong> A once-weekly injectable peptide that activates both the glucagon and GLP-1 receptors, designed by Zealand Pharma and developed by Boehringer Ingelheim for obesity, type 2 diabetes and metabolic liver disease.</p><p><strong>What the research actually shows.</strong> 91 indexed publications and a phase 1 to phase 3 programme. In SYNCHRONIZE-1 (725 adults with obesity, 76 weeks) weight fell <strong>12.2% on 3.6 mg and 13.0% on 6.0 mg against 5.4% on placebo</strong>. In SYNCHRONIZE-MASLD (216 adults with obesity and at-risk liver disease) <strong>84% on 6.0 mg cut liver fat by at least 30%, against 24% on placebo</strong>. In type 2 diabetes it lowered HbA1c by up to 1.7 points at 16 weeks and improved beta-cell function. Nausea and diarrhoea lead the side effects and fall with slower titration.</p><p><strong>Where it stands.</strong> Not approved anywhere yet. A 4,935-person cardiovascular outcomes trial is enrolling. The type 2 diabetes phase 3 has not published results.</p><p><strong>How it compares.</strong> Its 76-week weight loss sits below the published figures for tirzepatide and retatrutide and near semaglutide's; its liver-fat result is its distinctive claim. No trial has compared it head-to-head with any of them.</p><p><strong>What 'survodutide peptide' vials are.</strong> Unregulated copies of an investigational drug, sold before any regulator has reviewed it, with no way for a buyer to verify the contents.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "Trial by trial: what survodutide did in people",
+      "lede": "Every human study in the ledger with results, then the phase 3 trials that have published only their design.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human trials of survodutide (BI 456906) with results.</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Participants</th><th scope=\"col\">Dose and duration</th><th scope=\"col\">Primary result</th><th scope=\"col\">Adverse events</th></tr></thead><tbody><tr><td>SYNCHRONIZE-1 (le Roux 2026, NEJM)</td><td>725 adults with obesity, no diabetes; mean BMI 37.9</td><td>Weekly SC, titrated to 3.6 or 6.0 mg; 76 weeks</td><td><strong>-12.2% and -13.0% vs -5.4% placebo</strong></td><td>Full tables in the paper; abstract gives efficacy</td></tr><tr><td>SYNCHRONIZE-MASLD (Kaplan 2026, Nature Medicine)</td><td>216 adults with obesity and at-risk MASLD or biopsy-confirmed MASH</td><td>Weekly SC 6.0 mg vs placebo, 2:1</td><td><strong>84.2% vs 24.3% achieved a 30% liver-fat reduction</strong>; weight also fell</td><td>Most frequent events gastrointestinal (from the abstract)</td></tr><tr><td>Phase 2 obesity (le Roux 2025 subgroup paper)</td><td>387 adults with BMI 27 or more</td><td>Weekly SC, several doses; 46 weeks</td><td>Clinically meaningful weight and waist reductions at all doses; larger in women and at lower baseline BMI</td><td>Nausea the most frequent GI event in every subgroup</td></tr><tr><td>Phase 2 type 2 diabetes (Blüher 2024)</td><td>413 adults on metformin; open-label semaglutide arm</td><td>0.3 to 2.7 mg weekly or 1.2 to 1.8 mg twice weekly; 16 weeks</td><td>HbA1c down 0.9 to 1.7 points; weight down</td><td>Dose-related GI events, reduced by slower titration</td></tr><tr><td>Beta-cell analysis (Ekinci 2026)</td><td>Participants of both phase 2 trials</td><td>As above</td><td>HOMA-β up rapidly in diabetes; insulin resistance, glucagon and fasting glucose down in both</td><td>—</td></tr><tr><td>Phase 1 (Jungnik 2023)</td><td>24 in single-dose; multiple-dose parts</td><td>Single rising doses; multiple doses over 16 weeks</td><td>Placebo-corrected weight loss 13.8% at week 16 on the top schedule</td><td>Drug-related events rose with dose; decreased appetite in 50% at single doses</td></tr><tr><td>Meta-analysis (Awad 2025)</td><td>Four randomized trials to May 2024</td><td>Pooled</td><td>Weight and HbA1c reduced</td><td>Overall events comparable with placebo; diarrhoea 1.9 times as likely</td></tr></tbody></table></div></div><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Phase 3 trials with design or baseline papers only.</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Population</th><th scope=\"col\">Size</th><th scope=\"col\">Status in the ledger</th></tr></thead><tbody><tr><td>SYNCHRONIZE-2</td><td>Obesity with type 2 diabetes, 19 countries</td><td>752 treated</td><td>Baseline characteristics published; results not yet</td></tr><tr><td>SYNCHRONIZE-JP</td><td>Japanese adults with obesity disease</td><td>274</td><td>Design and baseline published</td></tr><tr><td>SYNCHRONIZE-CVOT</td><td>Obesity with cardiovascular or kidney disease</td><td>4,935 target</td><td>Event-driven cardiovascular safety trial; enrolling</td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every survodutide dose in the trials, in one table",
+      "lede": "Every figure here is a trial dose with medical supervision and titration. The drug is not sold by any pharmacy.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses of survodutide administered in trials.</caption><thead><tr><th scope=\"col\">Trial phase</th><th scope=\"col\">Route</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Population</th></tr></thead><tbody><tr><td>Phase 3 (SYNCHRONIZE-1, -2, -JP)</td><td>Subcutaneous</td><td>Titrated up to 3.6 mg or 6.0 mg; flexibility permitted</td><td>Once weekly, 76 weeks</td><td>Obesity with and without type 2 diabetes</td></tr><tr><td>Phase 3 (SYNCHRONIZE-MASLD)</td><td>Subcutaneous</td><td>6.0 mg</td><td>Once weekly</td><td>Obesity with at-risk liver disease</td></tr><tr><td>Phase 2 obesity</td><td>Subcutaneous</td><td>Several doses (0.6 to 4.8 mg in the published design)</td><td>Once weekly, 46 weeks</td><td>BMI 27 or more</td></tr><tr><td>Phase 2 type 2 diabetes</td><td>Subcutaneous</td><td>0.3, 0.9, 1.8, 2.7 mg weekly; 1.2 or 1.8 mg twice weekly</td><td>16 weeks with titration</td><td>Type 2 diabetes on metformin</td></tr><tr><td>Phase 1</td><td>Subcutaneous</td><td>Single rising doses; multiple-dose schedules</td><td>Up to 16 weeks</td><td>Healthy and overweight volunteers</td></tr></tbody></table></div></div><p>The titration is the point of the table: every phase 3 participant reached 3.6 or 6.0 mg over weeks, and the phase 2 diabetes trial showed the gastrointestinal effects depend on how fast that climb is. A vial sold as 'survodutide peptide' comes with neither the titration nor the supervision, and its content is unverified. Nothing on this page is an instruction to take anything.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who survodutide is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> adults with a BMI of 30 or more, or 27 with a complication, with and without type 2 diabetes; adults with obesity and at-risk metabolic liver disease; healthy volunteers in phase 1. <strong>Being studied:</strong> adults with obesity and cardiovascular or kidney disease, in the outcomes trial. <strong>Community:</strong> people buying gray-market vials as an alternative to the approved GLP-1 drugs.</p><p>The cautions follow from the class and from what the programme has not yet measured:</p><ul class=\"list\"><li><strong>Gastrointestinal effects.</strong> Nausea and diarrhoea are dose-related and titration-dependent; the trials titrated over weeks under supervision.</li><li><strong>The glucagon component.</strong> Glucagon raises heart rate and glucose and increases energy expenditure; the GLP-1 half offsets the glucose effect in the trials. Cardiovascular outcomes are unmeasured until SYNCHRONIZE-CVOT reports.</li><li><strong>Class warnings.</strong> GLP-1 receptor agonists carry warnings on pancreatitis, gallbladder disease, thyroid C-cell tumours in rodents and, for people with diabetes, retinopathy progression; nothing specific to survodutide is documented in the ledger, and nothing rules it out.</li><li><strong>Lean mass.</strong> Rapid weight loss on any agent in this class includes muscle and bone; a 2024 review in the ledger addresses it for the class.</li><li><strong>Gray-market vials.</strong> No reference standard, no pharmacy, no titration guidance and no way to verify contents. The trial data describe a drug, not a vial.</li><li><strong>Pregnancy and children.</strong> Excluded from every trial.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>Survodutide's time course is well mapped for an unapproved drug. <strong>Weeks:</strong> appetite falls with the first doses and gastrointestinal effects peak during titration. <strong>16 weeks:</strong> HbA1c down up to 1.7 points in diabetes; 13.8% placebo-corrected weight loss on the top phase 1 schedule. <strong>46 weeks:</strong> the phase 2 obesity result. <strong>76 weeks:</strong> 12 to 13% weight loss in SYNCHRONIZE-1. What is not measured is what happens after stopping, whether the beta-cell improvements persist off treatment, and, above all, hard cardiovascular outcomes, which the enrolling outcomes trial exists to measure. 'How long does it take to work' has a trial answer of weeks for appetite and a year and a half for the full effect.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>Trial product was supplied by the sponsor as a solution for weekly injection under its own handling instructions, which are not public. Gray-market vials are lyophilised powders of unverified content; nothing about their stability has been published, and the drug's albumin-binding side chain makes it sensitive to how it is reconstituted.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how survodutide is discussed",
+      "html": "<ol class=\"list\"><li><strong>Ranking it against tirzepatide and retatrutide on trial percentages.</strong> Different trials, populations, durations and estimands. No head-to-head trial exists.</li><li><strong>Calling it approved, or 'coming soon' with a date.</strong> Phase 3 is complete in two indications; no regulator has decided, and the ledger holds no filing document.</li><li><strong>Treating a vial as the drug.</strong> The trial data belong to a sponsor-manufactured product given with titration and supervision. A 'survodutide peptide' vial is a claim on a label.</li><li><strong>Missing what is different about it.</strong> The glucagon receptor is the reason for the liver-fat result and for the cardiovascular question. A page that treats it as another GLP-1 drug misses both.</li><li><strong>Quoting the phase 1 13.8% as the headline.</strong> That was placebo-corrected at 16 weeks in a small study; the phase 3 figure is 12 to 13% at 76 weeks against 5% on placebo.</li><li><strong>Assuming the diabetes phase 3 has reported.</strong> Only its baseline paper is out.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Survodutide vs tirzepatide, semaglutide, retatrutide and mazdutide",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Survodutide beside the agents it is compared with, from their own records and trials. All comparisons are indirect.</caption><thead><tr><th scope=\"col\">Agent</th><th scope=\"col\">Receptors</th><th scope=\"col\">Weight loss in its pivotal trial</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>Survodutide</strong></td><td>Glucagon + GLP-1</td><td>12.2 to 13.0% vs 5.4% placebo at 76 weeks (SYNCHRONIZE-1)</td><td>Phase 3 complete in obesity and MASLD; not approved</td></tr><tr><td><a href=\"/compounds/tirzepatide\">Tirzepatide</a></td><td>GIP + GLP-1; 2756 indexed publications, 131 randomized trials</td><td>About 15 to 21% at 72 weeks (SURMOUNT-1)</td><td>Approved 2022</td></tr><tr><td><a href=\"/compounds/semaglutide\">Semaglutide</a></td><td>GLP-1; 6039 indexed publications, 305 randomized trials</td><td>About 15% at 68 weeks (STEP 1)</td><td>Approved 2017</td></tr><tr><td><a href=\"/compounds/retatrutide\">Retatrutide</a></td><td>Glucagon + GIP + GLP-1; 197 indexed publications, 7 randomized trials</td><td>About 24% at 48 weeks in phase 2; phase 3 ongoing</td><td>Not approved</td></tr><tr><td>Mazdutide</td><td>Glucagon + GLP-1 (the closest analogue)</td><td>About 15% at 48 weeks in its Chinese phase 3</td><td>Approved in China (2025); no record on this site</td></tr><tr><td><a href=\"/compounds/cagrilintide\">Cagrilintide</a> (with semaglutide as CagriSema)</td><td>Amylin + GLP-1; 105 indexed publications</td><td>About 20% at 68 weeks in REDEFINE-1</td><td>Not approved; see the <a href=\"/stacks/cagrisema\">CagriSema</a> record</td></tr></tbody></table></div></div><p>Two comparisons are worth more than the percentages. Mazdutide is the same receptor pair and is approved in China, so it is the nearest evidence for what a glucagon-GLP-1 dual agonist does at scale. Retatrutide adds a third receptor and posts larger phase 2 numbers over shorter periods. Against the approved drugs, survodutide's liver-fat result is its distinctive claim and its cardiovascular data its missing piece. No trial has compared it with any of them, and the site's <a href=\"/compare\">comparison pages</a> keep the pairs that have been examined separate from those that have not.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
