@@ -300,7 +300,7 @@
     {
       "slug": "ss-31",
       "name": "SS-31",
-      "approved": false,
+      "approved": true,
       "evidence_tier": "human-clinical-trial",
       "indexed_publications": 493,
       "head_clickstream": 7987,
@@ -314,8 +314,8 @@
         "dosage": 763,
         "benefits": 152
       },
-      "status": "queued",
-      "note": null,
+      "status": "done",
+      "note": "Written 2026-09-24 under the sequencing rule; audit research/audits/ss-31-2026-09-24.md. Elamipretide was approved (Forzinity) on 2025-09-19, after this queue was built; written anyway because the \"ss-31 peptide\" SERP is not held by clinical publishers (see the intent map approval_note).",
       "rank": 15
     },
     {

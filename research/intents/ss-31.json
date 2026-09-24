@@ -1,0 +1,522 @@
+{
+  "slug": "ss-31",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "approval_note": "Elamipretide received FDA accelerated approval as Forzinity on 2025-09-19, after research/queue.json was built from ChEMBL data that still show max phase 3. The queue rule defers approved medicines because their SERPs are held by clinical publishers; the 'ss-31 peptide' SERP is not (vendors, a scorecard, a forum post, a PDF), so the page is written under its research name and states the approval plainly. Record tier set to approved-label by hand; fetch_evidence --refresh-meta will need a source other than ChEMBL for first_approval.",
+  "serp_2026-09-24": {
+    "query": "ss-31 peptide",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "perspectives",
+      "related_searches"
+    ],
+    "organic_top": [
+      "pmc.ncbi.nlm.nih.gov (kidney paper)",
+      "americanpeptides.us (vendor)",
+      "biomeme.com",
+      "youtube.com",
+      "empiremedicaltraining.com",
+      "reddit.com",
+      "alzdiscovery.org (PDF)",
+      "instagram.com"
+    ],
+    "note": "The AI Overview cites PMC, PNAS and the ADDF PDF. No ranking page tabulates the trials; the Wikipedia article ranks only for the drug name."
+  },
+  "demand_findings": "Three spellings of the head carry 14,702 clickstream between them ('ss31 peptide' alone has KD 45, the rest KD 6 to 8); 'elamipretide' 1,831 and 'forzinity' 915 show the drug-name searcher exists but is a fifth of the peptide-name searcher. Dosage 1,526 across two phrasings; reddit 508; 'ss-31 vs mots-c' 407 is the only comparison with demand. Side effects has Ads volume (170) but no clickstream.",
+  "h1": "SS-31 (elamipretide) peptide: the trials behind the 2025 approval, the trials that missed, and what the gray-market use rests on",
+  "dek": "SS-31 is the research name of an approved medicine. This page lines up every trial with its dose and result, including the two large ones that missed their primary endpoints, explains what the Barth syndrome approval does and does not cover, and says what the longevity use has behind it: one trial in older adults with a transient effect.",
+  "queries": [
+    {
+      "query": "ss-31",
+      "volume": {
+        "clickstream": 7987,
+        "google_ads": 18100,
+        "kd": 6,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What SS-31 is, and why it is also called elamipretide and Forzinity"
+    },
+    {
+      "query": "ss-31 peptide",
+      "volume": {
+        "clickstream": 3968,
+        "google_ads": 27100,
+        "kd": 6,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What SS-31 is, and why it is also called elamipretide and Forzinity"
+    },
+    {
+      "query": "ss31 peptide",
+      "volume": {
+        "clickstream": 2747,
+        "google_ads": 27100,
+        "kd": 45,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What SS-31 is, and why it is also called elamipretide and Forzinity"
+    },
+    {
+      "query": "elamipretide",
+      "volume": {
+        "clickstream": 1831,
+        "google_ads": 2900,
+        "kd": 12,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What SS-31 is, and why it is also called elamipretide and Forzinity"
+    },
+    {
+      "query": "forzinity",
+      "volume": {
+        "clickstream": 915,
+        "google_ads": 880,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: an approved medicine since September 2025"
+    },
+    {
+      "query": "ss-31 dosage",
+      "volume": {
+        "clickstream": 763,
+        "google_ads": 2900,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every SS-31 dose in the trials and on the label, in one table",
+      "boundary": "Every figure here is a dose a trial gave or the approved label states. The figures on vendor pages for research-chemical SS-31 were not taken from these trials and are not reproduced."
+    },
+    {
+      "query": "ss-31 peptide dosage",
+      "volume": {
+        "clickstream": 763,
+        "google_ads": 4400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every SS-31 dose in the trials and on the label, in one table",
+      "boundary": "Every figure here is a dose a trial gave or the approved label states. The figures on vendor pages for research-chemical SS-31 were not taken from these trials and are not reproduced."
+    },
+    {
+      "query": "ss-31 reddit",
+      "volume": {
+        "clickstream": 508,
+        "google_ads": 590,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe use for energy, longevity and recovery, none of which has been tested in a trial. The 2021 older-adult trial is the closest thing to that use, and it found a transient effect on muscle energetics and none on fatigue."
+    },
+    {
+      "query": "ss-31 vs mots-c",
+      "volume": {
+        "clickstream": 407,
+        "google_ads": 260,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "SS-31 vs MOTS-c, humanin, NAD+ precursors and CoQ10",
+      "boundary": "MOTS-c and humanin are mitochondrial-derived peptides made by the body; SS-31 is a synthetic drug that binds a mitochondrial lipid. No study has compared or combined them."
+    },
+    {
+      "query": "elamipretide fda approval",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 90,
+        "kd": 11,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: an approved medicine since September 2025"
+    },
+    {
+      "query": "ss-31 benefits",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 210,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what elamipretide did and did not do",
+      "boundary": "Outcomes from randomized trials in mitochondrial disease and one in healthy older adults. Two of the three largest trials missed their primary endpoints; the approval rests on Barth syndrome data. Nothing here is a result for longevity or energy in healthy people."
+    },
+    {
+      "query": "ss-31 side effects",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 170,
+        "kd": 14,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the placebo-controlled trials recorded",
+      "boundary": "From randomized trials with a placebo arm, so the frequencies mean something. Injection-site reactions dominate; nothing else has separated from placebo."
+    },
+    {
+      "query": "ss-31 reconstitution",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 70,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "ss-31 half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of SS-31?",
+      "answer": "Short, measured in hours. The 2021 trial in older adults found the effect of a single two-hour infusion on muscle energetics had gone by day 7 and called that consistent with elamipretide's half-life in human blood; the trials and the label therefore use once-daily subcutaneous injection. No abstract in the ledger states the figure, so this page does not."
+    },
+    {
+      "query": "ss-31 before and after",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe use for energy, longevity and recovery, none of which has been tested in a trial. The 2021 older-adult trial is the closest thing to that use, and it found a transient effect on muscle energetics and none on fatigue."
+    },
+    {
+      "query": "ss-31 results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what elamipretide did and did not do",
+      "boundary": "Outcomes from randomized trials in mitochondrial disease and one in healthy older adults. Two of the three largest trials missed their primary endpoints; the approval rests on Barth syndrome data. Nothing here is a result for longevity or energy in healthy people."
+    },
+    {
+      "query": "ss-31 mitochondria",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How SS-31 works: cardiolipin, not antioxidant scavenging"
+    },
+    {
+      "query": "ss-31 vs nad",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "SS-31 vs MOTS-c, humanin, NAD+ precursors and CoQ10",
+      "boundary": "MOTS-c and humanin are mitochondrial-derived peptides made by the body; SS-31 is a synthetic drug that binds a mitochondrial lipid. No study has compared or combined them."
+    },
+    {
+      "query": "what is ss-31",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is SS-31?",
+      "answer": "SS-31 is the research name of elamipretide, a four-amino-acid synthetic peptide that concentrates in the inner mitochondrial membrane and binds cardiolipin. It was developed as Bendavia and MTP-131 by Stealth BioTherapeutics and, since 19 September 2025, is an FDA-approved medicine, Forzinity, for muscle strength in Barth syndrome. Vials sold as 'SS-31 peptide' are the same molecule from unregulated suppliers."
+    },
+    {
+      "query": "ss-31 eye drops",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does SS-31 work as eye drops?",
+      "answer": "A 1% topical solution was tested for 52 weeks in 12 people with Leber hereditary optic neuropathy. It was well tolerated but visual acuity did not differ from the vehicle-treated eyes; a post hoc visual-field measure favoured treatment. Company trials in dry macular degeneration (ReCLAIM-2) missed their primary endpoints, per public reports; those papers are not in the ledger."
+    },
+    {
+      "query": "elamipretide dosage",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every SS-31 dose in the trials and on the label, in one table",
+      "boundary": "Every figure here is a dose a trial gave or the approved label states. The figures on vendor pages for research-chemical SS-31 were not taken from these trials and are not reproduced."
+    },
+    {
+      "query": "elamipretide side effects",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the placebo-controlled trials recorded",
+      "boundary": "From randomized trials with a placebo arm, so the frequencies mean something. Injection-site reactions dominate; nothing else has separated from placebo."
+    },
+    {
+      "query": "elamipretide barth syndrome",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what elamipretide did and did not do",
+      "boundary": "Outcomes from randomized trials in mitochondrial disease and one in healthy older adults. Two of the three largest trials missed their primary endpoints; the approval rests on Barth syndrome data. Nothing here is a result for longevity or energy in healthy people."
+    },
+    {
+      "query": "what are the benefits of ss-31 peptide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what elamipretide did and did not do",
+      "boundary": "Outcomes from randomized trials in mitochondrial disease and one in healthy older adults. Two of the three largest trials missed their primary endpoints; the approval rests on Barth syndrome data. Nothing here is a result for longevity or energy in healthy people.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "can ss-31 help with weight loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Can SS-31 help with weight loss?",
+      "answer": "No trial has measured weight or fat as an outcome, and none was designed to. Elamipretide's trials measured walking distance, fatigue, muscle strength, heart volumes and mitochondrial ATP production. The metabolic reputation belongs to MOTS-c, a different peptide, and is untested for SS-31.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "where to inject ss-31 peptide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How was SS-31 given in the trials?",
+      "answer": "By subcutaneous injection once a day in every trial from MMPOWER-2 onward and on the approved label; by two-hour intravenous infusion in the first dose-finding trial and the older-adult trial; as 1% eye drops in the optic-neuropathy trial. Site selection and technique are on the Forzinity label, which this page does not reproduce.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how long to take ss-31 before mots c",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Should SS-31 be taken with MOTS-c?",
+      "answer": "No study has tested the pair, in any order or in any species. The sequencing advice on forums is invented. Each compound's own record is the whole of what is known: SS-31 has randomized trials in mitochondrial disease; MOTS-c has small human studies and mouse work.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/ss-31",
+      "rank": null,
+      "words": 7711,
+      "tables": 14,
+      "h2": 20,
+      "h3": 77,
+      "sci_links": 5,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 28,
+      "gap": "Correctly names Forzinity and the label strength; fourteen dosing and reconstitution tables for a research-chemical version of an approved drug; five citations; not in the Google top 10 for 'ss-31 peptide' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D9 F9 S6 U4"
+    },
+    {
+      "url": "https://biomeme.com/applications/wellness/peptide-evidence/ss-31/",
+      "rank": 5,
+      "words": 512,
+      "tables": 0,
+      "h2": 9,
+      "sci_links": 2,
+      "byline": null,
+      "score": 11,
+      "gap": "Scorecard page selling an mRNA test; names TAZPOWER, MMPOWER and EMBRACE in one sentence each; does not mention the 2025 approval",
+      "source": "fetched 2026-09-24, metrics measured; scored D3 F2 S3 U3"
+    },
+    {
+      "url": "https://www.empiremedicaltraining.com/antiaging-regenerative-workshops/resources/peptide-therapy/ss-31/",
+      "rank": 7,
+      "score": null,
+      "gap": "Clinician-training resource page; fetch returned 404 at the SERP URL",
+      "source": "SERP result; not fetched"
+    },
+    {
+      "url": "https://www.alzdiscovery.org/uploads/cognitive_vitality_media/SS-31-Cognitive-Vitality-For-Researchers.pdf",
+      "rank": 9,
+      "score": null,
+      "gap": "Alzheimer's Drug Discovery Foundation researcher PDF; the most rigorous document on the SERP but a PDF with no on-page structure",
+      "source": "fetched as PDF (864 KB); not scored as a web page"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Elamipretide",
+      "rank": null,
+      "words": 1772,
+      "tables": 1,
+      "h2": 5,
+      "sci_links": 44,
+      "score": 19,
+      "gap": "Ranks for 'elamipretide', not for 'ss-31'; approval and indication correct; no trial table, no dose history, no mention of the SS-31 gray market",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S9 U3"
+    },
+    {
+      "url": "https://www.reddit.com/r/NTNPerformance/comments/1u0ag9f/",
+      "rank": 8,
+      "score": null,
+      "gap": "Forum post titled 'What SS-31 actually is, and what the trials really showed'; the SERP rewards exactly that framing",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that tells the 'SS-31 peptide' searcher that the compound became a prescription medicine (Forzinity) on 19 September 2025 and what that approval rests on: a 12-patient crossover trial that missed its primary endpoints in the randomized phase, its open-label extension, and a natural-history comparison, granted as an accelerated approval; that tabulates all eleven human studies in the ledger with dose, route, duration and result, including MMPOWER-3 (218 patients, no effect on either primary endpoint) and the optic-neuropathy eye-drop trial (no effect on acuity); and that states the longevity use rests on one trial in 39 older adults in which a single infusion raised muscle ATP capacity for hours and did nothing for fatigue.",
+  "serp_format_rewarded": "Evidence explainer. The highest-ranking non-vendor results are a forum post promising 'what the trials really showed' and a researcher PDF, so a trial-by-trial table with plain verdicts is the format the SERP is asking for.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add the Forzinity prescribing information (DailyMed, December 2025) to the ledger: indication, weight gate, strength, dose, warnings; pending_source until then.",
+    "Add PROGRESS-HF (heart failure, 2020) and ReCLAIM-2 (dry AMD) to the ledger; both are cited editorially as trials that missed their primary endpoints.",
+    "fetch_evidence --refresh-meta derives approval from ChEMBL first_approval, which is null for elamipretide as of the last fetch; the tier was set by hand and will be reverted by a refresh unless the script gains a second source (FDA Drugs@FDA or DailyMed).",
+    "The drafter's interactions regex matched 'interacts with cardiolipin' and 'interactions of the lead compound' as drug interactions; three claims removed at triage, same regex item."
+  ]
+}

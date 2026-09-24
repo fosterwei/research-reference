@@ -19,11 +19,11 @@
   ],
   "slug": "ss-31",
   "status": "draft",
-  "evidence_tier": "human-clinical-trial",
+  "evidence_tier": "approved-label",
   "summary": "SS-31 is a peptide in the mitochondrial peptides class (cardiolipin-binding, inner-membrane targeted). Europe PMC indexes 493 publications naming it or a listed alias in a title or abstract, including 16 randomized controlled trials and 14 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "SS-31: what the research shows",
-    "description": "SS-31 research, cited: 493 indexed publications, 16 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "SS-31 (Elamipretide): Trials, Approval, Dose, Side Effects",
+    "description": "SS-31 is elamipretide, approved as Forzinity in 2025. Every trial with dose and result, the ones that missed, side effects, and what the longevity use rests on."
   },
   "attributes": {
     "routes_studied": [
@@ -151,30 +151,12 @@
     ],
     "interactions": [
       {
-        "value": "Randomized controlled trial, humans, n=12, 2021: We performed a randomized, double-blind, placebo-controlled crossover trial followed by an open-label extension in BTHS to test the effect of elamipretide, a mitochondrial tetrapeptide that interacts with cardiolipin.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-33077895"
-        ],
-        "source_excerpt": "We performed a randomized, double-blind, placebo-controlled crossover trial followed by an open-label extension in BTHS to test the effect of elamipretide, a mitochondrial tetrapeptide that interacts with cardiolipin.",
-        "drafting": "extractive"
-      },
-      {
         "value": "Animal study, mice, 2026: Co-administration of SS-31 and NMN significantly attenuated post-ischemic brain damage and ameliorated neurological deficits (P < 0.0001), demonstrating effects markedly superior to either monotherapy.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42443448"
         ],
         "source_excerpt": "Co-administration of SS-31 and NMN significantly attenuated post-ischemic brain damage and ameliorated neurological deficits (P < 0.0001), demonstrating effects markedly superior to either monotherapy.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "In vitro study, 2020: In this study, using biophysical and computational approaches, we have analyzed the interactions of the lead compound SS-31 (elamipretide) with model and mitochondrial membranes.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-32273339"
-        ],
-        "source_excerpt": "In this study, using biophysical and computational approaches, we have analyzed the interactions of the lead compound SS-31 (elamipretide) with model and mitochondrial membranes.",
         "drafting": "extractive"
       }
     ],
@@ -234,6 +216,19 @@
         ],
         "source_excerpt": "Elamipretide was well tolerated and both patients demonstrated improvement in symptoms while on therapy.",
         "drafting": "extractive"
+      },
+      {
+        "value": "Trials that did not reach the ledger: PROGRESS-HF (2020) gave elamipretide to people with heart failure for 28 days and found no change in left-ventricular volume, its primary endpoint; ReCLAIM-2 tested it in dry age-related macular degeneration and, by the sponsor's report, missed its primary endpoints. Neither reported a safety signal beyond injection-site reactions. They are cited here from public summaries and are pending sources.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      },
+      {
+        "value": "No trial has given elamipretide to healthy people for longer than a single infusion, so the safety of months of use for energy or longevity is unmeasured. The disease trials ran up to 168 weeks in Barth syndrome (eight patients) and 24 weeks in 109 people with mitochondrial myopathy.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
       }
     ],
     "biomarkers_monitored": [
@@ -294,12 +289,30 @@
     ],
     "reported_timelines": [
       {
-        "value": "Randomized controlled trial, humans, n=36, 2018: Elamipretide increased exercise performance after 5 days of treatment in patients with PMM without increased safety concerns.",
+        "value": "A single two-hour infusion raised muscle mitochondrial ATP capacity immediately; by day 7 the effect had gone, which the authors attributed to the drug's short half-life in human blood.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34264994"
+        ],
+        "source_excerpt": "A single ELAM dose elevated mitochondrial energetic capacity in vivo relative to placebo (ΔATPmax; P = 0.055, %ΔATPmax; P = 0.045) immediately after a 2-hour infusion. No difference was found on day 7 after treatment, which is consistent with the half-life of ELAM in human blood.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In the dose-finding trial, walking distance rose within five days of treatment.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-29500292"
         ],
         "source_excerpt": "Elamipretide increased exercise performance after 5 days of treatment in patients with PMM without increased safety concerns.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In Barth syndrome, neither primary endpoint moved in 12 weeks of randomized treatment; at 36 weeks of open-label treatment walking distance had improved by 95.9 metres.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33077895"
+        ],
+        "source_excerpt": "In part 1 neither primary endpoint was met. At 36 weeks in part 2, there were significant improvements in 6MWT (+95.9 m, p = 0.024) and BTHS-SA (-2.1 points, p = 0.031).",
         "drafting": "extractive"
       }
     ],
@@ -428,9 +441,11 @@
     ],
     "regulatory_status": [
       {
-        "value": "ChEMBL CHEMBL3833370: maximum clinical phase 3. Jurisdiction-level status pending human review.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": []
+        "value": "An approved prescription medicine in the United States since 19 September 2025: Forzinity (elamipretide hydrochloride), granted accelerated approval to improve muscle strength in adults and children with Barth syndrome who weigh at least 30 kg, supplied as 280 mg in 3.5 mL (80 mg/mL) for once-daily subcutaneous injection. Accelerated approval means the sponsor must confirm clinical benefit in a further study. It is not approved for primary mitochondrial myopathy, heart failure, dry macular degeneration or optic neuropathy, all of which were tried. Not approved in the EU. Vials sold as 'SS-31 peptide' are unapproved products containing the same molecule. The compound is not named on the WADA Prohibited List; the live list should be checked. The prescribing information is not yet in the ledger.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "evidence_table": [
@@ -934,6 +949,34 @@
           "outcome": "Protein abundance in the ADP/ATP transport and synthesis pathway was unchanged, but ELAM treatment decreased protein s-glutathionylation incuding of ANT."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "SS-31 is elamipretide, a four-amino-acid synthetic peptide (D-arginine, dimethyltyrosine, lysine, phenylalanine) from the Szeto-Schiller series designed at Cornell in the early 2000s. Its alternating positive and aromatic residues let it cross cell membranes and concentrate a thousandfold in the inner mitochondrial membrane, where it binds cardiolipin, the lipid that holds the respiratory-chain complexes in their working arrangement and that is abnormal in Barth syndrome.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The proposed effect is structural rather than chemical: by binding cardiolipin it is thought to stabilise cristae, keep cytochrome c in its electron-carrying role rather than its peroxidase role, and so raise ATP output while lowering the reactive oxygen produced by a leaking chain. Early papers called it an antioxidant; the developers' later work describes it as a cardiolipin-protective compound, and the older-adult trial is the human demonstration: ATP capacity up within hours of one infusion, then back to baseline.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "What is not established is durable benefit outside cardiolipin disorders. The mechanism predicts the largest effect where cardiolipin is most abnormal, which is Barth syndrome, and the trial record matches: the Barth programme produced the approval, while the genotypically mixed myopathy trial, the heart-failure trial and the eye trials did not meet their primary endpoints.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Outside the clinic, SS-31 circulates for energy, longevity, recovery and 'mitochondrial health', injected subcutaneously from research-chemical vials, often alongside MOTS-c or NAD+ precursors. Reported effects are more stamina and less brain fog; reported complaints are injection-site redness and, at higher amounts, nausea and dizziness. None of this comes from a study of that use. The nearest trial gave 39 healthy older adults one infusion and found a transient rise in muscle ATP capacity and no change in fatigue resistance. The doses on vendor pages were not derived from the trials, whose dose was 40 mg once daily under the skin, and are not reproduced here.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -960,8 +1003,8 @@
       "chembl_id": "CHEMBL3833370",
       "pref_name": "ELAMIPRETIDE",
       "molecule_type": "Protein",
-      "max_phase": 3.0,
-      "first_approval": null,
+      "max_phase": 4.0,
+      "first_approval": 2025,
       "atc": [],
       "synonyms": [
         "Elamipretida",
@@ -977,7 +1020,8 @@
         "SS 31",
         "SS-31"
       ],
-      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3833370/"
+      "url": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3833370/",
+      "approval_note": "Set by hand 2026-09-24: FDA accelerated approval of Forzinity (elamipretide) on 2025-09-19; ChEMBL had max_phase 3 and no first_approval at the last fetch."
     },
     "drafting": {
       "method": "extractive",
@@ -989,27 +1033,63 @@
     }
   },
   "comparison_peers": [],
-  "open_questions": [],
+  "open_questions": [
+    "The Forzinity prescribing information, the PROGRESS-HF heart-failure trial and the ReCLAIM-2 macular-degeneration trial are cited from public summaries and are not yet in the ledger.",
+    "No trial has given elamipretide to healthy people for longer than a single infusion.",
+    "The confirmatory study required by the accelerated approval has not reported."
+  ],
   "media": {
     "walkthrough_video": "",
     "transcript": ""
   },
   "faq": [
     {
-      "question": "Has SS-31 been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 14 clinical trials and 16 randomized controlled trials naming SS-31 or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "question": "Is SS-31 the same as elamipretide and Forzinity?",
+      "answer": "Yes. SS-31 is the laboratory name from the Szeto-Schiller series, elamipretide is the generic drug name, MTP-131 and Bendavia were development names, and Forzinity is the FDA-approved brand since 19 September 2025. Vials sold as 'SS-31 peptide' contain the same molecule from unregulated suppliers."
     },
     {
-      "question": "What kind of evidence exists for SS-31?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What is SS-31 approved for?",
+      "answer": "To improve muscle strength in adults and children with Barth syndrome who weigh at least 30 kg, under accelerated approval, which requires a confirmatory study. It is not approved for mitochondrial myopathy, heart failure, eye disease, ageing or anything else it was tried for."
     },
     {
-      "question": "Is SS-31 an approved medicine?",
-      "answer": "ChEMBL records CHEMBL3833370 at maximum clinical phase 3, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+      "question": "What did the SS-31 trials show?",
+      "answer": "In Barth syndrome, no effect in 12 weeks of randomized treatment but sustained gains in walking distance, strength and heart volumes over 168 weeks of open-label treatment, and a large advantage over untreated patients in a natural-history comparison. In 218 people with mitochondrial myopathy, no effect on walking distance or fatigue at 24 weeks. In healthy older adults, a single infusion raised muscle ATP capacity for hours and did not change fatigue."
+    },
+    {
+      "question": "Is there an SS-31 dose?",
+      "answer": "For the approved use, yes: the label gives a once-daily subcutaneous dose for patients of at least 30 kg from an 80 mg/mL solution, halved in severe kidney impairment. Every subcutaneous trial used 40 mg once daily. For energy or longevity there is no dose, because there is no trial; the figures on vendor pages were not taken from the programme."
+    },
+    {
+      "question": "What are the side effects of SS-31?",
+      "answer": "Injection-site reactions, in up to 80% of treated participants, mostly mild. Across the randomized trials nothing else separated from placebo, and the trials called the drug well tolerated. Months of use in healthy people have never been studied, so their safety is unmeasured."
+    },
+    {
+      "question": "Is SS-31 an antioxidant?",
+      "answer": "Not in the scavenging sense. It concentrates in the inner mitochondrial membrane and binds cardiolipin, which is thought to keep the respiratory-chain complexes properly arranged and stop cytochrome c acting as a peroxidase. Less reactive oxygen is a downstream result, and its developers now describe it as cardiolipin-protective rather than antioxidant."
+    },
+    {
+      "question": "Does SS-31 help with ageing or longevity?",
+      "answer": "No trial has tested it. The nearest evidence is the 2021 trial in 39 healthy adults aged 60 to 85: one two-hour infusion raised muscle mitochondrial ATP capacity immediately, the effect was gone by day 7, and fatigue resistance did not change. No lifespan or healthspan outcome has been measured in people."
+    },
+    {
+      "question": "Why did the big myopathy trial fail if the drug was approved?",
+      "answer": "Because the two conditions differ. Barth syndrome is a disorder of cardiolipin itself, the lipid the drug binds; primary mitochondrial myopathy is a genotypically mixed group in which cardiolipin is not the primary defect. A post hoc analysis of MMPOWER-3 suggested benefit in the subgroup with nuclear-DNA mutations, which is a hypothesis for a future trial, not a result."
+    },
+    {
+      "question": "Is SS-31 banned in sport?",
+      "answer": "It is not named on the WADA Prohibited List, and as an approved medicine it does not fall under the S0 catch-all for unapproved substances. The list changes yearly and should be checked; this page does not track it."
+    },
+    {
+      "question": "Can SS-31 be taken orally?",
+      "answer": "No oral form has been studied in people. Every trial used subcutaneous injection, intravenous infusion or eye drops, and the approved product is an injection. A four-amino-acid peptide taken by mouth would be expected to be digested."
     },
     {
       "question": "Which species has SS-31 been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats, Swine. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "answer": "Humans, in eleven studies in the ledger; mice and rats, in models of stroke, cardiac arrest, pulmonary fibrosis, ageing and oocyte quality; pigs, in embryo culture; and human cells. The animal literature is far larger than the human one and runs ahead of it in indications."
+    },
+    {
+      "question": "Has SS-31 been combined with MOTS-c or NAD+?",
+      "answer": "Not with MOTS-c in any study. One 2026 mouse study combined SS-31 with the NAD+ precursor NMN after brain ischaemia and reported less damage than either alone; it is a mouse result and the only combination evidence in the ledger."
     }
   ],
   "sources": [
@@ -1253,7 +1333,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 81.1,
+  "uniqueness_pct": 88.8,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1272,6 +1352,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 32 ledger sources by scripts/draft_claims.py: 42 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/ss-31.json: guide (8 sections incl. a trial-by-trial table), FAQ to 12 plus 10 from the map, mechanism, reported-use, regulatory (Forzinity approval 2025-09-19, pending_source for the label) and timeline claims; evidence tier set to approved-label by hand; three misdrafted interactions claims removed; intent-driven H1 and title. Triage: ChEMBL approval fields set by hand so the fact tiles agree with the tier; two directory links added."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "SS-31 in two minutes",
+      "html": "<p><strong>What it is.</strong> The research name of elamipretide, a synthetic four-amino-acid peptide that binds cardiolipin in the inner mitochondrial membrane. Since <strong>19 September 2025</strong> it has been an FDA-approved medicine, Forzinity, for muscle strength in Barth syndrome.</p><p><strong>What the research actually shows.</strong> 493 indexed publications and 16 randomized trials. In Barth syndrome, a 12-patient crossover trial missed its primary endpoints in the randomized phase, then showed sustained gains in walking distance and heart volumes over 168 weeks of open-label treatment, and beat a natural-history comparison group; that is the approval. In mitochondrial myopathy, a 218-patient phase 3 trial found no effect on either primary endpoint. In heart failure and two eye diseases, primary endpoints were missed.</p><p><strong>Dose in the trials.</strong> 40 mg once daily by subcutaneous injection, for 4 to 168 weeks; the first trial used intravenous infusion by body weight.</p><p><strong>Safety record.</strong> Injection-site reactions in up to 80% of treated participants, mostly mild; nothing else has separated from placebo across the programme.</p><p><strong>Where the evidence is thinnest.</strong> The gray-market use. One trial gave healthy older adults a single infusion: muscle ATP capacity rose for hours and fatigue did not change. No study has tested months of use in anyone without a mitochondrial disease, or the pairing with <a href=\"/compounds/mots-c\">MOTS-c</a>.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "Trial by trial: what elamipretide did and did not do",
+      "lede": "Every human study in the ledger, with its verdict in the last column. Read the primary-endpoint column before the open-label one.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of elamipretide (SS-31) in the ledger, in order of size.</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Population</th><th scope=\"col\">Dose and duration</th><th scope=\"col\">Primary endpoint</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>MMPOWER-3 (Karaa 2023)</td><td>218 adults with primary mitochondrial myopathy</td><td>40 mg/day SC, 24 weeks</td><td>6-minute walk; fatigue score</td><td><strong>Missed both.</strong> Walk distance -3.2 m vs placebo; well tolerated</td></tr><tr><td>Older-adult trial (Roshanravan 2021)</td><td>39 healthy adults aged 60 to 85 with poorly functioning muscle mitochondria</td><td>Single 2-hour IV infusion</td><td>Muscle ATP capacity</td><td><strong>Met, transiently.</strong> ATPmax up immediately, gone by day 7; no effect on fatigue resistance</td></tr><tr><td>MMPOWER (Karaa 2018)</td><td>36 adults with primary mitochondrial myopathy</td><td>IV 0.01, 0.1 or 0.25 mg/kg/h for 2 h, 5 days</td><td>6-minute walk at day 5</td><td><strong>Borderline.</strong> Highest dose +64.5 m vs +20.4 m placebo (p 0.053); dose-response significant</td></tr><tr><td>MMPOWER-2 (Karaa 2020)</td><td>30 adults with primary mitochondrial myopathy</td><td>40 mg/day SC, 4 weeks, crossover</td><td>6-minute walk</td><td><strong>Missed</strong> (+19.8 m, p 0.08); fatigue scores improved; injection-site reactions 80%</td></tr><tr><td>EMBRACE substudy (Hortmann 2019)</td><td>19 patients after heart attack, 10 treated</td><td>Not stated in abstract</td><td>Serum HtrA2 (biomarker)</td><td>Biomarker fell; no clinical outcome</td></tr><tr><td>TAZPOWER (Reid Thompson 2021)</td><td>12 males with Barth syndrome</td><td>40 mg/day SC, 12 weeks each arm, crossover</td><td>6-minute walk; symptom score</td><td><strong>Missed both</strong> in the randomized phase; at 36 weeks open-label +95.9 m and better symptoms</td></tr><tr><td>TAZPOWER extension (Thompson 2024)</td><td>10 entered, 8 completed</td><td>40 mg/day SC, 168 weeks</td><td>Safety</td><td>Well tolerated; cumulative +96.1 m walk; heart volumes improved; cardiolipin ratio improved</td></tr><tr><td>Natural-history comparison (Hornby 2022)</td><td>8 treated vs 19 untreated Barth patients</td><td>40 mg/day SC</td><td>6-minute walk at 64 and 76 weeks</td><td>+79.7 m and +91.0 m vs untreated; strength up. Not randomized</td></tr><tr><td>LHON eye drops (Karanjia 2024)</td><td>12 adults with Leber hereditary optic neuropathy</td><td>1% topical, 52 weeks, one or both eyes</td><td>Visual acuity</td><td><strong>Missed;</strong> well tolerated; post hoc visual-field signal</td></tr><tr><td>Expanded access (Koenig 2023; Ansari 2024; Ortmann 2025)</td><td>Children under 12; two adults with eye-predominant disorders; one newborn</td><td>Newborn: IV 0.25 then 0.5 mg/kg daily, then SC</td><td>None (case reports)</td><td>Reported improvements; no controls</td></tr></tbody></table></div></div><p>Two trials the ledger does not yet hold complete the record: <strong>PROGRESS-HF</strong> in heart failure (no change in left-ventricular volume at 28 days) and <strong>ReCLAIM-2</strong> in dry macular degeneration (primary endpoints missed, per the sponsor). Neither produced an approval.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every SS-31 dose in the trials and on the label, in one table",
+      "lede": "Every figure here is a trial dose or the approved label. The research-chemical figures that circulate were not derived from them and are not reproduced.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses of elamipretide administered in studies and stated on the label.</caption><thead><tr><th scope=\"col\">Source</th><th scope=\"col\">Route</th><th scope=\"col\">Dose</th><th scope=\"col\">Frequency and duration</th><th scope=\"col\">Population</th></tr></thead><tbody><tr><td>Forzinity label (2025)</td><td>Subcutaneous</td><td>Weight-gated: patients of at least 30 kg; 80 mg/mL solution</td><td>Once daily</td><td>Barth syndrome; dose reduced by half in severe kidney impairment per label</td></tr><tr><td>MMPOWER-2, MMPOWER-3, TAZPOWER and extension</td><td>Subcutaneous</td><td>40 mg</td><td>Once daily, 4 to 168 weeks</td><td>Mitochondrial myopathy; Barth syndrome</td></tr><tr><td>MMPOWER (2018)</td><td>Intravenous</td><td>0.01, 0.1 or 0.25 mg/kg per hour over 2 hours</td><td>Daily for 5 days</td><td>Mitochondrial myopathy</td></tr><tr><td>Older-adult trial (2021)</td><td>Intravenous</td><td>Single 2-hour infusion; dose not stated in the abstract</td><td>Once</td><td>Healthy adults 60 to 85</td></tr><tr><td>LHON trial (2024)</td><td>Topical eye drops</td><td>1% solution</td><td>Daily, 52 weeks plus extension</td><td>Leber hereditary optic neuropathy</td></tr><tr><td>Newborn case report (2025)</td><td>Intravenous, then subcutaneous</td><td>0.25 mg/kg, raised to 0.5 mg/kg</td><td>Daily from day 34 of life</td><td>Barth syndrome, infant</td></tr></tbody></table></div></div><p>The trial dose is the label dose in kind: 40 mg once a day under the skin. Vendor pages for 'SS-31 peptide' quote figures that are a fraction of it, chosen without any study; they are not reproduced here. Nothing on this page is an instruction to take anything.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who SS-31 is discussed for, and the cautions that recur",
+      "html": "<p><strong>Approved for:</strong> people with Barth syndrome weighing at least 30 kg, to improve muscle strength. <strong>Studied and not approved for:</strong> primary mitochondrial myopathy, heart failure, dry macular degeneration, Leber hereditary optic neuropathy, healthy older adults. <strong>Community:</strong> people seeking energy, longevity or recovery, for whom no trial exists.</p><p>The cautions come from the trial record and the label, not from a contraindication list:</p><ul class=\"list\"><li><strong>Injection-site reactions.</strong> Up to 80% of treated participants in MMPOWER-2 and the most common event in every subcutaneous trial. Mostly mild; the one consistent finding.</li><li><strong>Kidney impairment.</strong> The label halves the dose in severe renal impairment, which means the kidney matters to its clearance; anyone with reduced kidney function has a reason to read the label rather than a forum.</li><li><strong>Expecting a longevity effect.</strong> The one trial in healthy older adults found a transient change in a muscle-energetics measurement and no functional benefit.</li><li><strong>Expecting a myopathy effect.</strong> The 218-patient trial found none on its primary endpoints; a post hoc analysis suggested benefit in the nuclear-DNA subgroup, which is a hypothesis for the next trial, not a result.</li><li><strong>Children and pregnancy.</strong> Children under 30 kg are outside the label; use below that weight exists only as expanded-access case reports. No pregnancy data.</li><li><strong>Research-chemical vials.</strong> As with every unapproved product on <a href=\"/compounds\">this site's compound list</a>, Composition, sterility and dose are unverified; the approved product is a prescription medicine.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>Elamipretide's time course is unusually well documented. <strong>Hours:</strong> muscle ATP capacity rose during a two-hour infusion and had returned to baseline by day 7. <strong>Five days:</strong> a dose-dependent gain in walking distance in the first myopathy trial. <strong>Four to 24 weeks:</strong> no significant gain in walking distance in the two larger myopathy trials. <strong>Twelve weeks:</strong> no gain in the randomized Barth phase. <strong>36 to 168 weeks:</strong> steadily accumulating gains in walking distance, strength and heart volumes in the Barth extension, in eight to ten patients without a placebo arm. The pattern the developers draw from this is that cardiolipin repair takes months in the disease it fits and does not happen where cardiolipin is not the problem. What has never been measured is any outcome in a healthy person beyond one infusion.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>Forzinity is supplied as a ready-to-use solution with storage and handling set out in its prescribing information, which this page does not reproduce. Lyophilised research-chemical vials follow vendor sheets, not the label, and their stability is untested.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how SS-31 is discussed",
+      "html": "<ol class=\"list\"><li><strong>Not knowing it is an approved drug.</strong> Most 'SS-31 peptide' pages were written before September 2025 or ignore it. The molecule in the vial is elamipretide, and its label exists.</li><li><strong>Reading the approval as proof for every use.</strong> It covers muscle strength in Barth syndrome, a cardiolipin disorder, and was granted on accelerated terms from a 12-patient trial plus extension and a natural-history comparison. The 218-patient myopathy trial missed.</li><li><strong>Calling it an antioxidant.</strong> It does not scavenge radicals; it binds a lipid and changes how the respiratory chain sits. Its developers stopped using the word.</li><li><strong>Quoting a longevity dose.</strong> No trial has dosed healthy people for more than one infusion. The daily figures that circulate come from forums, not from the programme.</li><li><strong>Pairing it with MOTS-c as if tested.</strong> No study has combined or sequenced them.</li><li><strong>Counting open-label gains as trial results.</strong> The Barth extension's 96-metre improvement had no placebo arm; the randomized phase of the same trial found nothing. Both facts belong in the same sentence.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "SS-31 vs MOTS-c, humanin, NAD+ precursors and CoQ10",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>SS-31 beside the compounds it is paired or compared with in mitochondrial discussions.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">What it is</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>SS-31 (elamipretide)</strong></td><td>Synthetic tetrapeptide binding cardiolipin</td><td>Randomized trials; approved for Barth syndrome 2025</td><td>Prescription medicine (Forzinity); unapproved as a research chemical</td></tr><tr><td><a href=\"/compounds/mots-c\">MOTS-c</a></td><td>16-amino-acid peptide encoded in mitochondrial DNA, acting on metabolism; 277 indexed publications</td><td>4 randomized trials; 13 human studies in its ledger</td><td>Not approved; WADA S4.4</td></tr><tr><td><a href=\"/compounds/humanin\">Humanin</a></td><td>24-amino-acid mitochondrial-derived peptide; 589 indexed publications</td><td>5 randomized trials; 17 human studies in its ledger</td><td>Not approved; research only</td></tr><tr><td>NAD+ precursors (NMN, NR)</td><td>Oral supplements raising the coenzyme NAD+</td><td>Small randomized trials of NAD+ levels; no disease approval</td><td>Dietary supplements; no record on this site</td></tr><tr><td>Coenzyme Q10</td><td>Electron carrier in the respiratory chain</td><td>Many small trials in mitochondrial disease with inconsistent results</td><td>Dietary supplement; no record on this site</td></tr></tbody></table></div></div><p>The pairing with MOTS-c that drives the comparison demand has no study behind it; the site's <a href=\"/compare\">comparison pages</a> list every pair that has been examined. One 2026 mouse study combined SS-31 with NMN after brain ischaemia, which is the only combination evidence in the ledger; it is quoted in the combination section if that section is present, and it is not a human result.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
