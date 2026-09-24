@@ -1,0 +1,501 @@
+{
+  "slug": "humanin",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "stage0_note": "All seventeen human rows in the ledger are studies that measured endogenous humanin (exercise, diet, hyperbaric oxygen, disease biomarkers); none administered it. The trial table says so; the tier 'human clinical trial' reflects trial design, not treatment evidence. Same administered-versus-measured script item as kisspeptin and LL-37. The 2020 tumour-promotion paper (PMID 32444831) that ranks second on the SERP is not in the ledger and is cited editorially.",
+  "serp_2026-09-24": {
+    "query": "humanin peptide",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "organic_top": [
+      "nature.com (2020 tumour paper)",
+      "sciencedirect.com topic",
+      "pmc (2023 review)",
+      "americanpeptides.us (vendor)",
+      "superpower.com",
+      "genscript.com (reagent vendor)",
+      "aging-us.com (paper)",
+      "pmc (2013 review)"
+    ],
+    "note": "Primary papers, reviews, a reagent vendor and one physician-reviewed guide. The AI Overview cites PMC, ScienceDirect, Aging, PubMed and vendors. The incumbent dosing guide is absent."
+  },
+  "demand_findings": "'humanin' 1,984 (KD 13) and 'humanin peptide' 1,322 (KD 0); reddit 101; 'hng peptide' and 'humanin hng' 50. Every other query, including dosage, benefits, Alzheimer's and 'mitochondrial derived peptides', is unindexed or Ads-only. The People-also-ask questions are about uses, linked diseases, FDA status and side effects. The smallest-demand compound page written so far after Cartalax; measured in the same batch, melanotan 2 carries 12,261 across two spellings and is the next page.",
+  "h1": "Humanin peptide: what the mouse and cell studies show, why nobody has given it to a person, and what the tumour study means for the vials",
+  "dek": "A peptide encoded in mitochondrial DNA that protects cells from dying, discovered in an Alzheimer's screen and sold for longevity. Every human study measured the body's own humanin; none gave it. This page tables the animal work with its doses, the human biomarker studies for what they are, and the 2020 finding that vendors leave out: in mice with breast cancer, humanin protected the tumour.",
+  "queries": [
+    {
+      "query": "humanin",
+      "volume": {
+        "clickstream": 1984,
+        "google_ads": 1900,
+        "kd": 13,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What humanin is, and why the body makes more of it with age"
+    },
+    {
+      "query": "humanin peptide",
+      "volume": {
+        "clickstream": 1322,
+        "google_ads": 2400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What humanin is, and why the body makes more of it with age"
+    },
+    {
+      "query": "humanin reddit",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 40,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe subcutaneous injection of humanin or HNG for longevity, energy and 'mitochondrial health'. No study has given either to a person; the doses people use are scaled from mouse experiments."
+    },
+    {
+      "query": "hng peptide",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 90,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is HNG (humanin-G)?",
+      "answer": "HNG is humanin with glycine replacing serine at position 14 (S14G), an analogue roughly a thousand times more potent than the natural peptide in cell-protection assays. It is the form used in most animal studies, including the retinal-degeneration rat work and the mouse healthspan study, and the form usually sold as a research chemical. Like humanin itself, it has never been given to a person in a study."
+    },
+    {
+      "query": "humanin hng",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 30,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is HNG (humanin-G)?"
+    },
+    {
+      "query": "humanin alzheimer",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does humanin help Alzheimer's disease?",
+      "answer": "Humanin was discovered in 2001 in a screen for genes that protected neurons from Alzheimer's-type insults, and it protects cultured neurons and mouse models from amyloid toxicity. In people, an exercise study found neuron-derived vesicles carrying more humanin after training in Alzheimer's patients, and a dementia trial measured serum humanin as a marker. No one with Alzheimer's has been given humanin in a study."
+    },
+    {
+      "query": "humanin benefits",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "evidence_table",
+      "heading": "What did the studies find?",
+      "boundary": "Results in mice, rats and cells, plus human studies that measured the body's own humanin after exercise, diet or disease. No study has given humanin or its analogue HNG to a person."
+    },
+    {
+      "query": "humanin dosage",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 40,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every humanin and HNG dose in the literature, in one table",
+      "boundary": "Every figure here was injected into a mouse or rat, or added to a culture. No human dose exists, and the figures that circulate are not reproduced."
+    },
+    {
+      "query": "humanin g",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": 33,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is HNG (humanin-G)?"
+    },
+    {
+      "query": "humanin supplement",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": 38,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe subcutaneous injection of humanin or HNG for longevity, energy and 'mitochondrial health'. No study has given either to a person; the doses people use are scaled from mouse experiments."
+    },
+    {
+      "query": "mitochondrial derived peptides",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 70,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How humanin works: a peptide encoded in mitochondrial DNA"
+    },
+    {
+      "query": "humanin side effects",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: nothing recorded in people, and a tumour signal in mice",
+      "boundary": "No human has received humanin in a study, so there is no side-effect record. What exists is the biology: humanin blocks the cell-death machinery, and in a 2020 mouse study of breast cancer it protected the tumour and sped its spread."
+    },
+    {
+      "query": "humanin half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of humanin?",
+      "answer": "Not measured in people. Humanin is a 24-amino-acid peptide degraded quickly in plasma; the analogue HNG was made partly for stability, and animal studies dose it every few days to twice a week. No human pharmacokinetic study exists, and no abstract in the ledger states a figure."
+    },
+    {
+      "query": "humanin longevity",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does humanin extend lifespan?",
+      "answer": "In mice, one study gave old females the analogue HNG twice a week for six months and found better cognition and metabolic markers, not a longer life; the study is cited editorially and is not in the ledger. In people, humanin levels rise with age and are highest in centenarians, which the field reads as a stress response rather than a cause of longevity. No human has been given humanin to test the idea."
+    },
+    {
+      "query": "humanin mitochondria",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How humanin works: a peptide encoded in mitochondrial DNA"
+    },
+    {
+      "query": "humanin vs mots-c",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Humanin vs MOTS-c, SS-31 and the other mitochondrial peptides",
+      "boundary": "MOTS-c and SS-31 are the compounds humanin is paired with. SS-31 is an approved medicine with trials; MOTS-c has small human studies; humanin has none. The trio is sold as a set, and its evidence is not."
+    },
+    {
+      "query": "humanin reconstitution",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "humanin injection",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: intraperitoneal and subcutaneous in rodents, nothing in people",
+      "boundary": "Intraperitoneal injection in most rodent studies, a subcutaneous infusion pump in one rat study, and culture medium. No study has given humanin to a person by any route."
+    },
+    {
+      "query": "humanin fda",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: a research reagent with no development programme"
+    },
+    {
+      "query": "humanin levels",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Human studies: what was measured, since nothing was given",
+      "boundary": "Every human study in the ledger measured the body's own humanin, in blood, muscle or vesicles, after exercise, diet, hyperbaric oxygen or in disease. None gave the peptide."
+    },
+    {
+      "query": "humanin centenarians",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Human studies: what was measured, since nothing was given",
+      "boundary": "Every human study in the ledger measured the body's own humanin, in blood, muscle or vesicles, after exercise, diet, hyperbaric oxygen or in disease. None gave the peptide."
+    },
+    {
+      "query": "what is humanin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is humanin?",
+      "answer": "Humanin is a 24-amino-acid peptide encoded, unusually, in mitochondrial DNA, within the 16S ribosomal RNA gene. Discovered in 2001 in a search for genes that protected neurons from Alzheimer's-type damage, it blocks the cell-death machinery (BAX and BID) and signals through a cell-surface receptor complex. Its blood levels rise with age and after exercise. It has been given to mice and rats, never to people."
+    },
+    {
+      "query": "what is humanin peptide used for",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is humanin used for?",
+      "answer": "In research, as a tool for studying cell survival, mitochondrial stress and ageing, and as a candidate neuroprotectant and cardioprotectant in animal models. In people it is measured as a biomarker. Outside the literature it circulates for longevity and 'mitochondrial health', a use with no human study behind it.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "what diseases is humanin linked to",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What diseases is humanin linked to?",
+      "answer": "As a biomarker, its levels shift in Alzheimer's disease, type 2 diabetes, kidney disease, heart failure, atrial fibrillation, inflammatory bowel disease in children, and several cancers, where it is often raised. As an intervention in animals it has protected heart, brain, retina, kidney and testis. As a possible driver, a 2020 mouse study found it protected breast-cancer cells and sped tumour spread.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "is humanin fda approved",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: a research reagent with no development programme",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "what are the potential side effects of humanin peptide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: nothing recorded in people, and a tumour signal in mice",
+      "boundary": "No human has received humanin in a study, so there is no side-effect record. What exists is the biology: humanin blocks the cell-death machinery, and in a 2020 mouse study of breast cancer it protected the tumour and sped its spread.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://superpower.com/guides/peptides/humanin",
+      "rank": 8,
+      "words": 5679,
+      "tables": 0,
+      "h2": 14,
+      "h3": 24,
+      "sci_links": 45,
+      "byline": "Reviewed by William Maish, MD MBA MPH",
+      "score": 25,
+      "gap": "45 citations, a physician reviewer, correct that no human trial exists; cites the mouse HNG healthspan study and the centenarian data; no trial table separating given from measured",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F4 S9 U4"
+    },
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/humanin",
+      "rank": null,
+      "words": 5309,
+      "tables": 9,
+      "h2": 20,
+      "h3": 76,
+      "sci_links": 8,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 24,
+      "gap": "States plainly there is no human RCT, then builds nine tables around the mouse HNG protocol scaled to humans; flags cancer history as a caution; not in the Google top 10 for 'humanin peptide' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D9 F8 S4 U3"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Humanin",
+      "rank": null,
+      "words": 3355,
+      "tables": 17,
+      "h2": 9,
+      "sci_links": 141,
+      "score": 24,
+      "gap": "141 references on gene, protein, interactions and discovery; research section; nothing on the products people buy",
+      "source": "fetched 2026-09-24, metrics measured; scored D6 F4 S9 U5"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-020-65381-7",
+      "rank": 2,
+      "score": null,
+      "gap": "The 2020 tumour-progression paper ranks second: the SERP itself surfaces the safety signal vendors omit",
+      "source": "SERP result; abstract retrieved, not in the ledger"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10135985/",
+      "rank": 6,
+      "score": null,
+      "gap": "A 2023 ageing review ranks sixth and a 2013 review eleventh",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that states that all seventeen human studies of humanin in the ledger measured the body's own peptide and none administered it, tabulating what each measured (blood, muscle, neuron-derived vesicles; after exercise, diet, hyperbaric oxygen, in dementia, dialysis, cancer); that tables every animal dose (HNG 4 mg/kg intraperitoneally twice weekly, 0.4 to 4 mg/kg in rats, 1 mg/kg/day by subcutaneous pump) beside the fact that the products sold are scaled from them; that reports the 2020 mouse finding that systemic humanin protected triple-negative breast-cancer cells, blunted chemotherapy and accelerated metastasis, which the SERP surfaces and vendors omit; and that explains why a peptide that rises with age and peaks in centenarians is read as a stress signal rather than a fountain of youth.",
+  "serp_format_rewarded": "Review-style explainer. Primary papers and reviews rank; a cited page with a measured-versus-given table, an animal-dose table and the tumour finding fits what the SERP already rewards.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add Moreno Ayala 2020 (Sci Rep, PMID 32444831), the tumour-progression paper, to the ledger; it is the most important safety signal and is cited editorially.",
+    "Add Yen 2020 (Aging), the HNG healthspan mouse study, and Hashimoto 2001 (PNAS), the discovery paper; both cited editorially.",
+    "The fetcher's human rows should distinguish administered from measured studies; seventeen of seventeen here measured (accept-script, precedent kisspeptin, LL-37).",
+    "No pharmacokinetic study of humanin or HNG in any species is in the ledger."
+  ]
+}
