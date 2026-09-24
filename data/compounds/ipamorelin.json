@@ -15,8 +15,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "Ipamorelin is a peptide in the ghrelin mimetics class (ghrelin receptor, or GHS-R1a, agonist) studied in human and preclinical research. Europe PMC indexes 63 publications naming Ipamorelin or a listed alias in a title or abstract as of 2026-09-14. The current ledger contains 2 human clinical studies, both randomized, alongside animal, analytical, and in-vitro records. That publication count is a discovery measure, not proof of efficacy or safety. The cited human evidence is limited and mixed: one postoperative-ileus trial reported no significant difference from placebo in its key efficacy analyses. This page reports what the studies state, sentence by sentence, with each statement tied to its source and labeled by evidence type. It does not recommend use or translate study doses into personal instructions.",
   "seo": {
-    "title": "Ipamorelin: what the research shows",
-    "description": "Ipamorelin: 63 indexed publications, 2 randomized trials, 4 human studies, each claim quoted and tiered. Strongest evidence: human clinical trial."
+    "title": "Ipamorelin Dosing, Side Effects, Half-Life & Research Review",
+    "description": "Ipamorelin explained: doses used in studies vs what circulates, side effects, two-hour half-life, how it works, FDA and WADA status, full evidence table."
   },
   "evidence_assessment": {
     "availability": "Human clinical research",
@@ -832,20 +832,68 @@
   },
   "faq": [
     {
-      "question": "Has Ipamorelin been tested in humans?",
-      "answer": "Yes. The current ledger contains 2 human clinical studies, both randomized. One evaluated postoperative ileus and reported no significant difference from placebo in its key efficacy analyses; the other examined growth-hormone release and pharmacokinetics. These studies do not establish an approved therapeutic dose or prove efficacy for other uses."
+      "question": "What is ipamorelin used for?",
+      "answer": "It has no approved use. It was developed to release growth hormone and tested for post-surgical gut recovery, where it failed. Outside the literature it is used for body composition, recovery and sleep, none of which has been measured in a human trial."
     },
     {
-      "question": "What kind of evidence exists for Ipamorelin?",
-      "answer": "The indexed literature includes human clinical, animal, analytical, and in-vitro records. Human clinical evidence is available but limited and mixed; the evidence table keeps those records separate from preclinical and measurement studies. A human-clinical label means that a study exists, not that efficacy or safety has been established."
+      "question": "How long is ipamorelin's half-life?",
+      "answer": "About two hours in the human pharmacokinetic study, with growth hormone peaking around 40 minutes after dosing. Each injection produces one pulse."
     },
     {
-      "question": "Is Ipamorelin an approved medicine?",
-      "answer": "ChEMBL records CHEMBL58547 at maximum clinical phase 2, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+      "question": "What dose of ipamorelin did studies use?",
+      "answer": "Healthy volunteers received single intravenous infusions from 4.2 to 140 nmol/kg; surgical patients received 0.03 mg/kg intravenously twice daily for up to a week. Neither was chosen to optimise an outcome in healthy people. The 100 to 300 µg subcutaneous figures that circulate come from communities, not trials."
     },
     {
-      "question": "Which species has Ipamorelin been studied in?",
-      "answer": "Studies in this record's ledger report work in: Dogs, Humans, Mice, Rats, Swine. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "What are the side effects of ipamorelin?",
+      "answer": "The surgical trial reported it as tolerated with no signal distinguishing it from placebo over a week. Community reports describe flushing, headache, hunger, water retention and injection-site redness. Long-term effects, and effects on blood glucose and IGF-1 with repeated use, have not been studied."
+    },
+    {
+      "question": "Does ipamorelin raise cortisol?",
+      "answer": "In the 1998 animal work that gave it its reputation, it released growth hormone without the cortisol and ACTH rise seen with GHRP-6 and GHRP-2. That is the selectivity claim; it has not been tested in a long-term human study."
+    },
+    {
+      "question": "Ipamorelin vs CJC-1295: what is the difference?",
+      "answer": "Different receptors. Ipamorelin acts on the ghrelin receptor; CJC-1295 is a GHRH analogue. Both drive growth hormone release, which is why they are commonly combined. Three indexed papers mention both; none tested the combination for a user-relevant outcome."
+    },
+    {
+      "question": "Ipamorelin vs sermorelin?",
+      "answer": "Sermorelin is a GHRH analogue with a half-life of minutes that was once approved for children with growth hormone deficiency; ipamorelin acts on the ghrelin receptor with a two-hour half-life and was never approved. They are different classes, not alternatives within one."
+    },
+    {
+      "question": "Is ipamorelin FDA approved?",
+      "answer": "No. It has appeared on FDA's interim list of compounding bulk substances in the category flagged for significant safety concerns, and was discussed by FDA's compounding advisory committee in 2024. Its current category should be checked on FDA's live list."
+    },
+    {
+      "question": "Is ipamorelin banned in sport?",
+      "answer": "Yes. WADA lists growth hormone secretagogues, ipamorelin among them, under S2, prohibited at all times."
+    },
+    {
+      "question": "How long does ipamorelin take to work?",
+      "answer": "The growth hormone pulse is measured within the hour. Anything reported over weeks, sleep, recovery, body composition, is self-report from communities and has not been measured against placebo."
+    },
+    {
+      "question": "Does ipamorelin build muscle or burn fat?",
+      "answer": "No human trial has measured either. Growth hormone can do both in deficiency states; whether pulses from a secretagogue do so in healthy adults is unknown for ipamorelin."
+    },
+    {
+      "question": "Can ipamorelin be taken orally?",
+      "answer": "It is a peptide and is degraded in the gut; studies used intravenous infusion and communities use subcutaneous injection. An orally active secretagogue exists (ibutamoren), with a different profile."
+    },
+    {
+      "question": "How should ipamorelin be stored?",
+      "answer": "As a powder, refrigerated or frozen away from light; once dissolved in bacteriostatic water, commonly refrigerated and used within about four weeks. Discard cloudy or discoloured solution."
+    },
+    {
+      "question": "What blood tests are relevant?",
+      "answer": "IGF-1 as the downstream marker; fasting glucose and HbA1c because growth hormone opposes insulin; cortisol and prolactin to check the selectivity claim; thyroid and lipids as with any growth hormone exposure. No schedule has been validated for ipamorelin."
+    },
+    {
+      "question": "Has ipamorelin been tested in humans?",
+      "answer": "Twice: a pharmacokinetic study in healthy volunteers (1999) and a randomized phase 2 trial in 114 surgical patients (2014). Both are quoted on this page."
+    },
+    {
+      "question": "Which species has ipamorelin been studied in?",
+      "answer": "Humans, rats and pigs in the indexed literature, plus cell work. Findings do not transfer between species, and weight-normalised doses in particular do not scale linearly."
     }
   ],
   "sources": [
@@ -1096,7 +1144,64 @@
     {
       "date": "2026-09-23",
       "change": "Editorial sections added from general knowledge, labelled editorial synthesis: mechanism and development history (3), what is commonly reported outside the literature (2), FDA compounding and WADA status (2, primary documents pending). Indexing opened: pages publish as compiled."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written guide added (9 editorial sections: quick answer, dosage chart, reconstitution, who should avoid, timeline, storage, monitoring, mistakes, five-compound comparison), FAQ expanded to 16, intent-driven H1 and title. Claim cards remain as the cited receipts beneath the prose."
     }
   ],
-  "prose_reviewed": true
+  "prose_reviewed": true,
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Ipamorelin in two minutes",
+      "html": "<p><strong>What it is.</strong> A synthetic five-amino-acid peptide that makes the pituitary release a short pulse of growth hormone by acting on the ghrelin receptor. Developed by Novo Nordisk in the 1990s; taken into a phase 2 trial for post-surgical gut recovery, where it did not beat placebo; never approved anywhere.</p><p><strong>What the research actually shows.</strong> Two human trials exist. One measured how the body handles it in healthy volunteers: a two-hour half-life and a growth hormone peak about 40 minutes after dosing. The other, in 114 surgical patients, found no benefit. No trial has measured muscle, fat, sleep, recovery or ageing outcomes in people. Animal and cell work shows growth hormone release with little effect on cortisol or prolactin, which is the basis of its reputation for selectivity.</p><p><strong>What people commonly report using.</strong> 100 to 300 micrograms by subcutaneous injection, one to three times daily, usually paired with CJC-1295, often at night. Those figures come from communities and clinics, not trials.</p><p><strong>Status.</strong> Not FDA-approved; on FDA's compounding watch list with safety concerns flagged; prohibited in sport at all times under WADA's S2 category.</p><p><strong>Where the evidence is thinnest.</strong> Long-term safety, effects on blood sugar and IGF-1 with repeated use, interactions, and any human outcome anyone is actually buying it for.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Ipamorelin dosage chart: studies versus what circulates",
+      "lede": "Two very different kinds of figure appear when people search for an ipamorelin dose. This table keeps them apart.",
+      "html": "<p>Everything in the first two rows was administered in a study to answer a research question; nothing in the lower rows has been tested for the purposes it is used for. Body-weight doses from animals do not convert to people by simple arithmetic.</p><div class='card clip'><div class='tblwrap'><table class='tbl'><thead><tr><th scope='col'>Source of the figure</th><th scope='col'>Dose</th><th scope='col'>Frequency and duration</th><th scope='col'>What it was for</th></tr></thead><tbody><tr><td>Human pharmacokinetic study (1999)</td><td>Five intravenous infusion rates, 4.2 to 140 nmol/kg over 15 minutes</td><td>Single doses</td><td>Healthy volunteers; measured GH release and clearance</td></tr><tr><td>Human phase 2 trial (2014)</td><td>0.03 mg/kg intravenously, twice daily</td><td>Up to 7 days</td><td>114 patients after bowel surgery; no benefit over placebo</td></tr><tr><td>Animal studies</td><td>10 to 300 µg/kg, various routes</td><td>Days to weeks</td><td>Growth hormone release, bone growth, gut motility in rats and pigs</td></tr><tr><td>Commonly reported (communities, clinics)</td><td>100 to 300 µg subcutaneously</td><td>1 to 3 times daily, often 8 to 12 weeks</td><td>Untested for these uses; frequently combined with CJC-1295</td></tr><tr><td>Commonly reported timing</td><td>Fasted, before bed or after training</td><td>—</td><td>Reasoning: avoid blunting the GH pulse with a glucose rise; untested</td></tr></tbody></table></div></div><p>The most common misreading is treating the study doses as a validated human range. They were chosen to characterise the drug or to test a surgical outcome, not to optimise anything a healthy person wants. The commonly reported figures, in turn, have never been measured against any outcome, and their consistency across websites reflects copying, not evidence.</p>"
+    },
+    {
+      "id": "reconstitution",
+      "heading": "Reconstituting ipamorelin: concentrations for common vial sizes",
+      "lede": "Ipamorelin is sold as a freeze-dried powder that is dissolved before use. The arithmetic below is exact; the choice of what to draw is not made here.",
+      "html": "<p>Concentration is mass divided by volume. Adding <strong>2 mL</strong> of bacteriostatic water to a vial gives the concentrations in the table; the last column is the volume that would contain 100 µg, purely as a worked example of the arithmetic.</p><div class='card clip'><div class='tblwrap'><table class='tbl'><thead><tr><th scope='col'>Vial</th><th scope='col'>Diluent added</th><th scope='col'>Concentration</th><th scope='col'>Volume holding 100 µg on a U-100 syringe</th></tr></thead><tbody><tr><td>2 mg</td><td>2 mL</td><td>1,000 µg/mL</td><td>0.10 mL (10 units)</td></tr><tr><td>5 mg</td><td>2 mL</td><td>2,500 µg/mL</td><td>0.04 mL (4 units)</td></tr><tr><td>5 mg</td><td>2.5 mL</td><td>2,000 µg/mL</td><td>0.05 mL (5 units)</td></tr><tr><td>10 mg</td><td>2 mL</td><td>5,000 µg/mL</td><td>0.02 mL (2 units)</td></tr></tbody></table></div></div><p>Points people commonly get wrong: reading a 5 mg vial as 5 <em>mL</em>; assuming the vial's stated mass is all peptide when a certificate of analysis may show 80 to 90 percent net peptide content; and using sterile rather than bacteriostatic water for a multi-dose vial, which has no preservative against bacterial growth over the days the vial is in use. The <a href='/tools/reconstitution-calculator'>reconstitution calculator</a> does the division with the formula shown.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who ipamorelin is discussed for, and who is commonly advised to avoid it",
+      "lede": "There is no approved indication, so there is no approved patient. What follows is the pharmacological reasoning that appears in the literature on growth hormone secretagogues generally.",
+      "html": "<p><strong>The interest.</strong> Because it raises growth hormone in a pulse rather than supplying growth hormone directly, ipamorelin is discussed by people seeking the effects associated with growth hormone, body composition, recovery, sleep quality, while avoiding the feedback suppression and cost of injected growth hormone. That reasoning is plausible and untested in any human trial.</p><p><strong>Reasons for caution that recur in the secretagogue literature.</strong></p><ul><li><strong>Active or recent cancer.</strong> Growth hormone and IGF-1 promote cell growth; secretagogues are generally regarded as inappropriate where a growth-hormone-sensitive tumour may be present.</li><li><strong>Diabetes and impaired glucose tolerance.</strong> Growth hormone raises blood glucose and opposes insulin; small rises in fasting glucose and HbA1c are reported with several secretagogues, notably the oral agent ibutamoren.</li><li><strong>Pregnancy and breastfeeding.</strong> No data at all.</li><li><strong>Adolescents.</strong> Growth plates respond to growth hormone; the rat bone-growth study is the reason this appears on every caution list.</li><li><strong>Acromegaly, pituitary disease, and uncontrolled thyroid disease.</strong> The axis being stimulated is already abnormal.</li><li><strong>Competitive athletes</strong> subject to anti-doping rules, for whom detection methods exist and a positive test is a four-year default sanction.</li></ul><p>None of these is specific to ipamorelin; they follow from what growth hormone does. Their absence from many marketing pages is a gap in those pages, not evidence of safety.</p>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What happens after a dose, and what people report over weeks",
+      "lede": "Minutes and hours are measured; weeks and months are reported. The two should not be read in the same voice.",
+      "html": "<p><strong>Measured.</strong> In healthy volunteers, growth hormone rose to a single peak about 40 minutes after an infusion and returned toward baseline over the following hours; the drug's own half-life was about two hours. That is one pulse per injection, which is why the compound is discussed as mimicking the body's natural pattern rather than flattening it.</p><p><strong>Commonly reported, untested.</strong> Users describe warmth or flushing and sometimes a headache within minutes of injection, hunger within an hour, subjectively deeper sleep within the first week or two, and changes in recovery and body composition described over eight to twelve weeks. Injection-site redness and water retention are mentioned. None of this has been measured against placebo, and expectancy effects in self-report over that timescale are large.</p><p><strong>What would change the picture.</strong> A placebo-controlled trial measuring IGF-1, body composition and sleep architecture over three months. None has been registered.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>As a freeze-dried powder, peptides of this size are typically kept refrigerated at 2 to 8 °C for months or frozen at −20 °C for longer, protected from light and moisture; suppliers' own stability statements vary and a certificate of analysis dated close to purchase matters more than a generic figure. Once dissolved in bacteriostatic water, a vial is commonly kept refrigerated and used within about four weeks; repeated warming, agitation and sunlight degrade peptide solutions faster than time alone. Cloudiness, colour or particles in a solution that was clear are reasons to discard it. The one published stability finding in this record's ledger concerns detection in urine for anti-doping, not shelf life.</p>"
+    },
+    {
+      "id": "monitoring",
+      "heading": "Blood tests and monitoring that appear in the literature",
+      "lede": "A clinician following a growth hormone secretagogue would look at the axis it stimulates and the metabolic cost of stimulating it.",
+      "html": "<div class='card clip'><div class='tblwrap'><table class='tbl'><thead><tr><th scope='col'>Measure</th><th scope='col'>Why it appears</th><th scope='col'>When it is typically drawn</th></tr></thead><tbody><tr><td>IGF-1</td><td>The stable downstream marker of growth hormone exposure</td><td>Baseline, then after 6 to 8 weeks</td></tr><tr><td>Fasting glucose and HbA1c</td><td>Growth hormone opposes insulin</td><td>Baseline and periodically</td></tr><tr><td>Cortisol and prolactin</td><td>The selectivity claim: ipamorelin is reported not to raise them</td><td>Baseline; the 1998 animal study is the origin of the claim</td></tr><tr><td>Thyroid panel</td><td>Growth hormone alters T4 to T3 conversion</td><td>Baseline</td></tr><tr><td>Lipids and blood pressure</td><td>Fluid retention and metabolic shifts with GH</td><td>Baseline and periodically</td></tr></tbody></table></div></div><p>No monitoring schedule has been validated for ipamorelin specifically; the table reflects what is monitored for growth hormone therapy and for other secretagogues.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how ipamorelin is discussed",
+      "html": "<ul><li><strong>Reading the two human trials as efficacy evidence.</strong> One measured pharmacokinetics; the other failed its endpoint. Neither supports the uses it is sold for.</li><li><strong>Treating 'selective' as 'safe'.</strong> Selectivity means less cortisol and prolactin release than GHRP-6; it says nothing about glucose, IGF-1 or long-term effects.</li><li><strong>Converting animal doses by body weight.</strong> A µg/kg figure from rats is a fact about rats. Allometric scaling is not linear, and no human dose was ever derived this way in a trial.</li><li><strong>Assuming the vial contains what the label says.</strong> Unregulated products vary in identity, purity and net peptide content; a certificate from an independent laboratory, matched to the batch, is the only check.</li><li><strong>Stacking on the assumption the combination was studied.</strong> Three indexed papers mention ipamorelin and CJC-1295 together; none tested the pair for a body-composition or recovery outcome.</li><li><strong>Calling it legal because it is sold.</strong> Sale as a 'research chemical' is not approval, and in sport it is prohibited at all times.</li></ul>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Ipamorelin vs CJC-1295, sermorelin, tesamorelin and GHRP-6",
+      "lede": "These are the comparisons people search for. Only sermorelin and tesamorelin have ever been approved medicines, and only tesamorelin still is, for one narrow indication.",
+      "html": "<div class='card clip'><div class='tblwrap'><table class='tbl'><thead><tr><th scope='col'>Compound</th><th scope='col'>Mechanism</th><th scope='col'>Half-life (reported)</th><th scope='col'>Selectivity for GH</th><th scope='col'>Human evidence</th><th scope='col'>Status</th></tr></thead><tbody><tr><td>Ipamorelin</td><td>Ghrelin receptor agonist (GHS-R1a)</td><td>~2 h</td><td>High: little cortisol or prolactin rise</td><td>Two trials; no efficacy shown</td><td>Not approved; WADA S2</td></tr><tr><td>CJC-1295 (modified GRF 1-29)</td><td>GHRH analogue; with DAC, days-long half-life</td><td>Minutes (no DAC) to ~6 to 8 days (DAC)</td><td>Not applicable (different receptor)</td><td>Phase 1 to 2 data; development stopped</td><td>Not approved; WADA S2</td></tr><tr><td>Sermorelin</td><td>GHRH analogue (GHRH 1-29)</td><td>~10 to 20 min</td><td>Not applicable</td><td>Approved for paediatric GH deficiency (US, 1997), later withdrawn commercially</td><td>Withdrawn; WADA S2</td></tr><tr><td>Tesamorelin</td><td>GHRH analogue</td><td>~30 min</td><td>Not applicable</td><td>Phase 3 trials; approved for HIV-associated abdominal fat</td><td>Approved (US, 2010) for one indication; WADA S2</td></tr><tr><td>GHRP-6</td><td>Ghrelin receptor agonist</td><td>~20 to 30 min</td><td>Low: raises cortisol, prolactin and hunger</td><td>Early human pharmacology only</td><td>Not approved; WADA S2</td></tr></tbody></table></div></div><p>The structural point behind every 'stack' is that a GHRH analogue and a ghrelin receptor agonist act on two different receptors that together drive the same growth hormone pulse, so combining them is pharmacologically coherent. Coherent is not the same as tested: no trial has measured any combination of these compounds for the outcomes users pursue. Head-to-head pages: <a href='/compare/ipamorelin-vs-ghrp-6'>ipamorelin vs GHRP-6</a>; <a href='/compounds/sermorelin'>sermorelin</a> and <a href='/compounds/tesamorelin'>tesamorelin</a> have their own records.</p>"
+    }
+  ]
 }
