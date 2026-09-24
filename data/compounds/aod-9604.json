@@ -11,11 +11,11 @@
   ],
   "slug": "aod-9604",
   "status": "draft",
-  "evidence_tier": "animal-preclinical",
+  "evidence_tier": "human-clinical-trial",
   "summary": "AOD-9604 is a peptide in the metabolic other class (hGH(176-191) fragment; lipolytic activity claimed, GH-receptor independent). Europe PMC indexes 25 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is animal studies only, with no indexed human study. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "AOD-9604: what the research shows",
-    "description": "AOD-9604 research, cited: 25 indexed publications, 0 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "AOD-9604 (HGH Fragment 176-191): Six Trials, Dose, Status",
+    "description": "AOD-9604 (HGH fragment 176-191): six placebo-controlled trials in 893 people, every dose, why development stopped in 2007, side effects, GRAS and WADA status."
   },
   "attributes": {
     "routes_studied": [
@@ -47,19 +47,126 @@
         "drafting": "extractive"
       }
     ],
-    "study_doses": [],
+    "study_doses": [
+      {
+        "value": "Intravenous doses of 25 to 400 micrograms per kilogram in the first two trials; oral doses of 0.25 to 54 mg a day in the last four.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "The administered doses of the study product ranged from 25 µg up to 400 µg per kg bodyweight for the injectable product (i.v. administration in study METAOD001 and METAOD002) and from 0.25 mg/day to 54 mg/day for the orally administered capsules/tablets (capsules METAOD003 - METAOD005; tablets: METAOD006).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The 24-week phase 2b tested 0.25, 0.5 and 1 mg tablets daily in 502 obese adults.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "METAOD006: A Phase IIb, randomized, double-blind, placebo-controlled study to assess the efficacy (reduction in body weight), safety and tolerability of 24 weeks treatment with different doses of AOD9604 tablets (0.25 mg, 0.5 mg, 1 mg, or placebo) in 502 obese adults.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The 12-week phase 2b tested 1 to 30 mg capsules daily in 300 obese adults.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "METAOD005: A Phase IIb (randomized, double-blind, placebo-controlled) study to assess the efficacy (reduction in body weight), safety and tolerability of 12 weeks treatment with daily doses (1, 5, 10, 20 or 30 mg AOD9604) administered orally (capsules) in 300 healthy, clinically obese males, and females of non-child bearing potential, with a BMI ≥ 35 kg/m 2 .",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Single oral doses of 9, 27 and 54 mg, and seven days of the same doses, in the phase 2a studies.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "METAOD004: A Phase IIa (double-blind, placebo-controlled, dose escalation) safety study with multiple daily doses (9, 27 or 54 mg AOD9604) administered orally (capsules) for seven days in 36 healthy clinically obese males presenting with a BMI ≥ 30 kg/m 2 .",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Obese Zucker rats received 500 micrograms per kilogram orally each day for 19 days and gained less than half the weight of controls.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11146367"
+        ],
+        "source_excerpt": "Daily treatment with an oral dose of AOD9604 of 500 microg/kg body weight for 19 days reduced over 50% (15.8 +/- 0.6 vs. 35.6 +/- 0.8 g) body weight gain of the animals in comparison with the control.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Rabbits with collagenase-induced knee arthritis received weekly intra-articular injections of 0.25 mg, alone or with 6 mg hyaluronic acid.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-26275694"
+        ],
+        "source_excerpt": "Weekly injections of 0.6 mL saline (Group 1), 6 mg HA (Group 2), 0.25 mg AOD9604 (Group 3), and 0.25 mg AOD9604 with 6 mg HA (Group 4) were administered for 4-7 weeks after the first intra-articular collagenase injection.",
+        "drafting": "extractive"
+      }
+    ],
     "escalation_schedules": [],
     "interactions": [],
     "exclusion_criteria": [],
     "adverse_events": [
       {
-        "value": "Animal study, rats, 2000: In contrast to chronic treatment with intact hGH, chronic treatment with AOD9604 showed no adverse effect on insulin sensitivity of the animals, as demonstrated with euglycemic clamp techniques.",
+        "value": "Across six trials the safety and tolerability profile was indistinguishable from placebo, with none of the adverse effects of full-length growth hormone.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "AOD9604 displayed a very good safety and tolerability profile indistinguishable from placebo. AOD9604 did not result in any of the adverse effects associated with full-length hGH treatment.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "IGF-1 did not rise, glucose tolerance was unaffected, and no anti-AOD9604 antibodies were found.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "AOD9604 had no effect on serum IGF-1 levels, which confirms the hypothesis that AOD9604 does not act via IGF-1. Results of oral glucose tolerance test demonstrated that, in contrast with hGH, AOD9604 has no negative effect on carbohydrate metabolism. There were no anti-AOD9604 antibodies detected in any of the patients selected for antibody assay.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The highest oral dose, 54 mg, brought more gastrointestinal adverse events; no dose-related trend appeared from 0.25 to 27 mg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "There were no observable trends in the incidence of AEs between the 0.25 mg, 0.5 mg, 1 mg, 9 mg and 27 mg AOD9604 and placebo treatment groups. The highest dose administration (54 mg), however, was associated with an increased incidence of GI-related AEs.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In the 12-week trial five serious adverse events were cancers (three at 20 mg, one at 10 mg, one at 5 mg); the investigator judged none related, noting no cases at the highest dose and neglected medical care in those patients.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "Therefore the 5 SAEs that occurred in the 12 week treatment study (three in the AOD9604 20 mg group (basal cell carcinoma, moderate lipoma and squamous cell carcinoma), one in the 10 mg group (malignant melanoma) and one in the 5 mg group (breast cancer)) could not be attributed to increased IGF-1 levels. The Principal Investigator considered none of the reported SAEs to be \"possibly\", \"probably\" or \"definitely related\" to the study medication.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In the obese-subject intravenous study, mild or moderate euphoria was reported by 5 of 23 during AOD9604 periods and never during placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "Mild or moderate euphoria deemed possibly related to treatment, was reported by 5/23 subjects, during the periods when the AOD9604 was administered. There were no reports of euphoria during placebo administration.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In rats, chronic AOD9604 did not impair insulin sensitivity, unlike intact growth hormone.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-11146367"
         ],
         "source_excerpt": "In contrast to chronic treatment with intact hGH, chronic treatment with AOD9604 showed no adverse effect on insulin sensitivity of the animals, as demonstrated with euglycemic clamp techniques.",
         "drafting": "extractive"
+      },
+      {
+        "value": "What the six trials did not show is efficacy. The 300-person and 502-person phase 2b trials were designed to show weight loss and, by the sponsor's own account and its 2007 decision to stop development, did not separate from placebo; the individual results were never published. The pooled paper is a safety paper written by the sponsor. Every safety statement on this page comes from oral or intravenous dosing; no trial injected AOD-9604 under the skin.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "biomarkers_monitored": [
@@ -100,7 +207,17 @@
         "drafting": "extractive"
       }
     ],
-    "reported_timelines": [],
+    "reported_timelines": [
+      {
+        "value": "In a 2026 doping-control study, AOD-9604 was extensively degraded within one week in serum and plasma at fridge and room temperature, but stable in dried blood.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-42328738"
+        ],
+        "source_excerpt": "At 4 and 22 °C, alexamorelin, AOD9604, buserelin, hGH 176-191, kisspeptin-10 and LHRH were extensively degraded after one week in serum and plasma, whereas BPC-157, TB500, vasopressin, lypressin, and terlipressin showed complete degradation only in serum.",
+        "drafting": "extractive"
+      }
+    ],
     "storage": [
       {
         "value": "In vitro study, humans, 2026: At 4 and 22 °C, alexamorelin, AOD9604, buserelin, hGH 176-191, kisspeptin-10 and LHRH were extensively degraded after one week in serum and plasma, whereas BPC-157, TB500, vasopressin, lypressin, and terlipressin showed complete degradation only in serum.",
@@ -113,6 +230,15 @@
       }
     ],
     "study_durations": [
+      {
+        "value": "Single doses in the first three trials; seven days in the fourth; 12 weeks and 24 weeks (with a four-week run-in and 30-day follow-up) in the two phase 2b trials.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "The first three clinical trials were single dose treatments (METAOD001 - METAOD003); the longest was a phase IIb clinical trial (METAOD006) with a four weeks run-in phase, followed by a six months treatment phase and a 30 day follow-up phase.",
+        "drafting": "extractive"
+      },
       {
         "value": "Animal study, rabbits, n=32, 2015: durations stated: 7 weeks. Weekly injections of 0.6 mL saline (Group 1), 6 mg HA (Group 2), 0.25 mg AOD9604 (Group 3), and 0.25 mg AOD9604 with 6 mg HA (Group 4) were administered for 4-7 weeks after the first intra-articular collagenase injection.",
         "evidence_label": "animal-preclinical",
@@ -132,15 +258,96 @@
         "drafting": "extractive"
       }
     ],
-    "weight_normalized_doses": [],
+    "weight_normalized_doses": [
+      {
+        "value": "25 to 400 micrograms per kilogram, intravenous, single doses, in healthy and obese men.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "range 25 to 400 µg/kg bodyweight; single IV infusion doses over 20 minutes",
+        "drafting": "extractive"
+      },
+      {
+        "value": "500 micrograms per kilogram a day, oral, in obese rats.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-11146367"
+        ],
+        "source_excerpt": "Daily treatment with an oral dose of AOD9604 of 500 microg/kg body weight for 19 days",
+        "drafting": "extractive"
+      }
+    ],
     "regulatory_status": [
       {
-        "value": "ChEMBL CHEMBL6068615: maximum clinical phase 2. Jurisdiction-level status pending human review.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": []
+        "value": "Not approved as a drug anywhere. Metabolic Pharmaceuticals ended obesity development in 2007 after the phase 2b trials. In 2014 an industry panel self-affirmed AOD-9604 as Generally Recognized As Safe (GRAS) for use as a food ingredient, a safety designation for oral use in food that is often misread as FDA approval; it is not, and GRAS says nothing about efficacy. FDA placed it in category 2 of the interim 503A bulk-substances list in September 2023 and removed it in September 2024 after the nominators withdrew it, and the Pharmacy Compounding Advisory Committee reviewed it in December 2024 against the same six-trial record; its current compounding position should be checked against the live list. WADA names AOD-9604 on the Prohibited List under S2 (growth hormone fragments), prohibited at all times. Lateral Pharma is developing the molecule as LAT8881 for neuropathic pain and osteoarthritis.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "evidence_table": [
+      {
+        "value": "Pooled safety analysis of six randomized placebo-controlled trials, humans, 2013: Between 2001 and 2006 six human clinical trials with the hexadecapeptide AOD9604 have been performed, 893 healthy, in all but one study, clinically obese adults participated in these studies and are the basis of this safety evaluation.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "Between 2001 and 2006 six human clinical trials with the hexadecapeptide AOD9604 have been performed, 893 healthy, in all but one study, clinically obese adults participated in these studies and are the basis of this safety evaluation.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stier 2013",
+          "year": "2013",
+          "design": "Pooled safety analysis of six randomized placebo-controlled trials",
+          "n": 893,
+          "species": "Humans",
+          "dose": "25 to 400 mcg/kg IV; 0.25 to 54 mg/day oral",
+          "route": "intravenous; oral",
+          "duration": "single dose to 24 weeks",
+          "outcome": "Between 2001 and 2006 six human clinical trials with the hexadecapeptide AOD9604 have been performed, 893 healthy, in all but one study, clinically obese adults participated in these studies and are the basis of this safety evaluation."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, phase 2b, humans, (METAOD006): METAOD006: A Phase IIb, randomized, double-blind, placebo-controlled study to assess the efficacy (reduction in body weight), safety and tolerability of 24 weeks treatment with different doses of AOD9604 tablets (0.25 mg, 0.5 mg, 1 mg, or placebo) in 502 obese adults.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "METAOD006: A Phase IIb, randomized, double-blind, placebo-controlled study to assess the efficacy (reduction in body weight), safety and tolerability of 24 weeks treatment with different doses of AOD9604 tablets (0.25 mg, 0.5 mg, 1 mg, or placebo) in 502 obese adults.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stier 2013 (METAOD006)",
+          "year": "(METAOD006)",
+          "design": "Randomized controlled trial, phase 2b",
+          "n": 502,
+          "species": "Humans",
+          "dose": "0.25, 0.5 or 1 mg/day oral tablets",
+          "route": "oral",
+          "duration": "24 weeks",
+          "outcome": "METAOD006: A Phase IIb, randomized, double-blind, placebo-controlled study to assess the efficacy (reduction in body weight), safety and tolerability of 24 weeks treatment with different doses of AOD9604 tablets (0.25 mg, 0.5 mg, 1 mg, or placebo) in 502 obese adults."
+        }
+      },
+      {
+        "value": "Randomized controlled trial, phase 2b, humans, (METAOD005): METAOD005: A Phase IIb (randomized, double-blind, placebo-controlled) study to assess the efficacy (reduction in body weight), safety and tolerability of 12 weeks treatment with daily doses (1, 5, 10, 20 or 30 mg AOD9604) administered orally (capsules) in 300 healthy, clinically obese males, and females of non-child bearing potential, with a BMI ≥ 35 kg/m 2 .",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "doi-10-4021-jem157w"
+        ],
+        "source_excerpt": "METAOD005: A Phase IIb (randomized, double-blind, placebo-controlled) study to assess the efficacy (reduction in body weight), safety and tolerability of 12 weeks treatment with daily doses (1, 5, 10, 20 or 30 mg AOD9604) administered orally (capsules) in 300 healthy, clinically obese males, and females of non-child bearing potential, with a BMI ≥ 35 kg/m 2 .",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Stier 2013 (METAOD005)",
+          "year": "(METAOD005)",
+          "design": "Randomized controlled trial, phase 2b",
+          "n": 300,
+          "species": "Humans",
+          "dose": "1, 5, 10, 20 or 30 mg/day oral capsules",
+          "route": "oral",
+          "duration": "12 weeks",
+          "outcome": "METAOD005: A Phase IIb (randomized, double-blind, placebo-controlled) study to assess the efficacy (reduction in body weight), safety and tolerability of 12 weeks treatment with daily doses (1, 5, 10, 20 or 30 mg AOD9604) administered orally (capsules) in 300 healthy, clinically obese males, and females of non-child bearing potential, with a BMI ≥ 35 kg/m 2 ."
+        }
+      },
       {
         "value": "Animal study, rabbits, n=32, 2015: Mean gross morphological and histopathological scores were significantly higher in Group 1 than in Groups 2, 3, and 4, and the scores were significantly lower in Group 4 than in Groups 2 and 3.",
         "evidence_label": "animal-preclinical",
@@ -281,6 +488,34 @@
           "outcome": "see source"
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "AOD-9604 is the last sixteen amino acids of human growth hormone (residues 177 to 191) with a tyrosine added at the front for stability, sequence YLRIVQCRSVEGSCGF, designed by Frank Ng's group at Monash University in the 1990s. The idea was that growth hormone's fat-mobilising action lives in this C-terminal region while its growth, IGF-1 and blood-sugar effects live elsewhere, so the fragment alone would burn fat without growth hormone's harms. The name is Metabolic Pharmaceuticals' code: Anti-Obesity Drug 9604.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "In rodents the fragment behaved as designed: it raised lipolysis in fat tissue, reduced weight gain in obese rats by half at 500 micrograms per kilogram a day by mouth, restored the repressed beta-3 adrenergic receptor in obese mice, and did nothing in mice lacking that receptor, which pins the mechanism to beta-3 signalling in fat cells. It did not raise IGF-1 or impair insulin sensitivity in any species tested, and that half of the design held up in people too.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The other half did not. In about 900 adults across six trials, AOD-9604 was as safe as placebo and, in the two trials built to measure weight, no more effective than placebo. Why a mechanism that works in obese rodents failed in obese people is not explained in the literature; the sponsor moved the molecule to its successor company, Lateral Pharma, which is developing it as LAT8881 for neuropathic pain and joint disease on the strength of the rabbit cartilage study and in vitro nerve work, a different mechanism the abstracts in the ledger do not describe.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "AOD-9604 circulates for fat loss, injected subcutaneously in the morning before fasting or exercise, often stacked with tesamorelin, CJC-1295 with ipamorelin, or a GLP-1 drug, in cycles of eight to twelve weeks. Reports describe modest fat loss, appetite change, no effect, and injection-site redness; many users note the failed trials and use it anyway on the theory that injection works where oral did not. No trial injected it subcutaneously, so that theory is untested. The community dose is a fraction of a milligram; the trials that failed used oral doses up to 54 mg. The figures that circulate are not reproduced here; the table above holds every dose a study actually gave.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -289,9 +524,9 @@
     "publications": {
       "total": 25,
       "randomized_controlled_trials": 0,
-      "clinical_trials": 0,
+      "clinical_trials": 6,
       "reviews": 9,
-      "human_indexed": 0,
+      "human_indexed": 1,
       "animal_indexed": 0
     },
     "candidate_papers_by_tier": {
@@ -325,18 +560,14 @@
       "papers_analysed": 12,
       "claims": 12,
       "evidence_table_rows": 7
-    }
+    },
+    "hand_additions": "Stier, Vos and Kenley 2013 (J Endocrinol Metab, doi 10.4021/jem157w), the sponsor's pooled account of six placebo-controlled trials in 893 adults, added by hand on 2026-09-24; not indexed in Europe PMC. Tier set to human-clinical-trial on its basis."
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports doses used for AOD-9604.",
-    "No study in this record's ledger reports weight-normalized doses for AOD-9604.",
-    "No study in this record's ledger reports dose-escalation schedules for AOD-9604.",
-    "No study in this record's ledger reports interactions with other agents for AOD-9604.",
-    "No study in this record's ledger reports exclusion criteria for AOD-9604.",
-    "No study in this record's ledger reports onset or duration of effects for AOD-9604.",
-    "No randomized controlled trial of AOD-9604 is indexed in Europe PMC.",
-    "Whether any finding about AOD-9604 holds in humans is untested."
+    "The two phase 2b trials (300 and 502 participants) were never published; their efficacy results exist only as the sponsor's statement that endpoints were not met and its 2007 decision to stop.",
+    "No trial has given AOD-9604 by subcutaneous injection, the only route it is sold for.",
+    "FDA's 2023 and 2024 compounding notices, the December 2024 advisory committee briefing and the 2014 GRAS notice are not yet in the ledger."
   ],
   "media": {
     "walkthrough_video": "",
@@ -344,23 +575,62 @@
   },
   "faq": [
     {
-      "question": "Has AOD-9604 been tested in humans?",
-      "answer": "Not in any indexed clinical trial. The studies in this record's ledger report work in mice, rabbits, rats. Any human dosing information circulating about AOD-9604 does not come from a published trial."
+      "question": "Does AOD-9604 work for weight loss?",
+      "answer": "Not in the trials designed to find out. Two randomized placebo-controlled phase 2b trials, 300 people for 12 weeks on 1 to 30 mg capsules and 502 people for 24 weeks on 0.25 to 1 mg tablets, did not show weight loss beyond placebo, and the sponsor stopped development in February 2007. The results were never published individually; the sponsor's 2013 safety paper and its own decision are the record."
     },
     {
-      "question": "What kind of evidence exists for AOD-9604?",
-      "answer": "The strongest tier is animal preclinical: animal studies only, with no indexed human study. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "Is AOD-9604 safe?",
+      "answer": "By the standards of research peptides, unusually well documented: six placebo-controlled trials in 893 adults found tolerability indistinguishable from placebo, no rise in IGF-1, no effect on glucose tolerance and no antibodies. The caveats are that every trial dosed by mouth or intravenously, not by subcutaneous injection, and that five cancers occurred in the 12-week trial, judged unrelated."
     },
     {
-      "question": "Is AOD-9604 an approved medicine?",
-      "answer": "ChEMBL records CHEMBL6068615 at maximum clinical phase 2, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+      "question": "Is AOD-9604 FDA approved?",
+      "answer": "No. It has never been approved as a drug anywhere. In 2014 an industry panel self-affirmed it as GRAS for use as a food ingredient, which is a safety designation for food, not a drug approval and not a finding about fat loss. Its compounding status has moved: category 2 in September 2023, removed in September 2024, reviewed by an advisory committee in December 2024."
+    },
+    {
+      "question": "What dose was used in the trials?",
+      "answer": "Intravenous infusions of 25 to 400 micrograms per kilogram in the first two trials; oral capsules of 9, 27 and 54 mg in the phase 2a studies; 1 to 30 mg capsules daily for 12 weeks and 0.25 to 1 mg tablets daily for 24 weeks in the phase 2b trials. No trial gave it by subcutaneous injection at any dose."
+    },
+    {
+      "question": "What are the side effects of AOD-9604?",
+      "answer": "In the trials, none that separated from placebo across the dose range up to 27 mg; more gastrointestinal complaints at 54 mg; headache after intravenous infusion at rates similar to placebo; euphoria in 5 of 23 obese men during intravenous dosing in one study. IGF-1 and glucose were unaffected."
+    },
+    {
+      "question": "Is AOD-9604 the same as HGH fragment 176-191?",
+      "answer": "Yes. 'HGH fragment 176-191' is the structural name for the same molecule, growth hormone residues 177 to 191 with a tyrosine at position 176. Vendors use both names; the trials used AOD9604."
+    },
+    {
+      "question": "Why did AOD-9604 work in rats but not in people?",
+      "answer": "The literature does not say. In obese rats and mice it raised fat breakdown and cut weight gain through the beta-3 adrenergic receptor, and the human trials confirmed it did not raise IGF-1 or disturb glucose. The efficacy half of the design simply did not transfer; the sponsor stopped rather than publish an explanation."
+    },
+    {
+      "question": "Does AOD-9604 help joints or cartilage?",
+      "answer": "In one rabbit study, weekly injections into arthritic knees of 0.25 mg, especially with hyaluronic acid, reduced cartilage degeneration and lameness. No human joint study exists. The molecule's developer now pursues it as LAT8881 for neuropathic pain and osteoarthritis, which is where its future, if any, lies."
+    },
+    {
+      "question": "Is AOD-9604 banned in sport?",
+      "answer": "Yes. WADA names AOD-9604 on the Prohibited List under S2 as a growth hormone fragment, prohibited at all times, and anti-doping laboratories publish detection methods for it in urine and blood."
+    },
+    {
+      "question": "What is LAT8881?",
+      "answer": "The same molecule under Lateral Pharma's code, after Metabolic Pharmaceuticals' obesity programme ended. Lateral is developing it as an oral treatment for neuropathic pain and osteoarthritis, on the basis of animal and in vitro work; a phase 2a trial in neuropathic pain has been registered. None of that is fat-loss evidence."
+    },
+    {
+      "question": "Can AOD-9604 be taken orally?",
+      "answer": "It was, in four of the six trials, as capsules and tablets up to 54 mg, and it is a GRAS food ingredient in the United States. Oral dosing is the tested route. The oral trials are also the ones that failed to show weight loss."
     },
     {
       "question": "Which species has AOD-9604 been studied in?",
-      "answer": "Studies in this record's ledger report work in: Mice, Rabbits, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "answer": "Humans, in six trials totalling 893 adults; obese Zucker rats and obese and knockout mice for fat metabolism; and rabbits for knee arthritis. It also appears in doping-control method papers and in a breast-cancer cell study of nanoparticle drug delivery that used the fragment as a targeting ligand."
     }
   ],
   "sources": [
+    {
+      "id": "doi-10-4021-jem157w",
+      "title": "Safety and Tolerability of the Hexadecapeptide AOD9604 in Humans",
+      "url": "https://doi.org/10.4021/jem157w",
+      "published": "2013-04-23",
+      "kind": "peer-reviewed"
+    },
     {
       "id": "pmid-42328738",
       "title": "Rapid and harmonized analytical workflow for the determination of peptidic and non-peptidic doping agents in dried and liquid blood matrices.",
@@ -461,7 +731,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 67.1,
+  "uniqueness_pct": 87.2,
   "review": {
     "author": "",
     "reviewer": "",
@@ -488,6 +758,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 12 ledger sources by scripts/draft_claims.py: 11 claims, 7 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Stage 0 gap closed by hand: Stier, Vos and Kenley 2013 (the sponsor's pooled account of six trials, not indexed in Europe PMC) added to the ledger with three evidence rows; tier set to human-clinical-trial. Written under the sequencing rule after research/intents/aod-9604.json: guide (8 sections incl. a six-trial table), FAQ to 12 plus 8 from the map, dose, weight-normalized, duration, adverse-event, mechanism, reported-use and regulatory claims; misdrafted content none; intent-driven H1 and title carrying both names."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "AOD-9604 in two minutes",
+      "html": "<p><strong>What it is.</strong> The fat-mobilising tail of human growth hormone, residues 177 to 191 plus a stabilising tyrosine, designed at Monash University so that the fat effect could be had without growth hormone's effects on IGF-1, blood sugar and growth. Also sold as 'HGH fragment 176-191'.</p><p><strong>What the research actually shows.</strong> Six randomized placebo-controlled trials in <strong>893 adults</strong> between 2001 and 2006, pooled in one sponsor paper: safety and tolerability indistinguishable from placebo, no IGF-1 rise, no effect on glucose tolerance, no antibodies. The two trials built to show weight loss, 300 people for 12 weeks and 502 people for 24 weeks on oral capsules and tablets, did not beat placebo, and the sponsor stopped in 2007.</p><p><strong>The catch for the product people buy.</strong> Every trial gave it by mouth or by intravenous infusion. No trial has injected it under the skin, which is the only way it is sold.</p><p><strong>Status.</strong> Not approved as a drug. GRAS as a food ingredient since 2014, which is not approval. Listed by WADA under S2. On and then off FDA's compounding category 2 list (2023 to 2024). Being redeveloped as LAT8881 for pain.</p><p><strong>Where the evidence is thinnest.</strong> Efficacy by any route, and anything at all by the injected route.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "Trial by trial: what AOD-9604 did, and did not do, in people",
+      "lede": "The six trials from the sponsor's 2013 safety paper, which is their only published account, plus the animal studies that motivated them.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human trials of AOD-9604 (METAOD001 to 006) as described by Stier, Vos and Kenley 2013.</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Participants</th><th scope=\"col\">Route and dose</th><th scope=\"col\">Duration</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>METAOD001</td><td>15 healthy men</td><td>IV infusion over 20 min, 25 to 400 mcg/kg; growth hormone as positive control</td><td>Three single doses, 7-day washouts</td><td>29 mild adverse events, mostly headache, spread evenly across doses and placebo; no IGF-1 or glucose change</td></tr><tr><td>METAOD002</td><td>23 obese men, BMI 36 to 67</td><td>IV infusion, 25, 50 or 100 mcg/kg</td><td>Four single doses, 7-day washouts</td><td>Headache in 70%; one severe chest tightness possibly related; euphoria in 5 of 23 on drug, none on placebo</td></tr><tr><td>METAOD003</td><td>17 obese men</td><td>Oral capsules, 9, 27 or 54 mg</td><td>Single doses</td><td>No treatment-related adverse events</td></tr><tr><td>METAOD004</td><td>36 obese men</td><td>Oral capsules, 9, 27 or 54 mg daily</td><td>7 days</td><td>Well tolerated; more gastrointestinal events at 54 mg</td></tr><tr><td>METAOD005 (phase 2b)</td><td>300 obese adults, BMI 35 or more</td><td>Oral capsules, 1, 5, 10, 20 or 30 mg daily</td><td>12 weeks</td><td><strong>Efficacy endpoint (weight) not met</strong> per the sponsor's later decision; five cancers as serious adverse events, judged unrelated, none at the top dose</td></tr><tr><td>METAOD006 (phase 2b)</td><td>502 obese adults</td><td>Oral tablets, 0.25, 0.5 or 1 mg daily</td><td>24 weeks, after 4-week run-in, with 30-day follow-up</td><td><strong>Efficacy endpoint (weight) not met</strong>; safety indistinguishable from placebo; development stopped February 2007</td></tr></tbody></table></div></div><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Animal studies in the ledger.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Model</th><th scope=\"col\">Route and dose</th><th scope=\"col\">Duration</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Ng 2000</td><td>Obese Zucker rats</td><td>Oral, 500 mcg/kg daily</td><td>19 days</td><td>Weight gain cut by more than half; fat-tissue lipolysis up; insulin sensitivity unchanged</td></tr><tr><td>Heffernan 2001</td><td>Obese mice; beta-3 receptor knockout mice</td><td>Intraperitoneal, chronic</td><td>14 days</td><td>Weight and fat down with restored beta-3 receptor expression; no effect in knockout mice</td></tr><tr><td>Kwon 2015</td><td>32 rabbits with collagenase knee arthritis</td><td>Intra-articular, 0.25 mg weekly, with or without hyaluronic acid</td><td>4 to 7 weeks</td><td>Less cartilage degeneration; shortest lameness with the combination</td></tr></tbody></table></div></div><p>The two phase 2b results were never published as papers. What exists is the sponsor's statement that they did not meet their weight endpoints, its decision to stop, and the pooled safety paper. The FDA advisory committee that reviewed the compound in December 2024 worked from the same six trials.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every AOD-9604 dose in the trials and studies, in one table",
+      "lede": "Every figure here was given in a trial or study. The subcutaneous microgram figures on vendor pages were never given to a person in any trial.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses of AOD-9604 administered in studies.</caption><thead><tr><th scope=\"col\">Setting</th><th scope=\"col\">Route</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Population</th></tr></thead><tbody><tr><td>Phase 1 and 2a (2001 to 2003)</td><td>Intravenous infusion</td><td>25 to 400 mcg/kg</td><td>Single doses</td><td>Healthy and obese men</td></tr><tr><td>Phase 2a (2003 to 2004)</td><td>Oral capsules</td><td>9, 27, 54 mg</td><td>Single; then daily for 7 days</td><td>Obese men</td></tr><tr><td>Phase 2b METAOD005</td><td>Oral capsules</td><td>1, 5, 10, 20, 30 mg</td><td>Daily, 12 weeks</td><td>300 obese adults</td></tr><tr><td>Phase 2b METAOD006</td><td>Oral tablets</td><td>0.25, 0.5, 1 mg</td><td>Daily, 24 weeks</td><td>502 obese adults</td></tr><tr><td>Rats</td><td>Oral gavage</td><td>500 mcg/kg</td><td>Daily, 19 days</td><td>Obese Zucker rats</td></tr><tr><td>Mice</td><td>Intraperitoneal</td><td>Not stated in the abstract</td><td>Daily, 14 days</td><td>Obese and beta-3 knockout mice</td></tr><tr><td>Rabbits</td><td>Intra-articular (into the knee)</td><td>0.25 mg, with or without 6 mg hyaluronic acid</td><td>Weekly, 4 to 7 weeks</td><td>Collagenase arthritis model</td></tr></tbody></table></div></div><p>Figures for injected AOD-9604 circulate on forums and vendor pages. None was given to a person in any trial, so none is reproduced here; the table holds every dose a study actually administered. Note the scale: the oral doses that failed to beat placebo ran to 54 mg, and the vendor figures are a fraction of a milligram by a route nobody has tested.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who AOD-9604 is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> healthy and obese adults, mostly men, for up to 24 weeks by mouth or intravenously. <strong>Excluded or unstudied:</strong> anyone by subcutaneous injection; children; pregnancy; people with diabetes or cancer history (the trials enrolled 'otherwise healthy' obese adults). <strong>Community:</strong> people seeking fat loss without GLP-1 drugs, and people with joint pain who have read about the rabbit study.</p><p>The cautions here are unusual for a research peptide, because there is real safety data, and they follow from it:</p><ul class=\"list\"><li><strong>Expecting it to work.</strong> Two placebo-controlled trials in 800 people did not show weight loss. That is the strongest evidence on this page, and it is negative.</li><li><strong>The injected route.</strong> Safety data are for oral and intravenous dosing. Subcutaneous injection of an unregulated product has no data behind it, good or bad.</li><li><strong>Cancer history.</strong> The 12-week trial recorded five cancers as serious adverse events, judged unrelated by the investigator, with reasons given. IGF-1 did not rise. It remains the one signal in the record, and anyone with a cancer history should know it exists.</li><li><strong>Euphoria.</strong> Reported by 5 of 23 obese men during intravenous dosing and by none on placebo, in one small study.</li><li><strong>Gastrointestinal effects at high oral doses.</strong> Seen at 54 mg, not below 27 mg.</li><li><strong>Tested athletes.</strong> Named on the WADA Prohibited List under S2, prohibited at all times; detection methods exist.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The human record runs from single doses to <strong>24 weeks</strong>, the longest exposure of any research peptide on this site, with a 30-day follow-up in the last trial. Over that time safety measures stayed level with placebo, and so did weight. Nothing was measured beyond 24 weeks, and nothing at all was measured after subcutaneous injection, so the community's eight-to-twelve-week cycles have no time course behind them. A 2026 doping-control study adds that the peptide degrades within a week in liquid blood samples at fridge and room temperature, a laboratory stability finding rather than a pharmacokinetic one; no human half-life is stated in any abstract in the ledger.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>The trial product was lyophilised powder reconstituted with sterile water for intravenous use, or capsules and tablets; the 2026 anti-doping study found the peptide degraded within a week in liquid serum and plasma above freezing, while stable for two months at minus 20 degrees. Vendor vials follow general lyophilised-peptide practice; their contents are unverified.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how AOD-9604 is discussed",
+      "html": "<ol class=\"list\"><li><strong>Reading GRAS as FDA approval.</strong> GRAS is a food-ingredient safety designation self-affirmed by an industry panel in 2014. It is not a drug approval and says nothing about fat loss.</li><li><strong>Treating the safety data as efficacy data.</strong> Six trials show it is as safe as placebo. The two efficacy trials show it is as effective as placebo. Both facts come from the same programme.</li><li><strong>Assuming injection succeeds where oral failed.</strong> A reasonable hypothesis with no trial behind it. The first two trials were intravenous and measured safety, not weight.</li><li><strong>Quoting 250 to 500 mcg as a clinical dose.</strong> No trial gave that dose by that route. The oral trials ran to 54 mg.</li><li><strong>Calling the compounding history an endorsement.</strong> Category 2 listing (2023) meant FDA saw safety concerns; removal (2024) meant the nominators withdrew, not that FDA cleared it; the December 2024 committee review worked from the same failed programme.</li><li><strong>Missing where the molecule actually went.</strong> Its current development, as LAT8881, is for neuropathic pain and osteoarthritis, not fat loss.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "AOD-9604 vs tesamorelin, semaglutide, tirzepatide and growth hormone",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>AOD-9604 beside the agents it is compared with for fat loss, from their own records where one exists.</caption><thead><tr><th scope=\"col\">Agent</th><th scope=\"col\">What it is</th><th scope=\"col\">Fat or weight evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>AOD-9604</strong></td><td>Growth hormone fragment 177-191</td><td>Two phase 2b trials (800 people, oral) did not beat placebo</td><td>Not approved; GRAS food ingredient; WADA S2</td></tr><tr><td><a href=\"/compounds/tesamorelin\">Tesamorelin</a></td><td>Stabilised GHRH analogue that raises the body's own growth hormone; 115 indexed publications, 22 randomized trials</td><td>Reduces visceral fat in HIV-associated lipodystrophy in phase 3 trials</td><td>Approved 2010; WADA S2</td></tr><tr><td><a href=\"/compounds/semaglutide\">Semaglutide</a></td><td>GLP-1 receptor agonist; 6039 indexed publications, 305 randomized trials</td><td>About 15% weight loss at 68 weeks; cardiovascular outcomes trial</td><td>Approved 2017</td></tr><tr><td><a href=\"/compounds/tirzepatide\">Tirzepatide</a></td><td>GIP/GLP-1 agonist; 2756 indexed publications, 131 randomized trials</td><td>About 15 to 21% weight loss at 72 weeks</td><td>Approved 2022</td></tr><tr><td>Growth hormone (somatropin)</td><td>The full 191-amino-acid hormone AOD-9604 was cut from</td><td>Reduces fat and raises lean mass in deficiency; raises IGF-1 and blood sugar</td><td>Prescription medicine; WADA S2</td></tr><tr><td><a href=\"/compounds/tesofensine\">Tesofensine</a></td><td>Oral triple reuptake inhibitor in this site's 'metabolic, other' class; 63 indexed publications</td><td>About 9 to 10% at 24 weeks in phase 2; heart-rate signal</td><td>Not approved; Mexican application pending</td></tr></tbody></table></div></div><p>The question people ask, 'tesamorelin or AOD-9604', has a plain answer in the records: tesamorelin has an approval and phase 3 fat-loss data; AOD-9604 has a phase 2b programme that failed. No study has compared them, and none is likely to.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
