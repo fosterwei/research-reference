@@ -1,0 +1,598 @@
+{
+  "slug": "cjc-1295",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "serp_2026-09-24": {
+    "query": "cjc 1295",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "video",
+      "perspectives",
+      "related_searches"
+    ],
+    "organic_top": [
+      "riteaid.com",
+      "joinmidi.com",
+      "plasticsurgerykey.com",
+      "americanpeptides.us (vendor)",
+      "reddit.com",
+      "en.wikipedia.org",
+      "womenshealthofmd.com (clinic)"
+    ],
+    "ai_overview_cites": [
+      "pubmed",
+      "riteaid",
+      "joinmidi",
+      "youtube",
+      "edrubinmd",
+      "tucsonwellnessmd",
+      "evolvedmedical"
+    ],
+    "note": "Two medically-reviewed explainers hold the top; the incumbent dosing guide is absent from the top 10. The AI Overview cites PubMed and clinic pages."
+  },
+  "demand_findings": "The head carries 10,531 clickstream (hyphenated) plus 8,496 (spaced); 'cjc-1295 ipamorelin' (4,629) is the second query, so the pairing is the second question after the definition. The DAC cluster (dac 814, with dac 508, no dac 407, mod grf 203, without dac 0/720 Ads) outweighs dosage (814 + 101 + 50). Three comparison queries carry demand (sermorelin 305, ipamorelin 254, tesamorelin 203). Side effects is 152 clickstream but 3,600 Ads. Half-life queries show zero clickstream but KD 20 to 22, the only difficult terms in the set.",
+  "h1": "CJC-1295 peptide: what the human trials measured, DAC vs Mod GRF 1-29, and what was never tested",
+  "dek": "A long-acting GHRH analogue with real 2006 trials in healthy adults and a halted phase 2. This page lists the trial doses by body weight and what they measured, separates the DAC form that was tested from the 'no DAC' form that was not, and sets out the safety record and status.",
+  "queries": [
+    {
+      "query": "cjc-1295",
+      "volume": {
+        "clickstream": 10531,
+        "google_ads": 60500,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What CJC-1295 is and how it acts"
+    },
+    {
+      "query": "cjc 1295",
+      "volume": {
+        "clickstream": 8496,
+        "google_ads": 60500,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What CJC-1295 is and how it acts"
+    },
+    {
+      "query": "cjc-1295 ipamorelin",
+      "volume": {
+        "clickstream": 4629,
+        "google_ads": 49500,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "combination",
+      "heading": "CJC-1295 with ipamorelin: what has been tested",
+      "boundary": "One mouse study tested CJC-1295 with ipamorelin. No human study has. The stack page holds the detail; this section says only what the combination evidence is."
+    },
+    {
+      "query": "cjc 1295 dac",
+      "volume": {
+        "clickstream": 814,
+        "google_ads": 2900,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "dac",
+      "heading": "CJC-1295 with DAC vs without DAC (Mod GRF 1-29)"
+    },
+    {
+      "query": "cjc 1295 dosage",
+      "volume": {
+        "clickstream": 814,
+        "google_ads": 2900,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "CJC-1295 doses in studies",
+      "boundary": "Every figure here is one a trial or study administered, by body weight. The figures that circulate on vendor pages were not taken from these trials and are not reproduced."
+    },
+    {
+      "query": "cjc 1295 peptide",
+      "volume": {
+        "clickstream": 610,
+        "google_ads": 4400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What CJC-1295 is and how it acts"
+    },
+    {
+      "query": "cjc 1295 reddit",
+      "volume": {
+        "clickstream": 610,
+        "google_ads": 880,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. One indexed study analysed them and is quoted here; the doses people describe are not reproduced."
+    },
+    {
+      "query": "cjc 1295 with dac",
+      "volume": {
+        "clickstream": 508,
+        "google_ads": 3600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "dac",
+      "heading": "CJC-1295 with DAC vs without DAC (Mod GRF 1-29)"
+    },
+    {
+      "query": "cjc 1295 before and after",
+      "volume": {
+        "clickstream": 457,
+        "google_ads": 880,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. One indexed study analysed them and is quoted here; the doses people describe are not reproduced."
+    },
+    {
+      "query": "cjc 1295 no dac",
+      "volume": {
+        "clickstream": 407,
+        "google_ads": 2900,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "dac",
+      "heading": "CJC-1295 with DAC vs without DAC (Mod GRF 1-29)"
+    },
+    {
+      "query": "cjc 1295 vs sermorelin",
+      "volume": {
+        "clickstream": 305,
+        "google_ads": 1000,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "comparison-table",
+      "heading": "CJC-1295 vs sermorelin, tesamorelin and ipamorelin"
+    },
+    {
+      "query": "cjc 1295 vs ipamorelin",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 320,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "comparison-table",
+      "heading": "CJC-1295 vs sermorelin, tesamorelin and ipamorelin"
+    },
+    {
+      "query": "cjc 1295 benefits",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 1000,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "evidence_table",
+      "heading": "What did the trials find?",
+      "boundary": "Hormone changes in healthy adults over days to weeks. No trial measured muscle, fat, sleep, skin or recovery, which is what the compound circulates for."
+    },
+    {
+      "query": "cjc 1295 vs tesamorelin",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 720,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "comparison-table",
+      "heading": "CJC-1295 vs sermorelin, tesamorelin and ipamorelin"
+    },
+    {
+      "query": "mod grf 1-29",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 480,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "dac",
+      "heading": "CJC-1295 with DAC vs without DAC (Mod GRF 1-29)"
+    },
+    {
+      "query": "what is cjc 1295",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 1600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is CJC-1295?",
+      "answer": "CJC-1295 is a synthetic analogue of the first 29 amino acids of growth-hormone-releasing hormone, altered at four positions to resist breakdown and fitted with a linker (the Drug Affinity Complex, DAC) that binds it to albumin in the blood after injection. That binding stretches its half-life from minutes to about a week. It was developed by ConjuChem and tested in healthy adults in 2006; development stopped the same year."
+    },
+    {
+      "query": "cjc 1295 side effects",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 3600,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded, and what happened in phase 2",
+      "boundary": "The 2006 trials in healthy adults reported no serious adverse reactions over 28 to 49 days. A death in the halted 2006 phase 2 trial and the concerns FDA cited in 2023 are set out below, with their limits."
+    },
+    {
+      "query": "cjc 1295 dac dosage",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 1600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "CJC-1295 doses in studies",
+      "boundary": "Every figure here is one a trial or study administered, by body weight. The figures that circulate on vendor pages were not taken from these trials and are not reproduced."
+    },
+    {
+      "query": "cjc 1295 dosage chart",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 480,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "CJC-1295 doses in studies",
+      "boundary": "Every figure here is one a trial or study administered, by body weight. The figures that circulate on vendor pages were not taken from these trials and are not reproduced."
+    },
+    {
+      "query": "cjc 1295 reconstitution",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 140,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "cjc 1295 weight loss",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 320,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does CJC-1295 help with weight loss?",
+      "answer": "No human trial measured fat mass or weight. The 2006 trials measured growth hormone and IGF-1 only. In mice lacking GHRH, daily CJC-1295 kept body composition normal, which is a growth result in a deficient animal, not a fat-loss result. Weight loss is the commonest reason women on forums gave for using it, according to the 2016 netnography, and it has not been tested.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "cjc 1295 banned",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is CJC-1295 banned in sport?",
+      "answer": "Yes. The WADA Prohibited List names CJC-1295 as an example under S2, growth hormone releasing hormone and its analogues, prohibited at all times in and out of competition. Detection methods in urine and blood make up a large share of its indexed literature."
+    },
+    {
+      "query": "cjc 1295 cancer",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does CJC-1295 cause cancer?",
+      "answer": "No study has tested it. The concern is indirect: CJC-1295 raises IGF-1 for days to weeks, and sustained IGF-1 elevation is a theoretical risk for cell proliferation. The healthy-adult trials lasted at most 49 days and measured hormones, not tumours, so the question is open rather than answered either way."
+    },
+    {
+      "query": "cjc 1295 dac half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": 21,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of CJC-1295?",
+      "answer": "An estimated 5.8 to 8.1 days in healthy adults after a single subcutaneous injection, from the 2006 pharmacokinetic study; a second trial that year used a figure of 8 days. That is the DAC form, the only one measured in people. The short half-life quoted for CJC-1295 without DAC is borrowed from GRF(1-29) and sermorelin, not measured for that compound."
+    },
+    {
+      "query": "cjc 1295 fda",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 20,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is CJC-1295 FDA approved?",
+      "answer": "No. It never completed development. In September 2023 FDA placed it in category 2 of the interim 503A bulk-substances list, citing safety concerns, and in September 2024 removed it from that list after the nominators withdrew it, which leaves it on no category and not eligible for compounding. Check the live list; the position has moved twice in two years."
+    },
+    {
+      "query": "cjc 1295 half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 140,
+        "kd": 22,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of CJC-1295?"
+    },
+    {
+      "query": "cjc 1295 results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 480,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. One indexed study analysed them and is quoted here; the doses people describe are not reproduced."
+    },
+    {
+      "query": "cjc 1295 without dac",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 720,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "dac",
+      "heading": "CJC-1295 with DAC vs without DAC (Mod GRF 1-29)"
+    },
+    {
+      "query": "how long does cjc 1295 take to work",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 70,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "timeline",
+      "heading": "What is measured over time, and what is not"
+    },
+    {
+      "query": "does cjc-1295 increase testosterone",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does CJC-1295 increase testosterone?",
+      "answer": "No trial measured it, and there is no mechanism for it to. CJC-1295 acts on the GHRH receptor of the pituitary cells that make growth hormone; testosterone is driven by a different pituitary axis. Claims that it raises testosterone come from stacking discussions, not from any study.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "does cjc increase height",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does CJC-1295 increase height?",
+      "answer": "Not in adults, whose growth plates are closed. The growth result comes from one-week-old mice lacking GHRH, in which daily CJC-1295 normalised length and weight. No child has been given it in a published study, and no human growth data exist.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "what are the downsides of cjc-1295",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What are the downsides of CJC-1295?",
+      "answer": "Sustained IGF-1 elevation of unknown long-term effect; a phase 2 programme halted after a death, judged unrelated by the attending physician but never followed by another trial; FDA's 2023 citation of increased heart rate and systemic vasodilatory reactions; prohibition in sport; and the fact that nothing it circulates for has been measured in a human study.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/cjc-1295-dac",
+      "rank": null,
+      "words": 5615,
+      "tables": 10,
+      "h2": 20,
+      "h3": 77,
+      "sci_links": 7,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 26,
+      "gap": "Ten reconstitution and cycle tables; names NCT00267527, 192 patients and 240 mcg/kg/week for the phase 2; frames the death as pre-existing disease; gives a 'no DAC' protocol although that compound has no human trial; not in the Google top 10 for 'cjc 1295' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D9 F8 S6 U3"
+    },
+    {
+      "url": "https://riteaid.com/peptides/cjc-1295",
+      "rank": 2,
+      "words": 1947,
+      "tables": 0,
+      "h2": 18,
+      "sci_links": 2,
+      "byline": "Rite Aid Health Team",
+      "score": 18,
+      "gap": "Health-team review, two citations, no per-kilogram dose, two lead-capture forms inside the article; WADA status correct; compounding claims (April 2026 removals) not verifiable here",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F3 S6 U4"
+    },
+    {
+      "url": "https://www.joinmidi.com/post/cjc-1295",
+      "rank": 4,
+      "words": 3036,
+      "tables": 0,
+      "h2": 10,
+      "sci_links": 17,
+      "byline": "Medically reviewed by Ava Mainieri, PhD",
+      "score": 22,
+      "gap": "Menopause-first framing for a midlife audience; 17 citations; no dose table, no DAC half-life figure, no phase 2 death",
+      "source": "fetched 2026-09-24, metrics measured; scored D6 F4 S8 U4"
+    },
+    {
+      "url": "https://plasticsurgerykey.com/cjc-1295-ipamorelin-how-it-works-benefits-research/",
+      "rank": 5,
+      "words": 3963,
+      "tables": 1,
+      "h2": 18,
+      "h3": 44,
+      "sci_links": 5,
+      "byline": null,
+      "score": 15,
+      "gap": "Stack explainer with a sourcing section; no byline; five citations",
+      "source": "fetched 2026-09-24, metrics measured; scored D6 F4 S3 U2"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CJC-1295",
+      "rank": 10,
+      "words": 1899,
+      "tables": 2,
+      "h2": 6,
+      "sci_links": 36,
+      "score": 20,
+      "gap": "36 references and the phase 2 death, but no dose table, no half-life figure in the body, no DAC vs Mod GRF distinction",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S9 U4"
+    }
+  ],
+  "information_gain": "The only page that says plainly that every human study of CJC-1295 used the DAC form, so 'CJC-1295 no DAC' (Mod GRF 1-29) has no human trial of its own and its quoted half-life is borrowed from sermorelin; that lists the trial doses per kilogram beside what they measured (growth hormone and IGF-1 only, never body composition, sleep or recovery); that reports the phase 2 death with its size and the FDA's 2023 to 2024 compounding history in one place; and that quotes the 2016 netnography as the only indexed study of what users report.",
+  "serp_format_rewarded": "Medically reviewed explainer with FAQ. The two pages above the fold both open with a definition and a DAC vs no-DAC section, so the DAC section sits early in the outline.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "dac",
+    "assessment",
+    "human-trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add the aidsmap report (July 2006) or the ConjuChem notice on the halted phase 2 trial to the ledger; the page cites the death from secondary reports and marks it so.",
+    "Add FDA's September 2023 category 2 notice and September 2024 removal notice for CJC-1295 to the ledger once reachable; pending_source.",
+    "The drafter's dose regex did not parse 'microg/kg' or '60 or 90 microg/kg'; study_doses were written by hand from the abstracts and the regex is the open accept-script item.",
+    "Two misdrafted interactions claims (a review's search terms; a cannabinoid assay) removed at triage; same regex item."
+  ]
+}
