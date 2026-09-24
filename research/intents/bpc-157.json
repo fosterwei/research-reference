@@ -1,0 +1,453 @@
+{
+  "slug": "bpc-157",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "serp-top-results",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "note": "Head demand 57,086 + 39,227 clickstream/month across the two spellings at KD 19. 'wolverine stack' (7,428 clickstream, 27,100 Ads) is the largest non-head query and belongs to the stack page. Google Ads returns 0 for almost every term, as with ipamorelin; clickstream is the instrument. Stage 1 cost: $0.03.",
+  "h1": "BPC-157: dosing in studies, side effects, the Wolverine stack and what the research shows",
+  "queries": [
+    {
+      "query": "bpc 157",
+      "volume": {
+        "clickstream": 57086,
+        "google_ads": 0,
+        "kd": 19,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What BPC-157 is and how it acts"
+    },
+    {
+      "query": "bpc-157",
+      "volume": {
+        "clickstream": 39227,
+        "google_ads": 0,
+        "kd": 19,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What BPC-157 is and how it acts"
+    },
+    {
+      "query": "wolverine stack",
+      "volume": {
+        "clickstream": 7428,
+        "google_ads": 27100,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "combination",
+      "heading": "The Wolverine stack: BPC-157 with TB-500",
+      "target": "/stacks/bpc-157-tb-500",
+      "note": "Highest non-head demand in the set (7,428 clickstream, 27,100 Ads). Lands on the stack page, whose title now names it."
+    },
+    {
+      "query": "bpc-157 peptide",
+      "volume": {
+        "clickstream": 3663,
+        "google_ads": 0,
+        "kd": 12,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What BPC-157 is and how it acts"
+    },
+    {
+      "query": "bpc-157 dosage",
+      "volume": {
+        "clickstream": 2136,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "study_doses",
+      "heading": "What doses did studies use?",
+      "boundary": "These are doses studies administered, almost all in rats, plus a two-person intravenous safety pilot. No trial has established a BPC-157 dose for any use in people; the 200 to 500 microgram figures that circulate come from communities and clinics."
+    },
+    {
+      "query": "bpc-157 side effects",
+      "volume": {
+        "clickstream": 1424,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "adverse_events",
+      "heading": "What side effects have been reported?"
+    },
+    {
+      "query": "bpc-157 tb-500",
+      "volume": {
+        "clickstream": 1373,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "combination",
+      "heading": "The Wolverine stack: BPC-157 with TB-500",
+      "target": "/stacks/bpc-157-tb-500"
+    },
+    {
+      "query": "bpc-157 reddit",
+      "volume": {
+        "clickstream": 1271,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported_use",
+      "heading": "What people report outside the literature"
+    },
+    {
+      "query": "bpc-157 vs tb-500",
+      "volume": {
+        "clickstream": 712,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "compare",
+      "heading": "How it compares",
+      "target": "/compare/bpc-157-vs-tb-500"
+    },
+    {
+      "query": "what is bpc-157",
+      "volume": {
+        "clickstream": 661,
+        "google_ads": 0,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What BPC-157 is and how it acts"
+    },
+    {
+      "query": "bpc-157 benefits",
+      "volume": {
+        "clickstream": 407,
+        "google_ads": 0,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "evidence_table",
+      "heading": "What did the studies find?",
+      "boundary": "Reported outcomes, not benefits. Of 228 indexed publications, none is a randomized trial; the three human studies are small, uncontrolled pilots from one clinic. What follows is what was measured, mostly in rats."
+    },
+    {
+      "query": "bpc-157 before and after",
+      "volume": {
+        "clickstream": 305,
+        "google_ads": 0,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported_use",
+      "heading": "What people report outside the literature"
+    },
+    {
+      "query": "bpc-157 oral",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 0,
+        "kd": 13,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "routes_studied",
+      "heading": "Oral or injected: what routes studies used"
+    },
+    {
+      "query": "bpc-157 oral vs injection",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "routes_studied",
+      "heading": "Oral or injected: what routes studies used"
+    },
+    {
+      "query": "bpc-157 cancer",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 0,
+        "kd": 6,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "who",
+      "heading": "Who BPC-157 is discussed for, and the cautions that recur"
+    },
+    {
+      "query": "bpc-157 half life",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 720,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How long is BPC-157's half-life?",
+      "answer": "No indexed study reports a half-life for BPC-157 in people. The 2025 intravenous pilot reported plasma levels returning to baseline within 24 hours after infusion in two adults, which bounds it but does not measure it. Community claims of a four-hour half-life have no published source."
+    },
+    {
+      "query": "bpc-157 fda ban",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 30,
+        "kd": 22,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Is BPC-157 approved, banned or restricted?"
+    },
+    {
+      "query": "bpc-157 mechanism of action",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 0,
+        "kd": 46,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How BPC-157 is thought to work"
+    },
+    {
+      "query": "bpc-157 and tb-500 dosage",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "combination",
+      "heading": "The Wolverine stack: BPC-157 with TB-500",
+      "target": "/stacks/bpc-157-tb-500"
+    },
+    {
+      "query": "bpc-157 clinical trials",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 42,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "human-trials",
+      "heading": "What the human studies actually are"
+    },
+    {
+      "query": "bpc-157 results",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 23,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "evidence_table",
+      "heading": "What did the studies find?"
+    },
+    {
+      "query": "bpc-157 safety",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 26,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "who",
+      "heading": "Who BPC-157 is discussed for, and the cautions that recur"
+    },
+    {
+      "query": "is bpc-157 fda approved",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Is BPC-157 approved, banned or restricted?"
+    },
+    {
+      "query": "how does bpc-157 work",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 13,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How BPC-157 is thought to work"
+    },
+    {
+      "query": "bpc-157 cycle length",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "study_durations",
+      "heading": "How long did studies run?",
+      "boundary": "A study's duration is how long the experiment ran, in rats for the most part. It is not a course length for people, and none has been tested."
+    },
+    {
+      "query": "bpc-157 how long to work",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "timeline",
+      "heading": "What happens after a dose, and what people report over weeks"
+    },
+    {
+      "query": "bpc-157 blood pressure",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "biomarkers_monitored",
+      "heading": "What studies measured: blood pressure, nitric oxide, healing markers"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+      "words": 5521,
+      "tables": 10,
+      "score": 26,
+      "gap": "20 H2s, 83 H3s, 12 FAQs; 'Wolverine stack' section; byline without credential; supplier placements; presents pilots as evidence context but leads with a dosing protocol"
+    },
+    {
+      "url": "https://www.projectbiohacking.com/is-bpc-157-safe",
+      "words": 6000,
+      "tables": 0,
+      "score": 24,
+      "gap": "Deep on mechanism-based safety concerns and discloses the single-group origin of all human data; no tables, no credential, ends in a sourcing section"
+    },
+    {
+      "url": "https://riteaid.com/peptides/bpc-157",
+      "words": 2800,
+      "tables": 2,
+      "score": 19,
+      "gap": "'Health Team' byline; five citations; dose framed honestly as reported protocols; exists to sell a tracking toolkit"
+    },
+    {
+      "url": "https://www.usada.org/spirit-of-sport/bpc-157-peptide-prohibited/",
+      "words": 900,
+      "tables": 0,
+      "score": 22,
+      "gap": "Authority page (excluded as a competitor, used as a source): WADA S0, not FDA-approved, no human efficacy trials"
+    }
+  ],
+  "serp_format_rewarded": "Long-form explainer resolving safety and status early; authority pages (USADA, OPSS) rank alongside vendors and clinics, which means an evidence-first page fits the SERP.",
+  "information_gain": "The only page on this SERP that shows the 228-publication literature as data: 25 primary studies tabulated with design, species, dose, route and outcome, each linked to its source, and the count that no competitor states as a measurement: zero randomized trials, three uncontrolled human pilots from one clinic totalling about 26 people, and an evidence base that is otherwise rats. It separates study doses from the 200 to 500 microgram figures that circulate, quotes USADA verbatim on the S0 prohibition, and answers the Wolverine-stack question with the one animal study that actually tested the pair.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "reconstitution",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add the 2024 interstitial-cystitis pilot (Lee, Walker, Ayadi; 12 women) and the 2021 knee case series (Lee, Padgett) to the ledger if Europe PMC indexes them; the 2021 paper is in Alternative Therapies in Health and Medicine and may not be MEDLINE-indexed.",
+    "Add the FDA 503A Category 2 listing (September 2023) as a source with a verbatim excerpt when fetchable.",
+    "OPSS article was unreachable on 2026-09-24; it duplicates the USADA statements and can be added as a second regulatory source."
+  ]
+}

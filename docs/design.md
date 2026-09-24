@@ -434,6 +434,11 @@ the drafting script, not the record, so the fix applies to every page.
 
 ## Changelog
 
+- 2026-09-24 — v2 adopted as the shared compound template after trials on
+  semaglutide and ipamorelin; the trial routes are removed and `[slug].astro`
+  renders `layouts/CompoundV2.astro` for every compound. Pages compose from
+  their intent map when one exists and fall back to the spec order otherwise.
+
 - 2026-09-24 — Reframed the shared system as intent-driven composition: the
   v2 anatomy is a pilot composition, while future outlines select and order
   sections from search intent, user questions and evidence availability.
