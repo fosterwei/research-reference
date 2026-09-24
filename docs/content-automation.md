@@ -119,6 +119,14 @@ python3 scripts/measure_pages.py --intent <slug>
 python3 scripts/measure_pages.py --write
 ```
 
+Then `python3 scripts/loop_status.py`. It prints, for every page with written
+sections, which stages have left an artifact: measured volumes, scored
+competitors, an information-gain statement, an outline, uniqueness written to
+the record, formatting minimums met, an audit with a triage table, and an exit
+run. A page is not finished until its row is all yes. This exists because the
+loop was compressed on thirteen pages in one day once it felt routine, and the
+gap was found by asking, not by a check.
+
 Then run `/seo-content` (or `scripts/audit_page.py`) once more on the updated build and add it to the
 audit file as part 3, beside the first run. Compare; do not loop. Some
 deductions cannot move until step 7: a page with no named reviewer scores low
