@@ -1,0 +1,593 @@
+{
+  "slug": "retatrutide-vs-tirzepatide",
+  "type": "comparison",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "europepmc"
+  ],
+  "scope": "Informational intent only. Cost and price queries declined under the commercial-intent rule.",
+  "thin_serp": false,
+  "stage0_note": "The record's eight head-to-head claims are not head-to-head trials: four are reviews or network meta-analyses, three are animal or cell studies, one is a peptide-design paper. The only study that gave both compounds to the same animals is a mouse kidney study at 10 nmol/kg. Relabelled at stage 0, and the two landmark trials were added to the ledger by hand.",
+  "serp_2026-09-24": {
+    "query": "retatrutide vs tirzepatide",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "discussions_and_forums",
+      "related_searches"
+    ],
+    "organic_top": [
+      "goodrx.com",
+      "pmc.ncbi.nlm.nih.gov (indirect comparison abstract)",
+      "drsobo.com (clinic)",
+      "mavenclinic.com",
+      "truecaremed.net",
+      "joinmidi.com",
+      "bettermedspa.com",
+      "ro.co"
+    ],
+    "note": "A telehealth and clinic SERP. Seven of the ten results sell or prescribe weight-loss medicine; one is a conference abstract; none is a regulator or a journal. The AI Overview cites GoodRx, two clinics, a pharmacy and two videos. Nobody in the top ten states that no head-to-head trial exists."
+  },
+  "demand_findings": "7,071 clickstream searches across the two orderings, at KD 0: 'retatrutide vs tirzepatide' 4,273 and 'tirzepatide vs retatrutide' 2,798, the latter carrying 8,100 Google Ads volume because advertisers bid on the approved drug's name. Brand phrasings add 966 (vs mounjaro 610, vs zepbound 356), availability 1,220 (fda approval 661, phase 3 559), and switching 407. The comparison cluster is larger and far easier than the retatrutide compound head, which sits at KD 57.",
+  "h1": "Retatrutide vs tirzepatide: no trial has compared them in people, and what that means for every number you have seen",
+  "dek": "One is an approved medicine with a 2,539-person phase 3 trial behind it; the other is investigational, with one phase 2 trial in 338 people. The figures that circulate come from putting those two trials side by side, which is not a comparison. This page tables what each trial did, quotes the only indirect estimates that exist, and says what follows.",
+  "queries": [
+    {
+      "query": "retatrutide vs tirzepatide",
+      "volume": {
+        "clickstream": 4273,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "The short answer",
+      "boundary": "No trial has ever given retatrutide and tirzepatide to the same group of people. Every figure comparing them is arithmetic across separate trials that differed in length, population and design, or an indirect estimate from a network meta-analysis that says so itself."
+    },
+    {
+      "query": "tirzepatide vs retatrutide",
+      "volume": {
+        "clickstream": 2798,
+        "google_ads": 8100,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "The short answer",
+      "boundary": "No trial has ever given retatrutide and tirzepatide to the same group of people. Every figure comparing them is arithmetic across separate trials that differed in length, population and design, or an indirect estimate from a network meta-analysis that says so itself."
+    },
+    {
+      "query": "retatrutide fda approval",
+      "volume": {
+        "clickstream": 661,
+        "google_ads": 1900,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "availability",
+      "heading": "Availability: one is approved, the other is in phase 3"
+    },
+    {
+      "query": "retatrutide vs mounjaro",
+      "volume": {
+        "clickstream": 610,
+        "google_ads": 1000,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "The short answer",
+      "boundary": "No trial has ever given retatrutide and tirzepatide to the same group of people. Every figure comparing them is arithmetic across separate trials that differed in length, population and design, or an indirect estimate from a network meta-analysis that says so itself."
+    },
+    {
+      "query": "retatrutide phase 3",
+      "volume": {
+        "clickstream": 559,
+        "google_ads": 0,
+        "kd": 43,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "availability",
+      "heading": "Availability: one is approved, the other is in phase 3"
+    },
+    {
+      "query": "switching from tirzepatide to retatrutide",
+      "volume": {
+        "clickstream": 407,
+        "google_ads": 1300,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "switching",
+      "heading": "Switching between them: what has been studied",
+      "boundary": "Nothing has been studied about moving between them. No trial has enrolled people already taking tirzepatide, and no published work describes what happens when one is stopped and the other started."
+    },
+    {
+      "query": "retatrutide vs zepbound",
+      "volume": {
+        "clickstream": 356,
+        "google_ads": 1000,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "The short answer",
+      "boundary": "No trial has ever given retatrutide and tirzepatide to the same group of people. Every figure comparing them is arithmetic across separate trials that differed in length, population and design, or an indirect estimate from a network meta-analysis that says so itself."
+    },
+    {
+      "query": "retatrutide vs semaglutide vs tirzepatide",
+      "volume": {
+        "clickstream": 305,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "numbers",
+      "heading": "The numbers people quote, and what each one came from",
+      "boundary": "The two headline numbers come from different experiments: retatrutide's from a phase 2 trial of 338 adults over 48 weeks, tirzepatide's from a phase 3 trial of 2,539 adults over 72 weeks. Putting them next to each other is not the same as comparing them."
+    },
+    {
+      "query": "retatrutide or tirzepatide",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 390,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "choosing",
+      "heading": "What the evidence lets you say, and what it does not",
+      "boundary": "No trial has ever given retatrutide and tirzepatide to the same group of people. Every figure comparing them is arithmetic across separate trials that differed in length, population and design, or an indirect estimate from a network meta-analysis that says so itself."
+    },
+    {
+      "query": "retatrutide vs tirzepatide reddit",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 390,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "choosing",
+      "heading": "What the evidence lets you say, and what it does not",
+      "boundary": "No trial has ever given retatrutide and tirzepatide to the same group of people. Every figure comparing them is arithmetic across separate trials that differed in length, population and design, or an indirect estimate from a network meta-analysis that says so itself."
+    },
+    {
+      "query": "is retatrutide better than tirzepatide",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 720,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "no-head-to-head",
+      "heading": "The trial that would answer this has not been run",
+      "boundary": "No trial has ever given retatrutide and tirzepatide to the same group of people. Every figure comparing them is arithmetic across separate trials that differed in length, population and design, or an indirect estimate from a network meta-analysis that says so itself."
+    },
+    {
+      "query": "tirzepatide dual agonist",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 110,
+        "kd": 30,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "side-by-side",
+      "heading": "Side by side, from each record"
+    },
+    {
+      "query": "retatrutide triple agonist",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "side-by-side",
+      "heading": "Side by side, from each record"
+    },
+    {
+      "query": "retatrutide vs tirzepatide muscle loss",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 170,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does retatrutide cost more muscle than tirzepatide?",
+      "answer": "Neither trial reported body composition in its main results, and no study has compared the two on lean mass. What is known is that large, fast weight loss of any cause takes lean tissue with fat, and that this is measured in some trials of these drugs and not in others. Anyone quoting a lean-mass difference between retatrutide and tirzepatide is comparing studies that did not measure the same thing."
+    },
+    {
+      "query": "retatrutide vs tirzepatide weight loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "numbers",
+      "heading": "The numbers people quote, and what each one came from",
+      "boundary": "The two headline numbers come from different experiments: retatrutide's from a phase 2 trial of 338 adults over 48 weeks, tirzepatide's from a phase 3 trial of 2,539 adults over 72 weeks. Putting them next to each other is not the same as comparing them."
+    },
+    {
+      "query": "retatrutide vs tirzepatide dosage",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "doses",
+      "heading": "Doses in the trials and on the label",
+      "boundary": "Tirzepatide's doses come from an approved label and its trials. Retatrutide's come from trials only, because it is not approved anywhere and there is no label to quote."
+    },
+    {
+      "query": "retatrutide vs tirzepatide side effects",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "side-effects",
+      "heading": "Side effects, and why the comparison is harder than it looks",
+      "boundary": "Both cause mostly gastrointestinal effects, and both trials report them, but the trials asked over different lengths of time in different populations. The meta-analyses find higher withdrawal with the newer polyagonists as a class."
+    },
+    {
+      "query": "retatrutide vs tirzepatide results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "numbers",
+      "heading": "The numbers people quote, and what each one came from",
+      "boundary": "The two headline numbers come from different experiments: retatrutide's from a phase 2 trial of 338 adults over 48 weeks, tirzepatide's from a phase 3 trial of 2,539 adults over 72 weeks. Putting them next to each other is not the same as comparing them."
+    },
+    {
+      "query": "retatrutide vs tirzepatide half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How long do they last in the body?",
+      "answer": "Both are once-weekly injections. Retatrutide's half-life was about six days in its early trials, which is what supports weekly dosing. Tirzepatide's is around five days, with the same consequence. In practice the difference matters less than the escalation schedule, which is many weeks long for both."
+    },
+    {
+      "query": "retatrutide clinical trial results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "trials-table",
+      "heading": "Every trial behind the comparison, with what it actually tested"
+    },
+    {
+      "query": "retatrutide 12 mg results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "numbers",
+      "heading": "The numbers people quote, and what each one came from",
+      "boundary": "The two headline numbers come from different experiments: retatrutide's from a phase 2 trial of 338 adults over 48 weeks, tirzepatide's from a phase 3 trial of 2,539 adults over 72 weeks. Putting them next to each other is not the same as comparing them."
+    },
+    {
+      "query": "tirzepatide 15 mg results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "numbers",
+      "heading": "The numbers people quote, and what each one came from",
+      "boundary": "The two headline numbers come from different experiments: retatrutide's from a phase 2 trial of 338 adults over 48 weeks, tirzepatide's from a phase 3 trial of 2,539 adults over 72 weeks. Putting them next to each other is not the same as comparing them."
+    },
+    {
+      "query": "retatrutide nausea vs tirzepatide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "side-effects",
+      "heading": "Side effects, and why the comparison is harder than it looks",
+      "boundary": "Both cause mostly gastrointestinal effects, and both trials report them, but the trials asked over different lengths of time in different populations."
+    },
+    {
+      "query": "retatrutide after tirzepatide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "switching",
+      "heading": "Switching between them: what has been studied",
+      "boundary": "Nothing has been studied about moving between them. No trial has enrolled people already taking tirzepatide, and no published work describes what happens when one is stopped and the other started."
+    },
+    {
+      "query": "retatrutide dose equivalent to tirzepatide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "doses",
+      "heading": "Doses in the trials and on the label",
+      "boundary": "Tirzepatide's doses come from an approved label and its trials. Retatrutide's come from trials only, because it is not approved anywhere and there is no label to quote."
+    },
+    {
+      "query": "triple agonist vs dual agonist",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism-guide",
+      "heading": "Three receptors against two: what the glucagon arm adds"
+    },
+    {
+      "query": "retatrutide hair loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does retatrutide cause hair loss?",
+      "answer": "Hair shedding is reported after rapid weight loss of any cause, including after bariatric surgery, and it is described in trials of several of these drugs. No trial has compared retatrutide and tirzepatide on it, and no abstract in this ledger reports a rate for either."
+    },
+    {
+      "query": "retatrutide heart rate",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What about heart rate?",
+      "answer": "Small increases in heart rate are a known class effect of incretin drugs, and the glucagon receptor activity that makes retatrutide a triple agonist is the part with the least long-term human data. The phase 2 trial reported dose-dependent increases in heart rate that were largest in the first half of the trial. Longer-term cardiovascular outcomes are what phase 3 is for, and they are not yet published."
+    },
+    {
+      "query": "does retatrutide burn fat or muscle",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does retatrutide cost more muscle than tirzepatide?",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "what is more powerful than tirzepatide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "numbers",
+      "heading": "The numbers people quote, and what each one came from",
+      "boundary": "The two headline numbers come from different experiments: retatrutide's from a phase 2 trial of 338 adults over 48 weeks, tirzepatide's from a phase 3 trial of 2,539 adults over 72 weeks. Putting them next to each other is not the same as comparing them.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "can i go from tirzepatide to retatrutide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "switching",
+      "heading": "Switching between them: what has been studied",
+      "boundary": "Nothing has been studied about moving between them. No trial has enrolled people already taking tirzepatide, and no published work describes what happens when one is stopped and the other started.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "does retatrutide work immediately",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How quickly does retatrutide work?",
+      "answer": "In the phase 2 trial the weight curve was still falling at the end. Average loss at 24 weeks was 17.5% on the highest dose and 24.2% at 48 weeks, so half the effect came in the second half of the trial. Both drugs also start with a long escalation, so the first weeks are about tolerating the dose rather than reaching it.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "retatrutide vs tirzepatide studies",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "head-to-head",
+      "heading": "The eight studies that name both, and what each one is",
+      "boundary": "None of these is a head-to-head trial. Four are reviews or meta-analyses, three are animal or cell studies and one is a peptide-design paper; the design line on each card says which. The only study that gave both compounds to the same subjects used mice."
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://ro.co/weight-loss/retatrutide-vs-tirzepatide/",
+      "rank": 11,
+      "words": 3368,
+      "tables": 2,
+      "h2": 28,
+      "sci_links": 31,
+      "byline": "Written by a staff writer; telehealth prescriber",
+      "score": 22,
+      "gap": "The strongest page on the SERP: 31 references, a dosage chart, side-effect sections and an explicit weight-loss comparison. Sets the 24.2% and 20.9% figures side by side as if they were comparable, and never states that no head-to-head trial exists or that the trials differed by 24 weeks in length",
+      "source": "fetched 2026-09-24, metrics measured; scored D7 F6 S6 U3"
+    },
+    {
+      "url": "https://www.joinmidi.com/post/tirzepatide-vs-retatrutide",
+      "rank": 9,
+      "words": 3097,
+      "tables": 0,
+      "h2": 19,
+      "sci_links": 2,
+      "byline": "Medically reviewed",
+      "score": 15,
+      "gap": "Telehealth clinic explainer with transformation stories and a red-flags section; two citations; no trial table",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F3 S3 U4"
+    },
+    {
+      "url": "https://drsobo.com/blog/next-gen-weight-loss-retatrutide-vs-tirzepatide/",
+      "rank": 6,
+      "words": 2934,
+      "tables": 1,
+      "h2": 17,
+      "sci_links": 2,
+      "byline": "Clinic principal, Stamford CT",
+      "score": 14,
+      "gap": "Clinic marketing framed as a showdown, ending in a consultation offer; integrates the drugs into anti-ageing protocols; two citations",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F3 S2 U4"
+    },
+    {
+      "url": "https://www.mavenclinic.com/post/zepbound-vs-retatrutide",
+      "rank": 7,
+      "words": 2256,
+      "tables": 1,
+      "h2": 17,
+      "sci_links": 4,
+      "byline": "Medically reviewed",
+      "score": 14,
+      "gap": "Answers the availability question well (when will retatrutide be available, should you wait) but carries no trial detail",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S3 U4"
+    },
+    {
+      "url": "https://www.goodrx.com/conditions/weight-loss/retatrutide-vs-tirzepatide",
+      "rank": 2,
+      "score": null,
+      "gap": "Ranks second and is cited by the AI Overview; the fetch was refused by the site, so it is not scored",
+      "source": "SERP result; fetch denied 2026-09-24"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12544991/",
+      "rank": 4,
+      "score": null,
+      "gap": "A conference abstract comparing the two indirectly ranks fourth, which shows the SERP will surface primary literature for this query",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page on this query that states the central fact, that no trial has ever given both drugs to the same people, and then shows why the circulating comparison fails: the retatrutide figure comes from a 48-week phase 2 trial in 338 adults and the tirzepatide figure from a 72-week phase 3 trial in 2,539 adults, a difference of 24 weeks on a weight curve that was still falling. The only page to quote the indirect estimates that do exist, from a 2026 network meta-analysis of 58 trials, with their confidence intervals and its own warning about overlapping intervals and limited head-to-head evidence. The only page to show what the eight studies in its own ledger that name both drugs actually are, including that the single study to give both to the same subjects was in mice at 10 nmol/kg. And the only page to note that a 2023 commentary in the investigational-drugs literature named the missing tirzepatide comparison as the thing retatrutide needed, three years ago.",
+  "serp_format_rewarded": "A cited comparison with tables. The top ten is telehealth marketing with two to four citations each; the one page with real references ranks eleventh, and a conference abstract ranks fourth, so the query tolerates primary literature. A trial table and an explicit statement of what is not known is the gap.",
+  "outline": [
+    "glance",
+    "what",
+    "quick-answer",
+    "no-head-to-head",
+    "side-by-side",
+    "trials-table",
+    "numbers",
+    "head-to-head",
+    "mechanism-guide",
+    "doses",
+    "side-effects",
+    "switching",
+    "availability",
+    "choosing",
+    "mistakes",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "open_actions": [
+    "Add the phase 3 TRIUMPH programme registrations to the ledger when results publish; the page states that they are ongoing from the trial registry, editorially.",
+    "The eight drafted head-to-head claims describe reviews and animal studies; the head-to-head drafter needs a design filter, which is the standing accept-script item.",
+    "Tirzepatide label documents are not in the ledger; label doses are cited editorially with pending_source."
+  ]
+}
