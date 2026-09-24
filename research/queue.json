@@ -1,0 +1,654 @@
+{
+  "generated": "2026-09-24",
+  "rule": "Unapproved compounds first, ordered by priority_score = cluster clickstream demand / (1 + KD/20). Approved medicines are deferred: their SERPs are held by clinical publishers and are not winnable on evidence alone. Demand measured with DataForSEO keyword_overview (clickstream), US/en, seed set = name × {head, dosage, side effects, benefits, half life, results, before and after, peptide}.",
+  "cost_usd": 0.047,
+  "queue": [
+    {
+      "slug": "retatrutide",
+      "name": "Retatrutide",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 197,
+      "head_clickstream": 204176,
+      "cluster_clickstream": 252100,
+      "cluster_google_ads": 87800,
+      "head_kd": 57,
+      "priority_score": 65481,
+      "top_heads": {
+        "head": 204176,
+        "peptide": 33630,
+        "side effects": 7173,
+        "dosage": 5901
+      },
+      "status": "queued",
+      "note": "Highest demand by far, KD 57: a phase 3 compound whose SERP is dominated by pharma news; it will become an approved drug, so write it while the SERP is still open, but expect a slower climb.",
+      "rank": 1
+    },
+    {
+      "slug": "bpc-157",
+      "name": "BPC-157",
+      "approved": false,
+      "evidence_tier": "observational-human",
+      "indexed_publications": 228,
+      "head_clickstream": 39227,
+      "cluster_clickstream": 47313,
+      "cluster_google_ads": 720,
+      "head_kd": 19,
+      "priority_score": 24263,
+      "top_heads": {
+        "head": 39227,
+        "peptide": 3663,
+        "dosage": 2136,
+        "side effects": 1424
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 2
+    },
+    {
+      "slug": "semax",
+      "name": "Semax",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 208,
+      "head_clickstream": 28492,
+      "cluster_clickstream": 40343,
+      "cluster_google_ads": 260,
+      "head_kd": 15,
+      "priority_score": 23053,
+      "top_heads": {
+        "head": 28492,
+        "peptide": 8903,
+        "dosage": 1119,
+        "side effects": 1017
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 3
+    },
+    {
+      "slug": "ghk-cu",
+      "name": "GHK-Cu",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 169,
+      "head_clickstream": 33885,
+      "cluster_clickstream": 46601,
+      "cluster_google_ads": 0,
+      "head_kd": 22,
+      "priority_score": 22191,
+      "top_heads": {
+        "head": 33885,
+        "peptide": 7733,
+        "dosage": 2493,
+        "before and after": 1119
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 4
+    },
+    {
+      "slug": "cagrilintide",
+      "name": "Cagrilintide",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 105,
+      "head_clickstream": 17146,
+      "cluster_clickstream": 21417,
+      "cluster_google_ads": 48030,
+      "head_kd": 0,
+      "priority_score": 21417,
+      "top_heads": {
+        "head": 17146,
+        "dosage": 2136,
+        "peptide": 1780,
+        "side effects": 254
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 5
+    },
+    {
+      "slug": "kpv",
+      "name": "KPV",
+      "approved": false,
+      "evidence_tier": "animal-preclinical",
+      "indexed_publications": 138,
+      "head_clickstream": 7987,
+      "cluster_clickstream": 20451,
+      "cluster_google_ads": 18350,
+      "head_kd": 3,
+      "priority_score": 17783,
+      "top_heads": {
+        "peptide": 11244,
+        "head": 7987,
+        "benefits": 407,
+        "dosage": 407
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 6
+    },
+    {
+      "slug": "slu-pp-332",
+      "name": "SLU-PP-332",
+      "approved": false,
+      "evidence_tier": "observational-human",
+      "indexed_publications": 12,
+      "head_clickstream": 12465,
+      "cluster_clickstream": 16990,
+      "cluster_google_ads": 44640,
+      "head_kd": 1,
+      "priority_score": 16181,
+      "top_heads": {
+        "head": 12465,
+        "peptide": 2238,
+        "dosage": 1119,
+        "benefits": 559
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 7
+    },
+    {
+      "slug": "selank",
+      "name": "Selank",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 96,
+      "head_clickstream": 13940,
+      "cluster_clickstream": 20044,
+      "cluster_google_ads": 22370,
+      "head_kd": 9,
+      "priority_score": 13823,
+      "top_heads": {
+        "head": 13940,
+        "peptide": 4172,
+        "dosage": 1373,
+        "benefits": 356
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 8
+    },
+    {
+      "slug": "tb-500",
+      "name": "TB-500",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 1257,
+      "head_clickstream": 11803,
+      "cluster_clickstream": 15616,
+      "cluster_google_ads": 95740,
+      "head_kd": 4,
+      "priority_score": 13013,
+      "top_heads": {
+        "head": 11803,
+        "peptide": 2442,
+        "dosage": 610,
+        "benefits": 254
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 9
+    },
+    {
+      "slug": "ipamorelin",
+      "name": "Ipamorelin",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 63,
+      "head_clickstream": 20809,
+      "cluster_clickstream": 28437,
+      "cluster_google_ads": 0,
+      "head_kd": 24,
+      "priority_score": 12926,
+      "top_heads": {
+        "head": 20809,
+        "dosage": 3408,
+        "peptide": 2238,
+        "benefits": 814
+      },
+      "status": "done",
+      "note": null,
+      "rank": 10
+    },
+    {
+      "slug": "mots-c",
+      "name": "MOTS-c",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 277,
+      "head_clickstream": 17756,
+      "cluster_clickstream": 26759,
+      "cluster_google_ads": 137740,
+      "head_kd": 23,
+      "priority_score": 12446,
+      "top_heads": {
+        "head": 17756,
+        "peptide": 3765,
+        "dosage": 3154,
+        "benefits": 1119
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 11
+    },
+    {
+      "slug": "pinealon",
+      "name": "Pinealon",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 17,
+      "head_clickstream": 8445,
+      "cluster_clickstream": 12310,
+      "cluster_google_ads": 8210,
+      "head_kd": 0,
+      "priority_score": 12310,
+      "top_heads": {
+        "head": 8445,
+        "peptide": 2747,
+        "dosage": 814,
+        "benefits": 254
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 12
+    },
+    {
+      "slug": "cjc-1295",
+      "name": "CJC-1295",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 37,
+      "head_clickstream": 10531,
+      "cluster_clickstream": 11800,
+      "cluster_google_ads": 73760,
+      "head_kd": 0,
+      "priority_score": 11800,
+      "top_heads": {
+        "head": 10531,
+        "side effects": 457,
+        "dosage": 356,
+        "peptide": 254
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 13
+    },
+    {
+      "slug": "igf-1-lr3",
+      "name": "IGF-1 LR3",
+      "approved": false,
+      "evidence_tier": "animal-preclinical",
+      "indexed_publications": 27,
+      "head_clickstream": 8547,
+      "cluster_clickstream": 10834,
+      "cluster_google_ads": 34970,
+      "head_kd": 0,
+      "priority_score": 10834,
+      "top_heads": {
+        "head": 8547,
+        "dosage": 915,
+        "before and after": 457,
+        "benefits": 305
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 14
+    },
+    {
+      "slug": "ss-31",
+      "name": "SS-31",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 493,
+      "head_clickstream": 7987,
+      "cluster_clickstream": 12870,
+      "cluster_google_ads": 48480,
+      "head_kd": 6,
+      "priority_score": 9900,
+      "top_heads": {
+        "head": 7987,
+        "peptide": 3968,
+        "dosage": 763,
+        "benefits": 152
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 15
+    },
+    {
+      "slug": "dsip",
+      "name": "DSIP",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 559,
+      "head_clickstream": 6970,
+      "cluster_clickstream": 12819,
+      "cluster_google_ads": 32080,
+      "head_kd": 8,
+      "priority_score": 9156,
+      "top_heads": {
+        "head": 6970,
+        "peptide": 4935,
+        "dosage": 712,
+        "benefits": 101
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 16
+    },
+    {
+      "slug": "epitalon",
+      "name": "Epitalon",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 170,
+      "head_clickstream": 9005,
+      "cluster_clickstream": 13936,
+      "cluster_google_ads": 40,
+      "head_kd": 17,
+      "priority_score": 7533,
+      "top_heads": {
+        "head": 9005,
+        "peptide": 3510,
+        "dosage": 712,
+        "benefits": 305
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 17
+    },
+    {
+      "slug": "kisspeptin",
+      "name": "Kisspeptin",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 3850,
+      "head_clickstream": 9056,
+      "cluster_clickstream": 10885,
+      "cluster_google_ads": 34530,
+      "head_kd": 10,
+      "priority_score": 7257,
+      "top_heads": {
+        "head": 9056,
+        "peptide": 1068,
+        "dosage": 305,
+        "benefits": 254
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 18
+    },
+    {
+      "slug": "tesofensine",
+      "name": "Tesofensine",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 63,
+      "head_clickstream": 11142,
+      "cluster_clickstream": 12716,
+      "cluster_google_ads": 23720,
+      "head_kd": 21,
+      "priority_score": 6203,
+      "top_heads": {
+        "head": 11142,
+        "peptide": 712,
+        "dosage": 356,
+        "side effects": 254
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 19
+    },
+    {
+      "slug": "cartalax",
+      "name": "Cartalax",
+      "approved": false,
+      "evidence_tier": "community-reported",
+      "indexed_publications": 0,
+      "head_clickstream": 4172,
+      "cluster_clickstream": 6002,
+      "cluster_google_ads": 10130,
+      "head_kd": 0,
+      "priority_score": 6002,
+      "top_heads": {
+        "head": 4172,
+        "peptide": 1577,
+        "dosage": 152,
+        "side effects": 101
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 20
+    },
+    {
+      "slug": "aod-9604",
+      "name": "AOD-9604",
+      "approved": false,
+      "evidence_tier": "animal-preclinical",
+      "indexed_publications": 25,
+      "head_clickstream": 7021,
+      "cluster_clickstream": 8800,
+      "cluster_google_ads": 48590,
+      "head_kd": 15,
+      "priority_score": 5029,
+      "top_heads": {
+        "head": 7021,
+        "peptide": 1170,
+        "dosage": 356,
+        "benefits": 152
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 21
+    },
+    {
+      "slug": "ara-290",
+      "name": "ARA-290",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 39,
+      "head_clickstream": 3001,
+      "cluster_clickstream": 4424,
+      "cluster_google_ads": 5410,
+      "head_kd": 3,
+      "priority_score": 3847,
+      "top_heads": {
+        "head": 3001,
+        "peptide": 1221,
+        "dosage": 152,
+        "benefits": 50
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 22
+    },
+    {
+      "slug": "survodutide",
+      "name": "Survodutide",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 91,
+      "head_clickstream": 4833,
+      "cluster_clickstream": 5697,
+      "cluster_google_ads": 10930,
+      "head_kd": 17,
+      "priority_score": 3079,
+      "top_heads": {
+        "head": 4833,
+        "peptide": 814,
+        "dosage": 50
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 23
+    },
+    {
+      "slug": "ghrp-6",
+      "name": "GHRP-6",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 738,
+      "head_clickstream": 2238,
+      "cluster_clickstream": 2490,
+      "cluster_google_ads": 8980,
+      "head_kd": 1,
+      "priority_score": 2371,
+      "top_heads": {
+        "head": 2238,
+        "dosage": 101,
+        "peptide": 101,
+        "side effects": 50
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 24
+    },
+    {
+      "slug": "thymosin-alpha-1",
+      "name": "Thymosin alpha-1",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 1079,
+      "head_clickstream": 2747,
+      "cluster_clickstream": 3153,
+      "cluster_google_ads": 25980,
+      "head_kd": 11,
+      "priority_score": 2034,
+      "top_heads": {
+        "head": 2747,
+        "peptide": 254,
+        "benefits": 152
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 25
+    },
+    {
+      "slug": "ll-37",
+      "name": "LL-37",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 2826,
+      "head_clickstream": 2442,
+      "cluster_clickstream": 3507,
+      "cluster_google_ads": 11320,
+      "head_kd": 15,
+      "priority_score": 2004,
+      "top_heads": {
+        "head": 2442,
+        "peptide": 915,
+        "benefits": 50,
+        "dosage": 50
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 26
+    },
+    {
+      "slug": "humanin",
+      "name": "Humanin",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 589,
+      "head_clickstream": 1984,
+      "cluster_clickstream": 3306,
+      "cluster_google_ads": 4370,
+      "head_kd": 13,
+      "priority_score": 2004,
+      "top_heads": {
+        "head": 1984,
+        "peptide": 1322
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 27
+    },
+    {
+      "slug": "melanotan-ii",
+      "name": "Melanotan II",
+      "approved": false,
+      "evidence_tier": "human-clinical-trial",
+      "indexed_publications": 646,
+      "head_clickstream": 2849,
+      "cluster_clickstream": 3456,
+      "cluster_google_ads": 2990,
+      "head_kd": 19,
+      "priority_score": 1772,
+      "top_heads": {
+        "head": 2849,
+        "before and after": 305,
+        "benefits": 152,
+        "dosage": 50
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 28
+    },
+    {
+      "slug": "foxo4-dri",
+      "name": "FOXO4-DRI",
+      "approved": false,
+      "evidence_tier": "observational-human",
+      "indexed_publications": 19,
+      "head_clickstream": 1831,
+      "cluster_clickstream": 2641,
+      "cluster_google_ads": 3290,
+      "head_kd": 12,
+      "priority_score": 1651,
+      "top_heads": {
+        "head": 1831,
+        "peptide": 457,
+        "benefits": 203,
+        "before and after": 50
+      },
+      "status": "queued",
+      "note": null,
+      "rank": 29
+    }
+  ],
+  "deferred": [
+    {
+      "slug": "bremelanotide-pt-141",
+      "name": "Bremelanotide",
+      "approved": true,
+      "first_approval": 2019,
+      "status": "deferred",
+      "note": "Approved medicine: the SERP is held by Mayo Clinic, Drugs.com, NIH and the manufacturer. Deferred until the unapproved queue is written."
+    },
+    {
+      "slug": "semaglutide",
+      "name": "Semaglutide",
+      "approved": true,
+      "first_approval": 2017,
+      "status": "deferred",
+      "note": "Approved medicine: the SERP is held by Mayo Clinic, Drugs.com, NIH and the manufacturer. Deferred until the unapproved queue is written."
+    },
+    {
+      "slug": "sermorelin",
+      "name": "Sermorelin",
+      "approved": true,
+      "first_approval": 1990,
+      "status": "deferred",
+      "note": "Approved medicine: the SERP is held by Mayo Clinic, Drugs.com, NIH and the manufacturer. Deferred until the unapproved queue is written."
+    },
+    {
+      "slug": "tesamorelin",
+      "name": "Tesamorelin",
+      "approved": true,
+      "first_approval": 2010,
+      "status": "deferred",
+      "note": "Approved medicine: the SERP is held by Mayo Clinic, Drugs.com, NIH and the manufacturer. Deferred until the unapproved queue is written."
+    },
+    {
+      "slug": "tirzepatide",
+      "name": "Tirzepatide",
+      "approved": true,
+      "first_approval": 2022,
+      "status": "deferred",
+      "note": "Approved medicine: the SERP is held by Mayo Clinic, Drugs.com, NIH and the manufacturer. Deferred until the unapproved queue is written."
+    }
+  ]
+}

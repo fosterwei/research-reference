@@ -26,6 +26,7 @@ Product goals, audience, non-goals, milestones, and success metrics are in [`doc
 | `scripts/draft_claims.py` | Drafts extractive, excerpt-backed claims from the ledger; generates stack and comparison records from the registry plan |
 | `scripts/measure_pages.py` | Words, sections, 6-gram uniqueness, formatting minimums (`--formatting`) and intent coverage (`--intent`) per built page |
 | `scripts/audit_page.py` | Deterministic content-quality audit of one built page as Markdown, for the automation loop's step 3 |
+| `research/queue.json` | Which page next: unapproved compounds ranked by measured demand over difficulty; approved medicines deferred |
 | `research/intents/<slug>.json` | Per-page intent map: queries, policies, competitors, information gain, outline (see `docs/content-sop.md`) |
 | `research/audits/<slug>-<date>.md` | Audit, triage and exit-audit for one page (see `docs/content-automation.md`) |
 | `src/lib/intents.ts` | Loads an intent map at build time; orders body blocks, supplies headings, boundaries, FAQ items and absence statements |
