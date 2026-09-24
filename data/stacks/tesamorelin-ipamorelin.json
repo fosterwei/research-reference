@@ -3,23 +3,139 @@
   "title": "Tesamorelin + ipamorelin",
   "slug": "tesamorelin-ipamorelin",
   "status": "draft",
-  "summary": "Tesamorelin + ipamorelin combines Tesamorelin (approved label) and Ipamorelin (human clinical trial). A stack cannot carry a stronger evidence tier than its weakest component, which here is human clinical trial. No indexed study tested this combination. What is known about each component is the whole of what is known.",
+  "summary": "Tesamorelin plus ipamorelin is sold as a pre-mixed blend and has never been studied as a combination: no indexed paper gives both compounds to the same person or animal. The reasoning behind pairing them is genuine and decades old, that a growth hormone-releasing hormone analogue and a ghrelin-receptor secretagogue act at different levels and release more growth hormone together than either alone, shown in human studies of the 1990s using GHRP-6. What that supports is a larger hormone pulse rather than any outcome a person would notice. Each component's own evidence is asymmetric: tesamorelin is approved for reducing visceral fat in HIV-associated lipodystrophy on the strength of a 412-person trial, while ipamorelin's largest randomised trial found no significant difference from placebo. A pre-mixed vial also fixes a ratio and a schedule that no study chose.",
   "seo": {
-    "title": "Tesamorelin + ipamorelin: the evidence",
-    "description": "Tesamorelin + Ipamorelin: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+    "title": "Tesamorelin + Ipamorelin: No Combination Study Exists",
+    "description": "Tesamorelin plus ipamorelin has never been studied as a combination. The synergy rationale, each component's own trials, the blend problem, doses and status."
   },
   "attributes": {
     "combination_evidence": []
   },
-  "sources": [],
+  "sources": [
+    {
+      "id": "pmid-25331030",
+      "title": "Prospective, randomized, controlled, proof-of-concept study of the Ghrelin mimetic ipamorelin for the management of postoperative ileus.",
+      "url": "https://europepmc.org/article/MED/25331030",
+      "published": "2014-10-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20554713",
+      "title": "Effects of tesamorelin (TH9507), a growth hormone-releasing factor analog, in human immunodeficiency virus-infected patients with excess abdominal fat: a pooled analysis of two multicenter, double-blind placebo-controlled phase 3 trials with safety extension data.",
+      "url": "https://europepmc.org/article/MED/20554713",
+      "published": "2010-06-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18488883",
+      "title": "Growth hormone (GH)-releasing hormone and GH secretagogues in normal aging: Fountain of Youth or Pool of Tantalus?",
+      "url": "https://europepmc.org/article/MED/18488883",
+      "published": "2008-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18057338",
+      "title": "Metabolic effects of a growth hormone-releasing factor in patients with HIV.",
+      "url": "https://europepmc.org/article/MED/18057338",
+      "published": "2007-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10496658",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin, a growth hormone releasing peptide, in human volunteers.",
+      "url": "https://europepmc.org/article/MED/10496658",
+      "published": "1999-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9186261",
+      "title": "Growth hormone-releasing peptides.",
+      "url": "https://europepmc.org/article/MED/9186261",
+      "published": "1997-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7593423",
+      "title": "Absence of growth hormone (GH) secretion after the administration of either GH-releasing hormone (GHRH), GH-releasing peptide (GHRP-6), or GHRH plus GHRP-6 in children with neonatal pituitary stalk transection.",
+      "url": "https://europepmc.org/article/MED/7593423",
+      "published": "1995-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7883854",
+      "title": "Blocked growth hormone-releasing peptide (GHRP-6)-induced GH secretion and absence of the synergic action of GHRP-6 plus GH-releasing hormone in patients with hypothalamopituitary disconnection.",
+      "url": "https://europepmc.org/article/MED/7883854",
+      "published": "1995-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-2004615",
+      "title": "On the actions of the growth hormone-releasing hexapeptide, GHRP.",
+      "url": "https://europepmc.org/article/MED/2004615",
+      "published": "1991-04-01",
+      "kind": "peer-reviewed"
+    }
+  ],
   "related": [
     "tesamorelin",
     "ipamorelin"
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has anyone studied tesamorelin and ipamorelin together?",
+      "answer": "No. No indexed study gives both to the same person or animal, which is why this page's combination section is empty. The evidence that exists is about the class of combination, releasing hormone plus secretagogue, and about each component separately."
+    },
+    {
+      "question": "Why are they combined?",
+      "answer": "Because they raise growth hormone through different systems: tesamorelin copies the releasing hormone, ipamorelin acts on the ghrelin receptor at both the pituitary and the hypothalamus. Human studies in the 1990s found a striking synergistic effect on growth hormone release when a releasing peptide and the releasing hormone were given together. Those studies used GHRP-6 rather than ipamorelin and measured hormone levels, not outcomes."
+    },
+    {
+      "question": "Is the blend better than either alone?",
+      "answer": "Unknown. Nothing has compared the blend with either component, and no trial has given the pair to anyone. A larger growth hormone pulse is what the class evidence supports; whether that produces a result anyone would notice has not been measured."
+    },
+    {
+      "question": "What dose is used?",
+      "answer": "There is no published dose for the combination. Tesamorelin's trials used 2 mg once daily; ipamorelin's figures come from its own studies and are on its record. The amounts in a pre-mixed vial were chosen by the seller."
+    },
+    {
+      "question": "Does ipamorelin work?",
+      "answer": "It reliably releases growth hormone, which was established in early dose-ranging studies. Its largest clinical trial, in 114 people recovering from bowel surgery, found no significant difference from placebo in the key and secondary efficacy analyses. That is the only large test of whether the hormone release produces a clinical result, and it did not."
+    },
+    {
+      "question": "Does tesamorelin work?",
+      "answer": "For what it was approved for, yes. In a 412-person randomised trial, visceral fat fell 15.2% over 26 weeks against a 5.0% increase on placebo, with the reduction maintained to 52 weeks and lipids improved. Those participants had HIV-associated fat accumulation; no trial has tested it in anyone else."
+    },
+    {
+      "question": "Can I inject them on different schedules instead of using a blend?",
+      "answer": "That is a question about what to do, which this page does not answer, and nothing published describes either schedule for this pair. What can be said is that a single vial makes the schedule question moot by forcing one rhythm on both, and that the two compounds were studied on different ones."
+    },
+    {
+      "question": "What are the side effects?",
+      "answer": "For tesamorelin: injection-site reactions most consistently, with no meaningful glucose change in pooled phase 3 data, and the class effects of raising growth hormone, fluid retention, joint pain and carpal tunnel symptoms. For ipamorelin: described as well tolerated and selected for not raising cortisol or prolactin. For the combination: nothing is known."
+    },
+    {
+      "question": "Is the blend legal?",
+      "answer": "Tesamorelin is an approved medicine for one indication; ipamorelin is approved nowhere and sold as a research chemical. A pre-mixed blend is not an approved product, and the approval on one component does not extend to it. Both are prohibited in sport."
+    },
+    {
+      "question": "Will this help with belly fat?",
+      "answer": "Tesamorelin reduced visceral fat, the fat around the organs rather than under the skin, in people with HIV-associated lipodystrophy. Whether it does so in anyone else is untested, whether ipamorelin adds anything is untested, and the extension data showed the reduction reversing when treatment stopped."
+    },
+    {
+      "question": "How long until anything happens?",
+      "answer": "No clock exists for the combination. Tesamorelin's trials measured at 26 and 52 weeks. Ipamorelin's growth hormone release happens within minutes of a dose. Those are different kinds of measurement and neither is a timeline for a blend."
+    },
+    {
+      "question": "Is this the same as CJC-1295 with ipamorelin?",
+      "answer": "No, though the logic is the same: CJC-1295 is a different releasing-hormone analogue, and that pairing is the more common one on the market. It has no combination trials either. Substituting one releasing analogue for another does not transfer evidence, because there is none to transfer."
+    }
+  ],
   "open_questions": [
-    "No indexed study has tested Tesamorelin with Ipamorelin together.",
-    "No published schedule reconciles the components' different reported frequencies onto one calendar."
+    "No indexed study has given tesamorelin and ipamorelin together to any person or animal.",
+    "The class-level synergy evidence uses GHRP-6 rather than ipamorelin, and measures growth hormone in blood rather than any clinical outcome.",
+    "No published schedule reconciles the components' different reported frequencies onto one calendar, and a pre-mixed vial removes the choice.",
+    "Whether the tesamorelin in a research blend is equivalent to the approved product has not been shown.",
+    "Whether raising growth hormone in people with normal secretion produces durable benefit is unresolved for the whole class."
   ],
   "review": {
     "author": "",
@@ -27,15 +143,74 @@
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 48.8,
+  "uniqueness_pct": 96.0,
   "changelog": [
     {
       "date": "2026-09-14",
       "change": "Stack record generated from research/registry.json plan; 0 combination claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Stage 0: the combination ledger is empty and stays empty; seven papers were added by hand so the page can cite the class-level synergy pharmacology and each component's pivotal trials. Written under the sequencing rule after research/intents/tesamorelin-ipamorelin.json: ten guide sections including the empty-combination finding, the synergy rationale and why it transfers poorly, a component evidence table, the pre-mixed-vial problem, doses, side effects and status."
     }
   ],
   "components": [
     "tesamorelin",
     "ipamorelin"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "This combination in two minutes",
+      "html": "<p><strong>No study has tested it.</strong> Not one indexed paper gives tesamorelin and ipamorelin to the same person, or the same animal. The combination section below is empty and stays empty.</p><p><strong>The reasoning behind it is real.</strong> The two raise growth hormone through different doors: tesamorelin copies the releasing hormone the hypothalamus sends to the pituitary, and ipamorelin acts on the ghrelin receptor, a separate system. Giving one of each releases more growth hormone than either alone, which was shown in people in the 1990s using a different releasing peptide.</p><p><strong>What that supports is a bigger pulse, not a result.</strong> No trial has followed a combination to any outcome a person would notice.</p><p><strong>The blend adds its own problem.</strong> A pre-mixed vial fixes a ratio that nobody chose on evidence, and forces one schedule onto two compounds studied on different ones.</p><p><strong>Each component is well documented on its own.</strong> Tesamorelin has an approval and phase 3 trials, in one population. Ipamorelin's one large randomised trial missed its endpoint.</p>"
+    },
+    {
+      "id": "no-combination-study",
+      "heading": "What has been tested as a combination: nothing",
+      "lede": "This is the whole of the direct evidence, so it goes first.",
+      "html": "<p>A search of the indexed literature for papers naming both compounds returns none. There is no randomised trial, no observational study, no case series and no animal study of tesamorelin with ipamorelin.</p><p>That is not a limitation of this page's ledger. It is what the combination's evidence base consists of, and it should be read against the fact that the blend is sold by at least two vendors ranking on the first page of results for its own name.</p><p>Everything below is therefore one of two things: evidence about a <b>class</b> of combination, which exists and is decades old, or evidence about each <b>component</b> separately, which is substantial for one of them and thin for the other. Neither becomes evidence for this pair by being placed next to it.</p>"
+    },
+    {
+      "id": "why-combined",
+      "heading": "Why the two are combined, and what that reasoning rests on",
+      "html": "<p>The pituitary releases growth hormone under two controls: growth hormone-releasing hormone, which tells it to, and somatostatin, which tells it not to. A third system, the ghrelin receptor, acts on both the pituitary and the hypothalamus.</p><p><b>Tesamorelin</b> is an analogue of the releasing hormone. <b>Ipamorelin</b> is a growth hormone secretagogue acting at the ghrelin receptor. Combining a releasing hormone with a secretagogue is a standard pharmacological idea, and the human evidence for it is specific: a 1995 study described a <b>striking synergistic action on GH release</b> when a releasing peptide and the releasing hormone were given together, and used patients whose hypothalamus was disconnected from the pituitary to show that the peptide's main action is exerted at the hypothalamic level. A 1991 paper had already described the releasing peptide's <b>dual site of action</b> on hypothalamus and pituitary.</p><p>The 1995 study put it in one sentence: <q cite='https://europepmc.org/article/MED/7883854'>In man, GHRP-6 is more efficacious than GHRH, and a striking synergistic action on GH release is observed when GHRP-6 and GHRH are administered simultaneously.</q> A companion study in children whose pituitary stalk had been severed found no growth hormone response to either compound or to both together, which is how the hypothalamic component of the effect was established.</p><p>Two things weaken the transfer of that finding to this blend. The synergy studies used <b>GHRP-6</b>, not ipamorelin; ipamorelin is a later, more selective compound from the same family, chosen for not raising cortisol and prolactin, and its selectivity is the reason to expect its behaviour in combination to differ. And the studies measured growth hormone in the blood over hours, as endocrine tests, not body composition, strength or anything else over months.</p><p>The dual-site idea is older still. A 1991 paper described the releasing hexapeptide as acting <q cite='https://europepmc.org/article/MED/2004615'>by a unique and complementary dual site of action on the hypothalamus and pituitary</q>, which is the mechanism the whole class of combinations is built on, and a 1997 review noted that releasing peptides <q cite='https://europepmc.org/article/MED/9186261'>have no structural homology with GHRH and act via specific receptors present either at the pituitary or the hypothalamic level</q>.</p><p>A 2008 review put the general question well in its title, asking whether releasing hormone and secretagogues in normal ageing are a fountain of youth or a pool of Tantalus. Its answer, for the class, was that adult growth hormone deficiency is a real entity where replacement helps, and that normal ageing resembles it without being it.</p>"
+    },
+    {
+      "id": "components-evidence",
+      "heading": "What each component has actually shown",
+      "lede": "Read this as two separate records, because that is what it is.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Each component's own human evidence.</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">Tesamorelin</th><th scope=\"col\">Ipamorelin</th></tr></thead><tbody><tr><td>Type</td><td>Growth hormone-releasing hormone analogue</td><td>Ghrelin-receptor agonist (secretagogue)</td></tr><tr><td>Approval</td><td>Approved 2010 for visceral fat in HIV-associated lipodystrophy</td><td>None, anywhere</td></tr><tr><td>Pivotal evidence</td><td>412-person randomised trial; visceral fat -15.2% against +5.0% on placebo at 26 weeks</td><td>A 114-person randomised trial in postoperative ileus</td></tr><tr><td>Result of that evidence</td><td>Reduction maintained to 52 weeks, lipids improved, glucose not meaningfully changed</td><td><b>No significant difference from placebo</b> in the key and secondary efficacy analyses</td></tr><tr><td>Other human data</td><td>Liver fat reduced 37% in a 61-person trial; effects in an integrase-inhibitor subgroup</td><td>Dose-related growth hormone release measured in early trials</td></tr><tr><td>What it has never been tested for</td><td>Body composition in people without HIV</td><td>Any clinical outcome successfully</td></tr></tbody></table></div></div><p>The two results in full. Tesamorelin's pivotal trial reported that <q cite='https://europepmc.org/article/MED/18057338'>the measure of visceral adipose tissue decreased by 15.2% in the tesamorelin group and increased by 5.0% in the placebo group</q>, and its pooled phase 3 analysis concluded that treatment <q cite='https://europepmc.org/article/MED/20554713'>reduces VAT and maintains the reduction for up to 52 wk, preserves abdominal sc adipose tissue, improves body image and lipids, and is overall well tolerated without clinically meaningful changes in glucose parameters</q>. Ipamorelin's trial in postoperative ileus reported that <q cite='https://europepmc.org/article/MED/25331030'>there were no significant differences between ipamorelin and placebo in the key and secondary efficacy analyses</q>, while its earlier pharmacology showed it <q cite='https://europepmc.org/article/MED/10496658'>induces the release of GH at all dose levels</q>.</p><p>The asymmetry matters more than any synergy argument. Tesamorelin's evidence is real but narrow: it was tested in people with HIV-associated visceral fat accumulation and approved for them. Ipamorelin's largest human trial, in recovery of bowel function after surgery, <b>did not beat placebo</b>, which is a fact almost no page selling the blend mentions.</p><p>Full records: <a href=\"/compounds/ipamorelin\">ipamorelin</a>, and tesamorelin's trial detail sits in the <a href=\"/compare/sermorelin-vs-tesamorelin\">sermorelin versus tesamorelin comparison</a> while its own record is unwritten.</p>"
+    },
+    {
+      "id": "blend-problem",
+      "heading": "The pre-mixed vial, and what fixing a ratio does",
+      "html": "<p>Most of the search volume for this pair is for the word <b>blend</b>, which is a product rather than a question. Two vendors selling it rank in the top ten for the combination's own name.</p><p>A blend makes three decisions on the buyer's behalf, none of them from evidence:</p><ul class=\"list\"><li><strong>The ratio.</strong> How much of each, fixed in the vial. No trial chose it, because no trial gave both.</li><li><strong>The schedule.</strong> Tesamorelin's trials dosed once daily. A secretagogue's effect is a pulse of growth hormone within minutes of a dose, which is the argument usually made for dosing it more than once a day. One vial can only be injected on one schedule, so combining them means abandoning one of those rhythms.</li><li><strong>The identity of the tesamorelin.</strong> The trials quoted for this half of the blend used the approved product. What is in a research blend is not that, and nobody has shown the two are equivalent.</li></ul><p>None of this makes a blend useless. It makes the evidence on this page evidence about other things, which is the honest description of every claim made for it.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Doses: each component's own, and nothing for the pair",
+      "html": "<p>Tesamorelin was given at <b>2 mg once daily</b> by subcutaneous injection in the trials behind its approval, for 26 to 52 weeks. Ipamorelin's doses come from early growth hormone-release studies and from its one large trial; its record carries them with their sources.</p><p>There is no published dose for the two together, so none appears here. The figures circulating for the blend come from vendors and clinics, and this site's boundary is that a dose appears when a study or a label gave it. Each component's own figures are on its record: <a href=\"/compounds/ipamorelin\">ipamorelin doses</a>.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Side effects: what each component's trials found",
+      "html": "<p><b>Tesamorelin:</b> injection-site reactions most consistently, with no clinically meaningful change in glucose parameters in the pooled phase 3 analysis. Fluid retention, joint pain and carpal tunnel symptoms are the class effects of raising growth hormone.</p><p><b>Ipamorelin:</b> selected during development for not raising cortisol or prolactin, which distinguishes it from the earlier releasing peptides, and described as well tolerated in its trials, including the one that missed its endpoint.</p><p>For the combination there is nothing. Two agents that raise growth hormone through different systems might produce more of the same class effects, or might not; the growth hormone pulse is larger in the class studies, and whether that translates into more fluid retention or more effect on blood sugar has not been measured for any such pair over time.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who this is discussed for, and what is unresolved",
+      "html": "<p><strong>Studied:</strong> tesamorelin in adults with HIV-associated visceral fat; ipamorelin in adults recovering from bowel surgery and in early endocrine studies. <strong>Never studied:</strong> the combination, in anyone.</p><p><strong>Discussed for:</strong> body recomposition, visceral fat, sleep and recovery in people with none of the conditions above, which is the gap between the evidence and the market.</p><p>The unresolved questions are the ordinary ones for raising growth hormone over time: what it does to blood sugar and insulin sensitivity, whether fluid retention and joint symptoms accumulate, and whether raising growth hormone in someone whose own secretion is normal produces any durable benefit. The 2008 review in this ledger frames that last question for the whole class and does not answer it.</p>"
+    },
+    {
+      "id": "legality",
+      "heading": "Status: one approved product, one unapproved compound, and a blend that is neither",
+      "html": "<p><b>Tesamorelin</b> is an approved medicine for one indication. <b>Ipamorelin</b> has no approval in any country and is sold as a research chemical. A pre-mixed blend of the two is not an approved product anywhere, and the approval attaching to one component does not extend to a compound preparation containing it.</p><p>Both are prohibited in sport as growth hormone secretagogues. Neither has been assessed by a regulator in blended form, and no regulator has evaluated what is in a research vial.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how this combination is discussed",
+      "html": "<ol class=\"list\"><li><strong>Citing GHRH-plus-GHRP synergy as evidence for this blend.</strong> Those studies used GHRP-6 and measured growth hormone in the blood over hours.</li><li><strong>Carrying tesamorelin's trial results across.</strong> They were in people with HIV-associated visceral fat, using the approved product.</li><li><strong>Omitting that ipamorelin's largest trial missed its endpoint.</strong> It found no significant difference from placebo.</li><li><strong>Treating a blend's ratio as a protocol.</strong> It is a manufacturing decision.</li><li><strong>Assuming more growth hormone means more benefit.</strong> The class studies measured the pulse, not the outcome.</li><li><strong>Reading the empty combination section as a gap.</strong> It is the finding.</li></ol>"
+    }
+  ],
+  "prose_reviewed": true
 }
