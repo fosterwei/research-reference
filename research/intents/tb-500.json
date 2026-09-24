@@ -1,0 +1,239 @@
+{
+  "slug": "tb-500",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "h1": "TB-500: what the thymosin beta-4 trials show, what the injected fragment has never been tested for, and its status",
+  "queries": [
+    {
+      "query": "tb-500",
+      "volume": {
+        "clickstream": 11803,
+        "google_ads": 49500,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What TB-500 is and how it acts"
+    },
+    {
+      "query": "tb500",
+      "volume": {
+        "clickstream": 9005,
+        "google_ads": 49500,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What TB-500 is and how it acts"
+    },
+    {
+      "query": "tb-500 peptide",
+      "volume": {
+        "clickstream": 2442,
+        "google_ads": 33100,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What TB-500 is and how it acts"
+    },
+    {
+      "query": "tb-500 dosage",
+      "volume": {
+        "clickstream": 610,
+        "google_ads": 6600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "TB-500 and thymosin beta-4 doses in studies",
+      "boundary": "Every human figure here is for the full protein by eye drop, gel or infusion. No human study has tested an injected TB-500 fragment dose; circulating figures are untested and not reproduced."
+    },
+    {
+      "query": "what is tb-500",
+      "volume": {
+        "clickstream": 457,
+        "google_ads": 3600,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What TB-500 is and how it acts"
+    },
+    {
+      "query": "tb-500 benefits",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 3600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "evidence_table",
+      "heading": "What did the studies find?",
+      "boundary": "Reported outcomes, almost all for the full protein. The injected fragment has one rat study."
+    },
+    {
+      "query": "tb-500 side effects",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 2400,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What are the side effects of TB-500?",
+      "answer": "The intravenous phase 1 study of the full protein found no dose-limiting toxicity over two weeks. Community reports of the fragment describe injection-site reactions, fatigue and headache. Long-term effects are unknown."
+    },
+    {
+      "query": "tb-500 reddit",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 390,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported_use",
+      "heading": "What people report outside the literature"
+    },
+    {
+      "query": "tb-500 before and after",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 110,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported_use",
+      "heading": "What people report outside the literature"
+    },
+    {
+      "query": "tb-500 half life",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 390,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "timeline",
+      "heading": "What is measured over time, and what is not"
+    },
+    {
+      "query": "tb-500 thymosin beta 4",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 590,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How TB-500 and thymosin beta-4 work"
+    },
+    {
+      "query": "tb-500 injection",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 170,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "routes_studied",
+      "heading": "Routes used in the studies"
+    },
+    {
+      "query": "tb-500 hair",
+      "volume": {
+        "clickstream": null,
+        "google_ads": null,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does TB-500 help hair growth?",
+      "answer": "Thymosin beta-4 promotes hair follicle cell migration in mice. No human study of TB-500 or the protein for hair exists."
+    },
+    {
+      "query": "tb-500 heart",
+      "volume": {
+        "clickstream": null,
+        "google_ads": null,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "human-trials",
+      "heading": "What the human studies show"
+    }
+  ],
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ]
+}

@@ -55,7 +55,8 @@ const pubs = d.evidence_summary?.publications ?? {};
 const noEvidence = (pubs.total ?? 0) === 0;
 const hasAnyEvidence = has('evidence_table');
 const humanRows = (A.evidence_table ?? []).filter((r) => r.fields?.species === 'Humans' && !/method|in vitro/i.test(r.fields?.design ?? ''));
-const showHumanTrials = humanRows.length >= 1 && humanRows.length <= 6;
+// Up to twelve human rows read as a list; beyond that the evidence table carries them.
+const showHumanTrials = humanRows.length >= 1 && humanRows.length <= 12;
 const path = `/compounds/${d.slug}`;
 const updated = lastmod(entry);
 const seen = new Set<string>();

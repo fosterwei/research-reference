@@ -12,8 +12,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "TB-500 is a peptide in the repair & anti inflammatory class (thymosin beta-4 fragment; actin sequestration, angiogenesis). Europe PMC indexes 1,257 publications naming it or a listed alias in a title or abstract, including 7 randomized controlled trials and 6 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "TB-500: what the research shows",
-    "description": "TB-500 research, cited: 1,257 indexed publications, 7 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "TB-500: Thymosin β4 Trials, Fragment Evidence, Side Effects",
+    "description": "TB-500: the fragment vs full thymosin beta-4, which human trials exist, the one rat study of injected TB-500, side effects and status."
   },
   "attributes": {
     "routes_studied": [
@@ -187,7 +187,15 @@
         "drafting": "extractive"
       }
     ],
-    "regulatory_status": [],
+    "regulatory_status": [
+      {
+        "value": "Not approved anywhere: neither the fragment nor the full protein has a marketing authorisation. Thymosin beta-4 products reached phase 2 and 3 trials in eye and wound conditions without approval. TB-500 is named on the WADA Prohibited List under S2 (peptide hormones, growth factors, related substances and mimetics), prohibited at all times. TB-500 was among the peptides scheduled for FDA's Pharmacy Compounding Advisory Committee in July 2026; the outcome should be checked against FDA's live list.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Randomized controlled trial, humans, 2021: The plasma concentration, maximum peak concentration (C max ) and AUC of each dose group increased with the increase in the dose.",
@@ -689,6 +697,34 @@
           "outcome": "Furthermore, single-cell sequencing revealed a distinct subset of pro-inflammatory and pro-fibrotic corneal epithelial cells in the dry eye model, while glutamine treatment downregulated those subclusters, thereby…"
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "Thymosin beta-4 is a 43-amino-acid protein present in almost every human cell, where it binds actin and regulates how cells build their skeleton and move. What is sold as TB-500 is usually a short synthetic fragment, seven amino acids from the protein's actin-binding region (positions 17 to 23), although some vendors sell the full protein under the same name. This page's ledger indexes both under the compound's aliases, and the distinction matters for every sentence about evidence.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The proposed healing mechanism follows from actin biology: by binding actin, thymosin beta-4 promotes the migration of cells into a wound, encourages new blood-vessel formation, reduces inflammation and scarring, and in heart-attack models in animals protects cardiac muscle. These effects are documented for the full protein in animals and cells; whether the seven-amino-acid fragment reproduces them when injected has been tested in very few studies.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The human evidence belongs to the full protein, developed by RegeneRx under the names RGN-259 (eye drops), RGN-137 (topical gel) and RGN-352 (intravenous). Those trials span dry eye and neurotrophic keratopathy, chronic wounds and epidermolysis bullosa, and a phase 1 intravenous safety study in healthy volunteers. No trial has tested injected TB-500 fragment for any indication; the one indexed study of injected TB-500 for healing is the 2026 rat tendon study that also tested BPC-157.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "TB-500 circulates for injury recovery, tendon and ligament healing, hair and, more speculatively, heart health, injected subcutaneously or intramuscularly on a weekly schedule, and most often paired with BPC-157 as the Wolverine stack. Reported effects are faster recovery and reduced pain; reported side effects are injection-site reactions, transient fatigue, headache and light-headedness. None of this comes from a human study of the fragment. Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -734,20 +770,68 @@
   },
   "faq": [
     {
+      "question": "What is TB-500?",
+      "answer": "Usually a seven-amino-acid fragment of thymosin beta-4, a protein present in nearly every cell that regulates actin and cell movement. Some products sold as TB-500 are the full 43-amino-acid protein."
+    },
+    {
+      "question": "Is TB-500 the same as thymosin beta-4?",
+      "answer": "Not usually. TB-500 is typically the actin-binding fragment; thymosin beta-4 is the full protein, which is what the human trials tested."
+    },
+    {
       "question": "Has TB-500 been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 6 clinical trials and 7 randomized controlled trials naming TB-500 or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "answer": "The fragment has not. The full protein has phase 1 to 3 trials as eye drops, topical gel and intravenous infusion."
     },
     {
-      "question": "What kind of evidence exists for TB-500?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What does TB-500 do?",
+      "answer": "In animals and cells the full protein promotes cell migration into wounds, new blood vessels, and reduced scarring, and protects heart muscle in injury models. The fragment's injected effects rest on one rat tendon study."
     },
     {
-      "question": "Is TB-500 an approved medicine?",
-      "answer": "No ChEMBL record matches TB-500 or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "Is there a TB-500 dose?",
+      "answer": "No human dose has been studied for the fragment. Trial doses of the full protein are listed above by route; figures that circulate for injection are untested and not reproduced here."
     },
     {
-      "question": "Which species has TB-500 been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "What are the side effects of TB-500?",
+      "answer": "The intravenous phase 1 study of the full protein found no dose-limiting toxicity over two weeks. Community reports of the fragment describe injection-site reactions, fatigue and headache. Long-term effects are unknown."
+    },
+    {
+      "question": "Is TB-500 FDA approved?",
+      "answer": "No, and neither is thymosin beta-4. TB-500 was on the agenda of FDA's compounding advisory committee in July 2026; check FDA's list for the outcome."
+    },
+    {
+      "question": "Is TB-500 banned in sport?",
+      "answer": "Yes. Named on the WADA Prohibited List under S2, prohibited at all times."
+    },
+    {
+      "question": "Can BPC-157 and TB-500 be used together?",
+      "answer": "Communities do, as the Wolverine stack. One 2026 rat tendon study tested the pair; no human study has."
+    },
+    {
+      "question": "Does TB-500 help hair growth?",
+      "answer": "Thymosin beta-4 promotes hair follicle cell migration in mice. No human study of TB-500 or the protein for hair exists."
+    },
+    {
+      "question": "Is TB-500 good for the heart?",
+      "answer": "The full protein protects heart muscle in animal injury models and one small uncontrolled human study reported improved walking distance. No controlled human evidence."
+    },
+    {
+      "question": "What is TB-500's half-life?",
+      "answer": "The full protein is cleared from plasma within hours after infusion. The fragment's half-life in people has not been measured."
+    },
+    {
+      "question": "How should TB-500 be stored?",
+      "answer": "Powder refrigerated or frozen away from light; reconstituted solution refrigerated and used within about four weeks."
+    },
+    {
+      "question": "TB-500 vs BPC-157: which is better?",
+      "answer": "Neither has controlled human evidence for healing; they act by different proposed mechanisms; one rat study tested both without ranking them."
+    },
+    {
+      "question": "How many TB-500 studies exist?",
+      "answer": "1,257 indexed publications for thymosin beta-4 and its aliases, mostly basic cell biology; 25 primary studies are tabulated here, 14 of them in humans and all of those on the full protein."
+    },
+    {
+      "question": "Who developed thymosin beta-4 as a drug?",
+      "answer": "RegeneRx, as RGN-259 eye drops, RGN-137 gel and RGN-352 intravenous, through phase 2 and 3 trials without approval."
     }
   ],
   "sources": [
@@ -1129,6 +1213,49 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 50 ledger sources by scripts/draft_claims.py: 17 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written guide, FAQ to 16, mechanism, reported-use (no circulating figures reproduced) and regulatory editorial sections; fragment-versus-full-protein distinction made explicit throughout; intent-driven H1 and title."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "TB-500 in two minutes",
+      "html": "<p><strong>What it is.</strong> Usually a seven-amino-acid fragment of thymosin beta-4, a protein in nearly every cell that regulates actin and cell movement. Some products sold as TB-500 are the full 43-amino-acid protein.</p><p><strong>What the research actually shows.</strong> 1,257 indexed publications because the protein is a basic cell-biology molecule. Human trials exist for the full protein: eye drops for dry eye and corneal disease, a topical gel for chronic wounds, and an intravenous safety study in 40 volunteers. For the injected fragment: one rat tendon study, shared with BPC-157. No human trial.</p><p><strong>Status.</strong> Not approved anywhere; WADA S2, prohibited at all times; under FDA compounding review in 2026.</p><p><strong>Where the evidence is thinnest.</strong> Whether injecting the fragment does anything the full protein does, and everything about it in people.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "TB-500 and thymosin beta-4 doses in studies",
+      "lede": "Almost every human figure is for the full protein by eye drop, gel or intravenous infusion. Injected fragment doses exist only in one rat study.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Dose and route</th><th scope=\"col\">Duration</th><th scope=\"col\">Finding</th></tr></thead><tbody><tr><td>Intravenous phase 1, full protein (Ruff 2010)</td><td>42 to 1,260 mg, single then daily</td><td>14 days</td><td>40 healthy volunteers; no dose-limiting toxicity</td></tr><tr><td>Intravenous pharmacokinetics, full protein (Wang 2021)</td><td>Escalating single doses</td><td>Single</td><td>Exposure rose with dose</td></tr><tr><td>Eye drops, RGN-259 (Sosne 2015 and later trials)</td><td>0.1% drops</td><td>Weeks</td><td>Symptom and sign improvement in dry eye and neurotrophic keratopathy</td></tr><tr><td>Topical gel, RGN-137 (Guarnera 2007, 2010)</td><td>Dose-ranging gel</td><td>Weeks</td><td>Pressure ulcers and epidermolysis bullosa wounds; dose-ranging</td></tr><tr><td>Small cardiac study (Zhu 2016)</td><td>Not stated in abstract</td><td>6 months follow-up</td><td>5 patients; walking distance increased; uncontrolled</td></tr><tr><td>Rat Achilles tendon (Biçer 2026)</td><td>60 µg/kg/day, injected</td><td>Weeks</td><td>Higher load to failure vs controls; also tested with BPC-157</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who TB-500 is discussed for, and the cautions that recur",
+      "html": "<p><strong>The interest.</strong> Tendon, ligament and muscle injuries, and recovery generally; the audience overlaps almost entirely with BPC-157's.</p><ul><li><strong>Cancer.</strong> Thymosin beta-4 promotes cell migration and blood-vessel growth and is elevated in several tumours; whether supplementing it matters in a person with a tumour is untested and is the caution every review lists first.</li><li><strong>Athletes.</strong> Named on the WADA list, prohibited at all times, detectable.</li><li><strong>Which molecule is in the vial.</strong> Fragment or full protein, at unknown purity; the two are not interchangeable and a certificate of analysis is the only check.</li><li><strong>Pregnancy, children.</strong> No data.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The full protein is cleared from plasma within hours after infusion. Eye and wound trials measured change over weeks. Nothing has been measured after injecting the fragment in a person; the recovery timelines that circulate are self-report over periods in which injuries heal anyway.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>Powder refrigerated or frozen away from light; reconstituted solution refrigerated and used within about four weeks. Discard cloudy or discoloured solution. The full protein and the fragment have different molecular weights, so the same labelled mass is a different number of molecules.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how TB-500 is discussed",
+      "html": "<ul><li><strong>Quoting thymosin beta-4 trials as TB-500 evidence.</strong> Eye drops and wound gels of the full protein say nothing about an injected fragment.</li><li><strong>Counting 1,257 publications as support.</strong> Most are cell biology of a ubiquitous protein.</li><li><strong>Reading the 2010 phase 1 study as safety data for what is sold.</strong> It was the full protein, intravenous, in healthy people, for two weeks.</li><li><strong>Assuming the <a href=\"/stacks/bpc-157-tb-500\">Wolverine stack</a> was studied in people.</strong> One rat study.</li></ul>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "TB-500 vs BPC-157, GHK-Cu and KPV",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Mechanism (proposed)</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td>TB-500 / thymosin β4</td><td>Actin binding; cell migration; angiogenesis</td><td>Trials of the full protein in eyes and wounds; none of the fragment</td><td>Not approved; WADA S2</td></tr><tr><td>BPC-157</td><td>Gastric-protein fragment; nitric oxide, growth factors</td><td>3 uncontrolled pilots</td><td>Not approved; FDA Category 2; WADA S0</td></tr><tr><td>GHK-Cu</td><td>Copper tripeptide; collagen, gene expression</td><td>Topical trials</td><td>Cosmetic ingredient</td></tr><tr><td>KPV</td><td>α-MSH fragment; anti-inflammatory</td><td>None</td><td>Not approved</td></tr></tbody></table></div></div><p>Pages: <a href=\"/compare/bpc-157-vs-tb-500\">BPC-157 vs TB-500</a>, the <a href=\"/stacks/bpc-157-tb-500\">Wolverine stack</a>, and the records for <a href=\"/compounds/bpc-157\">BPC-157</a>, <a href=\"/compounds/ghk-cu\">GHK-Cu</a> and <a href=\"/compounds/kpv\">KPV</a>.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }

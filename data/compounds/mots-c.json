@@ -10,8 +10,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "MOTS-c is a peptide in the mitochondrial peptides class (mitochondria-derived; AMPK and folate-cycle effects reported). Europe PMC indexes 277 publications naming it or a listed alias in a title or abstract, including 4 randomized controlled trials and 1 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "MOTS-c: what the research shows",
-    "description": "MOTS-c research, cited: 277 indexed publications, 4 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "MOTS-c: Evidence, Side Effects and Status",
+    "description": "MOTS-c: the mitochondrial peptide, mouse findings, why human studies only measured levels, side effects, status."
   },
   "attributes": {
     "routes_studied": [
@@ -331,7 +331,15 @@
         "drafting": "extractive"
       }
     ],
-    "regulatory_status": [],
+    "regulatory_status": [
+      {
+        "value": "Not approved anywhere and never administered to people in a registered trial; the analogue CB4211 completed phase 1 before development stopped. MOTS-c activates AMPK, and WADA's Prohibited List bans AMPK activators under metabolic modulators (class S4.4); athletes should treat it as prohibited. Its status on FDA compounding lists should be checked against the live list.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Randomized controlled trial, humans, 2022: We failed to find any significant alteration of circulating MOTS-c -as measured using the commercially available competitive ELISA CEX132Hu- in response to 24 weeks of a neoadjuvant chemotherapy/trastuzumab regimen with or without daily metformin.",
@@ -833,6 +841,34 @@
           "outcome": "Furthermore, MOTS-c treatment significantly restored GSH content, diminished reactive oxygen species (ROS) production, and oxidative stress."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "MOTS-c is a 16-amino-acid peptide encoded not in the cell nucleus but in the mitochondrial genome, within the gene for the 12S ribosomal RNA. Its discovery in 2015 was one of the first demonstrations that mitochondria make signalling peptides of their own. It is released in response to metabolic stress and exercise, and it can move into the nucleus to alter gene expression.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Its proposed actions are activation of AMPK, the cell's energy sensor, and modulation of the folate and one-carbon cycle, which together shift cells toward glucose uptake and fat oxidation. In mice, MOTS-c improved insulin sensitivity, prevented diet-induced obesity and fat accumulation, and, given to old mice, improved physical capacity; in one widely cited study, late-life treatment roughly doubled running performance. A common variant of the gene, more frequent in East Asian populations, has been associated with longevity in observational studies.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "In people the evidence is observational: circulating MOTS-c rises with exercise, differs between groups with and without conditions such as polycystic ovary syndrome, hypertension or kidney disease, and correlates with measures of metabolic and vascular health. No trial has administered MOTS-c to people. A synthetic analogue, CB4211, completed a phase 1 study in obesity and fatty liver before its developer discontinued the programme.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "MOTS-c circulates for fat loss, exercise performance, insulin sensitivity and longevity, injected on a weekly or several-times-weekly schedule in courses of one to two months. Reported effects are more energy in training and modest weight change; the most consistently reported side effect is flushing shortly after injection, with fatigue and injection-site reactions also mentioned. None of this comes from a human study, because no one has been given MOTS-c in a trial. Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -876,20 +912,68 @@
   },
   "faq": [
     {
+      "question": "What is MOTS-c?",
+      "answer": "A 16-amino-acid peptide encoded in the mitochondrial genome, released with exercise and metabolic stress, that activates AMPK and shifts cells toward burning fat and taking up glucose."
+    },
+    {
+      "question": "What does MOTS-c do?",
+      "answer": "In mice it improves insulin sensitivity, prevents diet-induced obesity and improves late-life fitness. In people, circulating levels rise with exercise and track metabolic health; no trial has given it to anyone."
+    },
+    {
       "question": "Has MOTS-c been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 1 clinical trials and 4 randomized controlled trials naming MOTS-c or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "answer": "Not by administration. Human studies measured the body's own MOTS-c. A synthetic analogue, CB4211, completed phase 1 before development stopped."
     },
     {
-      "question": "What kind of evidence exists for MOTS-c?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "Is there a MOTS-c dose?",
+      "answer": "No human dose has been studied. Mice received milligrams per kilogram by injection; figures that circulate for people are untested and not reproduced here."
     },
     {
-      "question": "Is MOTS-c an approved medicine?",
-      "answer": "No ChEMBL record matches MOTS-c or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "What are the side effects of MOTS-c?",
+      "answer": "Unknown in people. Community reports describe flushing after injection most consistently, plus fatigue and injection-site reactions."
     },
     {
-      "question": "Which species has MOTS-c been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "Why does MOTS-c cause flushing?",
+      "answer": "Unknown. It is the most consistent community report and no study has examined it."
+    },
+    {
+      "question": "Is MOTS-c FDA approved?",
+      "answer": "No, and it has never been administered to people in a registered trial."
+    },
+    {
+      "question": "Is MOTS-c banned in sport?",
+      "answer": "It activates AMPK, and WADA bans AMPK activators under metabolic modulators (S4.4). Athletes should treat it as prohibited."
+    },
+    {
+      "question": "Does MOTS-c help with weight loss?",
+      "answer": "In mice it prevents fat gain on a high-fat diet. No human study has measured weight change after administration."
+    },
+    {
+      "question": "Does MOTS-c improve exercise performance?",
+      "answer": "In old mice, late-life treatment improved running capacity. In people, the body's own MOTS-c rises with exercise; no one has tested giving it."
+    },
+    {
+      "question": "What is MOTS-c's half-life?",
+      "answer": "Not measured in people after administration. The body's own levels rise and fall around exercise within hours."
+    },
+    {
+      "question": "MOTS-c vs SS-31: what is the difference?",
+      "answer": "Both act on mitochondria, but SS-31 is a synthetic peptide with phase 2 and 3 trials in mitochondrial disease, while MOTS-c is a natural mitochondrial peptide with no human administration studies."
+    },
+    {
+      "question": "Is MOTS-c linked to longevity?",
+      "answer": "A common variant of its gene, more frequent in East Asian populations, is associated with longevity in observational studies. Association is not effect, and no trial exists."
+    },
+    {
+      "question": "How should MOTS-c be stored?",
+      "answer": "Powder refrigerated or frozen away from light; reconstituted solution refrigerated and used within about four weeks."
+    },
+    {
+      "question": "What is CB4211?",
+      "answer": "A synthetic MOTS-c analogue developed by CohBar that completed a phase 1 study in obesity and fatty liver; the company discontinued it."
+    },
+    {
+      "question": "How many MOTS-c studies exist?",
+      "answer": "277 indexed publications; 25 primary studies are tabulated here, 13 of them human and all of those observational."
     }
   ],
   "sources": [
@@ -1222,6 +1306,56 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 40 ledger sources by scripts/draft_claims.py: 33 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written guide, FAQ to 16, mechanism, reported-use (no circulating figures reproduced) and regulatory editorial sections; the observational-versus-administered distinction made explicit; intent-driven H1 and title."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "MOTS-c in two minutes",
+      "html": "<p><strong>What it is.</strong> A small peptide made by mitochondria themselves, released with exercise and metabolic stress, that activates the cell's energy sensor and shifts metabolism toward burning fat and taking up glucose.</p><p><strong>What the research actually shows.</strong> 277 indexed publications. Mice: better insulin sensitivity, resistance to diet-induced obesity, better late-life fitness. People: circulating levels rise with exercise and track metabolic health in observational studies. No human has been given MOTS-c in a trial; a synthetic analogue completed phase 1 and was dropped.</p><p><strong>Status.</strong> Not approved anywhere; an AMPK activator, so within the class WADA prohibits.</p><p><strong>Where the evidence is thinnest.</strong> Any effect of administering it to a person, at any dose, for anything.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "MOTS-c doses in studies",
+      "lede": "Every administered dose is in mice. Human studies measured the body's own MOTS-c; they gave none.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Dose and route</th><th scope=\"col\">Duration</th><th scope=\"col\">Finding</th></tr></thead><tbody><tr><td>Mouse metabolic studies</td><td>5 to 15 mg/kg intraperitoneal, daily</td><td>Days to weeks</td><td>Improved insulin sensitivity; less fat gain; PGC-1α and AMPK activation</td></tr><tr><td>Old mice, late-life treatment</td><td>Intraperitoneal, intermittent</td><td>Weeks</td><td>Improved running capacity and healthspan measures</td></tr><tr><td>Rat heart injury model</td><td>Intraperitoneal</td><td>Days</td><td>Better post-ischaemic recovery; less oxidative stress</td></tr><tr><td>Human observational studies</td><td>None given; blood levels measured</td><td>Cross-sectional or exercise sessions</td><td>Levels rise with exercise; differ by condition</td></tr><tr><td>CB4211 analogue, phase 1</td><td>Not published in this ledger</td><td>Weeks</td><td>Safety study in obesity and fatty liver; development stopped</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who MOTS-c is discussed for, and the cautions that recur",
+      "html": "<p><strong>The interest.</strong> Fat loss, exercise capacity, insulin resistance and ageing, each of which has a mouse result behind it.</p><ul><li><strong>Blood sugar medication.</strong> The compound improves glucose uptake in mice; combined with insulin or other glucose-lowering drugs the effect is unstudied.</li><li><strong>Cancer.</strong> Metabolic reprogramming and AMPK activation cut both ways in tumour biology; untested.</li><li><strong>Athletes.</strong> An AMPK activator, within WADA's prohibited metabolic-modulator class.</li><li><strong>Flushing.</strong> The most consistent community report; its mechanism is unknown.</li><li><strong>Pregnancy, children.</strong> No data.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>In mice, metabolic changes appeared over days to weeks of dosing. In people, the body's own MOTS-c rises within an hour of exercise and falls back. Nothing has been measured after administering it to a person.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>Powder refrigerated or frozen away from light; reconstituted solution refrigerated and used within about four weeks. Discard cloudy or discoloured solution.</p>"
+    },
+    {
+      "id": "monitoring",
+      "heading": "What the human studies measured",
+      "lede": "They measured the peptide, not its effects. What follows is what an observational study of MOTS-c typically records.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Measure</th><th scope=\"col\">Why</th><th scope=\"col\">When</th></tr></thead><tbody><tr><td>Circulating MOTS-c</td><td>The variable under study; rises with exercise</td><td>Before and after exercise, or once</td></tr><tr><td>Fasting glucose, insulin, HbA1c</td><td>Associations with metabolic health</td><td>Once</td></tr><tr><td>Body composition, fitness</td><td>Correlates in cross-sectional work</td><td>Once</td></tr><tr><td>Blood pressure, vascular stiffness</td><td>Inverse correlations reported in kidney and hypertension cohorts</td><td>Once</td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how MOTS-c is discussed",
+      "html": "<ul><li><strong>Reading observational human studies as treatment trials.</strong> They measured levels; nobody was given the peptide.</li><li><strong>Reading the mouse fitness study as human anti-ageing evidence.</strong> It was mice, by injection, at doses per kilogram far above anything people use.</li><li><strong>Citing CB4211 as MOTS-c safety data.</strong> A different molecule, phase 1 only, and the programme ended.</li><li><strong>Calling it \"natural\" as if that settles safety.</strong> The body makes it in picograms; injected milligrams are a different exposure.</li></ul>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "MOTS-c vs SS-31 and humanin",
+      "lede": "The three mitochondrial peptides in this reference.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Peptide</th><th scope=\"col\">Origin and mechanism</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td>MOTS-c</td><td>Mitochondrially encoded; AMPK, one-carbon cycle</td><td>Observational only; analogue in phase 1</td><td>Not approved</td></tr><tr><td>SS-31 (elamipretide)</td><td>Synthetic; binds cardiolipin in the inner membrane</td><td>Phase 2 and 3 trials in mitochondrial disease</td><td>Not approved; regulatory review in Barth syndrome</td></tr><tr><td>Humanin</td><td>Mitochondrially encoded; cytoprotective</td><td>Observational; analogues in animals</td><td>Not approved</td></tr></tbody></table></div></div><p>Class records: <a href=\"/compounds/ss-31\">SS-31</a>, <a href=\"/compounds/humanin\">humanin</a>; the <a href=\"/compounds#mitochondrial-peptides\">mitochondrial peptides class page</a> lists them together. The <a href=\"/stacks/retatrutide-mots-c\">retatrutide + MOTS-c</a> stack page covers a combination that no study has tested.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
