@@ -1,0 +1,568 @@
+{
+  "slug": "aod-9604",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "stage0_note": "The ledger's fourteen sources include none of the six human trials, which were never published individually; their only account is Stier, Vos and Kenley 2013 in the Journal of Endocrinology and Metabolism (doi 10.4021/jem157w), not indexed in Europe PMC. It is added to the ledger by hand as a peer-reviewed source with the trial table drawn from its methods section.",
+  "serp_2026-09-24": {
+    "query": "aod 9604",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "organic_top": [
+      "americanpeptides.us (vendor)",
+      "bhrcenter.com (clinic)",
+      "jofem.org (Stier 2013)",
+      "ubiehealth.com",
+      "drugbank",
+      "pubmed (Ng 2000)",
+      "empiremedicaltraining.com",
+      "youtube.com",
+      "uptownmedicalwellness.com (clinic)"
+    ],
+    "note": "The primary safety paper and the 2000 rat paper rank in the top 10; the AI Overview cites a clinic three times, Wikipedia and a training page. The incumbent dosing guide is absent."
+  },
+  "demand_findings": "Three spellings of the head carry 12,006 clickstream (KD 15 to 29); 'hgh fragment 176-191' 1,271 and 'fragment 176-191' 356 are the same molecule under its structural name and the page must carry both. Dosage 966 is the largest modifier; before-and-after 305; benefits 254; reddit 203; side effects 152. Comparison queries (vs tesamorelin, semaglutide, tirzepatide) are Ads-only. Google Ads reports 18,100 for each head spelling and 22,200 for 'aod-9604 peptide', the largest Ads footprint in the queue after kisspeptin.",
+  "h1": "AOD-9604 (HGH fragment 176-191): what six trials in 900 people found, why development stopped, and where it stands now",
+  "dek": "A growth-hormone fragment with more human trial data than almost any research peptide, all of it pointing one way: safe, and no better than placebo for weight loss. This page tables the six trials from the sponsor's own paper, explains the GRAS and compounding history that vendors misread as approval, and separates the oral drug that was tested from the injection that is sold.",
+  "queries": [
+    {
+      "query": "aod-9604",
+      "volume": {
+        "clickstream": 7021,
+        "google_ads": 18100,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What AOD-9604 is, and what the six trials found"
+    },
+    {
+      "query": "aod9604",
+      "volume": {
+        "clickstream": 2645,
+        "google_ads": 18100,
+        "kd": 29,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What AOD-9604 is, and what the six trials found"
+    },
+    {
+      "query": "aod 9604",
+      "volume": {
+        "clickstream": 2340,
+        "google_ads": 18100,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What AOD-9604 is, and what the six trials found"
+    },
+    {
+      "query": "hgh fragment 176-191",
+      "volume": {
+        "clickstream": 1271,
+        "google_ads": 1600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What AOD-9604 is, and what the six trials found"
+    },
+    {
+      "query": "aod-9604 peptide",
+      "volume": {
+        "clickstream": 1170,
+        "google_ads": 22200,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What AOD-9604 is, and what the six trials found"
+    },
+    {
+      "query": "aod 9604 dosage",
+      "volume": {
+        "clickstream": 966,
+        "google_ads": 4400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every AOD-9604 dose in the trials and studies, in one table",
+      "boundary": "Every figure here is a dose a trial gave: oral capsules of 9 to 54 mg, or intravenous doses in the first two studies. The 250 to 500 mcg injections on vendor pages were never given to a person in any trial."
+    },
+    {
+      "query": "fragment 176-191",
+      "volume": {
+        "clickstream": 356,
+        "google_ads": 590,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What AOD-9604 is, and what the six trials found"
+    },
+    {
+      "query": "aod 9604 before and after",
+      "volume": {
+        "clickstream": 305,
+        "google_ads": 1900,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe modest fat loss, no effect, and stacking with other peptides. The injectable use has no trial behind it; the trials that exist were oral and found nothing against placebo."
+    },
+    {
+      "query": "aod 9604 benefits",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 1600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what AOD-9604 did, and did not do, in people",
+      "boundary": "Results from six randomized placebo-controlled trials in about 900 obese adults, reported by the sponsor in one 2013 safety paper, plus rodent and rabbit studies. The efficacy trials found no meaningful weight loss against placebo, and the sponsor stopped development in 2007."
+    },
+    {
+      "query": "aod 9604 reddit",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 720,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe modest fat loss, no effect, and stacking with other peptides. The injectable use has no trial behind it; the trials that exist were oral and found nothing against placebo."
+    },
+    {
+      "query": "aod 9604 side effects",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 1000,
+        "kd": 8,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: the unusual case of a peptide with real safety data",
+      "boundary": "From six placebo-controlled trials pooled by the sponsor: tolerability indistinguishable from placebo, no IGF-1 rise, no effect on glucose tolerance, no antibodies. The one thing the trials did not show is that it works."
+    },
+    {
+      "query": "aod 9604 results",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 390,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what AOD-9604 did, and did not do, in people",
+      "boundary": "Results from six randomized placebo-controlled trials in about 900 obese adults, reported by the sponsor in one 2013 safety paper, plus rodent and rabbit studies. The efficacy trials found no meaningful weight loss against placebo, and the sponsor stopped development in 2007."
+    },
+    {
+      "query": "aod 9604 reconstitution",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 210,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "aod 9604 vs semaglutide",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "AOD-9604 vs tesamorelin, semaglutide, tirzepatide and growth hormone",
+      "boundary": "Tesamorelin is an approved growth-hormone-releasing drug with a fat-loss indication; AOD-9604 is a growth-hormone fragment whose obesity trials failed. No study has compared them."
+    },
+    {
+      "query": "what is aod 9604",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 880,
+        "kd": 12,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is AOD-9604?",
+      "answer": "AOD-9604 is a synthetic 16-amino-acid fragment of human growth hormone, residues 177 to 191 with a tyrosine added at the front, designed at Monash University in the 1990s to keep growth hormone's fat-mobilising action without its effects on IGF-1, blood sugar and growth. Metabolic Pharmaceuticals took it through six trials in about 900 obese adults, mostly as oral capsules, and stopped in 2007 when it did not beat placebo for weight loss. It is now sold as an injectable research chemical and, as LAT8881, is being redeveloped for pain."
+    },
+    {
+      "query": "aod 9604 cycle",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe modest fat loss, no effect, and stacking with other peptides. The injectable use has no trial behind it; the trials that exist were oral and found nothing against placebo."
+    },
+    {
+      "query": "aod 9604 fat loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what AOD-9604 did, and did not do, in people",
+      "boundary": "Results from six randomized placebo-controlled trials in about 900 obese adults, reported by the sponsor in one 2013 safety paper, plus rodent and rabbit studies. The efficacy trials found no meaningful weight loss against placebo, and the sponsor stopped development in 2007."
+    },
+    {
+      "query": "aod 9604 fda",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: GRAS as a food ingredient, not approved as a drug, a moving compounding position"
+    },
+    {
+      "query": "aod 9604 half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of AOD-9604?",
+      "answer": "No abstract in the ledger states a human half-life. Peptides of this size are cleared in minutes to an hour, and a 2026 anti-doping study found AOD-9604 extensively degraded within a week in serum at room and fridge temperatures, which speaks to sample stability rather than to time in the body. The oral trials dosed once daily; nothing about the injected route's kinetics has been published."
+    },
+    {
+      "query": "aod 9604 injection",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 40,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: oral capsules and intravenous infusion in the trials, injection only on vendor pages",
+      "boundary": "Intravenous in the first two trials, oral capsules or tablets in the last four, oral gavage or intraperitoneal in rodents, and intra-articular in rabbits. No trial gave AOD-9604 by subcutaneous injection, the only route it is sold for."
+    },
+    {
+      "query": "aod 9604 oral",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 170,
+        "kd": 23,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: oral capsules and intravenous infusion in the trials, injection only on vendor pages",
+      "boundary": "Intravenous in the first two trials, oral capsules or tablets in the last four, oral gavage or intraperitoneal in rodents, and intra-articular in rabbits. No trial gave AOD-9604 by subcutaneous injection, the only route it is sold for."
+    },
+    {
+      "query": "aod 9604 vs tesamorelin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 320,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "AOD-9604 vs tesamorelin, semaglutide, tirzepatide and growth hormone",
+      "boundary": "Tesamorelin is an approved growth-hormone-releasing drug with a fat-loss indication; AOD-9604 is a growth-hormone fragment whose obesity trials failed. No study has compared them."
+    },
+    {
+      "query": "aod 9604 vs tirzepatide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 40,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "AOD-9604 vs tesamorelin, semaglutide, tirzepatide and growth hormone",
+      "boundary": "Tesamorelin is an approved growth-hormone-releasing drug with a fat-loss indication; AOD-9604 is a growth-hormone fragment whose obesity trials failed. No study has compared them."
+    },
+    {
+      "query": "aod 9604 weight loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 110,
+        "kd": 14,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what AOD-9604 did, and did not do, in people",
+      "boundary": "Results from six randomized placebo-controlled trials in about 900 obese adults, reported by the sponsor in one 2013 safety paper, plus rodent and rabbit studies. The efficacy trials found no meaningful weight loss against placebo, and the sponsor stopped development in 2007."
+    },
+    {
+      "query": "aod 9604 cartilage",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does AOD-9604 repair cartilage?",
+      "answer": "In one rabbit study, weekly intra-articular injections of 0.25 mg AOD-9604, especially with hyaluronic acid, reduced cartilage degeneration scores and shortened lameness after collagenase-induced knee arthritis. No human joint study exists; its successor LAT8881 is being developed for pain, not cartilage. The rabbit study was a joint injection, not a subcutaneous one."
+    },
+    {
+      "query": "aod 9604 osteoarthritis",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does AOD-9604 repair cartilage?"
+    },
+    {
+      "query": "is aod-9604 effective for weight loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what AOD-9604 did, and did not do, in people",
+      "boundary": "Results from six randomized placebo-controlled trials in about 900 obese adults, reported by the sponsor in one 2013 safety paper, plus rodent and rabbit studies. The efficacy trials found no meaningful weight loss against placebo, and the sponsor stopped development in 2007.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "what is better tesamorelin or aod-9604",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "AOD-9604 vs tesamorelin, semaglutide, tirzepatide and growth hormone",
+      "boundary": "Tesamorelin is an approved growth-hormone-releasing drug with a fat-loss indication; AOD-9604 is a growth-hormone fragment whose obesity trials failed. No study has compared them.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "what are the potential side effects of aod-9604 peptide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: the unusual case of a peptide with real safety data",
+      "boundary": "From six placebo-controlled trials pooled by the sponsor: tolerability indistinguishable from placebo, no IGF-1 rise, no effect on glucose tolerance, no antibodies. The one thing the trials did not show is that it works.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "what is the best peptide combination for weight loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "stacks",
+      "target": "/stacks",
+      "heading": "Stacks: what has been tested in combination",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/aod-9604",
+      "rank": null,
+      "words": 6422,
+      "tables": 14,
+      "h2": 23,
+      "h3": 86,
+      "sci_links": 4,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 27,
+      "gap": "Fourteen tables around a 300 to 500 mcg community dose the page itself says is not clinical; correctly cites Stier 2013 (six trials, about 900 people), the 2007 termination, GRAS and the December 2024 FDA review; not in the Google top 10 for 'aod 9604' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D9 F9 S6 U3"
+    },
+    {
+      "url": "https://www.bhrcenter.com/aod-9604-dosage-guide-complete-protocol-for-safe-use/",
+      "rank": 4,
+      "words": 6244,
+      "tables": 0,
+      "h2": 15,
+      "sci_links": 3,
+      "byline": null,
+      "score": 18,
+      "gap": "Clinic dosage guide: 250 to 500 mcg daily 'based on clinical research' although no trial injected it; mentions the failed phase 2b; cited three times by the AI Overview",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F4 S3 U3"
+    },
+    {
+      "url": "https://www.empiremedicaltraining.com/antiaging-regenerative-workshops/resources/peptide-therapy/aod-9604/",
+      "rank": 9,
+      "words": 1989,
+      "tables": 0,
+      "h2": 6,
+      "sci_links": 0,
+      "byline": "Empire Medical Training Editorial Team; medically reviewed",
+      "score": 16,
+      "gap": "Clinician-training page titled 'why the evidence is thin'; correct on the failed phase 2b and the September 2024 category 2 removal; no citations",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F3 S3 U5"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/AOD-9604",
+      "rank": null,
+      "words": 661,
+      "tables": 1,
+      "h2": 3,
+      "sci_links": 14,
+      "score": 13,
+      "gap": "Stub with 14 references including Stier 2013; no trial table",
+      "source": "fetched 2026-09-24, metrics measured; scored D2 F1 S8 U2"
+    },
+    {
+      "url": "https://www.jofem.org/index.php/jofem/article/view/157/194",
+      "rank": 5,
+      "score": null,
+      "gap": "The primary safety paper ranks fifth; the SERP rewards it and no ranking page tables its six trials",
+      "source": "fetched 2026-09-24 as source material; not scored as a competitor"
+    },
+    {
+      "url": "https://go.drugbank.com/drugs/DB06388",
+      "rank": 7,
+      "score": null,
+      "gap": "DrugBank entry; fetch blocked (403)",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that tables the six placebo-controlled trials of AOD-9604 from the sponsor's 2013 paper, with route, dose, duration and size, showing that the two intravenous studies and four oral studies (9 to 54 mg capsules, up to 24 weeks, about 900 people) found tolerability equal to placebo and no meaningful weight loss, which is why the sponsor stopped in 2007; that states plainly that no trial injected it subcutaneously, the only route it is sold for, so the 250 to 500 mcg figures have no trial behind them; that separates GRAS status for a food ingredient (2014), the FDA category 2 listing (2023) and removal (September 2024), and the December 2024 advisory committee review from any approval; and that reports the rabbit joint study and the LAT8881 pain programme as the compound's actual current research direction.",
+  "serp_format_rewarded": "Evidence explainer. The primary safety paper ranks fifth and a training page titled 'why the evidence is thin' ranks ninth; a cited page with a six-trial table fits what the SERP already rewards.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "The six METAOD trials were never published individually; only the sponsor's pooled safety paper exists. Add the FDA December 2024 PCAC briefing document (fda.gov/media/183584), which reviews the same trial set, to the ledger.",
+    "Add FDA's September 2023 category 2 notice and September 2024 removal notice to the ledger; pending_source.",
+    "Add the 2014 GRAS self-affirmation notice; pending_source.",
+    "LAT8881 (Lateral Pharma) trials in neuropathic pain and osteoarthritis (NCT03865953) should be added when published."
+  ]
+}
