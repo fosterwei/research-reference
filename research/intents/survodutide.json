@@ -1,0 +1,545 @@
+{
+  "slug": "survodutide",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only. 'survodutide buy' declined as commercial.",
+  "thin_serp": false,
+  "queue_note": "Survodutide is an investigational phase 3 medicine, not a gray-market peptide with a thin SERP: NEJM, Nature Medicine, PubMed, the sponsor and the originator hold the top 10 (KD 17). The queue rule defers approved medicines for that reason; this one is not yet approved, so it is written, but the page's realistic target is the 'survodutide peptide' searcher (814 clickstream) and the comparison queries, not the head.",
+  "serp_2026-09-24": {
+    "query": "survodutide",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "organic_top": [
+      "nejm.org (SYNCHRONIZE-1)",
+      "boehringer-ingelheim.com",
+      "zealandpharma.com",
+      "pubmed (SYNCHRONIZE-1)",
+      "nature.com (SYNCHRONIZE-MASLD)",
+      "en.wikipedia.org",
+      "ajmc.com",
+      "sciencedirect.com (J Hepatol)"
+    ],
+    "note": "A clinical-publisher SERP: two primary phase 3 papers, the sponsor, the originator and Wikipedia. The AI Overview cites the sponsor, PMC, NEJM and Nature. No vendor and no dosing guide in the top 10."
+  },
+  "demand_findings": "Head 4,833 clickstream at KD 17; 'survodutide peptide' 814 (KD 9) is the gray-market searcher; 'vs tirzepatide' 508, 'what is' 203, 'vs retatrutide' 152, 'vs semaglutide' 101. Every People-also-ask question is a comparison with an approved GLP-1 drug. Dosage and side effects are Ads-only or near zero. The page's job is the comparison and the peptide-searcher, not the trial news the head searcher gets from NEJM.",
+  "h1": "Survodutide (BI 456906): what the phase 3 trials found, how it compares with tirzepatide and retatrutide, and what 'survodutide peptide' vials are",
+  "dek": "A glucagon-plus-GLP-1 dual agonist with completed phase 3 trials in obesity and metabolic liver disease and no approval yet. This page tables the trials with dose, duration and result, sets it beside the approved GLP-1 drugs and its phase 3 rivals without pretending the comparisons are head-to-head, and says what a vial sold as 'survodutide peptide' actually is.",
+  "queries": [
+    {
+      "query": "survodutide",
+      "volume": {
+        "clickstream": 4833,
+        "google_ads": 8100,
+        "kd": 17,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What survodutide is, and where its trials stand"
+    },
+    {
+      "query": "survodutide peptide",
+      "volume": {
+        "clickstream": 814,
+        "google_ads": 2400,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What survodutide is, and where its trials stand"
+    },
+    {
+      "query": "survodutide vs tirzepatide",
+      "volume": {
+        "clickstream": 508,
+        "google_ads": 590,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Survodutide vs tirzepatide, semaglutide, retatrutide and mazdutide",
+      "boundary": "Tirzepatide and semaglutide are approved; retatrutide and survodutide are in phase 3. Comparisons across their trials are indirect, and no head-to-head trial of survodutide against any of them exists."
+    },
+    {
+      "query": "what is survodutide",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 320,
+        "kd": 20,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is survodutide?",
+      "answer": "Survodutide (BI 456906) is a once-weekly injectable peptide that activates both the glucagon receptor and the GLP-1 receptor. Zealand Pharma designed it and Boehringer Ingelheim is developing it for obesity, type 2 diabetes and metabolic liver disease. In the phase 3 SYNCHRONIZE-1 trial published in June 2026, adults with obesity lost 12 to 13 percent of body weight over 76 weeks against 5 percent on placebo. It is not yet approved anywhere."
+    },
+    {
+      "query": "survodutide vs retatrutide",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 720,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Survodutide vs tirzepatide, semaglutide, retatrutide and mazdutide",
+      "boundary": "Tirzepatide and semaglutide are approved; retatrutide and survodutide are in phase 3. Comparisons across their trials are indirect, and no head-to-head trial of survodutide against any of them exists."
+    },
+    {
+      "query": "survodutide vs semaglutide",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 0,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Survodutide vs tirzepatide, semaglutide, retatrutide and mazdutide",
+      "boundary": "Tirzepatide and semaglutide are approved; retatrutide and survodutide are in phase 3. Comparisons across their trials are indirect, and no head-to-head trial of survodutide against any of them exists."
+    },
+    {
+      "query": "bi 456906",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 40,
+        "kd": 6,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What survodutide is, and where its trials stand"
+    },
+    {
+      "query": "survodutide buy",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 50,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "decline",
+      "section": "none",
+      "note": "Commercial intent; out of scope per docs/content-sop.md."
+    },
+    {
+      "query": "survodutide dosage",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 320,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every survodutide dose in the trials, in one table",
+      "boundary": "Every figure here is a dose a trial gave: once-weekly subcutaneous injections titrated to 3.6 or 6.0 mg. The drug is not approved or sold by any pharmacy; vials sold as 'survodutide peptide' are unregulated copies of an investigational medicine."
+    },
+    {
+      "query": "survodutide reddit",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 170,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences with grey-market vials of an investigational drug. The trial results are public; the vials' contents are not."
+    },
+    {
+      "query": "survodutide boehringer",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: phase 3 complete in obesity, not yet approved"
+    },
+    {
+      "query": "survodutide dose",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every survodutide dose in the trials, in one table",
+      "boundary": "Every figure here is a dose a trial gave: once-weekly subcutaneous injections titrated to 3.6 or 6.0 mg. The drug is not approved or sold by any pharmacy; vials sold as 'survodutide peptide' are unregulated copies of an investigational medicine."
+    },
+    {
+      "query": "survodutide fda approval",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 40,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: phase 3 complete in obesity, not yet approved"
+    },
+    {
+      "query": "survodutide injection",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 11,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: once-weekly subcutaneous injection in every trial",
+      "boundary": "Subcutaneous once a week in every human trial, titrated over weeks. Nothing else has been studied in people."
+    },
+    {
+      "query": "survodutide mash",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 40,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what survodutide did in people",
+      "boundary": "Results from Boehringer Ingelheim's phase 1 to phase 3 programme, including the 725-person SYNCHRONIZE-1 obesity trial and the 216-person liver trial published in June 2026. Weight and liver fat were measured; cardiovascular outcomes are still being collected."
+    },
+    {
+      "query": "survodutide phase 3",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what survodutide did in people",
+      "boundary": "Results from Boehringer Ingelheim's phase 1 to phase 3 programme, including the 725-person SYNCHRONIZE-1 obesity trial and the 216-person liver trial published in June 2026. Weight and liver fat were measured; cardiovascular outcomes are still being collected."
+    },
+    {
+      "query": "survodutide results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what survodutide did in people",
+      "boundary": "Results from Boehringer Ingelheim's phase 1 to phase 3 programme, including the 725-person SYNCHRONIZE-1 obesity trial and the 216-person liver trial published in June 2026. Weight and liver fat were measured; cardiovascular outcomes are still being collected."
+    },
+    {
+      "query": "survodutide side effects",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 70,
+        "kd": 11,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded, and what is still being measured",
+      "boundary": "From placebo-controlled trials with hundreds of participants: gastrointestinal events lead, are dose-related and are reduced by slower titration. The cardiovascular outcomes trial has not reported."
+    },
+    {
+      "query": "survodutide trial",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what survodutide did in people",
+      "boundary": "Results from Boehringer Ingelheim's phase 1 to phase 3 programme, including the 725-person SYNCHRONIZE-1 obesity trial and the 216-person liver trial published in June 2026. Weight and liver fat were measured; cardiovascular outcomes are still being collected."
+    },
+    {
+      "query": "survodutide weight loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what survodutide did in people",
+      "boundary": "Results from Boehringer Ingelheim's phase 1 to phase 3 programme, including the 725-person SYNCHRONIZE-1 obesity trial and the 216-person liver trial published in June 2026. Weight and liver fat were measured; cardiovascular outcomes are still being collected."
+    },
+    {
+      "query": "survodutide half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of survodutide?",
+      "answer": "Long enough for once-weekly injection: the molecule carries a C18 fatty acid chain, the same half-life-extending device as semaglutide, so that it binds albumin and clears over about a week. The abstracts in the ledger state the design principle and the weekly schedule rather than a figure in hours."
+    },
+    {
+      "query": "survodutide liver",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what survodutide did in people",
+      "boundary": "Results from Boehringer Ingelheim's phase 1 to phase 3 programme, including the 725-person SYNCHRONIZE-1 obesity trial and the 216-person liver trial published in June 2026. Weight and liver fat were measured; cardiovascular outcomes are still being collected."
+    },
+    {
+      "query": "survodutide glucagon",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How survodutide works: glucagon plus GLP-1 in one molecule"
+    },
+    {
+      "query": "survodutide nausea",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded, and what is still being measured",
+      "boundary": "From placebo-controlled trials with hundreds of participants: gastrointestinal events lead, are dose-related and are reduced by slower titration. The cardiovascular outcomes trial has not reported."
+    },
+    {
+      "query": "survodutide reconstitution",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "what is the difference between survodutide and tirzepatide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Survodutide vs tirzepatide, semaglutide, retatrutide and mazdutide",
+      "boundary": "Tirzepatide and semaglutide are approved; retatrutide and survodutide are in phase 3. Comparisons across their trials are indirect, and no head-to-head trial of survodutide against any of them exists.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "is survodutide available now",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is survodutide available now?",
+      "answer": "Not as a medicine. As of the sources available on 2026-09-24 it has completed phase 3 in obesity and metabolic liver disease and is under regulatory review or heading there; no approval is documented, and no licensed pharmacy sells it. Vials sold online as 'survodutide peptide' are unregulated products claiming to contain an investigational drug.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how does survodutide compare to mounjaro",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Survodutide vs tirzepatide, semaglutide, retatrutide and mazdutide",
+      "boundary": "Tirzepatide and semaglutide are approved; retatrutide and survodutide are in phase 3. Comparisons across their trials are indirect, and no head-to-head trial of survodutide against any of them exists.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how does survodutide compare to ozempic",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Survodutide vs tirzepatide, semaglutide, retatrutide and mazdutide",
+      "boundary": "Tirzepatide and semaglutide are approved; retatrutide and survodutide are in phase 3. Comparisons across their trials are indirect, and no head-to-head trial of survodutide against any of them exists.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/survodutide",
+      "rank": null,
+      "words": 4815,
+      "tables": 8,
+      "h2": 21,
+      "h3": 59,
+      "sci_links": 1,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 22,
+      "gap": "Eight tables of vial math for an investigational drug; one scientific link; correctly states not approved and cites the April 2026 top-line release; not in the Google top 10 for 'survodutide' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F8 S3 U3"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Survodutide",
+      "rank": 8,
+      "words": 1076,
+      "tables": 12,
+      "h2": 1,
+      "sci_links": 15,
+      "score": 16,
+      "gap": "Cites the June 2026 phase 3 papers; pooled phase 2 figures; no dose table by trial",
+      "source": "fetched 2026-09-24, metrics measured; scored D3 F3 S8 U2"
+    },
+    {
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2600751",
+      "rank": 2,
+      "score": null,
+      "gap": "The SYNCHRONIZE-1 paper itself ranks second; its PubMed record ranks sixth and its Nature Medicine sibling seventh",
+      "source": "SERP result; abstract in the ledger (pmid-42253238)"
+    },
+    {
+      "url": "https://www.boehringer-ingelheim.com/human-health/crm-health/metabolic-health/survodutide-phase-3-fat-loss-obesity-dual-agonist-data",
+      "rank": 4,
+      "score": null,
+      "gap": "Sponsor's results page",
+      "source": "SERP result; not fetched"
+    },
+    {
+      "url": "https://www.zealandpharma.com/pipeline/survodutide/",
+      "rank": 5,
+      "score": null,
+      "gap": "Originator's pipeline page; fetch blocked (403)",
+      "source": "SERP result; not fetched"
+    },
+    {
+      "url": "https://www.ajmc.com/view/emerging-data-suggest-survodutide-targets-liver-fat-more-effectively-than-glp-1-monotherapy",
+      "rank": 10,
+      "score": null,
+      "gap": "Managed-care news on the liver data; fetch blocked",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that tables survodutide's human trials from phase 1 to the June 2026 phase 3 papers with dose, titration, duration and primary result (SYNCHRONIZE-1: -12.2% and -13.0% vs -5.4% at 76 weeks; SYNCHRONIZE-MASLD: 84% vs 24% achieving a 30% liver-fat reduction at 6 mg), states plainly that every comparison with tirzepatide, semaglutide and retatrutide is indirect because no head-to-head trial exists, explains the glucagon half of the mechanism and why it matters for the liver and for energy expenditure, and tells the 'survodutide peptide' searcher that the product is an unregulated copy of an investigational drug whose approval is pending.",
+  "serp_format_rewarded": "Clinical summary. The SERP is primary literature and sponsor pages; a cited trial table with an honest comparison section fits the comparison intent that the primary papers do not serve.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add the SYNCHRONIZE-2 (type 2 diabetes) phase 3 results when published; the ledger holds only its baseline paper.",
+    "Add the regulatory filing or decision documents when they appear; the status paragraph is editorial with pending_source.",
+    "SYNCHRONIZE-CVOT (4,935 participants) is the trial that will answer the cardiovascular question; track it.",
+    "The drafter tagged a trial's 'interactive response technology' randomisation as a drug interaction and its dose-titration sentences as escalation claims; the first removed at triage, the second kept where genuine."
+  ]
+}
