@@ -47,3 +47,5 @@ jobs:
       - run: npm run build
         env:
           SITE_URL: https://example.com
+      - name: Every written page completed the content loop
+        run: python3 scripts/loop_status.py --strict

@@ -67,6 +67,7 @@ const toc = [
   { id: 'what', label: headingFor(intent, 'what', 'The short answer'), group: '' },
   ...body.map((x) => ({ id: x.id, label: x.label, group: x.group })),
   ...(d.sources?.length ? [{ id: 'sources', label: `Sources (${d.sources.length})`, group: 'Reference' }] : []),
+  { id: 'card', label: 'Reference card', group: 'Reference' },
   { id: 'related', label: 'Related records', group: 'Reference' },
   ...(d.changelog?.length ? [{ id: 'changelog', label: 'What changed', group: 'Reference' }] : []),
 ];
@@ -121,6 +122,17 @@ const toc = [
           }
         })}
         {d.sources?.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Full citations. Every quoted claim above links to one of these.</p></div><Sources sources={d.sources} /></section>}
+        <section id="card"><h2>Reference card</h2>
+          <div class="card refcard" id="reference-card">
+            <div class="head"><span class="eyebrow">Reference card · generated <Fragment set:html={updated ? timeTag(updated) : ''} /></span><span class="eyebrow">{path}</span></div>
+            <dl class="refdl">
+              <dt>Comparison</dt><dd>{a?.data.preferred_name} vs {b?.data.preferred_name}</dd>
+              {rows.map(([k, va, vb]) => <><dt>{k}</dt><dd><b>{va}</b> · <b>{vb}</b></dd></>)}
+              <dt>Compared directly</dt><dd><b>{h2h.length}</b> indexed {h2h.length === 1 ? 'study' : 'studies'}</dd>
+            </dl>
+            <p class="foot">Each figure comes from that compound's own record. Print or save this card with its date.</p>
+          </div>
+        </section>
         <section id="related"><h2>Related records</h2><ul class="cards">
           {pair.map((c) => <li><a href={`/compounds/${c.data.slug}`}>{c.data.preferred_name}</a><div class="sub">Compound record · {TIER_LABEL[c.data.evidence_tier]}</div></li>)}
           <li><a href="/compare">All comparisons</a><div class="sub">Directory</div></li>

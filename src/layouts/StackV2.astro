@@ -56,6 +56,7 @@ const toc = [
   { id: 'what', label: headingFor(intent, 'what', 'What this stack is'), group: '' },
   ...body.map((b) => ({ id: b.id, label: b.label, group: b.group })),
   ...(d.sources?.length ? [{ id: 'sources', label: `Sources (${d.sources.length})`, group: 'Reference' }] : []),
+  { id: 'card', label: 'Reference card', group: 'Reference' },
   { id: 'related', label: 'Related records', group: 'Reference' },
   ...(d.changelog?.length ? [{ id: 'changelog', label: 'What changed', group: 'Reference' }] : []),
 ];
@@ -111,6 +112,19 @@ const toc = [
           }
         })}
         {d.sources?.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Full citations. Every quoted claim above links to one of these.</p></div><Sources sources={d.sources} /></section>}
+        <section id="card"><h2>Reference card</h2>
+          <div class="card refcard" id="reference-card">
+            <div class="head"><span class="eyebrow">Reference card · generated <Fragment set:html={updated ? timeTag(updated) : ''} /></span><span class="eyebrow">{path}</span></div>
+            <dl class="refdl">
+              <dt>Stack</dt><dd>{components.map((c) => c.data.preferred_name).join(' + ')}</dd>
+              <dt>Strongest possible tier</dt><dd><Tier tier={weakest} /></dd>
+              <dt>Studies of the combination</dt><dd><b>{combination.length}</b> indexed</dd>
+              <dt>Component evidence</dt><dd>{components.map((c) => `${c.data.preferred_name}: ${formatCount(c.data.evidence_summary?.publications?.total)} publications, ${formatCount(c.data.evidence_summary?.publications?.randomized_controlled_trials)} RCTs`).join(' · ')}</dd>
+              <dt>Sources in ledger</dt><dd><b>{d.sources?.length ?? 0}</b></dd>
+            </dl>
+            <p class="foot">Figures are as published in each source and are not recommendations. Print or save this card with its date.</p>
+          </div>
+        </section>
         <section id="related"><h2>Related records</h2><ul class="cards">
           {components.map((c) => <li><a href={`/compounds/${c.data.slug}`}>{c.data.preferred_name}</a><div class="sub">Component record · {TIER_LABEL[c.data.evidence_tier]}</div></li>)}
           <li><a href="/stacks">All stacks</a><div class="sub">Directory</div></li>
