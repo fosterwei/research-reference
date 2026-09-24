@@ -1,0 +1,525 @@
+{
+  "slug": "tesofensine",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only. 'tesofensine buy' and 'tesofensine cost' declined as commercial.",
+  "thin_serp": false,
+  "serp_2026-09-24": {
+    "query": "tesofensine",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "images",
+      "product_considerations",
+      "related_searches"
+    ],
+    "organic_top": [
+      "sciencedirect.com topic",
+      "pmc (Perez 2024)",
+      "amazon.com (capsules)",
+      "en.wikipedia.org",
+      "newbiorx.com (vendor)",
+      "superpower.com",
+      "reddit.com r/Tesofensine_",
+      "saniona.com"
+    ],
+    "note": "A drug in regulatory review sold on Amazon as capsules. Wikipedia, a PMC paper and the developer rank; the AI Overview cites ScienceDirect, Wikipedia, Amazon, PubMed and the developer. The incumbent dosing guide is absent."
+  },
+  "demand_findings": "Head 11,142 clickstream at KD 21, the highest KD of any head written so far; 'tesofensine peptide' 712 shows the peptide mislabel is a search behaviour. Reddit 763 leads dosage (356); 'obexol' 305 is a brand-name query with no clickstream elsewhere; side effects 254. Buy and cost carry 50 each and are declined. Half-life, vs semaglutide and vs tirzepatide have 50 each.",
+  "h1": "Tesofensine: what the obesity and Parkinson's trials found, why it is not a peptide, and where the Mexican approval stands",
+  "dek": "A Danish triple reuptake inhibitor that failed in Parkinson's disease and produced the largest weight loss of any oral drug in its 2008 trial. This page lines up every trial with dose and result, reports the heart-rate and blood-pressure findings that stalled it, and states the regulatory position from the developer's own filings rather than from vendor pages.",
+  "queries": [
+    {
+      "query": "tesofensine",
+      "volume": {
+        "clickstream": 11142,
+        "google_ads": 18100,
+        "kd": 21,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What tesofensine is, and why it is not a peptide"
+    },
+    {
+      "query": "tesofensine reddit",
+      "volume": {
+        "clickstream": 763,
+        "google_ads": 720,
+        "kd": 18,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe appetite suppression, insomnia and dry mouth on capsules sold as 'tesofensine peptide'. The compound is not a peptide, the products are unregulated, and no study has tested them."
+    },
+    {
+      "query": "tesofensine peptide",
+      "volume": {
+        "clickstream": 712,
+        "google_ads": 3600,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What tesofensine is, and why it is not a peptide"
+    },
+    {
+      "query": "tesofensine dosage",
+      "volume": {
+        "clickstream": 356,
+        "google_ads": 590,
+        "kd": 12,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every tesofensine dose in the trials, in one table",
+      "boundary": "Every figure here is a dose a trial gave: oral tablets of 0.125 to 1.0 mg once daily, or single infusions in pharmacokinetic studies. Vendor capsules copy the trial dose; that does not make them the trial drug."
+    },
+    {
+      "query": "obexol",
+      "volume": {
+        "clickstream": 305,
+        "google_ads": 320,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: not approved anywhere; the Mexican application"
+    },
+    {
+      "query": "tesofensine side effects",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 0,
+        "kd": 12,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded, with frequencies",
+      "boundary": "From placebo-controlled trials, with frequencies where the abstracts give them. Dry mouth, insomnia, headache and nausea lead; heart rate and, at 1.0 mg, blood pressure are the reason the drug has no approval."
+    },
+    {
+      "query": "tesofensine before and after",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 390,
+        "kd": 6,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe appetite suppression, insomnia and dry mouth on capsules sold as 'tesofensine peptide'. The compound is not a peptide, the products are unregulated, and no study has tested them."
+    },
+    {
+      "query": "tesofensine benefits",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 880,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what tesofensine did, and where it failed",
+      "boundary": "Outcomes from randomized trials: one 24-week obesity trial of 203 people, three Parkinson's trials that failed, one 24-week trial of the metoprolol combination, and pharmacokinetic studies. The 372-patient phase 3 exists only in company reports."
+    },
+    {
+      "query": "tesofensine weight loss",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 140,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what tesofensine did, and where it failed",
+      "boundary": "Outcomes from randomized trials: one 24-week obesity trial of 203 people, three Parkinson's trials that failed, one 24-week trial of the metoprolol combination, and pharmacokinetic studies. The 372-patient phase 3 exists only in company reports."
+    },
+    {
+      "query": "what is tesofensine",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 720,
+        "kd": 19,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is tesofensine?",
+      "answer": "Tesofensine (NS-2330) is a small-molecule drug, not a peptide, that blocks the reuptake of serotonin, noradrenaline and dopamine at once. NeuroSearch developed it in Denmark for Alzheimer's and Parkinson's disease, where it failed, and noticed that patients lost weight. A 2008 phase 2 trial in 203 obese adults found about 9 to 10 percent placebo-adjusted weight loss at 0.5 to 1.0 mg a day over 24 weeks. Saniona and its Mexican partner Medix have since run a phase 3 and applied for approval in Mexico."
+    },
+    {
+      "query": "tesofensine buy",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 90,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "decline",
+      "section": "none",
+      "note": "Commercial intent; out of scope per docs/content-sop.md."
+    },
+    {
+      "query": "tesofensine cost",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 110,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "decline",
+      "section": "none",
+      "note": "Commercial intent; out of scope per docs/content-sop.md."
+    },
+    {
+      "query": "tesofensine fda approval",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 20,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: not approved anywhere; the Mexican application"
+    },
+    {
+      "query": "tesofensine half life",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 90,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of tesofensine?",
+      "answer": "About ten days. Population pharmacokinetic modelling in Alzheimer's patients gave half-lives of 234 hours for tesofensine and 374 hours for its active metabolite M1, and the drug also recirculates through the bile. That is why once-daily tablets take weeks to reach a steady level, why effects and side effects build slowly, and why stopping does not clear it for a month or more."
+    },
+    {
+      "query": "tesofensine vs semaglutide",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Tesofensine vs semaglutide, tirzepatide, phentermine and sibutramine",
+      "boundary": "Semaglutide and tirzepatide are approved injectable hormones with cardiovascular outcome trials; tesofensine is an oral stimulant-class drug with one phase 2 obesity trial in the literature. No trial has compared them."
+    },
+    {
+      "query": "tesofensine vs tirzepatide",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 50,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Tesofensine vs semaglutide, tirzepatide, phentermine and sibutramine",
+      "boundary": "Semaglutide and tirzepatide are approved injectable hormones with cardiovascular outcome trials; tesofensine is an oral stimulant-class drug with one phase 2 obesity trial in the literature. No trial has compared them."
+    },
+    {
+      "query": "tesomet",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 30,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is Tesomet?",
+      "answer": "A fixed combination of tesofensine 0.5 mg with the beta-blocker metoprolol 50 mg, designed to blunt the heart-rate rise. In a 24-week randomized trial in 21 adults with hypothalamic obesity it did not change heart rate or blood pressure and reduced weight against placebo; sleep disturbance, dry mouth and headache were common, and one participant stopped after worsened anxiety."
+    },
+    {
+      "query": "tesofensine cycle",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe appetite suppression, insomnia and dry mouth on capsules sold as 'tesofensine peptide'. The compound is not a peptide, the products are unregulated, and no study has tested them."
+    },
+    {
+      "query": "tesofensine insomnia",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded, with frequencies",
+      "boundary": "From placebo-controlled trials, with frequencies where the abstracts give them. Dry mouth, insomnia, headache and nausea lead; heart rate and, at 1.0 mg, blood pressure are the reason the drug has no approval."
+    },
+    {
+      "query": "tesofensine mexico",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: not approved anywhere; the Mexican application"
+    },
+    {
+      "query": "tesofensine oral",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 17,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: oral tablets in every efficacy trial",
+      "boundary": "Oral, once daily, in every efficacy trial; intravenous infusion only in pharmacokinetic studies. It is a tablet drug, and 'injectable tesofensine' has no study behind it."
+    },
+    {
+      "query": "tesofensine results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 70,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what tesofensine did, and where it failed",
+      "boundary": "Outcomes from randomized trials: one 24-week obesity trial of 203 people, three Parkinson's trials that failed, one 24-week trial of the metoprolol combination, and pharmacokinetic studies. The 372-patient phase 3 exists only in company reports."
+    },
+    {
+      "query": "tesofensine vs phentermine",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Tesofensine vs semaglutide, tirzepatide, phentermine and sibutramine",
+      "boundary": "Semaglutide and tirzepatide are approved injectable hormones with cardiovascular outcome trials; tesofensine is an oral stimulant-class drug with one phase 2 obesity trial in the literature. No trial has compared them."
+    },
+    {
+      "query": "is tesofensine bad for you",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded, with frequencies",
+      "boundary": "From placebo-controlled trials, with frequencies where the abstracts give them. Dry mouth, insomnia, headache and nausea lead; heart rate and, at 1.0 mg, blood pressure are the reason the drug has no approval.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "what does tesofensine do for you",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How tesofensine works: three transporters, one appetite circuit",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "is tesofensine similar to phentermine",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is tesofensine similar to phentermine?",
+      "answer": "In class, yes: both raise noradrenaline and dopamine signalling and both suppress appetite and raise heart rate. Tesofensine also blocks serotonin reuptake, has a half-life of about ten days against phentermine's day, and produced larger weight loss in its phase 2 trial than phentermine does alone. Phentermine is approved for short-term use; tesofensine is approved nowhere. No trial has compared them.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how long does it take to feel tesofensine",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/tesofensine",
+      "rank": null,
+      "words": 5932,
+      "tables": 9,
+      "h2": 21,
+      "h3": 77,
+      "sci_links": 5,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 26,
+      "gap": "Calls a small molecule a 'peptide' in its title and includes a reconstitution guide for a tablet drug; correctly reports the Mexican phase 3 (372 patients) and the dropped 1.0 mg dose; not in the Google top 10 for 'tesofensine' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D9 F8 S6 U3"
+    },
+    {
+      "url": "https://superpower.com/guides/peptides/tesofensine",
+      "rank": 8,
+      "words": 6606,
+      "tables": 0,
+      "h2": 15,
+      "sci_links": 56,
+      "byline": "Reviewed by William Maish, MD MBA MPH",
+      "score": 27,
+      "gap": "56 citations and a physician reviewer; states tesofensine was 'approved in Mexico as Tesomet and Nupenta since 2023', which the developer's own pipeline page and 2024 to 2025 filings contradict (favourable opinion 2023, approval withheld November 2024, dossier resubmitted 2025)",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F5 S9 U5"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tesofensine",
+      "rank": 6,
+      "words": 3154,
+      "tables": 8,
+      "h2": 6,
+      "sci_links": 40,
+      "score": 23,
+      "gap": "40 references and the trial history in kilograms; still says 'in phase III' and lacks the 2024 to 2025 regulatory events; no dose table",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F5 S9 U4"
+    },
+    {
+      "url": "https://saniona.com/pipeline/tesofensine/",
+      "rank": 10,
+      "words": 226,
+      "tables": 0,
+      "h2": 1,
+      "sci_links": 0,
+      "byline": null,
+      "score": 8,
+      "gap": "Developer's pipeline page; the primary source for the phase 3 (0.25 and 0.5 mg, 372 patients, about 10% loss at 24 weeks) and the COFEPRIS timeline",
+      "source": "fetched 2026-09-24, metrics measured; scored D2 F1 S4 U1"
+    },
+    {
+      "url": "https://www.amazon.com/GreatLakesPeptides-Tesofensine-500mcg-60-Capsules/dp/",
+      "rank": 5,
+      "score": null,
+      "gap": "Amazon listing of 500 mcg capsules ranking fifth: the drug is sold as a supplement at the trial dose",
+      "source": "SERP result; not fetched"
+    },
+    {
+      "url": "https://www.reddit.com/r/Tesofensine_/comments/1847w8o/",
+      "rank": 9,
+      "score": null,
+      "gap": "Subreddit 'comprehensive guide'; the SERP rewards community explainers",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that states tesofensine is a small-molecule stimulant-class drug, not a peptide, and explains why that matters for the capsules sold under the peptide label; that reports the regulatory position from the developer's filings (favourable COFEPRIS opinion February 2023, approval withheld November 2024, dossier resubmitted 2025, no approval documented as of 2026-09-24) against a ranking page's claim of a 2023 approval; that tabulates the three failed Parkinson's trials beside the obesity trial; that gives the measured half-lives (234 and 374 hours) and what they imply for accumulation and washout; and that quotes the Tesomet trial's adverse-event frequencies (sleep disturbance 50% vs 13%, dry mouth 43% vs 0%, headache 36% vs 0%).",
+  "serp_format_rewarded": "Evidence explainer. Wikipedia, a PMC paper and the developer rank; a cited page with a trial table, the pharmacokinetics and a dated regulatory timeline fits.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add the Medix phase 3 results (372 patients, 0.25 and 0.5 mg, 24 weeks) to the ledger when published; cited from the developer's pipeline page with pending_source.",
+    "Add the COFEPRIS decision documents or Saniona's regulatory releases (2023 to 2025) to the ledger; the timeline is editorial with pending_source.",
+    "Wikipedia's kilogram figures (12.8, 11.3, 6.7 vs 2.2 kg) come from the Lancet full text; the ledger abstract gives percentages only, so the page uses percentages.",
+    "The drafter's interactions regex matched covariate modelling ('CL(CR) and sex') as drug interactions; one claim removed at triage, same regex item."
+  ]
+}

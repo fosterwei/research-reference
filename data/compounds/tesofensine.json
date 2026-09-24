@@ -14,8 +14,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "Tesofensine is a small molecule in the metabolic other class (triple monoamine reuptake inhibitor). Europe PMC indexes 63 publications naming it or a listed alias in a title or abstract, including 12 randomized controlled trials and 7 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "Tesofensine: what the research shows",
-    "description": "Tesofensine research, cited: 63 indexed publications, 12 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Tesofensine: Trials, 0.5 mg Dose, Side Effects, Status",
+    "description": "Tesofensine: the 2008 obesity trial, the failed Parkinson's trials, every dose, heart-rate and side-effect data, and where the Mexican approval stands."
   },
   "attributes": {
     "routes_studied": [
@@ -58,25 +58,43 @@
     ],
     "study_doses": [
       {
-        "value": "Randomized controlled trial, humans, 2022: doses stated in the abstract: 0.5 mg. To investigate the safety and efficacy of Tesomet (0.5 mg tesofensine/50 mg metoprolol) in adults with hypothalamic obesity.",
+        "value": "Obese adults took 0.25, 0.5 or 1.0 mg once daily with diet for 24 weeks, losing 4.5%, 9.2% and 10.6% of body weight against 2.0% on diet and placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18950853"
+        ],
+        "source_excerpt": "After 24 weeks, the mean weight loss produced by diet and placebo was 2.0% (SE 0.60). Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The combination Tesomet paired 0.5 mg tesofensine with 50 mg metoprolol once daily for 24 weeks in hypothalamic obesity.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-35294397"
         ],
-        "source_excerpt": "To investigate the safety and efficacy of Tesomet (0.5 mg tesofensine/50 mg metoprolol) in adults with hypothalamic obesity.",
+        "source_excerpt": "Twenty-one adults with hypothalamic obesity (16 females) were randomized to Tesomet (0.5 mg/50 mg) or placebo for 24 weeks.",
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, 2009: doses stated in the abstract: 0.5 mg. Tesofensine 0.5 mg might have the potential to produce a weight loss twice that of currently approved anti-obesity drugs.",
+        "value": "Early Parkinson's patients took 0.25, 0.5 or 1.0 mg daily for 14 weeks.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-19824222"
+          "pmid-17149725"
         ],
-        "source_excerpt": "Tesofensine 0.5 mg might have the potential to produce a weight loss twice that of currently approved anti-obesity drugs.",
+        "source_excerpt": "Two hundred sixty-one subjects with PD < 5 years and not receiving dopaminergic treatment were randomly assigned to daily treatment with NS 2330 at 0.25 mg, 0.5 mg, 1.0 mg, or placebo.",
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, 2009: doses stated in the abstract: 1.2 mg. Twenty-one healthy subjects received a single 6-hour infusion of tesofensine (0.3, 0.6, 0.9, 1.2 mg) in a double-blind, randomized, placebo-controlled, single rising-dose study.",
+        "value": "Advanced Parkinson's patients took 0.125, 0.25, 0.5 or 1 mg once daily for 14 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18474731"
+        ],
+        "source_excerpt": "Tesofensine (0.125, 0.25, 0.5, or 1 mg) or placebo tablets were administered once daily for 14 weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Healthy volunteers received single six-hour infusions of 0.3 to 1.2 mg in a rising-dose pharmacokinetic study.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-19705923"
@@ -85,44 +103,17 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, 2008: doses stated in the abstract: 0.25 mg; 0.5 mg. Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively, greater than diet and placebo (p Interpretation Our results suggest that tesofensine 0.5 mg might have the…",
-        "evidence_label": "human-clinical-trial",
+        "value": "Twenty-eight volunteers took a single 2 mg oral dose, half of them with itraconazole.",
+        "evidence_label": "observational-human",
         "source_ids": [
-          "pmid-18950853"
+          "pmid-20000889"
         ],
-        "source_excerpt": "Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively, greater than diet and placebo (p Interpretation Our results suggest that tesofensine 0.5 mg might have the potential to produce a weight loss twice that of currently approved drugs.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Randomized controlled trial, humans, 2008: doses stated in the abstract: 0.5 mg; 0.25 mg. The adjusted mean differences (relative to placebo) were -4.7 points in UPDRS subscale II plus subscale III total score (P =.005) with tesofensine, 0.5 mg, and -7.1% in off time (-68 minutes, P =.02) with tesofensine, 0.25 mg.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-18474731"
-        ],
-        "source_excerpt": "The adjusted mean differences (relative to placebo) were -4.7 points in UPDRS subscale II plus subscale III total score (P =.005) with tesofensine, 0.5 mg, and -7.1% in off time (-68 minutes, P =.02) with tesofensine, 0.25 mg.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Randomized controlled trial, humans, 2007: doses stated in the abstract: 0.25 mg; 0.5 mg; 1.0 mg. Two hundred sixty-one subjects with PD < 5 years and not receiving dopaminergic treatment were randomly assigned to daily treatment with NS 2330 at 0.25 mg, 0.5 mg, 1.0 mg, or placebo.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-17149725"
-        ],
-        "source_excerpt": "Two hundred sixty-one subjects with PD < 5 years and not receiving dopaminergic treatment were randomly assigned to daily treatment with NS 2330 at 0.25 mg, 0.5 mg, 1.0 mg, or placebo.",
+        "source_excerpt": "Overall, 28 subjects received a single oral dose of tesofensine 2 mg; 14 of these subjects were coadministered an oral itraconazole 400 mg loading dose and a 200 mg maintenance dose for 6 days before and 5 days after administration of tesofensine.",
         "drafting": "extractive"
       }
     ],
     "escalation_schedules": [],
     "interactions": [
-      {
-        "value": "Randomized controlled trial, humans, n=320, 2007: Low apparent clearances together with large apparent volumes of distribution resulted in long half-lives of 234 h (NS2330) and 374 h (M1).",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-17324246"
-        ],
-        "source_excerpt": "Low apparent clearances together with large apparent volumes of distribution resulted in long half-lives of 234 h (NS2330) and 374 h (M1).",
-        "drafting": "extractive"
-      },
       {
         "value": "Randomized controlled trial, humans, 2004: Moreover, NS 2330 coadministration did not appear to alter dyskinesia severity or the duration of the antiparkinsonian response to levodopa.",
         "evidence_label": "human-clinical-trial",
@@ -142,42 +133,67 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 2010: Using an automatized food intake monitoring system during a 12 h nocturnal test period, tesofensine-induced hypophagia was investigated further by studying the acute interaction of a variety of monoamine receptor antagonists with tesofensine-induced hypophagia in the DIO rat.",
-        "evidence_label": "animal-preclinical",
+        "value": "Itraconazole, a CYP3A4 inhibitor, raised tesofensine exposure by about 9% during co-administration, a modest interaction for a drug with such a long half-life.",
+        "evidence_label": "observational-human",
         "source_ids": [
-          "pmid-20200509"
+          "pmid-20000889"
         ],
-        "source_excerpt": "Using an automatized food intake monitoring system during a 12 h nocturnal test period, tesofensine-induced hypophagia was investigated further by studying the acute interaction of a variety of monoamine receptor antagonists with tesofensine-induced hypophagia in the DIO rat.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, mice, n=228, 2008: Concentrations of tesofensine and M1 were measured; inhibition of the dopamine transporter was determined by co-administration of [(3)H]WIN35,428 as the pharmacodynamic measure.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-17982477"
-        ],
-        "source_excerpt": "Concentrations of tesofensine and M1 were measured; inhibition of the dopamine transporter was determined by co-administration of [(3)H]WIN35,428 as the pharmacodynamic measure.",
+        "source_excerpt": "using NCA, the actual study revealed an approximately 9% increase in exposure for the timeframe of the coadministration with",
         "drafting": "extractive"
       }
     ],
     "exclusion_criteria": [],
     "adverse_events": [
       {
-        "value": "Randomized controlled trial, humans, 2008: Gastrointestinal tract and neuropsychiatric adverse events were more frequent with tesofensine than with placebo, especially at the higher dosages.",
+        "value": "In the Tesomet trial, sleep disturbance affected 50% on treatment against 13% on placebo, dry mouth 43% against 0%, and headache 36% against 0%; one participant stopped after worsened pre-existing anxiety.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35294397"
+        ],
+        "source_excerpt": "One patient experienced a Tesomet-related SAE of exacerbated pre-existing anxiety leading to treatment discontinuation. Tesomet-related adverse events were otherwise mostly mild and included sleep disturbances (Tesomet 50%, placebo 13%), dry mouth (Tesomet 43%, placebo 0%), and headache (Tesomet 36%, placebo 0%).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "With metoprolol in the combination, heart rate and blood pressure did not change.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35294397"
+        ],
+        "source_excerpt": "Tesomet was welltolerated, did not affect heart rate or blood pressure, and resulted in significant reductions in body weight compared to placebo in adults with hypothalamic obesity.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In advanced Parkinson's disease, gastrointestinal and neuropsychiatric adverse events were more frequent at higher doses, without a dose-response for benefit.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-18474731"
         ],
-        "source_excerpt": "Gastrointestinal tract and neuropsychiatric adverse events were more frequent with tesofensine than with placebo, especially at the higher dosages.",
+        "source_excerpt": "Gastrointestinal tract and neuropsychiatric adverse events were more frequent with tesofensine",
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, 2007: NS 2330 was generally well tolerated and the most commonly reported adverse events were constipation, insomnia, and dry mouth.",
+        "value": "The 2008 obesity trial's authors called for phase 3 confirmation of both efficacy and safety.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-17149725"
+          "pmid-18950853"
         ],
-        "source_excerpt": "NS 2330 was generally well tolerated and the most commonly reported adverse events were constipation, insomnia, and dry mouth.",
+        "source_excerpt": "However, these findings of efficacy and safety need confirmation in phase III trials.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The finding that decided the drug's fate is in the Lancet full text rather than its abstract: at the two lower doses heart rate rose by up to about 8 beats per minute and blood pressure by 1 to 3 mmHg, and the 1.0 mg dose raised blood pressure further with more dropouts, which is why the Mexican phase 3 tested only 0.25 and 0.5 mg and why the metoprolol combination exists. The class history matters: sibutramine, another noradrenaline-serotonin reuptake inhibitor for obesity, was withdrawn in 2010 after a cardiovascular outcomes trial; no outcomes trial of tesofensine exists.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      },
+      {
+        "value": "A 2026 anti-doping study notes tesofensine is still under regulatory review yet marketed online as a dietary supplement, and is prohibited in competition as an S6 stimulant.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-42320973"
+        ],
+        "source_excerpt": "Although still under regulatory review, it has been marketed online as a dietary supplement promoted for weight management and metabolic enhancement. Due to its impact on body weight, tesofensine could be relevant in competitive sports, particularly in weight-class disciplines and sports where power-to-weight ratio is decisive. It is classified under \"S6 stimulants\" on the World Anti-Doping Agency's Prohibited List and is prohibited in-competition only",
         "drafting": "extractive"
       }
     ],
@@ -239,12 +255,30 @@
     ],
     "reported_timelines": [
       {
-        "value": "Human study, humans, n=28, 2010: To accomplish a semi-mechanistic DDI model for a long-elimination-half-life drug substrate, tesofensine, and the cytochrome P450 (CYP) 3A4 inhibitor itraconazole, and to compare the results of the semi-mechanistic model with the results obtained from the standard NCA approach.",
-        "evidence_label": "observational-human",
+        "value": "Population modelling gave half-lives of 234 hours for tesofensine and 374 hours for its active metabolite M1, about ten and sixteen days.",
+        "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-20000889"
+          "pmid-17324246"
         ],
-        "source_excerpt": "To accomplish a semi-mechanistic DDI model for a long-elimination-half-life drug substrate, tesofensine, and the cytochrome P450 (CYP) 3A4 inhibitor itraconazole, and to compare the results of the semi-mechanistic model with the results obtained from the standard NCA approach.",
+        "source_excerpt": "Low apparent clearances together with large apparent volumes of distribution resulted in long half-lives of 234 h (NS2330) and 374 h (M1).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Plasma levels show multiple peaks because the drug recirculates through the bile.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19705923"
+        ],
+        "source_excerpt": "Plasma concentration-time profiles of tesofensine were best described by a three-compartment model (absorption, central and gallbladder) with first-order elimination.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Weight loss in the obesity trial was measured at 24 weeks; the Parkinson's trials measured at 14 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18950853"
+        ],
+        "source_excerpt": "After 24 weeks, the mean weight loss produced by diet and placebo was 2.0% (SE 0.60).",
         "drafting": "extractive"
       }
     ],
@@ -260,15 +294,6 @@
       }
     ],
     "study_durations": [
-      {
-        "value": "Clinical trial, humans, 2011: durations stated: 12 months. Of the Phase III pharmacotherapies, lorcaserin, taranabant, topiramate and bupropion with naltrexone have demonstrated significant weight loss compared to placebo at ≥12 months.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-21197148"
-        ],
-        "source_excerpt": "Of the Phase III pharmacotherapies, lorcaserin, taranabant, topiramate and bupropion with naltrexone have demonstrated significant weight loss compared to placebo at ≥12 months.",
-        "drafting": "extractive"
-      },
       {
         "value": "Randomized controlled trial, humans, 2009: durations stated: 24 weeks. In total 203 obese persons were randomised to treatment with Tesofensine 0.25, 0.5, or 1.0 mg, or placebo daily for 24 weeks.",
         "evidence_label": "human-clinical-trial",
@@ -328,9 +353,11 @@
     ],
     "regulatory_status": [
       {
-        "value": "ChEMBL CHEMBL3989690: maximum clinical phase 2. Jurisdiction-level status pending human review.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": []
+        "value": "Not approved anywhere as of the sources available on 2026-09-24. NeuroSearch stopped development after the 2008 phase 2; Saniona later licensed it to Medix, which ran a phase 3 in Mexico (372 patients, 0.25 and 0.5 mg, about 10% weight loss at 24 weeks, by the developer's report) and applied to COFEPRIS. The agency's technical committee gave a favourable non-binding opinion in February 2023, withheld approval in November 2024, and Medix resubmitted the dossier in 2025. A ranking page states it was approved in Mexico in 2023; the developer's own filings say otherwise. Not approved by FDA or EMA and not in development there. The WADA Prohibited List classes it under S6 stimulants, prohibited in competition. Sold online as a supplement, which a 2026 anti-doping paper notes it is not.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "evidence_table": [
@@ -714,6 +741,34 @@
           "outcome": "see source"
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "Tesofensine is a small synthetic molecule from the phenyltropane family, not a peptide: it has no amino acids, is taken as a tablet, is absorbed through the gut and lasts about ten days in the body, none of which is true of the injectable peptides it is sold beside. The 'tesofensine peptide' label on vendor pages is a category error that tells the buyer nothing about what is in the capsule.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "It blocks the transporters that recycle serotonin, noradrenaline and dopamine back into neurons, so all three stay longer in the synapse; that is the triple reuptake inhibition in its class name, shared in part with sibutramine (noradrenaline and serotonin) and bupropion (noradrenaline and dopamine). Its active metabolite M1 does the same and lasts longer. In rats, the appetite effect runs through dopamine D1 and noradrenaline alpha-1 receptors and, in a 2024 study, through silencing of GABA-releasing neurons in the lateral hypothalamus, the circuit that drives feeding.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The consequence of the same pharmacology is the safety profile: more noradrenaline means a faster heart and, at higher doses, higher blood pressure, plus dry mouth and insomnia; more dopamine and serotonin in the wrong people means agitation and mood effects, which is why psychiatric history was an exclusion. Its ten-day half-life means every effect, wanted or not, builds over four to six weeks and takes as long to leave.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Tesofensine circulates as an oral weight-loss aid, sold as capsules or tablets at 0.25 to 0.5 mg on Amazon and vendor sites under 'peptide' and 'supplement' labels, and discussed on a dedicated subreddit. Reports describe strong appetite suppression within days, insomnia, dry mouth, a racing heart in some, and irritability; several describe a plateau after two or three months and a slow return of appetite after stopping, which fits a ten-day half-life. None of this comes from a study of those products, whose content is unverified; the trial doses are in the table above and are the same numbers the vendors print.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -763,8 +818,9 @@
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports dose-escalation schedules for Tesofensine.",
-    "No study in this record's ledger reports exclusion criteria for Tesofensine."
+    "The 372-patient Mexican phase 3 is unpublished; its safety data, including heart rate and blood pressure at 0.25 and 0.5 mg, exist only in the developer's summary.",
+    "No cardiovascular outcomes trial of tesofensine exists, and no trial has followed anyone beyond 24 weeks.",
+    "The COFEPRIS decision documents are not in the ledger; the regulatory timeline is from the developer's releases."
   ],
   "media": {
     "walkthrough_video": "",
@@ -772,20 +828,52 @@
   },
   "faq": [
     {
-      "question": "Has Tesofensine been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 7 clinical trials and 12 randomized controlled trials naming Tesofensine or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "question": "Is tesofensine a peptide?",
+      "answer": "No. It is a small synthetic molecule of the phenyltropane family, taken as a tablet, with no amino acids in it. Vendors list it beside peptides and label it one; the label describes the shop, not the drug."
     },
     {
-      "question": "What kind of evidence exists for Tesofensine?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "How much weight do people lose on tesofensine?",
+      "answer": "In the one published obesity trial, 203 adults on diet lost 4.5%, 9.2% and 10.6% of body weight at 0.25, 0.5 and 1.0 mg daily over 24 weeks, against 2.0% on placebo. The developer reports about 10% at 24 weeks in its unpublished 372-patient Mexican phase 3 at 0.25 and 0.5 mg."
     },
     {
-      "question": "Is Tesofensine an approved medicine?",
-      "answer": "ChEMBL records CHEMBL3989690 at maximum clinical phase 2, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+      "question": "Is tesofensine approved anywhere?",
+      "answer": "Not as of the sources available on 2026-09-24. Mexico's COFEPRIS gave a favourable non-binding opinion in February 2023, withheld approval in November 2024, and received a resubmitted dossier in 2025. It is not approved by FDA or EMA. A ranking page's claim of a 2023 Mexican approval is contradicted by the developer's own filings."
     },
     {
-      "question": "Which species has Tesofensine been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "What are the side effects of tesofensine?",
+      "answer": "In the Tesomet trial: sleep disturbance in 50% versus 13% on placebo, dry mouth 43% versus 0%, headache 36% versus 0%, and one serious worsening of anxiety. In the phase 2, heart rate rose by up to about 8 beats a minute and blood pressure by 1 to 3 mmHg at the lower doses and more at 1.0 mg. Parkinson's trials saw more gastrointestinal and psychiatric events at higher doses."
+    },
+    {
+      "question": "Does tesofensine raise heart rate?",
+      "answer": "Yes, in the phase 2 obesity trial, by up to about 8 beats a minute at the doses carried into phase 3, and blood pressure rose at 1.0 mg. The Tesomet combination adds the beta-blocker metoprolol specifically to cancel this, and in its trial heart rate and blood pressure did not change."
+    },
+    {
+      "question": "What is the half-life of tesofensine?",
+      "answer": "About ten days: 234 hours for the drug and 374 hours for its active metabolite M1 in population modelling, with recirculation through the bile. Levels take four to six weeks to plateau and as long to clear."
+    },
+    {
+      "question": "Why did tesofensine fail in Parkinson's disease?",
+      "answer": "In 261 early patients, none of three doses improved the Parkinson's rating scale over 14 weeks. In advanced patients with fluctuations, 0.5 and 0.25 mg gave modest gains without a dose-response while adverse events rose with dose. Development in Parkinson's and Alzheimer's stopped; the weight loss seen in those patients became the new target."
+    },
+    {
+      "question": "How does tesofensine compare with semaglutide?",
+      "answer": "On weight, tesofensine's 24-week phase 2 result (about 9 to 10% placebo-adjusted) approaches what GLP-1 drugs achieve over a similar period, which is why it attracts interest as an oral option. On evidence, they are not comparable: semaglutide has cardiovascular outcome trials showing benefit; tesofensine has a heart-rate signal and no outcomes trial. No study has compared them directly."
+    },
+    {
+      "question": "Is tesofensine similar to sibutramine?",
+      "answer": "Closely. Both block noradrenaline and serotonin reuptake (tesofensine adds dopamine), both suppress appetite, both raise heart rate. Sibutramine was withdrawn in 2010 after the SCOUT trial found more cardiovascular events; tesofensine has never been tested in such a trial."
+    },
+    {
+      "question": "Is tesofensine banned in sport?",
+      "answer": "Yes, in competition: WADA classes it under S6 stimulants. Its ten-day half-life means a dose taken weeks before an event can still test positive."
+    },
+    {
+      "question": "Can tesofensine be injected?",
+      "answer": "It was infused intravenously only in pharmacokinetic studies of healthy volunteers. Every efficacy trial used tablets, and it is a tablet drug; 'injectable tesofensine' has no study behind it and no reason to exist."
+    },
+    {
+      "question": "What is Obexol?",
+      "answer": "A brand name that appears in searches alongside tesofensine and in connection with the Mexican application. The developer's public pipeline page names Tesomet (the metoprolol combination) and describes the monotherapy without a brand; no approved product under any name is documented in the sources available."
     }
   ],
   "sources": [
@@ -952,7 +1040,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 76.6,
+  "uniqueness_pct": 87.6,
   "review": {
     "author": "",
     "reviewer": "",
@@ -975,6 +1063,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 23 ledger sources by scripts/draft_claims.py: 32 claims, 19 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/tesofensine.json: guide (8 sections incl. a table of all human studies and a comparison with sibutramine), FAQ to 12 plus 9 from the map, hand-written dose, timeline and adverse-event claims with frequencies from the abstracts; mechanism (small molecule, not a peptide), reported-use and regulatory claims with the dated COFEPRIS timeline; a misdrafted interactions claim removed; intent-driven H1 and title. Triage: a misdrafted duration claim removed (a review's '12 months' referred to other drugs' phase 3 trials)."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Tesofensine in two minutes",
+      "html": "<p><strong>What it is.</strong> A small-molecule tablet drug from Denmark that blocks the reuptake of serotonin, noradrenaline and dopamine. Not a peptide, whatever the capsule label says. Developed for Alzheimer's and Parkinson's disease, where it failed; repurposed for obesity when trial patients lost weight.</p><p><strong>What the research actually shows.</strong> 63 indexed publications. One 24-week phase 2 trial in 203 obese adults: 9.2% weight loss at 0.5 mg and 10.6% at 1.0 mg against 2.0% on placebo, the largest oral result of its era. Three Parkinson's trials with no useful benefit. One 24-week trial of the metoprolol combination in 21 people with hypothalamic obesity. A 372-patient phase 3 in Mexico reported by the developer at about 10% and not yet published.</p><p><strong>The catch.</strong> Heart rate up to about 8 beats a minute, blood pressure up at 1.0 mg, insomnia in half of those treated, dry mouth in four in ten. Its class-mate sibutramine was withdrawn for cardiovascular harm; no outcomes trial of tesofensine exists.</p><p><strong>Status.</strong> Approved nowhere. A Mexican application received a favourable opinion in 2023, was withheld in November 2024 and was resubmitted in 2025. Prohibited in competition by WADA as a stimulant.</p><p><strong>Where the evidence is thinnest.</strong> Anything beyond 24 weeks, cardiovascular outcomes, and the capsules people buy, whose content nobody has tested.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "Trial by trial: what tesofensine did, and where it failed",
+      "lede": "Every human study in the ledger. The Parkinson's rows are where the drug came from; the obesity row is why anyone still talks about it.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of tesofensine in the ledger.</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Participants</th><th scope=\"col\">Dose and duration</th><th scope=\"col\">Primary endpoint</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Astrup 2008 (Lancet phase 2)</td><td>203 obese adults, five Danish centres</td><td>0.25, 0.5 or 1.0 mg oral daily with diet, 24 weeks</td><td>Body weight</td><td><strong>4.5%, 9.2%, 10.6%</strong> loss vs 2.0% placebo; 79% completed; heart rate and blood pressure rose (full text)</td></tr><tr><td>Nielsen 2009</td><td>Same trial, Danish secondary publication</td><td>As above</td><td>Body weight and composition</td><td>Same figures; authors call for phase 3 confirmation of safety</td></tr><tr><td>Huynh 2022 (Tesomet)</td><td>21 adults with hypothalamic obesity</td><td>0.5 mg + metoprolol 50 mg daily, 24 weeks</td><td>Safety</td><td>Weight reduced vs placebo; no heart-rate or blood-pressure change; sleep disturbance 50%, dry mouth 43%, headache 36%; one anxiety SAE</td></tr><tr><td>Hauser 2007</td><td>261 early Parkinson's patients</td><td>0.25, 0.5 or 1.0 mg daily, 14 weeks</td><td>UPDRS score</td><td><strong>No significant benefit</strong> at any dose</td></tr><tr><td>Rascol 2008 (ADVANS)</td><td>Advanced Parkinson's with motor fluctuations</td><td>0.125 to 1 mg daily, 14 weeks</td><td>UPDRS and off time</td><td>Modest gains at 0.5 and 0.25 mg without dose-response; GI and psychiatric events more frequent at higher doses</td></tr><tr><td>Bara-Jimenez 2004</td><td>9 advanced Parkinson's patients</td><td>Single dose, with and without levodopa</td><td>Parkinsonian scores</td><td>No change; well tolerated</td></tr><tr><td>Lehr 2010 (Alzheimer's modelling)</td><td>62 mild Alzheimer's patients in two 4-week trials</td><td>Not stated in the abstract</td><td>Cognition (modelled)</td><td>Model predicted the proof-of-concept outcome; development in Alzheimer's ended</td></tr><tr><td>Lehr 2007 (population PK)</td><td>320 Alzheimer's patients</td><td>Multiple oral doses</td><td>Pharmacokinetics</td><td><strong>Half-lives 234 h and 374 h</strong> (drug and metabolite); weight, sex, kidney function, BMI and age influence exposure</td></tr><tr><td>Lehr 2009 (enterohepatic model)</td><td>21 healthy volunteers</td><td>Single 6-hour infusion, 0.3 to 1.2 mg</td><td>Pharmacokinetics</td><td>Multiple plasma peaks explained by bile recirculation</td></tr><tr><td>Lehr 2010 (itraconazole)</td><td>28 healthy volunteers</td><td>Single 2 mg oral dose, half with itraconazole</td><td>Drug interaction</td><td>About 9% higher exposure with the CYP3A4 inhibitor</td></tr><tr><td>Krug 2026</td><td>Anti-doping urine study</td><td>483 mcg single dose (from the record)</td><td>Metabolite identification</td><td>Metabolites characterised for doping control; S6 stimulant, in-competition</td></tr><tr><td>Medix phase 3 (developer's report; not in ledger)</td><td>372 adults with obesity, Mexico</td><td>0.25 and 0.5 mg daily, 24 weeks</td><td>Body weight</td><td>About 10% loss; more than half lost over 10%; unpublished</td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every tesofensine dose in the trials, in one table",
+      "lede": "Every figure here was given in a trial. The vendor capsules print the same numbers; that does not make them the trial drug.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses of tesofensine administered in studies.</caption><thead><tr><th scope=\"col\">Setting</th><th scope=\"col\">Route</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Note</th></tr></thead><tbody><tr><td>Obesity phase 2</td><td>Oral tablet</td><td>0.25, 0.5, 1.0 mg</td><td>Once daily, 24 weeks</td><td>1.0 mg raised blood pressure and dropouts; dropped from phase 3</td></tr><tr><td>Obesity phase 3 (Mexico, unpublished)</td><td>Oral tablet</td><td>0.25, 0.5 mg</td><td>Once daily, 24 weeks</td><td>Developer's report</td></tr><tr><td>Hypothalamic obesity (Tesomet)</td><td>Oral tablet</td><td>0.5 mg with metoprolol 50 mg</td><td>Once daily, 24 weeks</td><td>Beta-blocker added to blunt heart rate</td></tr><tr><td>Parkinson's disease</td><td>Oral tablet</td><td>0.125 to 1.0 mg</td><td>Once daily, 14 weeks</td><td>No useful benefit; more adverse events at higher doses</td></tr><tr><td>Pharmacokinetics</td><td>Intravenous infusion</td><td>0.3 to 1.2 mg over 6 hours</td><td>Single</td><td>Healthy volunteers</td></tr><tr><td>Drug interaction</td><td>Oral</td><td>2 mg</td><td>Single</td><td>Healthy volunteers, with itraconazole</td></tr><tr><td>Rats (diet-induced obesity)</td><td>Subcutaneous</td><td>2.0 mg/kg; 0.5 to 3.0 mg/kg</td><td>16 days</td><td>Appetite suppression via dopamine D1 and alpha-1 receptors</td></tr></tbody></table></div></div><p>Nothing on this page is an instruction to take anything. The trial doses are a matter of record; the products sold at those doses are unregulated, and the drug they contain has no approval because of what it does to heart rate and blood pressure at exactly these amounts.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who tesofensine is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> obese adults without major illness, people with hypothalamic obesity, and people with Parkinson's or Alzheimer's disease. <strong>Excluded or unstudied:</strong> anyone with cardiovascular disease, uncontrolled blood pressure, psychiatric illness, or on other monoamine drugs; anyone under 18; pregnancy; anyone beyond 24 weeks. <strong>Community:</strong> people wanting an oral alternative to GLP-1 injections.</p><p>The cautions follow from the pharmacology and the trials:</p><ul class=\"list\"><li><strong>Heart rate and blood pressure.</strong> Both rose in the phase 2; the 1.0 mg dose was abandoned for it; the combination with a beta-blocker exists because of it. Sibutramine, the nearest approved relative, was withdrawn after a cardiovascular outcomes trial. No such trial exists for tesofensine.</li><li><strong>Sleep and mood.</strong> Insomnia in half of those treated in the Tesomet trial; one serious worsening of anxiety; more neuropsychiatric events at higher doses in Parkinson's patients.</li><li><strong>Other serotonergic or dopaminergic drugs.</strong> Antidepressants, stimulants, MAO inhibitors and triptans act on the same transmitters; no interaction study exists beyond itraconazole and levodopa.</li><li><strong>The ten-day half-life.</strong> A dose taken today is still acting in a month. Side effects that appear in week four cannot be stopped quickly.</li><li><strong>Tested athletes.</strong> Prohibited in competition as an S6 stimulant; with a ten-day half-life, an out-of-competition dose can produce an in-competition positive.</li><li><strong>The product.</strong> Capsules sold as 'tesofensine peptide' or 'supplement' are neither; nobody has verified what they contain.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The pharmacokinetics set the clock. With half-lives of <strong>234 hours</strong> for the drug and <strong>374 hours</strong> for its metabolite, blood levels climb for four to six weeks before they plateau, so appetite suppression, insomnia and heart-rate effects all build rather than arriving on day one, and all persist for weeks after the last tablet. Weight was measured at <strong>24 weeks</strong> in both obesity trials and at <strong>14 weeks</strong> in Parkinson's disease. Nothing was measured beyond 24 weeks: not weight regain after stopping, not blood pressure over a year, not cardiovascular events. 'How long does it take to feel it' has an answer of days for appetite and weeks for full effect; 'what happens after six months' has none.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>Tesofensine is a stable small molecule supplied as tablets in every trial; it needs no reconstitution and no refrigeration, and pages offering a 'reconstitution guide' for it have confused it with the peptides they sell alongside. Products sold online carry no verified storage or content data.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how tesofensine is discussed",
+      "html": "<ol class=\"list\"><li><strong>Calling it a peptide.</strong> It is a phenyltropane small molecule taken as a tablet. The label is a sales category, not chemistry.</li><li><strong>Saying it is approved in Mexico.</strong> The developer's filings show a favourable opinion in 2023, approval withheld in November 2024 and a resubmission in 2025. No approval is documented as of this page's date.</li><li><strong>Quoting the 1.0 mg result without its cost.</strong> The highest dose produced 10.6% loss and raised blood pressure enough to be dropped from phase 3.</li><li><strong>Reading 24 weeks as long-term.</strong> No trial has followed anyone longer, and the drug's class was withdrawn once on cardiovascular outcomes data that took years to gather.</li><li><strong>Comparing it with semaglutide on weight alone.</strong> The GLP-1 drugs have cardiovascular outcome trials showing benefit; tesofensine has a heart-rate signal and no outcomes trial.</li><li><strong>Treating the ten-day half-life as convenience.</strong> It means slow onset, slow offset, and a positive doping test long after the last dose.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Tesofensine vs semaglutide, tirzepatide, phentermine and sibutramine",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Tesofensine beside the weight-loss drugs it is compared with, from their own records where one exists.</caption><thead><tr><th scope=\"col\">Drug</th><th scope=\"col\">Class and route</th><th scope=\"col\">Weight loss in trials</th><th scope=\"col\">Cardiovascular record</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>Tesofensine</strong></td><td>Triple monoamine reuptake inhibitor; oral</td><td>9.2% at 0.5 mg, 10.6% at 1.0 mg vs 2.0% placebo, 24 weeks (phase 2)</td><td>Heart rate and blood pressure up; no outcomes trial</td><td>Not approved; Mexican application pending</td></tr><tr><td><a href=\"/compounds/semaglutide\">Semaglutide</a></td><td>GLP-1 receptor agonist; weekly injection; 6039 indexed publications, 305 randomized trials</td><td>About 15% at 68 weeks in its pivotal trial</td><td>Outcomes trial showed fewer cardiovascular events</td><td>Approved 2017</td></tr><tr><td><a href=\"/compounds/tirzepatide\">Tirzepatide</a></td><td>GIP/GLP-1 agonist; weekly injection; 2756 indexed publications, 131 randomized trials</td><td>About 15 to 21% at 72 weeks</td><td>Outcomes trial completed</td><td>Approved 2022</td></tr><tr><td>Phentermine</td><td>Noradrenaline-releasing stimulant; oral</td><td>About 5% over placebo in short trials</td><td>Heart rate up; approved for short-term use only</td><td>Approved (US) for up to 12 weeks; no record on this site</td></tr><tr><td>Sibutramine</td><td>Noradrenaline-serotonin reuptake inhibitor; oral</td><td>About 4 to 5% over placebo</td><td><strong>Withdrawn 2010</strong> after more cardiovascular events in the SCOUT trial</td><td>Withdrawn; no record on this site</td></tr><tr><td><a href=\"/compounds/aod-9604\">AOD-9604</a> and <a href=\"/compounds/slu-pp-332\">SLU-PP-332</a></td><td>This site's other 'metabolic, other' compounds; 25 and 12 indexed publications</td><td>AOD-9604: no effect in its phase 2; SLU-PP-332: mice only</td><td>None</td><td>Not approved</td></tr></tbody></table></div></div><p>The honest comparison is with sibutramine, not semaglutide: same class, same heart-rate signal, and a withdrawal that came only after a long outcomes trial. The GLP-1 drugs sit in a different evidential world. No trial has compared tesofensine with any of them.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
