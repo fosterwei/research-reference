@@ -1,14 +1,15 @@
 ---
 // "What happened in the human trials?" Renders only when a compound's human
-// evidence is scarce enough to show in full (1 to 6 primary human studies).
+// evidence is scarce enough to show in full (1 to `max` primary human studies,
+// twelve by default).
 // When human trials are abundant, the evidence table already carries them and
 // a second listing would repeat it. The rule is stated in the lede.
 import ClaimCards from './ClaimCards.astro';
 interface Row { evidence_label: string; source_ids: string[]; source_excerpt?: string; value: string; drafting?: string; fields?: Record<string, any> }
-interface Props { rows: Row[]; name: string; sources: Array<{ id: string; url: string }> }
-const { rows, name, sources } = Astro.props;
+interface Props { rows: Row[]; name: string; sources: Array<{ id: string; url: string }>; max?: number }
+const { rows, name, sources, max = 12 } = Astro.props;
 const human = rows.filter((r) => r.fields?.species === 'Humans' && !/method|in vitro/i.test(r.fields?.design ?? ''));
-const show = human.length >= 1 && human.length <= 6;
+const show = human.length >= 1 && human.length <= max;
 const trials = human.filter((r) => /trial|randomi/i.test(r.fields?.design ?? '')).length;
 ---
 {show && (
