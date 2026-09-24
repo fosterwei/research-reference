@@ -1,0 +1,504 @@
+{
+  "slug": "kisspeptin",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "serp_2026-09-24": {
+    "query": "kisspeptin peptide",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "product_considerations",
+      "related_searches"
+    ],
+    "organic_top": [
+      "americanpeptides.us (vendor)",
+      "pmc (KP-10 hormone effects)",
+      "ptatx.com (clinic)",
+      "drsobo.com (clinic)",
+      "sciencedirect.com topic",
+      "pmc (review)",
+      "youtube.com",
+      "redfoxpeptides.is (vendor PCT guide)",
+      "yourhormones.info"
+    ],
+    "note": "Two PMC papers and a Society for Endocrinology page rank alongside two clinics and two vendors. The AI Overview cites PMC and the clinics. The incumbent dosing guide is absent."
+  },
+  "demand_findings": "Head 9,056 clickstream (KD 10; 22,200 Ads, the largest Ads figure after IGF-1 LR3); 'kisspeptin-10' 2,340 and 'kisspeptin peptide' 1,068 are the research-chemical phrasings. Reddit 661 and 'what is' 457 outrank dosage (305), so the definitional and community questions lead. Testosterone (101) is the only outcome query with clickstream; libido, fertility, PCT and 'vs PT-141' show Ads only. Google Ads sees a broader searcher (fertility clinics) than clickstream does.",
+  "h1": "Kisspeptin (KP-10, KP-54) peptide: what the human trials measured, the desensitisation problem, and what the testosterone and libido uses rest on",
+  "dek": "A hormone with a real clinical trial programme, mostly at one London centre, and a research-chemical afterlife. This page lines up every human study by dose, route and duration, explains why continuous dosing switches the system off, and says what the 'testosterone restart' and libido uses have behind them.",
+  "queries": [
+    {
+      "query": "kisspeptin",
+      "volume": {
+        "clickstream": 9056,
+        "google_ads": 22200,
+        "kd": 10,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What kisspeptin is, and what KP-10 and KP-54 mean"
+    },
+    {
+      "query": "kisspeptin-10",
+      "volume": {
+        "clickstream": 2340,
+        "google_ads": 6600,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What kisspeptin is, and what KP-10 and KP-54 mean"
+    },
+    {
+      "query": "kisspeptin peptide",
+      "volume": {
+        "clickstream": 1068,
+        "google_ads": 9900,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What kisspeptin is, and what KP-10 and KP-54 mean"
+    },
+    {
+      "query": "kisspeptin reddit",
+      "volume": {
+        "clickstream": 661,
+        "google_ads": 480,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe use to restart testosterone after steroids or to raise libido. Neither use has a trial behind it, and the desensitisation finding cuts against the first."
+    },
+    {
+      "query": "what is kisspeptin",
+      "volume": {
+        "clickstream": 457,
+        "google_ads": 880,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is kisspeptin?",
+      "answer": "Kisspeptin is a family of peptides cut from the product of the KISS1 gene, first found as a tumour-suppressing factor (metastin) and then identified in 2003 as the switch that starts puberty: it acts on the KISS1 receptor on GnRH neurons in the hypothalamus, which release GnRH, which makes the pituitary release LH and FSH, which drive testosterone and oestrogen. Kisspeptin-54 is the main circulating form; kisspeptin-10 is its ten-amino-acid active tail. Both are made synthetically for research."
+    },
+    {
+      "query": "kisspeptin dosage",
+      "volume": {
+        "clickstream": 305,
+        "google_ads": 1600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every kisspeptin dose in the trials, in one table",
+      "boundary": "Every figure here is a dose a trial gave, by body weight in nanomoles, of kisspeptin-54 or kisspeptin-10 or an analogue. The microgram figures on vendor pages were not derived from these trials and are not reproduced."
+    },
+    {
+      "query": "kisspeptin benefits",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 390,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what kisspeptin did in people",
+      "boundary": "Hormone and brain-imaging results from controlled trials, almost all single infusions or injections in a laboratory. No trial has treated anyone with kisspeptin for more than 12 days, and none has measured fertility, libido or testosterone as a long-term outcome."
+    },
+    {
+      "query": "kisspeptin side effects",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 320,
+        "kd": 10,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded, and the desensitisation problem",
+      "boundary": "From placebo-controlled trials in healthy volunteers and patients. The one effect that matters is not a side effect but a loss of effect: high-dose continuous kisspeptin desensitises the system it stimulates."
+    },
+    {
+      "query": "kisspeptin 54",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 210,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What kisspeptin is, and what KP-10 and KP-54 mean"
+    },
+    {
+      "query": "kisspeptin testosterone",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 0,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does kisspeptin increase testosterone?",
+      "answer": "Acutely, yes, in men: subcutaneous kisspeptin-10 infusions raised LH, FSH and testosterone dose-dependently, and a 2026 study kept testosterone raised through 12 days of daily eight-hour infusions in healthy men. No study has measured testosterone after weeks of intermittent injection, and older work found that continuous high-dose kisspeptin desensitises the response. Nothing has been tested in men with low testosterone or after anabolic steroids."
+    },
+    {
+      "query": "kisspeptin gnrh",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 10,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How kisspeptin works: the switch above GnRH"
+    },
+    {
+      "query": "kisspeptin half life",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 70,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of kisspeptin?",
+      "answer": "Short. The kisspeptin receptor agonist MVT-602 had a measured elimination half-life of 1.3 to 2.2 hours in women; native kisspeptin-54 is cleared faster still, which is why the trials infuse it for 75 minutes or longer, and why one subcutaneous dose produces an LH surge lasting about 12 to 14 hours rather than days. Kisspeptin-10 is shorter-lived than kisspeptin-54. No abstract in the ledger states a figure for the native peptides."
+    },
+    {
+      "query": "kisspeptin injection",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 140,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: what the trials used",
+      "boundary": "Intravenous infusion in most trials, single subcutaneous injection for IVF triggering, subcutaneous infusion by pump, and, since 2025, an intranasal spray. Daily subcutaneous injection for weeks, the community pattern, has been studied once, for 12 days."
+    },
+    {
+      "query": "kisspeptin nasal spray",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 210,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: what the trials used",
+      "boundary": "Intravenous infusion in most trials, single subcutaneous injection for IVF triggering, subcutaneous infusion by pump, and, since 2025, an intranasal spray. Daily subcutaneous injection for weeks, the community pattern, has been studied once, for 12 days."
+    },
+    {
+      "query": "kisspeptin vs hcg",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "comparison-table",
+      "heading": "Kisspeptin vs hCG, clomiphene, GnRH, PT-141 and the kisspeptin-pathway drugs"
+    },
+    {
+      "query": "kisspeptin vs pt-141",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 260,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "comparison-table",
+      "heading": "Kisspeptin vs hCG, clomiphene, GnRH, PT-141 and the kisspeptin-pathway drugs"
+    },
+    {
+      "query": "kisspeptin fertility",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 40,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what kisspeptin did in people",
+      "boundary": "Hormone and brain-imaging results from controlled trials, almost all single infusions or injections in a laboratory. No trial has treated anyone with kisspeptin for more than 12 days, and none has measured fertility, libido or testosterone as a long-term outcome."
+    },
+    {
+      "query": "kisspeptin libido",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 40,
+        "kd": 11,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does kisspeptin increase libido?",
+      "answer": "In two randomized crossover trials, a single 75-minute infusion of kisspeptin-54 changed activity in sexual-processing brain regions in women and men with hypoactive sexual desire disorder, and in men increased penile tumescence and self-rated desire during the session. These are mechanistic single-dose results, not a treatment trial; nobody has been given kisspeptin for low desire over weeks."
+    },
+    {
+      "query": "kisspeptin puberty",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How kisspeptin works: the switch above GnRH"
+    },
+    {
+      "query": "kisspeptin trt",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe use to restart testosterone after steroids or to raise libido. Neither use has a trial behind it, and the desensitisation finding cuts against the first."
+    },
+    {
+      "query": "kisspeptin hormone",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What kisspeptin is, and what KP-10 and KP-54 mean"
+    },
+    {
+      "query": "kisspeptin fda",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: not approved; the approved drugs act on its pathway"
+    },
+    {
+      "query": "kisspeptin reconstitution",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "what do kisspeptin peptides do",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What do kisspeptin peptides do?",
+      "answer": "They make the hypothalamus release GnRH, which within minutes raises LH and then FSH, and over hours raises testosterone in men and oestradiol in women. In trials that has been used to trigger egg maturation in IVF, to restore LH pulses in women whose periods have stopped, and to probe sexual brain processing. Given continuously at high dose, the effect fades.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how long does it take for kisspeptin to kick in",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "can you take kisspeptin every day",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Can kisspeptin be taken every day?",
+      "answer": "Trials have given it daily for at most 12 days, as eight-hour subcutaneous infusions in healthy men, and gonadotropins stayed raised. The older finding that continuous high-dose kisspeptin-54 desensitises the response in women with hypothalamic amenorrhoea is why the field uses pulses and low doses. No study has tested daily injection for weeks or months, which is what the community does.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/kisspeptin",
+      "rank": null,
+      "words": 5786,
+      "tables": 11,
+      "h2": 20,
+      "h3": 69,
+      "sci_links": 9,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 27,
+      "gap": "Eleven tables including a 50 to 100 mcg daily 'low-dose pulse' with no trial behind it; correctly flags desensitisation and that trial doses are in nmol/kg; not in the Google top 10 for 'kisspeptin peptide' on 2026-09-24; the /protocol/kisspeptin-10 URL returns 'Protocol Coming Soon'",
+      "source": "cached crawl 2026-09-24, metrics measured; scored D9 F9 S6 U3"
+    },
+    {
+      "url": "https://drsobo.com/peptides/kisspeptin/",
+      "rank": 6,
+      "words": 1800,
+      "tables": 3,
+      "h2": 8,
+      "sci_links": 8,
+      "byline": null,
+      "score": 16,
+      "gap": "Clinic page selling 'kisspeptin therapy' for libido; cites Dhillo 2005 and the IVF work; 'proven benefits' heading",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F4 S4 U3"
+    },
+    {
+      "url": "https://ptatx.com/the-benefits-of-kisspeptin-peptide-therapy/",
+      "rank": 5,
+      "words": 596,
+      "tables": 0,
+      "h2": 1,
+      "sci_links": 0,
+      "byline": null,
+      "score": 6,
+      "gap": "Physical-therapy clinic marketing page; no citations",
+      "source": "fetched 2026-09-24, metrics measured; scored D2 F1 S1 U2"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3232613/",
+      "rank": 4,
+      "score": null,
+      "gap": "Primary paper (effects of kisspeptin-10 on reproductive hormones) ranks fourth; the SERP rewards evidence",
+      "source": "SERP result; not fetched"
+    },
+    {
+      "url": "https://www.yourhormones.info/hormones/kisspeptin/",
+      "rank": 11,
+      "score": null,
+      "gap": "Society for Endocrinology patient page; authoritative and short; fetch returned 403",
+      "source": "SERP result; not fetched"
+    },
+    {
+      "url": "https://www.redfoxpeptides.is/kisspeptin-10-pct-guide-restart-natural-testosterone",
+      "rank": 10,
+      "score": null,
+      "gap": "Vendor 'PCT guide' for restarting testosterone, the community use with no trial; fetch returned 403",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that tabulates every human kisspeptin study in the ledger by isoform (KP-54, KP-10, analogue), dose in nmol/kg, route and duration, showing that almost all are single infusions or injections and the longest exposure is 12 days; that puts the desensitisation finding at the centre, since it is the reason the trials use pulses and the reason the community 'restart' use runs against the physiology; that separates kisspeptin itself from the drugs acting on its pathway (fezolinetant, an approved NK3 antagonist for hot flushes; MVT-602, a receptor agonist in IVF development); and that states the HSDD results for what they are, brain-imaging changes after one 75-minute infusion.",
+  "serp_format_rewarded": "Evidence explainer. Primary literature and an endocrinology society page rank; a cited page with a trial table and a plain mechanism section fits, and the clinics ranking above it have no such table.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add Dhillo 2005 (kisspeptin-54 in men), George 2011 (kisspeptin-10 in men) and Jayasena 2009 (desensitisation with twice-daily kisspeptin-54 in hypothalamic amenorrhoea) to the ledger; the first two are the most-cited testosterone papers and are cited editorially here.",
+    "Add FDA's September 2023 503A category 2 notice if it names kisspeptin-10; pending_source.",
+    "Several evidence rows are studies that measured kisspeptin levels or tested other drugs (fezolinetant; a GnRH test; placenta previa); the trial table labels them, and the drafter should learn to separate 'measured' from 'administered'.",
+    "The drafter's dose regex missed every nmol/kg figure in the abstracts; study_doses written by hand, regex item open."
+  ]
+}
