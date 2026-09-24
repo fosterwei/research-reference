@@ -1,0 +1,435 @@
+{
+  "slug": "dsip",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "serp_2026-09-24": {
+    "query": "dsip peptide",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "organic_top": [
+      "riteaid.com",
+      "pubmed (Bes 1992)",
+      "ovid.com (2001 review)",
+      "americanpeptides.us (vendor)",
+      "rwacenter.com (clinic)",
+      "sciencedirect.com topic page",
+      "youtube.com",
+      "phoenixpeptide.com (vendor)",
+      "pubmed (Späth-Schwalbe 1995)"
+    ],
+    "note": "Two PubMed abstracts rank in the top 10, which no other queue compound has shown; the SERP rewards evidence. The incumbent dosing guide is absent."
+  },
+  "demand_findings": "'dsip' 6,970 and 'dsip peptide' 4,935 (KD 15, the highest of the unapproved queue heads so far); the long name has 356 clickstream but 18,100 Ads, a searcher Google Ads sees and clickstream does not. Dosage 1,627 across two phrasings is the largest modifier; reddit 610; nasal spray 254 is the only route query in the queue so far with demand. Benefits and side effects 101 each.",
+  "h1": "DSIP peptide: what the 1980s sleep trials found, why no gene for it exists, and what the products people buy rest on",
+  "dek": "Delta sleep-inducing peptide was infused into small groups of volunteers and insomniacs forty years ago with mixed results, then largely abandoned. This page lines up every human study with its dose and outcome, explains why its existence as a hormone is disputed, and says what the nasal sprays and subcutaneous vials have behind them: nothing tested.",
+  "queries": [
+    {
+      "query": "dsip",
+      "volume": {
+        "clickstream": 6970,
+        "google_ads": 9900,
+        "kd": 8,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What DSIP is, and why its existence is disputed"
+    },
+    {
+      "query": "dsip peptide",
+      "volume": {
+        "clickstream": 4935,
+        "google_ads": 18100,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What DSIP is, and why its existence is disputed"
+    },
+    {
+      "query": "dsip peptide dosage",
+      "volume": {
+        "clickstream": 915,
+        "google_ads": 3600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every DSIP dose in the literature, in one table",
+      "boundary": "Every figure here is a dose a study gave: intravenous by body weight, or an intranasal Russian preparation. The subcutaneous figures on vendor pages were not derived from any of them and are not reproduced."
+    },
+    {
+      "query": "dsip dosage",
+      "volume": {
+        "clickstream": 712,
+        "google_ads": 3600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every DSIP dose in the literature, in one table",
+      "boundary": "Every figure here is a dose a study gave: intravenous by body weight, or an intranasal Russian preparation. The subcutaneous figures on vendor pages were not derived from any of them and are not reproduced."
+    },
+    {
+      "query": "dsip reddit",
+      "volume": {
+        "clickstream": 610,
+        "google_ads": 590,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. The products people describe, subcutaneous or nasal, have never been tested in a controlled study."
+    },
+    {
+      "query": "delta sleep inducing peptide",
+      "volume": {
+        "clickstream": 356,
+        "google_ads": 18100,
+        "kd": 11,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What DSIP is, and why its existence is disputed"
+    },
+    {
+      "query": "dsip nasal spray",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 720,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: what the studies used, and what people buy",
+      "boundary": "Intravenous infusion in every controlled human trial; intranasal in one Russian study of a DSIP preparation. No study has injected it subcutaneously."
+    },
+    {
+      "query": "dsip benefits",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 170,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what DSIP did to sleep, and what it did not",
+      "boundary": "Results from small intravenous trials of the 1980s and 1990s, most with six to sixteen participants, several without a placebo difference. No trial has tested the subcutaneous or nasal products people buy."
+    },
+    {
+      "query": "dsip side effects",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 260,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what the trials recorded",
+      "boundary": "The trials called tolerability good and insisted on slow injection. Frequencies were not reported in the abstracts; one anaesthesia study found a paradoxical effect."
+    },
+    {
+      "query": "dsip for sleep",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 480,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what DSIP did to sleep, and what it did not",
+      "boundary": "Results from small intravenous trials of the 1980s and 1990s, most with six to sixteen participants, several without a placebo difference. No trial has tested the subcutaneous or nasal products people buy."
+    },
+    {
+      "query": "dsip reconstitution",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 90,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "what is dsip",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 480,
+        "kd": 10,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is DSIP?",
+      "answer": "Delta sleep-inducing peptide is a nine-amino-acid peptide isolated in 1977 from the blood of rabbits in induced sleep by Schoenenberger and Monnier in Basel. It was infused intravenously into small groups of volunteers and insomniacs in the 1980s and 1990s with mixed results, and it has never been approved anywhere. No gene encoding it has been found in any genome, so whether it is a natural hormone at all is unresolved."
+    },
+    {
+      "query": "dsip half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of DSIP?",
+      "answer": "Minutes. A 1987 study in rat and dog plasma found injected DSIP disappeared rapidly through enzymatic degradation, and the human trials describe a sleep-promoting latency of about an hour with effects lasting hours to a day, which the investigators attributed to downstream changes rather than the peptide persisting. No human pharmacokinetic figure is stated in any abstract in the ledger."
+    },
+    {
+      "query": "dsip vs melatonin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "comparison-table",
+      "heading": "DSIP vs melatonin, Epitalon, Pinealon and the Russian nootropic peptides"
+    },
+    {
+      "query": "dsip before and after",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. The products people describe, subcutaneous or nasal, have never been tested in a controlled study."
+    },
+    {
+      "query": "dsip results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what DSIP did to sleep, and what it did not",
+      "boundary": "Results from small intravenous trials of the 1980s and 1990s, most with six to sixteen participants, several without a placebo difference. No trial has tested the subcutaneous or nasal products people buy."
+    },
+    {
+      "query": "what are the benefits of dsip peptide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what DSIP did to sleep, and what it did not",
+      "boundary": "Results from small intravenous trials of the 1980s and 1990s, most with six to sixteen participants, several without a placebo difference. No trial has tested the subcutaneous or nasal products people buy.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how long does it take for dsip to kick in",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how often do you inject dsip peptides",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How often was DSIP given in the studies?",
+      "answer": "Once a day by slow intravenous infusion, for one to seven consecutive nights in the insomnia trials, and as a single infusion in the hormone studies. The intranasal Russian preparation was given daily. No study has used repeated subcutaneous injection, which is how the product circulates, so there is no studied frequency for it.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "dsip fda",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: not approved, and named in FDA's 2023 compounding action"
+    },
+    {
+      "query": "deltaran",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is Deltaran?",
+      "answer": "A Russian preparation containing DSIP, given intranasally, that appears in Russian-language studies of alcohol withdrawal, stress, ageing markers and children recovering from chemotherapy. Its regulatory standing in Russia is not documented in the ledger; it has no approval outside Russia."
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/dsip",
+      "rank": null,
+      "words": 3868,
+      "tables": 9,
+      "h2": 20,
+      "h3": 49,
+      "sci_links": 4,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 24,
+      "gap": "Nine dosing and reconstitution tables around a 'community range' the page itself says is not from clinical trials; names the FDA category 2 listing and Emideltide; not in the Google top 10 for 'dsip peptide' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F8 S5 U3"
+    },
+    {
+      "url": "https://riteaid.com/peptides/dsip",
+      "rank": 2,
+      "words": 1436,
+      "tables": 0,
+      "h2": 16,
+      "sci_links": 2,
+      "byline": "Rite Aid Health Team",
+      "score": 17,
+      "gap": "Health-team review; two citations; no dose; two lead-capture forms inside the article; 'how to get DSIP' section",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S6 U4"
+    },
+    {
+      "url": "https://rwacenter.com/blog/dsip-the-natural-sleep-architect-for-restorative-rest",
+      "rank": 7,
+      "words": 2883,
+      "tables": 2,
+      "h2": 21,
+      "sci_links": 0,
+      "byline": null,
+      "score": 13,
+      "gap": "Clinic marketing page with a dosage table and no citations; sells consultations",
+      "source": "fetched 2026-09-24, metrics measured; scored D6 F4 S1 U2"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Delta-sleep-inducing_peptide",
+      "rank": null,
+      "words": 3499,
+      "tables": 6,
+      "h2": 6,
+      "sci_links": 92,
+      "score": 22,
+      "gap": "92 references and the discovery history, but ranks for the long name, not 'dsip peptide'; no trial table, no dose, no regulatory status",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F4 S9 U4"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1299794/",
+      "rank": 4,
+      "score": null,
+      "gap": "The 1992 Bes trial abstract ranks directly; the SERP rewards primary evidence",
+      "source": "SERP result; abstract in the ledger"
+    }
+  ],
+  "information_gain": "The only page that tabulates all sixteen human studies of DSIP with dose, route, duration and outcome, showing that every controlled trial used slow intravenous infusion at 25 nmol per kilogram in six to sixteen people, that two of the four polysomnography trials found no difference from placebo, and that the largest study (67 patients in withdrawal) had no control group; that states the fact no ranking page mentions, that no gene encoding DSIP has been identified in any genome, so it may not be an endogenous peptide at all; and that says plainly that the subcutaneous and nasal products people buy have never been tested in a controlled human study.",
+  "serp_format_rewarded": "Evidence explainer. Two PubMed abstracts and a ScienceDirect topic page rank, alongside a reviewed explainer; a trial-by-trial table with the discovery history fits what the SERP already rewards.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add FDA's September 2023 503A category 2 notice naming DSIP (as Emideltide) to the ledger; cited editorially with pending_source.",
+    "Add the 1977 Schoenenberger and Monnier isolation paper and a review stating that no DSIP gene has been identified; the existence dispute is editorial until then.",
+    "Deltaran's Russian regulatory standing is undocumented in the ledger.",
+    "The drafter read '25-39 years' (participant ages) as a 39-year study duration in study_durations; corrected by hand, regex item open."
+  ]
+}

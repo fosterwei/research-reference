@@ -16,8 +16,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "DSIP is a peptide in the neuropeptides nootropic class (delta sleep-inducing peptide; receptor unidentified). Europe PMC indexes 559 publications naming it or a listed alias in a title or abstract, including 7 randomized controlled trials and 18 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "DSIP: what the research shows",
-    "description": "DSIP research, cited: 559 indexed publications, 7 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "DSIP Peptide: Sleep Trials, Dose, Side Effects, Status",
+    "description": "DSIP peptide: the 1980s sleep trials with dose and result, why its existence as a hormone is disputed, side effects, and status of the products people buy."
   },
   "attributes": {
     "routes_studied": [
@@ -78,46 +78,87 @@
     ],
     "study_doses": [
       {
-        "value": "Clinical trial, humans, n=5, 1995: doses stated in the abstract: 4 mg. In a second experiment, the influence of DSIP (4 mg, also administered as intravenous infusion) on meal-related ACTH and cortisol secretion was studied in another 10 men.",
+        "value": "Every controlled sleep trial infused 25 nanomoles per kilogram of body weight intravenously, about 21 micrograms per kilogram or roughly 1.5 mg for a 70 kg adult.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-3583493"
+        ],
+        "source_excerpt": "DSIP in a dose of 25 nmol/kg or a placebo was administered i.v. during four nights using a double-blind crossover design.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Sixteen chronic insomniacs received 25 nmol/kg intravenously in the afternoon before three consecutive nights.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-1299794"
+        ],
+        "source_excerpt": "In the afternoon before the 3rd, 4th and 5th night, half of the patients received intravenously 25 nmol/kg body weight DSIP, and half of the patients a glucose solution (placebo).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Total intravenous doses of 3 and 4 mg were infused over two hours around a CRH challenge in healthy young men.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-7777652"
         ],
-        "source_excerpt": "In a second experiment, the influence of DSIP (4 mg, also administered as intravenous infusion) on meal-related ACTH and cortisol secretion was studied in another 10 men.",
+        "source_excerpt": "DSIP (total doses of 3 and 4 mg, respectively, vs. placebo) was infused intravenously between 30 min prior to and 90 min after CRH injections.",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 2007: doses stated in the abstract: 1.0 mg/kg. For the purpose of the study, valproate in the doses of 50 or 75 mg/kg and DSIP (1.0 mg/kg) was i.p. injected either alone or in combination to adult Wistar male rats with fully developed metaphit seizures after eight audiogenic testing.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-17957464"
-        ],
-        "source_excerpt": "For the purpose of the study, valproate in the doses of 50 or 75 mg/kg and DSIP (1.0 mg/kg) was i.p. injected either alone or in combination to adult Wistar male rats with fully developed metaphit seizures after eight audiogenic testing.",
-        "drafting": "extractive"
-      }
-    ],
-    "escalation_schedules": [],
-    "interactions": [
-      {
-        "value": "Animal study, rats, dogs, 1987: It was concluded that the rapid disappearance of injected DSIP in blood was due to degradation, whereas complex formation together with slower degradation resulted in longer persistence of apparently intact analogs.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-3628078"
-        ],
-        "source_excerpt": "It was concluded that the rapid disappearance of injected DSIP in blood was due to degradation, whereas complex formation together with slower degradation resulted in longer persistence of apparently intact analogs.",
-        "drafting": "extractive"
-      }
-    ],
-    "exclusion_criteria": [],
-    "adverse_events": [
-      {
-        "value": "Human study, humans, n=67, 1983: It has been postulated that delta sleep-inducing peptide (DSIP) possesses an agonistic activity on opiate receptors and might be of value in the treatment of withdrawal syndromes.",
+        "value": "In withdrawal patients, 25 nmol/kg was injected intravenously as the sole treatment.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-6328354"
         ],
-        "source_excerpt": "It has been postulated that delta sleep-inducing peptide (DSIP) possesses an agonistic activity on opiate receptors and might be of value in the treatment of withdrawal syndromes.",
+        "source_excerpt": "To test this hypothesis, DSIP (25 nmol/kg) was injected intravenously as sole treatment to 67 patients presenting withdrawal symptoms (28 from ethyl alcohol, 39 from opiates).",
         "drafting": "extractive"
+      },
+      {
+        "value": "A Russian DSIP preparation, deltalicin, was given intranasally at 0.3 mg a day to patients with diabetic retinopathy.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25739189"
+        ],
+        "source_excerpt": "Treatment with deltalicin (daily dose of 0.0003 g of delta sleep-inducing peptide intranasally for two months) decreased the latent period and led to less pronounced depression of VEP amplitude in patients with diabetic retinopathy, and reduced the period of restoration of VEP characteristics to 95.",
+        "drafting": "extractive"
+      }
+    ],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [
+      {
+        "value": "The early investigators reported good tolerability and found that slow injection was essential.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-6689058"
+        ],
+        "source_excerpt": "Compatibility of DSIP was good. Slow injection proved essential.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In six insomniacs there was no daytime sedation or other side effect.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7028502"
+        ],
+        "source_excerpt": "slightly more REM-sleep, but no day-time sedation or other side effects though the sleep enhancing capacity was seen for up to 6 h of night sleep.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Given as an adjunct to isoflurane anaesthesia, DSIP raised heart rate, lowered heart-rate variability and had a paradoxical effect on the depth-of-anaesthesia index.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19142086"
+        ],
+        "source_excerpt": "DSIP significantly increased heart rate, decreased HRV and, paradoxically, significantly reduced delta rhythm along with reducing burst suppression and increasing BIS at 25 nmol kg(-1) during isoflurane anaesthesia.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "No trial reported adverse-event frequencies in its abstract, and no study has given DSIP subcutaneously or nasally under controlled conditions, so the safety of the products people buy is unmeasured. The withdrawal study's claim of benefit in 48 of 49 patients had no control group.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
       }
     ],
     "biomarkers_monitored": [
@@ -178,12 +219,39 @@
     ],
     "reported_timelines": [
       {
-        "value": "Controlled clinical trial, humans, 1987: The number of nocturnal awakenings, non-rapid-eye-movement (NREM) sleep latency, total waking time and waking time after sleep onset were decreased under DSIP treatment, but no significant differences were found in comparison to baseline or to double-blind placebo nights.",
+        "value": "Across five early studies, sleep induction began about an hour after infusion and the effect lasted up to 20 hours.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-3583493"
+          "pmid-6689058"
         ],
-        "source_excerpt": "The number of nocturnal awakenings, non-rapid-eye-movement (NREM) sleep latency, total waking time and waking time after sleep onset were decreased under DSIP treatment, but no significant differences were found in comparison to baseline or to double-blind placebo nights.",
+        "source_excerpt": "A latency of sleep induction of 1 h, but a duration of up to 20 h was found.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In six healthy volunteers infused in the morning, sleep pressure was reported at once and total sleep rose 59% within 130 minutes.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-6895513"
+        ],
+        "source_excerpt": "The subjects immediately reported a feeling of sleep pressure, and sleep increased by 59% (median of total sleep time) within a 130-min interval after the treatment as compared with placebo.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In insomniacs the sleep-promoting effect appeared only in the second hour, after a slight arousing effect in the first, and lasted up to six hours of night sleep.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7028502"
+        ],
+        "source_excerpt": "Sleep-promoting effects occurred only in the second hour after injection, in the first hour a slight arousing effect was indicated.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "ACTH fell for at least three hours after a single injection in healthy men.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-2554357"
+        ],
+        "source_excerpt": "A significant reduction of ACTH-like immunoreactivity (ACTH-LI) in plasma was detected for at least 3 hr after the DSIP injection, compared to the control subjects",
         "drafting": "extractive"
       },
       {
@@ -245,7 +313,34 @@
     ],
     "study_durations": [
       {
-        "value": "Randomized controlled trial, humans, 1989: durations stated: 39 years. Eleven healthy male volunteers, ages 25-39 years, received a single dose of synthetic delta sleep-inducing peptide (DSIP) (25 nmol/kg BW) or saline intravenously in a randomized cross-over, double-blind study.",
+        "value": "Seven consecutive nights of infusion, with polysomnography at baseline, start, end and one post-treatment night.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-3622582"
+        ],
+        "source_excerpt": "DSIP was administered under placebo-controlled, double-blind conditions for 7 successive nights.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Four nights, crossover.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-3583493"
+        ],
+        "source_excerpt": "DSIP in a dose of 25 nmol/kg or a placebo was administered i.v. during four nights using a double-blind crossover design.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Three treatment nights after two laboratory nights of adaptation and baseline.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-1299794"
+        ],
+        "source_excerpt": "Subjects slept for 5 consecutive nights in the laboratory. Night 1 was used for adaptation, night 2 for baseline measurements.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "A single dose, with plasma sampled for hours afterwards.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-2554357"
@@ -283,6 +378,15 @@
     ],
     "weight_normalized_doses": [
       {
+        "value": "25 nmol/kg intravenous, the dose in every controlled sleep trial and the hormone studies.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7698722"
+        ],
+        "source_excerpt": "DSIP (25 nmol/kg) was infused in 10 min to 8 normal men (23-34 years old)",
+        "drafting": "extractive"
+      },
+      {
         "value": "Animal study, rats, 2007: weight-normalized doses as published: 1.0 mg/kg. For the purpose of the study, valproate in the doses of 50 or 75 mg/kg and DSIP (1.0 mg/kg) was i.p. injected either alone or in combination to adult Wistar male rats with fully developed metaphit seizures after eight audiogenic testing.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
@@ -294,9 +398,11 @@
     ],
     "regulatory_status": [
       {
-        "value": "ChEMBL CHEMBL2104403: maximum clinical phase 2. Jurisdiction-level status pending human review.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": []
+        "value": "Not approved anywhere. In the United States it is sold as a research chemical; FDA is reported to have placed it, under the name Emideltide, in category 2 of the interim 503A bulk-substances list in September 2023, which bars compounding; the live list should be checked and the notice is not in the ledger. A DSIP preparation, Deltaran, is marketed in Russia and appears in Russian studies; its regulatory standing there is undocumented here. DSIP is not named on the WADA Prohibited List, but as an unapproved substance it falls under S0 at all times.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "evidence_table": [
@@ -800,6 +906,34 @@
           "outcome": "By using 0.2 mM o-phenanthroline in the iontophoretic delivery of DSIP at pH 4, we were able to significantly enhance the penetration of DSIP."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "DSIP is the nonapeptide Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu, isolated in 1977 by Schoenenberger and Monnier in Basel from the cerebral venous blood of rabbits put into sleep by electrical stimulation of the thalamus. The name records that finding: infused into other rabbits, the fraction increased delta-wave sleep. It was synthesised soon after, and every human study used the synthetic peptide.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "How it might act has never been settled. No receptor has been identified. Studies have proposed effects on GABA and glutamate signalling, on opioid receptors (the basis of the withdrawal study), on the stress axis (ACTH fell after a single dose in one study and did not respond to a CRH challenge in another) and on body temperature and circadian timing. The peptide is degraded in plasma within minutes, so its investigators assumed the hours-long sleep effects were downstream of a brief signal rather than a persisting drug level.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The unresolved question underneath all of this is whether DSIP is a natural hormone at all. Immunoreactive material has been measured in blood, milk and tissue, but no gene encoding the sequence has been found in any genome, including the human one, and the antibodies used cross-react with other proteins. Reviews since the 1990s have raised this; it is the reason the field went quiet, and no ranking page mentions it.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "DSIP circulates as a sleep aid, injected subcutaneously before bed or sprayed intranasally, often alongside Epitalon or Pinealon, and is discussed for stress, pain and withdrawal. Reports describe deeper or more vivid sleep, grogginess, headache and, often, no effect; the most common thread is uncertainty about whether the product contains the peptide. None of this comes from a controlled study of those routes, which have never been tested. Figures for this compound circulate on forums and vendor pages. None has been tested in a human study by the routes people use, so none is reproduced here; the table above holds every dose a study actually administered.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -850,8 +984,9 @@
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports dose-escalation schedules for DSIP.",
-    "No study in this record's ledger reports exclusion criteria for DSIP."
+    "Whether DSIP is encoded in any genome, and therefore whether it is an endogenous peptide, is unresolved and no source in the ledger settles it.",
+    "No controlled study has tested subcutaneous or intranasal DSIP for sleep.",
+    "FDA's 2023 compounding notice naming Emideltide and Deltaran's Russian registration are not in the ledger."
   ],
   "media": {
     "walkthrough_video": "",
@@ -860,19 +995,51 @@
   "faq": [
     {
       "question": "Has DSIP been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 18 clinical trials and 7 randomized controlled trials naming DSIP or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "answer": "Yes, in sixteen studies in the ledger, all from 1981 to 2014 and all intravenous apart from one Russian intranasal study. The sleep trials enrolled six to sixteen people each; the largest study, 67 patients in withdrawal, had no control group. No trial has tested the subcutaneous or nasal products sold today."
     },
     {
-      "question": "What kind of evidence exists for DSIP?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "Does DSIP work for sleep?",
+      "answer": "The evidence is split. In healthy volunteers a morning infusion increased sleep by 59% within two hours. In chronic insomniacs, two placebo-controlled polysomnography trials found better sleep efficiency and shorter latency, and two found changes that were not significantly different from placebo. Nothing has been tested by the routes people use."
     },
     {
-      "question": "Is DSIP an approved medicine?",
-      "answer": "ChEMBL records CHEMBL2104403 at maximum clinical phase 2, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+      "question": "Is there a DSIP dose?",
+      "answer": "For intravenous infusion in a sleep laboratory, the trials used 25 nanomoles per kilogram, about 21 micrograms per kilogram, given slowly; one hormone study used 3 and 4 mg over two hours. No subcutaneous or nasal dose has been studied, so the figures on vendor pages have no trial behind them."
+    },
+    {
+      "question": "What are the side effects of DSIP?",
+      "answer": "The early investigators reported good tolerability with slow infusion and no daytime sedation, but published no frequencies. The one modern trial found DSIP raised heart rate and lowered heart-rate variability during anaesthesia. Nothing is known about subcutaneous or nasal use."
+    },
+    {
+      "question": "Is DSIP a real hormone?",
+      "answer": "Unresolved. Immunoreactive DSIP has been measured in blood and tissue since the 1970s, but no gene encoding the sequence has been found in any genome, and the antibodies used cross-react with other proteins. That doubt, raised in the 1990s, is the main reason research stopped."
+    },
+    {
+      "question": "Is DSIP FDA approved?",
+      "answer": "No. It has never been approved anywhere. It is reported to have been placed in category 2 of FDA's interim 503A bulk-substances list in September 2023 under the name Emideltide, which bars compounding; check the live list."
+    },
+    {
+      "question": "Can DSIP be taken as a nasal spray?",
+      "answer": "One Russian study gave a DSIP preparation, deltalicin, intranasally at 0.3 mg a day to patients with diabetic retinopathy and measured visual evoked potentials, without a control group. No nasal DSIP has been tested for sleep, and no study has measured whether it reaches the brain by that route."
+    },
+    {
+      "question": "What is Deltaran?",
+      "answer": "A Russian preparation containing DSIP, given intranasally, that appears in Russian-language studies of alcohol withdrawal, stress, biomarkers of ageing in mice and children after chemotherapy. Its regulatory standing in Russia is not documented in the ledger, and it has no approval elsewhere."
+    },
+    {
+      "question": "Does DSIP affect cortisol or stress hormones?",
+      "answer": "Inconsistently. A single intravenous dose lowered ACTH for at least three hours in eleven healthy men, and altered vasopressin and ACTH responses to challenge in another study, but a 1995 trial found no effect on ACTH or cortisol released by CRH or a meal."
+    },
+    {
+      "question": "How long does DSIP take to work?",
+      "answer": "In the intravenous trials, about an hour, after a slight arousing effect in the first hour; sleep increased within 130 minutes in healthy volunteers and the effect lasted up to six hours of night sleep, with the investigators' pooled account extending to 20 hours. No timing data exist for injection under the skin or nasal spray."
+    },
+    {
+      "question": "Is DSIP banned in sport?",
+      "answer": "It is not named on the WADA Prohibited List, but as a substance with no approval from any regulator it falls under the list's S0 category, prohibited at all times."
     },
     {
       "question": "Which species has DSIP been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rabbits, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "answer": "Rabbits, where it was discovered; rats, mice, dogs and cats in pharmacology and toxicology; and humans in sixteen studies. Plasma DSIP has also been measured in infants and dialysis patients as a possible marker, without success."
     }
   ],
   "sources": [
@@ -1144,7 +1311,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 79.0,
+  "uniqueness_pct": 87.7,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1171,6 +1338,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 38 ledger sources by scripts/draft_claims.py: 28 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/dsip.json: guide (8 sections incl. a table of all sixteen human studies), FAQ to 12 plus 5 from the map, hand-written dose, duration, timeline and adverse-event claims from the abstracts (the drafter had read participant ages as a 39-year duration), mechanism including the gene question, reported-use, regulatory; intent-driven H1 and title."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "DSIP in two minutes",
+      "html": "<p><strong>What it is.</strong> A nine-amino-acid peptide isolated from sleeping rabbits in 1977 and named for the delta-wave sleep it induced in other rabbits. Synthesised and infused into small groups of people through the 1980s and 1990s, then largely abandoned.</p><p><strong>What the research actually shows.</strong> 559 indexed publications and sixteen human studies in the ledger, all intravenous, none larger than 67 people. In healthy volunteers a morning infusion increased sleep by 59% within two hours. In chronic insomniacs, two placebo-controlled polysomnography trials found better sleep and two found no significant difference from placebo. A single dose lowered ACTH for three hours in one study; another found no effect on the stress axis.</p><p><strong>The question nobody asks.</strong> No gene encoding DSIP has been found in any genome. Whether it is a natural hormone or an artefact of 1970s antibody methods is unresolved, and it is the main reason research stopped.</p><p><strong>Status.</strong> Not approved anywhere; reported to be on FDA's 2023 compounding category 2 list; caught by WADA's S0 rule.</p><p><strong>Where the evidence is thinnest.</strong> The products people buy. Every trial used slow intravenous infusion by body weight; no study has tested a subcutaneous injection or a nasal spray of DSIP in a controlled design.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "Trial by trial: what DSIP did to sleep, and what it did not",
+      "lede": "Every human study in the ledger. The placebo column is the one to read: half of the sleep trials found nothing against it.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of DSIP in the ledger, sleep trials first.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Participants</th><th scope=\"col\">Dose and schedule</th><th scope=\"col\">Design</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Schneider-Helmert 1981</td><td>6 healthy volunteers</td><td>25 nmol/kg IV, morning</td><td>Double-blind crossover</td><td><strong>Sleep +59%</strong> within 130 minutes; shorter, altered sleep the following night</td></tr><tr><td>Schneider-Helmert 1981</td><td>6 middle-aged chronic insomniacs</td><td>25 nmol/kg IV, single</td><td>Placebo-controlled</td><td>Longer, less interrupted sleep; effect from the second hour, up to 6 hours; no daytime sedation</td></tr><tr><td>Schneider-Helmert 1987</td><td>14 middle-aged chronic insomniacs</td><td>IV, 7 consecutive nights</td><td>Placebo-controlled, double-blind</td><td>Night sleep improved; daytime state and performance improved</td></tr><tr><td>Monti 1987</td><td>Chronic insomniacs</td><td>25 nmol/kg IV, 4 nights</td><td>Double-blind crossover</td><td>Awakenings and latency fell but <strong>not significantly different from placebo</strong></td></tr><tr><td>Bes 1992</td><td>16 chronic insomniacs</td><td>25 nmol/kg IV, 3 afternoons</td><td>Double-blind matched pairs</td><td>Higher sleep efficiency and shorter sleep latency on polysomnography</td></tr><tr><td>Schneider-Helmert 1983</td><td>Five studies pooled</td><td>IV, single and repeated</td><td>Review of the group's trials</td><td>Latency about 1 hour, duration up to 20 hours; slow injection essential</td></tr><tr><td>Dick 1983</td><td>67 patients in alcohol or opiate withdrawal</td><td>25 nmol/kg IV as sole treatment</td><td><strong>Uncontrolled</strong></td><td>Benefit reported in 48 of 49 evaluable patients; no comparison group</td></tr><tr><td>Bjartell 1989</td><td>11 healthy men</td><td>25 nmol/kg IV, single</td><td>Randomized double-blind crossover</td><td>ACTH lowered for at least 3 hours</td></tr><tr><td>Chiodera 1994</td><td>8 healthy men</td><td>25 nmol/kg IV over 10 minutes</td><td>Controlled challenge tests</td><td>Different effects on vasopressin and ACTH responses</td></tr><tr><td>Späth-Schwalbe 1995</td><td>5 per condition, healthy men</td><td>3 and 4 mg IV over 2 hours</td><td>Placebo-controlled</td><td><strong>No effect</strong> on CRH- or meal-induced ACTH and cortisol</td></tr><tr><td>Pomfrett 2009</td><td>Surgical patients</td><td>IV adjunct to isoflurane</td><td>Randomized</td><td>Heart rate up, heart-rate variability down, paradoxical effect on anaesthetic depth</td></tr><tr><td>Kresiun 2014</td><td>15 patients with diabetic retinopathy (Russian)</td><td>Deltalicin 0.3 mg/day intranasal</td><td>Uncontrolled</td><td>Visual evoked potentials reported restored</td></tr><tr><td>Schulz 1994; Vgontzas 1995; Scholle 1992; Hegbrant 1991</td><td>Volunteers, apnoea and narcolepsy patients, infants, dialysis patients</td><td>None given; plasma DSIP measured</td><td>Observational</td><td>Plasma levels tracked rest, disease and age; not a marker of sleep disorders</td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every DSIP dose in the literature, in one table",
+      "lede": "Every figure here was infused intravenously by body weight or given as a Russian nasal preparation. No subcutaneous dose has ever been studied.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses of DSIP administered in studies.</caption><thead><tr><th scope=\"col\">Route</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Population</th><th scope=\"col\">Source</th></tr></thead><tbody><tr><td>Intravenous, slow</td><td>25 nmol/kg (about 21 mcg/kg; roughly 1.5 mg for 70 kg)</td><td>Single, or nightly for 3 to 7 nights</td><td>Healthy volunteers; chronic insomniacs; withdrawal patients</td><td>Schneider-Helmert 1981 to 1987; Monti 1987; Bes 1992; Dick 1983; Bjartell 1989; Chiodera 1994</td></tr><tr><td>Intravenous infusion</td><td>3 mg and 4 mg total over 2 hours</td><td>Single</td><td>Healthy young men, CRH challenge</td><td>Späth-Schwalbe 1995</td></tr><tr><td>Intravenous</td><td>Dose not stated in the abstract</td><td>Single, during anaesthesia</td><td>Surgical patients</td><td>Pomfrett 2009</td></tr><tr><td>Intranasal (deltalicin, a DSIP preparation)</td><td>0.3 mg</td><td>Daily</td><td>Diabetic retinopathy, Russia</td><td>Kresiun 2014</td></tr><tr><td>Intravenous, animals</td><td>5 mg/kg for 6 days; 1.0 mg/kg</td><td>Repeated</td><td>Rats, rabbits, dogs, cats</td><td>Toxicology 1983; seizure model 2007</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study by the routes people use, so none is reproduced here; the table holds every dose a study actually administered. The conversion in the first row is arithmetic on the study dose (molecular weight about 849), not a recommendation, and it describes an intravenous infusion given in a sleep laboratory.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who DSIP is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> healthy volunteers, middle-aged chronic insomniacs, people in alcohol or opiate withdrawal, surgical patients under anaesthesia, and Russian patients with diabetic retinopathy. <strong>Never studied by the routes people use:</strong> anyone taking it subcutaneously or as a nasal spray. <strong>Community:</strong> people with insomnia, shift workers, and people using it for stress or pain.</p><p>No trial published exclusion criteria in its abstract. The cautions below come from what the studies found and from what was never measured:</p><ul class=\"list\"><li><strong>Heart rate and anaesthesia.</strong> The one modern trial found DSIP raised heart rate and reduced heart-rate variability during anaesthesia, with a paradoxical effect on depth. Anyone facing surgery has a reason to tell the anaesthetist.</li><li><strong>Stress hormones.</strong> One study found ACTH suppressed for hours; another found no effect. People on corticosteroids or with adrenal disease are in territory no study covered.</li><li><strong>Sedatives and alcohol.</strong> No interaction study exists; the withdrawal study gave DSIP alone.</li><li><strong>Injection speed.</strong> The early investigators called slow infusion essential and did not say what fast injection did; a subcutaneous bolus is neither.</li><li><strong>Product identity.</strong> Because the peptide degrades in minutes and no gene exists to reference, there is no clinical assay to confirm what a vial contains.</li><li><strong>Tested athletes.</strong> Unapproved substances are prohibited under WADA S0 at all times.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The early trials described the time course carefully. Sleep induction began about <strong>one hour</strong> after a slow infusion, after a slight arousing effect in the first hour; in healthy volunteers total sleep rose within <strong>130 minutes</strong>; effects were seen for <strong>up to six hours</strong> of night sleep and, by the investigators' pooled account, <strong>up to 20 hours</strong>. ACTH stayed lowered for at least three hours after one dose. The longest course was seven nights, with one post-treatment night recorded and daytime performance tested. Nothing was measured beyond that, and nothing at all was measured for the subcutaneous or nasal routes, so 'how long does it take to kick in' has an answer only for an intravenous infusion in a laboratory.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>No storage or stability study of DSIP for human use is indexed. A 1987 plasma study found the peptide degrades and aggregates rapidly, which is a property of the molecule rather than a storage instruction. Vendor sheets follow general practice for lyophilised peptides; nothing DSIP-specific has been published.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how DSIP is discussed",
+      "html": "<ol class=\"list\"><li><strong>Assuming it is a natural hormone.</strong> No gene for it has been found. The name and the immunoassays are from the 1970s; the doubt is from the 1990s and has not been resolved.</li><li><strong>Quoting a subcutaneous dose.</strong> Every controlled trial infused it slowly into a vein by body weight. No subcutaneous or nasal DSIP has been tested against placebo.</li><li><strong>Counting the sleep trials as consistent.</strong> Two placebo-controlled polysomnography trials found improvement; two found no significant difference. Both facts belong together.</li><li><strong>Citing the withdrawal study as proof.</strong> Sixty-seven patients, no control group, and a quarter lost to evaluation.</li><li><strong>Treating 'delta sleep' as measured deep sleep in people.</strong> The delta-wave finding was in rabbits; the human trials measured sleep efficiency, latency and awakenings, and one found more REM.</li><li><strong>Pairing it with Epitalon as tested.</strong> No study has combined DSIP with any other peptide in people.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "DSIP vs melatonin, Epitalon, Pinealon and the Russian nootropic peptides",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>DSIP beside the compounds it is compared with for sleep, from their own records where one exists.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">What it is</th><th scope=\"col\">Human sleep evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>DSIP</strong></td><td>Nonapeptide of disputed endogenous origin; receptor unknown</td><td>Four small IV polysomnography trials, split two to two</td><td>Not approved; research chemical; Russian preparation exists</td></tr><tr><td>Melatonin</td><td>The pineal hormone of darkness, on its own receptors</td><td>Dozens of randomized trials; modest effects on sleep latency</td><td>Prescription medicine in the EU and UK; supplement in the US; no record on this site</td></tr><tr><td><a href=\"/compounds/epitalon\">Epitalon</a></td><td>Pineal-derived tetrapeptide bioregulator; 170 indexed publications</td><td>5 randomized trials; 9 human studies in its ledger; no polysomnography trial</td><td>Not approved; research chemical</td></tr><tr><td><a href=\"/compounds/pinealon\">Pinealon</a></td><td>Pineal-derived tripeptide bioregulator; 17 indexed publications</td><td>No human sleep study</td><td>Supplement in Russia; research chemical elsewhere</td></tr><tr><td><a href=\"/compounds/selank\">Selank</a> and <a href=\"/compounds/semax\">Semax</a></td><td>Russian nootropic peptides in this site's class; 96 and 208 indexed publications</td><td>8 and 8 human studies in their ledgers; anxiety and cognition, not sleep</td><td>Registered medicines in Russia; not approved elsewhere</td></tr></tbody></table></div></div><p>Of everything DSIP is compared with, only melatonin has randomized sleep trials of any size. The pairing with Epitalon that vendors sell has no study behind it in people.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
