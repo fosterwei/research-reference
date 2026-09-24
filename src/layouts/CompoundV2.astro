@@ -135,7 +135,8 @@ const intentFaq = queriesFor(intent, 'faq').map((q) => {
 const nextQuestions = (intent?.queries ?? [])
   .filter((q) => q.policy === 'redirect' && q.target)
   .sort((x, y) => ((y.volume?.clickstream ?? y.volume?.google_ads ?? 0) - (x.volume?.clickstream ?? x.volume?.google_ads ?? 0)))
-  .map((q) => ({ label: q.heading && !/^(How it compares|Studied in combination)$/.test(q.heading) ? q.heading : q.query.replace(/\b\w/, (c) => c.toUpperCase()), href: q.target! }));
+  .map((q) => ({ label: q.heading && !/^(How it compares|Studied in combination)$/.test(q.heading) ? q.heading : q.query.replace(/\b\w/, (c) => c.toUpperCase()), href: q.target! }))
+  .filter((q, i, arr) => arr.findIndex((x) => x.href === q.href) === i);
 const faqItems = [...intentFaq, ...d.faq.map((f) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))];
 if (faqItems.length > 0) blocks.push({ id: 'faq', kind: 'faq', label: 'Questions people ask', group: 'Context' });
 
@@ -169,7 +170,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
   </Fragment>
   <article class="v2">
     <div class="title">
-      <div class="crumbs"><a class="eyebrow" href="/compounds">Compounds</a>{reg && <><span class="dot">·</span><span class="eyebrow">{className(reg.class)}</span><span class="dot">·</span><span class="eyebrow">{reg.target}</span></>}</div>
+      <div class="crumbs"><a class="eyebrow" href="/compounds">Compounds</a>{reg && <><span class="dot">·</span><a class="eyebrow" href={`/compounds#${reg.class}`}>{className(reg.class)}</a><span class="dot">·</span><span class="eyebrow">{reg.target}</span></>}</div>
       <h1>{d.preferred_name}</h1>
       <p class="dek" set:html={dek} />
       <div class="pills">

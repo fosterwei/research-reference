@@ -434,9 +434,11 @@ def derive(record: dict, reg: dict | None, sections: dict, papers_analysed: int)
     record.setdefault("seo", {})
     record["seo"]["title"] = clip(f"{name}: what the research shows", 60)
     human = counts.get("clinical_trials", 0) + rct
-    record["seo"]["description"] = clip(
-        f"{name}: {total:,} indexed publications, {rct} randomized trials, {human} human studies, each claim quoted from its source and tiered. "
-        f"Strongest evidence: {TIER_LABEL_SHORT.get(tier, tier)}.", 160)
+    desc = (f"{name}: {total:,} indexed publications, {rct} randomized trials, {human} human studies, each claim quoted and tiered. "
+            f"Strongest evidence: {TIER_LABEL_SHORT.get(tier, tier)}.")
+    if len(desc) > 160:  # long names or large counts: drop the tier clause rather than clip mid-word
+        desc = f"{name}: {total:,} indexed publications, {rct} randomized trials, {human} human studies, each claim quoted and tiered."
+    record["seo"]["description"] = clip(desc, 160)
 
     faq = [
         {"question": f"Has {name} been tested in humans?",

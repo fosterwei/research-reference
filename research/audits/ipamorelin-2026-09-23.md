@@ -89,9 +89,9 @@ Built from `dist/compounds/ipamorelin/index.html`; live URL `https://research-re
 |---|---|---|---|---|---|
 | 1 | No named reviewer in structured data | `defer-reviewer` | The launch blocker (Issue #3). No content edit changes it. Every E-E-A-T factor is capped until a credentialed person signs the record. | record (`review`) | reviewer |
 | 2 | No author in structured data | `defer-reviewer` | Same gate: `review.author` is set when a person takes responsibility for the drafted claims. The template already emits `author` when present. | record (`review`) | reviewer |
-| 3 | Meta description 122 characters (target 130–160) | `accept-script` | The drafter's template ran short. Rewritten to state publications, randomized trials, human studies, and the strongest tier; 155 characters here, and every re-drafted record inherits it. | `scripts/draft_claims.py` | engineer, done |
+| 3 | Meta description 122 characters (target 130–160) | `accept-script` | The drafter's template ran short. Rewritten to state publications, randomized trials, human studies and the strongest tier, with a shorter fallback when a long name would push it past 160 so it is never clipped mid-word. 150 characters here; every re-drafted record inherits it. Landed in the follow-up PR: the first attempt tripped its own length guard and the merged run still carried the clipped 158-character text. | `scripts/draft_claims.py` | engineer, done (follow-up PR) |
 | 4 | Own prose Flesch 14, average sentence 18.4 words | `reject-policy` (in part) | `docs/design.md` §9.7 budgets sentence length, which is inside the ~22-word limit. The Flesch penalty comes from syllables in necessary terms (pharmacokinetics, randomized, subcutaneous). Renaming them would be less accurate, not more readable. Quotations are excluded from the measure and are verbatim by policy. | none | — |
-| 5 | Internal links 2.0 per 1,000 words (guideline 3–5) | `accept-template` (partial) | Added intent-driven "People also look for" links built from the map's redirect queries, and linked the class crumb to the directory section. Density moved to 2.1: the page is long (4,600 words) and most of its links are external sources by design. Further links belong in FAQ answers and the evidence assessment; tracked for the template pass. | `CompoundV2.astro`, `compounds/index.astro` | engineer, partly done |
+| 5 | Internal links 2.0 per 1,000 words (guideline 3–5) | `accept-template` (partial) | Added intent-driven "People also look for" links built from the map's redirect queries, and linked the class crumb to the directory section. Density moved to 2.1 (links deduplicated and the class crumb linked in the follow-up PR; the first merged run had a duplicate stack link and no crumb link, and a directory-heading id bound to the wrong variable, all corrected): the page is long (4,600 words) and most of its links are external sources by design. Further links belong in FAQ answers and the evidence assessment; tracked for the template pass. | `CompoundV2.astro`, `compounds/index.astro` | engineer, partly done |
 | 6 | `/privacy` does not exist | `defer-reviewer` (operator input) | Needs facts only the operator has: what the site collects, who runs it, where. Not a content edit. | new page | operator |
 | 7 | `/contact` does not exist | `defer-reviewer` (operator input) | Needs a real contact route. Same as 6. | new page | operator |
 | 8 | No image, so no keyword-bearing alt text | `reject-policy` | `docs/design.md` §6 requires no images; the evidence table and fact tiles carry the data. Adding a decorative image for alt text is the kind of padding the design forbids. | none | — |
@@ -112,7 +112,7 @@ Built from `dist/compounds/ipamorelin/index.html`; live URL `https://research-re
 |---|---|---|
 | Experience | 15/20 | 2 data tables, 27 cited verbatim quotations, measured-absence statements present |
 | Expertise | 9/25 | 27 primary-source links; reviewer absent; author absent |
-| Authoritativeness | 15/25 | publisher set in JSON-LD; /about exists; 10 internal links |
+| Authoritativeness | 15/25 | publisher set in JSON-LD; /about exists; 11 internal links |
 | Trustworthiness | 16/30 | canonical `https://example.com/compounds/ipamorelin`; datePublished 2026-09-14; not-yet-reviewed notice shown; privacy no, contact no |
 
 ### AI citation readiness: 75/100 (heuristic)
@@ -128,16 +128,16 @@ Built from `dist/compounds/ipamorelin/index.html`; live URL `https://research-re
 | | |
 |---|---|
 | Title (35) | Ipamorelin: what the research shows |
-| Description (158) | Ipamorelin: 63 indexed publications, 2 randomized trials and 4 human clinical studies, quoted verbatim and tiered by evidence. Strongest tier: human clinical… |
+| Description (146) | Ipamorelin: 63 indexed publications, 2 randomized trials, 4 human studies, each claim quoted and tiered. Strongest evidence: human clinical trial. |
 | Robots | noindex, follow |
 | Canonical | https://example.com/compounds/ipamorelin |
 | H1 / H2 / H3 | ['Ipamorelin'] / 24 / 4 |
-| Words (total / own prose / quoted) | 4652 / 2822 / 826 |
+| Words (total / own prose / quoted) | 4648 / 2818 / 826 |
 | Readability Flesch, grade, avg sentence: all | 6, 17.7, 21.3 |
-| … own prose only | 11, 16.2, 18.2 |
+| … own prose only | 12, 16.2, 18.2 |
 | … quotations only | -2, 20.2, 27.0 |
-| Keyword `ipamorelin` | 73× (1.57%); title True, H1 True, first 100 words True |
-| Links | 10 internal (2.1/1k words); 30 external {'europepmc.org': 27, 'doi.org': 3}; new-tab 30/30 |
+| Keyword `ipamorelin` | 72× (1.55%); title True, H1 True, first 100 words True |
+| Links | 11 internal (2.4/1k words); 30 external {'europepmc.org': 27, 'doi.org': 3}; new-tab 30/30 |
 | Formatting | {'tables': 2, 'captions': 2, 'quotes_with_cite': 27, 'abbr': 1, 'time': 39, 'details': 7, 'images': 0, 'bold_own': 16} |
 | Footer links | ['/compounds', '/stacks', '/compare', '/tools', '/about', '/about#tiers', '/about#review', '/about#not'] |
 | Dates on page | ['2026-09-14', '2026-09-15', '2026-09-23'] |
@@ -173,8 +173,8 @@ Built from `dist/compounds/ipamorelin/index.html`; live URL `https://research-re
 
 1. No named reviewer (JSON-LD `reviewedBy` absent). For a YMYL topic this caps every E-E-A-T factor; it is the launch blocker in Issue #3, not a content edit.
 2. No author in structured data (`author` absent).
-3. Own prose reads at Flesch 11 (avg sentence 18.2 words). Quotations are verbatim by policy; this measures only the text we wrote.
-4. Internal links 2.1 per 1,000 words (guideline 3–5).
+3. Own prose reads at Flesch 12 (avg sentence 18.2 words). Quotations are verbatim by policy; this measures only the text we wrote.
+4. Internal links 2.4 per 1,000 words (guideline 3–5).
 5. Trust page /privacy does not exist.
 6. Trust page /contact does not exist.
 7. No image, so no image alt text carrying the keyword (design.md requires none; note only).
@@ -184,4 +184,5 @@ Built from `dist/compounds/ipamorelin/index.html`; live URL `https://research-re
 
 - Content quality 55 → 55; AI citation readiness 75 → 75. The reviewer gate caps both; the movement that was available (description length, link targets, external links in new tabs, coverage) landed.
 - Intent coverage 15/15 queries, 100% of measured demand on a rendered answer (`measure_pages.py --intent ipamorelin`).
+- Process note: the first pass merged with three edits unapplied because a length guard aborted a script mid-way; a follow-up PR the same day applied them. Lesson for the loop: verify each accepted item in the built page before writing "done" in the triage, which is now how step 6 is written.
 - Remaining issues are all `defer-reviewer` or `reject-policy`, so a further audit pass would not change the page. Loop closed; next step is human review.
