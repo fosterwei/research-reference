@@ -1,0 +1,521 @@
+{
+  "slug": "epitalon",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "serp_2026-09-24": {
+    "query": "epitalon",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "video",
+      "related_searches",
+      "knowledge_graph"
+    ],
+    "organic_top": [
+      "pmc (Araj 2025 review)",
+      "riteaid.com",
+      "drlewis.com",
+      "biomeme.com",
+      "en.wikipedia.org",
+      "pmc (Al-Dulaimi 2025)",
+      "prospecbio.com (reagent vendor)",
+      "alzdiscovery.org (PDF)"
+    ],
+    "note": "Two PMC papers, Wikipedia and an ADDF PDF rank: the SERP rewards evidence. A knowledge graph is present. The incumbent dosing guide is absent."
+  },
+  "demand_findings": "Two spellings split the head: 'epitalon' 9,005 (KD 17) and 'epithalon' 8,140 (KD 32, 12,100 Ads), plus 'epitalon peptide' 3,510 and 'epithalon peptide' 1,577; the page must carry both spellings. Reddit 763 and dosage 712 tie as the second question; benefits 305; nasal spray, side effects and 'dosage reddit' 203 each. Telomerase and telomere queries show zero clickstream although they are the compound's signature claim. KD on the heads is the highest in the unapproved queue so far.",
+  "h1": "Epitalon (Epithalon) peptide: what the mouse, cell and Russian extract studies show, and what has never been tested in people",
+  "dek": "A synthetic pineal tetrapeptide with a real animal literature and a famous telomerase claim. This page separates the synthetic peptide from the bovine extract it was modelled on, tabulates every dose a study gave, and says what the longevity use rests on: no randomized human trial and no human telomere measurement.",
+  "queries": [
+    {
+      "query": "epitalon",
+      "volume": {
+        "clickstream": 9005,
+        "google_ads": 0,
+        "kd": 17,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Epitalon is, and how it differs from Epithalamin"
+    },
+    {
+      "query": "epithalon",
+      "volume": {
+        "clickstream": 8140,
+        "google_ads": 12100,
+        "kd": 32,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Epitalon is, and how it differs from Epithalamin"
+    },
+    {
+      "query": "epitalon peptide",
+      "volume": {
+        "clickstream": 3510,
+        "google_ads": 0,
+        "kd": 8,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Epitalon is, and how it differs from Epithalamin"
+    },
+    {
+      "query": "epithalon peptide",
+      "volume": {
+        "clickstream": 1577,
+        "google_ads": 0,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Epitalon is, and how it differs from Epithalamin"
+    },
+    {
+      "query": "epitalon reddit",
+      "volume": {
+        "clickstream": 763,
+        "google_ads": 0,
+        "kd": 10,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. The ten-day cycles people describe come from the Russian Epithalamin protocols, not from any study of the synthetic peptide."
+    },
+    {
+      "query": "epitalon dosage",
+      "volume": {
+        "clickstream": 712,
+        "google_ads": 0,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every Epitalon and Epithalamin dose in the literature, in one table",
+      "boundary": "Every figure here was given to an animal, added to a dish, or is a dose of the extract Epithalamin in a Russian trial. No study has given synthetic Epitalon to a person at a stated dose, and the figures that circulate are not reproduced."
+    },
+    {
+      "query": "epitalon benefits",
+      "volume": {
+        "clickstream": 305,
+        "google_ads": 0,
+        "kd": 11,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "evidence_table",
+      "heading": "What did the studies find?",
+      "boundary": "Outcomes in mice, rats and cell cultures, plus a handful of Russian human studies of the parent extract Epithalamin. No randomized trial of Epitalon itself in people exists, and no human study has measured telomere length."
+    },
+    {
+      "query": "epitalon dosage reddit",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every Epitalon and Epithalamin dose in the literature, in one table",
+      "boundary": "Every figure here was given to an animal, added to a dish, or is a dose of the extract Epithalamin in a Russian trial. No study has given synthetic Epitalon to a person at a stated dose, and the figures that circulate are not reproduced."
+    },
+    {
+      "query": "epitalon nasal spray",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: what the studies used",
+      "boundary": "Subcutaneous in the lifelong mouse studies, intranasal in rat brain and pineal studies, oral in one rat absorption study, intramuscular for the extract in the Russian cancer trial. No human study states a route for synthetic Epitalon."
+    },
+    {
+      "query": "epitalon side effects",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 0,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what is known, and the telomerase question",
+      "boundary": "No human study of Epitalon recorded adverse events. What exists is the lifelong mouse study, which its authors read as evidence of safety, and the theoretical concern that anything raising telomerase in cancer cells raises."
+    },
+    {
+      "query": "epitalon before and after",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 0,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. The ten-day cycles people describe come from the Russian Epithalamin protocols, not from any study of the synthetic peptide."
+    },
+    {
+      "query": "epitalon sleep",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 0,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does Epitalon help sleep?",
+      "answer": "No human study has measured sleep. The sleep reputation rests on the pineal origin of the sequence and on Russian studies in which the extract Epithalamin, and a related complex, Pineamin, raised night-time melatonin excretion in elderly people. Whether synthetic Epitalon does the same in people has not been tested."
+    },
+    {
+      "query": "what is epitalon",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 0,
+        "kd": 18,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is Epitalon?",
+      "answer": "Epitalon (also spelled Epithalon; sequence Ala-Glu-Asp-Gly, AEDG) is a synthetic tetrapeptide designed by Vladimir Khavinson's group in St Petersburg from the amino-acid composition of Epithalamin, a bovine pineal extract used in Soviet and Russian medicine. It is studied for telomerase activation, melatonin restoration and lifespan in animals and cells; no randomized human trial of the peptide itself exists."
+    },
+    {
+      "query": "epitalon cycle",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. The ten-day cycles people describe come from the Russian Epithalamin protocols, not from any study of the synthetic peptide."
+    },
+    {
+      "query": "epitalon half life",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 40,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of Epitalon?",
+      "answer": "Not measured in people. No pharmacokinetic study of Epitalon is indexed for any species in the ledger. In rats, intranasal doses changed cortical neuron firing within five to seven minutes, which says it acts quickly, not how long it lasts. Figures quoted online are guesses."
+    },
+    {
+      "query": "epitalon oral",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Can Epitalon be taken orally?",
+      "answer": "One rat study gave Epitalon by mouth and measured intestinal absorption of glucose and glycine, so the route has been used in an animal for a different question. No study has measured whether oral Epitalon reaches the blood or has any effect in people; a four-amino-acid peptide would be expected to be largely digested."
+    },
+    {
+      "query": "epitalon pinealon",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 70,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Epitalon vs Epithalamin, Pinealon, melatonin and DSIP",
+      "boundary": "Epitalon is the synthetic tetrapeptide; Epithalamin is the bovine pineal extract it was modelled on; Pinealon is its sibling tripeptide; melatonin is the hormone the extract was shown to restore. No study has compared them in people."
+    },
+    {
+      "query": "epitalon results",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 31,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence. The ten-day cycles people describe come from the Russian Epithalamin protocols, not from any study of the synthetic peptide."
+    },
+    {
+      "query": "epithalamin",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 260,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Epitalon is, and how it differs from Epithalamin"
+    },
+    {
+      "query": "epitalon cancer",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 8,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does Epitalon cause or prevent cancer?",
+      "answer": "Both directions have animal data and neither has human data for the peptide. In 54 mice injected monthly for life, total tumour incidence did not change and leukaemia fell sixfold; in a rat colon-cancer model it slowed tumour cell proliferation. Against that, a 2025 cell study found it lengthened telomeres in breast-cancer lines through the ALT pathway, which is the mechanism cancers use to keep dividing. The one human trial is of the extract Epithalamin added to cervical-cancer treatment."
+    },
+    {
+      "query": "epitalon telomerase",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How Epitalon is thought to work: telomerase, histones and the pineal gland"
+    },
+    {
+      "query": "epitalon reconstitution",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "epitalon fda",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: not approved, and named in FDA's 2023 compounding action"
+    },
+    {
+      "query": "what does epithalon peptide do",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "evidence_table",
+      "heading": "What did the studies find?",
+      "boundary": "Outcomes in mice, rats and cell cultures, plus a handful of Russian human studies of the parent extract Epithalamin. No randomized trial of Epitalon itself in people exists, and no human study has measured telomere length.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "does epitalon make you look younger",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does Epitalon make you look younger?",
+      "answer": "No study has measured skin, appearance or any visible marker of ageing in people. The anti-ageing claim rests on telomere lengthening in cell cultures, on a 13% extension of maximum lifespan in one mouse study that did not change mean lifespan, and on Russian reports about the extract Epithalamin.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how long does it take for epithalon to work",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how safe is epitalon",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what is known, and the telomerase question",
+      "boundary": "No human study of Epitalon recorded adverse events. What exists is the lifelong mouse study, which its authors read as evidence of safety, and the theoretical concern that anything raising telomerase in cancer cells raises.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/epitalon",
+      "rank": null,
+      "words": 3704,
+      "tables": 7,
+      "h2": 21,
+      "h3": 48,
+      "sci_links": 5,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 24,
+      "gap": "Reproduces a 5 to 10 mg/day, 10 to 20 day cycle as 'reported schedule' while conceding no blinded human trial tested any dose; seven reconstitution tables; not in the Google top 10 for 'epitalon' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F8 S5 U3"
+    },
+    {
+      "url": "https://riteaid.com/peptides/epitalon",
+      "rank": 4,
+      "words": 1517,
+      "tables": 0,
+      "h2": 16,
+      "sci_links": 2,
+      "byline": "Rite Aid Health Team",
+      "score": 17,
+      "gap": "Health-team review; two citations; 'how to get Epitalon' section and two lead-capture forms",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S6 U4"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Epitalon",
+      "rank": 8,
+      "words": 2312,
+      "tables": 3,
+      "h2": 4,
+      "sci_links": 45,
+      "score": 21,
+      "gap": "45 references; states the telomerase and melatonin findings; no dose table, no trial table, does not separate Epitalon from Epithalamin studies",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F3 S9 U4"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11943447/",
+      "rank": 2,
+      "score": null,
+      "gap": "The 2025 review (Araj et al.) ranks second; the SERP rewards primary and review literature",
+      "source": "SERP result; abstract in the ledger (pmid-40141333)"
+    },
+    {
+      "url": "https://drlewis.com/epitalon-for-sleep-and-longevity/",
+      "rank": 6,
+      "score": null,
+      "gap": "Clinician blog on sleep and longevity",
+      "source": "SERP result; not fetched"
+    },
+    {
+      "url": "https://biomeme.com/applications/wellness/peptide-evidence/epitalon/",
+      "rank": 7,
+      "score": null,
+      "gap": "Scorecard page selling an mRNA test; precedent from the SS-31 audit",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that separates Epitalon, the synthetic tetrapeptide, from Epithalamin, the bovine pineal extract, and shows that every human result cited for Epitalon (melatonin restoration, the cervical-cancer trial, the coronary-disease rhythm study) is a result for the extract; that reports the lifelong mouse study in full, including that mean lifespan did not change, that total tumour incidence did not change, and that the 13% gain was in the last 10% of survivors; that states the 2025 finding that Epitalon lengthened telomeres in breast-cancer cells through the ALT pathway, the concern no dosing page raises; and that says no human study has measured telomere length or given the synthetic peptide at a stated dose.",
+  "serp_format_rewarded": "Evidence explainer. Two PMC papers and Wikipedia rank above the fold, so a cited page that reads like a review, with the extract-versus-peptide distinction as its spine, fits.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "extract",
+    "assessment",
+    "human-trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add Khavinson 2003 (Bull Exp Biol Med), the fibroblast telomerase paper, and Khavinson 2004 (Neuro Endocrinol Lett), the elderly melatonin study, to the ledger; both are cited editorially.",
+    "Add FDA's September 2023 503A category 2 notice naming epitalon; pending_source.",
+    "Russian-language full texts (Vishnevskaia 1999; Trofimova 2017; Khavinson 2013 review) may state doses and routes the abstracts omit.",
+    "The drafter's interactions regex matched 'concomitant effect' and 'co-administration of alpha-methyl-p-tyrosine'; two claims removed at triage, same regex item."
+  ]
+}
