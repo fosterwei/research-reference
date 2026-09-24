@@ -3,15 +3,51 @@
   "title": "Semaglutide vs Retatrutide",
   "slug": "semaglutide-vs-retatrutide",
   "status": "draft",
-  "summary": "Semaglutide: tier approved label, 6,039 indexed publications, 305 randomized trials. Retatrutide: tier human clinical trial, 197 indexed publications, 7 randomized trials. 8 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "summary": "No trial has given retatrutide and semaglutide to the same people. Retatrutide's phase 2 trial in 338 adults reported 24.2% weight loss at 48 weeks on its highest dose; semaglutide's phase 3 trial in 1,961 adults reported 14.9% at 68 weeks. The larger figure belongs to the drug with less evidence behind it. Semaglutide has since been followed in 17,604 people for a mean of 39.8 months, where it cut cardiovascular death, heart attack and stroke by a fifth; retatrutide has no outcome data at all and its phase 3 results are unpublished. The studies naming both compounds are four rodent experiments, two reviews, a commentary and a network meta-analysis. Semaglutide is an approved medicine; retatrutide is investigational and available nowhere.",
   "seo": {
-    "title": "Semaglutide vs Retatrutide: what the studies show",
-    "description": "Semaglutide vs Retatrutide, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+    "title": "Retatrutide vs Semaglutide: Weight Numbers vs Outcome Data",
+    "description": "Retatrutide vs semaglutide: no head-to-head trial. The two weight figures, the outcome data only one of them has, doses, side effects and availability."
   },
   "attributes": {
     "head_to_head": [
       {
-        "value": "Animal study, mice, 2026: Given the therapeutic potential of GLP-1 receptor agonists (semaglutide, tirzepatide, and retatrutide) in diabetic nephropathy, we evaluated their anti-fibrotic and anti-inflammatory effects in non-diabetic renal fibrosis using HK-2 cells and murine UUO and aging models.",
+        "value": "Randomized controlled trial, humans, n=1,961, 2021: The mean change in body weight from baseline to week 68 was -14.9% in the semaglutide group as compared with -2.4% with placebo, for an estimated treatment difference of -12.4 percentage points",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33567185"
+        ],
+        "source_excerpt": "The mean change in body weight from baseline to week 68 was -14.9% in the semaglutide group as compared with -2.4% with placebo, for an estimated treatment difference of -12.4 percentage points",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Cardiovascular outcome trial, humans, n=17,604, 2023: A primary cardiovascular end-point event occurred in 569 of the 8803 patients (6.5%) in the semaglutide group and in 701 of the 8801 patients (8.0%) in the placebo group (hazard ratio, 0.80; 95% confidence interval, 0.72 to 0.90)",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37952131"
+        ],
+        "source_excerpt": "A primary cardiovascular end-point event occurred in 569 of the 8803 patients (6.5%) in the semaglutide group and in 701 of the 8801 patients (8.0%) in the placebo group (hazard ratio, 0.80; 95% confidence interval, 0.72 to 0.90)",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=338, 2023: At 48 weeks, the least-squares mean percentage change in the retatrutide groups was -8.7% in the 1-mg group, -17.1% in the combined 4-mg group, -22.8% in the combined 8-mg group, and -24.2% in the 12-mg group, as compared with -2.1% in the placebo group.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37366315"
+        ],
+        "source_excerpt": "At 48 weeks, the least-squares mean percentage change in the retatrutide groups was -8.7% in the 1-mg group, -17.1% in the combined 4-mg group, -22.8% in the combined 8-mg group, and -24.2% in the 12-mg group, as compared with -2.1% in the placebo group.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Network meta-analysis, 25 trials, 12 interventions, 2026: Tirzepatide 15 mg resulted in the greatest percent weight reduction (MD -17.97%), followed by CagriSema (MD -17.84%) and semaglutide 7.2 mg (MD -14.66%).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42207966"
+        ],
+        "source_excerpt": "Tirzepatide 15 mg resulted in the greatest percent weight reduction (MD -17.97%), followed by CagriSema (MD -17.84%) and semaglutide 7.2 mg (MD -14.66%).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Cell and mouse study, mice, 2026: Given the therapeutic potential of GLP-1 receptor agonists (semaglutide, tirzepatide, and retatrutide) in diabetic nephropathy, we evaluated their anti-fibrotic and anti-inflammatory effects in non-diabetic renal fibrosis using HK-2 cells and murine UUO and aging models.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42630988"
@@ -20,7 +56,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2026: Recently, glucagon-like peptide-1 (GLP-1) analogs, including semaglutide, tirzepatide, and retatrutide, have been explored as potential anti-obesity therapies.",
+        "value": "Animal study, MC4R knockout mice, 2026: Recently, glucagon-like peptide-1 (GLP-1) analogs, including semaglutide, tirzepatide, and retatrutide, have been explored as potential anti-obesity therapies.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-41723268"
@@ -29,7 +65,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 2026: GLP-1 receptor agonists, including semaglutide, reduce alcohol intake and relapse-like behaviors in rodent and non-human primate models, and a recent clinical trial found that semaglutide decreased alcohol craving and drinking in adults with AUD.",
+        "value": "Animal study, rats, 2025: GLP-1 receptor agonists, including semaglutide, reduce alcohol intake and relapse-like behaviors in rodent and non-human primate models, and a recent clinical trial found that semaglutide decreased alcohol craving and drinking in adults with AUD.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-40699363"
@@ -38,7 +74,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2025: We report that in pre-clinical models with significant retatrutide (RETA, LY3437943)-induced weight loss, pancreatic cancer engraftment was reduced, tumor onset was delayed, and progression was attenuated resulting in a 14-fold reduction in tumor volume compared to only 4-fold reduction in single agonist…",
+        "value": "Animal study, mice, 2025: We report that in pre-clinical models with significant retatrutide (RETA, LY3437943)-induced weight loss, pancreatic cancer engraftment was reduced, tumor onset was delayed, and progression was attenuated resulting in a 14-fold reduction in tumor volume compared to only 4-fold reduction in single agonist semaglutide-treated mice.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-40094000"
@@ -47,7 +83,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Clinical trial, humans, n=214, 2026: Compared with placebo, weight loss was greatest with retatrutide (-22.10%, 95% confidence interval -25.60% to -18.60%), followed by tirzepatide (-19.28%, -20.39% to -18.16%), and CagriSema (a combination of cagrilintide and semaglutide, -17.32%, -19.32% to -15.32%).",
+        "value": "Network meta-analysis, 58 trials, n=24,214, 2026: Compared with placebo, weight loss was greatest with retatrutide (-22.10%, 95% confidence interval -25.60% to -18.60%), followed by tirzepatide (-19.28%, -20.39% to -18.16%), and CagriSema (a combination of cagrilintide and semaglutide, -17.32%, -19.32% to -15.32%).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42688617"
@@ -56,7 +92,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "In vitro study, humans, 2023: Although retatrutide may be superior to the GLP-1 receptor agonist dulaglutide in reducing plasma glucose and body weight, this is not a meaningful comparison, as another GLP-1 receptor agonist (semaglutide) is more potent than dulaglutide at this and may have similar efficacy to retatrutide.",
+        "value": "Commentary, 2023: Although retatrutide may be superior to the GLP-1 receptor agonist dulaglutide in reducing plasma glucose and body weight, this is not a meaningful comparison, as another GLP-1 receptor agonist (semaglutide) is more potent than dulaglutide at this and may have similar efficacy to retatrutide.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-37086147"
@@ -65,7 +101,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, 2026: Recent evidence reinforces this framework: the SOUL trial established cardiovascular superiority for oral semaglutide, extending disease-modifying properties beyond injectable formulations, while Phase 3 TRIUMPH data position retatrutide as an emerging triple-agonist candidate awaiting cardiovascular outcome data.",
+        "value": "Review, 2026: Recent evidence reinforces this framework: the SOUL trial established cardiovascular superiority for oral semaglutide, extending disease-modifying properties beyond injectable formulations, while Phase 3 TRIUMPH data position retatrutide as an emerging triple-agonist candidate awaiting cardiovascular outcome data.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42649514"
@@ -74,7 +110,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "In vitro study, humans, 2026: In patients with type 2 diabetes, semaglutide prevents chronic kidney disease (CKD), while retatrutide reduces albuminuria in patients with diabetes and established CKD.",
+        "value": "Review, 2026: In patients with type 2 diabetes, semaglutide prevents chronic kidney disease (CKD), while retatrutide reduces albuminuria in patients with diabetes and established CKD.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-41540866"
@@ -86,6 +122,20 @@
   },
   "sources": [
     {
+      "id": "pmid-42688617",
+      "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
+      "url": "https://europepmc.org/article/MED/42688617",
+      "published": "2026-08-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42649514",
+      "title": "Disease-modifying anti-diabetic drugs (DMADDs): bridging the SIMPLE approach to disease interception.",
+      "url": "https://europepmc.org/article/MED/42649514",
+      "published": "2026-08-26",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-42630988",
       "title": "Comparative effects of semaglutide tirzepatide and retatrutide on renal fibrosis in UUO and aged mice.",
       "url": "https://europepmc.org/article/MED/42630988",
@@ -93,10 +143,24 @@
       "kind": "peer-reviewed"
     },
     {
+      "id": "pmid-42207966",
+      "title": "Comparative Effectiveness of CagriSegma, Semaglutide, Cagrilintide and Tirzepatide in the Management of Overweight and Obesity: A Network Meta-Analysis of Randomized Clinical Trials.",
+      "url": "https://europepmc.org/article/MED/42207966",
+      "published": "2026-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-41723268",
       "title": "Efficacy of GLP-1 analog peptides, semaglutide, tirzepatide, and retatrutide on MC4R deficient obesity and their comparison.",
       "url": "https://europepmc.org/article/MED/41723268",
       "published": "2026-02-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41540866",
+      "title": "[Nephrology : what's new in 2025].",
+      "url": "https://europepmc.org/article/MED/41540866",
+      "published": "2026-01-01",
       "kind": "peer-reviewed"
     },
     {
@@ -114,10 +178,17 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-42688617",
-      "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
-      "url": "https://europepmc.org/article/MED/42688617",
-      "published": "2026-08-27",
+      "id": "pmid-37952131",
+      "title": "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes.",
+      "url": "https://europepmc.org/article/MED/37952131",
+      "published": "2023-11-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37366315",
+      "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+      "url": "https://europepmc.org/article/MED/37366315",
+      "published": "2023-06-26",
       "kind": "peer-reviewed"
     },
     {
@@ -128,17 +199,10 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-42649514",
-      "title": "Disease-modifying anti-diabetic drugs (DMADDs): bridging the SIMPLE approach to disease interception.",
-      "url": "https://europepmc.org/article/MED/42649514",
-      "published": "2026-08-26",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-41540866",
-      "title": "[Nephrology : what's new in 2025].",
-      "url": "https://europepmc.org/article/MED/41540866",
-      "published": "2026-01-01",
+      "id": "pmid-33567185",
+      "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity.",
+      "url": "https://europepmc.org/article/MED/33567185",
+      "published": "2021-02-10",
       "kind": "peer-reviewed"
     }
   ],
@@ -146,23 +210,142 @@
     "semaglutide",
     "retatrutide"
   ],
-  "faq": [],
-  "open_questions": [],
+  "faq": [
+    {
+      "question": "Which causes more weight loss, retatrutide or semaglutide?",
+      "answer": "On the published figures retatrutide: 24.2% at 48 weeks in its phase 2 trial against 14.9% at 68 weeks for semaglutide in STEP 1. Those trials differ in phase, size and length, so the gap is not a measured difference between the drugs. Indirect analyses place retatrutide ahead with overlapping confidence intervals."
+    },
+    {
+      "question": "Has any trial compared them directly?",
+      "answer": "No. No study has given both to the same people. The studies naming both are four rodent experiments, two reviews, a commentary and a network meta-analysis that compares them indirectly."
+    },
+    {
+      "question": "Is retatrutide safer than semaglutide?",
+      "answer": "There is no basis for saying so, and the evidence runs the other way. Semaglutide's safety has been observed in tens of thousands of people over years; retatrutide's comes from 338 people over 48 weeks. Pooled analyses of dual and triple agonists as a class found higher discontinuation than with single-receptor drugs, and retatrutide's phase 2 trial found dose-dependent increases in heart rate."
+    },
+    {
+      "question": "Does semaglutide prevent heart attacks?",
+      "answer": "In people with established cardiovascular disease and overweight or obesity but without diabetes, yes. The SELECT trial followed 17,604 people for a mean of 39.8 months: 6.5% on semaglutide had a cardiovascular death, heart attack or stroke against 8.0% on placebo, a hazard ratio of 0.80."
+    },
+    {
+      "question": "Can I switch from semaglutide to retatrutide?",
+      "answer": "Nothing about switching has been studied, no dose conversion exists, and retatrutide is not approved anywhere, so there is no legal supply outside a trial."
+    },
+    {
+      "question": "What doses were used?",
+      "answer": "Retatrutide's phase 2 trial tested 1, 4, 8 and 12 mg once weekly for 48 weeks. Semaglutide is given at 2.4 mg once weekly for weight management after a 16-week escalation from 0.25 mg. There is no equivalence between the two scales."
+    },
+    {
+      "question": "When will retatrutide be available?",
+      "answer": "No date has been published. Its phase 3 programme is running and approval depends on those results and the review that follows."
+    },
+    {
+      "question": "What is the difference in how they work?",
+      "answer": "Semaglutide activates one receptor, GLP-1. Retatrutide activates three: GLP-1, GIP and glucagon. The glucagon arm raises energy expenditure and mobilises liver fat, which is where the extra weight loss is thought to come from and where the long-term uncertainty sits."
+    },
+    {
+      "question": "Do both cause nausea?",
+      "answer": "Yes, and it is the most common adverse effect of both, worst during escalation. Rates cannot be compared across their trials, which ran for different lengths in different populations."
+    },
+    {
+      "question": "Is retatrutide worth waiting for?",
+      "answer": "That is a personal decision this page cannot make, but the evidence position is clear: one drug has a large weight effect measured once, in a mid-stage trial, and the other has a moderate weight effect plus a demonstrated reduction in cardiovascular events over more than three years. Waiting means waiting for data that does not yet exist."
+    },
+    {
+      "question": "What about muscle loss?",
+      "answer": "Neither headline trial reported body composition. A 2026 meta-analysis across weight-loss methods found about a third of the weight lost on incretin therapies as a class was fat-free mass, against roughly 15% for diet and exercise. That is a class figure and does not separate these two."
+    },
+    {
+      "question": "Are they made by the same company?",
+      "answer": "No. Semaglutide is Novo Nordisk's; retatrutide is Eli Lilly's. That is unlike the retatrutide and tirzepatide comparison, where both belong to the same company."
+    }
+  ],
+  "open_questions": [
+    "No head-to-head trial of retatrutide and semaglutide exists in people.",
+    "Retatrutide has no cardiovascular or other outcome data, and its phase 3 results are unpublished.",
+    "Nothing is published on switching between the two, or on dose equivalence.",
+    "Neither pivotal trial reported body composition in its headline results.",
+    "Long-term consequences of glucagon receptor activation, including the dose-dependent heart-rate increases seen in phase 2, are unestablished."
+  ],
   "review": {
     "author": "",
     "reviewer": "",
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 90.6,
+  "uniqueness_pct": 96.8,
   "changelog": [
     {
       "date": "2026-09-14",
       "change": "Comparison record generated from research/registry.json plan; 8 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Stage 0: the eight drafted head-to-head claims are rodent studies, reviews, a commentary and a network meta-analysis whose 24,214 participants had been read as a sample of 214, the same misparse corrected on the tirzepatide comparison. Relabelled, and the two landmark semaglutide trials, the retatrutide phase 2 trial and a second network meta-analysis added by hand. Written under the sequencing rule after research/intents/semaglutide-vs-retatrutide.json: ten guide sections built around the outcome-data asymmetry rather than the weight percentages."
     }
   ],
   "sides": [
     "semaglutide",
     "retatrutide"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "The comparison in two minutes",
+      "html": "<p><strong>Retatrutide's number is bigger.</strong> Its phase 2 trial reported <b>24.2%</b> weight loss at 48 weeks on the highest dose. Semaglutide's pivotal obesity trial reported <b>14.9%</b> at 68 weeks.</p><p><strong>Semaglutide's evidence is deeper.</strong> It has been followed in <b>17,604</b> people for a mean of about 40 months, where it reduced cardiovascular death, heart attack and stroke by a fifth. Retatrutide has no outcome data of any kind.</p><p><strong>The trials are not comparable.</strong> 338 people for 48 weeks against 1,961 people for 68 weeks, phase 2 against phase 3.</p><p><strong>Nothing has compared them directly.</strong> The studies naming both are four rodent experiments, two reviews, a commentary and a network meta-analysis.</p><p><strong>One is a medicine you can be prescribed. The other is not available.</strong> Retatrutide is investigational, in phase 3, approved nowhere.</p>"
+    },
+    {
+      "id": "numbers",
+      "heading": "The two weight figures, and what each trial was",
+      "lede": "Both numbers are real. They describe different experiments.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>The two pivotal obesity trials.</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">Retatrutide phase 2 (2023)</th><th scope=\"col\">Semaglutide STEP 1 (2021)</th></tr></thead><tbody><tr><td>Stage</td><td>Phase 2, dose-finding</td><td>Phase 3, registration</td></tr><tr><td>Participants</td><td>338</td><td>1,961</td></tr><tr><td>Length</td><td>48 weeks</td><td>68 weeks</td></tr><tr><td>Highest dose</td><td>12 mg weekly</td><td>2.4 mg weekly</td></tr><tr><td>Weight change</td><td><b>-24.2%</b></td><td><b>-14.9%</b></td></tr><tr><td>Placebo</td><td>-2.1%</td><td>-2.4%</td></tr><tr><td>Difference from placebo</td><td>About 22 points</td><td>12.4 points</td></tr><tr><td>What followed</td><td>Phase 3 ongoing, unpublished</td><td>Approval, then a cardiovascular outcome trial</td></tr></tbody></table></div></div><p>The gap looks decisive and is smaller than it appears. Retatrutide's trial was a dose-finding study, which means its job was to find out what the drug does across doses rather than to establish an effect at one. Its curve was still falling at 48 weeks. Semaglutide's trial was the registration study, run to the standard a regulator requires, and its figure is the one that carried into practice.</p><p>The only estimates built for comparison are indirect. A 2026 network meta-analysis of 25 trials placed semaglutide 7.2 mg at -14.66% and tirzepatide 15 mg at -17.97%; a second, larger analysis put retatrutide at -22.1%. Across analyses the ordering is consistent, and the confidence intervals overlap.</p>"
+    },
+    {
+      "id": "outcomes",
+      "heading": "The evidence that weight percentages hide",
+      "lede": "This is the part of the comparison that does not appear on any page currently ranking for it.",
+      "html": "<p>Weight is a surrogate. What a person actually wants from a weight-loss drug is to live longer and avoid a heart attack, and there is exactly one of these two compounds where that has been measured.</p><p>The SELECT trial enrolled <b>17,604</b> people with cardiovascular disease and overweight or obesity but without diabetes, and followed them for a mean of <b>39.8 months</b>. A primary cardiovascular event occurred in 6.5% on semaglutide against 8.0% on placebo, a hazard ratio of <b>0.80</b>. That is a fifth fewer deaths from cardiovascular causes, heart attacks and strokes, over more than three years.</p><p>Retatrutide has nothing of this kind. Not a smaller version, not a preliminary signal: no outcome trial has reported. Its longest published trial ran 48 weeks and measured weight.</p><p>So the honest form of the comparison is not 24.2 against 14.9. It is one drug that has been shown to prevent cardiovascular events over years against one that has been shown to produce a large amount of weight loss over a year, with the rest unknown. Those are different kinds of claim, and the second is the more preliminary even though its number is larger.</p>"
+    },
+    {
+      "id": "no-head-to-head",
+      "heading": "Nothing has compared them in people",
+      "html": "<p>No trial has given retatrutide and semaglutide to the same participants. The studies in this record that name both are:</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>What the studies naming both compounds actually are.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">What it is</th></tr></thead><tbody><tr><td>Renal fibrosis, 2026</td><td>Mouse and cell study of three drugs in kidney models</td></tr><tr><td>MC4R-deficient obesity, 2026</td><td>Study in knockout mice; ranks fifth on this query</td></tr><tr><td>Alcohol interoception, 2025</td><td>Rat study of drinking behaviour</td></tr><tr><td>Pancreatic cancer model, 2025</td><td>Mouse study of weight loss in a cancer model</td></tr><tr><td>Network meta-analysis, 2026</td><td>58 trials, 24,214 participants, indirect comparison</td></tr><tr><td>Commentary, 2023</td><td>An expert opinion piece on retatrutide's development</td></tr><tr><td>Two reviews, 2026</td><td>Narrative summaries naming both drugs</td></tr></tbody></table></div></div><p>One of these was misdescribed in this record's own drafted data: the network meta-analysis of <b>24,214</b> participants had been filed as a clinical trial of 214, because the drafter read a space-separated thousands figure as a sample size. It is corrected here and on the tirzepatide comparison, and the underlying script fix is logged.</p>"
+    },
+    {
+      "id": "mechanism-guide",
+      "heading": "One receptor against three",
+      "html": "<p><b>Semaglutide</b> activates the GLP-1 receptor. That slows gastric emptying, signals fullness and improves insulin secretion, and at 2.4 mg weekly it is the dose approved for weight management.</p><p><b>Retatrutide</b> activates GLP-1, GIP and the glucagon receptor. The glucagon arm is the novel part: it raises energy expenditure and mobilises liver fat, offset by the GLP-1 arm's effect on blood sugar. More receptors is the reason for the larger weight figure and the reason the long-term safety question is more open.</p><p>The intermediate case is tirzepatide, which activates two of the three, and is compared with retatrutide on its own page: <a href=\"/compare/retatrutide-vs-tirzepatide\">retatrutide versus tirzepatide</a>.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Doses: a dose-finding trial against an approved label",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses as published.</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">Retatrutide</th><th scope=\"col\">Semaglutide</th></tr></thead><tbody><tr><td>Source</td><td>Phase 2 trial only</td><td>Approved label and phase 3 trials</td></tr><tr><td>Route and frequency</td><td>Subcutaneous, once weekly</td><td>Subcutaneous, once weekly</td></tr><tr><td>Doses studied</td><td>1, 4, 8, 12 mg</td><td>2.4 mg for weight management; up to 2 mg for diabetes</td></tr><tr><td>Escalation</td><td>Started at 2 or 4 mg within the trial</td><td>16 weeks from 0.25 mg</td></tr><tr><td>Half-life</td><td>About 6 days</td><td>About 7 days</td></tr></tbody></table></div></div><p>There is no equivalence between the two scales and no published conversion. A milligram of a triple agonist is not a milligram of a GLP-1 agonist, and retatrutide's figures are the doses a dose-finding study tested rather than a dose anyone settled on.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Side effects, and why one column is far better known",
+      "html": "<p>Both are dominated by gastrointestinal effects during escalation: nausea, vomiting, diarrhoea, constipation. In retatrutide's trial these were the most common adverse events in every dose group.</p><p>The asymmetry is in what else is known. Semaglutide's safety profile has been observed in tens of thousands of people over years, including the cardiovascular outcome trial and the diabetes programme before it, which is how less common effects get found. Retatrutide's profile comes from 338 people over 48 weeks, plus pooled analyses of dual and triple agonists as a class that found higher discontinuation than with single-receptor drugs.</p><p>The one effect belonging to retatrutide's extra receptor is heart rate, which rose dose-dependently in its phase 2 trial. What that means over years is what its phase 3 programme exists to find out, and it is the single strongest argument for waiting.</p>"
+    },
+    {
+      "id": "switching",
+      "heading": "Switching: what has been studied",
+      "html": "<p>Nothing. No trial has enrolled people already taking semaglutide, no published work describes stopping one and starting the other, and no dose conversion has been established. The search demand for this is steady and the literature behind it is empty.</p><p>There is also a practical obstacle that the question usually skips: retatrutide is not available. It is in phase 3 and approved nowhere, so there is no legal route to obtain it outside a trial, and material sold under the name comes from outside the regulated supply chain.</p>"
+    },
+    {
+      "id": "availability",
+      "heading": "Availability: one is a prescription medicine, the other is investigational",
+      "html": "<p><b>Semaglutide</b> is approved and widely prescribed, for type 2 diabetes and for weight management, with a label, a manufacturer and a supply chain.</p><p><b>Retatrutide</b> is investigational. Its phase 3 programme is running, no regulator has approved it, and no approval date has been published. Anything sold under the name today is not the trial drug and has not been shown to contain what its label says.</p><p>Each compound's own record carries its full evidence: <a href=\"/compounds/semaglutide\">semaglutide</a> and <a href=\"/compounds/retatrutide\">retatrutide</a>.</p>"
+    },
+    {
+      "id": "choosing",
+      "heading": "What the evidence lets you say",
+      "html": "<p><strong>Supported:</strong> retatrutide produced more weight loss in its trial than semaglutide did in its own; both are dominated by gastrointestinal effects; semaglutide reduces cardiovascular events in people with obesity and established cardiovascular disease; indirect analyses rank retatrutide ahead on weight with overlapping intervals.</p><p><strong>Not supported:</strong> that retatrutide is better than semaglutide, since better depends on the outcome and only one of them has outcome data; that the 9-point gap in weight figures is a real difference between the drugs; that either is safer; that results transfer to unverified material bought online.</p><p>The comparison that will matter is retatrutide's phase 3 programme and, eventually, whether it is followed by an outcome trial of its own. Until then, the drug with the smaller number is the one whose benefits have been measured in the things people care about.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in this comparison",
+      "html": "<ol class=\"list\"><li><strong>Treating 24.2% and 14.9% as a like-for-like difference.</strong> Phase 2 against phase 3, 338 people against 1,961, 48 weeks against 68.</li><li><strong>Ignoring the outcome data.</strong> Semaglutide has 17,604 people followed for over three years; retatrutide has none.</li><li><strong>Assuming a head-to-head trial exists.</strong> The studies naming both are rodent experiments and reviews.</li><li><strong>Planning a switch.</strong> Nothing has been studied, no conversion exists, and there is no legal supply of retatrutide.</li><li><strong>Reading more receptors as strictly better.</strong> The glucagon arm is the source of both the extra weight loss and the open safety question.</li><li><strong>Carrying trial results to grey-market material.</strong> The trials used the manufacturer's drug under monitoring.</li></ol>"
+    }
+  ],
+  "prose_reviewed": true
 }
