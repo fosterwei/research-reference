@@ -24,6 +24,7 @@ export interface IntentMap {
   slug: string;
   queries: IntentQuery[];
   h1?: string;               // searcher-facing H1; the record name is the fallback
+  suppress?: string[];       // block ids a written guide section stands in for
   outline?: string[];        // block ids in reading order; the spine is fixed regardless
   information_gain?: string;
   decline_notice?: string;
@@ -66,6 +67,8 @@ export function boundaryFor(m: IntentMap | null, section: string): string | null
  * related, changelog) is positioned by the layout, not by this function.
  */
 export function orderBlocks<T extends { id: string; group?: string }>(m: IntentMap | null, blocks: T[]): T[] {
+  const hide = new Set(m?.suppress ?? []);
+  blocks = blocks.filter((b) => !hide.has(b.id));
   if (!m?.outline?.length) return blocks;
   const rank = new Map(m.outline.map((id, i) => [id, i]));
   const out = blocks.filter((b) => rank.has(b.id)).sort((a, b) => rank.get(a.id)! - rank.get(b.id)!);
