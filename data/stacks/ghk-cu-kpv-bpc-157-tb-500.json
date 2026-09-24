@@ -3,25 +3,120 @@
   "title": "GHK-Cu + KPV + BPC-157 + TB-500",
   "slug": "ghk-cu-kpv-bpc-157-tb-500",
   "status": "draft",
-  "summary": "GHK-Cu + KPV + BPC-157 + TB-500 combines GHK-Cu (human clinical trial) and KPV (animal preclinical) and BPC-157 (observational human) and TB-500 (human clinical trial). A stack cannot carry a stronger evidence tier than its weakest component, which here is animal preclinical. No indexed study tested this combination. What is known about each component is the whole of what is known.",
+  "summary": "This is the glow stack with a fourth compound added: GHK-Cu, BPC-157 and TB-500 plus KPV, the tripeptide at the end of alpha-MSH, included for inflammation and the gut. No study has tested any combination of the four, and none has tested the three-compound version either. Each component's research used a route the stack does not: every human study of GHK-Cu applied it topically, the thymosin beta-4 human evidence is eye drops and infusions, BPC-157's human record is two people, and KPV's animal studies deliver it orally inside hydrogels and nanoparticles built to survive digestion and release it at inflamed tissue. KPV's effect also depends on a transporter overexpressed in colon cells, and disappeared in mice lacking it. Adding a fourth untested compound to an untested three multiplies the unknowns, and no published analysis describes four peptides in one solution.",
   "seo": {
-    "title": "GHK-Cu + KPV + BPC-157 + TB-500: the evidence",
-    "description": "GHK-Cu + KPV + BPC-157 + TB-500: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+    "title": "Four-Peptide Stack: No Evidence, Four Different Routes",
+    "description": "A four-peptide stack with no combination evidence. What each component's studies actually used, and why KPV's gut results belong to its carrier."
   },
   "attributes": {
     "combination_evidence": []
   },
-  "sources": [],
+  "sources": [
+    {
+      "id": "pmid-42619529",
+      "title": "The Regenerative Potential of GHK-Cu in Aesthetic Medicine.",
+      "url": "https://europepmc.org/article/MED/42619529",
+      "published": "2026-08-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40131143",
+      "title": "Safety of Intravenous Infusion of BPC157 in Humans: A Pilot Study.",
+      "url": "https://europepmc.org/article/MED/40131143",
+      "published": "2025-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34846053",
+      "title": "In situ mucoadhesive hydrogel capturing tripeptide KPV: the anti-inflammatory and antibacterial effects on oral mucositis.",
+      "url": "https://europepmc.org/article/MED/34846053",
+      "published": "2021-12-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34547895",
+      "title": "Self-Cross-Linked Hydrogel of Cysteamine-Grafted gamma-Polyglutamic Acid Stabilized Tripeptide KPV for colitis.",
+      "url": "https://europepmc.org/article/MED/34547895",
+      "published": "2021-09-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27458604",
+      "title": "Critical role of PepT1 in promoting colitis-associated cancer and therapeutic benefits of the anti-inflammatory PepT1-mediated tripeptide KPV.",
+      "url": "https://europepmc.org/article/MED/27458604",
+      "published": "2016-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25826322",
+      "title": "Thymosin beta-4 significantly improves signs and symptoms of severe dry eye in a phase 2 randomized trial.",
+      "url": "https://europepmc.org/article/MED/25826322",
+      "published": "2015-05-01",
+      "kind": "peer-reviewed"
+    }
+  ],
   "related": [
     "ghk-cu",
     "kpv",
     "bpc-157",
     "tb-500"
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has this four-compound stack been studied?",
+      "answer": "No. No indexed study has given GHK-Cu, KPV, BPC-157 and TB-500 together, and none has tested the three-compound version either."
+    },
+    {
+      "question": "What does KPV add?",
+      "answer": "It is the tripeptide at the end of alpha-MSH and is added for inflammation, mostly gut inflammation. Its animal evidence is real and route-specific: the peptide is carried into colon cells by the PepT1 transporter, and studies deliver it orally inside hydrogels and nanoparticles built to survive digestion."
+    },
+    {
+      "question": "Does KPV work if you inject it?",
+      "answer": "No study in its record has injected plain KPV subcutaneously. The effect that has been demonstrated depends on a transporter overexpressed in inflamed colon cells, and it disappeared entirely in mice lacking that transporter."
+    },
+    {
+      "question": "Is this the same as the glow stack?",
+      "answer": "It is the glow stack with KPV added. The three-compound version has its own page here, and neither has any combination evidence."
+    },
+    {
+      "question": "What dose should be used?",
+      "answer": "There is no published dose for any combination of these four. Each component's studied doses are on its own record, attached to the route that produced them, and none of those routes is subcutaneous injection of the plain compound."
+    },
+    {
+      "question": "Are four peptides stable in one vial?",
+      "answer": "No published analysis says. Stability of a multi-peptide solution is a formulation question, and nobody has answered it publicly for this combination."
+    },
+    {
+      "question": "Is it safe?",
+      "answer": "Unknown for the combination. Each component's safety record belongs to its route: topical cosmetic history for the copper peptide, eye and infusion studies for thymosin beta-4, two people for BPC-157, and rodents receiving KPV inside delivery vehicles."
+    },
+    {
+      "question": "Will it help gut problems?",
+      "answer": "KPV reduces inflammation in animal models of colitis when delivered to the colon. Whether injecting it under the skin does anything for a human gut is untested, and the mechanism that makes it work in animals is specific to colon cells."
+    },
+    {
+      "question": "Is any of it approved?",
+      "answer": "GHK-Cu is a cosmetic ingredient for topical use, which is not an approval for injection. KPV, BPC-157 and TB-500 are unapproved and sold as research chemicals."
+    },
+    {
+      "question": "Why do clinics combine so many?",
+      "answer": "Because a stack aimed at skin, gut and recovery at once appeals to more people than a single compound with one endpoint. It is also a protocol that cannot fail a test, because no test has been defined for it."
+    },
+    {
+      "question": "Does KPV cause pigmentation?",
+      "answer": "It is a fragment of alpha-MSH, the hormone that drives pigment, but the fragment is the anti-inflammatory end rather than the receptor-binding core that darkens skin. No study in its record reports pigmentation, and none has been done in people."
+    },
+    {
+      "question": "What would a useful study look like?",
+      "answer": "One that gave the combination to people and measured something specific, with a control group. Failing that, a study of whether any of these compounds reaches its target after subcutaneous injection, which is the question the whole stack assumes and none of the evidence addresses."
+    }
+  ],
   "open_questions": [
-    "No indexed study has tested GHK-Cu with KPV with BPC-157 with TB-500 together.",
-    "No published schedule reconciles the components' different reported frequencies onto one calendar."
+    "No study has tested any combination of these four compounds, or the three-compound version.",
+    "No study has injected plain KPV subcutaneously; its animal evidence uses oral delivery inside engineered carriers and depends on the PepT1 transporter in colon cells.",
+    "Every human study of GHK-Cu used a topical route, and the thymosin beta-4 human evidence is eye drops and infusions.",
+    "No published analysis describes the stability of four peptides in one solution.",
+    "Whether any of the four reaches its target tissue after subcutaneous injection is unaddressed by the evidence the stack is sold on."
   ],
   "review": {
     "author": "",
@@ -29,11 +124,15 @@
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 54.1,
+  "uniqueness_pct": 92.0,
   "changelog": [
     {
       "date": "2026-09-14",
       "change": "Stack record generated from research/registry.json plan; 0 combination claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/ghk-cu-kpv-bpc-157-tb-500.json. Stage 0: the combination ledger and source list were both empty; six papers were added by hand so each route claim can be checked, including the PepT1 knockout study and two KPV delivery-system papers. Nine guide sections including a table setting each component's studied route against what the stack does, and the finding that KPV's results belong as much to its carrier as to the peptide."
     }
   ],
   "components": [
@@ -41,5 +140,55 @@
     "kpv",
     "bpc-157",
     "tb-500"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "This four-compound stack in two minutes",
+      "html": "<p><strong>What it is.</strong> The three-compound glow stack with a fourth added: <b>GHK-Cu</b> for skin, <b>TB-500</b> and <b>BPC-157</b> for repair, and <b>KPV</b>, a three-amino-acid fragment of the hormone alpha-MSH, added for inflammation and the gut.</p><p><strong>Nothing has tested any combination of the four.</strong> The three-compound version has not been tested either. The combination ledger here is empty.</p><p><strong>Each component's research used a route this stack does not.</strong> The copper peptide's human studies are creams. The thymosin work is eye drops and infusions. BPC-157's human record is two people. And KPV's animal studies deliver it <b>orally, inside engineered particles and gels built to survive digestion</b> and release it at inflamed tissue.</p><p><strong>That last one is the sharpest mismatch on this site.</strong> KPV's results are as much about the delivery system as about the peptide.</p><p><strong>Adding a fourth compound to an untested three</strong> multiplies what is unknown. No published analysis describes four peptides in one solution.</p>"
+    },
+    {
+      "id": "no-combination-study",
+      "heading": "What has been tested as a combination",
+      "lede": "Nothing, at any size.",
+      "html": "<p>No indexed study has given these four compounds together, and none has given the three-compound version together either. The ledger for this record is empty, which is why the section below renders an empty state rather than a list.</p><p>Nothing ranks for the four-compound stack in search results either. The pages that rank are about KPV on its own, where a pharmacy chain leads and a primary study on how KPV is transported into colon cells sits fifth.</p>"
+    },
+    {
+      "id": "kpv-route",
+      "heading": "KPV: the compound whose evidence is most route-specific",
+      "lede": "Read the delivery system, not just the result.",
+      "html": "<p>KPV is the C-terminal tripeptide of alpha-MSH, lysine-proline-valine, and its anti-inflammatory effect in the gut is real in animals. How it gets there is the point.</p><p>The peptide is carried into colon cells by <b>PepT1</b>, a transporter that is overexpressed in inflamed colonic epithelium, which is what makes the gut a target at all. A 2016 study showed the dependence directly: <q cite='https://europepmc.org/article/MED/27458604'>when administered to PepT1-KO mice, KPV did not trigger any of the inhibitory effect on tumorigenesis observed in WT mice</q>. Remove the transporter and the effect disappears.</p><p>The studies that show benefit are therefore studies of delivery. One used a self-cross-linked hydrogel to stabilise the tripeptide, reporting that <q cite='https://europepmc.org/article/MED/34547895'>the KPV/SH-PGA hydrogel treatment prevented the colon shortening of TNBS-infused rats and decreased the colonic myeloperoxidase level</q>. Another built a mucoadhesive gel for the mouth, where <q cite='https://europepmc.org/article/MED/34846053'>treatment with KPV@PPP_2%E hydrogel greatly improved the food intake and body weight recovery of rats with chemotherapy-induced oral mucositis</q>. Others encapsulate it in hyaluronic-acid nanoparticles inside chitosan-alginate gels.</p><p>None of that is a subcutaneous injection of plain KPV. The engineering exists because a bare tripeptide does not survive the journey, and the results belong to the combination of peptide and carrier.</p><p>KPV's full record, including its two human entries, which are cell studies rather than people, is here: <a href=\"/compounds/kpv\">KPV</a>.</p>"
+    },
+    {
+      "id": "adding-a-fourth",
+      "heading": "What adding a fourth compound does to the evidence",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Each component, what its evidence used, and what the stack does.</caption><thead><tr><th scope=\"col\">Component</th><th scope=\"col\">What its studies used</th><th scope=\"col\">What the stack does</th></tr></thead><tbody><tr><td>GHK-Cu</td><td>Topical creams, in every human study</td><td>Subcutaneous injection</td></tr><tr><td>TB-500 (thymosin beta-4)</td><td>Eye drops, intravenous infusion, topical dosing of the natural protein</td><td>Subcutaneous injection</td></tr><tr><td>BPC-157</td><td>Two people, oral and intravenous; rodents otherwise</td><td>Subcutaneous injection</td></tr><tr><td><b>KPV</b></td><td><b>Oral delivery inside hydrogels and nanoparticles built to reach inflamed gut</b></td><td>Subcutaneous injection</td></tr><tr><td>All four together</td><td><b>Nothing</b></td><td>Four injections, or one blend</td></tr></tbody></table></div></div><p>Three compounds with no combination evidence is a gap. Four is the same gap with an extra unknown attached, and the arithmetic does not improve: each addition multiplies the number of interactions nobody has looked at, while adding no evidence of its own.</p><p>There is also a practical question nobody has answered publicly. Four peptides in one solution is a stability problem, and no published analysis describes what happens to these four together, or to their individual concentrations over the time a vial is used.</p><p>The three-compound version of this stack has its own page, with the same route argument at greater length: <a href=\"/stacks/bpc-157-tb-500-ghk-cu\">the glow stack</a>.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Doses: none for the combination, and four route mismatches",
+      "html": "<p>No published dose exists for any combination of these four. Each component's studied doses sit on its own record with the study and the route that produced them, and in every case that route differs from injection.</p><p>Records: <a href=\"/compounds/ghk-cu\">GHK-Cu</a>, <a href=\"/compounds/kpv\">KPV</a>, <a href=\"/compounds/bpc-157\">BPC-157</a> and <a href=\"/compounds/tb-500\">TB-500</a>.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Side effects: four separate unknowns",
+      "html": "<p>Each compound's safety record belongs to its route. GHK-Cu has a long topical cosmetic history, which says nothing about injecting a copper-carrying peptide. Thymosin beta-4 was tolerated in eye and infusion studies. BPC-157's human safety record is the same two people as its efficacy record. KPV's safety data comes from rodents receiving it inside delivery vehicles.</p><p>For the four together there is nothing, and the ordinary uncertainties of an unregulated blend apply four times over.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who this is discussed for, and what is unresolved",
+      "html": "<p><strong>Discussed for:</strong> skin, hair, gut inflammation and recovery at once, which is the appeal of a four-compound stack and also the reason to be careful: a protocol aimed at everything has no endpoint that could fail.</p><p><strong>Studied in:</strong> people using creams, people with dry eye, two people given BPC-157, and rodents given KPV inside engineered carriers.</p><p>The unresolved questions start with whether any of the four reaches its target after subcutaneous injection, and for KPV specifically whether the PepT1-dependent mechanism that makes it work in the gut means anything at all when it is injected elsewhere.</p>"
+    },
+    {
+      "id": "status",
+      "heading": "Status: a cosmetic ingredient and three unapproved compounds",
+      "html": "<p>GHK-Cu is a cosmetic ingredient sold in topical products, which is not an approval for injection. KPV, BPC-157 and TB-500 are unapproved and sold as research chemicals. A four-compound injectable blend is an approved product nowhere, and all of the injectables are prohibited in sport under the categories covering peptides and growth factors.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how this stack is discussed",
+      "html": "<ol class=\"list\"><li><strong>Citing KPV's gut results for an injection.</strong> Those studies delivered it orally inside carriers designed to reach the colon, and the effect depends on a transporter in colon cells.</li><li><strong>Adding a compound to fix a gap in the evidence.</strong> A fourth untested component does not strengthen an untested three.</li><li><strong>Reading a cosmetic ingredient's safety as an injectable's.</strong> GHK-Cu's record is topical.</li><li><strong>Treating TB-500 and thymosin beta-4 as the same thing.</strong> The human evidence belongs to the protein, mostly as eye drops.</li><li><strong>Assuming four peptides are stable in one vial.</strong> No published analysis says so.</li><li><strong>Expecting a protocol aimed at everything to be testable.</strong> A stack for skin, gut and recovery at once has no endpoint that could fail.</li></ol>"
+    }
+  ],
+  "prose_reviewed": true
 }
