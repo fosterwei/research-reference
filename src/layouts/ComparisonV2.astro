@@ -54,7 +54,7 @@ const guide: Guide[] = (d.guide ?? []) as Guide[];
 type Block = { id: string; kind: 'side-by-side' | 'head-to-head' | 'guide' | 'open' | 'faq'; label: string; group: string; guide?: Guide };
 const blocks: Block[] = [
   { id: 'side-by-side', kind: 'side-by-side', label: headingFor(intent, 'side-by-side', 'Side by side, from each record'), group: 'Evidence' },
-  { id: 'head-to-head', kind: 'head-to-head', label: headingFor(intent, 'head-to-head', 'Studies that compared them directly'), group: 'Evidence' },
+  { id: 'head-to-head', kind: 'head-to-head', label: headingFor(intent, 'head-to-head', 'Studies that name both compounds'), group: 'Evidence' },
   ...guide.map((g) => ({ id: g.id, kind: 'guide' as const, label: g.heading, group: 'Evidence', guide: g })),
 ];
 if (d.open_questions?.length) blocks.push({ id: 'open', kind: 'open', label: 'Open questions', group: 'Context' });
@@ -86,7 +86,7 @@ const toc = [
       <div class="pills">
         {a && <span class="pill"><Tier tier={a.data.evidence_tier} /> {a.data.preferred_name}</span>}
         {b && <span class="pill"><Tier tier={b.data.evidence_tier} /> {b.data.preferred_name}</span>}
-        <span class="pill">{h2h.length} head-to-head {h2h.length === 1 ? 'study' : 'studies'}</span>
+        <span class="pill">{h2h.length} {h2h.length === 1 ? 'study names' : 'studies name'} both</span>
         {updated && <span class="pill">Updated <Fragment set:html={timeTag(updated)} /></span>}
       </div>
     </div>
@@ -97,7 +97,7 @@ const toc = [
           <div class="facts">
             {a && <div class="fact"><div class="k">{a.data.preferred_name}</div><div class="v"><Tier tier={a.data.evidence_tier} class="lg" /></div><div class="s">{formatCount(a.data.evidence_summary?.publications?.total)} publications · {approval(a)}</div></div>}
             {b && <div class="fact"><div class="k">{b.data.preferred_name}</div><div class="v"><Tier tier={b.data.evidence_tier} class="lg" /></div><div class="s">{formatCount(b.data.evidence_summary?.publications?.total)} publications · {approval(b)}</div></div>}
-            <div class="fact"><div class="k">Compared directly</div><div class="v">{h2h.length}</div><div class="s">{h2h.length ? 'indexed studies with both in the abstract' : 'no study has compared them head to head'}</div></div>
+            <div class="fact"><div class="k">Studies naming both</div><div class="v">{h2h.length}</div><div class="s">{h2h.length ? 'indexed papers with both in the abstract; naming both is not comparing them' : 'no indexed paper names both'}</div></div>
           </div>
         </section>
         <StatusBar review={d.review ?? {}} status={d.status} sources={d.sources?.length ?? 0} updated={updated} />
@@ -113,7 +113,7 @@ const toc = [
                 </table></div></div>
               </section>);
             case 'head-to-head': return (
-              <section id="head-to-head"><div><h2>{x.label}</h2><p class="lede">{boundaryFor(intent, 'head-to-head') ?? 'Indexed papers whose abstracts compare the two, quoted.'}</p></div>
+              <section id="head-to-head"><div><h2>{x.label}</h2><p class="lede">{boundaryFor(intent, 'head-to-head') ?? 'Indexed papers whose abstracts name both compounds, quoted. Read the design line on each card: naming both is not the same as comparing them.'}</p></div>
                 {h2h.length > 0 ? <ClaimCards claims={h2h} sources={d.sources} /> : <div class="status"><div><strong>No indexed study has compared {a?.data.preferred_name} and {b?.data.preferred_name} directly.</strong> The side-by-side table above lines up what each compound's own studies state; anything beyond that is inference, and this page does not make it.</div></div>}
               </section>);
             case 'guide': return <EditorialSection id={x.guide!.id} heading={x.guide!.heading} lede={x.guide!.lede} html={x.guide!.html} pending={x.guide!.pending} />;
@@ -128,7 +128,7 @@ const toc = [
             <dl class="refdl">
               <dt>Comparison</dt><dd>{a?.data.preferred_name} vs {b?.data.preferred_name}</dd>
               {rows.map(([k, va, vb]) => <><dt>{k}</dt><dd><b>{va}</b> · <b>{vb}</b></dd></>)}
-              <dt>Compared directly</dt><dd><b>{h2h.length}</b> indexed {h2h.length === 1 ? 'study' : 'studies'}</dd>
+              <dt>Studies naming both</dt><dd><b>{h2h.length}</b> indexed {h2h.length === 1 ? 'paper' : 'papers'}</dd>
             </dl>
             <p class="foot">Each figure comes from that compound's own record. Print or save this card with its date.</p>
           </div>

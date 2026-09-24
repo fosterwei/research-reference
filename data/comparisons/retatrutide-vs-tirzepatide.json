@@ -3,15 +3,15 @@
   "title": "Retatrutide vs Tirzepatide",
   "slug": "retatrutide-vs-tirzepatide",
   "status": "draft",
-  "summary": "Retatrutide: tier human clinical trial, 197 indexed publications, 7 randomized trials. Tirzepatide: tier approved label, 2,756 indexed publications, 131 randomized trials. 8 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "summary": "No trial has given retatrutide and tirzepatide to the same group of people. The figures that circulate come from two separate trials: retatrutide's phase 2 study of 338 adults over 48 weeks, which reported 24.2% weight loss on the highest dose, and tirzepatide's phase 3 SURMOUNT-1 trial of 2,539 adults over 72 weeks, which reported 20.9%. Those differ in phase, size, population and length, so setting them side by side is not a comparison. The only estimates built for the purpose are indirect: a 2026 network meta-analysis of 58 trials put retatrutide at 22.1% and tirzepatide at 19.3% against placebo, with overlapping confidence intervals and an explicit warning about limited head-to-head evidence. The eight studies in this record that name both drugs are reviews, meta-analyses and animal work; the only one to give both to the same subjects used mice. Tirzepatide is an approved medicine; retatrutide is investigational and approved nowhere.",
   "seo": {
-    "title": "Retatrutide vs Tirzepatide: what the studies show",
-    "description": "Retatrutide vs Tirzepatide, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+    "title": "Retatrutide vs Tirzepatide: No Head-to-Head Trial Exists",
+    "description": "No trial has given both to the same people. What retatrutide's phase 2 and tirzepatide's phase 3 trials each measured, the indirect estimates, doses and status."
   },
   "attributes": {
     "head_to_head": [
       {
-        "value": "Animal study, mice, 2026: Given the therapeutic potential of GLP-1 receptor agonists (semaglutide, tirzepatide, and retatrutide) in diabetic nephropathy, we evaluated their anti-fibrotic and anti-inflammatory effects in non-diabetic renal fibrosis using HK-2 cells and murine UUO and aging models.",
+        "value": "Cell and mouse study, mice, 2026: Given the therapeutic potential of GLP-1 receptor agonists (semaglutide, tirzepatide, and retatrutide) in diabetic nephropathy, we evaluated their anti-fibrotic and anti-inflammatory effects in non-diabetic renal fibrosis using HK-2 cells and murine UUO and aging models.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42630988"
@@ -20,7 +20,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2026: Recently, glucagon-like peptide-1 (GLP-1) analogs, including semaglutide, tirzepatide, and retatrutide, have been explored as potential anti-obesity therapies.",
+        "value": "Animal study, MC4R knockout mice, 2026: Recently, glucagon-like peptide-1 (GLP-1) analogs, including semaglutide, tirzepatide, and retatrutide, have been explored as potential anti-obesity therapies.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-41723268"
@@ -29,7 +29,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 2026: We also evaluated acute treatment with tirzepatide, a dual GLP-1/gastric inhibitory peptide (GIP) receptor agonist, and retatrutide, a triple GIP/GLP-1/glucagon receptor agonist, to determine whether broader receptor activity would differentially influence alcohol's subjective effects.",
+        "value": "Animal study, rats, 2025: We also evaluated acute treatment with tirzepatide, a dual GLP-1/gastric inhibitory peptide (GIP) receptor agonist, and retatrutide, a triple GIP/GLP-1/glucagon receptor agonist, to determine whether broader receptor activity would differentially influence alcohol's subjective effects.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-40699363"
@@ -38,7 +38,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2025: Retatrutide demonstrated superior effectiveness in reducing weight and improving renal function in db/db mice compared to Liraglutide and Tirzepatide.",
+        "value": "Animal study, db/db mice, 2024: Retatrutide demonstrated superior effectiveness in reducing weight and improving renal function in db/db mice compared to Liraglutide and Tirzepatide.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-39212900"
@@ -47,7 +47,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Clinical trial, humans, n=3,236, 2026: A comprehensive literature search was conducted using PubMed, the Cochrane Library, and Google Scholar from inception to June 2025 to identify randomized controlled trials evaluating tirzepatide, retatrutide, or mazdutide in obese adults.",
+        "value": "Systematic review and meta-analysis, 10 trials, n=3,236, 2026: A comprehensive literature search was conducted using PubMed, the Cochrane Library, and Google Scholar from inception to June 2025 to identify randomized controlled trials evaluating tirzepatide, retatrutide, or mazdutide in obese adults.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-41711462"
@@ -56,7 +56,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Clinical trial, humans, n=214, 2026: Compared with placebo, weight loss was greatest with retatrutide (-22.10%, 95% confidence interval -25.60% to -18.60%), followed by tirzepatide (-19.28%, -20.39% to -18.16%), and CagriSema (a combination of cagrilintide and semaglutide, -17.32%, -19.32% to -15.32%).",
+        "value": "Network meta-analysis, 58 trials, n=24,214, 2026: Compared with placebo, weight loss was greatest with retatrutide (-22.10%, 95% confidence interval -25.60% to -18.60%), followed by tirzepatide (-19.28%, -20.39% to -18.16%), and CagriSema (a combination of cagrilintide and semaglutide, -17.32%, -19.32% to -15.32%).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42688617"
@@ -65,7 +65,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "In vitro study, humans, 2023: Although retatrutide may be superior to the GLP-1 receptor agonist dulaglutide in reducing plasma glucose and body weight, this is not a meaningful comparison, as another GLP-1 receptor agonist (semaglutide) is more potent than dulaglutide at this and may have similar efficacy to retatrutide.",
+        "value": "Commentary, 2023: Although retatrutide may be superior to the GLP-1 receptor agonist dulaglutide in reducing plasma glucose and body weight, this is not a meaningful comparison, as another GLP-1 receptor agonist (semaglutide) is more potent than dulaglutide at this and may have similar efficacy to retatrutide.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-37086147"
@@ -74,7 +74,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2025: It shows superior weight loss effects compared to tirzepatide and similar metabolic efficacy to retatrutide, despite significantly less potent GIPR activity.",
+        "value": "Peptide design study, in vitro and mice, 2025: It shows superior weight loss effects compared to tirzepatide and similar metabolic efficacy to retatrutide, despite significantly less potent GIPR activity.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-40958513"
@@ -85,6 +85,13 @@
     ]
   },
   "sources": [
+    {
+      "id": "pmid-42688617",
+      "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
+      "url": "https://europepmc.org/article/MED/42688617",
+      "published": "2026-08-27",
+      "kind": "peer-reviewed"
+    },
     {
       "id": "pmid-42630988",
       "title": "Comparative effects of semaglutide tirzepatide and retatrutide on renal fibrosis in UUO and aged mice.",
@@ -97,6 +104,20 @@
       "title": "Efficacy of GLP-1 analog peptides, semaglutide, tirzepatide, and retatrutide on MC4R deficient obesity and their comparison.",
       "url": "https://europepmc.org/article/MED/41723268",
       "published": "2026-02-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41711462",
+      "title": "Incretin-Based Dual and Triple Agonists in Overweight or Obese Individuals: A Systematic Review and Meta-Analysis.",
+      "url": "https://europepmc.org/article/MED/41711462",
+      "published": "2026-02-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40958513",
+      "title": "Strategic Design of Triple GLP-1R/GCGR/GIPR Agonists with Varied Receptor Potency: Achieving Comparable Glycemic and Weight Reduction Effects.",
+      "url": "https://europepmc.org/article/MED/40958513",
+      "published": "2025-09-16",
       "kind": "peer-reviewed"
     },
     {
@@ -114,17 +135,10 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-41711462",
-      "title": "Incretin-Based Dual and Triple Agonists in Overweight or Obese Individuals: A Systematic Review and Meta-Analysis.",
-      "url": "https://europepmc.org/article/MED/41711462",
-      "published": "2026-02-19",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-42688617",
-      "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
-      "url": "https://europepmc.org/article/MED/42688617",
-      "published": "2026-08-27",
+      "id": "pmid-37366315",
+      "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+      "url": "https://europepmc.org/article/MED/37366315",
+      "published": "2023-06-26",
       "kind": "peer-reviewed"
     },
     {
@@ -135,10 +149,10 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-40958513",
-      "title": "Strategic Design of Triple GLP-1R/GCGR/GIPR Agonists with Varied Receptor Potency: Achieving Comparable Glycemic and Weight Reduction Effects.",
-      "url": "https://europepmc.org/article/MED/40958513",
-      "published": "2025-09-16",
+      "id": "pmid-35658024",
+      "title": "Tirzepatide Once Weekly for the Treatment of Obesity.",
+      "url": "https://europepmc.org/article/MED/35658024",
+      "published": "2022-06-04",
       "kind": "peer-reviewed"
     }
   ],
@@ -146,23 +160,144 @@
     "retatrutide",
     "tirzepatide"
   ],
-  "faq": [],
-  "open_questions": [],
+  "faq": [
+    {
+      "question": "Has any trial compared retatrutide and tirzepatide directly?",
+      "answer": "No. No study has given both to the same group of people. The comparison figures in circulation come from separate trials quoted side by side, or from network meta-analyses that estimate each drug against placebo and compare the estimates. A 2023 commentary named the missing tirzepatide comparison as what retatrutide needed, and it has still not been run."
+    },
+    {
+      "question": "Which one causes more weight loss?",
+      "answer": "On the published figures retatrutide's are higher, but the trials are not comparable: 24.2% at 48 weeks in a phase 2 trial of 338 adults against 20.9% at 72 weeks in a phase 3 trial of 2,539. The only estimate built for comparison, a 2026 network meta-analysis of 58 trials, puts retatrutide at 22.1% and tirzepatide at 19.3% against placebo, with overlapping confidence intervals and a warning about limited head-to-head evidence."
+    },
+    {
+      "question": "What is the difference between a triple and a dual agonist?",
+      "answer": "Tirzepatide activates the GLP-1 and GIP receptors. Retatrutide activates those two plus the glucagon receptor, which raises energy expenditure and mobilises liver fat, offset by the GLP-1 arm's effect on blood sugar. The third receptor is the source of both the extra effect people hope for and the uncertainty about long-term safety."
+    },
+    {
+      "question": "Can I switch from tirzepatide to retatrutide?",
+      "answer": "Nothing has been studied. No trial enrolled people already taking tirzepatide, no published work describes stopping one and starting the other, and no dose conversion exists. Retatrutide is also not approved anywhere, so there is no legal supply outside a trial."
+    },
+    {
+      "question": "When will retatrutide be approved?",
+      "answer": "Its phase 3 programme is running and no regulator has approved it in any country. Approval depends on those results, on the review that follows and on the manufacturer's filings, none of which has a published date. Any specific date circulating online is a guess."
+    },
+    {
+      "question": "Is retatrutide sold online the same as the trial drug?",
+      "answer": "There is no basis for assuming so. The trials used the manufacturer's drug under monitoring. Material sold as retatrutide comes from outside the regulated supply chain, is covered by no approval, and has not been shown to contain what its label says."
+    },
+    {
+      "question": "How do the side effects compare?",
+      "answer": "Both are dominated by nausea, vomiting, diarrhoea and constipation, worst during escalation. Rates cannot be compared across the trials because they ran for different lengths in different populations. Pooled analyses of dual and triple agonists found roughly twice the risk of withdrawal for adverse events against placebo and three times the rate of hypoglycaemic episodes, with no difference in serious adverse events; discontinuation appeared higher with retatrutide specifically, on low-certainty evidence."
+    },
+    {
+      "question": "What doses were used?",
+      "answer": "Retatrutide's phase 2 trial tested 1, 4, 8 and 12 mg once weekly for 48 weeks, starting at 2 or 4 mg. Tirzepatide's obesity trial used 5, 10 and 15 mg once weekly after a 20-week escalation from 2.5 mg, and those maintenance doses are on its approved label. There is no equivalence between the two scales."
+    },
+    {
+      "question": "Do they differ in how long they last?",
+      "answer": "Barely. Retatrutide's half-life is about six days and tirzepatide's about five, which is why both are once-weekly. The practical difference is the escalation schedule rather than the half-life."
+    },
+    {
+      "question": "Is retatrutide made by the same company as tirzepatide?",
+      "answer": "Yes. Both came out of Eli Lilly's incretin programme, which is part of why a head-to-head trial is unlikely to be a priority: the result would be commercially awkward in either direction."
+    },
+    {
+      "question": "What about muscle loss?",
+      "answer": "Neither trial reported body composition in its headline results, and no study has compared the two on lean mass. Large, rapid weight loss takes lean tissue with fat whatever causes it; any claimed difference between these two is a comparison of studies that did not measure the same thing."
+    },
+    {
+      "question": "Which should someone take?",
+      "answer": "That is a question for a prescriber, and for only one of the two: tirzepatide is an approved medicine and retatrutide is not available outside a trial. This page exists to say what the evidence supports, which is that the comparison people want has not been measured."
+    }
+  ],
+  "open_questions": [
+    "No head-to-head trial of retatrutide and tirzepatide exists in people, and none is published as ongoing.",
+    "Retatrutide's phase 3 results are not published, so its long-term efficacy and safety are unknown.",
+    "Nothing is published on switching between the two, in either direction, or on dose equivalence.",
+    "Neither landmark trial reported body composition in its headline results, so lean-mass differences are unmeasured.",
+    "Long-term consequences of glucagon receptor activation in chronic use, including the heart-rate increases seen in phase 2, are not yet established.",
+    "Tirzepatide's approved label is not in this ledger; its label doses are cited editorially."
+  ],
   "review": {
     "author": "",
     "reviewer": "",
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 90.6,
+  "uniqueness_pct": 97.7,
   "changelog": [
     {
       "date": "2026-09-14",
       "change": "Comparison record generated from research/registry.json plan; 8 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Stage 0 corrected by hand: the eight head-to-head claims were relabelled with what each study actually is, four reviews or meta-analyses, three animal or cell studies and one peptide-design paper, after a drafted label read a network meta-analysis of 24,214 participants as a clinical trial of 214. The two landmark trials were added to the ledger. Written under the sequencing rule after research/intents/retatrutide-vs-tirzepatide.json: guide of ten sections including a trial-by-trial table, a table of every comparative figure in circulation with its evidence type, doses, side effects, switching and availability; tirzepatide label doses and the phase 3 programme cited editorially with pending_source."
     }
   ],
   "sides": [
     "retatrutide",
     "tirzepatide"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "The comparison in two minutes",
+      "html": "<p><strong>No trial has compared them.</strong> Retatrutide and tirzepatide have never been given to the same group of people in the same study. Every number that puts them side by side comes from separate trials or from statistical modelling across trials.</p><p><strong>Why the usual comparison fails.</strong> The figure quoted for retatrutide, 24.2%, is from a <b>phase 2</b> trial in <b>338</b> adults over <b>48 weeks</b>. The figure quoted for tirzepatide, 20.9%, is from a <b>phase 3</b> trial in <b>2,539</b> adults over <b>72 weeks</b>. Different size, different stage, different length, different people.</p><p><strong>What can legitimately be said.</strong> A 2026 network meta-analysis of 58 trials estimated 22.1% for retatrutide and 19.3% for tirzepatide against placebo, and said in the same breath that the confidence intervals overlap and head-to-head evidence is limited.</p><p><strong>The status difference is the bigger one.</strong> Tirzepatide is an approved medicine with a label, a manufacturer and a supply chain. Retatrutide is investigational, in phase 3, approved nowhere, so anything sold under the name today is unregulated and its contents are unverified.</p><p><strong>Where the evidence is thinnest.</strong> Switching between them, which nobody has studied; long-term safety of the glucagon arm; and body composition, which the two trials did not measure the same way.</p>"
+    },
+    {
+      "id": "no-head-to-head",
+      "heading": "The trial that would answer this has not been run",
+      "lede": "This is the whole answer to the question, so it comes before the numbers.",
+      "html": "<p>A head-to-head trial randomises the same population to both drugs and follows them for the same length of time. For these two, that trial does not exist. It has not been completed, and no published result reports one.</p><p>This is not an oversight nobody noticed. A 2023 commentary in the investigational-drugs literature made the point directly while retatrutide's phase 2 results were still fresh: the comparison it needed was with tirzepatide, and the comparison it had was not meaningful. Three years later, that is still where things stand.</p><p>Both drugs come from the same company, which is one reason a direct comparison is unlikely to be anybody's priority. A trial showing the newer drug beats the older one by a wide margin would be as commercially awkward as one showing it does not.</p><p>What exists instead is <b>indirect</b> evidence: statistical comparison of each drug against placebo across separate trials, adjusted for what the trials had in common. That is a legitimate method with a known weakness, which is that it inherits every difference between the trials it pools.</p>"
+    },
+    {
+      "id": "trials-table",
+      "heading": "Every trial behind the comparison, with what it actually tested",
+      "lede": "The two studies whose numbers are quoted everywhere, set out with the details that the quoting usually drops.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>The two landmark obesity trials, as published.</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">Retatrutide phase 2 (2023)</th><th scope=\"col\">Tirzepatide SURMOUNT-1 (2022)</th></tr></thead><tbody><tr><td>Stage</td><td>Phase 2, dose-finding</td><td>Phase 3, registration</td></tr><tr><td>Participants</td><td>338 adults</td><td>2,539 adults</td></tr><tr><td>Population</td><td>BMI 30+, or 27+ with a weight-related condition</td><td>BMI 30+, or 27+ with a complication, diabetes excluded</td></tr><tr><td>Doses</td><td>1, 4, 8 or 12 mg weekly, subcutaneous</td><td>5, 10 or 15 mg weekly, subcutaneous</td></tr><tr><td>Length</td><td>48 weeks</td><td>72 weeks, including 20 weeks of escalation</td></tr><tr><td>Primary endpoint</td><td>Weight change at 24 weeks</td><td>Weight change and 5% response at 72 weeks</td></tr><tr><td>Weight change, highest dose</td><td><b>-24.2%</b> at 48 weeks (-17.5% at 24 weeks)</td><td><b>-20.9%</b> at 72 weeks</td></tr><tr><td>Weight change, middle dose</td><td>-22.8% at 8 mg</td><td>-19.5% at 10 mg</td></tr><tr><td>Placebo</td><td>-2.1%</td><td>-3.1%</td></tr><tr><td>Proportion losing 15% or more</td><td>83% at 12 mg</td><td>Reported by dose in the trial's response analysis</td></tr></tbody></table></div></div><p>Read the length row against the weight row. Retatrutide's curve was still falling when its trial stopped: the 12 mg group went from 17.5% at 24 weeks to 24.2% at 48. Tirzepatide's trial ran 24 weeks longer, by which point weight curves in this drug class have generally flattened. Whatever the true difference between these drugs is, the published figures do not measure it.</p>"
+    },
+    {
+      "id": "numbers",
+      "heading": "The numbers people quote, and what each one came from",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Every comparative figure in circulation, with its source and its type.</caption><thead><tr><th scope=\"col\">Figure</th><th scope=\"col\">Where it comes from</th><th scope=\"col\">What kind of evidence</th></tr></thead><tbody><tr><td>24.2% vs 20.9%</td><td>The two trials above, quoted side by side</td><td><b>Not a comparison.</b> Different phase, size, population and duration</td></tr><tr><td>22.1% vs 19.3%</td><td>2026 network meta-analysis, 58 trials, 24,214 participants</td><td>Indirect comparison. Confidence intervals -25.6 to -18.6 and -20.4 to -18.2, which overlap</td></tr><tr><td>Retatrutide ranked first</td><td>The same meta-analysis's treatment ranking</td><td>A probability ordering, not a measured difference; the authors note limited head-to-head evidence</td></tr><tr><td>11.5% for polyagonists as a class</td><td>2026 systematic review, 10 trials, 3,236 participants</td><td>Pooled across drugs and doses; not specific to either</td></tr><tr><td>Retatrutide better in kidney disease</td><td>2024 study in db/db mice at 10 nmol/kg for 10 weeks</td><td><b>The only study that gave both to the same subjects.</b> They were mice</td></tr></tbody></table></div></div><p>The meta-analysis is the one worth reading carefully, because it is the only estimate built for this purpose. Its own conclusion is hedged: differences in tolerability, limited head-to-head evidence and residual uncertainty should be considered when interpreting comparative treatment effects. That sentence is doing more work than the ranking it accompanies.</p><p>The same analysis places CagriSema, the <a href=\"/compounds/cagrilintide\">cagrilintide</a> and <a href=\"/compounds/semaglutide\">semaglutide</a> combination, at 17.3%, and conventional GLP-1 drugs below that. The ordering is consistent across analyses even where the individual gaps are not statistically resolved.</p>"
+    },
+    {
+      "id": "mechanism-guide",
+      "heading": "Three receptors against two: what the glucagon arm adds",
+      "html": "<p>Tirzepatide activates two receptors: <b>GLP-1</b>, which slows gastric emptying and signals fullness, and <b>GIP</b>, which appears to improve how well the GLP-1 arm is tolerated as much as it adds effect of its own. Retatrutide activates those two and a third, the <b>glucagon</b> receptor.</p><p>Adding glucagon is counterintuitive, since glucagon raises blood sugar. The rationale is energy expenditure: glucagon receptor activation increases metabolic rate and mobilises fat from the liver, and pairing it with GLP-1 is meant to offset the glucose effect. In the phase 2 trial, blood sugar control improved rather than worsened, which is the evidence that the pairing works at these doses.</p><p>The glucagon arm is also where the long-term uncertainty sits. It is the least characterised of the three in chronic human use, it is the part most associated with dose-dependent heart-rate increases, and it is the reason the phase 3 programme matters more here than it would for a fourth GLP-1 drug.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Doses in the trials and on the label",
+      "lede": "One column is a label. The other is a dose-finding trial that was never meant to set a final dose.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses as published for each compound.</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">Retatrutide</th><th scope=\"col\">Tirzepatide</th></tr></thead><tbody><tr><td>Source of the figures</td><td>Phase 2 trial only; no approved label exists</td><td>Approved label and phase 3 trials</td></tr><tr><td>Route and frequency</td><td>Subcutaneous, once weekly</td><td>Subcutaneous, once weekly</td></tr><tr><td>Starting dose</td><td>2 mg or 4 mg, depending on the arm</td><td>2.5 mg</td></tr><tr><td>Doses studied</td><td>1, 4, 8, 12 mg weekly</td><td>5, 10, 15 mg weekly maintenance</td></tr><tr><td>Escalation</td><td>Stepped within the trial's 48 weeks</td><td>20 weeks of escalation in SURMOUNT-1</td></tr><tr><td>Half-life</td><td>About 6 days</td><td>About 5 days</td></tr></tbody></table></div></div><p>There is no dose equivalence between them and no published conversion. The two act on different combinations of receptors, so milligrams of one are not milligrams of the other in any meaningful sense, and the retatrutide doses in the table are the doses a dose-finding trial tested rather than a dose anyone settled on.</p><p>Tirzepatide's label figures are quoted here from the approved prescribing information, which is not yet in this record's ledger; they are marked editorial for that reason.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Side effects, and why the comparison is harder than it looks",
+      "html": "<p>Both are dominated by gastrointestinal effects: nausea, vomiting, diarrhoea and constipation, worst during escalation and easing afterwards. Both trials report them as the most common adverse events. That much is common ground.</p><p>Comparing rates is where it breaks down. The trials asked over different lengths of time, in different populations, with different escalation schedules, and adverse-event reporting is sensitive to all three. A drug studied for 72 weeks accumulates more reported events than one studied for 48 simply by running longer.</p><p>The pooled analyses are more informative than either trial here. A 2026 systematic review of dual and triple agonists found the class carried a higher risk of any adverse event than placebo, roughly twice the risk of withdrawal for adverse events, and three times the rate of hypoglycaemic episodes, with no significant difference in serious adverse events. The 2026 network meta-analysis added that discontinuation appeared higher with retatrutide specifically, on low-certainty evidence.</p><p>The one effect that belongs to retatrutide's third receptor is heart rate. Increases were dose-dependent in the phase 2 trial and largest in the first half. What that means over years is what phase 3 exists to find out.</p>"
+    },
+    {
+      "id": "switching",
+      "heading": "Switching between them: what has been studied",
+      "html": "<p>Nothing. No trial has enrolled people already taking tirzepatide, no published study describes stopping one and starting the other, and no dose conversion has been established. The searches for this are substantial and the literature behind them is empty.</p><p>What can be said generally is that both are once-weekly injections with multi-week escalation schedules, and that tolerance to gastrointestinal effects is built during escalation rather than carried between drugs. Beyond that, anything specific about switching is somebody's inference, and this page does not make it.</p>"
+    },
+    {
+      "id": "availability",
+      "heading": "Availability: one is approved, the other is in phase 3",
+      "html": "<p><b>Tirzepatide</b> was approved in 2022 and is a prescription medicine with a label, a manufacturer and a regulated supply chain, sold under brand names for diabetes and for weight management.</p><p><b>Retatrutide</b> is investigational. Its phase 3 programme is running and no regulator has approved it anywhere. There is no legal route to obtain it outside a trial.</p><p>That gap is the origin of the grey market. Material sold online as retatrutide is not made by the company running the trials, is not covered by any approval, and has not been shown to contain what the label says. The doses in this page's table were given under trial monitoring with known material, which is what makes them meaningful; they carry no information about an unverified vial.</p><p>Each compound's own record carries its full evidence: <a href=\"/compounds/retatrutide\">retatrutide</a> and <a href=\"/compounds/tirzepatide\">tirzepatide</a>.</p>"
+    },
+    {
+      "id": "choosing",
+      "heading": "What the evidence lets you say, and what it does not",
+      "html": "<p><strong>Supported:</strong> both produce weight loss far beyond older GLP-1 drugs; retatrutide's phase 2 numbers are higher than tirzepatide's phase 3 numbers; indirect analyses rank retatrutide first with overlapping intervals; the class shares its side-effect profile and its escalation problem.</p><p><strong>Not supported:</strong> that retatrutide is more effective than tirzepatide by a specific margin; that either is better tolerated; that one preserves more lean mass; that a given dose of one corresponds to a dose of the other; that results in a trial transfer to unverified material bought online.</p><p>The honest summary is that one of these is a medicine and the other is a candidate with a striking phase 2 result. Those are different kinds of thing, and the comparison people want will exist only when a trial gives both to the same people, or phase 3 results let the indirect analyses be redone with matched populations.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in this comparison",
+      "html": "<ol class=\"list\"><li><strong>Treating 24.2% and 20.9% as comparable.</strong> Forty-eight weeks against seventy-two, 338 people against 2,539, phase 2 against phase 3.</li><li><strong>Reading a meta-analysis ranking as a measured difference.</strong> Overlapping confidence intervals mean the ordering is probable, not established.</li><li><strong>Assuming head-to-head data exists somewhere.</strong> The eight studies in this record that name both are reviews, meta-analyses and animal work. The only one that gave both to the same subjects used mice.</li><li><strong>Converting doses between them.</strong> There is no equivalence, and the retatrutide figures come from a dose-finding trial.</li><li><strong>Carrying trial results across to grey-market material.</strong> The trials used the manufacturer's drug under monitoring.</li><li><strong>Expecting the 24-week figure to be the final answer.</strong> Retatrutide's curve was still falling at 48 weeks; phase 3 runs longer and may land anywhere.</li></ol>"
+    }
+  ],
+  "prose_reviewed": true
 }
