@@ -1,6 +1,15 @@
 ---
 // v2 compound page, shared by the trial routes. When the design is approved,
 // [slug].astro renders this for every compound and the trial routes go away.
+//
+// Composition is intent-driven (docs/design.md §10, docs/content-sop.md): if
+// research/intents/<slug>.json exists, it orders the body blocks, supplies
+// searcher-phrased headings and boundary sentences, adds FAQ items, and places
+// explicit absence statements where demand exists and evidence does not. The
+// spine (title, at-a-glance, status, what-it-is, assessment at the top; sources,
+// reference card, related, changelog at the bottom) is fixed on every page so a
+// reader and a reviewer always know where to find it. The map never changes a
+// claim, a tier or a source.
 import '../styles/compound-v2.css';
 import { records } from '../lib/collections';
 import Base from './Base.astro';
@@ -22,9 +31,11 @@ import ReconstitutionMath from '../components/shared/ReconstitutionMath.astro';
 import EquipmentInStudies from '../components/shared/EquipmentInStudies.astro';
 import ReadingACoA from '../components/shared/ReadingACoA.astro';
 import WeightCaveat from '../components/shared/WeightCaveat.astro';
-import { rich, paragraphs, timeTag } from '../lib/format';
+import { rich, paragraphs, timeTag, esc } from '../lib/format';
 import { isIndexable, title, description, lastmod, formatCount } from '../lib/site';
 import { compound as regCompound, peers as regPeers, stacksContaining, comparisonsWith, className } from '../lib/registry';
+import { loadIntent, headingFor, boundaryFor, orderBlocks, queriesFor } from '../lib/intents';
+import { parseClaim } from '../lib/claims';
 
 interface Props { slug: string }
 const { slug } = Astro.props;
@@ -35,6 +46,7 @@ const d = entry.data;
 const A = d.attributes as Record<string, any[]>;
 const has = (f: string) => (A[f] ?? []).length > 0;
 const reg = regCompound(d.slug);
+const intent = loadIntent(d.slug);
 const peerEntries = regPeers(d.slug).map((p) => all.find((e) => e.data.slug === p.slug)).filter((e): e is NonNullable<typeof e> => Boolean(e));
 const inStacks = stacksContaining(d.slug);
 const inComparisons = comparisonsWith(d.slug);
@@ -60,38 +72,22 @@ const comparisonLinks = inComparisons.map((c) => `<a href="/compare/${c.slug}">$
 const brandAliases = d.aliases.filter((a) => /^[A-Z][a-z]/.test(a) && !/\d/.test(a) && !a.toLowerCase().startsWith(d.preferred_name.slice(0, 6).toLowerCase())).slice(0, 3);
 const baseTitle = title(entry);
 
-type Sec = { id: string; label: string; group?: string; when: boolean };
-const evidence: Array<[string, string, string]> = [
-  ['study_doses', 'doses', 'Doses reported in studies'], ['escalation_schedules', 'escalation', 'Escalation schedules used in studies'],
-  ['adverse_events', 'adverse', 'Adverse events and frequency'], ['study_durations', 'durations', 'Study durations'],
-  ['routes_studied', 'routes', 'Routes studied'], ['weight_normalized_doses', 'weight', 'Weight-normalized doses, as published'],
-  ['interactions', 'interactions', 'Reported interactions'], ['exclusion_criteria', 'exclusion', 'Exclusion criteria in studies'],
-  ['biomarkers_monitored', 'biomarkers', 'Biomarkers measured in studies'], ['reported_timelines', 'timelines', 'Reported timelines'],
-  ['storage', 'storage', 'Storage and stability'],
+// Evidence fields in spec order: [record field, block id, default heading, human label for absence statements].
+const evidence: Array<[string, string, string, string]> = [
+  ['study_doses', 'doses', 'Doses reported in studies', 'doses'],
+  ['escalation_schedules', 'escalation', 'Escalation schedules used in studies', 'dose-escalation schedules'],
+  ['adverse_events', 'adverse', 'Adverse events and frequency', 'adverse events or their frequency'],
+  ['study_durations', 'durations', 'Study durations', 'treatment durations'],
+  ['routes_studied', 'routes', 'Routes studied', 'routes of administration'],
+  ['weight_normalized_doses', 'weight', 'Weight-normalized doses, as published', 'weight-normalized doses'],
+  ['interactions', 'interactions', 'Reported interactions', 'interactions with other agents'],
+  ['exclusion_criteria', 'exclusion', 'Exclusion criteria in studies', 'exclusion criteria'],
+  ['biomarkers_monitored', 'biomarkers', 'Biomarkers measured in studies', 'biomarkers'],
+  ['reported_timelines', 'timelines', 'Reported timelines', 'onset or duration of effect'],
+  ['storage', 'storage', 'Storage and stability', 'storage or stability'],
 ];
-const secs: Sec[] = [
-  { id: 'glance', label: 'At a glance', when: true },
-  { id: 'what', label: 'What it is', when: true },
-  { id: 'assessment', label: 'What the evidence level means', group: 'Evidence', when: true },
-  { id: 'human-trials', label: 'What happened in the human studies?', group: 'Evidence', when: showHumanTrials },
-  { id: 'evidence', label: 'What the evidence shows', group: 'Evidence', when: hasAnyEvidence },
-  { id: 'landscape', label: 'What is indexed', group: 'Evidence', when: !hasAnyEvidence },
-  ...evidence.map(([f, id, label]) => ({ id, label, group: 'Evidence', when: has(f) })),
-  { id: 'method-recon', label: 'Reconstitution mathematics', group: 'Method', when: hasAnyEvidence },
-  { id: 'method-equipment', label: 'Equipment described in studies', group: 'Method', when: hasAnyEvidence },
-  { id: 'method-coa', label: 'Reading a certificate of analysis', group: 'Method', when: hasAnyEvidence },
-  { id: 'compare', label: 'How it compares', group: 'Context', when: peerEntries.length > 0 },
-  { id: 'combination', label: 'Studied in combination', group: 'Context', when: inStacks.length > 0 },
-  { id: 'regulatory', label: 'Regulatory status', group: 'Context', when: has('regulatory_status') },
-  { id: 'open', label: 'Open questions', group: 'Context', when: d.open_questions.length > 0 },
-  { id: 'faq', label: 'Questions people ask', group: 'Context', when: d.faq.length > 0 },
-  { id: 'sources', label: `Sources (${d.sources.length})`, group: 'Reference', when: d.sources.length > 0 },
-  { id: 'card', label: 'Reference card', group: 'Reference', when: true },
-  { id: 'related', label: 'Related records', group: 'Reference', when: inStacks.length + inComparisons.length + peerEntries.length > 0 },
-  { id: 'changelog', label: 'What changed', group: 'Reference', when: d.changelog.length > 0 },
-].filter((s) => s.when);
-const ledes: Record<string, string> = {
-  study_doses: `Each entry is a sentence quoted from the study's abstract, with the study's design, sample size and year in front of it. Comparator doses in the same sentence are not attributed to ${d.preferred_name.toLowerCase()}. Where every study is animal or pharmacokinetic work, these are not therapeutic doses.`,
+const defaultLedes: Record<string, string> = {
+  study_doses: `Each entry is a sentence quoted from the study's abstract, with the study's design, sample size and year in front of it. Comparator doses in the same sentence are not attributed to ${d.preferred_name.toLowerCase()}.`,
   escalation_schedules: 'How trials stepped doses, reported as study design.',
   adverse_events: 'Events and their frequency as each study reported them, with the denominator where the abstract gives one.',
   study_durations: 'Treatment and follow-up periods as stated in each abstract.',
@@ -101,9 +97,64 @@ const ledes: Record<string, string> = {
   biomarkers_monitored: 'Laboratory and clinical measures the studies report tracking, including which hormones did and did not change.',
   weight_normalized_doses: 'Per-kilogram figures exactly as each study published them, for the species it studied.',
   storage: 'Stability and storage conditions as reported.',
+  reported_timelines: 'Onset, peak and duration figures as each study reported them.',
 };
-const firstFive = evidence.filter(([f]) => has(f)).slice(0, 5);
-const rest = evidence.filter(([f]) => has(f)).slice(5);
+// A boundary sentence from the intent map opens the lede when one exists (policy evidence-with-boundary).
+const ledeFor = (f: string) => [boundaryFor(intent, f), defaultLedes[f]].filter(Boolean).join(' ');
+
+// Body blocks. Each renders only when it has content; an evidence field with no
+// claims but with mapped demand renders as an explicit absence statement.
+type Block = { id: string; kind: 'human' | 'table' | 'landscape' | 'claims' | 'absence' | 'method' | 'compare' | 'combination' | 'regulatory' | 'open' | 'faq'; field?: string; label: string; group: string };
+const blocks: Block[] = [];
+if (showHumanTrials) blocks.push({ id: 'human-trials', kind: 'human', label: 'What happened in the human studies?', group: 'Evidence' });
+if (hasAnyEvidence) blocks.push({ id: 'evidence', kind: 'table', field: 'evidence_table', label: headingFor(intent, 'evidence_table', 'What the evidence shows'), group: 'Evidence' });
+else blocks.push({ id: 'landscape', kind: 'landscape', label: 'What is indexed', group: 'Evidence' });
+for (const [f, id, label] of evidence) {
+  if (has(f)) blocks.push({ id, kind: 'claims', field: f, label: headingFor(intent, f, label), group: 'Evidence' });
+  else if (queriesFor(intent, f).some((q) => q.policy !== 'redirect')) blocks.push({ id, kind: 'absence', field: f, label: headingFor(intent, f, label), group: 'Evidence' });
+}
+if (hasAnyEvidence) blocks.push({ id: 'method', kind: 'method', label: 'Method notes', group: 'Method' });
+if (peerEntries.length > 0) blocks.push({ id: 'compare', kind: 'compare', label: headingFor(intent, 'compare', 'How it compares'), group: 'Context' });
+if (inStacks.length > 0) blocks.push({ id: 'combination', kind: 'combination', label: headingFor(intent, 'combination', 'Studied in combination'), group: 'Context' });
+if (has('regulatory_status')) blocks.push({ id: 'regulatory', kind: 'regulatory', field: 'regulatory_status', label: headingFor(intent, 'regulatory_status', 'Regulatory status'), group: 'Context' });
+if (d.open_questions.length > 0) blocks.push({ id: 'open', kind: 'open', label: 'Open questions and limitations', group: 'Context' });
+
+// FAQ: intent-mapped questions first (in the searcher's words, answered from a
+// claim or from our own prose), then the record's derived questions.
+const intentFaq = queriesFor(intent, 'faq').map((q) => {
+  const claim = q.answer_from ? (A[q.answer_from] ?? [])[0] : undefined;
+  if (claim) {
+    const p = parseClaim(claim);
+    const src = claim.source_ids?.[0];
+    const body = p.quote ? `${esc(p.design)}${p.year ? `, ${p.year}` : ''}: <q>${esc(p.quote)}</q>` : esc(claim.value);
+    return { question: q.heading ?? q.query, answer: `${body}${src ? ` Source <a href="#${src}"><code>${src}</code></a>.` : ''}` };
+  }
+  return q.answer ? { question: q.heading ?? q.query, answer: rich(q.answer, { bold: 2, seen }) } : null;
+}).filter((x): x is { question: string; answer: string } => Boolean(x));
+const faqItems = [...intentFaq, ...d.faq.map((f) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))];
+if (faqItems.length > 0) blocks.push({ id: 'faq', kind: 'faq', label: 'Questions people ask', group: 'Context' });
+
+const body = orderBlocks(intent, blocks);
+const secs = [
+  { id: 'glance', label: 'At a glance', group: '' },
+  { id: 'what', label: headingFor(intent, 'what', 'What it is'), group: '' },
+  { id: 'assessment', label: 'What the evidence level means', group: 'Evidence' },
+  ...body.filter((b) => b.kind !== 'method').map((b) => ({ id: b.id, label: b.label, group: b.group })),
+  ...(hasAnyEvidence ? [
+    { id: 'method-recon', label: 'Reconstitution mathematics', group: 'Method' },
+    { id: 'method-equipment', label: 'Equipment described in studies', group: 'Method' },
+    { id: 'method-coa', label: 'Reading a certificate of analysis', group: 'Method' },
+  ] : []),
+  { id: 'sources', label: `Sources (${d.sources.length})`, group: 'Reference' },
+  { id: 'card', label: 'Reference card', group: 'Reference' },
+  ...(inStacks.length + inComparisons.length + peerEntries.length > 0 ? [{ id: 'related', label: 'Related records', group: 'Reference' }] : []),
+  ...(d.changelog.length > 0 ? [{ id: 'changelog', label: 'What changed', group: 'Reference' }] : []),
+];
+// Keep TOC order faithful to render order: method entries sit where the band renders.
+const tocBody = body.flatMap((b) => b.kind === 'method'
+  ? [{ id: 'method-recon', label: 'Reconstitution mathematics', group: 'Method' }, { id: 'method-equipment', label: 'Equipment described in studies', group: 'Method' }, { id: 'method-coa', label: 'Reading a certificate of analysis', group: 'Method' }]
+  : [{ id: b.id, label: b.label, group: b.group }]);
+const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sources', 'card', 'related', 'changelog'].includes(s.id))];
 ---
 <Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={jsonld} siteSuffix={`${baseTitle} | Peptide Research Reference`.length <= 60}>
   <Fragment slot="head">
@@ -126,49 +177,55 @@ const rest = evidence.filter(([f]) => has(f)).slice(5);
     </div>
 
     <div class="layout">
-      <aside><Toc items={secs} /></aside>
+      <aside><Toc items={toc} /></aside>
       <div class="content">
         <section id="glance"><h2>At a glance</h2><FactTiles record={d} reg={reg} /></section>
         <StatusBar review={d.review} status={d.status} />
-        <section id="what"><h2>What it is</h2>{summaryParas.map((html) => <p class="prose-lg" set:html={html} />)}</section>
+        {intent?.decline_notice && <p class="lede">{intent.decline_notice}</p>}
+        <section id="what"><h2>{headingFor(intent, 'what', 'What it is')}</h2>{summaryParas.map((html) => <p class="prose-lg" set:html={html} />)}</section>
         <EvidenceAssessment record={d} />
         {noEvidence && <div class="status"><div><strong>No indexed study names this compound</strong> in its title or abstract. Everything that circulates about it is community-reported, and this page does not restate it as fact. The sections that depend on published evidence are omitted rather than filled.</div></div>}
-        {!hasAnyEvidence && <section id="landscape"><div><h2>What is indexed</h2><p class="lede">Counts from Europe PMC. Zeros are measured, not missing.</p></div><LandscapeTable record={d} /></section>}
 
-        {showHumanTrials && <HumanTrials rows={A.evidence_table} name={d.preferred_name} sources={d.sources} />}
+        {body.map((b) => {
+          switch (b.kind) {
+            case 'human': return <HumanTrials rows={A.evidence_table} name={d.preferred_name} sources={d.sources} />;
+            case 'landscape': return <section id="landscape"><div><h2>{b.label}</h2><p class="lede">Counts from Europe PMC. Zeros are measured, not missing.</p></div><LandscapeTable record={d} /></section>;
+            case 'table': return (
+              <section id="evidence">
+                <div><h2>{b.label}</h2><p class="lede">{[boundaryFor(intent, 'evidence_table'), 'One row per primary study in this record\'s ledger. Fields are read from each paper\'s indexing and abstract. "Analytical method" marks papers about detecting or measuring the compound rather than about its effects.'].filter(Boolean).join(' ')}</p></div>
+                <EvidenceTable rows={A.evidence_table} />
+              </section>
+            );
+            case 'claims': return (
+              <section id={b.id}><div><h2>{b.label}</h2><p class="lede">{ledeFor(b.field!)}</p></div><ClaimCards claims={A[b.field!]} sources={d.sources} />{b.field === 'weight_normalized_doses' && <WeightCaveat />}</section>
+            );
+            case 'absence': {
+              const human = evidence.find(([f]) => f === b.field)?.[3] ?? b.field;
+              return (
+                <section id={b.id}><div><h2>{b.label}</h2></div>
+                  <div class="status"><div><strong>No study in this record's ledger reports {human} for {d.preferred_name.toLowerCase()}.</strong> {d.sources.length} indexed sources were searched. {boundaryFor(intent, b.field!) ?? 'An absence in the literature is not evidence of safety or effect; it means the question has not been studied in a paper this record can cite.'}</div></div>
+                </section>
+              );
+            }
+            case 'method': return (
+              <div class="method">
+                <div class="grid">
+                  <div><span class="eyebrow">Method note · shared across compounds</span><h3 id="method-recon">Reconstitution mathematics</h3><ReconstitutionMath /></div>
+                  <div><span class="eyebrow">Method note · shared across compounds</span><h3 id="method-coa">Reading a certificate of analysis</h3><ReadingACoA /></div>
+                  <div style="grid-column: 1 / -1"><span class="eyebrow">Method note · shared across compounds</span><h3 id="method-equipment">Equipment described in studies</h3><EquipmentInStudies /></div>
+                </div>
+              </div>
+            );
+            case 'compare': return (
+              <section id="compare"><div><h2>{b.label}</h2><p class="lede">{boundaryFor(intent, 'compare') ? boundaryFor(intent, 'compare') + ' ' : ''}Same class in the registry: <Fragment set:html={peerLinks} />. Each row shows what that compound's own record states; nothing is inferred across rows.{inComparisons.length > 0 && <> Head-to-head evidence, where any exists, is on the comparison page{inComparisons.length > 1 ? 's' : ''}: <Fragment set:html={comparisonLinks} />.</>}</p></div><CompareTable self={entry} peers={peerEntries} cls={reg ? className(reg.class) : 'same'} /></section>
+            );
+            case 'combination': return <CombinationEvidence slug={d.slug} name={d.preferred_name} heading={b.label} boundary={boundaryFor(intent, 'combination')} />;
+            case 'regulatory': return <section id="regulatory"><div><h2>{b.label}</h2><p class="lede">{[boundaryFor(intent, 'regulatory_status'), 'Registry facts only. Jurisdiction-level status, compounding categories and sport prohibitions need their own cited documents before they appear here.'].filter(Boolean).join(' ')}</p></div><ClaimCards claims={A.regulatory_status} sources={d.sources} /></section>;
+            case 'open': return <section id="open"><div><h2>{b.label}</h2><p class="lede">What is genuinely unknown, stated plainly. A missing field is not evidence that the outcome is safe, effective, or established.</p></div><ul class="list">{d.open_questions.map((q) => <li>{q}</li>)}</ul>{d.evidence_assessment?.limitations?.length > 0 && <><h3>Study limitations</h3><ul class="list">{d.evidence_assessment.limitations.map((q: string) => <li>{q}</li>)}</ul></>}</section>;
+            case 'faq': return <section id="faq"><h2>{b.label}</h2><Faq items={faqItems} html /></section>;
+          }
+        })}
 
-        {hasAnyEvidence && (
-          <section id="evidence">
-            <div><h2>What the evidence shows</h2><p class="lede">One row per primary study in this record's ledger. Fields are read from each paper's indexing and abstract. "Analytical method" marks papers about detecting or measuring the compound rather than about its effects.</p></div>
-            <EvidenceTable rows={A.evidence_table} />
-          </section>
-        )}
-
-        {firstFive.map(([f, id, label]) => (
-          <section id={id}><div><h2>{label}</h2>{ledes[f] && <p class="lede">{ledes[f]}</p>}</div><ClaimCards claims={A[f]} sources={d.sources} />{f === 'weight_normalized_doses' && <WeightCaveat />}</section>
-        ))}
-
-        {hasAnyEvidence && (
-          <div class="method">
-            <div class="grid">
-              <div><span class="eyebrow">Method note · shared across compounds</span><h3 id="method-recon">Reconstitution mathematics</h3><ReconstitutionMath /></div>
-              <div><span class="eyebrow">Method note · shared across compounds</span><h3 id="method-coa">Reading a certificate of analysis</h3><ReadingACoA /></div>
-              <div style="grid-column: 1 / -1"><span class="eyebrow">Method note · shared across compounds</span><h3 id="method-equipment">Equipment described in studies</h3><EquipmentInStudies /></div>
-            </div>
-          </div>
-        )}
-
-        {rest.map(([f, id, label]) => (
-          <section id={id}><div><h2>{label}</h2>{ledes[f] && <p class="lede">{ledes[f]}</p>}</div><ClaimCards claims={A[f]} sources={d.sources} />{f === 'weight_normalized_doses' && <WeightCaveat />}</section>
-        ))}
-
-        {peerEntries.length > 0 && (
-          <section id="compare"><div><h2>How it compares</h2><p class="lede">Same class in the registry: <Fragment set:html={peerLinks} />. Each row shows what that compound's own record states; nothing is inferred across rows.{inComparisons.length > 0 && <> Head-to-head evidence, where any exists, is on the comparison page{inComparisons.length > 1 ? 's' : ''}: <Fragment set:html={comparisonLinks} />.</>}</p></div><CompareTable self={entry} peers={peerEntries} cls={reg ? className(reg.class) : 'same'} /></section>
-        )}
-        <CombinationEvidence slug={d.slug} name={d.preferred_name} />
-        {has('regulatory_status') && <section id="regulatory"><div><h2>Regulatory status</h2><p class="lede">Registry facts only. Jurisdiction-level status, compounding categories and sport prohibitions need their own cited documents before they appear here.</p></div><ClaimCards claims={A.regulatory_status} sources={d.sources} /></section>}
-        {d.open_questions.length > 0 && <section id="open"><div><h2>Open questions and limitations</h2><p class="lede">What is genuinely unknown, stated plainly. A missing field is not evidence that the outcome is safe, effective, or established.</p></div><ul class="list">{d.open_questions.map((q) => <li>{q}</li>)}</ul>{d.evidence_assessment?.limitations?.length > 0 && <><h3>Study limitations</h3><ul class="list">{d.evidence_assessment.limitations.map((q: string) => <li>{q}</li>)}</ul></>}</section>}
-        {d.faq.length > 0 && <section id="faq"><h2>Questions people ask</h2><Faq items={d.faq.map((f) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))} html /></section>}
         {d.sources.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Full citations. Every claim above links to one of these by its id.</p></div><Sources sources={d.sources} /></section>}
         <section id="card"><h2>Reference card</h2><RefCard record={d} reg={reg} path={path} /></section>
         {(inStacks.length > 0 || inComparisons.length > 0 || peerEntries.length > 0) && (

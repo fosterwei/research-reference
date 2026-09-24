@@ -13,10 +13,10 @@
   "slug": "ipamorelin",
   "status": "draft",
   "evidence_tier": "human-clinical-trial",
-  "summary": "Ipamorelin is a peptide in the ghrelin mimetics class (ghrelin receptor, or GHS-R1a, agonist) studied in human and preclinical research. Europe PMC indexes 63 publications naming Ipamorelin or a listed alias in a title or abstract as of 2026-09-14. The current ledger contains 2 human clinical studies, both randomized, alongside animal, analytical, and in-vitro records. That publication count is a discovery measure, not proof of efficacy or safety. The cited human evidence is limited and mixed: one postoperative-ileus trial reported no significant difference from placebo in its key efficacy analyses. This page reports what the studies state, sentence by sentence, with each statement tied to its source and labeled by evidence type. It does not recommend use or translate study doses into personal instructions.",
+  "summary": "Ipamorelin is a peptide in the ghrelin mimetics class (ghrelin receptor (GHS-R1a) agonist). Europe PMC indexes 63 publications naming it or a listed alias in a title or abstract, including 2 randomized controlled trials and 2 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "Ipamorelin: what the research shows",
-    "description": "Ipamorelin research: 63 indexed publications, 2 human clinical studies, and limited mixed evidence. Every claim is source-linked; nothing is advice."
+    "description": "Ipamorelin research, cited: 63 indexed publications, 2 randomized trials. Evidence tier on every claim; nothing is advice."
   },
   "evidence_assessment": {
     "availability": "Human clinical research",
@@ -60,7 +60,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 2012: administration by intravenous route reported. Following the surgery rats received ipamorelin (0.014-0.14 µmol/kg) or vehicle control via intravenous administration.",
+        "value": "Animal study, rats, 2012: administration by intragastric, intravenous route reported. Following the surgery rats received ipamorelin (0.014-0.14 µmol/kg) or vehicle control via intravenous administration.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-27186127"
@@ -116,7 +116,17 @@
         "drafting": "extractive"
       }
     ],
-    "escalation_schedules": [],
+    "escalation_schedules": [
+      {
+        "value": "Randomized controlled trial, humans, 1999: A trial was conducted with a dose escalation design comprising 5 different infusion rates (4.21, 14.02, 42.13, 84.27 and 140.45 nmol/kg over 15 minutes) with eight healthy male subjects at each dose level.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10496658"
+        ],
+        "source_excerpt": "A trial was conducted with a dose escalation design comprising 5 different infusion rates (4.21, 14.02, 42.13, 84.27 and 140.45 nmol/kg over 15 minutes) with eight healthy male subjects at each dose level.",
+        "drafting": "extractive"
+      }
+    ],
     "interactions": [
       {
         "value": "Animal study, rats, 2026: Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA…",
@@ -126,28 +136,37 @@
         ],
         "source_excerpt": "Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines.",
         "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2024: The administration of either 5 or 30 µg of IPA for 21 days led to a significant and dose-dependent rise in food intake concomitant with a significant increase in the numbers of primary spermatocytes, secondary spermatocytes, and early spermatids compared to the control group.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-38996787"
+        ],
+        "source_excerpt": "The administration of either 5 or 30 µg of IPA for 21 days led to a significant and dose-dependent rise in food intake concomitant with a significant increase in the numbers of primary spermatocytes, secondary spermatocytes, and early spermatids compared to the control group.",
+        "drafting": "extractive"
       }
     ],
     "exclusion_criteria": [],
     "adverse_events": [
       {
-        "value": "Randomized controlled trial, humans, n=114, 2014: Overall incidence of any treatment-emergent adverse events was 87.5 % in the ipamorelin group and 94.8 % in placebo group.",
+        "value": "Randomized controlled trial, humans, n=114, 2014: Safety was assessed by monitoring adverse events and laboratory tests.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-25331030"
         ],
-        "source_excerpt": "Overall incidence of any treatment-emergent adverse events was 87.5 % in the ipamorelin group and 94.8 % in placebo group.",
+        "source_excerpt": "Safety was assessed by monitoring adverse events and laboratory tests.",
         "drafting": "extractive"
       }
     ],
     "biomarkers_monitored": [
       {
-        "value": "Randomized controlled trial, humans, n=114, 2014: This proof-of-concept, phase 2, randomized study evaluated the safety and efficacy of the ghrelin-receptor agonist ipamorelin in the treatment of postoperative ileus following abdominal surgery (ClinicalTrials.gov NCT00672074).",
+        "value": "Randomized controlled trial, humans, n=114, 2014: Ghrelin-receptor stimulation has promotility effects in the upper and lower gastrointestinal tract.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-25331030"
         ],
-        "source_excerpt": "This proof-of-concept, phase 2, randomized study evaluated the safety and efficacy of the ghrelin-receptor agonist ipamorelin in the treatment of postoperative ileus following abdominal surgery (ClinicalTrials.gov NCT00672074).",
+        "source_excerpt": "Ghrelin-receptor stimulation has promotility effects in the upper and lower gastrointestinal tract.",
         "drafting": "extractive"
       },
       {
@@ -157,6 +176,15 @@
           "pmid-10496658"
         ],
         "source_excerpt": "To examine the pharmacokinetics (PK) and pharmacodynamics (PD) of ipamorelin, a growth hormone (GH) releasing peptide, in healthy volunteers.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, 2024: Neither of compounds administered i.p. had any effect on cisplatin-induced acute or delayed emesis, but both inhibited associated cisplatin-induced weight loss on the last day of delayed phase (48-72 h) by approximately 24 %.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39043357"
+        ],
+        "source_excerpt": "Neither of compounds administered i.p. had any effect on cisplatin-induced acute or delayed emesis, but both inhibited associated cisplatin-induced weight loss on the last day of delayed phase (48-72 h) by approximately 24 %.",
         "drafting": "extractive"
       },
       {
@@ -178,25 +206,26 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 2012: The goal of this study was to investigate whether ipamorelin, a synthetic peptidomimetic that acts on the ghrelin receptor, accelerates gastric emptying in a rodent model of gastroparesis induced by abdominal surgery and intestinal manipulation.",
+        "value": "Animal study, rats, 2012: Delayed gastric emptying is a common disorder with few effective therapeutic options.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-27186127"
         ],
-        "source_excerpt": "The goal of this study was to investigate whether ipamorelin, a synthetic peptidomimetic that acts on the ghrelin receptor, accelerates gastric emptying in a rodent model of gastroparesis induced by abdominal surgery and intestinal manipulation.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, rats, 2009: The present study investigates whether ipamorelin, a selective growth hormone secretagogue and agonist of the ghrelin receptor, would accelerate gastrointestinal transit and ameliorate the symptoms in a rodent model of postoperative ileus (POI).",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-19289567"
-        ],
-        "source_excerpt": "The present study investigates whether ipamorelin, a selective growth hormone secretagogue and agonist of the ghrelin receptor, would accelerate gastrointestinal transit and ameliorate the symptoms in a rodent model of postoperative ileus (POI).",
+        "source_excerpt": "Delayed gastric emptying is a common disorder with few effective therapeutic options.",
         "drafting": "extractive"
       }
     ],
-    "reported_timelines": [],
+    "reported_timelines": [
+      {
+        "value": "Randomized controlled trial, humans, 1999: The PK parameters showed dose-proportionality, with a short terminal half-life of 2 hours, a clearance of 0.078 L/h/kg and a volume of distribution at steady-state of 0.22 L/kg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10496658"
+        ],
+        "source_excerpt": "The PK parameters showed dose-proportionality, with a short terminal half-life of 2 hours, a clearance of 0.078 L/h/kg and a volume of distribution at steady-state of 0.22 L/kg.",
+        "drafting": "extractive"
+      }
+    ],
     "storage": [
       {
         "value": "Analytical method, humans, 2017: The spray-coated chemical stabilization mixture was tested against microorganism elimination and steroid glucuronide degradation, as well as enzymatic breakdown of proteins, such as intact hCG, recombinant erythropoietin and small peptides (GHRPs, ipamorelin), induced by proteolytic enzymes.",
@@ -357,12 +386,12 @@
         }
       },
       {
-        "value": "Animal study, 2024: The objective of this study was to examine the impact of ipamorelin acetate (IPA), a ghrelin agonist, on the reproductive axis of the tilapia Oreochromis mossambicus.",
+        "value": "Animal study, 2024: Ghrelin, a peptide found in the brain and gut, is predicted to play a significant role in the control of various physiological systems in fish.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-38996787"
         ],
-        "source_excerpt": "The objective of this study was to examine the impact of ipamorelin acetate (IPA), a ghrelin agonist, on the reproductive axis of the tilapia Oreochromis mossambicus.",
+        "source_excerpt": "Ghrelin, a peptide found in the brain and gut, is predicted to play a significant role in the control of various physiological systems in fish.",
         "drafting": "extractive",
         "fields": {
           "study": "Gouda 2024",
@@ -471,7 +500,7 @@
           "n": null,
           "species": "Rats",
           "dose": "not stated in abstract",
-          "route": "intravenous",
+          "route": "intragastric, intravenous",
           "duration": "not stated in abstract",
           "outcome": "In a separate group of rats subjected to laparotomy and intestinal manipulation, the gastric fundus was isolated and tissue segments were suspended in an organ bath to assess the effect of ipamorelin (1 µM) on gastric…"
         }
@@ -631,7 +660,7 @@
           "n": null,
           "species": "Rats",
           "dose": "not stated in abstract",
-          "route": "intranasal",
+          "route": "intranasal, intravenous",
           "duration": "not stated in abstract",
           "outcome": "Ipamorelin differed markedly from the other peptides investigated, demonstrating a systemic plasma clearance 5-fold lower than that of GHRP-6."
         }
@@ -739,17 +768,15 @@
     "drafting": {
       "method": "extractive",
       "script": "scripts/draft_claims.py",
-      "date": "2026-09-15",
+      "date": "2026-09-23",
       "papers_analysed": 27,
-      "claims": 22,
+      "claims": 25,
       "evidence_table_rows": 22
     }
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports dose-escalation schedules for Ipamorelin.",
-    "No study in this record's ledger reports exclusion criteria for Ipamorelin.",
-    "No study in this record's ledger reports onset or duration of effects for Ipamorelin."
+    "No study in this record's ledger reports exclusion criteria for Ipamorelin."
   ],
   "media": {
     "walkthrough_video": "",
@@ -758,11 +785,11 @@
   "faq": [
     {
       "question": "Has Ipamorelin been tested in humans?",
-      "answer": "Yes. The current ledger contains 2 human clinical studies, both randomized. One evaluated postoperative ileus and reported no significant difference from placebo in its key efficacy analyses; the other examined growth-hormone release and pharmacokinetics. These studies do not establish an approved therapeutic dose or prove efficacy for other uses."
+      "answer": "Yes. Europe PMC indexes 2 clinical trials and 2 randomized controlled trials naming Ipamorelin or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
     },
     {
       "question": "What kind of evidence exists for Ipamorelin?",
-      "answer": "The indexed literature includes human clinical, animal, analytical, and in-vitro records. Human clinical evidence is available but limited and mixed; the evidence table keeps those records separate from preclinical and measurement studies. A human-clinical label means that a study exists, not that efficacy or safety has been established."
+      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
     },
     {
       "question": "Is Ipamorelin an approved medicine?",
@@ -1013,6 +1040,10 @@
     {
       "date": "2026-09-15",
       "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 22 claims, 22 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-23",
+      "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 25 claims, 22 evidence-table rows. Status researched -> draft."
     }
   ]
 }

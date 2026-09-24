@@ -252,7 +252,21 @@ def fetch_ledger(sources: list[dict]) -> list[dict]:
 # ---- Claim extraction ---------------------------------------------------------
 
 
-def analyse(paper: dict, names: list[str]) -> dict | None:
+def single_compound_paper(paper: dict, names: list[str], other_names: list[str]) -> bool:
+    """True when the title names this compound and no other registry compound.
+
+    In such a paper every abstract sentence is about this compound, so the
+    per-sentence naming requirement (which exists to keep comparator and
+    background statements out of claims) would only lose evidence: "The PK
+    parameters showed ... a short terminal half-life of 2 hours" in a paper
+    titled "Pharmacokinetic-pharmacodynamic modeling of ipamorelin" is a
+    claim about ipamorelin. Multi-compound papers keep the strict rule.
+    """
+    title = strip_tags(paper.get("title"))
+    return mentions(title, names) and not mentions(title, [n for n in other_names if not mentions(n, names)])
+
+
+def analyse(paper: dict, names: list[str], other_names: list[str] | None = None) -> dict | None:
     tier, species = classify(paper)
     if tier not in TIER_ORDER:
         return None
@@ -274,7 +288,8 @@ def analyse(paper: dict, names: list[str]) -> dict | None:
     sid = f"pmid-{paper['pmid']}" if paper.get("pmid") else None
     if not sid:
         return None
-    named = [s for s in sents if mentions(s, names)] or sents
+    single = single_compound_paper(paper, names, other_names or [])
+    named = sents if single else ([s for s in sents if mentions(s, names)] or sents)
     routes = sorted({name for name, rx in ROUTE_RE.items() if any(rx.search(s) for s in named)})
     doses = []
     for s in sents:
@@ -297,7 +312,7 @@ def analyse(paper: dict, names: list[str]) -> dict | None:
     # for ipamorelin here).
     outcome = (next((s for s in sents[half:] if OUTCOME.search(s) and mentions(s, names)), None)
                or next((s for s in sents if OUTCOME.search(s) and mentions(s, names)), None))
-    return dict(id=sid, tier=tier, species=species, design=design, n=n, year=year, sents=sents, named=named,
+    return dict(id=sid, tier=tier, species=species, design=design, n=n, year=year, sents=sents, named=named, single=single,
                 routes=routes, doses=doses, perkg=perkg, durations=durations, outcome=outcome,
                 author=first_author(paper), pre=prefix(design, species, n, year))
 
@@ -329,8 +344,8 @@ def pick(sents_named: list[str], sents_all: list[str], rx: re.Pattern, strong: r
     return None
 
 
-def draft_sections(papers: list[dict], names: list[str]) -> dict[str, list[dict]]:
-    analysed = [a for a in (analyse(p, names) for p in papers) if a]
+def draft_sections(papers: list[dict], names: list[str], other_names: list[str] | None = None) -> dict[str, list[dict]]:
+    analysed = [a for a in (analyse(p, names, other_names) for p in papers) if a]
     analysed.sort(key=lambda a: (tier_rank(a["tier"]), -int(a["year"] or 0)))
     out: dict[str, list[dict]] = {k: [] for k in [
         "routes_studied", "study_doses", "study_durations", "weight_normalized_doses",
@@ -355,7 +370,7 @@ def draft_sections(papers: list[dict], names: list[str]) -> dict[str, list[dict]
             # Only sentences that name the compound. A topical sentence that does
             # not name it is usually background about other agents, and under
             # this heading it would read as a claim about the compound.
-            named_only = a["named"] if a["named"] is not a["sents"] else []
+            named_only = a["sents"] if a["single"] else (a["named"] if a["named"] is not a["sents"] else [])
             s = pick(named_only, [], AE_STRONG if field == "adverse_events" else rx)
             if s:
                 out[field].append(claim(a, a["pre"] + s, s))
@@ -462,7 +477,8 @@ def draft_compound(path: pathlib.Path, force: bool) -> str:
         return f"skip ({status})"
     papers = fetch_ledger(record.get("sources", []))
     names = [record["preferred_name"], *record.get("aliases", [])]
-    sections = draft_sections(papers, names) if papers else {}
+    other_names = [c["name"] for c in REGISTRY["compounds"] if c["slug"] != record["slug"]]
+    sections = draft_sections(papers, names, other_names) if papers else {}
     attrs = record.setdefault("attributes", {})
     for field, claims in sections.items():
         attrs[field] = claims
