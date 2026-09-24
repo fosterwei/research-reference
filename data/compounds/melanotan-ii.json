@@ -11,8 +11,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "Melanotan II is a peptide in the melanocortin agonists class (non-selective melanocortin receptor agonist). Europe PMC indexes 646 publications naming it or a listed alias in a title or abstract, including 1 randomized controlled trials and 6 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "Melanotan II: what the research shows",
-    "description": "Melanotan II research, cited: 646 indexed publications, 1 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Melanotan II (Tanning Injections): Trials, Doses, Risks",
+    "description": "Melanotan 2: no tanning trial exists. Four erection studies, trial doses, side effects, case reports, how PT-141 and Scenesse differ, and legality."
   },
   "attributes": {
     "routes_studied": [
@@ -62,18 +62,24 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 2019: administration by intraperitoneal route reported. During the experimental period (15 days), glyphosate (50 mg/kg b.w.) was administered every two days by intraperitoneal way while quercetin (20 mg/kg b.w./day) was administered daily by gavage.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-30821249"
-        ],
-        "source_excerpt": "During the experimental period (15 days), glyphosate (50 mg/kg b.w.) was administered every two days by intraperitoneal way while quercetin (20 mg/kg b.w./day) was administered daily by gavage.",
-        "drafting": "extractive"
+        "value": "Nasal sprays have never been studied; the one published account is the 2025 mucosal melanoma case report.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
       }
     ],
     "study_doses": [
       {
-        "value": "Randomized controlled trial, humans, 2000: doses stated in the abstract: 0.025 mg/kg. Melanotan II (0.025 mg/kg) and vehicle were each administered twice by subcutaneous injection; real-time RigiScan monitoring and a visual analog were used to quantify the erections during a 6-hour period.",
+        "value": "In the phase 1 pilot, three men received 0.01 mg/kg subcutaneously on alternate weekdays for two weeks, escalated to 0.025 or 0.03 mg/kg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8637402"
+        ],
+        "source_excerpt": "A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II. Subcutaneous injections of MT-II or saline were given daily (Monday-Friday) for 2 consecutive weeks. Two subjects were escalated by 0.005 mg/kg increments to 0.03 mg/kg and one to 0.025 mg/kg.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Men with erectile dysfunction received 0.025 mg/kg subcutaneously, twice each for drug and placebo.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-11018622"
@@ -82,59 +88,32 @@
         "drafting": "extractive"
       },
       {
-        "value": "Phase 1 clinical trial, humans, 1996: doses stated in the abstract: 0.01 mg/kg; 0.025 mg/kg/day. A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II.",
+        "value": "The 1998 trial in ten men with psychogenic erectile dysfunction used the same 0.025 mg/kg dose.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-8637402"
+          "pmid-9679884"
         ],
-        "source_excerpt": "A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II.",
+        "source_excerpt": "Melanotan-II is a potent initiator of erections in men with psychogenic erectile dysfunction and has manageable side effects at a dose of 0.025 mg./kg.",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, 2018: doses stated in the abstract: 120 μg. After the mice recovered from surgery and stable baseline measurements, the MC3/4R agonist melanotan II (MTII, 120 μg·kg -1 ·day -1 iv) was infused for 7 days followed by a recovery period.",
+        "value": "In mice, 120 micrograms per kilogram a day by intravenous infusion for seven days reduced food intake and transiently raised blood pressure and heart rate.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-29351428"
         ],
-        "source_excerpt": "After the mice recovered from surgery and stable baseline measurements, the MC3/4R agonist melanotan II (MTII, 120 μg·kg -1 ·day -1 iv) was infused for 7 days followed by a recovery period.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, mice, 2014: doses stated in the abstract: 0.3 mg/kg per day. Approach and results Low-density lipoprotein receptor-deficient mice expressing only apolipoprotein B100 were fed a high-fat diet for 8 or 16 weeks and treated with either vehicle or a stable melanocortin analog, melanotan II (MT-II, 0.3 mg/kg per day, 4 weeks).",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-24790139"
-        ],
-        "source_excerpt": "Approach and results Low-density lipoprotein receptor-deficient mice expressing only apolipoprotein B100 were fed a high-fat diet for 8 or 16 weeks and treated with either vehicle or a stable melanocortin analog, melanotan II (MT-II, 0.3 mg/kg per day, 4 weeks).",
-        "drafting": "extractive"
-      },
-      {
-        "value": "In vitro study, 2015: doses stated in the abstract: 10 mg. The total amount of melanotan II in vials ranged between 4.32 and 8.84 mg, although each shop claimed that vials contained 10 mg melanotan II.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-24771717"
-        ],
-        "source_excerpt": "The total amount of melanotan II in vials ranged between 4.32 and 8.84 mg, although each shop claimed that vials contained 10 mg melanotan II.",
+        "source_excerpt": "the MC3/4R agonist melanotan II (MTII, 120 μg·kg -1 ·day -1  iv) was infused for 7 days followed by a recovery period.",
         "drafting": "extractive"
       }
     ],
     "escalation_schedules": [
       {
-        "value": "Animal study, dogs, 2020: Titration of the antiviral effect against Dengue virus revealed Mt-I to be highly potent (IC 50 0.5-2 ng/mL), whereas Mt-II was 1000-fold weaker.",
-        "evidence_label": "animal-preclinical",
+        "value": "The phase 1 pilot escalated by 0.005 mg/kg steps from 0.01 mg/kg to 0.025 or 0.03 mg/kg over two weeks.",
+        "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-31839332"
+          "pmid-8637402"
         ],
-        "source_excerpt": "Titration of the antiviral effect against Dengue virus revealed Mt-I to be highly potent (IC 50 0.5-2 ng/mL), whereas Mt-II was 1000-fold weaker.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "In vitro study, 1986: 113Cd n.m.r. allows direct observation of the effects on bound Cd of stepwise titration of 113Cd-MT-II with pHOHgBzO-.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-3718492"
-        ],
-        "source_excerpt": "113Cd n.m.r. allows direct observation of the effects on bound Cd of stepwise titration of 113Cd-MT-II with pHOHgBzO-.",
+        "source_excerpt": "Two subjects were escalated by 0.005 mg/kg increments to 0.03 mg/kg and one to 0.025 mg/kg.",
         "drafting": "extractive"
       }
     ],
@@ -147,30 +126,12 @@
         ],
         "source_excerpt": "In the present report, a mouse model of binge EtOH drinking was employed to determine whether the MCR agonist, melanotan-II (MTII), would improve the effectiveness of NAL in reducing excessive binge-like EtOH drinking when these drugs were co-administered prior to EtOH access.",
         "drafting": "extractive"
-      },
-      {
-        "value": "In vitro study, humans, n=205, 2021: Melanotan II (MT II) is a synthetic analogue of α-melanocyte-stimulating hormone that, via interaction with the melanocortin 1 receptor, induces skin hyperpigmentation.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-34464955"
-        ],
-        "source_excerpt": "Melanotan II (MT II) is a synthetic analogue of α-melanocyte-stimulating hormone that, via interaction with the melanocortin 1 receptor, induces skin hyperpigmentation.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "In vitro study, 2020: The drug-MT-II conjugates maintain strong binding interactions to MC1R and induce selective drug delivery to A375 melanoma cells through its MT-II moiety in vitro .",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-33073191"
-        ],
-        "source_excerpt": "The drug-MT-II conjugates maintain strong binding interactions to MC1R and induce selective drug delivery to A375 melanoma cells through its MT-II moiety in vitro .",
-        "drafting": "extractive"
       }
     ],
     "exclusion_criteria": [],
     "adverse_events": [
       {
-        "value": "Controlled clinical trial, humans, n=20, 2000: Nausea and yawning were frequently reported side effects due to Melanotan II; at a dose of 0.025 mg/kg, 12.9% of subjects had severe nausea.",
+        "value": "At 0.025 mg/kg, nausea and yawning were frequent and one in eight subjects had severe nausea.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-11035391"
@@ -179,16 +140,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, 2000: Nausea and stretching/yawning occurred more frequently with Melanotan II, and 4 of 19 injections were associated with severe nausea.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-11018622"
-        ],
-        "source_excerpt": "Nausea and stretching/yawning occurred more frequently with Melanotan II, and 4 of 19 injections were associated with severe nausea.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Controlled clinical trial, humans, n=10, 1998: Transient side effects of nausea, stretching and yawning, and decreased appetite were reported more frequently after injections of Melanotan-II than placebo but none required treatment.",
+        "value": "Nausea, stretching and yawning, and decreased appetite were more frequent than placebo in the 1998 trial; none needed treatment.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-9679884"
@@ -197,92 +149,80 @@
         "drafting": "extractive"
       },
       {
-        "value": "Phase 1 clinical trial, humans, 1996: Mild nausea, not requiring antiemetic treatment, was reported at most MT-II dose levels.",
+        "value": "The 0.03 mg/kg dose caused grade II sleepiness and fatigue in one of two men; mild nausea occurred at most doses.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-8637402"
         ],
-        "source_excerpt": "Mild nausea, not requiring antiemetic treatment, was reported at most MT-II dose levels.",
+        "source_excerpt": "The 0.03 mg/kg dose produced Grade II somnolence and fatigue in one of two subjects (WHO standards). Mild nausea, not requiring antiemetic treatment, was reported at most MT-II dose levels.",
         "drafting": "extractive"
       },
       {
-        "value": "Case report, humans, 2026: Despite its popularity, particularly through promotion on social media, Melanotan II remains unregulated, and its use is associated with a range of potential adverse effects.",
+        "value": "A 2026 case report describes symmetrical brown pigmentation of the gums and cheeks after 64 days of self-injection for tanning.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-41752902"
         ],
-        "source_excerpt": "Despite its popularity, particularly through promotion on social media, Melanotan II remains unregulated, and its use is associated with a range of potential adverse effects.",
+        "source_excerpt": "During the initial intraoral examination, brown pigmentation was observed on the attached gingiva in both the maxillary and mandibular arches. The lesions were almost symmetrically distributed, with a more intense coloration in the anterior region of the lower jaw.",
         "drafting": "extractive"
       },
       {
-        "value": "Case report, humans, 2025: This report highlights the need for awareness of the possible serious side effects associated with Melanotan II nasal spray.",
+        "value": "A 2025 case report describes a mucosal malignant melanoma of the upper jaw in a 22-year-old woman who had used melanotan II nasal spray for tanning.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-40210573"
         ],
-        "source_excerpt": "This report highlights the need for awareness of the possible serious side effects associated with Melanotan II nasal spray.",
-        "drafting": "extractive"
-      }
-    ],
-    "biomarkers_monitored": [
-      {
-        "value": "Phase 1 clinical trial, humans, 1996: A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-8637402"
-        ],
-        "source_excerpt": "A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II.",
+        "source_excerpt": "The case of a 22-year-old female who developed a mass in the anterior maxilla after using Melanotan II, a nasal spray containing a synthetic analogue of melanocyte-stimulating hormone, is reported. The patient had used the nasal spray for tanning purposes.",
         "drafting": "extractive"
       },
       {
-        "value": "Case report, humans, 2024: Fortunately, the vials were labeled as \"Melanotan II\", although the UV spectrum was not available.",
+        "value": "Ischaemic priapism requiring surgical decompression followed a subcutaneous injection in a 2021 case report, the third such report.",
         "evidence_label": "observational-human",
         "source_ids": [
-          "pmid-39302005"
+          "pmid-33460908"
         ],
-        "source_excerpt": "Fortunately, the vials were labeled as \"Melanotan II\", although the UV spectrum was not available.",
+        "source_excerpt": "We describe in this case report a patient presenting with acute ischemic priapism after subcutaneous injection of melanotan II.",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2022: There was no development of conditioned taste avoidance or change in metabolic parameters following anorexic doses of MT-II.",
-        "evidence_label": "animal-preclinical",
+        "value": "Online vials analysed in 2015 contained 4.3 to 8.8 mg of melanotan II with impurities up to 5.9 percent from two of three shops.",
+        "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
-          "pmid-36155088"
+          "pmid-24771717"
         ],
-        "source_excerpt": "There was no development of conditioned taste avoidance or change in metabolic parameters following anorexic doses of MT-II.",
+        "source_excerpt": "Vials from two shops contained unknown impurities ranging from 4.1 to 5.9%; impurities from one shop were below the quantification limit. The total amount of melanotan II in vials ranged between 4.32 and 8.84 mg",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2021: Consistent with MC4R activation in other areas of the brain, we found that Mes5 microinjection of the MC4R agonist melanotan-II (MTII) suppresses food intake and body weight in the mouse.",
+        "value": "In mice, melanotan II causes profound transient hypothermia by activating mast cells and releasing histamine, independent of the melanocortin receptors.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
-          "pmid-34068091"
+          "pmid-29812984"
         ],
-        "source_excerpt": "Consistent with MC4R activation in other areas of the brain, we found that Mes5 microinjection of the MC4R agonist melanotan-II (MTII) suppresses food intake and body weight in the mouse.",
+        "source_excerpt": "Intraperitoneal administration of the melanocortin agonist melanotan II (MTII) to mice causes a profound, transient hypometabolism/hypothermia.",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2019: Normal background C57 male mice treated with MT-II showed no significant alteration in social behavioral metrics.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-30629642"
-        ],
-        "source_excerpt": "Normal background C57 male mice treated with MT-II showed no significant alteration in social behavioral metrics.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, mice, 2017: In contrast, neither melanotan II nor AgRP altered the optogenetically evoked release of catecholamines from isolated chromaffin cells.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-28531318"
-        ],
-        "source_excerpt": "In contrast, neither melanotan II nor AgRP altered the optogenetically evoked release of catecholamines from isolated chromaffin cells.",
-        "drafting": "extractive"
+        "value": "Melanoma risk is the question the trials could not address and the case reports cannot settle. Melanotan II acts on the receptor that governs melanocyte pigment production, reliably darkens and enlarges moles, and has been the subject of melanoma case reports since 2012 (not yet in the ledger) in users who also used sunbeds; the 2025 oral mucosal melanoma after nasal use is the first in a site the sun does not reach. Rhabdomyolysis at overdose is described in case reports vendors cite that are not in the ledger. No cohort has been followed, so the risk is neither measured nor excluded.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
+    "biomarkers_monitored": [],
     "reported_timelines": [
       {
-        "value": "Phase 1 clinical trial, humans, 1996: A stretching and yawning complex appeared to correlate with the onset of spontaneous, penile erections which were intermittently experienced for 1-5 hours after MT-II dosing, depending on the MT-II dose.",
+        "value": "Erections lasted about 38 to 45 minutes of full rigidity within a six-hour window after a dose.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11018622"
+        ],
+        "source_excerpt": "The mean duration of tip rigidity greater than 80% was 45.3 minutes with Melanotan II versus 1.9 for placebo (P = 0.047).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Spontaneous erections came intermittently for one to five hours after dosing, preceded by stretching and yawning.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-8637402"
@@ -291,103 +231,74 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, 2018: In study 2, rats fed a HFD were administered a long-acting α-MSH analog at either light onset [melanotan II (MTII) light] or dark onset (MTII dark) or saline (Control).",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-30024775"
-        ],
-        "source_excerpt": "In study 2, rats fed a HFD were administered a long-acting α-MSH analog at either light onset [melanotan II (MTII) light] or dark onset (MTII dark) or saline (Control).",
-        "drafting": "extractive"
-      }
-    ],
-    "storage": [
-      {
-        "value": "Animal study, 2000: In a similar reconstitution experiment performed with Caenorhabditis elegans MT-II, a series of signals corresponding to apoMT and Cd3MT to Cd6MT species were observed.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-10716192"
-        ],
-        "source_excerpt": "In a similar reconstitution experiment performed with Caenorhabditis elegans MT-II, a series of signals corresponding to apoMT and Cd3MT to Cd6MT species were observed.",
-        "drafting": "extractive"
-      }
-    ],
-    "study_durations": [
-      {
-        "value": "Phase 1 clinical trial, humans, 1996: durations stated: 1 week. Two subjects had increased pigmentation in the face, upper body and buttock, as measured by quantitative reflectance and by visual perception 1 week after MT-II dosing ended.",
+        "value": "Pigmentation appeared within the two-week pilot in two of three men.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-8637402"
         ],
-        "source_excerpt": "Two subjects had increased pigmentation in the face, upper body and buttock, as measured by quantitative reflectance and by visual perception 1 week after MT-II dosing ended.",
+        "source_excerpt": "Two subjects had increased pigmentation in the face, upper body and buttock",
         "drafting": "extractive"
       },
       {
-        "value": "Case report, humans, 2026: durations stated: 64 days. This case report presents a three-month follow-up of a patient who self-administered Melanotan II injections over a period of 64 days with the goal of achieving a deeper tanning effect.",
+        "value": "In rats, oral bioavailability was 4.6 percent, which the developers read as a possible oral route.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-7983590"
+        ],
+        "source_excerpt": "These data, together with the observance of a bioavailability of 4.6% in the rat, indicate that 1 may be a suitable candidate for oral delivery.",
+        "drafting": "extractive"
+      }
+    ],
+    "storage": [],
+    "study_durations": [
+      {
+        "value": "Two weeks of alternate-day dosing in the pilot; single doses with six hours of monitoring in the erection trials.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8637402"
+        ],
+        "source_excerpt": "Subcutaneous injections of MT-II or saline were given daily (Monday-Friday) for 2 consecutive weeks.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The 2026 case report followed a user who injected for 64 days, then for three months after stopping.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-41752902"
         ],
         "source_excerpt": "This case report presents a three-month follow-up of a patient who self-administered Melanotan II injections over a period of 64 days with the goal of achieving a deeper tanning effect.",
         "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, rats, 2019: durations stated: 15 days. During the experimental period (15 days), glyphosate (50 mg/kg b.w.) was administered every two days by intraperitoneal way while quercetin (20 mg/kg b.w./day) was administered daily by gavage.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-30821249"
-        ],
-        "source_excerpt": "During the experimental period (15 days), glyphosate (50 mg/kg b.w.) was administered every two days by intraperitoneal way while quercetin (20 mg/kg b.w./day) was administered daily by gavage.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, 2018: durations stated: 7 days; 1 wk. After the mice recovered from surgery and stable baseline measurements, the MC3/4R agonist melanotan II (MTII, 120 μg·kg -1 ·day -1 iv) was infused for 7 days followed by a recovery period.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-29351428"
-        ],
-        "source_excerpt": "After the mice recovered from surgery and stable baseline measurements, the MC3/4R agonist melanotan II (MTII, 120 μg·kg -1 ·day -1 iv) was infused for 7 days followed by a recovery period.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, mice, 2014: durations stated: 16 weeks; 4 weeks. Approach and results Low-density lipoprotein receptor-deficient mice expressing only apolipoprotein B100 were fed a high-fat diet for 8 or 16 weeks and treated with either vehicle or a stable melanocortin analog, melanotan II (MT-II, 0.3 mg/kg per day, 4 weeks).",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-24790139"
-        ],
-        "source_excerpt": "Approach and results Low-density lipoprotein receptor-deficient mice expressing only apolipoprotein B100 were fed a high-fat diet for 8 or 16 weeks and treated with either vehicle or a stable melanocortin analog, melanotan II (MT-II, 0.3 mg/kg per day, 4 weeks).",
-        "drafting": "extractive"
       }
     ],
     "weight_normalized_doses": [
       {
-        "value": "Randomized controlled trial, humans, 2000: weight-normalized doses as published: 0.025 mg/kg. Melanotan II (0.025 mg/kg) and vehicle were each administered twice by subcutaneous injection; real-time RigiScan monitoring and a visual analog were used to quantify the erections during a 6-hour period.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-11018622"
-        ],
-        "source_excerpt": "Melanotan II (0.025 mg/kg) and vehicle were each administered twice by subcutaneous injection; real-time RigiScan monitoring and a visual analog were used to quantify the erections during a 6-hour period.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Phase 1 clinical trial, humans, 1996: weight-normalized doses as published: 0.01 mg/kg; 0.025 mg/kg/day. A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II.",
+        "value": "0.01 to 0.03 mg/kg subcutaneous in the phase 1 pilot; 0.025 mg/kg in the erection trials.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-8637402"
         ],
-        "source_excerpt": "A single-blind, alternating day (saline or MT-II), placebo-controlled trial was conducted in 3 normal male volunteers at the starting dose of 0.01 mg/kg of MT-II.",
+        "source_excerpt": "Two subjects were escalated by 0.005 mg/kg increments to 0.03 mg/kg and one to 0.025 mg/kg.",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2014: weight-normalized doses as published: 0.3 mg/kg per day. Approach and results Low-density lipoprotein receptor-deficient mice expressing only apolipoprotein B100 were fed a high-fat diet for 8 or 16 weeks and treated with either vehicle or a stable melanocortin analog, melanotan II (MT-II, 0.3 mg/kg per day, 4…",
+        "value": "120 micrograms per kilogram a day intravenous in mice.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
-          "pmid-24790139"
+          "pmid-29351428"
         ],
-        "source_excerpt": "Approach and results Low-density lipoprotein receptor-deficient mice expressing only apolipoprotein B100 were fed a high-fat diet for 8 or 16 weeks and treated with either vehicle or a stable melanocortin analog, melanotan II (MT-II, 0.3 mg/kg per day, 4 weeks).",
+        "source_excerpt": "melanotan II (MTII, 120 μg·kg -1 ·day -1  iv)",
         "drafting": "extractive"
       }
     ],
-    "regulatory_status": [],
+    "regulatory_status": [
+      {
+        "value": "Never approved anywhere and never submitted. Development at Competitive Technologies and the University of Arizona ended in the early 2000s; the erection programme became bremelanotide (Vyleesi, approved 2019) and the tanning programme became afamelanotide (Scenesse, approved in the EU in 2014 and by FDA in 2019 for erythropoietic protoporphyria), both different molecules. Melanotan II is an unlicensed medicine whose sale is illegal in the United Kingdom (MHRA warning, 2008), Australia and the United States (FDA warning letter, 2009); it is sold anyway as a research chemical and, increasingly, as a nasal spray. Not named on the WADA Prohibited List; as an unapproved substance it falls under S0, and its appetite and pigment effects give it no sporting rationale.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Controlled clinical trial, humans, n=20, 2000: Increased sexual desire was reported after 13/19 (68%) doses of Melanotan II vs 4/21 (19%) of placebo (P<0.01).",
@@ -470,26 +381,6 @@
         }
       },
       {
-        "value": "Human study, humans, 2026: TT/DD was associated with hypertension in crude analysis (OR 2.67, 95% CI 1.38-5.40; p = 0.002) and remained associated after adjustment (adjusted OR 3.26, 95% CI 1.53-6.92; p = 0.002).",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-42310546"
-        ],
-        "source_excerpt": "TT/DD was associated with hypertension in crude analysis (OR 2.67, 95% CI 1.38-5.40; p = 0.002) and remained associated after adjustment (adjusted OR 3.26, 95% CI 1.53-6.92; p = 0.002).",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Tran 2026",
-          "year": "2026",
-          "design": "Human study",
-          "n": null,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "TT/DD was associated with hypertension in crude analysis (OR 2.67, 95% CI 1.38-5.40; p = 0.002) and remained associated after adjustment (adjusted OR 3.26, 95% CI 1.53-6.92; p = 0.002)."
-        }
-      },
-      {
         "value": "Case report, humans, 2026: The lesions were almost symmetrically distributed, with a more intense coloration in the anterior region of the lower jaw.",
         "evidence_label": "observational-human",
         "source_ids": [
@@ -507,26 +398,6 @@
           "route": "oral",
           "duration": "64 days",
           "outcome": "The lesions were almost symmetrically distributed, with a more intense coloration in the anterior region of the lower jaw."
-        }
-      },
-      {
-        "value": "Human study, humans, n=36, 2025: This study may enhance our understanding of how hd-tDCS can induce reading improvement and guide neurobiological-based interventions for children and adolescents with DD.",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-40624571"
-        ],
-        "source_excerpt": "This study may enhance our understanding of how hd-tDCS can induce reading improvement and guide neurobiological-based interventions for children and adolescents with DD.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Somma 2025",
-          "year": "2025",
-          "design": "Human study",
-          "n": 36,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "This study may enhance our understanding of how hd-tDCS can induce reading improvement and guide neurobiological-based interventions for children and adolescents with DD."
         }
       },
       {
@@ -607,26 +478,6 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "see source"
-        }
-      },
-      {
-        "value": "Animal study, mice, 2025: However, incubation of C2C12 myotubes in culture with the RyR1 antagonist dantrolene did not reduce the extent of cytotoxicity induced by Mt-II, suggesting that the RyR1-mediated increase in cytosolic Ca 2+ does not contribute to the overall myotoxicity of this toxin.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-40983303"
-        ],
-        "source_excerpt": "However, incubation of C2C12 myotubes in culture with the RyR1 antagonist dantrolene did not reduce the extent of cytotoxicity induced by Mt-II, suggesting that the RyR1-mediated increase in cytosolic Ca 2+ does not contribute to the overall myotoxicity of this toxin.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Szentesi 2025",
-          "year": "2025",
-          "design": "Animal study",
-          "n": null,
-          "species": "Mice",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "However, incubation of C2C12 myotubes in culture with the RyR1 antagonist dantrolene did not reduce the extent of cytotoxicity induced by Mt-II, suggesting that the RyR1-mediated increase in cytosolic Ca 2+ does not…"
         }
       },
       {
@@ -810,46 +661,6 @@
         }
       },
       {
-        "value": "Animal study, dogs, 2020: We evaluated the antiviral action of Mt-I (catalytically-active sPLA 2 ) and Mt-II (catalytically-inactive variant) isolated from the venom of Bothrops asper, against a diverse group of viruses.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-31839332"
-        ],
-        "source_excerpt": "We evaluated the antiviral action of Mt-I (catalytically-active sPLA 2 ) and Mt-II (catalytically-inactive variant) isolated from the venom of Bothrops asper, against a diverse group of viruses.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Brenes 2020",
-          "year": "2020",
-          "design": "Animal study",
-          "n": null,
-          "species": "Dogs",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "see source"
-        }
-      },
-      {
-        "value": "Animal study, rats, 2019: The present work evaluated the possible protective effects of quercetin against glyphosate-induced hepatotoxicity in adult rats.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-30821249"
-        ],
-        "source_excerpt": "The present work evaluated the possible protective effects of quercetin against glyphosate-induced hepatotoxicity in adult rats.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Soudani 2019",
-          "year": "2019",
-          "design": "Animal study",
-          "n": null,
-          "species": "Rats",
-          "dose": "not stated in abstract",
-          "route": "intraperitoneal",
-          "duration": "15 days",
-          "outcome": "see source"
-        }
-      },
-      {
         "value": "Animal study, mice, 2019: Normal background C57 male mice treated with MT-II showed no significant alteration in social behavioral metrics.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
@@ -889,6 +700,34 @@
           "outcome": "Interestingly, systolic and mean arterial pressure (MAP) was lower in the TRF group."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "Melanotan II is a cyclic heptapeptide, Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-NH2, built by Victor Hruby and Mac Hadley's group at the University of Arizona in the late 1980s from the active core of α-melanocyte-stimulating hormone (residues 4 to 10), with a lactam bridge for stability and a D-phenylalanine for potency. The aim was a sunless tan to prevent skin cancer. The lactam ring made it 'superpotent' at pigment receptors and, unexpectedly, at the brain's melanocortin receptors too.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "It is non-selective. At MC1 receptors on melanocytes it drives eumelanin synthesis, which darkens skin, moles, freckles and, in the 2026 case report, gums. At MC4 receptors in the hypothalamus it suppresses appetite and, through a spinal pathway, produces erections; at MC3 and MC4 it produces the yawning, stretching and nausea that every trial recorded. In mice it also triggers mast cells to release histamine through a receptor outside the melanocortin family, causing a sharp drop in temperature. Every effect users report, wanted and unwanted, is on this list.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The non-selectivity is why it was abandoned and why its descendants succeeded. The erection effect was carried forward as bremelanotide (PT-141), melanotan II's own deamidated metabolite, approved in 2019 for low sexual desire in premenopausal women. The tanning aim was carried forward as afamelanotide (melanotan I), a linear analogue selective for MC1, approved for erythropoietic protoporphyria. Melanotan II itself never had a tanning trial and was never submitted for approval anywhere.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Melanotan II circulates as 'tanning injections', 'tan jabs' or the 'Barbie drug', injected subcutaneously in a daily loading phase then weekly maintenance, and lately as nasal sprays, sold through social media and websites in defiance of prohibitions in the UK, Australia and the United States. A 2021 study of 623 forum entries catalogued the motivations (a tan without sun, confidence, appetite loss, libido) and the side effects users describe: nausea, flushing, darker and new moles and freckles, spontaneous erections, tiredness. Users also describe the uncertainty of what a vial holds, which the 2015 analysis confirmed. None of the schedules people follow was ever tested in a study; the trials dosed by body weight for erection research and stopped. The figures that circulate are not reproduced here.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -919,11 +758,14 @@
       "papers_analysed": 50,
       "claims": 39,
       "evidence_table_rows": 25
-    }
+    },
+    "hand_curation": "Thirteen sources matched by the alias 'MT-II' (metallothionein II, myotoxin II, visual area V5/MT, an angiotensinogen genotype paper) removed by hand on 2026-09-24; publication counts are the fetcher's and include them."
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports exclusion criteria for Melanotan II."
+    "No tanning trial, no study in women, no study longer than two weeks and no cohort followed for melanoma exists.",
+    "The MHRA 2008 warning, FDA 2009 warning letter, TGA position, the 2012 to 2013 melanoma case reports and the rhabdomyolysis reports are cited from summaries and are not in the ledger.",
+    "Thirteen alias-matched sources (metallothionein II, myotoxin II, V5/MT) were removed by hand; the fetcher's publication counts still include them."
   ],
   "media": {
     "walkthrough_video": "",
@@ -931,20 +773,52 @@
   },
   "faq": [
     {
-      "question": "Has Melanotan II been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 6 clinical trials and 1 randomized controlled trials naming Melanotan II or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "question": "Has melanotan II been tested in humans?",
+      "answer": "In four small studies in the 1990s, all from the University of Arizona group that made it: a two-week phase 1 pilot in three men and three double-blind erection studies in 10 to 20 men with erectile dysfunction at 0.025 mg/kg. No tanning trial was run, no woman was enrolled, and nobody was dosed for more than two weeks. Everything since is case reports of harm from unregulated use."
     },
     {
-      "question": "What kind of evidence exists for Melanotan II?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What dose was used in the trials?",
+      "answer": "0.01 mg/kg subcutaneously rising to 0.025 or 0.03 mg/kg in the pilot, and 0.025 mg/kg in the erection studies, about 1.9 mg for a 75 kg man, given as single doses under monitoring. The loading-then-maintenance schedules on vendor pages were never tested; analysed online vials held 4.3 to 8.8 mg with impurities."
     },
     {
-      "question": "Is Melanotan II an approved medicine?",
-      "answer": "No ChEMBL record matches Melanotan II or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "What are the side effects of melanotan II?",
+      "answer": "In the trials: nausea (severe in one in eight at 0.025 mg/kg), yawning and stretching, spontaneous erections lasting hours, appetite loss, skin darkening, and sleepiness at 0.03 mg/kg. In case reports: priapism needing surgery, darker and new moles, brown pigmentation of the gums, and a mucosal melanoma in the mouth after nasal use. In mice, hypothermia via histamine release."
     },
     {
-      "question": "Which species has Melanotan II been studied in?",
-      "answer": "Studies in this record's ledger report work in: Dogs, Humans, Mice, Rats, Zebrafish. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "Does melanotan II cause cancer?",
+      "answer": "Not established and not excluded. It acts on the receptor that drives melanocyte pigment, reliably changes moles, and has been linked in case reports to melanomas, most in sunbed users; a 2025 report describes an oral mucosal melanoma after nasal spray. No cohort of users has ever been followed, so the risk has not been measured in either direction."
+    },
+    {
+      "question": "What is the difference between melanotan 1 and melanotan 2?",
+      "answer": "Melanotan I is a linear α-MSH analogue selective for the pigment receptor MC1R; it became afamelanotide (Scenesse), approved for erythropoietic protoporphyria. Melanotan II is a cyclic analogue that also hits the brain's MC3 and MC4 receptors, hence erections, nausea and appetite loss; it was never approved and is the one sold for tanning."
+    },
+    {
+      "question": "Is melanotan II the same as PT-141?",
+      "answer": "No, though they are related: bremelanotide (PT-141) is melanotan II's deamidated metabolite, developed separately for its erection and desire effects and approved in 2019 for low sexual desire in premenopausal women. The approval belongs to the metabolite, not the parent."
+    },
+    {
+      "question": "Is melanotan II legal?",
+      "answer": "No. It has never been approved anywhere and is an unlicensed medicine whose sale for human use is illegal in the United Kingdom (MHRA warning 2008), Australia and the United States (FDA warning letter 2009). It is sold anyway online as a 'research chemical' and, increasingly, as a nasal spray."
+    },
+    {
+      "question": "Do melanotan II nasal sprays work?",
+      "answer": "No study has tested any nasal product. The trials used subcutaneous injection. The one published account of nasal melanotan II is a 2025 case report of a mucosal melanoma in the upper jaw of a 22-year-old who used a spray for tanning."
+    },
+    {
+      "question": "How long does melanotan II take to tan?",
+      "answer": "The only measurement is the two-week pilot, in which two of three men had visibly darker skin on the face, upper body and buttocks. Everything else about onset, depth and fade comes from users; the tan persists for weeks because it is melanin in the skin, not drug in the blood."
+    },
+    {
+      "question": "Does melanotan II help with weight loss?",
+      "answer": "In rodents it suppresses appetite through the MC4 receptor and reduces body fat, while raising heart rate and blood pressure. In men the trials recorded decreased appetite as a side effect and measured nothing about weight. No human study has tested it for fat loss."
+    },
+    {
+      "question": "Why does melanotan II cause erections and nausea?",
+      "answer": "Because it is not selective. The same MC4 receptors that suppress appetite drive erections through a spinal pathway, and MC3 and MC4 activation in the brainstem produces yawning, stretching and nausea. The inventors' erection trials exist because the pilot volunteers reported spontaneous erections."
+    },
+    {
+      "question": "Which species has melanotan II been studied in?",
+      "answer": "Humans, in four small trials; mice and rats extensively as a laboratory tool for the melanocortin system (appetite, blood pressure, hypothermia, autism and alcohol models); zebrafish; dogs. Much of the ledger is rodent pharmacology in which melanotan II is the probe, not the subject."
     }
   ],
   "sources": [
@@ -956,31 +830,10 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-42310546",
-      "title": "Combined AGT M235T-ACE I/D genotype and risk of essential hypertension in Vietnamese adults: a hospital-based case-control study.",
-      "url": "https://europepmc.org/article/MED/42310546",
-      "published": "2026-06-17",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-41752902",
       "title": "Changes in Oral Mucosa Associated with Melanotan II Injections: A Case Report.",
       "url": "https://europepmc.org/article/MED/41752902",
       "published": "2026-02-03",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-40983303",
-      "title": "Myotoxin II, a snake venom Lys49 phospholipase A 2 homolog, induces activation of the ryanodine receptor in artificial bilayers.",
-      "url": "https://europepmc.org/article/MED/40983303",
-      "published": "2025-09-20",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-40624571",
-      "title": "Detecting the contribution of V5/MT in reading, reading-related tasks, eye-movements and EEG-oscillations in children and adolescents with developmental dyslexia via high-definition tDCS: a protocol study.",
-      "url": "https://europepmc.org/article/MED/40624571",
-      "published": "2025-07-07",
       "kind": "peer-reviewed"
     },
     {
@@ -1089,31 +942,10 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-32105962",
-      "title": "Interactions between CdTe quantum dots and plasma proteins: Kinetics, thermodynamics and molecular structure changes.",
-      "url": "https://europepmc.org/article/MED/32105962",
-      "published": "2020-02-18",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-31968661",
       "title": "Topical MTII Therapy Suppresses Melanoma Through PTEN Upregulation and Cyclooxygenase II Inhibition.",
       "url": "https://europepmc.org/article/MED/31968661",
       "published": "2020-01-20",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-31839332",
-      "title": "Potent virucidal activity against Flaviviridae of a group IIA phospholipase A 2 isolated from the venom of Bothrops asper.",
-      "url": "https://europepmc.org/article/MED/31839332",
-      "published": "2019-12-12",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-30821249",
-      "title": "Glyphosate disrupts redox status and up-regulates metallothionein I and II genes expression in the liver of adult rats. Alleviation by quercetin.",
-      "url": "https://europepmc.org/article/MED/30821249",
-      "published": "2019-03-01",
       "kind": "peer-reviewed"
     },
     {
@@ -1152,24 +984,10 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-29085556",
-      "title": "Metallothionein in Brain Disorders.",
-      "url": "https://europepmc.org/article/MED/29085556",
-      "published": "2017-09-20",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-28531318",
       "title": "AgRP-Expressing Adrenal Chromaffin Cells Are Involved in the Sympathetic Response to Fasting.",
       "url": "https://europepmc.org/article/MED/28531318",
       "published": "2017-08-01",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-28490250",
-      "title": "Effects of acrylamide graded doses on metallothioneins I and II induction and DNA fragmentation: Bochemical and histomorphological changes in the liver of adult rats.",
-      "url": "https://europepmc.org/article/MED/28490250",
-      "published": "2017-05-11",
       "kind": "peer-reviewed"
     },
     {
@@ -1215,13 +1033,6 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-21599891",
-      "title": "A review of metallothionein isoforms and their role in pathophysiology.",
-      "url": "https://europepmc.org/article/MED/21599891",
-      "published": "2011-05-20",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-20935665",
       "title": "Sympathetic and sensory innervation of brown adipose tissue.",
       "url": "https://europepmc.org/article/MED/20935665",
@@ -1250,24 +1061,10 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-10716192",
-      "title": "Electrospray ionization mass spectrometry of zinc, cadmium, and copper metallothioneins: evidence for metal-binding cooperativity.",
-      "url": "https://europepmc.org/article/MED/10716192",
-      "published": "2000-02-01",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-9679884",
       "title": "Synthetic melanotropic peptide initiates erections in men with psychogenic erectile dysfunction: double-blind, placebo controlled crossover study.",
       "url": "https://europepmc.org/article/MED/9679884",
       "published": "1998-08-01",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-8751715",
-      "title": "The functional significance of brain metallothioneins.",
-      "url": "https://europepmc.org/article/MED/8751715",
-      "published": "1996-08-01",
       "kind": "peer-reviewed"
     },
     {
@@ -1278,29 +1075,15 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-7655341",
-      "title": "Expression and regulation of brain metallothionein.",
-      "url": "https://europepmc.org/article/MED/7655341",
-      "published": "1995-07-01",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-7983590",
       "title": "Preformulation studies with melanotan-II: a potential skin cancer chemopreventive peptide.",
       "url": "https://europepmc.org/article/MED/7983590",
       "published": "1994-08-01",
       "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-3718492",
-      "title": "The reaction of metallothionein with mercuribenzoate. A dialysis and 113Cd-n.m.r. study.",
-      "url": "https://europepmc.org/article/MED/3718492",
-      "published": "1986-03-01",
-      "kind": "peer-reviewed"
     }
   ],
   "related": [],
-  "uniqueness_pct": 81.6,
+  "uniqueness_pct": 87.0,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1319,6 +1102,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 50 ledger sources by scripts/draft_claims.py: 39 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Stage 0 cleaned by hand: thirteen sources and their rows matched by the alias 'MT-II' (metallothionein II, myotoxin II, V5/MT, a genotype paper) removed. Written under the sequencing rule after research/intents/melanotan-ii.json: guide (8 sections incl. a four-trial table and a case-report table), FAQ to 12 plus 8 from the map, dose, weight-normalized, duration, timeline and adverse-event claims from the abstracts, mechanism, reported-use, regulatory (illegal to sell in the UK, US and Australia; descendants approved) with pending_source; intent-driven H1 and title."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Melanotan II in two minutes",
+      "html": "<p><strong>What it is.</strong> A cyclic copy of the pigment hormone α-MSH, made in Arizona in the late 1980s to give a sunless tan and prevent skin cancer. It turned out to hit the brain's melanocortin receptors too, producing erections, nausea, yawning and appetite loss.</p><p><strong>What the research actually shows.</strong> 646 indexed publications, most about its use as a laboratory tool in rodents. Four human trials, all from the inventors' group, in <strong>3 to 20 men</strong>: a two-week pilot at 0.01 to 0.03 mg/kg that darkened skin in two of three, and three erection studies at 0.025 mg/kg in which most men had erections lasting 40 minutes, two thirds reported more desire, and one in eight had severe nausea. <strong>No tanning trial was ever run.</strong></p><p><strong>What happened to it.</strong> Abandoned as too non-selective. Its metabolite became PT-141 (bremelanotide, approved 2019 for low desire); its linear cousin became afamelanotide (Scenesse, approved for a rare light-sensitivity disease). Melanotan II itself is illegal to sell in the UK, US and Australia.</p><p><strong>What the case reports add.</strong> Priapism needing surgery; darker, larger and new moles; brown gums after 64 days of use; a mucosal melanoma in the mouth of a 22-year-old after nasal use. Online vials held 4 to 9 mg with impurities.</p><p><strong>Where the evidence is thinnest.</strong> Long-term melanoma risk, which no one has measured; and everything about the loading-and-maintenance schedules, which no one has tested.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "Trial by trial: what melanotan II did in the men who received it, and what the case reports say since",
+      "lede": "The complete human record: four small studies from the 1990s, then the harms reported from unregulated use.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human trials of melanotan II, all from the University of Arizona group.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Participants</th><th scope=\"col\">Dose and route</th><th scope=\"col\">Design</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Dorr 1996 (phase 1 pilot)</td><td>3 healthy men</td><td>0.01 mg/kg SC, weekdays, 2 weeks; escalated to 0.025 or 0.03 mg/kg</td><td>Single-blind, alternating saline</td><td>Pigmentation of face, upper body and buttocks in 2 of 3; spontaneous erections 1 to 5 hours after dosing; mild nausea at most doses; grade II sleepiness at 0.03 mg/kg</td></tr><tr><td>Wessells 1998</td><td>10 men with psychogenic erectile dysfunction</td><td>0.025 mg/kg SC</td><td>Double-blind placebo crossover, 6-hour RigiScan</td><td>Erections in 8 of 10; 38 minutes of full rigidity vs 3 on placebo; nausea, yawning, less appetite</td></tr><tr><td>Wessells 2000</td><td>10 men with organic erectile dysfunction</td><td>0.025 mg/kg SC, twice each for drug and placebo</td><td>Double-blind placebo crossover</td><td>Erections after 12 of 19 injections vs 1 of 21 placebo; 45 minutes of rigidity; desire higher; nausea and yawning</td></tr><tr><td>Wessells 2000 (pooled review)</td><td>20 men with erectile dysfunction</td><td>0.025 mg/kg SC</td><td>Pooled crossover data</td><td>Erections in 17 of 20 without stimulation; desire after 68% of doses vs 19%; <strong>severe nausea in 12.9%</strong></td></tr></tbody></table></div></div><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Published reports from unregulated use.</caption><thead><tr><th scope=\"col\">Report</th><th scope=\"col\">Who</th><th scope=\"col\">Product and route</th><th scope=\"col\">What happened</th></tr></thead><tbody><tr><td>Bonchev 2026</td><td>One user, 64 days of self-injection for tanning</td><td>Subcutaneous vials</td><td>Symmetrical brown pigmentation of the gums and cheeks; followed for three months after stopping</td></tr><tr><td>Yassin Alsabbagh 2025</td><td>22-year-old woman using a nasal spray for tanning</td><td>Nasal spray</td><td>Mucosal malignant melanoma of the upper jaw; surgery and immunotherapy</td></tr><tr><td>Mallory 2021</td><td>One man</td><td>Subcutaneous injection</td><td>Ischaemic priapism, failed standard management, surgical decompression; the third published priapism report</td></tr><tr><td>Breindahl 2015</td><td>Vials bought from three online shops</td><td>Injectable powder</td><td>4.3 to 8.8 mg of melanotan II per vial; impurities of 4 to 6% in two of three shops</td></tr><tr><td>Gilhooley 2021</td><td>623 forum entries from 205 users, UK and Ireland</td><td>Mostly injections</td><td>Motivations and side effects catalogued: nausea, flushing, mole darkening, erections, appetite loss</td></tr><tr><td>Deville 2024</td><td>Seized vials</td><td>Injectable powder</td><td>Forensic identification; the peptide is hard to detect with standard drug screens</td></tr></tbody></table></div></div><p>The tanning trial that a reader would expect at the top of this table does not exist. The inventors measured pigment in three men for two weeks and then studied erections; the tanning use was invented by the market.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every melanotan II dose in the trials, in one table",
+      "lede": "Every figure here is a trial dose, given by body weight to men in erection and pilot studies. The loading and maintenance schedules were never tested.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses of melanotan II administered in studies.</caption><thead><tr><th scope=\"col\">Setting</th><th scope=\"col\">Route</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Population</th></tr></thead><tbody><tr><td>Phase 1 pilot (1996)</td><td>Subcutaneous</td><td>0.01 mg/kg, rising by 0.005 to 0.025 or 0.03 mg/kg</td><td>Weekdays, alternating with saline, 2 weeks</td><td>3 healthy men</td></tr><tr><td>Erection trials (1998, 2000)</td><td>Subcutaneous</td><td>0.025 mg/kg</td><td>Single doses, repeated on separate days</td><td>Men with erectile dysfunction</td></tr><tr><td>Mice (2018)</td><td>Intravenous infusion</td><td>120 mcg/kg/day</td><td>7 days</td><td>Appetite and blood-pressure study</td></tr><tr><td>Mice (2018)</td><td>Intraperitoneal</td><td>Not stated in the abstract</td><td>Single</td><td>Hypothermia via mast cells</td></tr><tr><td>Rats (1994)</td><td>Oral</td><td>Not stated in the abstract</td><td>Single</td><td>4.6% oral bioavailability</td></tr></tbody></table></div></div><p>Figures for the loading and maintenance schedules circulate on forums and vendor pages. None was tested in a study, so none is reproduced here; the table holds every dose a study actually gave. For scale, the trial dose for a 75 kg man is about 1.9 mg, given for research under monitoring, and the analysed vials held 4 to 9 mg of uncertain purity. Nothing on this page is an instruction to take anything.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who melanotan II is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> healthy men and men with erectile dysfunction, for days. <strong>Never studied:</strong> women, anyone for tanning, anyone for more than two weeks, anyone by nasal spray. <strong>Community:</strong> people who want a tan without sun, and people using it for libido or appetite suppression.</p><p>The cautions come from the trials, the case reports and the pharmacology:</p><ul class=\"list\"><li><strong>Moles, freckles and melanoma.</strong> It darkens and enlarges existing moles and creates new pigmented spots, which hides melanoma and mimics it. Melanoma case reports exist, most with sunbed use; the 2025 oral mucosal melanoma after nasal use is in a site the sun does not reach. Anyone with many moles, fair skin or a family history of melanoma has the strongest reason to avoid it, and any user needs a skin check by someone who knows what it does.</li><li><strong>Priapism.</strong> Erections without stimulation were a trial finding; ischaemic priapism needing surgery is a case-report finding. Men with sickle-cell trait or prior priapism are at particular risk.</li><li><strong>Nausea and sleepiness.</strong> Severe nausea in one in eight at the erection dose; sleepiness at the top pilot dose.</li><li><strong>Blood pressure and heart rate.</strong> MC4 agonists raise both in rodents; the trials did not report cardiovascular measures, and no user has been monitored.</li><li><strong>Vial contents.</strong> Analysed vials held variable amounts with impurities; the product is illegal to sell, so nobody is accountable for it.</li><li><strong>Pregnancy, children and women generally.</strong> No study included a woman; the nasal-spray melanoma case was a 22-year-old woman.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The trials measured hours. Yawning and stretching came first, then erections, intermittently for <strong>one to five hours</strong> after a dose, with about <strong>40 minutes</strong> of full rigidity inside a six-hour window. Pigmentation appeared within the <strong>two-week</strong> pilot in two of three men, and that is the whole of the tanning time-course in the literature. Everything users know about how fast a tan appears, how long it lasts and how often to inject comes from each other; the case reports add that gum pigmentation was still present <strong>three months</strong> after stopping. Melanoma, the outcome that matters, would need years of follow-up in a cohort that has never been assembled.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>No storage study for human use exists. The 2015 vial analysis and the 2024 forensic report describe a lyophilised peptide that is hard to identify with standard drug screens and variable in content; the 1994 preformulation study measured its chemistry for a dosage form that was never made. Vendor handling instructions describe a product whose sale is illegal in the countries most buyers live in.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how melanotan II is discussed",
+      "html": "<ol class=\"list\"><li><strong>Assuming a tanning trial exists.</strong> It does not. Pigmentation was an observation in three men over two weeks; the human trials were about erections.</li><li><strong>Confusing it with afamelanotide (Scenesse).</strong> That is melanotan I, a different, MC1-selective molecule approved for a rare disease. Melanotan II has no approval anywhere.</li><li><strong>Confusing it with PT-141.</strong> Bremelanotide is melanotan II's metabolite, developed separately and approved for low desire in women. The approval does not transfer to the parent.</li><li><strong>Calling it 'research use only'.</strong> It is an unlicensed medicine whose sale is illegal in the UK, US and Australia; the label is a legal fiction the 2021 forum study found users themselves saw through.</li><li><strong>Treating loading and maintenance doses as protocol.</strong> Both are community inventions. The trial dose was 0.025 mg/kg, for erections, under monitoring.</li><li><strong>Reading the melanoma question as settled either way.</strong> No cohort has been followed. The mechanism, the mole changes and the case reports are the reasons dermatologists advise against it; the absence of a study is not the absence of a risk.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Melanotan II vs melanotan I (afamelanotide, Scenesse), PT-141 and UV tanning",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Melanotan II beside its descendants and alternatives.</caption><thead><tr><th scope=\"col\">Agent</th><th scope=\"col\">What it is</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>Melanotan II</strong></td><td>Cyclic α-MSH(4-10) analogue; non-selective melanocortin agonist</td><td>Four trials in 3 to 20 men (1996 to 2000); case reports of harm</td><td>Never approved; illegal to sell in the UK, US and Australia</td></tr><tr><td>Afamelanotide (melanotan I, Scenesse)</td><td>Linear α-MSH analogue selective for MC1R; implant</td><td>Phase 3 trials in erythropoietic protoporphyria</td><td>Approved (EU 2014, FDA 2019) for EPP; no record on this site</td></tr><tr><td><a href=\"/compounds/bremelanotide-pt-141\">Bremelanotide (PT-141)</a></td><td>Melanotan II's deamidated metabolite; MC4-preferring; 127 indexed publications</td><td>14 randomized trials; approved 2019 for hypoactive sexual desire in premenopausal women</td><td>Prescription medicine (Vyleesi)</td></tr><tr><td>UV tanning (sun, sunbeds)</td><td>Ultraviolet-induced melanin</td><td>Decades of epidemiology: a proven cause of melanoma</td><td>Sunbeds banned for minors in many countries</td></tr><tr><td>Dihydroxyacetone self-tanners</td><td>Surface stain of the outer skin layer</td><td>Cosmetic safety record; no pigment biology</td><td>Approved cosmetic ingredient</td></tr></tbody></table></div></div><p>The 'melanotan 1 vs 2' question has a plain answer: one became an approved medicine for a rare disease by being selective, the other stayed a laboratory compound by being unselective, and only the second is sold for tanning. The PT-141 comparison runs the same way: the approved drug is the metabolite, refined for one receptor and one use.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
