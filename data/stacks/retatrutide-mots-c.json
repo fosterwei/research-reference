@@ -3,23 +3,111 @@
   "title": "Retatrutide + MOTS-c",
   "slug": "retatrutide-mots-c",
   "status": "draft",
-  "summary": "Retatrutide + MOTS-c combines Retatrutide (human clinical trial) and MOTS-c (human clinical trial). A stack cannot carry a stronger evidence tier than its weakest component, which here is human clinical trial. No indexed study tested this combination. What is known about each component is the whole of what is known.",
+  "summary": "The retatrutide and MOTS-c stack pairs an investigational triple agonist with a mitochondrial peptide, and no study has tested the two together. The larger finding is about the second compound: MOTS-c has 277 indexed publications and thirteen human studies, and every one of those studies measured the MOTS-c people already have in their blood, after exercise, in thyroid disease, in dialysate. No published study has given MOTS-c to a person. Its dosing figures come from rodent work in milligrams per kilogram, and the human dosing evidence belongs to CB4211, an engineered analogue. Retatrutide's own effect is well documented and it cannot be obtained legally outside a trial. The two also cannot be mixed in one vial, because their stability after reconstitution differs.",
   "seo": {
-    "title": "Retatrutide + MOTS-c: the evidence",
-    "description": "Retatrutide + MOTS-c: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+    "title": "Retatrutide + MOTS-c: No Study, and MOTS-c Was Never Given",
+    "description": "Retatrutide with MOTS-c: no study has tested the pair, and no published study has ever given MOTS-c to a person. Its human research measures circulating levels."
   },
   "attributes": {
     "combination_evidence": []
   },
-  "sources": [],
+  "sources": [
+    {
+      "id": "pmid-42278864",
+      "title": "Reduced Circulating MOTS-c Levels in Hashimoto Thyroiditis Reflect Integrated Autoimmune and Metabolic Dysfunction.",
+      "url": "https://europepmc.org/article/MED/42278864",
+      "published": "2026-05-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37366315",
+      "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+      "url": "https://europepmc.org/article/MED/37366315",
+      "published": "2023-06-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36490309",
+      "title": "Circulating levels of MOTS-c in patients with breast cancer treated with metformin.",
+      "url": "https://europepmc.org/article/MED/36490309",
+      "published": "2022-12-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34413391",
+      "title": "Effect of aerobic and resistance exercise on the mitochondrial peptide MOTS-c in breast cancer survivors.",
+      "url": "https://europepmc.org/article/MED/34413391",
+      "published": "2021-08-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34351816",
+      "title": "Acute endurance exercise stimulates circulating levels of mitochondrial-derived peptides.",
+      "url": "https://europepmc.org/article/MED/34351816",
+      "published": "2021-08-05",
+      "kind": "peer-reviewed"
+    }
+  ],
   "related": [
     "retatrutide",
     "mots-c"
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has the retatrutide and MOTS-c combination been studied?",
+      "answer": "No. No indexed study gives both to the same person or animal, and the page ranking second for this query says the same. The evidence offered for the pairing is separate-compound research and community reports."
+    },
+    {
+      "question": "Has MOTS-c ever been given to a person in a study?",
+      "answer": "Not in any published study in this record. Its thirteen human studies all measured circulating MOTS-c by immunoassay in people who received none: levels after exercise, in thyroid disease, in dialysate, around myocardial infarction. The human dosing evidence belongs to CB4211, an engineered analogue taken into a phase 1 trial."
+    },
+    {
+      "question": "Then where do MOTS-c doses come from?",
+      "answer": "From rodent studies, which use milligrams per kilogram given intraperitoneally, and from practitioner reports. There is no established conversion from those rodent figures to a human dose, and this page does not reproduce the community figures."
+    },
+    {
+      "question": "Why do people pair them?",
+      "answer": "Because the mechanisms look complementary: retatrutide creates a calorie deficit through three receptors, and MOTS-c is associated with mitochondrial and AMPK signalling. The reasoning needs evidence that injected MOTS-c does something in a person, and that evidence does not exist."
+    },
+    {
+      "question": "Can they be mixed in one vial?",
+      "answer": "No. Their storage limits after reconstitution differ, which is why even the pages promoting the pairing keep them in separate vials and separate injections."
+    },
+    {
+      "question": "Is retatrutide available?",
+      "answer": "Not legally outside a trial. It is investigational, in phase 3, approved nowhere, and material sold under the name comes from outside the regulated supply chain."
+    },
+    {
+      "question": "Does MOTS-c help with weight loss?",
+      "answer": "In mice, administered MOTS-c has effects on metabolism. In people, all that is known is that naturally circulating levels rise after exercise and are lower in several diseases, which makes it an interesting biomarker rather than a demonstrated treatment."
+    },
+    {
+      "question": "What are the side effects of the stack?",
+      "answer": "Unknown. Retatrutide's are documented from its trial: gastrointestinal effects during escalation and dose-dependent heart-rate increases. MOTS-c has no human safety data at all, which is the absence of a record rather than a clean one."
+    },
+    {
+      "question": "Is this stack legal?",
+      "answer": "Neither compound is approved anywhere, and a combination of the two is an approved product nowhere. Both are sold as research chemicals."
+    },
+    {
+      "question": "How long before it works?",
+      "answer": "No timeline exists for the pair. Retatrutide's trial measured weight at 24 and 48 weeks. MOTS-c has no human dosing study, so it has no onset to report."
+    },
+    {
+      "question": "Is MOTS-c the same as humanin?",
+      "answer": "Both are peptides encoded in mitochondrial DNA and both share the same evidentiary problem on this site: large human literatures that measure the body's own peptide rather than administering it. Humanin has its own record here, and the pattern is noted on both."
+    },
+    {
+      "question": "Why does the demand for this stack measure zero?",
+      "answer": "Because the marketing precedes the audience. The stack phrasings return no measured clickstream searches while carrying Google Ads volume, and the component name draws 14,800 Ads volume on its dosage query alone. That gap is what a product being promoted ahead of interest looks like."
+    }
+  ],
   "open_questions": [
-    "No indexed study has tested Retatrutide with MOTS-c together.",
-    "No published schedule reconciles the components' different reported frequencies onto one calendar."
+    "No indexed study has given retatrutide and MOTS-c together.",
+    "No published study has administered MOTS-c to a person; its human literature measures circulating levels.",
+    "No established conversion exists between MOTS-c's rodent milligram-per-kilogram doses and any human dose.",
+    "CB4211, the analogue with phase 1 human data, is not in this ledger and is not the compound sold as MOTS-c.",
+    "The two compounds cannot be pre-blended, and no schedule reconciles a weekly injection with a daily rodent regimen."
   ],
   "review": {
     "author": "",
@@ -27,15 +115,69 @@
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 49.2,
+  "uniqueness_pct": 92.7,
   "changelog": [
     {
       "date": "2026-09-14",
       "change": "Stack record generated from research/registry.json plan; 0 combination claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/retatrutide-mots-c.json. Stage 0: the combination ledger is empty, and the component record shows MOTS-c's thirteen human studies all measure circulating levels rather than administering the peptide, the same measured-not-given pattern recorded on humanin, LL-37 and kisspeptin. Nine guide sections including a table of what each human MOTS-c study measured, the rationale and what it rests on, and the storage reason the two cannot be blended."
     }
   ],
   "components": [
     "retatrutide",
     "mots-c"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "This stack in two minutes",
+      "html": "<p><strong>What it is.</strong> Two compounds injected separately and called a metabolic stack: <b>retatrutide</b>, an investigational triple agonist in phase 3 for obesity, and <b>MOTS-c</b>, a short peptide encoded in mitochondrial DNA.</p><p><strong>No study has tested the pair.</strong> The combination section below is empty and stays empty.</p><p><strong>The larger problem is the second compound.</strong> MOTS-c has <b>277 indexed publications</b> and a substantial human literature, and that literature measures the MOTS-c people already have in their blood. <b>No published study has given MOTS-c to a person.</b></p><p><strong>Retatrutide cannot be obtained legally either.</strong> It is investigational, approved nowhere, and material sold under the name is outside the regulated supply chain.</p><p><strong>One structural detail is worth keeping.</strong> The two cannot be pre-blended: their storage limits after reconstitution differ, which is why even the pages selling this pairing keep them in separate vials.</p>"
+    },
+    {
+      "id": "no-combination-study",
+      "heading": "What has been tested as a combination",
+      "lede": "Nothing, and the page that ranks second for this query says so too.",
+      "html": "<p>No indexed study gives retatrutide and MOTS-c to the same person or animal. The combination ledger is empty.</p><p>The incumbent dosing guide that ranks second here is unusually careful about this. It states three times that no controlled trial has tested the combination, labels the schedules it prints as community-reported practice, and warns that evidence for the pairing comes from separate-compound research. Then it prints twelve tables of dosing.</p><p>This page's disagreement with it is not about the warning. It is about what follows from the warning, and about the fact that one of the two compounds has never been given to a person at all.</p>"
+    },
+    {
+      "id": "measured-not-given",
+      "heading": "What MOTS-c's human literature actually measured",
+      "lede": "This is the finding, and it takes one table to show.",
+      "html": "<p>MOTS-c's record holds thirteen human studies. Every one of them measured circulating MOTS-c by immunoassay in people who were not given any. The peptide is endogenous: everyone has it, and its level changes with exercise, age and disease, which is what these studies report.</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>What the human MOTS-c studies measured.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">What it measured</th><th scope=\"col\">What it did not do</th></tr></thead><tbody><tr><td>Cuyàs 2022</td><td>Whether circulating MOTS-c changed over 24 weeks of an intervention; it did not</td><td>Administer MOTS-c</td></tr><tr><td>Dieli-Conwright 2021</td><td>Post-exercise MOTS-c levels against fat mass, weight and insulin resistance</td><td>Administer MOTS-c</td></tr><tr><td>von 2021</td><td>MOTS-c levels after exercise in 10 people, which trended upward</td><td>Administer MOTS-c</td></tr><tr><td>Sonay 2026</td><td>Circulating MOTS-c in 180 people, markedly lower in thyroid disease</td><td>Administer MOTS-c</td></tr><tr><td>Musolino 2026</td><td>MOTS-c in dialysate against arterial stiffness and blood pressure</td><td>Administer MOTS-c</td></tr><tr><td>Peng 2026</td><td>MOTS-c in 34 people around myocardial infarction</td><td>Administer MOTS-c</td></tr></tbody></table></div></div><p>The studies in their own words. The 2022 breast-cancer study reported that the authors <q cite='https://europepmc.org/article/MED/36490309'>failed to find any significant alteration of circulating MOTS-c, as measured using the commercially available competitive ELISA, in response to 24 weeks of a neoadjuvant chemotherapy regimen</q>. The 2021 exercise study in survivors found that <q cite='https://europepmc.org/article/MED/34413391'>post-exercise levels of MOTS-c among non-Hispanic White BCS were significantly associated with reductions in fat mass, body weight, HOMA-IR, CRP, and an increase in lean mass</q>. An acute-exercise study reported that <q cite='https://europepmc.org/article/MED/34351816'>MOTS-C levels showed a trend to increase after EE</q>. And a 2026 study of 180 people found that <q cite='https://europepmc.org/article/MED/42278864'>circulating MOTS-c levels are markedly reduced in patients with HT</q>, Hashimoto's thyroiditis. Every verb in those sentences is about measuring.</p><p>So a compound with hundreds of papers has, in humans, the evidence base of a <b>biomarker</b> rather than a drug. Low MOTS-c is associated with disease; higher MOTS-c follows exercise. Neither observation says what happens when a person injects it, which is a different experiment that nobody has published.</p><p>The human dosing evidence that exists belongs to <b>CB4211</b>, an engineered MOTS-c analogue taken into a phase 1 trial by a company, which is not the peptide sold as MOTS-c. The dosing figures that circulate come from rodent work, where studies use milligrams per kilogram intraperitoneally, and from practitioner reports.</p><p>The same measured-not-given pattern appears on three other records here: <a href=\"/compounds/humanin\">humanin</a>, <a href=\"/compounds/ll-37\">LL-37</a> and <a href=\"/compounds/kisspeptin\">kisspeptin</a>. It is the most common way a peptide acquires a large literature without acquiring any evidence about taking it.</p>"
+    },
+    {
+      "id": "why-combined",
+      "heading": "Why the two are paired, and what that rests on",
+      "html": "<p>The rationale is clean on paper. Retatrutide reduces appetite and raises energy expenditure through three receptors; MOTS-c is associated with mitochondrial function and AMPK signalling, the machinery cells use to burn fuel. Pair a drug that creates a calorie deficit with something that helps cells handle it.</p><p>What that reasoning needs, to be more than an analogy, is evidence that injected MOTS-c does anything in a person. That evidence does not exist. The association between naturally circulating MOTS-c and better metabolic markers is real and is the reason the compound is interesting; it is not a demonstration that adding more works, any more than the association between high natural growth hormone and youth demonstrates that injecting it restores youth.</p><p>Retatrutide's own side of the pairing is well documented. Its phase 2 trial reported that <q cite='https://europepmc.org/article/MED/37366315'>at 48 weeks, the least-squares mean percentage change in the retatrutide groups was -8.7% in the 1-mg group, -17.1% in the combined 4-mg group, -22.8% in the combined 8-mg group, and -24.2% in the 12-mg group, as compared with -2.1% in the placebo group</q>. That half of the stack is a real effect in a drug nobody can legally obtain, and the comparison pages set it out: <a href='/compare/retatrutide-vs-tirzepatide'>retatrutide versus tirzepatide</a>.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Doses: one from a trial, one from rodents",
+      "html": "<p>Retatrutide's published doses are the 1, 4, 8 and 12 mg weekly used in its phase 2 trial. MOTS-c's published doses are rodent doses: its record carries figures such as 5 and 15 mg/kg given intraperitoneally to mice daily, which do not translate to a person in any established way.</p><p>No dose exists for the pair, and no schedule reconciles a weekly injection with a daily rodent regimen. The two also cannot be mixed in one vial, because their stability after reconstitution differs, so the practical arrangement is two separate injections on two schedules that nobody has studied together.</p><p>Each compound's own figures sit on its record: <a href=\"/compounds/mots-c\">MOTS-c</a> and <a href=\"/compounds/retatrutide\">retatrutide</a>.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Side effects: one well characterised, one unknown",
+      "html": "<p><b>Retatrutide:</b> gastrointestinal effects dominate, worst during escalation, with dose-dependent increases in heart rate reported in its phase 2 trial. Pooled analyses of dual and triple agonists found higher discontinuation than with single-receptor drugs.</p><p><b>MOTS-c:</b> nothing is known, because no person has received it in a published study. Its safety record is the absence of one, not a clean one.</p><p>For the combination there is nothing, and the usual research-chemical uncertainties apply to both halves: neither is a regulated product, and what is in either vial has not been independently verified.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who this is discussed for, and what is unresolved",
+      "html": "<p><strong>Discussed for:</strong> fat loss with preserved metabolic function, by clinics and community protocols, under names like the metabolic super stack.</p><p><strong>Studied in:</strong> for retatrutide, adults with obesity in a phase 2 trial; for MOTS-c, mice given it and people measured for it.</p><p>The unresolved questions start earlier than the combination. Whether injected MOTS-c reaches mitochondria in a person, whether it does anything measurable, and what dose would correspond to the rodent work are all open. Until the first of those is answered, a question about pairing it with anything is premature.</p>"
+    },
+    {
+      "id": "status",
+      "heading": "Status: neither is available",
+      "html": "<p><b>Retatrutide</b> is investigational and in phase 3; there is no legal route to it outside a trial. <b>MOTS-c</b> is unapproved everywhere and sold as a research chemical. Neither has been assessed by a regulator, and a stack of the two is an approved product nowhere.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how this stack is discussed",
+      "html": "<ol class=\"list\"><li><strong>Reading MOTS-c's human literature as evidence for taking it.</strong> Every human study measured the MOTS-c people already have.</li><li><strong>Quoting CB4211's trial for MOTS-c.</strong> That is an engineered analogue taken into phase 1 by a company, not the peptide sold under this name.</li><li><strong>Converting rodent milligram-per-kilogram doses to human doses.</strong> Nothing published supports the conversion.</li><li><strong>Treating a careful warning as a licence to print a protocol.</strong> The page ranking second here says three times that no trial tested the pair, then gives twelve tables of schedules.</li><li><strong>Assuming different pathways means additive benefit.</strong> One pathway has no demonstrated human effect to add.</li><li><strong>Planning around a blend.</strong> The two cannot be mixed in one vial, because their post-reconstitution stability differs.</li></ol>"
+    }
+  ],
+  "prose_reviewed": true
 }
