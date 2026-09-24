@@ -2,15 +2,18 @@
   "type": "compound",
   "preferred_name": "Selank",
   "aliases": [
-    "TP-7"
+    "TP-7",
+    "Selank",
+    "N-acetyl Selank amidate",
+    "Thr-Lys-Pro-Arg-Pro-Gly-Pro"
   ],
   "slug": "selank",
   "status": "draft",
   "evidence_tier": "human-clinical-trial",
   "summary": "Selank is a peptide in the neuropeptides nootropic class (tuftsin analog; GABAergic and cytokine effects reported). Europe PMC indexes 96 publications naming it or a listed alias in a title or abstract, including 2 randomized controlled trials and 2 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "Selank: what the research shows",
-    "description": "Selank research, cited: 96 indexed publications, 2 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Selank: Anxiety Trials, Side Effects, Status",
+    "description": "Selank: Russian anxiety trials, GABA and enkephalin mechanism, side effects, status outside Russia, and how it differs from Semax."
   },
   "attributes": {
     "routes_studied": [
@@ -356,7 +359,15 @@
         "drafting": "extractive"
       }
     ],
-    "regulatory_status": [],
+    "regulatory_status": [
+      {
+        "value": "Russia: a registered intranasal medicine (0.15 percent solution) for generalised anxiety disorder and neurasthenia. United States, European Union, United Kingdom: not approved or licensed; sold as a research chemical. Not named on the WADA Prohibited List.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Randomized controlled trial, humans, n=30, 2015: Taken together, the therapeutic efficacy and reduction of side-effects had a positive impact on the quality-of-life of the patients treated with selank as add-on to phenazepam.",
@@ -858,6 +869,34 @@
           "outcome": "Individual physiologically significant effects were seen, due to the molecular structures of the study peptides and/or their degradation fragments."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "Selank is a seven-amino-acid peptide: tuftsin, a natural immune-modulating fragment of immunoglobulin G (Thr-Lys-Pro-Arg), extended with the same Pro-Gly-Pro tail that stabilises Semax. Both come from the Institute of Molecular Genetics in Moscow, and Selank has been registered in Russia as an intranasal medicine for anxiety and neurasthenia.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Its proposed mechanisms, from Russian animal and cell work, are modulation of GABA-A receptor signalling (the pathway benzodiazepines act on, though by a different, non-sedating route), inhibition of the enzymes that break down enkephalins, and changes in cytokine expression, including interleukin-6. Increased BDNF has been reported in rats. Russian randomized trials in generalised anxiety disorder compared it with medazepam and found comparable anxiety reduction with fewer side effects.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "As with Semax, most of the evidence is Russian and much of it is indexed here only by English abstract; the two indexed randomized trials are small. No English-language placebo-controlled trial in the anxiety uses it circulates for has been published outside Russia.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Selank circulates as an anxiolytic nootropic in nasal spray form, and as an acetylated amidate variant with no study of its own. Reported effects are calm without sedation and steadier mood; reported side effects are fatigue in some, nasal irritation, and rarely a flat or muted feeling. The Russian label lists minimal adverse effects. Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -902,20 +941,68 @@
   },
   "faq": [
     {
-      "question": "Has Selank been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 2 clinical trials and 2 randomized controlled trials naming Selank or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "question": "What is Selank?",
+      "answer": "A stabilised fragment of the immune peptide tuftsin, developed in Moscow and registered in Russia as a nasal medicine for anxiety and neurasthenia. Unlicensed outside Russia."
     },
     {
-      "question": "What kind of evidence exists for Selank?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What does Selank do?",
+      "answer": "In Russian trials it reduced anxiety comparably to a benzodiazepine with fewer side effects. In rats it modulates GABA-A signalling, inhibits enkephalin breakdown and changes cytokines."
     },
     {
-      "question": "Is Selank an approved medicine?",
-      "answer": "No ChEMBL record matches Selank or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "Is Selank approved?",
+      "answer": "In Russia, as a 0.15 percent nasal solution. Not in the United States, European Union or United Kingdom."
     },
     {
-      "question": "Which species has Selank been studied in?",
-      "answer": "Studies in this record's ledger report work in: Cattle, Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "Is there a Selank dose?",
+      "answer": "The Russian product has a label regimen for its indications; that is a fact about that product in Russia. No trial supports any figure for use elsewhere, and circulating figures are not reproduced here."
+    },
+    {
+      "question": "What are the side effects of Selank?",
+      "answer": "The Russian label lists minimal effects. Community reports mention fatigue, nasal irritation and a muted feeling in some. No English-language study reports adverse-event rates."
+    },
+    {
+      "question": "Selank vs Semax: what is the difference?",
+      "answer": "Same stabilising tail, different parent peptides: Selank from tuftsin and calming, Semax from ACTH and alerting."
+    },
+    {
+      "question": "Can Selank and Semax be taken together?",
+      "answer": "Communities combine them. No study has tested the pair."
+    },
+    {
+      "question": "Is Selank a benzodiazepine?",
+      "answer": "No. It modulates GABA-A signalling by a different route and is not sedating in the trials; it is not a controlled substance."
+    },
+    {
+      "question": "How fast does Selank work?",
+      "answer": "Users report effects within an hour of a nasal dose. In the Russian trials, anxiety scores fell over two weeks."
+    },
+    {
+      "question": "What is N-acetyl Selank amidate?",
+      "answer": "A vendor-modified variant with no study of its own."
+    },
+    {
+      "question": "Is Selank banned in sport?",
+      "answer": "It is not named on the WADA Prohibited List."
+    },
+    {
+      "question": "Does Selank cause dependence?",
+      "answer": "The Russian trials reported none over two weeks, and it does not act like a benzodiazepine at the receptor. Long-term use has not been studied."
+    },
+    {
+      "question": "How many human studies of Selank exist?",
+      "answer": "Two indexed randomized trials and a handful of other Russian clinical studies; more exist in Russian-language journals this site's indexes do not cover."
+    },
+    {
+      "question": "Does Selank affect the immune system?",
+      "answer": "It derives from an immune peptide and changes cytokine expression in animals; clinical relevance is unknown."
+    },
+    {
+      "question": "How should Selank be stored?",
+      "answer": "Refrigerated, upright, away from light; opened solution used within a few weeks."
+    },
+    {
+      "question": "Can Selank be injected?",
+      "answer": "Some users do; the Russian medicine and its trials are intranasal, and no study compares routes."
     }
   ],
   "sources": [
@@ -1182,6 +1269,49 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 34 ledger sources by scripts/draft_claims.py: 36 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written guide, FAQ to 16, mechanism, reported-use (no circulating figures reproduced) and regulatory editorial sections, aliases added; intent-driven H1 and title."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Selank in two minutes",
+      "html": "<p><strong>What it is.</strong> A stabilised fragment of an immune peptide, developed in Moscow alongside Semax and registered in Russia as a nasal medicine for anxiety and neurasthenia. Unlicensed elsewhere.</p><p><strong>What the research actually shows.</strong> 96 indexed publications; two small Russian randomized trials in generalised anxiety disorder comparing it with a benzodiazepine, plus rat work on GABA signalling, enkephalins and BDNF. Nothing placebo-controlled in English.</p><p><strong>Status.</strong> Registered medicine in Russia; unapproved elsewhere; not named on the WADA list.</p><p><strong>Where the evidence is thinnest.</strong> Independent replication outside Russia; anything on the acetylated variant; long-term use.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Selank doses in studies",
+      "lede": "Russian clinical trials and rat studies. The label regimen for the Russian product is a regulatory fact about that product.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Dose and route</th><th scope=\"col\">Duration</th><th scope=\"col\">Finding</th></tr></thead><tbody><tr><td>Russian RCT, generalised anxiety (Zozulia 2008)</td><td>Intranasal 0.15% solution, label regimen</td><td>2 weeks</td><td>Anxiety reduction comparable to medazepam; fewer side effects reported</td></tr><tr><td>Russian RCT, anxiety with antidepressant therapy (Medvedev 2015)</td><td>Intranasal, label regimen</td><td>Weeks</td><td>Earlier improvement and fewer antidepressant side effects reported</td></tr><tr><td>Rat anxiolytic dose</td><td>0.3 mg/kg intraperitoneal</td><td>Single</td><td>Anxiolytic-like behaviour</td></tr><tr><td>Rat chronic dosing</td><td>100 µg/kg/day</td><td>Weeks</td><td>Lower inflammatory cytokines; BDNF changes</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered. The acetylated amidate variant has no study at any dose.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who Selank is discussed for, and the cautions that recur",
+      "html": "<p><strong>The interest.</strong> Anxiety without sedation or dependence, which is what the Russian trials against a benzodiazepine describe.</p><ul><li><strong>Other psychiatric medication.</strong> GABA-A and enkephalin effects could interact with benzodiazepines, antidepressants and opioids; the Russian trials used it alongside antidepressants but nothing else is studied.</li><li><strong>Fatigue and flattening.</strong> The most common reasons given for stopping in community reports.</li><li><strong>Pregnancy and children.</strong> No data.</li><li><strong>The acetylated variant.</strong> No study; every claim is borrowed from Selank.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>In the Russian trials, anxiety scores fell over two weeks of dosing. Users describe an effect within an hour of a nasal dose lasting several hours. Duration of benefit after stopping, and tolerance, have not been studied.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>Solutions refrigerated, upright, away from light, and usually described as usable for a few weeks after opening; powder refrigerated or frozen. Discard cloudy or discoloured solution.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how Selank is discussed",
+      "html": "<ul><li><strong>Calling it a benzodiazepine alternative on the strength of two small trials.</strong> The comparisons were short, Russian, and unreplicated.</li><li><strong>Treating Semax and Selank as one thing.</strong> Same tail, different parents, opposite temperaments.</li><li><strong>Treating the acetylated variant as studied.</strong> It is not.</li><li><strong>Reading \"registered in Russia\" as proof.</strong> It rests on trials most readers cannot access.</li></ul>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Selank vs Semax",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Peptide</th><th scope=\"col\">Origin</th><th scope=\"col\">Proposed action</th><th scope=\"col\">Russian indications</th><th scope=\"col\">Indexed human evidence</th></tr></thead><tbody><tr><td>Selank</td><td>Tuftsin fragment + Pro-Gly-Pro</td><td>GABA-A modulation, enkephalins, cytokines; calming</td><td>Anxiety and neurasthenia</td><td>2 indexed RCTs</td></tr><tr><td>Semax</td><td>ACTH(4-7) + Pro-Gly-Pro</td><td>BDNF, monoamines; alerting</td><td>Stroke, optic nerve, cognition</td><td>1 indexed RCT, several Russian studies</td></tr></tbody></table></div></div><p>The <a href=\"/compare/selank-vs-semax\">Selank vs Semax</a> page lines up both records; the <a href=\"/stacks/selank-semax\">Selank + Semax</a> stack page covers the combination people search for. <a href=\"/compounds/semax\">Semax</a> and <a href=\"/compounds/dsip\">DSIP</a> are the class peers.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }

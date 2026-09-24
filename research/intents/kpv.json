@@ -1,0 +1,212 @@
+{
+  "slug": "kpv",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "h1": "KPV peptide: what the animal studies show, why no human dose exists, and how it compares",
+  "queries": [
+    {
+      "query": "kpv peptide",
+      "volume": {
+        "clickstream": 11244,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What KPV is and how it acts"
+    },
+    {
+      "query": "kpv",
+      "volume": {
+        "clickstream": 7987,
+        "google_ads": 14800,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What KPV is and how it acts"
+    },
+    {
+      "query": "kpv peptide benefits",
+      "volume": {
+        "clickstream": 2391,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "evidence_table",
+      "heading": "What did the studies find?",
+      "boundary": "Reported outcomes in mice and cells, not benefits in people. No human study exists."
+    },
+    {
+      "query": "what is kpv peptide",
+      "volume": {
+        "clickstream": 1017,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What KPV is and how it acts"
+    },
+    {
+      "query": "kpv peptide reddit",
+      "volume": {
+        "clickstream": 559,
+        "google_ads": 480,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported_use",
+      "heading": "What people report outside the literature"
+    },
+    {
+      "query": "kpv peptide dosage",
+      "volume": {
+        "clickstream": 559,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "KPV doses in studies",
+      "boundary": "No human dose has been studied."
+    },
+    {
+      "query": "kpv peptide side effects",
+      "volume": {
+        "clickstream": 407,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What are the side effects of KPV?",
+      "answer": "Unknown: no human study exists. Community reports describe few effects beyond injection-site reactions."
+    },
+    {
+      "query": "kpv oral",
+      "volume": {
+        "clickstream": 305,
+        "google_ads": 260,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "routes_studied",
+      "heading": "Oral and other routes in the studies"
+    },
+    {
+      "query": "kpv peptide gut",
+      "volume": {
+        "clickstream": null,
+        "google_ads": null,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How KPV is thought to work"
+    },
+    {
+      "query": "kpv vs bpc-157",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 210,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "comparison-table",
+      "heading": "KPV vs BPC-157, TB-500 and GHK-Cu"
+    },
+    {
+      "query": "kpv peptide half life",
+      "volume": {
+        "clickstream": null,
+        "google_ads": null,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "timeline",
+      "heading": "What is measured over time, and what is not"
+    },
+    {
+      "query": "kpv peptide inflammation",
+      "volume": {
+        "clickstream": null,
+        "google_ads": null,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How KPV is thought to work"
+    }
+  ],
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ]
+}
