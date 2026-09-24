@@ -23,6 +23,27 @@ anything runs unattended.
 Steps 1 and 3 are skills that already exist. Steps 0, 2 and 6 are scripts that
 already exist. Steps 4 and 7 are people. Step 5 is whoever the triage assigns.
 
+## Sequencing rule
+
+Every page goes through every step, in order, and each step leaves its
+artifact before the next begins. This is the requirement the site owner set
+on 2026-09-24 after thirteen pages were written with stages 2 and 4 and the
+audit skipped, and it is not negotiable for a page of any size.
+
+- **Order is the point.** Stage 2 (competitors) and stage 4 (information gain)
+  decide what a page must say. Done after the writing, they describe the page
+  instead of shaping it; on the day they were backfilled they found three
+  factual errors on live pages that doing them first would have prevented.
+- **One page per pull request**, and the PR contains the page and its audit
+  file with triage and exit run. A PR with a written page and no audit is
+  incomplete by definition. Batching pages into one PR is where the loop was
+  compressed before.
+- **Artifacts, not memory.** Demand in the map; competitors in the map, scored
+  or marked unfetched; information gain in the map; the guide in the record;
+  the audit in `research/audits/`. `scripts/loop_status.py --strict` runs in
+  CI and fails the PR when any is missing. It cannot check order, so the first
+  two rules are held by whoever runs the loop.
+
 ## Step 1: the brief is the intent map
 
 `/seo-content-brief` produces a brief in the conversation. Nothing downstream
