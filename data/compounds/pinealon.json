@@ -7,32 +7,83 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "Pinealon is a peptide in the bioregulator short peptides class (neuroprotective bioregulator claimed; small literature). Europe PMC indexes 17 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 1 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "Pinealon: what the research shows",
-    "description": "Pinealon research, cited: 17 indexed publications, 0 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Pinealon Peptide: Human Studies, Doses, Side Effects, Status",
+    "description": "Pinealon (EDR): the two human studies, every dose a study gave, the 72-patient report everyone quotes, recorded side-effect signals, and legal status."
   },
   "attributes": {
     "routes_studied": [],
     "study_doses": [],
     "escalation_schedules": [],
-    "interactions": [
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [
       {
-        "value": "Animal study, rats, 2011: Because restriction of ROS accumulation and cell mortality is saturated at lower concentrations, whereas cell cycle modulation continues at higher concentrations of pinealon, one can conclude that besides its known antioxidant activity, pinealon is able to interact directly with the cell genome.",
+        "value": "The 2015 study of 32 patients recorded two laboratory signals alongside its positive findings: prooxidant activity on chemiluminescence, and a fall in circulating CD34+ cells that the authors described as significant inhibition of hemopoiesis.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26390612"
+        ],
+        "source_excerpt": "At the same time we've found the prooxidant activity through chemiluminescence. Decrease of markers CD34+ positive hematopoietic polypotent cells in blood has shown significant inhibition of hemopoiesis.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The same study found no effect on chromatin condensation and, on that basis, judged the peptides safe at the nuclear genetic level.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26390612"
+        ],
+        "source_excerpt": "Pinealon and Vesugen haven't affected the degree of chromatin condensation, so they are safe on nuclear genetic level.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In old rats given Pinealon before carotid artery occlusion, caspase-3 activity rose moderately, in sham-operated animals as well as in the occlusion model.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
-          "pmid-21978084"
+          "pmid-21809624"
         ],
-        "source_excerpt": "Because restriction of ROS accumulation and cell mortality is saturated at lower concentrations, whereas cell cycle modulation continues at higher concentrations of pinealon, one can conclude that besides its known antioxidant activity, pinealon is able to interact directly with the cell genome.",
+        "source_excerpt": "At introduction of Pinealon activity of caspase-3 moderately raises in false-operated animals and in a model of occlusion of carotid arteries.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "No study in the ledger recorded adverse events as an outcome, so the frequency of any side effect in people is unknown. The signals above are what the studies happened to measure, not a safety profile.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "The 2015 study measured biological-age indicators, chemiluminescence and circulating CD34+ haematopoietic cells, and chromatin condensation.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26390612"
+        ],
+        "source_excerpt": "Decrease of markers CD34+ positive hematopoietic polypotent cells in blood has shown significant inhibition of hemopoiesis.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The 2016 comparison of geroprotective methods in 110 people followed biological-age indices and biochemical and immunological parameters.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28539017"
+        ],
+        "source_excerpt": "The most safe from the point of view of influence on a number of biochemical, immunological parameters, clinical condition of the patients were therapeutic massage and Oligopeptide drugs.",
         "drafting": "extractive"
       }
     ],
-    "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
     "reported_timelines": [],
     "storage": [],
     "study_durations": [],
     "weight_normalized_doses": [],
-    "regulatory_status": [],
+    "regulatory_status": [
+      {
+        "value": "Not an approved medicine anywhere. In Russia it is reported to be sold as a dietary supplement rather than a registered drug; in the United States, the EU and the UK it is sold as a research chemical and is not approved by the FDA or any equivalent for human use. It is not named on the WADA Prohibited List, but substances with no approval from any regulatory health authority fall under the list's S0 category at all times, so an athlete should treat it as prohibited. Its position on FDA's compounding bulk-substance lists should be checked against the live lists.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Human study, humans, 2016: In the monitoring process 110 representatives of different age groups held a comparative analysis of the efficacy and safety of several geroprotective techniques, including the use of dry carbon dioxide baths, hyperbaric oxygen therapy, therapeutic massage and receiving Oligopeptide preparations containing…",
@@ -154,6 +205,34 @@
           "outcome": "The short peptides increase stability of red blood cell membranes toward osmotic hemolysis."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "Pinealon is the tripeptide glutamate-aspartate-arginine (Glu-Asp-Arg, written EDR), designed by Vladimir Khavinson's group in St Petersburg from the amino-acid composition of a peptide complex extracted from the pineal gland. The group's hypothesis is that such short peptides enter cells and bind DNA or histone proteins in the tissue they were derived from, changing gene expression. That is a hypothesis drawn from cell experiments, not a mechanism demonstrated in people.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "What the cell work shows is narrower than the hypothesis. In cerebellar granule cells, neutrophils and PC12 cells under oxidative stress, Pinealon restricted the build-up of reactive oxygen species in a dose-dependent way, reduced necrotic death, delayed ERK 1/2 activation and shifted the cell cycle. A 2008 study from the same network found the peptide has no direct antioxidant activity of its own; the effect appears to run through changes in the cells rather than through scavenging radicals.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "What has not been shown: a receptor, a binding target confirmed in living tissue, brain penetration after oral dosing, or any pharmacokinetic measurement in humans. The circadian and sleep framing that follows the compound around comes from its pineal origin and its name, not from a study that measured melatonin, circadian markers or sleep in people.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Pinealon circulates for memory, focus, sleep and brain ageing, taken as capsules, as a subcutaneous injection or as a nasal spray, often paired with Epitalon. Reports on forums describe subtle or no noticeable effects and few complaints; the most common comment is uncertainty about whether it did anything. None of this comes from a controlled study. The only human figure that has appeared in the literature is an oral 0.2 mg twice daily, reported second-hand in a 2020 review of a case series that is not itself indexed; injectable and nasal figures on vendor pages have never been given to a person in a study and are not reproduced here.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -188,14 +267,13 @@
   },
   "comparison_peers": [],
   "open_questions": [
+    "No study in this record's ledger reports interactions with other agents for Pinealon; the 2011 cell study's phrase 'interact directly with the cell genome' is a mechanistic inference, not a drug interaction.",
     "No study in this record's ledger reports routes of administration for Pinealon.",
     "No study in this record's ledger reports doses used for Pinealon.",
     "No study in this record's ledger reports treatment durations for Pinealon.",
     "No study in this record's ledger reports weight-normalized doses for Pinealon.",
     "No study in this record's ledger reports dose-escalation schedules for Pinealon.",
     "No study in this record's ledger reports exclusion criteria for Pinealon.",
-    "No study in this record's ledger reports adverse events or their frequency for Pinealon.",
-    "No study in this record's ledger reports biomarkers monitored for Pinealon.",
     "No study in this record's ledger reports onset or duration of effects for Pinealon.",
     "No study in this record's ledger reports storage or stability for Pinealon.",
     "No randomized controlled trial of Pinealon is indexed in Europe PMC."
@@ -207,19 +285,55 @@
   "faq": [
     {
       "question": "Has Pinealon been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 1 clinical trials and 0 randomized controlled trials naming Pinealon or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "answer": "Twice in the indexed literature: a 2015 study of 32 patients aged 41 to 83 with organic brain syndrome and several chronic conditions, and a 2016 comparison of geroprotective methods in 110 people. Both are Russian-language, neither was randomized, and both gave Pinealon alongside a second peptide, Vesugen. A 72-patient traumatic-brain-injury series is quoted widely but exists only second-hand in a 2020 review."
     },
     {
-      "question": "What kind of evidence exists for Pinealon?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "Is there a Pinealon dose?",
+      "answer": "No dose has been established. Neither indexed human study states one in its abstract. The only human figure in circulation, oral 0.2 mg twice daily for 20 to 30 days, comes from the unverified case series. No injected or nasal dose has been given to a person in any study."
     },
     {
-      "question": "Is Pinealon an approved medicine?",
-      "answer": "No ChEMBL record matches Pinealon or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "Is Pinealon taken orally or injected?",
+      "answer": "Every human report involves oral capsules, which is how it is sold in Russia. Injection and nasal spray appear only on vendor pages and forums; no study has used either route in people, and no study has measured whether a tripeptide taken by mouth reaches the brain intact."
     },
     {
-      "question": "Which species has Pinealon been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "What are the side effects of Pinealon?",
+      "answer": "No study recorded adverse events as an outcome, so frequencies are unknown. The 2015 study did report prooxidant activity and a fall in CD34+ blood cells that its authors called inhibition of hemopoiesis, and old rats showed a moderate rise in caspase-3. Forum reports describe few complaints."
+    },
+    {
+      "question": "Is Pinealon FDA approved?",
+      "answer": "No. It has no approved indication in the United States or in any Western regulator's system and is sold there as a research chemical. In Russia it is reported to be sold as a dietary supplement, not as a registered drug."
+    },
+    {
+      "question": "Is Pinealon banned by WADA?",
+      "answer": "It is not named on the Prohibited List, but the list's S0 category prohibits at all times any pharmacological substance with no approval from a regulatory health authority. Pinealon fits that description, so an athlete should treat it as prohibited."
+    },
+    {
+      "question": "Does Pinealon help sleep?",
+      "answer": "No human study has measured sleep. The idea comes from the pineal origin of the sequence, a 2011 study in which old rats given Pinealon showed more sleep-like behaviour, and a 2026 review that lists it among agents targeting circadian regulators. None of that is a sleep result in people."
+    },
+    {
+      "question": "Does Pinealon really bind DNA?",
+      "answer": "That is the developers' hypothesis, drawn from cell experiments in which higher concentrations kept changing the cell cycle after the antioxidant effect had plateaued. It has not been demonstrated in living tissue, and no receptor or confirmed target exists."
+    },
+    {
+      "question": "Is Pinealon the same as Epitalon?",
+      "answer": "No. Both come from the same pineal-derived programme, but Pinealon is the tripeptide Glu-Asp-Arg and Epitalon is the tetrapeptide Ala-Glu-Asp-Gly, with a different and larger literature. No study has compared them in people; vendors pair them, which is where the comparison demand comes from."
+    },
+    {
+      "question": "What do people on Reddit say about Pinealon?",
+      "answer": "Mostly uncertainty. Threads describe subtle or no noticeable effects on memory or sleep, few complaints, and frequent pairing with Epitalon. These are experiences without controls or measurement and cannot be weighed against the studies."
+    },
+    {
+      "question": "Is the 72-patient Pinealon study real?",
+      "answer": "It is reported in a 2020 narrative review as an open series of adults aged 30 to 74 with post-traumatic cerebrasthenia given oral 0.2 mg twice daily for 20 to 30 days alongside standard care, with improvements in memory, headache and EEG. The primary paper is not indexed in Europe PMC and this page could not retrieve it, so it is listed as unverified."
+    },
+    {
+      "question": "Who did the Pinealon research?",
+      "answer": "Almost all of it comes from Vladimir Khavinson's St Petersburg Institute of Bioregulation and Gerontology and collaborating Russian groups. No independent laboratory outside that network has published a human study, which is the main reason the evidence is treated with caution."
+    },
+    {
+      "question": "What did the pregnant-rat study show?",
+      "answer": "Rats loaded with methionine during pregnancy, to raise homocysteine, were given Pinealon; their offspring learned and oriented better and had fewer dying cerebellar neurons than untreated offspring. It is a neuroprotection result in a rat model, not evidence of safety or benefit in human pregnancy."
     }
   ],
   "sources": [
@@ -295,7 +409,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 57.8,
+  "uniqueness_pct": 82.7,
   "review": {
     "author": "",
     "reviewer": "",
@@ -318,6 +432,49 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 8 ledger sources by scripts/draft_claims.py: 1 claims, 6 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/pinealon.json: guide (7 sections), FAQ to 13 plus 5 from the map, mechanism, reported-use, regulatory, adverse-event and biomarker claims; the second-hand 72-patient series marked unverified; intent-driven H1 and title. Triage: misdrafted interactions claim removed (regex matched 'interact directly with the cell genome'); contextual links added."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Pinealon in two minutes",
+      "html": "<p><strong>What it is.</strong> A three-amino-acid peptide, Glu-Asp-Arg, from the Russian bioregulator family developed by Vladimir Khavinson's institute. Sold in Russia as a supplement and elsewhere as a research chemical; it belongs to the same pineal-derived family as <a href=\"/compounds/epitalon\">Epitalon</a>.</p><p><strong>What the research actually shows.</strong> 17 indexed publications and no randomized trial. Two human studies exist, both Russian-language, both in older adults with organic brain syndrome, neither randomized and neither stating a dose in its abstract. The rest is rat and cell work from one affiliated network.</p><p><strong>The figure everyone quotes.</strong> A 72-patient series in adults with consequences of traumatic brain injury, given oral 0.2 mg twice daily for 20 to 30 days, appears only second-hand in a 2020 review; the primary study is not indexed and this page could not verify it.</p><p><strong>Status.</strong> Not approved anywhere. Not named on the WADA list, but caught by its S0 rule for unapproved substances.</p><p><strong>Where the evidence is thinnest.</strong> Absorption, dose, effect and safety in people; sleep, which no study measured; and independence, since every human report comes from the same network.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Pinealon doses in studies",
+      "lede": "Every figure here was given in a study. Where an abstract states no dose, the table says so rather than filling the gap.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Every Pinealon administration in the ledger, plus the one second-hand human report.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Who or what</th><th scope=\"col\">Route and dose</th><th scope=\"col\">Duration</th><th scope=\"col\">What was found</th></tr></thead><tbody><tr><td>Meshchaninov 2015</td><td>32 adults aged 41 to 83 with several chronic conditions and organic brain syndrome in remission</td><td><em>Pinealon</em> and <em>Vesugen</em> preparations; route and dose not stated in the abstract</td><td>Not stated</td><td>Anabolic effect; slower biological-age indices; prooxidant activity; fall in CD34+ cells</td></tr><tr><td>Myakotnykh 2016</td><td>110 people of different ages</td><td>Pinealon with Vesugen; dose not stated</td><td>Not stated</td><td>Combined peptides gave the largest change in biological-age indices and were among the safest of five methods</td></tr><tr><td>Case series reported in a 2020 review (not in ledger)</td><td>72 adults aged 30 to 74 with post-traumatic cerebrasthenia, added to standard care</td><td>Oral, 0.2 mg twice daily</td><td>20 to 30 days</td><td>Memory, headache and EEG changes reported; no control group; primary study not retrievable</td></tr><tr><td>Mendzheritskiĭ 2011</td><td>Old rats, carotid artery occlusion</td><td>Given before occlusion; dose not stated in the abstract</td><td>Single pre-treatment</td><td>Higher survival; more sleep-like behaviour; less exploration and motor activity; caspase-3 moderately raised</td></tr><tr><td>Arutjunyan 2012</td><td>Pregnant rats on a methionine load, then their offspring</td><td>Given to the dams; dose not stated in the abstract</td><td>Pregnancy</td><td>Offspring learned and oriented better; fewer necrotic cerebellar neurons</td></tr><tr><td>Khavinson 2011; Kozina 2008</td><td>Cerebellar granule cells, neutrophils, PC12 cells, red cells, human lipoproteins</td><td>A range of concentrations; effects dose-dependent</td><td>Hours</td><td>Less reactive-oxygen build-up and necrosis; membranes more stable; no direct antioxidant action</td></tr></tbody></table></div></div><p>Figures for injected or intranasal Pinealon circulate on forums and vendor pages. None has been given to a person in a study, so none is reproduced here; the table holds every dose a study actually administered, and the one human figure it contains is second-hand.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who Pinealon is discussed for, and the cautions that recur",
+      "html": "<p>Three groups appear. <strong>Studied:</strong> older adults with organic brain syndrome of vascular or traumatic origin and several chronic illnesses, in the two indexed studies. <strong>Reported second-hand:</strong> adults with consequences of traumatic brain injury, in the unverified series. <strong>Community:</strong> people seeking memory, sleep or anti-ageing effects, for whom no study exists.</p><p>No study set exclusion criteria, so the cautions below are what the data themselves raise, not contraindications:</p><ul class=\"list\"><li><strong>Blood cell production.</strong> The 2015 study saw a fall in CD34+ cells its authors called inhibition of hemopoiesis. Anyone with a blood disorder has a reason to read that line before anything else on this page.</li><li><strong>Oxidative balance.</strong> The same study measured prooxidant activity, the opposite of the antioxidant claim vendors make.</li><li><strong>Pregnancy.</strong> The only data are in rats, where the peptide changed the offspring's brains; an effect in pregnancy is not a safety finding for pregnancy.</li><li><strong>Younger adults.</strong> Nobody under 41 appears in the indexed studies; the unverified series starts at 30.</li><li><strong>Interactions.</strong> No study looked; the patients in the human studies were on standard treatment for their other conditions, and nothing was reported about it.</li><li><strong>Athletes.</strong> As with <a href=\"/compounds/semax\">Semax</a> and the other Russian peptides, unapproved substances are prohibited under WADA's S0 category at all times.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The only duration in any human report is <strong>20 to 30 days</strong>, from the second-hand traumatic-brain-injury series. The two indexed studies report their measurements after a course whose length the abstracts do not give. Nothing was measured after treatment stopped, so nothing is known about whether any change lasts, and no study reports when an effect began. In the rats, the peptide was given once before the injury.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>No storage or stability study of Pinealon is indexed. Vendor sheets follow the general practice for lyophilised peptides, refrigerated as powder and colder once in solution, but that is convention, not data for this compound.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how Pinealon is discussed",
+      "html": "<ol class=\"list\"><li><strong>Reading the evidence tier as trial evidence.</strong> This record carries the human-clinical-trial tier because two human studies exist. Neither was randomized or blinded, and both are known outside Russia only through their abstracts.</li><li><strong>Quoting 0.2 mg twice daily as a protocol.</strong> It is one uncontrolled series, reported second-hand, in one condition. It was not compared with another dose or with no treatment.</li><li><strong>Treating the name as a melatonin link.</strong> Pinealon contains no melatonin and no study measured melatonin or circadian markers. The name records the pineal extract the sequence was derived from.</li><li><strong>Carrying injection figures over from other peptides.</strong> No injected dose has been given to a person in any study of Pinealon.</li><li><strong>Calling it safe.</strong> The 2015 authors recommended it, and the same abstract reports prooxidant activity and a fall in CD34+ cells. Their recommendation is a judgment; the measurements are the data.</li><li><strong>Assuming independent replication.</strong> The human reports and most of the animal work come from Khavinson's institute and its collaborators. The one paper that ranks on Google for the term is the 2012 rat study from that group.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Pinealon vs Epitalon, Semax and Cortexin",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>The peptides Pinealon is most often compared with, from their own records where one exists.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">What it is</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>Pinealon</strong></td><td>Glu-Asp-Arg tripeptide; pineal-derived bioregulator; 17 indexed publications</td><td>2 non-randomized Russian studies in older adults; 1 second-hand case series</td><td>Supplement in Russia; research chemical elsewhere</td></tr><tr><td><a href=\"/compounds/epitalon\">Epitalon</a></td><td>Ala-Glu-Asp-Gly tetrapeptide from the same pineal programme; 170 indexed publications</td><td>5 randomized trials; 9 human studies in its ledger</td><td>Not approved; research chemical</td></tr><tr><td><a href=\"/compounds/semax\">Semax</a></td><td>Seven-amino-acid ACTH(4-10) analogue given as nasal drops; 208 indexed publications</td><td>1 randomized trials; 8 human studies in its ledger</td><td>Registered medicine in Russia; not approved elsewhere</td></tr><tr><td>Cortexin</td><td>Polypeptide complex extracted from animal cortex, not a single peptide</td><td>Russian clinical use; compared with Pinealon in the 2011 old-rat study, where both raised survival</td><td>Registered medicine in Russia; no record on this site</td></tr></tbody></table></div></div><p>The 2013 Russian review that groups these compounds treats Pinealon and Semax as short peptides and Cortexin and Cerebrolysin as polypeptide complexes. The demand for <strong>Pinealon vs Epitalon</strong> comes from vendors selling them as a pair; no study has compared the two in people. Head-to-head pages on this site are listed under <a href=\"/compare\">comparisons</a>.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }

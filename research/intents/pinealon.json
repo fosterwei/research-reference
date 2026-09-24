@@ -40,7 +40,7 @@
     ],
     "note": "peptidedosingprotocols.com absent from the top 10; the SERP is a mix of vendors, one primary paper and two explainers, with an AI Overview drawn from them."
   },
-  "demand_findings": "Head term carries 8,445 clickstream and 'pinealon peptide' 2,747; 'pinealon reddit' (1,322) outranks 'pinealon dosage' (814), so what people report is the second question after the definition. 'pinealon vs epitalon' (407) is the only comparison with demand. Side effects (50) is small but is the only safety query. Google Ads shows 8,100 for the head and zero for every modifier.",
+  "demand_findings": "Head term carries 8,445 clickstream and 'pinealon peptide' 2,747; 'pinealon reddit' (1,322) outranks 'pinealon dosage' (814), so what people report is the second question after the definition. 'pinealon vs epitalon' (407) is the only comparison with demand. Side effects (50) is small but is the only safety query. Google Ads shows 8,100 for the head and zero for every modifier. 'pinealon sleep' has 0 clickstream and 50 Ads; the video results on the SERP are about sleep, so it is answered in the mechanism boundary and the FAQ rather than given a section.",
   "h1": "Pinealon peptide: what the two human studies and the rat work show, and what remains unverified",
   "dek": "A Russian bioregulator tripeptide with a small literature. This page separates the two indexed human studies from the one case series everyone quotes, lists every dose a study gave, and reports the safety signals dosing guides leave out.",
   "queries": [
@@ -156,10 +156,10 @@
     {
       "query": "pinealon nasal",
       "volume": {
-        "clickstream": null,
-        "google_ads": null,
+        "clickstream": 0,
+        "google_ads": 0,
         "kd": null,
-        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+        "source": "not in the DataForSEO keyword index on 2026-09-24 (keyword_overview returned no item); recorded as a measured zero"
       },
       "intent": "informational",
       "policy": "evidence-with-boundary",
@@ -170,10 +170,10 @@
     {
       "query": "pinealon half life",
       "volume": {
-        "clickstream": null,
-        "google_ads": null,
+        "clickstream": 0,
+        "google_ads": 0,
         "kd": null,
-        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+        "source": "not in the DataForSEO keyword index on 2026-09-24 (keyword_overview returned no item); recorded as a measured zero"
       },
       "intent": "informational",
       "policy": "evidence-only",
@@ -198,21 +198,22 @@
     {
       "query": "pinealon before and after",
       "volume": {
-        "clickstream": null,
-        "google_ads": null,
+        "clickstream": 0,
+        "google_ads": 0,
         "kd": null,
-        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+        "source": "not in the DataForSEO keyword index on 2026-09-24 (keyword_overview returned no item); recorded as a measured zero"
       },
       "intent": "informational",
-      "policy": "redirect",
+      "policy": "evidence-with-boundary",
       "section": "reported_use",
-      "target": "reported-use"
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports are experiences, not evidence; nothing described here has been tested in a controlled study."
     },
     {
       "query": "what is pinealon used for",
       "volume": {
-        "clickstream": null,
-        "google_ads": null,
+        "clickstream": 0,
+        "google_ads": 20,
         "kd": null,
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
@@ -226,10 +227,10 @@
     {
       "query": "who should not take pinealon",
       "volume": {
-        "clickstream": null,
-        "google_ads": null,
+        "clickstream": 0,
+        "google_ads": 0,
         "kd": null,
-        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+        "source": "not in the DataForSEO keyword index on 2026-09-24 (keyword_overview returned no item); recorded as a measured zero"
       },
       "intent": "informational",
       "policy": "evidence-with-boundary",
@@ -241,10 +242,10 @@
     {
       "query": "is pinealon legal to purchase",
       "volume": {
-        "clickstream": null,
-        "google_ads": null,
+        "clickstream": 0,
+        "google_ads": 0,
         "kd": null,
-        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+        "source": "not in the DataForSEO keyword index on 2026-09-24 (keyword_overview returned no item); recorded as a measured zero"
       },
       "intent": "informational",
       "policy": "evidence-only",
@@ -256,16 +257,30 @@
     {
       "query": "where can i buy pinealon",
       "volume": {
-        "clickstream": null,
-        "google_ads": null,
+        "clickstream": 0,
+        "google_ads": 0,
         "kd": null,
-        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+        "source": "not in the DataForSEO keyword index on 2026-09-24 (keyword_overview returned no item); recorded as a measured zero"
       },
       "intent": "informational",
       "policy": "decline",
       "section": "none",
       "source": "people-also-ask",
       "note": "Commercial intent; out of scope per docs/content-sop.md."
+    },
+    {
+      "query": "pinealon sleep",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "mechanism",
+      "heading": "How Pinealon is thought to work, and why sleep keeps coming up",
+      "boundary": "No human study has measured sleep, melatonin or circadian markers; the sleep framing comes from the pineal origin of the sequence."
     }
   ],
   "competitors": [
