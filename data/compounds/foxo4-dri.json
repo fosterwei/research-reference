@@ -8,17 +8,17 @@
   ],
   "slug": "foxo4-dri",
   "status": "draft",
-  "evidence_tier": "observational-human",
-  "summary": "FOXO4-DRI is a peptide in the senolytic & cytoprotective class (FOXO4-p53 interaction disruptor, senolytic). Europe PMC indexes 19 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is observational human studies, with no indexed randomized trial. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
+  "evidence_tier": "animal-preclinical",
+  "summary": "FOXO4-DRI is a synthetic peptide designed in 2017 to kill senescent cells by breaking the FOXO4-p53 interaction that keeps them alive. Europe PMC indexes 19 publications naming it or a listed alias, and none of them is a study in a person: the entries that mention humans used cells in culture, cultured tissue, isolated proteins and autopsy lungs. The evidence that exists is in mice, where the original study restored fitness, fur density and kidney function in aged animals, and later work reported better testosterone and spermatogenesis, less lung fibrosis, less radioresistance in lung cancer and less vascular ageing. Nine years on there is no first-in-human study, no registered trial and no measured half-life, and the company founded on the work has moved towards the protein interaction rather than this molecule. It is sold as a research chemical, often under the name Proxofim.",
   "seo": {
-    "title": "FOXO4-DRI: what the research shows",
-    "description": "FOXO4-DRI research, cited: 19 indexed publications, 0 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "FOXO4-DRI: No Human Trial, Mouse Doses, Status",
+    "description": "FOXO4-DRI (Proxofim): no human trial exists. The mouse studies, the single published dose, side-effect data, and how it compares with other senolytics."
   },
   "attributes": {
     "routes_studied": [
       {
-        "value": "Human study, humans, 2024: administration by intraperitoneal route reported. N -acetyl-lysyltyrosylcysteine-amide (KYC), tauroursodeoxycholic acid (TUDCA), and Foxo4 dri were administered intraperitoneally to mitigate myeloperoxidase oxidant generation, ER stress, and cellular senescence, respectively.",
-        "evidence_label": "observational-human",
+        "value": "Rat model, rats, 2024: N -acetyl-lysyltyrosylcysteine-amide (KYC), tauroursodeoxycholic acid (TUDCA), and Foxo4 dri were administered intraperitoneally to mitigate myeloperoxidase oxidant generation, ER stress, and cellular senescence, respectively.",
+        "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-37874230"
         ],
@@ -26,85 +26,99 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2025: administration by intraperitoneal route reported. Through co-immunoprecipitation (CO-IP) experiments, we discovered that FOXO4-DRI prevents the binding of FOXO4 to P53, facilitating the phosphorylated P53 nuclear exclusion, which subsequently trigger BAX and cleaved caspase-3, leading to the apoptosis of…",
+        "value": "Animal study, mice, 2026: Injection of FOXO4-DRI in both naturally aged and induced aging mice effectively suppressed aortic aging and improved aortic function.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-41625068"
         ],
-        "source_excerpt": "Through co-immunoprecipitation (CO-IP) experiments, we discovered that FOXO4-DRI prevents the binding of FOXO4 to P53, facilitating the phosphorylated P53 nuclear exclusion, which subsequently trigger BAX and cleaved caspase-3, leading to the apoptosis of senescent cells.",
+        "source_excerpt": "Injection of FOXO4-DRI in both naturally aged and induced aging mice effectively suppressed aortic aging and improved aortic function.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Intraperitoneal injection in every animal study, which is a route used in rodents and not in people. No study has used subcutaneous injection, the route people who buy it describe, and none has tested whether the peptide survives or distributes the same way by that route.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "study_doses": [
+      {
+        "value": "No abstract in this ledger states a dose. The 2017 paper that designed the peptide gave it to mice intraperitoneally at 5 milligrams per kilogram, in cycles of three doses repeated over weeks; that figure sits in the paper's methods rather than its abstract, so it is recorded here as editorial until the full text is in the ledger. Every other study reports that the peptide was administered and leaves the amount to its methods section.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      },
+      {
+        "value": "Rat model, rats, 2024: Foxo4 dri administered at P4, P6, P8, and P10 led to outcomes similar to TUDCA and KYC.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-37874230"
+        ],
+        "source_excerpt": "Foxo4 dri administered at P4, P6, P8, and P10 led to outcomes similar to TUDCA and KYC.",
         "drafting": "extractive"
       }
     ],
-    "study_doses": [],
-    "escalation_schedules": [],
+    "escalation_schedules": [
+      {
+        "value": "None. No study escalated the dose, and no dose-ranging work has been published.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
     "interactions": [
       {
-        "value": "Animal study, mice, 2025: FOXO4-DRI, a novel peptide-based intervention, specifically disrupts the interaction between FOXO4 and P53, thereby inducing apoptosis in senescent cells.",
+        "value": "Animal study, mice, 2021: Specific induction of senescence-like CAF apoptosis using FOXO4-DRI, a FOXO4-p53-interfering peptide, resulted in remarkable effects on radiosensitizing NSCLC cells in vitro and in vivo.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
-          "pmid-41625068"
+          "pmid-34877934"
         ],
-        "source_excerpt": "FOXO4-DRI, a novel peptide-based intervention, specifically disrupts the interaction between FOXO4 and P53, thereby inducing apoptosis in senescent cells.",
+        "source_excerpt": "Specific induction of senescence-like CAF apoptosis using FOXO4-DRI, a FOXO4-p53-interfering peptide, resulted in remarkable effects on radiosensitizing NSCLC cells in vitro and in vivo.",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2022: The inhibited effect of FOXO4-DRI on myofibroblast lead to a downregulation of extracellular matrix (ECM) receptor interaction pathway in BLM-induced PF.",
+        "value": "Animal study, 2026: Mito-TEMPO, a mtROS scavenger, and FOXO4-DRI, a senolytic agent, both enhanced the therapeutic efficacy of TMZ by eliminating these senescent cells via apoptosis.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
-          "pmid-35510614"
+          "pmid-42391447"
         ],
-        "source_excerpt": "The inhibited effect of FOXO4-DRI on myofibroblast lead to a downregulation of extracellular matrix (ECM) receptor interaction pathway in BLM-induced PF.",
+        "source_excerpt": "Mito-TEMPO, a mtROS scavenger, and FOXO4-DRI, a senolytic agent, both enhanced the therapeutic efficacy of TMZ by eliminating these senescent cells via apoptosis.",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2020: By disrupting the FOXO4-p53 interaction, FOXO4-DRI, a specific FOXO4 blocker, selectively induced p53 nuclear exclusion and apoptosis in senescent Leydig cells.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-31959736"
-        ],
-        "source_excerpt": "By disrupting the FOXO4-p53 interaction, FOXO4-DRI, a specific FOXO4 blocker, selectively induced p53 nuclear exclusion and apoptosis in senescent Leydig cells.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "In vitro study, humans, 2025: Summarizing we provide a detailed characterization of the interaction of p53 with FOXO4 and FOXO4-DRI which is the basis for development of p53 inhibitors to treat diseases linked to cellular senescence such as cancers.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-40593617"
-        ],
-        "source_excerpt": "Summarizing we provide a detailed characterization of the interaction of p53 with FOXO4 and FOXO4-DRI which is the basis for development of p53 inhibitors to treat diseases linked to cellular senescence such as cancers.",
-        "drafting": "extractive"
+        "value": "The only agents the peptide has been given alongside are cancer treatments, in the studies that used it to kill cells the treatment had made senescent: doxorubicin in the 2017 mouse work, radiotherapy in the 2021 lung-cancer study and temozolomide in the 2026 glioblastoma study. Those are experiments in which senescence is the target, not interaction studies. No study has examined it with any other drug, and none has looked at what it does in an animal receiving ordinary medicines.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
       }
     ],
-    "exclusion_criteria": [
+    "exclusion_criteria": [],
+    "adverse_events": [
       {
-        "value": "Animal study, mice, 2025: Through co-immunoprecipitation (CO-IP) experiments, we discovered that FOXO4-DRI prevents the binding of FOXO4 to P53, facilitating the phosphorylated P53 nuclear exclusion, which subsequently trigger BAX and cleaved caspase-3, leading to the apoptosis of senescent cells.",
+        "value": "Animal study, mice, 2017: Under conditions where it was well tolerated in vivo, this FOXO4 peptide neutralized doxorubicin-induced chemotoxicity.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
-          "pmid-41625068"
+          "pmid-28340339"
         ],
-        "source_excerpt": "Through co-immunoprecipitation (CO-IP) experiments, we discovered that FOXO4-DRI prevents the binding of FOXO4 to P53, facilitating the phosphorylated P53 nuclear exclusion, which subsequently trigger BAX and cleaved caspase-3, leading to the apoptosis of senescent cells.",
+        "source_excerpt": "Under conditions where it was well tolerated in vivo, this FOXO4 peptide neutralized doxorubicin-induced chemotoxicity.",
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2020: By disrupting the FOXO4-p53 interaction, FOXO4-DRI, a specific FOXO4 blocker, selectively induced p53 nuclear exclusion and apoptosis in senescent Leydig cells.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-31959736"
-        ],
-        "source_excerpt": "By disrupting the FOXO4-p53 interaction, FOXO4-DRI, a specific FOXO4 blocker, selectively induced p53 nuclear exclusion and apoptosis in senescent Leydig cells.",
-        "drafting": "extractive"
+        "value": "There are no human safety data of any kind, because no person has received it in a study. Tolerability in a mouse over weeks is not a safety assessment; the mouse papers looked for benefit and reported no obvious harm, which is a different thing from looking for harm. The concerns that follow from the mechanism have not been tested in anything: senescent cells are needed transiently for wound healing and tissue repair, so clearing them indiscriminately has a plausible cost; a peptide that frees p53 to trigger cell death is acting on the central apoptosis switch; and the 2025 structural work found that the cationic cell-penetrating part of the molecule contributes to binding, which is also the part that gets it into every cell rather than only senescent ones.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       },
       {
-        "value": "In vitro study, humans, 2025: We further demonstrate that a senolytic FOXO4-D-retro-inverso-isoform peptide (FOXO4-DRI) promotes apoptosis and decreases G0/G1 phase cells in pro-senescence models of keloid organ cultures and fibroblasts, accompanied with p53-pS15 nuclear exclusion.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-39994346"
-        ],
-        "source_excerpt": "We further demonstrate that a senolytic FOXO4-D-retro-inverso-isoform peptide (FOXO4-DRI) promotes apoptosis and decreases G0/G1 phase cells in pro-senescence models of keloid organ cultures and fibroblasts, accompanied with p53-pS15 nuclear exclusion.",
-        "drafting": "extractive"
+        "value": "Product quality is a separate and unmeasured risk. The molecule is built entirely from D-amino acids in reverse sequence, which makes it expensive and difficult to synthesise correctly, and nothing sold under the name has been assessed by a regulator. No published analysis of vials sold online exists, unlike the analyses that have been done for other compounds on this site.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
-    "adverse_events": [],
     "biomarkers_monitored": [
       {
         "value": "Animal study, mice, 2022: Furthermore, FOXO4-DRI could increase the percentage of type 2 alveolar epithelial cells (AEC2) and fibroblasts, and decrease the myofibroblasts in bleomycin (BLM)-induced PF mouse model.",
@@ -116,15 +130,6 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2021: In addition, in this study, we also uncovered an obvious therapeutic effect of FOXO4-DRI on alleviating radiation-induced pulmonary fibrosis (RIPF) by targeting senescence-like fibroblasts in vivo.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-34877934"
-        ],
-        "source_excerpt": "In addition, in this study, we also uncovered an obvious therapeutic effect of FOXO4-DRI on alleviating radiation-induced pulmonary fibrosis (RIPF) by targeting senescence-like fibroblasts in vivo.",
-        "drafting": "extractive"
-      },
-      {
         "value": "In vitro study, humans, 2025: We further demonstrate that a senolytic FOXO4-D-retro-inverso-isoform peptide (FOXO4-DRI) promotes apoptosis and decreases G0/G1 phase cells in pro-senescence models of keloid organ cultures and fibroblasts, accompanied with p53-pS15 nuclear exclusion.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
@@ -134,30 +139,58 @@
         "drafting": "extractive"
       },
       {
-        "value": "In vitro study, 2021: Recently, a senolytic peptide, fork head box O transcription factor 4-D-Retro-Inverso (FOXO4-DRI), was reported to selectively kill the senescent fibroblasts.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-33996787"
-        ],
-        "source_excerpt": "Recently, a senolytic peptide, fork head box O transcription factor 4-D-Retro-Inverso (FOXO4-DRI), was reported to selectively kill the senescent fibroblasts.",
-        "drafting": "extractive"
+        "value": "What the studies count is senescent cells and the signals they secrete: p16, beta-galactosidase staining, the senescence-associated secretory phenotype, and apoptosis markers in the tissue itself. None of that can be measured from a blood sample, which is the practical problem with the compound. There is no established blood test that shows whether a senolytic has worked in a person.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
       }
     ],
     "reported_timelines": [
       {
-        "value": "Animal study, mice, 2020: These findings reveal the therapeutic potential of FOXO4-DRI for the treatment of male late-onset hypogonadism.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-31959736"
-        ],
-        "source_excerpt": "These findings reveal the therapeutic potential of FOXO4-DRI for the treatment of male late-onset hypogonadism.",
-        "drafting": "extractive"
+        "value": "Nothing in this ledger reports an onset, a peak or a duration of effect. The studies measure tissue at the end of an experiment, not a time course, and no pharmacokinetic study of the peptide has been published in any species. The D-retro-inverso design is intended to resist enzymatic degradation, which is a design goal rather than a measured half-life.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "storage": [],
-    "study_durations": [],
-    "weight_normalized_doses": [],
-    "regulatory_status": [],
+    "study_durations": [
+      {
+        "value": "Rat model, rats, 2024: Foxo4 dri administered at P4, P6, P8, and P10 led to outcomes similar to TUDCA and KYC.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-37874230"
+        ],
+        "source_excerpt": "Foxo4 dri administered at P4, P6, P8, and P10 led to outcomes similar to TUDCA and KYC.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The mouse studies dosed in cycles over weeks and then measured tissue. No study of any length exists in a person, so no duration of use has ever been evaluated for safety.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
+    "weight_normalized_doses": [
+      {
+        "value": "5 milligrams per kilogram intraperitoneally in mice, from the 2017 paper's methods. No per-kilogram figure has ever been established for any other species, and none has been tested in a person.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
+    "regulatory_status": [
+      {
+        "value": "No approval anywhere, and no registered clinical trial. The peptide was described in 2017 by a group at the Erasmus University Medical Center in Rotterdam; Cleara Biotech was founded on that work and has since focused on the FOXO4-p53 interaction more broadly rather than on this molecule, and no first-in-human study has been registered in the nine years since. It is sold as a research chemical, often under the vendor name Proxofim, with the research-use-only label that means no regulator has assessed it and it is not intended for human consumption. It is not named on the World Anti-Doping Agency's Prohibited List; as an unapproved substance it falls under the S0 category covering drugs with no current regulatory approval.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Human study, humans, 2024: Cellular senescence increased in rat and human BPD lungs, as evidenced by increased oxidative DNA damage, tumor suppressors, GL-13 stain, and inflammatory cytokines with decreased cell proliferation and lamin B expression.",
@@ -170,9 +203,9 @@
         "fields": {
           "study": "Jing 2024",
           "year": "2024",
-          "design": "Human study",
+          "design": "Rat model, with human autopsy lungs examined alongside",
           "n": null,
-          "species": "Humans",
+          "species": "Rats; human autopsy tissue",
           "dose": "not stated in abstract",
           "route": "intraperitoneal",
           "duration": "not stated in abstract",
@@ -358,6 +391,94 @@
           "duration": "not stated in abstract",
           "outcome": "Results showed that the treatment of FOXO4-DRI removed more than half of the cells in PDL9 but did not significantly affect the cell number of PDL3 chondrocytes."
         }
+      },
+      {
+        "value": "Animal study, mice, 2017: Under conditions where it was well tolerated in vivo, this FOXO4 peptide neutralized doxorubicin-induced chemotoxicity. Moreover, it restored fitness, fur density, and renal function in both fast aging XpdTTD/TTD and naturally aged mice.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-28340339"
+        ],
+        "source_excerpt": "Under conditions where it was well tolerated in vivo, this FOXO4 peptide neutralized doxorubicin-induced chemotoxicity. Moreover, it restored fitness, fur density, and renal function in both fast aging XpdTTD/TTD and naturally aged mice.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Baar 2017",
+          "year": "2017",
+          "design": "Animal study, mice",
+          "n": null,
+          "species": "Mice",
+          "dose": "5 mg/kg intraperitoneal (methods, not abstract)",
+          "route": "intraperitoneal",
+          "duration": "cycles over weeks",
+          "outcome": "Under conditions where it was well tolerated in vivo, this FOXO4 peptide neutralized doxorubicin-induced chemotoxicity. Moreover, it restored fitness, fur density, and renal function in both fast aging XpdTTD/TTD and naturally aged mice."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2024: In naturally aged mice, FOXO4-DRI-treated aged mice exhibited increased sperm quality and improved spermatogenesis.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-39025385"
+        ],
+        "source_excerpt": "In naturally aged mice, FOXO4-DRI-treated aged mice exhibited increased sperm quality and improved spermatogenesis.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Wang 2024",
+          "year": "2024",
+          "design": "Animal study, mice",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "In naturally aged mice, FOXO4-DRI-treated aged mice exhibited increased sperm quality and improved spermatogenesis."
+        }
+      },
+      {
+        "value": "Animal study, mice, 2023: The animal group of FOXO4-DRI therapeutic administration shows a milder pathologic change and less collagen deposition compared with the BLM-induced group.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-37074394"
+        ],
+        "source_excerpt": "The animal group of FOXO4-DRI therapeutic administration shows a milder pathologic change and less collagen deposition compared with the BLM-induced group.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Zhang 2023",
+          "year": "2023",
+          "design": "Animal study, mice",
+          "n": null,
+          "species": "Mice",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The animal group of FOXO4-DRI therapeutic administration shows a milder pathologic change and less collagen deposition compared with the BLM-induced group."
+        }
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "What circulates is a schedule, not a finding. Community posts and vendor pages describe subcutaneous injection of a few hundred micrograms a day, laddered over several weeks and repeated in cycles, sometimes under the vendor name Proxofim, with before-and-after photographs and self-reported changes in energy, skin and recovery. None of this is measured, none of it matches the mouse regimen it cites, and there is no test a person could take to check whether anything happened. It is recorded here because people search for it, and the figures are not reproduced.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "mechanism": [
+      {
+        "value": "Senescent cells are cells that have stopped dividing after damage but refuse to die, and accumulate with age while leaking inflammatory signals into the tissue around them. They survive by holding p53 in the nucleus, where it cannot start the cell-death programme, and the protein that holds it there is FOXO4. That is the interaction the 2017 Rotterdam group set out to break.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "FOXO4-DRI is a decoy. It carries the stretch of FOXO4 that binds p53, so it competes for the same site and releases p53, which then moves out of the nucleus and triggers the intrinsic apoptosis pathway. Healthy cells do not depend on that interaction to stay alive, which is the basis of the selectivity claim: in the original paper the peptide killed senescent cells while leaving others largely alone. The 2026 endothelial study traced the same sequence through p53, BAX and cleaved caspase-3.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The DRI in the name is the engineering. D-retro-inverso means the peptide is built from mirror-image D-amino acids assembled in reverse order, which presents roughly the same shape to its target while being unrecognisable to the enzymes that break down ordinary peptides. A cationic cell-penetrating sequence is attached to carry it inside cells. The 2025 structural work showed that this delivery sequence is not merely a passenger: it contributes to the binding itself, which is one reason a 2025 group designed a shorter L-amino-acid successor rather than pursuing this molecule.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
       }
     ]
   },
@@ -389,16 +510,19 @@
       "papers_analysed": 15,
       "claims": 14,
       "evidence_table_rows": 10
-    }
+    },
+    "hand_curation": "Five papers were added to the ledger by hand on 2026-09-24, including the 2017 study that designed the peptide, which the fetcher had missed. The publication counts above are the fetcher's and do not include them."
   },
-  "comparison_peers": [],
+  "comparison_peers": [
+    "ara-290",
+    "epitalon"
+  ],
   "open_questions": [
-    "No study in this record's ledger reports doses used for FOXO4-DRI.",
-    "No study in this record's ledger reports treatment durations for FOXO4-DRI.",
-    "No study in this record's ledger reports weight-normalized doses for FOXO4-DRI.",
-    "No study in this record's ledger reports dose-escalation schedules for FOXO4-DRI.",
-    "No study in this record's ledger reports adverse events or their frequency for FOXO4-DRI.",
-    "No study in this record's ledger reports storage or stability for FOXO4-DRI.",
+    "No human has received FOXO4-DRI in a published study, and no trial is registered.",
+    "No pharmacokinetic study exists in any species: no half-life, no distribution, no measure of how long a dose persists.",
+    "Doses live in methods sections rather than abstracts, so the ledger's dose fields are empty apart from the 2017 mouse regimen, which is recorded editorially.",
+    "No published analysis of the purity or content of vials sold under this name, or under the vendor name Proxofim.",
+    "Whether clearing senescent cells systemically has a cost in wound healing or tissue repair has not been measured in any species.",
     "No randomized controlled trial of FOXO4-DRI is indexed in Europe PMC."
   ],
   "media": {
@@ -408,19 +532,51 @@
   "faq": [
     {
       "question": "Has FOXO4-DRI been tested in humans?",
-      "answer": "Not in any indexed clinical trial. The studies in this record's ledger report work in humans, mice. Any human dosing information circulating about FOXO4-DRI does not come from a published trial."
+      "answer": "No. There is no completed, ongoing or registered human trial, nine years after the 2017 paper that designed it. The studies whose records mention humans used human cartilage cells in culture, human keloid tissue in culture, human proteins in a structural experiment, and autopsy lung tissue examined alongside a rat model. Nobody has received the peptide in a published study."
     },
     {
-      "question": "What kind of evidence exists for FOXO4-DRI?",
-      "answer": "The strongest tier is observational human: observational human studies, with no indexed randomized trial. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What dose was used in the studies?",
+      "answer": "The original 2017 mouse work used 5 milligrams per kilogram intraperitoneally, in cycles of three doses repeated over weeks, a figure that appears in the paper's methods rather than its abstract. The newborn rat study dosed on four days across one week without stating an amount in its abstract. No other study in the ledger states a dose, and none has been given to a person."
     },
     {
-      "question": "Is FOXO4-DRI an approved medicine?",
-      "answer": "No ChEMBL record matches FOXO4-DRI or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "What are the side effects of FOXO4-DRI?",
+      "answer": "Unknown, because no person has taken it in a study. The 2017 paper reported that mice tolerated it at the doses used. That is not a safety assessment: those studies were looking for benefit. The untested concerns that follow from the mechanism are the role senescent cells play in wound healing, the fact that the peptide enters all cells and relies on what the cell depends on for its selectivity, and the unknown contents of vials sold online."
+    },
+    {
+      "question": "How does FOXO4-DRI work?",
+      "answer": "Senescent cells survive by using the protein FOXO4 to hold p53 in the nucleus, where it cannot start the cell-death programme. FOXO4-DRI carries the part of FOXO4 that binds p53, so it competes for the same site, releases p53 and lets the cell destroy itself. Healthy cells do not depend on that interaction, which is the basis of the selectivity claim."
+    },
+    {
+      "question": "What does the DRI in FOXO4-DRI mean?",
+      "answer": "D-retro-inverso. The peptide is assembled from mirror-image D-amino acids in reverse sequence, which presents a similar shape to the target while being unrecognisable to the enzymes that break down ordinary peptides. A cationic cell-penetrating sequence is attached to carry it into cells, and a 2025 structural study found that this sequence also contributes to the binding."
+    },
+    {
+      "question": "Is FOXO4-DRI the same as Proxofim?",
+      "answer": "Proxofim is a name research-chemical vendors use for FOXO4-DRI. It is not the brand of an approved medicine and denotes no particular purity, manufacturer or assessment. The name appears in vendor listings, not in the scientific literature."
+    },
+    {
+      "question": "Is FOXO4-DRI approved or legal?",
+      "answer": "It is approved nowhere and has no registered trial. It is sold as a research chemical under a research-use-only label, which means no regulator has assessed it and it is not intended for human consumption. Rules on buying and possessing research chemicals vary by country."
+    },
+    {
+      "question": "Did FOXO4-DRI extend lifespan in mice?",
+      "answer": "The 2017 study measured health rather than lifespan: fitness, fur density and kidney function improved in fast-ageing and naturally aged mice, and the toxicity of a chemotherapy drug was blunted. Later mouse studies measured testosterone, sperm quality, lung fibrosis, radioresistance and aortic function. A survival study of this peptide has not been published."
+    },
+    {
+      "question": "Why has FOXO4-DRI not reached clinical trials?",
+      "answer": "The company founded on the work has moved towards the underlying protein interaction rather than this molecule. A large all-D-amino-acid peptide is expensive to make, awkward to deliver, hard to protect commercially once it can be bought openly, and difficult to test, since senolysis has no blood-borne readout that would show a trial whether the drug worked. A 2025 group has already designed a shorter successor."
+    },
+    {
+      "question": "Can you measure whether FOXO4-DRI has worked?",
+      "answer": "Not outside a laboratory. Senescence is measured in tissue: p16, beta-galactosidase staining and the secreted inflammatory signature, generally from a biopsy. There is no validated blood test, which is a problem for the whole senolytic field and the reason self-experiment here produces no information."
+    },
+    {
+      "question": "Is FOXO4-DRI better than dasatinib and quercetin or fisetin?",
+      "answer": "There is no basis for the comparison. Dasatinib with quercetin and fisetin have both been through small human trials; FOXO4-DRI has not been given to a person. On mechanism it is more targeted, acting on one protein interaction rather than several survival pathways, but a targeting advantage shown in mice cannot be weighed against results in people."
     },
     {
       "question": "Which species has FOXO4-DRI been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "answer": "Mice in most studies, rats in the newborn lung study, and human cells in culture. There are no studies in dogs, in non-human primates or in people."
     }
   ],
   "sources": [
@@ -453,6 +609,13 @@
       "kind": "peer-reviewed"
     },
     {
+      "id": "pmid-40739602",
+      "title": "Peptide Inhibitors Targeting FOXO4-p53 Interactions and Inducing Senescent Cancer Cell-specific Apoptosis.",
+      "url": "https://europepmc.org/article/MED/40739602",
+      "published": "2025-07-30",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-40593617",
       "title": "The disordered p53 transactivation domain is the target of FOXO4 and the senolytic compound FOXO4-DRI.",
       "url": "https://europepmc.org/article/MED/40593617",
@@ -467,10 +630,24 @@
       "kind": "peer-reviewed"
     },
     {
+      "id": "pmid-39025385",
+      "title": "FOXO4-DRI improves spermatogenesis in aged mice through reducing senescence-associated secretory phenotype secretion from Leydig cells.",
+      "url": "https://europepmc.org/article/MED/39025385",
+      "published": "2024-07-19",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-37874230",
       "title": "Cellular Senescence Contributes to the Progression of Hyperoxic Bronchopulmonary Dysplasia.",
       "url": "https://europepmc.org/article/MED/37874230",
       "published": "2024-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37074394",
+      "title": "FOXO4-D-Retro-Inverso targets extracellular matrix production in fibroblasts and ameliorates bleomycin-induced pulmonary fibrosis in mice.",
+      "url": "https://europepmc.org/article/MED/37074394",
+      "published": "2023-04-19",
       "kind": "peer-reviewed"
     },
     {
@@ -528,10 +705,20 @@
       "url": "https://europepmc.org/article/MED/29171222",
       "published": "2017-08-01",
       "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28340339",
+      "title": "Targeted Apoptosis of Senescent Cells Restores Tissue Homeostasis in Response to Chemotoxicity and Aging.",
+      "url": "https://europepmc.org/article/MED/28340339",
+      "published": "2017-03-01",
+      "kind": "peer-reviewed"
     }
   ],
-  "related": [],
-  "uniqueness_pct": 65.4,
+  "related": [
+    "ara-290",
+    "epitalon"
+  ],
+  "uniqueness_pct": 87.6,
   "review": {
     "author": "",
     "reviewer": "",
@@ -554,6 +741,77 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 15 ledger sources by scripts/draft_claims.py: 14 claims, 10 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Stage 0 corrected by hand: the evidence tier read observational-human although no person has received the peptide, and the one row filed as a human study is a rat model with human autopsy lungs; both fixed, and five papers the fetcher missed were added to the ledger, including the 2017 study that designed the compound. Written under the sequencing rule after research/intents/foxo4-dri.json: guide of ten sections including a table separating human material from human studies, a full study-by-species table and a dose table; mechanism, reported use and regulatory status as editorial with pending_source; misdrafted interaction and exclusion claims removed; intent-driven H1 and title."
+    }
+  ],
+  "evidence_assessment": {
+    "availability": "Preclinical only",
+    "strength": "Animal and cell studies, no human data",
+    "efficacy_label": "Not evaluated in humans",
+    "efficacy_summary": "No person has received FOXO4-DRI in a study. The ledger's strongest results are in mice: restored fitness, fur density and kidney function in aged animals in 2017, better testosterone and spermatogenesis in aged mice, and less fibrosis, less radioresistance and less vascular ageing in disease models.",
+    "limitations": [
+      "No first-in-human study, no registered trial and no pharmacokinetic data in any species.",
+      "Doses are in methods sections rather than abstracts, so the ledger's dose fields are mostly empty.",
+      "Most papers use the peptide as a laboratory probe for a disease mechanism, not as a candidate being developed."
+    ]
+  },
+  "prose_reviewed": true,
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "FOXO4-DRI in two minutes",
+      "html": "<p><strong>What it is.</strong> A synthetic peptide designed in 2017 in Rotterdam to kill senescent cells, the damaged cells that stop dividing, refuse to die and accumulate with age. It works as a decoy that frees the protein p53 so those cells can finally self-destruct.</p><p><strong>What the research shows.</strong> 19 indexed publications, and <strong>not one of them is a study in a person</strong>. The ledger's human-labelled entries are human cells in a dish and human autopsy lung tissue. In mice the 2017 paper restored fitness, fur density and kidney function in aged animals; later mouse work reported better testosterone and sperm quality, less lung fibrosis, less radioresistance in lung cancer and less vascular ageing.</p><p><strong>What is missing.</strong> Everything downstream of the mouse. No first-in-human study, no registered trial, no measured half-life, no blood test that shows whether it worked, and no published analysis of what is in the vials sold online.</p><p><strong>What happened to the development.</strong> A company was founded on the original work and has moved towards the underlying protein interaction rather than this molecule. Nine years on, the peptide is mostly a laboratory tool other groups use to study senescence in fibrosis, scarring, glioblastoma and newborn lung disease.</p><p><strong>Where the evidence is thinnest.</strong> Human safety, which is not thin but absent; and the schedules that circulate online, which correspond to no experiment.</p>"
+    },
+    {
+      "id": "human-gap",
+      "heading": "The human trial that does not exist",
+      "lede": "This is the whole answer to the question most people arrive with, so it goes before anything else.",
+      "html": "<p>Searches for <b>FOXO4-DRI human trial</b> return papers, blog posts and vendor pages, none of which describe a trial. There has never been one. There is no completed study, no ongoing study and no registered study in any trial registry, nine years after the paper that introduced the peptide.</p><p>What confuses the picture is that several papers do involve human material. They are worth separating:</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Every study in this ledger that involves human material, and what the material was.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">What was human about it</th><th scope=\"col\">What it was not</th></tr></thead><tbody><tr><td>Huang 2021, chondrocytes</td><td>Cartilage cells taken from healthy donors and expanded in culture</td><td>Nobody received the peptide; it was added to a flask</td></tr><tr><td>Kong 2025, keloid scars</td><td>Keloid tissue and fibroblasts cultured outside the body</td><td>An organ culture, not a patient treated</td></tr><tr><td>Bourgeois 2025, structure</td><td>Human p53 and FOXO4 protein domains in a nuclear magnetic resonance tube</td><td>Protein chemistry, with no cells and no animal</td></tr><tr><td>Jing 2024, newborn lung disease</td><td>Autopsy lungs from infants, compared with the rat model</td><td>The peptide went into rat pups; the human lungs were only examined</td></tr></tbody></table></div></div><p>So the correct count of people who have received FOXO4-DRI in a published study is <b>zero</b>. The correct count who have received it outside one is unknown and unmeasurable, because nobody collects it. A 2026 review of the FOXO4-p53 axis in brain ageing makes the same point from the other direction: when it looks for preliminary human evidence, it has to cite trials of <b>fisetin</b>, a different and orally available compound, because there are none of this peptide to cite.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "Study by study: what FOXO4-DRI did, and in what",
+      "lede": "The full ledger, sorted by species. Read the middle column first: it is what the study actually was.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Every primary study of FOXO4-DRI in this record's ledger.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Species or material</th><th scope=\"col\">What it found</th></tr></thead><tbody><tr><td>Baar 2017 (the paper that designed it)</td><td>Mice, aged and fast-ageing</td><td>Selective killing of senescent cells; restored fitness, fur density and kidney function; blunted the toxicity of doxorubicin</td></tr><tr><td>Zhang 2020</td><td>Mice, naturally aged</td><td>Cleared senescent Leydig cells; improved the testicular environment and age-related testosterone decline</td></tr><tr><td>Wang 2024</td><td>Mice, naturally aged</td><td>Better sperm quality and spermatogenesis, via less secretion from senescent Leydig cells</td></tr><tr><td>Meng 2021</td><td>Mice, lung cancer model</td><td>Killing senescent cancer-associated fibroblasts made tumours more sensitive to radiotherapy and reduced radiation-induced lung fibrosis</td></tr><tr><td>Zhang 2023</td><td>Mice, bleomycin lung fibrosis</td><td>Milder damage and less collagen deposition than untreated model animals</td></tr><tr><td>Han 2022</td><td>Mice, bleomycin lung fibrosis</td><td>Comparable to the approved drug pirfenidone on senescent-cell and secretory measures in that model</td></tr><tr><td>Hu 2026</td><td>Mice, aged and progeroid</td><td>Suppressed aortic ageing and improved aortic function, through p53, BAX and caspase-3</td></tr><tr><td>Jing 2024</td><td>Rat pups, hyperoxic lung injury</td><td>Four doses over one week gave outcomes similar to two other protective agents</td></tr><tr><td>Ning 2026</td><td>Glioblastoma models</td><td>Cleared cells made senescent by temozolomide and improved that drug's effect</td></tr><tr><td>Huang 2021</td><td>Human cartilage cells in culture</td><td>Removed more than half the cells in an aged culture while barely touching a young one</td></tr><tr><td>Kong 2025</td><td>Human keloid tissue in culture</td><td>Apoptosis in senescent scar fibroblasts, with p53 leaving the nucleus</td></tr><tr><td>Bourgeois 2025</td><td>Protein structure, no cells</td><td>Mapped how the peptide binds p53, and found the delivery sequence contributes to binding</td></tr><tr><td>Deryabin 2022</td><td>Cells in culture</td><td>Used FOXO4-DRI as the comparator while proposing a different way to kill senescent cells</td></tr></tbody></table></div></div><p>Two patterns are worth naming. The first is that the disease models outnumber the ageing studies: most groups use this peptide as a way to ask whether senescent cells matter in <b>their</b> disease, and the answer being published is about the disease, not about the peptide as a treatment. The second is that every one of these is an endpoint measurement in tissue. Not one reports how long the peptide lasted, what dose gave what effect, or what happened to the animals afterwards.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every dose in the studies, and the species that received it",
+      "lede": "There are two numbers in this whole literature. Both were given to rodents by a route nobody uses at home.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses of FOXO4-DRI as published.</caption><thead><tr><th scope=\"col\">Setting</th><th scope=\"col\">Species</th><th scope=\"col\">Route</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th></tr></thead><tbody><tr><td>Baar 2017, the original study</td><td>Mice</td><td>Intraperitoneal</td><td>5 mg/kg (stated in the methods, not the abstract)</td><td>Three doses per cycle, cycles repeated over weeks</td></tr><tr><td>Jing 2024, newborn lung injury</td><td>Rat pups</td><td>Intraperitoneal</td><td>Not stated in the abstract</td><td>Postnatal days 4, 6, 8 and 10</td></tr><tr><td>Every other study</td><td>Mice, rats or cells</td><td>Intraperitoneal or in culture</td><td>Not stated in the abstract</td><td>Not stated in the abstract</td></tr><tr><td>Any human study</td><td>—</td><td>—</td><td><b>None exists</b></td><td>—</td></tr></tbody></table></div></div><p>The schedules that circulate online are built on neither number. They describe a few hundred micrograms a day by subcutaneous injection, laddered over several weeks. Set against the mouse regimen, converted between species the way pharmacologists convert it, that is smaller by roughly two orders of magnitude, and by a different route.</p><p>That gap is worth stating plainly because it cuts against the page it usually appears on. A schedule that cites the 2017 mouse work as its evidence is not a cautious version of that experiment; it is a different intervention, and the mouse result cannot be claimed for it. It is equally not an argument for taking more. Nothing establishes that <b>any</b> dose of this peptide is safe in a person, the species gap runs in both directions, and the mouse studies were looking for benefit rather than for harm. The honest summary is that the dose question has no answer yet, in either direction.</p><p>If you are reading this page because you want the arithmetic for a vial, the <a href=\"/tools/reconstitution-calculator\">reconstitution calculator</a> does the volume maths for any peptide, and says nothing about whether a figure should be used.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who FOXO4-DRI is discussed for, and what is unresolved",
+      "html": "<p><strong>Studied in:</strong> aged mice, mouse disease models, rat pups, and human cells in culture. <strong>Never studied in:</strong> any person, at any age, for any indication. <strong>Discussed by:</strong> the longevity community, people who found it through the 2017 coverage, and vendors selling it as Proxofim.</p><p>The open questions are not cautions drawn from experience, because there is no experience. They follow from the mechanism:</p><ul class=\"list\"><li><strong>Senescent cells are not only harmful.</strong> They appear transiently during wound healing and tissue repair, and clearing them without regard to timing has a plausible cost that no study has measured.</li><li><strong>Selectivity is a claim about cell culture and mice.</strong> The delivery sequence carries the peptide into everything; the selectivity comes from what the cell depends on, and it has never been tested in a human tissue in a living body.</li><li><strong>There is no way to check.</strong> Senescence is measured in tissue, not in blood. Nobody taking this compound can know whether anything happened.</li><li><strong>Cancer cuts both ways.</strong> The same papers show senescent cells protecting tumours from treatment, and other work shows senescence restraining tumour growth. Clearing senescent cells in someone with an undetected cancer is unstudied.</li><li><strong>The vial is unknown.</strong> An all-D-amino-acid peptide is hard to make correctly, and no independent analysis of what is sold has been published.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>Nothing in this literature is a time course. The mouse studies dosed in cycles across <b>weeks</b> and then measured tissue at the end; the newborn rat study gave four doses across <b>one week</b>. No study reports an onset, a peak, a duration of effect or a half-life, in any species. The D-retro-inverso design exists to resist the enzymes that would destroy an ordinary peptide, which is a reason to expect it persists longer than one, not a measurement that it does.</p><p>The before-and-after photographs that circulate are therefore untethered to anything published. There is no expected timeline to compare them against, and no measurement anyone could take to tell an effect from its absence.</p>"
+    },
+    {
+      "id": "company",
+      "heading": "Who owns it, and why it has not moved",
+      "html": "<p>The peptide came out of Peter de Keizer's group at the Erasmus University Medical Center in Rotterdam, published in <i>Cell</i> in 2017 to considerable coverage. <b>Cleara Biotech</b> was founded to commercialise the work. The company remains a preclinical concern and its programme has moved towards the FOXO4-p53 interaction in general rather than this particular molecule, which is the ordinary fate of a first-generation peptide: too large, too expensive to synthesise, too awkward to deliver, and difficult to protect commercially in a form anyone can already buy.</p><p>The 2025 structural work points the same way. Having mapped how the peptide binds, one group designed a shorter successor built from ordinary L-amino acids with a redesigned charge profile, because that is easier to make and to develop. A compound whose own field is designing replacements for it is not a compound about to enter trials.</p><p>Meanwhile the literature keeps growing, because the peptide is a convenient way to ask whether senescent cells matter in a given disease. Those papers are evidence about senescence. They are not a development programme, and reading a steady stream of publications as momentum towards a medicine is the mistake this section exists to prevent.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how FOXO4-DRI is discussed",
+      "html": "<ol class=\"list\"><li><strong>Reading the human-cell studies as human studies.</strong> Cartilage cells in a flask and keloid tissue in culture are human material, not people.</li><li><strong>Citing the 2017 mouse paper for a microgram schedule.</strong> The paper's regimen was milligrams per kilogram, intraperitoneally, in cycles. The two have no arithmetic relationship.</li><li><strong>Treating research-use-only as a regulatory category that permits use.</strong> It means the opposite: nothing has been assessed, and the product is not intended for human consumption.</li><li><strong>Assuming a growing publication count means progress towards approval.</strong> Most new papers use the peptide as a probe for another disease.</li><li><strong>Expecting a felt effect.</strong> Senolysis is measured in tissue. Any before-and-after impression is unverifiable, which is why the community evidence here stays in its own section.</li><li><strong>Grouping it with senolytics that have human data.</strong> Dasatinib with quercetin, fisetin and navitoclax have been through human trials. This has not. The comparison below keeps them apart, and <a href=\"/compounds/epitalon\">epitalon</a> is an example on this site of the same pattern: heavy community interest, thin human evidence.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "FOXO4-DRI beside the senolytics that have reached human trials",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Senolytic approaches compared by how far they have got in people.</caption><thead><tr><th scope=\"col\">Approach</th><th scope=\"col\">What it is</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Where it stands</th></tr></thead><tbody><tr><td><strong>FOXO4-DRI</strong></td><td>D-retro-inverso peptide, blocks the FOXO4-p53 interaction</td><td><b>None</b></td><td>No registered trial; sold as a research chemical</td></tr><tr><td>Dasatinib with quercetin</td><td>An approved leukaemia drug plus a flavonoid, given intermittently</td><td>Small early trials in lung fibrosis, kidney disease and Alzheimer's disease</td><td>The most studied senolytic combination in people</td></tr><tr><td>Fisetin</td><td>A flavonoid available as a supplement</td><td>Trials in older adults running and reported</td><td>Oral, cheap, and the compound reviews cite when they need human data</td></tr><tr><td>Navitoclax</td><td>A BCL-2 family inhibitor from oncology</td><td>Later-stage trials in blood cancers, with senolytic trials proposed</td><td>Effective but lowers platelets, which limits use in healthy ageing</td></tr><tr><td>UBX-series compounds</td><td>Purpose-built senolytics, given locally</td><td>Eye injections trialled in retinal disease</td><td>The local-delivery answer to the selectivity problem</td></tr></tbody></table></div></div><p>The pattern is worth noticing: everything with human data is either a repurposed drug or delivered locally. A systemically injected peptide that clears cells throughout the body is the hardest version of this idea to test, which is part of why it has not been. For a different class of compound aimed at protecting rather than clearing cells, see <a href=\"/compounds/ara-290\">ARA-290</a>, the other entry in this class on this site; the full list is in the <a href=\"/compounds\">compound directory</a>.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>No storage or stability study for FOXO4-DRI has been published, and the ledger holds none. What is known generally is that an all-D-amino-acid peptide is more resistant to enzymatic breakdown than an ordinary one, which says nothing about how a lyophilised vial behaves on a shelf or in solution. Vendor handling instructions describe a product that no regulator has assessed.</p>"
     }
   ]
 }
