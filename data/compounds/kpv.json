@@ -10,8 +10,8 @@
   "evidence_tier": "animal-preclinical",
   "summary": "KPV is a peptide in the repair & anti inflammatory class (alpha-MSH C-terminal tripeptide; anti-inflammatory, receptor unclear). Europe PMC indexes 138 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is animal studies only, with no indexed human study. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "KPV: what the research shows",
-    "description": "KPV research, cited: 138 indexed publications, 0 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "KPV Peptide: What the Animal Studies Show, Uses, Status",
+    "description": "KPV peptide explained: the α-MSH fragment, what mouse and cell studies show for gut and skin inflammation, why no human dose exists, side effects, and status."
   },
   "attributes": {
     "routes_studied": [
@@ -212,7 +212,15 @@
       }
     ],
     "weight_normalized_doses": [],
-    "regulatory_status": [],
+    "regulatory_status": [
+      {
+        "value": "Not approved anywhere, for any route. Sold as a research chemical and, topically, in some cosmetic products. It is not named on the WADA Prohibited List. Its status on FDA's compounding nomination lists should be checked against the live list.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Animal study, mice, 2026: In addition, KPV decreased the expression of key adipogenic markers, including peroxisome proliferator-activated receptor gamma (PPARγ) and fatty acid synthase (FAS).",
@@ -594,6 +602,34 @@
           "outcome": "see source"
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "KPV is the tripeptide lysine-proline-valine, the last three amino acids of alpha-melanocyte-stimulating hormone (α-MSH 11-13). The parent hormone is best known for skin pigmentation; the fragment keeps the hormone's anti-inflammatory activity without its pigmenting or appetite effects, and it is small enough to be taken up by the intestinal peptide transporter PepT1, which is how the 2008 mouse colitis study explained an effect after oral dosing.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "In cells and animals it reduces inflammatory signalling, damping NF-κB activation and lowering interleukin-6, interleukin-1β and TNF in gut, skin and eye models. Which receptor, if any, it acts through is unsettled: it does not bind melanocortin receptors the way α-MSH does, and direct entry into cells is the leading explanation. The 2026 mouse work in this record extends the story to fat tissue in a diet-induced obesity model.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "There is no human study of KPV of any kind. The two human rows in the evidence table are experiments on human cells. Every statement about KPV's effects in people, including the gut-health claims that dominate its marketing, is an extrapolation from mice and cell cultures.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "KPV circulates for gut inflammation, skin conditions and general anti-inflammatory use, by mouth, by injection, as a nasal spray and as a cream. Reported effects are reduced gut symptoms and calmer skin; reported side effects are few and mostly at injection sites. None of this comes from a human study, because none exists. Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -641,20 +677,68 @@
   },
   "faq": [
     {
+      "question": "What is KPV peptide?",
+      "answer": "The last three amino acids of the hormone α-MSH, lysine-proline-valine. It keeps the hormone's anti-inflammatory activity and is studied in mice and cells for gut, skin and eye inflammation."
+    },
+    {
+      "question": "What does KPV do?",
+      "answer": "In mice and cell cultures it lowers inflammatory signalling and reduces chemically induced colitis. No human study has measured any effect."
+    },
+    {
       "question": "Has KPV been tested in humans?",
-      "answer": "Not in any indexed clinical trial. The studies in this record's ledger report work in mice, rabbits, rats. Any human dosing information circulating about KPV does not come from a published trial."
+      "answer": "No. The human entries in the evidence table are cell experiments. There is no human trial, pilot or case series."
     },
     {
-      "question": "What kind of evidence exists for KPV?",
-      "answer": "The strongest tier is animal preclinical: animal studies only, with no indexed human study. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "Is there a KPV dose?",
+      "answer": "No human dose has been studied. Figures circulate online; none has been tested, and this page does not reproduce them."
     },
     {
-      "question": "Is KPV an approved medicine?",
-      "answer": "No ChEMBL record matches KPV or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "Can KPV be taken orally?",
+      "answer": "In mice, yes: a 2008 study found oral KPV reduced colitis, taken up by the intestinal transporter PepT1. Whether oral KPV does anything in people is unknown."
     },
     {
-      "question": "Which species has KPV been studied in?",
-      "answer": "Studies in this record's ledger report work in: Mice, Rabbits, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "What are the side effects of KPV?",
+      "answer": "Unknown. No human study exists. Community reports describe few effects beyond injection-site reactions."
+    },
+    {
+      "question": "Is KPV FDA approved?",
+      "answer": "No, not for any route. It is a research chemical and, topically, a cosmetic ingredient in some products."
+    },
+    {
+      "question": "Does KPV affect skin colour like α-MSH?",
+      "answer": "Animal work says no: the fragment does not bind the melanocortin receptors that drive pigmentation. That has not been confirmed in people."
+    },
+    {
+      "question": "Is KPV good for gut health?",
+      "answer": "In mouse colitis models it reduces inflammation. In people, untested."
+    },
+    {
+      "question": "KPV vs BPC-157: what is the difference?",
+      "answer": "Different origins and mechanisms: KPV is a hormone fragment acting on inflammatory signalling; BPC-157 is a gastric-protein fragment acting on nitric oxide and growth factors. BPC-157 has three uncontrolled human pilots; KPV has none."
+    },
+    {
+      "question": "Is KPV banned in sport?",
+      "answer": "It is not named on the WADA Prohibited List."
+    },
+    {
+      "question": "How should KPV be stored?",
+      "answer": "Powder refrigerated or frozen; solution refrigerated and used within about four weeks; capsules as labelled."
+    },
+    {
+      "question": "What receptor does KPV act on?",
+      "answer": "Unsettled. It does not bind melanocortin receptors; direct uptake into cells via PepT1 is the leading explanation."
+    },
+    {
+      "question": "Is KPV in the healing stack with BPC-157, TB-500 and GHK-Cu?",
+      "answer": "Communities combine them. No study has tested any of those combinations."
+    },
+    {
+      "question": "How many KPV studies exist?",
+      "answer": "138 indexed publications, all animal and cell work; 17 primary studies are tabulated on this page."
+    },
+    {
+      "question": "Why is KPV called a gut peptide?",
+      "answer": "Because the best-known study reduced colitis in mice after oral dosing. That is one mouse study."
     }
   ],
   "sources": [
@@ -861,6 +945,49 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 26 ledger sources by scripts/draft_claims.py: 20 claims, 19 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written guide, FAQ to 16, mechanism, reported-use (no circulating figures reproduced) and regulatory editorial sections; intent-driven H1 and title."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "KPV in two minutes",
+      "html": "<p><strong>What it is.</strong> The three-amino-acid tail of the pigmentation hormone α-MSH, which carries the hormone's anti-inflammatory activity without its other effects.</p><p><strong>What the research actually shows.</strong> 138 indexed publications, all animal and cell work: colitis models in mice, skin and eye inflammation, and recently fat tissue. No human study exists. The gut-health reputation rests on a 2008 mouse study in which oral KPV reduced chemically induced colitis.</p><p><strong>Status.</strong> Not approved anywhere; not named on the WADA list.</p><p><strong>Where the evidence is thinnest.</strong> Everything in people: absorption, dose, effect and safety.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "KPV doses in studies",
+      "lede": "Every figure here was given to mice or cells. No human dose exists.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Model</th><th scope=\"col\">Route</th><th scope=\"col\">Duration</th><th scope=\"col\">Finding</th></tr></thead><tbody><tr><td>Mouse colitis (2008)</td><td>Oral, in drinking water or gavage</td><td>Days</td><td>Reduced colitis severity; uptake via PepT1</td></tr><tr><td>Mouse colitis, conjugates and nanoparticles (2024 to 2026)</td><td>Oral formulations designed to reach the colon</td><td>Days</td><td>Greater colonic accumulation than free KPV; reduced inflammation</td></tr><tr><td>Mouse diet-induced obesity (2026)</td><td>Oral</td><td>Weeks</td><td>Reduced adipogenic markers</td></tr><tr><td>Human cell cultures</td><td>Micromolar concentrations</td><td>Hours</td><td>Reduced inflammatory signalling</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who KPV is discussed for, and the cautions that recur",
+      "html": "<p><strong>The interest.</strong> Inflammatory bowel conditions, eczema and psoriasis, and diffuse inflammation, because those are the mouse models with results and because oral dosing is possible.</p><ul><li><strong>Inflammatory bowel disease under treatment.</strong> Swapping or adding an untested peptide to a managed condition is the specific risk communities discuss least.</li><li><strong>Melanocortin biology.</strong> The parent hormone affects pigmentation, appetite and sexual function; KPV is reported not to, but that reassurance comes from animal work.</li><li><strong>Pregnancy, children, immune suppression.</strong> No data of any kind.</li><li><strong>Product identity.</strong> An unregulated tripeptide sold by mass; a certificate of analysis is the only check.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>In mice, colitis scores change over days of dosing. Nothing has been measured in people over any period, and the reports of gut symptom change over weeks that circulate are uncontrolled self-report for conditions that fluctuate on their own.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>Powder refrigerated or frozen away from light; reconstituted solution refrigerated and used within about four weeks; capsules as labelled. Discard cloudy or discoloured solution.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how KPV is discussed",
+      "html": "<ul><li><strong>Reading the 2008 mouse study as a human gut trial.</strong> It is the origin of the oral-dosing idea and it was in mice.</li><li><strong>Calling it a melanocortin agonist.</strong> It does not bind those receptors; that is the point of the fragment.</li><li><strong>Treating \"anti-inflammatory\" as a clinical outcome.</strong> Lower cytokines in a dish or a mouse is a mechanism, not a result in a person.</li><li><strong>Assuming the <a href=\"/stacks/ghk-cu-kpv-bpc-157-tb-500\">four-peptide healing stack</a> was studied.</strong> None of its combinations has been.</li></ul>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "KPV vs BPC-157, TB-500 and GHK-Cu",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Mechanism (proposed)</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td>KPV</td><td>α-MSH fragment; anti-inflammatory, receptor unclear</td><td>None</td><td>Not approved</td></tr><tr><td>BPC-157</td><td>Gastric-protein fragment; nitric oxide, growth factors</td><td>3 uncontrolled pilots</td><td>Not approved; FDA compounding Category 2; WADA S0</td></tr><tr><td>TB-500</td><td>Thymosin β4 fragment; actin binding</td><td>Trials of the parent protein</td><td>Not approved; WADA S2</td></tr><tr><td>GHK-Cu</td><td>Copper tripeptide; collagen, gene expression</td><td>Topical trials</td><td>Cosmetic ingredient; not a drug</td></tr></tbody></table></div></div><p>Class records: <a href=\"/compounds/bpc-157\">BPC-157</a>, <a href=\"/compounds/tb-500\">TB-500</a>, <a href=\"/compounds/ghk-cu\">GHK-Cu</a>; the <a href=\"/compounds#repair-and-anti-inflammatory\">repair and anti-inflammatory class page</a> lists them together.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }

@@ -1,0 +1,224 @@
+{
+  "slug": "selank",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "h1": "Selank: the Russian anxiety trials, how it works, side effects, and how it differs from Semax",
+  "queries": [
+    {
+      "query": "selank",
+      "volume": {
+        "clickstream": 13940,
+        "google_ads": 22200,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Selank is and how it acts"
+    },
+    {
+      "query": "selank peptide",
+      "volume": {
+        "clickstream": 4172,
+        "google_ads": 0,
+        "kd": 8,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Selank is and how it acts"
+    },
+    {
+      "query": "selank nasal spray",
+      "volume": {
+        "clickstream": 2493,
+        "google_ads": 0,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "dosage-chart",
+      "heading": "Selank doses in studies"
+    },
+    {
+      "query": "selank vs semax",
+      "volume": {
+        "clickstream": 1526,
+        "google_ads": 3600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "compare",
+      "heading": "Selank vs Semax",
+      "target": "/compare/selank-vs-semax"
+    },
+    {
+      "query": "selank dosage",
+      "volume": {
+        "clickstream": 1373,
+        "google_ads": 0,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Selank doses in studies",
+      "boundary": "These are the doses in Russian trials and rat studies, and the Russian product's label regimen for its own indications. No trial supports a figure for use elsewhere."
+    },
+    {
+      "query": "selank reddit",
+      "volume": {
+        "clickstream": 1322,
+        "google_ads": 1000,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported_use",
+      "heading": "What people report outside the literature"
+    },
+    {
+      "query": "what is selank",
+      "volume": {
+        "clickstream": 610,
+        "google_ads": 1000,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Selank is and how it acts"
+    },
+    {
+      "query": "n-acetyl selank amidate",
+      "volume": {
+        "clickstream": 407,
+        "google_ads": 390,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported_use",
+      "heading": "What people report outside the literature"
+    },
+    {
+      "query": "selank side effects",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "adverse_events",
+      "heading": "What side effects have been reported?"
+    },
+    {
+      "query": "selank benefits",
+      "volume": {
+        "clickstream": 356,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "evidence_table",
+      "heading": "What did the studies find?"
+    },
+    {
+      "query": "selank anxiety",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "human-trials",
+      "heading": "What the human studies show"
+    },
+    {
+      "query": "selank half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 170,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "timeline",
+      "heading": "What is measured over time, and what is not"
+    },
+    {
+      "query": "selank before and after",
+      "volume": {
+        "clickstream": null,
+        "google_ads": null,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported_use",
+      "heading": "What people report outside the literature"
+    }
+  ],
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ]
+}

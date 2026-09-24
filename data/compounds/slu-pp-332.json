@@ -10,8 +10,8 @@
   "evidence_tier": "observational-human",
   "summary": "SLU-PP-332 is a small molecule in the metabolic other class (ERR pan-agonist, exercise mimetic). Europe PMC indexes 12 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is observational human studies, with no indexed randomized trial. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "SLU-PP-332: what the research shows",
-    "description": "SLU-PP-332 research, cited: 12 indexed publications, 0 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "SLU-PP-332: What the Mouse Studies Show, Status, Cautions",
+    "description": "SLU-PP-332 explained: the exercise-mimetic small molecule, what the mouse studies show, why no human data exists, cautions, sport status, and how it compares."
   },
   "attributes": {
     "routes_studied": [
@@ -65,7 +65,15 @@
       }
     ],
     "weight_normalized_doses": [],
-    "regulatory_status": [],
+    "regulatory_status": [
+      {
+        "value": "Not approved anywhere and never tested in a human trial. WADA's Prohibited List bans metabolic modulators that activate the same exercise-related pathways (class S4.4, which names compounds such as GW1516); whether SLU-PP-332 falls within that class turns on the list's wording, and an athlete should treat it as prohibited until told otherwise.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Human study, humans, n=10, 2025: Interestingly, SLU-PP-332 treatment promoted down-regulation of NOX4 and upregulation of SIRT1, PGC-1α, ERRα, FNDC5, Akt, and B-cell lymphoma 2 (Bcl-2) in myoblasts, reducing cytotoxicity, oxidative stress, and senescence, as well as increasing levels of reduced glutathione.",
@@ -227,6 +235,34 @@
           "outcome": "While SLU-PP-332 remains a strong benchmark for ERR activation, several analogues achieve comparable or context-dependent transcriptional responses while exhibiting improved ligand efficiency, solubility, or metabolic…"
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "SLU-PP-332 is a small synthetic molecule, not a peptide, developed at Saint Louis University as an agonist of all three estrogen-related receptors (ERRα, β and γ). Those receptors are transcription factors that switch on genes for mitochondrial biogenesis and fatty-acid oxidation, the same programme that endurance exercise switches on, which is why the compound is described as an exercise mimetic.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "In mice it increased running endurance, raised energy expenditure and fat oxidation, reduced fat gain on a high-fat diet without reducing food intake, and improved heart function in a heart-failure model. These are mouse findings from one research group and its collaborators, using intraperitoneal dosing, over two to four weeks.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "No human trial exists and none is registered. The two indexed human entries are small studies of human tissue or cells, not treatment. A pharmaceutical company is developing successor ERR agonists; SLU-PP-332 itself is a research tool that reached the grey market from the papers.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "SLU-PP-332 circulates for fat loss and endurance as tablets or capsules and as a powder for injection. Reported effects are stamina and fat loss; reported side effects are headache, fatigue and a yellow colour in reconstituted solution, which is the compound's own colour rather than degradation. None of this comes from a human study. Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -276,20 +312,68 @@
   },
   "faq": [
     {
+      "question": "What is SLU-PP-332?",
+      "answer": "A small synthetic molecule that activates the estrogen-related receptors, transcription factors controlling mitochondrial and fat-oxidation genes. Developed at Saint Louis University as a research tool and described as an exercise mimetic."
+    },
+    {
+      "question": "Is SLU-PP-332 a peptide?",
+      "answer": "No. It is a small molecule, which is why it is sold as tablets as well as powder and is more stable than peptides."
+    },
+    {
       "question": "Has SLU-PP-332 been tested in humans?",
-      "answer": "Not in any indexed clinical trial. The studies in this record's ledger report work in humans, mice. Any human dosing information circulating about SLU-PP-332 does not come from a published trial."
+      "answer": "No. No trial exists or is registered. The human entries in the evidence table are tissue and cell studies."
     },
     {
-      "question": "What kind of evidence exists for SLU-PP-332?",
-      "answer": "The strongest tier is observational human: observational human studies, with no indexed randomized trial. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What does SLU-PP-332 do?",
+      "answer": "In mice: longer endurance, higher energy expenditure, less fat gain on a high-fat diet, and better heart function in a disease model."
     },
     {
-      "question": "Is SLU-PP-332 an approved medicine?",
-      "answer": "No ChEMBL record matches SLU-PP-332 or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "Is there a SLU-PP-332 dose?",
+      "answer": "No human dose has been studied. Mice received tens of milligrams per kilogram by injection; figures that circulate for people have not been tested and are not reproduced here."
     },
     {
-      "question": "Which species has SLU-PP-332 been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "What are the side effects of SLU-PP-332?",
+      "answer": "Unknown in people. Community reports mention headache and fatigue. The receptors it activates are involved in cancer biology, which is the theoretical concern."
+    },
+    {
+      "question": "Is SLU-PP-332 FDA approved?",
+      "answer": "No, and it has never been in a clinical trial."
+    },
+    {
+      "question": "Is SLU-PP-332 banned in sport?",
+      "answer": "Likely, under WADA's metabolic modulator class S4.4, which bans activators of the exercise pathways it targets. The list's wording decides; athletes should assume it is prohibited."
+    },
+    {
+      "question": "Why is SLU-PP-332 solution yellow?",
+      "answer": "It is the compound's own colour, not a sign of degradation."
+    },
+    {
+      "question": "SLU-PP-332 vs retatrutide?",
+      "answer": "Not comparable: retatrutide is a triple hormone agonist with phase 3 trials and about 24 percent weight loss in phase 2; SLU-PP-332 has mouse data only."
+    },
+    {
+      "question": "Does SLU-PP-332 build muscle?",
+      "answer": "In mice it increased oxidative muscle fibres, the endurance type, not muscle size. Nothing in people."
+    },
+    {
+      "question": "How long does SLU-PP-332 take to work?",
+      "answer": "Mouse studies ran two to four weeks. Nothing has been measured in a person."
+    },
+    {
+      "question": "What is an exercise mimetic?",
+      "answer": "A compound that switches on some of the gene programmes exercise does, here through the estrogen-related receptors. The phrase describes mechanism in animals, not a result in people."
+    },
+    {
+      "question": "Who developed SLU-PP-332?",
+      "answer": "Thomas Burris's laboratory at Saint Louis University; successor compounds are being developed commercially."
+    },
+    {
+      "question": "How should SLU-PP-332 be stored?",
+      "answer": "Powder away from light at room or fridge temperature; solutions refrigerated."
+    },
+    {
+      "question": "How many SLU-PP-332 studies exist?",
+      "answer": "Twelve indexed publications, mostly from one group; eight primary studies are tabulated on this page."
     }
   ],
   "sources": [
@@ -377,6 +461,49 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 9 ledger sources by scripts/draft_claims.py: 4 claims, 8 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written guide, FAQ to 16, mechanism, reported-use (no circulating figures reproduced) and regulatory editorial sections; intent-driven H1 and title."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "SLU-PP-332 in two minutes",
+      "html": "<p><strong>What it is.</strong> A small molecule, not a peptide, that switches on the estrogen-related receptors controlling mitochondrial and fat-burning genes: the programme exercise turns on. Made at Saint Louis University as a research tool.</p><p><strong>What the research actually shows.</strong> Twelve indexed publications. In mice: more endurance, more energy expenditure, less fat gain, better heart function in a disease model. In people: nothing. No human trial exists or is registered.</p><p><strong>Status.</strong> Not approved anywhere; likely within WADA's prohibited metabolic-modulator class.</p><p><strong>Where the evidence is thinnest.</strong> All of it, in people: dose, absorption, effect, safety, and long-term effects of switching on a receptor family involved in cancer biology.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "SLU-PP-332 doses in studies",
+      "lede": "Every figure was given to mice by injection into the abdomen. No human dose exists.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Model</th><th scope=\"col\">Dose and route</th><th scope=\"col\">Duration</th><th scope=\"col\">Finding</th></tr></thead><tbody><tr><td>Mouse endurance study (2023)</td><td>25 mg/kg intraperitoneal, daily</td><td>15 days</td><td>Longer treadmill running; more oxidative muscle fibres</td></tr><tr><td>Mouse metabolic study (2024)</td><td>50 mg/kg intraperitoneal, twice daily</td><td>28 days</td><td>Higher energy expenditure; less fat gain on high-fat diet</td></tr><tr><td>Mouse heart-failure model (2024)</td><td>Intraperitoneal</td><td>Weeks</td><td>Improved ejection fraction, less fibrosis</td></tr><tr><td>Mouse study (2026)</td><td>Oral</td><td>Weeks</td><td>Aerobic performance</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered. The mouse doses are tens of milligrams per kilogram; scaling them to a person is not arithmetic, and no one has done it in a trial.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who SLU-PP-332 is discussed for, and the cautions that recur",
+      "html": "<p><strong>The interest.</strong> Fat loss and endurance without exercise, which is exactly what the mouse papers describe.</p><ul><li><strong>Cancer.</strong> Estrogen-related receptors are implicated in several cancers; agonists of this family have not been studied for long enough in anything to know what chronic activation does.</li><li><strong>Heart.</strong> The heart-failure benefit in mice is a reason for interest and a reason for caution: the compound changes cardiac metabolism.</li><li><strong>Athletes.</strong> Likely prohibited under WADA S4.4; the class exists because of an earlier exercise mimetic, GW1516, whose development stopped over cancers in rodents.</li><li><strong>Anyone.</strong> This is a research chemical with zero human exposure data.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>Mouse studies ran two to four weeks. Nothing has been measured in a person over any period.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>As a small molecule it is more stable than a peptide: powder at room temperature or refrigerated, away from light; solutions refrigerated. Reconstituted solution is yellow, which is the compound's colour.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how SLU-PP-332 is discussed",
+      "html": "<ul><li><strong>Calling it a peptide.</strong> It is a small molecule; that changes stability, absorption and how it should be thought about.</li><li><strong>Reading mouse endurance as human fat loss.</strong> Twelve papers, one group, no people.</li><li><strong>Comparing it with retatrutide.</strong> One is a research tool with no human data; the other has phase 3 trials.</li><li><strong>Treating \"exercise in a pill\" as a description rather than a hypothesis.</strong> The phrase describes which genes switch on in mice.</li></ul>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "SLU-PP-332 vs other metabolic compounds in this reference",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Type and mechanism</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td>SLU-PP-332</td><td>Small molecule; ERR pan-agonist</td><td>None</td><td>Not approved</td></tr><tr><td>Tesofensine</td><td>Small molecule; triple monoamine reuptake inhibitor</td><td>Phase 2 and 3 trials</td><td>Not approved in most jurisdictions</td></tr><tr><td>AOD-9604</td><td>Growth hormone fragment</td><td>Phase 2 trials; failed</td><td>Not approved</td></tr><tr><td>MOTS-c</td><td>Mitochondrial peptide; AMPK</td><td>Observational human studies; analogue in phase 1</td><td>Not approved</td></tr></tbody></table></div></div><p>Class records: <a href=\"/compounds/tesofensine\">tesofensine</a>, <a href=\"/compounds/aod-9604\">AOD-9604</a>; <a href=\"/compounds/mots-c\">MOTS-c</a> and <a href=\"/compounds/retatrutide\">retatrutide</a> are the compounds it is most often compared with online.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
