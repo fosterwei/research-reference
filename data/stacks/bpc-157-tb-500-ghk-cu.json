@@ -3,16 +3,16 @@
   "title": "BPC-157 + TB-500 + GHK-Cu",
   "slug": "bpc-157-tb-500-ghk-cu",
   "status": "draft",
-  "summary": "BPC-157 + TB-500 + GHK-Cu combines BPC-157 (observational human) and TB-500 (human clinical trial) and GHK-Cu (human clinical trial). A stack cannot carry a stronger evidence tier than its weakest component, which here is observational human. 1 indexed studies mention both components; the combination-evidence section quotes what they state.",
+  "summary": "The glow stack combines BPC-157, TB-500 and GHK-Cu in one injection, sold by clinics and vendors for skin, hair and recovery. No study has given the three together: the only paper in this record naming more than one is a 2026 review of six emerging peptides. Each component does have human research, and none of it used the route this stack uses. Every human study of GHK-Cu applied it topically, reporting better skin quality, reduced wrinkle depth and improved scalp condition after creams. The human thymosin beta-4 evidence is eye drops for dry eye, intravenous pharmacokinetics and a cardiac study. BPC-157's human record here is two people. The rationale for combining three repair mechanisms is reasonable and untested, and none of the three is an approved medicine for these uses.",
   "seo": {
-    "title": "BPC-157 + TB-500 + GHK-Cu: the evidence",
-    "description": "BPC-157 + TB-500 + GHK-Cu: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+    "title": "The Glow Stack: No Combination Study, and Mismatched Routes",
+    "description": "Glow stack (BPC-157, TB-500, GHK-Cu): no combination study exists, and each component's human evidence used a route the stack does not use."
   },
   "attributes": {
     "combination_evidence": [
       {
-        "value": "Animal study, rats, 2026: To summarize existing peer-reviewed data on 6 emerging peptides (BPC-157, thymosin beta-4 or TB-500, CJC-1295, MK-677, ipamorelin, and GHK-Cu [copper peptide]) for musculoskeletal recovery and enhancement in animal and human models.",
-        "evidence_label": "animal-preclinical",
+        "value": "Review of six peptides, 2026: To summarize existing peer-reviewed data on 6 emerging peptides (BPC-157, thymosin beta-4 or TB-500, CJC-1295, MK-677, ipamorelin, and GHK-Cu [copper peptide]) for musculoskeletal recovery and enhancement in animal and human models.",
+        "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42578445"
         ],
@@ -23,10 +23,59 @@
   },
   "sources": [
     {
+      "id": "pmid-42619529",
+      "title": "The Regenerative Potential of GHK-Cu in Aesthetic Medicine.",
+      "url": "https://europepmc.org/article/MED/42619529",
+      "published": "2026-08-20",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-42578445",
       "title": "Peptide Supplements and Their Therapeutic Applications in Sports Medicine.",
       "url": "https://europepmc.org/article/MED/42578445",
       "published": "2026-08-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40131143",
+      "title": "Safety of Intravenous Infusion of BPC157 in Humans: A Pilot Study.",
+      "url": "https://europepmc.org/article/MED/40131143",
+      "published": "2025-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39449909",
+      "title": "An Assessment of the Safety, Efficacy, and Tolerability of a Novel Scalp Treatment.",
+      "url": "https://europepmc.org/article/MED/39449909",
+      "published": "2024-09-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34346165",
+      "title": "A first-in-human, randomized, double-blind, single- and multiple-dose, phase I study of thymosin beta-4.",
+      "url": "https://europepmc.org/article/MED/34346165",
+      "published": "2021-08-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27288307",
+      "title": "Safety and efficacy of autologous thymosin beta-4 pre-treated endothelial progenitor cell transplantation.",
+      "url": "https://europepmc.org/article/MED/27288307",
+      "published": "2016-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25826322",
+      "title": "Thymosin beta-4 significantly improves signs and symptoms of severe dry eye in a phase 2 randomized trial.",
+      "url": "https://europepmc.org/article/MED/25826322",
+      "published": "2015-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16847171",
+      "title": "Effects of topical copper tripeptide complex on CO2 laser-resurfaced skin.",
+      "url": "https://europepmc.org/article/MED/16847171",
+      "published": "2006-07-01",
       "kind": "peer-reviewed"
     }
   ],
@@ -35,9 +84,62 @@
     "tb-500",
     "ghk-cu"
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has the glow stack been studied?",
+      "answer": "No. No trial, case series or animal study has given BPC-157, TB-500 and GHK-Cu together. The one paper in this record naming more than one of them is a 2026 review that summarises six emerging peptides, which is a list rather than an experiment."
+    },
+    {
+      "question": "Does GHK-Cu work for skin?",
+      "answer": "Its human studies report that it does, and every one of them applied it to the skin: better skin quality after a cream, reduced wrinkle volume and depth, improved satisfaction after laser resurfacing, less scalp flaking. No human study has injected it, so those results describe a topical product rather than this stack."
+    },
+    {
+      "question": "Is TB-500 the same as thymosin beta-4?",
+      "answer": "Not exactly, and the difference matters for reading the evidence. Most human research is on thymosin beta-4 itself, studied as eye drops for dry eye, as an intravenous infusion and in a cardiac study. TB-500 is a related fragment sold for injection, and the human data belongs to the protein and to those routes."
+    },
+    {
+      "question": "What dose is used?",
+      "answer": "There is no published dose for the combination. Each component's studied doses are on its own record, attached to the study and the route that produced them, and those routes are creams, drops and infusions rather than subcutaneous injection."
+    },
+    {
+      "question": "Is it safe?",
+      "answer": "Unknown for the combination. Each component's safety record belongs to the route its studies used, a topical cosmetic history for the copper peptide and eye and infusion studies for thymosin beta-4, while BPC-157's human safety record is the same two people as its efficacy record. Nothing is published on the three together or on what is in a pre-mixed blend."
+    },
+    {
+      "question": "Why are these three combined?",
+      "answer": "Because they are associated with different parts of tissue repair: blood-vessel growth and tendon healing, cell migration and actin regulation, and collagen synthesis with copper delivery. That is a reasonable hypothesis and it is the thing a study would test. None has."
+    },
+    {
+      "question": "Will it help my hair?",
+      "answer": "The copper peptide has animal work on hair growth and a human study of scalp condition using a topical formulation, alongside other ingredients. Nothing has tested injected copper peptide for hair in a person, and nothing has tested this combination for anything."
+    },
+    {
+      "question": "How long before I see results?",
+      "answer": "No timeline exists for the stack. The human studies that measured visible change in skin measured it after weeks to months of applying a cream. Any timeline quoted for injections comes from the clinic selling them."
+    },
+    {
+      "question": "Is the glow stack legal?",
+      "answer": "GHK-Cu is a cosmetic ingredient in topical products, which is not an approval for injection. TB-500 and BPC-157 are unapproved and sold as research chemicals. An injectable blend of the three is an approved product nowhere, and all three are prohibited in sport."
+    },
+    {
+      "question": "Is this the same as the wolverine stack?",
+      "answer": "No. That name usually refers to BPC-157 with TB-500, without the copper peptide, and is aimed at injury recovery rather than appearance. It has its own page on this site, and it has no combination evidence either."
+    },
+    {
+      "question": "Can I use GHK-Cu topically instead?",
+      "answer": "That is where its human evidence comes from, and this page states that rather than recommending anything. Topical copper peptide products are sold as cosmetics and their studies measured wrinkle depth, skin quality and scalp condition."
+    },
+    {
+      "question": "What does the one review say?",
+      "answer": "It set out to summarise peer-reviewed data on six emerging peptides for musculoskeletal recovery, in animal and human models. Two of this stack's three components are among the six. It is a summary of separate literatures, not a study of a combination."
+    }
+  ],
   "open_questions": [
-    "No published schedule reconciles the components' different reported frequencies onto one calendar."
+    "No study has given BPC-157, TB-500 and GHK-Cu together to any person or animal.",
+    "Every human study of GHK-Cu used a topical route; none has injected it.",
+    "Most human thymosin beta-4 evidence is eye drops, infusions or topical dosing of the natural protein rather than the injected fragment sold as TB-500.",
+    "BPC-157's human record in this site's ledger is two people and a field study.",
+    "No published analysis describes what is in a pre-mixed glow blend, or whether three peptides remain stable in one solution."
   ],
   "review": {
     "author": "",
@@ -45,16 +147,70 @@
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 55.0,
+  "uniqueness_pct": 95.2,
   "changelog": [
     {
       "date": "2026-09-14",
       "change": "Stack record generated from research/registry.json plan; 1 combination claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/bpc-157-tb-500-ghk-cu.json. Stage 0: the combination ledger holds one review naming two of the three; the substantive finding is on the component records, where every human study of GHK-Cu is topical and the thymosin beta-4 human evidence is eye drops, infusions and topical dosing of the natural protein. Nine guide sections including a route table setting each component's human evidence against what the stack does."
     }
   ],
   "components": [
     "bpc-157",
     "tb-500",
     "ghk-cu"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "The glow stack in two minutes",
+      "html": "<p><strong>What it is.</strong> Three compounds injected together, usually sold pre-mixed: <b>BPC-157</b>, a synthetic fragment associated with gastric juice; <b>TB-500</b>, a fragment of the repair protein thymosin beta-4; and <b>GHK-Cu</b>, a copper-carrying tripeptide long used in skincare.</p><p><strong>No study has tested the combination.</strong> Not the three together, and not any two of them for the purposes this stack is sold for.</p><p><strong>Each component does have human research.</strong> That is the part worth checking, because the research is not in the form the stack uses. GHK-Cu's human studies are <b>creams</b>. The thymosin beta-4 human work is <b>eye drops</b>, intravenous infusions and a cardiac study. BPC-157's human record in this ledger is <b>two people</b>.</p><p><strong>So the evidence people cite is real and it is about something else.</strong> A face cream's results do not become an injection's results by being quoted next to one.</p><p><strong>None of the three is approved anywhere</strong> for the uses discussed here, and a pre-mixed blend has been assessed by no regulator.</p>"
+    },
+    {
+      "id": "no-combination-study",
+      "heading": "What has been tested as a combination",
+      "lede": "This is short, which is the point.",
+      "html": "<p>One paper in this record's ledger names more than one of these compounds: a 2026 sports-medicine review whose stated aim was <q cite='https://europepmc.org/article/MED/42578445'>to summarize existing peer-reviewed data on 6 emerging peptides (BPC-157, thymosin beta-4 or TB-500, CJC-1295, MK-677, ipamorelin, and GHK-Cu [copper peptide]) for musculoskeletal recovery and enhancement in animal and human models</q>.</p><p>That is a review listing them in the same article, not a study giving them together. No trial, no case series and no animal study has administered this combination.</p><p>The absence matters more here than for most stacks, because the three are marketed for a visible outcome. A claim about how skin looks after an injection is the kind of claim that is easy to test and has not been tested.</p>"
+    },
+    {
+      "id": "forms-mismatch",
+      "heading": "The evidence exists, in forms this stack does not use",
+      "lede": "Every component has human data. Read the route column before reading the result column.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>What each component's human evidence actually studied.</caption><thead><tr><th scope=\"col\">Component</th><th scope=\"col\">Human evidence in this site's records</th><th scope=\"col\">Route used</th><th scope=\"col\">What the stack does</th></tr></thead><tbody><tr><td><b>GHK-Cu</b></td><td>Wrinkle depth and skin quality after cream; satisfaction after laser resurfacing; scalp flaking; skin explants protected from ultraviolet light</td><td><b>Topical</b>, in every human study</td><td>Subcutaneous injection</td></tr><tr><td><b>TB-500</b> (thymosin beta-4)</td><td>Dry-eye trials; intravenous pharmacokinetics; a cardiac study; a dose-ranging topical trial</td><td><b>Eye drops, intravenous, topical</b></td><td>Subcutaneous injection</td></tr><tr><td><b>BPC-157</b></td><td>Two people described in a 2025 report; a field study</td><td>Oral and intravenous; the record notes no published human study of the intravenous route before it</td><td>Subcutaneous injection</td></tr></tbody></table></div></div><p>The receipts, in the studies' own words. A 2026 clinical review of the copper peptide in aesthetic medicine reports that <q cite='https://europepmc.org/article/MED/42619529'>clinically, GHK-Cu improved patient-reported satisfaction after laser resurfacing and significantly reduced wrinkle volume and depth compared with controls</q>, and the 2006 randomised trial behind much of that reputation, which applied it to laser-resurfaced skin, found <q cite='https://europepmc.org/article/MED/16847171'>a significant difference in the posttreatment improvement of overall skin quality for patients using GHK-Cu</q>. The thymosin beta-4 dry-eye trial reported <q cite='https://europepmc.org/article/MED/25826322'>statistically significant differences in both symptom and sign assessments</q>, and its first-in-human study measured plasma concentrations after intravenous dosing, where <q cite='https://europepmc.org/article/MED/34346165'>the plasma concentration, maximum peak concentration and AUC of each dose group increased with the increase in the dose</q>. BPC-157's human pilot study opens by noting that <q cite='https://europepmc.org/article/MED/40131143'>for years, the peptide Body Protection Compound 157 has been used to treat partial muscle or tendon tears</q>, which is a statement about use rather than evidence.</p><p>Take the copper peptide first, because it carries most of the stack's promise. Its human results are genuine and repeatedly reported: better skin quality, reduced wrinkle volume and depth, improved scalp condition. Every one of those studies applied it to the skin. A cream reaches the tissue it is rubbed into at a concentration nobody has matched by injection, and no human study has injected it.</p><p>TB-500 is a second kind of mismatch. Most of the thymosin beta-4 literature is about the natural protein, studied as eye drops for dry eye and as an infusion, and the fragment sold as TB-500 is not identical to it. The human data belongs to the protein and the route belongs to the eye.</p><p>BPC-157 is the simplest case: the human record is two people and a field study, which the compound's own page sets out in full.</p><p>Each component's complete evidence is on its own record: <a href=\"/compounds/ghk-cu\">GHK-Cu</a>, <a href=\"/compounds/tb-500\">TB-500</a> and <a href=\"/compounds/bpc-157\">BPC-157</a>.</p>"
+    },
+    {
+      "id": "why-combined",
+      "heading": "Why these three, and what the rationale is worth",
+      "html": "<p>The reasoning is not arbitrary. The three are associated with different parts of tissue repair: BPC-157 with blood-vessel growth and tendon and gut healing in rodents, thymosin beta-4 with cell migration and actin regulation, and GHK-Cu with collagen synthesis and copper delivery. Three mechanisms, one process.</p><p>What that supports is a hypothesis. It is the same hypothesis a laboratory would test before selling it, and nobody has. Combining agents that act on different steps of one process can produce more effect, less effect or interference, and which one happens is an empirical question in every case.</p><p>The specific reason to be careful here is that the marketed outcome is cosmetic and fast. Rodent tendon healing and a collagen pathway are a long way from a change in how a face looks in eight weeks, and the studies that measured a change in how a face looks used a cream.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Doses: none for the stack, and the component figures do not transfer",
+      "html": "<p>No published dose exists for this combination, so none appears here. Each component's own figures are on its record with the study that produced them, and each of those studies used a route this stack does not use, which is the reason they cannot simply be carried across.</p><p>The figures circulating for glow protocols come from clinics and vendors selling the blend. A pre-mixed vial also fixes the ratio between three compounds, a decision no study informed.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Side effects: what each component's studies report",
+      "html": "<p>The honest summary is that each compound's safety record belongs to its route. GHK-Cu applied to skin has a long cosmetic safety history; that says nothing about injecting a copper-carrying peptide, and copper is an element the body regulates carefully. Thymosin beta-4 was tolerated in its eye and infusion studies. BPC-157's human safety record consists of the same two people as its efficacy record.</p><p>For the combination there is nothing, and the usual unknowns of a research-chemical blend apply: no regulator has assessed what is in the vial, no independent analysis of these blends is published, and three compounds in one solution raise questions of stability that nobody has answered publicly.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who this is discussed for, and what is unresolved",
+      "html": "<p><strong>Discussed for:</strong> skin quality, hair, scars, recovery from training, and general repair, mostly by clinics and med spas and mostly to people over forty.</p><p><strong>Studied in:</strong> for GHK-Cu, people using creams; for thymosin beta-4, people with dry eye and in pharmacokinetic studies; for BPC-157, rodents, and two people.</p><p>The unresolved questions are basic: whether any of the three reaches skin in a meaningful amount after subcutaneous injection, whether the copper peptide's topical results depend on local concentration that injection cannot reproduce, whether the fragment sold as TB-500 behaves like the protein its evidence belongs to, and whether three compounds in one vial remain what they were.</p>"
+    },
+    {
+      "id": "legality",
+      "heading": "Status: none of the three is an approved medicine",
+      "html": "<p>GHK-Cu is a cosmetic ingredient, sold openly in topical products; that is not an approval for injection. TB-500 and BPC-157 are unapproved and sold as research chemicals, and BPC-157 has been the subject of regulatory attention in compounding. A pre-mixed injectable blend of the three is not an approved product in any country.</p><p>All three are prohibited in sport under the categories covering peptide hormones, growth factors and related substances.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how this stack is discussed",
+      "html": "<ol class=\"list\"><li><strong>Citing GHK-Cu's skin studies for an injection.</strong> Every human study of it applied it topically.</li><li><strong>Treating TB-500 and thymosin beta-4 as interchangeable.</strong> The human evidence belongs to the protein, and mostly to eye drops.</li><li><strong>Reading BPC-157's rodent literature as human evidence.</strong> Its human record here is two people.</li><li><strong>Assuming three mechanisms add up.</strong> Nobody has tested the combination, and combining agents can interfere as easily as it can help.</li><li><strong>Taking a blend's ratio as a protocol.</strong> It is a manufacturing decision.</li><li><strong>Expecting a visible result on the timescale of the marketing.</strong> The studies that measured visible change measured it after creams, over months.</li></ol>"
+    }
+  ],
+  "prose_reviewed": true
 }
