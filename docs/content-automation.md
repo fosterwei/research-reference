@@ -123,7 +123,8 @@ Then `python3 scripts/loop_status.py`. It prints, for every page with written
 sections, which stages have left an artifact: measured volumes, scored
 competitors, an information-gain statement, an outline, uniqueness written to
 the record, formatting minimums met, an audit with a triage table, and an exit
-run. A page is not finished until its row is all yes. This exists because the
+run. A page is not finished until its row is all yes. CI runs it with `--strict` after the build, so a page with written
+sections and a missing stage fails the pull request. This exists because the
 loop was compressed on thirteen pages in one day once it felt routine, and the
 gap was found by asking, not by a check.
 
