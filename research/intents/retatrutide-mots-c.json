@@ -1,0 +1,335 @@
+{
+  "slug": "retatrutide-mots-c",
+  "type": "stack",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "europepmc"
+  ],
+  "scope": "Informational intent only. Price queries declined under the commercial-intent rule.",
+  "thin_serp": false,
+  "stage0_note": "The combination ledger is empty. The finding that shapes the page came from the component record: MOTS-c has 277 indexed publications and thirteen human rows, and every one of those rows measures circulating MOTS-c in people rather than giving anyone a dose. The same measured-not-given pattern was found on humanin, LL-37 and kisspeptin.",
+  "serp_2026-09-24": {
+    "query": "retatrutide mots-c",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "organic_top": [
+      "peptidedosingprotocols.com",
+      "californiatrimclinic.com",
+      "redfoxpeptides.is",
+      "formationmed.com",
+      "youtube.com",
+      "revolutionhealth.org",
+      "artc.health",
+      "puretestedpeptides.com"
+    ],
+    "note": "The incumbent dosing site ranks second, its best position on any query this site has measured, followed by clinics, vendors and two YouTube videos. No journal, no regulator and no primary study ranks."
+  },
+  "demand_findings": "The stack phrasings measure zero clickstream and are recorded as measured zeros; the demand is in the component, where 'mots-c dosage' draws 3,154 with 14,800 Google Ads volume and 'mots-c benefits' and 'reddit' 1,119 each. Those belong to the compound's own written record and are redirected. The Ads volume against zero clickstream for the stack is the signature of a product being marketed ahead of its audience.",
+  "h1": "Retatrutide with MOTS-c: no study has tested the pair, and none has ever given MOTS-c to a person",
+  "dek": "The stack pairs an investigational triple agonist with a mitochondrial peptide that has 277 publications and no human dosing study. Its entire human literature measures the MOTS-c people already have in their blood. That is a different thing from a drug, and it is the thing this pairing assumes.",
+  "queries": [
+    {
+      "query": "retatrutide mots-c",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "What this stack is",
+      "boundary": "No study has given retatrutide and MOTS-c together. The deeper problem is that no study has given MOTS-c to a person at all."
+    },
+    {
+      "query": "retatrutide mots c stack",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "What this stack is",
+      "boundary": "No study has given retatrutide and MOTS-c together. The deeper problem is that no study has given MOTS-c to a person at all."
+    },
+    {
+      "query": "mots-c retatrutide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "What this stack is",
+      "boundary": "No study has given retatrutide and MOTS-c together. The deeper problem is that no study has given MOTS-c to a person at all."
+    },
+    {
+      "query": "retatrutide stack",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "What this stack is",
+      "boundary": "No study has given retatrutide and MOTS-c together. The deeper problem is that no study has given MOTS-c to a person at all."
+    },
+    {
+      "query": "mots-c dosage",
+      "volume": {
+        "clickstream": 3154,
+        "google_ads": 14800,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "components",
+      "target": "/compounds/mots-c",
+      "heading": "Each component on its own evidence"
+    },
+    {
+      "query": "mots-c benefits",
+      "volume": {
+        "clickstream": 1119,
+        "google_ads": 5400,
+        "kd": 14,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "components",
+      "target": "/compounds/mots-c",
+      "heading": "Each component on its own evidence"
+    },
+    {
+      "query": "mots-c side effects",
+      "volume": {
+        "clickstream": 356,
+        "google_ads": 3600,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "components",
+      "target": "/compounds/mots-c",
+      "heading": "Each component on its own evidence"
+    },
+    {
+      "query": "mots-c reddit",
+      "volume": {
+        "clickstream": 1119,
+        "google_ads": 1600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "measured-not-given",
+      "heading": "What MOTS-c's human literature actually measured",
+      "boundary": "MOTS-c has hundreds of publications and a substantial human literature, and that literature measures the body's own MOTS-c in blood rather than giving anyone a dose."
+    },
+    {
+      "query": "mots-c weight loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 260,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "measured-not-given",
+      "heading": "What MOTS-c's human literature actually measured",
+      "boundary": "MOTS-c has hundreds of publications and a substantial human literature, and that literature measures the body's own MOTS-c in blood rather than giving anyone a dose."
+    },
+    {
+      "query": "peptide stack for metabolism",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "why-combined",
+      "heading": "Why the two are paired, and what that rests on",
+      "boundary": "No study has given retatrutide and MOTS-c together. The deeper problem is that no study has given MOTS-c to a person at all."
+    },
+    {
+      "query": "can you use mots-c with retatrutide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "why-combined",
+      "heading": "Why the two are paired, and what that rests on",
+      "boundary": "No study has given retatrutide and MOTS-c together. The deeper problem is that no study has given MOTS-c to a person at all.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "is mots-c good for weight loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "measured-not-given",
+      "heading": "What MOTS-c's human literature actually measured",
+      "boundary": "MOTS-c has hundreds of publications and a substantial human literature, and that literature measures the body's own MOTS-c in blood rather than giving anyone a dose.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how long does it take for mots-c to work",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "measured-not-given",
+      "heading": "What MOTS-c's human literature actually measured",
+      "boundary": "MOTS-c has hundreds of publications and a substantial human literature, and that literature measures the body's own MOTS-c in blood rather than giving anyone a dose.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "retatrutide vs mots-c",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "related",
+      "target": "/compare/retatrutide-vs-tirzepatide",
+      "heading": "Related records"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/stack/retatrutide-mots-c",
+      "rank": 2,
+      "words": 7846,
+      "tables": 12,
+      "h2": 19,
+      "sci_links": 4,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 26,
+      "gap": "The incumbent's strongest page yet and the most careful: it states repeatedly that no controlled trial has tested the combination, labels community practice as such, and notes the compounds cannot be pre-blended because their storage limits differ. It then prints a twelve-table dosing protocol and a weekly schedule anyway, and it does not notice that MOTS-c has never been administered to a person in a published study",
+      "source": "fetched 2026-09-24, metrics measured; scored D9 F8 S5 U4"
+    },
+    {
+      "url": "https://www.puretestedpeptides.com/mots-c-retatrutide-stack",
+      "rank": 11,
+      "words": 5758,
+      "tables": 0,
+      "h2": 7,
+      "sci_links": 0,
+      "score": 15,
+      "gap": "A vendor's long explainer on the theoretical rationale and synergistic potential; no tables and no citations",
+      "source": "fetched 2026-09-24, metrics measured; scored D6 F4 S0 U5"
+    },
+    {
+      "url": "https://formationmed.com/can-mots-c-be-stacked-with-other-peptides/",
+      "rank": 6,
+      "words": 8004,
+      "tables": 0,
+      "h2": 14,
+      "sci_links": 1,
+      "score": 16,
+      "gap": "The longest page on the results set, from a clinic, covering stacking generally and this pair specifically; one citation",
+      "source": "fetched 2026-09-24, metrics measured; scored D7 F4 S1 U4"
+    },
+    {
+      "url": "https://www.artc.health/blog/mots-c-vs-retatrutide",
+      "rank": 9,
+      "words": 1206,
+      "tables": 0,
+      "h2": 5,
+      "sci_links": 1,
+      "score": 11,
+      "gap": "Frames the pair as a choice rather than a stack and funnels to a consultation",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S1 U3"
+    },
+    {
+      "url": "https://www.californiatrimclinic.com/retatrutide-mots-c",
+      "rank": 4,
+      "words": 977,
+      "tables": 0,
+      "h2": 7,
+      "sci_links": 0,
+      "score": 9,
+      "gap": "Clinic page selling the pair as an elite metabolic stack; no citations",
+      "source": "fetched 2026-09-24, metrics measured; scored D3 F3 S0 U3"
+    },
+    {
+      "url": "https://revolutionhealth.org/visceral-fat-retatrutide-mots-c",
+      "rank": 8,
+      "words": 1439,
+      "tables": 0,
+      "h2": 0,
+      "sci_links": 0,
+      "score": 7,
+      "gap": "No headings, no citations; names the pair among visceral-fat treatments",
+      "source": "fetched 2026-09-24, metrics measured; scored D3 F1 S0 U3"
+    }
+  ],
+  "information_gain": "The only page on this query to check what MOTS-c's human evidence is. Thirteen human studies sit in its record and every one of them measured circulating MOTS-c by immunoassay: levels after exercise, levels in people with thyroid disease, levels in dialysate, levels that did not change over 24 weeks of an intervention. None gave MOTS-c to anyone. The human dosing evidence that does exist belongs to CB4211, an analogue, in a phase 1 trial. So the stack combines a drug that cannot be obtained legally with a compound that has never been administered to a person in a published study, and the incumbent page that ranks second for this query, which is careful enough to say three times that no trial has tested the combination, prints twelve tables of dosing without noticing the second half. The page also records the one structural fact the incumbent gets right and everyone else omits: the two cannot be pre-blended, because their post-reconstitution storage limits differ.",
+  "serp_format_rewarded": "A page that reads the component literature. The incumbent ranks second with 7,846 words and twelve tables; it is beatable only on what the evidence actually is, not on length.",
+  "outline": [
+    "glance",
+    "what",
+    "quick-answer",
+    "no-combination-study",
+    "measured-not-given",
+    "components",
+    "why-combined",
+    "combination",
+    "doses",
+    "side-effects",
+    "who",
+    "status",
+    "mistakes",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "open_actions": [
+    "CB4211's phase 1 trial is not in this ledger; the statement that human dosing evidence belongs to an analogue is editorial with pending_source.",
+    "MOTS-c's own record carries the measured-not-given distinction and takes the component queries.",
+    "Retatrutide's phase 3 programme is unpublished; the comparison pages carry that detail."
+  ]
+}
