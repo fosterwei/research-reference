@@ -735,8 +735,9 @@
         "cluster_google_ads": 0,
         "head_kd": 0,
         "priority_score": 1271,
-        "status": "queued",
-        "top_queries": "retatrutide vs semaglutide 661; semaglutide vs retatrutide 610"
+        "status": "done",
+        "top_queries": "retatrutide vs semaglutide 661; semaglutide vs retatrutide 610",
+        "note": "Written 2026-09-24 under the sequencing rule; audit research/audits/semaglutide-vs-retatrutide-2026-09-24.md. Built around the outcome-data asymmetry rather than the weight percentages; the same network meta-analysis misparse as the tirzepatide comparison was corrected here too."
       },
       {
         "rank": 7,
