@@ -3,15 +3,15 @@
   "title": "Selank + semax",
   "slug": "selank-semax",
   "status": "draft",
-  "summary": "Selank + semax combines Selank (human clinical trial) and Semax (human clinical trial). A stack cannot carry a stronger evidence tier than its weakest component, which here is human clinical trial. 7 indexed studies mention both components; the combination-evidence section quotes what they state.",
+  "summary": "Selank and semax are taken together routinely and sold in a single nasal spray, and no study has given both to the same person. Seven indexed papers name both compounds, which is more than most combinations on this site can claim: a brain-imaging study that gave each to a different group, rat models of Parkinson's disease and social stress, a stem-cell toxicity screen, a forensic analysis of seized products, a study of the tripeptide they share, and a 2001 experiment finding that both inhibit the same enkephalin-degrading enzymes in human serum. That last finding, together with the shared Pro-Gly-Pro tail, means part of what the two compounds do is identical rather than complementary, which is the opposite of the assumption behind stacking them. The versions sold outside Russia are acetylated analogues with no trial evidence individually, let alone together.",
   "seo": {
-    "title": "Selank + semax: the evidence",
-    "description": "Selank + Semax: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+    "title": "Selank and Semax Together: Overlap, Not Complement",
+    "description": "Selank and semax stack: the seven studies naming both, the shared enzyme target, the shared tripeptide tail, and what a combined nasal spray fixes."
   },
   "attributes": {
     "combination_evidence": [
       {
-        "value": "Human study, humans, 2020: The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "value": "Functional MRI study, humans, n=52, 2020: The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-32342318"
@@ -47,7 +47,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "In vitro study, 2020: It turned out that these samples contained the assumedly cognitive enhancing research peptides Selank and Semax, which, to our knowledge, have not completed any clinical trials.",
+        "value": "Forensic analysis of seized products, 2020: It turned out that these samples contained the assumedly cognitive enhancing research peptides Selank and Semax, which, to our knowledge, have not completed any clinical trials.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-31667971"
@@ -56,7 +56,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "In vitro study, humans, 2001: A dose-dependent effect of synthetic heptapeptides Semax (Met-Glu-His-Phe-Pro-Gly-Pro) and Selank (Thr-Lys-Pro-Arg-Pro-Gly-Pro) on the enkephalin-degrading enzymes of human serum was demonstrated.",
+        "value": "Enzyme study, human serum, 2001: A dose-dependent effect of synthetic heptapeptides Semax (Met-Glu-His-Phe-Pro-Gly-Pro) and Selank (Thr-Lys-Pro-Arg-Pro-Gly-Pro) on the enkephalin-degrading enzymes of human serum was demonstrated.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-11443939"
@@ -137,8 +137,61 @@
     "selank",
     "semax"
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Has the selank and semax combination been studied?",
+      "answer": "No study has given both to the same person. Seven papers name both compounds, including a brain-imaging study that gave each to a different group, rat models, a toxicity screen, an enzyme study and a forensic analysis of seized products."
+    },
+    {
+      "question": "Do they work on different systems?",
+      "answer": "Partly. The brain-imaging study found effects that were not identical on one circuit. But the one experiment that measured both in the same system found them doing the same thing: inhibiting the same enkephalin-degrading enzymes in human serum, dose-dependently. They also share the tripeptide Pro-Gly-Pro at one end, which has its own activity."
+    },
+    {
+      "question": "Is the combined nasal spray a good idea?",
+      "answer": "It is a product decision rather than a studied formulation. One bottle fixes the ratio between two compounds and forces one schedule on both, and no study chose either. The versions usually sold in the West are acetylated analogues with no trial evidence at all."
+    },
+    {
+      "question": "What dose should be used?",
+      "answer": "There is no published dose for the pair, so none appears here. Each compound's studied doses sit on its own record with the study that produced them."
+    },
+    {
+      "question": "Is it safe to take both?",
+      "answer": "Unknown. Each is described as well tolerated in its own small Russian trials of the registered product, given singly. Nothing has tested the pair, and the one toxicity study naming both is a screen in mouse embryonic stem cells."
+    },
+    {
+      "question": "Which should I take first if I only want one?",
+      "answer": "That is the comparison question and it has its own page. In short, selank is the one with anxiety trials and semax is the one with stroke and attention trials, and a single study has given both to people, measuring brain connectivity rather than symptoms."
+    },
+    {
+      "question": "Does stacking double the effect?",
+      "answer": "There is no evidence either way, and two of the known actions are shared rather than complementary, so at those points stacking increases the dose of one action rather than adding a second."
+    },
+    {
+      "question": "What is Pro-Gly-Pro?",
+      "answer": "The tripeptide both compounds carry at one end, added to protect the active fragment from enzymes. It is not inert: a 2014 rat study examined its own effect on brain gene expression after ischaemia, precisely because it is the shared C-terminal fragment of both drugs."
+    },
+    {
+      "question": "Are these legal?",
+      "answer": "Both are registered medicines in Russia and approved nowhere else. Outside Russia they are sold as research chemicals, and a 2020 forensic analysis in this ledger exists because they turn up in seized pharmaceutical products."
+    },
+    {
+      "question": "How long does it take to work?",
+      "answer": "No timeline exists for the combination. The imaging study measured changes within twenty minutes of a single dose; the clinical trials of each compound ran weeks. Neither is a timeline for a stack."
+    },
+    {
+      "question": "Can I use them on alternating days?",
+      "answer": "Nothing published describes any schedule for the pair, alternating or otherwise, and this page does not invent one."
+    },
+    {
+      "question": "Why do vendors sell them together?",
+      "answer": "Because the pairing is popular and a single bottle is easy to sell. The literature contains no study of the combination, and the ranking results for this query include a vendor product page and a Reddit thread asking whether anyone has tried it."
+    }
+  ],
   "open_questions": [
+    "No study has given selank and semax to the same person.",
+    "No study has tested whether the combination differs from either compound alone.",
+    "Both inhibit the same enkephalin-degrading enzymes and share the active tripeptide Pro-Gly-Pro, so part of their action is redundant rather than complementary.",
+    "The acetylated forms sold in the West have no trial evidence individually or in combination.",
     "No published schedule reconciles the components' different reported frequencies onto one calendar."
   ],
   "review": {
@@ -147,15 +200,69 @@
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 75.9,
+  "uniqueness_pct": 93.3,
   "changelog": [
     {
       "date": "2026-09-14",
       "change": "Stack record generated from research/registry.json plan; 7 combination claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/selank-semax.json. Stage 0: seven combination claims are genuine papers naming both compounds and none gives both to a person; three labels corrected, including a functional-MRI study and a forensic analysis that had been filed as generic human and in-vitro studies. Nine guide sections built around the finding that both compounds inhibit the same enzyme and share an active tripeptide, which makes part of the pairing redundant."
     }
   ],
   "components": [
     "selank",
     "semax"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "This combination in two minutes",
+      "html": "<p><strong>What it is.</strong> Two Russian peptides taken together, often in one nasal spray sold by vendors: <b>semax</b>, from a fragment of ACTH, and <b>selank</b>, from a fragment of the immune peptide tuftsin.</p><p><strong>Nobody has given both to the same person in a study.</strong> Seven papers name both, which is more than most combinations on this site can claim, and none of them is a study of the pair.</p><p><strong>The stacking case assumes they do different things.</strong> At the one point where both have been measured in the same experiment, they did the same thing: a 2001 study found both inhibit the same enzyme in human serum.</p><p><strong>They also share a tail.</strong> Both end in the tripeptide Pro-Gly-Pro, which has its own activity, so taking both means more of that fragment.</p><p><strong>What is sold in the West is not what was studied.</strong> The acetylated and amidated versions have no trial evidence of their own, individually or together.</p>"
+    },
+    {
+      "id": "no-combination-study",
+      "heading": "What has been tested as a combination",
+      "lede": "More than usual, and still not the thing people want to know.",
+      "html": "<p>Seven indexed papers name both compounds. None administered both to the same person. The closest is a 2020 brain-imaging study that gave semax to one group, selank to another and placebo to a third, which is a comparison rather than a combination.</p><p>This is worth stating precisely because the stack is sold as a single product. A vendor selling both in one bottle is making a claim the literature does not contain.</p>"
+    },
+    {
+      "id": "evidence",
+      "heading": "What the seven studies naming both actually show",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Every study in this record that names both compounds.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">What it is</th><th scope=\"col\">What it found</th></tr></thead><tbody><tr><td>Panikratova 2020</td><td>Functional MRI in 52 healthy people, each compound given to a different group</td><td>Shared and distinct effects on connectivity between the amygdala and right temporal cortex</td></tr><tr><td>2001 enzyme study</td><td>Both compounds tested against enzymes in human serum</td><td><b>Both inhibit the same enkephalin-degrading enzymes</b>, dose-dependently</td></tr><tr><td>2017 Parkinson's model</td><td>Rats with 6-OHDA lesions</td><td>Both peptides affected behaviour in the model</td></tr><tr><td>2021 cytokine study</td><td>Rats under social stress</td><td>Effects of selank on cytokine levels</td></tr><tr><td>2017 toxicity screen</td><td>Mouse embryonic stem cells</td><td>Selank altered the proportion becoming GABA-producing neurons</td></tr><tr><td>2014 tripeptide study</td><td>Rat brain transcriptome after ischaemia</td><td>Pro-Gly-Pro, the shared C-terminal fragment of both drugs, has its own effect on gene expression</td></tr><tr><td>2020 forensic analysis</td><td>Seized pharmaceutical products</td><td>Products contained selank and semax, peptides the authors note have not completed approval</td></tr></tbody></table></div></div><p>Read the second row again. It is the only experiment in which both compounds were measured in the same system on the same endpoint, and it found them acting on the same target.</p>"
+    },
+    {
+      "id": "overlap",
+      "heading": "Where the two overlap, and why that matters for stacking",
+      "lede": "The case for combining rests on complementary action. The evidence points the other way.",
+      "html": "<p>A 2001 study reported <q cite='https://europepmc.org/article/MED/11443939'>a dose-dependent effect of synthetic heptapeptides Semax (Met-Glu-His-Phe-Pro-Gly-Pro) and Selank (Thr-Lys-Pro-Arg-Pro-Gly-Pro) on the enkephalin-degrading</q> enzymes in human serum. Both slow the breakdown of enkephalins, the body's own opioid-like signalling peptides.</p><p>Notice the sequences the authors print. The last three residues are identical: <b>Pro-Gly-Pro</b>. That shared tail is not inert, and a 2014 rat study examined its own effect on brain gene expression precisely because it is the C-terminal fragment of both drugs.</p><p>So two of the things these compounds are known to do, inhibiting the same enzyme and delivering the same active tripeptide, are things they do identically. Stacking them increases the dose of those two actions rather than adding a new one.</p><p>That is not an argument that the combination is useless. The brain-imaging study did find effects that were not identical, so there is some separation. It is an argument that the intuition behind the stack, one calms and one sharpens and they work on different systems, is only partly right and has never been tested in a person.</p>"
+    },
+    {
+      "id": "product",
+      "heading": "The combined nasal spray, and what it fixes",
+      "html": "<p>Most of the search volume here is for the product rather than the idea: a single nasal spray containing both, sold by vendors and ranking on the first page for this query.</p><p>One bottle fixes two things nobody has studied. The <b>ratio</b> between the compounds is set by whoever mixed it. The <b>schedule</b> becomes one schedule, although the two were studied separately and the trials that exist used different regimens.</p><p>There is a third problem specific to this pair. The products sold in the West are usually N-acetyl semax amidate and N-acetyl selank amidate, modified molecules with no trial evidence at all. A combined spray of two untested analogues is two steps removed from the Russian trial literature people cite for it.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Doses: each component's own",
+      "html": "<p>No published dose exists for the pair. Each compound's studied doses are on its own record with the study that produced them: <a href=\"/compounds/semax\">semax</a> and <a href=\"/compounds/selank\">selank</a>. Both are given intranasally in most of their studies and by injection in some, and the semax trials report percentage solutions rather than milligram figures.</p><p>The stacking schedules that circulate come from clinics and vendors. This site's boundary is that a dose appears when a study or a label gave it, so they are not reproduced.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Safety: what is known, and for which products",
+      "html": "<p>Both are described as well tolerated in their own small Russian trials, and selank's literature specifically claims anxiolytic effects without sedation or dependence. Those statements describe the registered Russian products given singly.</p><p>For the pair there is nothing. The one toxicity study naming both is a screen in mouse embryonic stem cells, in which selank altered how many cells became GABA-producing neurons, a finding about developing cells in a dish. And the forensic analysis in this ledger exists because these peptides turn up in seized products, which is its own comment on what is being sold.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who this is discussed for, and what is unresolved",
+      "html": "<p><strong>Discussed for:</strong> anxiety with focus, brain fog, and general cognitive support, mostly in nootropic communities and by clinics selling peptide therapy.</p><p><strong>Studied in:</strong> for semax, people recovering from stroke, optic-nerve disease and motor neurone disease; for selank, people with diagnosed anxiety disorders. Separately, and in Russia.</p><p>The unresolved questions are whether the pair does anything the single compounds do not, whether the shared enzyme inhibition and shared tail make the combination redundant at those points, and whether any of it applies to the acetylated forms people actually buy. None has been studied.</p><p>The question of which one to choose is answered on the <a href=\"/compare/selank-vs-semax\">comparison page</a>.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how this stack is discussed",
+      "html": "<ol class=\"list\"><li><strong>Assuming complementary action.</strong> Both inhibit the same enzyme in the one experiment that measured them together.</li><li><strong>Ignoring the shared tail.</strong> Both end in Pro-Gly-Pro, which is itself active, so stacking doubles it.</li><li><strong>Citing the Russian trials for a combined spray.</strong> Those trials used the registered products, singly.</li><li><strong>Treating the imaging study as evidence for the stack.</strong> It gave each compound to a different group.</li><li><strong>Taking a vendor's ratio as a protocol.</strong> Nobody studied it.</li><li><strong>Forgetting the forms.</strong> The acetylated versions sold in the West have no trial evidence individually, let alone together.</li></ol>"
+    }
+  ],
+  "prose_reviewed": true
 }
