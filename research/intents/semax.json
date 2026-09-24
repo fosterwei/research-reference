@@ -1,0 +1,241 @@
+{
+  "slug": "semax",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "serp-top-results",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "h1": "Semax: nasal spray doses in studies and in practice, side effects, how it works, and the Russian trials behind it",
+  "queries": [
+    {
+      "query": "semax",
+      "volume": {
+        "clickstream": 28492,
+        "google_ads": 0,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Semax is and how it acts"
+    },
+    {
+      "query": "semax nasal spray",
+      "volume": {
+        "clickstream": 9310,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reconstitution",
+      "heading": "Semax as a nasal solution: concentrations and what a spray delivers",
+      "boundary": "Concentrations and delivered amounts are arithmetic. Which product or amount anyone uses is not decided here."
+    },
+    {
+      "query": "semax peptide",
+      "volume": {
+        "clickstream": 8903,
+        "google_ads": 0,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Semax is and how it acts"
+    },
+    {
+      "query": "semax reddit",
+      "volume": {
+        "clickstream": 2340,
+        "google_ads": 1600,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported_use",
+      "heading": "What people report outside the literature"
+    },
+    {
+      "query": "semax vs selank",
+      "volume": {
+        "clickstream": 1831,
+        "google_ads": 3600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "compare",
+      "heading": "Semax vs Selank, and how it sits among nootropic peptides",
+      "target": "/compare/selank-vs-semax"
+    },
+    {
+      "query": "semax dosage",
+      "volume": {
+        "clickstream": 1119,
+        "google_ads": 0,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "study_doses",
+      "heading": "What doses did studies use?",
+      "boundary": "These are doses from Russian clinical studies of stroke and other indications, and from rats. No trial has tested a Semax dose for cognition in healthy adults; the 200 to 600 microgram figures that circulate follow the Russian 0.1 percent label loosely."
+    },
+    {
+      "query": "semax side effects",
+      "volume": {
+        "clickstream": 1017,
+        "google_ads": 0,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "adverse_events",
+      "heading": "What side effects have been reported?"
+    },
+    {
+      "query": "n-acetyl semax amidate",
+      "volume": {
+        "clickstream": 814,
+        "google_ads": 1000,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported_use",
+      "heading": "What people report outside the literature"
+    },
+    {
+      "query": "what is semax",
+      "volume": {
+        "clickstream": 712,
+        "google_ads": 0,
+        "kd": 25,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Semax is and how it acts"
+    },
+    {
+      "query": "semax half life",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 210,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How fast does Semax work?",
+      "answer": "The peptide is cleared within minutes; effects in animals persist for hours through gene-expression changes. Users report effects within fifteen to thirty minutes lasting several hours. Nothing has been measured in healthy adults."
+    },
+    {
+      "query": "semax nootropic",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 0,
+        "kd": 17,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "who",
+      "heading": "Who Semax is discussed for, and the cautions that recur"
+    },
+    {
+      "query": "semax adhd",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 0,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Is Semax approved anywhere?"
+    },
+    {
+      "query": "semax depression",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How Semax is thought to work"
+    },
+    {
+      "query": "semax before and after",
+      "volume": {
+        "clickstream": null,
+        "google_ads": null,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported_use",
+      "heading": "What people report outside the literature"
+    }
+  ],
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "reconstitution",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ]
+}
