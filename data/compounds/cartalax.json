@@ -1,62 +1,331 @@
 {
   "type": "compound",
   "preferred_name": "Cartalax",
-  "aliases": [],
+  "aliases": [
+    "AED peptide",
+    "Ala-Glu-Asp",
+    "T-31",
+    "Kartalaks"
+  ],
   "slug": "cartalax",
   "status": "draft",
-  "evidence_tier": "community-reported",
-  "summary": "Cartalax is a peptide in the bioregulator short peptides class (cartilage bioregulator claimed; no indexed primary literature). Europe PMC indexes 0 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-09. The strongest evidence tier in that literature is no indexed study at all; what circulates about it is community-reported. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
+  "evidence_tier": "animal-preclinical",
+  "summary": "Cartalax is the synthetic tripeptide Ala-Glu-Asp (AED, T-31), a Khavinson bioregulator designed from the cartilage-and-bone extract Sigumir and sold as an oral supplement in Russia and as an injectable research chemical elsewhere. Its indexed literature, found under four names and curated by hand, is twelve papers: one rat study of bone density, six cell-culture studies, a docking model and four reviews, all from the developer's group, plus a 2012 human study of the extract Sigumir and a 2023 Russian review stating the oral peptide helped older patients with osteoarthritis in studies that are not indexed. No controlled human study of Cartalax exists under any name, and no study has injected it into any animal or person. This page reports what those papers state, sentence by sentence, labelled by the kind of evidence each is, and does not recommend use.",
   "seo": {
-    "title": "Cartalax: what the research shows",
-    "description": "Cartalax research, cited: 0 indexed publications, 0 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Cartalax (AED Peptide): Studies, Dose, Sigumir, Status",
+    "description": "Cartalax (AED, Ala-Glu-Asp) explained: the cell and rat studies under its four names, the Sigumir extract it was modelled on, why no dose exists, and status."
   },
   "attributes": {
-    "routes_studied": [],
+    "routes_studied": [
+      {
+        "value": "The 2023 review states the AED tripeptide was given orally to older patients with osteoarthritis; the underlying studies are not indexed.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-37782637"
+        ],
+        "source_excerpt": "Sigumir, a polypeptide complex of cartilage and bone tissues of young animals, and the AED tripeptide (Kartalax) have shown high efficacy in animal models of OA and oral administration in patients with OA of older age groups.",
+        "drafting": "extractive"
+      }
+    ],
     "study_doses": [],
     "escalation_schedules": [],
     "interactions": [],
     "exclusion_criteria": [],
-    "adverse_events": [],
-    "biomarkers_monitored": [],
+    "adverse_events": [
+      {
+        "value": "No study of Cartalax in any species recorded adverse events, because no study has given it to a living animal or person by injection and the one rat study measured bone. The 2012 Sigumir study and the 2023 review speak of the extract's tolerability in passing. Forum complaints are limited to injection-site reactions. A tripeptide of three common amino acids is unlikely to be toxic in itself; what a research-chemical vial contains is a separate matter no study addresses.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "biomarkers_monitored": [
+      {
+        "value": "Skin fibroblasts: sirtuin-1, sirtuin-6 and collagen I synthesis rose with AED during replicative ageing.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-33231794"
+        ],
+        "source_excerpt": "AED peptide activates the synthesis of sirtuin-1, sirtuin-6, and collagen I in human skin fibroblasts during their replicative aging",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Skin fibroblasts: MMP-9 fell and Ki-67 and CD98hc rose with the short peptides; AED and AEDG suppressed caspase-dependent apoptosis.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-27259496"
+        ],
+        "source_excerpt": "All studied peptides inhibited MMP-9 synthesis that increases during aging of skin fibroblasts and enhanced the expression of Ki-67 and CD98hc that are less intensively synthesized during cell aging. Peptides AED and AEDG suppressed caspase-dependent apoptosis that increases during aging of cell cultures.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Mesenchymal stem cells: IGF1 expression rose 3.5- to 5.6-fold with the peptides.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-32399807"
+        ],
+        "source_excerpt": "IGF1 gene expression levels were very similar in both cell culture aging models, being enhanced by 3.5-5.6 fold upon the addition of the peptides.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Ovariectomised rats: bone mineral density was preserved and restored by T-31 and, more strongly, by the cartilage extract.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-18306703"
+        ],
+        "source_excerpt": "The substances exerted both prophylactic effect on the status of the cartilaginous tissue, preventing the decrease of mineral density of the bone tissue in rats after ovariectomy, and corrective effect by increasing the bone tissue density, which was reduced as a result of ovariectomy.",
+        "drafting": "extractive"
+      }
+    ],
     "reported_timelines": [],
     "storage": [],
     "study_durations": [],
     "weight_normalized_doses": [],
-    "regulatory_status": []
+    "regulatory_status": [
+      {
+        "value": "Not approved as a medicine anywhere. In Russia the oral form is sold as a dietary supplement within the Khavinson bioregulator range; the parent extract Sigumir is marketed there in the same category. Outside Russia it is sold as a research chemical for injection. Not named on the WADA Prohibited List, but as an unapproved substance it falls under S0 at all times. Its position on FDA's 503A compounding lists should be checked against the live lists; it is not known to have been nominated.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
+    "evidence_table": [
+      {
+        "value": "Human study (Sigumir, not Cartalax), humans, 2012: It is shown that application of a complex of treatment-and-prophylactic actions, including rational tooth prosthetics, functional and pharmacotherapy (including accompanying diseases), and also use a peptide bioregulator of cartilaginous and bone tissues \"Sigumir\" in complex therapy of patients with diseases of a temporomandibular joint of a various etiology, enables to stop in short-terms a painful syndrome in such patients, to increase amplitude of opening of a mouth, to improve chewing function, to reduce terms of treatment and to provide preventive maintenance of relapses of TMJ's pathology during all period of supervision.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-22708467"
+        ],
+        "source_excerpt": "It is shown that application of a complex of treatment-and-prophylactic actions, including rational tooth prosthetics, functional and pharmacotherapy (including accompanying diseases), and also use a peptide bioregulator of cartilaginous and bone tissues \"Sigumir\" in complex therapy of patients with diseases of a temporomandibular joint of a various etiology, enables to stop in short-terms a painful syndrome in such patients, to increase amplitude of opening of a mouth, to improve chewing function, to reduce terms of treatment and to provide preventive maintenance of relapses of TMJ's pathology during all period of supervision.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Iordanishvili 2012",
+          "year": "2012",
+          "design": "Human study (Sigumir, not Cartalax)",
+          "n": 62,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "It is shown that application of a complex of treatment-and-prophylactic actions, including rational tooth prosthetics, functional and pharmacotherapy (including accompanying diseases), and also use a peptide bioregulator of cartilaginous and bone tissues \"Sigumir\" in complex therapy of patients with diseases of a temporomandibular joint of a various etiology, enables to stop in short-terms a painful syndrome in such patients, to increase amplitude of opening of a mouth, to improve chewing function, to reduce terms of treatment and to provide preventive maintenance of relapses of TMJ's pathology during all period of supervision."
+        }
+      },
+      {
+        "value": "Narrative review (Russian), humans, 2023: Sigumir, a polypeptide complex of cartilage and bone tissues of young animals, and the AED tripeptide (Kartalax) have shown high efficacy in animal models of OA and oral administration in patients with OA of older age groups.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-37782637"
+        ],
+        "source_excerpt": "Sigumir, a polypeptide complex of cartilage and bone tissues of young animals, and the AED tripeptide (Kartalax) have shown high efficacy in animal models of OA and oral administration in patients with OA of older age groups.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Myakisheva 2023",
+          "year": "2023",
+          "design": "Narrative review (Russian)",
+          "n": null,
+          "species": "Humans",
+          "dose": "not stated in abstract",
+          "route": "oral (as stated for patients)",
+          "duration": "not stated in abstract",
+          "outcome": "Sigumir, a polypeptide complex of cartilage and bone tissues of young animals, and the AED tripeptide (Kartalax) have shown high efficacy in animal models of OA and oral administration in patients with OA of older age groups."
+        }
+      },
+      {
+        "value": "Animal study, rats, 2007: The study has revealed an osteoprotective effect of both studied substances, with significantly higher efficacy of the preparation based on cartilaginous tissue extract.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-18306703"
+        ],
+        "source_excerpt": "The study has revealed an osteoprotective effect of both studied substances, with significantly higher efficacy of the preparation based on cartilaginous tissue extract.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Povorozniuk 2007",
+          "year": "2007",
+          "design": "Animal study",
+          "n": null,
+          "species": "Rats",
+          "dose": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "outcome": "The study has revealed an osteoprotective effect of both studied substances, with significantly higher efficacy of the preparation based on cartilaginous tissue extract."
+        }
+      },
+      {
+        "value": "In vitro study, rat kidney tissue cultures, 2015: Short peptides T-31 (AED) and T-35 (EDL) also stimulate proliferation and reduce apoptosis of the kidney cells, but to a lesser degree than the polypeptide complex.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-26033601"
+        ],
+        "source_excerpt": "Short peptides T-31 (AED) and T-35 (EDL) also stimulate proliferation and reduce apoptosis of the kidney cells, but to a lesser degree than the polypeptide complex.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Chalisova 2015",
+          "year": "2015",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Rat kidney tissue cultures",
+          "dose": "not stated in abstract",
+          "route": "culture medium",
+          "duration": "not stated in abstract",
+          "outcome": "Short peptides T-31 (AED) and T-35 (EDL) also stimulate proliferation and reduce apoptosis of the kidney cells, but to a lesser degree than the polypeptide complex."
+        }
+      },
+      {
+        "value": "In vitro study, human skin fibroblasts, 2016: Peptides AED and AEDG suppressed caspase-dependent apoptosis that increases during aging of cell cultures.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-27259496"
+        ],
+        "source_excerpt": "Peptides AED and AEDG suppressed caspase-dependent apoptosis that increases during aging of cell cultures.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Lin'kova 2016",
+          "year": "2016",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Human skin fibroblasts",
+          "dose": "not stated in abstract",
+          "route": "culture medium",
+          "duration": "not stated in abstract",
+          "outcome": "Peptides AED and AEDG suppressed caspase-dependent apoptosis that increases during aging of cell cultures."
+        }
+      },
+      {
+        "value": "In vitro study, human skin fibroblasts, 2020: AED peptide activates the synthesis of sirtuin-1, sirtuin-6, and collagen I in human skin fibroblasts during their replicative aging, which attests to its geroprotective effect.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-33231794"
+        ],
+        "source_excerpt": "AED peptide activates the synthesis of sirtuin-1, sirtuin-6, and collagen I in human skin fibroblasts during their replicative aging, which attests to its geroprotective effect.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Fridman 2020",
+          "year": "2020",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Human skin fibroblasts",
+          "dose": "not stated in abstract",
+          "route": "culture medium",
+          "duration": "not stated in abstract",
+          "outcome": "AED peptide activates the synthesis of sirtuin-1, sirtuin-6, and collagen I in human skin fibroblasts during their replicative aging, which attests to its geroprotective effect."
+        }
+      },
+      {
+        "value": "In vitro study, human embryonic mesenchymal stem cells, 2020: IGF1 gene expression levels were very similar in both cell culture aging models, being enhanced by 3.5-5.6 fold upon the addition of the peptides.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-32399807"
+        ],
+        "source_excerpt": "IGF1 gene expression levels were very similar in both cell culture aging models, being enhanced by 3.5-5.6 fold upon the addition of the peptides.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Ashapkin 2020",
+          "year": "2020",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Human embryonic mesenchymal stem cells",
+          "dose": "not stated in abstract",
+          "route": "culture medium",
+          "duration": "not stated in abstract",
+          "outcome": "IGF1 gene expression levels were very similar in both cell culture aging models, being enhanced by 3.5-5.6 fold upon the addition of the peptides."
+        }
+      },
+      {
+        "value": "In vitro study, human periodontal ligament stem cells, 2019: Growth-Associated Protein 43 (GAP43), which implements neurotransmission mechanisms and neuroplasticity, demonstrated an increased expression in hPDLSCs cultured with a compound of all studied peptides and with KED alone.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-30791821"
+        ],
+        "source_excerpt": "Growth-Associated Protein 43 (GAP43), which implements neurotransmission mechanisms and neuroplasticity, demonstrated an increased expression in hPDLSCs cultured with a compound of all studied peptides and with KED alone.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Caputi 2019",
+          "year": "2019",
+          "design": "In vitro study",
+          "n": null,
+          "species": "Human periodontal ligament stem cells",
+          "dose": "not stated in abstract",
+          "route": "culture medium",
+          "duration": "not stated in abstract",
+          "outcome": "Growth-Associated Protein 43 (GAP43), which implements neurotransmission mechanisms and neuroplasticity, demonstrated an increased expression in hPDLSCs cultured with a compound of all studied peptides and with KED alone."
+        }
+      },
+      {
+        "value": "Molecular modelling, in silico, 2016: Peptides KE and EDP bind agat sequence, peptides KEDW and AED to acct sequence, and peptides AEDL and EDL to ctcc sequence.",
+        "evidence_label": "mechanistic-in-vitro",
+        "source_ids": [
+          "pmid-27909961"
+        ],
+        "source_excerpt": "Peptides KE and EDP bind agat sequence, peptides KEDW and AED to acct sequence, and peptides AEDL and EDL to ctcc sequence.",
+        "drafting": "extractive",
+        "fields": {
+          "study": "Khavinson 2016",
+          "year": "2016",
+          "design": "Molecular modelling",
+          "n": null,
+          "species": "In silico",
+          "dose": "not applicable",
+          "route": "not applicable",
+          "duration": "not applicable",
+          "outcome": "Peptides KE and EDP bind agat sequence, peptides KEDW and AED to acct sequence, and peptides AEDL and EDL to ctcc sequence."
+        }
+      }
+    ],
+    "mechanism": [
+      {
+        "value": "Cartalax is the tripeptide alanine-glutamate-aspartate (Ala-Glu-Asp, AED; T-31 in the group's older papers). Vladimir Khavinson's institute in St Petersburg designed it in the 2000s from the amino-acid composition of Sigumir, a polypeptide extract of young animals' cartilage and bone, on the same principle that gave Epitalon from the pineal extract and Pinealon from a brain extract. The claim is tissue-specific gene regulation: the short peptide enters cells and the nucleus and binds DNA or histones in cartilage-relevant genes.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "What the papers show is broader and vaguer than cartilage. In culture, AED reduced apoptosis and MMP-9 and raised proliferation markers in skin fibroblasts, raised sirtuin-1, sirtuin-6 and collagen I, raised IGF1 expression in mesenchymal stem cells, and contributed to neuronal differentiation markers in dental-ligament stem cells; a docking model has it binding an 'acct' DNA motif. In kidney tissue cultures it stimulated renewal, less than the parent extract did. None of these is a cartilage cell, and the one whole-animal study measured bone, not cartilage, in ovariectomised rats, where again the extract outperformed the peptide.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "What is not known: whether AED reaches cartilage after oral or injected dosing, whether it survives digestion or plasma peptidases, what concentration reaches any tissue, and whether any of the cell effects occur in a joint. The developers' 2022 and 2023 transport reviews argue that di- and tripeptides can enter cells through PEPT and LAT carriers; that is a modelling argument, not a pharmacokinetic measurement.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Cartalax circulates for joint pain, cartilage repair and recovery from joint injury, injected subcutaneously from 10 or 20 mg vials in courses of ten to twenty days, often stacked with BPC-157, TB-500 or GHK-Cu, and in Russia taken as oral capsules (Kartalaks). Reports describe less joint discomfort, no effect, and doubt about whether the vial contains the peptide; the bioregulator community treats it as one of a set to be cycled. None of this comes from a study. Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every concentration and dose a study actually used.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ]
   },
   "evidence_summary": {
-    "retrieved_at": "2026-09-09",
-    "source": "Europe PMC, ChEMBL",
+    "retrieved_at": "2026-09-24",
+    "source": "Europe PMC, curated by hand: the twelve indexed papers that name the tripeptide (AED, Ala-Glu-Asp, T-31) or the Cartalax product. A name search finds 2; the sequence aliases are ambiguous and were not machine-searched (see research/intents/cartalax.json stage0_note).",
     "publications": {
-      "total": 0,
+      "total": 12,
       "randomized_controlled_trials": 0,
       "clinical_trials": 0,
-      "reviews": 0,
-      "human_indexed": 0,
-      "animal_indexed": 0
+      "reviews": 5,
+      "human_indexed": 1,
+      "animal_indexed": 1
     },
     "candidate_papers_by_tier": {
-      "approved-label": 0,
-      "human-clinical-trial": 0,
-      "observational-human": 0,
-      "animal-preclinical": 0,
-      "mechanistic-in-vitro": 0,
-      "review": 0,
-      "unclassified": 0
+      "observational-human": 1,
+      "animal-preclinical": 1,
+      "mechanistic-in-vitro": 6,
+      "review": 4
     },
     "chembl": null,
-    "drafting": {
-      "method": "extractive",
-      "script": "scripts/draft_claims.py",
-      "date": "2026-09-14",
-      "papers_analysed": 0,
-      "claims": 0,
-      "evidence_table_rows": 0
-    }
+    "drafting": "hand-curated 2026-09-24"
   },
   "comparison_peers": [],
   "open_questions": [
-    "No indexed study names Cartalax in its title or abstract. Everything currently said about it is unverified."
+    "No study has injected Cartalax into any animal or person; the only route with any human report is oral, in unindexed Russian studies.",
+    "The Russian osteoarthritis studies cited by the 2023 review are not indexed and could not be located.",
+    "The one indexed human study in the ledger is of Sigumir, the extract, and is kept as the extract's evidence, not the peptide's."
   ],
   "media": {
     "walkthrough_video": "",
@@ -65,20 +334,141 @@
   "faq": [
     {
       "question": "Has Cartalax been tested in humans?",
-      "answer": "Not in any indexed clinical trial. The studies in this record's ledger report work in laboratory systems. Any human dosing information circulating about Cartalax does not come from a published trial."
+      "answer": "Not in any indexed study under any of its names. The one indexed human study in this record, 62 elderly patients with jaw-joint disease in 2012, used Sigumir, the cartilage extract Cartalax was modelled on. A 2023 Russian review states the oral peptide helped older patients with osteoarthritis, citing studies that are not indexed anywhere this record can reach."
     },
     {
-      "question": "What kind of evidence exists for Cartalax?",
-      "answer": "The strongest tier is community reported: no indexed study at all; what circulates about it is community-reported. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "Is there a Cartalax dose?",
+      "answer": "No. No study states a dose of Cartalax given to a person or injected into any animal; the rat bone study's abstract omits the dose and the cell studies used culture concentrations they do not state. The 10 mg and 20 mg figures on vendor pages, and the ten-to-twenty-day courses, come from the Khavinson range's conventions, not from a study."
     },
     {
-      "question": "Is Cartalax an approved medicine?",
-      "answer": "No ChEMBL record matches Cartalax or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "What does Cartalax do in cells?",
+      "answer": "In the developer's studies, AED reduced apoptosis and the matrix-degrading enzyme MMP-9 in ageing skin fibroblasts, raised the proliferation marker Ki-67 and the sirtuins 1 and 6 and collagen I, raised IGF1 expression 3.5- to 5.6-fold in mesenchymal stem cells, and contributed to neuronal-differentiation markers in dental-ligament stem cells. None of these cells is a chondrocyte."
+    },
+    {
+      "question": "Does Cartalax repair cartilage?",
+      "answer": "No study has measured cartilage in a living animal or a person. The one whole-animal study measured bone mineral density in ovariectomised rats, where T-31 (AED) was protective and the parent extract more so. The 2023 review's statement about efficacy in osteoarthritis models and patients rests on studies that are not indexed."
+    },
+    {
+      "question": "Is Cartalax the same as Sigumir?",
+      "answer": "No. Sigumir is a polypeptide extract of young animals' cartilage and bone, sold in Russia; Cartalax is the single tripeptide Ala-Glu-Asp designed from its amino-acid composition. In both direct comparisons in the literature, rats and kidney cultures, the extract worked better than the peptide."
+    },
+    {
+      "question": "What are the side effects of Cartalax?",
+      "answer": "Unrecorded. No study has given Cartalax to a living animal by injection or to a person under observation, so there is no adverse-event data at all. Forum complaints are limited to injection-site reactions. A tripeptide of three common amino acids is unlikely to be toxic in itself; what a research-chemical vial actually contains is another question."
+    },
+    {
+      "question": "Is Cartalax FDA approved?",
+      "answer": "No. It has no approval anywhere and no development programme. In Russia it is sold as a dietary supplement; elsewhere as a research chemical. Its position on FDA's compounding lists should be checked; it is not known to have been nominated."
+    },
+    {
+      "question": "Is Cartalax banned in sport?",
+      "answer": "It is not named on the WADA Prohibited List, but as a substance with no regulatory approval it falls under the list's S0 category, prohibited at all times."
+    },
+    {
+      "question": "Can Cartalax be taken orally?",
+      "answer": "In Russia it is sold as oral capsules (Kartalaks), and the 2023 review speaks of oral administration to patients. Whether a tripeptide taken by mouth survives digestion and reaches a joint has not been measured; the developer's transport reviews argue it can enter cells through peptide carriers, which is a model, not a measurement."
+    },
+    {
+      "question": "Why does a search for Cartalax find almost nothing?",
+      "answer": "Because the developer's group publishes under the sequence, AED or Ala-Glu-Asp, and in older papers under the code T-31. A name search finds two reviews; the sequence names find the cell and rat papers. This record was assembled by hand from all four names because the short aliases are too ambiguous for automated search."
+    },
+    {
+      "question": "Who developed Cartalax?",
+      "answer": "Vladimir Khavinson's St Petersburg Institute of Bioregulation and Gerontology, as one of a family of short peptides each designed from the amino-acid composition of an organ extract: Epitalon from the pineal gland, Pinealon from the brain, Cartalax from cartilage and bone. Every paper in the ledger is from that group or its collaborators."
+    },
+    {
+      "question": "Which species has Cartalax been studied in?",
+      "answer": "Rats, once, for bone density; and cells: rat kidney tissue, human skin fibroblasts, human mesenchymal and dental-ligament stem cells. No cartilage cell, no joint, no living animal by injection, and no human under any name."
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "id": "pmid-37782637",
+      "title": "[Chondrocytes secretory phenotype associated with aging: role in the pathogenesis of osteoarthritis and prospects for peptide bioregulation.]",
+      "url": "https://europepmc.org/article/MED/37782637",
+      "published": "2023-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22708467",
+      "title": "[Application of bioregulating therapy in complex treatment of temporomandibular joint diseases in people of elderly and senile age].",
+      "url": "https://europepmc.org/article/MED/22708467",
+      "published": "2012-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18306703",
+      "title": "[Effect of peptide regulators on the structural and functional status of bone tissue in ageing rats].",
+      "url": "https://europepmc.org/article/MED/18306703",
+      "published": "2007-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26033601",
+      "title": "Peptide Regulation of Cells Renewal Processes in Kidney Tissue Cultures from Young and Old Animals.",
+      "url": "https://europepmc.org/article/MED/26033601",
+      "published": "2015-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27259496",
+      "title": "Peptide Regulation of Skin Fibroblast Functions during Their Aging In Vitro.",
+      "url": "https://europepmc.org/article/MED/27259496",
+      "published": "2016-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33231794",
+      "title": "Comparison of the Effects of KE and AED Peptides on Functional Activity of Human Skin Fibroblasts during Their Replicative Aging.",
+      "url": "https://europepmc.org/article/MED/33231794",
+      "published": "2020-11-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27909961",
+      "title": "Short Peptides Regulate Gene Expression.",
+      "url": "https://europepmc.org/article/MED/27909961",
+      "published": "2016-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-30791821",
+      "title": "Effect of short peptides on neuronal differentiation of stem cells.",
+      "url": "https://europepmc.org/article/MED/30791821",
+      "published": "2019-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32399807",
+      "title": "Gene expression in human mesenchymal stem cell aging cultures: modulation by short peptides.",
+      "url": "https://europepmc.org/article/MED/32399807",
+      "published": "2020-05-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31808038",
+      "title": "Peptide Regulation of Cell Differentiation.",
+      "url": "https://europepmc.org/article/MED/31808038",
+      "published": "2020-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35887081",
+      "title": "Transport of Biologically Active Ultrashort Peptides Using POT and LAT Carriers.",
+      "url": "https://europepmc.org/article/MED/35887081",
+      "published": "2022-07-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34834147",
+      "title": "Peptide Regulation of Gene Expression: A Systematic Review.",
+      "url": "https://europepmc.org/article/MED/34834147",
+      "published": "2021-11-22",
+      "kind": "peer-reviewed"
+    }
+  ],
   "related": [],
-  "uniqueness_pct": 65.7,
+  "uniqueness_pct": 85.6,
   "review": {
     "author": "",
     "reviewer": "",
@@ -105,6 +495,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 0 ledger sources by scripts/draft_claims.py: 0 claims, 0 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Stage 0 redone by hand: the registry had no aliases and the fetcher found 0 papers; a refetch with the sequence aliases returned 66 mostly false-positive sources and was reverted; the ledger was curated to the twelve indexed papers naming the tripeptide (AED, Ala-Glu-Asp, T-31) or the product, with nine evidence rows written from their abstracts. Tier set to animal-preclinical. Written under the sequencing rule after research/intents/cartalax.json: guide (8 sections incl. a four-names table), FAQ to 12 plus 5 from the map, mechanism, reported-use, regulatory and biomarker claims; intent-driven H1 and title."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Cartalax in two minutes",
+      "html": "<p><strong>What it is.</strong> A three-amino-acid peptide, Ala-Glu-Asp, designed in St Petersburg from the composition of a cartilage-and-bone extract called Sigumir. Sold in Russia as a joint supplement and elsewhere as an injectable research chemical.</p><p><strong>What the research actually shows.</strong> Twelve indexed papers under four names, all from the developer's group. Six are cell-culture studies of skin fibroblasts, stem cells and kidney tissue, where AED raised proliferation and collagen markers and lowered apoptosis. One is a rat study where it preserved bone density after ovariectomy, less well than the parent extract. None is a cartilage study in a living animal.</p><p><strong>The human evidence.</strong> One indexed human study, of 62 elderly patients with jaw-joint disease in 2012, used Sigumir, the extract, not Cartalax. A 2023 Russian review says oral Cartalax helped older patients with osteoarthritis; those studies are not indexed anywhere.</p><p><strong>Status.</strong> Not approved anywhere; supplement in Russia; caught by WADA's S0 rule.</p><p><strong>Where the evidence is thinnest.</strong> Injection. No study has injected Cartalax into any animal or person, which is the only way it is sold outside Russia.</p>"
+    },
+    {
+      "id": "names",
+      "heading": "Four names, one molecule: what the literature says under each",
+      "lede": "The evidence for Cartalax is scattered across the names the developer's group has used for it, and one of those names belongs to a different substance.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Every indexed paper in the ledger, by the name it uses.</caption><thead><tr><th scope=\"col\">Name used</th><th scope=\"col\">What it refers to</th><th scope=\"col\">Papers</th><th scope=\"col\">What they found</th></tr></thead><tbody><tr><td><strong>Cartalax</strong> / Kartalaks</td><td>The product name for the tripeptide</td><td>2023 Russian review; 2022 transport review; 2021 systematic review</td><td>Review statements: efficacy in OA animal models and oral use in older OA patients (unindexed studies); transport into cells by PEPT and LAT carriers (modelling)</td></tr><tr><td><strong>AED</strong> / Ala-Glu-Asp</td><td>The sequence, in the group's cell papers</td><td>Skin fibroblasts 2016 and 2020; mesenchymal stem cells 2020; dental-ligament stem cells 2019; docking 2016; differentiation review 2020</td><td>Less apoptosis and MMP-9; more Ki-67, sirtuins, collagen I; IGF1 expression up; neuronal-differentiation markers; binds an 'acct' DNA motif in a model</td></tr><tr><td><strong>T-31</strong></td><td>The group's older code for the same tripeptide</td><td>Rat bone 2007; kidney tissue culture 2015</td><td>Bone density preserved and restored in ovariectomised rats, less than the extract; kidney-cell renewal stimulated, less than the extract</td></tr><tr><td><strong>Sigumir</strong></td><td><em>A different substance</em>: the cartilage-and-bone polypeptide extract the tripeptide was modelled on</td><td>62 elderly TMJ patients 2012; the 2007 rat study's comparator</td><td>Pain relief and jaw function within a combined treatment programme (uncontrolled); stronger bone effect than T-31 in rats</td></tr></tbody></table></div></div><p>Two things follow. Every human sentence in this record is about the extract or about unindexed studies, and in both direct comparisons, rat bone and kidney culture, the extract outperformed the peptide designed to replace it.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every Cartalax concentration and dose in the literature, in one table",
+      "lede": "No study states an injected dose in any species. The table holds what the studies actually used.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Concentrations and doses of AED (Cartalax) and Sigumir in the ledger.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Substance and system</th><th scope=\"col\">Amount</th><th scope=\"col\">Exposure</th><th scope=\"col\">What was measured</th></tr></thead><tbody><tr><td>Povorozniuk 2007</td><td>T-31 (AED) and cartilage extract; ovariectomised rats</td><td>Not stated in the abstract</td><td>Not stated</td><td>Bone mineral density; both protective, extract more so</td></tr><tr><td>Chalisova 2015</td><td>T-31 (AED) and T-35; rat kidney tissue cultures</td><td>Culture concentration, not stated in the abstract</td><td>Culture</td><td>Ki-67 up, p53 down; less than the kidney extract</td></tr><tr><td>Lin'kova 2016; Fridman 2020</td><td>AED; human skin fibroblasts</td><td>Culture concentration, not stated in the abstracts</td><td>Replicative ageing in culture</td><td>Apoptosis and MMP-9 down; Ki-67, CD98hc, sirtuins, collagen I up</td></tr><tr><td>Ashapkin 2020</td><td>AED, KED, KE; human mesenchymal stem cells</td><td>Culture concentration, not stated in the abstract</td><td>Ageing cultures</td><td>IGF1 expression up 3.5 to 5.6-fold</td></tr><tr><td>Caputi 2019</td><td>AED with KED, KE, AEDG; dental-ligament stem cells</td><td>Culture concentration, not stated in the abstract</td><td>Culture</td><td>Neuronal-differentiation markers</td></tr><tr><td>Iordanishvili 2012</td><td><em>Sigumir</em>; 62 elderly patients</td><td>Not stated in the abstract</td><td>Course within combined treatment</td><td>Jaw pain and function</td></tr><tr><td>Myakisheva 2023 (review)</td><td>AED, oral; older OA patients</td><td>Not stated</td><td>Not stated</td><td>Efficacy asserted; source studies unindexed</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table holds every concentration and dose a study actually used. A ranking dosing guide asks whether Cartalax is 'dosed at 10 mg for 20 days'; the literature contains no injected dose of any size for any duration.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who Cartalax is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> cultured cells, and ovariectomised rats for bone. <strong>Studied with the extract:</strong> elderly Russian patients with jaw-joint disease. <strong>Community:</strong> people with joint pain, athletes recovering from cartilage or tendon injury, and bioregulator enthusiasts cycling the Khavinson set.</p><p>No human study of the peptide exists, so the cautions come from what is missing rather than what was found:</p><ul class=\"list\"><li><strong>The injectable form is untested.</strong> Not one study, in any species, has injected Cartalax. Everything about absorption, distribution and effect by that route is assumption.</li><li><strong>Vial contents.</strong> A tripeptide of three ordinary amino acids is cheap to make and impossible for a buyer to verify; the peptide's own literature says nothing about product quality.</li><li><strong>Growth signalling.</strong> In culture it raised IGF1 expression and proliferation markers. That is the intended effect and also the reason to be cautious with any history of cancer, a caution no study has examined.</li><li><strong>Expecting cartilage repair.</strong> No study measured cartilage in a living animal or a person. The rat study measured bone, and the extract did better.</li><li><strong>Pregnancy, children, interactions.</strong> No data of any kind.</li><li><strong>Tested athletes.</strong> Unapproved substances are prohibited under WADA S0 at all times.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The literature has almost no time axis. Cell studies measured markers after culture periods the abstracts do not state; the rat study reports an outcome after ovariectomy without a stated duration; the Sigumir study speaks of pain relief 'in short terms' within a combined programme and relapse prevention 'during all period of supervision', unquantified. No study of Cartalax in a person exists, so nothing is known about onset, duration or what happens when a course stops. 'How long does it take to work' has no answer in the literature, and the ten-to-twenty-day courses that circulate are the Khavinson range's standard schedule, not a measured result.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>No storage or stability study of Cartalax is indexed. Vendor sheets follow general practice for lyophilised peptides. A tripeptide is chemically simple and stable as a powder; its stability in solution and in a vial of unknown origin is unmeasured.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how Cartalax is discussed",
+      "html": "<ol class=\"list\"><li><strong>Counting the Sigumir study as Cartalax evidence.</strong> Sigumir is the extract; Cartalax is the tripeptide modelled on it. The only indexed human study is of the extract.</li><li><strong>Treating cell markers as joint outcomes.</strong> Sirtuins and collagen I in skin fibroblasts are not cartilage in a knee. No study has measured cartilage in a living animal.</li><li><strong>Quoting an injected dose.</strong> There is none, in any species. The 10 and 20 mg figures are vendor conventions.</li><li><strong>Assuming independent replication.</strong> Every paper is from Khavinson's institute or its collaborators; none has been replicated elsewhere.</li><li><strong>Missing the comparison the developers ran.</strong> In rats and in kidney cultures, the extract beat the peptide. The peptide's advantage is that it is definable and synthetic, not that it works better.</li><li><strong>Searching one name.</strong> A search for 'Cartalax' finds two papers. The evidence is under AED, Ala-Glu-Asp and T-31, and a reader who does not know that concludes there is none.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Cartalax vs Sigumir, BPC-157, TB-500, GHK-Cu and its sibling peptides",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Cartalax beside the substances it is confused with or stacked with, from their own records where one exists.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">What it is</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>Cartalax (AED)</strong></td><td>Khavinson tripeptide modelled on a cartilage extract</td><td>None under its own name; unindexed Russian oral reports</td><td>Supplement in Russia; research chemical elsewhere</td></tr><tr><td>Sigumir</td><td>Cartilage-and-bone polypeptide extract of young animals</td><td>One uncontrolled study of 62 elderly TMJ patients</td><td>Supplement in Russia; no record on this site</td></tr><tr><td><a href=\"/compounds/bpc-157\">BPC-157</a></td><td>Gastric pentadecapeptide fragment; 228 indexed publications</td><td>2 human studies in its ledger, small and uncontrolled</td><td>Not approved; WADA S0</td></tr><tr><td><a href=\"/compounds/tb-500\">TB-500</a></td><td>Thymosin beta-4 fragment; 1257 indexed publications</td><td>14 human studies in its ledger</td><td>Not approved; WADA S2</td></tr><tr><td><a href=\"/compounds/ghk-cu\">GHK-Cu</a></td><td>Copper tripeptide; 169 indexed publications</td><td>9 human studies in its ledger, mostly topical</td><td>Cosmetic ingredient; not approved as a drug</td></tr><tr><td><a href=\"/compounds/pinealon\">Pinealon</a> and <a href=\"/compounds/epitalon\">Epitalon</a></td><td>Sibling Khavinson peptides from pineal and brain extracts; 17 and 170 indexed publications</td><td>2 and 9 human studies in their ledgers, Russian, non-randomized</td><td>Supplements in Russia; research chemicals elsewhere</td></tr></tbody></table></div></div><p>Of everything Cartalax is stacked with, only BPC-157 has been discussed in a Western clinical review, and even that rests on a single uncontrolled series. The sibling comparison is the fair one: Cartalax has less evidence than Pinealon or Epitalon, and the same structure of it, a Russian extract with human reports and a synthetic peptide without.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }

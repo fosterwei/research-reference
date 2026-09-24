@@ -1,0 +1,379 @@
+{
+  "slug": "cartalax",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only. 'where can i buy cartalax peptide online' (People also ask) declined as commercial.",
+  "thin_serp": false,
+  "stage0_note": "The registry alias set was empty, so fetch_evidence found 0 publications. A refetch with the sequence aliases (AED, Ala-Glu-Asp, T-31) returned 66 sources of which about 55 were false positives (automated external defibrillators, Epitalon papers, unrelated 'T-31' strings), so it was reverted and the ledger was curated by hand to the twelve papers that name the tripeptide or the Cartalax product. The alias problem is recorded as an open accept-script item.",
+  "serp_2026-09-24": {
+    "query": "cartalax",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "organic_top": [
+      "riteaid.com",
+      "planandcare.com (clinic blog)",
+      "revolutionhealth.org (clinic blog)",
+      "biolongevitylabs.com (vendor)",
+      "en.wikipedia.org",
+      "jaycampbell.com",
+      "peptiq.io",
+      "stonevillenc.org (spam)"
+    ],
+    "note": "No primary literature ranks; the AI Overview cites clinic blogs and vendors. The incumbent dosing guide is absent."
+  },
+  "demand_findings": "'cartalax' 4,172 and 'cartalax peptide' 1,577 at KD 0; reddit 407; bioregulator, dosage and 'what is' tie at 152; side effects 101. Every other modifier, including benefits, injection, vs BPC-157 and Sigumir, has Ads volume only. The smallest head of any page written so far, and the emptiest SERP.",
+  "h1": "Cartalax (AED, Ala-Glu-Asp) peptide: what the cell and rat studies show, what the Russian extract Sigumir is, and what has never been tested",
+  "dek": "A Khavinson tripeptide for cartilage sold as an injectable research chemical. Its evidence hides under four names, almost all of it in cell cultures from the developer's group. This page finds it, tables it, separates the peptide from the extract it was modelled on, and says plainly that nobody has injected it into anything in a study.",
+  "queries": [
+    {
+      "query": "cartalax",
+      "volume": {
+        "clickstream": 4172,
+        "google_ads": 4400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Cartalax is, and the four names its evidence hides under"
+    },
+    {
+      "query": "cartalax peptide",
+      "volume": {
+        "clickstream": 1577,
+        "google_ads": 5400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What Cartalax is, and the four names its evidence hides under"
+    },
+    {
+      "query": "cartalax reddit",
+      "volume": {
+        "clickstream": 407,
+        "google_ads": 170,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe joint comfort, no effect, or uncertainty about vial contents. None comes from a study; the injectable form has no study at all."
+    },
+    {
+      "query": "cartalax bioregulator",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 40,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How Cartalax is thought to work: a tripeptide, DNA and cartilage genes"
+    },
+    {
+      "query": "cartalax dosage",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 170,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every Cartalax concentration and dose in the literature, in one table",
+      "boundary": "No study states a dose of Cartalax given to a person or an animal by injection. The table holds the cell concentrations and the one rat study; the 10 mg and 20 mg figures on vendor pages have never been tested."
+    },
+    {
+      "query": "what is cartalax",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 260,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is Cartalax?",
+      "answer": "Cartalax is the tripeptide alanine-glutamate-aspartate (Ala-Glu-Asp, written AED and, in older Russian papers, T-31), designed by Vladimir Khavinson's group in St Petersburg from the composition of Sigumir, an extract of young animals' cartilage and bone. In Russia it is sold as an oral supplement for joints; elsewhere it is sold as an injectable research chemical. Its literature is a dozen papers, almost all in cell cultures, from the developer's group."
+    },
+    {
+      "query": "cartalax side effects",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 90,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: nothing recorded, in any species",
+      "boundary": "No study has recorded adverse events for Cartalax in any species. What follows is what is known about the peptide's actions and what is not."
+    },
+    {
+      "query": "cartalax benefits",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 70,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "evidence_table",
+      "heading": "What did the studies find?",
+      "boundary": "Results in cultured cells and in one rat study, all from the developer's group, plus a Russian review's statement that the oral form helped older patients with osteoarthritis, which rests on studies not indexed anywhere. No controlled human study of Cartalax exists."
+    },
+    {
+      "query": "cartalax injection",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 40,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: what the studies used, and what people buy",
+      "boundary": "Culture medium in most studies; unstated route in the rat study; oral capsules in the Russian patient reports the review cites. No study has injected Cartalax into any animal or person, which is the only way it is sold outside Russia."
+    },
+    {
+      "query": "cartalax reconstitution",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "cartalax vs bpc-157",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 70,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Cartalax vs Sigumir, BPC-157, TB-500, GHK-Cu and its sibling peptides",
+      "boundary": "Sigumir is the cartilage-and-bone extract Cartalax was modelled on and the substance in the one human study; BPC-157, TB-500 and GHK-Cu are the repair peptides Cartalax is stacked with. No study has compared or combined any of them with Cartalax."
+    },
+    {
+      "query": "sigumir",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 110,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is Sigumir, and is it the same as Cartalax?",
+      "answer": "Sigumir is a polypeptide complex extracted from the cartilage and bone of young animals, marketed in Russia as a peptide bioregulator; Cartalax is the single synthetic tripeptide AED designed from its composition. The one indexed human study in this record, 62 elderly patients with jaw-joint disease in 2012, used Sigumir, not Cartalax. The two are as different as an extract and a molecule."
+    },
+    {
+      "query": "what is cartalax used for",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is Cartalax used for?",
+      "answer": "In the literature, as a laboratory tool: it has been added to cultures of kidney cells, skin fibroblasts, stem cells and neurons to study proliferation, apoptosis and gene expression, and given to ovariectomised rats to study bone density. A 2023 Russian review says the oral form has been given to older patients with osteoarthritis; those studies are not indexed. Outside the literature it circulates for joint pain and cartilage repair, untested.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how long does it take for cartalax to work",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "is cartalax legit",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is Cartalax legit?",
+      "answer": "The molecule is real and its cell studies are real, published in peer-reviewed journals by the group that designed it. What is not real is any human evidence for the injectable product: no controlled study of Cartalax in people exists under any of its names, no study has injected it into anything, and the Russian patient reports are unindexed. Whether a given vial contains Ala-Glu-Asp is a separate question no study answers.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "where can i buy cartalax peptide online",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "decline",
+      "section": "none",
+      "source": "people-also-ask",
+      "note": "Commercial intent; out of scope per docs/content-sop.md."
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/cartalax",
+      "rank": null,
+      "words": 6980,
+      "tables": 17,
+      "h2": 26,
+      "h3": 81,
+      "sci_links": 5,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 25,
+      "gap": "Seventeen tables including a 20 mg vial protocol and a 'is it dosed at 10 mg for 20 days' section for a compound with no injected dose in any study; concedes the 200 ng/mL cell concentration cannot convert to a dose; not in the Google top 10 for 'cartalax' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D9 F9 S4 U3"
+    },
+    {
+      "url": "https://jaycampbell.com/blog/cartalax-peptide-benefits/",
+      "rank": 8,
+      "words": 2571,
+      "tables": 0,
+      "h2": 9,
+      "sci_links": 0,
+      "byline": "Reviewed by: Dr (name truncated in fetch)",
+      "score": 15,
+      "gap": "States 'Russian observational studies report 20-40% pain reduction' with no citation; correctly says no registered trials exist; newsletter capture",
+      "source": "fetched 2026-09-24, metrics measured; scored D6 F3 S2 U4"
+    },
+    {
+      "url": "https://peptiq.io/peptides/cartalax",
+      "rank": 10,
+      "words": 1371,
+      "tables": 2,
+      "h2": 24,
+      "sci_links": 1,
+      "byline": null,
+      "score": 14,
+      "gap": "App-vendor page with a self-reported 'evidence at a glance' scoring literature maturity 0/100 and 27 community reports with self-reported doses",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F4 S2 U3"
+    },
+    {
+      "url": "https://riteaid.com/peptides/cartalax",
+      "rank": 2,
+      "words": 773,
+      "tables": 0,
+      "h2": 11,
+      "sci_links": 2,
+      "byline": "Rite Aid Health Team",
+      "score": 13,
+      "gap": "Short status page; two lead-capture forms; no study named",
+      "source": "fetched 2026-09-24, metrics measured; scored D3 F2 S6 U2"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cartalax",
+      "rank": 7,
+      "words": 492,
+      "tables": 1,
+      "h2": 2,
+      "sci_links": 13,
+      "score": 12,
+      "gap": "Stub with 13 references to the developer's cell papers; the only ranking page that names the sequence AED and T-31",
+      "source": "fetched 2026-09-24, metrics measured; scored D2 F1 S7 U2"
+    },
+    {
+      "url": "https://biolongevitylabs.com/product/cartalax-20mg/",
+      "rank": 6,
+      "score": null,
+      "gap": "Vendor product page ranking sixth",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that assembles Cartalax's literature under all four of its names (Cartalax, AED, Ala-Glu-Asp, T-31) and tables it: a dozen papers, one in rats, the rest in cell cultures, all from the developer's group, plus a 2023 Russian review whose human claim rests on unindexed studies; that separates the tripeptide from Sigumir, the cartilage-and-bone extract in the only indexed human study; that states no study has injected Cartalax into any animal or person, so the 20 mg vials and 10-day courses have no study behind them; and that gives the one measured animal result (bone density in ovariectomised rats, where the extract beat the peptide).",
+  "serp_format_rewarded": "Explainer. The SERP has no cited page above 800 words apart from the vendor-adjacent guides; a short, sourced explainer with a name-by-name table fills the gap.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "names",
+    "assessment",
+    "human-trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "fetch_evidence.py searches aliases as free text; short or ambiguous aliases (AED, T-31) flood the ledger. It needs phrase matching with a co-term (peptide, Khavinson) or a per-alias exclusion list; accept-script.",
+    "Russian-language patient studies of oral Kartalaks in osteoarthritis, cited by the 2023 review, are not indexed; locate and add if they exist.",
+    "The Sigumir human study (2012, 62 TMJ patients) is in the ledger as the extract's evidence and must not be re-drafted as Cartalax evidence."
+  ]
+}
