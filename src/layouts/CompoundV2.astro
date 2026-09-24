@@ -131,6 +131,11 @@ const intentFaq = queriesFor(intent, 'faq').map((q) => {
   }
   return q.answer ? { question: q.heading ?? q.query, answer: rich(q.answer, { bold: 2, seen }) } : null;
 }).filter((x): x is { question: string; answer: string } => Boolean(x));
+// Redirect queries are the next questions readers ask; they become contextual links (design.md §10.3).
+const nextQuestions = (intent?.queries ?? [])
+  .filter((q) => q.policy === 'redirect' && q.target)
+  .sort((x, y) => ((y.volume?.clickstream ?? y.volume?.google_ads ?? 0) - (x.volume?.clickstream ?? x.volume?.google_ads ?? 0)))
+  .map((q) => ({ label: q.heading && !/^(How it compares|Studied in combination)$/.test(q.heading) ? q.heading : q.query.replace(/\b\w/, (c) => c.toUpperCase()), href: q.target! }));
 const faqItems = [...intentFaq, ...d.faq.map((f) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))];
 if (faqItems.length > 0) blocks.push({ id: 'faq', kind: 'faq', label: 'Questions people ask', group: 'Context' });
 
@@ -184,6 +189,11 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
         {intent?.decline_notice && <p class="lede">{intent.decline_notice}</p>}
         <section id="what"><h2>{headingFor(intent, 'what', 'What it is')}</h2>{summaryParas.map((html) => <p class="prose-lg" set:html={html} />)}</section>
         <EvidenceAssessment record={d} />
+        {nextQuestions.length > 0 && (
+          <nav class="next-q" aria-label="Related questions"><span class="eyebrow">People also look for</span>
+            <ul>{nextQuestions.map((q) => <li><a href={q.href}>{q.label}</a></li>)}</ul>
+          </nav>
+        )}
         {noEvidence && <div class="status"><div><strong>No indexed study names this compound</strong> in its title or abstract. Everything that circulates about it is community-reported, and this page does not restate it as fact. The sections that depend on published evidence are omitted rather than filled.</div></div>}
 
         {body.map((b) => {

@@ -390,6 +390,8 @@ def draft_sections(papers: list[dict], names: list[str], other_names: list[str] 
 
 # ---- Derived sections ----------------------------------------------------------
 
+TIER_LABEL_SHORT = {"approved-label": "approved label", "human-clinical-trial": "human clinical trial", "observational-human": "observational human data",
+                    "animal-preclinical": "animal studies", "mechanistic-in-vitro": "in-vitro work", "community-reported": "community reports only"}
 HEADINGS = {
     "routes_studied": "routes of administration", "study_doses": "doses used", "study_durations": "treatment durations",
     "weight_normalized_doses": "weight-normalized doses", "escalation_schedules": "dose-escalation schedules",
@@ -431,7 +433,10 @@ def derive(record: dict, reg: dict | None, sections: dict, papers_analysed: int)
     )
     record.setdefault("seo", {})
     record["seo"]["title"] = clip(f"{name}: what the research shows", 60)
-    record["seo"]["description"] = clip(f"{name} research, cited: {total:,} indexed publications, {rct} randomized trials. Evidence tier on every claim; nothing is advice.", 160)
+    human = counts.get("clinical_trials", 0) + rct
+    record["seo"]["description"] = clip(
+        f"{name}: {total:,} indexed publications, {rct} randomized trials, {human} human studies, each claim quoted from its source and tiered. "
+        f"Strongest evidence: {TIER_LABEL_SHORT.get(tier, tier)}.", 160)
 
     faq = [
         {"question": f"Has {name} been tested in humans?",
@@ -482,7 +487,12 @@ def draft_compound(path: pathlib.Path, force: bool) -> str:
     attrs = record.setdefault("attributes", {})
     for field, claims in sections.items():
         attrs[field] = claims
-    derive(record, REG.get(record["slug"]), sections, len(papers))
+    if record.get("prose_reviewed"):
+        keep = {k: record.get(k) for k in ("summary", "faq", "open_questions", "evidence_assessment")}
+        derive(record, REG.get(record["slug"]), sections, len(papers))
+        record.update({k: v for k, v in keep.items() if v is not None})
+    else:
+        derive(record, REG.get(record["slug"]), sections, len(papers))
     record["status"] = "draft"
     record.setdefault("changelog", []).append({"date": TODAY, "change": (
         f"Claims drafted extractively from {len(papers)} ledger sources by scripts/draft_claims.py: "

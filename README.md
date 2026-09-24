@@ -24,7 +24,8 @@ Product goals, audience, non-goals, milestones, and success metrics are in [`doc
 | `scripts/import_to_wordpress.py` | Idempotent REST importer from `data/` to a WordPress staging site |
 | `scripts/fetch_evidence.py` | Fills a compound record's source ledger from Europe PMC and ChEMBL; writes a research brief; never writes claims |
 | `scripts/draft_claims.py` | Drafts extractive, excerpt-backed claims from the ledger; generates stack and comparison records from the registry plan |
-| `scripts/measure_pages.py` | Words, sections and 6-gram uniqueness per built page; writes `uniqueness_pct` into records |
+| `scripts/measure_pages.py` | Words, sections, 6-gram uniqueness, formatting minimums (`--formatting`) and intent coverage (`--intent`) per built page |
+| `scripts/audit_page.py` | Deterministic content-quality audit of one built page as Markdown, for the automation loop's step 3 |
 | `research/intents/<slug>.json` | Per-page intent map: queries, policies, competitors, information gain, outline (see `docs/content-sop.md`) |
 | `research/audits/<slug>-<date>.md` | Audit, triage and exit-audit for one page (see `docs/content-automation.md`) |
 | `src/lib/intents.ts` | Loads an intent map at build time; orders body blocks, supplies headings, boundaries, FAQ items and absence statements |

@@ -53,7 +53,25 @@ what step 3 audits. The page is audited before it merges, not after.
 ## Step 3: audit
 
 Run `/seo-content <preview url>/compounds/<slug>` and save the full report as
-part 1 of `research/audits/<slug>-<date>.md`. Record the headline score, the
+part 1 of `research/audits/<slug>-<date>.md`.
+
+**Vercel preview protection.** Preview deployments redirect unauthenticated
+requests (302 to a Vercel login, `x-robots-tag: noindex`), so neither the skill
+nor a crawler can read them. Either turn Deployment Protection off for preview
+environments in the Vercel project settings, or set a protection-bypass secret
+and pass it as `?x-vercel-protection-bypass=<secret>`. Until one of those is
+done, audit the local build of the same commit instead:
+
+```bash
+npm run build
+python3 scripts/audit_page.py <slug> --url <preview url>/compounds/<slug>
+```
+
+`scripts/audit_page.py` computes the same checks deterministically (meta,
+structured data, who/how/why, E-E-A-T sub-scores, readability of our own prose
+separately from quotations, links, formatting) and prints part 1 as Markdown.
+The HTML is byte-identical to what Vercel serves for that commit; only response
+headers differ. Record the headline score, the
 E-E-A-T breakdown and every issue verbatim. Do not edit the report; the triage
 in part 2 is where judgment goes.
 
@@ -97,10 +115,11 @@ the layer that fixes every page.
 npm run build
 python3 scripts/validate_content.py
 python3 scripts/measure_pages.py --formatting <slug>
+python3 scripts/measure_pages.py --intent <slug>
 python3 scripts/measure_pages.py --write
 ```
 
-Then run `/seo-content` once more on the updated preview and add it to the
+Then run `/seo-content` (or `scripts/audit_page.py`) once more on the updated build and add it to the
 audit file as part 3, beside the first run. Compare; do not loop. Some
 deductions cannot move until step 7: a page with no named reviewer scores low
 on trust whatever its content does, and running the audit again will not change
