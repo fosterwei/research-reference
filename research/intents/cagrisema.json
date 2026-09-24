@@ -1,0 +1,567 @@
+{
+  "slug": "cagrisema",
+  "type": "stack",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "europepmc",
+    "manufacturer-announcements"
+  ],
+  "scope": "Informational intent only. Cost and purchase queries declined under the commercial-intent rule, and there is no product to buy.",
+  "thin_serp": false,
+  "stage0_note": "The record's eight combination claims are genuine: seven are human trials of the combination itself, which makes this the only stack on the site whose combination was tested as a combination. The head term 'cagrilintide' (17,146, KD 0) belongs to the component's own written record and is redirected there rather than answered here.",
+  "serp_2026-09-24": {
+    "query": "cagrisema",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "images",
+      "related_searches"
+    ],
+    "organic_top": [
+      "pubmed.ncbi.nlm.nih.gov",
+      "diabetes.org",
+      "novonordisk.com",
+      "thelancet.com",
+      "drugs.com",
+      "goodrx.com",
+      "ahajournals.org",
+      "youtube.com"
+    ],
+    "note": "A clinical SERP: a PubMed abstract, a professional association, the manufacturer, two journals and a drug database. No dosing guide and no telehealth clinic ranks, and the incumbent has no page at all. The AI Overview cites Drugs.com, a newswire and three videos."
+  },
+  "demand_findings": "4,172 for 'cagrisema' at KD 21, with 5,400 Google Ads volume. The component name 'cagrilintide' is far larger at 17,146 and KD 0, but it belongs to that compound's own record, which is written; this page redirects it rather than competing with itself. Around the head: comparisons 812 (vs tirzepatide 305, vs zepbound 203, vs mounjaro 101, vs retatrutide 140 Ads), manufacturer and status 406, reddit 203, side effects 304 across both spellings. Ten of thirty keywords are unindexed and recorded as measured zeros.",
+  "h1": "CagriSema (cagrilintide plus semaglutide): the one combination on this site that was actually tested, what its trials found, and where it fell short",
+  "dek": "Seven human trials, tens of thousands of participants, and arms that received each component alone, which is what separates this from every other stack. It is also the combination that missed its primary endpoint against tirzepatide, and it is not approved anywhere.",
+  "queries": [
+    {
+      "query": "cagrisema",
+      "volume": {
+        "clickstream": 4172,
+        "google_ads": 5400,
+        "kd": 21,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "What CagriSema is, and how far it has got",
+      "boundary": "Unlike every other combination on this site, this one was tested as a combination, in phase 3 trials with tens of thousands of participants, including arms that received each component alone."
+    },
+    {
+      "query": "cagrilintide semaglutide",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 390,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "What CagriSema is, and how far it has got",
+      "boundary": "Unlike every other combination on this site, this one was tested as a combination, in phase 3 trials with tens of thousands of participants, including arms that received each component alone."
+    },
+    {
+      "query": "semaglutide plus cagrilintide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "What CagriSema is, and how far it has got",
+      "boundary": "Unlike every other combination on this site, this one was tested as a combination, in phase 3 trials with tens of thousands of participants, including arms that received each component alone."
+    },
+    {
+      "query": "what is cagrisema",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 210,
+        "kd": 10,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is CagriSema?",
+      "answer": "CagriSema is a fixed-dose combination of two once-weekly injectable drugs from Novo Nordisk: cagrilintide, a long-acting amylin analogue that is still investigational, and semaglutide, the approved GLP-1 drug sold as Ozempic and Wegovy. Both are given at 2.4 mg in one injection. It has been through a large phase 3 programme for weight management and type 2 diabetes and is not approved in any country."
+    },
+    {
+      "query": "cagrilintide",
+      "volume": {
+        "clickstream": 17146,
+        "google_ads": 33100,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "components",
+      "target": "/compounds/cagrilintide",
+      "heading": "Each component on its own evidence"
+    },
+    {
+      "query": "cagrilintide side effects",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": 880,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "components",
+      "target": "/compounds/cagrilintide",
+      "heading": "Each component on its own evidence"
+    },
+    {
+      "query": "cagrisema vs tirzepatide",
+      "volume": {
+        "clickstream": 305,
+        "google_ads": 170,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "vs-tirzepatide",
+      "heading": "CagriSema against tirzepatide: the head-to-head trial that missed its endpoint",
+      "boundary": "One head-to-head trial exists and it is the one people do not quote. In February 2026 the company announced that CagriSema reached 23% weight loss over 84 weeks but did not show non-inferiority to tirzepatide 15 mg, its primary endpoint."
+    },
+    {
+      "query": "cagrisema vs zepbound",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 40,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "vs-tirzepatide",
+      "heading": "CagriSema against tirzepatide: the head-to-head trial that missed its endpoint",
+      "boundary": "One head-to-head trial exists and it is the one people do not quote. In February 2026 the company announced that CagriSema reached 23% weight loss over 84 weeks but did not show non-inferiority to tirzepatide 15 mg, its primary endpoint."
+    },
+    {
+      "query": "cagrisema vs mounjaro",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "vs-tirzepatide",
+      "heading": "CagriSema against tirzepatide: the head-to-head trial that missed its endpoint",
+      "boundary": "One head-to-head trial exists and it is the one people do not quote. In February 2026 the company announced that CagriSema reached 23% weight loss over 84 weeks but did not show non-inferiority to tirzepatide 15 mg, its primary endpoint."
+    },
+    {
+      "query": "cagrisema vs retatrutide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 140,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "vs-tirzepatide",
+      "heading": "CagriSema against tirzepatide: the head-to-head trial that missed its endpoint",
+      "boundary": "One head-to-head trial exists and it is the one people do not quote. In February 2026 the company announced that CagriSema reached 23% weight loss over 84 weeks but did not show non-inferiority to tirzepatide 15 mg, its primary endpoint."
+    },
+    {
+      "query": "cagrisema vs wegovy",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "vs-components",
+      "heading": "Does the combination beat its own components?",
+      "boundary": "This is the question the trials were built to answer, and the answer is yes on weight and on blood sugar, by margins that are smaller than the marketing suggests."
+    },
+    {
+      "query": "cagrisema novo nordisk",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 140,
+        "kd": 14,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "availability",
+      "heading": "Availability: filed, not approved, and not purchasable"
+    },
+    {
+      "query": "cagrisema approval",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "availability",
+      "heading": "Availability: filed, not approved, and not purchasable"
+    },
+    {
+      "query": "cagrisema fda approval date",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "availability",
+      "heading": "Availability: filed, not approved, and not purchasable"
+    },
+    {
+      "query": "cagrisema availability",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "availability",
+      "heading": "Availability: filed, not approved, and not purchasable"
+    },
+    {
+      "query": "cagrisema phase 3",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 25,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "trials-table",
+      "heading": "Every trial in the programme, and what each one measured"
+    },
+    {
+      "query": "cagrisema clinical trial",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 40,
+        "kd": 21,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "trials-table",
+      "heading": "Every trial in the programme, and what each one measured"
+    },
+    {
+      "query": "cagrisema results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials-table",
+      "heading": "Every trial in the programme, and what each one measured",
+      "boundary": "Unlike every other combination on this site, this one was tested as a combination, in phase 3 trials with tens of thousands of participants, including arms that received each component alone."
+    },
+    {
+      "query": "cagrisema weight loss",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 110,
+        "kd": 10,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "numbers-estimand",
+      "heading": "Why the same trial is quoted as 20.4% and as 22.7%",
+      "boundary": "Both figures are correct. They come from the same trial counted two ways, which is worth understanding because it explains most of the disagreement online."
+    },
+    {
+      "query": "cagrisema 2.4 mg",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "doses",
+      "heading": "Doses in the trials",
+      "boundary": "Both components are given at 2.4 mg once weekly as a fixed-dose combination, and the diabetes trials also tested 1.0 mg of each. These are trial doses of a product that is not approved and cannot be bought."
+    },
+    {
+      "query": "cagrisema dosage",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 50,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "doses",
+      "heading": "Doses in the trials",
+      "boundary": "Both components are given at 2.4 mg once weekly as a fixed-dose combination, and the diabetes trials also tested 1.0 mg of each. These are trial doses of a product that is not approved and cannot be bought."
+    },
+    {
+      "query": "cagrisema side effects",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 90,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "side-effects",
+      "heading": "Side effects, measured against the components and against placebo",
+      "boundary": "Gastrointestinal effects dominate, as with every drug in this class. In the largest diabetes trial 86.9% of the combination group reported an adverse event against 81.2% on semaglutide alone and 70.5% on placebo."
+    },
+    {
+      "query": "cagrisema nausea",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "side-effects",
+      "heading": "Side effects, measured against the components and against placebo",
+      "boundary": "Gastrointestinal effects dominate, as with every drug in this class. In the largest diabetes trial 86.9% of the combination group reported an adverse event against 81.2% on semaglutide alone and 70.5% on placebo."
+    },
+    {
+      "query": "cagrisema muscle loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What about muscle loss on CagriSema?",
+      "answer": "The trials reported weight, blood sugar, waist circumference and blood pressure. Body composition was measured in substudies, including an MRI substudy in one of the diabetes trials, and those results are not in the abstracts this page quotes. As with any rapid weight loss, part of what is lost is lean tissue; no published figure separates that for this combination."
+    },
+    {
+      "query": "cagrisema diabetes",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "trials-table",
+      "heading": "Every trial in the programme, and what each one measured"
+    },
+    {
+      "query": "cagrisema reddit",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 50,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What circulates outside the trials",
+      "boundary": "There is no product to buy. CagriSema is a fixed-dose combination in phase 3 that no regulator has approved, so anything offered online under the name is not the trial product, and combining separately purchased peptides is not the same intervention."
+    },
+    {
+      "query": "amylin analog weight loss",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism-guide",
+      "heading": "Two hormones, two different hungers"
+    },
+    {
+      "query": "cagrilintide vs semaglutide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "vs-components",
+      "heading": "Does the combination beat its own components?",
+      "boundary": "This is the question the trials were built to answer, and the answer is yes on weight and on blood sugar, by margins that are smaller than the marketing suggests."
+    },
+    {
+      "query": "how is cagrisema different from ozempic",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How is CagriSema different from Ozempic?",
+      "answer": "Ozempic is semaglutide alone, at doses up to 2 mg for type 2 diabetes. CagriSema is semaglutide 2.4 mg plus cagrilintide 2.4 mg in one weekly injection. The added drug is an amylin analogue, which works on a different satiety pathway, and in the largest trial the combination produced roughly a third more weight loss than semaglutide alone.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "is cagrisema better than semaglutide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "vs-components",
+      "heading": "Does the combination beat its own components?",
+      "boundary": "This is the question the trials were built to answer, and the answer is yes on weight and on blood sugar, by margins that are smaller than the marketing suggests.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "when will cagrisema be available in the usa",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "availability",
+      "heading": "Availability: filed, not approved, and not purchasable",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "is cagrisema tirzepatide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is CagriSema the same as tirzepatide?",
+      "answer": "No. Tirzepatide is a single molecule that activates the GLP-1 and GIP receptors, made by Eli Lilly. CagriSema is two molecules in one injection, semaglutide for GLP-1 and cagrilintide for the amylin receptors, made by Novo Nordisk. They were compared directly in one trial, which CagriSema did not win.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.drugs.com/history/cagrisema.html",
+      "rank": 7,
+      "words": 1150,
+      "tables": 1,
+      "h2": 2,
+      "sci_links": 0,
+      "byline": "Judith Stewart, BPharm",
+      "score": 18,
+      "gap": "The most useful page on the SERP and the only one that lists the whole REDEFINE programme with its announced results, including REDEFINE 4 missing non-inferiority against tirzepatide. Company announcements only, no journal citations, no explanation of why announced figures differ from published ones",
+      "source": "fetched 2026-09-24, metrics measured; scored D6 F4 S4 U4"
+    },
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/cagrisema",
+      "rank": null,
+      "words": 105,
+      "tables": 0,
+      "h2": 1,
+      "sci_links": 0,
+      "score": 2,
+      "gap": "The incumbent has no page: the URL returns 'Protocol Coming Soon'. There is nothing to dose, which is the reason, and the gap is the whole query",
+      "source": "fetched 2026-09-24, metrics measured; scored D0 F0 S0 U2"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42251860/",
+      "rank": 2,
+      "score": null,
+      "gap": "A Lancet trial abstract ranks second; the SERP's top result is primary literature",
+      "source": "SERP result; abstract in the ledger (pmid-42251860)"
+    },
+    {
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials.html",
+      "rank": 5,
+      "score": null,
+      "gap": "The manufacturer's own announcements, which are where the widely quoted figures come from; the landing page carries no article text to score",
+      "source": "SERP result; fetched, no article content"
+    },
+    {
+      "url": "https://www.goodrx.com/conditions/weight-loss/cagrisema-for-weight-loss",
+      "rank": 8,
+      "score": null,
+      "gap": "Consumer pharmacy explainer; the fetch was refused by the site",
+      "source": "SERP result; fetch denied 2026-09-24"
+    },
+    {
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01022-6/fulltext",
+      "rank": 6,
+      "score": null,
+      "gap": "The REIMAGINE 3 paper itself; fetch blocked by the publisher's bot protection",
+      "source": "SERP result; abstract in the ledger (pmid-42251856)"
+    }
+  ],
+  "information_gain": "The only page that treats this as a combination question and answers it with the trial arms that exist: in the largest trial the combination reached 22.7% weight loss against 16.1% for semaglutide alone, 11.8% for cagrilintide alone and 2.3% for placebo, so the benefit of combining is measurable and smaller than the headline. The only page to explain why the same trial is quoted as 20.4% in the New England Journal and as 22.7% by the manufacturer, which is the estimand difference and the source of most of the disagreement online. The only page to put the head-to-head trial against tirzepatide in its place: 23% weight loss over 84 weeks, and a failure to show non-inferiority, which is the result the comparison pages leave out. And the only page to note what CagriSema is not: a stack anyone can assemble, since it is a fixed-dose product that does not exist outside the trials.",
+  "serp_format_rewarded": "Primary literature and regulatory status. The SERP is PubMed, the Lancet, the manufacturer and a drug database; there is no dosing guide to displace and the incumbent has nothing. A trial table with the component arms, an estimand explanation and a plain status statement fits what is already ranking and answers what those pages do not.",
+  "outline": [
+    "glance",
+    "what",
+    "quick-answer",
+    "components",
+    "trials-table",
+    "vs-components",
+    "numbers-estimand",
+    "vs-tirzepatide",
+    "combination",
+    "mechanism-guide",
+    "doses",
+    "side-effects",
+    "availability",
+    "reported_use",
+    "mistakes",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "open_actions": [
+    "REDEFINE 1 to 4 announcement figures come from the manufacturer's releases via the Drugs.com timeline and are cited editorially with pending_source; add the press releases or the REDEFINE 2 and 4 publications when they appear.",
+    "REDEFINE 2 and REDEFINE 4 are not in the ledger; only REDEFINE 1, REDEFINE 5 and the three REIMAGINE trials are.",
+    "Body-composition substudy results are not in the abstracts; add when published."
+  ]
+}
