@@ -119,7 +119,12 @@ Radius 6 px on cards and tiles, 999 px on pills, 3 px on code. Borders 1 px
 internal gap 16 px; card padding 16 × 18 px. The only motion is the FAQ
 chevron rotating on open; respect `prefers-reduced-motion`.
 
-## 4. Compound page anatomy (v2)
+## 4. Compound page anatomy (v2 pilot composition)
+
+This is the current composition for the semaglutide v2 trial route, not a
+mandatory outline for every future programmatic page. Its visual language and
+components are reusable; its section order is valid only when the page's
+search intent and evidence support this sequence.
 
 Container 1200 px, 32 px side padding. Two-column grid from 901 px:
 `232px minmax(0,1fr)`, 56 px gap, sidebar sticky at `top: 24px`. Single
@@ -429,6 +434,9 @@ the drafting script, not the record, so the fix applies to every page.
 
 ## Changelog
 
+- 2026-09-24 — Reframed the shared system as intent-driven composition: the
+  v2 anatomy is a pilot composition, while future outlines select and order
+  sections from search intent, user questions and evidence availability.
 - 2026-09-15 — Section 9 applied to the trial route `/compounds/semaglutide`
   (`src/lib/format.ts`, v2 components) and `scripts/measure_pages.py
   --formatting` reports the §9.10 counts. Own-prose sentence length remains
@@ -449,9 +457,15 @@ the drafting script, not the record, so the fix applies to every page.
 This design is a reusable system for compound records, stacks, comparisons,
 tools, research posts and future index pages. Templates share the same header,
 breadcrumbs, title treatment, status language, evidence components, source
-links, review state, guardrails and footer. A page type may omit a module only
-when that module has no meaningful content; it must not invent placeholder
-content to fill the layout.
+links, review state, guardrails and footer. The visual system is fixed; the
+outline is selected per page from search intent, user questions, evidence
+availability and page type.
+
+There is no universal “complete page” outline. A page may use a short answer
+layout, a study-led evidence layout, a comparison layout, a safety-focused
+layout or a tool-led layout while still looking like the same publication.
+The v2 compound anatomy in §4 is a reference composition, not a checklist
+that every generated page must fill.
 
 The content model is the boundary between research data and presentation. A
 generated page receives structured fields for its slug, page type, title,
@@ -470,6 +484,64 @@ assessment, human studies, evidence ledger, reported research context, dose
 context, routes, durations, safety, interactions, biomarkers, storage,
 comparisons, combination evidence, regulation, open questions, FAQ, sources,
 reference card, related records and change log.
+
+### 10.1 Intent-driven composition
+
+Before rendering a page, run an intent analysis that identifies:
+
+- The primary query or task
+- Secondary questions and sub-intents
+- Expected page type and search-result format
+- Evidence available to answer each question
+- The minimum useful sections
+- Optional sections supported by the record
+- The best section order for the reader's task
+
+Represent the result as structured data:
+
+```ts
+interface IntentProfile {
+  primaryIntent: string;
+  secondaryQuestions: string[];
+  pageType: "compound" | "protocol" | "study" | "comparison" | "question" | "post" | "index" | "tool";
+  requiredSections: SectionType[];
+  optionalSections: SectionType[];
+  sectionOrder: SectionType[];
+  evidenceThreshold: "low" | "medium" | "high";
+}
+```
+
+The renderer uses `sectionOrder` after validating that each section has real
+content and source support. It does not append unrelated sections to increase
+word count or satisfy a fixed page length.
+
+### 10.2 Intent examples
+
+| Search task | Strong opening | Supporting modules |
+|---|---|---|
+| What is X? | Direct definition and evidence boundary | Overview, evidence level, limitations, FAQ, sources |
+| X research | Research conclusion and human-study status | Human studies, evidence ledger, study limitations, sources |
+| X vs Y | Comparison answer and criteria | Side-by-side matrix, head-to-head evidence, limitations |
+| X safety or adverse effects | Safety conclusion and population qualifier | Human adverse events, preclinical signals, uncertainty, sources |
+| X dose in studies | Scope statement about published research | Study dose records, route, population, duration, guardrails |
+| X and Y combination | Whether indexed studies exist | Combination evidence, related studies, open questions |
+| X calculator | Formula and assumptions | Units, worked example, limitations, safety boundary |
+
+These are examples, not keyword templates. The final outline must be based on
+the actual query cluster, page data and evidence sufficiency.
+
+### 10.3 Section selection rules
+
+- Required sections are those needed to answer the primary intent accurately.
+- Optional sections render only when they add a distinct answer or evidence
+  context.
+- A section with no evidence, no meaningful explanation and no valid empty-state
+  message is omitted.
+- A necessary negative finding may render as an explicit, sourced no-evidence
+  state; this is different from an empty placeholder.
+- The table of contents is generated from the selected section order.
+- Internal links should lead to the next likely question, not repeat a generic
+  sitewide link list.
 
 ## 11. Reader interface versus publishing controls
 
@@ -599,7 +671,9 @@ The shared guardrails block remains near the bottom of every research page:
 ## 14. Page-type contract
 
 The page-template spec defines the content contract; this document defines its
-presentation. At minimum, the following page types use the shared system:
+presentation. Page types are intent families, not fixed outlines. The following
+are starting compositions that the intent profile may shorten, expand or
+reorder:
 
 - **Compound record:** overview, facts, evidence assessment, human studies,
   evidence ledger, safety, context sections, open questions, FAQ, sources,
@@ -615,6 +689,10 @@ presentation. At minimum, the following page types use the shared system:
 - **Index:** category scope, inclusion criteria, filters, record cards and a
   methods note.
 
+The page generator must record the selected intent profile and section order in
+its build data or audit output. This makes a deliberate short page
+distinguishable from a page that is missing content accidentally.
+
 ## 15. Design-system acceptance checklist
 
 Before a template or component is accepted:
@@ -622,6 +700,8 @@ Before a template or component is accepted:
 - It uses the repository tokens and shared components.
 - It preserves one H1 and a valid H2/H3 hierarchy.
 - It renders a direct answer where the page type needs one.
+- Its section order is justified by the page's intent profile rather than copied
+  from a universal outline.
 - Its TOC and anchors are generated from rendered, non-empty sections.
 - Claims retain source relationships and quotations retain attribution.
 - Tables have captions, scoped headers and an internal mobile scroll region.
