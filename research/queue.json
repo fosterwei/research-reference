@@ -1,7 +1,7 @@
 {
   "generated": "2026-09-24",
   "rule": "Unapproved compounds first, ordered by priority_score = cluster clickstream demand / (1 + KD/20). Approved medicines are deferred: their SERPs are held by clinical publishers and are not winnable on evidence alone. Demand measured with DataForSEO keyword_overview (clickstream), US/en, seed set = name × {head, dosage, side effects, benefits, half life, results, before and after, peptide}.",
-  "cost_usd": 0.047,
+  "cost_usd": 0.075,
   "queue": [
     {
       "slug": "retatrutide",
@@ -662,5 +662,154 @@
       "type": "comparison",
       "reason": "2,400 Ads / 1,525 clickstream a month; created 2026-09-24"
     }
-  ]
+  ],
+  "pages_queue": {
+    "rule": "Stack and comparison pages without written sections, ordered by cluster clickstream / (1 + KD/20). Measured 2026-09-24 with DataForSEO keyword_overview (clickstream), US/en, seed set = both orderings of the pair × {head, stack, dosage, side effects}. semaglutide-vs-tirzepatide (12,770 clickstream, KD 21) is an approved-medicine pair and is deferred with the approved compounds.",
+    "cost_usd": 0.028,
+    "queue": [
+      {
+        "rank": 1,
+        "type": "comparison",
+        "slug": "retatrutide-vs-tirzepatide",
+        "cluster_clickstream": 4578,
+        "cluster_google_ads": 170,
+        "head_kd": 0,
+        "priority_score": 4578,
+        "status": "queued",
+        "top_queries": "retatrutide vs tirzepatide 4,273; cagrisema vs tirzepatide 305"
+      },
+      {
+        "rank": 2,
+        "type": "stack",
+        "slug": "cagrisema",
+        "cluster_clickstream": 4222,
+        "cluster_google_ads": 5540,
+        "head_kd": 21,
+        "priority_score": 2060,
+        "status": "queued",
+        "top_queries": "cagrisema 4,172 (approved-medicine combination in phase 3; SERP held by Novo Nordisk and clinical press)"
+      },
+      {
+        "rank": 3,
+        "type": "comparison",
+        "slug": "sermorelin-vs-tesamorelin",
+        "cluster_clickstream": 3459,
+        "cluster_google_ads": 10800,
+        "head_kd": 0,
+        "priority_score": 3459,
+        "status": "queued",
+        "top_queries": "tesamorelin vs sermorelin 1,882; sermorelin vs tesamorelin 1,577"
+      },
+      {
+        "rank": 4,
+        "type": "comparison",
+        "slug": "selank-vs-semax",
+        "cluster_clickstream": 3357,
+        "cluster_google_ads": 7200,
+        "head_kd": 0,
+        "priority_score": 3357,
+        "status": "queued",
+        "top_queries": "semax vs selank 1,831; selank vs semax 1,526"
+      },
+      {
+        "rank": 5,
+        "type": "stack",
+        "slug": "tesamorelin-ipamorelin",
+        "cluster_clickstream": 1626,
+        "cluster_google_ads": 5120,
+        "head_kd": 1,
+        "priority_score": 1549,
+        "status": "queued",
+        "top_queries": "tesamorelin ipamorelin 1,271; tesamorelin and ipamorelin stack 203"
+      },
+      {
+        "rank": 6,
+        "type": "comparison",
+        "slug": "semaglutide-vs-retatrutide",
+        "cluster_clickstream": 1271,
+        "cluster_google_ads": 0,
+        "head_kd": 0,
+        "priority_score": 1271,
+        "status": "queued",
+        "top_queries": "retatrutide vs semaglutide 661; semaglutide vs retatrutide 610"
+      },
+      {
+        "rank": 7,
+        "type": "stack",
+        "slug": "bpc-157-tb-500-ghk-cu",
+        "cluster_clickstream": 915,
+        "cluster_google_ads": 9400,
+        "head_kd": 0,
+        "priority_score": 915,
+        "status": "queued",
+        "top_queries": "glow stack peptide 712; glow peptide stack 203"
+      },
+      {
+        "rank": 8,
+        "type": "comparison",
+        "slug": "cagrilintide-vs-semaglutide",
+        "cluster_clickstream": 101,
+        "cluster_google_ads": 0,
+        "head_kd": 9,
+        "priority_score": 70,
+        "status": "queued",
+        "top_queries": "cagrilintide vs semaglutide 101"
+      },
+      {
+        "rank": 9,
+        "type": "stack",
+        "slug": "ghk-cu-kpv-bpc-157-tb-500",
+        "cluster_clickstream": 50,
+        "cluster_google_ads": 0,
+        "head_kd": 0,
+        "priority_score": 50,
+        "status": "queued",
+        "top_queries": "ghk-cu bpc-157 tb-500 kpv 50"
+      },
+      {
+        "rank": 10,
+        "type": "comparison",
+        "slug": "ipamorelin-vs-ghrp-6",
+        "cluster_clickstream": 0,
+        "cluster_google_ads": 180,
+        "head_kd": 0,
+        "priority_score": 0,
+        "status": "queued",
+        "top_queries": "no clickstream; 180 Ads"
+      },
+      {
+        "rank": 11,
+        "type": "stack",
+        "slug": "selank-semax",
+        "cluster_clickstream": 0,
+        "cluster_google_ads": 0,
+        "head_kd": 0,
+        "priority_score": 0,
+        "status": "queued",
+        "top_queries": "no measured demand for the stack phrasing; the comparison carries the demand"
+      },
+      {
+        "rank": 12,
+        "type": "stack",
+        "slug": "retatrutide-mots-c",
+        "cluster_clickstream": 0,
+        "cluster_google_ads": 0,
+        "head_kd": 0,
+        "priority_score": 0,
+        "status": "queued",
+        "top_queries": "no measured demand"
+      }
+    ],
+    "deferred": [
+      {
+        "type": "comparison",
+        "slug": "semaglutide-vs-tirzepatide",
+        "cluster_clickstream": 12770,
+        "cluster_google_ads": 60500,
+        "head_kd": 21,
+        "status": "deferred",
+        "note": "Approved-medicine pair; SERP held by clinical publishers."
+      }
+    ]
+  }
 }
