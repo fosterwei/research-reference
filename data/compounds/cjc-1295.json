@@ -13,8 +13,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "CJC-1295 is a peptide in the ghrh analogs class (GHRH receptor agonist, modified GRF(1-29), with or without DAC). Europe PMC indexes 37 publications naming it or a listed alias in a title or abstract, including 1 randomized controlled trials and 1 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "CJC-1295: what the research shows",
-    "description": "CJC-1295 research, cited: 37 indexed publications, 1 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "CJC-1295: Trials, Doses, DAC vs No DAC, Side Effects",
+    "description": "CJC-1295 from its trials: doses per kilogram, 5.8 to 8.1 day half-life, DAC vs Mod GRF 1-29, the halted phase 2, side effects, FDA and WADA status."
   },
   "attributes": {
     "routes_studied": [
@@ -28,38 +28,85 @@
         "drafting": "extractive"
       }
     ],
-    "study_doses": [],
-    "escalation_schedules": [],
-    "interactions": [
+    "study_doses": [
       {
-        "value": "Animal study, rats, 2026: Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA…",
-        "evidence_label": "animal-preclinical",
+        "value": "Healthy adults received CJC-1295 or placebo subcutaneously as one of four ascending single doses in the first trial, and as two or three weekly or biweekly doses in the second.",
+        "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-42578445"
+          "pmid-16352683"
         ],
-        "source_excerpt": "Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines.",
+        "source_excerpt": "CJC-1295 or placebo was administered sc in one of four ascending single doses in the first study and in two or three weekly or biweekly doses in the second study.",
         "drafting": "extractive"
       },
       {
-        "value": "In vitro study, 2022: The affinity profiles of CBD and carboxy-THC are significantly different from the profiles of synthetic GHR mimetics such as CJC-1295 or [D-Arg 1 -D-Phe 5 -D-Trp 7,9 -Leu 11 ]-Substance P peptides, which are the most common interferents; the cannabinoids promoted the GHR/GHS-R1a interaction, while the ghrelin…",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-34736642"
-        ],
-        "source_excerpt": "The affinity profiles of CBD and carboxy-THC are significantly different from the profiles of synthetic GHR mimetics such as CJC-1295 or [D-Arg 1 -D-Phe 5 -D-Trp 7,9 -Leu 11 ]-Substance P peptides, which are the most common interferents; the cannabinoids promoted the GHR/GHS-R1a interaction, while the ghrelin mimetics acted rather as competitive inhibitors.",
-        "drafting": "extractive"
-      }
-    ],
-    "exclusion_criteria": [],
-    "adverse_events": [
-      {
-        "value": "Randomized controlled trial, humans, 2006: Subcutaneous administration of CJC-1295 resulted in sustained, dose-dependent increases in GH and IGF-I levels in healthy adults and was safe and relatively well tolerated, particularly at doses of 30 or 60 microg/kg.",
+        "value": "The trial authors singled out 30 and 60 micrograms per kilogram as the doses at which the compound was best tolerated.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-16352683"
         ],
         "source_excerpt": "Subcutaneous administration of CJC-1295 resulted in sustained, dose-dependent increases in GH and IGF-I levels in healthy adults and was safe and relatively well tolerated, particularly at doses of 30 or 60 microg/kg.",
         "drafting": "extractive"
+      },
+      {
+        "value": "Healthy men aged 20 to 40 received a single injection of 60 or 90 micrograms per kilogram, with overnight sampling one week later.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17018654"
+        ],
+        "source_excerpt": "GH pulsatility was assessed by 20-min blood sampling during an overnight 12-h period in healthy 20- to 40-yr-old men before and 1 wk after injection of either 60 or 90 microg/kg CJC-1295.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Mice lacking GHRH, one week old, were given 2 micrograms of CJC-1295 every 24, 48 or 72 hours for five weeks.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-16822960"
+        ],
+        "source_excerpt": "Three groups of 1-wk-old GHRHKO mice were treated for 5 wk with 2 microg of CJC-1295 at intervals of 24, 48, and 72 h.",
+        "drafting": "extractive"
+      }
+    ],
+    "escalation_schedules": [],
+    "interactions": [],
+    "exclusion_criteria": [],
+    "adverse_events": [
+      {
+        "value": "No serious adverse reactions were reported in the two randomized trials in healthy adults.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "source_excerpt": "No serious adverse reactions were reported.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The trial authors described the compound as safe and relatively well tolerated, particularly at 30 or 60 micrograms per kilogram, which implies tolerability fell at the higher doses.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "source_excerpt": "Subcutaneous administration of CJC-1295 resulted in sustained, dose-dependent increases in GH and IGF-I levels in healthy adults and was safe and relatively well tolerated, particularly at doses of 30 or 60 microg/kg.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In July 2006 ConjuChem halted its phase 2 trial of CJC-1295 for HIV-associated visceral fat accumulation after a participant died of a heart attack about two hours after an eleventh weekly injection, at a site in Argentina. Secondary reports put the trial at 192 participants; the attending physician attributed the death to undiagnosed coronary disease and judged it unrelated to the drug, and the company ended the programme as a precaution. No later trial was run, so that judgment was never tested. These facts come from contemporary news reports, not from a paper in the ledger.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      },
+      {
+        "value": "When FDA placed CJC-1295 in category 2 of its interim 503A bulk-substances list in September 2023, the concerns it cited were immunogenicity for some routes and serious adverse events including increased heart rate and a systemic vasodilatory reaction, with limited clinical data. FDA's notice is not in the ledger.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      },
+      {
+        "value": "The longest human exposure in the literature is 49 days in healthy adults. Nothing is known about years of use, about people with existing illness, or about the effect of raising IGF-1 for months, which is the exposure that circulates.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
       }
     ],
     "biomarkers_monitored": [
@@ -120,7 +167,25 @@
     ],
     "reported_timelines": [
       {
-        "value": "Clinical trial, humans, 2006: A synthetic GHRH analog (CJC-1295) that binds permanently to endogenous albumin after injection (half-life = 8 d) stimulates GH and IGF-I secretion in several animal species and in normal human subjects and enhances growth in rats.",
+        "value": "A single injection raised mean growth hormone 2- to 10-fold for six days or more and IGF-1 1.5- to 3-fold for 9 to 11 days; the estimated half-life was 5.8 to 8.1 days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "source_excerpt": "After a single injection of CJC-1295, there were dose-dependent increases in mean plasma GH concentrations by 2- to 10-fold for 6 d or more and in mean plasma IGF-I concentrations by 1.5- to 3-fold for 9-11 d. The estimated half-life of CJC-1295 was 5.8-8.1 d.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "After repeated doses, IGF-1 stayed above baseline for up to 28 days, with evidence of accumulation.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "source_excerpt": "After multiple CJC-1295 doses, mean IGF-I levels remained above baseline for up to 28 d.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The pulsatility study worked from a half-life of eight days.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-17018654"
@@ -129,39 +194,12 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, 2006: The main outcome measures were peak concentrations and area under the curve of GH and IGF-I; standard pharmacokinetic parameters were used for CJC-1295.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-16352683"
-        ],
-        "source_excerpt": "The main outcome measures were peak concentrations and area under the curve of GH and IGF-I; standard pharmacokinetic parameters were used for CJC-1295.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, 2019: These CJC-1295-protein conjugates have a much greater half-life compared to the unconjugated peptide and are capable of stimulating GH production for more than six days in humans after a single administration.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-30938069"
-        ],
-        "source_excerpt": "These CJC-1295-protein conjugates have a much greater half-life compared to the unconjugated peptide and are capable of stimulating GH production for more than six days in humans after a single administration.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, mice, 2006: CJC-1295 is a synthetic GHRH analog that selectively and covalently binds to endogenous albumin after injection, thereby extending its half-life and duration of action.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-16822960"
-        ],
-        "source_excerpt": "CJC-1295 is a synthetic GHRH analog that selectively and covalently binds to endogenous albumin after injection, thereby extending its half-life and duration of action.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, rats, 2005: These results led to the identification of CJC-1295 as a stable and active hGRF(1-29) analog with an extended plasma half-life.",
+        "value": "In rats, the albumin-bound peptide was detectable within 15 minutes and remained in plasma beyond 72 hours.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-15817669"
         ],
-        "source_excerpt": "These results led to the identification of CJC-1295 as a stable and active hGRF(1-29) analog with an extended plasma half-life.",
+        "source_excerpt": "CJC-1295, a tetrasubstituted form of hGRF(1-29) with an added N epsilon-3-maleimidopropionamide derivative of lysine at the C terminus, was selected for further pharmacokinetic evaluation, where it was found to be present in plasma beyond 72 h.",
         "drafting": "extractive"
       }
     ],
@@ -178,7 +216,34 @@
     ],
     "study_durations": [
       {
-        "value": "Animal study, mice, 2006: durations stated: 1 wk; 5 wk. Three groups of 1-wk-old GHRHKO mice were treated for 5 wk with 2 microg of CJC-1295 at intervals of 24, 48, and 72 h.",
+        "value": "The two randomized trials ran 28 and 49 days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "source_excerpt": "The study design was two randomized, placebo-controlled, double-blind, ascending dose trials with durations of 28 and 49 d.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Pulsatility was measured before and one week after a single injection.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17018654"
+        ],
+        "source_excerpt": "before and 1 wk after injection of either 60 or 90 microg/kg CJC-1295",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Serum proteins were compared before and one week after injection in 11 healthy young men.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-19386527"
+        ],
+        "source_excerpt": "Sera from 11 healthy young adult men before and one week after CJC-1295 injection were analyzed by two-dimensional gel electrophoresis for proteomic changes.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Five weeks of treatment in GHRH-knockout mice.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-16822960"
@@ -187,8 +252,35 @@
         "drafting": "extractive"
       }
     ],
-    "weight_normalized_doses": [],
-    "regulatory_status": [],
+    "weight_normalized_doses": [
+      {
+        "value": "30 or 60 micrograms per kilogram were the best-tolerated doses in the ascending-dose trials.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "source_excerpt": "particularly at doses of 30 or 60 microg/kg",
+        "drafting": "extractive"
+      },
+      {
+        "value": "60 or 90 micrograms per kilogram, single dose, in the GH pulsatility study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17018654"
+        ],
+        "source_excerpt": "injection of either 60 or 90 microg/kg CJC-1295",
+        "drafting": "extractive"
+      }
+    ],
+    "regulatory_status": [
+      {
+        "value": "Not approved anywhere. ConjuChem took it to phase 2 for HIV-associated visceral fat and halted the programme in 2006; no company has developed it since. In the United States it is sold as a research chemical. FDA placed it in category 2 of the interim 503A bulk-substances list in September 2023, citing safety concerns, and removed it in September 2024 after the nominators withdrew it, so it sits on no category and cannot be compounded under 503A; the position has moved twice and the live list should be checked. WADA names CJC-1295 as an example under S2 (growth hormone releasing hormone and its analogues), prohibited at all times, and detection methods for it in urine, plasma and horse plasma make up a third of its indexed literature.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Clinical trial, humans, 2006: GH secretion was increased after CJC-1295 administration with preserved pulsatility.",
@@ -510,6 +602,43 @@
           "outcome": "see source"
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "CJC-1295 is GRF(1-29), the active fragment of growth-hormone-releasing hormone, with four amino acids swapped (D-alanine at 2, glutamine at 8, alanine at 15, leucine at 27) so that the enzyme DPP-IV cannot cut it, plus a lysine carrying a maleimidopropionamide group at the C-terminus. That group, ConjuChem's Drug Affinity Complex or DAC, reacts with the free cysteine on albumin within minutes of injection. The peptide then travels bound to albumin and is released slowly, which is why its half-life is measured in days rather than the minutes of native GHRH.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "It acts where GHRH acts, on GHRH receptors of the somatotroph cells of the pituitary, so it can only raise growth hormone in someone whose pituitary can still make it. The 2006 pulsatility study is the key finding on how: a week after one injection, the frequency and size of growth-hormone pulses were unchanged, but trough levels between pulses were 7.5 times higher, and that raised mean growth hormone by 46 percent and IGF-1 by 45 percent. The compound fills in the troughs rather than adding pulses.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Modified GRF(1-29), sold as 'CJC-1295 without DAC' or Mod GRF 1-29, is the same peptide with the same four substitutions but without the albumin-binding group. It was the intermediate from which CJC-1295 was built and has never been tested in a human study under either name. Everything said about its half-life and dosing is inferred from GRF(1-29) and sermorelin.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "The one indexed study of user reports, a 2016 analysis of 23 forum threads by women, found CJC-1295 chosen for weight loss, muscle, skin, sleep and injury healing, with users worried that dosing and cycling had been worked out for men.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-26771670"
+        ],
+        "source_excerpt": "Choice to use CJC-1295 centered on weight loss, muscle enhancement, youthful skin, improved sleep, and injury healing. Concerns were described relating to female consequences of use given gender variations in growth hormone pulses affecting estimation of dosage, cycling, and long-term consequences.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Outside that study, CJC-1295 circulates mostly paired with ipamorelin, injected subcutaneously, with the DAC form dosed weekly and the 'no DAC' form dosed daily before bed. Reported effects are better sleep, water retention, hunger and, over months, changes in body composition; reported complaints are injection-site reactions, flushing, headache and tingling. None of it comes from a study. The figures people quote were not taken from the trials, which dosed by body weight for at most 49 days, and are not reproduced here.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -544,8 +673,7 @@
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports doses used for CJC-1295.",
-    "No study in this record's ledger reports weight-normalized doses for CJC-1295.",
+    "The halted 2006 phase 2 trial (HIV-associated visceral fat, 192 participants by secondary reports) was never published; its adverse-event data are the only long-exposure safety data that exist and are not available.",
     "No study in this record's ledger reports dose-escalation schedules for CJC-1295.",
     "No study in this record's ledger reports exclusion criteria for CJC-1295."
   ],
@@ -556,19 +684,51 @@
   "faq": [
     {
       "question": "Has CJC-1295 been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 1 clinical trials and 1 randomized controlled trials naming CJC-1295 or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "answer": "Yes, more than most unapproved peptides. Two randomized, placebo-controlled trials in healthy adults aged 21 to 61 ran for 28 and 49 days in 2006, a pulsatility study gave healthy men one injection, and a proteomics study followed 11 men for a week. A 192-participant phase 2 trial in HIV-associated visceral fat was halted in 2006 and never published in full."
     },
     {
-      "question": "What kind of evidence exists for CJC-1295?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What did the trials actually show?",
+      "answer": "That one subcutaneous dose raises growth hormone 2- to 10-fold for six days or more and IGF-1 1.5- to 3-fold for 9 to 11 days, that repeated doses keep IGF-1 up for 28 days, and that growth-hormone pulses keep their rhythm while the troughs between them rise. They showed nothing about body composition, sleep or recovery, because those were not measured."
+    },
+    {
+      "question": "What is the difference between CJC-1295 with DAC and without DAC?",
+      "answer": "The DAC is the albumin-binding group that gives the compound its week-long half-life. 'Without DAC' is Mod GRF 1-29, the same stabilised GRF(1-29) without that group. Every human study used the DAC form; Mod GRF 1-29 has none, and its short half-life and daily dosing are inferred from sermorelin."
+    },
+    {
+      "question": "Is there a CJC-1295 dose?",
+      "answer": "The trials dosed by body weight: four ascending single doses with 30 and 60 micrograms per kilogram named as best tolerated, 60 or 90 micrograms per kilogram in the pulsatility study, and weekly or biweekly repeats for up to 49 days. No dose was established for any use, and the milligram figures that circulate did not come from these trials."
+    },
+    {
+      "question": "What are the side effects of CJC-1295?",
+      "answer": "The healthy-adult trials reported no serious adverse reactions and called the lower doses best tolerated. Beyond that, the record is one death in the halted phase 2 trial, judged unrelated by the attending physician, and FDA's 2023 citation of increased heart rate and systemic vasodilatory reactions. Common complaints on forums are flushing, headache, water retention and injection-site reactions."
+    },
+    {
+      "question": "Why did development of CJC-1295 stop?",
+      "answer": "ConjuChem halted its phase 2 trial in July 2006 after a participant died of a heart attack two hours after an eleventh weekly injection. The physician attributed it to undiagnosed coronary disease, but the company ended the programme as a precaution and no one has picked the compound up since."
+    },
+    {
+      "question": "Does CJC-1295 need to be taken with ipamorelin?",
+      "answer": "No study says so. The pairing rests on pharmacology: CJC-1295 acts on the GHRH receptor and ipamorelin on the ghrelin receptor, and the two pathways are additive in acute growth-hormone tests of other agents. The only study of the pair is in mice with steroid-induced muscle loss. The stack page holds the detail."
     },
     {
       "question": "Is CJC-1295 an approved medicine?",
-      "answer": "No ChEMBL record matches CJC-1295 or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "answer": "No, anywhere. It reached phase 2 and stopped. In the United States it is sold as a research chemical, was on FDA's 503A category 2 list from September 2023 to September 2024, and is now on no category, so it cannot lawfully be compounded."
+    },
+    {
+      "question": "How is CJC-1295 detected in doping control?",
+      "answer": "By liquid chromatography and mass spectrometry in urine and plasma, with immunoaffinity or ultrafiltration clean-up. Detection papers, including one in horse plasma, make up about a third of the compound's indexed literature, which tells you where the research money has gone since 2006."
     },
     {
       "question": "Which species has CJC-1295 been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats, Swine. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "answer": "Humans, in the 2006 trials; rats, in the 2005 development paper; mice lacking GHRH, in the 2006 growth study; and horses and pigs, in doping-detection work. The stack with ipamorelin was tested in mice."
+    },
+    {
+      "question": "What is Mod GRF 1-29?",
+      "answer": "Modified GRF(1-29): GRF(1-29) with D-alanine, glutamine, alanine and leucine substituted at positions 2, 8, 15 and 27 so that DPP-IV cannot degrade it. It is the intermediate from which CJC-1295 was built and is sold as 'CJC-1295 no DAC'. It has no human study of its own."
+    },
+    {
+      "question": "What did the mouse growth study show?",
+      "answer": "One-week-old mice lacking GHRH given 2 micrograms of CJC-1295 daily for five weeks grew to normal weight and length with normal body composition; every 48 or 72 hours worked less well. Their pituitaries made more growth-hormone mRNA. It is a replacement result in a deficient juvenile animal, not a result about adults."
     }
   ],
   "sources": [
@@ -742,7 +902,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 72.7,
+  "uniqueness_pct": 87.8,
   "review": {
     "author": "",
     "reviewer": "",
@@ -769,6 +929,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 21 ledger sources by scripts/draft_claims.py: 17 claims, 16 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/cjc-1295.json: guide (8 sections incl. DAC vs Mod GRF 1-29), FAQ to 12 plus 11 from the map, extractive dose, weight-normalized, duration and timeline claims written by hand from the abstracts (the drafter's regex missed 'microg/kg'), mechanism, reported-use (netnography quoted), regulatory and adverse-event claims; two misdrafted interactions claims removed; intent-driven H1 and title. Triage: guide dose table renamed so it does not duplicate the claims section's H2."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "CJC-1295 in two minutes",
+      "html": "<p><strong>What it is.</strong> Growth-hormone-releasing hormone's active fragment, stabilised at four positions and hooked to albumin after injection, so that one dose raises growth hormone for about a week. Developed by ConjuChem; tested in healthy adults in 2006; abandoned the same year.</p><p><strong>What the research actually shows.</strong> 37 indexed publications, of which one randomized trial paper, one pulsatility study and one proteomics study in people. A single injection raised growth hormone 2- to 10-fold for six days and IGF-1 1.5- to 3-fold for 9 to 11 days, with a half-life of 5.8 to 8.1 days. Nothing else was measured in people: not fat, muscle, sleep, skin or recovery.</p><p><strong>DAC and no DAC.</strong> Every human study used the DAC form. 'CJC-1295 without DAC' is Mod GRF 1-29, the same peptide without the albumin hook, and it has never been given to a person in a published study.</p><p><strong>Safety record.</strong> No serious adverse reactions in 28 to 49 days of healthy-adult trials. One death in the 192-participant phase 2 trial, judged unrelated, after which development stopped. FDA cited heart-rate and vasodilatory reactions in 2023.</p><p><strong>Status.</strong> Not approved; named on the WADA list under S2; not compoundable under 503A. Paired with <a href=\"/compounds/ipamorelin\">ipamorelin</a> in most use, a combination tested only in mice.</p>"
+    },
+    {
+      "id": "dac",
+      "heading": "CJC-1295 with DAC vs without DAC (Mod GRF 1-29)",
+      "lede": "The two products sold under one name are different compounds with different evidence. Only one of them has been in a human study.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>The two compounds sold as CJC-1295.</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">CJC-1295 (with DAC)</th><th scope=\"col\">Mod GRF 1-29 ('CJC-1295 no DAC')</th></tr></thead><tbody><tr><td><strong>Structure</strong></td><td>GRF(1-29) with four substitutions plus an albumin-binding lysine derivative at the C-terminus</td><td>GRF(1-29) with the same four substitutions, no albumin-binding group</td></tr><tr><td><strong>Human studies</strong></td><td>Two 2006 trials in healthy adults; one pulsatility study; one proteomics study; a halted 192-participant phase 2</td><td>None under either name</td></tr><tr><td><strong>Half-life in people</strong></td><td>5.8 to 8.1 days, measured</td><td>Not measured; the minutes-long figure quoted is borrowed from GRF(1-29) and sermorelin</td></tr><tr><td><strong>What a dose does</strong></td><td>Raises trough growth hormone for days; pulses unchanged</td><td>Presumed to produce a single pulse, as native GHRH does; not shown</td></tr><tr><td><strong>Doses in studies</strong></td><td>30 to 250 micrograms per kilogram, single; weekly or biweekly repeats</td><td>None</td></tr><tr><td><strong>Why people choose it</strong></td><td>Fewer injections</td><td>Belief that a pulse is more physiological than a plateau; that belief has not been tested against the DAC form</td></tr></tbody></table></div></div><p>The 'no DAC' name is a vendor coinage: ConjuChem's development papers call the unhooked peptide a GRF(1-29) analogue and used it as the starting material. When a page gives a Mod GRF 1-29 half-life, dose or safety profile, it is describing sermorelin's and assuming the four substitutions change nothing but enzyme resistance.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every CJC-1295 dose in the literature, in one table",
+      "lede": "Every figure here was given in a study, by body weight. The trials measured hormones; none measured the outcomes the compound circulates for.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Every CJC-1295 administration in the ledger, plus the halted phase 2 from secondary reports.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Who</th><th scope=\"col\">Route and dose</th><th scope=\"col\">Duration</th><th scope=\"col\">What was measured</th></tr></thead><tbody><tr><td>Teichman 2006, trial 1</td><td>Healthy adults 21 to 61</td><td>Subcutaneous, one of four ascending single doses; 30 and 60 mcg/kg named as best tolerated</td><td>28 days</td><td>Growth hormone and IGF-1 peaks and area under the curve; pharmacokinetics; adverse events</td></tr><tr><td>Teichman 2006, trial 2</td><td>Healthy adults 21 to 61</td><td>Subcutaneous, two or three weekly or biweekly doses</td><td>49 days</td><td>IGF-1 above baseline up to 28 days; cumulative effect</td></tr><tr><td>Ionescu 2006</td><td>Healthy men 20 to 40</td><td>Subcutaneous, 60 or 90 mcg/kg, single</td><td>One week</td><td>Overnight growth-hormone pulsatility; IGF-1</td></tr><tr><td>Sackmann-Sala 2009</td><td>11 healthy young men</td><td>Single injection; dose not stated in the abstract</td><td>One week</td><td>Serum protein changes</td></tr><tr><td>ConjuChem phase 2 (secondary reports; not in ledger)</td><td>192 adults with HIV-associated visceral fat</td><td>Weekly subcutaneous, ascending; figure reported second-hand, not reproduced</td><td>Halted after the 11th weekly dose in one participant</td><td>Visceral fat; ended after a death</td></tr><tr><td>Alba 2006</td><td>One-week-old mice lacking GHRH</td><td>2 micrograms every 24, 48 or 72 hours</td><td>Five weeks</td><td>Length, weight, bone length, body composition, pituitary GH mRNA</td></tr><tr><td>Jetté 2005</td><td>Rats</td><td>Subcutaneous; dose not stated in the abstract</td><td>Single dose; plasma to 72 hours</td><td>Growth-hormone area under the curve; albumin binding</td></tr></tbody></table></div></div><p>Figures for CJC-1295 that circulate on forums and vendor pages were not taken from these trials, which dosed by body weight for at most 49 days. They are not reproduced here; the table holds every dose a study actually administered.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who CJC-1295 is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> healthy adults aged 20 to 61, and adults with HIV-associated visceral fat in the halted phase 2. <strong>Never studied:</strong> children, older adults, people with growth-hormone deficiency, athletes, or anyone taking it for months. <strong>Community:</strong> people seeking fat loss, muscle, sleep or recovery, usually with ipamorelin.</p><p>No trial published exclusion criteria in its abstract, so these cautions come from the compound's pharmacology and its record, not from a contraindication list:</p><ul class=\"list\"><li><strong>Cardiovascular disease.</strong> The one death in the programme was a heart attack in a participant with undiagnosed coronary disease; FDA later cited increased heart rate and vasodilatory reactions. Whether the drug contributed is unknown, which is not the same as known not to.</li><li><strong>Active or recent cancer.</strong> IGF-1 stays raised for weeks per dose; no study has looked at what that does to a tumour, in either direction.</li><li><strong>Diabetes and insulin resistance.</strong> Growth hormone raises blood glucose; the healthy-adult trials did not report glucose in their abstracts, and the 2026 sports-medicine review lists insulin resistance among documented risks of this peptide class.</li><li><strong>Anyone whose pituitary cannot make growth hormone.</strong> A GHRH analogue has nothing to act on; the mouse growth result was in animals lacking GHRH, not growth hormone.</li><li><strong>Women.</strong> The 2016 forum study found women themselves worried that doses and cycles circulating were worked out for men; no trial has reported results by sex.</li><li><strong>Tested athletes.</strong> Named on the WADA list; detectable in urine and blood by published methods.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The hormone timeline is unusually well described for an unapproved peptide. After one injection, <strong>growth hormone</strong> rose within the first day and stayed 2- to 10-fold above baseline for six days or more; <strong>IGF-1</strong> rose more slowly and stayed 1.5- to 3-fold above baseline for 9 to 11 days; with repeated doses it remained raised for up to 28 days and accumulated. In rats the peptide was on albumin within 15 minutes.</p><p>What was not measured is everything a person would notice. No trial recorded sleep, body composition, strength, skin or recovery at any time point, and nothing was measured after the 49-day trial ended. 'How long does it take to work' therefore has a hormonal answer, days, and no clinical answer at all.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>No storage or stability study of CJC-1295 is indexed. Vendor sheets follow general practice for lyophilised peptides, refrigerated as powder and colder once in solution. The compound's albumin-reactive group is designed to react with thiols, which is a reason the manufacturer's handling instructions, if a vial has them, matter more than for an ordinary peptide; nothing about that has been published.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how CJC-1295 is discussed",
+      "html": "<ol class=\"list\"><li><strong>Giving Mod GRF 1-29 a half-life and a dose.</strong> The 'no DAC' compound has no human data. Its figures are sermorelin's, relabelled.</li><li><strong>Turning hormone results into body results.</strong> The trials showed growth hormone and IGF-1 rising. Fat loss, muscle, sleep and healing were never measured in any human study of this compound.</li><li><strong>Quoting milligram doses as if they were trial doses.</strong> The trials dosed by body weight for at most 49 days. The weekly and daily figures that circulate come from forums.</li><li><strong>Treating the phase 2 death as settled either way.</strong> One physician judged it unrelated; no further trial tested that. It is an open item, and the only long-exposure safety datum that exists.</li><li><strong>Calling it 'FDA category 2'.</strong> It was, from September 2023 to September 2024, then removed because the nominators withdrew it. It now sits on no category, which is worse for compounding, not better.</li><li><strong>Reading the stack as tested.</strong> CJC-1295 with ipamorelin has one mouse study of muscle under steroid-induced wasting. The pairing rationale is pharmacological, not clinical.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "CJC-1295 vs sermorelin, tesamorelin and ipamorelin",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>CJC-1295 beside the compounds it is most often compared with, from their own records.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">What it is</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Half-life in people</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>CJC-1295</strong></td><td>GRF(1-29) analogue, albumin-bound (DAC)</td><td>Two 2006 trials in healthy adults; halted phase 2</td><td>5.8 to 8.1 days</td><td>Not approved; WADA S2</td></tr><tr><td><a href=\"/compounds/sermorelin\">Sermorelin</a></td><td>GRF(1-29) acetate, unmodified; 579 indexed publications</td><td>39 randomized trials; 21 human studies in its ledger</td><td>Minutes</td><td>Approved 1990 for paediatric GH deficiency; later withdrawn from the US market; WADA S2</td></tr><tr><td><a href=\"/compounds/tesamorelin\">Tesamorelin</a></td><td>GRF(1-44) with a stabilising group; 115 indexed publications</td><td>22 randomized trials; 20 human studies in its ledger</td><td>Under an hour</td><td>Approved 2010 for HIV-associated abdominal fat; WADA S2</td></tr><tr><td><a href=\"/compounds/ipamorelin\">Ipamorelin</a></td><td>Ghrelin-receptor agonist, a different receptor; 63 indexed publications</td><td>2 randomized trials; 6 human studies in its ledger</td><td>About two hours</td><td>Not approved; WADA S2</td></tr></tbody></table></div></div><p>Tesamorelin is the closest comparator: a stabilised GHRH analogue that completed development for the indication ConjuChem was chasing. The direct comparisons this site holds are <a href=\"/compare/ipamorelin-vs-sermorelin\">ipamorelin vs sermorelin</a> and <a href=\"/compare/sermorelin-vs-tesamorelin\">sermorelin vs tesamorelin</a>; the pairing with ipamorelin has its own <a href=\"/stacks/cjc-1295-ipamorelin\">stack page</a>.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
