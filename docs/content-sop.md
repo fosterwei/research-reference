@@ -62,6 +62,21 @@ compliance afterthought, and stages 3 and 5 below encode it.
 Stages 1 to 5 are research and cost money or time but touch no page. Stage 6 is
 mechanical. Stage 7 is the launch blocker and cannot be automated.
 
+## Before stage 0: which page next
+
+`research/queue.json` decides. The rule, set 2026-09-24: **unapproved compounds
+first**, ordered by `priority_score = cluster clickstream demand / (1 + KD/20)`.
+Approved medicines (semaglutide, tirzepatide, tesamorelin, sermorelin,
+bremelanotide) are deferred: their SERPs belong to Mayo Clinic, Drugs.com, NIH
+and the manufacturer, and an evidence page does not displace them. The
+unapproved SERPs measured at KD 0–24 and are winnable on evidence, which is what
+this site has.
+
+The queue is measured, not guessed: one batched DataForSEO `keyword_overview`
+call over name × eight intent heads for every unapproved compound (232
+keywords, $0.05 in task cost). Re-measure when the compound set changes. A
+compound moves to `done` when its `guide[]` is written and merged.
+
 ## Stage 0: the record must exist first
 
 Evidence precedes topic research. A page is never planned around a keyword and
