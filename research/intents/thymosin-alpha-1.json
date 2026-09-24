@@ -1,0 +1,512 @@
+{
+  "slug": "thymosin-alpha-1",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "queue_note": "Thymalfasin is an approved medicine in about 35 countries (Zadaxin) but not in the United States, and ChEMBL records no first_approval, so the queue built from ChEMBL listed it as unapproved. The SERP is reviews, a status page, clinics and a news feature (KD 5 to 11), not clinical publishers holding the head, so the deferral rule's reason does not apply and the page is written; the approval position is stated on the page.",
+  "serp_2026-09-24": {
+    "query": "thymosin alpha 1",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "perspectives",
+      "images",
+      "related_searches"
+    ],
+    "organic_top": [
+      "pmc (2020 review)",
+      "sciencedirect.com topic",
+      "riteaid.com",
+      "desertmobilemedical.com (clinic)",
+      "ozarkholisticcenter.com (clinic, 404 on fetch)",
+      "menshealth.com",
+      "pmc (2020 review)"
+    ],
+    "note": "Two PMC reviews, a ScienceDirect topic page, a status page, two clinics and a men's magazine. The AI Overview cites PMC, ScienceDirect, PubMed, Nature and a clinic. The incumbent dosing guide is absent."
+  },
+  "demand_findings": "Two head spellings carry 6,257 clickstream (KD 5 to 11) and 'thymosin alpha 1 peptide' 1,424; 'ta1 peptide' 356 is the community shorthand; 'zadaxin' 203 and 'thymalfasin' 152 are the drug-name searchers. Benefits 508 outranks dosage 457; half-life 152; reddit 101; long covid, reconstitution and 'what is' 50. Side effects has 390 Ads and no clickstream. The People-also-ask questions are about cautions, side effects, subjective feel and the TB-500 confusion.",
+  "h1": "Thymosin alpha-1 (thymalfasin, Zadaxin) peptide: what 65 randomized trials found, where it is approved, and what the gray-market vials rest on",
+  "dek": "An approved medicine in 35 countries and a research chemical in the United States, with more randomized trials than any peptide on this site and a mixed record: negative in the two largest intensive-care trials, positive in hepatitis B against interferon, unsettled in cancer. This page tables the trials, gives the licensed dose and the trial doses, and separates the peptide from TB-500.",
+  "queries": [
+    {
+      "query": "thymosin alpha 1",
+      "volume": {
+        "clickstream": 3510,
+        "google_ads": 18100,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What thymosin alpha-1 is, and what the trials found"
+    },
+    {
+      "query": "thymosin alpha-1",
+      "volume": {
+        "clickstream": 2747,
+        "google_ads": 18100,
+        "kd": 11,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What thymosin alpha-1 is, and what the trials found"
+    },
+    {
+      "query": "thymosin alpha 1 peptide",
+      "volume": {
+        "clickstream": 1424,
+        "google_ads": 5400,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What thymosin alpha-1 is, and what the trials found"
+    },
+    {
+      "query": "thymosin alpha 1 benefits",
+      "volume": {
+        "clickstream": 508,
+        "google_ads": 880,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what thymosin alpha-1 did, and did not do",
+      "boundary": "Results from randomized trials of 24 to 1,106 people, mostly in China, in sepsis, pancreatitis, hepatitis B and cancer. The two largest and best-designed trials, in sepsis and pancreatitis, were negative on their primary endpoints; the positive results are older, smaller or secondary."
+    },
+    {
+      "query": "thymosin alpha 1 dosage",
+      "volume": {
+        "clickstream": 457,
+        "google_ads": 1600,
+        "kd": 9,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every thymosin alpha-1 dose in the trials, in one table",
+      "boundary": "Every figure here is a dose a trial gave: 1.6 mg subcutaneously, twice a week for months in hepatitis, or every 12 hours for a week in intensive care. The same 1.6 mg is the licensed Zadaxin dose in the countries that approve it and the figure on vendor vials; the difference is the product."
+    },
+    {
+      "query": "ta1 peptide",
+      "volume": {
+        "clickstream": 356,
+        "google_ads": 1600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What thymosin alpha-1 is, and what the trials found"
+    },
+    {
+      "query": "zadaxin",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 0,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: approved in 35 countries, not in the United States, and on FDA's category 2 list"
+    },
+    {
+      "query": "thymalfasin",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 170,
+        "kd": 16,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What thymosin alpha-1 is, and what the trials found"
+    },
+    {
+      "query": "thymosin alpha 1 half life",
+      "volume": {
+        "clickstream": 152,
+        "google_ads": 30,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of thymosin alpha-1?",
+      "answer": "About two hours in plasma after subcutaneous injection, by the Zadaxin product information, with peak levels one to two hours after the dose. The immune effects the trials measured lasted days to weeks, which is why the licensed schedule is twice a week and the intensive-care trials dosed every 12 hours for a week. No abstract in the ledger states the half-life; the figure comes from the label, which is not yet a ledger source."
+    },
+    {
+      "query": "thymosin alpha 1 reddit",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 260,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe use for 'immune support', long COVID, Lyme disease, chronic fatigue and autoimmune conditions, at the licensed dose from unlicensed vials. None of those uses has a trial behind it."
+    },
+    {
+      "query": "thymosin alpha 1 long covid",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does thymosin alpha-1 help long COVID?",
+      "answer": "No trial has tested it for long COVID. During the pandemic it was tried for acute COVID-19, mostly in Chinese observational studies and one small randomized pilot in dialysis patients whose preliminary report counted 3 deaths on treatment against 7 without; a 2023 cell study described effects on innate inflammatory responses. None of that is a long-COVID result."
+    },
+    {
+      "query": "thymosin alpha 1 reconstitution",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 70,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "what is thymosin alpha 1",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 390,
+        "kd": 20,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is thymosin alpha-1?",
+      "answer": "Thymosin alpha-1 is a 28-amino-acid peptide first isolated from calf thymus by Allan Goldstein in 1972 and made synthetically as thymalfasin, sold as Zadaxin. It acts on dendritic cells and T cells through Toll-like receptors to shift immune responses, and is approved in about 35 countries for chronic hepatitis B and C and as an immune adjuvant. It is not approved in the United States, where it circulates as a research chemical and was placed on FDA's compounding category 2 list in 2023."
+    },
+    {
+      "query": "thymosin alpha 1 autoimmune",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 8,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe use for 'immune support', long COVID, Lyme disease, chronic fatigue and autoimmune conditions, at the licensed dose from unlicensed vials. None of those uses has a trial behind it."
+    },
+    {
+      "query": "thymosin alpha 1 cancer",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what thymosin alpha-1 did, and did not do",
+      "boundary": "Results from randomized trials of 24 to 1,106 people, mostly in China, in sepsis, pancreatitis, hepatitis B and cancer. The two largest and best-designed trials, in sepsis and pancreatitis, were negative on their primary endpoints; the positive results are older, smaller or secondary."
+    },
+    {
+      "query": "thymosin alpha 1 covid",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Trial by trial: what thymosin alpha-1 did, and did not do",
+      "boundary": "Results from randomized trials of 24 to 1,106 people, mostly in China, in sepsis, pancreatitis, hepatitis B and cancer. The two largest and best-designed trials, in sepsis and pancreatitis, were negative on their primary endpoints; the positive results are older, smaller or secondary."
+    },
+    {
+      "query": "thymosin alpha 1 fda",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: approved in 35 countries, not in the United States, and on FDA's category 2 list"
+    },
+    {
+      "query": "thymosin alpha 1 fda approval",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 45,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: approved in 35 countries, not in the United States, and on FDA's category 2 list"
+    },
+    {
+      "query": "thymosin alpha 1 injection",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 140,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: subcutaneous injection in every trial and on the label",
+      "boundary": "Subcutaneous injection in every human trial and in the licensed product. Nothing else has been studied in people; the intravenous route appears only in a 1982 mouse study."
+    },
+    {
+      "query": "thymosin alpha 1 lyme",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": 38,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe use for 'immune support', long COVID, Lyme disease, chronic fatigue and autoimmune conditions, at the licensed dose from unlicensed vials. None of those uses has a trial behind it."
+    },
+    {
+      "query": "thymosin alpha 1 side effects",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 390,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what randomized trials of 1,100 people recorded",
+      "boundary": "From randomized placebo-controlled trials with hundreds of participants: no safety outcome differed from placebo in the sepsis or pancreatitis trials, and hepatitis trials called it better tolerated than interferon. Injection-site redness is the common complaint."
+    },
+    {
+      "query": "thymosin alpha 1 vs thymosin beta 4",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 70,
+        "kd": 11,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "Thymosin alpha-1 vs TB-500 (thymosin beta-4), LL-37 and interferon",
+      "boundary": "TB-500 is a different thymosin, thymosin beta-4's fragment, with no human trial; LL-37 is an antimicrobial peptide with none. Thymosin alpha-1 is the one with 65 randomized trials, and the comparison people search for runs the wrong way."
+    },
+    {
+      "query": "who should not take thymosin alpha 1",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "who",
+      "heading": "Who thymosin alpha-1 is discussed for, and the cautions that recur",
+      "boundary": "The label of the licensed product and the trial exclusions define the cautions; the community uses (autoimmune disease, transplant recipients on immunosuppression) sit exactly where the label says not to.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "what are the side effects of thymosin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: what randomized trials of 1,100 people recorded",
+      "boundary": "From randomized placebo-controlled trials with hundreds of participants: no safety outcome differed from placebo in the sepsis or pancreatitis trials, and hepatitis trials called it better tolerated than interferon. Injection-site redness is the common complaint.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "how does thymosin alpha 1 make you feel",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How does thymosin alpha-1 make you feel?",
+      "answer": "In the trials, mostly nothing noticeable: the placebo-controlled sepsis and pancreatitis trials found no symptom or safety outcome that differed from placebo, and hepatitis trials reported it better tolerated than interferon, whose flu-like effects it lacks. Forum reports describe injection-site redness, occasional fatigue or a 'flu-ish' day after a dose, and, often, no felt effect at all.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "is thymosin alpha 1 the same as tb500",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Is thymosin alpha-1 the same as TB-500?",
+      "answer": "No. Thymosin alpha-1 is a 28-amino-acid immune-modulating peptide with 65 randomized trials and approvals in 35 countries. TB-500 is a fragment of thymosin beta-4, a 43-amino-acid actin-binding protein studied for tissue repair, with no human trial of the fragment. They share the word thymosin because both were first isolated from thymus extracts in the 1970s, and nothing else.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/thymosin-alpha-1",
+      "rank": null,
+      "words": 6167,
+      "tables": 13,
+      "h2": 20,
+      "h3": 67,
+      "sci_links": 6,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 26,
+      "gap": "Correct on Zadaxin, the 35 countries, the 1.6 mg twice-weekly schedule and the September 2023 category 2 listing; thirteen tables of reconstitution math; six citations; not in the Google top 10 for 'thymosin alpha 1' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D9 F8 S5 U4"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Thymalfasin",
+      "rank": null,
+      "words": 2356,
+      "tables": 30,
+      "h2": 5,
+      "sci_links": 106,
+      "score": 24,
+      "gap": "106 references and a clinical-studies section; the most heavily cited page on any compound in this queue; no dose table, no trial-by-trial verdicts, dated on the 2020s trials",
+      "source": "fetched 2026-09-24, metrics measured; scored D6 F4 S9 U5"
+    },
+    {
+      "url": "https://www.menshealth.com/health/a73202623/thymosin-alpha-1-peptide-immunity/",
+      "rank": 9,
+      "words": 881,
+      "tables": 0,
+      "h2": 5,
+      "sci_links": 1,
+      "byline": null,
+      "score": 12,
+      "gap": "News feature on the FDA compounding decision; states 'approved in over 30 countries', the category 2 move and a possible 2027 review; one citation",
+      "source": "fetched 2026-09-24, metrics measured; scored D3 F2 S3 U4"
+    },
+    {
+      "url": "https://riteaid.com/peptides/thymosin-alpha-1",
+      "rank": 5,
+      "words": 796,
+      "tables": 0,
+      "h2": 11,
+      "sci_links": 1,
+      "byline": "Rite Aid Health Team",
+      "score": 13,
+      "gap": "Short status page; two lead-capture forms; does not name Zadaxin or a trial",
+      "source": "fetched 2026-09-24, metrics measured; scored D3 F2 S6 U2"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7747025/",
+      "rank": 2,
+      "score": null,
+      "gap": "A 2020 comprehensive review ranks second and a 2020 activities review tenth; the SERP rewards reviews",
+      "source": "SERP result; not in the ledger"
+    },
+    {
+      "url": "https://desertmobilemedical.com/product/thymosin-alpha-1-peptide/",
+      "rank": 6,
+      "score": null,
+      "gap": "Clinic product page ranking sixth",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that tables thymosin alpha-1's randomized trials by size and verdict, showing that the two largest and best-designed, TESTS (1,106 septic adults, 2025) and TRACE (508 with necrotising pancreatitis, 2022), were negative on their primary endpoints while the positive results come from a 2013 sepsis trial with a marginal p-value, a 2006 hepatitis B trial against interferon, and post hoc subgroups; that states the approval position precisely (thymalfasin approved in about 35 countries for hepatitis B and C and as an adjuvant; never approved in the United States; placed in FDA's compounding category 2 in September 2023); that gives the licensed dose beside every trial dose; and that separates thymosin alpha-1 from TB-500, a different thymosin with no human trial, which a quarter of the searchers confuse it with.",
+  "serp_format_rewarded": "Review-style explainer. Two PMC reviews and a topic page rank; a cited trial table with plain verdicts and a regulatory section by country fits, and no ranking page has the 2022 and 2025 negative trials.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "Add the Zadaxin summary of product characteristics (Italy, China or another approving country) to the ledger for the half-life, schedule and contraindications quoted editorially; pending_source.",
+    "Add FDA's September 2023 category 2 notice to the ledger; pending_source.",
+    "Add the 2020 reviews that rank (PMC7747025, PMC7115394) and the hepatitis C trials behind the approvals; the ledger's human rows are weighted to 2020s Chinese trials.",
+    "fetch_evidence: ChEMBL records no first_approval for a drug approved in 35 countries; the tier logic needs a second approval source (Drugs@FDA covers the US only)."
+  ]
+}
