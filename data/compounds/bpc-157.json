@@ -15,8 +15,8 @@
   "evidence_tier": "observational-human",
   "summary": "BPC-157 is a peptide in the repair & anti inflammatory class (unclear; NO-system and growth-factor pathways proposed). Europe PMC indexes 228 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-09. The strongest evidence tier in that literature is observational human studies, with no indexed randomized trial. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "BPC-157: what the research shows",
-    "description": "BPC-157 research, cited: 228 indexed publications, 0 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "BPC-157 Dosing, Side Effects, Wolverine Stack & Research",
+    "description": "BPC-157 explained: doses used in studies vs what circulates, side effects, the Wolverine stack with TB-500, FDA and WADA status, and the full evidence table."
   },
   "attributes": {
     "routes_studied": [
@@ -358,6 +358,31 @@
         "value": "ChEMBL CHEMBL4297358: maximum clinical phase 1. Jurisdiction-level status pending human review.",
         "evidence_label": "human-clinical-trial",
         "source_ids": []
+      },
+      {
+        "value": "U.S. Anti-Doping Agency: BPC-157 is prohibited under the S0 Non-Approved Substances category of the WADA Prohibited List, which applies at all times.",
+        "evidence_label": "approved-label",
+        "source_ids": [
+          "usada-bpc-157-prohibited"
+        ],
+        "source_excerpt": "BPC-157 is prohibited under the S0 Non-Approved Substances category of the List.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "U.S. Anti-Doping Agency: not approved for human clinical use by the FDA or any other health authority, and no human clinical trials establish efficacy for any diagnosis or treatment.",
+        "evidence_label": "approved-label",
+        "source_ids": [
+          "usada-bpc-157-prohibited"
+        ],
+        "source_excerpt": "This substance is not approved for human clinical use by the U.S. Food and Drug Administration (FDA) or any other global health authority. There are no human clinical trials establishing efficacy for the use of BPC-157 for any diagnosis or treatment.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "United States compounding: in September 2023 the FDA placed BPC-157 in Category 2 of its interim list of bulk drug substances nominated for compounding under section 503A, the category for substances with significant safety concerns, citing immunogenicity risk, peptide-related impurities and the absence of human safety data. Category 2 substances may not be used in compounding while under evaluation. Sale as a 'research chemical' is not approval and does not make personal use lawful in every jurisdiction.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
       }
     ],
     "evidence_table": [
@@ -861,6 +886,40 @@
           "outcome": "BPC 157-rats presented raised plasma NO-values, but normal MDA-values; in ICV tissue reverted low NO-values and counteracted increased MDA-levels."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "BPC-157 is a 15-amino-acid fragment (Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val) of a larger protein isolated from human gastric juice, called body protection compound. The 'stable gastric pentadecapeptide' name in the literature refers to its stability in gastric acid, which is why oral and intragastric administration appear in animal studies alongside injection.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The proposed mechanisms come almost entirely from one research group in Zagreb over three decades: modulation of the nitric oxide system (it counteracts both raised and lowered blood pressure in rat models), upregulation of growth-factor receptors and the early growth response gene EGR-1, promotion of new blood-vessel formation through VEGFR2, activation of the FAK–paxillin pathway in tendon fibroblasts, and interactions with dopamine and serotonin systems. These are mechanisms observed in rats and in cells. None has been confirmed in a controlled human study, and the concentration of the evidence in a single laboratory is itself a limitation that reviews of the compound now note.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "The same angiogenic and growth-factor activity that underlies the healing claims is the basis of the most-searched safety question about BPC-157: whether promoting vessel growth could feed a tumour. No study has tested this in either direction. It is a theoretical concern that follows from the mechanism, not an observed harm, and not a demonstrated safety either.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "Outside the literature, BPC-157 is most often discussed at 200 to 500 micrograms by subcutaneous injection once or twice daily, commonly near the site of an injury, for four to six weeks, or as oral capsules of similar mass for gut complaints on the reasoning that the peptide survives stomach acid. The 'Wolverine stack' pairs it with TB-500, typically at 2 to 2.5 milligrams of TB-500 twice weekly. These figures circulate in forums, on Reddit and in clinic marketing; no trial has tested any of them for any outcome, and their consistency across sites reflects copying rather than evidence.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "Effects people report are faster recovery from tendon and ligament injuries, reduced joint pain within one to two weeks, and improvement in gut symptoms; reported side effects are injection-site redness, transient dizziness, nausea, fatigue and headache. Before-and-after accounts are uncontrolled self-report over a timescale in which most soft-tissue injuries improve on their own. The two-person intravenous pilot is the only human safety measurement, and it reported no side effects over a 24-hour observation.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -921,20 +980,68 @@
   },
   "faq": [
     {
-      "question": "Has BPC-157 been tested in humans?",
-      "answer": "Not in any indexed clinical trial. The studies in this record's ledger report work in humans, mice, rats. Any human dosing information circulating about BPC-157 does not come from a published trial."
+      "question": "What is BPC-157?",
+      "answer": "A synthetic 15-amino-acid fragment of a protein found in human gastric juice, studied since the 1990s mostly in rats for healing of tendon, muscle, bone, gut and nerve injury. It is not an approved medicine."
     },
     {
-      "question": "What kind of evidence exists for BPC-157?",
-      "answer": "The strongest tier is observational human: observational human studies, with no indexed randomized trial. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What does BPC-157 do?",
+      "answer": "In rats it speeds healing in many injury models and modulates blood pressure through the nitric oxide system. In people, three small uncontrolled pilots from one clinic report tolerability and symptom improvement; no controlled trial has measured any effect."
     },
     {
-      "question": "Is BPC-157 an approved medicine?",
-      "answer": "ChEMBL records CHEMBL4297358 at maximum clinical phase 1, with no approval recorded. Approval status differs by jurisdiction and is pending human review on this record."
+      "question": "What is the Wolverine stack?",
+      "answer": "The community name for BPC-157 combined with TB-500. One 2026 rat study tested the pair on Achilles tendon healing; no human study has. The stack page holds what exists."
     },
     {
-      "question": "Which species has BPC-157 been studied in?",
-      "answer": "Studies in this record's ledger report work in: Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "question": "What dose of BPC-157 did studies use?",
+      "answer": "Rat studies mostly used 10 micrograms or 10 nanograms per kilogram. The only human dosing data are a two-person intravenous pilot at 10 and 20 milligrams and local injections in two small case series. The 200 to 500 microgram figures that circulate did not come from any study."
+    },
+    {
+      "question": "What are the side effects of BPC-157?",
+      "answer": "The two-person infusion pilot reported none over 24 hours. Community reports describe injection-site redness, dizziness, nausea, fatigue and headache. Long-term safety, and the theoretical concern about promoting blood-vessel growth near a tumour, have not been studied."
+    },
+    {
+      "question": "Is BPC-157 FDA approved?",
+      "answer": "No. In 2023 the FDA placed it in Category 2 of its compounding bulk-substances list, the category for significant safety concerns, citing immunogenicity, impurities and the lack of human safety data."
+    },
+    {
+      "question": "Is BPC-157 banned in sport?",
+      "answer": "Yes. USADA states it is prohibited under WADA category S0, non-approved substances, at all times."
+    },
+    {
+      "question": "Can BPC-157 be taken orally?",
+      "answer": "Animal studies used intragastric dosing and drinking water, relying on the peptide's stability in stomach acid. Whether oral doses reach injured tissue in people has not been measured; there is no human absorption study."
+    },
+    {
+      "question": "How long is BPC-157's half-life?",
+      "answer": "Unmeasured in people. The infusion pilot found plasma levels back to baseline within 24 hours, which bounds it. The four-hour figure that circulates has no published source."
+    },
+    {
+      "question": "How long does BPC-157 take to work?",
+      "answer": "No human study has measured onset. Community reports describe pain changes within one to two weeks and courses of four to six weeks, a period over which most soft-tissue injuries improve on their own."
+    },
+    {
+      "question": "BPC-157 vs TB-500: which is better?",
+      "answer": "They act by different proposed mechanisms and neither has controlled human evidence for healing. TB-500's parent molecule, thymosin β4, has been in human trials; BPC-157 has not. The comparison page lines up what each record states."
+    },
+    {
+      "question": "Does BPC-157 cause cancer?",
+      "answer": "Unknown in either direction. It promotes new blood-vessel growth and growth-factor signalling in animals, which is why the concern exists; no study has tested it in the presence of a tumour."
+    },
+    {
+      "question": "Does BPC-157 affect blood pressure?",
+      "answer": "In rats it counteracts both induced hypertension and hypotension through the nitric oxide system. In the two-person human pilot, cardiovascular markers were unchanged over 24 hours. Interactions with blood-pressure drugs are unstudied."
+    },
+    {
+      "question": "How should BPC-157 be stored?",
+      "answer": "As a powder, refrigerated or frozen away from light; once dissolved in bacteriostatic water, commonly refrigerated and used within about four weeks. Discard cloudy or discoloured solution."
+    },
+    {
+      "question": "How many human studies of BPC-157 exist?",
+      "answer": "Three, all from one clinic in Orlando, all uncontrolled: a 2021 knee injection series, a 2024 series of 12 women with interstitial cystitis, and a 2025 infusion safety pilot in two adults. About 26 people in total."
+    },
+    {
+      "question": "Why is almost all BPC-157 research from one laboratory?",
+      "answer": "The compound was developed and has been studied for three decades principally by a group in Zagreb, which accounts for most of the 228 publications. Independent replication is limited, and recent reviews name that concentration as a limitation of the evidence base."
     }
   ],
   "sources": [
@@ -1182,6 +1289,13 @@
       "url": "https://europepmc.org/article/MED/8298609",
       "published": "1993-01-01",
       "kind": "peer-reviewed"
+    },
+    {
+      "id": "usada-bpc-157-prohibited",
+      "title": "BPC-157: Experimental Peptide Creates Risk for Athletes (U.S. Anti-Doping Agency, accessed 2026-09-24)",
+      "url": "https://www.usada.org/spirit-of-sport/bpc-157-peptide-prohibited/",
+      "published": "2026-09-24",
+      "kind": "regulatory"
     }
   ],
   "related": [],
@@ -1212,6 +1326,64 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 35 ledger sources by scripts/draft_claims.py: 35 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written guide added (9 editorial sections), FAQ expanded to 16, mechanism and reported-use sections, USADA added to the ledger with two verbatim regulatory claims (WADA S0; not approved, no efficacy trials), FDA Category 2 statement pending its document, intent-driven H1 and title. Second page through the content loop."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "BPC-157 in two minutes",
+      "html": "<p><strong>What it is.</strong> A 15-amino-acid fragment of a protein found in human gastric juice, synthesised in a laboratory. Studied since the early 1990s, almost entirely in rats and almost entirely by one group in Zagreb, for healing of tendon, muscle, bone, gut and nerve injury.</p><p><strong>What the research actually shows.</strong> 228 indexed publications and zero randomized trials. Three human studies exist, all small uncontrolled pilots from one clinic in Orlando: a 2021 retrospective series of knee injections, a 2024 series of 12 women with bladder pain, and a 2025 safety infusion in two healthy adults. Together they involve about 26 people and none had a placebo group. The animal literature is large and consistent in reporting faster healing; how far that transfers to people is unknown.</p><p><strong>What people commonly report using.</strong> 200 to 500 micrograms injected once or twice daily near an injury for four to six weeks, or oral capsules for gut complaints; the \"Wolverine stack\" adds TB-500. None of it has been tested.</p><p><strong>Status.</strong> Not approved anywhere. Prohibited in sport at all times under WADA category S0. Placed by the FDA in Category 2 of its compounding bulk-substances list in 2023 for safety concerns.</p><p><strong>Where the evidence is thinnest.</strong> Any controlled human outcome; long-term safety; whether its blood-vessel-promoting activity matters in the presence of a tumour; whether oral dosing reaches the tissues injections reach.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "BPC-157 dosage chart: studies versus what circulates",
+      "lede": "Two kinds of figure appear when people search for a BPC-157 dose. This table keeps them apart.",
+      "html": "<p>Only the first two rows were administered to people, and neither was chosen to treat anything. Body-weight doses from rats do not convert to people by arithmetic.</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Source of the figure</th><th scope=\"col\">Dose</th><th scope=\"col\">Frequency and duration</th><th scope=\"col\">What it was for</th></tr></thead><tbody><tr><td>Human intravenous safety pilot (2025)</td><td>10 mg and 20 mg, single infusion</td><td>Once, 24-hour observation</td><td>2 healthy adults; tolerated; plasma back to baseline within 24 h</td></tr><tr><td>Human knee series (2021) and bladder series (2024)</td><td>Local injection; doses as stated in the papers</td><td>Single or few injections</td><td>Uncontrolled series from one clinic, about 24 people in total; not in this ledger yet</td></tr><tr><td>Rat studies (the bulk of the literature)</td><td>10 µg/kg and 10 ng/kg, the group's standard pair</td><td>Single doses to several weeks</td><td>Intraperitoneal, intragastric or in drinking water; healing, gut, blood-pressure and behavioural models</td></tr><tr><td>Commonly reported (communities, clinics)</td><td>200 to 500 µg subcutaneously, often near the injury</td><td>Once or twice daily, 4 to 6 weeks</td><td>Untested for these uses</td></tr><tr><td>Commonly reported, oral</td><td>250 to 500 µg capsules</td><td>Once or twice daily</td><td>Rests on the gastric-stability finding in animals; no human absorption data</td></tr><tr><td>Commonly reported, 'Wolverine stack'</td><td>BPC-157 as above plus TB-500 2 to 2.5 mg</td><td>TB-500 twice weekly</td><td>One 2026 rat study tested the pair on tendon healing; nothing in people</td></tr></tbody></table></div></div><p>The rat doses are notable for how small they are: 10 nanograms per kilogram is a thousand times below the common human figure per kilogram of body weight. That gap is one reason the community figures cannot be called derived from the studies; they were not.</p>"
+    },
+    {
+      "id": "reconstitution",
+      "heading": "Reconstituting BPC-157: concentrations for common vial sizes",
+      "lede": "BPC-157 is sold as a freeze-dried powder dissolved before injection. The arithmetic is exact; the choice of what to draw is not made here.",
+      "html": "<p>Concentration is mass divided by volume. Adding bacteriostatic water to a vial gives the concentrations below; the last column is the volume that would contain 250 µg, purely as a worked example.</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Vial</th><th scope=\"col\">Diluent added</th><th scope=\"col\">Concentration</th><th scope=\"col\">Volume holding 250 µg on a U-100 syringe</th></tr></thead><tbody><tr><td>5 mg</td><td>2 mL</td><td>2,500 µg/mL</td><td>0.10 mL (10 units)</td></tr><tr><td>5 mg</td><td>2.5 mL</td><td>2,000 µg/mL</td><td>0.125 mL (12.5 units)</td></tr><tr><td>10 mg</td><td>2 mL</td><td>5,000 µg/mL</td><td>0.05 mL (5 units)</td></tr><tr><td>10 mg</td><td>4 mL</td><td>2,500 µg/mL</td><td>0.10 mL (10 units)</td></tr></tbody></table></div></div><p>Frequent errors: reading 5 mg as 5 mL; assuming the labelled mass is all peptide when certificates commonly show 80 to 95 percent net peptide content; using sterile rather than bacteriostatic water in a vial that will be drawn from for weeks. The <a href=\"/tools/reconstitution-calculator\">reconstitution calculator</a> shows its formula.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who BPC-157 is discussed for, and the cautions that recur",
+      "lede": "There is no approved indication and no approved patient. What follows is the reasoning that appears in reviews and regulatory statements.",
+      "html": "<p><strong>The interest.</strong> Tendon, ligament and muscle injuries, post-surgical recovery, and inflammatory gut conditions, because that is where the rat studies report effects and because injection near an injury is easy to do. Athletes, who make up much of the audience, are the group for whom it is explicitly prohibited.</p><p><strong>Cautions that recur.</strong></p><ul><li><strong>Cancer, active or recent.</strong> The compound promotes new blood-vessel growth and upregulates growth-factor signalling in animals. Whether that matters in a person with a tumour is untested in either direction, and every serious review lists it first.</li><li><strong>Blood pressure medication and nitric-oxide-active drugs.</strong> BPC-157 alters nitric-oxide signalling and shifts blood pressure in rats in both directions; interactions with antihypertensives, nitrates or PDE-5 inhibitors have not been studied.</li><li><strong>Pregnancy and breastfeeding.</strong> No data.</li><li><strong>Immunogenicity and impurities.</strong> The FDA's stated reasons for the Category 2 listing: a peptide of this size can provoke an immune response, and unregulated products carry unknown impurities.</li><li><strong>Anyone subject to anti-doping rules.</strong> S0, prohibited at all times, detectable.</li></ul><p>None of these is an observed harm in a person; all follow from the mechanism or from the absence of data. Their absence from marketing pages is a gap in those pages, not evidence of safety.</p>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What happens after a dose, and what people report over weeks",
+      "lede": "Hours are partly measured; weeks are reported. They should not be read in the same voice.",
+      "html": "<p><strong>Measured.</strong> After intravenous infusion in two adults, plasma levels returned to baseline within 24 hours and cardiac, liver, kidney and thyroid markers did not change. That is the whole of the human pharmacokinetic record. In rats, healing effects are reported over days to weeks depending on the tissue model.</p><p><strong>Commonly reported, untested.</strong> Users describe reduced pain at an injury within one to two weeks, gut symptom changes over similar timescales, and a course of four to six weeks. Most soft-tissue injuries improve over exactly that period without treatment, which is what a control group would have shown and why none of these accounts can be read as effect.</p><p><strong>What would change the picture.</strong> A placebo-controlled trial in a defined injury with an objective endpoint. None has been registered.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>As a powder, refrigerated at 2 to 8 °C or frozen at −20 °C, away from light and moisture; suppliers' stability statements vary, and a certificate of analysis dated near purchase matters more than a generic figure. Once dissolved in bacteriostatic water, commonly refrigerated and used within about four weeks. The \"stable gastric\" property in the compound's name describes survival in stomach acid, which is a statement about the molecule in vivo, not about a vial on a shelf. Cloudiness, colour or particles in a solution that was clear are reasons to discard it.</p>"
+    },
+    {
+      "id": "monitoring",
+      "heading": "Blood tests and monitoring that appear in the literature",
+      "lede": "Nothing has been validated for BPC-157. This is what the one human safety study measured and what reviews suggest watching, given the mechanism.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Measure</th><th scope=\"col\">Why it appears</th><th scope=\"col\">When it is typically drawn</th></tr></thead><tbody><tr><td>Cardiac, liver, kidney and thyroid panels</td><td>Measured in the 2025 infusion pilot; unchanged over 24 hours</td><td>Baseline, and after a course</td></tr><tr><td>Blood pressure</td><td>The nitric-oxide mechanism shifts it in rats</td><td>Baseline and periodically</td></tr><tr><td>Fasting glucose</td><td>Measured in the pilot; unchanged</td><td>Baseline</td></tr><tr><td>Complete blood count</td><td>General surveillance for an unregulated injectable</td><td>Baseline</td></tr><tr><td>Imaging or function of the injured tissue</td><td>The only way a healing claim could be checked</td><td>Before and after, if it is to mean anything</td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how BPC-157 is discussed",
+      "html": "<ul><li><strong>Counting publications as evidence.</strong> 228 papers sounds substantial; zero are randomized trials and the human total is about 26 people without a control group.</li><li><strong>Calling the pilots \"trials\".</strong> They are case series from one clinic. Their results are hypotheses, not findings.</li><li><strong>Treating gastric stability as oral efficacy.</strong> Surviving acid says nothing about reaching a tendon.</li><li><strong>Deriving the human dose from the rat dose.</strong> The rat figures are nanograms to micrograms per kilogram; the human figures are orders of magnitude higher and came from nowhere in particular.</li><li><strong>Assuming the <a href=\"/stacks/bpc-157-tb-500\">Wolverine stack</a> was studied in people.</strong> One rat tendon study tested the pair in 2026. That is the entire combination evidence.</li><li><strong>Calling it legal because it is sold.</strong> Not approved, restricted for compounding, prohibited in sport.</li><li><strong>Assuming the vial contains what the label says.</strong> An independent certificate of analysis matched to the batch is the only check.</li></ul>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "BPC-157 vs TB-500, GHK-Cu and KPV",
+      "lede": "The compounds it is most often compared with and stacked with. None is approved for these uses.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Mechanism (proposed)</th><th scope=\"col\">Human evidence</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td>BPC-157</td><td>Gastric-juice protein fragment; NO system, growth-factor receptors, angiogenesis</td><td>Rats, extensively; 3 uncontrolled human pilots</td><td>Not approved; FDA 503A Category 2; WADA S0</td></tr><tr><td>TB-500 (thymosin β4 fragment)</td><td>Actin-binding; cell migration and angiogenesis</td><td>Human trials of thymosin β4 in wound and eye conditions; TB-500 fragment itself less studied</td><td>Not approved; WADA S2</td></tr><tr><td>GHK-Cu</td><td>Copper-binding tripeptide; gene-expression modulation, collagen synthesis</td><td>Human trials mostly topical, in skin</td><td>Cosmetic use; not approved as a drug; not prohibited by name</td></tr><tr><td>KPV</td><td>α-MSH fragment; anti-inflammatory via melanocortin signalling</td><td>Animal and cell studies; no human trials</td><td>Not approved</td></tr></tbody></table></div></div><p>The head-to-head page for <a href=\"/compare/bpc-157-vs-tb-500\">BPC-157 vs TB-500</a> holds the one animal study that tested them together. <a href=\"/compounds/ghk-cu\">GHK-Cu</a>, <a href=\"/compounds/kpv\">KPV</a> and <a href=\"/compounds/tb-500\">TB-500</a> have their own records; the <a href=\"/compounds#repair-and-anti-inflammatory\">repair and anti-inflammatory class page</a> lists them all.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }

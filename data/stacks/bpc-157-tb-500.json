@@ -1,12 +1,12 @@
 {
   "type": "stack",
-  "title": "BPC-157 + TB-500",
+  "title": "BPC-157 + TB-500, the Wolverine stack",
   "slug": "bpc-157-tb-500",
   "status": "draft",
-  "summary": "BPC-157 + TB-500 combines BPC-157 (observational human) and TB-500 (human clinical trial). A stack cannot carry a stronger evidence tier than its weakest component, which here is observational human. 3 indexed studies mention both components; the combination-evidence section quotes what they state.",
+  "summary": "The Wolverine stack is the community name for BPC-157 combined with TB-500, two peptides discussed for soft-tissue healing. BPC-157's evidence is animal work plus three uncontrolled human pilots; TB-500 is a fragment of thymosin beta-4, whose parent molecule has been in human trials. A stack cannot carry a stronger evidence tier than its weakest component, which here is observational human. Three indexed publications mention both compounds, and one of them, a 2026 rat study of Achilles tendon healing, actually tested the pair; that is the entire combination evidence. The doses that circulate, 250 to 500 micrograms of BPC-157 once or twice daily with 2 to 2.5 milligrams of TB-500 twice weekly, have not been tested for any outcome and are reported here so a reader knows their origin.",
   "seo": {
-    "title": "BPC-157 + TB-500: the evidence",
-    "description": "BPC-157 + TB-500: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+    "title": "Wolverine Stack (BPC-157 + TB-500): Evidence & Study Doses",
+    "description": "The Wolverine stack, BPC-157 with TB-500: each component's evidence, the one animal study that tested the pair, the doses that circulate, and what is unshown."
   },
   "attributes": {
     "combination_evidence": [
@@ -66,7 +66,28 @@
     "bpc-157",
     "tb-500"
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "What is the Wolverine stack?",
+      "answer": "BPC-157 combined with TB-500, named in fitness communities for the comic-book character's healing. It is a community construct, not a studied regimen."
+    },
+    {
+      "question": "Has the BPC-157 and TB-500 combination been studied?",
+      "answer": "Once, in rats: a 2026 study of Achilles tendon healing tested each compound and the pair. No human study has tested the combination."
+    },
+    {
+      "question": "What Wolverine stack doses circulate?",
+      "answer": "Commonly 250 to 500 micrograms of BPC-157 subcutaneously once or twice daily near the injury, with 2 to 2.5 milligrams of TB-500 twice weekly, for four to six weeks. None of these figures has been tested for any outcome."
+    },
+    {
+      "question": "Is the Wolverine stack legal or allowed in sport?",
+      "answer": "BPC-157 is prohibited under WADA category S0 and TB-500 under S2, both at all times. Neither is an approved medicine."
+    },
+    {
+      "question": "Why combine a gastric peptide fragment with a thymosin fragment?",
+      "answer": "The reasoning is that they act through different proposed mechanisms, nitric-oxide and growth-factor signalling for BPC-157 and actin-binding cell migration for TB-500, so their effects might add. That is a hypothesis; the one rat study is the only test of it."
+    }
+  ],
   "open_questions": [
     "No published schedule reconciles the components' different reported frequencies onto one calendar."
   ],
@@ -81,6 +102,10 @@
     {
       "date": "2026-09-14",
       "change": "Stack record generated from research/registry.json plan; 3 combination claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Named as the Wolverine stack (the query people use: 7,428 clickstream, 27,100 Ads searches a month); summary rewritten; five FAQs added; title and description within budget."
     }
   ],
   "components": [
