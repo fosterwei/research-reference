@@ -24,6 +24,7 @@ export interface IntentMap {
   slug: string;
   queries: IntentQuery[];
   h1?: string;               // searcher-facing H1; the record name is the fallback
+  dek?: string;              // one-sentence standfirst under the H1
   suppress?: string[];       // block ids a written guide section stands in for
   outline?: string[];        // block ids in reading order; the spine is fixed regardless
   information_gain?: string;

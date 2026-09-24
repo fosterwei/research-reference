@@ -3,10 +3,10 @@
   "title": "CJC-1295 + ipamorelin",
   "slug": "cjc-1295-ipamorelin",
   "status": "draft",
-  "summary": "CJC-1295 + ipamorelin combines CJC-1295 (human clinical trial) and Ipamorelin (human clinical trial). A stack cannot carry a stronger evidence tier than its weakest component, which here is human clinical trial. 3 indexed studies mention both components; the combination-evidence section quotes what they state.",
+  "summary": "CJC-1295 with ipamorelin is the most searched peptide combination in this reference. CJC-1295 is a modified growth-hormone-releasing-hormone fragment; ipamorelin acts on the ghrelin receptor. They stimulate the same pituitary output through two different receptors, which is the entire rationale for blending them. Three indexed papers mention both compounds. None tested the blend for any outcome in people; two are analytical-chemistry papers about detecting the compounds, and one is a review of six peptides. CJC-1295 with a drug-affinity complex was tested in healthy adults in 2006 and raised growth hormone and IGF-1 for about a week per injection; ipamorelin's two human trials measured pharmacokinetics and a surgical outcome. Neither is an approved medicine, and both are prohibited in sport under WADA S2.",
   "seo": {
-    "title": "CJC-1295 + ipamorelin: the evidence",
-    "description": "CJC-1295 + Ipamorelin: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+    "title": "CJC-1295 + Ipamorelin: Doses That Circulate vs the Evidence",
+    "description": "CJC-1295 with ipamorelin: how the two act, the DAC question every schedule depends on, what each compound's studies show, and why no trial tested the pair."
   },
   "attributes": {
     "combination_evidence": [
@@ -66,9 +66,44 @@
     "cjc-1295",
     "ipamorelin"
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "What is the difference between CJC-1295 with DAC and without DAC?",
+      "answer": "The drug-affinity complex binds the peptide to albumin in the blood, extending its half-life from about half an hour to roughly a week and producing a sustained rather than pulsed rise in growth hormone. \"CJC-1295 without DAC\" is modified GRF 1-29. Vendors use one name for both."
+    },
+    {
+      "question": "What doses of CJC-1295 and ipamorelin circulate?",
+      "answer": "Commonly 100 to 300 micrograms of each, one to three times daily for eight to twelve weeks; or 1 to 2 milligrams of the DAC form weekly with daily ipamorelin. No study tested any of these figures for any outcome."
+    },
+    {
+      "question": "Has the CJC-1295 and ipamorelin blend been studied in people?",
+      "answer": "No. Three indexed papers mention both compounds; two are analytical-chemistry papers and one is a review. Each compound alone has a small human record."
+    },
+    {
+      "question": "How long is the CJC-1295 half-life?",
+      "answer": "About 30 minutes without the drug-affinity complex, and roughly six to eight days with it, based on the 2006 human study of the DAC form."
+    },
+    {
+      "question": "What are the reported side effects?",
+      "answer": "From the 2006 study and community reports: injection-site reactions, flushing, headache, water retention, and with the DAC form the signs of sustained growth hormone excess. Long-term effects and effects on blood glucose have not been studied for the blend."
+    },
+    {
+      "question": "Is CJC-1295 with ipamorelin legal or approved?",
+      "answer": "Neither compound is approved anywhere. Both are on the WADA Prohibited List under S2, at all times. CJC-1295's clinical programme ended in 2006."
+    },
+    {
+      "question": "Why is it taken before bed?",
+      "answer": "Community reasoning: the largest natural growth hormone pulse occurs in early sleep and a dose then reinforces it, while food and a glucose rise blunt it. It is plausible physiology and has not been tested with this blend."
+    },
+    {
+      "question": "Is the blend better than either compound alone?",
+      "answer": "Unknown. The physiology of GHRH plus ghrelin signalling suggests a larger release, and older secretagogue studies support that; no study has tested this pair at these doses for any outcome."
+    }
+  ],
   "open_questions": [
-    "No published schedule reconciles the components' different reported frequencies onto one calendar."
+    "No human study of the blend exists.",
+    "Whether repeated stimulation over months changes IGF-1, glucose or the pituitary's own rhythm has not been measured for either component at the doses that circulate.",
+    "Which CJC-1295 form the circulating figures refer to is usually unstated."
   ],
   "review": {
     "author": "",
@@ -81,10 +116,43 @@
     {
       "date": "2026-09-14",
       "change": "Stack record generated from research/registry.json plan; 3 combination claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written guide (quick answer, dosage chart distinguishing DAC and no-DAC forms, rationale, cautions, mistakes), eight FAQs, summary rewritten, intent-driven H1; page moved to the v2 stack layout. Demand: 'cjc 1295 ipamorelin' 49,500 Ads / 6,614 clickstream searches a month."
     }
   ],
   "components": [
     "cjc-1295",
     "ipamorelin"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "CJC-1295 and ipamorelin in two minutes",
+      "html": "<p><strong>What it is.</strong> A blend of two growth-hormone secretagogues that act on different receptors: CJC-1295, an analogue of the hypothalamic releasing hormone GHRH, and ipamorelin, an agonist at the ghrelin receptor. Both prompt the pituitary to release growth hormone; the reasoning for combining them is that the two signals amplify each other, which is well described for the natural hormones and untested for this pair in people.</p><p><strong>Two very different CJC-1295s.</strong> \"CJC-1295 with DAC\" carries a drug-affinity complex that binds albumin and extends its half-life to roughly a week; \"CJC-1295 without DAC\", usually called modified GRF 1-29, lasts about half an hour. Vendors sell both under the same name, and the schedules that circulate differ completely between them.</p><p><strong>What has been tested.</strong> CJC-1295 with DAC in healthy adults in 2006: single injections raised growth hormone and IGF-1 for six days or more. Ipamorelin in two human trials: pharmacokinetics in volunteers and a failed trial for post-surgical gut recovery. The blend: nothing in people. Three indexed papers mention both; none tested them together for an outcome.</p><p><strong>What circulates.</strong> 100 to 300 micrograms of each, injected one to three times daily, often before bed, for eight to twelve weeks; or, with the DAC form, 1 to 2 milligrams of CJC-1295 weekly plus daily ipamorelin. Untested figures.</p><p><strong>Status.</strong> Neither approved anywhere. Both WADA S2, prohibited at all times. CJC-1295's clinical development ended after a death in a 2006 trial; the cause was not attributed to the drug, but the programme did not resume.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "CJC-1295 and ipamorelin dosage: what circulates versus what studies used",
+      "lede": "Which CJC-1295 is meant changes everything in this table. Read the first column.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Figure</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Basis</th></tr></thead><tbody><tr><td>CJC-1295 with DAC, 2006 human study</td><td>30 to 60 µg/kg, single or repeated subcutaneous injections</td><td>Single dose, or weekly to fortnightly</td><td>Healthy adults; GH and IGF-1 raised for 6 or more days per dose</td></tr><tr><td>Ipamorelin, 1999 human study</td><td>Intravenous infusions, 4.2 to 140 nmol/kg</td><td>Single doses</td><td>Healthy volunteers; 2-hour half-life; one GH pulse</td></tr><tr><td>The blend, any study</td><td>—</td><td>—</td><td>None in people</td></tr><tr><td>Commonly reported, no-DAC blend</td><td>100 to 300 µg of each, subcutaneous</td><td>1 to 3 times daily, often before bed, 8 to 12 weeks</td><td>Untested</td></tr><tr><td>Commonly reported, DAC form</td><td>1 to 2 mg CJC-1295 DAC plus 100 to 300 µg ipamorelin daily</td><td>CJC weekly, ipamorelin daily</td><td>Untested</td></tr></tbody></table></div></div><p>The blend vials sold as \"CJC-1295/ipamorelin 5 mg/5 mg\" or \"10 mg\" are almost always the no-DAC form. Someone applying the DAC schedule to a no-DAC vial, or the reverse, is not following any protocol at all, which is one reason the circulating figures cannot be treated as a regimen.</p>"
+    },
+    {
+      "id": "rationale",
+      "heading": "How the two act, and why the pairing has pharmacological logic",
+      "html": "<p>In the body, growth hormone is released in pulses when the hypothalamus secretes GHRH and the stomach secretes ghrelin at the same time; each signal alone releases some hormone, and together they release more than the sum. CJC-1295 mimics the first signal and ipamorelin the second. That is real physiology, described in studies of the natural hormones and of older secretagogues such as GHRP-6 with GHRH. What has never been done is to test whether this particular pair, at the doses that circulate, produces the effects people want, or whether repeated stimulation over months changes anything downstream.</p><p>The 2006 CJC-1295 work is the strongest evidence for either component and it cuts both ways: it showed the DAC form keeps growth hormone and IGF-1 raised for a week, which is the opposite of the pulsatile pattern the blend is marketed as preserving.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who discusses using it, and the cautions that recur",
+      "html": "<ul><li><strong>Blood sugar.</strong> Growth hormone opposes insulin; sustained IGF-1 elevation with the DAC form is the specific concern.</li><li><strong>Active or recent cancer.</strong> IGF-1 promotes cell growth; every review lists it first.</li><li><strong>Water retention, joint aches, numbness in the hands.</strong> The classical signs of excess growth hormone, reported in communities with higher doses of the DAC form.</li><li><strong>Athletes.</strong> Both compounds S2, detectable, prohibited at all times.</li><li><strong>Adolescents, pregnancy, pituitary or thyroid disease.</strong> No data, and the axis being stimulated is either still developing or already abnormal.</li></ul>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how this blend is discussed",
+      "html": "<ul><li><strong>Not saying which CJC-1295.</strong> Half-hour and week-long half-lives cannot share a schedule.</li><li><strong>Calling it \"natural\" because it releases the body's own hormone.</strong> The DAC form produces a sustained elevation the body never does.</li><li><strong>Treating the three indexed papers as combination evidence.</strong> Two are about detecting the compounds in samples; one is a review.</li><li><strong>Reading the 2006 study as safety data.</strong> It was a small pharmacokinetic study in healthy people, and the programme ended.</li></ul>"
+    }
+  ],
+  "prose_reviewed": true
 }

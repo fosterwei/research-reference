@@ -3,10 +3,10 @@
   "title": "BPC-157 vs TB-500",
   "slug": "bpc-157-vs-tb-500",
   "status": "draft",
-  "summary": "BPC-157: tier observational human, 228 indexed publications, 0 randomized trials. TB-500: tier human clinical trial, 1,257 indexed publications, 7 randomized trials. 1 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "summary": "BPC-157 and TB-500 are the two peptides most often discussed for soft-tissue healing and most often combined. They are not alternatives within one class: BPC-157 is a fragment of a gastric-juice protein proposed to act through nitric-oxide and growth-factor signalling, while TB-500 is a fragment of thymosin beta-4, an actin-binding protein involved in cell migration. One indexed study compares them directly: a 2026 rat study of Achilles tendon healing that tested each and the pair, reporting higher load to failure in the treated groups than in controls. Neither compound is approved; BPC-157 is prohibited in sport under WADA S0 and TB-500 under S2.",
   "seo": {
-    "title": "BPC-157 vs TB-500: what the studies show",
-    "description": "BPC-157 vs TB-500, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+    "title": "BPC-157 vs TB-500: Mechanisms, Evidence, One Study of Both",
+    "description": "BPC-157 vs TB-500 side by side: how each is thought to work, what each compound's studies show, and the one rat study that tested both on tendon healing."
   },
   "attributes": {
     "head_to_head": [
@@ -34,8 +34,33 @@
     "bpc-157",
     "tb-500"
   ],
-  "faq": [],
-  "open_questions": [],
+  "faq": [
+    {
+      "question": "Is BPC-157 or TB-500 better for tendons?",
+      "answer": "Neither has controlled human evidence for tendon healing. One 2026 rat study tested both and found effects in treated groups versus controls without ranking them. The question has no evidence-based answer yet."
+    },
+    {
+      "question": "Can BPC-157 and TB-500 be used together?",
+      "answer": "Communities do, as the Wolverine stack. One rat study tested the pair; no human study has. The stack page holds what exists."
+    },
+    {
+      "question": "What is the main difference between them?",
+      "answer": "Origin and mechanism. BPC-157 is a gastric-protein fragment acting through nitric-oxide and growth-factor signalling; TB-500 is a thymosin β4 fragment acting through actin binding and cell migration."
+    },
+    {
+      "question": "Which has more human research?",
+      "answer": "Thymosin β4, TB-500's parent protein, has been in several human trials in eye and skin conditions; the TB-500 fragment itself has very little. BPC-157 has three small uncontrolled pilots from one clinic."
+    },
+    {
+      "question": "Are both banned in sport?",
+      "answer": "Yes. BPC-157 under WADA S0 and TB-500 under S2, both prohibited at all times."
+    }
+  ],
+  "open_questions": [
+    "No human study compares the two for any outcome.",
+    "Whether the marketed TB-500 fragment behaves like full thymosin β4 is untested.",
+    "The one animal comparison did not establish that either outperforms the other."
+  ],
   "review": {
     "author": "",
     "reviewer": "",
@@ -47,10 +72,32 @@
     {
       "date": "2026-09-14",
       "change": "Comparison record generated from research/registry.json plan; 1 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written guide (quick answer, point-by-point table, how the choice is discussed), five FAQs, summary rewritten; page moved to the v2 comparison layout with an intent-driven H1."
     }
   ],
   "sides": [
     "bpc-157",
     "tb-500"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "BPC-157 vs TB-500 in two minutes",
+      "html": "<p><strong>Different molecules, different proposed mechanisms.</strong> BPC-157 comes from a stomach protein and is studied for gut, tendon, muscle and nerve healing, almost all in rats. TB-500 is a piece of thymosin beta-4, a protein present in nearly every human cell that helps cells move; its parent molecule has been in human trials for eye and skin wounds.</p><p><strong>Evidence.</strong> BPC-157: 228 publications, zero randomized trials, three uncontrolled human pilots from one clinic. TB-500 and thymosin beta-4 together: more than a thousand publications, several human trials of the parent protein, little on the marketed fragment itself.</p><p><strong>Head to head.</strong> One rat tendon study in 2026 tested both. Nothing in people compares them.</p><p><strong>Which is \"better\"</strong> is not a question the evidence can answer; they have not been tested for the same outcome in people, and the one animal study did not rank them.</p>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "What differs, point by point",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\"></th><th scope=\"col\">BPC-157</th><th scope=\"col\">TB-500</th></tr></thead><tbody><tr><td>Origin</td><td>Fragment of body protection compound, human gastric juice</td><td>Fragment of thymosin β4, a ubiquitous actin-binding protein</td></tr><tr><td>Proposed mechanism</td><td>Nitric-oxide system, growth-factor receptor upregulation, angiogenesis</td><td>Actin binding, cell migration, angiogenesis</td></tr><tr><td>Where the animal evidence is</td><td>Gut, tendon, muscle, bone, nerve, blood pressure; mostly one laboratory</td><td>Wound, cardiac, corneal models; many laboratories, mostly on the full protein</td></tr><tr><td>Human evidence</td><td>3 uncontrolled pilots, about 26 people</td><td>Trials of the full protein in dry eye, neurotrophic keratopathy and dermal wounds; the fragment itself barely studied</td></tr><tr><td>Half-life</td><td>Unmeasured; plasma back to baseline within 24 h after infusion</td><td>Not established for the fragment; the full protein is cleared within hours</td></tr><tr><td>Commonly reported use</td><td>250 to 500 µg daily, near the injury</td><td>2 to 2.5 mg twice weekly, systemic</td></tr><tr><td>Sport status</td><td>WADA S0, prohibited at all times</td><td>WADA S2, prohibited at all times</td></tr><tr><td>Approval</td><td>None; FDA compounding Category 2</td><td>None</td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "choosing",
+      "heading": "How the two are discussed as choices, and why the evidence cannot decide",
+      "html": "<p>Communities frame BPC-157 as the local, targeted compound for a specific injury and TB-500 as the systemic one for diffuse or multiple injuries, which follows from their proposed mechanisms and dosing patterns rather than from any comparison. Both have been described for the same outcomes in animals. In people, BPC-157 has three uncontrolled pilots and TB-500's fragment has essentially nothing; thymosin β4's human trials used the full protein in eye drops and gels, a different molecule by size and route. A reader weighing the two is weighing two different kinds of gap, not two bodies of evidence. The <a href=\"/stacks/bpc-157-tb-500\">Wolverine stack page</a> covers the combination.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }

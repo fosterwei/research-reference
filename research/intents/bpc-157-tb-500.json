@@ -1,0 +1,95 @@
+{
+  "slug": "bpc-157-tb-500",
+  "type": "stack",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream"
+  ],
+  "scope": "Informational intent only.",
+  "h1": "The Wolverine stack: BPC-157 and TB-500 doses that circulate, and the one study that tested them",
+  "dek": "What each compound's own studies show, the single rat study that tested the pair, and where the 250 to 500 microgram and 2.5 milligram figures actually come from.",
+  "queries": [
+    {
+      "query": "wolverine stack",
+      "volume": {
+        "clickstream": 7428,
+        "google_ads": 27100,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What the Wolverine stack is"
+    },
+    {
+      "query": "wolverine peptide stack",
+      "volume": {
+        "clickstream": 2086,
+        "google_ads": 8100,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What the Wolverine stack is"
+    },
+    {
+      "query": "wolverine stack dosage",
+      "volume": {
+        "clickstream": 1322,
+        "google_ads": 2900,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Wolverine stack dosage: what circulates versus what any study used",
+      "boundary": "No study has established a dose for this combination in people. The figures below are what circulates and what one rat study used, kept apart."
+    },
+    {
+      "query": "bpc-157 tb-500 stack",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": 6,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "combination",
+      "heading": "What has been tested as a combination"
+    },
+    {
+      "query": "wolverine stack reddit",
+      "volume": {
+        "clickstream": 356,
+        "google_ads": 480,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "dosage-chart",
+      "heading": "Wolverine stack dosage: what circulates versus what any study used"
+    }
+  ],
+  "outline": [
+    "glance",
+    "what",
+    "quick-answer",
+    "components",
+    "combination",
+    "dosage-chart",
+    "rationale",
+    "who",
+    "mistakes",
+    "open",
+    "faq",
+    "sources",
+    "related",
+    "changelog"
+  ]
+}

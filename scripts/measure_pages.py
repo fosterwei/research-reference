@@ -142,7 +142,7 @@ def intent_coverage(slug: str) -> int:
     """
     import json as _json
     m_path = ROOT / "research" / "intents" / f"{slug}.json"
-    page = DIST / "compounds" / slug / "index.html"
+    page = next((DIST / d / slug / "index.html" for d in ("compounds", "stacks", "compare") if (DIST / d / slug / "index.html").exists()), DIST / "compounds" / slug / "index.html")
     if not m_path.exists() or not page.exists():
         print("need research/intents/<slug>.json and a built page"); return 1
     m = _json.loads(m_path.read_text(encoding="utf-8")); h = page.read_text(encoding="utf-8")
@@ -151,7 +151,7 @@ def intent_coverage(slug: str) -> int:
     field_to_id = {"study_doses": "doses", "escalation_schedules": "escalation", "adverse_events": "adverse", "study_durations": "durations",
                    "routes_studied": "routes", "weight_normalized_doses": "weight", "interactions": "interactions", "exclusion_criteria": "exclusion",
                    "biomarkers_monitored": "biomarkers", "reported_timelines": "timelines", "storage": "storage", "evidence_table": "evidence",
-                   "regulatory_status": "regulatory", "what": "what", "mechanism": "mechanism", "reported_use": "reported-use", "compare": "compare", "combination": "combination", "faq": "faq"}
+                   "regulatory_status": "regulatory", "what": "what", "mechanism": "mechanism", "reported_use": "reported-use", "combination": "combination", "components": "components", "side-by-side": "side-by-side", "head-to-head": "head-to-head", "compare": "compare", "combination": "combination", "faq": "faq"}
     def section_html(sid):
         mm = re.search(rf'<section id="{sid}".*?</section>', main, re.S); return mm.group(0) if mm else ""
     rows = []; tally = {}

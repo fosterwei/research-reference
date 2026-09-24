@@ -650,5 +650,17 @@
       "status": "deferred",
       "note": "Approved medicine: the SERP is held by Mayo Clinic, Drugs.com, NIH and the manufacturer. Deferred until the unapproved queue is written."
     }
+  ],
+  "added_pages": [
+    {
+      "slug": "ipamorelin-vs-sermorelin",
+      "type": "comparison",
+      "reason": "4,400 Ads / 2,085 clickstream a month; created 2026-09-24"
+    },
+    {
+      "slug": "ipamorelin-vs-tesamorelin",
+      "type": "comparison",
+      "reason": "2,400 Ads / 1,525 clickstream a month; created 2026-09-24"
+    }
   ]
 }
