@@ -1,0 +1,580 @@
+{
+  "slug": "sermorelin-vs-tesamorelin",
+  "type": "comparison",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "europepmc"
+  ],
+  "scope": "Informational intent only. Cost queries declined under the commercial-intent rule. Both compounds are approved medicines whose own records are deferred under the approved-medicine rule, so this page carries the dose, benefit and side-effect questions for both; the deferral applies to compound pages whose SERPs are held by clinical publishers, and this comparison SERP is held by peptide clinics.",
+  "thin_serp": false,
+  "stage0_note": "The record's five head-to-head claims are anti-doping assay papers: methods for detecting growth hormone-releasing hormone analogues in urine and blood, which name both compounds because both are on the prohibited list. None compares them. Six papers that bear on the comparison were added to the ledger by hand. Separately, the sermorelin compound record's ledger is largely GHRH-antagonist cancer papers matched by the alias; that is an open action on that record, not this one.",
+  "serp_2026-09-24": {
+    "query": "tesamorelin vs sermorelin",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "related_searches"
+    ],
+    "organic_top": [
+      "trufamed.com",
+      "swolverine.com",
+      "perfectb.com",
+      "thetimelessclinic.com",
+      "rewindantiagingmiami.com",
+      "riteaid.com",
+      "honehealth.com",
+      "victoryselect.com",
+      "formationmed.com"
+    ],
+    "note": "Every result in the top ten is a clinic, a telehealth service, a supplement retailer or a pharmacy chain. No regulator, no journal and no drug database ranks, and the AI Overview cites eight of the same commercial pages. This is why the approved-medicine deferral does not apply here: the SERP is not held by clinical publishers."
+  },
+  "demand_findings": "Larger than the queue estimated. The comparison itself is 3,459 across both orderings at KD 0. Around it sit the component questions that no page on this site currently answers, because both compound records are deferred: tesamorelin dosage 4,935 at KD 0, sermorelin benefits 2,238, sermorelin dosage 2,187, side effects 1,932 across both, egrifta 1,170 and tesamorelin benefits 1,017. Adjacent comparisons with ipamorelin draw 1,779 and are redirected to their own pages. Google Ads volume is heavy on the sermorelin terms, 9,900 on dosage and 12,100 on side effects, which is the compounding-pharmacy market bidding.",
+  "h1": "Sermorelin vs tesamorelin: one is an approved medicine for one condition, the other's approved product left the market in 2008, and no trial has compared them",
+  "dek": "Both are analogues of the same hormone acting on the same receptor, and that is most of what they have in common. This page sets out what each was tested for, what each dose comes from, why their regulatory positions differ, and what the only studies naming both are actually about.",
+  "queries": [
+    {
+      "query": "tesamorelin vs sermorelin",
+      "volume": {
+        "clickstream": 1882,
+        "google_ads": 5400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "The short answer",
+      "boundary": "No trial has compared sermorelin and tesamorelin. The only published studies naming both are anti-doping assays, which exist to detect either in an athlete's urine."
+    },
+    {
+      "query": "sermorelin vs tesamorelin",
+      "volume": {
+        "clickstream": 1577,
+        "google_ads": 5400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "what",
+      "heading": "The short answer",
+      "boundary": "No trial has compared sermorelin and tesamorelin. The only published studies naming both are anti-doping assays, which exist to detect either in an athlete's urine."
+    },
+    {
+      "query": "tesamorelin or sermorelin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 320,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "choosing",
+      "heading": "What the evidence lets you say",
+      "boundary": "No trial has compared sermorelin and tesamorelin. The only published studies naming both are anti-doping assays, which exist to detect either in an athlete's urine."
+    },
+    {
+      "query": "which is better sermorelin or tesamorelin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "choosing",
+      "heading": "What the evidence lets you say",
+      "boundary": "No trial has compared sermorelin and tesamorelin. The only published studies naming both are anti-doping assays, which exist to detect either in an athlete's urine."
+    },
+    {
+      "query": "sermorelin vs tesamorelin reddit",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 110,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "choosing",
+      "heading": "What the evidence lets you say",
+      "boundary": "No trial has compared sermorelin and tesamorelin. The only published studies naming both are anti-doping assays, which exist to detect either in an athlete's urine."
+    },
+    {
+      "query": "tesamorelin dosage",
+      "volume": {
+        "clickstream": 4935,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "doses",
+      "heading": "Doses: one label, one history",
+      "boundary": "Tesamorelin's doses come from an approved label and its trials. Sermorelin's come from studies of the 1980s and 1990s and from compounding practice, which no trial set."
+    },
+    {
+      "query": "sermorelin dosage",
+      "volume": {
+        "clickstream": 2187,
+        "google_ads": 9900,
+        "kd": 21,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "doses",
+      "heading": "Doses: one label, one history",
+      "boundary": "Tesamorelin's doses come from an approved label and its trials. Sermorelin's come from studies of the 1980s and 1990s and from compounding practice, which no trial set."
+    },
+    {
+      "query": "tesamorelin vs sermorelin dosage",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "doses",
+      "heading": "Doses: one label, one history",
+      "boundary": "Tesamorelin's doses come from an approved label and its trials. Sermorelin's come from studies of the 1980s and 1990s and from compounding practice, which no trial set."
+    },
+    {
+      "query": "sermorelin benefits",
+      "volume": {
+        "clickstream": 2238,
+        "google_ads": 8100,
+        "kd": 6,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials-table",
+      "heading": "What each one was actually tested for",
+      "boundary": "Tesamorelin was tested for one thing and approved for it. Sermorelin's trial record is mostly children with growth hormone deficiency in the 1980s and its use as a diagnostic agent."
+    },
+    {
+      "query": "tesamorelin benefits",
+      "volume": {
+        "clickstream": 1017,
+        "google_ads": 0,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials-table",
+      "heading": "What each one was actually tested for",
+      "boundary": "Tesamorelin was tested for one thing and approved for it."
+    },
+    {
+      "query": "tesamorelin visceral fat",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 210,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "trials-table",
+      "heading": "What each one was actually tested for"
+    },
+    {
+      "query": "tesamorelin vs sermorelin results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials-table",
+      "heading": "What each one was actually tested for",
+      "boundary": "No trial has compared sermorelin and tesamorelin. The only published studies naming both are anti-doping assays, which exist to detect either in an athlete's urine."
+    },
+    {
+      "query": "sermorelin side effects",
+      "volume": {
+        "clickstream": 966,
+        "google_ads": 12100,
+        "kd": 26,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "side-effects",
+      "heading": "Side effects, and the asymmetry in how well they are known",
+      "boundary": "Injection-site reactions dominate both. The difference that matters is that tesamorelin's adverse effects were measured in trials of hundreds of people, and sermorelin's modern use has not been studied at that scale."
+    },
+    {
+      "query": "tesamorelin side effects",
+      "volume": {
+        "clickstream": 966,
+        "google_ads": 0,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "side-effects",
+      "heading": "Side effects, and the asymmetry in how well they are known",
+      "boundary": "Injection-site reactions dominate both. The difference that matters is that tesamorelin's adverse effects were measured in trials of hundreds of people, and sermorelin's modern use has not been studied at that scale."
+    },
+    {
+      "query": "tesamorelin vs sermorelin side effects",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "side-effects",
+      "heading": "Side effects, and the asymmetry in how well they are known",
+      "boundary": "Injection-site reactions dominate both. The difference that matters is that tesamorelin's adverse effects were measured in trials of hundreds of people, and sermorelin's modern use has not been studied at that scale."
+    },
+    {
+      "query": "sermorelin fda approved",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 480,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "approval-status",
+      "heading": "Approval status: the difference most pages get wrong",
+      "boundary": "The two are not in the same regulatory position and most pages treating them as equivalent miss it. Tesamorelin is an approved medicine for one condition. Sermorelin's approved product left the United States market in 2008, so what is prescribed today is compounded."
+    },
+    {
+      "query": "tesamorelin fda approved",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 480,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "approval-status",
+      "heading": "Approval status: the difference most pages get wrong",
+      "boundary": "The two are not in the same regulatory position and most pages treating them as equivalent miss it. Tesamorelin is an approved medicine for one condition. Sermorelin's approved product left the United States market in 2008, so what is prescribed today is compounded."
+    },
+    {
+      "query": "egrifta",
+      "volume": {
+        "clickstream": 1170,
+        "google_ads": 0,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "approval-status",
+      "heading": "Approval status: the difference most pages get wrong",
+      "boundary": "The two are not in the same regulatory position and most pages treating them as equivalent miss it. Tesamorelin is an approved medicine for one condition. Sermorelin's approved product left the United States market in 2008, so what is prescribed today is compounded."
+    },
+    {
+      "query": "sermorelin half life",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 260,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "doses",
+      "heading": "Doses: one label, one history"
+    },
+    {
+      "query": "tesamorelin half life",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 590,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "doses",
+      "heading": "Doses: one label, one history"
+    },
+    {
+      "query": "can you take sermorelin and tesamorelin together",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 210,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "combining",
+      "heading": "Taking both: what it would and would not add"
+    },
+    {
+      "query": "tesamorelin vs ipamorelin",
+      "volume": {
+        "clickstream": 915,
+        "google_ads": 2400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "related",
+      "target": "/compare/ipamorelin-vs-tesamorelin",
+      "heading": "Related records"
+    },
+    {
+      "query": "sermorelin vs ipamorelin",
+      "volume": {
+        "clickstream": 864,
+        "google_ads": 4400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "related",
+      "target": "/compare/ipamorelin-vs-sermorelin",
+      "heading": "Related records"
+    },
+    {
+      "query": "growth hormone releasing hormone analog",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism-guide",
+      "heading": "Same receptor, two molecules, thirty years apart"
+    },
+    {
+      "query": "sermorelin igf-1",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism-guide",
+      "heading": "Same receptor, two molecules, thirty years apart"
+    },
+    {
+      "query": "tesamorelin igf-1",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism-guide",
+      "heading": "Same receptor, two molecules, thirty years apart"
+    },
+    {
+      "query": "sermorelin vs hgh",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 590,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How do these compare with growth hormone itself?",
+      "answer": "Growth hormone is the hormone; these are analogues of the hormone that tells the pituitary to release it. The practical differences are that a releasing analogue depends on a working pituitary, produces a pulse rather than a steady level, and is subject to the body's own feedback, which is the usual argument for preferring it. Neither has been compared with growth hormone in a trial for the uses people ask about."
+    },
+    {
+      "query": "tesamorelin vs hgh",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 0,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "How do these compare with growth hormone itself?"
+    },
+    {
+      "query": "best hgh peptide",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 590,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "choosing",
+      "heading": "What the evidence lets you say",
+      "boundary": "No trial has compared sermorelin and tesamorelin. The only published studies naming both are anti-doping assays, which exist to detect either in an athlete's urine."
+    },
+    {
+      "query": "what peptide is better than sermorelin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "choosing",
+      "heading": "What the evidence lets you say",
+      "boundary": "No trial has compared sermorelin and tesamorelin. The only published studies naming both are anti-doping assays, which exist to detect either in an athlete's urine.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "can i alternate sermorelin and tesamorelin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "combining",
+      "heading": "Taking both: what it would and would not add",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "what is the most powerful hgh peptide",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "choosing",
+      "heading": "What the evidence lets you say",
+      "boundary": "No trial has compared sermorelin and tesamorelin. The only published studies naming both are anti-doping assays, which exist to detect either in an athlete's urine.",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://www.perfectb.com/tesamorelin-vs-sermorelin/",
+      "rank": 5,
+      "words": 4036,
+      "tables": 0,
+      "h2": 16,
+      "sci_links": 3,
+      "byline": "Clinic, Miami",
+      "score": 19,
+      "gap": "The longest page on the SERP and the most confident: a quick answer, a claim that most comparisons get it wrong, goal-based recommendations and a cost comparison, ending in the clinic's own protocol. Three citations, no tables, and no statement that no trial has compared them",
+      "source": "fetched 2026-09-24, metrics measured; scored D7 F5 S4 U3"
+    },
+    {
+      "url": "https://rewindantiagingmiami.com/blog/sermorelin-vs-tesamorelin/",
+      "rank": 7,
+      "words": 3662,
+      "tables": 4,
+      "h2": 22,
+      "sci_links": 1,
+      "byline": "Medically reviewed",
+      "score": 18,
+      "gap": "Four comparison tables and a stack section; one citation. Frames the choice as visceral fat versus anti-ageing, which is the market's framing rather than the evidence's",
+      "source": "fetched 2026-09-24, metrics measured; scored D6 F6 S3 U3"
+    },
+    {
+      "url": "https://honehealth.com/edge/tesamorelin-vs-sermorelin/",
+      "rank": 9,
+      "words": 2132,
+      "tables": 0,
+      "h2": 15,
+      "sci_links": 15,
+      "byline": "Telehealth editorial",
+      "score": 17,
+      "gap": "The best-cited page on the SERP, fifteen references, and it covers ipamorelin alongside. No trial table and no approval-status distinction",
+      "source": "fetched 2026-09-24, metrics measured; scored D5 F4 S5 U3"
+    },
+    {
+      "url": "https://riteaid.com/peptides/compare/tesamorelin-vs-sermorelin",
+      "rank": 8,
+      "words": 1060,
+      "tables": 1,
+      "h2": 13,
+      "sci_links": 2,
+      "byline": "Rite Aid Health Team",
+      "score": 14,
+      "gap": "A pharmacy chain running templated peptide comparison pages behind an email capture for a 'peptide tracking toolkit'. Short, and the only competitor that says combining them adds overlap",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S3 U4"
+    },
+    {
+      "url": "https://trufamed.com/blog/tesamorelin-vs-sermorelin/",
+      "rank": 2,
+      "words": 1614,
+      "tables": 0,
+      "h2": 11,
+      "sci_links": 0,
+      "byline": "Physician-led clinic",
+      "score": 13,
+      "gap": "Ranks second and opens with 'Is sermorelin FDA approved?', which is the right question; answers it in prose with no citation and no mention of the 2008 market withdrawal",
+      "source": "fetched 2026-09-24, metrics measured; scored D4 F3 S2 U4"
+    },
+    {
+      "url": "https://www.peptidedosingprotocols.com/compare/tesamorelin-vs-sermorelin",
+      "rank": null,
+      "score": null,
+      "gap": "The incumbent has no comparison page at this address; the request resolves to its directory",
+      "source": "fetched 2026-09-24; no page"
+    }
+  ],
+  "information_gain": "The only page on this query that states the regulatory asymmetry correctly: tesamorelin is FDA-approved, since 2010, for one narrow indication, reducing excess visceral abdominal fat in people with HIV-associated lipodystrophy, and sermorelin's approved product was discontinued in the United States in 2008, so every sermorelin prescription today is a compounded preparation with no approved label behind it. The only page to show the evidence asymmetry with the trials themselves: tesamorelin's 412-patient randomised trial and its pooled phase 3 data against sermorelin's record of children with growth hormone deficiency in the 1980s and its listing as a diagnostic agent. The only page to report what the studies naming both compounds actually are, which is anti-doping assays. And the only page to answer the combining question from the pharmacology, that two analogues of the same hormone at the same receptor overlap rather than add.",
+  "serp_format_rewarded": "A cited comparison with tables, in a SERP that has none from a non-commercial source. Every ranking page is selling a protocol or a consultation; the gap is the regulatory status, the trial table and the plain statement that no head-to-head exists.",
+  "outline": [
+    "glance",
+    "what",
+    "quick-answer",
+    "approval-status",
+    "no-head-to-head",
+    "side-by-side",
+    "trials-table",
+    "doses",
+    "side-effects",
+    "combining",
+    "mechanism-guide",
+    "head-to-head",
+    "choosing",
+    "mistakes",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "open_actions": [
+    "The 2008 discontinuation of the approved sermorelin product and the tesamorelin label indication are cited editorially with pending_source; add the regulatory documents when available.",
+    "The sermorelin compound record's ledger is dominated by GHRH-antagonist cancer papers matched by the alias 'growth hormone-releasing hormone'; that record needs the same hand curation applied here.",
+    "Both compound records remain deferred under the approved-medicine rule and have no written sections; this comparison carries their demand in the meantime."
+  ]
+}
