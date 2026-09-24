@@ -11,7 +11,7 @@
   ],
   "scope": "Informational intent only. Both compounds have written records of their own, so component questions about dose and form are redirected there rather than duplicated here.",
   "thin_serp": false,
-  "stage0_note": "The record holds two head-to-head claims and both are animal work: a toxicity screen in mouse embryonic stem cells, and a rat transcriptome study of Pro-Gly-Pro, the tripeptide both compounds carry at one end. The second is not a comparison but it is the most interesting fact about the pair, and the guide uses it.",
+  "stage0_note": "The record held two head-to-head claims and both are animal work: a toxicity screen in mouse embryonic stem cells, and a rat transcriptome study of Pro-Gly-Pro, the tripeptide both compounds carry at one end. A third study was missing from this ledger although it sits in both compound records and ranks seventh on the target query: a 2020 functional-MRI study that gave semax, selank or placebo to 52 healthy participants. It is the only study to give both to people and it was added by hand. Separately, both compound records carry alias misfires, an orthodontic measurement abbreviated SeMax and unrelated papers matched to Selank; those are open actions on those records.",
   "serp_2026-09-24": {
     "query": "semax vs selank",
     "features": [
@@ -33,8 +33,8 @@
     "note": "Clinics, a symptom-checker service, a nursing-reference aggregator and a vendor, with one PubMed abstract at seventh. The AI Overview cites seven clinic and telehealth pages. No regulator and no journal ranks above the abstract."
   },
   "demand_findings": "The largest cluster in the remaining queue. The two component names carry 42,432 between them, semax 28,492 at KD 15 and selank 13,940 at KD 9, and both have written records here, so they are redirected rather than answered twice. The comparison itself is 3,357 at KD 0. What sits around it is more interesting: nasal-spray forms 11,803, the acetylated analogues 1,221, dosing 2,492, community discussion 3,662 and 'semax and selank together' 254. Google Ads volume is near zero on everything except selank itself, which is what an unapproved foreign medicine looks like in an ad auction.",
-  "h1": "Selank vs semax: two Russian peptides built on the same tail, tested for different things, and never compared",
-  "dek": "One came from a fragment of ACTH and was studied in stroke and attention; the other from a fragment of an immune peptide and was studied in anxiety. Both carry the same tripeptide at one end, both are approved only in Russia, and almost everything sold in the West is a modified version that no trial has tested.",
+  "h1": "Selank vs semax: two Russian peptides built on the same tail, tested for different things, and compared head to head exactly once",
+  "dek": "One came from a fragment of ACTH and was studied in stroke and attention; the other from a fragment of an immune peptide and was studied in anxiety. A single study has given both to the same people, and what it measured was brain connectivity, not symptoms. Almost everything sold in the West is a modified version that no trial has tested.",
   "queries": [
     {
       "query": "semax vs selank",
@@ -48,7 +48,7 @@
       "policy": "evidence-with-boundary",
       "section": "what",
       "heading": "The short answer",
-      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end."
+      "boundary": "One study has given selank and semax to the same people: a 2020 brain-imaging study in 52 healthy participants. It measured connectivity, not symptoms. No trial has compared them on anything a person would notice."
     },
     {
       "query": "selank vs semax",
@@ -62,7 +62,7 @@
       "policy": "evidence-with-boundary",
       "section": "what",
       "heading": "The short answer",
-      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end."
+      "boundary": "One study has given selank and semax to the same people: a 2020 brain-imaging study in 52 healthy participants. It measured connectivity, not symptoms. No trial has compared them on anything a person would notice."
     },
     {
       "query": "semax nootropic",
@@ -76,7 +76,7 @@
       "policy": "evidence-with-boundary",
       "section": "what",
       "heading": "The short answer",
-      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end."
+      "boundary": "One study has given selank and semax to the same people: a 2020 brain-imaging study in 52 healthy participants. It measured connectivity, not symptoms. No trial has compared them on anything a person would notice."
     },
     {
       "query": "selank vs semax for anxiety",
@@ -188,7 +188,7 @@
       "policy": "evidence-with-boundary",
       "section": "choosing",
       "heading": "What the evidence lets you say",
-      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end."
+      "boundary": "One study has given selank and semax to the same people: a 2020 brain-imaging study in 52 healthy participants. It measured connectivity, not symptoms. No trial has compared them on anything a person would notice."
     },
     {
       "query": "selank reddit",
@@ -202,7 +202,7 @@
       "policy": "evidence-with-boundary",
       "section": "choosing",
       "heading": "What the evidence lets you say",
-      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end."
+      "boundary": "One study has given selank and semax to the same people: a 2020 brain-imaging study in 52 healthy participants. It measured connectivity, not symptoms. No trial has compared them on anything a person would notice."
     },
     {
       "query": "semax benefits",
@@ -434,7 +434,7 @@
       "policy": "evidence-with-boundary",
       "section": "choosing",
       "heading": "What the evidence lets you say",
-      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end."
+      "boundary": "One study has given selank and semax to the same people: a 2020 brain-imaging study in 52 healthy participants. It measured connectivity, not symptoms. No trial has compared them on anything a person would notice."
     },
     {
       "query": "can selank and semax be used together",
@@ -478,7 +478,7 @@
       "policy": "evidence-with-boundary",
       "section": "choosing",
       "heading": "What the evidence lets you say",
-      "boundary": "No trial has compared selank and semax. The two published studies naming both are a toxicity screen in mouse stem cells and a rat study of the tripeptide they share at one end.",
+      "boundary": "One study has given selank and semax to the same people: a 2020 brain-imaging study in 52 healthy participants. It measured connectivity, not symptoms. No trial has compared them on anything a person would notice.",
       "source": "people-also-ask"
     }
   ],
@@ -551,7 +551,7 @@
       "source": "fetched 2026-09-24; no page"
     }
   ],
-  "information_gain": "The only page on this query that explains what the two compounds share, which is not a mechanism but a design: both are a short active fragment with the tripeptide Pro-Gly-Pro attached to protect it, and one of the two studies naming both is about that tripeptide's own activity in the brain. The only page to separate the trial record by what each was actually tested for, stroke, optic-nerve disease and attention for semax, anxiety disorders for selank, with the study sizes, which are small. The only page to state that N-acetyl semax amidate and N-acetyl selank amidate, the forms actually sold in the West and drawing 1,221 searches a month of their own, are modified molecules with no trial evidence behind them. And the only page to answer the combining question with what exists, which is a mouse stem-cell screen and a rat transcriptome study.",
+  "information_gain": "The only page on this query to report that one study has given both compounds to the same people: a 2020 functional-MRI study in 52 healthy participants that measured resting-state connectivity after semax, selank or placebo, and found both shared and distinct effects between the amygdala and the right temporal cortex. It ranks seventh on this query and no page above it mentions it. The only page to explain what the two share, which is not a mechanism but a design: each is a short active fragment with the tripeptide Pro-Gly-Pro attached to protect it, and one of the two other studies naming both is about that tripeptide's own activity in the brain. The only page to separate the trial record by what each was tested for, stroke, optic-nerve disease and attention for semax against anxiety disorders for selank, with the study sizes, which run from 27 to 60 people. And the only page to state that N-acetyl semax amidate and N-acetyl selank amidate, the forms actually sold in the West and drawing 1,221 searches a month, are modified molecules with no trial evidence behind them.",
   "serp_format_rewarded": "A cited comparison with tables. The ranking pages are clinic explainers with one to seven citations and no trial detail, and a PubMed abstract sits at seventh, so the query tolerates primary literature. The gaps are the trial table, the acetylated forms and the absence of any comparison.",
   "outline": [
     "glance",
