@@ -687,8 +687,9 @@
         "cluster_google_ads": 5540,
         "head_kd": 21,
         "priority_score": 2060,
-        "status": "queued",
-        "top_queries": "cagrisema 4,172 (approved-medicine combination in phase 3; SERP held by Novo Nordisk and clinical press)"
+        "status": "done",
+        "top_queries": "cagrisema 4,172 (approved-medicine combination in phase 3; SERP held by Novo Nordisk and clinical press)",
+        "note": "Written 2026-09-24 under the sequencing rule; audit research/audits/cagrisema-2026-09-24.md. The only combination on the site whose combination was itself tested; seven papers added to the ledger by hand, including the network meta-analysis against tirzepatide."
       },
       {
         "rank": 3,

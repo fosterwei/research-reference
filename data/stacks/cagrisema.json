@@ -3,10 +3,10 @@
   "title": "Cagrilintide + semaglutide (CagriSema)",
   "slug": "cagrisema",
   "status": "draft",
-  "summary": "Cagrilintide + semaglutide (CagriSema) combines Cagrilintide (human clinical trial) and Semaglutide (approved label). A stack cannot carry a stronger evidence tier than its weakest component, which here is human clinical trial. 8 indexed studies mention both components; the combination-evidence section quotes what they state.",
+  "summary": "CagriSema is a fixed-dose combination of cagrilintide 2.4 mg, an investigational amylin analogue, and semaglutide 2.4 mg, the approved GLP-1 drug, given as one weekly injection by Novo Nordisk. It is the only combination on this site whose combination was itself tested: seven human trials across the REDEFINE and REIMAGINE programmes, several with arms receiving each component alone. In the largest, 3,417 adults over 68 weeks, the combination produced 22.7% weight loss against 16.1% for semaglutide alone, 11.8% for cagrilintide alone and 2.3% for placebo, and the published paper reports the same trial as -20.4% under a different estimand. In the one head-to-head trial, against tirzepatide 15 mg over 84 weeks, it reached 23% and did not meet its primary endpoint of non-inferiority. It is approved nowhere, and there is no product to buy.",
   "seo": {
-    "title": "Cagrilintide + semaglutide (CagriSema): the evidence",
-    "description": "Cagrilintide + Semaglutide: each component's evidence tier, and whether any study tested the combination. Cited; not advice."
+    "title": "CagriSema: Trial Results, Components, and Status",
+    "description": "CagriSema: seven human trials, the four-arm comparison against each component, the head-to-head trial against tirzepatide, doses, side effects and status."
   },
   "attributes": {
     "combination_evidence": [
@@ -20,7 +20,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Clinical trial, humans, n=5,425, 2026: Cagrilintide, a once-weekly amylin receptor agonist, and its fixed-dose combination with semaglutide (CagriSema) represent novel therapeutic approaches.",
+        "value": "Meta-analysis, 4 trials, n=5,425, 2026: Cagrilintide, a once-weekly amylin receptor agonist, and its fixed-dose combination with semaglutide (CagriSema) represent novel therapeutic approaches.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42583410"
@@ -74,22 +74,99 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=14, 2026: Background and objectives Cagrilintide is a long-acting amylin agonist under development as monotherapy for weight management and as a fixed-dose combination with the glucagon-like peptide-1 receptor agonist semaglutide (CagriSema) for weight management and treatment of type 2 diabetes.",
+        "value": "Pharmacokinetic studies, humans, n=65, 2026: Background and objectives Cagrilintide is a long-acting amylin agonist under development as monotherapy for weight management and as a fixed-dose combination with the glucagon-like peptide-1 receptor agonist semaglutide (CagriSema) for weight management and treatment of type 2 diabetes.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42228334"
         ],
         "source_excerpt": "Background and objectives Cagrilintide is a long-acting amylin agonist under development as monotherapy for weight management and as a fixed-dose combination with the glucagon-like peptide-1 receptor agonist semaglutide (CagriSema) for weight management and treatment of type 2 diabetes.",
         "drafting": "extractive"
+      },
+      {
+        "value": "Meta-analysis, 7 trials, n=8,069, 2026: CagriSema produced significantly greater weight loss than semaglutide (MD = -7.58 kg; 95% CI = -10.30 to -4.86; p < 0.00001), cagrilintide (MD -9.24 kg; 95% CI -10.46 to -8.02, p < 0.00001), and placebo",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42608559"
+        ],
+        "source_excerpt": "CagriSema produced significantly greater weight loss than semaglutide (MD = -7.58 kg; 95% CI = -10.30 to -4.86; p < 0.00001), cagrilintide (MD -9.24 kg; 95% CI -10.46 to -8.02, p < 0.00001), and placebo",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Meta-analysis, 3 trials, n=3,545, 2026: Cagrisema is more effective than semaglutide in reducing weight and increasing glycemic control. Cagrisema is safe and has a comparable side effect profile to currently accepted treatments.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41834765"
+        ],
+        "source_excerpt": "Cagrisema is more effective than semaglutide in reducing weight and increasing glycemic control. Cagrisema is safe and has a comparable side effect profile to currently accepted treatments.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Network meta-analysis, 25 trials, 12 interventions, 2026: Tirzepatide 15 mg resulted in the greatest percent weight reduction (MD -17.97%), followed by CagriSema (MD -17.84%) and semaglutide 7.2 mg (MD -14.66%). At the ≥ 20% weight-loss threshold, CagriSema demonstrated marked superiority (RR 27.82), followed by tirzepatide 15 mg (RR 23.70).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42207966"
+        ],
+        "source_excerpt": "Tirzepatide 15 mg resulted in the greatest percent weight reduction (MD -17.97%), followed by CagriSema (MD -17.84%) and semaglutide 7.2 mg (MD -14.66%). At the ≥ 20% weight-loss threshold, CagriSema demonstrated marked superiority (RR 27.82), followed by tirzepatide 15 mg (RR 23.70).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Secondary analysis of REDEFINE 1, humans, 2026: The proportion of participants achieving anthropometric targets was greater with CagriSema Versus other treatments.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42503495"
+        ],
+        "source_excerpt": "The proportion of participants achieving anthropometric targets was greater with CagriSema Versus other treatments.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Usability study, humans, n=150, 2026: This study evaluated the usability of the CagriSema dual-chamber pen, a single-dose, single-use, pre-filled autoinjector for once-weekly subcutaneous administration of a fixed-dose combination of cagrilintide and semaglutide.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42366647"
+        ],
+        "source_excerpt": "This study evaluated the usability of the CagriSema dual-chamber pen, a single-dose, single-use, pre-filled autoinjector for once-weekly subcutaneous administration of a fixed-dose combination of cagrilintide and semaglutide.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Meta-analysis, 21 studies, n=1,334, 2026: The proportion of total weight loss attributable to FFM was 14.9% for diet with/without exercise interventions (22.3% for diet without exercise and 7.7% for diet with exercise), 33.3% for incretin-based therapies, and 34.2% for surgical interventions.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42324178"
+        ],
+        "source_excerpt": "The proportion of total weight loss attributable to FFM was 14.9% for diet with/without exercise interventions (22.3% for diet without exercise and 7.7% for diet with exercise), 33.3% for incretin-based therapies, and 34.2% for surgical interventions.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Animal study, rats, 2026: CagriSema is a fixed-ratio combination of the long-acting GLP-1R agonist semaglutide and the calcitonin (CTR)/amylin receptor (AMYR) agonist cagrilintide that shows greater efficacy for weight loss compared to GLP-1R and CTR/AMYR mono-agonists alone.",
+        "evidence_label": "animal-preclinical",
+        "source_ids": [
+          "pmid-42603595"
+        ],
+        "source_excerpt": "CagriSema is a fixed-ratio combination of the long-acting GLP-1R agonist semaglutide and the calcitonin (CTR)/amylin receptor (AMYR) agonist cagrilintide that shows greater efficacy for weight loss compared to GLP-1R and CTR/AMYR mono-agonists alone.",
+        "drafting": "extractive"
       }
     ]
   },
   "sources": [
     {
-      "id": "pmid-42251859",
-      "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
-      "url": "https://europepmc.org/article/MED/42251859",
-      "published": "2026-06-07",
+      "id": "pmid-42608559",
+      "title": "Maximizing weight loss with cagrisema: a systematic review and GRADE-assessed meta-analysis of randomized controlled trials.",
+      "url": "https://europepmc.org/article/MED/42608559",
+      "published": "2026-08-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42603595",
+      "title": "Co-agonism of GLP-1R and CTR/AMYR in the lateral dorsal tegmental nucleus produces additive effects on homeostatic and motivated feeding.",
+      "url": "https://europepmc.org/article/MED/42603595",
+      "published": "2026-08-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42503495",
+      "title": "Efficacy of CagriSema for Reaching Anthropometric Treatment Targets and Cardiometabolic Outcomes: A Secondary, Post hoc Analysis of REDEFINE 1.",
+      "url": "https://europepmc.org/article/MED/42503495",
+      "published": "2026-07-26",
       "kind": "peer-reviewed"
     },
     {
@@ -97,6 +174,41 @@
       "title": "Amylin-based obesity therapy: a meta-analysis of Cagrilintide and CagriSema versus placebo.",
       "url": "https://europepmc.org/article/MED/42583410",
       "published": "2026-07-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42207966",
+      "title": "Comparative Effectiveness of CagriSegma, Semaglutide, Cagrilintide and Tirzepatide in the Management of Overweight and Obesity: A Network Meta-Analysis of Randomized Clinical Trials.",
+      "url": "https://europepmc.org/article/MED/42207966",
+      "published": "2026-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42366647",
+      "title": "Ease of Use, Ease of Learning, and Convenience of the CagriSema Dual-Chamber Pen: Results From a Usability Study in Adults With Overweight, Obesity, or Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/42366647",
+      "published": "2026-06-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42324178",
+      "title": "Effects of Incretin-Based Therapies, Diet and Exercise Interventions, and Bariatric Surgery on Fat-Free Mass in Adults With Overweight or Obesity: A Systematic Review and Meta-Analysis.",
+      "url": "https://europepmc.org/article/MED/42324178",
+      "published": "2026-06-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42260119",
+      "title": "A cross-species atlas of the dorsal vagal complex reveals neural mediators of the effects of cagrilintide on energy balance.",
+      "url": "https://europepmc.org/article/MED/42260119",
+      "published": "2026-06-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251859",
+      "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251859",
+      "published": "2026-06-07",
       "kind": "peer-reviewed"
     },
     {
@@ -114,6 +226,13 @@
       "kind": "peer-reviewed"
     },
     {
+      "id": "pmid-42228334",
+      "title": "Renal or Hepatic Impairment Does Not Affect Pharmacokinetics, Safety, or Tolerability of Subcutaneous Cagrilintide.",
+      "url": "https://europepmc.org/article/MED/42228334",
+      "published": "2026-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-42009015",
       "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
       "url": "https://europepmc.org/article/MED/42009015",
@@ -121,10 +240,10 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-42260119",
-      "title": "A cross-species atlas of the dorsal vagal complex reveals neural mediators of the effects of cagrilintide on energy balance.",
-      "url": "https://europepmc.org/article/MED/42260119",
-      "published": "2026-06-08",
+      "id": "pmid-41834765",
+      "title": "Efficacy and Safety of Cagrilintide and Cagrisema Versus Semaglutide as Anti-Obesity Medications: A Systematic Review, Meta-Analysis and Meta-Regression.",
+      "url": "https://europepmc.org/article/MED/41834765",
+      "published": "2026-03-16",
       "kind": "peer-reviewed"
     },
     {
@@ -133,22 +252,68 @@
       "url": "https://europepmc.org/article/MED/40544433",
       "published": "2025-06-22",
       "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-42228334",
-      "title": "Renal or Hepatic Impairment Does Not Affect Pharmacokinetics, Safety, or Tolerability of Subcutaneous Cagrilintide.",
-      "url": "https://europepmc.org/article/MED/42228334",
-      "published": "2026-06-01",
-      "kind": "peer-reviewed"
     }
   ],
   "related": [
     "cagrilintide",
     "semaglutide"
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Is CagriSema approved?",
+      "answer": "No. It is not approved in the United States, the European Union or any other country. The pivotal trials are complete and published or announced; regulatory review is the step that has not finished, and no approval date has been published."
+    },
+    {
+      "question": "How much weight did people lose on CagriSema?",
+      "answer": "In the largest weight-management trial, 3,417 adults over 68 weeks, the combination produced 22.7% weight loss as the manufacturer counted it and 20.4% as the published paper counted it, against 2.3% to 3.0% on placebo. In the east Asian trial it was 18.4% against 11.9% on semaglutide alone. In the diabetes trial it was 15.7% against 3.1% on placebo."
+    },
+    {
+      "question": "Does CagriSema work better than semaglutide alone?",
+      "answer": "Yes, and the margin is measured rather than inferred. In the same trial, the combination reached 22.7% against 16.1% for semaglutide 2.4 mg alone. In the east Asian trial the difference was 6.5 percentage points. On blood sugar in type 2 diabetes the difference was smaller: 0.16 percentage points of HbA1c."
+    },
+    {
+      "question": "Is CagriSema better than tirzepatide?",
+      "answer": "On the only direct evidence, no. REDEFINE 4 compared them in 800 adults over 84 weeks and CagriSema did not meet its primary endpoint of non-inferiority to tirzepatide 15 mg, although it produced 23% weight loss. Indirect analyses across trials place the two close together with overlapping confidence intervals."
+    },
+    {
+      "question": "What is the difference between CagriSema and Ozempic or Wegovy?",
+      "answer": "Those are semaglutide alone. CagriSema adds cagrilintide, an amylin analogue that acts on a different satiety pathway, at 2.4 mg of each in a single weekly injection. The added component is what produced roughly six extra percentage points of weight loss in the trials that compared them."
+    },
+    {
+      "question": "What dose is CagriSema?",
+      "answer": "Cagrilintide 2.4 mg plus semaglutide 2.4 mg once weekly, escalated together, in the weight-management trials. The diabetes trials also tested 1.0 mg of each. The ratio is fixed by the manufacturer, which is what a fixed-dose combination means."
+    },
+    {
+      "question": "What are the side effects?",
+      "answer": "Mostly gastrointestinal, as with every drug in this class. In the trial that reported all six arms, 86.9% of the full-dose combination group reported any adverse event, against 81.2% on semaglutide alone and 70.5% on placebo. The insulin add-on trial reported no additional hypoglycaemia. Discontinuation was higher on the combination than on semaglutide alone."
+    },
+    {
+      "question": "Can I make CagriSema myself from separate peptides?",
+      "answer": "The trials tested a fixed-dose product with a joint escalation schedule, and cagrilintide is not legitimately available on its own. Results from those trials carry no information about a combination assembled from separately sourced vials, and this page does not describe how to do it."
+    },
+    {
+      "question": "Does CagriSema help with type 2 diabetes?",
+      "answer": "That is what the REIMAGINE programme tested. HbA1c fell by 1.8 to 2.33 percentage points against 0.1 to 0.66 on placebo across three trials, in people on diet and exercise alone, on metformin, and on basal insulin. Against semaglutide 2.4 mg alone the advantage was 0.16 percentage points."
+    },
+    {
+      "question": "Is it safe for people with kidney or liver problems?",
+      "answer": "Two pharmacokinetic studies in 33 and 32 adults found that kidney or liver impairment did not meaningfully change how much cagrilintide was in the blood after a single dose. That is a pharmacokinetic finding in small studies, not a safety conclusion from long-term use."
+    },
+    {
+      "question": "How does cagrilintide work?",
+      "answer": "It copies amylin, a hormone the pancreas releases with insulin that signals fullness through the brainstem rather than through GLP-1 receptors. A 2026 study showed that silencing a specific brainstem neuron population in rats abolished cagrilintide's effect while leaving semaglutide's intact, which is why the two are combined."
+    },
+    {
+      "question": "When will CagriSema be available?",
+      "answer": "No date has been published. The trials are complete, the results are out, and what remains is regulatory review, whose timing the manufacturer and the regulators control. Dates circulating online are inferences."
+    }
+  ],
   "open_questions": [
-    "No published schedule reconciles the components' different reported frequencies onto one calendar."
+    "CagriSema is not approved in any country and no approval date has been published.",
+    "REDEFINE 4, the head-to-head trial against tirzepatide, and REDEFINE 2 are known from manufacturer announcements; neither is published in a journal or in this ledger.",
+    "REDEFINE 3, the cardiovascular outcomes trial in 7,000 adults, is in progress and has no result.",
+    "No study has published fat-free mass for this combination; the 33.3% figure on this page is for incretin therapies as a class, and the MRI substudy in one diabetes trial has not reported.",
+    "Long-term durability beyond 84 weeks, and what happens on stopping, have not been reported."
   ],
   "review": {
     "author": "",
@@ -156,15 +321,80 @@
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 78.5,
+  "uniqueness_pct": 97.4,
   "changelog": [
     {
       "date": "2026-09-14",
       "change": "Stack record generated from research/registry.json plan; 8 combination claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Stage 0: the eight drafted combination claims were checked and are genuine trials of the combination; two labels corrected, a meta-analysis of 5,425 participants and a pair of pharmacokinetic studies that had been drafted as clinical trials with wrong sample sizes. Written under the sequencing rule after research/intents/cagrisema.json: guide of eleven sections including both trial-programme tables, the four-arm component comparison, the estimand explanation, the head-to-head result against tirzepatide, doses, side effects by arm and availability. REDEFINE 2 and REDEFINE 4 figures are manufacturer announcements, cited editorially with pending_source."
     }
   ],
   "components": [
     "cagrilintide",
     "semaglutide"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "CagriSema in two minutes",
+      "html": "<p><strong>What it is.</strong> Two once-weekly injectable drugs in one shot: <b>cagrilintide</b> 2.4 mg, an investigational amylin analogue, and <b>semaglutide</b> 2.4 mg, the approved GLP-1 drug. It is a fixed-dose product from one manufacturer, not a combination anybody assembles.</p><p><strong>Why it is different from every other combination on this site.</strong> It was tested as a combination, in phase 3, with arms that received each component alone. The question every stack page has to leave open, whether the combination beats its parts, has an answer here.</p><p><strong>What the largest trial found.</strong> Over 68 weeks in 3,417 adults with obesity: <b>22.7%</b> weight loss on the combination, against 16.1% on semaglutide alone, 11.8% on cagrilintide alone and 2.3% on placebo. The same trial is quoted as 20.4% in the New England Journal, counted a different way.</p><p><strong>Where it fell short.</strong> In the only head-to-head trial, against tirzepatide 15 mg over 84 weeks, CagriSema reached 23% weight loss and <b>did not</b> meet its primary endpoint of non-inferiority.</p><p><strong>Status.</strong> Not approved in any country. There is no product to buy, and nothing sold online under the name is the trial drug.</p>"
+    },
+    {
+      "id": "trials-table",
+      "heading": "Every trial in the programme, and what each one measured",
+      "lede": "Two programmes: REDEFINE for weight management, REIMAGINE for type 2 diabetes. Published results are quoted from the papers; announced results are the manufacturer's and are marked as such.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>The REDEFINE programme, weight management.</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">People</th><th scope=\"col\">Comparator</th><th scope=\"col\">Length</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>REDEFINE 1 (published)</td><td>3,417 adults with obesity, no diabetes</td><td>Semaglutide alone, cagrilintide alone, placebo</td><td>68 weeks</td><td>-20.4% vs -3.0% placebo in the published paper; announced as 22.7% vs 16.1%, 11.8% and 2.3%</td></tr><tr><td>REDEFINE 2 (announced)</td><td>1,200 adults with type 2 diabetes</td><td>Placebo</td><td>68 weeks</td><td>15.7% vs 3.1%; 89.7% lost 5% or more, against 30.3%</td></tr><tr><td>REDEFINE 3 (in progress)</td><td>7,000 adults with cardiovascular disease</td><td>Placebo</td><td>Event-driven</td><td>Cardiovascular outcomes; no result yet</td></tr><tr><td>REDEFINE 4 (announced)</td><td>800 adults with obesity</td><td><b>Tirzepatide 15 mg</b></td><td>84 weeks</td><td>23% weight loss; <b>did not meet non-inferiority</b></td></tr><tr><td>REDEFINE 5 (published)</td><td>331 adults in Japan and Taiwan</td><td>Semaglutide alone</td><td>68 weeks</td><td>-18.4% vs -11.9%, a difference of 6.5 percentage points</td></tr></tbody></table></div></div><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>The REIMAGINE programme, type 2 diabetes.</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">People</th><th scope=\"col\">Comparator</th><th scope=\"col\">Length</th><th scope=\"col\">Primary result</th></tr></thead><tbody><tr><td>REIMAGINE 1</td><td>189 adults, diet and exercise only</td><td>Placebo</td><td>40 weeks</td><td>HbA1c -1.8 points vs -0.1 on placebo</td></tr><tr><td>REIMAGINE 2</td><td>2,713 adults on metformin</td><td>Semaglutide 2.4 mg, cagrilintide alone, placebo</td><td>68 weeks</td><td>HbA1c -1.91 vs -1.75 on semaglutide, a difference of 0.16 points</td></tr><tr><td>REIMAGINE 3</td><td>274 adults on basal insulin</td><td>Placebo</td><td>40 weeks</td><td>HbA1c -2.33 vs -0.66, with weight loss and no extra hypoglycaemia</td></tr></tbody></table></div></div><p>Read the comparator column. Most of these trials beat placebo, which was never in doubt for a combination containing semaglutide. The informative arms are the ones comparing the combination with semaglutide alone: REDEFINE 5 on weight, REIMAGINE 2 on blood sugar, and REDEFINE 1, which had both components as separate arms.</p>"
+    },
+    {
+      "id": "vs-components",
+      "heading": "Does the combination beat its own components?",
+      "lede": "The question every combination page has to ask, answered here by trial arms rather than by reasoning.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>REDEFINE 1, all four arms, as announced by the manufacturer at 68 weeks.</caption><thead><tr><th scope=\"col\">Arm</th><th scope=\"col\">Participants</th><th scope=\"col\">Weight loss</th></tr></thead><tbody><tr><td>Cagrilintide 2.4 mg + semaglutide 2.4 mg</td><td>2,108</td><td><b>22.7%</b></td></tr><tr><td>Semaglutide 2.4 mg alone</td><td>302</td><td>16.1%</td></tr><tr><td>Cagrilintide 2.4 mg alone</td><td>302</td><td>11.8%</td></tr><tr><td>Placebo</td><td>705</td><td>2.3%</td></tr></tbody></table></div></div><p>Three things follow, and they are worth separating.</p><p><strong>The combination does beat both parts.</strong> 22.7% against 16.1% for the stronger component is a real margin, measured in the same trial, in the same people, at the same time. That is the standard this site asks of every stack, and almost none of them meets it.</p><p><strong>The effects are not additive.</strong> 16.1 and 11.8 do not sum to 22.7. Two drugs that both suppress appetite through overlapping circuits produce less together than the arithmetic suggests, which is the general lesson for combinations and the reason adding a second compound is never free.</p><p><strong>The margin over semaglutide is about six points.</strong> In the east Asian trial the same comparison gave 18.4% against 11.9%, a difference of 6.5 points. In the diabetes trial the blood-sugar difference over semaglutide was 0.16 percentage points of HbA1c, statistically significant and clinically small.</p>"
+    },
+    {
+      "id": "numbers-estimand",
+      "heading": "Why the same trial is quoted as 20.4% and as 22.7%",
+      "html": "<p>Both figures come from REDEFINE 1 and both are correct. They differ because of what statisticians call the estimand: the question the analysis is answering.</p><p>The <b>treatment-policy estimand</b>, which the New England Journal paper used for its headline, counts everybody as randomised, including people who stopped the drug early or started another one. It answers: what happens to a group of people assigned this treatment. That gives <b>-20.4%</b>.</p><p>The <b>trial-product estimand</b>, which the company announcement used, estimates what happens if people take the drug as intended. It answers: what does the drug do when taken. That gives <b>22.7%</b>.</p><p>Neither is a trick. The gap between them is a measure of how many people could not stay on the drug, which is itself a finding. When a page quotes one figure without the other, it is usually the larger one, and the difference is the part that tells you about tolerability.</p>"
+    },
+    {
+      "id": "vs-tirzepatide",
+      "heading": "CagriSema against tirzepatide: the head-to-head trial that missed its endpoint",
+      "html": "<p>This is the comparison the market cared about, and the one most pages summarising CagriSema leave out.</p><p>REDEFINE 4 randomised 800 adults with obesity to CagriSema or to tirzepatide 15 mg for <b>84 weeks</b>, the longest trial in the programme. In February 2026 the company announced that CagriSema produced <b>23%</b> weight loss and that it <b>did not meet its primary endpoint</b> of non-inferiority to tirzepatide.</p><p>Non-inferiority means showing the new treatment is not meaningfully worse. Failing that is not the same as being beaten, but it is a long way from the result the programme was built to produce, and it is the only direct evidence that exists between these two drugs.</p><p>It is also worth setting beside the comparison one step further out: <a href=\"/compare/retatrutide-vs-tirzepatide\">retatrutide against tirzepatide</a>, where no head-to-head trial exists at all and the indirect estimates place CagriSema third of the three. A 2026 network meta-analysis put retatrutide at 22.1%, tirzepatide at 19.3% and CagriSema at 17.3% against placebo, with overlapping confidence intervals.</p><p>The indirect evidence is kinder than the head-to-head result. A 2026 network meta-analysis of 25 trials placed tirzepatide 15 mg first at <b>-17.97%</b> and CagriSema second at <b>-17.84%</b>, a gap of about a tenth of a percentage point, and found CagriSema ahead at the threshold that matters most to people already losing weight: for reaching 20% or more of body weight, its relative risk against placebo was 27.82 against tirzepatide's 23.70. Failing to prove non-inferiority in one trial and being statistically indistinguishable across twenty-five are both true, and they describe two drugs that are close.</p>"
+    },
+    {
+      "id": "mechanism-guide",
+      "heading": "Two hormones, two different hungers",
+      "html": "<p><b>Semaglutide</b> copies GLP-1, a gut hormone released after eating. It slows gastric emptying, signals fullness and reduces appetite, and at 2.4 mg it is the dose approved for weight management.</p><p><b>Cagrilintide</b> copies amylin, which the pancreas releases alongside insulin. Amylin works on a different satiety pathway, through the brainstem rather than the same receptors as GLP-1, and it also slows gastric emptying. Cagrilintide is engineered to last a week, like its partner.</p><p>The rationale for combining them is that two satiety signals acting through partly separate circuits should add up better than raising the dose of either. A 2026 cross-species study in this ledger traced part of the mechanism: knocking down a specific neuron population in the brainstem's dorsal vagal complex abolished the effect of cagrilintide in rats while leaving semaglutide's effect intact, which is direct evidence that the two drugs are not working through the same cells.</p><p>Each component carries its own record: <a href=\"/compounds/cagrilintide\">cagrilintide</a> and <a href=\"/compounds/semaglutide\">semaglutide</a>.</p><p>A second 2026 study found the same separation higher in the brain: GLP-1 and calcitonin-amylin receptors sit on largely distinct neuron populations in the laterodorsal tegmental nucleus, and activating both there produced additive effects on feeding. Two drugs reaching different cells is the mechanistic case for the combination, and it is now shown in two independent brain regions.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Doses in the trials",
+      "lede": "Every figure here is a dose a phase 3 trial gave, of a fixed-dose product that is not for sale.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses of cagrilintide-semaglutide as published.</caption><thead><tr><th scope=\"col\">Setting</th><th scope=\"col\">Dose</th><th scope=\"col\">Route and frequency</th><th scope=\"col\">Length</th></tr></thead><tbody><tr><td>Weight-management trials</td><td>Cagrilintide 2.4 mg + semaglutide 2.4 mg</td><td>Subcutaneous, once weekly, escalated</td><td>68 to 84 weeks</td></tr><tr><td>Diabetes trials, higher dose</td><td>2.4 mg of each</td><td>Subcutaneous, once weekly</td><td>40 to 68 weeks</td></tr><tr><td>Diabetes trials, lower dose</td><td>1.0 mg of each</td><td>Subcutaneous, once weekly</td><td>40 to 68 weeks</td></tr><tr><td>Kidney or liver impairment studies</td><td>Single dose of cagrilintide 0.6 or 0.9 mg</td><td>Subcutaneous, single</td><td>One dose, followed 36 to 39 days</td></tr></tbody></table></div></div><p>The two components are escalated together and given in one injection, which is the point of a fixed-dose combination: the ratio is fixed by the manufacturer and is not something a prescriber or a user sets. Taking semaglutide and cagrilintide as separate products is not the intervention these trials studied, and the second of those two is not available anyway.</p><p>One practical finding from the pharmacokinetic work: in studies of 33 and 32 adults, kidney or liver impairment did not meaningfully change cagrilintide exposure, which matters for a drug intended for a population in which both are common.</p><p>The trials used a dual-chamber pen, a single-use pre-filled autoinjector holding both components. A 2026 usability study in 150 adults tested whether people could use it after standard training, which is the kind of question that only arises for a product intended to reach a pharmacy.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Side effects, measured against the components and against placebo",
+      "html": "<p>Gastrointestinal effects dominate, as they do for everything in this class. The useful numbers come from REIMAGINE 2, because it reported adverse events for six arms in the same trial:</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Participants reporting any adverse event, REIMAGINE 2, 68 weeks.</caption><thead><tr><th scope=\"col\">Arm</th><th scope=\"col\">Any adverse event</th></tr></thead><tbody><tr><td>Cagrilintide-semaglutide 2.4 mg each</td><td>86.9% (524 of 603)</td></tr><tr><td>Semaglutide 2.4 mg alone</td><td>81.2% (491 of 605)</td></tr><tr><td>Cagrilintide 2.4 mg alone</td><td>82.2% (125 of 152)</td></tr><tr><td>Cagrilintide-semaglutide 1.0 mg each</td><td>81.6% (485 of 594)</td></tr><tr><td>Semaglutide 1.0 mg alone</td><td>78.5% (477 of 608)</td></tr><tr><td>Placebo</td><td>70.5% (105 of 149)</td></tr></tbody></table></div></div><p>The pattern is a gradient rather than a cliff: more drug, more reported events, with the full-dose combination at the top and placebo at the bottom. Every trial in the programme described its safety profile as consistent with the GLP-1 class, and the insulin add-on trial specifically reported no additional hypoglycaemia. A 2026 meta-analysis of four trials found modest but statistically significant increases in adverse events for both cagrilintide alone and the combination, with substantial heterogeneity across outcomes.</p><p>The discontinuation figures matter as much as the event rates. In the east Asian trial 10% stopped the combination against 6% on semaglutide alone, and the gap between the two ways of counting REDEFINE 1 is another measure of the same thing.</p><h3>Body composition</h3><p>No trial in this ledger reports fat-free mass for this combination specifically, and the substudy results are not in the published abstracts. What exists is a 2026 meta-analysis across weight-loss methods, which found that <b>33.3%</b> of total weight lost on incretin-based therapies was fat-free mass, against 14.9% for diet and exercise and 34.2% for bariatric surgery. That is a class figure covering several drugs, not a measurement of CagriSema, and the trials it pools achieved less weight loss than this combination does. It is the best available answer to a question the combination's own trials have not published.</p>"
+    },
+    {
+      "id": "availability",
+      "heading": "Availability: filed, not approved, and not purchasable",
+      "html": "<p>CagriSema is not approved in the United States, the European Union or anywhere else. It has been through its pivotal trials, the results are published or announced, and regulatory review is the step that has not finished.</p><p>That leaves an obvious gap between the search interest and the reality: there is no prescription to get and no product to buy. Semaglutide is available as an approved medicine on its own; cagrilintide is investigational and not sold. Anything offered online as CagriSema is not the trial product, and mixing two separately sourced peptides does not reproduce a fixed-dose combination whose ratio and escalation were set by the manufacturer and tested as one thing.</p><p>Approval dates circulating online are inferences from filing announcements. This page does not carry one, because none has been published.</p>"
+    },
+    {
+      "id": "reported-use",
+      "heading": "What circulates outside the trials",
+      "html": "<p>Community discussion of CagriSema is mostly anticipation rather than experience: when it will be approved, how it will be priced, and whether to wait for it or start something available now. That is a different pattern from the compounds on this site that people obtain and inject, and it follows from there being no supply.</p><p>What does circulate is the idea of assembling the combination from parts. The trials do not support it. They tested a fixed-dose product with a joint escalation schedule, in people monitored for adverse events, and one of its two components is not legitimately available at all. The figures on this page describe that product and carry no information about anything assembled from separate vials.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how CagriSema is discussed",
+      "html": "<ol class=\"list\"><li><strong>Quoting 22.7% and 20.4% as if one were wrong.</strong> Same trial, two estimands; the gap between them measures how many people stayed on the drug.</li><li><strong>Leaving out REDEFINE 4.</strong> The one head-to-head trial against tirzepatide missed its primary endpoint, which is the most important single fact about this combination's position.</li><li><strong>Treating it as a stack.</strong> It is a fixed-dose product in phase 3, not a protocol, and its results do not transfer to separately bought components.</li><li><strong>Adding the component results together.</strong> 16.1 plus 11.8 is not 22.7; overlapping mechanisms do not add.</li><li><strong>Reading approval as imminent because trials are done.</strong> Filing, review and approval are separate steps, and no date has been published.</li><li><strong>Comparing the weight figures across trials.</strong> The diabetes trials measured HbA1c as their primary endpoint, and weight loss is generally smaller in people with type 2 diabetes.</li></ol>"
+    }
+  ],
+  "prose_reviewed": true
 }
