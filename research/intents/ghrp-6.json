@@ -1,0 +1,582 @@
+{
+  "slug": "ghrp-6",
+  "type": "compound",
+  "generated": "2026-09-24",
+  "sources": [
+    "dataforseo-keyword-overview-clickstream",
+    "dataforseo-serp-organic-live",
+    "people-also-ask",
+    "competitor-h2",
+    "competitor-faq"
+  ],
+  "scope": "Informational intent only.",
+  "thin_serp": false,
+  "serp_2026-09-24": {
+    "query": "ghrp-6",
+    "features": [
+      "ai_overview",
+      "people_also_ask",
+      "video",
+      "related_searches"
+    ],
+    "organic_top": [
+      "prospecbio.com (reagent vendor)",
+      "riteaid.com",
+      "pubmed (1997 endocrine paper)",
+      "en.wikipedia.org",
+      "clearsolutionsdermatology.com (clinic)",
+      "peptidepedia.org",
+      "echelon-inc.com (reagent vendor)",
+      "stonevillenc.org (spam)"
+    ],
+    "note": "Two reagent vendors, a clinic, a wiki and a 1997 paper; the AI Overview cites YouTube, a vendor and Rite Aid. The incumbent dosing guide is absent."
+  },
+  "demand_findings": "Three head spellings carry 4,221 clickstream at KD 0 to 11; the long name has 6,600 Ads and no clickstream. Dosage and 'peptide' 101 each; reddit and side effects 50. 'vs ghrp-2' (480 Ads) and 'vs ipamorelin' (90 Ads) are the comparison searchers, and the site already holds an ipamorelin-vs-GHRP-6 page. Hunger and appetite queries exist but are unindexed; the People-also-ask questions are about benefits, weight and 'strongest'.",
+  "h1": "GHRP-6 peptide: what the endocrine studies and the Cuban stroke trial measured, why it makes you hungry, and what was never tested",
+  "dek": "The first growth hormone releasing peptide, from 1984, with a real literature: single-dose hormone studies, a diagnostic test validated in 250 people, and a phase 3 stroke trial of a fixed combination. None of it is about muscle or fat. This page tables the studies, explains the hunger and the cortisol, and says what the three-times-daily injection pattern rests on.",
+  "queries": [
+    {
+      "query": "ghrp-6",
+      "volume": {
+        "clickstream": 2238,
+        "google_ads": 6600,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What GHRP-6 is, and what the endocrine studies actually measured"
+    },
+    {
+      "query": "ghrp 6",
+      "volume": {
+        "clickstream": 1373,
+        "google_ads": 6600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What GHRP-6 is, and what the endocrine studies actually measured"
+    },
+    {
+      "query": "ghrp6",
+      "volume": {
+        "clickstream": 610,
+        "google_ads": 6600,
+        "kd": 11,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What GHRP-6 is, and what the endocrine studies actually measured"
+    },
+    {
+      "query": "ghrp-6 dosage",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 210,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "dosage-chart",
+      "heading": "Every GHRP-6 dose in the studies, in one table",
+      "boundary": "Every figure here is a dose a study gave: intravenous boluses by body weight, an oral or nasal dose in a sleep study, or the stroke trial's fixed combination. The 100 to 300 mcg subcutaneous figures on vendor pages come from forums, not from these studies."
+    },
+    {
+      "query": "ghrp-6 peptide",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 1600,
+        "kd": 8,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What GHRP-6 is, and what the endocrine studies actually measured"
+    },
+    {
+      "query": "ghrp-6 reddit",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 110,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe intense hunger within minutes, water retention, tiredness and a warm flush, with three-times-daily injection for months. None of the studies used that pattern, and none measured what months of ghrelin-receptor stimulation does."
+    },
+    {
+      "query": "ghrp-6 side effects",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 260,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: cortisol, prolactin, hunger, and what was never measured",
+      "boundary": "Cortisol and prolactin rise with GHRP-6 in the studies that measured them, more than with ipamorelin; hunger is its signature. Beyond single-dose endocrine work and one 7-day stroke trial, no safety data exist for the way it is used."
+    },
+    {
+      "query": "ghrp-6 appetite",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Why does GHRP-6 cause hunger?",
+      "answer": "Because it is a ghrelin mimic. Ghrelin is the stomach's hunger hormone, and GHRP-6 was the compound that led to the discovery of its receptor; activating that receptor in the hypothalamus drives food intake, which is why a 2025 mouse study chose GHRP-6 as the tool to engage the brain's ghrelin system and why hunger is the first thing users report. The effect is the mechanism, not a side effect of it."
+    },
+    {
+      "query": "ghrp-6 hunger",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 20,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Why does GHRP-6 cause hunger?"
+    },
+    {
+      "query": "ghrp-6 before and after",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 70,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe intense hunger within minutes, water retention, tiredness and a warm flush, with three-times-daily injection for months. None of the studies used that pattern, and none measured what months of ghrelin-receptor stimulation does."
+    },
+    {
+      "query": "ghrp-6 benefits",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 210,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Study by study: what GHRP-6 did in people",
+      "boundary": "Hormone responses to single doses in endocrine studies of the 1990s and 2000s, a diagnostic-test validation in 250 people, and a Cuban stroke trial of the peptide combined with EGF. No trial has tested GHRP-6 for muscle, fat or recovery, which is what it circulates for."
+    },
+    {
+      "query": "ghrp-6 bodybuilding",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": 43,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe intense hunger within minutes, water retention, tiredness and a warm flush, with three-times-daily injection for months. None of the studies used that pattern, and none measured what months of ghrelin-receptor stimulation does."
+    },
+    {
+      "query": "ghrp-6 cycle",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 10,
+        "kd": 14,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "reported_use",
+      "heading": "What people report outside the literature",
+      "boundary": "Forum reports describe intense hunger within minutes, water retention, tiredness and a warm flush, with three-times-daily injection for months. None of the studies used that pattern, and none measured what months of ghrelin-receptor stimulation does."
+    },
+    {
+      "query": "ghrp-6 injection",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "routes_studied",
+      "heading": "Routes: intravenous in the studies, oral and nasal once, subcutaneous only on vendor pages",
+      "boundary": "Intravenous bolus in almost every human study; oral capsules and a nasal spray in one sleep study; intravenous in the stroke trial. No human study in the ledger gave GHRP-6 by subcutaneous injection, the route it is sold for."
+    },
+    {
+      "query": "ghrp-6 reconstitution",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "method",
+      "target": "/tools/reconstitution-calculator",
+      "heading": "Reconstitution calculator"
+    },
+    {
+      "query": "ghrp-6 results",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 30,
+        "kd": 4,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Study by study: what GHRP-6 did in people",
+      "boundary": "Hormone responses to single doses in endocrine studies of the 1990s and 2000s, a diagnostic-test validation in 250 people, and a Cuban stroke trial of the peptide combined with EGF. No trial has tested GHRP-6 for muscle, fat or recovery, which is what it circulates for."
+    },
+    {
+      "query": "ghrp-6 vs ghrp-2",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 480,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "GHRP-6 vs GHRP-2, ipamorelin, hexarelin and MK-677",
+      "boundary": "Ipamorelin, GHRP-2, hexarelin and MK-677 all act on the same ghrelin receptor. Comparisons on this page come from separate studies; the one direct comparison in the ledger is with GHRH and ghrelin, not with the other GHRPs."
+    },
+    {
+      "query": "ghrp-6 vs ipamorelin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 90,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "compare",
+      "target": "/compare/ipamorelin-vs-ghrp-6",
+      "heading": "Ipamorelin vs GHRP-6, side by side"
+    },
+    {
+      "query": "growth hormone releasing peptide 6",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 6600,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What GHRP-6 is, and what the endocrine studies actually measured"
+    },
+    {
+      "query": "what is ghrp-6",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 260,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is GHRP-6?",
+      "answer": "GHRP-6 is a six-amino-acid synthetic peptide (His-D-Trp-Ala-Trp-D-Phe-Lys-NH2) described by Cyril Bowers in 1984, the first growth hormone releasing peptide. It acts on the ghrelin receptor to make the pituitary release growth hormone, and its discovery led to the identification of that receptor and of ghrelin itself. It has been used as a research tool and a diagnostic test agent, never approved as a medicine, and is sold as a research chemical."
+    },
+    {
+      "query": "ghrp-6 half life",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "What is the half-life of GHRP-6?",
+      "answer": "Short. A 2013 pharmacokinetic study gave nine men single intravenous boluses of 100, 200 and 400 micrograms per kilogram and found a two-phase decline with the peptide still measurable at 12 hours; the half-life figures are in the full text, not the abstract. The growth hormone pulse it triggers lasts about an hour, which is why the community injects it several times a day."
+    },
+    {
+      "query": "ghrp-6 cortisol",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: cortisol, prolactin, hunger, and what was never measured",
+      "boundary": "Cortisol and prolactin rise with GHRP-6 in the studies that measured them, more than with ipamorelin; hunger is its signature. Beyond single-dose endocrine work and one 7-day stroke trial, no safety data exist for the way it is used."
+    },
+    {
+      "query": "ghrp-6 prolactin",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "adverse_events",
+      "heading": "Side effects: cortisol, prolactin, hunger, and what was never measured",
+      "boundary": "Cortisol and prolactin rise with GHRP-6 in the studies that measured them, more than with ipamorelin; hunger is its signature. Beyond single-dose endocrine work and one 7-day stroke trial, no safety data exist for the way it is used."
+    },
+    {
+      "query": "ghrp-6 cjc-1295",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "stacks",
+      "target": "/stacks/cjc-1295-ipamorelin",
+      "heading": "GHRH plus GHRP stacking: the tested pairing"
+    },
+    {
+      "query": "ghrp-6 wada",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: never approved, named by WADA, a diagnostic relative approved in Japan"
+    },
+    {
+      "query": "ghrp-6 fda",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Regulatory status: never approved, named by WADA, a diagnostic relative approved in Japan"
+    },
+    {
+      "query": "ghrp-6 gh test",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Study by study: what GHRP-6 did in people",
+      "boundary": "Hormone responses to single doses in endocrine studies of the 1990s and 2000s, a diagnostic-test validation in 250 people, and a Cuban stroke trial of the peptide combined with EGF. No trial has tested GHRP-6 for muscle, fat or recovery, which is what it circulates for."
+    },
+    {
+      "query": "what are the benefits of ghrp-6",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "trials",
+      "heading": "Study by study: what GHRP-6 did in people",
+      "boundary": "Hormone responses to single doses in endocrine studies of the 1990s and 2000s, a diagnostic-test validation in 250 people, and a Cuban stroke trial of the peptide combined with EGF. No trial has tested GHRP-6 for muscle, fat or recovery, which is what it circulates for.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "does ghrp-6 increase weight",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "faq",
+      "heading": "Does GHRP-6 increase weight?",
+      "answer": "No human study has measured body weight or composition after GHRP-6. It increases hunger, which is why the community expects weight gain and why a 2025 mouse study found intranasal GHRP-6 increased food intake; whether the growth hormone pulses change body composition in people has never been tested.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "what is the strongest ghrp",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "evidence-with-boundary",
+      "section": "comparison-table",
+      "heading": "GHRP-6 vs GHRP-2, ipamorelin, hexarelin and MK-677",
+      "boundary": "Ipamorelin, GHRP-2, hexarelin and MK-677 all act on the same ghrelin receptor. Comparisons on this page come from separate studies; the one direct comparison in the ledger is with GHRH and ghrelin, not with the other GHRPs.",
+      "source": "people-also-ask"
+    },
+    {
+      "query": "what is the strongest peptide to build muscle",
+      "volume": {
+        "clickstream": 0,
+        "google_ads": 0,
+        "kd": null,
+        "source": "not in the DataForSEO keyword index on 2026-09-24; recorded as a measured zero"
+      },
+      "intent": "informational",
+      "policy": "redirect",
+      "section": "stacks",
+      "target": "/stacks",
+      "heading": "Stacks: what has been tested in combination",
+      "source": "people-also-ask"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://peptidepedia.org/performance/ghrp-6",
+      "rank": 9,
+      "words": 4054,
+      "tables": 0,
+      "h2": 17,
+      "h3": 22,
+      "sci_links": 10,
+      "byline": null,
+      "score": 22,
+      "gap": "Wiki-style guide with dosage protocols and a 'saturation dose' claim; ten citations; correct on cortisol, prolactin, WADA S2 and Bowers 1984; no trial table",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F5 S5 U4"
+    },
+    {
+      "url": "https://www.peptidedosingprotocols.com/protocol/ghrp-6",
+      "rank": null,
+      "words": 3938,
+      "tables": 7,
+      "h2": 21,
+      "h3": 39,
+      "sci_links": 8,
+      "byline": "Garret Grant, B.S. Civil Engineering, no medical credential",
+      "score": 24,
+      "gap": "Seven reconstitution and schedule tables around a 100 to 300 mcg three-times-daily community pattern; correct that GHRP-2 is approved in Japan as a diagnostic and GHRP-6 is not; not in the Google top 10 for 'ghrp-6' on 2026-09-24",
+      "source": "fetched 2026-09-24, metrics measured; scored D8 F8 S5 U3"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/GHRP-6",
+      "rank": 7,
+      "words": 1276,
+      "tables": 6,
+      "h2": 3,
+      "sci_links": 15,
+      "score": 15,
+      "gap": "Stub-plus with 15 references; no trial table, no dose history",
+      "source": "fetched 2026-09-24, metrics measured; scored D3 F3 S8 U1"
+    },
+    {
+      "url": "https://riteaid.com/peptides/ghrp-6",
+      "rank": 4,
+      "words": 810,
+      "tables": 0,
+      "h2": 11,
+      "sci_links": 1,
+      "byline": "Rite Aid Health Team",
+      "score": 13,
+      "gap": "Short status page; correct on WADA; two lead-capture forms",
+      "source": "fetched 2026-09-24, metrics measured; scored D3 F2 S6 U2"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9274702/",
+      "rank": 5,
+      "score": null,
+      "gap": "A 1997 endocrine paper ranks fifth; the SERP rewards primary literature",
+      "source": "SERP result; not in the ledger"
+    },
+    {
+      "url": "https://prospecbio.com/products/ghrp-6",
+      "rank": 2,
+      "score": null,
+      "gap": "Reagent vendor product page ranking second",
+      "source": "SERP result; not fetched"
+    }
+  ],
+  "information_gain": "The only page that tables GHRP-6's human studies by what was given and measured, showing that they are single intravenous doses measuring growth hormone, ACTH and cortisol, a 250-person validation of the GHRH plus GHRP-6 diagnostic test, one oral and nasal sleep study, and a 188-patient Cuban phase 3 stroke trial of GHRP-6 with EGF that found no difference in disability; that says no human study in the ledger gave it subcutaneously, the only route it is sold for, or measured weight, muscle or fat; that explains hunger as the mechanism (a ghrelin mimic that led to the receptor's discovery) rather than a side effect; and that separates GHRP-6 from GHRP-2, which is approved in Japan as a diagnostic agent, and from the antagonist [D-Lys3]-GHRP-6 that the drafter's search pulled in.",
+  "serp_format_rewarded": "Explainer. A wiki guide and a 1997 paper rank; a cited page with a study table and a plain mechanism section fits.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "escalation",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "method",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "The fetcher pulled a cattle study of the antagonist [D-Lys3]-GHRP-6 (Zhao 2016) in as a human RCT row; removed at triage, and the alias problem (antagonist name contains the agonist name) is an accept-script item.",
+    "Add Bowers 1984 and the 1990s dose-response papers (e.g. the 1997 paper ranking fifth) to the ledger.",
+    "The Cabrales 2013 half-life figures are in the full text; add them when retrievable.",
+    "The Cuban CIGB-500 and COURAGE programme's earlier phase results should be added when indexed."
+  ]
+}

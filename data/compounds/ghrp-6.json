@@ -11,20 +11,11 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "GHRP-6 is a peptide in the ghrelin mimetics class (ghrelin receptor (GHS-R1a) agonist). Europe PMC indexes 738 publications naming it or a listed alias in a title or abstract, including 22 randomized controlled trials and 41 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "GHRP-6: what the research shows",
-    "description": "GHRP-6 research, cited: 738 indexed publications, 22 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "GHRP-6: Endocrine Studies, Doses, Hunger, Cortisol, Status",
+    "description": "GHRP-6 explained: every human study with dose and result, why it causes hunger and raises cortisol, the stroke trial, what was never measured, and status."
   },
   "attributes": {
     "routes_studied": [
-      {
-        "value": "Randomized controlled trial, humans, 2016: administration by intravenous route reported. Eight Holstein steers were randomly and intravenously injected with synthetic bovine gastrin-releasing peptide (GRP; 0.9 nmol/kg BW), neuromedin B (NMB; 0.9 nmol/kg BW), or neuromedin C (NMC; 0.9 nmol/kg BW), each alone or combined with the…",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-26812312"
-        ],
-        "source_excerpt": "Eight Holstein steers were randomly and intravenously injected with synthetic bovine gastrin-releasing peptide (GRP; 0.9 nmol/kg BW), neuromedin B (NMB; 0.9 nmol/kg BW), or neuromedin C (NMC; 0.9 nmol/kg BW), each alone or combined with the antagonist of GRP receptors N-acetyl-GRP-OCHCH (N-GRP-EE; 22.5 nmol/kg BW) or the antagonist of GH secretagogue receptor type 1a (GHS-R1a) [D-Lys]-GHRP-6 (21.5 nmol/kg BW).",
-        "drafting": "extractive"
-      },
       {
         "value": "Clinical trial, humans, 2004: administration by intravenous route reported. GH response to i.v. bolus of GHRH+GHRP-6 (100 mcg, each) was measured in 12 male patients with type 2 diabetes (mean age: 53.9+/-1.59 years; BMI: 25.58+/-0.39 kg/m(2); mean HbA(1c): 8.7+/-0.42%), during a euglycemic (mean glucose: 4.92+/-0.08 mmol)…",
         "evidence_label": "human-clinical-trial",
@@ -73,12 +64,75 @@
     ],
     "study_doses": [
       {
-        "value": "Clinical trial, humans, 2004: doses stated in the abstract: 100 mcg. GH response to i.v. bolus of GHRH+GHRP-6 (100 mcg, each) was measured in 12 male patients with type 2 diabetes (mean age: 53.9+/-1.59 years; BMI: 25.58+/-0.39 kg/m(2); mean HbA(1c): 8.7+/-0.42%), during a euglycemic (mean glucose: 4.92+/-0.08 mmol) hyperinsulinemic…",
+        "value": "The diagnostic test gives GHRH 1 microgram per kilogram plus GHRP-6 1 microgram per kilogram intravenously, validated in 125 patients with pituitary disease and 125 healthy controls.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11030292"
+        ],
+        "source_excerpt": "All cases and controls were given GHRH 1 microg per kg bodyweight intravenously plus GHRP-6 1 microg per kg intravenously at 0 min and blood samples were obtained during a subsequent 120 min period.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In a sleep study, healthy young men received 300 micrograms per kilogram orally in enteric-coated capsules, or 30 micrograms per kilogram intranasally or sublingually.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10336729"
+        ],
+        "source_excerpt": "We compared the sleep-endocrine effects of 300 microg/kg of body weight (b.w.) GHRP-6 in enteric-coated capsules given p.o. at 21.00 h and of 30 microg/kg GHRP-6 i.n. or 30 microg/kg GHRP-6 sl. given at 22.45 h in normal young male controls with placebo conditions.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Intravenous GHRP-6 at 1 microgram per kilogram was compared with GHRH 100 micrograms and their combination in 16 healthy adults.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10583306"
+        ],
+        "source_excerpt": "One group of subjects received iv GHRP-6 (1 microg/kg), GH-releasing hormone (GHRH; 100 microg), GHRH plus GHRP-6 or saline 3.5 h after oral acute dexamethasone administration (4 mg; at 0600 h).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "GHRP-6 90 micrograms or GHRH 100 micrograms, alone or combined, as an intravenous bolus in young and older adults.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7734029"
+        ],
+        "source_excerpt": "GHRH (100 micrograms), GHRP-6 (90 micrograms) either alone or in combination were administered as an i.v. bolus.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "GHRH plus GHRP-6, 100 micrograms each, intravenously in 12 men with type 2 diabetes under glucose clamps.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-14693411"
         ],
-        "source_excerpt": "GH response to i.v. bolus of GHRH+GHRP-6 (100 mcg, each) was measured in 12 male patients with type 2 diabetes (mean age: 53.9+/-1.59 years; BMI: 25.58+/-0.39 kg/m(2); mean HbA(1c): 8.7+/-0.42%), during a euglycemic (mean glucose: 4.92+/-0.08 mmol) hyperinsulinemic clamp (insulin infusion rate of 100 mU/kg/h) and a hyperglycemic clamp (mean glucose: 12.19+/-0.11 mmol/l).",
+        "source_excerpt": "GH response to i.v. bolus of GHRH+GHRP-6 (100 mcg, each) was measured in 12 male patients with type 2 diabetes",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Children with short stature received 300 micrograms per kilogram orally.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-7581965"
+        ],
+        "source_excerpt": "The effect of oral GHRP-6 (300 micrograms/kg) was compared with that of the maximally effective dose of intravenous GH-releasing hormone (GHRH-29, 1 microgram/kg).",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Nine healthy men received single intravenous boluses of 100, 200 and 400 micrograms per kilogram for pharmacokinetics.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-23099431"
+        ],
+        "source_excerpt": "we studied the pharmacokinetics of this short therapeutic hexapeptide (His-(D-Trp)-Ala-Trp-(D-Phe)-Lys-NH(2,) MW=872.44 Da) in nine male healthy volunteers after a single intravenous bolus administration of 100, 200 and 400 μg/kg of body weight.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In the Cuban stroke trial, 95 patients received intravenous EGF 75 micrograms plus GHRP-6 5 mg twice daily for seven days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42462342"
+        ],
+        "source_excerpt": "The present COURAGE-2 study hypothesized that intravenous EGF (75µg) +GHRP6 (5mg) in acute ischemic stroke would result in 20% greater disability improvement at six months, versus standard care.",
         "drafting": "extractive"
       },
       {
@@ -98,28 +152,10 @@
         ],
         "source_excerpt": "Treatments for both species were based on a CMC jelly composition containing GHRP-6 400 μg/mL.",
         "drafting": "extractive"
-      },
-      {
-        "value": "In vitro study, 2025: doses stated in the abstract: 75 ng. The optimal concentration of GHRP-6 for the IVM procedure was determined to be 75 ng/ml, resulting in a maturation rate of 70% on the first day and 80% on the second day.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-41090425"
-        ],
-        "source_excerpt": "The optimal concentration of GHRP-6 for the IVM procedure was determined to be 75 ng/ml, resulting in a maturation rate of 70% on the first day and 80% on the second day.",
-        "drafting": "extractive"
       }
     ],
     "escalation_schedules": [],
     "interactions": [
-      {
-        "value": "Randomized controlled trial, humans, 2016: Eight Holstein steers were randomly and intravenously injected with synthetic bovine gastrin-releasing peptide (GRP; 0.9 nmol/kg BW), neuromedin B (NMB; 0.9 nmol/kg BW), or neuromedin C (NMC; 0.9 nmol/kg BW), each alone or combined with the antagonist of GRP receptors N-acetyl-GRP-OCHCH…",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-26812312"
-        ],
-        "source_excerpt": "Eight Holstein steers were randomly and intravenously injected with synthetic bovine gastrin-releasing peptide (GRP; 0.9 nmol/kg BW), neuromedin B (NMB; 0.9 nmol/kg BW), or neuromedin C (NMC; 0.9 nmol/kg BW), each alone or combined with the antagonist of GRP receptors N-acetyl-GRP-OCHCH (N-GRP-EE; 22.5 nmol/kg BW) or the antagonist of GH secretagogue receptor type 1a (GHS-R1a) [D-Lys]-GHRP-6 (21.5 nmol/kg BW).",
-        "drafting": "extractive"
-      },
       {
         "value": "Controlled clinical trial, humans, n=7, 1995: As the GHRH-induced GH rise in children is potentiated by arginine (ARG), even when administered by oral route at low dose (4 g), we studied also the interaction of oral GHRP-6 and ARG administration.",
         "evidence_label": "human-clinical-trial",
@@ -137,33 +173,6 @@
         ],
         "source_excerpt": "The marked increase of plasma GH levels observed after administration of GHRP-6 alone or in combination with GHRH indicates that impaired GH secretion in late adulthood is a functional and potentially reversible state.",
         "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, mice, n=6, 2026: The co-administration of epidermal growth factor (EGF) and growth hormone-releasing peptide 6 (GHRP6) emerges as a promising neuroprotective candidate.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-42399524"
-        ],
-        "source_excerpt": "The co-administration of epidermal growth factor (EGF) and growth hormone-releasing peptide 6 (GHRP6) emerges as a promising neuroprotective candidate.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, rats, 2024: Here we examined whether GHRP-6 administration concomitant to Dox prevented the onset of DCM/HF and multiple organs damages in otherwise healthy rats.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-38873418"
-        ],
-        "source_excerpt": "Here we examined whether GHRP-6 administration concomitant to Dox prevented the onset of DCM/HF and multiple organs damages in otherwise healthy rats.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, 2016: The coadministration of rhEGF and GHRP-6 at doses of 100 and 600 μg/kg, respectively, administered up to 4 hours following the ischaemic insult, significantly improved survival and neurological outcome, and reduced infarct volume compared with vehicle treatment.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-26311576"
-        ],
-        "source_excerpt": "The coadministration of rhEGF and GHRP-6 at doses of 100 and 600 μg/kg, respectively, administered up to 4 hours following the ischaemic insult, significantly improved survival and neurological outcome, and reduced infarct volume compared with vehicle treatment.",
-        "drafting": "extractive"
       }
     ],
     "exclusion_criteria": [
@@ -179,13 +188,46 @@
     ],
     "adverse_events": [
       {
-        "value": "Clinical trial, humans, 2000: Inclusion criteria were severe GH deficiency--ie, a GH peak after ITT of Findings GH peaks seen after the GHRH/GHRP-6 test did not result in any side-effects and were not affected by age, sex, amount of adipose tissue, or by the GH assay system used.",
+        "value": "Repeated intravenous GHRP-6 raised ACTH and cortisol as well as growth hormone in an earlier sleep study by the same group.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-11030292"
+          "pmid-10336729"
         ],
-        "source_excerpt": "Inclusion criteria were severe GH deficiency--ie, a GH peak after ITT of Findings GH peaks seen after the GHRH/GHRP-6 test did not result in any side-effects and were not affected by age, sex, amount of adipose tissue, or by the GH assay system used.",
+        "source_excerpt": "After repeated intravenous (i.v.) boluses of growth hormone-releasing peptide-6 (GHRP-6) we found recently increases of growth hormone (GH), corticotropin (ACTH) and cortisol levels and of the amount of stage 2 sleep.",
         "drafting": "extractive"
+      },
+      {
+        "value": "In Cushing's disease the ACTH and cortisol response to GHRP-6 is exaggerated, and it increased further after six months of ketoconazole.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19453623"
+        ],
+        "source_excerpt": "In Cushing's disease (CD), adrenocorticotrophic hormone (ACTH)/cortisol responses to growth hormone secretagogues (GHS), such as ghrelin and GHRP-6, are exaggerated.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "A 1993 study of a non-peptide GHRP-6 mimic in 24 men saw small transient rises in cortisol and prolactin, the class effect the later peptides were designed to avoid.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-8077339"
+        ],
+        "source_excerpt": "Small transient increases in cortical and PRL were observed",
+        "drafting": "extractive"
+      },
+      {
+        "value": "In the stroke trial the combination with EGF was given for seven days with safety as a primary endpoint; the abstract reports no difference in disability and does not detail adverse events.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42462342"
+        ],
+        "source_excerpt": "In the intention-to-treat population, no differences were found in mRS, Barthel",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Hunger is not listed as an adverse event in the endocrine studies because it is the drug's mechanism, but it is the effect every user reports first. No study has measured what months of three-times-daily ghrelin-receptor stimulation does to cortisol, prolactin, glucose or weight; the studies are single doses, and the one seven-day trial measured stroke outcomes.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
       },
       {
         "value": "Animal study, rats, 2025: The present study aimed to investigate the impacts of ghrelin and GHRP-6 on the horizontal and vertical activity in rats exposed to chronic nicotine treatment followed by acute nicotine withdrawal.",
@@ -214,15 +256,6 @@
           "pmid-42462342"
         ],
         "source_excerpt": "Combined therapy of Epidermal Growth Factor (EGF) and Growth Hormone Releasing Peptide-6 (GHRP6) has shown potential benefits in stroke patients.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Randomized controlled trial, humans, 2016: Eight Holstein steers were randomly and intravenously injected with synthetic bovine gastrin-releasing peptide (GRP; 0.9 nmol/kg BW), neuromedin B (NMB; 0.9 nmol/kg BW), or neuromedin C (NMC; 0.9 nmol/kg BW), each alone or combined with the antagonist of GRP receptors N-acetyl-GRP-OCHCH…",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-26812312"
-        ],
-        "source_excerpt": "Eight Holstein steers were randomly and intravenously injected with synthetic bovine gastrin-releasing peptide (GRP; 0.9 nmol/kg BW), neuromedin B (NMB; 0.9 nmol/kg BW), or neuromedin C (NMC; 0.9 nmol/kg BW), each alone or combined with the antagonist of GRP receptors N-acetyl-GRP-OCHCH (N-GRP-EE; 22.5 nmol/kg BW) or the antagonist of GH secretagogue receptor type 1a (GHS-R1a) [D-Lys]-GHRP-6 (21.5 nmol/kg BW).",
         "drafting": "extractive"
       },
       {
@@ -264,12 +297,30 @@
     ],
     "reported_timelines": [
       {
-        "value": "Phase 1 clinical trial, humans, 2013: Averaging all three dose levels, the distribution and elimination half-life of GHRP-6 were 7.6 ± 1.9 min and 2.5 ± 1.1h, respectively.",
+        "value": "After intravenous boluses, GHRP-6 followed a two-phase decline and was still measurable at 12 hours.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-23099431"
         ],
-        "source_excerpt": "Averaging all three dose levels, the distribution and elimination half-life of GHRP-6 were 7.6 ± 1.9 min and 2.5 ± 1.1h, respectively.",
+        "source_excerpt": "Disposition of GHRP-6 best fitted a bi-exponential function with R(2) higher than 0.99",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Intranasal GHRP-6 raised growth hormone across the whole night; oral capsules did nothing.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10336729"
+        ],
+        "source_excerpt": "After GHRP-6 p.o. secretion of GH, ACTH and cortisol remained unchanged. The only effect of GHRP-6 s.l. was a trend toward an increase in GH in the first half of the night. GHRP-6 i.n. prompted a significant increase in GH concentration during the total night",
+        "drafting": "extractive"
+      },
+      {
+        "value": "The stroke trial measured disability at three and six months after seven days of treatment.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42462342"
+        ],
+        "source_excerpt": "Primary endpoint was safety and efficacy at 3 and 6 months, measured by modified Rankin Scale (mRS).",
         "drafting": "extractive"
       },
       {
@@ -306,15 +357,6 @@
           "pmid-22791951"
         ],
         "source_excerpt": "GHRP-6 was injected [intraperitoneal (IP) or intracerebroventricular (ICV)] 2 h before the onset of stress to observe its potential prevention of the mucosal lesion.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "In vitro study, 2025: In summary, while GHRP-6 showed potential in promoting nucleonic maturation by significantly inducing the appearance of PB1 between GVs within 24 hours, it did not exhibit statistically significant improvements in cytoplasmic maturation in metaphase 2 oocytes (MII) during this timeframe.",
-        "evidence_label": "mechanistic-in-vitro",
-        "source_ids": [
-          "pmid-41090425"
-        ],
-        "source_excerpt": "In summary, while GHRP-6 showed potential in promoting nucleonic maturation by significantly inducing the appearance of PB1 between GVs within 24 hours, it did not exhibit statistically significant improvements in cytoplasmic maturation in metaphase 2 oocytes (MII) during this timeframe.",
         "drafting": "extractive"
       }
     ],
@@ -369,6 +411,24 @@
     ],
     "weight_normalized_doses": [
       {
+        "value": "1 microgram per kilogram intravenous, the diagnostic-test dose.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11030292"
+        ],
+        "source_excerpt": "GHRH 1 microg per kg bodyweight intravenously plus GHRP-6 1 microg per kg intravenously",
+        "drafting": "extractive"
+      },
+      {
+        "value": "100 to 400 micrograms per kilogram intravenous in the pharmacokinetic study; 300 micrograms per kilogram oral and 30 intranasal in the sleep study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-23099431"
+        ],
+        "source_excerpt": "single intravenous bolus administration of 100, 200 and 400 μg/kg of body weight",
+        "drafting": "extractive"
+      },
+      {
         "value": "Animal study, mice, 2025: weight-normalized doses as published: 5 mg/kg. Only GHRP-6 (5 mg/kg) increased food intake without adverse effects, prompting detailed analysis of meal patterns, neuronal activation in the arcuate nucleus (via Fos mapping) and neurochemical identification of c-fos messenger RNA (mRNA)-expressing neurons using…",
         "evidence_label": "animal-preclinical",
         "source_ids": [
@@ -378,7 +438,15 @@
         "drafting": "extractive"
       }
     ],
-    "regulatory_status": [],
+    "regulatory_status": [
+      {
+        "value": "Not approved anywhere as a medicine. Its relative GHRP-2 (pralmorelin) is approved in Japan as a diagnostic agent for growth hormone deficiency; GHRP-6 has been used in the same way in research and in the multicentre validation study but never registered. In Cuba, the Center for Genetic Engineering and Biotechnology has taken GHRP-6 through trials for cardioprotection (CIGB-500) and, with EGF, for stroke, without a registration documented in the ledger. WADA names GHRP-6 on the Prohibited List under S2 as a growth hormone secretagogue, prohibited at all times, and detection methods and serum-stability studies exist for doping control. Not on FDA's 503A compounding lists as far as this record can determine.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial",
+        "pending_source": true
+      }
+    ],
     "evidence_table": [
       {
         "value": "Randomized controlled trial, humans, n=95, 2026: In the intention-to-treat population, no differences were found in mRS, Barthel index nor survival.",
@@ -398,26 +466,6 @@
           "route": "not stated in abstract",
           "duration": "7 days; 3 years",
           "outcome": "In the intention-to-treat population, no differences were found in mRS, Barthel index nor survival."
-        }
-      },
-      {
-        "value": "Randomized controlled trial, humans, 2016: Plasma glucose was observed in 2 phases; a significant rise followed a remarkable fall after NMC or GRP administration compared with injection of the vehicle ( 0.05).",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-26812312"
-        ],
-        "source_excerpt": "Plasma glucose was observed in 2 phases; a significant rise followed a remarkable fall after NMC or GRP administration compared with injection of the vehicle ( 0.05).",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Zhao 2016",
-          "year": "2016",
-          "design": "Randomized controlled trial",
-          "n": null,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "intravenous",
-          "duration": "not stated in abstract",
-          "outcome": "Plasma glucose was observed in 2 phases; a significant rise followed a remarkable fall after NMC or GRP administration compared with injection of the vehicle ( 0.05)."
         }
       },
       {
@@ -880,6 +928,34 @@
           "outcome": "Serum Ghrelin levels were increased in E.g-infected 4- and 12-week mice, and reduced in 36-week mice."
         }
       }
+    ],
+    "mechanism": [
+      {
+        "value": "GHRP-6 is the hexapeptide His-D-Trp-Ala-Trp-D-Phe-Lys-NH2, built by Cyril Bowers' group in 1984 from an enkephalin analogue that happened to release growth hormone. It was the first growth hormone releasing peptide and the founder of the family that includes GHRP-2, hexarelin and ipamorelin. Its importance to science is larger than its use: the search for its receptor found the growth hormone secretagogue receptor in 1996, and the search for that receptor's natural ligand found ghrelin in 1999. GHRP-6 is, in effect, a synthetic ghrelin that came first.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "It acts at two sites. In the pituitary it makes somatotrophs release growth hormone directly; in the hypothalamus it acts on the same neurons ghrelin does, which is why it releases far more growth hormone with GHRH than either does alone, why it does nothing in children whose pituitary stalk was severed at birth, and why it drives hunger. The same hypothalamic action releases ACTH and, downstream, cortisol, and it raises prolactin; those are the effects the later, more selective GHRPs were made to reduce.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      },
+      {
+        "value": "What the endocrine literature established is the response, not the outcome: a growth hormone pulse that peaks within an hour after intravenous or intranasal dosing, larger with GHRH, blunted by high blood sugar, preserved in old age, absent after stalk transection. Nothing in the ledger measured body composition, strength or recovery in people after GHRP-6, by any route or over any period.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
+    ],
+    "reported_use": [
+      {
+        "value": "GHRP-6 circulates for muscle gain, recovery, sleep and, deliberately, appetite, injected subcutaneously two or three times a day for months, usually with a GHRH analogue such as CJC-1295 or sermorelin. Reports describe hunger within minutes of injection, water retention, tiredness, a warm flush, and vivid sleep; some report lethargy and low mood attributed to cortisol and prolactin. None of this comes from a study: no human study in the ledger used the subcutaneous route or dosed for longer than seven days. The microgram figures that circulate are not reproduced here; the table above holds every dose a study actually gave.",
+        "evidence_label": "editorial",
+        "source_ids": [],
+        "drafting": "editorial"
+      }
     ]
   },
   "evidence_summary": {
@@ -914,7 +990,9 @@
   },
   "comparison_peers": [],
   "open_questions": [
-    "No study in this record's ledger reports dose-escalation schedules for GHRP-6."
+    "No human study in the ledger gave GHRP-6 subcutaneously or for longer than seven days, and none measured body composition, strength or recovery.",
+    "The 2013 pharmacokinetic half-life figures and the 1980s and 1990s dose-response papers (Bowers 1984 onward) are not in the ledger.",
+    "The Cuban CIGB programme's earlier-phase results for cardioprotection and stroke are not indexed."
   ],
   "media": {
     "walkthrough_video": "",
@@ -923,19 +1001,51 @@
   "faq": [
     {
       "question": "Has GHRP-6 been tested in humans?",
-      "answer": "Yes. Europe PMC indexes 41 clinical trials and 22 randomized controlled trials naming GHRP-6 or a listed alias in the title or abstract. The evidence table above lists the ones in this record's ledger with their design and sample size; check the study name, since an alias can refer to a different formulation of the same molecule."
+      "answer": "Extensively, but as a probe rather than a treatment: single intravenous doses in healthy adults, children and patients to study growth hormone regulation; a 250-person validation of the GHRH plus GHRP-6 diagnostic test; one oral and nasal sleep study; and a Cuban phase 3 trial of GHRP-6 with EGF in 188 stroke patients, which found no difference in disability. No study measured muscle, fat or recovery."
     },
     {
-      "question": "What kind of evidence exists for GHRP-6?",
-      "answer": "The strongest tier is human clinical trial: human clinical trials. Every claim on this page carries its own tier, because a compound with one human trial and forty animal studies is described by both facts, not the better one."
+      "question": "What dose was used in the studies?",
+      "answer": "One microgram per kilogram intravenously in the diagnostic test and most endocrine work, 90 to 100 micrograms as fixed boluses, 100 to 400 micrograms per kilogram in the pharmacokinetic study, 300 micrograms per kilogram orally and 30 intranasally in the sleep study, and 5 mg intravenously twice daily with EGF in the stroke trial. No human study in the ledger gave it subcutaneously."
     },
     {
-      "question": "Is GHRP-6 an approved medicine?",
-      "answer": "No ChEMBL record matches GHRP-6 or its aliases, which usually means it has not entered a registered clinical development programme. It is not an approved medicine in any jurisdiction this record has checked."
+      "question": "Why does GHRP-6 make you hungry?",
+      "answer": "Because it is a synthetic ghrelin: it activates the receptor for the stomach's hunger hormone in the hypothalamus, the same action that releases growth hormone. Hunger is the mechanism working, not a side effect, and it is the trait the later GHRPs, especially ipamorelin, were designed to reduce."
+    },
+    {
+      "question": "Does GHRP-6 raise cortisol and prolactin?",
+      "answer": "Yes. Repeated intravenous boluses raised ACTH and cortisol alongside growth hormone in healthy men, the ACTH response is exaggerated in Cushing's disease, and a non-peptide mimic produced small transient cortisol and prolactin rises. This is the selectivity gap between GHRP-6 and ipamorelin."
+    },
+    {
+      "question": "What are the side effects of GHRP-6?",
+      "answer": "In the studies: hunger, cortisol and prolactin rises, and, from the class, water retention and tingling that the abstracts do not detail. Nothing has been measured beyond single doses and one seven-day trial, so the effects of months of use, including on glucose and weight, are unknown."
+    },
+    {
+      "question": "Is GHRP-6 FDA approved?",
+      "answer": "No, and it has never been approved anywhere. Its relative GHRP-2 is approved in Japan as a diagnostic for growth hormone deficiency; GHRP-6 has been used the same way in research without registration."
+    },
+    {
+      "question": "Is GHRP-6 banned in sport?",
+      "answer": "Yes. WADA names GHRP-6 on the Prohibited List under S2 as a growth hormone secretagogue, prohibited at all times, and anti-doping laboratories publish detection and stability methods for it."
+    },
+    {
+      "question": "What is the difference between GHRP-6 and ipamorelin?",
+      "answer": "Same receptor, different selectivity. GHRP-6 releases growth hormone and also ACTH, cortisol and prolactin, and drives hunger strongly; ipamorelin was designed to release growth hormone with little of the rest. This site's ipamorelin-vs-GHRP-6 comparison page lines the two records up."
+    },
+    {
+      "question": "What is the difference between GHRP-6 and GHRP-2?",
+      "answer": "GHRP-2 (pralmorelin) is the more potent successor and is approved in Japan as a diagnostic agent; it also raises cortisol and prolactin and stimulates appetite, somewhat less than GHRP-6. No head-to-head trial for any clinical outcome exists."
+    },
+    {
+      "question": "Can GHRP-6 be taken orally or as a nasal spray?",
+      "answer": "Both were tested once, in healthy young men: 300 micrograms per kilogram in enteric-coated capsules did nothing to overnight hormones, while 30 micrograms per kilogram intranasally raised growth hormone across the night. Oral dosing in children with short stature did release growth hormone in a 1995 study."
+    },
+    {
+      "question": "What was the GHRP-6 stroke trial?",
+      "answer": "COURAGE-2, a Cuban open-label phase 3 trial published in 2026, gave 95 acute stroke patients intravenous EGF 75 micrograms plus GHRP-6 5 mg twice daily for seven days against standard care in 93. Disability at three and six months did not differ in the intention-to-treat analysis."
     },
     {
       "question": "Which species has GHRP-6 been studied in?",
-      "answer": "Studies in this record's ledger report work in: Dogs, Humans, Mice, Rats. Findings in one species do not transfer to another, and weight-normalized doses in particular do not scale linearly between them."
+      "answer": "Humans, extensively as an endocrine probe; rats and mice for heart protection, kidney injury, wound healing and appetite; rabbits for scarring; dogs in a Cuban safety study; and fish, where a ghrelin analogue was fed in aquaculture research. Its antagonist, [D-Lys3]-GHRP-6, appears in many more papers and is a different compound."
     }
   ],
   "sources": [
@@ -1277,7 +1387,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 82.0,
+  "uniqueness_pct": 89.7,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1300,6 +1410,55 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 48 ledger sources by scripts/draft_claims.py: 38 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Written under the sequencing rule after research/intents/ghrp-6.json: guide (8 sections incl. a twelve-study table), FAQ to 12 plus 5 from the map, dose, weight-normalized, timeline and adverse-event claims from the abstracts, mechanism (ghrelin mimic that found ghrelin), reported-use, regulatory; a cattle study of the antagonist [D-Lys3]-GHRP-6 removed from the evidence table and all claims; misdrafted interactions removed; intent-driven H1 and title."
     }
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "GHRP-6 in two minutes",
+      "html": "<p><strong>What it is.</strong> The first growth hormone releasing peptide, a six-amino-acid ghrelin mimic from 1984 whose receptor search discovered ghrelin itself. It makes the pituitary release a pulse of growth hormone and makes people hungry, by the same mechanism.</p><p><strong>What the research actually shows.</strong> 738 indexed publications, most of them 1990s endocrinology: single intravenous doses raise growth hormone within an hour, far more when combined with GHRH, and also raise ACTH, cortisol and prolactin. The GHRH plus GHRP-6 test was validated as a diagnostic for growth hormone deficiency in 250 people. A Cuban phase 3 trial gave GHRP-6 with EGF to 95 stroke patients for seven days and found no difference in disability.</p><p><strong>What was never measured.</strong> Muscle, fat, strength or recovery in people, by any route, over any period. No human study in the ledger used subcutaneous injection.</p><p><strong>Status.</strong> Never approved. Named on the WADA list under S2. Its cousin GHRP-2 is a Japanese diagnostic; its cousin ipamorelin is the one people switched to for less cortisol and hunger.</p><p><strong>Where the evidence is thinnest.</strong> Everything about the way it is used: subcutaneous, three times a day, for months.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "Study by study: what GHRP-6 did in people",
+      "lede": "Every human study in the ledger, with what was given and what was measured. The pattern is hormones after one dose.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of GHRP-6 in the ledger.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Participants</th><th scope=\"col\">Dose and route</th><th scope=\"col\">What was measured</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Popovic 2000 (diagnostic validation)</td><td>125 adults with pituitary disease, 125 healthy controls</td><td>GHRH 1 mcg/kg + GHRP-6 1 mcg/kg IV</td><td>Peak GH over 120 min vs insulin tolerance test</td><td>The combined test separated deficient from healthy as well as the standard test, more conveniently</td></tr><tr><td>Hernández-Bernal 2026 (COURAGE-2, phase 3)</td><td>188 acute stroke patients (95 treated, 93 standard care)</td><td>EGF 75 mcg + GHRP-6 5 mg IV, twice daily, 7 days</td><td>Disability at 3 and 6 months</td><td><strong>No difference</strong> in Rankin or Barthel scores in the intention-to-treat analysis</td></tr><tr><td>Cabrales 2013 (pharmacokinetics)</td><td>9 healthy men</td><td>100, 200, 400 mcg/kg IV bolus</td><td>Plasma GHRP-6 over 12 hours</td><td>Two-phase decline; measurable at 12 hours</td></tr><tr><td>Frieboes 1999 (sleep and routes)</td><td>Healthy young men</td><td>300 mcg/kg oral; 30 mcg/kg intranasal or sublingual</td><td>Overnight GH, ACTH, cortisol, sleep EEG</td><td>Oral did nothing; intranasal raised GH all night; earlier IV boluses had raised ACTH and cortisol</td></tr><tr><td>Pinto 1999</td><td>16 healthy adults</td><td>1 mcg/kg IV, with or without GHRH and dexamethasone</td><td>GH response</td><td>Acute dexamethasone enhanced the GH response to GHRP-6</td></tr><tr><td>Micic 1995</td><td>Healthy young and older adults</td><td>90 mcg IV alone or with GHRH 100 mcg</td><td>GH response</td><td>The response did not decline with age when GHRP-6 was given, alone or combined</td></tr><tr><td>Micic 2004</td><td>12 men with type 2 diabetes</td><td>GHRH + GHRP-6, 100 mcg each, IV</td><td>GH under euglycaemic and hyperglycaemic clamps</td><td>High glucose blunted the GH peak</td></tr><tr><td>Bellone 1995</td><td>13 children with short stature</td><td>300 mcg/kg oral, with or without arginine</td><td>GH response</td><td>Oral GHRP-6 released GH; the abstract compares it with IV GHRH</td></tr><tr><td>Pombo 1995</td><td>Children with neonatal pituitary stalk transection</td><td>GHRH, GHRP-6 or both</td><td>GH response</td><td><strong>No GH release</strong> by any route: GHRP-6 needs an intact hypothalamus</td></tr><tr><td>Correa-Silva 2010</td><td>8 patients with Cushing's disease, 11 controls</td><td>GHRP-6 and ghrelin, before and after ketoconazole</td><td>ACTH and cortisol</td><td>Exaggerated ACTH response, larger after six months of ketoconazole</td></tr><tr><td>de Sá 2010</td><td>9 patients with type 1 diabetes, 9 controls</td><td>Ghrelin, GHRP-6 and GHRH</td><td>GH, ACTH, cortisol</td><td>Ghrelin released more GH than GHRP-6 or GHRH in both groups</td></tr><tr><td>Gertz 1993</td><td>24 healthy men</td><td>L-692,429, a non-peptide GHRP-6 mimic, IV</td><td>GH, cortisol, prolactin</td><td>Dose-dependent GH; small transient cortisol and prolactin rises</td></tr></tbody></table></div></div><p>Nothing in this table is a body-composition result. The literature that made GHRP-6 famous is about how growth hormone is regulated, and it used the peptide as a probe.</p>"
+    },
+    {
+      "id": "dosage-chart",
+      "heading": "Every GHRP-6 dose in the studies, in one table",
+      "lede": "Every figure here was given in a study, almost always as a single intravenous dose. No human study in the ledger injected it under the skin.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses of GHRP-6 administered in studies.</caption><thead><tr><th scope=\"col\">Setting</th><th scope=\"col\">Route</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Population</th></tr></thead><tbody><tr><td>Diagnostic test</td><td>Intravenous bolus</td><td>1 mcg/kg, with GHRH 1 mcg/kg</td><td>Single</td><td>Adults with suspected GH deficiency</td></tr><tr><td>Endocrine studies</td><td>Intravenous bolus</td><td>1 mcg/kg; 90 to 100 mcg fixed</td><td>Single</td><td>Healthy adults; diabetes; Cushing's disease</td></tr><tr><td>Pharmacokinetics</td><td>Intravenous bolus</td><td>100, 200, 400 mcg/kg</td><td>Single</td><td>9 healthy men</td></tr><tr><td>Sleep and route study</td><td>Oral capsules; intranasal; sublingual</td><td>300 mcg/kg oral; 30 mcg/kg nasal or sublingual</td><td>Single, evening</td><td>Healthy young men</td></tr><tr><td>Children</td><td>Oral</td><td>300 mcg/kg</td><td>Single</td><td>Short stature</td></tr><tr><td>Stroke (COURAGE-2)</td><td>Intravenous</td><td>5 mg with EGF 75 mcg</td><td>Twice daily, 7 days</td><td>Acute ischaemic stroke</td></tr><tr><td>Mice (2025)</td><td>Intranasal</td><td>5 mg/kg</td><td>Single</td><td>Food-intake study</td></tr><tr><td>Rabbits and rats (2016)</td><td>Local and systemic</td><td>400 mcg</td><td>Repeated</td><td>Hypertrophic scar and wound models</td></tr></tbody></table></div></div><p>Figures for subcutaneous GHRP-6 circulate on forums and vendor pages. None was given to a person in any study in the ledger, so none is reproduced here; the table holds every dose a study actually administered. Note that the stroke trial's 5 mg twice daily, by vein, is orders of magnitude above the endocrine doses and was a different use entirely.</p>"
+    },
+    {
+      "id": "who",
+      "heading": "Who GHRP-6 is discussed for, and the cautions that recur",
+      "html": "<p><strong>Studied:</strong> healthy adults and children in single-dose endocrine tests; adults with pituitary disease, diabetes and Cushing's disease as diagnostic or physiological probes; acute stroke patients in Cuba. <strong>Never studied:</strong> anyone dosed subcutaneously, anyone dosed for muscle or fat, anyone dosed for more than seven days. <strong>Community:</strong> bodybuilders, people wanting to gain weight, and people using it for sleep.</p><p>The cautions come from the mechanism and the endocrine data:</p><ul class=\"list\"><li><strong>Cortisol and prolactin.</strong> Both rise with GHRP-6, more than with ipamorelin; the response is exaggerated in Cushing's disease. Anyone with a mood, adrenal or prolactin-related condition is on the wrong side of this compound's selectivity.</li><li><strong>Blood sugar.</strong> High glucose blunts the GH response, and growth hormone itself raises glucose; no study measured glucose over repeated dosing.</li><li><strong>Hunger and weight.</strong> The mechanism drives food intake; whether that becomes weight gain in people is unmeasured, and for many users it is the point.</li><li><strong>Anyone without an intact hypothalamus.</strong> It does nothing after stalk transection, which also means its effects depend on a working axis that steroids and other drugs alter.</li><li><strong>Cancer and growth-sensitive conditions.</strong> Repeated GH and IGF-1 stimulation is the class concern; no study of GHRP-6 addressed it.</li><li><strong>Tested athletes.</strong> Named on the WADA list under S2; detection methods exist.</li></ul>"
+    },
+    {
+      "id": "timeline",
+      "heading": "What is measured over time, and what is not",
+      "html": "<p>The literature measures minutes and hours. A growth hormone pulse peaks within <strong>the first hour</strong> after an intravenous bolus and the diagnostic test samples for <strong>120 minutes</strong>; the peptide itself was still measurable at <strong>12 hours</strong> after large intravenous doses; intranasal dosing raised growth hormone across <strong>one night</strong>. The longest exposure in any human study is <strong>seven days</strong>, in the stroke trial, which measured disability at six months and found none of the hoped-for difference. Nothing has been measured over the weeks and months of use the community describes, and the three-times-daily pattern is an inference from the pulse duration, not a studied schedule.</p>"
+    },
+    {
+      "id": "storage-guide",
+      "heading": "Storage and handling",
+      "html": "<p>Anti-doping laboratories have studied GHRP-6's stability in serum and its degradation products for detection purposes; the peptide degrades in liquid samples over days. That is analytical chemistry, not a vial instruction. Vendor sheets follow general lyophilised-peptide practice; contents are unverified.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how GHRP-6 is discussed",
+      "html": "<ol class=\"list\"><li><strong>Reading the endocrine literature as efficacy data.</strong> Hundreds of papers used GHRP-6 as a probe of growth hormone regulation. None measured muscle or fat in people.</li><li><strong>Calling hunger a side effect.</strong> It is the mechanism: GHRP-6 is a ghrelin mimic, and ghrelin is the hunger hormone. A user who does not want to eat more has chosen the wrong GHRP.</li><li><strong>Assuming the subcutaneous schedule is studied.</strong> Every human study in the ledger dosed intravenously, orally or nasally, once. The three-times-daily pattern is community practice.</li><li><strong>Confusing it with its antagonist.</strong> [D-Lys3]-GHRP-6 blocks the ghrelin receptor and appears in many papers; it is a different molecule with the opposite effect, and automated searches pull it in.</li><li><strong>Treating GHRP-2's Japanese approval as GHRP-6's.</strong> Pralmorelin (GHRP-2) is approved in Japan as a diagnostic; GHRP-6 is approved nowhere.</li><li><strong>Missing the stroke trial.</strong> The only phase 3 of GHRP-6 was in acute stroke, with EGF, and it was negative on its primary endpoint.</li></ol>"
+    },
+    {
+      "id": "comparison-table",
+      "heading": "GHRP-6 vs GHRP-2, ipamorelin, hexarelin and MK-677",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>GHRP-6 beside the other ghrelin-receptor agonists, from their own records where one exists.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">What it is</th><th scope=\"col\">GH release and selectivity</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td><strong>GHRP-6</strong></td><td>First GHRP (1984); hexapeptide</td><td>Strong GH pulse; raises ACTH, cortisol and prolactin; strongest hunger</td><td>Not approved; WADA S2</td></tr><tr><td>GHRP-2 (pralmorelin)</td><td>Second-generation GHRP</td><td>More potent GH release than GHRP-6 in comparative studies; also raises cortisol and prolactin</td><td>Approved in Japan as a diagnostic; no record on this site</td></tr><tr><td><a href=\"/compounds/ipamorelin\">Ipamorelin</a></td><td>Pentapeptide designed for selectivity; 63 indexed publications, 2 randomized trials</td><td>GH release with little cortisol or prolactin effect and less hunger</td><td>Not approved; WADA S2</td></tr><tr><td>Hexarelin</td><td>Hexapeptide GHRP-6 analogue</td><td>Potent GH release; desensitises with repeated dosing; cardiac studies</td><td>Not approved; no record on this site</td></tr><tr><td>MK-677 (ibutamoren)</td><td>Oral non-peptide ghrelin mimetic</td><td>Sustained GH and IGF-1 rise over 24 hours; raises appetite and glucose; heart-failure signal in one trial</td><td>Not approved; no record on this site</td></tr><tr><td><a href=\"/compounds/cjc-1295\">CJC-1295</a> (the usual stacking partner)</td><td>GHRH analogue, a different receptor; 37 indexed publications</td><td>Synergistic GH release with any GHRP, as the GHRH + GHRP-6 test demonstrates</td><td>Not approved; WADA S2</td></tr></tbody></table></div></div><p>The comparison that has actually been run in people is GHRP-6 against GHRH and against ghrelin, in the endocrine studies above; the comparisons among GHRPs come from separate studies and from the pharmacology that motivated each successor. This site's <a href=\"/compare/ipamorelin-vs-ghrp-6\">ipamorelin vs GHRP-6</a> page lines the two records up side by side, and the <a href=\"/stacks/cjc-1295-ipamorelin\">CJC-1295 and ipamorelin</a> page holds the GHRH-plus-GHRP evidence.</p>"
+    }
+  ],
+  "prose_reviewed": true
 }
