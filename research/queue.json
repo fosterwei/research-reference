@@ -711,8 +711,9 @@
         "cluster_google_ads": 7200,
         "head_kd": 0,
         "priority_score": 3357,
-        "status": "queued",
-        "top_queries": "semax vs selank 1,831; selank vs semax 1,526"
+        "status": "done",
+        "top_queries": "semax vs selank 1,831; selank vs semax 1,526",
+        "note": "Written 2026-09-24 under the sequencing rule; audit research/audits/selank-vs-semax-2026-09-24.md. The only human study giving both compounds to the same people was missing from the ledger and was added; the map was corrected before any guide text."
       },
       {
         "rank": 5,

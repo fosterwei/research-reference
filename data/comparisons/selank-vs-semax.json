@@ -3,13 +3,31 @@
   "title": "Selank vs Semax",
   "slug": "selank-vs-semax",
   "status": "draft",
-  "summary": "Selank: tier human clinical trial, 96 indexed publications, 2 randomized trials. Semax: tier human clinical trial, 208 indexed publications, 1 randomized trials. 2 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "summary": "Selank and semax are Russian peptides built the same way: a short active fragment with the tripeptide Pro-Gly-Pro attached to slow its breakdown. Semax starts from a fragment of ACTH and was tested in acute stroke, optic-nerve disease, motor neurone disease and attention; selank starts from a fragment of the immune peptide tuftsin and was tested in generalised anxiety and neurasthenia, against or alongside a benzodiazepine. The trials are small, run from 27 to 60 people, and have not been replicated outside Russia. One study has given both to the same people: a 2020 functional-MRI study in 52 healthy participants that found shared and distinct effects on amygdala connectivity. Both are registered medicines in Russia and approved nowhere else, and the forms sold in the West, N-acetyl semax amidate and N-acetyl selank amidate, are modified molecules that no trial has tested.",
   "seo": {
-    "title": "Selank vs Semax: what the studies show",
-    "description": "Selank vs Semax, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+    "title": "Selank vs Semax: Trials, Shared Design, and What Is Sold",
+    "description": "Selank vs semax: one study has given both to the same people. What each was tested for, the design they share, and why the forms sold in the West are untested."
   },
   "attributes": {
     "head_to_head": [
+      {
+        "value": "Functional MRI study, humans, n=52, 2020: The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32342318"
+        ],
+        "source_excerpt": "The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Functional MRI study, humans, n=52, 2020: Post hoc analysis allowed us to define both general and specific effects of Selank and Semax on FC between the right amygdala and the right temporal cortex for the first time.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32342318"
+        ],
+        "source_excerpt": "Post hoc analysis allowed us to define both general and specific effects of Selank and Semax on FC between the right amygdala and the right temporal cortex for the first time.",
+        "drafting": "extractive"
+      },
       {
         "value": "Animal study, mice, 2017: Analysis of differentiation of embryonic stem cells into GABA + neurons showed that Selank, thyroliberin (100 μM), and NGF (100 ng/ml) decrease the ratio of these cells by 61, 58, and 87%, respectively, in comparison with the control.",
         "evidence_label": "animal-preclinical",
@@ -27,10 +45,78 @@
         ],
         "source_excerpt": "Biologically active regulatory peptide, tripeptide Pro-Gly-Pro (PGP) was used as C-terminal fragment for peptide drugs Semax and Selank.",
         "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2015: Taken together, the therapeutic efficacy and reduction of side-effects had a positive impact on the quality-of-life of the patients treated with selank as add-on to phenazepam.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-26356395"
+        ],
+        "source_excerpt": "Taken together, the therapeutic efficacy and reduction of side-effects had a positive impact on the quality-of-life of the patients treated with selank as add-on to phenazepam.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=60, 2014: To study the efficacy and tolerability of the new anxyolytic peptide selank in comparison with phenazepam.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25176261"
+        ],
+        "source_excerpt": "To study the efficacy and tolerability of the new anxyolytic peptide selank in comparison with phenazepam.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2008: The increase of this parameter and stronger positive correlations with anxiety level were observed during the treatment with selank mostly in patients with GAD.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18454096"
+        ],
+        "source_excerpt": "The increase of this parameter and stronger positive correlations with anxiety level were observed during the treatment with selank mostly in patients with GAD.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Clinical trial, humans, n=43, 2018: Administration of semax, regardless of the timing of rehabilitation, increased BDNF plasma levels which remained high during the whole study period.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-29798983"
+        ],
+        "source_excerpt": "Administration of semax, regardless of the timing of rehabilitation, increased BDNF plasma levels which remained high during the whole study period.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=27, 2007: However, 1% semax significantly improves the total estimate of life quality due to the improvement of emotional state and motivation in MND patients with the maximal effect on day 10.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18379501"
+        ],
+        "source_excerpt": "However, 1% semax significantly improves the total estimate of life quality due to the improvement of emotional state and motivation in MND patients with the maximal effect on day 10.",
+        "drafting": "extractive"
+      },
+      {
+        "value": "Controlled clinical trial, humans, n=30, 1997: It was established that including of Semax in combined intensive therapy of acute ischemic stroke had some influence on the rate of restoration of the damaged neurological functions",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-11517472"
+        ],
+        "source_excerpt": "It was established that including of Semax in combined intensive therapy of acute ischemic stroke had some influence on the rate of restoration of the damaged neurological functions",
+        "drafting": "extractive"
       }
     ]
   },
   "sources": [
+    {
+      "id": "pmid-32342318",
+      "title": "Functional Connectomic Approach to Studying Selank and Semax Effects.",
+      "url": "https://europepmc.org/article/MED/32342318",
+      "published": "2020-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29798983",
+      "title": "[Semax in the rehabilitation of patients after ischemic stroke].",
+      "url": "https://europepmc.org/article/MED/29798983",
+      "published": "2018-01-01",
+      "kind": "peer-reviewed"
+    },
     {
       "id": "pmid-29063333",
       "title": "Studying the Toxic Effects of Some Biologically Active Peptides on the Model of Mouse Embryonic Stem Cells.",
@@ -39,10 +125,52 @@
       "kind": "peer-reviewed"
     },
     {
+      "id": "pmid-26356395",
+      "title": "[Efficacy and safety of the sublingual forms of selank and phenazepam in the treatment of anxiety disorders].",
+      "url": "https://europepmc.org/article/MED/26356395",
+      "published": "2015-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-25850296",
       "title": "[Effect of tripeptide Pro-Gly-Pro on rat brain transcriptome in focal ischemia].",
       "url": "https://europepmc.org/article/MED/25850296",
       "published": "2014-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25176261",
+      "title": "[Efficacy and tolerability of the anxiolytic peptide selank in comparison with phenazepam].",
+      "url": "https://europepmc.org/article/MED/25176261",
+      "published": "2014-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18454096",
+      "title": "[The efficacy and the possible mechanisms of action of a new peptide anxiolytic selank in the therapy of generalized anxiety disorders and neurasthenia].",
+      "url": "https://europepmc.org/article/MED/18454096",
+      "published": "2008-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18379501",
+      "title": "[Semax in the treatment of motor neuron disease].",
+      "url": "https://europepmc.org/article/MED/18379501",
+      "published": "2007-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10741256",
+      "title": "[Semax in the treatment of optic nerve disease].",
+      "url": "https://europepmc.org/article/MED/10741256",
+      "published": "2000-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11517472",
+      "title": "[Semax in acute ischemic stroke].",
+      "url": "https://europepmc.org/article/MED/11517472",
+      "published": "1997-01-01",
       "kind": "peer-reviewed"
     }
   ],
@@ -50,23 +178,143 @@
     "selank",
     "semax"
   ],
-  "faq": [],
-  "open_questions": [],
+  "faq": [
+    {
+      "question": "Has any study compared selank and semax?",
+      "answer": "One has. A 2020 study gave a single dose of semax, selank or placebo to 52 healthy participants and scanned them with functional MRI before and after. It found both shared and distinct effects on connectivity between the right amygdala and the right temporal cortex. It measured brain circuits, not symptoms, so it does not tell you which is better for anything."
+    },
+    {
+      "question": "What is the difference between selank and semax?",
+      "answer": "Their origins and their trials. Semax is a fragment of ACTH with a protective tripeptide attached, tested in stroke, optic-nerve disease, motor neurone disease and attention. Selank is a tuftsin analogue with the same tripeptide attached, tested in generalised anxiety and neurasthenia. Both are Russian, both are small-trial literatures, and they do not overlap."
+    },
+    {
+      "question": "What do they have in common?",
+      "answer": "The tail. Both end in Pro-Gly-Pro, a tripeptide added to slow enzymatic breakdown, and that fragment has its own documented activity in the brain: a 2014 rat study in this ledger examined its effect on gene expression after ischaemia precisely because it is the C-terminal piece of both drugs."
+    },
+    {
+      "question": "Is N-acetyl semax amidate the same as semax?",
+      "answer": "No. It is semax with an acetyl group added at one end and the other end amidated, sold that way by Western vendors on the basis that it is more stable and better absorbed. No trial has tested it, in any condition. The same applies to N-acetyl selank amidate. The trials on this page used the Russian registered products."
+    },
+    {
+      "question": "Which is better for anxiety?",
+      "answer": "Selank is the one with anxiety trials: small randomised studies in generalised anxiety disorder and neurasthenia, run against or alongside the benzodiazepine phenazepam. Semax has no anxiety trials. That is a difference in what has been studied rather than a demonstrated superiority."
+    },
+    {
+      "question": "Can you take semax and selank together?",
+      "answer": "No study has given both to the same person. They are sold together as a combined nasal spray and stacked routinely on forums; the rationale is that one calms and one activates. The one relevant consideration nobody discusses is that both end in the same active tripeptide, so taking both means more of that fragment."
+    },
+    {
+      "question": "Are they legal?",
+      "answer": "They are registered medicines in Russia and approved nowhere else. Outside Russia they are sold as research chemicals, which means no regulator has assessed the product. Neither is named on the World Anti-Doping Agency's prohibited list, though unapproved substances fall under its catch-all category."
+    },
+    {
+      "question": "Are they safe?",
+      "answer": "The trials describe both as well tolerated, and selank's literature specifically claims anxiolytic effects without sedation or dependence. The evidence is small, short and about the Russian products rather than the acetylated forms most people take. One toxicity screen in mouse embryonic stem cells found selank altered how many cells became GABA-producing neurons, which is a signal about developing cells in a dish rather than a finding about adults."
+    },
+    {
+      "question": "Is semax useful for ADHD?",
+      "answer": "No trial has tested semax for ADHD as diagnosed outside Russia. The attention findings come from Russian studies in children described as having minimal brain dysfunction and from cognitive measures collected in other conditions. The interest is genuine; the evidence is not the kind a regulator would accept for that indication."
+    },
+    {
+      "question": "How long do they last?",
+      "answer": "Both are short-acting, which is why nasal dosing and repeated daily administration are used. The parent peptides are cleared quickly and their shared tripeptide is itself active, so what circulates after a dose is not only what was given. No modern pharmacokinetic study of either is in this ledger."
+    },
+    {
+      "question": "Does semax raise BDNF?",
+      "answer": "A 2018 study in 43 people undergoing stroke rehabilitation reported that plasma BDNF rose after semax and stayed raised for the whole study period, regardless of when rehabilitation started. That is a blood measurement in people recovering from a stroke; whether it corresponds to anything in a healthy person is untested."
+    },
+    {
+      "question": "How do they compare with noopept?",
+      "answer": "Noopept is a different compound: an orally active synthetic with its own small Russian trial literature, also unapproved outside Russia. No study has compared it with either of these, and the same caution applies to all three, that the evidence is a national literature that has not been replicated internationally."
+    }
+  ],
+  "open_questions": [
+    "No trial has compared selank and semax on any clinical outcome; the single head-to-head study measured brain connectivity in healthy volunteers after one dose.",
+    "No study has tested N-acetyl semax amidate or N-acetyl selank amidate, which are the forms sold in the West.",
+    "No study has given both compounds to the same person, although they are sold together.",
+    "The trials are small, Russian and unreplicated internationally; none enrolled healthy people seeking cognitive or mood effects.",
+    "No modern pharmacokinetic study of either compound is in this ledger, and none separates the activity of the shared Pro-Gly-Pro tail from the parent molecules."
+  ],
   "review": {
     "author": "",
     "reviewer": "",
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 82.0,
+  "uniqueness_pct": 97.0,
   "changelog": [
     {
       "date": "2026-09-14",
       "change": "Comparison record generated from research/registry.json plan; 2 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Stage 0: the record held two head-to-head claims, both animal, and was missing the only study that has given both compounds to people, a 2020 functional-MRI study in 52 healthy participants that ranks seventh on the target query. It was added by hand with eight further trial papers from the two compound records, and the intent map's H1, dek and information gain were corrected before any guide text was written. Ten guide sections including the head-to-head study, the shared Pro-Gly-Pro design, a nine-row trial table, and the gap between the studied compounds and the acetylated forms sold in the West."
     }
   ],
   "sides": [
     "selank",
     "semax"
-  ]
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "The comparison in two minutes",
+      "html": "<p><strong>Same family, different jobs.</strong> Both were made in Russia by taking a short active fragment of a natural peptide and attaching the tripeptide <b>Pro-Gly-Pro</b> to stop enzymes destroying it. Semax starts from a fragment of ACTH; selank from a fragment of the immune peptide tuftsin.</p><p><strong>What each was tested for.</strong> Semax in acute stroke, optic-nerve disease, motor neurone disease and attention. Selank in generalised anxiety and neurasthenia, usually against or alongside a benzodiazepine. The trials are Russian, small, and run from 27 to 60 people.</p><p><strong>They have been compared once.</strong> A 2020 study gave semax, selank or placebo to <b>52 healthy participants</b> and scanned them. It found shared and distinct effects on connectivity between the amygdala and the right temporal cortex. It measured brains, not symptoms.</p><p><strong>What people actually buy is not what was studied.</strong> The Western market sells <b>N-acetyl semax amidate</b> and <b>N-acetyl selank amidate</b>, modified versions with no trial evidence of their own.</p><p><strong>Status.</strong> Registered medicines in Russia. Approved nowhere else, and sold elsewhere as research chemicals.</p>"
+    },
+    {
+      "id": "no-head-to-head",
+      "heading": "The one study that gave both to the same people",
+      "lede": "It ranks seventh for this query and no page above it mentions it.",
+      "html": "<p>In 2020 a Russian group gave a single injection of semax, of selank, or of placebo to 52 healthy volunteers and performed resting-state functional MRI three times: before, five minutes after, and twenty minutes after. The regions chosen were the amygdala, which governs anxiety, and the dorsolateral prefrontal cortex, which governs working memory.</p><p>The result was a difference in connectivity between the right amygdala and a region spanning the fusiform, inferior and middle temporal and parahippocampal gyri, with what the authors describe as both general and specific effects of the two compounds. In plain terms: the two peptides did partly the same thing and partly different things to a brain circuit, within twenty minutes, in healthy people.</p><p>What it does not tell you is whether either helps anyone. Connectivity in a scanner is not anxiety, attention or recovery from a stroke, the study was single-dose, and the participants were healthy. It is the only human comparison that exists, and it is a mechanism study.</p><p>Beyond it, the studies naming both compounds are animal work: a toxicity screen in mouse embryonic stem cells, and a rat study of the shared tripeptide described below.</p>"
+    },
+    {
+      "id": "shared-design",
+      "heading": "Same tail, different heads: how both were built",
+      "html": "<p>Short peptides are destroyed in minutes by the enzymes that trim protein ends. The Russian approach to that problem, in both of these compounds, was to bolt a protective tripeptide onto the end: <b>Pro-Gly-Pro</b>, proline-glycine-proline.</p><p><b>Semax</b> is the ACTH fragment 4-7, the part of adrenocorticotropic hormone with behavioural rather than hormonal activity, plus Pro-Gly-Pro. It does not raise cortisol, which is the point of using that fragment rather than the whole hormone.</p><p><b>Selank</b> is a tuftsin analogue, a fragment of an immunoglobulin-derived immune peptide, plus Pro-Gly-Pro. Its anxiolytic effects are described as benzodiazepine-like without sedation or dependence, and it is the compound with the anxiety trials.</p><p>The tail is not inert. A 2014 rat study in this ledger examined Pro-Gly-Pro's own effect on brain gene expression after ischaemia, noting that it is the C-terminal fragment of both drugs. So part of what either compound does may be attributable to the piece they share, which is an unusual thing to be able to say about two compounds people compare as alternatives.</p>"
+    },
+    {
+      "id": "trials-table",
+      "heading": "What each one was tested for, and in whom",
+      "lede": "Two literatures that do not overlap, both small, both Russian.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of each compound in this record's ledger.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Study</th><th scope=\"col\">People</th><th scope=\"col\">Condition</th><th scope=\"col\">Reported result</th></tr></thead><tbody><tr><td><b>Selank</b></td><td>Medvedev 2015, randomised</td><td>30</td><td>Anxiety disorders</td><td>Efficacy and fewer side effects as an add-on to phenazepam, with better quality of life</td></tr><tr><td>Selank</td><td>Medvedev 2014</td><td>60</td><td>Anxiety disorders</td><td>Compared with phenazepam for efficacy and tolerability</td></tr><tr><td>Selank</td><td>Zozulia 2008, randomised</td><td>30</td><td>Generalised anxiety and neurasthenia</td><td>Effects strongest in generalised anxiety disorder</td></tr><tr><td>Selank</td><td>Alevizos 2012</td><td>Case series</td><td>Obsessive-compulsive disorder</td><td>Augmentation reported as much or very much improved in half</td></tr><tr><td><b>Semax</b></td><td>Gusev 1997, controlled</td><td>30</td><td>Acute ischaemic stroke</td><td>Faster regression of focal neurological deficit</td></tr><tr><td>Semax</td><td>Gusev 2018</td><td>43</td><td>Stroke rehabilitation</td><td>Plasma BDNF rose and stayed raised throughout</td></tr><tr><td>Semax</td><td>Serdiuk 2007, randomised</td><td>27</td><td>Motor neurone disease</td><td>Better emotional state and motivation, peaking at day 10</td></tr><tr><td>Semax</td><td>Polunin 2000, controlled</td><td>Not stated</td><td>Optic-nerve disease</td><td>Faster and greater recovery of visual function</td></tr><tr><td><b>Both</b></td><td>Panikratova 2020</td><td>52 healthy</td><td>None; mechanism</td><td>Shared and distinct effects on amygdala connectivity</td></tr></tbody></table></div></div><p>Three things are worth noticing. The trials are small, the largest being 60 people. They are almost all Russian, published in Russian-language journals, and have not been replicated elsewhere. And they test conditions almost nobody buying these peptides has: the anxiety trials enrolled diagnosed anxiety disorders, and the semax trials enrolled people who had just had a stroke.</p><p>Each compound's full record, with its dosing detail, is here: <a href=\"/compounds/selank\">selank</a> and <a href=\"/compounds/semax\">semax</a>.</p>"
+    },
+    {
+      "id": "forms",
+      "heading": "What is actually sold: the acetylated and amidated versions",
+      "lede": "This is the gap between the literature and the market, and it is wider here than for almost any compound on this site.",
+      "html": "<p>The compounds in the trials above are semax and selank as registered in Russia, given as nasal drops or by injection. The compounds sold through Western research-chemical vendors are usually <b>N-acetyl semax amidate</b> and <b>N-acetyl selank amidate</b>: the same core sequences with an acetyl group added at one end and the other end amidated.</p><p>Those modifications are not cosmetic. They are made for the same reason the Pro-Gly-Pro tail exists, to slow degradation, and the vendors' claim is that the modified forms are more stable and better absorbed through the nose. <b>No trial has tested either modified form</b>, in any condition, in anyone. There is no published comparison with the parent compounds and no pharmacokinetic study of them in this ledger.</p><p>So the evidence on this page describes one set of molecules and the market sells another. A page that quotes the stroke trials next to a product listing for the acetylated version is comparing things that have never been shown to be equivalent.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Doses and routes",
+      "html": "<p>Both are given intranasally in most of their studies, which is how the Russian registered products are formulated, and by injection in some, including the 2020 imaging study. The semax trials use a percentage solution rather than a milligram figure, 0.1% or 1%, which is how the product is labelled there.</p><p>The dose detail for each compound sits on its own record, where it belongs with that compound's sources: <a href=\"/compounds/semax\">semax doses</a> and <a href=\"/compounds/selank\">selank doses</a>. This page does not repeat them, and neither record carries figures for the acetylated forms, because no study has given one.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Side effects, and how thin the safety evidence is",
+      "html": "<p>Both are described as well tolerated in their trials, and the selank literature makes a specific claim: that it produces anxiolytic effects without the sedation, memory impairment and dependence that benzodiazepines cause, which is why its trials are run against or alongside phenazepam.</p><p>The evidence behind those reassurances is thin in three ways. The trials are small, so uncommon effects would not appear. They are short, so nothing is known about months or years of use. And they studied the registered products rather than the acetylated forms most people take.</p><p>The one toxicity study in this ledger that names both is a screen in mouse embryonic stem cells, which found that selank altered the proportion of cells differentiating into GABA-producing neurons. That is a signal in a dish about developing cells, not a finding about adults, and it is the kind of result that would prompt further work rather than conclusions.</p>"
+    },
+    {
+      "id": "together",
+      "heading": "Taking both: what has been tested",
+      "html": "<p>Nothing in people. The pair is sold together as a single nasal spray by at least one vendor ranking for this query, and the stack is a staple of nootropic forums, and no study has given both to the same person to see what happens.</p><p>The rationale offered is that they do different things, one calming and one activating, which the 2020 imaging study partly supports in the narrow sense that their effects on one circuit were not identical. That is a long way from evidence that combining them is useful or safe.</p><p>The one consideration specific to this pair is the shared tail. If part of either compound's activity comes from Pro-Gly-Pro, then taking both is a larger dose of that fragment, which nobody has studied deliberately.</p>"
+    },
+    {
+      "id": "legality",
+      "heading": "Legal status: approved in Russia, unapproved everywhere else",
+      "html": "<p>Both are registered medicines in Russia, semax for stroke and cognitive indications and selank as an anxiolytic. That registration rests on the Russian trial record and is not recognised elsewhere.</p><p>Neither has been approved by the FDA, the EMA or any comparable regulator, and neither has been through the kind of trial programme those regulators require. Outside Russia they are sold as research chemicals, with the usual consequence that no regulator has assessed what is in the bottle.</p><p>Neither appears on the World Anti-Doping Agency's prohibited list by name. As unapproved substances they would fall under the category covering drugs with no current regulatory approval for human therapeutic use.</p>"
+    },
+    {
+      "id": "choosing",
+      "heading": "What the evidence lets you say",
+      "html": "<p><strong>Supported:</strong> selank has small randomised trials in diagnosed anxiety disorders, generally as an add-on or comparator to a benzodiazepine. Semax has small controlled trials in acute stroke, optic-nerve disease and motor neurone disease, and raises plasma BDNF. Both alter amygdala connectivity within twenty minutes of a single dose in healthy people, in partly different ways.</p><p><strong>Not supported:</strong> that either outperforms the other for anything, since the only comparison measured brain scans; that results in stroke or diagnosed anxiety transfer to a healthy person wanting focus or calm; that the acetylated forms sold in the West behave like the studied compounds; that the pair works better than either alone.</p><p>If the question is which has evidence closest to what people want them for, the answer is selank, because anxiety in diagnosed patients is nearer to the use case than acute stroke is. That is a statement about how far the evidence has to be stretched, not about which compound works.</p><p>Other pairs are set out the same way in the <a href='/compare'>comparison directory</a>, and every compound on this site has its own cited record in the <a href='/compounds'>compound directory</a>.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in this comparison",
+      "html": "<ol class=\"list\"><li><strong>Saying no study has compared them.</strong> One has, in 52 healthy people, and it measured connectivity rather than symptoms.</li><li><strong>Quoting the trials for the acetylated forms.</strong> N-acetyl semax amidate and N-acetyl selank amidate have no trial evidence; the studies used the Russian registered products.</li><li><strong>Reading the stroke trials as cognitive-enhancement evidence.</strong> They enrolled people recovering from a stroke.</li><li><strong>Treating Russian registration as equivalent to FDA or EMA approval.</strong> It rests on a different evidence standard and is not recognised elsewhere.</li><li><strong>Assuming the stack is complementary.</strong> Nothing has tested the pair, and they share a tail whose own activity is documented.</li><li><strong>Calling selank a benzodiazepine substitute.</strong> Its trials compared it with phenazepam in small groups; that is a comparison, not an established equivalence.</li></ol>"
+    }
+  ],
+  "prose_reviewed": true
 }
