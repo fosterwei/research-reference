@@ -204,6 +204,127 @@ KEYWORD_SPECIES = [
     ("Rats", r"\brats?\b"), ("Mice", r"\b(mice|mouse|murine)\b"), ("Rabbits", r"\brabbits?\b"),
     ("Dogs", r"\b(dogs?|canine)\b"), ("Swine", r"\b(pigs?|swine|porcine)\b"), ("Zebrafish", r"\bzebrafish\b"),
 ]
+# Evidence syntheses and commentaries arrive from Europe PMC with no MeSH and
+# generic publication types for months, so the text classifier used to read a
+# network meta-analysis of 58 trials as one clinical trial. Titles are reliable.
+SYNTHESIS = [
+    (re.compile(r"network meta-?analys", re.I), "Network meta-analysis"),
+    (re.compile(r"meta-?analys", re.I), "Meta-analysis"),
+    (re.compile(r"systematic review|umbrella review|scoping review", re.I), "Systematic review"),
+]
+COMMENTARY_TITLE = re.compile(r"\b(?:review|commentary|editorial|perspective|viewpoint|expert opinion|overview|narrative|"
+                              r"state of the art|current landscape|a step forward\?|what does the future)\b", re.I)
+
+
+def synthesis_label(paper: dict) -> str | None:
+    title = strip_tags(paper.get("title"))
+    return next((label for rx, label in SYNTHESIS if rx.search(title)), None)
+
+
+def is_commentary(paper: dict) -> bool:
+    return bool(COMMENTARY_TITLE.search(strip_tags(paper.get("title"))))
+
+
+def _coded(name: str) -> bool:
+    """Short coded aliases (MT-II, KPV, SS-31, GHK-Cu) collide with unrelated
+    abbreviations, so they must match in exact or all-capital case."""
+    letters = re.sub(r"[^A-Za-z]", "", name)
+    return len(letters) <= 5 and bool(re.search(r"\d|[A-Z]{2}", name))
+
+
+def _case_ok(found: str, name: str) -> bool:
+    """Is this occurrence the compound's name, or a differently-capitalised homonym?
+
+    Melanotan-II, melanotan II and MELANOTAN II are one name. SeMax, an
+    orthodontic sella-maxilla measurement, is not Semax: its capital falls
+    inside the word where the name has a lowercase letter.
+    """
+    found = re.sub(r"(?i)[)\-]*NH2$|-?amide$", "", found)
+    f = re.sub(r"[^A-Za-z0-9]", "", found)
+    n = re.sub(r"[^A-Za-z0-9]", "", name)
+    if f == n:
+        return True
+    if _coded(name):
+        return f.isupper() and f.upper() == n.upper()
+    if f.isupper() or f.islower():
+        return True
+    return all(not (a.isupper() and b.islower()) for a, b in list(zip(f, n))[1:])
+
+
+def name_pattern(name: str) -> re.Pattern:
+    # Letters and digits match exactly; the punctuation between them is loose,
+    # so GHRH(1-29), GHRH (1-29), GHRH 1-29 and BPC157 all resolve, and a
+    # peptide amide suffix such as NH2 stays part of the name.
+    tokens = [re.escape(t) for t in re.findall(r"[A-Za-z0-9]+", name)]
+    # Journals set hyphens as ASCII, non-breaking, en or em dashes, and MOTS-c
+    # arrives written all four ways; any of them separates the same name.
+    sep = r"[\s\(\)\[\]\-\u2010-\u2015\u2212]*"
+    body = sep.join(tokens)
+    return re.compile(r"(?<![A-Za-z0-9])(?<![A-Za-z0-9\]][-\u2010-\u2015])" + body + r"(?:[\)\-]*NH2|-?amide)?(?![A-Za-z0-9])", re.I)
+
+
+def mention_spans(text: str, names: list[str]) -> list[tuple[int, int]]:
+    out = []
+    for n in names:
+        out.extend((m.start(), m.end()) for m in name_pattern(n).finditer(text) if _case_ok(m.group(0), n))
+    return sorted(set(out))
+
+
+def mentions(text: str, names: list[str]) -> bool:
+    return bool(mention_spans(text, names))
+
+
+ADMIN_NEAR = re.compile(r"administ|inject|infus|treated with|treatment with|received|were given|was given|\bdos(?:e|ed|ing)\b|"
+                        r"supplement|therapy with|\bmg\b|µg|μg|mcg|\bIU\b|nmol/kg|gavage|implant|spray|drops", re.I)
+MEASURE_NEAR = re.compile(r"\blevels?\b|circulating|plasma|serum|concentrations?|ELISA|immunoassay|expression|"
+                          r"were measured|was measured|quantif|correlat|associated with|biomarker|dialysate|urinary|"
+                          r"contained|detect|identif|screening|confirmation|analyte|seized", re.I)
+
+
+def given_or_measured(text: str, names: list[str], window: int = 70) -> bool | None:
+    """True when the compound was administered near a mention, False when it
+    was only measured, None when the sentence says neither. Humanin, LL-37,
+    kisspeptin and MOTS-c all acquired 'human trial' rows from papers that
+    assayed the body's own peptide; this is the check that separates them."""
+    spans = mention_spans(text, names)
+    if not spans:
+        return None
+    admin = measured = False
+    for a, b in spans:
+        near = text[max(0, a - window): b + window]
+        admin = admin or bool(ADMIN_NEAR.search(near))
+        measured = measured or bool(MEASURE_NEAR.search(near))
+    if admin:
+        return True
+    if measured:
+        return False
+    return None
+
+
+def subject_match(paper: dict, entry: dict) -> bool:
+    """Is this paper about the compound, rather than a homonym or a passing mention?
+
+    Registry `exclude_terms` reject known collisions (metallothionein for the
+    alias MT-II). Otherwise the name must appear in the title, or twice in the
+    abstract, or once with an administration word beside it. GHRH-antagonist
+    papers that cite 'GHRH(1-29)' as a parent sequence fail all three, which is
+    how they got into sermorelin's ledger.
+    """
+    names = [entry["name"], *entry.get("aliases", [])]
+    title = strip_tags(paper.get("title")); abstract = strip_tags(paper.get("abstractText"))
+    text = f"{title} {abstract}"
+    if any(re.search(re.escape(t), text, re.I) for t in entry.get("exclude_terms", [])):
+        return False
+    if mentions(title, names):
+        return True
+    spans = mention_spans(abstract, names)
+    if len(spans) >= 2:
+        return True
+    # A single mention counts when the sentence says the compound was given or
+    # assayed; a paper that cites it once as a parent sequence says neither.
+    return bool(spans) and given_or_measured(abstract, names) is not None
+
+
 TRIAL_WORDS = re.compile(r"\b(randomi[sz]ed|placebo[- ]controlled|double[- ]blind|phase (?:1|2|3|i{1,3})\b|clinical trial)", re.I)
 IN_VITRO_WORDS = re.compile(r"\b(in vitro|cell line|cultured cells|cell culture|hek293|hela|caco-2)\b", re.I)
 
@@ -220,6 +341,8 @@ def classify_from_text(paper: dict) -> tuple[str, str]:
     human = "Humans" in species
     animal = any(s != "Humans" for s in species)
     label = ", ".join(species) or "not indexed"
+    if synthesis_label(paper) or is_commentary(paper):
+        return "review", label
     if TRIAL_WORDS.search(text) and human:
         return "human-clinical-trial", label
     if human and not animal:
@@ -233,18 +356,22 @@ def classify_from_text(paper: dict) -> tuple[str, str]:
 
 def classify(paper: dict) -> tuple[str, str]:
     """Return (evidence tier or 'review'/'unclassified', species)."""
-    pub_types = set(paper.get("pubTypeList", {}).get("pubType", []))
-    mesh = {m.get("descriptorName", "") for m in paper.get("meshHeadingList", {}).get("meshHeading", [])}
+    pub_types = set((paper.get("pubTypeList") or {}).get("pubType") or [])
+    mesh = {m.get("descriptorName", "") for m in (paper.get("meshHeadingList") or {}).get("meshHeading") or []}
     if not mesh and not (pub_types & (REVIEW_TYPES | TRIAL_TYPES)):
         return classify_from_text(paper)
     species = ", ".join(s for s in SPECIES_MESH if s in mesh) or "not indexed"
     human_subjects = "Humans" in mesh and bool(mesh & AGE_MESH or pub_types & OBSERVATIONAL_TYPES)
     animal = bool(mesh & set(SPECIES_MESH[1:])) or "Animals" in mesh
 
-    if pub_types & REVIEW_TYPES:
+    if pub_types & REVIEW_TYPES or synthesis_label(paper):
         return "review", species
     if pub_types & TRIAL_TYPES:
         return "human-clinical-trial", species
+    if mesh & IN_VITRO_MESH and not pub_types & OBSERVATIONAL_TYPES:
+        # Donor cells in culture carry "Humans" and often an age heading; they
+        # are not human subjects. FOXO4-DRI's tier was set by rows like these.
+        return "mechanistic-in-vitro", species
     if human_subjects:
         return "observational-human", species
     if animal:
@@ -372,7 +499,7 @@ def fetch_compound(entry: dict, max_papers: int, counts_only: bool = False) -> d
         rows = []
         for paper in papers:
             sid = source_id(paper)
-            if not sid:
+            if not sid or not subject_match(paper, entry):
                 continue
             tier, species = classify(paper)
             abstract = strip_tags(paper.get("abstractText"))
@@ -397,7 +524,7 @@ def fetch_compound(entry: dict, max_papers: int, counts_only: bool = False) -> d
     reviews = []
     for paper in search(f"{base} AND {ONLY_REVIEWS} AND HAS_ABSTRACT:y AND SRC:MED", 5, sort="CITED desc"):
         sid = source_id(paper)
-        if not sid:
+        if not sid or not subject_match(paper, entry):
             continue
         reviews.append({
             "id": sid, "title": strip_tags(paper.get("title")), "year": paper.get("pubYear"),

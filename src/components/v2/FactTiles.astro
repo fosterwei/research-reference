@@ -8,7 +8,7 @@ const rows = d.attributes?.evidence_table ?? [];
 const species = [...new Set(rows.map((r: any) => r.fields?.species).filter((s: string) => s && s !== 'not indexed').flatMap((s: string) => s.split(', ')))].sort();
 const routes = [...new Set(rows.map((r: any) => r.fields?.route).filter((s: string) => s && !s.startsWith('not stated')).flatMap((s: string) => s.split(', ')))].sort();
 const phase = chembl ? Number(chembl.max_phase) : NaN;
-const humanRows = rows.filter((r: any) => r.fields?.species === 'Humans' && !/method|in vitro/i.test(r.fields?.design ?? ''));
+const humanRows = rows.filter((r: any) => r.fields?.species === 'Humans' && !/method|in vitro|measured, not given/i.test(r.fields?.design ?? ''));
 const randomizedHumanRows = humanRows.filter((r: any) => /random/i.test(r.fields?.design ?? ''));
 ---
 <div class="facts">

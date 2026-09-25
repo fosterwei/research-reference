@@ -2,7 +2,7 @@
 interface Props { record: any }
 const { record: d } = Astro.props;
 const rows = d.attributes?.evidence_table ?? [];
-const humanRows = rows.filter((r: any) => r.fields?.species === 'Humans' && !/method|in vitro/i.test(r.fields?.design ?? ''));
+const humanRows = rows.filter((r: any) => r.fields?.species === 'Humans' && !/method|in vitro|measured, not given/i.test(r.fields?.design ?? ''));
 const randomizedRows = humanRows.filter((r: any) => /random/i.test(r.fields?.design ?? ''));
 const nonRandomizedRows = humanRows.filter((r: any) => !/random/i.test(r.fields?.design ?? ''));
 const assessment = d.evidence_assessment ?? {};

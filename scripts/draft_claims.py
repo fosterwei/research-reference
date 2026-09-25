@@ -45,6 +45,7 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from fetch_evidence import (  # noqa: E402
     EPMC, TIER_ORDER, NOT_REVIEWS, alias_query, classify, get_json, phase_of, search, strip_tags,
+    mentions, given_or_measured, synthesis_label,
 )
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -74,9 +75,23 @@ ROUTES = {
     "transdermal": r"transdermal", "inhaled": r"inhal(?:ed|ation)", "intrathecal": r"intrathecal",
 }
 ROUTE_RE = {k: re.compile(v, re.IGNORECASE) for k, v in ROUTES.items()}
+# "24 214 participants" (BMJ style), "17,604 patients", "n = 5,425": thousands
+# may be split by a space, a thin space or a comma. Enrolment phrasing comes
+# before "n =", which in an abstract is usually a subgroup.
+NUM = r"(\d{1,3}(?:[ ,\u00a0\u202f]\d{3})+|\d{1,7})"
 N_RE = [
-    re.compile(r"\b[nN]\s?=\s?(\d{1,5})\b"),
-    re.compile(r"\b(\d{1,5})\s+(?:patients|participants|subjects|volunteers|adults|individuals|people|men|women|children|rats|mice|rabbits|dogs|pigs|animals)\b", re.IGNORECASE),
+    re.compile(r"\b" + NUM + r"\s+(?:patients|participants|subjects|volunteers|adults|individuals|people|men|women|children|infants|rats|mice|rabbits|dogs|pigs|animals)\b", re.IGNORECASE),
+    re.compile(r"\b(?:enrolled|randomi[sz]ed|included|analy[sz]ed|recruited|screened)\s+" + NUM + r"\b", re.IGNORECASE),
+    re.compile(r"\b[nN]\s?=\s?" + NUM + r"\b"),
+]
+DESIGN_FROM_TITLE = [
+    (re.compile(r"pharmacokinetic|bioavailability|disposition of|pharmacodynamic", re.I), "Pharmacokinetic study"),
+    (re.compile(r"usability|human factors", re.I), "Usability study"),
+    (re.compile(r"\bcase report|\ba case of|case series", re.I), "Case report"),
+    (re.compile(r"post[- ]hoc|secondary analysis|pooled analysis|exploratory analysis", re.I), "Secondary analysis"),
+    (re.compile(r"\bfMRI\b|functional MRI|connectom|neuroimaging|magnetic resonance", re.I), "Imaging study"),
+    (re.compile(r"first-in-human|\bphase 1\b|\bphase I\b", re.I), "Phase 1 trial"),
+    (re.compile(r"knockout|knock-out|transgenic", re.I), "Animal study"),
 ]
 PATTERNS: dict[str, re.Pattern] = {
     "escalation_schedules": re.compile(r"escalat|titrat|dose[- ]ranging|stepwise|step-wise|increased? (?:the )?dose|up-?titrat|dose increment", re.I),
@@ -124,10 +139,6 @@ def sentences(text: str) -> list[str]:
         if len(s) >= 25 and not s.endswith("…"):
             out.append(s)
     return out
-
-
-def mentions(s: str, names: list[str]) -> bool:
-    return any(re.search(r"(?<![A-Za-z])" + re.escape(n) + r"(?![A-Za-z])", s, re.I) for n in names)
 
 
 STOP = re.compile(r";|\s(?:plus|and|or|versus|vs\.?|with|compared|than)\s|/(?![a-z])", re.I)
@@ -180,9 +191,15 @@ def design_of(paper: dict, tier: str) -> str:
         # Anti-doping detection and metabolism papers are about measuring the
         # compound, not about what it does; labelled so a reader is not misled.
         return "Analytical method"
-    types = set(paper.get("pubTypeList", {}).get("pubType", []))
+    synth = synthesis_label(paper)
+    if synth:
+        return synth
+    types = set((paper.get("pubTypeList") or {}).get("pubType") or [])
     for key, label in DESIGN_FROM_PUBTYPE:
         if key in types:
+            return label
+    for rx, label in DESIGN_FROM_TITLE:
+        if rx.search(title) and not (label == "Animal study" and tier != "animal-preclinical"):
             return label
     return {"animal-preclinical": "Animal study", "mechanistic-in-vitro": "In vitro study",
             "observational-human": "Human study", "human-clinical-trial": "Clinical trial"}.get(tier, "Study")
@@ -190,14 +207,10 @@ def design_of(paper: dict, tier: str) -> str:
 
 def sample_size(abstract: str) -> int | None:
     for rx in N_RE:
-        m = rx.search(abstract)
-        if m:
-            try:
-                n = int(m.group(1))
-                if 1 <= n <= 100000:
-                    return n
-            except ValueError:
-                pass
+        for m in rx.finditer(abstract):
+            n = int(re.sub(r"[ ,\u00a0\u202f]", "", m.group(1)))
+            if 1 <= n <= 2_000_000:
+                return n
     return None
 
 
@@ -266,8 +279,15 @@ def single_compound_paper(paper: dict, names: list[str], other_names: list[str])
     return mentions(title, names) and not mentions(title, [n for n in other_names if not mentions(n, names)])
 
 
-def analyse(paper: dict, names: list[str], other_names: list[str] | None = None) -> dict | None:
+HUMAN_TIERS = ("human-clinical-trial", "observational-human")
+
+
+def analyse(paper: dict, names: list[str], other_names: list[str] | None = None, allow_synthesis: bool = False) -> dict | None:
     tier, species = classify(paper)
+    if tier == "review" and allow_synthesis and synthesis_label(paper):
+        # A meta-analysis is comparative evidence for a comparison page; it is
+        # labelled as what it is and never as a trial.
+        tier = "human-clinical-trial"
     if tier not in TIER_ORDER:
         return None
     abstract = strip_tags(paper.get("abstractText"))
@@ -290,6 +310,13 @@ def analyse(paper: dict, names: list[str], other_names: list[str] | None = None)
         return None
     single = single_compound_paper(paper, names, other_names or [])
     named = sents if single else ([s for s in sents if mentions(s, names)] or sents)
+    # Was the compound given, or only measured? A human paper that assayed the
+    # body's own peptide is not a human study of taking it, and its dose and
+    # duration sentences describe other agents.
+    verdicts = [given_or_measured(s, names) for s in sents if mentions(s, names)]
+    given = True if True in verdicts else (False if False in verdicts else None)
+    if given is False and tier in HUMAN_TIERS:
+        design = f"{design} ({names[0]} measured, not given)"
     routes = sorted({name for name, rx in ROUTE_RE.items() if any(rx.search(s) for s in named)})
     doses = []
     for s in sents:
@@ -312,8 +339,10 @@ def analyse(paper: dict, names: list[str], other_names: list[str] | None = None)
     # for ipamorelin here).
     outcome = (next((s for s in sents[half:] if OUTCOME.search(s) and mentions(s, names)), None)
                or next((s for s in sents if OUTCOME.search(s) and mentions(s, names)), None))
+    if given is False:
+        routes, doses, perkg, durations = [], [], [], []
     return dict(id=sid, tier=tier, species=species, design=design, n=n, year=year, sents=sents, named=named, single=single,
-                routes=routes, doses=doses, perkg=perkg, durations=durations, outcome=outcome,
+                routes=routes, doses=doses, perkg=perkg, durations=durations, outcome=outcome, given=given,
                 author=first_author(paper), pre=prefix(design, species, n, year))
 
 
@@ -382,6 +411,7 @@ def draft_sections(papers: list[dict], names: list[str], other_names: list[str] 
                 "route": ", ".join(a["routes"]) or "not stated in abstract",
                 "duration": "; ".join(a["durations"][:2]) or "not stated in abstract",
                 "outcome": clip(a["outcome"], 220) if a["outcome"] else "see source",
+                "administered": a["given"],
             }
             excerpt = a["outcome"] or a["named"][0]
             out["evidence_table"].append(claim(a, a["pre"] + excerpt, excerpt, {"fields": fields}))
@@ -482,6 +512,8 @@ def draft_compound(path: pathlib.Path, force: bool) -> str:
     status = record.get("status")
     if status not in ("researched", "draft") or (status == "draft" and not force):
         return f"skip ({status})"
+    if record.get("guide"):
+        return "skip (written page)"
     papers = fetch_ledger(record.get("sources", []))
     names = [record["preferred_name"], *record.get("aliases", [])]
     other_names = [c["name"] for c in REGISTRY["compounds"] if c["slug"] != record["slug"]]
@@ -534,10 +566,49 @@ def base_record(rtype: str, slug: str, title: str) -> dict:
             "uniqueness_pct": None, "changelog": []}
 
 
+def written(existing: dict) -> bool:
+    """A record with guide sections or reviewed prose is a page somebody wrote;
+    the drafter never regenerates it, whatever flags are passed."""
+    return bool(existing.get("guide")) or bool(existing.get("prose_reviewed"))
+
+
+def pivotal_sources(slug: str, limit: int = 3) -> list[dict]:
+    """Each side's largest human trials, from its own record. A comparison
+    ledger built only from papers naming both compounds held neither STEP 1
+    nor the retatrutide phase 2 trial although every figure came from them."""
+    rec = load_compound(slug)
+    if not rec:
+        return []
+    by_id = {src["id"]: src for src in rec.get("sources", [])}
+    rows = [r for r in rec.get("attributes", {}).get("evidence_table", [])
+            if r.get("fields", {}).get("species") == "Humans" and r["fields"].get("administered") is not False
+            and re.search(r"trial|randomi", r["fields"].get("design", ""), re.I)]
+    rows.sort(key=lambda r: -(r["fields"].get("n") or 0))
+    out, seen = [], set()
+    for r in rows:
+        sid = r["source_ids"][0]
+        if sid in by_id and sid not in seen:
+            out.append(by_id[sid]); seen.add(sid)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def merge_sources(*groups: list[dict]) -> list[dict]:
+    seen, out = set(), []
+    for g in groups:
+        for src in g:
+            if src["id"] not in seen:
+                out.append(src); seen.add(src["id"])
+    return sorted(out, key=lambda x: x["published"], reverse=True)
+
+
 def draft_stack(plan: dict, force: bool) -> str:
     path = DATA / "stacks" / f"{plan['slug']}.json"
     if path.exists():
         existing = json.loads(path.read_text(encoding="utf-8"))
+        if written(existing):
+            return "skip (written page)"
         if existing.get("status") not in ("researched", "draft") or (existing.get("status") == "draft" and not force):
             return f"skip ({existing.get('status')})"
     comps = plan["components"]
@@ -546,10 +617,12 @@ def draft_stack(plan: dict, force: bool) -> str:
     claims = []
     allnames = [n for c in comps for n in names_of(c)]
     for p in papers:
-        a = analyse(p, allnames)
+        a = analyse(p, allnames, allow_synthesis=True)
         if not a:
             continue
-        s = next((s for s in a["sents"] if all(mentions(s, names_of(c)) for c in comps)), a["named"][0])
+        s = next((s for s in a["sents"] if all(mentions(s, names_of(c)) for c in comps)), None)
+        if s is None:
+            continue   # names every component somewhere, but never together: ledger only
         claims.append(claim(a, a["pre"] + s, s))
     recs = {c: load_compound(c) for c in comps}
     tiers = {c: (recs[c] or {}).get("evidence_tier", "community-reported") for c in comps}
@@ -565,7 +638,7 @@ def draft_stack(plan: dict, force: bool) -> str:
     rec["seo"] = {"title": clip(f"{plan['name']}: the evidence", 60),
                   "description": clip(f"{' + '.join(REG[c]['name'] for c in comps)}: each component's evidence tier, and whether any study tested the combination. Cited; not advice.", 160)}
     rec["attributes"] = {"combination_evidence": claims}
-    rec["sources"] = ledger_from(papers)
+    rec["sources"] = merge_sources(ledger_from(papers), *(pivotal_sources(c) for c in comps))
     rec["related"] = comps
     rec["open_questions"] = ([] if claims else [f"No indexed study has tested {' with '.join(REG[c]['name'] for c in comps)} together."]) + \
         [f"No published schedule reconciles the components' different reported frequencies onto one calendar."]
@@ -578,6 +651,8 @@ def draft_comparison(plan: dict, force: bool) -> str:
     path = DATA / "comparisons" / f"{plan['slug']}.json"
     if path.exists():
         existing = json.loads(path.read_text(encoding="utf-8"))
+        if written(existing):
+            return "skip (written page)"
         if existing.get("status") not in ("researched", "draft") or (existing.get("status") == "draft" and not force):
             return f"skip ({existing.get('status')})"
     a, b = plan["sides"]
@@ -586,10 +661,13 @@ def draft_comparison(plan: dict, force: bool) -> str:
     papers = search(q, 8)
     claims = []
     for p in papers:
-        an = analyse(p, names_of(a) + names_of(b))
+        an = analyse(p, names_of(a) + names_of(b), allow_synthesis=True)
         if not an:
             continue
-        s = next((s for s in an["named"] if re.search(r"versus|compared|comparison|head-to-head|\bvs\b", s, re.I)), an["named"][0])
+        both = [s for s in an["sents"] if mentions(s, names_of(a)) and mentions(s, names_of(b))]
+        s = next((s for s in both if re.search(r"versus|compared|comparison|head-to-head|\bvs\b|greatest|followed by|superior|inferior", s, re.I)), both[0] if both else None)
+        if s is None:
+            continue   # a paper that names both only in separate sentences compares nothing
         claims.append(claim(an, an["pre"] + s, s))
     ra, rb = load_compound(a), load_compound(b)
     def facts(r, slug):
@@ -604,7 +682,7 @@ def draft_comparison(plan: dict, force: bool) -> str:
     rec["seo"] = {"title": clip(f"{title}: what the studies show", 60),
                   "description": clip(f"{title}, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice.", 160)}
     rec["attributes"] = {"head_to_head": claims}
-    rec["sources"] = ledger_from(papers)
+    rec["sources"] = merge_sources(ledger_from(papers), pivotal_sources(a), pivotal_sources(b))
     rec["related"] = [a, b]
     rec["open_questions"] = [] if claims else [f"No indexed study compares {REG[a]['name']} and {REG[b]['name']} head to head."]
     rec["changelog"] = [{"date": TODAY, "change": f"Comparison record generated from research/registry.json plan; {len(claims)} head-to-head claims drafted extractively by scripts/draft_claims.py."}]

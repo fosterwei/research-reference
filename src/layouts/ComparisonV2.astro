@@ -37,7 +37,7 @@ const baseTitle = title(entry);
 const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline: baseTitle, description: description(entry), dateModified: updated, datePublished: d.changelog?.[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(), publisher: { '@type': 'Organization', name: 'Peptide Research Reference', url: Astro.site?.toString() } };
 const regA = a && regCompound(a.data.slug), regB = b && regCompound(b.data.slug);
 const sameClass = regA && regB && regA.class === regB.class;
-const humanCount = (c: any) => ((c.data.attributes as any).evidence_table ?? []).filter((r: any) => r.fields?.species === 'Humans').length;
+const humanCount = (c: any) => ((c.data.attributes as any).evidence_table ?? []).filter((r: any) => r.fields?.species === 'Humans' && !/method|in vitro|measured, not given/i.test(r.fields?.design ?? '')).length;
 const approval = (c: any) => { const ch = c.data.evidence_summary?.chembl; if (!ch) return 'no registered programme'; const ph = Number(ch.max_phase); return ph >= 4 ? `approved${ch.first_approval ? ` (${ch.first_approval})` : ''}` : `not approved · max phase ${isNaN(ph) ? '—' : ph}`; };
 const rows: Array<[string, string, string]> = a && b ? [
   ['Class', regA ? className(regA.class) : '—', regB ? className(regB.class) : '—'],

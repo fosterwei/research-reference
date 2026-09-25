@@ -194,3 +194,18 @@ accept everything or reject everything.
 
 - 2026-09-23 — Written. First run: ipamorelin, recorded in
   `research/audits/ipamorelin-2026-09-23.md`.
+- 2026-09-24 — Drafter and fetcher fixes from the day's triage tables, with
+  regression tests in `scripts/test_drafter.py` run by CI: sample sizes read
+  through space and comma thousands separators (a 24,214-person meta-analysis
+  was a trial of 214 on two pages); syntheses and commentaries classified from
+  their titles rather than as trials; pharmacokinetic, usability, imaging and
+  secondary-analysis designs labelled; compound names matched as whole tokens
+  in a plausible case, so 113Cd-MT-II and SeMax no longer count; human rows
+  where the compound was measured rather than administered carry a
+  "(measured, not given)" suffix and an `administered: false` field, and the
+  templates exclude them from human-study counts; comparison and stack
+  records take only sentences naming every side as claims, admit
+  meta-analyses labelled as such, and carry each side's largest human trials
+  into their ledgers; registry `exclude_terms` reject alias homonyms; and
+  the drafter never regenerates a record that has guide sections.
+

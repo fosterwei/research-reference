@@ -1,0 +1,185 @@
+{
+ "pmid": "39212900",
+ "title": "Comparison of the effects of Liraglutide, Tirzepatide, and Retatrutide on diabetic kidney disease in db/db mice.",
+ "abstractText": "<h4>Purpose</h4>To assess and compare the therapeutic efficacy of Liraglutide, Tirzepatide, and Retatrutide in treating diabetic kidney disease (DKD) in db/db mice.<h4>Methods</h4>Db/db mice were administered intraperitoneal injections of Liraglutide (10 nmol/kg), Tirzepatide (10 nmol/kg), and Retatrutide (10 nmol/kg) for 10 weeks. Subsequently, we assessed the effectiveness of these three drugs in controlling blood glucose levels, reducing weight, and improving serum biochemical indicators and DKD. Additionally, we measured and compared the renal inflammation and fibrosis indexes. Meanwhile, the content of intestinal metabolite butyrate was compared to reflect the regulatory effects of these three drugs on gut microbiota.<h4>Results</h4>Retatrutide demonstrated superior effectiveness in reducing weight and improving renal function in db/db mice compared to Liraglutide and Tirzepatide. Additionally, it markedly suppressed the expression of pro-inflammatory cytokines (TNF-α, caspase-1, and NLRP3) and pro-fibrotic factors (fibronectin, α-SMA, and collagen I) in the kidneys of mice. Furthermore, Retatrutide substantially enhanced liver function, reduced triglyceride levels, cholesterol levels, low-density lipoprotein cholesterol, elevated high-density lipoprotein cholesterol, and increased the content of intestinal metabolite butyrate in db/db mice when compared to the other two drugs. Unfortunately, despite its ability to lower blood glucose levels, Retatrutide did not outperform the other two drugs. In contrast, Tirzepatide exhibited better effects on lowering blood glucose, weight loss, lipid reduction, and improvement of DKD compared to Liraglutide.<h4>Conclusions</h4>Retatrutide and Tirzepatide were significantly effective in improving DKD, controlling blood glucose and body weight. Retatrutide was the most effective in improving DKD and body weight, while Tirzepatide was the most effective in controlling blood glucose. Inhibiting the expression of inflammatory factors and fibrosis mediators and regulating intestinal microbiota may be the potential mechanisms of these two drugs to delay the progression of DKD.",
+ "pubYear": "2025",
+ "firstPublicationDate": "2024-08-30",
+ "authorString": "Ma J, Hu X, Zhang W, Tao M, Wang M, Lu W.",
+ "pubTypeList": {
+  "pubType": [
+   "Comparative Study",
+   "Journal Article"
+  ]
+ },
+ "meshHeadingList": {
+  "meshHeading": [
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Kidney",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "DE",
+       "qualifierName": "drug effects"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "ME",
+       "qualifierName": "metabolism"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "PA",
+       "qualifierName": "pathology"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Animals"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Mice, Inbred C57BL"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Mice"
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Diabetic Nephropathies",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "DT",
+       "qualifierName": "drug therapy"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "ME",
+       "qualifierName": "metabolism"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "PA",
+       "qualifierName": "pathology"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Diabetes Mellitus, Experimental",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "DT",
+       "qualifierName": "drug therapy"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Blood Glucose",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "DE",
+       "qualifierName": "drug effects"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Fatty Acids"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Peptides"
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Hypoglycemic Agents",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "PD",
+       "qualifierName": "pharmacology"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "TU",
+       "qualifierName": "therapeutic use"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Male"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Gastrointestinal Microbiome",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "DE",
+       "qualifierName": "drug effects"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Liraglutide",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "PD",
+       "qualifierName": "pharmacology"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "TU",
+       "qualifierName": "therapeutic use"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Tirzepatide"
+   }
+  ]
+ },
+ "source": "MED",
+ "journalInfo": {
+  "issue": "1",
+  "volume": "87",
+  "journalIssueId": 3888618,
+  "dateOfPublication": "2025 Jan",
+  "monthOfPublication": 1,
+  "yearOfPublication": 2025,
+  "journal": {
+   "medlineAbbreviation": "Endocrine",
+   "title": "Endocrine",
+   "essn": "1559-0100",
+   "issn": "1355-008X",
+   "isoabbreviation": "Endocrine",
+   "nlmid": "9434444"
+  },
+  "printPublicationDate": "2025-01-01"
+ }
+}
