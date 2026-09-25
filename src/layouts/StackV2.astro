@@ -14,6 +14,7 @@ import ClaimCards from '../components/v2/ClaimCards.astro';
 import Faq from '../components/v2/Faq.astro';
 import Sources from '../components/v2/Sources.astro';
 import EditorialSection from '../components/v2/EditorialSection.astro';
+import { entityLinker } from '../lib/entities';
 import { rich, paragraphs, timeTag } from '../lib/format';
 import { isIndexable, title, description, lastmod, formatCount, TIER_LABEL } from '../lib/site';
 import { compound as regCompound } from '../lib/registry';
@@ -41,6 +42,8 @@ const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline:
 type Guide = { id: string; heading: string; lede?: string; html: string; pending?: boolean };
 const guide: Guide[] = (d.guide ?? []) as Guide[];
 type Block = { id: string; kind: 'components' | 'combination' | 'guide' | 'open' | 'faq'; label: string; group: string; guide?: Guide };
+// Links the first mention of each other record in this page's own prose.
+const linkEntities = entityLinker([d.slug, ...(d.components ?? [])], 10);
 const blocks: Block[] = [
   { id: 'components', kind: 'components', label: headingFor(intent, 'components', 'Each component on its own evidence'), group: 'Evidence' },
   { id: 'combination', kind: 'combination', label: headingFor(intent, 'combination', 'What has been tested as a combination'), group: 'Evidence' },
@@ -106,7 +109,7 @@ const toc = [
               <section id="combination"><div><h2>{b.label}</h2><p class="lede">{boundaryFor(intent, 'combination') ?? 'Indexed papers that mention every component, quoted. A count of zero is the finding, not a gap in this page.'}</p></div>
                 {combination.length > 0 ? <ClaimCards claims={combination} sources={d.sources} /> : <div class="status"><div><strong>No published study tested this combination.</strong> The component evidence above is the whole of what is known; effects of a combination are not established by adding the components together.</div></div>}
               </section>);
-            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={b.guide!.html} pending={b.guide!.pending} />;
+            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={linkEntities(b.guide!.html)} pending={b.guide!.pending} />;
             case 'open': return <section id="open"><h2>{b.label}</h2><ul class="list">{d.open_questions.map((q: string) => <li>{q}</li>)}</ul></section>;
             case 'faq': return <section id="faq"><h2>{b.label}</h2><Faq items={faqItems} html /></section>;
           }
