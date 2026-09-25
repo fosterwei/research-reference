@@ -72,7 +72,12 @@
       "target": "ghrelin receptor (GHS-R1a) agonist",
       "molecule_type": "peptide",
       "length_aa": 6,
-      "pilot_wave": 1
+      "pilot_wave": 1,
+      "exclude_terms": [
+        "D-Lys3",
+        "D-Lys(3)",
+        "antagonist"
+      ]
     },
     {
       "slug": "kisspeptin",
@@ -154,14 +159,23 @@
         "GRF 1-29",
         "GHRH(1-29)",
         "GHRH 1-29",
-        "Geref"
+        "Geref",
+        "growth hormone-releasing hormone (1-29)",
+        "GRF(1-29)"
       ],
       "sequence": null,
       "class": "ghrh-analogs",
       "target": "GHRH receptor agonist, GHRH(1-29)",
       "molecule_type": "peptide",
       "length_aa": 29,
-      "pilot_wave": 1
+      "pilot_wave": 1,
+      "exclude_terms": [
+        "MIA-602",
+        "MIA-690",
+        "JV-1-36",
+        "MZ-4-71",
+        "antagonist"
+      ]
     },
     {
       "slug": "ss-31",
@@ -354,7 +368,16 @@
       "target": "non-selective melanocortin receptor agonist",
       "molecule_type": "peptide",
       "length_aa": 7,
-      "pilot_wave": 2
+      "pilot_wave": 2,
+      "exclude_terms": [
+        "metallothionein",
+        "myotoxin",
+        "MT/V5",
+        "V5/MT",
+        "middle temporal",
+        "angiotensinogen",
+        "cadmium"
+      ]
     },
     {
       "slug": "selank",
@@ -367,7 +390,13 @@
       "target": "tuftsin analog; GABAergic and cytokine effects reported",
       "molecule_type": "peptide",
       "length_aa": 7,
-      "pilot_wave": 2
+      "pilot_wave": 2,
+      "exclude_terms": [
+        "ultrasound-guided",
+        "regional anesthesia",
+        "gamma coherence",
+        "bone resorption"
+      ]
     },
     {
       "slug": "semax",
@@ -378,7 +407,13 @@
       "target": "ACTH(4-7) analog; BDNF and monoaminergic effects reported",
       "molecule_type": "peptide",
       "length_aa": 7,
-      "pilot_wave": 2
+      "pilot_wave": 2,
+      "exclude_terms": [
+        "sella",
+        "maxill",
+        "orthodont",
+        "cephalometric"
+      ]
     },
     {
       "slug": "tesofensine",

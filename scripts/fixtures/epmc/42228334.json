@@ -1,0 +1,157 @@
+{
+ "pmid": "42228334",
+ "title": "Renal or Hepatic Impairment Does Not Affect Pharmacokinetics, Safety, or Tolerability of Subcutaneous Cagrilintide.",
+ "abstractText": "<h4>Background and objectives</h4>Cagrilintide is a long-acting amylin agonist under development as monotherapy for weight management and as a fixed-dose combination with the glucagon-like peptide-1 receptor agonist semaglutide (CagriSema) for weight management and treatment of type 2 diabetes. Two studies were conducted to assess the effects of renal or hepatic impairment on pharmacokinetics, safety and tolerability following single doses of cagrilintide.<h4>Methods</h4>In both studies, adult participants were categorised into four groups on the basis of renal or hepatic function (normal function and mild, moderate or severe impairment) and received a single dose of cagrilintide 0.6 or 0.9 mg, respectively. The primary endpoint was area under the cagrilintide plasma concentration curve from time zero extrapolated to infinity (AUC<sub>0-∞</sub>) from baseline (day 1) to day 36 (renal impairment study) or day 39 (hepatic impairment study). Other pharmacokinetic parameters included maximum observed cagrilintide plasma concentration (C<sub>max</sub>), time to C<sub>max</sub> (t<sub>max</sub>) and safety.<h4>Results</h4>The renal impairment study included 33 participants (normal function, n = 14; mild impairment, n = 7; moderate impairment, n = 7; severe impairment, n = 5) and the hepatic impairment study included 32 participants (normal function, n = 14; mild impairment, n = 7; moderate impairment, n = 7; severe impairment, n = 4). In both studies, total cagrilintide exposure (AUC<sub>0-∞</sub>), C<sub>max</sub> and other pharmacokinetic parameters were similar across groups with no consistent patterns observed with renal or hepatic impairment. Compared with normal renal function, the estimated ratio of the mean AUC<sub>0-∞</sub> was 1.23 (90% confidence interval [CI], 0.91-1.66) in mild impairment, 1.18 (0.87-1.59) in moderate impairment and 1.21 (0.87-1.68) in severe impairment. Compared with normal hepatic function, the estimated ratio of the mean AUC<sub>0-∞</sub> was 0.99 (0.89-1.11) in mild impairment, 1.01 (0.91-1.12) in moderate impairment and 1.11 (0.96-1.30) in severe impairment. Overall, 21 and 16 treatment-emergent adverse events (TEAEs) were reported in 11 and 9 participants in the renal and hepatic studies, respectively. In both studies, no serious TEAEs, TEAEs leading to study withdrawal or deaths were reported. No increase in number of adverse events with increasing renal or hepatic impairment was observed, and no new safety or tolerability findings with cagrilintide were identified with renal or hepatic impairment.<h4>Conclusions</h4>In these studies, within the limitations of small sample sizes, no clinically relevant differences in cagrilintide pharmacokinetics were observed in participants with renal or hepatic impairment compared with those with normal function, suggesting that dose adjustment is not warranted for these populations. Cagrilintide was well-tolerated and there were no unexpected safety issues.<h4>Trial registration</h4>Studies are registered at ClinicalTrials.gov (NCT04209049 registered 23 December 2019 and NCT05564104 registered 3 October 2022).",
+ "pubYear": "2026",
+ "firstPublicationDate": "2026-06-01",
+ "authorString": "Nielsen MJF, Becker NP, Duus HHH, Kirkeby K, Kupčová V, Lauenborg BW, Low B, Svolgaard O, Witten L.",
+ "pubTypeList": {
+  "pubType": [
+   "research-article",
+   "Multicenter Study",
+   "Clinical Trial, Phase I",
+   "Randomized Controlled Trial",
+   "Journal Article"
+  ]
+ },
+ "meshHeadingList": {
+  "meshHeading": [
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Humans"
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Liver Diseases",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "ME",
+       "qualifierName": "metabolism"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Hypoglycemic Agents",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "AD",
+       "qualifierName": "administration & dosage"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "AE",
+       "qualifierName": "adverse effects"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "BL",
+       "qualifierName": "blood"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "PK",
+       "qualifierName": "pharmacokinetics"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Injections, Subcutaneous"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Area Under Curve"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Adult"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Aged"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Middle Aged"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Female"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Male"
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Renal Insufficiency",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "ME",
+       "qualifierName": "metabolism"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Glucagon-Like Peptides",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "AD",
+       "qualifierName": "administration & dosage"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "AE",
+       "qualifierName": "adverse effects"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "AA",
+       "qualifierName": "analogs & derivatives"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "PK",
+       "qualifierName": "pharmacokinetics"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Semaglutide"
+   }
+  ]
+ },
+ "source": "MED",
+ "journalInfo": {
+  "issue": "7",
+  "volume": "65",
+  "journalIssueId": 4229403,
+  "dateOfPublication": "2026 Jul",
+  "monthOfPublication": 7,
+  "yearOfPublication": 2026,
+  "journal": {
+   "medlineAbbreviation": "Clin Pharmacokinet",
+   "title": "Clinical pharmacokinetics",
+   "essn": "1179-1926",
+   "issn": "0312-5963",
+   "nlmid": "7606849",
+   "isoabbreviation": "Clin Pharmacokinet"
+  },
+  "printPublicationDate": "2026-07-01"
+ }
+}

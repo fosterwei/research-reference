@@ -1,0 +1,129 @@
+{
+ "pmid": "37874230",
+ "title": "Cellular Senescence Contributes to the Progression of Hyperoxic Bronchopulmonary Dysplasia.",
+ "abstractText": "Oxidative stress, inflammation, and endoplasmic reticulum (ER) stress sequentially occur in bronchopulmonary dysplasia (BPD), and all result in DNA damage. When DNA damage becomes irreparable, tumor suppressors increase, followed by apoptosis or senescence. Although cellular senescence contributes to wound healing, its persistence inhibits growth. Therefore, we hypothesized that cellular senescence contributes to BPD progression. Human autopsy lungs were obtained. Sprague-Dawley rat pups exposed to 95% oxygen between Postnatal Day 1 (P1) and P10 were used as the BPD phenotype. <i>N</i>-acetyl-lysyltyrosylcysteine-amide (KYC), tauroursodeoxycholic acid (TUDCA), and Foxo4 dri were administered intraperitoneally to mitigate myeloperoxidase oxidant generation, ER stress, and cellular senescence, respectively. Lungs were examined by histology, transcriptomics, and immunoblotting. Cellular senescence increased in rat and human BPD lungs, as evidenced by increased oxidative DNA damage, tumor suppressors, GL-13 stain, and inflammatory cytokines with decreased cell proliferation and lamin B expression. Cellular senescence-related transcripts in BPD rat lungs were enriched at P10 and P21. Single-cell RNA sequencing showed increased cellular senescence in several cell types, including type 2 alveolar cells. In addition, Foxo4-p53 binding increased in BPD rat lungs. Daily TUDCA or KYC, administered intraperitoneally, effectively decreased cellular senescence, improved alveolar complexity, and partially maintained the numbers of type 2 alveolar cells. Foxo4 dri administered at P4, P6, P8, and P10 led to outcomes similar to TUDCA and KYC. Our data suggest that cellular senescence plays an essential role in BPD after initial inducement by hyperoxia. Reducing myeloperoxidase toxic oxidant production, ER stress, and attenuating cellular senescence are potential therapeutic strategies for halting BPD progression.",
+ "pubYear": "2024",
+ "firstPublicationDate": "2024-02-01",
+ "authorString": "Jing X, Jia S, Teng M, Day BW, Afolayan AJ, Jarzembowski JA, Lin CW, Hessner MJ, Pritchard KA, Naylor S, Konduri GG, Teng RJ.",
+ "pubTypeList": {
+  "pubType": [
+   "research-article",
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ]
+ },
+ "meshHeadingList": {
+  "meshHeading": [
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Lung",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "PA",
+       "qualifierName": "pathology"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Animals"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Animals, Newborn"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Humans"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Rats"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Rats, Sprague-Dawley"
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Bronchopulmonary Dysplasia",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "PA",
+       "qualifierName": "pathology"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Disease Models, Animal"
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Hyperoxia",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "ME",
+       "qualifierName": "metabolism"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Taurochenodeoxycholic Acid"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Peroxidase",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "ME",
+       "qualifierName": "metabolism"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Oxidants"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Infant, Newborn"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Cellular Senescence"
+   }
+  ]
+ },
+ "source": "MED",
+ "journalInfo": {
+  "issue": "2",
+  "volume": "70",
+  "journalIssueId": 3704427,
+  "dateOfPublication": "2024 Feb",
+  "monthOfPublication": 2,
+  "yearOfPublication": 2024,
+  "journal": {
+   "medlineAbbreviation": "Am J Respir Cell Mol Biol",
+   "title": "American journal of respiratory cell and molecular biology",
+   "essn": "1535-4989",
+   "issn": "1044-1549",
+   "nlmid": "8917225",
+   "isoabbreviation": "Am J Respir Cell Mol Biol"
+  },
+  "printPublicationDate": "2024-02-01"
+ }
+}

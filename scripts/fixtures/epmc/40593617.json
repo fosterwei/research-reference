@@ -1,0 +1,151 @@
+{
+ "pmid": "40593617",
+ "title": "The disordered p53 transactivation domain is the target of FOXO4 and the senolytic compound FOXO4-DRI.",
+ "abstractText": "A central process contributing to the phenotype of aging is cellular senescence. We recently identified the FOXO4 - p53 axis as pivotal in maintaining the viability of senescent cells, and that senescent cells can be targeted selectively with the senolytic peptide FOXO4-DRI. Here, we solve the solution NMR structural models of the p53 transactivation domain in complex with the FOXO4 forkhead domain and in complex with FOXO4-DRI. Strikingly, we find that the disordered FOXO4-DRI binds to the disordered p53<sup>TAD2</sup> and forms a transiently folded complex. In this complex, both, the FOXO4-derived region and the cationic cell permeability peptide contribute to the interaction. Furthermore, we show that p53 phosphorylation enhances the affinity for both FOXO4 and FOXO4-DRI. Summarizing we provide a detailed characterization of the interaction of p53 with FOXO4 and FOXO4-DRI which is the basis for development of p53 inhibitors to treat diseases linked to cellular senescence such as cancers.",
+ "pubYear": "2025",
+ "firstPublicationDate": "2025-07-01",
+ "authorString": "Bourgeois B, Spreitzer E, Platero-Rochart D, Paar M, Zhou Q, Usluer S, de Keizer PLJ, Burgering BMT, Sánchez-Murcia PA, Madl T.",
+ "pubTypeList": {
+  "pubType": [
+   "research-article",
+   "Journal Article"
+  ]
+ },
+ "meshHeadingList": {
+  "meshHeading": [
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Humans"
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Cell Cycle Proteins",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "ME",
+       "qualifierName": "metabolism"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "CH",
+       "qualifierName": "chemistry"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Transcription Factors",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "GE",
+       "qualifierName": "genetics"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "ME",
+       "qualifierName": "metabolism"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "CH",
+       "qualifierName": "chemistry"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Protein Binding"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Phosphorylation"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Models, Molecular"
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Tumor Suppressor Protein p53",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "GE",
+       "qualifierName": "genetics"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "ME",
+       "qualifierName": "metabolism"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "CH",
+       "qualifierName": "chemistry"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "Y",
+    "descriptorName": "Forkhead Transcription Factors",
+    "meshQualifierList": {
+     "meshQualifier": [
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "GE",
+       "qualifierName": "genetics"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "ME",
+       "qualifierName": "metabolism"
+      },
+      {
+       "majorTopic_YN": "N",
+       "abbreviation": "CH",
+       "qualifierName": "chemistry"
+      }
+     ]
+    }
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Transcriptional Activation"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Protein Domains"
+   },
+   {
+    "majorTopic_YN": "N",
+    "descriptorName": "Cellular Senescence"
+   }
+  ]
+ },
+ "source": "MED",
+ "journalInfo": {
+  "issue": "1",
+  "volume": "16",
+  "journalIssueId": 3968953,
+  "dateOfPublication": "2025 Jul",
+  "monthOfPublication": 7,
+  "yearOfPublication": 2025,
+  "journal": {
+   "medlineAbbreviation": "Nat Commun",
+   "title": "Nature communications",
+   "essn": "2041-1723",
+   "issn": "2041-1723",
+   "isoabbreviation": "Nat Commun",
+   "nlmid": "101528555"
+  },
+  "printPublicationDate": "2025-07-01"
+ }
+}

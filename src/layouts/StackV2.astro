@@ -98,7 +98,7 @@ const toc = [
                 <div class="card clip"><div class="tblwrap"><table class="tbl">
                   <caption>Each component's own record. Nothing is inferred across rows.</caption>
                   <thead><tr><th scope="col">Compound</th><th scope="col">Tier</th><th scope="col" class="num">Publications</th><th scope="col" class="num">RCTs</th><th scope="col">Human studies in ledger</th></tr></thead>
-                  <tbody>{components.map((c) => { const p = c.data.evidence_summary?.publications ?? {}; const hum = (c.data.attributes as any).evidence_table?.filter((r: any) => r.fields?.species === 'Humans').length ?? 0; return (
+                  <tbody>{components.map((c) => { const p = c.data.evidence_summary?.publications ?? {}; const hum = (c.data.attributes as any).evidence_table?.filter((r: any) => r.fields?.species === 'Humans' && !/method|in vitro|measured, not given/i.test(r.fields?.design ?? '')).length ?? 0; return (
                     <tr><th scope="row" class="study"><a href={`/compounds/${c.data.slug}`}>{c.data.preferred_name}</a></th><td><Tier tier={c.data.evidence_tier} /></td><td class="num">{formatCount(p.total)}</td><td class="num">{formatCount(p.randomized_controlled_trials)}</td><td>{hum}</td></tr>); })}</tbody>
                 </table></div></div>
               </section>);
