@@ -240,15 +240,6 @@
         "drafting": "extractive"
       },
       {
-        "value": "Human study, humans, 2026: durations stated: 12 months. Maxillary protraction was performed using a modified Alt-RAMEC protocol followed by continuous intermaxillary elastic traction for 12 months.",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-42074872"
-        ],
-        "source_excerpt": "Maxillary protraction was performed using a modified Alt-RAMEC protocol followed by continuous intermaxillary elastic traction for 12 months.",
-        "drafting": "extractive"
-      },
-      {
         "value": "Human study, humans, n=58, 2015: durations stated: 10 days. In group 1, 58 patients received conventional therapy, while 60 patients in group 2 received the same with additional 0.1% semax solution intranasally 600 mg/day for 10 days.",
         "evidence_label": "observational-human",
         "source_ids": [
@@ -391,26 +382,6 @@
           "route": "not stated in abstract",
           "duration": "10 days",
           "outcome": "It was established that including of Semax in combined intensive therapy of acute ischemic stroke had some influence on the rate of restoration of the damaged neurological functions in terms of increasing the regress…"
-        }
-      },
-      {
-        "value": "Human study, humans, 2026: A significant increase in SNA was observed (mean +6.1°, p p = 0.007), and the SeMax increased by 2.9 mm ( p = 0.0013).",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-42074872"
-        ],
-        "source_excerpt": "A significant increase in SNA was observed (mean +6.1°, p p = 0.007), and the SeMax increased by 2.9 mm ( p = 0.0013).",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Arcos 2026",
-          "year": "2026",
-          "design": "Human study",
-          "n": null,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "12 months",
-          "outcome": "A significant increase in SNA was observed (mean +6.1°, p p = 0.007), and the SeMax increased by 2.9 mm ( p = 0.0013)."
         }
       },
       {
@@ -877,7 +848,8 @@
       "papers_analysed": 37,
       "claims": 29,
       "evidence_table_rows": 25
-    }
+    },
+    "hand_curation": "On 2026-09-24, 1 sources matched by an alias but not about this compound were removed with their rows and claims, after scripts/fetch_evidence.subject_match flagged them; the fetcher's publication counts still include them."
   },
   "comparison_peers": [],
   "open_questions": [
@@ -957,13 +929,6 @@
     }
   ],
   "sources": [
-    {
-      "id": "pmid-42074872",
-      "title": "Digitally Guided Hybrid Maxillary Expansion with Supragingival Mandibular Miniplates for Class III Correction in Late Adolescents: A Pilot Clinical Study.",
-      "url": "https://europepmc.org/article/MED/42074872",
-      "published": "2026-04-17",
-      "kind": "peer-reviewed"
-    },
     {
       "id": "pmid-41479572",
       "title": "The Potential of the Peptide Drug Semax and Its Derivative for Correcting Pathological Impairments in the Animal Model of Alzheimer's Disease.",
@@ -1225,7 +1190,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 85.6,
+  "uniqueness_pct": 85.4,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1256,6 +1221,10 @@
     {
       "date": "2026-09-24",
       "change": "Registration date hedged: sources disagree by formulation. Stage 2 competitors and information gain written to the intent map."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Hand curation: 1 alias-matched sources removed with 1 evidence rows and 1 claims. Flagged by the subject filter added to scripts/fetch_evidence.py the same day."
     }
   ],
   "guide": [

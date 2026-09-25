@@ -18,15 +18,6 @@
   "attributes": {
     "routes_studied": [
       {
-        "value": "Human study, humans, 1999: administration by oral route reported. Thirty-seven patients with newly diagnosed bone metastases from breast cancer, randomized to receive oral pamidronate or placebo tablets in addition to anticancer treatment within the context of a multicentre EORTC trial, who were both assessable for radiographic response…",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-10390000"
-        ],
-        "source_excerpt": "Thirty-seven patients with newly diagnosed bone metastases from breast cancer, randomized to receive oral pamidronate or placebo tablets in addition to anticancer treatment within the context of a multicentre EORTC trial, who were both assessable for radiographic response in bone and had serum and urine samples collected for more than 1 month were studied.",
-        "drafting": "extractive"
-      },
-      {
         "value": "Animal study, rats, 2022: administration by intraperitoneal route reported. Single intraperitoneal injection of Selank in an anxiolytic dose of 0.3 mg/kg reduced the total index of morphine withdrawal syndrome by 39.6%, significantly (р<0.0001) attenuated convulsive reactions, ptosis, and posture disorders, and 9-fold increased the…",
         "evidence_label": "animal-preclinical",
         "source_ids": [
@@ -138,15 +129,6 @@
         ],
         "source_excerpt": "Taken together, the therapeutic efficacy and reduction of side-effects had a positive impact on the quality-of-life of the patients treated with selank as add-on to phenazepam.",
         "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, 2022: The potential strains, especially Tp-7, improved the nutritional value of FSBM by their strong hydrolytic and antioxidant activities, together with reducing antinutritional components.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-35536569"
-        ],
-        "source_excerpt": "The potential strains, especially Tp-7, improved the nutritional value of FSBM by their strong hydrolytic and antioxidant activities, together with reducing antinutritional components.",
-        "drafting": "extractive"
       }
     ],
     "exclusion_criteria": [],
@@ -257,15 +239,6 @@
       }
     ],
     "study_durations": [
-      {
-        "value": "Human study, humans, 1999: durations stated: 1 month. Thirty-seven patients with newly diagnosed bone metastases from breast cancer, randomized to receive oral pamidronate or placebo tablets in addition to anticancer treatment within the context of a multicentre EORTC trial, who were both assessable for radiographic response in bone and…",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-10390000"
-        ],
-        "source_excerpt": "Thirty-seven patients with newly diagnosed bone metastases from breast cancer, randomized to receive oral pamidronate or placebo tablets in addition to anticancer treatment within the context of a multicentre EORTC trial, who were both assessable for radiographic response in bone and had serum and urine samples collected for more than 1 month were studied.",
-        "drafting": "extractive"
-      },
       {
         "value": "Animal study, rats, 2021: durations stated: 20 days; 20 day. Laboratory animals were divided into 3 groups: a group of intact males, a group of animals that were subjected to stress (sensory contact) for 20 days and a group that received intraperitoneally Selank at a dose of 100 mcg/kg/day under conditions of 20-day stress.",
         "evidence_label": "animal-preclinical",
@@ -410,26 +383,6 @@
         }
       },
       {
-        "value": "Clinical trial, humans, n=2, 2012: After 5 weeks of augmentation, 51% of the patients were rated as \"much\" or \"very much\" improved.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-22796912"
-        ],
-        "source_excerpt": "After 5 weeks of augmentation, 51% of the patients were rated as \"much\" or \"very much\" improved.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Alevizos 2012",
-          "year": "2012",
-          "design": "Clinical trial",
-          "n": 2,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "After 5 weeks of augmentation, 51% of the patients were rated as \"much\" or \"very much\" improved."
-        }
-      },
-      {
         "value": "Randomized controlled trial, humans, n=30, 2008: The increase of this parameter and stronger positive correlations with anxiety level were observed during the treatment with selank mostly in patients with GAD.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
@@ -447,26 +400,6 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "The increase of this parameter and stronger positive correlations with anxiety level were observed during the treatment with selank mostly in patients with GAD."
-        }
-      },
-      {
-        "value": "Human study, humans, 2026: This exploratory bibliometric study aimed to characterize publication trends, research clusters, and emerging topics in artificial intelligence (AI)-assisted ultrasound-guided regional anesthesia (UGRA).",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-42662121"
-        ],
-        "source_excerpt": "This exploratory bibliometric study aimed to characterize publication trends, research clusters, and emerging topics in artificial intelligence (AI)-assisted ultrasound-guided regional anesthesia (UGRA).",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Lu 2026",
-          "year": "2026",
-          "design": "Human study",
-          "n": null,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "see source"
         }
       },
       {
@@ -490,46 +423,6 @@
         }
       },
       {
-        "value": "Human study, humans, 2011: Patients showed significantly lower gamma coherence values in response to target stimuli than the healthy controls between left and right fronto-temporal, as well as between frontal and temporo-parietal electrode pairs.",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-21459454"
-        ],
-        "source_excerpt": "Patients showed significantly lower gamma coherence values in response to target stimuli than the healthy controls between left and right fronto-temporal, as well as between frontal and temporo-parietal electrode pairs.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Özerdem 2011",
-          "year": "2011",
-          "design": "Human study",
-          "n": null,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "Patients showed significantly lower gamma coherence values in response to target stimuli than the healthy controls between left and right fronto-temporal, as well as between frontal and temporo-parietal electrode pairs."
-        }
-      },
-      {
-        "value": "Human study, humans, 1999: Before treatment, levels of Ntx, uCa and Hyp were elevated in 41%, 24% and 28% respectively, and CA15-3 and CASA increased in 69% and 50%.",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-10390000"
-        ],
-        "source_excerpt": "Before treatment, levels of Ntx, uCa and Hyp were elevated in 41%, 24% and 28% respectively, and CA15-3 and CASA increased in 69% and 50%.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Vinholes 1999",
-          "year": "1999",
-          "design": "Human study",
-          "n": null,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "oral",
-          "duration": "1 month",
-          "outcome": "Before treatment, levels of Ntx, uCa and Hyp were elevated in 41%, 24% and 28% respectively, and CA15-3 and CASA increased in 69% and 50%."
-        }
-      },
-      {
         "value": "Animal study, rats, 2022: Single intraperitoneal injection of Selank in an anxiolytic dose of 0.3 mg/kg reduced the total index of morphine withdrawal syndrome by 39.6%, significantly (р<0.0001) attenuated convulsive reactions, ptosis, and posture disorders, and 9-fold increased the tactile sensitivity threshold in morphine-dependent…",
         "evidence_label": "animal-preclinical",
         "source_ids": [
@@ -547,26 +440,6 @@
           "route": "intraperitoneal",
           "duration": "not stated in abstract",
           "outcome": "Single intraperitoneal injection of Selank in an anxiolytic dose of 0.3 mg/kg reduced the total index of morphine withdrawal syndrome by 39.6%, significantly (р<0.0001) attenuated convulsive reactions, ptosis, and…"
-        }
-      },
-      {
-        "value": "Animal study, 2022: During solid-state fermentation of SBM, Tp-5 and Tp-7 exhibited the highest protease activity (1127.2 and 1552.4 U g-1, respectively) at 36 h, and the resulting FSBMs showed a significant increase in crude protein content and free radical-scavenging ability (P < 0.05), as well as an improvement in the composition of…",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-35536569"
-        ],
-        "source_excerpt": "During solid-state fermentation of SBM, Tp-5 and Tp-7 exhibited the highest protease activity (1127.2 and 1552.4 U g-1, respectively) at 36 h, and the resulting FSBMs showed a significant increase in crude protein content and free radical-scavenging ability (P < 0.05), as well as an improvement in the composition of amino acids, metabolites and other nutrients, while indigestible materials such as fiber, lignin and hemicellulose were decreased.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Nualkul 2022",
-          "year": "2022",
-          "design": "Animal study",
-          "n": null,
-          "species": "not indexed",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "During solid-state fermentation of SBM, Tp-5 and Tp-7 exhibited the highest protease activity (1127.2 and 1552.4 U g-1, respectively) at 36 h, and the resulting FSBMs showed a significant increase in crude protein…"
         }
       },
       {
@@ -590,26 +463,6 @@
         }
       },
       {
-        "value": "Animal study, cattle, 2020: Although both challenge diets resulted in a decline in pH, an increase in the absolute pH residuals and an increase in the number of minutes per day under pH 5.8, systemic inflammation was only detected with the HSt diet.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-32314683"
-        ],
-        "source_excerpt": "Although both challenge diets resulted in a decline in pH, an increase in the absolute pH residuals and an increase in the number of minutes per day under pH 5.8, systemic inflammation was only detected with the HSt diet.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Francesio 2020",
-          "year": "2020",
-          "design": "Animal study",
-          "n": null,
-          "species": "Cattle",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "Although both challenge diets resulted in a decline in pH, an increase in the absolute pH residuals and an increase in the number of minutes per day under pH 5.8, systemic inflammation was only detected with the HSt…"
-        }
-      },
-      {
         "value": "Animal study, rats, 2019: In ex vivo experiments, Selank prevented ethanol-induced increase in BDNF content in the hippocampus and frontal cortex (p<0.05).",
         "evidence_label": "animal-preclinical",
         "source_ids": [
@@ -627,26 +480,6 @@
           "route": "intraperitoneal",
           "duration": "30 weeks",
           "outcome": "In ex vivo experiments, Selank prevented ethanol-induced increase in BDNF content in the hippocampus and frontal cortex (p<0.05)."
-        }
-      },
-      {
-        "value": "Animal study, 2019: There were significant differences between the investigated flocks concerning the occurrence of foot pad lesions.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-30496524"
-        ],
-        "source_excerpt": "There were significant differences between the investigated flocks concerning the occurrence of foot pad lesions.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Freihold 2019",
-          "year": "2019",
-          "design": "Animal study",
-          "n": null,
-          "species": "not indexed",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "There were significant differences between the investigated flocks concerning the occurrence of foot pad lesions."
         }
       },
       {
@@ -927,7 +760,8 @@
       "papers_analysed": 34,
       "claims": 36,
       "evidence_table_rows": 25
-    }
+    },
+    "hand_curation": "On 2026-09-24, 7 sources matched by an alias but not about this compound were removed with their rows and claims, after scripts/fetch_evidence.subject_match flagged them; the fetcher's publication counts still include them."
   },
   "comparison_peers": [],
   "open_questions": [
@@ -1014,13 +848,6 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-42662121",
-      "title": "Trends and research clusters in artificial intelligence-assisted ultrasound-guided regional anesthesia: A bibliometric analysis.",
-      "url": "https://europepmc.org/article/MED/42662121",
-      "published": "2026-01-01",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-37677054",
       "title": "Atrial fibrillation-associated electrical remodelling in human induced pluripotent stem cell-derived atrial cardiomyocytes: a novel pathway for antiarrhythmic therapy development.",
       "url": "https://europepmc.org/article/MED/37677054",
@@ -1035,24 +862,10 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-35536569",
-      "title": "Improving the nutritional value and bioactivity of soybean meal in solid-state fermentation using Bacillus strains newly isolated from the gut of the termite Termes propinquus.",
-      "url": "https://europepmc.org/article/MED/35536569",
-      "published": "2022-06-01",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-32621722",
       "title": "The Influence of Selank on the Level of Cytokines Under the Conditions of \"Social\" Stress.",
       "url": "https://europepmc.org/article/MED/32621722",
       "published": "2021-01-01",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-32314683",
-      "title": "Contrasting effects of high-starch and high-sugar diets on ruminal function in cattle.",
-      "url": "https://europepmc.org/article/MED/32314683",
-      "published": "2020-04-21",
       "kind": "peer-reviewed"
     },
     {
@@ -1074,13 +887,6 @@
       "title": "Selank, Peptide Analogue of Tuftsin, Protects Against Ethanol-Induced Memory Impairment by Regulating of BDNF Content in the Hippocampus and Prefrontal Cortex in Rats.",
       "url": "https://europepmc.org/article/MED/31625062",
       "published": "2019-09-01",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-30496524",
-      "title": "Investigation of the prevalence and severity of foot pad dermatitis at the slaughterhouse in fattening turkeys reared in organic production systems in Germany.",
-      "url": "https://europepmc.org/article/MED/30496524",
-      "published": "2019-04-01",
       "kind": "peer-reviewed"
     },
     {
@@ -1175,20 +981,6 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-22796912",
-      "title": "Low dosage lithium augmentation in venlafaxine resistant depression: an open-label study.",
-      "url": "https://europepmc.org/article/MED/22796912",
-      "published": "2012-04-01",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-21459454",
-      "title": "Reduced long distance gamma (28-48 Hz) coherence in euthymic patients with bipolar disorder.",
-      "url": "https://europepmc.org/article/MED/21459454",
-      "published": "2011-04-02",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-20919548",
       "title": "[Experimental optimization of learning and memory processes by selank].",
       "url": "https://europepmc.org/article/MED/20919548",
@@ -1236,17 +1028,10 @@
       "url": "https://europepmc.org/article/MED/11443939",
       "published": "2001-05-01",
       "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-10390000",
-      "title": "Assessment of bone response to systemic therapy in an EORTC trial: preliminary experience with the use of collagen cross-link excretion. European Organization for Research and Treatment of Cancer.",
-      "url": "https://europepmc.org/article/MED/10390000",
-      "published": "1999-04-01",
-      "kind": "peer-reviewed"
     }
   ],
   "related": [],
-  "uniqueness_pct": 82.4,
+  "uniqueness_pct": 80.5,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1273,6 +1058,10 @@
     {
       "date": "2026-09-24",
       "change": "Written guide, FAQ to 16, mechanism, reported-use (no circulating figures reproduced) and regulatory editorial sections, aliases added; intent-driven H1 and title."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Hand curation: 7 alias-matched sources removed with 7 evidence rows and 3 claims. Flagged by the subject filter added to scripts/fetch_evidence.py the same day."
     }
   ],
   "guide": [

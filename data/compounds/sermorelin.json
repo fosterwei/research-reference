@@ -111,15 +111,6 @@
         "drafting": "extractive"
       },
       {
-        "value": "Human study, humans, n=105, 2017: Several GH secretagogues are available, including GH-releasing peptides (GHRPs) GHRP-2 and GHRP-6, and the GH-releasing hormone analog, sermorelin (SERM).",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-28830317"
-        ],
-        "source_excerpt": "Several GH secretagogues are available, including GH-releasing peptides (GHRPs) GHRP-2 and GHRP-6, and the GH-releasing hormone analog, sermorelin (SERM).",
-        "drafting": "extractive"
-      },
-      {
         "value": "Human study, humans, 1991: A radioimmunoassay (RIA) for growth hormone-releasing hormone (GHRH) using a polyclonal antibody against synthetic GHRH(1-29)-Gly4-Cys-NH2 has been developed.",
         "evidence_label": "observational-human",
         "source_ids": [
@@ -127,28 +118,10 @@
         ],
         "source_excerpt": "A radioimmunoassay (RIA) for growth hormone-releasing hormone (GHRH) using a polyclonal antibody against synthetic GHRH(1-29)-Gly4-Cys-NH2 has been developed.",
         "drafting": "extractive"
-      },
-      {
-        "value": "Animal study, swine, 2022: Co-extraction and analysis of several different peptides such as insulins (human, lispro, aspart, glulisine, tresiba, detemir, glargine, bovine insulin and porcine insulin), growth hormone releasing hormones (sermorelin, CJC-1295 and tesamorelin), insulin-like growth factors (long-R 3 -IGF-I, R 3 -IGF-I and…",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-38716080"
-        ],
-        "source_excerpt": "Co-extraction and analysis of several different peptides such as insulins (human, lispro, aspart, glulisine, tresiba, detemir, glargine, bovine insulin and porcine insulin), growth hormone releasing hormones (sermorelin, CJC-1295 and tesamorelin), insulin-like growth factors (long-R 3 -IGF-I, R 3 -IGF-I and Des 1-3 -IGF-I) and mechano growth factors (human MGF and MGF-Goldspink) with criteria that fulfil the requirements of the WADA documents (TD2022 MRPL) for doping controls.",
-        "drafting": "extractive"
       }
     ],
     "reported_timelines": [],
     "storage": [
-      {
-        "value": "Randomized controlled trial, humans, n=12, 2005: Polyethylene glycol-conjugated GHRH (PEG-GHRH) was developed to provide increased stability compared with the currently available GHRH(1-29).",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-16061831"
-        ],
-        "source_excerpt": "Polyethylene glycol-conjugated GHRH (PEG-GHRH) was developed to provide increased stability compared with the currently available GHRH(1-29).",
-        "drafting": "extractive"
-      },
       {
         "value": "In vitro study, 2022: Stability experiments showed the importance of the proper handling of urine samples to avoid degradation of these peptide hormones, especially for sermorelin and its metabolite which were found to rapidly degrade at temperatures > 4 °C and pH values < 7 in accordance with earlier studies.",
         "evidence_label": "mechanistic-in-vitro",
@@ -160,15 +133,6 @@
       }
     ],
     "study_durations": [
-      {
-        "value": "Randomized controlled trial, humans, n=12, 2005: durations stated: 60 years. PEG-GHRH was administered by subcutaneous injection to young healthy men (n = 12) and elderly men and women (aged > 60 years; n = 20).",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-16061831"
-        ],
-        "source_excerpt": "PEG-GHRH was administered by subcutaneous injection to young healthy men (n = 12) and elderly men and women (aged > 60 years; n = 20).",
-        "drafting": "extractive"
-      },
       {
         "value": "Randomized controlled trial, humans, 2000: durations stated: 8 years; 7 years. Five adult male long-term survivors of childhood brain tumours (median age 21.8 years (18.4-26.7); 13.7 years (11.4-15.7) post-radiotherapy, >30Gy) and five matched controls were studied.",
         "evidence_label": "human-clinical-trial",
@@ -224,26 +188,6 @@
       }
     ],
     "evidence_table": [
-      {
-        "value": "Randomized controlled trial, humans, n=12, 2005: Serum insulin-like growth factor-I also increased in response to PEG-GHRH treatment.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-16061831"
-        ],
-        "source_excerpt": "Serum insulin-like growth factor-I also increased in response to PEG-GHRH treatment.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Munafo 2005",
-          "year": "2005",
-          "design": "Randomized controlled trial",
-          "n": 12,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "60 years",
-          "outcome": "Serum insulin-like growth factor-I also increased in response to PEG-GHRH treatment."
-        }
-      },
       {
         "value": "Randomized controlled trial, humans, 2000: An intravenous bolus of GHRH(1-29)NH(2) was administered in doses at the lower (0.05 microg/kg) and upper (0.15 microg/kg) range of the dose-response curves for young males, as well as the standard supramaximal dose (1.",
         "evidence_label": "human-clinical-trial",
@@ -405,26 +349,6 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, 1996: In every case, GH release was significantly suppressed by GHRH-Ant.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-8613546"
-        ],
-        "source_excerpt": "In every case, GH release was significantly suppressed by GHRH-Ant.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Jaffe 1996",
-          "year": "1996",
-          "design": "Randomized controlled trial",
-          "n": null,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "intravenous, oral",
-          "duration": "not stated in abstract",
-          "outcome": "In every case, GH release was significantly suppressed by GHRH-Ant."
-        }
-      },
-      {
         "value": "Clinical trial, humans, n=8, 1994: Priming increased the plasma GH response to acute GHRH in all the children in this group (6.0 +/- 2.1 ng/ml to 18.0 +/- 5.4 ng/ml; p < 0.001); b) non-responders to priming (n = 8), whose GH responses to pharmacological and acute GHRH tests were also < 10 ng/ml, with 12-hour sleep secretion < 3…",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
@@ -565,26 +489,6 @@
         }
       },
       {
-        "value": "Human study, humans, n=105, 2017: Inhibition of E production or estrogen receptor blockade resulted in smaller increases in IGF-1 levels.",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-28830317"
-        ],
-        "source_excerpt": "Inhibition of E production or estrogen receptor blockade resulted in smaller increases in IGF-1 levels.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Sigalos 2017",
-          "year": "2017",
-          "design": "Human study",
-          "n": 105,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "Inhibition of E production or estrogen receptor blockade resulted in smaller increases in IGF-1 levels."
-        }
-      },
-      {
         "value": "Multicentre study, humans, 2013: Using the separate cut points of 6.8 ng/mL for nonobese and 2.7 for obese subjects reduced the misclassification rate to 11%.",
         "evidence_label": "observational-human",
         "source_ids": [
@@ -643,86 +547,6 @@
           "duration": "not stated in abstract",
           "outcome": "In contrast, the plasma GHRH level in hemodialysis-dependent, chronic renal failure (CRF-HD) patients (38.7 +/- 13.1 ng/l) was significantly higher than normal."
         }
-      },
-      {
-        "value": "Animal study, mice, 2024: The development of resistance remains the primary challenge in treating castration-resistant prostate cancer (CRPC).",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-39456984"
-        ],
-        "source_excerpt": "The development of resistance remains the primary challenge in treating castration-resistant prostate cancer (CRPC).",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Muñoz-Moreno 2024",
-          "year": "2024",
-          "design": "Animal study",
-          "n": null,
-          "species": "Mice",
-          "dose": "not stated in abstract",
-          "route": "subcutaneous",
-          "duration": "not stated in abstract",
-          "outcome": "see source"
-        }
-      },
-      {
-        "value": "Animal study, mice, n=7, 2023: Daily treatment with MIA-602 conferred weight recovery, reduced lung perivascular inflammation/pneumonia, and decreased lung/heart ICAM-1 expression compared to vehicle.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-37983492"
-        ],
-        "source_excerpt": "Daily treatment with MIA-602 conferred weight recovery, reduced lung perivascular inflammation/pneumonia, and decreased lung/heart ICAM-1 expression compared to vehicle.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Condor 2023",
-          "year": "2023",
-          "design": "Animal study",
-          "n": 7,
-          "species": "Mice",
-          "dose": "not stated in abstract",
-          "route": "subcutaneous",
-          "duration": "not stated in abstract",
-          "outcome": "Daily treatment with MIA-602 conferred weight recovery, reduced lung perivascular inflammation/pneumonia, and decreased lung/heart ICAM-1 expression compared to vehicle."
-        }
-      },
-      {
-        "value": "Animal study, swine, 2022: In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-38716080"
-        ],
-        "source_excerpt": "In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Thomas 2022",
-          "year": "2022",
-          "design": "Animal study",
-          "n": null,
-          "species": "Swine",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine."
-        }
-      },
-      {
-        "value": "Animal study, mice, 2020: The extrahypothalamic growth hormone-releasing hormone (GHRH) and its cognate receptors (GHRH-Rs) and splice variants are expressed in a variety of cancers.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-32156725"
-        ],
-        "source_excerpt": "The extrahypothalamic growth hormone-releasing hormone (GHRH) and its cognate receptors (GHRH-Rs) and splice variants are expressed in a variety of cancers.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Xiong 2020",
-          "year": "2020",
-          "design": "Animal study",
-          "n": null,
-          "species": "Mice",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "see source"
-        }
       }
     ]
   },
@@ -773,7 +597,8 @@
       "papers_analysed": 39,
       "claims": 21,
       "evidence_table_rows": 25
-    }
+    },
+    "hand_curation": "On 2026-09-24, 7 sources matched by an alias but not about this compound were removed with their rows and claims, after scripts/fetch_evidence.subject_match flagged them; the fetcher's publication counts still include them."
   },
   "comparison_peers": [],
   "open_questions": [
@@ -837,20 +662,6 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-39456984",
-      "title": "Antagonist of Growth Hormone-Releasing Hormone Receptor MIA-690 Suppresses the Growth of Androgen-Independent Prostate Cancers.",
-      "url": "https://europepmc.org/article/MED/39456984",
-      "published": "2024-10-18",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-37983492",
-      "title": "Growth hormone-releasing hormone receptor antagonist MIA-602 attenuates cardiopulmonary injury induced by BSL-2 rVSV-SARS-CoV-2 in hACE2 mice.",
-      "url": "https://europepmc.org/article/MED/37983492",
-      "published": "2023-11-20",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-37806509",
       "title": "Cationic exchange SPE combined with triple quadrupole UHPLC-MS/MS for detection of GHRHs in urine samples.",
       "url": "https://europepmc.org/article/MED/37806509",
@@ -862,13 +673,6 @@
       "title": "In-house standards derived from doping peptides: Enzymatic and serum stability and degradation profile of GHRP and GHRH-related peptides.",
       "url": "https://europepmc.org/article/MED/37688464",
       "published": "2023-09-09",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-38716080",
-      "title": "Probing for peptidic drugs (2-10 kDa) in doping control blood samples.",
-      "url": "https://europepmc.org/article/MED/38716080",
-      "published": "2022-08-22",
       "kind": "peer-reviewed"
     },
     {
@@ -886,13 +690,6 @@
       "kind": "peer-reviewed"
     },
     {
-      "id": "pmid-32156725",
-      "title": "Splice variant of growth hormone-releasing hormone receptor drives esophageal squamous cell carcinoma conferring a therapeutic target.",
-      "url": "https://europepmc.org/article/MED/32156725",
-      "published": "2020-03-10",
-      "kind": "peer-reviewed"
-    },
-    {
       "id": "pmid-31959947",
       "title": "Antinflammatory, antioxidant, and behavioral effects induced by administration of growth hormone-releasing hormone analogs in mice.",
       "url": "https://europepmc.org/article/MED/31959947",
@@ -904,13 +701,6 @@
       "title": "Growth hormone-releasing hormone (GHRH) and its agonists inhibit hepatic and tumoral secretion of IGF-1.",
       "url": "https://europepmc.org/article/MED/29983893",
       "published": "2018-06-19",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-28830317",
-      "title": "Growth Hormone Secretagogue Treatment in Hypogonadal Men Raises Serum Insulin-Like Growth Factor-1 Levels.",
-      "url": "https://europepmc.org/article/MED/28830317",
-      "published": "2017-08-22",
       "kind": "peer-reviewed"
     },
     {
@@ -932,13 +722,6 @@
       "title": "Clinical review: Is lack of recombinant growth hormone (GH)-releasing hormone in the United States a setback or time to consider glucagon testing for adult GH deficiency?",
       "url": "https://europepmc.org/article/MED/19509104",
       "published": "2009-06-09",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-16061831",
-      "title": "Polyethylene glycol-conjugated growth hormone-releasing hormone is long acting and stimulates GH in healthy young and elderly subjects.",
-      "url": "https://europepmc.org/article/MED/16061831",
-      "published": "2005-08-01",
       "kind": "peer-reviewed"
     },
     {
@@ -1009,13 +792,6 @@
       "title": "Once daily subcutaneous growth hormone-releasing hormone therapy accelerates growth in growth hormone-deficient children during the first year of therapy. Geref International Study Group.",
       "url": "https://europepmc.org/article/MED/8772599",
       "published": "1996-03-01",
-      "kind": "peer-reviewed"
-    },
-    {
-      "id": "pmid-8613546",
-      "title": "Endogenous growth hormone (GH)-releasing hormone is required for GH responses to pharmacological stimuli.",
-      "url": "https://europepmc.org/article/MED/8613546",
-      "published": "1996-02-01",
       "kind": "peer-reviewed"
     },
     {
@@ -1090,7 +866,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 79.3,
+  "uniqueness_pct": 76.6,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1109,6 +885,10 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 39 ledger sources by scripts/draft_claims.py: 20 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Hand curation: 7 alias-matched sources removed with 7 evidence rows and 4 claims. Flagged by the subject filter added to scripts/fetch_evidence.py the same day."
     }
   ]
 }
