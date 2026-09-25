@@ -239,7 +239,7 @@ def _case_ok(found: str, name: str) -> bool:
     orthodontic sella-maxilla measurement, is not Semax: its capital falls
     inside the word where the name has a lowercase letter.
     """
-    found = re.sub(r"(?i)[)\-]*NH2$|-?amide$", "", found)
+    found = re.sub(r"(?i)'?s$", "", re.sub(r"(?i)[)\-]*NH2$|-?amide$", "", found))
     f = re.sub(r"[^A-Za-z0-9]", "", found)
     n = re.sub(r"[^A-Za-z0-9]", "", name)
     if f == n:
@@ -260,7 +260,10 @@ def name_pattern(name: str) -> re.Pattern:
     # arrives written all four ways; any of them separates the same name.
     sep = r"[\s\(\)\[\]\-\u2010-\u2015\u2212]*"
     body = sep.join(tokens)
-    return re.compile(r"(?<![A-Za-z0-9])(?<![A-Za-z0-9\]][-\u2010-\u2015])" + body + r"(?:[\)\-]*NH2|-?amide)?(?![A-Za-z0-9])", re.I)
+    # A trailing plural or possessive is part of the same word: "kisspeptins"
+    # and "semaglutide's" name the compound.
+    return re.compile(r"(?<![A-Za-z0-9])(?<![A-Za-z0-9\]][-\u2010-\u2015])" + body
+                      + r"(?:[\)\-]*NH2|-?amide)?(?:'?s)?(?![A-Za-z0-9])", re.I)
 
 
 def mention_spans(text: str, names: list[str]) -> list[tuple[int, int]]:

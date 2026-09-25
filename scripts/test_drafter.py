@@ -112,6 +112,11 @@ class Mentions(unittest.TestCase):
         self.assertFalse(fe.mentions("R13A\u2011MOTS-c was delivered by LAT1", ["MOTS-c"]),
                          "an engineered analogue is not the parent compound")
 
+    def test_plurals_and_possessives(self):
+        self.assertTrue(fe.mentions("Kisspeptins and reproduction: physiological roles", ["Kisspeptin"]))
+        self.assertTrue(fe.mentions("semaglutide's effect on weight", ["semaglutide"]))
+        self.assertFalse(fe.mentions("kisspeptinergic neurons project widely", ["Kisspeptin"]))
+
     def test_coded_alias_needs_capitals(self):
         self.assertTrue(fe.mentions("KPV reduced intestinal inflammation", ["KPV"]))
         self.assertFalse(fe.mentions("the kpv gene cluster", ["KPV"]))

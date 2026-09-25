@@ -233,7 +233,8 @@
     "No study has tested N-acetyl semax amidate or N-acetyl selank amidate, which are the forms sold in the West.",
     "No study has given both compounds to the same person, although they are sold together.",
     "The trials are small, Russian and unreplicated internationally; none enrolled healthy people seeking cognitive or mood effects.",
-    "No modern pharmacokinetic study of either compound is in this ledger, and none separates the activity of the shared Pro-Gly-Pro tail from the parent molecules."
+    "No modern pharmacokinetic study of either compound is in this ledger, and none separates the activity of the shared Pro-Gly-Pro tail from the parent molecules.",
+    "No study of selank in obsessive-compulsive disorder is indexed; a row claiming one was removed on 2026-09-24 after the cited paper turned out to be about lithium augmentation in depression."
   ],
   "review": {
     "author": "",
@@ -241,7 +242,7 @@
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 95.9,
+  "uniqueness_pct": 96.0,
   "changelog": [
     {
       "date": "2026-09-14",
@@ -250,6 +251,10 @@
     {
       "date": "2026-09-24",
       "change": "Stage 0: the record held two head-to-head claims, both animal, and was missing the only study that has given both compounds to people, a 2020 functional-MRI study in 52 healthy participants that ranks seventh on the target query. It was added by hand with eight further trial papers from the two compound records, and the intent map's H1, dek and information gain were corrected before any guide text was written. Ten guide sections including the head-to-head study, the shared Pro-Gly-Pro design, a nine-row trial table, and the gap between the studied compounds and the acetylated forms sold in the West."
+    },
+    {
+      "date": "2026-09-24",
+      "change": "Correction: the trial table's fourth selank row cited a 2012 case series in obsessive-compulsive disorder. The paper is about low-dose lithium augmentation in venlafaxine-resistant depression and does not concern selank; the compound record had matched it by alias and this page repeated it. Row removed, the correction stated beneath the table, and the source dropped from this ledger."
     }
   ],
   "sides": [
@@ -277,7 +282,7 @@
       "id": "trials-table",
       "heading": "What each one was tested for, and in whom",
       "lede": "Two literatures that do not overlap, both small, both Russian.",
-      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of each compound in this record's ledger.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Study</th><th scope=\"col\">People</th><th scope=\"col\">Condition</th><th scope=\"col\">Reported result</th></tr></thead><tbody><tr><td><b>Selank</b></td><td>Medvedev 2015, randomised</td><td>30</td><td>Anxiety disorders</td><td>Efficacy and fewer side effects as an add-on to phenazepam, with better quality of life</td></tr><tr><td>Selank</td><td>Medvedev 2014</td><td>60</td><td>Anxiety disorders</td><td>Compared with phenazepam for efficacy and tolerability</td></tr><tr><td>Selank</td><td>Zozulia 2008, randomised</td><td>30</td><td>Generalised anxiety and neurasthenia</td><td>Effects strongest in generalised anxiety disorder</td></tr><tr><td>Selank</td><td>Alevizos 2012</td><td>Case series</td><td>Obsessive-compulsive disorder</td><td>Augmentation reported as much or very much improved in half</td></tr><tr><td><b>Semax</b></td><td>Gusev 1997, controlled</td><td>30</td><td>Acute ischaemic stroke</td><td>Faster regression of focal neurological deficit</td></tr><tr><td>Semax</td><td>Gusev 2018</td><td>43</td><td>Stroke rehabilitation</td><td>Plasma BDNF rose and stayed raised throughout</td></tr><tr><td>Semax</td><td>Serdiuk 2007, randomised</td><td>27</td><td>Motor neurone disease</td><td>Better emotional state and motivation, peaking at day 10</td></tr><tr><td>Semax</td><td>Polunin 2000, controlled</td><td>Not stated</td><td>Optic-nerve disease</td><td>Faster and greater recovery of visual function</td></tr><tr><td><b>Both</b></td><td>Panikratova 2020</td><td>52 healthy</td><td>None; mechanism</td><td>Shared and distinct effects on amygdala connectivity</td></tr></tbody></table></div></div><p>Three things are worth noticing. The trials are small, the largest being 60 people. They are almost all Russian, published in Russian-language journals, and have not been replicated elsewhere. And they test conditions almost nobody buying these peptides has: the anxiety trials enrolled diagnosed anxiety disorders, and the semax trials enrolled people who had just had a stroke.</p><p>Each compound's full record, with its dosing detail, is here: <a href=\"/compounds/selank\">selank</a> and <a href=\"/compounds/semax\">semax</a>.</p>"
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of each compound in this record's ledger.</caption><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Study</th><th scope=\"col\">People</th><th scope=\"col\">Condition</th><th scope=\"col\">Reported result</th></tr></thead><tbody><tr><td><b>Selank</b></td><td>Medvedev 2015, randomised</td><td>30</td><td>Anxiety disorders</td><td>Efficacy and fewer side effects as an add-on to phenazepam, with better quality of life</td></tr><tr><td>Selank</td><td>Medvedev 2014</td><td>60</td><td>Anxiety disorders</td><td>Compared with phenazepam for efficacy and tolerability</td></tr><tr><td>Selank</td><td>Zozulia 2008, randomised</td><td>30</td><td>Generalised anxiety and neurasthenia</td><td>Effects strongest in generalised anxiety disorder</td></tr><tr><td><b>Semax</b></td><td>Gusev 1997, controlled</td><td>30</td><td>Acute ischaemic stroke</td><td>Faster regression of focal neurological deficit</td></tr><tr><td>Semax</td><td>Gusev 2018</td><td>43</td><td>Stroke rehabilitation</td><td>Plasma BDNF rose and stayed raised throughout</td></tr><tr><td>Semax</td><td>Serdiuk 2007, randomised</td><td>27</td><td>Motor neurone disease</td><td>Better emotional state and motivation, peaking at day 10</td></tr><tr><td>Semax</td><td>Polunin 2000, controlled</td><td>Not stated</td><td>Optic-nerve disease</td><td>Faster and greater recovery of visual function</td></tr><tr><td><b>Both</b></td><td>Panikratova 2020</td><td>52 healthy</td><td>None; mechanism</td><td>Shared and distinct effects on amygdala connectivity</td></tr></tbody></table></div></div><p>A fourth selank row stood here until 2026-09-24, citing a 2012 case series in obsessive-compulsive disorder. The paper behind it is about low-dose lithium augmentation in venlafaxine-resistant depression and does not concern selank; the compound's record had matched it by alias and this page repeated the attribution. Both are corrected, and no study of selank in obsessive-compulsive disorder is indexed.</p><p>Three things are worth noticing. The trials are small, the largest being 60 people. They are almost all Russian, published in Russian-language journals, and have not been replicated elsewhere. And they test conditions almost nobody buying these peptides has: the anxiety trials enrolled diagnosed anxiety disorders, and the semax trials enrolled people who had just had a stroke.</p><p>Each compound's full record, with its dosing detail, is here: <a href=\"/compounds/selank\">selank</a> and <a href=\"/compounds/semax\">semax</a>.</p>"
     },
     {
       "id": "forms",
