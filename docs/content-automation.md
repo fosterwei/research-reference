@@ -208,4 +208,20 @@ accept everything or reject everything.
   meta-analyses labelled as such, and carry each side's largest human trials
   into their ledgers; registry `exclude_terms` reject alias homonyms; and
   the drafter never regenerates a record that has guide sections.
+- 2026-09-24 — Automatic entity linking, the accept-template item every audit
+  since ipamorelin had left open. `src/lib/entities.ts` links the first mention
+  of each other record in a page's guide prose: never inside an existing link,
+  a quotation, a heading or code; never the page's own subject; longest name
+  first; one added link per target and at most ten per page. It adds 50 links
+  across 28 pages, most of them comparison-table rows that were plain text.
+  Measured by building with and without it.
+
+  The audits' framing of the finding was wrong, and this is the correction.
+  Every triage row called low internal-link density a template defect. It is
+  not: across the 45 written pages, other records are named 132 times in guide
+  prose and 110 of those were already linked by hand. Density stays near one
+  link per thousand words because these are long single-subject pages that
+  rarely mention siblings, and no template can invent a cross-reference that
+  the writing does not contain. Future audits should record the density and
+  stop proposing this fix.
 

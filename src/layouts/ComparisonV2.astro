@@ -12,6 +12,7 @@ import ClaimCards from '../components/v2/ClaimCards.astro';
 import Faq from '../components/v2/Faq.astro';
 import Sources from '../components/v2/Sources.astro';
 import EditorialSection from '../components/v2/EditorialSection.astro';
+import { entityLinker } from '../lib/entities';
 import { rich, paragraphs, timeTag } from '../lib/format';
 import { isIndexable, title, description, lastmod, formatCount, TIER_LABEL } from '../lib/site';
 import { compound as regCompound, className, comparisons as planned } from '../lib/registry';
@@ -52,6 +53,8 @@ const rows: Array<[string, string, string]> = a && b ? [
 type Guide = { id: string; heading: string; lede?: string; html: string; pending?: boolean };
 const guide: Guide[] = (d.guide ?? []) as Guide[];
 type Block = { id: string; kind: 'side-by-side' | 'head-to-head' | 'guide' | 'open' | 'faq'; label: string; group: string; guide?: Guide };
+// Links the first mention of each other record in this page's own prose.
+const linkEntities = entityLinker([d.slug, ...(sides ?? [])], 10);
 const blocks: Block[] = [
   { id: 'side-by-side', kind: 'side-by-side', label: headingFor(intent, 'side-by-side', 'Side by side, from each record'), group: 'Evidence' },
   { id: 'head-to-head', kind: 'head-to-head', label: headingFor(intent, 'head-to-head', 'Studies that name both compounds'), group: 'Evidence' },
@@ -116,7 +119,7 @@ const toc = [
               <section id="head-to-head"><div><h2>{x.label}</h2><p class="lede">{boundaryFor(intent, 'head-to-head') ?? 'Indexed papers whose abstracts name both compounds, quoted. Read the design line on each card: naming both is not the same as comparing them.'}</p></div>
                 {h2h.length > 0 ? <ClaimCards claims={h2h} sources={d.sources} /> : <div class="status"><div><strong>No indexed study has compared {a?.data.preferred_name} and {b?.data.preferred_name} directly.</strong> The side-by-side table above lines up what each compound's own studies state; anything beyond that is inference, and this page does not make it.</div></div>}
               </section>);
-            case 'guide': return <EditorialSection id={x.guide!.id} heading={x.guide!.heading} lede={x.guide!.lede} html={x.guide!.html} pending={x.guide!.pending} />;
+            case 'guide': return <EditorialSection id={x.guide!.id} heading={x.guide!.heading} lede={x.guide!.lede} html={linkEntities(x.guide!.html)} pending={x.guide!.pending} />;
             case 'open': return <section id="open"><h2>{x.label}</h2><ul class="list">{d.open_questions.map((q: string) => <li>{q}</li>)}</ul></section>;
             case 'faq': return <section id="faq"><h2>{x.label}</h2><Faq items={faqItems} html /></section>;
           }
