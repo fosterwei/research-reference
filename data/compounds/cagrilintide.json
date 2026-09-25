@@ -458,26 +458,6 @@
     ],
     "evidence_table": [
       {
-        "value": "Clinical trial, humans, n=214, 2026: Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-42688617"
-        ],
-        "source_excerpt": "Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Chen 2026",
-          "year": "2026",
-          "design": "Clinical trial",
-          "n": 214,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability."
-        }
-      },
-      {
         "value": "Randomized controlled trial, humans, 2026: This secondary, post hoc analysis assessed the proportions of participants achieving BMI 2 and/or WHtR Results The proportion of participants achieving both BMI 2 and WHtR Conclusions The proportion of participants achieving anthropometric targets was greater with CagriSema Versus other…",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
@@ -1331,7 +1311,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 86.1,
+  "uniqueness_pct": 86.2,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1358,6 +1338,10 @@
     {
       "date": "2026-09-24",
       "change": "Written guide (9 sections), FAQ to 16, mechanism, reported-use and regulatory editorial sections (phase 3, not approved; document pending), intent-driven H1 and title. Fifth compound through the loop."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Misattribution check: evidence_table (pmid-42688617): the quoted result is about danuglipron, retatrutide and mazdutide tolerability and says nothing about cagrilintide. The sources stay in the ledger; only the claims that put another agent's result under this compound were removed."
     }
   ],
   "guide": [

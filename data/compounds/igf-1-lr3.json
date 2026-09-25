@@ -97,15 +97,6 @@
         "drafting": "extractive"
       },
       {
-        "value": "A 2026 clinical review of people self-administering GH-axis peptides, including IGF-1 LR3, lists the adverse effects seen in practice: endocrine and metabolic disturbance including dysglycaemia, fluid retention, muscle and joint pain, and injection-site reactions.",
-        "evidence_label": "observational-human",
-        "source_ids": [
-          "pmid-42395176"
-        ],
-        "source_excerpt": "Reported adverse effects span endocrine and metabolic disturbances (including prolactin and cortisol elevations, appetite changes, and dysglycaemia), fluid retention syndromes, musculoskeletal symptoms (myalgia/arthralgia), and injection-site reactions.",
-        "drafting": "extractive"
-      },
-      {
         "value": "The approved native IGF-1, mecasermin (Increlex), is the nearest human reference. Its label's principal warning is hypoglycaemia, with the instruction that a meal or snack be taken within 20 minutes of every injection; it also warns of intracranial hypertension, enlargement of tonsils and other lymphoid tissue, and, in later revisions, cases of malignancy reported in treated children. IGF-1 LR3 is built to act more freely than mecasermin, so these are the risks to reason from, not a measured profile of the analogue. The label is not in the ledger.",
         "evidence_label": "editorial",
         "source_ids": [],
@@ -774,7 +765,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 83.6,
+  "uniqueness_pct": 83.8,
   "review": {
     "author": "",
     "reviewer": "",
@@ -797,6 +788,10 @@
     {
       "date": "2026-09-24",
       "change": "Written under the sequencing rule after research/intents/igf-1-lr3.json: guide (7 sections), FAQ to 11 plus 12 from the map, hand-corrected dose claims (the drafter had parsed '1.17 ± 0.12 μg/kg/h' as 0.12 μg), weight-normalized, adverse-event, mechanism, reported-use and regulatory claims; the reagent origin and the meaning of 'Long R3' stated; intent-driven H1 and title."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Misattribution check: adverse_events (pmid-42395176): the quoted adverse effects, prolactin and cortisol elevations, belong to the growth hormone secretagogues the review covers, not to IGF-1 LR3. The sources stay in the ledger; only the claims that put another agent's result under this compound were removed."
     }
   ],
   "guide": [

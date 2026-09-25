@@ -478,26 +478,6 @@
         }
       },
       {
-        "value": "Animal study, rats, 2026: Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain.",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-42578445"
-        ],
-        "source_excerpt": "Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Tewari 2026",
-          "year": "2026",
-          "design": "Animal study",
-          "n": null,
-          "species": "Rats",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "Human data were heterogeneous and revealed modest improvements at best for metabolic bone health and degenerative knee pain."
-        }
-      },
-      {
         "value": "Animal study, rats, 2026: Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters…",
         "evidence_label": "animal-preclinical",
         "source_ids": [
@@ -1194,7 +1174,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 83.5,
+  "uniqueness_pct": 83.6,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1221,6 +1201,10 @@
     {
       "date": "2026-09-24",
       "change": "Regulatory note updated: secondary reports of the July 2026 PCAC recommendation recorded as unverified pending FDA's record. Stage 2 competitors and information gain written to the intent map."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Misattribution check: evidence_table (pmid-42578445): a review's collective sentence about six peptides is not one compound's evidence row. The sources stay in the ledger; only the claims that put another agent's result under this compound were removed."
     }
   ],
   "guide": [
