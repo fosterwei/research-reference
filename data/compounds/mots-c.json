@@ -275,15 +275,6 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, n=5, 2025: durations stated: 16 weeks. The therapeutic efficacy of FGF21, semaglutide and an amylin analogue was assessed from 8 to 16 weeks of age (n = 8-12 per group).",
-        "evidence_label": "animal-preclinical",
-        "source_ids": [
-          "pmid-40496439"
-        ],
-        "source_excerpt": "The therapeutic efficacy of FGF21, semaglutide and an amylin analogue was assessed from 8 to 16 weeks of age (n = 8-12 per group).",
-        "drafting": "extractive"
-      },
-      {
         "value": "Animal study, mice, 2021: durations stated: 3 weeks; 3 months. Long-term repeated administration of MOTS-c (500 μg) and PMO at the dose of 12.5 mg/kg/week for 3 weeks followed by 12.5 mg/kg/month for 3 months (PMO-M) induced therapeutic levels of dystrophin expression in peripheral muscles, with up to 25-fold increase in diaphragm of…",
         "evidence_label": "animal-preclinical",
         "source_ids": [
@@ -1311,7 +1302,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 83.0,
+  "uniqueness_pct": 83.1,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1338,6 +1329,10 @@
     {
       "date": "2026-09-24",
       "change": "USADA added to the ledger; the sport-status statement is now a verbatim regulatory claim (S4.4, prohibited at all times) instead of an editorial hedge. Stage 2 competitors and information gain written to the intent map."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Misattribution check: study_durations (pmid-40496439): the quoted schedule is for FGF21, semaglutide and an amylin analogue; MOTS-c was not the treatment. The sources stay in the ledger; only the claims that put another agent's result under this compound were removed."
     }
   ],
   "guide": [

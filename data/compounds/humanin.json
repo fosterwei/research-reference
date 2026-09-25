@@ -178,15 +178,6 @@
     ],
     "reported_timelines": [
       {
-        "value": "Circulating humanin rose after a single bout of endurance exercise, but not resistance exercise, in healthy volunteers.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-34351816"
-        ],
-        "source_excerpt": "Circulating levels of HN were significantly elevated by acute EE but not RE.",
-        "drafting": "extractive"
-      },
-      {
         "value": "Muscle humanin protein rose after 12 weeks of resistance training in men with impaired glucose regulation.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
@@ -214,15 +205,6 @@
           "pmid-42438323"
         ],
         "source_excerpt": "Humanin (4 mg/kg) was administered intraperitoneally for 15 days following diabetes induction.",
-        "drafting": "extractive"
-      },
-      {
-        "value": "Human studies measured humanin after a single exercise bout (30 minutes and 3 hours), after 12 weeks of training, and over 24 months of follow-up in dialysis patients.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-34351816"
-        ],
-        "source_excerpt": "Skeletal muscle biopsies and blood samples were collected before and at 30 min and 3 h following exercise.",
         "drafting": "extractive"
       }
     ],
@@ -1199,7 +1181,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 86.8,
+  "uniqueness_pct": 86.9,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1222,6 +1204,10 @@
     {
       "date": "2026-09-24",
       "change": "Written under the sequencing rule after research/intents/humanin.json: guide (8 sections incl. a measured-versus-given human table and an animal-dose table), FAQ to 12 plus 9 from the map, animal dose, duration, timeline and adverse-event claims from the abstracts, the 2020 tumour finding as editorial with pending_source, mechanism, reported-use, regulatory; seventeen human rows relabelled 'measured, not given'; misdrafted interactions removed; intent-driven H1 and title."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Misattribution check: reported_timelines (pmid-34351816): the study measured the body's own humanin after exercise and gave none, so it reports no onset or duration of effect; study_durations (pmid-34351816): the quoted interval is a blood-sampling schedule in a study that administered nothing. The sources stay in the ledger; only the claims that put another agent's result under this compound were removed."
     }
   ],
   "guide": [
