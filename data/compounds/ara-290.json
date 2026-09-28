@@ -769,7 +769,7 @@
         "fields": {
           "study": "Thomas 2017",
           "year": "2017",
-          "design": "In vitro study",
+          "design": "Analytical method",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -789,7 +789,7 @@
         "fields": {
           "study": "Thomas 2016",
           "year": "2016",
-          "design": "In vitro study",
+          "design": "Analytical method",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -1122,7 +1122,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 85.7,
+  "uniqueness_pct": 85.8,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1153,6 +1153,10 @@
     {
       "date": "2026-09-24",
       "change": "Written under the sequencing rule after research/intents/ara-290.json: guide (8 sections incl. a five-study trial table), FAQ to 12 plus 5 from the map, dose, duration, timeline (two-minute half-life) and adverse-event claims from the abstracts, mechanism (innate repair receptor), reported-use, regulatory (orphan designation, stalled phase 2, WADA); two misdrafted interactions claims removed; intent-driven H1 and title. Triage: a misdrafted escalation claim removed ('stepwise approach' in a mouse-study abstract); one directory link added."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Label correction: 2 evidence rows built from detection and doping-control papers carried study designs such as animal or in-vitro work. They are relabelled Analytical method, the label scripts/draft_claims.py has applied since the rule was added; these rows predate it. pmid-28941172 (In vitro study -> Analytical method); pmid-26578461 (In vitro study -> Analytical method)"
     }
   ],
   "guide": [

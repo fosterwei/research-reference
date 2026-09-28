@@ -765,7 +765,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 83.8,
+  "uniqueness_pct": 84.0,
   "review": {
     "author": "",
     "reviewer": "",
@@ -792,6 +792,14 @@
     {
       "date": "2026-09-25",
       "change": "Misattribution check: adverse_events (pmid-42395176): the quoted adverse effects, prolactin and cortisol elevations, belong to the growth hormone secretagogues the review covers, not to IGF-1 LR3. The sources stay in the ledger; only the claims that put another agent's result under this compound were removed."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Label correction: 1 evidence rows built from detection and doping-control papers carried study designs such as animal or in-vitro work. They are relabelled Analytical method, the label scripts/draft_claims.py has applied since the rule was added; these rows predate it. pmid-9867252 (Animal study -> Analytical method)"
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Reverted 1 of those label changes after tightening the rule: 'urine' had matched inside 'murine' and 'screening' had matched a zebrafish drug screen. pmid-9867252 back to Animal study"
     }
   ],
   "guide": [

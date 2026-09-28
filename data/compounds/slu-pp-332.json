@@ -206,7 +206,7 @@
         "fields": {
           "study": "Möller 2026",
           "year": "2026",
-          "design": "In vitro study",
+          "design": "Analytical method",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -442,7 +442,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 71.9,
+  "uniqueness_pct": 72.3,
   "review": {
     "author": "",
     "reviewer": "",
@@ -465,6 +465,10 @@
     {
       "date": "2026-09-24",
       "change": "Written guide, FAQ to 16, mechanism, reported-use (no circulating figures reproduced) and regulatory editorial sections; intent-driven H1 and title."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Label correction: 1 evidence rows built from detection and doping-control papers carried study designs such as animal or in-vitro work. They are relabelled Analytical method, the label scripts/draft_claims.py has applied since the rule was added; these rows predate it. pmid-41588687 (In vitro study -> Analytical method)"
     }
   ],
   "guide": [

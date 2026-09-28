@@ -240,8 +240,12 @@ def _case_ok(found: str, name: str) -> bool:
     inside the word where the name has a lowercase letter.
     """
     found = re.sub(r"(?i)'?s$", "", re.sub(r"(?i)[)\-]*NH2$|-?amide$", "", found))
-    f = re.sub(r"[^A-Za-z0-9]", "", found)
-    n = re.sub(r"[^A-Za-z0-9]", "", name)
+    def norm(x: str) -> str:
+        for word, sym in GREEK.items():
+            x = x.replace(sym, word)
+        return re.sub(r"[^A-Za-z0-9]", "", x)
+    f = norm(found)
+    n = norm(name)
     if f == n:
         return True
     if _coded(name):
@@ -251,11 +255,31 @@ def _case_ok(found: str, name: str) -> bool:
     return all(not (a.isupper() and b.islower()) for a, b in list(zip(f, n))[1:])
 
 
+# Journals write thymosin beta-4 as "thymosin beta-4", "thymosin b4" and
+# "thymosin beta4", and just as often as "thymosin beta4" with the Greek
+# letter, or "Tbeta4". A Greek letter and its spelled-out name are the same
+# token, in either direction.
+GREEK = {"alpha": "\u03b1", "beta": "\u03b2", "gamma": "\u03b3", "delta": "\u03b4",
+         "epsilon": "\u03b5", "kappa": "\u03ba", "lambda": "\u03bb", "sigma": "\u03c3",
+         "tau": "\u03c4", "omega": "\u03c9", "mu": "\u03bc"}
+GREEK_REV = {v: k for k, v in GREEK.items()}
+TOKEN = re.compile(r"[A-Za-z0-9]+|[" + "".join(GREEK.values()) + r"]")
+
+
+def _token_pattern(tok: str) -> str:
+    low = tok.lower()
+    if low in GREEK:
+        return f"(?:{re.escape(tok)}|{GREEK[low]})"
+    if tok in GREEK_REV:
+        return f"(?:{re.escape(tok)}|{GREEK_REV[tok]})"
+    return re.escape(tok)
+
+
 def name_pattern(name: str) -> re.Pattern:
     # Letters and digits match exactly; the punctuation between them is loose,
     # so GHRH(1-29), GHRH (1-29), GHRH 1-29 and BPC157 all resolve, and a
     # peptide amide suffix such as NH2 stays part of the name.
-    tokens = [re.escape(t) for t in re.findall(r"[A-Za-z0-9]+", name)]
+    tokens = [_token_pattern(t) for t in TOKEN.findall(name)]
     # Journals set hyphens as ASCII, non-breaking, en or em dashes, and MOTS-c
     # arrives written all four ways; any of them separates the same name.
     sep = r"[\s\(\)\[\]\-\u2010-\u2015\u2212]*"

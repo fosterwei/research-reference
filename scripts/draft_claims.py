@@ -182,7 +182,11 @@ def doses_near(s: str, names: list[str], window: int = 70) -> list[str]:
     return found
 
 
-ANALYTICAL = re.compile(r"LC-MS|mass spectromet|chromatograph|urine|doping|detection|screening|determination of|analytical method|metabolites? of|derivati[sz]ation", re.I)
+# "urine" without a boundary matched "murine", which turned two animal studies
+# into analytical methods; "screening" alone matched a zebrafish drug screen.
+ANALYTICAL = re.compile(r"LC-MS|mass spectromet|chromatograph|\burines?\b|doping|detection of|"
+                        r"screening (?:for|of)\b|determination of|analytical (?:method|characteri[sz]ation)|"
+                        r"metabolites? of|derivati[sz]ation|immunoaffinity", re.I)
 
 
 def design_of(paper: dict, tier: str) -> str:

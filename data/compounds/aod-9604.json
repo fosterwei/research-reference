@@ -419,7 +419,7 @@
         "fields": {
           "study": "Mazzarino 2026",
           "year": "2026",
-          "design": "In vitro study",
+          "design": "Analytical method",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -459,7 +459,7 @@
         "fields": {
           "study": "Thomas 2016",
           "year": "2016",
-          "design": "In vitro study",
+          "design": "Analytical method",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -731,7 +731,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 85.4,
+  "uniqueness_pct": 85.5,
   "review": {
     "author": "",
     "reviewer": "",
@@ -762,6 +762,10 @@
     {
       "date": "2026-09-24",
       "change": "Stage 0 gap closed by hand: Stier, Vos and Kenley 2013 (the sponsor's pooled account of six trials, not indexed in Europe PMC) added to the ledger with three evidence rows; tier set to human-clinical-trial. Written under the sequencing rule after research/intents/aod-9604.json: guide (8 sections incl. a six-trial table), FAQ to 12 plus 8 from the map, dose, weight-normalized, duration, adverse-event, mechanism, reported-use and regulatory claims; misdrafted content none; intent-driven H1 and title carrying both names."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Label correction: 2 evidence rows built from detection and doping-control papers carried study designs such as animal or in-vitro work. They are relabelled Analytical method, the label scripts/draft_claims.py has applied since the rule was added; these rows predate it. pmid-42328738 (In vitro study -> Analytical method); pmid-26578461 (In vitro study -> Analytical method)"
     }
   ],
   "guide": [

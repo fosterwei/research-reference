@@ -353,7 +353,7 @@
         "fields": {
           "study": "Thomas 2022",
           "year": "2022",
-          "design": "Animal study",
+          "design": "Analytical method",
           "n": null,
           "species": "Swine",
           "dose": "not stated in abstract",
@@ -373,7 +373,7 @@
         "fields": {
           "study": "Timms 2019",
           "year": "2019",
-          "design": "Animal study",
+          "design": "Analytical method",
           "n": null,
           "species": "not indexed",
           "dose": "not stated in abstract",
@@ -393,7 +393,7 @@
         "fields": {
           "study": "Kwok 2013",
           "year": "2013",
-          "design": "Animal study",
+          "design": "Analytical method",
           "n": null,
           "species": "not indexed",
           "dose": "not stated in abstract",
@@ -473,7 +473,7 @@
         "fields": {
           "study": "Uçaktürk 2026",
           "year": "2026",
-          "design": "In vitro study",
+          "design": "Analytical method",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -493,7 +493,7 @@
         "fields": {
           "study": "Cristea 2023",
           "year": "2023",
-          "design": "In vitro study",
+          "design": "Analytical method",
           "n": null,
           "species": "not indexed",
           "dose": "not stated in abstract",
@@ -513,7 +513,7 @@
         "fields": {
           "study": "Coppieters 2022",
           "year": "2022",
-          "design": "In vitro study",
+          "design": "Analytical method",
           "n": null,
           "species": "not indexed",
           "dose": "not stated in abstract",
@@ -533,7 +533,7 @@
         "fields": {
           "study": "Danila 2022",
           "year": "2022",
-          "design": "In vitro study",
+          "design": "Analytical method",
           "n": null,
           "species": "not indexed",
           "dose": "not stated in abstract",
@@ -553,7 +553,7 @@
         "fields": {
           "study": "Pineau 2016",
           "year": "2016",
-          "design": "In vitro study",
+          "design": "Analytical method",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -882,7 +882,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 85.9,
+  "uniqueness_pct": 86.1,
   "review": {
     "author": "",
     "reviewer": "",
@@ -917,6 +917,10 @@
     {
       "date": "2026-09-25",
       "change": "Misattribution check: evidence_table (pmid-42578445): a review's collective sentence about six peptides is not one compound's evidence row. The sources stay in the ledger; only the claims that put another agent's result under this compound were removed."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Label correction: 8 evidence rows built from detection and doping-control papers carried study designs such as animal or in-vitro work. They are relabelled Analytical method, the label scripts/draft_claims.py has applied since the rule was added; these rows predate it. pmid-38716080 (Animal study -> Analytical method); pmid-30938069 (Animal study -> Analytical method); pmid-23318763 (Animal study -> Analytical method); pmid-41138283 (In vitro study -> Analytical method); pmid-37806509 (In vitro study -> Analytical method); pmid-35298973 (In vitro study -> Analytical method); pmid-34736642 (In vitro study -> Analytical method); pmid-27710891 (In vitro study -> Analytical method)"
     }
   ],
   "guide": [

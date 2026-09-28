@@ -117,6 +117,34 @@ class Mentions(unittest.TestCase):
         self.assertTrue(fe.mentions("semaglutide's effect on weight", ["semaglutide"]))
         self.assertFalse(fe.mentions("kisspeptinergic neurons project widely", ["Kisspeptin"]))
 
+    def test_greek_letters_and_spelled_names(self):
+        # Journals write thymosin beta-4 both ways, often in the same paper.
+        for text in ("Recombinant human Thymosin \u03b24 ameliorates experimental colitis",
+                     "Adjunctive T\u03b24 treatment to nerve regeneration",
+                     "thymosin beta 4 promotes axon regeneration"):
+            self.assertTrue(fe.mentions(text, ["thymosin beta-4", "T\u03b24"]), text)
+        self.assertTrue(fe.mentions("Thymosin alpha-1 in sepsis", ["thymosin \u03b11"]))
+
+    def test_registry_exclusions_still_bite(self):
+        entry = {"name": "Cartalax", "aliases": ["AED"], "exclude_terms": ["defibrillator"]}
+        good = {"title": "Comparison of the Effects of KE and AED Peptides on Skin Fibroblasts",
+                "abstractText": "AED peptide was applied to cultures. AED increased gene expression."}
+        bad = {"title": "Automated external defibrillator use in public spaces",
+               "abstractText": "AED deployment improved survival. AED placement matters."}
+        self.assertTrue(fe.subject_match(good, entry))
+        self.assertFalse(fe.subject_match(bad, entry))
+
+    def test_analytical_label_boundaries(self):
+        import draft_claims as d
+        for yes in ("Probing for peptidic drugs in doping control blood samples",
+                    "Analysis of GHRH analogs in urine using nano liquid chromatography",
+                    "Screening for peptides by direct urine injection"):
+            self.assertTrue(d.ANALYTICAL.search(yes), yes)
+        for no in ("Involvement of IGF-1 and its binding proteins in murine proliferation",
+                   "Critical role of PepT1 in murine colitis-associated cancer",
+                   "Zebrafish Bioassay for Screening Therapeutic Candidates"):
+            self.assertFalse(d.ANALYTICAL.search(no), no)
+
     def test_coded_alias_needs_capitals(self):
         self.assertTrue(fe.mentions("KPV reduced intestinal inflammation", ["KPV"]))
         self.assertFalse(fe.mentions("the kpv gene cluster", ["KPV"]))

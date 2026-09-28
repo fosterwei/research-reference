@@ -848,7 +848,7 @@
         "fields": {
           "study": "Alhalabi 2026",
           "year": "2026",
-          "design": "Animal study",
+          "design": "Analytical method",
           "n": null,
           "species": "Rats",
           "dose": "not stated in abstract",
@@ -1311,7 +1311,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 86.2,
+  "uniqueness_pct": 86.3,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1342,6 +1342,10 @@
     {
       "date": "2026-09-25",
       "change": "Misattribution check: evidence_table (pmid-42688617): the quoted result is about danuglipron, retatrutide and mazdutide tolerability and says nothing about cagrilintide. The sources stay in the ledger; only the claims that put another agent's result under this compound were removed."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Label correction: 1 evidence rows built from detection and doping-control papers carried study designs such as animal or in-vitro work. They are relabelled Analytical method, the label scripts/draft_claims.py has applied since the rule was added; these rows predate it. pmid-41702251 (Animal study -> Analytical method)"
     }
   ],
   "guide": [

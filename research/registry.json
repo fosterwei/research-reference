@@ -210,8 +210,10 @@
       "slug": "tb-500",
       "name": "TB-500",
       "aliases": [
-        "thymosin beta-4",
+        "TMSB4X",
+        "Tβ4",
         "thymosin beta 4",
+        "thymosin beta-4",
         "thymosin beta4",
         "timbetasin"
       ],
@@ -241,9 +243,11 @@
       "slug": "thymosin-alpha-1",
       "name": "Thymosin alpha-1",
       "aliases": [
-        "thymalfasin",
+        "Tα1",
         "Zadaxin",
-        "thymosin alpha 1"
+        "thymalfasin",
+        "thymosin alpha 1",
+        "thymosin α-1"
       ],
       "sequence": null,
       "class": "immunomodulators-and-host-defense",
@@ -463,13 +467,22 @@
     {
       "slug": "cartalax",
       "name": "Cartalax",
-      "aliases": [],
+      "aliases": [
+        "AED",
+        "Ala-Glu-Asp"
+      ],
       "sequence": "Ala-Glu-Asp",
       "class": "bioregulator-short-peptides",
       "target": "cartilage bioregulator claimed; no indexed primary literature",
       "molecule_type": "peptide",
       "length_aa": 3,
-      "pilot_wave": 3
+      "pilot_wave": 3,
+      "exclude_terms": [
+        "anti-epileptic",
+        "antiepileptic",
+        "defibrillator",
+        "epilepsy"
+      ]
     },
     {
       "slug": "foxo4-dri",
