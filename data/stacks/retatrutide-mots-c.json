@@ -20,6 +20,20 @@
       "kind": "peer-reviewed"
     },
     {
+      "id": "pmid-42126770",
+      "title": "MOTS-c is associated with oxidative stress and arterial stiffness in peritoneal dialysis patients: a pilot study.",
+      "url": "https://europepmc.org/article/MED/42126770",
+      "published": "2026-05-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42072458",
+      "title": "The Association Between Serum MOTS-c Levels and Myocardial Ischemia-Reperfusion Injury in Patients with Acute Myocardial Infarction: A Cross-Sectional Study.",
+      "url": "https://europepmc.org/article/MED/42072458",
+      "published": "2026-04-17",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-37366315",
       "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
       "url": "https://europepmc.org/article/MED/37366315",
@@ -115,7 +129,7 @@
     "reviewer_credential": "",
     "reviewed_at": ""
   },
-  "uniqueness_pct": 92.3,
+  "uniqueness_pct": 93.0,
   "changelog": [
     {
       "date": "2026-09-14",
@@ -124,6 +138,10 @@
     {
       "date": "2026-09-24",
       "change": "Written under the sequencing rule after research/intents/retatrutide-mots-c.json. Stage 0: the combination ledger is empty, and the component record shows MOTS-c's thirteen human studies all measure circulating levels rather than administering the peptide, the same measured-not-given pattern recorded on humanin, LL-37 and kisspeptin. Nine guide sections including a table of what each human MOTS-c study measured, the rationale and what it rests on, and the storage reason the two cannot be blended."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "The two human MOTS-c studies the page names in its table of what each study measured, Musolino 2026 and Peng 2026, were cited from the component record without being in this page's ledger. Both added."
     }
   ],
   "components": [
