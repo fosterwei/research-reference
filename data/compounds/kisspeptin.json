@@ -999,7 +999,7 @@
   "comparison_peers": [],
   "open_questions": [
     "No study has dosed kisspeptin for longer than 12 days, measured fertility or libido as a treatment outcome over weeks, or included men with low testosterone.",
-    "Dhillo 2005, George 2011 and Jayasena 2009 (desensitisation) are cited from summaries and are not yet in the ledger.",
+    "George 2011 is cited from a summary and is not yet in the ledger. Dhillo 2005 and Jayasena 2009, the desensitisation study, were added to it on 25 September 2026.",
     "Whether kisspeptin-10 appears on FDA's compounding lists is unverified."
   ],
   "media": {
@@ -1254,6 +1254,13 @@
       "kind": "peer-reviewed"
     },
     {
+      "id": "pmid-19820030",
+      "title": "Subcutaneous injection of kisspeptin-54 acutely stimulates gonadotropin secretion in women with hypothalamic amenorrhea, but chronic administration causes tachyphylaxis.",
+      "url": "https://europepmc.org/article/MED/19820030",
+      "published": "2009-10-09",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-19770291",
       "title": "Kisspeptin signaling in the brain.",
       "url": "https://europepmc.org/article/MED/19770291",
@@ -1266,10 +1273,17 @@
       "url": "https://europepmc.org/article/MED/19393655",
       "published": "2009-04-23",
       "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-16174713",
+      "title": "Kisspeptin-54 stimulates the hypothalamic-pituitary gonadal axis in human males.",
+      "url": "https://europepmc.org/article/MED/16174713",
+      "published": "2005-09-20",
+      "kind": "peer-reviewed"
     }
   ],
   "related": [],
-  "uniqueness_pct": 87.5,
+  "uniqueness_pct": 87.7,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1292,6 +1306,10 @@
     {
       "date": "2026-09-24",
       "change": "Written under the sequencing rule after research/intents/kisspeptin.json: guide (8 sections incl. a table of all 20 human studies with isoform, dose, route and duration), FAQ to 12 plus 8 from the map, hand-written dose, weight-normalized, timeline and adverse-event claims from the abstracts (the drafter had missed every nmol/kg figure), mechanism, reported-use and regulatory claims; intent-driven H1 and title. Triage: a misdrafted escalation claim removed (regex matched 'escalating clinical interest'); two directory links added."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Two trials the page cited while stating they were absent are now in the ledger: Dhillo 2005 (pmid-16174713), the first kisspeptin-54 infusion in men, and Jayasena 2009 (pmid-19820030), the subcutaneous study in hypothalamic amenorrhoea that found tachyphylaxis on chronic administration. The sentence declaring them missing is updated."
     }
   ],
   "guide": [
@@ -1304,7 +1322,7 @@
       "id": "trials",
       "heading": "Trial by trial: what kisspeptin did in people",
       "lede": "Every human study in the ledger, with what was given and for how long. Rows marked 'measured only' gave no kisspeptin; they are in the ledger because they measured it or tested a related drug.",
-      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of kisspeptin in the ledger, by what was administered.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Participants</th><th scope=\"col\">Isoform, dose, route</th><th scope=\"col\">Duration</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Yeung 2026</td><td>15 healthy men (7, 4, 7) plus 12 controls</td><td>KP-10 subcutaneous: 1.25 to 10 nmol/kg/h acute; 180 nmol/h continuous; 150 nmol/h daily 8 h</td><td>8 hours; 5 days; <strong>12 days</strong></td><td>LH, FSH and testosterone rose dose-dependently and stayed raised through 12 days</td></tr><tr><td>Mills 2025 (anxiety)</td><td>95 volunteers, 63 men</td><td>KP-54 IV 1 nmol/kg/h</td><td>75 minutes, crossover</td><td>LH robustly up; <strong>no effect on anxiety</strong> by any measure</td></tr><tr><td>Mills 2025 (intranasal)</td><td>Healthy men and women; patients with a reproductive disorder</td><td>KP-54 intranasal 12.8 nmol/kg</td><td>Single</td><td>Rapid, clinically significant gonadotropin release</td></tr><tr><td>Mills 2023</td><td>37 men with hypoactive sexual desire disorder, 32 completed</td><td>KP-54 IV 1 nmol/kg/h</td><td>75 minutes, crossover</td><td>Sexual-processing brain activity modulated; penile tumescence and rated desire up during the session</td></tr><tr><td>Thurston 2022</td><td>40 women with hypoactive sexual desire disorder, 32 completed</td><td>KP-54 IV 1 nmol/kg/h</td><td>75 minutes, crossover</td><td>Sexual and facial-attraction brain processing modulated</td></tr><tr><td>Abbara 2017</td><td>62 women at high risk of ovarian hyperstimulation in IVF</td><td>KP-54 subcutaneous 9.6 nmol/kg, one or two doses 10 h apart</td><td>Single or double dose</td><td>Second dose improved oocyte yield</td></tr><tr><td>Jayasena 2014 (IVF)</td><td>53 women in IVF</td><td>KP-54 subcutaneous, single, dose-ranging</td><td>Single</td><td>Egg maturation at every dose, rising with dose; live births followed</td></tr><tr><td>Jayasena 2014 (amenorrhoea)</td><td>5 women with hypothalamic amenorrhoea</td><td>KP-54 IV 0.01 to 1.0 nmol/kg/h</td><td>8-hour infusions</td><td>LH pulses tripled; each woman's best dose differed; background: chronic high dose desensitises</td></tr><tr><td>Narayanaswamy 2016</td><td>Healthy women</td><td>KP-54 subcutaneous infusion 0.3 and 1.0 nmol/kg/h</td><td>Infusion</td><td>LH and FSH up; response tracked baseline oestradiol</td></tr><tr><td>Abbara 2024; Abbara 2020</td><td>Healthy premenopausal women, with and without ovarian stimulation</td><td>MVT-602 (receptor agonist) 0.01 and 0.03 nmol/kg vs KP-54 9.6 nmol/kg</td><td>Single</td><td>Safe and well tolerated; half-life 1.3 to 2.2 h; LH rose dose-dependently</td></tr><tr><td>Galbiati 2025; Galbiati 2026</td><td>12 healthy adults</td><td>KP 112-121 analogue IV bolus 0.24 nmol/kg</td><td>Single, 60 minutes</td><td>Oxytocin rose, more in one sex; vasopressin unchanged</td></tr><tr><td>Romero-Ruiz 2019</td><td>Women with polycystic ovary syndrome (n = 20 in the human part) and rat models</td><td>Kisspeptin, regimen in full text</td><td>Course</td><td>Gonadotropin responses and ovulation in a subset</td></tr><tr><td>Skorupskaite 2020</td><td>8 women with polycystic ovary syndrome</td><td>KP-10 4 mcg/kg after 7 days of an NK3 receptor antagonist</td><td>Single test dose</td><td>LH response to kisspeptin preserved while the antagonist lowered LH</td></tr><tr><td>Fraser 2021; Nielsen 2026</td><td>Women with polycystic ovary syndrome; healthy volunteers</td><td><em>Fezolinetant</em>, an NK3 antagonist, not kisspeptin</td><td>12 weeks; single and multiple doses</td><td>Testosterone lowered in PCOS; QT modelling. <strong>Measured only</strong> for kisspeptin</td></tr><tr><td>Rodanaki 2025; Katirci 2024</td><td>Girls with suspected precocious puberty; pregnant women with placenta previa</td><td>No kisspeptin given</td><td>—</td><td>Kisspeptin levels measured. <strong>Measured only</strong></td></tr></tbody></table></div></div><p>Two often-cited studies are not yet in the ledger: Dhillo 2005, the first kisspeptin-54 infusion in men, which raised LH and testosterone, and Jayasena 2009, which found that twice-daily subcutaneous kisspeptin-54 for two weeks in women with hypothalamic amenorrhoea lost its effect, the desensitisation the later trials work around.</p>"
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of kisspeptin in the ledger, by what was administered.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Participants</th><th scope=\"col\">Isoform, dose, route</th><th scope=\"col\">Duration</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Yeung 2026</td><td>15 healthy men (7, 4, 7) plus 12 controls</td><td>KP-10 subcutaneous: 1.25 to 10 nmol/kg/h acute; 180 nmol/h continuous; 150 nmol/h daily 8 h</td><td>8 hours; 5 days; <strong>12 days</strong></td><td>LH, FSH and testosterone rose dose-dependently and stayed raised through 12 days</td></tr><tr><td>Mills 2025 (anxiety)</td><td>95 volunteers, 63 men</td><td>KP-54 IV 1 nmol/kg/h</td><td>75 minutes, crossover</td><td>LH robustly up; <strong>no effect on anxiety</strong> by any measure</td></tr><tr><td>Mills 2025 (intranasal)</td><td>Healthy men and women; patients with a reproductive disorder</td><td>KP-54 intranasal 12.8 nmol/kg</td><td>Single</td><td>Rapid, clinically significant gonadotropin release</td></tr><tr><td>Mills 2023</td><td>37 men with hypoactive sexual desire disorder, 32 completed</td><td>KP-54 IV 1 nmol/kg/h</td><td>75 minutes, crossover</td><td>Sexual-processing brain activity modulated; penile tumescence and rated desire up during the session</td></tr><tr><td>Thurston 2022</td><td>40 women with hypoactive sexual desire disorder, 32 completed</td><td>KP-54 IV 1 nmol/kg/h</td><td>75 minutes, crossover</td><td>Sexual and facial-attraction brain processing modulated</td></tr><tr><td>Abbara 2017</td><td>62 women at high risk of ovarian hyperstimulation in IVF</td><td>KP-54 subcutaneous 9.6 nmol/kg, one or two doses 10 h apart</td><td>Single or double dose</td><td>Second dose improved oocyte yield</td></tr><tr><td>Jayasena 2014 (IVF)</td><td>53 women in IVF</td><td>KP-54 subcutaneous, single, dose-ranging</td><td>Single</td><td>Egg maturation at every dose, rising with dose; live births followed</td></tr><tr><td>Jayasena 2014 (amenorrhoea)</td><td>5 women with hypothalamic amenorrhoea</td><td>KP-54 IV 0.01 to 1.0 nmol/kg/h</td><td>8-hour infusions</td><td>LH pulses tripled; each woman's best dose differed; background: chronic high dose desensitises</td></tr><tr><td>Narayanaswamy 2016</td><td>Healthy women</td><td>KP-54 subcutaneous infusion 0.3 and 1.0 nmol/kg/h</td><td>Infusion</td><td>LH and FSH up; response tracked baseline oestradiol</td></tr><tr><td>Abbara 2024; Abbara 2020</td><td>Healthy premenopausal women, with and without ovarian stimulation</td><td>MVT-602 (receptor agonist) 0.01 and 0.03 nmol/kg vs KP-54 9.6 nmol/kg</td><td>Single</td><td>Safe and well tolerated; half-life 1.3 to 2.2 h; LH rose dose-dependently</td></tr><tr><td>Galbiati 2025; Galbiati 2026</td><td>12 healthy adults</td><td>KP 112-121 analogue IV bolus 0.24 nmol/kg</td><td>Single, 60 minutes</td><td>Oxytocin rose, more in one sex; vasopressin unchanged</td></tr><tr><td>Romero-Ruiz 2019</td><td>Women with polycystic ovary syndrome (n = 20 in the human part) and rat models</td><td>Kisspeptin, regimen in full text</td><td>Course</td><td>Gonadotropin responses and ovulation in a subset</td></tr><tr><td>Skorupskaite 2020</td><td>8 women with polycystic ovary syndrome</td><td>KP-10 4 mcg/kg after 7 days of an NK3 receptor antagonist</td><td>Single test dose</td><td>LH response to kisspeptin preserved while the antagonist lowered LH</td></tr><tr><td>Fraser 2021; Nielsen 2026</td><td>Women with polycystic ovary syndrome; healthy volunteers</td><td><em>Fezolinetant</em>, an NK3 antagonist, not kisspeptin</td><td>12 weeks; single and multiple doses</td><td>Testosterone lowered in PCOS; QT modelling. <strong>Measured only</strong> for kisspeptin</td></tr><tr><td>Rodanaki 2025; Katirci 2024</td><td>Girls with suspected precocious puberty; pregnant women with placenta previa</td><td>No kisspeptin given</td><td>—</td><td>Kisspeptin levels measured. <strong>Measured only</strong></td></tr></tbody></table></div></div><p>Two often-cited studies were added to the ledger on 25 September 2026: Dhillo 2005, the first kisspeptin-54 infusion in men, which raised LH and testosterone, and Jayasena 2009, which found that twice-daily subcutaneous kisspeptin-54 for two weeks in women with hypothalamic amenorrhoea lost its effect, the desensitisation the later trials work around.</p>"
     },
     {
       "id": "dosage-chart",
@@ -1320,7 +1338,7 @@
     {
       "id": "timeline",
       "heading": "What is measured over time, and what is not",
-      "html": "<p>The hormone timeline is precise. <strong>Minutes:</strong> LH rises during an infusion or after a nasal dose. <strong>Hours:</strong> testosterone and oestradiol follow; a single subcutaneous dose of kisspeptin-54 produces an LH surge of about <strong>12 to 14 hours</strong>, and the receptor agonist MVT-602 clears with a half-life of 1.3 to 2.2 hours. <strong>Days:</strong> in one 2026 study, daily eight-hour infusions kept testosterone raised through <strong>12 days</strong>. <strong>Weeks:</strong> in the 2009 study not yet in the ledger, twice-daily injections for two weeks lost their effect. Nothing has been measured beyond that. 'How long does it take to kick in' has an answer in minutes; 'how long does it keep working' has an answer that stops at 12 days, and the older data say the answer after that is 'less'.</p>"
+      "html": "<p>The hormone timeline is precise. <strong>Minutes:</strong> LH rises during an infusion or after a nasal dose. <strong>Hours:</strong> testosterone and oestradiol follow; a single subcutaneous dose of kisspeptin-54 produces an LH surge of about <strong>12 to 14 hours</strong>, and the receptor agonist MVT-602 clears with a half-life of 1.3 to 2.2 hours. <strong>Days:</strong> in one 2026 study, daily eight-hour infusions kept testosterone raised through <strong>12 days</strong>. <strong>Weeks:</strong> in the 2009 study, twice-daily injections for two weeks lost their effect. Nothing has been measured beyond that. 'How long does it take to kick in' has an answer in minutes; 'how long does it keep working' has an answer that stops at 12 days, and the older data say the answer after that is 'less'.</p>"
     },
     {
       "id": "storage-guide",
