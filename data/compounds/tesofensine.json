@@ -572,7 +572,7 @@
         "fields": {
           "study": "Krug 2026",
           "year": "2026",
-          "design": "Human study",
+          "design": "Analytical method",
           "n": null,
           "species": "Humans",
           "dose": "483 μg",
@@ -1040,7 +1040,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 85.9,
+  "uniqueness_pct": 86.5,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1067,6 +1067,10 @@
     {
       "date": "2026-09-24",
       "change": "Written under the sequencing rule after research/intents/tesofensine.json: guide (8 sections incl. a table of all human studies and a comparison with sibutramine), FAQ to 12 plus 9 from the map, hand-written dose, timeline and adverse-event claims with frequencies from the abstracts; mechanism (small molecule, not a peptide), reported-use and regulatory claims with the dated COFEPRIS timeline; a misdrafted interactions claim removed; intent-driven H1 and title. Triage: a misdrafted duration claim removed (a review's '12 months' referred to other drugs' phase 3 trials)."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Label correction: 1 evidence rows built from detection and doping-control papers carried study designs such as animal or in-vitro work. They are relabelled Analytical method, the label scripts/draft_claims.py has applied since the rule was added; these rows predate it. pmid-42320973 (Human study -> Analytical method)"
     }
   ],
   "guide": [

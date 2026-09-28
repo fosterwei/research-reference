@@ -631,7 +631,7 @@
         "fields": {
           "study": "Chen 2020",
           "year": "2020",
-          "design": "Animal study",
+          "design": "Analytical method",
           "n": null,
           "species": "Mice",
           "dose": "not stated in abstract",
@@ -1083,7 +1083,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 87.1,
+  "uniqueness_pct": 87.2,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1106,6 +1106,14 @@
     {
       "date": "2026-09-24",
       "change": "Stage 0 cleaned by hand: thirteen sources and their rows matched by the alias 'MT-II' (metallothionein II, myotoxin II, V5/MT, a genotype paper) removed. Written under the sequencing rule after research/intents/melanotan-ii.json: guide (8 sections incl. a four-trial table and a case-report table), FAQ to 12 plus 8 from the map, dose, weight-normalized, duration, timeline and adverse-event claims from the abstracts, mechanism, reported-use, regulatory (illegal to sell in the UK, US and Australia; descendants approved) with pending_source; intent-driven H1 and title."
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Label correction: 2 evidence rows built from detection and doping-control papers carried study designs such as animal or in-vitro work. They are relabelled Analytical method, the label scripts/draft_claims.py has applied since the rule was added; these rows predate it. pmid-34502223 (Animal study -> Analytical method); pmid-32674774 (Animal study -> Analytical method)"
+    },
+    {
+      "date": "2026-09-25",
+      "change": "Reverted 1 of those label changes after tightening the rule: 'urine' had matched inside 'murine' and 'screening' had matched a zebrafish drug screen. pmid-34502223 back to Animal study"
     }
   ],
   "guide": [
