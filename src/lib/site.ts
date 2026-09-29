@@ -11,7 +11,7 @@ export const OG_IMAGE = '/og.jpg';
 // Bumped when an icon file changes. Browsers cache favicons separately from
 // pages and ignore a normal reload, including the absence of one, so the only
 // reliable way to move a client onto a new icon is to change the URL.
-export const ICON_V = '2';
+export const ICON_V = '3';
 export const OG_IMAGE_ALT =
   'Laboratory vials beside a molecular model, with the site name and the line "Every claim cited, tiered and dated".';
 

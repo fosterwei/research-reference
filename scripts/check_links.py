@@ -17,13 +17,16 @@ Two rules, both easy to break by accident and invisible until someone clicks:
      platform rather than reported.
   4. Every icon and manifest in <link rel> resolves, and each icon matches any
      sizes="" it declares. A favicon is the one asset nobody notices is broken,
-     because the browser silently falls back to a blank page glyph.
+     because the browser silently falls back to a blank page glyph. The web
+     manifest is parsed too: its icons are referenced from nowhere else, so
+     without this they are unreachable by every other check here.
 
 Same-page anchors (#id) are checked against the ids that page actually renders.
 Standard library only; exits non-zero on the first category that fails.
 """
 from __future__ import annotations
 
+import json
 import pathlib
 import re
 import sys
@@ -134,6 +137,29 @@ def main() -> int:
             internal += 1
             if not resolves(href):
                 broken[f"{where} -> {href}"] += 1
+
+    # The manifest's icons are named in JSON, not in any page's markup.
+    for mf in sorted(DIST.rglob("*.webmanifest")) + sorted(DIST.glob("manifest.json")):
+        where = mf.relative_to(DIST).as_posix()
+        try:
+            icons = json.loads(mf.read_text(encoding="utf-8")).get("icons") or []
+        except (ValueError, OSError) as exc:
+            bad_card[f"{where} -> unreadable: {exc}"] += 1
+            continue
+        for icon in icons:
+            src = (icon.get("src") or "").split("?")[0].lstrip("/")
+            if not src:
+                continue
+            cards += 1
+            asset = DIST / src
+            if not asset.is_file():
+                bad_card[f"{where} -> icons[] missing: /{src}"] += 1
+                continue
+            declared = re.fullmatch(r"(\d+)x(\d+)", (icon.get("sizes") or "").strip())
+            size = image_size(asset)
+            if declared and size and size != (int(declared.group(1)), int(declared.group(2))):
+                bad_card[f"{where} -> /{src} is {size[0]}x{size[1]},"
+                         f" declared {declared.group(0)}"] += 1
 
     print(f"{len(pages)} pages | {internal} internal links | "
           f"{outbound} outbound links | {cards} asset refs")
