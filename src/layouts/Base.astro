@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { SITE_NAME, OG_IMAGE, OG_IMAGE_ALT } from '../lib/site';
+import { SITE_NAME, OG_IMAGE, OG_IMAGE_ALT, ICON_V } from '../lib/site';
 
 interface Props {
   title: string;
@@ -28,9 +28,11 @@ const pageTitle = title.includes(SITE_NAME) || !siteSuffix ? title : `${title} |
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
-    <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
-    <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href={`/favicon-32.png?v=${ICON_V}`} />
+    <link rel="icon" type="image/png" sizes="16x16" href={`/favicon-16.png?v=${ICON_V}`} />
+    <link rel="icon" type="image/png" sizes="192x192" href={`/icon-192.png?v=${ICON_V}`} />
+    <link rel="icon" href={`/favicon.ico?v=${ICON_V}`} sizes="16x16 32x32 48x48" />
+    <link rel="apple-touch-icon" href={`/apple-touch-icon.png?v=${ICON_V}`} />
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#06336A" />
     <link rel="canonical" href={canonical} />
