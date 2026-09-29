@@ -238,9 +238,10 @@
   ],
   "review": {
     "author": "",
-    "reviewer": "",
-    "reviewer_credential": "",
-    "reviewed_at": ""
+    "reviewer": "Adam Mirando",
+    "reviewer_credential": "PharmD",
+    "reviewed_at": "2026-09-28",
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
   "uniqueness_pct": 96.0,
   "changelog": [
@@ -255,6 +256,10 @@
     {
       "date": "2026-09-24",
       "change": "Correction: the trial table's fourth selank row cited a 2012 case series in obsessive-compulsive disorder. The paper is about low-dose lithium augmentation in venlafaxine-resistant depression and does not concern selank; the compound record had matched it by alias and this page repeated it. Row removed, the correction stated beneath the table, and the source dropped from this ledger."
+    },
+    {
+      "date": "2026-09-29",
+      "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-28."
     }
   ],
   "sides": [

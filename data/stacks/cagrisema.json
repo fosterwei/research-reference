@@ -317,9 +317,10 @@
   ],
   "review": {
     "author": "",
-    "reviewer": "",
-    "reviewer_credential": "",
-    "reviewed_at": ""
+    "reviewer": "Adam Mirando",
+    "reviewer_credential": "PharmD",
+    "reviewed_at": "2026-09-28",
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
   "uniqueness_pct": 96.1,
   "changelog": [
@@ -330,6 +331,10 @@
     {
       "date": "2026-09-24",
       "change": "Stage 0: the eight drafted combination claims were checked and are genuine trials of the combination; two labels corrected, a meta-analysis of 5,425 participants and a pair of pharmacokinetic studies that had been drafted as clinical trials with wrong sample sizes. Written under the sequencing rule after research/intents/cagrisema.json: guide of eleven sections including both trial-programme tables, the four-arm component comparison, the estimand explanation, the head-to-head result against tirzepatide, doses, side effects by arm and availability. REDEFINE 2 and REDEFINE 4 figures are manufacturer announcements, cited editorially with pending_source."
+    },
+    {
+      "date": "2026-09-29",
+      "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-28."
     }
   ],
   "components": [
