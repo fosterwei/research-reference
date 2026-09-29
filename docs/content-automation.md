@@ -224,4 +224,12 @@ accept everything or reject everything.
   rarely mention siblings, and no template can invent a cross-reference that
   the writing does not contain. Future audits should record the density and
   stop proposing this fix.
+- 2026-09-29 — Outbound links carry `rel="nofollow"`, on all 1,197 of them: the
+  source ledgers, the ChEMBL identifier, the reviewer's profile and the handful
+  of links on the about, contact and privacy pages. The site cites over a
+  thousand papers and none of those citations passes ranking signal.
+  `scripts/check_links.py` enforces it in CI alongside two checks that had no
+  home before: every internal href resolves to a page in `dist/`, and every
+  same-page anchor matches an id that page renders. Verified by injecting one
+  fault of each kind into a built page and confirming the check fails.
 
