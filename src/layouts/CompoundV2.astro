@@ -188,7 +188,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
       <p class="dek" set:html={dek} />
       <div class="pills">
         <span class="pill"><Tier tier={d.evidence_tier} /></span>
-        {d.review?.reviewer && <span class="pill">Reviewed {d.review.reviewed_at}</span>}
+        {d.review?.reviewer && <span class="pill">Reviewed <Fragment set:html={timeTag(d.review.reviewed_at)} /></span>}
         <span class="pill">{d.sources.length} sources</span>
         {updated && <span class="pill">Updated <Fragment set:html={timeTag(updated)} /></span>}
         {brandAliases.length > 0 && <span class="pill dashed">Also: {brandAliases.join(', ')}</span>}
