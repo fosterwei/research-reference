@@ -1314,9 +1314,10 @@
   "uniqueness_pct": 86.0,
   "review": {
     "author": "",
-    "reviewer": "",
-    "reviewer_credential": "",
-    "reviewed_at": ""
+    "reviewer": "Adam Mirando",
+    "reviewer_credential": "PharmD",
+    "reviewed_at": "2026-09-25",
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
   "changelog": [
     {
@@ -1342,6 +1343,10 @@
     {
       "date": "2026-09-24",
       "change": "Written under the sequencing rule after research/intents/dsip.json: guide (8 sections incl. a table of all sixteen human studies), FAQ to 12 plus 5 from the map, hand-written dose, duration, timeline and adverse-event claims from the abstracts (the drafter had read participant ages as a 39-year duration), mechanism including the gene question, reported-use, regulatory; intent-driven H1 and title."
+    },
+    {
+      "date": "2026-09-29",
+      "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-25."
     }
   ],
   "guide": [
