@@ -37,7 +37,11 @@ const updated = lastmod(entry);
 const seen = new Set<string>();
 const summaryParas = paragraphs(d.summary, 3).map((p: string) => rich(p, { bold: 2, seen }));
 const baseTitle = title(entry);
-const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline: baseTitle, description: description(entry), dateModified: updated, datePublished: d.changelog?.[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(), publisher: { '@type': 'Organization', name: 'Peptide Research Reference', url: Astro.site?.toString() } };
+const jsonld = {
+  '@context': 'https://schema.org', '@type': 'Article', headline: baseTitle, description: description(entry), dateModified: updated, datePublished: d.changelog?.[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(), publisher: { '@type': 'Organization', name: 'Peptide Research Reference', url: Astro.site?.toString() },
+  ...(d.review?.author ? { author: { '@type': 'Person', name: d.review.author } } : {}),
+  ...(d.review?.reviewer ? { reviewedBy: { '@type': 'Person', name: d.review.reviewer, jobTitle: d.review.reviewer_credential, ...(d.review.reviewer_url ? { sameAs: d.review.reviewer_url } : {}) } } : {}),
+};
 
 type Guide = { id: string; heading: string; lede?: string; html: string; pending?: boolean };
 const guide: Guide[] = (d.guide ?? []) as Guide[];
