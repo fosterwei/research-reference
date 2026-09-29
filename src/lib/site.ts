@@ -2,6 +2,14 @@ import type { CollectionEntry } from 'astro:content';
 
 export const SITE_NAME = 'Peptide Research Reference';
 
+// Site-wide social card. 1200x630 (1.91:1), the ratio Facebook, LinkedIn,
+// Slack, Discord and X all accept, and large enough for the
+// max-image-preview:large directive the pages already set. A page may pass its
+// own `image` to Base; none does yet, so every card is this one.
+export const OG_IMAGE = '/og.jpg';
+export const OG_IMAGE_ALT =
+  'Laboratory vials beside a molecular model, with the site name and the line "Every claim cited, tiered and dated".';
+
 export const TIER_LABEL: Record<string, string> = {
   'approved-label': 'Approved label',
   'human-clinical-trial': 'Human clinical trial',

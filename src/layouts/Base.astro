@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { SITE_NAME } from '../lib/site';
+import { SITE_NAME, OG_IMAGE, OG_IMAGE_ALT } from '../lib/site';
 
 interface Props {
   title: string;
@@ -12,9 +12,13 @@ interface Props {
   jsonld?: Record<string, unknown> | Record<string, unknown>[];
   /** Append the site name to the title. Pages on the 60-character budget pass false when the base title is long. */
   siteSuffix?: boolean;
+  /** Social card image, root-relative. The site-wide card is the default. */
+  image?: string;
 }
-const { title, description, path, indexable = false, jsonld, siteSuffix = true } = Astro.props;
+const { title, description, path, indexable = false, jsonld, siteSuffix = true, image = OG_IMAGE } = Astro.props;
 const canonical = new URL(path, Astro.site).toString();
+// Social cards are fetched by crawlers that do not resolve relative URLs.
+const ogImage = new URL(image, Astro.site).toString();
 const pageTitle = title.includes(SITE_NAME) || !siteSuffix ? title : `${title} | ${SITE_NAME}`;
 ---
 <!doctype html>
@@ -30,6 +34,17 @@ const pageTitle = title.includes(SITE_NAME) || !siteSuffix ? title : `${title} |
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:type" content="article" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={OG_IMAGE_ALT} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={OG_IMAGE_ALT} />
     {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
     <slot name="head" />
   </head>
