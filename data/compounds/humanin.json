@@ -792,7 +792,7 @@
   "comparison_peers": [],
   "open_questions": [
     "No human has been given humanin or HNG in a study; every human row in the ledger measured endogenous levels.",
-    "The 2020 tumour-progression study (Moreno Ayala, Sci Rep), the HNG healthspan mouse study and the 2001 discovery paper are cited editorially and are not in the ledger.",
+    "The HNG healthspan mouse study is cited editorially and is not in the ledger. The 2020 tumour-progression study (Moreno Ayala, pmid-32444831) and the 2001 discovery paper (Hashimoto, pmid-11371646) were added to it on 29 September 2026.",
     "No pharmacokinetic study of humanin or HNG in any species is indexed."
   ],
   "media": {
@@ -1103,6 +1103,13 @@
       "kind": "peer-reviewed"
     },
     {
+      "id": "pmid-32444831",
+      "title": "Humanin Promotes Tumor Progression in Experimental Triple Negative Breast Cancer.",
+      "url": "https://europepmc.org/article/MED/32444831",
+      "published": "2020-05-22",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-31897543",
       "title": "Senescence in the pathogenesis of age-related macular degeneration.",
       "url": "https://europepmc.org/article/MED/31897543",
@@ -1178,10 +1185,17 @@
       "url": "https://europepmc.org/article/MED/17084101",
       "published": "2006-11-02",
       "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11371646",
+      "title": "A rescue factor abolishing neuronal cell death by a wide spectrum of familial Alzheimer's disease genes and Abeta.",
+      "url": "https://europepmc.org/article/MED/11371646",
+      "published": "2001-05-01",
+      "kind": "peer-reviewed"
     }
   ],
   "related": [],
-  "uniqueness_pct": 86.9,
+  "uniqueness_pct": 87.1,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1208,6 +1222,10 @@
     {
       "date": "2026-09-25",
       "change": "Misattribution check: reported_timelines (pmid-34351816): the study measured the body's own humanin after exercise and gave none, so it reports no onset or duration of effect; study_durations (pmid-34351816): the quoted interval is a blood-sampling schedule in a study that administered nothing. The sources stay in the ledger; only the claims that put another agent's result under this compound were removed."
+    },
+    {
+      "date": "2026-09-29",
+      "change": "Two papers the page cited editorially are now in the ledger: the 2020 triple-negative breast cancer study showing humanin promotes tumour progression (pmid-32444831) and the 2001 paper that identified humanin as a rescue factor (pmid-11371646). The table no longer marks the first as absent, and the open question narrows to the HNG healthspan study."
     }
   ],
   "guide": [
@@ -1220,7 +1238,7 @@
       "id": "trials",
       "heading": "Human studies: what was measured, since nothing was given",
       "lede": "Every human study in the ledger measured humanin. None administered it. This table says what each one measured and after what.",
-      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of humanin in the ledger, all observational with respect to the peptide.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Participants</th><th scope=\"col\">What changed or was compared</th><th scope=\"col\">Where humanin was measured</th><th scope=\"col\">What it showed</th></tr></thead><tbody><tr><td>von Walden 2021</td><td>30 healthy adults</td><td>One bout of endurance or resistance exercise</td><td>Plasma and muscle</td><td>Circulating humanin rose after endurance exercise, not resistance</td></tr><tr><td>Gidlund 2016</td><td>55 men with impaired glucose regulation</td><td>12 weeks of resistance training or Nordic walking</td><td>Muscle biopsies and serum</td><td>Muscle humanin protein rose after resistance training</td></tr><tr><td>Delgado-Peraza 2023</td><td>People with Alzheimer's disease</td><td>Exercise programme</td><td>Neuron-derived extracellular vesicles in blood</td><td>Vesicle humanin and BDNF rose with exercise</td></tr><tr><td>Xu 2019</td><td>158 people with vascular dementia</td><td>Hyperbaric oxygen, 12 weeks</td><td>Serum</td><td>Humanin measured as a marker alongside cognition scores</td></tr><tr><td>Vicinanza 2025</td><td>49 older adults with atrial fibrillation</td><td>Mediterranean-diet adherence</td><td>Plasma</td><td>Higher adherence, higher humanin and SHMOOSE</td></tr><tr><td>Bolignano 2026</td><td>83 haemodialysis patients, 24 months</td><td>Cardiovascular events</td><td>Plasma</td><td>U-shaped: low and high humanin both predicted events</td></tr><tr><td>Liao 2026</td><td>39 atrial-fibrillation patients, 39 controls</td><td>Disease vs health</td><td>Plasma and atrial tissue</td><td>Humanin and MOTS-c altered in AF; HNG then tested in mice</td></tr><tr><td>Mohamed 2026; Coradduzza 2025</td><td>Breast and prostate cancer patients</td><td>Disease vs health</td><td>Serum; tissue</td><td>Raised in breast cancer serum; down-regulated in prostate lesions</td></tr><tr><td>Zhao 2023; Küçükali 2026; Rodríguez-Esparragón 2025</td><td>Children with IBD; multiple sclerosis; other cohorts</td><td>Disease vs health</td><td>Serum; transcripts</td><td>Levels shift with chronic inflammation and disease</td></tr><tr><td>Nashine 2017; Nashine 2026</td><td>Cells carrying mitochondria from macular-degeneration patients</td><td>HNG or a humanin fragment added in culture</td><td>Cultured cybrid cells</td><td>Protected the AMD mitochondria and reduced pro-apoptotic gene expression: a cell study, counted as human by the fetcher</td></tr></tbody></table></div></div><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Animal and cell studies that gave humanin or HNG.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Model</th><th scope=\"col\">Dose and route</th><th scope=\"col\">Duration</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Köm Akipek 2026</td><td>Rats given paroxetine</td><td>Humanin 1 mg/kg/day, subcutaneous infusion</td><td>Phase 1 dosing period</td><td>Reversed SSRI-induced sexual dysfunction and dopamine changes</td></tr><tr><td>Hekim 2026</td><td>Diabetic mice</td><td>Humanin 4 mg/kg intraperitoneal</td><td>15 days</td><td>Less testicular oxidative damage</td></tr><tr><td>Bulut 2026</td><td>Diabetic mice</td><td>Humanin intraperitoneal, repeated</td><td>Not stated</td><td>Lower oxidative stress, inflammation, apoptosis; hormone balance restored</td></tr><tr><td>Lin 2026</td><td>Rats with inherited retinal degeneration</td><td>HNG 0.4 or 4 mg/kg intraperitoneal, twice weekly</td><td>1 or 4 weeks</td><td>Gene-expression changes in retina; functional results in full text</td></tr><tr><td>Abueid 2026</td><td>Rats, renal ischaemia-reperfusion</td><td>S14G-humanin</td><td>Not stated</td><td>Antioxidant enzymes restored</td></tr><tr><td>Liao 2026</td><td>Mice with angiotensin-induced atrial fibrillation</td><td>HNG or MOTS-c</td><td>Not stated</td><td>Less fibrosis and mitochondrial dysfunction</td></tr><tr><td>Elhusseiny 2026</td><td>Human muscle cells</td><td>10 μM HNG or MOTS-c</td><td>Culture</td><td>MOTS-c preserved myotube size against dexamethasone; HNG partially</td></tr><tr><td>Moreno Ayala 2020 (not in ledger)</td><td>Mice with triple-negative breast cancer</td><td>Systemic humanin</td><td>Tumour growth period</td><td><strong>Tumour apoptosis reduced, chemotherapy blunted, growth and lung metastasis accelerated</strong></td></tr></tbody></table></div></div>"
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Human studies of humanin in the ledger, all observational with respect to the peptide.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Participants</th><th scope=\"col\">What changed or was compared</th><th scope=\"col\">Where humanin was measured</th><th scope=\"col\">What it showed</th></tr></thead><tbody><tr><td>von Walden 2021</td><td>30 healthy adults</td><td>One bout of endurance or resistance exercise</td><td>Plasma and muscle</td><td>Circulating humanin rose after endurance exercise, not resistance</td></tr><tr><td>Gidlund 2016</td><td>55 men with impaired glucose regulation</td><td>12 weeks of resistance training or Nordic walking</td><td>Muscle biopsies and serum</td><td>Muscle humanin protein rose after resistance training</td></tr><tr><td>Delgado-Peraza 2023</td><td>People with Alzheimer's disease</td><td>Exercise programme</td><td>Neuron-derived extracellular vesicles in blood</td><td>Vesicle humanin and BDNF rose with exercise</td></tr><tr><td>Xu 2019</td><td>158 people with vascular dementia</td><td>Hyperbaric oxygen, 12 weeks</td><td>Serum</td><td>Humanin measured as a marker alongside cognition scores</td></tr><tr><td>Vicinanza 2025</td><td>49 older adults with atrial fibrillation</td><td>Mediterranean-diet adherence</td><td>Plasma</td><td>Higher adherence, higher humanin and SHMOOSE</td></tr><tr><td>Bolignano 2026</td><td>83 haemodialysis patients, 24 months</td><td>Cardiovascular events</td><td>Plasma</td><td>U-shaped: low and high humanin both predicted events</td></tr><tr><td>Liao 2026</td><td>39 atrial-fibrillation patients, 39 controls</td><td>Disease vs health</td><td>Plasma and atrial tissue</td><td>Humanin and MOTS-c altered in AF; HNG then tested in mice</td></tr><tr><td>Mohamed 2026; Coradduzza 2025</td><td>Breast and prostate cancer patients</td><td>Disease vs health</td><td>Serum; tissue</td><td>Raised in breast cancer serum; down-regulated in prostate lesions</td></tr><tr><td>Zhao 2023; Küçükali 2026; Rodríguez-Esparragón 2025</td><td>Children with IBD; multiple sclerosis; other cohorts</td><td>Disease vs health</td><td>Serum; transcripts</td><td>Levels shift with chronic inflammation and disease</td></tr><tr><td>Nashine 2017; Nashine 2026</td><td>Cells carrying mitochondria from macular-degeneration patients</td><td>HNG or a humanin fragment added in culture</td><td>Cultured cybrid cells</td><td>Protected the AMD mitochondria and reduced pro-apoptotic gene expression: a cell study, counted as human by the fetcher</td></tr></tbody></table></div></div><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Animal and cell studies that gave humanin or HNG.</caption><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Model</th><th scope=\"col\">Dose and route</th><th scope=\"col\">Duration</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Köm Akipek 2026</td><td>Rats given paroxetine</td><td>Humanin 1 mg/kg/day, subcutaneous infusion</td><td>Phase 1 dosing period</td><td>Reversed SSRI-induced sexual dysfunction and dopamine changes</td></tr><tr><td>Hekim 2026</td><td>Diabetic mice</td><td>Humanin 4 mg/kg intraperitoneal</td><td>15 days</td><td>Less testicular oxidative damage</td></tr><tr><td>Bulut 2026</td><td>Diabetic mice</td><td>Humanin intraperitoneal, repeated</td><td>Not stated</td><td>Lower oxidative stress, inflammation, apoptosis; hormone balance restored</td></tr><tr><td>Lin 2026</td><td>Rats with inherited retinal degeneration</td><td>HNG 0.4 or 4 mg/kg intraperitoneal, twice weekly</td><td>1 or 4 weeks</td><td>Gene-expression changes in retina; functional results in full text</td></tr><tr><td>Abueid 2026</td><td>Rats, renal ischaemia-reperfusion</td><td>S14G-humanin</td><td>Not stated</td><td>Antioxidant enzymes restored</td></tr><tr><td>Liao 2026</td><td>Mice with angiotensin-induced atrial fibrillation</td><td>HNG or MOTS-c</td><td>Not stated</td><td>Less fibrosis and mitochondrial dysfunction</td></tr><tr><td>Elhusseiny 2026</td><td>Human muscle cells</td><td>10 μM HNG or MOTS-c</td><td>Culture</td><td>MOTS-c preserved myotube size against dexamethasone; HNG partially</td></tr><tr><td>Moreno Ayala 2020</td><td>Mice with triple-negative breast cancer</td><td>Systemic humanin</td><td>Tumour growth period</td><td><strong>Tumour apoptosis reduced, chemotherapy blunted, growth and lung metastasis accelerated</strong></td></tr></tbody></table></div></div>"
     },
     {
       "id": "dosage-chart",

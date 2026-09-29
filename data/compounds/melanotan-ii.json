@@ -764,7 +764,7 @@
   "comparison_peers": [],
   "open_questions": [
     "No tanning trial, no study in women, no study longer than two weeks and no cohort followed for melanoma exists.",
-    "The MHRA 2008 warning, FDA 2009 warning letter, TGA position, the 2012 to 2013 melanoma case reports and the rhabdomyolysis reports are cited from summaries and are not in the ledger.",
+    "The MHRA 2008 warning, FDA 2009 warning letter, TGA position and the rhabdomyolysis reports are cited from summaries and are not in the ledger. The melanoma and naevus case reports of 2012 and 2013 were added to it on 29 September 2026: Ong 2012 (melanoma in situ), Mang 2012 (dermoscopic change in naevi), Reid 2013 (atypical naevi) and Hjuler 2013 (melanoma).",
     "Thirteen alias-matched sources (metallothionein II, myotoxin II, V5/MT) were removed by hand; the fetcher's publication counts still include them."
   ],
   "media": {
@@ -1033,6 +1033,34 @@
       "kind": "peer-reviewed"
     },
     {
+      "id": "pmid-24355990",
+      "title": "Melanoma associated with the use of melanotan-II.",
+      "url": "https://europepmc.org/article/MED/24355990",
+      "published": "2013-12-18",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23914578",
+      "title": "Atypical melanocytic naevi following melanotan injection.",
+      "url": "https://europepmc.org/article/MED/23914578",
+      "published": "2013-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23052015",
+      "title": "[Dermoscopic changes in melanocytic nevi during use of melanotan II].",
+      "url": "https://europepmc.org/article/MED/23052015",
+      "published": "2012-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22724573",
+      "title": "Melanotan-associated melanoma in situ.",
+      "url": "https://europepmc.org/article/MED/22724573",
+      "published": "2012-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
       "id": "pmid-20935665",
       "title": "Sympathetic and sensory innervation of brown adipose tissue.",
       "url": "https://europepmc.org/article/MED/20935665",
@@ -1083,7 +1111,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 87.2,
+  "uniqueness_pct": 87.4,
   "review": {
     "author": "",
     "reviewer": "",
@@ -1114,6 +1142,10 @@
     {
       "date": "2026-09-25",
       "change": "Reverted 1 of those label changes after tightening the rule: 'urine' had matched inside 'murine' and 'screening' had matched a zebrafish drug screen. pmid-34502223 back to Animal study"
+    },
+    {
+      "date": "2026-09-29",
+      "change": "The four melanoma and naevus case reports the page cited from summaries are now in the ledger: Ong 2012 (pmid-22724573), Mang 2012 (pmid-23052015), Reid 2013 (pmid-23914578) and Hjuler 2013 (pmid-24355990). An open action had named one of them as 'Ong and Bygrave'; the authors are Ong and Bowling."
     }
   ],
   "guide": [
