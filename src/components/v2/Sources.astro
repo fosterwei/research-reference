@@ -12,7 +12,7 @@ const head = sources.slice(0, visible), tail = sources.slice(visible);
   {head.map((s, i) => (
     <li class="src-row" id={s.id}>
       <div class="n">{i + 1}</div>
-      <div><a href={s.url} target="_blank" rel="noopener">{s.title}</a><div class="m"><code>{s.id}</code> · <Fragment set:html={timeTag(s.published)} />{s.kind ? ` · ${s.kind}` : ''}</div></div>
+      <div><a href={s.url} target="_blank" rel="nofollow noopener">{s.title}</a><div class="m"><code>{s.id}</code> · <Fragment set:html={timeTag(s.published)} />{s.kind ? ` · ${s.kind}` : ''}</div></div>
     </li>
   ))}
 </ol>
@@ -23,7 +23,7 @@ const head = sources.slice(0, visible), tail = sources.slice(visible);
       {tail.map((s, i) => (
         <li class="src-row" id={s.id}>
           <div class="n">{visible + i + 1}</div>
-          <div><a href={s.url} target="_blank" rel="noopener">{s.title}</a><div class="m"><code>{s.id}</code> · <Fragment set:html={timeTag(s.published)} />{s.kind ? ` · ${s.kind}` : ''}</div></div>
+          <div><a href={s.url} target="_blank" rel="nofollow noopener">{s.title}</a><div class="m"><code>{s.id}</code> · <Fragment set:html={timeTag(s.published)} />{s.kind ? ` · ${s.kind}` : ''}</div></div>
         </li>
       ))}
     </ol>

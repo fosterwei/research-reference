@@ -21,5 +21,5 @@ const chembl = summary?.chembl;
   {'total' in pubs && <><dt>Indexed publications</dt><dd>{formatCount(pubs.total)} in Europe PMC{summary?.retrieved_at ? `, as of ${summary.retrieved_at}` : ''}</dd></>}
   {'randomized_controlled_trials' in pubs && <><dt>Randomized controlled trials</dt><dd>{formatCount(pubs.randomized_controlled_trials)}</dd></>}
   {'clinical_trials' in pubs && <><dt>Clinical trials, any design</dt><dd>{formatCount(pubs.clinical_trials)}</dd></>}
-  {chembl?.chembl_id && <><dt>ChEMBL</dt><dd><a href={chembl.url} rel="noopener">{chembl.chembl_id}</a>{typeof chembl.max_phase === 'number' ? `, max clinical phase ${chembl.max_phase}` : ''}{chembl.first_approval ? `, first approval ${chembl.first_approval}` : ''}</dd></>}
+  {chembl?.chembl_id && <><dt>ChEMBL</dt><dd><a href={chembl.url} rel="nofollow noopener">{chembl.chembl_id}</a>{typeof chembl.max_phase === 'number' ? `, max clinical phase ${chembl.max_phase}` : ''}{chembl.first_approval ? `, first approval ${chembl.first_approval}` : ''}</dd></>}
 </dl>

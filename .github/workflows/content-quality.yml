@@ -49,5 +49,7 @@ jobs:
       - run: npm run build
         env:
           SITE_URL: https://example.com
+      - name: Links resolve, and nothing outbound follows
+        run: python3 scripts/check_links.py
       - name: Every written page completed the content loop
         run: python3 scripts/loop_status.py --strict
