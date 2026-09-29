@@ -1,0 +1,14 @@
+{
+  "name": "Peptide Research Reference",
+  "short_name": "Peptide Ref",
+  "description": "A cited research reference for peptides. Every claim carries an evidence tier and links to the study it came from.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#FFFFFF",
+  "theme_color": "#06336A",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

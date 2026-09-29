@@ -15,6 +15,9 @@ Two rules, both easy to break by accident and invisible until someone clicks:
      dist/ and matches the width and height the page declares. A card that
      404s is invisible to fetch it, and a mismatched size is cropped by the
      platform rather than reported.
+  4. Every icon and manifest in <link rel> resolves, and each icon matches any
+     sizes="" it declares. A favicon is the one asset nobody notices is broken,
+     because the browser silently falls back to a blank page glyph.
 
 Same-page anchors (#id) are checked against the ids that page actually renders.
 Standard library only; exits non-zero on the first category that fails.
@@ -35,6 +38,10 @@ META_IMG = re.compile(
     r'<meta\b[^>]*?(?:property|name)="(og:image|twitter:image)"[^>]*?content="([^"]+)"', re.I)
 META_DIM = re.compile(
     r'<meta\b[^>]*?property="og:image:(width|height)"[^>]*?content="(\d+)"', re.I)
+LINK_ASSET = re.compile(
+    r'<link\b[^>]*?rel="(icon|apple-touch-icon|manifest)"[^>]*?>', re.I)
+LINK_HREF = re.compile(r'href="([^"]+)"', re.I)
+LINK_SIZES = re.compile(r'sizes="(\d+)x(\d+)"', re.I)
 
 
 def image_size(path: pathlib.Path):
@@ -93,6 +100,24 @@ def main() -> int:
             if prop.lower() == "og:image" and all(want) and size and size != want:
                 bad_card[f"{where} -> /{rel} is {size[0]}x{size[1]},"
                          f" declared {want[0]}x{want[1]}"] += 1
+
+        for tag in LINK_ASSET.finditer(html):
+            href = LINK_HREF.search(tag.group(0))
+            if not href:
+                continue
+            cards += 1
+            rel = href.group(1).split("?")[0].lstrip("/")
+            asset = DIST / rel
+            if not asset.is_file():
+                bad_card[f"{where} -> {tag.group(1)} missing: /{rel}"] += 1
+                continue
+            dim = LINK_SIZES.search(tag.group(0))
+            if dim and asset.suffix.lower() == ".png":
+                want_px = (int(dim.group(1)), int(dim.group(2)))
+                size = image_size(asset)
+                if size and size != want_px:
+                    bad_card[f"{where} -> /{rel} is {size[0]}x{size[1]},"
+                             f" declared {want_px[0]}x{want_px[1]}"] += 1
         for tag in ANCHOR.finditer(html):
             href = tag.group(1)
             if href.startswith("#"):
@@ -111,12 +136,12 @@ def main() -> int:
                 broken[f"{where} -> {href}"] += 1
 
     print(f"{len(pages)} pages | {internal} internal links | "
-          f"{outbound} outbound links | {cards} social-card refs")
+          f"{outbound} outbound links | {cards} asset refs")
     failed = False
     for label, counter in (("broken internal links", broken),
                            ("same-page anchors with no matching id", dead_anchor),
                            ("outbound links missing rel=nofollow", follows),
-                           ("social-card images missing or mis-sized", bad_card)):
+                           ("card, icon or manifest assets missing or mis-sized", bad_card)):
         if counter:
             failed = True
             print(f"\n{label}: {sum(counter.values())}")
