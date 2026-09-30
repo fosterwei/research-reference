@@ -15,10 +15,15 @@ Two rules, both easy to break by accident and invisible until someone clicks:
      dist/ and matches the width and height the page declares. A card that
      404s is invisible to fetch it, and a mismatched size is cropped by the
      platform rather than reported.
-  4. No page renders the same H2 twice. A generic block heading and an authored
+  4. No page prints a record's workflow status to a reader. `status` is internal
+     state: it drives nothing a visitor needs and every record sat at 'draft'
+     long after being written and reviewed, so the compounds directory labelled
+     all 34 of them "draft" and every compound page repeated it in its compare
+     table. 226 times across 35 pages before it was noticed.
+  5. No page renders the same H2 twice. A generic block heading and an authored
      one drifted into the same words on 32 pages, twice into an exact match, and
      nothing in the build could see it.
-  5. Every icon and manifest in <link rel> resolves, and each icon matches any
+  6. Every icon and manifest in <link rel> resolves, and each icon matches any
      sizes="" it declares. A favicon is the one asset nobody notices is broken,
      because the browser silently falls back to a blank page glyph. The web
      manifest is parsed too: its icons are referenced from nowhere else, so
@@ -50,6 +55,12 @@ LINK_ASSET = re.compile(
 LINK_HREF = re.compile(r'href="([^"]+)"', re.I)
 LINK_SIZES = re.compile(r'sizes="(\d+)x(\d+)"', re.I)
 H2 = re.compile(r'(?is)<h2[^>]*>(.*?)</h2>')
+# The workflow vocabulary from src/content.config.ts. A reader has no use for
+# any of it, and seeing it in a <code> element means a template printed the
+# field rather than what the field is for.
+STATUSES = ('discovered', 'researched', 'draft', 'reviewed', 'published', 'stale', 'retired')
+STATUS_CODE = re.compile(
+    r'(?is)<code[^>]*>\s*(' + '|'.join(STATUSES) + r')\s*</code>')
 TAGS = re.compile(r'(?s)<[^>]+>')
 
 
@@ -90,12 +101,16 @@ def main() -> int:
     follows: Counter[str] = Counter()
     bad_card: Counter[str] = Counter()
     dupe_h2: Counter[str] = Counter()
+    leaked_status: Counter[str] = Counter()
     internal = outbound = cards = 0
 
     for page in pages:
         html = page.read_text(encoding="utf-8", errors="ignore")
         ids = set(IDS.findall(html))
         where = page.parent.relative_to(DIST).as_posix() or "/"
+
+        for word in STATUS_CODE.findall(html):
+            leaked_status[f"{where} -> <code>{word}</code>"] += 1
 
         seen_h2: Counter[str] = Counter()
         for raw in H2.findall(html):
@@ -184,7 +199,8 @@ def main() -> int:
                            ("same-page anchors with no matching id", dead_anchor),
                            ("outbound links missing rel=nofollow", follows),
                            ("card, icon or manifest assets missing or mis-sized", bad_card),
-                           ("pages rendering the same H2 twice", dupe_h2)):
+                           ("pages rendering the same H2 twice", dupe_h2),
+                           ("pages printing an internal record status", leaked_status)):
         if counter:
             failed = True
             print(f"\n{label}: {sum(counter.values())}")

@@ -12,7 +12,7 @@ for (const e of entries) {
 }
 const published = entries.filter((e) => isIndexable(e)).length;
 ---
-<Base title="Compounds" description="Every compound in the reference, grouped by class, with its evidence tier and record status." path="/compounds" indexable={published > 0}>
+<Base title="Compounds" description="Every compound in the reference, grouped by class, with its evidence tier and whether a named reviewer has signed it." path="/compounds" indexable={published > 0}>
   <p class="eyebrow">Directory</p>
   <h1>Compounds</h1>
   <p class="lede prose">{entries.length} records, grouped by class. The tier is the strongest evidence any indexed study provides for that compound, not a judgment of the compound.</p>
@@ -24,7 +24,7 @@ const published = entries.filter((e) => isIndexable(e)).length;
         {list.map((e) => (
           <li>
             <a href={`/compounds/${e.data.slug}`}>{e.data.preferred_name}</a>
-            <div class="sub"><EvidenceLabel tier={e.data.evidence_tier} /> · <code>{e.data.status}</code></div>
+            <div class="sub"><EvidenceLabel tier={e.data.evidence_tier} /> · {e.data.review?.reviewer ? `reviewed ${e.data.review.reviewed_at}` : 'not yet reviewed'}</div>
           </li>
         ))}
       </ul>
