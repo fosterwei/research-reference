@@ -1,0 +1,276 @@
+{
+  "slug": "tesamorelin",
+  "type": "compound",
+  "generated": "2026-09-30",
+  "sources": [
+    "dataforseo keyword_overview live, clickstream, US/en",
+    "dataforseo serp organic live advanced, US/en, depth 20, two queries",
+    "Europe PMC REST, core result type, per-PMID"
+  ],
+  "scope": "Informational only. Commercial intent is out of scope per docs/content-sop.md.",
+  "stage0_note": "Record already at researched with 27 sources and 22 evidence rows, 20 human and 17 of those randomised, before this map was written.",
+  "serp_2026-09-30": {
+    "tesamorelin": "mayoclinic (1), americanpeptides product page (2), riteaid (3), a PMC article (4), clevelandclinic (5), medlineplus (6), an FDA label PDF (7), a clinic page (8). An AI overview is present. The result at rank 2 is a vendor product page carrying eight words of body text.",
+    "tesamorelin dosage": "mayoclinic (1), riteaid (2), a dosage calculator (3), a bodybuilding blog (4), the FDA label PDF (5), drugs.com (6), then vendor and clinic pages."
+  },
+  "demand_findings": "42,127 clickstream searches at KD 3, which is the lowest difficulty against the highest volume of any record on this site. The demand splits in a way the SERP does not serve: 'tesamorelin' and 'egrifta' are drug queries, while 'tesamorelin bodybuilding', 'tesamorelin benefits' and 'tesamorelin weight loss' are asking about a use no trial has studied. Every measured query is informational.",
+  "h1": "Tesamorelin: what the trials measured, in whom, and what happens when you stop",
+  "dek": "An approved drug, approved for one thing: excess visceral abdominal fat in people with HIV on antiretroviral therapy. Every trial below was run in that population. The pivotal trial reported that the fat came back, and this page says so in the trial's own words.",
+  "queries": [
+    {
+      "query": "tesamorelin",
+      "volume": {
+        "clickstream": 42127,
+        "google_ads": null,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What tesamorelin is, and the one condition it was approved for"
+    },
+    {
+      "query": "tesamorelin dosage",
+      "volume": {
+        "clickstream": 4935,
+        "google_ads": null,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "study_doses",
+      "heading": "What dose did the trials use?",
+      "boundary": "One dose runs through almost every trial of this compound. It was not chosen for body composition in healthy people."
+    },
+    {
+      "query": "egrifta",
+      "volume": {
+        "clickstream": 1170,
+        "google_ads": null,
+        "kd": 2,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Egrifta, and what the approval actually covers"
+    },
+    {
+      "query": "tesamorelin benefits",
+      "volume": {
+        "clickstream": 1017,
+        "google_ads": null,
+        "kd": 3,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "trials",
+      "heading": "What the trials measured, and how much changed",
+      "boundary": "Each figure below is an outcome a trial measured in people with HIV and abdominal fat accumulation. None was measured in healthy adults."
+    },
+    {
+      "query": "tesamorelin side effects",
+      "volume": {
+        "clickstream": 966,
+        "google_ads": null,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "adverse_events",
+      "heading": "What side effects and safety signals the trials reported"
+    },
+    {
+      "query": "tesamorelin vs ipamorelin",
+      "volume": {
+        "clickstream": 915,
+        "google_ads": 2400,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "compare"
+    },
+    {
+      "query": "what is tesamorelin",
+      "volume": {
+        "clickstream": 814,
+        "google_ads": null,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "quick-answer",
+      "heading": "Tesamorelin in two minutes"
+    },
+    {
+      "query": "tesamorelin results",
+      "volume": {
+        "clickstream": 763,
+        "google_ads": 1900,
+        "kd": 1,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "stopping",
+      "heading": "What happened when treatment stopped",
+      "boundary": "The pivotal trial followed people past the end of treatment and reported the result plainly. It is the single most important sentence about this compound and it is missing from every page currently ranking for it."
+    },
+    {
+      "query": "tesamorelin bodybuilding",
+      "volume": {
+        "clickstream": 254,
+        "google_ads": null,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported-use",
+      "heading": "Bodybuilding and anti-ageing use, and what evidence exists for it",
+      "boundary": "No trial in this record's ledger gave tesamorelin to a healthy adult for muscle, ageing or general fat loss. What follows is what circulates, reported as circulating."
+    },
+    {
+      "query": "tesamorelin reconstitution",
+      "volume": {
+        "clickstream": 203,
+        "google_ads": 390,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reconstitution"
+    },
+    {
+      "query": "tesamorelin visceral fat",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": 210,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "trials"
+    },
+    {
+      "query": "tesamorelin half life",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": 590,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "routes_studied"
+    },
+    {
+      "query": "tesamorelin weight loss",
+      "volume": {
+        "clickstream": 50,
+        "google_ads": null,
+        "kd": 5,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reported-use"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://riteaid.com/peptides/tesamorelin",
+      "rank": 3,
+      "words": 2137,
+      "tables": 1,
+      "h2": 17,
+      "h3": 2,
+      "sci_links": 9,
+      "byline": "Medically reviewed by the Rite Aid Health team",
+      "score": 16,
+      "gap": "The strongest of the three and still weak for a query this size. Nine scientific links and one table, but the reviewer is a team rather than a named person with a credential, no trial registration is cited, and the HIV population the trials were run in is mentioned without being made the frame.",
+      "source": "fetched 2026-09-30, metrics measured; scored D6 F4 S4 U2"
+    },
+    {
+      "url": "https://my.clevelandclinic.org/health/drugs/20117-tesamorelin-injection",
+      "rank": 5,
+      "words": 963,
+      "tables": 0,
+      "h2": 1,
+      "h3": 12,
+      "sci_links": 0,
+      "byline": "none",
+      "score": 9,
+      "gap": "A drug-information page of 963 words with no byline, no table, no citation and one H2. Accurate about the indication and silent on everything a searcher asking about body composition wants.",
+      "source": "fetched 2026-09-30, metrics measured; scored D3 F2 S0 U4"
+    },
+    {
+      "url": "https://www.womenshealthofmd.com/tesamorelin-peptide-therapy",
+      "rank": 8,
+      "words": 1175,
+      "tables": 0,
+      "h2": 0,
+      "h3": 18,
+      "sci_links": 0,
+      "byline": "none",
+      "score": 5,
+      "gap": "A clinic marketing page with no H2 at all, no byline, no citation and no table, ranking on page one for 42,000 monthly searches. It sells the use that no trial studied.",
+      "source": "fetched 2026-09-30, metrics measured; scored D2 F1 S0 U2"
+    }
+  ],
+  "information_gain": "The only page that leads with the sentence the pivotal trial actually wrote about stopping: that the visceral fat reduction does not persist beyond treatment. Every page currently ranking omits it, and it is the one fact that changes what the compound is for. It is also the only page that frames the whole evidence base by the population it came from, people with HIV and antiretroviral-associated abdominal fat accumulation, and states in the same breath that no trial in this ledger gave tesamorelin to a healthy adult for muscle, ageing or general fat loss, which is what most of the measured demand is asking about. Third, it separates the approved indication from the circulating uses rather than letting a drug approval imply evidence for a use nobody tested.",
+  "serp_format_rewarded": "Drug-information pages with H3-heavy structure, no tables and no citations, plus a vendor product page of eight words at rank 2. A cited page with a trial table and a named reviewer has no like-for-like competitor here. The difficulty score of 3 is believable rather than an artefact.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "stopping",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "reconstitution",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage"
+  ],
+  "open_actions": [
+    "The FDA label for Egrifta sits at rank 7 for the head term and rank 5 for the dosage query, and could not be retrieved: this sandbox reaches Europe PMC but not accessdata.fda.gov, dailymed.nlm.nih.gov or clinicaltrials.gov. The approval facts on this page come from ChEMBL and from the trials, not from the label.",
+    "Neither pivotal trial abstract declares a ClinicalTrials.gov number, so no registration table is possible for this compound from Europe PMC alone."
+  ]
+}
