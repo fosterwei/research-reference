@@ -23,7 +23,12 @@ Two rules, both easy to break by accident and invisible until someone clicks:
   5. No page renders the same H2 twice. A generic block heading and an authored
      one drifted into the same words on 32 pages, twice into an exact match, and
      nothing in the build could see it.
-  6. Every icon and manifest in <link rel> resolves, and each icon matches any
+  6. robots.txt and the sitemap agree. The Sitemap line must name the same
+     origin the build used, and no URL in the sitemap may be blocked by a
+     Disallow rule. A robots.txt that blocks a page the sitemap advertises is
+     the one SEO error that silently un-indexes a site while every other check
+     still passes, and the two files are generated in different places here.
+  7. Every icon and manifest in <link rel> resolves, and each icon matches any
      sizes="" it declares. A favicon is the one asset nobody notices is broken,
      because the browser silently falls back to a blank page glyph. The web
      manifest is parsed too: its icons are referenced from nowhere else, so
@@ -91,6 +96,51 @@ def resolves(href: str) -> bool:
             or (DIST / f"{path}.html").exists())
 
 
+def robots_agrees_with_sitemap() -> list[str]:
+    """Disallow rules that contradict the sitemap, and a mismatched origin."""
+    robots, sitemap = DIST / "robots.txt", DIST / "sitemap.xml"
+    if not robots.exists():
+        return ["robots.txt was not generated"]
+    if not sitemap.exists():
+        return ["sitemap.xml was not generated"]
+    text = robots.read_text(encoding="utf-8")
+    locs = re.findall(r"<loc>([^<]+)</loc>", sitemap.read_text(encoding="utf-8"))
+    problems: list[str] = []
+
+    declared = re.findall(r"(?im)^\s*Sitemap:\s*(\S+)", text)
+    if not declared:
+        problems.append("robots.txt names no Sitemap")
+    for url in declared:
+        if locs and url.rsplit("/", 1)[0] != locs[0].rstrip("/").rsplit("/", 1)[0] \
+                and not url.startswith(re.match(r"https?://[^/]+", locs[0]).group(0)):
+            problems.append(f"robots.txt Sitemap {url} is not on the origin the sitemap uses "
+                            f"({re.match(r'https?://[^/]+', locs[0]).group(0)})")
+
+    # Only the wildcard group can affect Googlebot's view of a sitemap URL here;
+    # a rule for a named agent is deliberate and not this check's business.
+    rules: list[str] = []
+    in_star = False
+    for line in text.splitlines():
+        line = line.split("#")[0].strip()
+        if not line:
+            continue
+        key, _, value = line.partition(":")
+        key, value = key.strip().lower(), value.strip()
+        if key == "user-agent":
+            in_star = value == "*"
+        elif key == "disallow" and in_star and value:
+            rules.append(value)
+
+    for loc in locs:
+        path = re.sub(r"^https?://[^/]+", "", loc) or "/"
+        for rule in rules:
+            pattern = re.escape(rule).replace(r"\*", ".*")
+            if re.match(pattern, path):
+                problems.append(f"sitemap lists {path} but robots.txt disallows {rule}")
+                break
+    return problems
+
+
 def main() -> int:
     if not DIST.exists():
         print("dist/ not found: run npm run build first", file=sys.stderr)
@@ -102,6 +152,7 @@ def main() -> int:
     bad_card: Counter[str] = Counter()
     dupe_h2: Counter[str] = Counter()
     leaked_status: Counter[str] = Counter()
+    robots_bad: Counter[str] = Counter()
     internal = outbound = cards = 0
 
     for page in pages:
@@ -192,6 +243,9 @@ def main() -> int:
                 bad_card[f"{where} -> /{src} is {size[0]}x{size[1]},"
                          f" declared {declared.group(0)}"] += 1
 
+    for problem in robots_agrees_with_sitemap():
+        robots_bad[problem] += 1
+
     print(f"{len(pages)} pages | {internal} internal links | "
           f"{outbound} outbound links | {cards} asset refs")
     failed = False
@@ -200,7 +254,8 @@ def main() -> int:
                            ("outbound links missing rel=nofollow", follows),
                            ("card, icon or manifest assets missing or mis-sized", bad_card),
                            ("pages rendering the same H2 twice", dupe_h2),
-                           ("pages printing an internal record status", leaked_status)):
+                           ("pages printing an internal record status", leaked_status),
+                           ("robots.txt disagreeing with the sitemap", robots_bad)):
         if counter:
             failed = True
             print(f"\n{label}: {sum(counter.values())}")
