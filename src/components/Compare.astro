@@ -21,7 +21,7 @@ const rows = [self, ...peers];
           <td><EvidenceLabel tier={e.data.evidence_tier} /></td>
           <td class="num">{formatCount(p.total)}</td>
           <td class="num">{formatCount(p.randomized_controlled_trials)}</td>
-          <td><code>{e.data.status}</code></td>
+          <td>{e.data.review?.reviewer ? e.data.review.reviewed_at : <span class="muted">not yet</span>}</td>
         </tr>
       );
     })}

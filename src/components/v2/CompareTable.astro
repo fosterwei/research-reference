@@ -11,7 +11,7 @@ const rows = [self, ...peers];
   <div class="tblwrap">
     <table class="tbl">
       <caption><b>{rows.length}</b> compounds in the {cls} class. Each row states what that compound's own record says; nothing is inferred across rows.</caption>
-      <thead><tr><th scope="col">Compound</th><th scope="col">Tier</th><th scope="col" class="num">Publications</th><th scope="col" class="num">RCTs</th><th scope="col">Record</th></tr></thead>
+      <thead><tr><th scope="col">Compound</th><th scope="col">Tier</th><th scope="col" class="num">Publications</th><th scope="col" class="num">RCTs</th><th scope="col">Reviewed</th></tr></thead>
       <tbody>
         {rows.map((e) => { const p = e.data.evidence_summary?.publications ?? {}; return (
           <tr>
@@ -19,7 +19,7 @@ const rows = [self, ...peers];
             <td><Tier tier={e.data.evidence_tier} /></td>
             <td class="num">{formatCount(p.total)}</td>
             <td class="num">{formatCount(p.randomized_controlled_trials)}</td>
-            <td><code>{e.data.status}</code></td>
+            <td>{e.data.review?.reviewer ? e.data.review.reviewed_at : <span class="muted">not yet</span>}</td>
           </tr>
         ); })}
       </tbody>
