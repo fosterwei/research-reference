@@ -4,8 +4,10 @@
 // exactly where a bare host ("my-site.vercel.app"), a trailing slash, or an
 // empty string arrive from. Accept all of those. Fall back to the production
 // host Vercel injects into every build, so a deploy works with no variables
-// set at all and canonicals still point at the right origin.
-const FALLBACK = 'https://example.com';
+// set at all and canonicals still point at the right origin. The fallback is
+// the production domain, so a build with no environment at all is still
+// self-consistent rather than pointing at a placeholder.
+const FALLBACK = 'https://dashnaiv.com';
 
 export function resolveSiteUrl(env = process.env) {
   const candidates = [

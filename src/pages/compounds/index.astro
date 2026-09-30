@@ -1,5 +1,6 @@
 ---
 import { records } from '../../lib/collections';
+import { isIndexable } from '../../lib/site';
 import Base from '../../layouts/Base.astro';
 import EvidenceLabel from '../../components/EvidenceLabel.astro';
 import { classes, className, compound as regCompound } from '../../lib/registry';
@@ -9,7 +10,7 @@ for (const e of entries) {
   const cls = regCompound(e.data.slug)?.class ?? 'unclassified';
   byClass.set(cls, [...(byClass.get(cls) ?? []), e]);
 }
-const published = entries.filter((e) => e.data.status === 'published').length;
+const published = entries.filter((e) => isIndexable(e)).length;
 ---
 <Base title="Compounds" description="Every compound in the reference, grouped by class, with its evidence tier and record status." path="/compounds" indexable={published > 0}>
   <p class="eyebrow">Directory</p>

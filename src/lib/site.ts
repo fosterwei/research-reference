@@ -1,6 +1,31 @@
 import type { CollectionEntry } from 'astro:content';
 
-export const SITE_NAME = 'Peptide Research Reference';
+// The brand, matching the domain and the wordmark on the social card, with
+// the category keyword in it. Length is a real constraint: it is appended to
+// every page title that can still fit inside 60 characters, so a longer name
+// brands fewer pages. At 17 characters this suffix reaches 16 of 63 pages;
+// 'Dashnaiv Peptide Reference' would reach 10.
+// Every title suffix, the footer, and the Organization in each page's
+// JSON-LD read from here, so the site names itself in exactly one place.
+export const SITE_NAME = 'Dashnaiv Peptides';
+
+// Site-wide social card. 1200x630 (1.91:1), the ratio Facebook, LinkedIn,
+// Slack, Discord and X all accept, and large enough for the
+// max-image-preview:large directive the pages already set. A page may pass its
+// own `image` to Base; none does yet, so every card is this one.
+// The one published contact route. It appears only in a mailto href, never as
+// visible text, which keeps it out of the plain-text scrape that harvests an
+// address printed on a page.
+export const CONTACT_EMAIL = 'corrections@dashnaiv.com';
+
+export const OG_IMAGE = '/og.jpg';
+
+// Bumped when an icon file changes. Browsers cache favicons separately from
+// pages and ignore a normal reload, including the absence of one, so the only
+// reliable way to move a client onto a new icon is to change the URL.
+export const ICON_V = '3';
+export const OG_IMAGE_ALT =
+  'Laboratory vials beside a molecular model, with the site name and the line "Every claim cited, tiered and dated".';
 
 export const TIER_LABEL: Record<string, string> = {
   'approved-label': 'Approved label',
@@ -30,9 +55,23 @@ export const SECTIONS: Array<[field: string, heading: string]> = [
 
 type AnyRecord = CollectionEntry<'compounds' | 'stacks' | 'comparisons' | 'tools' | 'posts'>;
 
-/** Records with drafted content are indexable; states before drafting, and stale or retired records, render noindex. */
+/**
+ * A page is indexable when it is actually finished: a written guide, and a
+ * named reviewer who signed it. Status alone was the rule before and it does
+ * not work, because `status` is set by hand and every record still says
+ * 'draft' long after being written and reviewed. That let seven auto-drafted
+ * records with no prose and no reviewer into the index, while the homepage and
+ * the directory pages, which asked for 'published', stayed out of it. Both
+ * failures came from trusting a field nobody updates. These two conditions are
+ * things the record either has or does not.
+ *
+ * Tools and posts carry no guide or review, so they keep the status rule.
+ */
 export function isIndexable(entry: AnyRecord): boolean {
-  return ['draft', 'reviewed', 'published'].includes(entry.data.status);
+  if (!['draft', 'reviewed', 'published'].includes(entry.data.status)) return false;
+  const d = entry.data as Record<string, any>;
+  if (entry.collection === 'tools' || entry.collection === 'posts') return true;
+  return Boolean(d.guide?.length) && Boolean(d.review?.reviewer);
 }
 
 /** Last revision date drives <lastmod>; never the build time. */
