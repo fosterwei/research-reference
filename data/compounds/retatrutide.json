@@ -489,7 +489,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, n=534, 2025: Percent reduction from baseline in total fat mass was 4·9% (SE 1·4%) with retatrutide 0·5 mg, 15·2% (3·2%) with retatrutide 4 mg (pooled), 26·1% (2·5%) with retatrutide 8 mg (pooled), 23·2% (3·0%) with retatrutide 12 mg, 2·6% (1·6%) with dulaglutide, and 4·5% (1·2%) with placebo.",
+        "value": "Randomized controlled trial, humans, n=281, 2025: Percent reduction from baseline in total fat mass was 4·9% (SE 1·4%) with retatrutide 0·5 mg, 15·2% (3·2%) with retatrutide 4 mg (pooled), 26·1% (2·5%) with retatrutide 8 mg (pooled), 23·2% (3·0%) with retatrutide 12 mg, 2·6% (1·6%) with dulaglutide, and 4·5% (1·2%) with placebo.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-40609566"
@@ -500,7 +500,7 @@
           "study": "Coskun 2025",
           "year": "2025",
           "design": "Randomized controlled trial",
-          "n": 534,
+          "n": 281,
           "species": "Humans",
           "dose": "0·5 mg; 4 mg",
           "route": "subcutaneous",
@@ -649,7 +649,7 @@
         }
       },
       {
-        "value": "Human study, humans, n=367, 2026: Background and hypothesis Retatrutide is an agonist of the glucose-dependent insulinotropic polypeptide, glucagon-like peptide-1 and glucagon receptors that reduced weight and hemoglobin A1c (HbA1c) in individuals with obesity and type 2 diabetes (T2D).",
+        "value": "Human study, humans, n=146, 2026: Background and hypothesis Retatrutide is an agonist of the glucose-dependent insulinotropic polypeptide, glucagon-like peptide-1 and glucagon receptors that reduced weight and hemoglobin A1c (HbA1c) in individuals with obesity and type 2 diabetes (T2D).",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-41160422"
@@ -660,7 +660,7 @@
           "study": "Heerspink 2026",
           "year": "2026",
           "design": "Human study",
-          "n": 367,
+          "n": 146,
           "species": "Humans",
           "dose": "12 mg",
           "route": "not stated in abstract",
@@ -1204,6 +1204,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-29."
+    },
+    {
+      "date": "2026-09-29",
+      "change": "Corrected two more sample sizes that had stored the screening count: the body-composition substudy from 534 to 281 enrolled, and the cardiovascular trial from 367 screened to 146 randomised."
     }
   ],
   "guide": [
