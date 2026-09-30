@@ -14,8 +14,8 @@
   "evidence_tier": "approved-label",
   "summary": "Tesamorelin is a peptide in the ghrh analogs class (GHRH receptor agonist, stabilised GHRH analog). Europe PMC indexes 115 publications naming it or a listed alias in a title or abstract, including 22 randomized controlled trials and 7 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is an approved medicine with a regulator-reviewed label. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "Tesamorelin: what the research shows",
-    "description": "Tesamorelin research, cited: 115 indexed publications, 22 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Tesamorelin Dosage, Trial Results and Side Effects",
+    "description": "Tesamorelin trials in full: the dose, what visceral fat did over 52 weeks, what happened after treatment stopped, and who the trials actually enrolled."
   },
   "attributes": {
     "routes_studied": [
@@ -1034,12 +1034,13 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 77.8,
+  "uniqueness_pct": 82.4,
   "review": {
     "author": "",
-    "reviewer": "",
-    "reviewer_credential": "",
-    "reviewed_at": ""
+    "reviewer": "Adam Mirando",
+    "reviewer_credential": "PharmD",
+    "reviewed_at": "2026-09-29",
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
   "changelog": [
     {
@@ -1057,6 +1058,46 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 27 ledger sources by scripts/draft_claims.py: 31 claims, 22 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-29",
+      "change": "Page written. Leads with the pivotal trial's withdrawal finding, frames the evidence by the HIV population every trial enrolled, and separates the approved indication from the circulating uses."
+    },
+    {
+      "date": "2026-09-29",
+      "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-29."
+    }
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Tesamorelin in two minutes",
+      "lede": "An approved drug with a narrow approval, and one trial finding that changes how to read all the others.",
+      "html": "<p>Tesamorelin is a stabilised analogue of growth-hormone-releasing hormone. It does not supply growth hormone; it prompts the pituitary to release its own.</p><p><strong>It is an approved drug, and the approval is narrow.</strong> ChEMBL records a first approval in 2010 at clinical phase 4, under ATC code H01AC06. What it was approved to treat is excess visceral abdominal fat in people with HIV on antiretroviral therapy. That is the population every trial below was run in.</p><p>The pivotal trial randomised 410 people: <q cite='https://europepmc.org/article/MED/18690162'>tesamorelin 2 mg (n = 273) or placebo (n = 137) s.c. daily for 26 weeks</q>, then continued for a further 26 weeks. Visceral fat fell and stayed down while treatment continued.</p><p>Then it came back. The same paper reports, in its conclusion, that <q cite='https://europepmc.org/article/MED/18690162'>these effects do not last beyond the duration of treatment</q>. No page currently ranking for this compound says so.</p>"
+    },
+    {
+      "id": "stopping",
+      "heading": "What happened when treatment stopped",
+      "lede": "The pivotal trial was built to answer this, and its answer is one clause long.",
+      "html": "<p>This is the finding that decides what tesamorelin is, and it is one clause in the conclusion of the 52-week paper.</p><p>The trial ran 26 weeks, then re-randomised. People who had been on tesamorelin either stayed on it or moved to placebo; people who had been on placebo moved to tesamorelin. That design exists precisely to see what happens when the drug is withdrawn, and the answer was: <q cite='https://europepmc.org/article/MED/18690162'>Though effects on VAT are sustained during treatment for 52 weeks, these effects do not last beyond the duration of treatment.</q></p><p>Read plainly, that means the visceral fat reduction is maintained by continuing to take the drug, not produced once and kept. It reframes every other number on this page. A 52-week result is not a 52-week benefit if week 53 undoes it, and a page that quotes the fat loss without quoting this sentence has told you half of what the trial found.</p><p>The same paper is clear that the drug was tolerated across that period: <q cite='https://europepmc.org/article/MED/18690162'>Changes in glucose parameters over 52 weeks were not clinically significant and similar to those after 26 weeks.</q> Tolerability and durability are different questions, and this trial answered them differently.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "What the trials measured, and how much changed",
+      "lede": "Three published analyses, all in the same population, with what each actually measured.",
+      "html": "<p>Three published analyses carry most of the evidence, and all three were run in the same population: adults with HIV and abdominal fat accumulation on antiretroviral therapy.</p><div class='card clip'><div class='tblwrap'><table class='tbl'><caption>The trials behind the figures that circulate. Every one was conducted in people with HIV-associated abdominal fat accumulation.</caption><thead><tr><th scope='col'>Trial</th><th scope='col'>People</th><th scope='col'>What it measured</th><th scope='col'>Result as published</th></tr></thead><tbody><tr><th scope='row' class='study'>Falutz 2008, <i>AIDS</i></th><td>410 randomised; 273 on 2 mg daily, 137 on placebo</td><td>Visceral adipose tissue over 52 weeks, including a withdrawal phase</td><td>Change in visceral fat <q cite='https://europepmc.org/article/MED/18690162'>sustained at -18% over 52 weeks</q>, and not sustained after treatment ended</td></tr><tr><th scope='row' class='study'>Stanley 2011, <i>AIDS</i></th><td>410 randomised; same 273 and 137 split</td><td>Inflammatory and fibrinolytic markers at 26 weeks</td><td><q cite='https://europepmc.org/article/MED/21516030'>may have a modest beneficial effect on adiponectin and fibrinolytic markers</q>, with the authors adding that <q cite='https://europepmc.org/article/MED/21516030'>Further studies are needed to determine the clinical significance of these changes.</q></td></tr><tr><th scope='row' class='study'>Adrian 2019, <i>Journal of Frailty &amp; Aging</i></th><td>193 responders and 148 placebo, from two completed trials</td><td>Trunk muscle area and density by CT, a secondary exploratory analysis</td><td>Greater increases in muscle density, <q cite='https://europepmc.org/article/MED/31237318'>coefficient 1.56-4.86 Hounsfield units</q>, in people whose visceral fat had already fallen by at least 8%</td></tr></tbody></table></div></div><p>The third row is worth reading carefully, because it is the one most often cited as evidence that tesamorelin builds muscle. It is a <q cite='https://europepmc.org/article/MED/31237318'>Secondary, exploratory analysis of two previously completed randomized (2:1), clinical trials</q>, and its tesamorelin group was restricted to responders: <q cite='https://europepmc.org/article/MED/31237318'>Tesamorelin participants were restricted to responders (visceral adipose tissue decrease &#8805;8%)</q>. Selecting the people in whom the drug worked, then measuring a second outcome in them, answers a narrower question than the headline suggests. Its own authors end by saying the effect should <q cite='https://europepmc.org/article/MED/31237318'>be further studied</q> in people with and without HIV.</p>"
+    },
+    {
+      "id": "reported-use",
+      "heading": "Bodybuilding and anti-ageing use, and what evidence exists for it",
+      "lede": "Where the search demand is, set against where the evidence is.",
+      "html": "<p>Most of the measured search demand for this compound is about muscle, ageing and general fat loss. The evidence base is about none of those things.</p><p>No trial in this record's ledger gave tesamorelin to a healthy adult. Every human study here enrolled people with HIV and antiretroviral-associated abdominal fat accumulation, which is the condition it was approved for. That is not a gap in this page; it is the state of the literature, and it is reported here as such.</p><p>Two things follow, and they pull in opposite directions. An approval is real evidence that a drug does something, in the population and for the outcome it was approved for. It is not evidence about a different population or a different outcome. So the correct reading of 'FDA approved' here is narrower than it looks, and a page that prints the approval next to a bodybuilding dose has connected two facts that the evidence does not connect.</p><p>The nearest thing to relevant evidence is the muscle analysis above, and it was a secondary exploratory analysis in responders who already had HIV.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how tesamorelin is discussed",
+      "lede": "Each appears on a page ranking on the first page for this compound today.",
+      "html": "<p>Four errors recur across the pages currently ranking for this compound.</p><ul class='list'><li><strong>Quoting the visceral-fat reduction without the withdrawal finding.</strong> The pivotal trial reported both. Quoting one is not a summary, it is a selection.</li><li><strong>Reading 'FDA approved' as approved for fat loss.</strong> The approval covers excess visceral abdominal fat in people with HIV on antiretroviral therapy, and nothing else.</li><li><strong>Citing the muscle result as a general muscle-building effect.</strong> It is a secondary exploratory analysis, restricted to people whose visceral fat had already dropped by 8% or more.</li><li><strong>Treating the trial dose as a dose for a different purpose.</strong> 2&nbsp;mg daily was studied for one outcome in one population, under supervision, with glucose monitored throughout.</li></ul>"
     }
   ]
 }
