@@ -1,11 +1,13 @@
 ---
-// Tool pages come from the registry plan, so the reconstitution calculator
-// exists before a reviewed record does. They stay noindex until a record in
-// data/tools/ reaches published. Nothing here accepts a body weight or a
-// condition: the calculator does concentration and volume arithmetic only.
+// Tool pages come from the registry plan, so a calculator exists before a
+// reviewed record does. Nothing here accepts a body weight or a condition, and
+// nothing returns a dose: each tool states its formula above its inputs so the
+// arithmetic can be checked by hand, and each names the one thing it refuses.
 import Base from '../../layouts/Base.astro';
+import Calculators from '../../components/Calculators.astro';
 import { tools } from '../../lib/registry';
 import { records } from '../../lib/collections';
+import { isIndexable } from '../../lib/site';
 
 export async function getStaticPaths() {
   return tools.map((t) => ({ params: { slug: t.slug }, props: { tool: t } }));
@@ -13,45 +15,59 @@ export async function getStaticPaths() {
 const { tool } = Astro.props;
 const toolRecords = await records('tools');
 const record = toolRecords.find((r) => r.data.slug === tool.slug);
-const indexable = record?.data.status === 'published';
+const indexable = record ? isIndexable(record) : false;
 const path = `/tools/${tool.slug}`;
+const peers = tools.filter((t) => t.slug !== tool.slug);
+
+const COPY: Record<string, { h1: string; dek: string; title: string; description: string }> = {
+  'reconstitution-calculator': {
+    h1: 'Peptide reconstitution calculator',
+    dek: 'Enter what is in the vial and what you want to draw. It returns the concentration, the volume, and that volume in units on the syringe scale you pick, with the formula printed above the inputs.',
+    title: 'Peptide Reconstitution Calculator: mg to mL and Units',
+    description: 'Work out concentration, volume to draw and syringe units from vial mass and diluent. Formula shown, U-100, U-50 and U-40 scales, nothing stored.',
+  },
+  'unit-converter': {
+    h1: 'Peptide unit converter',
+    dek: 'Milligrams, micrograms and nanograms are fixed ratios. Millilitres to syringe units depends on the scale printed on the barrel. International units are neither, and this page explains why it will not convert them.',
+    title: 'Peptide Unit Converter: mg, mcg, ng and Syringe Units',
+    description: 'Convert mg, mcg and ng, and millilitres to units on U-100, U-50 or U-40 syringes. Explains why no honest converter offers a general IU conversion.',
+  },
+  'vial-planner': {
+    h1: 'Vial planner',
+    dek: 'How many whole draws a vial yields at a stated mass per draw, how long that lasts at a stated frequency, and how much is left that cannot be drawn.',
+    title: 'Peptide Vial Planner: Draws per Vial and How Long It Lasts',
+    description: 'How many whole draws a vial gives at a stated mass per draw, the volume of each, how long it lasts, and the remainder too small to measure.',
+  },
+};
+const copy = COPY[tool.slug] ?? {
+  h1: tool.name, dek: tool.computes,
+  title: tool.name, description: `${tool.name}: ${tool.computes}.`,
+};
 ---
-<Base title={tool.name} description={`${tool.name}: ${tool.computes}.`} path={path} indexable={indexable}>
-  <article>
-    <p class="eyebrow">Tool · wave {tool.pilot_wave}</p>
-    <h1>{tool.name}</h1>
+<Base title={copy.title} description={copy.description} path={path} indexable={indexable} siteSuffix={false}>
+  <article class="prose-page">
+    <p class="eyebrow"><a href="/tools">Tools</a></p>
+    <h1>{copy.h1}</h1>
+    <p class="dek">{copy.dek}</p>
+
     <dl class="facts">
       <dt>Computes</dt><dd>{tool.computes}</dd>
       <dt>Refuses</dt><dd>{tool.refuses}</dd>
+      <dt>Sends anywhere</dt><dd>Nothing. The arithmetic runs in your browser and no value is transmitted or stored.</dd>
     </dl>
-    {tool.slug === 'reconstitution-calculator' && (
-      <section>
-        <h2>Concentration and volume</h2>
-        <p class="prose">Formula, stated in the open: concentration = mass in the vial ÷ diluent volume. Volume to draw for a given mass = that mass ÷ concentration. Syringe units assume a 100-unit-per-millilitre insulin syringe, which is the only scale this converts to.</p>
-        <form class="calc" id="recon" onsubmit="return false">
-          <label for="mass">Mass in vial (mg)</label><input id="mass" type="number" step="any" min="0" inputmode="decimal" value="5" />
-          <label for="vol">Diluent added (mL)</label><input id="vol" type="number" step="any" min="0" inputmode="decimal" value="2" />
-          <label for="want">Mass per draw (mcg)</label><input id="want" type="number" step="any" min="0" inputmode="decimal" value="250" />
-          <output id="out" for="mass vol want"></output>
-        </form>
-        <script>
-          const $ = (id) => document.getElementById(id) as HTMLInputElement;
-          const out = document.getElementById('out')!;
-          function run() {
-            const mg = parseFloat($('mass').value), ml = parseFloat($('vol').value), mcg = parseFloat($('want').value);
-            if (!(mg > 0 && ml > 0 && mcg > 0)) { out.textContent = 'Enter three positive numbers.'; return; }
-            const concMcgPerMl = (mg * 1000) / ml;
-            const drawMl = mcg / concMcgPerMl;
-            const units = drawMl * 100;
-            const draws = Math.floor((mg * 1000) / mcg);
-            out.textContent = `Concentration ${concMcgPerMl.toFixed(1)} mcg/mL · draw ${drawMl.toFixed(3)} mL = ${units.toFixed(1)} units on a U-100 syringe · ${draws} draws per vial`;
-          }
-          ['mass', 'vol', 'want'].forEach((id) => $(id).addEventListener('input', run));
-          run();
-        </script>
-        <p class="prose">Worked example: 5 mg in 2 mL gives 2,500 mcg/mL; 250 mcg is 0.1 mL, or 10 units. The calculator takes no body weight and no condition, and it does not suggest what mass to draw.</p>
-      </section>
-    )}
-    {!record && <div class="notice"><p>This tool has no reviewed record yet and is not indexed. It is published to preview deployments so the arithmetic can be checked.</p></div>}
+
+    <Calculators slug={tool.slug} />
+
+    <h2>What this tool will not do</h2>
+    <p class="prose">It refuses {tool.refuses}. That is not a missing feature. A calculator that turns a body weight into a milligram figure has produced a dose, and a dose is a clinical decision that depends on why someone is taking something, what else they take and what their kidneys and liver are doing. None of that is arithmetic, and none of it is knowable from a number typed into a box.</p>
+    <p class="prose">Every figure this returns is a conversion of numbers you supplied. It carries no opinion about whether those numbers are appropriate, and the site's <a href="/about">evidence pages</a> are where the question of what has actually been studied belongs.</p>
+
+    <h2>Checking it by hand</h2>
+    <p class="prose">The formula is printed above the inputs so you can verify any result with a calculator you already trust. If a number here disagrees with one you worked out yourself, the discrepancy is worth reporting through the <a href="/contact">corrections page</a>; arithmetic is the one thing on this site that can be checked without reading a paper.</p>
+
+    {!record && <div class="notice"><p>This tool has no reviewed record yet, so it is excluded from search indexing. The arithmetic works and can be checked against the formula above.</p></div>}
+
+    <h2>Other tools</h2>
+    <ul class="cards">{peers.map((t) => <li><a href={`/tools/${t.slug}`}>{t.name}</a><div class="sub">{t.computes}</div></li>)}</ul>
   </article>
 </Base>

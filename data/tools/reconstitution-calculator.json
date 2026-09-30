@@ -1,0 +1,29 @@
+{
+  "type": "tool",
+  "title": "Peptide reconstitution calculator",
+  "slug": "reconstitution-calculator",
+  "status": "draft",
+  "formula": "concentration (mcg/mL) = mass in vial (mg) x 1000 / diluent volume (mL). volume to draw (mL) = mass wanted (mcg) / concentration. syringe units = volume to draw (mL) x units per mL on the chosen scale (100, 50 or 40). whole draws per vial = floor(mass in vial (mcg) / mass per draw (mcg)). Worked example: 5 mg in 2 mL is 2500 mcg/mL; 250 mcg is 0.1 mL; on a U-100 syringe that is 10 units, on a U-40 it is 4.",
+  "summary": "Converts vial mass, diluent volume and a chosen mass per draw into a concentration, a volume and that volume in syringe units on a U-100, U-50 or U-40 scale. It warns when a draw falls below the smallest graduation on the syringe or exceeds its capacity. It takes no body weight and no condition, and it never returns a dose.",
+  "seo": {},
+  "attributes": {},
+  "sources": [],
+  "related": [],
+  "faq": [],
+  "open_questions": [
+    "Whether to add a bacteriostatic-water volume preset for common vial sizes, which risks implying a recommended reconstitution rather than reporting arithmetic."
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "Adam Mirando",
+    "reviewer_credential": "PharmD",
+    "reviewed_at": "2026-09-29",
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
+  },
+  "changelog": [
+    {
+      "date": "2026-09-29",
+      "change": "Record created so the tool can be indexed. The calculator itself was rebuilt the same day: the unit converter and vial planner had no calculator at all, only a description."
+    }
+  ]
+}
