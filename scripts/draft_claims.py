@@ -79,9 +79,21 @@ ROUTE_RE = {k: re.compile(v, re.IGNORECASE) for k, v in ROUTES.items()}
 # may be split by a space, a thin space or a comma. Enrolment phrasing comes
 # before "n =", which in an abstract is usually a subgroup.
 NUM = r"(\d{1,3}(?:[ ,\u00a0\u202f]\d{3})+|\d{1,7})"
+# A CONSORT-style abstract opens with the screening count, which is larger than
+# the trial and is not its sample size: "930 participants were screened and 537
+# were randomly assigned" put 930 on the retatrutide phase 3 row, and "210
+# people were screened, of whom 72 were enrolled" put 210 on the phase 1b row.
+# Both patterns below used to match the screening number first. Assignment
+# phrasing is therefore tried before anything else, and any candidate whose
+# following words say it was screened is rejected outright.
+ASSIGNED = re.compile(
+    r"\b" + NUM + r"\s+(?:\([^)]{0,40}\)\s*)?(?:\w+\s+){0,3}?"
+    r"(?:were|was)\s+(?:randomly\s+assigned|randomi[sz]ed|allocated|enrolled)\b", re.IGNORECASE)
+SCREENED_AFTER = re.compile(r"^[^.]{0,40}?\b(?:were|was)\s+screened\b", re.IGNORECASE)
 N_RE = [
+    ASSIGNED,
+    re.compile(r"\b(?:enrolled|randomi[sz]ed|included|analy[sz]ed|recruited)\s+" + NUM + r"\b", re.IGNORECASE),
     re.compile(r"\b" + NUM + r"\s+(?:patients|participants|subjects|volunteers|adults|individuals|people|men|women|children|infants|rats|mice|rabbits|dogs|pigs|animals)\b", re.IGNORECASE),
-    re.compile(r"\b(?:enrolled|randomi[sz]ed|included|analy[sz]ed|recruited|screened)\s+" + NUM + r"\b", re.IGNORECASE),
     re.compile(r"\b[nN]\s?=\s?" + NUM + r"\b"),
 ]
 DESIGN_FROM_TITLE = [
@@ -213,8 +225,13 @@ def sample_size(abstract: str) -> int | None:
     for rx in N_RE:
         for m in rx.finditer(abstract):
             n = int(re.sub(r"[ ,\u00a0\u202f]", "", m.group(1)))
-            if 1 <= n <= 2_000_000:
-                return n
+            if not 1 <= n <= 2_000_000:
+                continue
+            # "930 participants were screened and 537 were randomly assigned":
+            # the screening count is not the trial's size.
+            if rx is not ASSIGNED and SCREENED_AFTER.match(abstract[m.end():]):
+                continue
+            return n
     return None
 
 

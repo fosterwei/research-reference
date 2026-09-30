@@ -1,0 +1,332 @@
+{
+  "slug": "retatrutide",
+  "type": "compound",
+  "generated": "2026-09-30",
+  "sources": [
+    "dataforseo keyword_overview live, clickstream, US/en",
+    "dataforseo serp organic live advanced, US/en, depth 20, three queries",
+    "Europe PMC REST, core result type, per-PMID"
+  ],
+  "scope": "Informational only. Commercial intent (where to buy, vendor comparison, price) is out of scope per docs/content-sop.md and is not covered.",
+  "stage0_note": "Record already at researched with 36 sources and 25 evidence rows, 18 of them human, before this map was written. No re-fetch was needed.",
+  "serp_2026-09-30": {
+    "retatrutide": "All 9 organic results on page 1 are one domain, stonevillenc.org, a municipal .org hosting mass-generated peptide pages. An AI overview is present. This is an unstable SERP: the incumbent is a single abused domain, not a set of real competitors.",
+    "retatrutide dosage": "Genuine competitors: ro.co (1), lolahealth (2), drugs.com (3), doctronic.ai (4), dailymed (5), youtube (6), nowpatient (7), superdrug (8). An AI overview is present.",
+    "retatrutide side effects": "Only 4 organic results returned at depth 20: reddit, rapamycin.news, linkedin, x.com. No health publisher holds this query at all, against 7,173 measured clicks and KD 10."
+  },
+  "demand_findings": "The head term measures 204,176 clickstream searches at KD 57, but its first page is one spam domain, so head-term competition is nominal rather than real. The winnable demand is the long tail: 'retatrutide dosage' at 5,901 clicks and KD 0, 'retatrutide dosing schedule' at 3,205 and KD 0, 'retatrutide side effects' at 7,173 and KD 10 with a four-result SERP, 'retatrutide vs tirzepatide' at 4,273 and KD 0. Every measured query is informational; none is transactional.",
+  "h1": "Retatrutide: the doses used in trials, what the weight-loss numbers actually were, and the trials still running",
+  "dek": "A triple GIP, GLP-1 and glucagon receptor agonist that no regulator has approved. This page tables every registered trial by its ClinicalTrials.gov number as the published paper states it, gives the dose-response from the phase 2 obesity trial at 24 and 48 weeks as published, and separates the doses that were studied from the ones that circulate.",
+  "queries": [
+    {
+      "query": "retatrutide",
+      "volume": {
+        "clickstream": 204176,
+        "google_ads": null,
+        "kd": 57,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "what",
+      "heading": "What retatrutide is, and why it acts on three receptors instead of one"
+    },
+    {
+      "query": "retatrutide side effects",
+      "volume": {
+        "clickstream": 7173,
+        "google_ads": 33100,
+        "kd": 10,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "adverse_events",
+      "heading": "What side effects were reported, and at which doses",
+      "boundary": "These are adverse events recorded in trials, at the doses those trials used. They are not a list of what a person should expect."
+    },
+    {
+      "query": "retatrutide dosage",
+      "volume": {
+        "clickstream": 5901,
+        "google_ads": 49500,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "study_doses",
+      "heading": "What doses did the trials actually use?",
+      "boundary": "Every dose below is one a published trial administered. Doses that circulate outside trials are handled separately, and are not the same set."
+    },
+    {
+      "query": "retatrutide vs tirzepatide",
+      "volume": {
+        "clickstream": 4273,
+        "google_ads": null,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "compare",
+      "heading": "Retatrutide and tirzepatide, and why the headline percentages do not compare"
+    },
+    {
+      "query": "what is retatrutide",
+      "volume": {
+        "clickstream": 3408,
+        "google_ads": null,
+        "kd": 14,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "quick-answer",
+      "heading": "Retatrutide in two minutes"
+    },
+    {
+      "query": "retatrutide dosing schedule",
+      "volume": {
+        "clickstream": 3205,
+        "google_ads": 14800,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "escalation_schedules",
+      "heading": "The escalation schedules the trials used",
+      "boundary": "Trials escalated from a starting dose over weeks. The starting dose itself changed the side-effect rate, which is why it is reported here rather than only the target dose."
+    },
+    {
+      "query": "retatrutide reconstitution",
+      "volume": {
+        "clickstream": 712,
+        "google_ads": 1300,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "reconstitution",
+      "heading": "Reconstitution arithmetic, and what the trials say about it"
+    },
+    {
+      "query": "retatrutide fda approval",
+      "volume": {
+        "clickstream": 661,
+        "google_ads": 1900,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status",
+      "heading": "Is retatrutide approved?",
+      "answer": "No regulator has approved retatrutide for any use. It is an investigational molecule in phase 3 trials. Anything sold as retatrutide today is sold outside an approved supply chain."
+    },
+    {
+      "query": "retatrutide vs semaglutide",
+      "volume": {
+        "clickstream": 661,
+        "google_ads": null,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "compare"
+    },
+    {
+      "query": "retatrutide half life",
+      "volume": {
+        "clickstream": 610,
+        "google_ads": 1600,
+        "kd": 0,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "routes_studied",
+      "heading": "How it is given, and how long it stays"
+    },
+    {
+      "query": "retatrutide mechanism of action",
+      "volume": {
+        "clickstream": 610,
+        "google_ads": 590,
+        "kd": 15,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "mechanism",
+      "heading": "How retatrutide is thought to work"
+    },
+    {
+      "query": "retatrutide results",
+      "volume": {
+        "clickstream": 610,
+        "google_ads": 3600,
+        "kd": 25,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "trials",
+      "heading": "What the weight-loss numbers were, dose by dose"
+    },
+    {
+      "query": "retatrutide weight loss",
+      "volume": {
+        "clickstream": 610,
+        "google_ads": null,
+        "kd": 19,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "trials"
+    },
+    {
+      "query": "retatrutide phase 3",
+      "volume": {
+        "clickstream": 559,
+        "google_ads": null,
+        "kd": 43,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "registrations",
+      "heading": "The registered trials, and which have reported",
+      "boundary": "Every registration below is quoted from the published paper that declares it. The registry pages themselves were not retrieved."
+    },
+    {
+      "query": "retatrutide availability",
+      "volume": {
+        "clickstream": 508,
+        "google_ads": 1300,
+        "kd": 7,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "regulatory_status"
+    },
+    {
+      "query": "retatrutide clinical trial",
+      "volume": {
+        "clickstream": 101,
+        "google_ads": null,
+        "kd": 25,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "registrations"
+    },
+    {
+      "query": "retatrutide 12 mg",
+      "volume": {
+        "clickstream": null,
+        "google_ads": 90,
+        "kd": 11,
+        "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
+      },
+      "intent": "informational",
+      "policy": "evidence-only",
+      "section": "study_doses"
+    }
+  ],
+  "competitors": [
+    {
+      "url": "https://ro.co/weight-loss/retatrutide-dosing/",
+      "rank": 1,
+      "words": 2558,
+      "tables": 1,
+      "h2": 24,
+      "h3": 17,
+      "sci_links": 13,
+      "byline": "Written by Leandra Beabout; Reviewed by Raagini Yedidi, MD",
+      "score": 24,
+      "gap": "Strongest of the three. A physician reviewer and 13 scientific links, and it is correct that retatrutide is investigational. It cites no trial registration, gives no dose-response table, and does not separate doses a trial administered from doses that circulate.",
+      "source": "fetched 2026-09-30, metrics measured; scored D7 F5 S8 U4"
+    },
+    {
+      "url": "https://www.doctronic.ai/blog/retatrutide-dosage-chart-and-dosing-schedule-guide/",
+      "rank": 4,
+      "words": 1902,
+      "tables": 0,
+      "h2": 15,
+      "h3": 25,
+      "sci_links": 0,
+      "byline": "Medically reviewed by Alan Lucks",
+      "score": 11,
+      "gap": "Titled a dosage chart and contains no table. Zero links to any primary source, zero trial registrations, and a named reviewer with no stated credential. The dose numbers appear without saying which trial produced them.",
+      "source": "fetched 2026-09-30, metrics measured; scored D4 F2 S1 U4"
+    },
+    {
+      "url": "https://nowpatient.com/blog/what-is-the-starting-dose-of-retatrutide",
+      "rank": 7,
+      "words": 2206,
+      "tables": 0,
+      "h2": 12,
+      "h3": 44,
+      "sci_links": 2,
+      "byline": "Written by Stefano Mirabello, BPharm",
+      "score": 13,
+      "gap": "A pharmacist byline and 44 H3s over 2,206 words, so the structure is thin sections rather than depth. Two scientific links, no registrations, no table, and no separation of studied from circulating doses.",
+      "source": "fetched 2026-09-30, metrics measured; scored D5 F3 S2 U3"
+    }
+  ],
+  "information_gain": "The only page that tables every registered retatrutide trial by the ClinicalTrials.gov number the published paper itself declares, alongside phase, enrolment and what the trial reported, so a reader can tell a completed phase 3 from a design paper for trials that have not read out. None of the three scored competitors cites a single registration. It is also the only page giving the phase 2 obesity dose-response as published at both 24 and 48 weeks for all four dose groups against placebo, rather than quoting the single best number; the only one reporting that the starting dose, not the target dose, is what changed the side-effect rate; and the only one carrying the dose-dependent heart-rate increase that peaked at 24 weeks and then declined, which every competitor omits.",
+  "serp_format_rewarded": "Dosage queries return an AI overview plus listicle-style guides with H3-heavy structure and no tables. A table that names the trial behind each dose is both the format the query wants and the thing no incumbent has. The side-effects query returns four results, none from a health publisher, so a cited adverse-events section can take it outright.",
+  "outline": [
+    "glance",
+    "quick-answer",
+    "what",
+    "mechanism",
+    "assessment",
+    "human-trials",
+    "trials",
+    "registrations",
+    "evidence",
+    "doses",
+    "dosage-chart",
+    "escalation",
+    "adverse",
+    "who",
+    "biomarkers",
+    "interactions",
+    "timelines",
+    "timeline",
+    "durations",
+    "routes",
+    "weight",
+    "reported-use",
+    "reconstitution",
+    "storage-guide",
+    "monitoring",
+    "mistakes",
+    "comparison-table",
+    "compare",
+    "combination",
+    "regulatory",
+    "open",
+    "faq",
+    "sources",
+    "card",
+    "related",
+    "changelog"
+  ],
+  "suppress": [
+    "storage",
+    "escalation"
+  ],
+  "open_actions": [
+    "Trial registry pages on clinicaltrials.gov and the DailyMed label at rank 5 could not be retrieved: the sandbox that built this page reaches Europe PMC but not clinicaltrials.gov, dailymed.nlm.nih.gov or api.fda.gov. Every NCT number here is quoted from the published paper that declares it. Re-verify against the registry from an environment with access before treating the registry as a source in its own right.",
+    "DailyMed carries a retatrutide entry at rank 5 for 'retatrutide dosage'. Retatrutide has no FDA approval, so that listing needs checking: it is most likely an unapproved compounded preparation, which would itself be worth a cited paragraph."
+  ]
+}

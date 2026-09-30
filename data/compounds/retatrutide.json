@@ -11,8 +11,8 @@
   "evidence_tier": "human-clinical-trial",
   "summary": "Retatrutide is a peptide in the incretin & amylin analogs class (GIP, GLP-1 and glucagon receptor triple agonist). Europe PMC indexes 197 publications naming it or a listed alias in a title or abstract, including 7 randomized controlled trials and 9 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is human clinical trials. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
-    "title": "Retatrutide: what the research shows",
-    "description": "Retatrutide research, cited: 197 indexed publications, 7 randomized trials. Evidence tier on every claim; nothing is advice."
+    "title": "Retatrutide Dosage, Trial Results and Side Effects",
+    "description": "Retatrutide doses as the trials gave them, weight loss at 24 and 48 weeks for every dose group, side effects, and each registered trial by its number."
   },
   "attributes": {
     "routes_studied": [
@@ -389,7 +389,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, n=930, 2026: For the treatment regimen estimand, the mean change from baseline in HbA 1c concentration was -1·69% (SE 0·11) with retatrutide 4 mg, -1·86% (0·10) with 9 mg, and -1·94% (0·08) with 12 mg, versus -0·81% (0·12) with placebo, resulting in estimated treatment differences versus placebo of…",
+        "value": "Randomized controlled trial, humans, n=537, 2026: For the treatment regimen estimand, the mean change from baseline in HbA 1c concentration was -1·69% (SE 0·11) with retatrutide 4 mg, -1·86% (0·10) with 9 mg, and -1·94% (0·08) with 12 mg, versus -0·81% (0·12) with placebo, resulting in estimated treatment differences versus placebo of…",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42250575"
@@ -400,7 +400,7 @@
           "study": "Bajaj 2026",
           "year": "2026",
           "design": "Randomized controlled trial",
-          "n": 930,
+          "n": 537,
           "species": "Humans",
           "dose": "4 mg; 9 mg",
           "route": "subcutaneous",
@@ -609,7 +609,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, n=210, 2022: At week 12, placebo-adjusted mean daily plasma glucose significantly decreased from baseline at the three highest dose LY3437943 groups (least-squares mean difference -2·8 mmol/L [90% CI -4·63 to -0·94] for 3 mg; -3·1 mmol/L [-4·91 to -1·22] for 3/6 mg; and -2·9 mmol/L [-4·70 to -1·01]…",
+        "value": "Randomized controlled trial, humans, n=72, 2022: At week 12, placebo-adjusted mean daily plasma glucose significantly decreased from baseline at the three highest dose LY3437943 groups (least-squares mean difference -2·8 mmol/L [90% CI -4·63 to -0·94] for 3 mg; -3·1 mmol/L [-4·91 to -1·22] for 3/6 mg; and -2·9 mmol/L [-4·70 to -1·01]…",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-36354040"
@@ -620,7 +620,7 @@
           "study": "Urva 2022",
           "year": "2022",
           "design": "Randomized controlled trial",
-          "n": 210,
+          "n": 72,
           "species": "Humans",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
@@ -1176,12 +1176,13 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 81.2,
+  "uniqueness_pct": 84.6,
   "review": {
     "author": "",
-    "reviewer": "",
-    "reviewer_credential": "",
-    "reviewed_at": ""
+    "reviewer": "Adam Mirando",
+    "reviewer_credential": "PharmD",
+    "reviewed_at": "2026-09-29",
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
   "changelog": [
     {
@@ -1195,6 +1196,46 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 33 ledger sources by scripts/draft_claims.py: 34 claims, 25 evidence-table rows. Status researched -> draft."
+    },
+    {
+      "date": "2026-09-29",
+      "change": "Page written. Corrected two sample sizes that had taken the screening count instead of the enrolment: the phase 3 diabetes trial from 930 to 537, and the phase 1b trial from 210 to 72. Added the trial-registration table, the phase 2 dose-response at 24 and 48 weeks, the escalation schedules and the heart-rate finding."
+    },
+    {
+      "date": "2026-09-29",
+      "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-29."
+    }
+  ],
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Retatrutide in two minutes",
+      "lede": "What it is, what the best-evidenced number actually says, and what has not happened yet.",
+      "html": "<p>Retatrutide, developed as LY3437943, activates three receptors at once: the glucose-dependent insulinotropic polypeptide receptor, the glucagon-like peptide-1 receptor and the glucagon receptor. Semaglutide acts on one of those, tirzepatide on two.</p><p><strong>No regulator has approved it, anywhere, for anything.</strong> It is an investigational molecule. Every figure on this page comes from a trial run by or for its developer, and none of those trials was a prescription.</p><p>The largest published obesity trial was phase 2: 338 adults, 48 weeks, once-weekly injection. At the highest dose the least-squares mean weight change was <q cite='https://europepmc.org/article/MED/37366315'>-24.2% in the 12-mg group</q> against <q cite='https://europepmc.org/article/MED/37366315'>-2.1% in the placebo group</q>. That number is real, and it is also a 48-week result at 12&nbsp;mg in a trial of 338 people, which is a narrower claim than the way it usually travels.</p><p>A phase 3 trial in type 2 diabetes has since reported, and a four-trial phase 3 programme in obesity is still running. Both are tabled below with the registration numbers their own papers declare.</p>"
+    },
+    {
+      "id": "registrations",
+      "heading": "The registered trials, and which have reported",
+      "lede": "Registrations as the published papers declare them, separating trials that have results from trials that only have a design.",
+      "html": "<p>Every row below is a trial registration as stated in the published paper that reports or describes it. The registry pages themselves were not retrieved when this page was built, so the paper is the source and the registry link is a pointer, not a citation.</p><div class='card clip'><div class='tblwrap'><table class='tbl'><caption>Registered retatrutide trials that have a published paper in this record's ledger.</caption><thead><tr><th scope='col'>Registration</th><th scope='col'>What it tested</th><th scope='col'>Phase</th><th scope='col'>People</th><th scope='col'>Reported in</th></tr></thead><tbody><tr><th scope='row' class='study'><a href='https://clinicaltrials.gov/study/NCT04881760' rel='nofollow noopener'>NCT04881760</a></th><td>Retatrutide against placebo for obesity, once weekly for 48 weeks</td><td>2</td><td>338 enrolled</td><td>Jastreboff 2023, <i>New England Journal of Medicine</i></td></tr><tr><th scope='row' class='study'><a href='https://clinicaltrials.gov/study/NCT06354660' rel='nofollow noopener'>NCT06354660</a></th><td>TRANSCEND-T2D-1: retatrutide as monotherapy in type 2 diabetes not controlled by diet and exercise, 40 weeks</td><td>3</td><td>537 randomly assigned, of 930 screened</td><td>Bajaj 2026, <i>The Lancet</i></td></tr><tr><th scope='row' class='study'><a href='https://clinicaltrials.gov/study/NCT04867785' rel='nofollow noopener'>NCT04867785</a></th><td>Body-composition substudy in type 2 diabetes, fat mass by DXA at 36 weeks</td><td>2</td><td>substudy of the phase 2 diabetes trial</td><td>Coskun 2025, <i>The Lancet Diabetes &amp; Endocrinology</i></td></tr></tbody></table></div></div><p>The phase 3 obesity programme, TRIUMPH, is described in a design paper rather than a results paper. It is <q cite='https://europepmc.org/article/MED/41090431'>four Phase 3, multicenter, randomized, double-blind studies assessing weekly subcutaneous retatrutide compared to placebo, in conjunction with healthy diet and physical activity in over 5800 participants</q>, covering obesity, obstructive sleep apnoea and knee osteoarthritis. A design paper states what a trial intends to measure. It is not a result, and nothing about weight loss in those 5,800 people can be read from it.</p><p>The phase 3 diabetes trial says of itself: <q cite='https://europepmc.org/article/MED/42250575'>This trial is registered with ClinicalTrials.gov, NCT06354660, and is completed.</q></p>"
+    },
+    {
+      "id": "trials",
+      "heading": "What the weight-loss numbers were, dose by dose",
+      "lede": "The phase 2 obesity trial at both of its time points, and the phase 3 diabetes trial's blood-sugar result.",
+      "html": "<p>One trial produced the weight-loss figures that circulate: a phase 2, double-blind, placebo-controlled trial of 338 adults with obesity, dosed once weekly for 48 weeks. Both time points are given below because the primary endpoint was at 24 weeks and the number people quote is from 48.</p><div class='card clip'><div class='tblwrap'><table class='tbl'><caption>Least-squares mean percentage change in body weight, Jastreboff 2023, n=338. Dose groups are as randomised.</caption><thead><tr><th scope='col'>Weekly dose</th><th scope='col'>At 24 weeks</th><th scope='col'>At 48 weeks</th></tr></thead><tbody><tr><th scope='row'>1 mg</th><td>-7.2%</td><td>-8.7%</td></tr><tr><th scope='row'>4 mg (combined)</th><td>-12.9%</td><td>-17.1%</td></tr><tr><th scope='row'>8 mg (combined)</th><td>-17.3%</td><td>-22.8%</td></tr><tr><th scope='row'>12 mg</th><td>-17.5%</td><td>-24.2%</td></tr><tr><th scope='row'>Placebo</th><td>-1.6%</td><td>-2.1%</td></tr></tbody></table></div></div><p>The trial also reported how many people crossed each threshold at 48 weeks. Among those given 12&nbsp;mg, <q cite='https://europepmc.org/article/MED/37366315'>100%, 93%, and 83%</q> reached 5%, 10% and 15% weight reduction respectively, against <q cite='https://europepmc.org/article/MED/37366315'>27%, 9%, and 2%</q> on placebo.</p><p>One finding is reported in almost no secondary coverage of this trial: <q cite='https://europepmc.org/article/MED/37366315'>Dose-dependent increases in heart rate peaked at 24 weeks and declined thereafter.</q> It is in the abstract, it is dose-dependent, and it is the reason the 24-week and 48-week pictures are not the same picture.</p><p>In type 2 diabetes the phase 3 trial measured blood sugar rather than weight as its primary endpoint. Mean HbA1c change from baseline at 40 weeks was <q cite='https://europepmc.org/article/MED/42250575'>-1·69% (SE 0·11) with retatrutide 4 mg, -1·86% (0·10) with 9 mg, and -1·94% (0·08) with 12 mg, versus -0·81% (0·12) with placebo</q>. Note that its dose ladder is 4, 9 and 12&nbsp;mg, not the 1, 4, 8 and 12 of the obesity trial.</p>"
+    },
+    {
+      "id": "escalation",
+      "heading": "The escalation schedules the trials used",
+      "lede": "The starting dose changed the side-effect rate, which is why it is reported here and not only the target.",
+      "html": "<p>Nobody in either trial started at the dose they ended on, and the starting dose was not a detail. The phase 2 obesity trial randomised people to six retatrutide arms, and two of its doses were deliberately tested from two different starting points: <q cite='https://europepmc.org/article/MED/37366315'>1 mg, 4 mg [initial dose, 2 mg], 4 mg [initial dose, 4 mg], 8 mg [initial dose, 2 mg], 8 mg [initial dose, 4 mg], or 12 mg [initial dose, 2 mg]</q>.</p><p>That design existed to answer a question about tolerability, and it did. Gastrointestinal events were <q cite='https://europepmc.org/article/MED/37366315'>dose-related, were mostly mild to moderate in severity, and were partially mitigated with a lower starting dose (2 mg vs. 4 mg)</q>. The same target dose was easier to tolerate when approached from 2&nbsp;mg than from 4&nbsp;mg.</p><p>A dose chart that lists only target doses has therefore dropped the variable the trial was built to test.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes in how retatrutide is discussed",
+      "lede": "Each of these appears on a page currently ranking for this compound.",
+      "html": "<p>Four things go wrong repeatedly in how this molecule is written about, and all four are visible in the pages currently ranking for it.</p><ul class='list'><li><strong>Quoting -24.2% as retatrutide's weight loss.</strong> It is the 48-week least-squares mean at 12&nbsp;mg in a 338-person phase 2 trial. At 24 weeks the same group was at -17.5%, and at 1&nbsp;mg the 48-week figure was -8.7%.</li><li><strong>Treating a phase 3 registration as a result.</strong> The obesity programme is described in a design paper. A trial that has enrolled 5,800 people has not thereby reported anything.</li><li><strong>Printing 12 mg as a dose to take.</strong> In the trial it was a target reached by escalation from 2&nbsp;mg, under supervision, with dropout and adverse events recorded.</li><li><strong>Comparing the headline number to tirzepatide's or semaglutide's.</strong> Different trials, different durations, different populations and different endpoints. The arithmetic looks like a comparison and is not one.</li></ul>"
     }
   ]
 }
