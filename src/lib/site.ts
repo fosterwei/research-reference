@@ -13,6 +13,10 @@ export const SITE_NAME = 'Dashnaiv Peptides';
 // Slack, Discord and X all accept, and large enough for the
 // max-image-preview:large directive the pages already set. A page may pass its
 // own `image` to Base; none does yet, so every card is this one.
+// The one published contact route. Anchor text is the address itself, so a
+// reader sees where a message goes before deciding to send one.
+export const CONTACT_EMAIL = 'corrections@dashnaiv.com';
+
 export const OG_IMAGE = '/og.jpg';
 
 // Bumped when an icon file changes. Browsers cache favicons separately from
@@ -50,9 +54,23 @@ export const SECTIONS: Array<[field: string, heading: string]> = [
 
 type AnyRecord = CollectionEntry<'compounds' | 'stacks' | 'comparisons' | 'tools' | 'posts'>;
 
-/** Records with drafted content are indexable; states before drafting, and stale or retired records, render noindex. */
+/**
+ * A page is indexable when it is actually finished: a written guide, and a
+ * named reviewer who signed it. Status alone was the rule before and it does
+ * not work, because `status` is set by hand and every record still says
+ * 'draft' long after being written and reviewed. That let seven auto-drafted
+ * records with no prose and no reviewer into the index, while the homepage and
+ * the directory pages, which asked for 'published', stayed out of it. Both
+ * failures came from trusting a field nobody updates. These two conditions are
+ * things the record either has or does not.
+ *
+ * Tools and posts carry no guide or review, so they keep the status rule.
+ */
 export function isIndexable(entry: AnyRecord): boolean {
-  return ['draft', 'reviewed', 'published'].includes(entry.data.status);
+  if (!['draft', 'reviewed', 'published'].includes(entry.data.status)) return false;
+  const d = entry.data as Record<string, any>;
+  if (entry.collection === 'tools' || entry.collection === 'posts') return true;
+  return Boolean(d.guide?.length) && Boolean(d.review?.reviewer);
 }
 
 /** Last revision date drives <lastmod>; never the build time. */

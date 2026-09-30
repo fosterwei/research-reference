@@ -1,11 +1,12 @@
 ---
 import { records } from '../lib/collections';
+import { isIndexable } from '../lib/site';
 import Base from '../layouts/Base.astro';
 import EvidenceLabel from '../components/EvidenceLabel.astro';
 import { compounds as reg } from '../lib/registry';
 const entries = await records('compounds');
 const wave1 = reg.filter((c) => c.pilot_wave === 1).map((c) => entries.find((e) => e.data.slug === c.slug)).filter((e): e is NonNullable<typeof e> => Boolean(e));
-const published = entries.filter((e) => e.data.status === 'published').length;
+const published = entries.filter((e) => isIndexable(e)).length;
 ---
 <Base title="Peptide Research, Cited and Tiered | Dashnaiv Peptides" description="A cited, evidence-tiered reference for research peptides: what has actually been studied, in whom, and where the evidence stops." path="/" indexable={published > 0}>
   <p class="eyebrow">Research reference</p>
