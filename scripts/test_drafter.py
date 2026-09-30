@@ -35,6 +35,25 @@ class SampleSize(unittest.TestCase):
     def test_year_is_not_a_count(self):
         self.assertEqual(dc.sample_size("Between 2015 and 2019, 30 patients were treated."), 30)
 
+    def test_screening_count_is_not_the_sample(self):
+        # TRANSCEND-T2D-1, Lancet 2026: the retatrutide phase 3 row stored 930,
+        # which is how many people were screened, not how many were in the trial.
+        self.assertEqual(dc.sample_size(
+            "Between April 10, 2024, and April 21, 2025, 930 participants were screened and 537 "
+            "(296 [55%] female and 241 [45%] male) were randomly assigned: 134 to retatrutide 4 mg"), 537)
+
+    def test_screening_count_before_enrolment(self):
+        # Urva 2022 Lancet phase 1b: the row stored 210, the screening count.
+        self.assertEqual(dc.sample_size(
+            "Between Dec 18, 2019, and Dec 28, 2020, 210 people were screened, of whom 72 were "
+            "enrolled, received at least one dose of study drug, and were included in safety analyses."), 72)
+
+    def test_screened_then_randomised_short_form(self):
+        self.assertEqual(dc.sample_size("2000 patients were screened; 150 were randomised to treatment."), 150)
+
+    def test_plain_enrolment_still_wins(self):
+        self.assertEqual(dc.sample_size("We enrolled 338 adults, 51.8% of whom were men."), 338)
+
     def test_enrolment_beats_subgroup_n(self):
         text = "The renal impairment study included 33 participants (normal function, n = 14; mild impairment, n = 7)."
         self.assertEqual(dc.sample_size(text), 33)
