@@ -90,10 +90,14 @@ ASSIGNED = re.compile(
     r"\b" + NUM + r"\s+(?:\([^)]{0,40}\)\s*)?(?:\w+\s+){0,3}?"
     r"(?:were|was)\s+(?:randomly\s+assigned|randomi[sz]ed|allocated|enrolled)\b", re.IGNORECASE)
 SCREENED_AFTER = re.compile(r"^[^.]{0,40}?\b(?:were|was)\s+screened\b", re.IGNORECASE)
+# "randomized 1:1", "randomised 1:1:1:1:1" is an allocation ratio, not a count.
+# The bare verb pattern reads it as a sample of 1, which is why it sits below
+# the noun pattern and refuses a number followed by a colon.
+RATIO_AFTER = re.compile(r"^\s*:")
 N_RE = [
     ASSIGNED,
-    re.compile(r"\b(?:enrolled|randomi[sz]ed|included|analy[sz]ed|recruited)\s+" + NUM + r"\b", re.IGNORECASE),
     re.compile(r"\b" + NUM + r"\s+(?:patients|participants|subjects|volunteers|adults|individuals|people|men|women|children|infants|rats|mice|rabbits|dogs|pigs|animals)\b", re.IGNORECASE),
+    re.compile(r"\b(?:enrolled|randomi[sz]ed|included|analy[sz]ed|recruited)\s+" + NUM + r"\b", re.IGNORECASE),
     re.compile(r"\b[nN]\s?=\s?" + NUM + r"\b"),
 ]
 DESIGN_FROM_TITLE = [
@@ -227,9 +231,15 @@ def sample_size(abstract: str) -> int | None:
             n = int(re.sub(r"[ ,\u00a0\u202f]", "", m.group(1)))
             if not 1 <= n <= 2_000_000:
                 continue
+            # Both look at what follows the number itself, not the whole match:
+            # ASSIGNED ends after "randomly assigned", and the colon in
+            # "assigned: 134 to retatrutide 4 mg" is not an allocation ratio.
+            after = abstract[m.end(1):]
             # "930 participants were screened and 537 were randomly assigned":
             # the screening count is not the trial's size.
-            if rx is not ASSIGNED and SCREENED_AFTER.match(abstract[m.end():]):
+            if rx is not ASSIGNED and SCREENED_AFTER.match(after):
+                continue
+            if RATIO_AFTER.match(after):
                 continue
             return n
     return None

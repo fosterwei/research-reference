@@ -54,6 +54,29 @@ class SampleSize(unittest.TestCase):
     def test_plain_enrolment_still_wins(self):
         self.assertEqual(dc.sample_size("We enrolled 338 adults, 51.8% of whom were men."), 338)
 
+    def test_allocation_ratio_is_not_a_count(self):
+        # "randomized 1:1" put n=1 on kisspeptin, survodutide, semax, tesamorelin
+        # and thymosin-alpha-1 rows when the noun pattern lost precedence.
+        self.assertEqual(dc.sample_size(
+            "Of these, 194 patients have been randomized 1:1 to either Group A or Group B."), 194)
+        self.assertEqual(dc.sample_size(
+            "Totally 387 people (aged 18-75 years) were randomized 1:1:1:1:1 to once-weekly "
+            "subcutaneous survodutide or placebo."), 387)
+
+    def test_colon_after_assignment_is_not_a_ratio(self):
+        # The colon in "assigned: 134 to retatrutide 4 mg" introduces the arms,
+        # so it must not disqualify the number that precedes the verb.
+        self.assertEqual(dc.sample_size(
+            "930 participants were screened and 537 (296 [55%] female) were randomly assigned: "
+            "134 to retatrutide 4 mg, 133 to retatrutide 9 mg"), 537)
+
+    def test_screened_participants_phrasing(self):
+        self.assertEqual(dc.sample_size(
+            "Of 367 participants screened, 146 were randomized to study interventions."), 146)
+        self.assertEqual(dc.sample_size(
+            "534 participants were screened for inclusion into the main study; 253 were excluded "
+            "and 281 participants were enrolled and randomly assigned to the main study."), 281)
+
     def test_enrolment_beats_subgroup_n(self):
         text = "The renal impairment study included 33 participants (normal function, n = 14; mild impairment, n = 7)."
         self.assertEqual(dc.sample_size(text), 33)
