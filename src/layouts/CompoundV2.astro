@@ -34,7 +34,7 @@ import EquipmentInStudies from '../components/shared/EquipmentInStudies.astro';
 import ReadingACoA from '../components/shared/ReadingACoA.astro';
 import WeightCaveat from '../components/shared/WeightCaveat.astro';
 import { rich, paragraphs, timeTag, esc } from '../lib/format';
-import { isIndexable, title, description, lastmod, formatCount } from '../lib/site';
+import { SITE_NAME, isIndexable, title, description, lastmod, formatCount } from '../lib/site';
 import { compound as regCompound, peers as regPeers, stacksContaining, comparisonsWith, className } from '../lib/registry';
 import { loadIntent, headingFor, boundaryFor, orderBlocks, queriesFor } from '../lib/intents';
 import { parseClaim } from '../lib/claims';
@@ -64,7 +64,7 @@ const seen = new Set<string>();
 const jsonld = {
   '@context': 'https://schema.org', '@type': 'Article', headline: title(entry), description: description(entry), dateModified: updated,
   datePublished: d.changelog[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(),
-  publisher: { '@type': 'Organization', name: 'Peptide Research Reference', url: Astro.site?.toString() },
+  publisher: { '@type': 'Organization', name: SITE_NAME, url: Astro.site?.toString() },
   ...(d.review.author ? { author: { '@type': 'Person', name: d.review.author } } : {}),
   ...(d.review.reviewer ? { reviewedBy: { '@type': 'Person', name: d.review.reviewer, jobTitle: d.review.reviewer_credential, ...(d.review.reviewer_url ? { sameAs: d.review.reviewer_url } : {}) } } : {}),
 };
@@ -175,7 +175,7 @@ const tocBody = body.flatMap((b) => b.kind === 'method'
   : [{ id: b.id, label: b.label, group: b.group }]);
 const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sources', 'card', 'related', 'changelog'].includes(s.id))];
 ---
-<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={jsonld} siteSuffix={`${baseTitle} | Peptide Research Reference`.length <= 60}>
+<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={jsonld} siteSuffix={`${baseTitle} | ${SITE_NAME}`.length <= 60}>
   <Fragment slot="head">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

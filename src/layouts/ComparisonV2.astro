@@ -14,7 +14,7 @@ import Sources from '../components/v2/Sources.astro';
 import EditorialSection from '../components/v2/EditorialSection.astro';
 import { entityLinker } from '../lib/entities';
 import { rich, paragraphs, timeTag } from '../lib/format';
-import { isIndexable, title, description, lastmod, formatCount, TIER_LABEL } from '../lib/site';
+import { SITE_NAME, isIndexable, title, description, lastmod, formatCount, TIER_LABEL } from '../lib/site';
 import { compound as regCompound, className, comparisons as planned } from '../lib/registry';
 import { loadIntent, headingFor, boundaryFor, orderBlocks, queriesFor } from '../lib/intents';
 
@@ -36,7 +36,7 @@ const seen = new Set<string>();
 const summaryParas = paragraphs(d.summary, 3).map((p: string) => rich(p, { bold: 2, seen }));
 const baseTitle = title(entry);
 const jsonld = {
-  '@context': 'https://schema.org', '@type': 'Article', headline: baseTitle, description: description(entry), dateModified: updated, datePublished: d.changelog?.[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(), publisher: { '@type': 'Organization', name: 'Peptide Research Reference', url: Astro.site?.toString() },
+  '@context': 'https://schema.org', '@type': 'Article', headline: baseTitle, description: description(entry), dateModified: updated, datePublished: d.changelog?.[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(), publisher: { '@type': 'Organization', name: SITE_NAME, url: Astro.site?.toString() },
   ...(d.review?.author ? { author: { '@type': 'Person', name: d.review.author } } : {}),
   ...(d.review?.reviewer ? { reviewedBy: { '@type': 'Person', name: d.review.reviewer, jobTitle: d.review.reviewer_credential, ...(d.review.reviewer_url ? { sameAs: d.review.reviewer_url } : {}) } } : {}),
 };
@@ -79,7 +79,7 @@ const toc = [
   ...(d.changelog?.length ? [{ id: 'changelog', label: 'What changed', group: 'Reference' }] : []),
 ];
 ---
-<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={jsonld} siteSuffix={`${baseTitle} | Peptide Research Reference`.length <= 60}>
+<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={jsonld} siteSuffix={`${baseTitle} | ${SITE_NAME}`.length <= 60}>
   <Fragment slot="head">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
