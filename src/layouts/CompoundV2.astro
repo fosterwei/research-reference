@@ -65,7 +65,14 @@ const jsonld = {
   '@context': 'https://schema.org', '@type': 'Article', headline: title(entry), description: description(entry), dateModified: updated,
   datePublished: d.changelog[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(),
   publisher: { '@type': 'Organization', name: SITE_NAME, url: Astro.site?.toString() },
-  ...(d.review.author ? { author: { '@type': 'Person', name: d.review.author } } : {}),
+  // "Who wrote this" and "who checked this" are separate signals, and the site
+  // answered only the second. There is no human writer to name: the prose is
+  // compiled from the record by the process the about page documents, so the
+  // organisation is the honest answer, and a named person is used when a
+  // record actually carries one.
+  author: d.review.author
+    ? { '@type': 'Person', name: d.review.author }
+    : { '@type': 'Organization', name: SITE_NAME, url: Astro.site?.toString() },
   ...(d.review.reviewer ? { reviewedBy: { '@type': 'Person', name: d.review.reviewer, jobTitle: d.review.reviewer_credential, ...(d.review.reviewer_url ? { sameAs: d.review.reviewer_url } : {}) } } : {}),
 };
 const dek = rich(`What ${formatCount(pubs.total)} indexed publications and ${formatCount(pubs.randomized_controlled_trials)} randomized trials actually state about ${d.preferred_name.toLowerCase()}, sentence by sentence, each tied to its source and labeled by the kind of evidence it is.`, { bold: 2, seen });
@@ -127,7 +134,7 @@ for (const [f, id, label] of evidence) {
   else if (queriesFor(intent, f).some((q) => q.policy !== 'redirect')) blocks.push({ id, kind: 'absence', field: f, label: headingFor(intent, f, label), group: 'Evidence' });
 }
 if (hasAnyEvidence) blocks.push({ id: 'method', kind: 'method', label: 'Method notes', group: 'Method' });
-if (peerEntries.length > 0) blocks.push({ id: 'compare', kind: 'compare', label: headingFor(intent, 'compare', 'How it compares'), group: 'Context' });
+if (peerEntries.length > 0) blocks.push({ id: 'compare', kind: 'compare', label: headingFor(intent, 'compare', 'Other compounds in its class'), group: 'Context' });
 if (inStacks.length > 0) blocks.push({ id: 'combination', kind: 'combination', label: headingFor(intent, 'combination', 'Studied in combination'), group: 'Context' });
 if (has('regulatory_status')) blocks.push({ id: 'regulatory', kind: 'regulatory', field: 'regulatory_status', label: headingFor(intent, 'regulatory_status', 'Regulatory status'), group: 'Context' });
 if (d.open_questions.length > 0) blocks.push({ id: 'open', kind: 'open', label: 'Open questions and limitations', group: 'Context' });

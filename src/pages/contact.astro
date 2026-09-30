@@ -10,7 +10,7 @@ import { CONTACT_EMAIL } from '../lib/site';
     <h1>Contact and corrections</h1>
     <p class="lede">Every claim on this site names its source, so most problems can be pointed at exactly: a quotation that does not match its source, a study in the wrong tier, a figure that has since changed, a page that does not render. Here is how to report one and what happens next.</p>
     <h2 id="report">Report a problem</h2>
-    <p>Write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Include the page address, the section heading, and, for a claim, the source id printed beneath it (the <code>pmid-…</code> or <code>doi-…</code> code). Those three things are usually enough to find the problem without a reply.</p>
+    <p><a href={`mailto:${CONTACT_EMAIL}?subject=Correction`}>Email a correction</a>. Include the page address, the section heading, and, for a claim, the source id printed beneath it (the <code>pmid-…</code> or <code>doi-…</code> code). Those three things are usually enough to find the problem without a reply.</p>
     <h2 id="what">What is worth reporting</h2>
     <ul>
       <li>A quoted sentence that differs from the source abstract, or a source id that does not resolve.</li>
@@ -23,7 +23,7 @@ import { CONTACT_EMAIL } from '../lib/site';
     <h2 id="how">How corrections are made</h2>
     <p>Corrections are made in the record, not on the page. The record's changelog gains a dated entry saying what changed and why, and the page is rebuilt from the corrected record. A claim whose source does not support it is removed rather than reworded. Nothing is corrected silently.</p>
     <h2 id="research">Research and review</h2>
-    <p>Clinicians, pharmacologists and researchers who would like to review a record are welcome. A reviewed record shows the reviewer's name, credential and date at the top of its page. Write to the address above with the compound in the subject line.</p>
+    <p>Clinicians, pharmacologists and researchers who would like to review a record are welcome. A reviewed record shows the reviewer's name, credential and date at the top of its page. <a href={`mailto:${CONTACT_EMAIL}?subject=Review`}>Write to the same address</a> with the compound in the subject line.</p>
     <h2 id="not">What this site does not do</h2>
     <p>It does not give individual advice, and questions about whether or how to use a compound cannot be answered here. A clinician who knows your history can; this site can only show what has been studied.</p>
   </article>

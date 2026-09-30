@@ -13,8 +13,9 @@ export const SITE_NAME = 'Dashnaiv Peptides';
 // Slack, Discord and X all accept, and large enough for the
 // max-image-preview:large directive the pages already set. A page may pass its
 // own `image` to Base; none does yet, so every card is this one.
-// The one published contact route. Anchor text is the address itself, so a
-// reader sees where a message goes before deciding to send one.
+// The one published contact route. It appears only in a mailto href, never as
+// visible text, which keeps it out of the plain-text scrape that harvests an
+// address printed on a page.
 export const CONTACT_EMAIL = 'corrections@dashnaiv.com';
 
 export const OG_IMAGE = '/og.jpg';

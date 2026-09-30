@@ -15,7 +15,10 @@ Two rules, both easy to break by accident and invisible until someone clicks:
      dist/ and matches the width and height the page declares. A card that
      404s is invisible to fetch it, and a mismatched size is cropped by the
      platform rather than reported.
-  4. Every icon and manifest in <link rel> resolves, and each icon matches any
+  4. No page renders the same H2 twice. A generic block heading and an authored
+     one drifted into the same words on 32 pages, twice into an exact match, and
+     nothing in the build could see it.
+  5. Every icon and manifest in <link rel> resolves, and each icon matches any
      sizes="" it declares. A favicon is the one asset nobody notices is broken,
      because the browser silently falls back to a blank page glyph. The web
      manifest is parsed too: its icons are referenced from nowhere else, so
@@ -31,6 +34,7 @@ import pathlib
 import re
 import sys
 from collections import Counter
+from html import unescape
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -45,6 +49,8 @@ LINK_ASSET = re.compile(
     r'<link\b[^>]*?rel="(icon|apple-touch-icon|manifest)"[^>]*?>', re.I)
 LINK_HREF = re.compile(r'href="([^"]+)"', re.I)
 LINK_SIZES = re.compile(r'sizes="(\d+)x(\d+)"', re.I)
+H2 = re.compile(r'(?is)<h2[^>]*>(.*?)</h2>')
+TAGS = re.compile(r'(?s)<[^>]+>')
 
 
 def image_size(path: pathlib.Path):
@@ -83,12 +89,22 @@ def main() -> int:
     dead_anchor: Counter[str] = Counter()
     follows: Counter[str] = Counter()
     bad_card: Counter[str] = Counter()
+    dupe_h2: Counter[str] = Counter()
     internal = outbound = cards = 0
 
     for page in pages:
         html = page.read_text(encoding="utf-8", errors="ignore")
         ids = set(IDS.findall(html))
         where = page.parent.relative_to(DIST).as_posix() or "/"
+
+        seen_h2: Counter[str] = Counter()
+        for raw in H2.findall(html):
+            text = unescape(TAGS.sub("", raw)).strip()
+            if text:
+                seen_h2[text] += 1
+        for text, count in seen_h2.items():
+            if count > 1:
+                dupe_h2[f"{where} -> {text!r} x{count}"] += 1
 
         declared = {k.lower(): int(v) for k, v in META_DIM.findall(html)}
         for prop, url in META_IMG.findall(html):
@@ -167,7 +183,8 @@ def main() -> int:
     for label, counter in (("broken internal links", broken),
                            ("same-page anchors with no matching id", dead_anchor),
                            ("outbound links missing rel=nofollow", follows),
-                           ("card, icon or manifest assets missing or mis-sized", bad_card)):
+                           ("card, icon or manifest assets missing or mis-sized", bad_card),
+                           ("pages rendering the same H2 twice", dupe_h2)):
         if counter:
             failed = True
             print(f"\n{label}: {sum(counter.values())}")
