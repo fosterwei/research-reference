@@ -1,0 +1,29 @@
+{
+  "type": "tool",
+  "title": "Peptide unit converter",
+  "slug": "unit-converter",
+  "status": "draft",
+  "formula": "1 mg = 1000 mcg = 1000000 ng, fixed ratios. millilitres to syringe units = volume (mL) x units per mL on the chosen scale (100, 50 or 40). International units are deliberately not converted: an IU is defined per substance by an international reference preparation, so micrograms per IU differ by compound and exist only where a factor has been published.",
+  "summary": "Converts between milligrams, micrograms and nanograms, and converts a volume into units on a U-100, U-50 or U-40 syringe. It refuses to convert international units, because no general mass equivalent for an IU exists and any converter offering one has invented it.",
+  "seo": {},
+  "attributes": {},
+  "sources": [],
+  "related": [],
+  "faq": [],
+  "open_questions": [
+    "Whether to accept a user-supplied IU factor for a named compound, which would be honest arithmetic but could be mistaken for the site endorsing that factor."
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "Adam Mirando",
+    "reviewer_credential": "PharmD",
+    "reviewed_at": "2026-09-29",
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
+  },
+  "changelog": [
+    {
+      "date": "2026-09-29",
+      "change": "Record created so the tool can be indexed. The calculator itself was rebuilt the same day: the unit converter and vial planner had no calculator at all, only a description."
+    }
+  ]
+}

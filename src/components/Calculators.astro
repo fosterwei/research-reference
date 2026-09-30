@@ -1,0 +1,178 @@
+---
+// All three calculators, with one script that wires up whichever is on the page.
+// Astro hoists and bundles every <script> in a component into the pages that
+// render it, so a per-tool script would still load on the other two tools and
+// throw on missing elements. One script that checks for its own inputs first is
+// the version that survives that.
+//
+// Nothing here accepts a body weight, an age or a condition, and nothing
+// returns a dose. Each tool states its formula above the inputs, so the
+// arithmetic can be checked by hand.
+interface Props { slug: string }
+const { slug } = Astro.props;
+---
+{slug === 'reconstitution-calculator' && (
+  <section id="calc-recon">
+    <h2>Work out concentration and what to draw</h2>
+    <p class="prose">Two divisions, both shown. <b>Concentration</b> = mass in the vial &divide; diluent volume. <b>Volume to draw</b> = mass you want &divide; that concentration. Syringe units are that volume &times; the units per millilitre on your syringe's own scale.</p>
+    <form class="calc" onsubmit="return false">
+      <label for="r-mass">Mass in vial (mg)</label>
+      <input id="r-mass" type="number" step="any" min="0" inputmode="decimal" value="5" />
+      <label for="r-vol">Diluent added (mL)</label>
+      <input id="r-vol" type="number" step="any" min="0" inputmode="decimal" value="2" />
+      <label for="r-want">Mass per draw (mcg)</label>
+      <input id="r-want" type="number" step="any" min="0" inputmode="decimal" value="250" />
+      <label for="r-scale">Syringe scale</label>
+      <select id="r-scale">
+        <option value="100" selected>U-100 (100 units per mL)</option>
+        <option value="50">U-50 (50 units per mL)</option>
+        <option value="40">U-40 (40 units per mL)</option>
+      </select>
+      <output id="r-out" aria-live="polite"></output>
+    </form>
+    <p class="prose">Worked example: 5&nbsp;mg in 2&nbsp;mL is 2,500&nbsp;mcg/mL, so 250&nbsp;mcg is 0.1&nbsp;mL, which is 10&nbsp;units on a U-100 syringe and 4&nbsp;units on a U-40. The scale is printed on the barrel; reading a U-40 syringe as if it were U-100 is a two-and-a-half-fold error.</p>
+  </section>
+)}
+
+{slug === 'unit-converter' && (
+  <section id="calc-convert">
+    <h2>Convert a mass, or a volume to syringe units</h2>
+    <p class="prose">Mass conversions are fixed ratios: 1&nbsp;mg = 1,000&nbsp;mcg = 1,000,000&nbsp;ng. Volume to units depends only on the scale printed on your syringe.</p>
+    <form class="calc" onsubmit="return false">
+      <label for="c-amount">Amount</label>
+      <input id="c-amount" type="number" step="any" min="0" inputmode="decimal" value="250" />
+      <label for="c-from">From</label>
+      <select id="c-from">
+        <option value="mg">mg (milligrams)</option>
+        <option value="mcg" selected>mcg (micrograms)</option>
+        <option value="ng">ng (nanograms)</option>
+        <option value="ml">mL (millilitres)</option>
+      </select>
+      <label for="c-scale">Syringe scale, for volume conversions</label>
+      <select id="c-scale">
+        <option value="100" selected>U-100 (100 units per mL)</option>
+        <option value="50">U-50 (50 units per mL)</option>
+        <option value="40">U-40 (40 units per mL)</option>
+      </select>
+      <output id="c-out" aria-live="polite"></output>
+    </form>
+    <h3>Why there is no IU box</h3>
+    <p class="prose">International units are not a mass. An IU is defined separately for each substance by an international reference preparation, so the number of micrograms in one IU is different for every compound and exists only where someone has published a factor. There is no general formula, and a converter that offers one is inventing it.</p>
+    <p class="prose">If you have a published factor for a specific compound, the arithmetic is one multiplication you can do here: enter the mass in micrograms that the factor gives for one IU, and read the total. This tool will not supply that factor, because supplying it for a compound that has none is exactly the error it exists to avoid.</p>
+  </section>
+)}
+
+{slug === 'vial-planner' && (
+  <section id="calc-vial">
+    <h2>How far a vial goes</h2>
+    <p class="prose"><b>Draws per vial</b> = total mass in the vial &divide; mass per draw, rounded down, because a partial draw is not a draw. How long that lasts is that count &divide; how often you draw.</p>
+    <form class="calc" onsubmit="return false">
+      <label for="v-mass">Mass in vial (mg)</label>
+      <input id="v-mass" type="number" step="any" min="0" inputmode="decimal" value="5" />
+      <label for="v-vol">Diluent added (mL)</label>
+      <input id="v-vol" type="number" step="any" min="0" inputmode="decimal" value="2" />
+      <label for="v-want">Mass per draw (mcg)</label>
+      <input id="v-want" type="number" step="any" min="0" inputmode="decimal" value="250" />
+      <label for="v-freq">Draws per week</label>
+      <input id="v-freq" type="number" step="any" min="0" inputmode="decimal" value="7" />
+      <output id="v-out" aria-live="polite"></output>
+    </form>
+    <p class="prose">The leftover matters. A vial that yields 20.4 draws yields 20, and the remainder is the fraction you cannot measure, not a bonus draw. This tool will not tell you what mass to draw; that is the number a study reported or a clinician set, and it is the one input it refuses to guess.</p>
+  </section>
+)}
+
+<script>
+  const num = (id: string): number => {
+    const el = document.getElementById(id) as HTMLInputElement | null;
+    return el ? parseFloat(el.value) : NaN;
+  };
+  const pick = (id: string): string => {
+    const el = document.getElementById(id) as HTMLSelectElement | null;
+    return el ? el.value : '';
+  };
+  const round = (n: number, dp = 3): string =>
+    n.toLocaleString('en-US', { maximumFractionDigits: dp });
+
+  /** Wires inputs to a render function, runs it once, and skips the tool entirely
+   *  when its output element is not on this page. */
+  function wire(outId: string, ids: string[], render: (out: HTMLElement) => void) {
+    const out = document.getElementById(outId);
+    if (!out) return;
+    const run = () => render(out);
+    ids.forEach((id) => document.getElementById(id)?.addEventListener('input', run));
+    ids.forEach((id) => document.getElementById(id)?.addEventListener('change', run));
+    run();
+  }
+
+  // Reconstitution: concentration, volume to draw, units on the chosen scale.
+  wire('r-out', ['r-mass', 'r-vol', 'r-want', 'r-scale'], (out) => {
+    const mg = num('r-mass'), ml = num('r-vol'), mcg = num('r-want');
+    const perMl = parseFloat(pick('r-scale')) || 100;
+    if (!(mg > 0 && ml > 0 && mcg > 0)) {
+      out.textContent = 'Enter a positive number for the vial, the diluent and the mass per draw.';
+      return;
+    }
+    const conc = (mg * 1000) / ml;          // mcg per mL
+    const drawMl = mcg / conc;
+    const units = drawMl * perMl;
+    const draws = Math.floor((mg * 1000) / mcg);
+    const lines = [
+      `Concentration: ${round(conc, 1)} mcg/mL (${round(conc / 1000, 3)} mg/mL)`,
+      `Draw: ${round(drawMl, 3)} mL = ${round(units, 1)} units on a U-${perMl} syringe`,
+      `Whole draws per vial: ${draws}`,
+    ];
+    // A U-100 syringe is graduated in whole units, so 0.01 mL is the smallest
+    // mark. Below that the volume cannot be read off the barrel at all.
+    if (units < 1) lines.push(`Warning: ${round(units, 2)} units is below the smallest graduation on that syringe. Use less diluent to raise the concentration, or a syringe with a finer scale.`);
+    if (drawMl > 1) lines.push(`Warning: ${round(drawMl, 2)} mL exceeds a 1 mL syringe, so this draw does not fit in one.`);
+    if (ml > 0 && drawMl > ml) lines.push('Warning: the volume to draw is larger than the whole vial.');
+    out.textContent = lines.join(' · ');
+  });
+
+  // Unit converter: fixed mass ratios, plus volume to syringe units.
+  wire('c-out', ['c-amount', 'c-from', 'c-scale'], (out) => {
+    const amount = num('c-amount');
+    const from = pick('c-from');
+    const perMl = parseFloat(pick('c-scale')) || 100;
+    if (!(amount >= 0) || Number.isNaN(amount)) {
+      out.textContent = 'Enter a number to convert.';
+      return;
+    }
+    if (from === 'ml') {
+      out.textContent = `${round(amount, 3)} mL = ${round(amount * perMl, 1)} units on a U-${perMl} syringe`;
+      return;
+    }
+    const toMcg: Record<string, number> = { mg: 1000, mcg: 1, ng: 0.001 };
+    const mcg = amount * (toMcg[from] ?? 1);
+    out.textContent = [
+      `${round(mcg / 1000, 6)} mg`,
+      `${round(mcg, 3)} mcg`,
+      `${round(mcg * 1000, 0)} ng`,
+    ].join(' · ');
+  });
+
+  // Vial planner: whole draws, how long they last, and the unusable remainder.
+  wire('v-out', ['v-mass', 'v-vol', 'v-want', 'v-freq'], (out) => {
+    const mg = num('v-mass'), ml = num('v-vol'), mcg = num('v-want'), freq = num('v-freq');
+    if (!(mg > 0 && mcg > 0)) {
+      out.textContent = 'Enter a positive vial mass and mass per draw.';
+      return;
+    }
+    const totalMcg = mg * 1000;
+    const draws = Math.floor(totalMcg / mcg);
+    const leftoverMcg = totalMcg - draws * mcg;
+    const lines = [`Whole draws per vial: ${draws}`];
+    if (ml > 0) {
+      const conc = totalMcg / ml;
+      lines.push(`Each draw: ${round(mcg / conc, 3)} mL`);
+      lines.push(`Left in the vial: ${round(leftoverMcg, 1)} mcg (${round(leftoverMcg / conc, 3)} mL)`);
+    } else {
+      lines.push(`Left over: ${round(leftoverMcg, 1)} mcg`);
+    }
+    if (freq > 0) {
+      const weeks = draws / freq;
+      lines.push(`At ${round(freq, 2)} draws per week: ${round(weeks, 2)} weeks (${round(weeks * 7, 1)} days)`);
+    }
+    out.textContent = lines.join(' · ');
+  });
+</script>

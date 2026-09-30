@@ -1,0 +1,29 @@
+{
+  "type": "tool",
+  "title": "Vial planner",
+  "slug": "vial-planner",
+  "status": "draft",
+  "formula": "whole draws per vial = floor(mass in vial (mcg) / mass per draw (mcg)), rounded down because a partial draw is not a draw. volume per draw (mL) = mass per draw / concentration. remainder (mcg) = total mass - whole draws x mass per draw. duration (weeks) = whole draws / draws per week.",
+  "summary": "Reports how many whole draws a vial yields at a stated mass per draw, the volume of each draw, how long the vial lasts at a stated frequency, and the remainder that is left behind because it cannot be measured. It refuses to suggest the mass per draw, which is the one input it will not guess.",
+  "seo": {},
+  "attributes": {},
+  "sources": [],
+  "related": [],
+  "faq": [],
+  "open_questions": [
+    "Whether to model in-use stability limits, which vary by compound and diluent and would need a cited source per compound rather than a general rule."
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "Adam Mirando",
+    "reviewer_credential": "PharmD",
+    "reviewed_at": "2026-09-29",
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
+  },
+  "changelog": [
+    {
+      "date": "2026-09-29",
+      "change": "Record created so the tool can be indexed. The calculator itself was rebuilt the same day: the unit converter and vial planner had no calculator at all, only a description."
+    }
+  ]
+}

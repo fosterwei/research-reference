@@ -14,7 +14,7 @@ const PREFIX = { compounds: '/compounds/', stacks: '/stacks/', comparisons: '/co
 // Rendered pages that are not records. Kept here rather than derived, because
 // a page that should not be indexed must not be listed, and that is a decision
 // per page rather than a pattern.
-const STATIC = ['/', '/compounds', '/stacks', '/compare', '/about', '/contact', '/privacy'];
+const STATIC = ['/', '/compounds', '/stacks', '/compare', '/tools', '/about', '/contact', '/privacy'];
 
 export const GET: APIRoute = async ({ site }) => {
   const urls: string[] = [];

@@ -1,9 +1,19 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { tools } from '../../lib/registry';
+import { records } from '../../lib/collections';
+import { isIndexable } from '../../lib/site';
+const entries = await records('tools');
+const live = entries.some((e) => isIndexable(e));
 ---
-<Base title="Tools" description="Calculators that show their formula, define every input with units, and refuse to turn arithmetic into advice." path="/tools" indexable={false}>
-  <p class="eyebrow">Directory</p>
-  <h1>Tools</h1>
-  <ul class="cards">{tools.map((t) => <li><a href={`/tools/${t.slug}`}>{t.name}</a><div class="sub">{t.computes}</div></li>)}</ul>
+<Base title="Peptide Calculators: Reconstitution, Units and Vial Planning" description="Three calculators that print their formula above the inputs: reconstitution to concentration and syringe units, mass and volume conversion, and how far a vial goes." path="/tools" indexable={live} siteSuffix={false}>
+  <article class="prose-page">
+    <p class="eyebrow">Directory</p>
+    <h1>Peptide calculators</h1>
+    <p class="dek">Arithmetic, shown. Each tool prints the formula above its inputs so any result can be checked by hand, runs entirely in your browser, and names the one thing it refuses to do.</p>
+    <ul class="cards">{tools.map((t) => <li><a href={`/tools/${t.slug}`}>{t.name}</a><div class="sub">{t.computes}</div></li>)}</ul>
+    <h2>What none of them will do</h2>
+    <p class="prose">None takes a body weight, an age or a condition, and none returns a dose. A calculator that turns a body weight into a milligram figure has made a clinical decision, and that decision depends on why someone is taking something, what else they take and how their kidneys and liver are working. None of that is arithmetic.</p>
+    <p class="prose">What each one does is convert numbers you already have into other numbers, by a formula you can read. Whether those numbers are appropriate is a different question, and the <a href="/compounds">compound records</a> are where the evidence for it lives.</p>
+  </article>
 </Base>

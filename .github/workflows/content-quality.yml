@@ -48,7 +48,9 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          SITE_URL: https://dashnaiv.com
+          SITE_URL: https://www.dashnaiv.com
+      - name: Calculators compute
+        run: node scripts/test_calculators.mjs
       - name: Links resolve, and nothing outbound follows
         run: python3 scripts/check_links.py
       - name: Every written page completed the content loop
