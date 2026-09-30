@@ -1,9 +1,13 @@
 import type { CollectionEntry } from 'astro:content';
 
-// The brand, matching the domain and the wordmark on the social card.
+// The brand, matching the domain and the wordmark on the social card, with
+// the category keyword in it. Length is a real constraint: it is appended to
+// every page title that can still fit inside 60 characters, so a longer name
+// brands fewer pages. At 17 characters this suffix reaches 16 of 63 pages;
+// 'Dashnaiv Peptide Reference' would reach 10.
 // Every title suffix, the footer, and the Organization in each page's
 // JSON-LD read from here, so the site names itself in exactly one place.
-export const SITE_NAME = 'Dashnaiv';
+export const SITE_NAME = 'Dashnaiv Peptides';
 
 // Site-wide social card. 1200x630 (1.91:1), the ratio Facebook, LinkedIn,
 // Slack, Discord and X all accept, and large enough for the
