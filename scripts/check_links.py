@@ -28,7 +28,12 @@ Two rules, both easy to break by accident and invisible until someone clicks:
      Disallow rule. A robots.txt that blocks a page the sitemap advertises is
      the one SEO error that silently un-indexes a site while every other check
      still passes, and the two files are generated in different places here.
-  7. Every icon and manifest in <link rel> resolves, and each icon matches any
+  7. If an analytics tag ships, the privacy page says so. The page used to read
+     "no analytics or advertising script", "set no cookies" and "run no tracking
+     code", and all three became false the moment the Google Analytics tag was
+     added. A privacy page that describes a different site than the one serving
+     it is the kind of error this project exists not to make.
+  8. Every icon and manifest in <link rel> resolves, and each icon matches any
      sizes="" it declares. A favicon is the one asset nobody notices is broken,
      because the browser silently falls back to a blank page glyph. The web
      manifest is parsed too: its icons are referenced from nowhere else, so
@@ -64,6 +69,8 @@ H2 = re.compile(r'(?is)<h2[^>]*>(.*?)</h2>')
 # any of it, and seeing it in a <code> element means a template printed the
 # field rather than what the field is for.
 STATUSES = ('discovered', 'researched', 'draft', 'reviewed', 'published', 'stale', 'retired')
+ANALYTICS_HOSTS = ("googletagmanager.com", "google-analytics.com", "plausible.io",
+                   "cdn.segment.com", "static.hotjar.com", "matomo")
 STATUS_CODE = re.compile(
     r'(?is)<code[^>]*>\s*(' + '|'.join(STATUSES) + r')\s*</code>')
 TAGS = re.compile(r'(?s)<[^>]+>')
@@ -94,6 +101,33 @@ def resolves(href: str) -> bool:
         return (DIST / "index.html").exists()
     return ((DIST / path / "index.html").exists() or (DIST / path).exists()
             or (DIST / f"{path}.html").exists())
+
+
+def privacy_discloses_analytics() -> list[str]:
+    """An analytics tag that the privacy page does not mention."""
+    privacy = DIST / "privacy" / "index.html"
+    found: set[str] = set()
+    for page in DIST.rglob("*.html"):
+        html = page.read_text(encoding="utf-8", errors="ignore")
+        for host in ANALYTICS_HOSTS:
+            if host in html:
+                found.add(host)
+    if not found:
+        return []
+    if not privacy.exists():
+        return [f"analytics present ({', '.join(sorted(found))}) and there is no privacy page"]
+    text = unescape(TAGS.sub(" ", privacy.read_text(encoding="utf-8", errors="ignore"))).lower()
+    problems = []
+    # The disclosure has to name the thing and the cookies, not merely exist.
+    if not any(w in text for w in ("analytics", "measurement")):
+        problems.append("an analytics tag ships but the privacy page never says the word")
+    if "cookie" not in text:
+        problems.append("an analytics tag ships but the privacy page does not mention cookies")
+    for stale in ("no analytics or advertising script", "set no cookies",
+                  "does not use browser storage", "no analytics script"):
+        if stale in text:
+            problems.append(f'privacy page still claims "{stale}" while analytics ships')
+    return problems
 
 
 def robots_agrees_with_sitemap() -> list[str]:
@@ -153,6 +187,7 @@ def main() -> int:
     dupe_h2: Counter[str] = Counter()
     leaked_status: Counter[str] = Counter()
     robots_bad: Counter[str] = Counter()
+    privacy_bad: Counter[str] = Counter()
     internal = outbound = cards = 0
 
     for page in pages:
@@ -245,6 +280,8 @@ def main() -> int:
 
     for problem in robots_agrees_with_sitemap():
         robots_bad[problem] += 1
+    for problem in privacy_discloses_analytics():
+        privacy_bad[problem] += 1
 
     print(f"{len(pages)} pages | {internal} internal links | "
           f"{outbound} outbound links | {cards} asset refs")
@@ -255,7 +292,8 @@ def main() -> int:
                            ("card, icon or manifest assets missing or mis-sized", bad_card),
                            ("pages rendering the same H2 twice", dupe_h2),
                            ("pages printing an internal record status", leaked_status),
-                           ("robots.txt disagreeing with the sitemap", robots_bad)):
+                           ("robots.txt disagreeing with the sitemap", robots_bad),
+                           ("analytics shipping without a matching privacy page", privacy_bad)):
         if counter:
             failed = True
             print(f"\n{label}: {sum(counter.values())}")

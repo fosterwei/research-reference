@@ -18,6 +18,12 @@ export const SITE_NAME = 'Dashnaiv Peptides';
 // address printed on a page.
 export const CONTACT_EMAIL = 'corrections@dashnaiv.com';
 
+// Google Analytics 4. Empty disables the tag entirely, which is how a fork or a
+// local build runs without reporting into someone else's property. Changing
+// this changes what the privacy page has to say, and scripts/check_links.py
+// fails the build if the two stop agreeing.
+export const GA_MEASUREMENT_ID = 'G-WNMRQE3MLF';
+
 export const OG_IMAGE = '/og.jpg';
 
 // Bumped when an icon file changes. Browsers cache favicons separately from

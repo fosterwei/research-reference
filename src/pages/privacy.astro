@@ -1,24 +1,47 @@
 ---
 // Privacy: true to how the site is built. Static HTML on Vercel, no accounts,
-// no analytics script, no cookies set by the pages themselves.
+// no forms, and since 2026-10-08 one analytics script, Google Analytics 4,
+// which sets cookies. Every claim below is checkable against the page source.
+// scripts/check_links.py fails the build if the analytics tag ships while this
+// page still says there is none.
 import Base from '../layouts/Base.astro';
+import { GA_MEASUREMENT_ID } from '../lib/site';
 ---
-<Base title="Privacy" description="What this site collects (almost nothing), what the host logs, and what we do not do with any of it." path="/privacy" indexable={true}>
+<Base title="Privacy" description="What this site collects, the analytics cookies it sets, what the host logs, and how to opt out of all of it." path="/privacy" indexable={true}>
   <article class="prose">
     <p class="eyebrow">Privacy</p>
     <h1>Privacy</h1>
-    <p class="lede">This is a static reference site. It has no accounts, no comments, no forms that store data, and no analytics or advertising script. This page describes the little that remains.</p>
-    <h2 id="collect">What the pages collect</h2>
-    <p>Nothing. The pages are pre-built HTML. They set no cookies, run no tracking code, and do not ask for your name, email or health information. The reconstitution calculator runs entirely in your browser and sends nothing anywhere.</p>
+    <p class="lede">This is a static reference site. It has no accounts, no comments and no forms that store data. It runs one analytics script, which sets cookies. This page says exactly what that collects and how to refuse it.</p>
+
+    <h2 id="analytics">Analytics</h2>
+    <p>The pages load Google Analytics 4, property <code>{GA_MEASUREMENT_ID}</code>. It records which pages are opened, roughly where in the world the request came from, the browser and device type, and the page or search that referred you. It is used to see which records people read and which are ignored, and for nothing else.</p>
+    <p>It sets two cookies in your browser, <code>_ga</code> and <code>_ga_{GA_MEASUREMENT_ID.replace('G-', '')}</code>. They hold a randomly generated identifier that distinguishes one browser from another across visits, so repeat reads are not counted as new people. They carry no name, no email and nothing about your health.</p>
+    <p>Google states that Analytics 4 uses your IP address to derive an approximate location and does not log or store the address itself. The data is held in Google's systems under <a href="https://policies.google.com/privacy" target="_blank" rel="nofollow noopener">Google's privacy policy</a>, not ours, and the retention period is a setting on the analytics property rather than something this page can speak for.</p>
+
+    <h2 id="optout">Turning it off</h2>
+    <p>Three things work, and all of them leave the site fully readable:</p>
+    <ul>
+      <li>Block <code>www.googletagmanager.com</code> in an extension or your browser's tracking protection. Nothing on these pages depends on it.</li>
+      <li>Install <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="nofollow noopener">Google's own opt-out add-on</a>, which stops Analytics reporting on every site, not just this one.</li>
+      <li>Refuse or clear cookies for this domain. Without <code>_ga</code> every visit is counted as a first visit, which costs us accuracy and costs you nothing.</li>
+    </ul>
+
+    <h2 id="collect">What the pages themselves collect</h2>
+    <p>Nothing. The pages are pre-built HTML. Apart from the analytics tag above they run no tracking code, and they do not ask for your name, email or health information. The calculators run entirely in your browser: the numbers you type are never sent anywhere, including to us.</p>
+
     <h2 id="host">What the host logs</h2>
     <p>The site is served by Vercel. Like any web host, Vercel's servers receive your IP address, the page requested, your browser's user-agent string and the referring page, and keep standard request logs for operating and securing the service. We do not add identifiers to those logs and do not use them to profile readers. Vercel's own handling of that data is described in <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="nofollow noopener">Vercel's privacy policy</a>.</p>
+
     <h2 id="fonts">Fonts</h2>
     <p>Pages load two typefaces from Google Fonts. Your browser requests the font files from Google's servers, which receive your IP address and user-agent in the process. If you prefer to avoid that, blocking <code>fonts.googleapis.com</code> and <code>fonts.gstatic.com</code> leaves the site fully readable in your system fonts.</p>
+
     <h2 id="links">Outbound links</h2>
     <p>Source links go to Europe PMC, ChEMBL, regulators and journals. Once you follow one, that site's privacy terms apply. We receive no report of which links you follow.</p>
+
     <h2 id="storage">Local storage</h2>
-    <p>The site does not use browser storage. If that changes, for a preference such as a remembered unit setting, it will be stored only in your browser and this page will say so.</p>
+    <p>The site stores nothing of its own in your browser. The only browser storage in use is the analytics cookies described above.</p>
+
     <h2 id="changes">Changes</h2>
-    <p>This page is revised when the site's behaviour changes. The site's source, including every page template, is public, so what the pages do can be checked directly rather than taken on trust.</p>
+    <p>This page is revised when the site's behaviour changes, and the analytics script added on 8 October 2026 is why it reads differently from before. The site's source, including every page template, is public, so what the pages do can be checked directly rather than taken on trust.</p>
   </article>
 </Base>
