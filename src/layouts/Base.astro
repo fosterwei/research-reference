@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { SITE_NAME, OG_IMAGE, OG_IMAGE_ALT, ICON_V } from '../lib/site';
+import { SITE_NAME, OG_IMAGE, OG_IMAGE_ALT, ICON_V, GA_MEASUREMENT_ID } from '../lib/site';
 
 interface Props {
   title: string;
@@ -53,6 +53,18 @@ const pageTitle = title.includes(SITE_NAME) || !siteSuffix ? title : `${title} |
     <meta name="twitter:image" content={ogImage} />
     <meta name="twitter:image:alt" content={OG_IMAGE_ALT} />
     {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+    {/* Google Analytics 4. `is:inline` keeps Astro from bundling these: the
+        snippet has to stay exactly as Google ships it, and the loader must stay
+        a separate async request rather than being inlined into a module. */}
+    {GA_MEASUREMENT_ID && (
+      <Fragment>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>
+        <script is:inline set:html={`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_MEASUREMENT_ID}');`} />
+      </Fragment>
+    )}
     <slot name="head" />
   </head>
   <body>
