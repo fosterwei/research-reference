@@ -1,103 +1,238 @@
 ---
-// One calculator per compound. The arithmetic is the same on every one of these
-// pages, so the arithmetic is not what makes them different: the doses that
-// published studies of that compound actually used are, and those are quoted
-// from the record with their evidence tier and their source.
+// One calculator per compound.
+//
+// The arithmetic is identical for every peptide, so it is not what makes these
+// pages different. Two things are: the doses published studies of that compound
+// actually administered, quoted with their evidence tier, and a pre-computed
+// chart whose rows are those doses. Search intent here is overwhelmingly one
+// question — how many units is this dose, in this vial, with this much water —
+// and people want to read it off a table rather than type it in.
 //
 // Nothing here takes a body weight or a condition, and nothing returns a dose.
-// Showing what a trial administered is reporting, which is what the whole site
-// does; suggesting what a reader should take would be advice, which it never does.
+// Showing what a trial gave is reporting, which is what every record does.
 import Base from '../../layouts/Base.astro';
 import Calculators from '../../components/Calculators.astro';
 import Tier from '../../components/v2/Tier.astro';
 import { records } from '../../lib/collections';
-import { qualifies, doseRows, humanDoseRows, doseFigures } from '../../lib/calculators';
-import { isIndexable, TIER_LABEL } from '../../lib/site';
+import {
+  qualifies, doseRows, humanDoseRows, claimRows,
+  absoluteDosesMcg, chartRows, formatDose, VIAL_MG, DILUENT_ML,
+} from '../../lib/calculators';
+import { isIndexable } from '../../lib/site';
+import SourceIds from '../../components/SourceIds.astro';
 
 export async function getStaticPaths() {
   const compounds = await records('compounds');
-  return compounds.filter(qualifies).map((entry) => ({
-    params: { slug: entry.data.slug },
-    props: { entry },
-  }));
+  return compounds.filter(qualifies).map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
 }
 const { entry } = Astro.props;
 const d = entry.data as any;
 const name = d.preferred_name;
 const path = `/calculators/${d.slug}`;
+
 const rows = doseRows(entry);
 const human = humanDoseRows(entry);
-const figures = doseFigures(entry);
+const perKg = claimRows(entry, 'weight_normalized_doses');
+const escalation = claimRows(entry, 'escalation_schedules');
+const storage = claimRows(entry, 'storage');
+const durations = claimRows(entry, 'study_durations');
+const routes = claimRows(entry, 'routes_studied');
 const sources = new Map<string, any>((d.sources ?? []).map((s: any) => [s.id, s]));
-const routes = (d.attributes?.routes_studied ?? []) as any[];
 
-const title = `${name} Dosage Calculator: mg to mL and Syringe Units`;
-const description = `Convert ${name} vial mass and diluent into concentration, draw volume and syringe units, beside the doses published studies of ${name} actually used, each one cited.`;
+const doses = absoluteDosesMcg(entry);
+const charts = VIAL_MG.map((mg) => ({ mg, rows: chartRows(doses, mg) }));
+const smallest = doses[0];
+const largest = doses[doses.length - 1];
+
+const title = `${name} Dosage Calculator: Units, mg and Reconstitution`;
+const description = `How many syringe units ${name} doses work out to, for 2, 5 and 10 mg vials at 1, 2 or 3 mL of diluent, beside the doses published studies actually used, each one cited.`;
+
 ---
 <Base title={title} description={description} path={path} indexable={isIndexable(entry)} siteSuffix={false}>
   <article class="prose-page">
     <p class="eyebrow"><a href="/calculators">Calculators</a></p>
     <h1>{name} dosage calculator</h1>
     <p class="dek">
-      The arithmetic is the same for every peptide, so the part worth reading is underneath it:
-      the {human.length > 0 ? 'doses' : 'figures'} that published studies of {name} actually used,
-      quoted and tiered. This tool converts the numbers you enter. It does not suggest what to take.
+      Enter a vial and a dose and this returns the concentration, the volume and the syringe units.
+      Underneath it, the same arithmetic worked out in advance for common vials, and the doses
+      published studies of {name} actually used, every one quoted and cited. It converts numbers.
+      It does not suggest what to take.
     </p>
 
     <Calculators slug="reconstitution-calculator" />
 
-    <h2 id="studied">Doses in published studies of {name}</h2>
-    <p class="prose">
-      Every row is quoted from a paper in this compound's own source ledger and carries the kind of
-      evidence it came from. {human.length === 0
-        ? `None of them is a human dose: no study in this ledger administered ${name} to people at a stated dose. Animal figures are given per kilogram of animal and do not convert to a person by arithmetic.`
-        : `${human.length} of ${rows.length} come from human studies. The rest are animal or laboratory work, where a per-kilogram figure does not convert to a person.`}
-    </p>
-    <div class="card clip"><div class="tblwrap"><table class="tbl">
-      <caption>What studies of {name} administered, as published. Not a recommendation and not a range to pick from.</caption>
-      <thead><tr><th scope="col">Evidence</th><th scope="col">Dose as the paper states it</th><th scope="col">Source</th></tr></thead>
-      <tbody>
-        {rows.map((r) => (
-          <tr>
-            <td><Tier tier={r.tier} /></td>
-            <td>{r.value}</td>
-            <td>{r.sourceIds.map((id) => {
-              const s = sources.get(id);
-              return s?.url
-                ? <a href={s.url} rel="nofollow noopener">{id}</a>
-                : <span>{id}</span>;
-            })}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table></div></div>
-
-    {routes.length > 0 && (
+    {doses.length > 0 && (
       <Fragment>
-        <h2 id="routes">How {name} was given in those studies</h2>
-        <p class="prose">The route changes what a dose means. A figure from an intravenous infusion is not the same quantity as the same number given under the skin.</p>
-        <ul class="list">{routes.slice(0, 6).map((r: any) => <li>{r.value}</li>)}</ul>
+        <h2 id="chart">{name} reconstitution chart</h2>
+        <p class="prose">
+          Units on a standard U-100 insulin syringe, where 100 units is 1&nbsp;mL. The rows are the
+          absolute doses quoted in studies of {name}, from {formatDose(smallest)} to {formatDose(largest)},
+          so this chart is specific to this compound rather than a generic ladder. More diluent means
+          more units for the same dose, which is easier to measure accurately and empties the vial no faster.
+        </p>
+        {charts.map((c) => (
+          <div class="card clip"><div class="tblwrap"><table class="tbl">
+            <caption>{c.mg}&nbsp;mg vial of {name}. Figures are units on a U-100 syringe; a cell over 100 units does not fit in one 1&nbsp;mL syringe.</caption>
+            <thead><tr>
+              <th scope="col">Dose</th>
+              {DILUENT_ML.map((ml) => <th scope="col" class="num">{ml} mL diluent<br />({Math.round((c.mg * 1000) / ml).toLocaleString('en-US')} mcg/mL)</th>)}
+            </tr></thead>
+            <tbody>
+              {c.rows.map((r) => (
+                <tr>
+                  <th scope="row">{r.label}</th>
+                  {r.cells.map((cell) => (
+                    <td class="num">{cell.units.toLocaleString('en-US')}{cell.units > 100 && <span class="muted"> &gt;1 mL</span>}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table></div></div>
+        ))}
+        <p class="prose">
+          Read a figure off this chart only if it matches the vial in front of you. A vial labelled
+          a different strength, or reconstituted with a different volume, gives a different number for
+          the same dose, and that is the single most common way these calculations go wrong.
+        </p>
       </Fragment>
     )}
 
+    {doses.length === 0 && (
+      <Fragment>
+        <h2 id="nochart">Why there is no units chart for {name}</h2>
+        <p class="prose">
+          Every dose quoted in studies of {name} is given per kilogram of body weight, and none is an
+          absolute quantity. A chart of syringe units needs a fixed mass to work from, so there is
+          nothing honest to put in one.
+        </p>
+        <p class="prose">
+          The obvious move — multiply a per-kilogram figure by a body weight — is the one thing that
+          must not be done here. Most of these figures come from rats or mice, and dose does not scale
+          between species by arithmetic: surface area, metabolic rate and clearance all differ, which is
+          why interspecies conversion is a calculation with published factors and assumptions rather
+          than a multiplication. A number produced that way would look like a dose and carry none of
+          the evidence a dose needs.
+        </p>
+        <p class="prose">
+          The calculator above still works. Give it the vial and the mass you intend to draw and it
+          returns the volume and the units. What it cannot do, for this compound, is tell you what that
+          mass should be, because no study in this ledger states one.
+        </p>
+      </Fragment>
+    )}
+
+    <h2 id="studied">Doses in published studies of {name}</h2>
+    <p class="prose">
+      Each row is quoted from a paper in this compound's source ledger and carries the kind of evidence
+      it came from. {human.length === 0
+        ? `None is a human dose: no study here administered ${name} to people at a stated dose.`
+        : `${human.length} of ${rows.length} come from human studies; the rest are animal or laboratory work.`}
+    </p>
+    <div class="card clip"><div class="tblwrap"><table class="tbl">
+      <caption>What studies of {name} administered, as published. A record of what happened, not a menu.</caption>
+      <thead><tr><th scope="col">Evidence</th><th scope="col">Dose as the paper states it</th><th scope="col">Source</th></tr></thead>
+      <tbody>{rows.map((r) => (
+        <tr><td><Tier tier={r.tier} /></td><td>{r.value}</td><td><SourceIds ids={r.sourceIds} sources={sources} /></td></tr>
+      ))}</tbody>
+    </table></div></div>
+
+    {perKg.length > 0 && (
+      <Fragment>
+        <h2 id="perkg">Weight-normalised doses, and why they are not on the chart</h2>
+        <p class="prose">
+          Some studies state a dose per kilogram. Those figures are deliberately absent from the chart
+          above, because multiplying one by a body weight produces a number that looks like a dose and
+          is not one. Interspecies scaling is not arithmetic: a rat milligram-per-kilogram figure does
+          not become a human dose by multiplication.
+        </p>
+        <ul class="list">{perKg.slice(0, 6).map((r) => <li>{r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
+      </Fragment>
+    )}
+
+    {escalation.length > 0 && (
+      <Fragment>
+        <h2 id="escalation">Escalation schedules used in studies</h2>
+        <p class="prose">
+          Where a trial raised the dose over time rather than starting at the target, this is what it
+          did. The starting dose is often the part that decides tolerability, which is why it is
+          reported here and not only the dose the trial finished on.
+        </p>
+        <ul class="list">{escalation.map((r) => <li>{r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
+      </Fragment>
+    )}
+
+    {durations.length > 0 && (
+      <Fragment>
+        <h2 id="howlong">How long studies ran, and how far a vial goes</h2>
+        <p class="prose">
+          A vial lasts for a number of draws, not a number of weeks: divide the mass in the vial by the
+          mass per draw and round down, which the <a href="/tools/vial-planner">vial planner</a> does.
+          How long that represents depends on frequency. For context, these are the durations studies of
+          {' '}{name} actually ran for.
+        </p>
+        <ul class="list">{durations.slice(0, 5).map((r) => <li>{r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
+      </Fragment>
+    )}
+
+    {storage.length > 0 && (
+      <Fragment>
+        <h2 id="storage">Storage and stability, as published</h2>
+        <p class="prose">
+          Reconstitution starts a clock. These are the storage and stability conditions stated in papers
+          in this ledger. They describe what the study did, which is not the same as a shelf life for a
+          vial in your fridge.
+        </p>
+        <ul class="list">{storage.slice(0, 6).map((r) => <li>{r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
+      </Fragment>
+    )}
+
+    {routes.length > 0 && (
+      <Fragment>
+        <h2 id="routes">How {name} was given</h2>
+        <p class="prose">The route changes what a dose means. The same number given intravenously and subcutaneously is not the same exposure.</p>
+        <ul class="list">{routes.slice(0, 6).map((r) => <li>{r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
+      </Fragment>
+    )}
+
+    <h2 id="faq">Questions people ask</h2>
+    <dl class="faq">
+      {doses.length > 0 && (
+        <Fragment>
+          <dt>How many units is {formatDose(smallest)} of {name}?</dt>
+          <dd>It depends entirely on how the vial was reconstituted. In a {VIAL_MG[1]}&nbsp;mg vial with
+            {' '}{DILUENT_ML[1]}&nbsp;mL of diluent it is {chartRows([smallest], VIAL_MG[1])[0].cells[1].units.toLocaleString('en-US')} units
+            on a U-100 syringe; with {DILUENT_ML[0]}&nbsp;mL it is
+            {' '}{chartRows([smallest], VIAL_MG[1])[0].cells[0].units.toLocaleString('en-US')}. The chart above gives the rest.</dd>
+        </Fragment>
+      )}
+      <dt>Does adding more diluent waste the peptide?</dt>
+      <dd>No. The mass in the vial does not change. More diluent spreads the same mass through more
+        liquid, so each dose is a larger, easier-to-measure volume and the vial yields exactly as many
+        doses as before.</dd>
+      <dt>Why does this page not recommend a dose?</dt>
+      <dd>Because a dose is a clinical decision rather than a division. It depends on why someone is
+        taking something, what else they take and how their kidneys and liver are working, none of which
+        is knowable from a number typed into a box.</dd>
+      <dt>Where do the doses in the table come from?</dt>
+      <dd>Each is quoted from a specific paper indexed in Europe PMC, linked in the source column, and
+        labelled with the kind of study it came from. The full evidence is on the
+        {' '}<a href={`/compounds/${d.slug}`}>{name} record</a>.</dd>
+    </dl>
+
     <h2 id="refuses">What this calculator will not do</h2>
     <p class="prose">
-      It will not take a body weight and return a milligram figure. That is a clinical decision, not
-      a division: it depends on why someone is taking something, what else they take, and what their
-      kidneys and liver are doing. None of that is knowable from a number typed into a box.
-    </p>
-    <p class="prose">
-      The table above is the published record, not a menu. {human.length === 0
-        ? `For ${name} in particular, there is no human dose in this ledger to copy even if you wanted to.`
-        : `A dose that appeared in a trial appeared under supervision, with monitoring, in people selected to be in that trial.`}
-      The full evidence, including what was measured and what went wrong, is on the <a href={`/compounds/${d.slug}`}>{name} record</a>.
+      It will not take a body weight and return a milligram figure, and it will not tell you how often
+      to draw. The table above is the published record, not a menu.
+      {human.length === 0
+        ? ` For ${name} there is no human dose in this ledger to copy even if you wanted one.`
+        : ` A dose that appeared in a trial appeared under supervision, with monitoring, in people selected for that trial.`}
     </p>
 
     <h2 id="other">Other calculators</h2>
     <ul class="cards">
       <li><a href="/tools/reconstitution-calculator">Generic reconstitution calculator</a><div class="sub">The same arithmetic, without a compound attached</div></li>
       <li><a href="/tools/unit-converter">Unit converter</a><div class="sub">mg, mcg, ng and syringe units</div></li>
-      <li><a href="/tools/vial-planner">Vial planner</a><div class="sub">How many draws a vial yields and how long it lasts</div></li>
+      <li><a href="/tools/vial-planner">Vial planner</a><div class="sub">Draws per vial and how long it lasts</div></li>
       <li><a href="/calculators">All compound calculators</a><div class="sub">Every compound with published dose figures</div></li>
     </ul>
   </article>

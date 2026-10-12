@@ -105,6 +105,24 @@ if (fs.existsSync(CALC_DIR)) {
     // the generic tool, so an empty one means the page should not have shipped.
     const tableRows = (html.match(/<tbody>[\s\S]*?<\/tbody>/i) || [''])[0].match(/<tr>/gi) || [];
     if (tableRows.length === 0) fails.push(`calculators/${slug}: dose table is empty`);
+    // Either the page charts absolute doses, or it explains why it cannot.
+    // A page with neither has a hole where its main reason to exist should be.
+    const hasChart = /reconstitution chart/i.test(html);
+    const hasExplainer = /Why there is no units chart/i.test(html);
+    if (!hasChart && !hasExplainer) {
+      fails.push(`calculators/${slug}: no units chart and no explanation for its absence`);
+    }
+    if (hasChart && hasExplainer) {
+      fails.push(`calculators/${slug}: shows a chart and also says it has none`);
+    }
+    // A charted page must actually contain computed unit figures, not an empty grid.
+    if (hasChart && !/mL diluent/.test(html)) {
+      fails.push(`calculators/${slug}: chart has no diluent columns`);
+    }
+    // The FAQ and the refusal are the blocks that answer the query and keep the
+    // page inside the site's scope rule; neither is optional.
+    if (!/Questions people ask/i.test(html)) fails.push(`calculators/${slug}: no FAQ`);
+    if (!/will not take a body weight/i.test(html)) fails.push(`calculators/${slug}: no refusal statement`);
     const m = html.match(/<script type="module">([\s\S]*?)<\/script>/i);
     if (!m) { fails.push(`calculators/${slug}: no inline module script`); continue; }
     const els = {};

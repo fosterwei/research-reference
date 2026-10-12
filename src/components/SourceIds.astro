@@ -1,0 +1,16 @@
+---
+// Renders a claim's source ids as links into the record's own ledger. Lives in
+// a component because Astro frontmatter is TypeScript, not JSX, so a helper
+// that returns markup cannot be a function up there.
+interface Props { ids: string[]; sources: Map<string, any> }
+const { ids, sources } = Astro.props;
+---
+{ids.map((id, i) => {
+  const s = sources.get(id);
+  return (
+    <Fragment>
+      {i > 0 && <span>, </span>}
+      {s?.url ? <a href={s.url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}
+    </Fragment>
+  );
+})}
