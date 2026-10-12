@@ -8,12 +8,20 @@
 // Nothing here accepts a body weight, an age or a condition, and nothing
 // returns a dose. Each tool states its formula above the inputs, so the
 // arithmetic can be checked by hand.
-interface Props { slug: string }
-const { slug } = Astro.props;
+interface Props {
+  slug: string;
+  /** The reconstitution tool's section id and heading, overridable so the same
+   *  component can sit inside a compound page under that page's own H2. */
+  id?: string;
+  heading?: string;
+  headingLevel?: 2 | 3;
+}
+const { slug, id = 'calc-recon', heading = 'Work out concentration and what to draw', headingLevel = 2 } = Astro.props;
+const H = headingLevel === 3 ? 'h3' : 'h2';
 ---
 {slug === 'reconstitution-calculator' && (
-  <section id="calc-recon">
-    <h2>Work out concentration and what to draw</h2>
+  <section id={id}>
+    <H>{heading}</H>
     <p class="prose">Two divisions, both shown. <b>Concentration</b> = mass in the vial &divide; diluent volume. <b>Volume to draw</b> = mass you want &divide; that concentration. Syringe units are that volume &times; the units per millilitre on your syringe's own scale.</p>
     <form class="calc" onsubmit="return false">
       <label for="r-mass">Mass in vial (mg)</label>
