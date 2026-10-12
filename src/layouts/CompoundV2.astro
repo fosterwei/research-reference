@@ -28,6 +28,8 @@ import LandscapeTable from '../components/v2/LandscapeTable.astro';
 import HumanTrials from '../components/v2/HumanTrials.astro';
 import CombinationEvidence from '../components/v2/CombinationEvidence.astro';
 import EditorialSection from '../components/v2/EditorialSection.astro';
+import Calculators from '../components/Calculators.astro';
+import { qualifies as hasCalculator } from '../lib/calculators';
 import { entityLinker } from '../lib/entities';
 import ReconstitutionMath from '../components/shared/ReconstitutionMath.astro';
 import EquipmentInStudies from '../components/shared/EquipmentInStudies.astro';
@@ -120,7 +122,7 @@ const ledeFor = (f: string) => [boundaryFor(intent, f), defaultLedes[f]].filter(
 // claims but with mapped demand renders as an explicit absence statement.
 type Guide = { id: string; heading: string; lede?: string; html: string; pending?: boolean };
 const guide: Guide[] = ((d as any).guide ?? []) as Guide[];
-type Block = { id: string; kind: 'human' | 'table' | 'landscape' | 'claims' | 'absence' | 'method' | 'compare' | 'combination' | 'regulatory' | 'open' | 'faq' | 'guide'; field?: string; label: string; group: string; guide?: Guide };
+type Block = { id: string; kind: 'human' | 'table' | 'landscape' | 'claims' | 'absence' | 'method' | 'calculator' | 'compare' | 'combination' | 'regulatory' | 'open' | 'faq' | 'guide'; field?: string; label: string; group: string; guide?: Guide };
 // Links the first mention of each other record in this page's own prose.
 const linkEntities = entityLinker([d.slug], 10);
 const blocks: Block[] = [];
@@ -133,6 +135,11 @@ for (const [f, id, label] of evidence) {
   if (has(f)) blocks.push({ id, kind: 'claims', field: f, label: headingFor(intent, f, label), group: 'Evidence' });
   else if (queriesFor(intent, f).some((q) => q.policy !== 'redirect')) blocks.push({ id, kind: 'absence', field: f, label: headingFor(intent, f, label), group: 'Evidence' });
 }
+// The compound's own calculator, only where it has one: a record qualifies when
+// it is finished and carries at least two distinct published dose figures, the
+// same rule that decides whether /calculators/<slug> exists at all.
+const calculatorHere = hasCalculator(entry);
+if (calculatorHere) blocks.push({ id: 'calculator', kind: 'calculator', label: headingFor(intent, 'calculator', `${d.preferred_name} dosage calculator`), group: 'Evidence' });
 if (hasAnyEvidence) blocks.push({ id: 'method', kind: 'method', label: 'Method notes', group: 'Method' });
 if (peerEntries.length > 0) blocks.push({ id: 'compare', kind: 'compare', label: headingFor(intent, 'compare', 'Other compounds in its class'), group: 'Context' });
 if (inStacks.length > 0) blocks.push({ id: 'combination', kind: 'combination', label: headingFor(intent, 'combination', 'Studied in combination'), group: 'Context' });
@@ -228,6 +235,11 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
                 <EvidenceTable rows={A.evidence_table} />
               </section>
             );
+            case 'calculator': return (
+              <section id="calculator"><div><h2>{b.label}</h2><p class="lede">Enter a vial and a dose and it returns the concentration, the volume and the units on your syringe. It converts the numbers you give it and suggests none. The doses studies of {d.preferred_name} actually used, with a units chart per vial size, are on the <a href={`/calculators/${d.slug}`}>full {d.preferred_name} calculator page</a>.</p></div>
+                <Calculators slug="reconstitution-calculator" id="calculator-tool" heading="Work out concentration and what to draw" headingLevel={3} />
+              </section>
+            );
             case 'claims': return (
               <section id={b.id}><div><h2>{b.label}</h2><p class="lede">{ledeFor(b.field!)}</p></div><ClaimCards claims={A[b.field!]} sources={d.sources} />{b.field === 'weight_normalized_doses' && <WeightCaveat />}</section>
             );
@@ -260,8 +272,9 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
 
         {d.sources.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Full citations. Every claim above links to one of these by its id.</p></div><Sources sources={d.sources} /></section>}
         <section id="card"><h2>Reference card</h2><RefCard record={d} reg={reg} path={path} /></section>
-        {(inStacks.length > 0 || inComparisons.length > 0 || peerEntries.length > 0) && (
+        {(inStacks.length > 0 || inComparisons.length > 0 || peerEntries.length > 0 || calculatorHere) && (
           <section id="related"><h2>Related records</h2><ul class="cards">
+            {calculatorHere && <li><a href={`/calculators/${d.slug}`}>{d.preferred_name} dosage calculator</a><div class="sub">Units, mg and reconstitution, with the doses studies used</div></li>}
             {peerEntries.map((p) => <li><a href={`/compounds/${p.data.slug}`}>{p.data.preferred_name}</a><div class="sub">Peer compound</div></li>)}
             {inStacks.map((s) => <li><a href={`/stacks/${s.slug}`}>{s.name}</a><div class="sub">Stack · wave {s.pilot_wave}</div></li>)}
             {inComparisons.map((c) => <li><a href={`/compare/${c.slug}`}>{c.sides.join(' vs ')}</a><div class="sub">Comparison · wave {c.pilot_wave}</div></li>)}

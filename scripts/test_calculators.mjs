@@ -139,6 +139,30 @@ if (fs.existsSync(CALC_DIR)) {
   }
 }
 
+// Each compound that has a calculator page also embeds the calculator on its
+// own record and links to the page. The two must agree: a calculator page with
+// no inbound link from its compound is an orphan, and a compound page whose
+// embedded tool does not compute is the same defect as the empty tools were.
+if (fs.existsSync(CALC_DIR)) {
+  for (const slug of fs.readdirSync(CALC_DIR, { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name)) {
+    const file = path.join(DIST, 'compounds', slug, 'index.html');
+    if (!fs.existsSync(file)) { fails.push(`compounds/${slug}: no compound page for calculator page`); continue; }
+    const html = fs.readFileSync(file, 'utf8');
+    if (!html.includes(`href="/calculators/${slug}"`)) fails.push(`compounds/${slug}: no link to /calculators/${slug}`);
+    if (!/<section id="calculator">/.test(html)) { fails.push(`compounds/${slug}: no calculator section`); continue; }
+    if (!/id="r-out"/.test(html)) { fails.push(`compounds/${slug}: calculator section has no output element`); continue; }
+    const m = html.match(/<script type="module">([\s\S]*?)<\/script>/i);
+    if (!m) { fails.push(`compounds/${slug}: calculator present but no module script`); continue; }
+    const els = {};
+    for (const [id, v] of Object.entries({ 'r-mass': 5, 'r-vol': 2, 'r-want': 250, 'r-scale': 100 })) els[id] = { value: String(v), addEventListener() {} };
+    const out = { textContent: '' }; els['r-out'] = out;
+    globalThis.document = { getElementById: (id) => els[id] ?? null };
+    new Function(m[1])();
+    if (!out.textContent.includes('10 units on a U-100')) fails.push(`compounds/${slug}: embedded calculator did not compute`);
+    else pass++;
+  }
+}
+
 if (fails.length) {
   console.error(`calculator tests: ${pass} passed, ${fails.length} FAILED\n`);
   for (const f of fails) console.error(`  ${f}\n`);
