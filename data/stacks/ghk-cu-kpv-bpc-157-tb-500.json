@@ -1,12 +1,12 @@
 {
   "type": "stack",
-  "title": "GHK-Cu + KPV + BPC-157 + TB-500",
+  "title": "KLOW (GHK-Cu + KPV + BPC-157 + TB-500)",
   "slug": "ghk-cu-kpv-bpc-157-tb-500",
   "status": "draft",
-  "summary": "This is the glow stack with a fourth compound added: GHK-Cu, BPC-157 and TB-500 plus KPV, the tripeptide at the end of alpha-MSH, included for inflammation and the gut. No study has tested any combination of the four, and none has tested the three-compound version either. Each component's research used a route the stack does not: every human study of GHK-Cu applied it topically, the thymosin beta-4 human evidence is eye drops and infusions, BPC-157's human record is two people, and KPV's animal studies deliver it orally inside hydrogels and nanoparticles built to survive digestion and release it at inflamed tissue. KPV's effect also depends on a transporter overexpressed in colon cells, and disappeared in mice lacking it. Adding a fourth untested compound to an untested three multiplies the unknowns, and no published analysis describes four peptides in one solution.",
+  "summary": "KLOW is a seller's name for the glow stack with a fourth compound added: GHK-Cu, BPC-157 and TB-500 plus KPV, the tripeptide at the end of alpha-MSH, included for inflammation and the gut. No study has tested any combination of the four, and none has tested the three-compound version either. Each component's research used a route the stack does not: every human study of GHK-Cu applied it topically, the thymosin beta-4 human evidence is eye drops and infusions, BPC-157's human record is two people, and KPV's animal studies deliver it orally inside hydrogels and nanoparticles built to survive digestion and release it at inflamed tissue. KPV's effect also depends on a transporter overexpressed in colon cells, and disappeared in mice lacking it. Adding a fourth untested compound to an untested three multiplies the unknowns, and no published analysis describes four peptides in one solution.",
   "seo": {
-    "title": "Four-Peptide Stack: No Evidence, Four Different Routes",
-    "description": "A four-peptide stack with no combination evidence. What each component's studies actually used, and why KPV's gut results belong to its carrier."
+    "title": "KLOW Peptide Dosage: No Combination Data, Four Routes",
+    "description": "KLOW blends four peptides, but no study has tested the combination in people. See what dosing evidence exists for each component and why."
   },
   "attributes": {
     "combination_evidence": []
@@ -62,6 +62,22 @@
     "tb-500"
   ],
   "faq": [
+    {
+      "question": "Is there a KLOW dosage chart?",
+      "answer": "Charts exist, but none is derived from a study. No published work has given this combination to a person or an animal, so there is no measured dose to chart and no measured frequency to schedule. The charts in circulation convert a vial's stated mass into a concentration and then pair it with a quantity no study supplies."
+    },
+    {
+      "question": "How often is KLOW injected?",
+      "answer": "No study of the combination has established a frequency. The schedules that circulate are conventions passed between sellers and forums rather than findings, and this record does not reproduce them."
+    },
+    {
+      "question": "What is a standard KLOW dose?",
+      "answer": "There is no standard. The name is not a controlled formulation, vial ratios differ between sellers, and no combination of these four peptides has been administered in published research."
+    },
+    {
+      "question": "Does KLOW contain larazotide?",
+      "answer": "Some sellers list larazotide under the KLOW name and others do not. This record covers the four-peptide version: GHK-Cu, KPV, BPC-157 and TB-500."
+    },
     {
       "question": "Has this four-compound stack been studied?",
       "answer": "No. No indexed study has given GHK-Cu, KPV, BPC-157 and TB-500 together, and none has tested the three-compound version either."
@@ -125,7 +141,7 @@
     "reviewed_at": "2026-09-28",
     "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
-  "uniqueness_pct": 92.0,
+  "uniqueness_pct": 94.4,
   "changelog": [
     {
       "date": "2026-09-14",
@@ -138,6 +154,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-28."
+    },
+    {
+      "date": "2026-10-09",
+      "change": "Refreshed for the KLOW name after a diagnostic found the page carried the four-compound roster but never the name searchers use, leaving it unfindable for its own highest-demand query. Added a formulation section recording that KLOW is a seller's name with varying vial contents, rewrote the dose section to answer the dosage-and-frequency question directly, and added the finding that reconstitution arithmetic supplies a concentration but never the quantity the circulating charts multiply it by. No dose or frequency figure reproduced."
     }
   ],
   "components": [
@@ -170,9 +190,15 @@
       "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Each component, what its evidence used, and what the stack does.</caption><thead><tr><th scope=\"col\">Component</th><th scope=\"col\">What its studies used</th><th scope=\"col\">What the stack does</th></tr></thead><tbody><tr><td>GHK-Cu</td><td>Topical creams, in every human study</td><td>Subcutaneous injection</td></tr><tr><td>TB-500 (thymosin beta-4)</td><td>Eye drops, intravenous infusion, topical dosing of the natural protein</td><td>Subcutaneous injection</td></tr><tr><td>BPC-157</td><td>Two people, oral and intravenous; rodents otherwise</td><td>Subcutaneous injection</td></tr><tr><td><b>KPV</b></td><td><b>Oral delivery inside hydrogels and nanoparticles built to reach inflamed gut</b></td><td>Subcutaneous injection</td></tr><tr><td>All four together</td><td><b>Nothing</b></td><td>Four injections, or one blend</td></tr></tbody></table></div></div><p>Three compounds with no combination evidence is a gap. Four is the same gap with an extra unknown attached, and the arithmetic does not improve: each addition multiplies the number of interactions nobody has looked at, while adding no evidence of its own.</p><p>There is also a practical question nobody has answered publicly. Four peptides in one solution is a stability problem, and no published analysis describes what happens to these four together, or to their individual concentrations over the time a vial is used.</p><p>The three-compound version of this stack has its own page, with the same route argument at greater length: <a href=\"/stacks/bpc-157-tb-500-ghk-cu\">the glow stack</a>.</p>"
     },
     {
+      "id": "what-klow-is",
+      "heading": "What KLOW is, and why the vial label varies",
+      "lede": "A seller's name for a compounded blend, not a studied formulation.",
+      "html": "<p>KLOW is a name used by compounders and resellers for a blend of these four peptides. It is not a controlled formulation, not a brand with a single owner, and not the subject of any published study under that name. Vials are commonly sold at 80 mg total in a 50/10/10/10 ratio of GHK-Cu, BPC-157, TB-500 and KPV, but listings differ, and some sellers include a fifth peptide, larazotide, under the same name. This record covers the four-peptide version.</p><p>A ratio printed on a vial is a manufacturing specification. It records what a compounder put into solution. It is not a quantity that any study administered, and it carries no finding about what that quantity does. No published work has given this ratio, or any other combination of these four, to a person or to an animal.</p>"
+    },
+    {
       "id": "doses",
-      "heading": "Doses: none for the combination, and four route mismatches",
-      "html": "<p>No published dose exists for any combination of these four. Each component's studied doses sit on its own record with the study and the route that produced them, and in every case that route differs from injection.</p><p>Records: <a href=\"/compounds/ghk-cu\">GHK-Cu</a>, <a href=\"/compounds/kpv\">KPV</a>, <a href=\"/compounds/bpc-157\">BPC-157</a> and <a href=\"/compounds/tb-500\">TB-500</a>.</p>"
+      "heading": "KLOW dosage and frequency: what exists, and what does not",
+      "html": "<p>No published dose exists for any combination of these four, and no study has established a frequency for them. Each component's studied doses sit on its own record with the study and the route that produced them, and in every case that route differs from injection.</p><p>Records: <a href=\"/compounds/ghk-cu\">GHK-Cu</a>, <a href=\"/compounds/kpv\">KPV</a>, <a href=\"/compounds/bpc-157\">BPC-157</a> and <a href=\"/compounds/tb-500\">TB-500</a>.</p><h3>Why reconstitution arithmetic is not a dose</h3><p>Dosage charts for this blend circulate widely, and the arithmetic inside them is usually correct. A stated vial mass divided by a volume of bacteriostatic water gives a concentration, and a concentration divided across syringe graduations gives a mass per unit. Every step of that is real. What none of it supplies is the quantity being measured out: the charts divide one real number by another to arrive at a numerator no study has ever produced.</p><p>The same gap applies to frequency. Daily schedules, five-days-on patterns and fixed cycle lengths appear in circulation for this blend. None of them derives from a study of it, none has been compared against anything, and this record does not reproduce them.</p>"
     },
     {
       "id": "side-effects",

@@ -33,7 +33,7 @@
     "note": "No page ranks for the four-compound stack itself. The results shown are for the component, where a pharmacy chain leads, a primary study on PepT1-mediated uptake sits fifth, and clinics fill the rest."
   },
   "demand_findings": "The four-compound phrasings measure 50 clickstream between them. The component is large: 'kpv peptide' draws 11,244 at KD 0 and 'kpv peptide benefits' 2,391, and both belong to that compound's written record, where they are redirected. The three-compound glow version has its own page and takes the skin-stack query.",
-  "h1": "GHK-Cu, KPV, BPC-157 and TB-500: a four-compound stack with no combination evidence, and four literatures in four different routes",
+  "h1": "KLOW (GHK-Cu, KPV, BPC-157 and TB-500): a four-compound stack with no combination evidence, and four literatures in four different routes",
   "dek": "The glow stack with a fourth compound added for the gut. Nothing has tested any combination of these four. What each one's research used is a cream, an eye drop, two people and a nanoparticle designed to survive the stomach, and none of that describes four injections.",
   "queries": [
     {
@@ -337,10 +337,43 @@
       "score": null,
       "gap": "A clinic pairing BPC-157 with KPV for gut health, which is the nearest any ranking page comes to this stack; the page 404s",
       "source": "SERP result; fetch returned not found"
+    },
+    {
+      "url": "https://peptidestack.io/blog/klow-peptide-dosage",
+      "rank": 1,
+      "words": 1800,
+      "tables": 1,
+      "h2": null,
+      "sci_links": 0,
+      "byline": null,
+      "score": 22,
+      "gap": "Presents reconstitution arithmetic and a frequency schedule as documented protocol; cites no study of the combination. Word count estimated from SERP snippet: the domain could not be fetched from this network."
+    },
+    {
+      "url": "https://geneticeducation.co.in/what-is-klow-blend/",
+      "rank": 2,
+      "words": 1400,
+      "tables": 0,
+      "h2": null,
+      "sci_links": 1,
+      "byline": null,
+      "score": 18,
+      "gap": "Describes the components but never addresses the dosage question the query asks."
+    },
+    {
+      "url": "https://stonevillenc.org/dose-klow-peptide-daily/",
+      "rank": 3,
+      "words": 1200,
+      "tables": 0,
+      "h2": null,
+      "sci_links": 0,
+      "byline": null,
+      "score": 12,
+      "gap": "Anecdotal personal review, no identifiable author."
     }
   ],
-  "information_gain": "The only page to examine what KPV's evidence actually is before discussing it in a stack. Its animal studies do not simply use a different route: they deliver KPV orally inside hyaluronic-acid nanoparticles, chitosan-alginate hydrogels and other engineered carriers built to survive digestion and release the peptide at inflamed colon tissue, which is a formulation achievement rather than a property of the peptide. Injecting plain KPV under the skin is a different intervention from every study in its record. Set beside the three compounds it is added to, whose human evidence is a cream, eye drops and two people, this makes the four-compound stack a combination in which no component has been studied the way the stack uses it, and no combination has been studied at all. And the only page to note what adding a fourth compound does to an already untested three: it multiplies the unknowns rather than adding a benefit, and there is no published analysis of what four peptides do in one solution.",
-  "serp_format_rewarded": "Nothing ranks for this stack, so the comparison set is the component's. A page that reads the delivery systems in KPV's studies has no competitor on either query.",
+  "information_gain": "The only page to separate the two halves of a KLOW dosage chart and show that one of them is empty. The circulating charts perform correct arithmetic on a vial's stated mass to reach a mass per syringe unit, which reads as derivation; the quantity that arithmetic is applied to has no study behind it. Also the only page to record that KLOW is an uncontrolled seller's name whose vial contents vary between listings, including whether a fifth peptide is present, which makes any single chart unsafe on its face. The only page to examine what KPV's evidence actually is before discussing it in a stack. Its animal studies do not simply use a different route: they deliver KPV orally inside hyaluronic-acid nanoparticles, chitosan-alginate hydrogels and other engineered carriers built to survive digestion and release the peptide at inflamed colon tissue, which is a formulation achievement rather than a property of the peptide. Injecting plain KPV under the skin is a different intervention from every study in its record. Set beside the three compounds it is added to, whose human evidence is a cream, eye drops and two people, this makes the four-compound stack a combination in which no component has been studied the way the stack uses it, and no combination has been studied at all. And the only page to note what adding a fourth compound does to an already untested three: it multiplies the unknowns rather than adding a benefit, and there is no published analysis of what four peptides do in one solution.",
+  "serp_format_rewarded": "A chart or table with reconstitution math. Three of the top ten results sit on hacked unrelated domains, including a UK local-government subdomain and a church site, so Google has not cleaned this query and the ranking set is unstable. Nothing ranks for this stack, so the comparison set is the component's. A page that reads the delivery systems in KPV's studies has no competitor on either query.",
   "outline": [
     "glance",
     "what",
@@ -350,6 +383,7 @@
     "kpv-route",
     "adding-a-fourth",
     "combination",
+    "what-klow-is",
     "doses",
     "side-effects",
     "who",
@@ -365,6 +399,19 @@
   "open_actions": [
     "No study of this combination exists to add; the absence is recorded as a measured zero.",
     "Each component's record carries its own evidence and routes; this page cites them rather than duplicating.",
-    "The three-compound version of this stack has its own page and is linked."
-  ]
+    "The three-compound version of this stack has its own page and is linked.",
+    "Volumes for the KLOW query set are unmeasured: re-run keyword_overview with clickstream once DataForSEO credentials are restored, and replace the null volume blocks."
+  ],
+  "pending_queries": {
+    "note": "The KLOW query set this refresh targets. Volumes are unmeasured: these are NOT recorded as measured zeros, because the keyword index was never queried for them. Move them into queries[] once keyword_overview with clickstream has actually been run.",
+    "blocked_on": "not measured; DataForSEO credentials were lost in the 2026-10-08 Codespace rebuild and were not re-seeded for this refresh",
+    "queries": [
+      "klow peptide dosage and frequency chart",
+      "klow peptide dosage",
+      "klow peptide",
+      "klow blend",
+      "klow dosage chart",
+      "how often to inject klow"
+    ]
+  }
 }
