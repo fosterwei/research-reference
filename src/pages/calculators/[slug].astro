@@ -1,0 +1,104 @@
+---
+// One calculator per compound. The arithmetic is the same on every one of these
+// pages, so the arithmetic is not what makes them different: the doses that
+// published studies of that compound actually used are, and those are quoted
+// from the record with their evidence tier and their source.
+//
+// Nothing here takes a body weight or a condition, and nothing returns a dose.
+// Showing what a trial administered is reporting, which is what the whole site
+// does; suggesting what a reader should take would be advice, which it never does.
+import Base from '../../layouts/Base.astro';
+import Calculators from '../../components/Calculators.astro';
+import Tier from '../../components/v2/Tier.astro';
+import { records } from '../../lib/collections';
+import { qualifies, doseRows, humanDoseRows, doseFigures } from '../../lib/calculators';
+import { isIndexable, TIER_LABEL } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const compounds = await records('compounds');
+  return compounds.filter(qualifies).map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+const { entry } = Astro.props;
+const d = entry.data as any;
+const name = d.preferred_name;
+const path = `/calculators/${d.slug}`;
+const rows = doseRows(entry);
+const human = humanDoseRows(entry);
+const figures = doseFigures(entry);
+const sources = new Map<string, any>((d.sources ?? []).map((s: any) => [s.id, s]));
+const routes = (d.attributes?.routes_studied ?? []) as any[];
+
+const title = `${name} Dosage Calculator: mg to mL and Syringe Units`;
+const description = `Convert ${name} vial mass and diluent into concentration, draw volume and syringe units, beside the doses published studies of ${name} actually used, each one cited.`;
+---
+<Base title={title} description={description} path={path} indexable={isIndexable(entry)} siteSuffix={false}>
+  <article class="prose-page">
+    <p class="eyebrow"><a href="/calculators">Calculators</a></p>
+    <h1>{name} dosage calculator</h1>
+    <p class="dek">
+      The arithmetic is the same for every peptide, so the part worth reading is underneath it:
+      the {human.length > 0 ? 'doses' : 'figures'} that published studies of {name} actually used,
+      quoted and tiered. This tool converts the numbers you enter. It does not suggest what to take.
+    </p>
+
+    <Calculators slug="reconstitution-calculator" />
+
+    <h2 id="studied">Doses in published studies of {name}</h2>
+    <p class="prose">
+      Every row is quoted from a paper in this compound's own source ledger and carries the kind of
+      evidence it came from. {human.length === 0
+        ? `None of them is a human dose: no study in this ledger administered ${name} to people at a stated dose. Animal figures are given per kilogram of animal and do not convert to a person by arithmetic.`
+        : `${human.length} of ${rows.length} come from human studies. The rest are animal or laboratory work, where a per-kilogram figure does not convert to a person.`}
+    </p>
+    <div class="card clip"><div class="tblwrap"><table class="tbl">
+      <caption>What studies of {name} administered, as published. Not a recommendation and not a range to pick from.</caption>
+      <thead><tr><th scope="col">Evidence</th><th scope="col">Dose as the paper states it</th><th scope="col">Source</th></tr></thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr>
+            <td><Tier tier={r.tier} /></td>
+            <td>{r.value}</td>
+            <td>{r.sourceIds.map((id) => {
+              const s = sources.get(id);
+              return s?.url
+                ? <a href={s.url} rel="nofollow noopener">{id}</a>
+                : <span>{id}</span>;
+            })}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table></div></div>
+
+    {routes.length > 0 && (
+      <Fragment>
+        <h2 id="routes">How {name} was given in those studies</h2>
+        <p class="prose">The route changes what a dose means. A figure from an intravenous infusion is not the same quantity as the same number given under the skin.</p>
+        <ul class="list">{routes.slice(0, 6).map((r: any) => <li>{r.value}</li>)}</ul>
+      </Fragment>
+    )}
+
+    <h2 id="refuses">What this calculator will not do</h2>
+    <p class="prose">
+      It will not take a body weight and return a milligram figure. That is a clinical decision, not
+      a division: it depends on why someone is taking something, what else they take, and what their
+      kidneys and liver are doing. None of that is knowable from a number typed into a box.
+    </p>
+    <p class="prose">
+      The table above is the published record, not a menu. {human.length === 0
+        ? `For ${name} in particular, there is no human dose in this ledger to copy even if you wanted to.`
+        : `A dose that appeared in a trial appeared under supervision, with monitoring, in people selected to be in that trial.`}
+      The full evidence, including what was measured and what went wrong, is on the <a href={`/compounds/${d.slug}`}>{name} record</a>.
+    </p>
+
+    <h2 id="other">Other calculators</h2>
+    <ul class="cards">
+      <li><a href="/tools/reconstitution-calculator">Generic reconstitution calculator</a><div class="sub">The same arithmetic, without a compound attached</div></li>
+      <li><a href="/tools/unit-converter">Unit converter</a><div class="sub">mg, mcg, ng and syringe units</div></li>
+      <li><a href="/tools/vial-planner">Vial planner</a><div class="sub">How many draws a vial yields and how long it lasts</div></li>
+      <li><a href="/calculators">All compound calculators</a><div class="sub">Every compound with published dose figures</div></li>
+    </ul>
+  </article>
+</Base>

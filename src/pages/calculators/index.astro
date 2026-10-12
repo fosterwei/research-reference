@@ -1,0 +1,67 @@
+---
+import Base from '../../layouts/Base.astro';
+import Tier from '../../components/v2/Tier.astro';
+import { records } from '../../lib/collections';
+import { qualifies, doseFigures, humanDoseRows } from '../../lib/calculators';
+import { tools } from '../../lib/registry';
+
+const compounds = (await records('compounds'))
+  .filter(qualifies)
+  .sort((a, b) => a.data.preferred_name.localeCompare(b.data.preferred_name));
+const live = compounds.length > 0;
+---
+<Base
+  title="Peptide Dosage Calculators, One Per Compound"
+  description="A reconstitution calculator for each compound with published dose figures, showing the doses studies actually used beside the arithmetic, every one cited."
+  path="/calculators" indexable={live} siteSuffix={false}>
+  <article class="prose-page">
+    <p class="eyebrow">Directory</p>
+    <h1>Peptide dosage calculators</h1>
+    <p class="dek">
+      One calculator per compound, each showing the doses published studies of that compound
+      actually used, quoted with the kind of evidence they came from. The arithmetic is identical
+      everywhere; the evidence is not, and that is the part worth reading.
+    </p>
+
+    <h2 id="compounds">By compound</h2>
+    <p class="prose">
+      {compounds.length} compounds carry enough published dose figures to be worth their own page.
+      A compound with no cited dose does not get one, because it would be this page with a different
+      name on it.
+    </p>
+    <div class="card clip"><div class="tblwrap"><table class="tbl">
+      <caption>Each calculator does the same arithmetic. The difference is the evidence underneath it.</caption>
+      <thead><tr><th scope="col">Compound</th><th scope="col">Strongest dose evidence</th><th scope="col" class="num">Dose figures</th><th scope="col" class="num">Human doses</th></tr></thead>
+      <tbody>
+        {compounds.map((e) => {
+          const human = humanDoseRows(e);
+          return (
+            <tr>
+              <th scope="row" class="study"><a href={`/calculators/${e.data.slug}`}>{e.data.preferred_name}</a></th>
+              <td><Tier tier={e.data.evidence_tier} /></td>
+              <td class="num">{doseFigures(e).length}</td>
+              <td class="num">{human.length || '—'}</td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table></div></div>
+
+    <h2 id="generic">Without a compound attached</h2>
+    <ul class="cards">
+      {tools.map((t) => <li><a href={`/tools/${t.slug}`}>{t.name}</a><div class="sub">{t.computes}</div></li>)}
+    </ul>
+
+    <h2 id="refuses">What none of them will do</h2>
+    <p class="prose">
+      None takes a body weight, an age or a condition, and none returns a dose. They convert numbers
+      you already have into other numbers, by a formula printed above the inputs. Whether those
+      numbers are appropriate is a clinical question, and the <a href="/compounds">compound records</a>
+      are where the evidence for it lives.
+    </p>
+    <p class="prose">
+      A dose shown on these pages is one a study administered, reported as published. It is a record
+      of what happened in a trial, not a suggestion about what should happen to you.
+    </p>
+  </article>
+</Base>

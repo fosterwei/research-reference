@@ -84,6 +84,43 @@ check('vial: works without a volume',
 check('vial: empty input guarded',
   render(V, { 'v-mass': '', 'v-vol': 2, 'v-want': 250, 'v-freq': 7 }, 'v-out'), 'Enter a positive');
 
+// Every per-compound calculator runs the same script, so one broken render or a
+// template change that drops the form would take all of them out at once and
+// nothing else in the build would notice: a page with no <form> still builds,
+// still validates and still enters the sitemap. That is exactly how the unit
+// converter and vial planner shipped empty.
+const CALC_DIR = path.join(DIST, 'calculators');
+if (fs.existsSync(CALC_DIR)) {
+  const slugs = fs.readdirSync(CALC_DIR, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name);
+  if (slugs.length === 0) fails.push('dist/calculators exists but contains no compound pages');
+  for (const slug of slugs) {
+    const file = path.join(CALC_DIR, slug, 'index.html');
+    if (!fs.existsSync(file)) { fails.push(`calculators/${slug}: not built`); continue; }
+    const html = fs.readFileSync(file, 'utf8');
+    if (!/<form\b/i.test(html)) { fails.push(`calculators/${slug}: no <form>`); continue; }
+    if (!/<output\b/i.test(html)) { fails.push(`calculators/${slug}: no <output>`); continue; }
+    // The dose table is the only reason this page exists rather than a link to
+    // the generic tool, so an empty one means the page should not have shipped.
+    const tableRows = (html.match(/<tbody>[\s\S]*?<\/tbody>/i) || [''])[0].match(/<tr>/gi) || [];
+    if (tableRows.length === 0) fails.push(`calculators/${slug}: dose table is empty`);
+    const m = html.match(/<script type="module">([\s\S]*?)<\/script>/i);
+    if (!m) { fails.push(`calculators/${slug}: no inline module script`); continue; }
+    const els = {};
+    for (const [id, v] of Object.entries({ 'r-mass': 5, 'r-vol': 2, 'r-want': 250, 'r-scale': 100 })) {
+      els[id] = { value: String(v), addEventListener() {} };
+    }
+    const out = { textContent: '' };
+    els['r-out'] = out;
+    globalThis.document = { getElementById: (id) => els[id] ?? null };
+    new Function(m[1])();
+    if (!out.textContent.includes('10 units on a U-100')) {
+      fails.push(`calculators/${slug}: calculator did not compute (got ${JSON.stringify(out.textContent)})`);
+    } else { pass++; }
+  }
+}
+
 if (fails.length) {
   console.error(`calculator tests: ${pass} passed, ${fails.length} FAILED\n`);
   for (const f of fails) console.error(`  ${f}\n`);
