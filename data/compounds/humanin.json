@@ -1231,6 +1231,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-29."
+    },
+    {
+      "date": "2026-10-12",
+      "change": "Added a Humanin dosage calculator beneath the dosage chart, with a link to the full calculator page. That page has no units chart, and says why: every published dose of Humanin is given per kilogram, which does not convert to a person's dose by arithmetic."
     }
   ],
   "guide": [

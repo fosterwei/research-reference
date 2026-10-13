@@ -1,0 +1,324 @@
+{
+  "_comment": "Maintained by scripts/check_lastmod.py. Record pages are dated by their own changelog; everything else by the date below. Seeded 2026-10-13 from git history and changelogs, not from the build date.",
+  "pages": {
+    "/": {
+      "lastmod": "2026-09-29",
+      "hash": "eb5f07d28762bca092477317799fddace8ee8011"
+    },
+    "/about": {
+      "lastmod": "2026-09-30",
+      "hash": "dc5c640f490b2a39bd7d6865ea9cd52aac0fc0b4"
+    },
+    "/calculators": {
+      "lastmod": "2026-10-12",
+      "hash": "a1100b03425dfdee1c6538f2056009a9853cca3e"
+    },
+    "/calculators/aod-9604": {
+      "lastmod": "2026-10-12",
+      "hash": "de0d562e4331847d76ddb0fb149c9fbc0f26e291"
+    },
+    "/calculators/ara-290": {
+      "lastmod": "2026-10-12",
+      "hash": "59b9949c06a7a6260e49d7b086bef8c7db96b05e"
+    },
+    "/calculators/bpc-157": {
+      "lastmod": "2026-10-12",
+      "hash": "624f35b9e8a7134defe6face5ac414bdfb32250b"
+    },
+    "/calculators/cagrilintide": {
+      "lastmod": "2026-10-12",
+      "hash": "cf8ac0b4ce1e1088baf5e4db66028de70b88b80a"
+    },
+    "/calculators/dsip": {
+      "lastmod": "2026-10-12",
+      "hash": "95a2844c1c493cc2353d8d137b7becf10b0e9e01"
+    },
+    "/calculators/ghrp-6": {
+      "lastmod": "2026-10-12",
+      "hash": "19ec788e23fa2e4aacc0187837aa1f164d7b6a65"
+    },
+    "/calculators/humanin": {
+      "lastmod": "2026-10-12",
+      "hash": "a99f62439215052d414bdf243296496fbb158b23"
+    },
+    "/calculators/ipamorelin": {
+      "lastmod": "2026-10-12",
+      "hash": "70635c643db777acf12e81907b317885aa88e56e"
+    },
+    "/calculators/melanotan-ii": {
+      "lastmod": "2026-10-12",
+      "hash": "38d5b458d6136d61311cf653c6b83a3c0f855a89"
+    },
+    "/calculators/mots-c": {
+      "lastmod": "2026-10-12",
+      "hash": "3872a4d7bbe7a9710aef0d185d14d9cd6fd988d0"
+    },
+    "/calculators/retatrutide": {
+      "lastmod": "2026-10-12",
+      "hash": "0340415549e54ec34496aec5dbd1065c91f80775"
+    },
+    "/calculators/selank": {
+      "lastmod": "2026-10-12",
+      "hash": "39e5f9f91433237f060ad3633dba3530d8d1ff1e"
+    },
+    "/calculators/semax": {
+      "lastmod": "2026-10-12",
+      "hash": "30d0f26036e3277c6a2f78eebe00adb4c5994a07"
+    },
+    "/calculators/ss-31": {
+      "lastmod": "2026-10-12",
+      "hash": "434c841e613cebed8b687957724209d11be26a5f"
+    },
+    "/calculators/survodutide": {
+      "lastmod": "2026-10-12",
+      "hash": "d5abae68b35a8114f82eead2e8b8570c073252a5"
+    },
+    "/calculators/tb-500": {
+      "lastmod": "2026-10-12",
+      "hash": "497547f4c7feab1a8e7509494d6428e8815faa60"
+    },
+    "/calculators/tesamorelin": {
+      "lastmod": "2026-10-12",
+      "hash": "5ab03f3f8576b438b7e6fbbe960ce7e03236d09c"
+    },
+    "/calculators/tesofensine": {
+      "lastmod": "2026-10-12",
+      "hash": "d2a20ddd66945518cd9640a7c649759ea323e6a0"
+    },
+    "/calculators/thymosin-alpha-1": {
+      "lastmod": "2026-10-12",
+      "hash": "a5d0f8c935e60b1d16d53a7e20bb18b371107821"
+    },
+    "/compare": {
+      "lastmod": "2026-09-29",
+      "hash": "73049500590034e26eb281dca9d74a469570e1dd"
+    },
+    "/compare/bpc-157-vs-tb-500": {
+      "lastmod": "2026-09-29",
+      "hash": "3b8770f9e1b69150a783ea5da1b89feb9f6f9579"
+    },
+    "/compare/cagrilintide-vs-semaglutide": {
+      "lastmod": "2026-09-29",
+      "hash": "3c53219b911bf3174a38a571bdd48b466a1c7600"
+    },
+    "/compare/ipamorelin-vs-ghrp-6": {
+      "lastmod": "2026-09-29",
+      "hash": "8a5588dce9f0a7dabbceb5289aeb5fe16f2871e0"
+    },
+    "/compare/ipamorelin-vs-sermorelin": {
+      "lastmod": "2026-09-29",
+      "hash": "deedcf96ac051d95f95d569fa8f889ef7c71955b"
+    },
+    "/compare/ipamorelin-vs-tesamorelin": {
+      "lastmod": "2026-09-29",
+      "hash": "c22cfcccb9384b48740cf23680827c8f7cd2c58b"
+    },
+    "/compare/retatrutide-vs-tirzepatide": {
+      "lastmod": "2026-09-29",
+      "hash": "64e4c1fdc743b826f0dc8f165faa83e658cd130e"
+    },
+    "/compare/selank-vs-semax": {
+      "lastmod": "2026-09-29",
+      "hash": "2313d924f1c762db32a616d43b0f583271f7f5e9"
+    },
+    "/compare/semaglutide-vs-retatrutide": {
+      "lastmod": "2026-09-29",
+      "hash": "623d24f685ee78aca779471725f5fa12a66e5432"
+    },
+    "/compare/sermorelin-vs-tesamorelin": {
+      "lastmod": "2026-09-29",
+      "hash": "7d3464d5dfa03aaa10c7cd47b4554e3233e84384"
+    },
+    "/compounds": {
+      "lastmod": "2026-09-30",
+      "hash": "b2f10ba67723c84e00b2f5dac17cdb86e752b520"
+    },
+    "/compounds/aod-9604": {
+      "lastmod": "2026-10-12",
+      "hash": "ff48087696a915e3ff52f3d03d3f7902e1b2bc97"
+    },
+    "/compounds/ara-290": {
+      "lastmod": "2026-10-12",
+      "hash": "da458a54beb2140f205780946fc4376dce1e4cba"
+    },
+    "/compounds/bpc-157": {
+      "lastmod": "2026-10-12",
+      "hash": "f3c154e0e15da64829f6625e2dd6ea657247504d"
+    },
+    "/compounds/cagrilintide": {
+      "lastmod": "2026-10-12",
+      "hash": "298c2dd47f559ca728f35147f3f41ce13d17a07a"
+    },
+    "/compounds/cartalax": {
+      "lastmod": "2026-09-29",
+      "hash": "1750d07e88380cf4220a04d7a192c09e4e816dba"
+    },
+    "/compounds/cjc-1295": {
+      "lastmod": "2026-09-29",
+      "hash": "c92bbaa7e0415de5b616c74a7011ab411c85d6ff"
+    },
+    "/compounds/dsip": {
+      "lastmod": "2026-10-12",
+      "hash": "58a43893dd4c68cb4fba52d2981e955e0452f9dd"
+    },
+    "/compounds/epitalon": {
+      "lastmod": "2026-09-29",
+      "hash": "fa0b64e53d5aa0a457a7bc6f226f013a4a4e01b2"
+    },
+    "/compounds/foxo4-dri": {
+      "lastmod": "2026-09-29",
+      "hash": "af67d5753e02f2264fb67f48d0b8cffe39c42933"
+    },
+    "/compounds/ghk-cu": {
+      "lastmod": "2026-09-29",
+      "hash": "b2bbbc8ba6cd2a11cb4fddf745957d4d008f2270"
+    },
+    "/compounds/ghrp-6": {
+      "lastmod": "2026-10-12",
+      "hash": "9a0780c8c777d9b3f8fcf642eee8693df50e100c"
+    },
+    "/compounds/humanin": {
+      "lastmod": "2026-10-12",
+      "hash": "b605f15605cb828039ee0691766cb4832287d1aa"
+    },
+    "/compounds/igf-1-lr3": {
+      "lastmod": "2026-09-29",
+      "hash": "c59625d489f954e210830c450c8da4dc97c524d7"
+    },
+    "/compounds/ipamorelin": {
+      "lastmod": "2026-10-12",
+      "hash": "d0bcc88af021aa5bf63159277442289c42b09a0e"
+    },
+    "/compounds/kisspeptin": {
+      "lastmod": "2026-09-29",
+      "hash": "c23e3d4205d407ce7bf78bb06f89cdff7d713759"
+    },
+    "/compounds/kpv": {
+      "lastmod": "2026-09-29",
+      "hash": "3e4aff8f21b656c201ff12a3fdaa525a508155e9"
+    },
+    "/compounds/ll-37": {
+      "lastmod": "2026-09-29",
+      "hash": "0f734e89fcdf89078f3785e64106e84f8647a2db"
+    },
+    "/compounds/melanotan-ii": {
+      "lastmod": "2026-10-12",
+      "hash": "b6d4613752fd2a9a65dca67530d1b879bd95e1ae"
+    },
+    "/compounds/mots-c": {
+      "lastmod": "2026-10-12",
+      "hash": "e18c8bfa0983bb526aad7cecf7da740892ad674c"
+    },
+    "/compounds/pinealon": {
+      "lastmod": "2026-09-29",
+      "hash": "0c74e1f726a940d56e128c6eb48ec17210775b09"
+    },
+    "/compounds/retatrutide": {
+      "lastmod": "2026-10-12",
+      "hash": "7b6c8e2efcda10cb2056a1a94c6783106c1c4273"
+    },
+    "/compounds/selank": {
+      "lastmod": "2026-10-12",
+      "hash": "c8ab015fe1980e731d74a5a822eb8a1a2899d37f"
+    },
+    "/compounds/semax": {
+      "lastmod": "2026-10-12",
+      "hash": "89fbc0fa4037f033602d68c6f6769d46e221830b"
+    },
+    "/compounds/slu-pp-332": {
+      "lastmod": "2026-09-29",
+      "hash": "90c09b0e32e0ff00abe094d91cc26e3e5cc28186"
+    },
+    "/compounds/ss-31": {
+      "lastmod": "2026-10-12",
+      "hash": "ea9bcd57e573b3688defda9144f6046bb4148789"
+    },
+    "/compounds/survodutide": {
+      "lastmod": "2026-10-12",
+      "hash": "5dae8145fdadd2c7e260717e62892123c2e8ac4f"
+    },
+    "/compounds/tb-500": {
+      "lastmod": "2026-10-12",
+      "hash": "e81d3b1cff0292e620af395a8af11d673e3b1615"
+    },
+    "/compounds/tesamorelin": {
+      "lastmod": "2026-10-12",
+      "hash": "694f9fa852ba9269abbd31b25d5ebfa98aad46d8"
+    },
+    "/compounds/tesofensine": {
+      "lastmod": "2026-10-12",
+      "hash": "46691ed246a84cda5bf7449c3ee98a007242a38c"
+    },
+    "/compounds/thymosin-alpha-1": {
+      "lastmod": "2026-10-12",
+      "hash": "07fdfb5d5f7b1c4f9ab6f942220ce895007a17f3"
+    },
+    "/contact": {
+      "lastmod": "2026-09-29",
+      "hash": "a23a8625f0ca09960f476291347d8664984d99c8"
+    },
+    "/privacy": {
+      "lastmod": "2026-10-08",
+      "hash": "a5337dc8644fc97839d58d6d9454093700b7b073"
+    },
+    "/stacks": {
+      "lastmod": "2026-09-29",
+      "hash": "b45bf0efec4a5f6fec24da389c9a900daf00ce6d"
+    },
+    "/stacks/bpc-157-tb-500": {
+      "lastmod": "2026-09-29",
+      "hash": "127dfff2b1f01756dfc23131292cc966c181411e"
+    },
+    "/stacks/bpc-157-tb-500-ghk-cu": {
+      "lastmod": "2026-09-29",
+      "hash": "7a6af6e9fbedaa2d578933b0bd87e707ec45dc04"
+    },
+    "/stacks/cagrisema": {
+      "lastmod": "2026-09-29",
+      "hash": "fd345166e443fd0ac1fe108f75e8433487de6095"
+    },
+    "/stacks/cjc-1295-ipamorelin": {
+      "lastmod": "2026-09-29",
+      "hash": "565809ddf7ee9a5326be53d546acf629acccd32a"
+    },
+    "/stacks/ghk-cu-kpv-bpc-157-tb-500": {
+      "lastmod": "2026-10-09",
+      "hash": "2281eb508ef9a8e062e8f7042c6f6815a8ea75f5"
+    },
+    "/stacks/retatrutide-mots-c": {
+      "lastmod": "2026-09-29",
+      "hash": "1365360dd69810557925c04efae3ab35743e7c90"
+    },
+    "/stacks/selank-semax": {
+      "lastmod": "2026-09-29",
+      "hash": "6a597761cb83b81ae6b7d9dda4cdf0fe3080f54f"
+    },
+    "/stacks/tesamorelin-ipamorelin": {
+      "lastmod": "2026-09-29",
+      "hash": "9643bd6ce913dfe3daff01452e2ecfac7e707f51"
+    },
+    "/tools": {
+      "lastmod": "2026-09-29",
+      "hash": "355f20559532dd66fd10c31ff7a3cab3d1d6bebf"
+    },
+    "/tools/reconstitution-calculator": {
+      "lastmod": "2026-09-29",
+      "hash": "94f949ba74af7dab829cd1933234016bc5e0009f"
+    },
+    "/tools/unit-converter": {
+      "lastmod": "2026-09-29",
+      "hash": "842d3a16570d97026833aaa284616fea05093d23"
+    },
+    "/tools/vial-planner": {
+      "lastmod": "2026-09-29",
+      "hash": "51494e67508561a4fc4e6d79a4569109ee07de14"
+    }
+  },
+  "trivial": [
+    {
+      "date": "2026-10-13",
+      "reason": "Backfill decision, not a fingerprint acceptance: the 2026-09-30 change that relabelled the compare-table column from an internal status to the review date, and trimmed \"Status researched -> draft.\" from changelog text, is cosmetic, so the 34 records it touched keep their earlier dates.",
+      "pages": []
+    }
+  ]
+}
