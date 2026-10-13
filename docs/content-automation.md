@@ -138,7 +138,16 @@ python3 scripts/validate_content.py
 python3 scripts/measure_pages.py --formatting <slug>
 python3 scripts/measure_pages.py --intent <slug>
 python3 scripts/measure_pages.py --write
+python3 scripts/check_lastmod.py --write
 ```
+
+`check_lastmod.py` fingerprints every page in the sitemap and compares it with
+`research/lastmod.json`. A record page whose content changed needs a dated
+changelog entry, because that entry is its lastmod and is printed on the page;
+a cosmetic change can be accepted with `--trivial "reason"`, which keeps the
+date and logs why. Pages that print no date of their own, the hubs, trust
+pages and calculators, are stamped with today's date by `--write`. CI runs it
+without `--write` and fails when a page changed and its date did not.
 
 Then `python3 scripts/loop_status.py`. It prints, for every page with written
 sections, which stages have left an artifact: measured volumes, scored
@@ -232,4 +241,15 @@ accept everything or reject everything.
   home before: every internal href resolves to a page in `dist/`, and every
   same-page anchor matches an id that page renders. Verified by injecting one
   fault of each kind into a built page and confirming the check fails.
+- 2026-10-13 — Every sitemap lastmod now tracks its page's content. Before
+  this, 35 of 55 records had drifted in two weeks, because a date only moved
+  when someone remembered a changelog entry: nineteen compounds gained a
+  calculator section and nineteen calculator pages were created on 12
+  October, and all thirty-eight still claimed 29 September, so the calculator
+  pages claimed a date before they existed. The nine hub and trust pages had
+  no lastmod at all. Dates were backfilled from git history and changelogs,
+  not from the build date, and `scripts/check_lastmod.py` now fails CI when a
+  page's rendered content changes without its date moving. The 2026-09-30
+  relabelling of the compare-table column was judged cosmetic and moved no
+  dates; that decision is logged in `research/lastmod.json`.
 

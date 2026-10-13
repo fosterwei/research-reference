@@ -51,6 +51,8 @@ jobs:
           SITE_URL: https://www.dashnaiv.com
       - name: Calculators compute
         run: node scripts/test_calculators.mjs
+      - name: Every sitemap lastmod matches its page's content
+        run: python3 scripts/check_lastmod.py
       - name: Links resolve, and nothing outbound follows
         run: python3 scripts/check_links.py
       - name: Every written page completed the content loop
