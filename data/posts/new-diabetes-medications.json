@@ -1,0 +1,223 @@
+{
+  "type": "post",
+  "slug": "new-diabetes-medications",
+  "status": "draft",
+  "category": "Research",
+  "title": "New diabetes medications: what has been approved recently, and what is coming",
+  "short_title": "New diabetes medications",
+  "excerpt": "The new type 2 diabetes medications approved in 2026, from the Ozempic pill to two once-weekly insulins, the late-stage drugs behind them, and a plain answer to what is replacing metformin.",
+  "body": "<p>The new diabetes medications approved in the United States in 2026 are the <b>Ozempic pill</b>, a new oral semaglutide tablet (4 February) [[1]]; two <b>once-weekly basal insulins</b>, Awiqli (26 March) [[2]] and Onswik (September) [[3]]; and a new cardiovascular indication for <b>Mounjaro</b> (28 August) [[4]]. Lilly's oral orforglipron has been submitted for type 2 diabetes but not yet approved for it [[5]].</p><p><b>Nothing has replaced metformin.</b> What changed is the order: the October 2026 ADA/EASD consensus advocates earlier use, potentially from diagnosis, of SGLT2 inhibitors and GLP-1-based medicines to protect the heart and kidneys [[6]]. This page sits under the <a href=\"/blog/diabetes-medications\">diabetes medications guide</a>, which covers every class; it describes what was approved and how guidelines frame the choice, not what any individual should take.</p>",
+  "seo": {
+    "title": "New Diabetes Medications: 2026 Approvals and What's Coming",
+    "description": "The new type 2 diabetes medications approved in 2026, the late-stage drugs behind them, and what guidelines now put alongside metformin."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/blog/diabetes-medications",
+  "topic": "Type 2 diabetes medicines",
+  "order": 6,
+  "about": [],
+  "sections": [
+    {
+      "id": "approvals",
+      "heading": "New diabetes medications approved in 2026",
+      "lede": "US approvals for type 2 diabetes from January to October 2026, with the evidence each one rests on.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>New type 2 diabetes medications and indications approved by the FDA in 2026</caption><thead><tr><th scope=\"col\">Date</th><th scope=\"col\">Medicine (company)</th><th scope=\"col\">What is new</th><th scope=\"col\">Evidence base</th></tr></thead><tbody><tr><td>4 Feb 2026</td><td><b>Ozempic pill</b>, semaglutide tablets 1.5, 4 and 9 mg (Novo Nordisk)</td><td>A new oral formulation; also indicated to reduce major cardiovascular events [[1]]</td><td>Matched to the earlier 3, 7 and 14 mg oral semaglutide doses [[1]]</td></tr><tr><td>26 Mar 2026</td><td><b>Awiqli</b>, insulin icodec (Novo Nordisk)</td><td>First once-weekly basal insulin for adults with type 2 diabetes [[2]]</td><td>Four ONWARDS trials, about 2,680 adults [[2]]</td></tr><tr><td>28 Aug 2026</td><td><b>Mounjaro</b>, tirzepatide (Lilly)</td><td>New indication: lowering the risk of major cardiovascular events [[4]]</td><td>SURPASS-CVOT, 13,299 adults, against dulaglutide [[4]]</td></tr><tr><td>Sep 2026 (announced 24 Sep)</td><td><b>Onswik</b>, insulin efsitora alfa (Lilly)</td><td>Second once-weekly basal insulin [[3]]</td><td>QWINT programme, more than 3,400 adults [[3]]</td></tr></tbody></table></div></div><p>Two of these are new molecules (the two weekly insulins), one is a new formulation of a known medicine, and one is a new use for an existing drug. That is typical: much of what counts as a new diabetes drug in a given year is a new form, dose or indication of a class already in use.</p>"
+    },
+    {
+      "id": "new-pill",
+      "heading": "Is there a new pill for type 2 diabetes?",
+      "html": "<p>Yes, two, at different stages.</p><h3>The Ozempic pill (approved)</h3><p>On 4 February 2026 the FDA approved Ozempic as the name for semaglutide tablets in <b>1.5 mg, 4 mg and 9 mg</b> strengths for adults with type 2 diabetes [[1]]. The active ingredient is the same semaglutide as in Rybelsus, available since 2019; Novo says the new tablets have higher bioavailability and give comparable therapeutic value to the original 3, 7 and 14 mg doses [[1]]. The label covers improving blood sugar alongside diet and exercise and reducing the risk of major cardiovascular events in adults at high risk [[1]]. Novo announced US availability from <b>4 May 2026</b> [[7]]. The <a href=\"/compounds/semaglutide\">semaglutide record</a> covers the molecule.</p><h3>Orforglipron (submitted for diabetes)</h3><p>Orforglipron, sold for weight management as Foundayo since its approval on 1 April 2026 [[8]], is a non-peptide GLP-1 pill. Lilly submitted it to the FDA for type 2 diabetes in the second quarter of 2026 [[5]]; no decision on that application had been announced by the date of this page. In ACHIEVE-1, in 559 adults with early type 2 diabetes on diet and exercise alone, HbA1c fell by <b>1.24 to 1.48 points</b> over 40 weeks against 0.41 on placebo [[9]]. In ACHIEVE-3, a head-to-head trial in 1,698 adults on metformin, orforglipron lowered HbA1c by 1.71 and 1.91 points against 1.23 and 1.47 for oral semaglutide 7 and 14 mg over 52 weeks [[10]].</p><p>The pill most people mean when they search for diabetes tablets is still one of the older oral classes; the <a href=\"/blog/glucose-pills\">glucose pills</a> page covers those.</p>"
+    },
+    {
+      "id": "replacing-metformin",
+      "heading": "What is the new drug replacing metformin?",
+      "lede": "No drug has replaced metformin. The guidelines changed when other medicines are brought in.",
+      "html": "<p>No new drug has replaced metformin, and no new class does what metformin does by the same mechanism. What has changed is the sequence. For years metformin was the usual first medicine, with others added later if blood sugar stayed high. Current guidance brings two other classes in earlier, sometimes first, for people with specific conditions, because those classes protect the heart and kidneys in addition to lowering glucose.</p><p>The <b>ADA Standards of Care 2026</b> recommend, for adults with type 2 diabetes and chronic kidney disease, an SGLT2 inhibitor or a GLP-1 receptor agonist with demonstrated benefit, irrespective of HbA1c, to slow kidney disease and reduce cardiovascular events [[11]]. A new 2026 recommendation adds a dual GIP/GLP-1 receptor agonist for adults with type 2 diabetes, obesity and heart failure with preserved ejection fraction, again irrespective of HbA1c [[11]]. For established atherosclerotic cardiovascular disease, the Standards call for a medicine with proven cardiovascular benefit, such as a GLP-1 receptor agonist or SGLT2 inhibitor [[11]].</p><p>The <b>ADA/EASD consensus report of October 2026</b> goes further. It advocates earlier use, <b>potentially from diagnosis</b>, of SGLT2 inhibitors and/or GLP-1-based therapies to protect organs and improve long-term outcomes, and earlier combination of the two in people who also have cardiovascular disease, chronic kidney disease or heart failure [[6]]. A primary-care summary of the report notes that it treats metformin as less of a required first step than UK NICE guidance does, because the heart and kidney benefits of these classes do not depend on metformin [[12]].</p><p>So the accurate answer to \"what is replacing metformin\" is: for people with heart disease, kidney disease, heart failure or obesity, SGLT2 inhibitors and GLP-1-based medicines are now recommended early and alongside, or sometimes ahead of, metformin; metformin itself remains in use. How a clinician weighs these depends on the person's conditions, other medicines, cost and tolerance. The comparison with insulin is covered in <a href=\"/blog/metformin-vs-insulin\">metformin vs insulin</a>, and an SGLT2 example in <a href=\"/blog/jardiance-for-type-2-diabetes\">Jardiance for type 2 diabetes</a>.</p>"
+    },
+    {
+      "id": "similar-to-metformin",
+      "heading": "Medicines similar to metformin",
+      "html": "<p>People searching for a medicine similar to metformin usually mean one of three things, and each has a different answer.</p><ul><li><b>Another tablet that lowers blood sugar without causing low blood sugar on its own.</b> SGLT2 inhibitors, DPP-4 inhibitors and oral semaglutide all fit that description, and the ADA Standards discuss each as a glucose-lowering option [[11]].</li><li><b>Something with organ protection.</b> That is where SGLT2 inhibitors and GLP-1-based medicines differ from metformin: the guidelines recommend them for kidney and cardiovascular benefit irrespective of HbA1c [[11]][[6]].</li><li><b>Something that also helps with weight.</b> The consensus lists weight management among the fundamentals of type 2 diabetes care [[6]], and a summary of it describes high-dose semaglutide and tirzepatide as the most effective weight-loss medicines it considers [[12]].</li></ul><p>None of these is a drop-in substitute. Each class has its own side effects, cautions and costs, and the choice is made with a clinician who knows the rest of the person's health. The <a href=\"/blog/type-2-diabetes-treatments\">type 2 diabetes treatments</a> page lays out the classes side by side.</p>"
+    },
+    {
+      "id": "weekly-insulin",
+      "heading": "Once-weekly insulins: Awiqli and Onswik",
+      "html": "<p>The two new insulins of 2026 change how often basal insulin is injected, from daily to <b>once a week</b>. <b>Awiqli</b> (insulin icodec), approved on 26 March 2026 as a 700 units/mL injection, was compared with daily basal insulin in four ONWARDS trials in about 2,680 adults with type 2 diabetes and met its HbA1c endpoint [[2]]. <b>Onswik</b> (insulin efsitora alfa), announced as approved on 24 September 2026, was evaluated in more than 3,400 adults in the QWINT programme [[3]].</p><p>Both are approved for adults with type 2 diabetes only, alongside diet and exercise [[2]][[3]]. Onswik's prescribing information warns of low blood sugar (hypoglycemia), as insulin labels do [[3]]. A weekly insulin is a different product from a daily one, with its own dose-adjustment rules set out in its label, so a switch is a prescribing decision rather than a like-for-like swap.</p>"
+    },
+    {
+      "id": "late-stage",
+      "heading": "Late-stage diabetes drugs: what is coming",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Type 2 diabetes drugs in late-stage development, October 2026</caption><thead><tr><th scope=\"col\">Drug</th><th scope=\"col\">Type</th><th scope=\"col\">Status</th><th scope=\"col\">Reported result</th></tr></thead><tbody><tr><td>Orforglipron</td><td>Oral GLP-1 agonist</td><td>Submitted to FDA for type 2 diabetes, Q2 2026 [[5]]</td><td>HbA1c -1.91 vs -1.47 for oral semaglutide 14 mg [[10]]</td></tr><tr><td>Retatrutide</td><td>GIP, GLP-1 and glucagon agonist, weekly injection</td><td>Phase 3; first head-to-head result 28 Oct 2026 [[13]]</td><td>HbA1c -2.2 vs -1.8 for Ozempic 2 mg; weight 19.5% to 20.9% vs 9.4% [[13]]</td></tr><tr><td>CagriSema</td><td>Amylin analogue plus semaglutide, weekly injection</td><td>Phase 3 diabetes trials published June 2026; filed for weight management only [[14]][[15]]</td><td>Weight -13.7% vs -3.4% in adults with type 2 diabetes [[16]]</td></tr></tbody></table></div></div><p><b>Retatrutide</b> had its first head-to-head diabetes result in October 2026: in TRANSCEND-T2D-2, 1,298 adults on metformin with or without an SGLT2 inhibitor were assigned to retatrutide 9 mg, 12 mg or Ozempic 2 mg for 80 weeks [[13]]. These are company topline figures, not yet peer reviewed. Lilly plans its first retatrutide filing, for obesity, in the first quarter of 2027 [[5]]. See the <a href=\"/compounds/retatrutide\">retatrutide record</a>.</p><p><b>CagriSema</b> was tested in type 2 diabetes in three REIMAGINE trials published in June 2026: on diet and exercise, on metformin, and on basal insulin [[17]][[14]][[18]]. Its weight-management filing is under FDA review [[19]]; the trials and dates are on <a href=\"/blog/cagrisema-approval-timeline\">CagriSema news and approval timeline</a>, and the wider obesity pipeline on <a href=\"/blog/new-weight-loss-drugs\">new weight-loss drugs</a>. <a href=\"/compounds/tirzepatide\">Tirzepatide</a>, already approved, now carries the cardiovascular indication described above.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the new drug replacing metformin?",
+      "answer": "None. Metformin remains in use. Guidelines now recommend SGLT2 inhibitors and GLP-1-based medicines earlier, potentially from diagnosis, especially for people with heart disease, kidney disease or heart failure [[6]][[11]]."
+    },
+    {
+      "question": "Is there a new pill for type 2 diabetes?",
+      "answer": "The Ozempic pill, semaglutide tablets 1.5, 4 and 9 mg, was approved on 4 February 2026 [[1]]. Orforglipron, an oral GLP-1 already approved for weight management, was submitted for type 2 diabetes in Q2 2026 [[5]]."
+    },
+    {
+      "question": "What are the newest diabetes medications?",
+      "answer": "In 2026: the Ozempic pill [[1]], the once-weekly insulins Awiqli [[2]] and Onswik [[3]], and Mounjaro's new cardiovascular indication [[4]]."
+    },
+    {
+      "question": "Is there a once-weekly insulin?",
+      "answer": "Yes, two in the US as of 2026: Awiqli (insulin icodec), approved 26 March 2026 [[2]], and Onswik (insulin efsitora alfa), announced as approved on 24 September 2026 [[3]]. Both are for adults with type 2 diabetes."
+    },
+    {
+      "question": "What medicine is similar to metformin?",
+      "answer": "No other medicine works the same way. Other tablets that lower glucose without causing low blood sugar on their own include SGLT2 inhibitors, DPP-4 inhibitors and oral semaglutide [[11]]; the choice between them is made with a clinician."
+    }
+  ],
+  "sources": [
+    {
+      "id": "nn-ozempic-tablets",
+      "title": "FDA Approves Ozempic Tablets",
+      "url": "https://www.novonordisk-us.com/media/press-releases/fda-approves-ozempic-pill-tablets.html",
+      "published": "2026-02-04",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "nn-awiqli",
+      "title": "FDA approves Novo Nordisk's Awiqli, the first and only once-weekly basal insulin treatment for adults with type 2 diabetes",
+      "url": "https://www.prnewswire.com/news-releases/fda-approves-novo-nordisks-awiqli-the-first-and-only-once-weekly-basal-insulin-treatment-for-adults-with-type-2-diabetes-302726839.html",
+      "published": "2026-03-26",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "lilly-onswik",
+      "title": "U.S. Food and Drug Administration (FDA) approves Lilly's Onswik (insulin efsitora alfa-gobe), a once-weekly basal insulin injection treatment for adults living with type 2 diabetes",
+      "url": "https://www.prnewswire.com/news-releases/us-food-and-drug-administration-fda-approves-lillys-onswik-insulin-efsitora-alfa-gobe-a-once-weekly-basal-insulin-injection-treatment-for-adults-living-with-type-2-diabetes-302888473.html",
+      "published": "2026-09-24",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pt-mounjaro-cv",
+      "title": "FDA approves tirzepatide to cut CV risk in type 2 diabetes",
+      "url": "https://www.pharmacytimes.com/view/fda-approves-tirzepatide-to-cut-cv-risk-in-type-2-diabetes",
+      "published": "2026-08-28",
+      "kind": "other"
+    },
+    {
+      "id": "lilly-q2-2026",
+      "title": "Lilly reports second-quarter 2026 financial results, raises full-year guidance, and highlights continued growth and pipeline progress",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full",
+      "published": "2026-08-05",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42825450",
+      "title": "Management of Type 2 Diabetes, 2026. A Consensus Report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD).",
+      "url": "https://europepmc.org/article/MED/42825450",
+      "published": "2026-10-02",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "nn-ozempic-pill-launch",
+      "title": "Novo Nordisk's Ozempic pill, the only FDA-approved oral peptide GLP-1 medication for adults with type 2 diabetes, soon to be available in the US",
+      "url": "https://www.prnewswire.com/news-releases/novo-nordisks-ozempic-pill-the-only-fda-approved-oral-peptide-glp-1-medication-for-adults-with-type-2-diabetes-soon-to-be-available-in-the-us-302760106.html",
+      "published": "2026-05-01",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "lilly-foundayo-approval",
+      "title": "FDA approves Lilly's Foundayo (orforglipron), the only GLP-1 pill for weight loss that can be taken any time of day without food or water restrictions",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill",
+      "published": "2026-04-01",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-40544435",
+      "title": "Orforglipron, an Oral Small-Molecule GLP-1 Receptor Agonist, in Early Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/40544435",
+      "published": "2025-06-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41765029",
+      "title": "Efficacy and safety of once-daily oral orforglipron compared with oral semaglutide in adults with type 2 diabetes (ACHIEVE-3): a multinational, multicentre, non-inferiority, open-label, randomised, phase 3 trial.",
+      "url": "https://europepmc.org/article/MED/41765029",
+      "published": "2026-02-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "ada-soc-2026-s9",
+      "title": "9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358900",
+      "published": "2025-12-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "dotn-ada-easd-2026",
+      "title": "The ADA/EASD type 2 diabetes consensus 2026: What's new?",
+      "url": "https://diabetesonthenet.com/diabetes-primary-care/factsheet-ada-easd-consensus-2026-whats-new/",
+      "published": "2026-10-09",
+      "kind": "other"
+    },
+    {
+      "id": "lilly-transcend-t2d-2",
+      "title": "Lilly's retatrutide delivered greater A1C reduction and more than double the weight loss of Ozempic's highest approved dose in head-to-head trial",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-retatrutide-delivered-greater-a1c-reduction-and-more",
+      "published": "2026-10-28",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42251859",
+      "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251859",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "nn-redefine4",
+      "title": "CagriSema demonstrated 23% weight loss in an open-label head-to-head REDEFINE 4 trial in people with obesity; the primary endpoint was not achieved (company announcement No 13/2026)",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916501",
+      "published": "2026-02-23",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-40544432",
+      "title": "Cagrilintide-Semaglutide in Adults with Overweight or Obesity and Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/40544432",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251860",
+      "title": "Efficacy and safety of once-weekly cagrilintide-semaglutide (CagriSema) in adults with type 2 diabetes inadequately controlled on diet and exercise (REIMAGINE 1): a randomised, double-blind, placebo-controlled, phase 3a study.",
+      "url": "https://europepmc.org/article/MED/42251860",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251856",
+      "title": "Cagrilintide-semaglutide (CagriSema) as an add-on to basal insulin in adults with type 2 diabetes (REIMAGINE 3): a randomised, double-blind, placebo-controlled, multicentre, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251856",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "nn-cagrisema-nda",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues for weight management",
+      "url": "https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp1-and-amylin-analogues-for-weight-management-302645868.html",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: 2026 US approvals for type 2 diabetes (Ozempic pill, Awiqli, Onswik, Mounjaro CV indication), new pills, the metformin question answered from ADA Standards 2026 and the October 2026 ADA/EASD consensus, and late-stage drugs."
+    }
+  ],
+  "uniqueness_pct": 97.4
+}
