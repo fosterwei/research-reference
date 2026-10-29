@@ -1,0 +1,135 @@
+{
+ "slug": "cagrisema-dosing-schedule",
+ "type": "post",
+ "generated": "2026-10-29",
+ "h1": "CagriSema dosing schedule: the trial titration step by step",
+ "dek": "In the trials, CagriSema doses rose every 4 weeks from 0.25 mg of each drug to 2.4 mg of each by week 17. This page sets out that schedule, the flexible protocol and how many reached the top dose, and why no dose is approved.",
+ "scope": "Informational only. No dosing instructions, no vendors or prices.",
+ "queries": [
+  {
+   "query": "cagrisema dosage",
+   "volume": {
+    "semrush": 210,
+    "kd": 37,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "evidence-with-boundary",
+   "section": "dosing-chart",
+   "heading": "The CagriSema dosing chart used in the trials",
+   "boundary": "Trial doses reported as administered; no CagriSema dose is approved; the product is a fixed-dose combination not available outside trials."
+  },
+  {
+   "query": "cagrilintide semaglutide dosage",
+   "volume": {
+    "semrush": 70,
+    "kd": 31,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "evidence-with-boundary",
+   "section": "maintenance",
+   "heading": "Maintenance: 2.4 mg of each, once a week",
+   "boundary": "Trial doses reported as administered; no CagriSema dose is approved; the product is a fixed-dose combination not available outside trials."
+  },
+  {
+   "query": "cagrilintide and semaglutide dosing chart",
+   "volume": {
+    "semrush": 50,
+    "kd": 22,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "evidence-with-boundary",
+   "section": "dosing-chart",
+   "heading": "The CagriSema dosing chart used in the trials",
+   "boundary": "Trial doses reported as administered; no CagriSema dose is approved; the product is a fixed-dose combination not available outside trials."
+  },
+  {
+   "query": "cagrisema dosing schedule",
+   "volume": {
+    "semrush": 40,
+    "kd": 5,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "evidence-with-boundary",
+   "section": "dosing-chart",
+   "heading": "The CagriSema dosing chart used in the trials",
+   "boundary": "Trial doses reported as administered; no CagriSema dose is approved; the product is a fixed-dose combination not available outside trials."
+  },
+  {
+   "query": "cagrisema dosing chart",
+   "volume": {
+    "semrush": 40,
+    "kd": 16,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "evidence-with-boundary",
+   "section": "dosing-chart",
+   "heading": "The CagriSema dosing chart used in the trials",
+   "boundary": "Trial doses reported as administered; no CagriSema dose is approved; the product is a fixed-dose combination not available outside trials."
+  }
+ ],
+ "competitors": [
+  {
+   "url": "https://clinicaltrials.gov/study/NCT06388187",
+   "rank": null,
+   "gap": "A registry entry for one CagriSema dose study; no titration table across the programme and no reached-dose figure",
+   "source": "Semrush top-10; not fetched (ClinicalTrials.gov unreachable from the research environment)"
+  },
+  {
+   "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2502081",
+   "rank": null,
+   "gap": "Primary REDEFINE 1 paper behind a paywall; the abstract gives the 2.4/2.4 mg dose but not the step table or the 57.3% reached-dose figure",
+   "source": "Semrush top-10; not fetched (abstract read via Europe PMC)"
+  },
+  {
+   "url": "https://www.rheumatologyadvisor.com/news/redefine-1-trial-superior-weight-loss-seen-with-cagrisema/",
+   "rank": null,
+   "gap": "News summary of results; no schedule and no lower 1.0/1.0 mg dose",
+   "source": "Semrush top-10; not fetched"
+  },
+  {
+   "url": "https://www.droracle.ai/articles/126510/what-is-the-dose-of-cagrisema-pegvisomant",
+   "rank": null,
+   "gap": "AI-generated answer page; no primary citations for the steps",
+   "source": "Semrush top-10; not fetched"
+  }
+ ],
+ "information_gain": "The only page that combines the week-by-week titration (from the phase 2 paper's own sentence), the flexible protocol and the 57.3% who were on 2.4/2.4 mg at week 68 (against 82.5% and 70.2% for the components), the 1.0/1.0 mg diabetes dose with its REIMAGINE 3 result, the move from two pens to the dual-chamber pen, and the planned 2.4/7.2 mg trial, with the plain statement that no dose is approved.",
+ "serp_format_rewarded": "Image pack and PAA on the dosing chart: a captioned week-by-week table at the top, then short sections on maintenance, flexibility and status.",
+ "outline": [
+  {
+   "id": "dosing-chart",
+   "heading": "The CagriSema dosing chart used in the trials",
+   "from": "Frias 2023 escalation sentence; phase 1b co-escalation; REDEFINE 5 'escalated to 2.4 mg'; Wegovy label ladder"
+  },
+  {
+   "id": "maintenance",
+   "heading": "Maintenance: 2.4 mg of each, once a week",
+   "from": "Frias 2023 maintenance period; REDEFINE 1, 2 and 5 results"
+  },
+  {
+   "id": "flexible-protocol",
+   "heading": "The flexible protocol, and the dose people actually reached",
+   "from": "Novo REDEFINE 1 announcement (flexible protocol, 57.3%, 82.5%, 70.2%); Wegovy delay provision; Novo REDEFINE 4 release (REDEFINE 11, 2.4/7.2 mg plan)"
+  },
+  {
+   "id": "lower-dose",
+   "heading": "The lower 1.0/1.0 mg dose in the diabetes trials",
+   "from": "REIMAGINE 2 arms; REIMAGINE 3 HbA1c by dose; NDA indication"
+  },
+  {
+   "id": "one-injection",
+   "heading": "One injection, two drugs: the co-formulation and its pen",
+   "from": "Frias 2023 two pens; NDA fixed-dose combination; dual-chamber pen usability study"
+  },
+  {
+   "id": "no-approved-dose",
+   "heading": "Why no CagriSema dose is approved yet",
+   "from": "Novo NDA (2025-12-18); Novo February 2026 release on decision timing; stated absence of an approved dose"
+  }
+ ]
+}
