@@ -1,0 +1,189 @@
+{
+  "type": "post",
+  "slug": "diabetes-medications",
+  "status": "draft",
+  "category": "Research",
+  "title": "Diabetes medications: every class, how each works, and where amylin drugs fit",
+  "short_title": "Diabetes medications",
+  "excerpt": "A complete list of type 2 diabetes medications in one table: how each class lowers blood sugar, its A1C and weight effect, whether it causes hypoglycemia, pill or injection, and example names, with how the 2026 ADA Standards choose between them.",
+  "body": "<p><b>Diabetes medications</b> for type 2 diabetes fall into about ten classes: metformin, sulfonylureas, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists, the dual GIP/GLP-1 agonist tirzepatide, thiazolidinediones, insulin, and the amylin analogue pramlintide, plus a few older, rarely used groups. The 2026 American Diabetes Association (ADA) Standards of Care do not name one best drug; they choose by heart, kidney and weight goals, hypoglycemia risk and cost [[1]]. The table below lists every class with how it works, its A1C and weight effect, and its route.</p><p>This is the main guide of the <b>type 2 diabetes medicines</b> topic in the <a href=\"/blog/cagrilintide-guide\">cagrilintide guide</a>. It explains where an amylin drug such as <a href=\"/compounds/cagrilintide\">cagrilintide</a> would join this list. It describes how clinicians choose and what labels state; it does not tell anyone which medicine to take.</p>",
+  "seo": {
+    "title": "Diabetes Medications List: Every Class Compared (2026)",
+    "description": "Compare every type 2 diabetes medication class: how it works, A1C and weight effect, hypoglycemia risk, pill or injection, and how ADA 2026 chooses."
+  },
+  "series": "cagrilintide",
+  "role": "pillar",
+  "parent": "/blog/cagrilintide-guide",
+  "topic": "Type 2 diabetes medicines",
+  "order": 5,
+  "about": [],
+  "sections": [
+    {
+      "id": "every-class",
+      "heading": "Diabetes medications list: every class in one table",
+      "lede": "Nine classes cover almost every prescription for type 2 diabetes. The efficacy, weight and hypoglycemia columns use the ADA's own grading.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Type 2 diabetes medication classes compared (ADA Standards of Care 2026 grading; pramlintide from its FDA label)</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">How it lowers glucose</th><th scope=\"col\">A1C-lowering effect</th><th scope=\"col\">Weight effect</th><th scope=\"col\">Causes hypoglycemia on its own?</th><th scope=\"col\">Route</th><th scope=\"col\">Example names</th></tr></thead><tbody><tr><td><b>Metformin</b> (biguanide)</td><td>Lowers glucose output from the liver; improves insulin sensitivity</td><td>High</td><td>Neutral, possible modest loss</td><td>No</td><td>Tablet</td><td>Metformin, Glucophage</td></tr><tr><td><b>Sulfonylureas</b></td><td>Make the pancreas release more insulin, whatever the glucose level</td><td>High</td><td>Gain</td><td>Yes</td><td>Tablet</td><td>Glipizide, glimepiride, glyburide</td></tr><tr><td><b>DPP-4 inhibitors</b></td><td>Slow the breakdown of the body's own GLP-1 and GIP</td><td>Intermediate</td><td>Neutral</td><td>No</td><td>Tablet</td><td>Sitagliptin (Januvia), linagliptin (Tradjenta)</td></tr><tr><td><b>SGLT2 inhibitors</b></td><td>Make the kidneys pass glucose into the urine</td><td>Intermediate to high</td><td>Loss</td><td>No</td><td>Tablet</td><td>Empagliflozin (Jardiance), dapagliflozin (Farxiga)</td></tr><tr><td><b>GLP-1 receptor agonists</b></td><td>Raise insulin and lower glucagon when glucose is high; slow stomach emptying; reduce appetite</td><td>High to very high</td><td>Loss, intermediate to very high</td><td>No</td><td>Injection; semaglutide also as a tablet</td><td>Semaglutide (Ozempic, Rybelsus), dulaglutide (Trulicity), liraglutide (Victoza)</td></tr><tr><td><b>Dual GIP/GLP-1 agonist</b></td><td>Activates both incretin receptors</td><td>Very high</td><td>Loss, very high</td><td>No</td><td>Weekly injection</td><td>Tirzepatide (Mounjaro)</td></tr><tr><td><b>Thiazolidinediones</b> (TZDs)</td><td>Make muscle, fat and liver more sensitive to insulin</td><td>High</td><td>Gain</td><td>No</td><td>Tablet</td><td>Pioglitazone (Actos)</td></tr><tr><td><b>Insulin</b></td><td>Replaces or adds to the body's own insulin</td><td>Highest</td><td>Gain</td><td>Yes</td><td>Injection or pump</td><td>Glargine, degludec, NPH, lispro, aspart</td></tr><tr><td><b>Amylin analogue</b></td><td>Slows stomach emptying, lowers glucagon after meals, increases fullness</td><td>Not graded in ADA's type 2 comparison</td><td>Modest loss</td><td>Severe lows when combined with insulin</td><td>Injection before meals</td><td>Pramlintide (Symlin); cagrilintide is investigational</td></tr></tbody></table></div></div><p>The A1C, weight and hypoglycemia columns follow the grading the ADA uses to compare glucose-lowering medicines in Section 9 of its Standards [[1]]. A network meta-analysis of <b>453 randomised trials</b> covering 21 treatments from 9 classes reached a consistent picture: insulin regimens and some GLP-1 receptor agonists added to metformin produced the largest A1C reductions, and in drug-naive people at low cardiovascular risk no treatment differed from another [[2]].</p><p>Pramlintide sits apart. Its FDA label approves it only for people with type 1 or type 2 diabetes who use mealtime insulin, and it carries a boxed warning for severe hypoglycemia when used with insulin [[3]]. Two older tablet classes, meglitinides (repaglinide, nateglinide) and alpha-glucosidase inhibitors (acarbose, miglitol), are still approved but rarely chosen; the <a href=\"/blog/hypoglycemic-drugs\">hypoglycemic drugs classification</a> guide covers them with the rest of the oral agents.</p>"
+    },
+    {
+      "id": "how-they-work",
+      "heading": "How diabetes drugs lower blood sugar: five routes",
+      "lede": "Each class acts on a different organ, which is why they can be combined.",
+      "html": "<p>Type 2 diabetes combines two problems: the body responds less to insulin, and the pancreas cannot make enough extra insulin to compensate. The drug classes attack that from different directions:</p><ul><li><b>The liver.</b> Metformin reduces the glucose the liver releases between meals, the main reason fasting glucose runs high.</li><li><b>The pancreas.</b> Sulfonylureas and meglitinides force insulin release at any glucose level. The incretin drugs (DPP-4 inhibitors, GLP-1 receptor agonists and tirzepatide) increase insulin only when glucose is raised, and also lower glucagon, the hormone that pushes glucose up.</li><li><b>The kidney.</b> SGLT2 inhibitors block glucose reabsorption so more leaves in the urine, which lowers glucose and also reduces strain on the heart and kidneys.</li><li><b>The gut and the brain.</b> GLP-1 drugs, tirzepatide and amylin analogues slow stomach emptying and reduce appetite, which is where most of their weight effect comes from. Alpha-glucosidase inhibitors slow carbohydrate digestion.</li><li><b>Muscle and fat.</b> Pioglitazone makes tissues more sensitive to insulin.</li></ul><p>Because the routes are separate, the effects add up: a person on metformin plus an SGLT2 inhibitor plus a GLP-1 drug is using three different mechanisms. The two most-studied incretin drugs have their own evidence records on this site: <a href=\"/compounds/semaglutide\">semaglutide</a> and <a href=\"/compounds/tirzepatide\">tirzepatide</a>. Insulin is different again: it replaces the hormone itself, so it works whatever the underlying cause, and its dose can be raised until glucose comes down, at the price of hypoglycemia and weight gain.</p>"
+    },
+    {
+      "id": "oral-vs-injectable",
+      "heading": "Oral diabetes medications and injectable diabetes medicines",
+      "lede": "Most people with type 2 diabetes start on tablets; injectables come in when goals, weight or heart and kidney risk call for them.",
+      "html": "<p><b>Oral diabetes medications</b> (the searches for diabetes tablets names, type 2 diabetes pills and sugar pills for diabetics all mean these) are metformin, sulfonylureas, DPP-4 inhibitors, SGLT2 inhibitors, pioglitazone, the meglitinides, the alpha-glucosidase inhibitors and one oral GLP-1 receptor agonist, semaglutide tablets (Rybelsus). Many are sold as two-drug combination tablets, for example empagliflozin with metformin. The <a href=\"/blog/glucose-pills\">guide to glucose pills</a> goes through the tablets one by one, and <a href=\"/blog/jardiance-for-type-2-diabetes\">Jardiance for type 2 diabetes</a> covers the best-known SGLT2 inhibitor in detail.</p><p><b>Injectable diabetes medicines</b> are the GLP-1 receptor agonists, tirzepatide, insulin and pramlintide. GLP-1 drugs and tirzepatide are mostly once-weekly pens; the ADA prefers them to insulin when a person needs the stronger effect of an injectable, and recommends combining them with insulin when insulin is used [[1]]. The tirzepatide label tells prescribers to consider lowering the dose of a sulfonylurea or insulin when tirzepatide is started, because the combination raises the risk of hypoglycemia [[4]]. The <a href=\"/blog/type-2-diabetes-treatments\">type 2 diabetes treatments</a> guide sets out when injections enter the sequence, and <a href=\"/blog/metformin-vs-insulin\">metformin vs insulin</a> compares the oldest tablet with the oldest injection.</p><p><b>Over-the-counter diabetes medication</b> does not exist in the sense people search for: every class in the table needs a prescription in the United States. Supplements sold for blood sugar are not approved to treat diabetes. <b>Generic diabetes medications</b> exist for the older classes, including metformin, glipizide, glimepiride, glyburide, pioglitazone and human insulin, which is one reason cost weighs on the choice.</p>"
+    },
+    {
+      "id": "which-is-best",
+      "heading": "Which medicine is best for a diabetic patient? How the 2026 ADA guidelines choose",
+      "lede": "The guidelines answer this with a set of conditions, not a single drug name.",
+      "html": "<p>The 2026 Standards frame the choice as <b>shared decision-making</b> between the person and their clinician, built around a few questions [[1]]:</p><ul><li><b>Heart disease or high cardiovascular risk:</b> a GLP-1 receptor agonist or SGLT2 inhibitor with proven cardiovascular benefit, whatever the A1C [[1]].</li><li><b>Heart failure:</b> an SGLT2 inhibitor. New in 2026, semaglutide injection and tirzepatide are listed for people with obesity and heart failure with preserved ejection fraction [[1]].</li><li><b>Chronic kidney disease:</b> an SGLT2 inhibitor, with a GLP-1 receptor agonist now also an option [[1]].</li><li><b>Weight:</b> GLP-1 receptor agonists and dual GIP/GLP-1 agonists are the preferred agents when weight management is a goal [[1]].</li><li><b>Hypoglycemia risk:</b> sulfonylureas and insulin carry it; the other classes do not on their own.</li><li><b>Cost and access:</b> metformin, sulfonylureas and pioglitazone are generic and inexpensive; the newer classes are not.</li></ul><p>Metformin remains the usual first tablet when none of those conditions applies, because it is effective, does not cause hypoglycemia and costs little [[1]]. The trial evidence fits that order: across 453 trials, specific GLP-1 receptor agonists and SGLT2 inhibitors reduced death and heart or kidney events only in people at increased cardiovascular risk, and SGLT2 inhibitors reduced heart failure hospitalisation and end-stage kidney disease [[2]]. So <b>the best medicine for a diabetic patient</b> depends on which of these conditions they have, which is why two people with the same A1C can end up on different drugs.</p><p>For the full sequence, from lifestyle to a second and third medicine, see <a href=\"/blog/type-2-diabetes-treatments\">type 2 diabetes treatments, step by step</a>.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Side effects of diabetes medication, class by class",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Main label warning and common side effects of each diabetes medication class (FDA labels and ADA Standards 2026)</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Main warning</th><th scope=\"col\">Common side effects</th></tr></thead><tbody><tr><td>Metformin</td><td>Boxed warning: lactic acidosis, rare; not for severe kidney impairment (eGFR below 30) [[5]]</td><td>Diarrhoea, nausea, stomach upset</td></tr><tr><td>Sulfonylureas</td><td>Hypoglycemia [[1]]</td><td>Weight gain</td></tr><tr><td>DPP-4 inhibitors</td><td>No boxed warning</td><td>Generally well tolerated</td></tr><tr><td>SGLT2 inhibitors</td><td>Ketoacidosis, dehydration and low blood pressure, genital yeast infections [[6]]</td><td>Passing more urine</td></tr><tr><td>GLP-1 receptor agonists</td><td>Boxed warning: thyroid C-cell tumours in rodents; not for people with a personal or family history of medullary thyroid cancer or MEN 2 [[7]]</td><td>Nausea, vomiting, diarrhoea, constipation</td></tr><tr><td>Tirzepatide</td><td>Same thyroid boxed warning; hypoglycemia when combined with a sulfonylurea or insulin [[4]]</td><td>Nausea, diarrhoea, reduced appetite</td></tr><tr><td>Pioglitazone</td><td>Boxed warning: can cause or worsen heart failure [[8]]</td><td>Weight gain, fluid retention</td></tr><tr><td>Insulin</td><td>Hypoglycemia [[1]]</td><td>Weight gain</td></tr><tr><td>Pramlintide</td><td>Boxed warning: severe hypoglycemia with insulin [[3]]</td><td>Nausea</td></tr></tbody></table></div></div><p>Low blood sugar is the side effect that most separates the classes: only insulin, sulfonylureas, meglitinides and pramlintide with insulin lower glucose regardless of how high it is. The <a href=\"/blog/hypoglycemic-drugs\">hypoglycemic drugs</a> guide lists which drugs cause lows and, the other way round, which common medicines raise blood sugar.</p>"
+    },
+    {
+      "id": "amylin-drugs",
+      "heading": "Where amylin drugs such as cagrilintide fit",
+      "lede": "Amylin is the hormone released with insulin; one amylin drug is approved and a long-acting one is in late trials.",
+      "html": "<p>Pramlintide, approved in 2005, is the only amylin analogue on the market. It is injected before meals by people who already use mealtime insulin [[3]], which keeps it a niche drug. <a href=\"/compounds/cagrilintide\">Cagrilintide</a> is a long-acting amylin analogue given once a week, and its main use in trials is in a single injection with semaglutide called <a href=\"/stacks/cagrisema\">CagriSema</a>. The <a href=\"/blog/how-cagrilintide-works\">how cagrilintide works</a> guide covers the mechanism, and <a href=\"/blog/amylin-analogs\">amylin analogs</a> compares the class.</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>CagriSema in type 2 diabetes: the three published REIMAGINE trials</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Who took part</th><th scope=\"col\">Comparator</th><th scope=\"col\">Length</th><th scope=\"col\">A1C result</th></tr></thead><tbody><tr><td>REIMAGINE 1</td><td>Adults on diet and exercise only</td><td>Placebo</td><td>40 weeks</td><td><b>-1.8</b> points vs -0.1 on placebo [[9]]</td></tr><tr><td>REIMAGINE 2</td><td>2,713 adults on metformin, mean A1C 8.2%</td><td>Semaglutide 2.4 mg, cagrilintide alone, placebo</td><td>68 weeks</td><td><b>-1.91</b> vs -1.75 on semaglutide 2.4 mg, a difference of 0.16 points [[10]]</td></tr><tr><td>REIMAGINE 3</td><td>274 adults on basal insulin, mean A1C 8.8%</td><td>Placebo</td><td>40 weeks</td><td><b>-2.33</b> vs -0.66 on placebo; 10 to 12% weight loss; no severe hypoglycemia [[11]]</td></tr></tbody></table></div></div><p>Two things follow from the table. The combination lowers A1C about as much as the strongest classes above, but against semaglutide alone the extra A1C effect was small; the larger difference was in body weight. The <a href=\"/compare/cagrilintide-vs-semaglutide\">cagrilintide vs semaglutide</a> comparison shows the arms side by side.</p><p>CagriSema is <b>not approved</b> for diabetes or anything else. Novo Nordisk filed it with the FDA in December 2025 for weight management in adults with obesity or overweight, not for diabetes [[12]]. If it is approved, it would sit in the injectable group of the table, next to the GLP-1 receptor agonists. The <a href=\"/blog/new-weight-loss-drugs\">new weight-loss drugs</a> guide follows that filing.</p>"
+    },
+    {
+      "id": "beyond-the-list",
+      "heading": "New diabetes drugs, prediabetes and remission",
+      "html": "<p>The newest approval in this space is orforglipron (Foundayo), a non-peptide GLP-1 pill that the FDA approved on <b>April 1, 2026</b> for adults with obesity or overweight with weight-related problems [[13]]. That approval is for weight, not type 2 diabetes; diabetes trials have reported, and the <a href=\"/blog/new-diabetes-medications\">new diabetes medications</a> guide tracks where that filing stands, along with the other drugs in late trials.</p><p>Two related questions have their own guides. <a href=\"/blog/prediabetes-medication\">Prediabetes medication</a> covers what is used before diabetes is diagnosed, and <a href=\"/blog/type-2-diabetes-remission\">type 2 diabetes remission</a> explains what the evidence shows about bringing A1C below the diabetes range without medicines, which is the term the research uses rather than cure.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the most common medication for type 2 diabetes?",
+      "answer": "Metformin. The ADA Standards describe it as effective, inexpensive and free of hypoglycemia on its own, which is why it is usually the first tablet when no heart, kidney or weight condition points elsewhere [[1]]."
+    },
+    {
+      "question": "What drugs are similar to metformin?",
+      "answer": "No other drug works the same way; metformin is the only biguanide in use. The tablets that fill a similar role, oral, low hypoglycemia risk and taken daily, are the DPP-4 inhibitors, the SGLT2 inhibitors and pioglitazone. Which one is chosen depends on the conditions in the ADA list above."
+    },
+    {
+      "question": "Which diabetes drugs lower A1C the most?",
+      "answer": "Insulin, then tirzepatide and the stronger GLP-1 receptor agonists such as semaglutide, which the ADA grades very high; metformin, sulfonylureas and pioglitazone are graded high, and DPP-4 inhibitors intermediate [[1]]."
+    },
+    {
+      "question": "Is there an over-the-counter medication for type 2 diabetes?",
+      "answer": "No. Every glucose-lowering medicine in the table needs a prescription in the United States, and supplements marketed for blood sugar are not approved treatments for diabetes."
+    },
+    {
+      "question": "Is CagriSema approved for type 2 diabetes?",
+      "answer": "No. It completed phase 3 trials in type 2 diabetes, but the December 2025 FDA filing was for weight management, and no country has approved it [[12]]."
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmid-41358900",
+      "title": "9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358900",
+      "published": "2025-12-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32598218",
+      "title": "Comparative Effectiveness of Glucose-Lowering Drugs for Type 2 Diabetes: A Systematic Review and Network Meta-analysis.",
+      "url": "https://europepmc.org/article/MED/32598218",
+      "published": "2020-06-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "fda-symlin-label-2019",
+      "title": "SYMLIN (pramlintide acetate) injection prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/021332s028lbl.pdf",
+      "published": "2019-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "fda-mounjaro-label-2025",
+      "title": "MOUNJARO (tirzepatide) injection prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215866s031lbl.pdf",
+      "published": "2025-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "fda-glucophage-label-2018",
+      "title": "GLUCOPHAGE / GLUCOPHAGE XR (metformin hydrochloride) prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/020357s034,021202s018lbl.pdf",
+      "published": "2018-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "fda-jardiance-label-2025",
+      "title": "JARDIANCE (empagliflozin tablets) prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/204629s063lbl.pdf",
+      "published": "2025-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "fda-ozempic-label-2026",
+      "title": "OZEMPIC (semaglutide) injection prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/209637s038lbl.pdf",
+      "published": "2026-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "fda-actos-label-2016",
+      "title": "ACTOS (pioglitazone) tablets prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/021073s048lbl.pdf",
+      "published": "2016-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "pmid-42251860",
+      "title": "Efficacy and safety of once-weekly cagrilintide-semaglutide (CagriSema) in adults with type 2 diabetes inadequately controlled on diet and exercise (REIMAGINE 1): a randomised, double-blind, placebo-controlled, phase 3a study.",
+      "url": "https://europepmc.org/article/MED/42251860",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251859",
+      "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251859",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251856",
+      "title": "Cagrilintide-semaglutide (CagriSema) as an add-on to basal insulin in adults with type 2 diabetes (REIMAGINE 3): a randomised, double-blind, placebo-controlled, multicentre, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251856",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-cagrisema-nda-2025-12-18",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues for weight management",
+      "url": "https://www.novonordisk-us.com/media/press-releases/novo-nordisk-cagrisema-fda-nda-submission.html",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "lilly-foundayo-approval-2026-04-01",
+      "title": "FDA approves Lilly's Foundayo (orforglipron), the only GLP-1 pill for weight loss that can be taken any time of day without food or water restrictions",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill",
+      "published": "2026-04-01",
+      "kind": "manufacturer"
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: every type 2 diabetes medication class in one table (mechanism, ADA 2026 A1C and weight grading, hypoglycemia, route, names), oral vs injectable, how ADA 2026 chooses, label warnings by class, and where amylin drugs and CagriSema fit."
+    }
+  ],
+  "uniqueness_pct": 97.9
+}
