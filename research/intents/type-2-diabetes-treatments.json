@@ -1,0 +1,161 @@
+{
+ "slug": "type-2-diabetes-treatments",
+ "type": "post",
+ "generated": "2026-10-29",
+ "h1": "Type 2 diabetes treatments: how treatment is chosen, step by step, in current guidelines",
+ "dek": "Type 2 diabetes treatment starts with nutrition, activity and education, adds medicines chosen by heart, kidney and weight goals, and moves to injections such as GLP-1 drugs and insulin when needed. This is the sequence the 2026 ADA Standards describe.",
+ "scope": "Informational. Describes how guidelines sequence treatment; no personal treatment advice.",
+ "queries": [
+  {
+   "query": "type 2 diabetes treatments",
+   "volume": {
+    "semrush": 9900,
+    "kd": 54,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "answer",
+   "section": "steps",
+   "heading": "Diabetes mellitus type 2 treatment, step by step"
+  },
+  {
+   "query": "mellitus diabetes treatment",
+   "volume": {
+    "semrush": 5400,
+    "kd": 61,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "answer",
+   "section": "steps",
+   "heading": "Diabetes mellitus type 2 treatment, step by step"
+  },
+  {
+   "query": "diabetes mellitus type 2 treatment",
+   "volume": {
+    "semrush": 4400,
+    "kd": 63,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "answer",
+   "section": "steps",
+   "heading": "Diabetes mellitus type 2 treatment, step by step"
+  },
+  {
+   "query": "treating type ii diabetes",
+   "volume": {
+    "semrush": 1900,
+    "kd": 59,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "answer",
+   "section": "steps",
+   "heading": "Diabetes mellitus type 2 treatment, step by step"
+  },
+  {
+   "query": "cure for type 2 diabetes",
+   "volume": {
+    "semrush": 720,
+    "kd": 41,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "evidence-with-boundary",
+   "section": "cure",
+   "heading": "Is there a cure for type 2 diabetes? What remission means",
+   "boundary": "No treatment is called a cure in the evidence; trials measure remission, and blood sugar can rise again."
+  },
+  {
+   "query": "type 2 diabetes injections",
+   "volume": {
+    "semrush": 210,
+    "kd": 41,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "answer",
+   "section": "injections",
+   "heading": "Type 2 diabetes injections: GLP-1 drugs, tirzepatide, insulin and amylin"
+  },
+  {
+   "query": "injectable insulin for type 2 diabetes",
+   "volume": {
+    "semrush": 210,
+    "kd": 43,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "answer",
+   "section": "insulin",
+   "heading": "Injectable insulin for type 2 diabetes: when it is used"
+  },
+  {
+   "query": "injectable diabetes",
+   "volume": {
+    "semrush": 70,
+    "kd": 20,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "policy": "answer",
+   "section": "injections",
+   "heading": "Type 2 diabetes injections: GLP-1 drugs, tirzepatide, insulin and amylin"
+  }
+ ],
+ "competitors": [
+  {
+   "url": "https://www.nhs.uk/conditions/type-2-diabetes/treatment/",
+   "rank": null,
+   "gap": "UK patient overview; not the ADA 2026 sequence and no trial numbers for remission or injectables",
+   "source": "Semrush top-10; not fetched"
+  },
+  {
+   "url": "https://www.mayoclinic.org/diseases-conditions/type-2-diabetes/diagnosis-treatment/drc-20351199",
+   "rank": null,
+   "gap": "Narrative treatment list; no step table and no 2026 guideline changes (HFpEF, CKD)",
+   "source": "Semrush top-10; not fetched"
+  },
+  {
+   "url": "https://my.clevelandclinic.org/health/diseases/21501-type-2-diabetes",
+   "rank": null,
+   "gap": "Disease overview; treatment is one short section with no cited trials",
+   "source": "Semrush top-10; not fetched"
+  }
+ ],
+ "information_gain": "A single step table of the ADA 2026 treatment sequence with each step cited, an injectables table that places GLP-1 drugs before insulin with label-stated cautions, and DiRECT's 12- and 24-month remission numbers answering the 'cure' query in the evidence's own term.",
+ "serp_format_rewarded": "Explainer with steps/list, PAA on first treatment and injections; AI Overview",
+ "outline": [
+  {
+   "id": "steps",
+   "heading": "Diabetes mellitus type 2 treatment, step by step",
+   "from": "ADA 2026 Sections 5, 6, 9"
+  },
+  {
+   "id": "lifestyle",
+   "heading": "Lifestyle treatment: food, activity and weight",
+   "from": "ADA 2026 Section 5; DiRECT 12-month"
+  },
+  {
+   "id": "first-medicine",
+   "heading": "How the first diabetes medicine is chosen",
+   "from": "ADA 2026 Section 9; Tsapas 2020"
+  },
+  {
+   "id": "injections",
+   "heading": "Type 2 diabetes injections: GLP-1 drugs, tirzepatide, insulin and amylin",
+   "from": "ADA 2026 Section 9; Ozempic, Mounjaro, Symlin labels; REIMAGINE 3"
+  },
+  {
+   "id": "insulin",
+   "heading": "Injectable insulin for type 2 diabetes: when it is used",
+   "from": "ADA 2026 Sections 6 and 9"
+  },
+  {
+   "id": "cure",
+   "heading": "Is there a cure for type 2 diabetes? What remission means",
+   "from": "DiRECT 12- and 24-month results"
+  }
+ ]
+}
