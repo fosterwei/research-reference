@@ -24,7 +24,7 @@ from collections import Counter
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
-TYPES = {"compounds": "compounds", "stacks": "stacks", "compare": "comparisons"}
+TYPES = {"compounds": "compounds", "stacks": "stacks", "compare": "comparisons", "blog": "posts"}
 
 
 def main_text(html: str) -> str:

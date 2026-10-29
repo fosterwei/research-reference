@@ -31,7 +31,9 @@ def status():
         mp = ROOT / 'research/intents' / f'{slug}.json'
         m = json.load(mp.open()) if mp.exists() else {}
         qs = m.get('queries', [])
-        vol = bool(qs) and all(((q.get('volume') or {}).get('clickstream') is not None) or ((q.get('volume') or {}).get('google_ads') is not None) for q in qs)
+        # A measured volume from any instrument counts: DataForSEO clickstream or Ads, or a Semrush export.
+        # A recorded measured absence (key present, value null, with a source) counts too.
+        vol = bool(qs) and all(any(k in (q.get('volume') or {}) for k in ('clickstream', 'google_ads', 'semrush')) for q in qs)
         audits = glob.glob(str(ROOT / f'research/audits/{slug}-*.md'))
         texts = [open(a).read() for a in audits]
         page = ROOT / 'dist' / t / slug / 'index.html'
