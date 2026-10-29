@@ -1,0 +1,136 @@
+{
+  "type": "post",
+  "slug": "hypoglycemic-drugs",
+  "status": "draft",
+  "category": "Research",
+  "title": "Hypoglycemic drugs: the glucose-lowering classes, and the medicines that raise blood sugar",
+  "short_title": "Hypoglycemic drugs",
+  "excerpt": "Hypoglycemic drugs, also called antihyperglycemic or antidiabetic agents, are the medicines that lower blood sugar. Here they are classified in one table with the classes that can cause hypoglycemia, and a second table lists common drugs that increase blood sugar.",
+  "body": "<p><b>Hypoglycemic drugs</b> are medicines that lower blood glucose; the same group is called <b>antihyperglycemic</b> or <b>antidiabetic agents</b>. For type 2 diabetes they include metformin, sulfonylureas, meglitinides, DPP-4 inhibitors, SGLT2 inhibitors, thiazolidinediones, alpha-glucosidase inhibitors, GLP-1 receptor agonists, tirzepatide, insulin and pramlintide [[1]]. Only some of them can push glucose too low. The tables below classify the oral agents, mark which classes cause hypoglycemia, and list the common medicines that do the opposite and raise blood sugar.</p><p>This guide sits under <a href=\"/blog/diabetes-medications\">diabetes medications</a>, which compares every class on A1C, weight and route.</p>",
+  "seo": {
+    "title": "Hypoglycemic Drugs: Classes, Lows and Drugs That Raise Sugar",
+    "description": "Hypoglycemic and antidiabetic drug classes in one table, which ones cause low blood sugar, and a list of common drugs that increase blood sugar."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/blog/diabetes-medications",
+  "topic": "Type 2 diabetes medicines",
+  "order": 4,
+  "about": [],
+  "sections": [
+    {
+      "id": "terms",
+      "heading": "What are hypoglycemic agents? The terms explained",
+      "html": "<p>The three names overlap, and textbooks use them loosely:</p><ul><li><b>Hypoglycemic agent</b>: the older term, literally a drug that lowers glucose. It is still common in phrases such as oral hypoglycemic drugs.</li><li><b>Antihyperglycemic agent</b>: a drug that lowers high glucose. Pharmacologists prefer it for metformin, SGLT2 inhibitors and similar drugs because they lower raised glucose without driving it below normal on their own.</li><li><b>Antidiabetic agent</b>: any medicine used to treat diabetes, injectable or oral. Drug databases file the whole group under this name.</li></ul><p>The distinction matters in one place: a drug can be antihyperglycemic without being able to cause hypoglycemia, which is the practical question most people are asking.</p>"
+    },
+    {
+      "id": "oral-classification",
+      "heading": "Oral hypoglycemic drugs: classification table",
+      "lede": "Eight oral antidiabetic drug classes, grouped by how they act.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Oral antidiabetic drugs classification: class, examples, mechanism and hypoglycemia risk when used alone</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Examples</th><th scope=\"col\">Mechanism</th><th scope=\"col\">Causes hypoglycemia alone?</th></tr></thead><tbody><tr><td>Biguanide</td><td>Metformin</td><td>Lowers liver glucose output; improves insulin sensitivity</td><td>No</td></tr><tr><td>Sulfonylureas</td><td>Glipizide, glimepiride, glyburide</td><td>Stimulate insulin release regardless of glucose level</td><td><b>Yes</b></td></tr><tr><td>Meglitinides</td><td>Repaglinide, nateglinide</td><td>Short-acting stimulation of insulin release at meals</td><td><b>Yes</b></td></tr><tr><td>DPP-4 inhibitors</td><td>Sitagliptin, linagliptin, saxagliptin, alogliptin</td><td>Prolong the body's own GLP-1 and GIP</td><td>No</td></tr><tr><td>SGLT2 inhibitors</td><td>Empagliflozin, dapagliflozin, canagliflozin, ertugliflozin</td><td>Increase glucose loss in urine</td><td>No</td></tr><tr><td>Thiazolidinediones</td><td>Pioglitazone</td><td>Increase insulin sensitivity in muscle, fat and liver</td><td>No</td></tr><tr><td>Alpha-glucosidase inhibitors</td><td>Acarbose, miglitol</td><td>Slow carbohydrate digestion in the gut</td><td>No</td></tr><tr><td>Oral GLP-1 receptor agonist</td><td>Semaglutide tablets (Rybelsus)</td><td>Glucose-dependent insulin release; less glucagon; slower stomach emptying</td><td>No</td></tr></tbody></table></div></div><p>The grouping follows the drug classes the ADA Standards compare in Section 9 [[1]]. Two minor oral agents, colesevelam and bromocriptine, also carry a type 2 diabetes indication but are rarely used for glucose. Many oral agents come as fixed combinations, for example sitagliptin with metformin. The <a href=\"/blog/glucose-pills\">glucose pills</a> guide covers each tablet, and <a href=\"/blog/jardiance-for-type-2-diabetes\">Jardiance for type 2 diabetes</a> covers empagliflozin.</p>"
+    },
+    {
+      "id": "which-cause-lows",
+      "heading": "Which diabetes drugs cause hypoglycemia?",
+      "lede": "The answer depends on whether the drug raises insulin regardless of glucose.",
+      "html": "<p>Insulin and the insulin secretagogues, the sulfonylureas and meglitinides, are the medicines the ADA Standards identify with hypoglycemia risk [[2]]. They raise insulin whether glucose is high or normal, so a missed meal, extra exercise, alcohol or reduced kidney function can tip glucose too low.</p><p>The glucose-dependent classes do not cause hypoglycemia on their own but can add to it. The <a href=\"/compounds/tirzepatide\">tirzepatide</a> label warns that combining it with a sulfonylurea or insulin raises the risk, including of severe hypoglycemia, and tells prescribers to consider lower doses of those drugs when it is started [[3]]. Pramlintide carries a boxed warning for severe hypoglycemia when used with insulin, particularly in type 1 diabetes [[4]].</p><p>That is why a drug that does not cause lows itself can still appear on a hypoglycemia checklist. The <a href=\"/blog/metformin-vs-insulin\">metformin vs insulin</a> guide sets the two extremes side by side.</p>"
+    },
+    {
+      "id": "raise-blood-sugar",
+      "heading": "Drugs that increase blood sugar",
+      "lede": "Several common medicines raise glucose, usually modestly, sometimes enough to cause or unmask diabetes.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Medications that increase blood glucose, with the mechanism or size of effect reported</caption><thead><tr><th scope=\"col\">Drug group</th><th scope=\"col\">Examples</th><th scope=\"col\">What the evidence reports</th></tr></thead><tbody><tr><td>Glucocorticoids (steroids)</td><td>Prednisone, dexamethasone, hydrocortisone</td><td>Steroid diabetes is more frequent with high doses [[5]]</td></tr><tr><td>Thiazide diuretics</td><td>Hydrochlorothiazide, chlorthalidone</td><td>Glycemic adverse events more frequent than with calcium-channel blockers or ACE inhibitors [[5]]</td></tr><tr><td>Certain beta-blockers</td><td>Not the whole class; the review found differences between agents</td><td>Implicated more than other blood pressure drugs [[5]]</td></tr><tr><td>Statins</td><td>Atorvastatin, rosuvastatin, simvastatin</td><td>About 9% higher risk of new diabetes in trials [[6]]; FDA label change in 2012 [[7]]</td></tr><tr><td>Niacin (nicotinic acid)</td><td>Prescription niacin</td><td>Can alter glycemic control [[5]]</td></tr><tr><td>Second-generation antipsychotics</td><td>Olanzapine, clozapine, quetiapine</td><td>Hyperglycemia, diabetes and ketoacidosis, mainly through insulin resistance [[5]]</td></tr><tr><td>Antidepressants at high doses</td><td>Several classes</td><td>Associated with higher diabetes risk at high daily doses [[5]]</td></tr><tr><td>Fluoroquinolone antibiotics</td><td>Levofloxacin, ciprofloxacin</td><td>Severe glucose disturbances reported, especially at high doses [[5]]</td></tr><tr><td>HIV protease inhibitors</td><td>Older protease inhibitors</td><td>Alter glucose metabolism [[5]]</td></tr><tr><td>Calcineurin inhibitors (transplant)</td><td>Tacrolimus, cyclosporine</td><td>Mainly reduce insulin secretion [[5]]</td></tr><tr><td>Beta-agonists and theophylline</td><td>Salbutamol (albuterol) at high doses, theophylline</td><td>Hyperglycemia; ketoacidosis reported with beta-adrenergic stimulants [[5]]</td></tr><tr><td>Hormones</td><td>High-dose estrogen contraceptives, growth hormone, somatostatin analogues</td><td>May induce hyperglycemia [[5]]</td></tr><tr><td>Anticonvulsants and others</td><td>Phenytoin, valproic acid, pentamidine</td><td>May induce hyperglycemia; pentamidine by direct effect on pancreatic cells [[5]]</td></tr><tr><td>Cancer drugs</td><td>PI3K and mTOR inhibitors, immune checkpoint inhibitors</td><td>Named in the 2026 ADA Standards, with specific management recommendations [[1]]</td></tr></tbody></table></div></div><p>The mechanisms differ: some drugs reduce insulin secretion, some increase insulin resistance, some raise glucose output, and a few damage pancreatic cells directly [[5]]. The size of the effect also differs widely, from a large rise with high-dose steroids to a small shift in risk with statins. None of this means a prescribed medicine should be stopped; the review that compiled the list advises clinicians to identify and monitor people on these drugs.</p>"
+    },
+    {
+      "id": "statins",
+      "heading": "Statins and blood sugar: how large is the risk?",
+      "html": "<p>The best-quantified example is statins. A collaborative meta-analysis of <b>13 trials</b> with 91,140 participants found statin therapy associated with a <b>9%</b> higher risk of developing diabetes over about four years (odds ratio 1.09), or one extra case for every 255 people treated for four years [[6]]. The authors judged the risk low both in absolute terms and against the reduction in coronary events [[6]].</p><p>In February 2012 the FDA added increases in blood sugar and A1C to statin labels [[7]]. The meta-analysis authors concluded that clinical practice in people with moderate or high cardiovascular risk should not change [[6]], which is why the effect is usually handled by monitoring glucose.</p>"
+    },
+    {
+      "id": "steroids-cancer",
+      "heading": "Steroids and cancer medicines in the 2026 guidelines",
+      "html": "<p>The 2026 ADA Standards include recommendations on drug-induced high blood sugar in the pharmacology section [[1]]. During glucocorticoid treatment, glucose-lowering therapy is adjusted to keep individual goals. For hyperglycemia caused by mTOR or PI3K inhibitors, cancer drugs that block insulin signalling, metformin is the first-line choice, with insulin kept for severe hyperglycemia because it may blunt the cancer drug's effect. Immunotherapy-related diabetes can need insulin straight away to prevent ketoacidosis.</p><p>These are the drugs where a rise in glucose is expected rather than incidental, and where the treating team plans for it. The <a href=\"/blog/type-2-diabetes-treatments\">type 2 diabetes treatments</a> guide shows how these choices sit within the usual treatment sequence.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is metformin a hypoglycemic drug?",
+      "answer": "It is an oral hypoglycemic agent in the broad sense, since it lowers blood glucose, but it is better described as antihyperglycemic: on its own it does not usually cause hypoglycemia."
+    },
+    {
+      "question": "What is the difference between hypoglycemic and antihyperglycemic drugs?",
+      "answer": "Hypoglycemic drugs lower glucose and some can push it below normal, as insulin and sulfonylureas can. Antihyperglycemic drugs lower high glucose without, on their own, causing lows. In everyday use the terms are often interchanged."
+    },
+    {
+      "question": "Can prednisone raise blood sugar?",
+      "answer": "Yes. Glucocorticoids such as prednisone are among the drugs most often linked to high blood sugar, and steroid diabetes is more frequent at high doses [[5]]."
+    },
+    {
+      "question": "Do statins cause diabetes?",
+      "answer": "They slightly raise the risk. Across 13 trials, statins were linked to a 9% higher risk of new diabetes, about one extra case per 255 people treated for four years [[6]]."
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmid-41358900",
+      "title": "9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358900",
+      "published": "2025-12-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41358894",
+      "title": "6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358894",
+      "published": "2025-12-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "fda-mounjaro-label-2025",
+      "title": "MOUNJARO (tirzepatide) injection prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215866s031lbl.pdf",
+      "published": "2025-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "fda-symlin-label-2019",
+      "title": "SYMLIN (pramlintide acetate) injection prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/021332s028lbl.pdf",
+      "published": "2019-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "pmid-26370106",
+      "title": "Drug-Induced Hyperglycaemia and Diabetes.",
+      "url": "https://europepmc.org/article/MED/26370106",
+      "published": "2015-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20167359",
+      "title": "Statins and risk of incident diabetes: a collaborative meta-analysis of randomised statin trials.",
+      "url": "https://europepmc.org/article/MED/20167359",
+      "published": "2010-02-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "fda-statin-labeling-2012-02-28",
+      "title": "Cholesterol-lowering drugs get labeling changes (FDA consumer update)",
+      "url": "https://www.fda.gov/drugs/resourcesforyou/specialfeatures/ucm290856.htm",
+      "published": "2012-02-28",
+      "kind": "regulatory"
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: hypoglycemic, antihyperglycemic and antidiabetic terminology, oral antidiabetic classification table, which classes cause hypoglycemia, drugs that increase blood sugar (table), statin risk size, and the 2026 ADA steroid and cancer-drug recommendations."
+    }
+  ],
+  "uniqueness_pct": 96.4
+}
