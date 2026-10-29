@@ -1,0 +1,151 @@
+{
+  "type": "post",
+  "slug": "metformin-vs-insulin",
+  "status": "draft",
+  "category": "Research",
+  "title": "Metformin vs insulin: how much each lowers A1C, and how they differ",
+  "short_title": "Metformin vs insulin",
+  "excerpt": "Metformin lowers A1C by about 1.1 percentage points on its own; insulin can lower it as far as needed but brings low blood sugar and weight gain. Here is what the trials measured for each, and when the 2026 ADA Standards use one, the other, or both.",
+  "body": "<p>Yes, <b>metformin lowers A1C</b>. A meta-analysis of 35 trials found that metformin on its own lowered A1C by <b>1.12 percentage points</b> more than placebo, by 0.95 points when added to other tablets and by 0.60 points when added to insulin [[1]]. Insulin works differently: it has no fixed ceiling, so its dose can be raised until glucose comes down, but it causes more low blood sugar and weight gain than metformin [[2]][[3]].</p><p>That is the core of <b>insulin vs metformin</b>. Metformin is the usual first tablet for type 2 diabetes; insulin is essential in type 1 diabetes and is added in type 2 when other drugs no longer hold glucose down or when it is very high [[2]]. This page belongs to the guide to <a href=\"/blog/diabetes-medications\">diabetes medications</a>; the wider sequence is in <a href=\"/blog/type-2-diabetes-treatments\">type 2 diabetes treatments</a>.</p>",
+  "seo": {
+    "title": "Metformin vs Insulin: A1C Effect, Safety and Side Effects",
+    "description": "How much metformin lowers A1C, how insulin differs, which causes more low blood sugar and weight gain, and when ADA 2026 guidance uses each."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/blog/diabetes-medications",
+  "topic": "Type 2 diabetes medicines",
+  "order": 3,
+  "about": [],
+  "sections": [
+    {
+      "id": "a1c",
+      "heading": "How much does metformin lower A1C?",
+      "html": "<p>The best single estimate comes from a 2012 meta-analysis of trials lasting at least 12 weeks [[1]]:</p><ul><li><b>Metformin alone vs placebo:</b> A1C 1.12 points lower.</li><li><b>Added to another tablet:</b> 0.95 points lower than the other tablet alone.</li><li><b>Added to insulin:</b> 0.60 points lower than insulin alone.</li></ul><p>Higher doses lowered A1C more than lower doses, without a significant increase in side effects in those trials [[1]]. The figures are averages, and the trials behind them differed a great deal: the meta-analysis reported high heterogeneity, with an I² of about 80% for the monotherapy estimate [[1]].</p><p>Over the long term, the UK Prospective Diabetes Study followed overweight adults with newly diagnosed type 2 diabetes for a median of 10.7 years. Median A1C was 7.4% on metformin and 8.0% on conventional, mainly diet-based treatment [[4]]. A network meta-analysis of 453 trials later found that insulin regimens and some GLP-1 receptor agonists added to metformin produced the largest A1C reductions of all the options [[5]].</p>"
+    },
+    {
+      "id": "how-they-work",
+      "heading": "How metformin and insulin work differently",
+      "html": "<p>Metformin does not add insulin to the body. Its label describes three actions: it lowers the amount of glucose the liver releases, reduces how much glucose the gut absorbs, and makes muscle and other tissue respond better to the insulin already there [[6]]. Because it does not push insulin levels up, it rarely drives glucose too low on its own [[2]].</p><p>Insulin is the hormone itself. Injected insulin moves glucose into cells whatever the person's own insulin output, which is why it works when the pancreas makes too little and why too large a dose for the food eaten produces hypoglycemia [[2]]. That difference in mechanism explains most of the differences in the table below: metformin has a natural limit to how far it lowers A1C, and insulin does not, but insulin needs dose adjustment and glucose monitoring.</p>"
+    },
+    {
+      "id": "compare-table",
+      "heading": "Insulin vs metformin side by side",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Insulin vs metformin in type 2 diabetes: how they compare</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">Metformin</th><th scope=\"col\">Insulin</th></tr></thead><tbody>\n<tr><th scope=\"row\">What it is</th><td>A biguanide tablet, generic</td><td>A hormone, given by injection or pump</td></tr>\n<tr><th scope=\"row\">How it lowers glucose</th><td>Reduces glucose output from the liver, reduces glucose absorption from the gut and improves insulin sensitivity [[6]]</td><td>Replaces or adds to the body's own insulin</td></tr>\n<tr><th scope=\"row\">A1C effect</th><td>About <b>1.1 points</b> vs placebo as a single drug [[1]]</td><td>The ADA rates it the most potent; the dose is adjusted until glucose goals are met [[2]]</td></tr>\n<tr><th scope=\"row\">Low blood sugar on its own</th><td>Not usually [[2]]</td><td>Yes; 1.8% a year had major episodes in UKPDS [[3]]</td></tr>\n<tr><th scope=\"row\">Weight</th><td>Neutral, possible modest loss [[2]]</td><td>Gain; <b>4.0 kg</b> on average in UKPDS [[3]]</td></tr>\n<tr><th scope=\"row\">Common side effects</th><td>Diarrhea, nausea and vomiting, gas, indigestion [[6]]</td><td>Hypoglycemia and weight gain [[2]]</td></tr>\n<tr><th scope=\"row\">Main label warning</th><td>Boxed warning for lactic acidosis, which is rare; lowers vitamin B12 [[6]]</td><td>Hypoglycemia</td></tr>\n<tr><th scope=\"row\">Used in type 1 diabetes</th><td>No; its label is for type 2 [[6]]</td><td>Yes, essential</td></tr>\n<tr><th scope=\"row\">Usual place in type 2 care</th><td>Common first medicine [[2]]</td><td>Added when other drugs fall short, or early when glucose is very high [[2]]</td></tr>\n</tbody></table></div></div><p>The table compares the drugs as classes. Insulin comes in several forms, from long-acting basal insulin to mealtime insulin, and the hypoglycemia risk differs between regimens. The <a href=\"/blog/hypoglycemic-drugs\">hypoglycemic drugs</a> guide lists which classes cause low blood sugar.</p>"
+    },
+    {
+      "id": "safety",
+      "heading": "Which is safer, insulin or metformin?",
+      "html": "<p>On the two risks people ask about most, low blood sugar and weight, metformin comes out ahead in the trials. In UKPDS, intensive treatment caused more hypoglycemia than conventional treatment; major episodes occurred in <b>1.8%</b> of people a year on insulin, against 1.0% on chlorpropamide, 1.4% on glibenclamide and 0.7% with conventional care [[3]]. People assigned insulin gained 4.0 kg on average [[3]]. The metformin analysis found less weight gain and fewer hypoglycemic attacks than with insulin or sulfonylureas [[4]].</p><p>Metformin also showed outcome benefits in that population. Compared with conventional care, overweight adults allocated metformin had a 32% lower risk of any diabetes-related endpoint and a 36% lower risk of death from any cause [[4]].</p><p>Metformin has its own risks. Its label carries a boxed warning for lactic acidosis, which is rare and linked mainly to kidney impairment and other conditions that reduce oxygen supply; gut side effects are common; and long-term use can lower vitamin B12 [[6]]. The ADA likewise advises periodic B12 checks in long-term users [[2]].</p><p>\"Safer\" also depends on the person. In type 1 diabetes, insulin is the treatment that keeps people alive, and metformin is not a substitute [[2]]. In type 2 diabetes with very high glucose or weight loss from uncontrolled diabetes, the ADA treats insulin as the appropriate choice [[2]].</p>"
+    },
+    {
+      "id": "when-used",
+      "heading": "When each is used: the ADA 2026 approach",
+      "html": "<p>The ADA Standards of Care 2026 describe how clinicians choose [[2]]:</p><ul><li><b>Metformin</b> is a common first medicine when no heart, kidney or weight-related condition points to another class, because it is effective, does not cause hypoglycemia on its own and is inexpensive.</li><li>For people with heart disease, heart failure or chronic kidney disease, an SGLT2 inhibitor or GLP-1 receptor agonist with proven benefit is recommended independent of A1C, such as <a href=\"/blog/jardiance-for-type-2-diabetes\">Jardiance</a> for heart failure or kidney disease.</li><li>When an injectable medicine is needed, a GLP-1 receptor agonist is generally preferred to insulin.</li><li><b>Insulin</b> is considered when there is evidence of catabolism (weight loss), symptoms of high blood sugar, A1C above 10% or glucose of 300 mg/dL or more.</li></ul><p>The two are not exclusive, and many people with type 2 diabetes use both. In the meta-analysed trials, adding metformin to insulin lowered A1C by a further 0.60 points compared with insulin alone [[1]].</p>"
+    },
+    {
+      "id": "with-insulin",
+      "heading": "Other medicines trialled alongside insulin",
+      "html": "<p>Metformin is not the only drug studied as an add-on to insulin. Pramlintide, the one approved amylin analogue, is labelled only for people who use mealtime insulin, with a boxed warning for severe hypoglycemia [[7]]. In REIMAGINE 3, adults on basal insulin who received <a href=\"/stacks/cagrisema\">CagriSema</a> lowered A1C by 2.33 points against 0.66 on placebo, without severe hypoglycemia [[8]]. CagriSema is not approved; Novo Nordisk filed it with the FDA for weight management, not diabetes, in December 2025 [[9]]. Its amylin component is covered on the <a href=\"/compounds/cagrilintide\">cagrilintide</a> page.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does metformin lower A1C?",
+      "answer": "Yes. Used alone, metformin lowered A1C by about 1.12 percentage points more than placebo in a meta-analysis of 35 trials, and by 0.60 points when added to insulin [[1]]."
+    },
+    {
+      "question": "Is insulin better than metformin?",
+      "answer": "Insulin can lower glucose further, but it causes more low blood sugar and weight gain [[3]]. The ADA uses metformin as a common first medicine and reserves insulin for very high glucose, symptoms, weight loss from uncontrolled diabetes, or when other drugs fall short [[2]]."
+    },
+    {
+      "question": "Which is safer, insulin or metformin?",
+      "answer": "For hypoglycemia and weight gain, metformin: in UKPDS it produced fewer hypoglycemic attacks and less weight gain than insulin [[4]]. Metformin carries a rare lactic acidosis risk and can lower vitamin B12 [[6]]."
+    },
+    {
+      "question": "Does metformin cause low blood sugar?",
+      "answer": "Not usually on its own [[2]]. The risk rises when it is combined with insulin or a sulfonylurea, as its label notes [[6]]."
+    },
+    {
+      "question": "Can metformin replace insulin?",
+      "answer": "Not in type 1 diabetes, where insulin is required [[2]]. In type 2 diabetes the two are often used together, and the decision to start or stop either one is a clinician decision."
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmid-22275444",
+      "title": "Quantifying the effect of metformin treatment and dose on glycemic control.",
+      "url": "https://europepmc.org/article/MED/22275444",
+      "published": "2012-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41358900",
+      "title": "9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358900",
+      "published": "2025-12-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9742976",
+      "title": "Intensive blood-glucose control with sulphonylureas or insulin compared with conventional treatment and risk of complications in patients with type 2 diabetes (UKPDS 33). UK Prospective Diabetes Study (UKPDS) Group.",
+      "url": "https://europepmc.org/article/MED/9742976",
+      "published": "1998-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9742977",
+      "title": "Effect of intensive blood-glucose control with metformin on complications in overweight patients with type 2 diabetes (UKPDS 34). UK Prospective Diabetes Study (UKPDS) Group.",
+      "url": "https://europepmc.org/article/MED/9742977",
+      "published": "1998-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32598218",
+      "title": "Comparative Effectiveness of Glucose-Lowering Drugs for Type 2 Diabetes: A Systematic Review and Network Meta-analysis.",
+      "url": "https://europepmc.org/article/MED/32598218",
+      "published": "2020-06-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "fda-glucophage-label-2018",
+      "title": "GLUCOPHAGE / GLUCOPHAGE XR (metformin hydrochloride) prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/020357s034,021202s018lbl.pdf",
+      "published": "2018-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "fda-symlin-label-2019",
+      "title": "SYMLIN (pramlintide acetate) injection prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/021332s028lbl.pdf",
+      "published": "2019-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "pmid-42251856",
+      "title": "Cagrilintide-semaglutide (CagriSema) as an add-on to basal insulin in adults with type 2 diabetes (REIMAGINE 3): a randomised, double-blind, placebo-controlled, multicentre, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251856",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-cagrisema-nda-2025-12-18",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues for weight management",
+      "url": "https://www.novonordisk-us.com/media/press-releases/novo-nordisk-cagrisema-fda-nda-submission.html",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: how much metformin lowers A1C (Hirst meta-analysis, UKPDS 34), insulin vs metformin comparison table, hypoglycemia and weight data from UKPDS 33, metformin label warnings, ADA 2026 criteria for each, and add-on drugs studied with insulin."
+    }
+  ],
+  "uniqueness_pct": 96.7
+}
