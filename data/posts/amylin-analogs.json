@@ -1,0 +1,210 @@
+{
+  "type": "post",
+  "slug": "amylin-analogs",
+  "status": "draft",
+  "category": "Research",
+  "title": "Amylin analogs: pramlintide, cagrilintide and the amylin drugs in development",
+  "short_title": "Amylin analogs",
+  "excerpt": "Pramlintide is the only approved amylin analog. Cagrilintide, eloralintide, petrelintide and amycretin are the long-acting amylin drugs now in trials, with weight loss of up to about 24% in trials so far [[2]][[4]].",
+  "body": "<p><b>Amylin analogs</b>, also called amylin mimetics or amylin receptor agonists, are drugs that copy amylin, a hormone the pancreas releases together with insulin after meals. Amylin slows stomach emptying, holds back glucagon and helps end a meal through the brain [[1]]. Only one amylin medication is approved: <b>pramlintide (Symlin)</b>, a mealtime injection used with insulin in type 1 and type 2 diabetes since 2005 [[2]]. A second generation of long-acting drugs is in late development for obesity: <b>cagrilintide</b>, filed with the FDA as part of CagriSema [[3]], plus eloralintide, petrelintide and amycretin.</p><p>This page sits under <a href=\"/blog/how-cagrilintide-works\">how cagrilintide works</a>, which explains the mechanism in more depth. Doses used in the cagrilintide trials are on <a href=\"/blog/cagrilintide-dosage\">cagrilintide dosage</a>; Lilly's candidate has its own page, <a href=\"/blog/eloralintide\">eloralintide</a>; and the full research record is the <a href=\"/compounds/cagrilintide\">cagrilintide compound page</a>.</p>",
+  "seo": {
+    "title": "Amylin Analogs: Pramlintide, Cagrilintide and New Drugs",
+    "description": "What amylin analogs do, how pramlintide works and what its label says, and the amylin drugs in development: cagrilintide, eloralintide, petrelintide, amycretin."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/blog/how-cagrilintide-works",
+  "topic": "How cagrilintide works and the amylin drug class",
+  "order": 2,
+  "about": [
+    "/compounds/cagrilintide"
+  ],
+  "sections": [
+    {
+      "id": "what-amylin-does",
+      "heading": "What amylin does, and what an amylin agonist copies",
+      "html": "<p>Amylin is a 37-amino-acid hormone made by the same pancreatic beta cells that make insulin, and released with it in response to meals [[5]]. Its effects are three: it <b>slows gastric emptying</b>, it <b>suppresses glucagon</b> after meals, and it <b>promotes meal termination</b> through the brain [[1]]. People with diabetes are deficient in it, which is the original case for replacing it [[6]].</p><p>Amylin acts on receptors built from the calcitonin receptor paired with an accessory protein; the heterodimer structure of these amylin-calcitonin receptor complexes is what guided the design of the newer, long-acting drugs [[7]]. Human amylin itself clumps into aggregates, which is why it was never used as a drug: pramlintide was designed from the non-aggregating rat form [[7]].</p><p>The three names searchers use overlap almost completely. An <b>amylin analog</b> is a modified version of the hormone; an <b>amylin mimetic</b> is any drug that copies its effects; an <b>amylin receptor agonist</b> is any drug that switches on its receptors, which includes non-peptide molecules still in preclinical work [[7]]. Some newer drugs also hit the calcitonin receptor (cagrilintide) or the GLP-1 receptor (amycretin), so the class boundaries are looser than the names suggest.</p>"
+    },
+    {
+      "id": "pramlintide-mechanism",
+      "heading": "Pramlintide mechanism of action as an amylin analog",
+      "html": "<p>According to its prescribing information, pramlintide acts as an amylin analogue to slow gastric emptying, reduce the rise in glucagon after meals, and modulate satiety so that people eat fewer calories [[2]]. The combined effect is on <b>blood sugar after meals</b>, not fasting blood sugar: a review of its trials reported 2-hour post-meal glucose lower by 3.4 to 5 mmol/L, HbA1c lower by 0.2 to 0.7 points, and no effect on fasting glucose [[5]].</p><p>The trial evidence, pooled:</p><ul><li><b>Type 2 diabetes and obesity.</b> A meta-analysis of eight trials found pramlintide lowered HbA1c by 0.33 points and weight by 2.57 kg. All the diabetes trials were in people on insulin; the obesity trials used 120 to 360 mcg per dose two or three times a day. Nausea increased; hypoglycaemia did not in that analysis [[8]].</li><li><b>Type 1 diabetes.</b> Ten placebo-controlled trials (1,978 people on pramlintide) found lower HbA1c, lower mealtime insulin doses and lower weight, at the cost of more nausea and transient hypoglycaemia [[9]].</li></ul><p>Pramlintide proved that adding amylin back works, but the effect was modest and the schedule demanding: injections before each major meal [[2]][[1]]. Those two limits are what the second generation was built to fix.</p>"
+    },
+    {
+      "id": "pramlintide-label",
+      "heading": "Pramlintide (Symlin): what the label says",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Pramlintide (Symlin) dosing as the US label states it, by diabetes type</caption><thead><tr><th scope=\"col\">Label item</th><th scope=\"col\">Type 1 diabetes</th><th scope=\"col\">Type 2 diabetes</th></tr></thead><tbody><tr><td>Who it is for</td><td>People using mealtime insulin</td><td>People using mealtime insulin, with or without metformin or a sulfonylurea [[5]]</td></tr><tr><td>Label starting dose</td><td>15 mcg before major meals</td><td>60 mcg before major meals</td></tr><tr><td>Label titration</td><td>15 mcg steps to 30 or 60 mcg, as tolerated</td><td>Increase to 120 mcg, as tolerated</td></tr><tr><td>Insulin change at start</td><td>Mealtime insulin reduced by 50%</td><td>Mealtime insulin reduced by 50%</td></tr><tr><td>Boxed warning</td><td>Severe hypoglycaemia with insulin, particularly in type 1 diabetes</td><td>Severe hypoglycaemia with insulin</td></tr></tbody></table></div></div><p>The label figures above are what the US prescribing information states [[2]]. The <b>boxed warning</b> is the defining feature: because pramlintide lowers post-meal glucose on top of insulin, the risk of severe hypoglycaemia rises, particularly in type 1 diabetes, and the label pairs the first dose with a cut in mealtime insulin. Pramlintide is not approved for weight loss, even though weight fell in its trials [[8]].</p>"
+    },
+    {
+      "id": "cagrilintide-second-generation",
+      "heading": "Cagrilintide: the first long-acting amylin analog to reach phase 3",
+      "html": "<p>Cagrilintide is a once-weekly analogue that activates both amylin and calcitonin receptors, which places it among the dual amylin and calcitonin receptor agonists [[7]]. It was co-formulated with semaglutide into one weekly injection, CagriSema, and in trials the combination did better than either part alone [[7]].</p><p>In REDEFINE 1, over 68 weeks and with everyone assumed to stay on treatment, weight fell <b>11.8%</b> on cagrilintide 2.4 mg alone, 16.1% on semaglutide 2.4 mg alone and <b>22.7%</b> on the combination, against 2.3% on placebo [[10]]. Novo Nordisk filed CagriSema with the FDA in December 2025 [[3]] and moved cagrilintide alone into its own phase 3 programme, RENEW [[11]]. Trial doses are on <a href=\"/blog/cagrilintide-dosage\">cagrilintide dosage</a> and the combination's trials on the <a href=\"/stacks/cagrisema\">CagriSema record</a>; side effects across the trials are on <a href=\"/blog/cagrilintide-side-effects\">cagrilintide side effects</a>.</p>"
+    },
+    {
+      "id": "pipeline",
+      "heading": "Amylin drugs in development: eloralintide, petrelintide, amycretin and others",
+      "lede": "Every drug below is investigational except pramlintide. Results come from different trials, lengths and populations and are not head-to-head.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Amylin drugs approved or in clinical development, with the most advanced published or announced result</caption><thead><tr><th scope=\"col\">Drug</th><th scope=\"col\">Developer</th><th scope=\"col\">What it activates</th><th scope=\"col\">Most advanced result</th><th scope=\"col\">Stage (October 2026)</th></tr></thead><tbody><tr><td>Pramlintide (Symlin)</td><td>Marketed in the US</td><td>Amylin receptors; short-acting</td><td>HbA1c -0.2 to -0.7 points; weight up to 1.6 kg lower [[5]]</td><td>Approved 2005, with mealtime insulin [[2]]</td></tr><tr><td>Cagrilintide</td><td>Novo Nordisk</td><td>Amylin and calcitonin receptors; weekly [[7]]</td><td>-11.8% weight alone, -22.7% with semaglutide, 68 weeks [[10]]</td><td>CagriSema filed with FDA December 2025 [[3]]; cagrilintide alone in phase 3 [[11]]</td></tr><tr><td>Eloralintide</td><td>Eli Lilly</td><td>Amylin receptors, selective; weekly</td><td>-9% to -20% weight at 48 weeks vs -0.4% placebo [[12]]</td><td>Phase 3 planned from late 2025 [[13]]</td></tr><tr><td>Eloralintide + tirzepatide (EloraTZP)</td><td>Eli Lilly</td><td>Amylin plus GIP and GLP-1 receptors (two drugs)</td><td>Up to -23.3% at 48 weeks in type 2 diabetes vs -14.8% on tirzepatide 15 mg [[14]]</td><td>Phase 2 reported September 2026</td></tr><tr><td>Petrelintide</td><td>Zealand Pharma with Roche</td><td>Amylin receptors; human amylin analogue, weekly</td><td>-7.9% to -9.8% at 28 weeks vs -1.7% placebo; up to -10.7% at 42 weeks [[15]]</td><td>Phase 2 published September 2026</td></tr><tr><td>Amycretin</td><td>Novo Nordisk</td><td>GLP-1 and amylin receptors in one molecule</td><td>-22.0% at 36 weeks on 20 mg; -24.3% on 60 mg (phase 1b/2a) [[16]]</td><td>Phase 3 programme planned from early 2026 [[17]]</td></tr><tr><td>MET-233i, ABBV-295, AZD6234</td><td>Metsera, AbbVie, AstraZeneca</td><td>Long-acting amylin analogues</td><td>Clinically meaningful weight loss in early trials, per a 2026 review [[1]]</td><td>Early clinical development</td></tr></tbody></table></div></div><p><b>Eloralintide</b> (Lilly) is a selective amylin receptor agonist. In a 48-week phase 2 trial of 263 adults, weight fell 9% at 1 mg up to 20% at 9 mg, against 0.4% on placebo; nausea and fatigue were the most common adverse events [[12]]. Lilly has also combined it with tirzepatide: in a phase 2 trial in 367 adults with type 2 diabetes, the top combination reached 23.3% weight loss at 48 weeks against 14.8% on tirzepatide 15 mg alone [[14]]. More on <a href=\"/blog/eloralintide\">eloralintide</a>.</p><p><b>Petrelintide</b> (Zealand Pharma and Roche) is an analogue of human amylin. In ZUPREME 1, 493 adults were randomised; at 28 weeks weight fell 7.9% to 9.8% across doses against 1.7% on placebo, and nausea affected 20% against 6% on placebo, with vomiting in 3% [[15]].</p><p><b>Amycretin</b> (Novo Nordisk) is one molecule that activates both GLP-1 and amylin receptors. In its first multi-dose trial, weight fell 22.0% at 36 weeks on 20 mg and 24.3% on 60 mg [[16]], and Novo planned a phase 3 programme from the first quarter of 2026 [[17]].</p>"
+    },
+    {
+      "id": "comparing",
+      "heading": "How the amylin drugs compare so far",
+      "html": "<p>One 2026 network meta-analysis compared the long-acting amylin-based drugs indirectly, across six trials and 4,642 adults without diabetes. Against placebo, high-dose subcutaneous amycretin produced the largest weight reduction (<b>-23.95%</b>), followed by high-dose eloralintide (-18.01%) and high-dose CagriSema (-17.18%), all ahead of semaglutide 2.4 mg (-11.45%) [[4]]. The authors rated the data sparse and low-certainty, and gastrointestinal adverse events rose with the high doses [[4]].</p><p>Two things are clear from the evidence so far. First, amylin drugs <b>used alone</b> produce roughly 8% to 20% weight loss in trials so far [[12]][[15]][[10]], a range that overlaps semaglutide 2.4 mg rather than clearly exceeding it [[4]]. Second, the largest effects come from <b>pairing amylin with GLP-1 activity</b>, whether as two drugs (CagriSema) or as one molecule (amycretin). Nausea is the shared tolerability cost of the class [[7]].</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are amylin analogs?",
+      "answer": "Drugs that copy amylin, a hormone released with insulin that slows stomach emptying, suppresses glucagon after meals and helps end a meal [[1]]. Pramlintide is the approved one; cagrilintide, eloralintide, petrelintide and amycretin are in development."
+    },
+    {
+      "question": "Is pramlintide the same as cagrilintide?",
+      "answer": "No. Both are amylin analogues, but pramlintide is short-acting, injected before major meals with insulin, and approved for diabetes [[2]]. Cagrilintide is long-acting, injected once a week, also activates calcitonin receptors, and is in development for weight management [[7]]."
+    },
+    {
+      "question": "What amylin medications are approved?",
+      "answer": "Only pramlintide (Symlin), approved in the US in 2005 for people with type 1 or type 2 diabetes who use mealtime insulin [[2]]. No amylin drug is approved for weight loss as of October 2026; CagriSema awaits an FDA decision [[3]]."
+    },
+    {
+      "question": "How does pramlintide work?",
+      "answer": "It slows gastric emptying, blunts the rise in glucagon after meals and increases fullness, which lowers blood sugar after meals and reduces calorie intake [[2]]. Its trials lowered HbA1c by 0.2 to 0.7 points [[5]]."
+    },
+    {
+      "question": "Are amylin agonists GLP-1 drugs?",
+      "answer": "No. They act on amylin and calcitonin receptors, not the GLP-1 receptor. The exception is amycretin, a single molecule designed to activate both [[16]]. Combining the two pathways is why CagriSema pairs cagrilintide with semaglutide."
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: amylin analogs explainer covering amylin physiology and receptor terms, pramlintide mechanism, trials and US label dosing, cagrilintide, a pipeline table (eloralintide, EloraTZP, petrelintide, amycretin, early candidates) and a 2026 network meta-analysis comparison."
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmid-42452898",
+      "title": "Amylin Analogs: The Next Major Class of Weight Loss Therapy: A Review of Experimental Data and Early-Phase Clinical Trials.",
+      "url": "https://europepmc.org/article/MED/42452898",
+      "published": "2026-07-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "dailymed-symlinpen-label",
+      "title": "SYMLINPEN (pramlintide acetate) injection. Prescribing information (DailyMed)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4aea30ff-eb0d-45c1-b114-3127966328ff",
+      "published": "2026-02-16",
+      "kind": "regulatory"
+    },
+    {
+      "id": "novo-2025-12-18-cagrisema-nda",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916470",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42175595",
+      "title": "Novel Amylin-Based Therapies for Weight Management in Adults With Overweight or Obesity Without Diabetes: A Network Meta-Analysis.",
+      "url": "https://europepmc.org/article/MED/42175595",
+      "published": "2026-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-19920907",
+      "title": "Review of pramlintide as adjunctive therapy in treatment of type 1 and type 2 diabetes.",
+      "url": "https://europepmc.org/article/MED/19920907",
+      "published": "2009-02-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40332747",
+      "title": "Amylin: From Mode of Action to Future Clinical Potential in Diabetes and Obesity.",
+      "url": "https://europepmc.org/article/MED/40332747",
+      "published": "2025-05-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41747885",
+      "title": "Long-acting amylin-related peptides as therapies for obesity and type 2 diabetes.",
+      "url": "https://europepmc.org/article/MED/41747885",
+      "published": "2026-02-24",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21199269",
+      "title": "The effect of pramlintide acetate on glycemic control and weight in patients with type 2 diabetes mellitus and in obese patients without diabetes: a systematic review and meta-analysis.",
+      "url": "https://europepmc.org/article/MED/21199269",
+      "published": "2011-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29029531",
+      "title": "Efficacy and safety of pramlintide injection adjunct to insulin therapy in patients with type 1 diabetes mellitus: a systematic review and meta-analysis.",
+      "url": "https://europepmc.org/article/MED/29029531",
+      "published": "2017-03-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-2024-12-20-redefine-1",
+      "title": "Novo Nordisk A/S: CagriSema demonstrates superior weight loss in adults with obesity or overweight in the REDEFINE 1 trial",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=915082",
+      "published": "2024-12-20",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "novo-2025-09-16-cagrilintide-renew",
+      "title": "Novo Nordisk presents phase 3 data for next-generation amylin cagrilintide leading to advancement into dedicated clinical programme",
+      "url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=916427",
+      "published": "2025-09-16",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-41207310",
+      "title": "Eloralintide, a selective amylin receptor agonist for the treatment of obesity: a 48-week phase 2, multicentre, double-blind, randomised, placebo-controlled trial.",
+      "url": "https://europepmc.org/article/MED/41207310",
+      "published": "2025-11-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "lilly-2025-11-06-eloralintide-phase-2",
+      "title": "Lilly's selective amylin agonist eloralintide demonstrated meaningful weight loss and favorable tolerability in a Phase 2 study of adults with obesity or overweight",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-selective-amylin-agonist-eloralintide-demonstrated",
+      "published": "2025-11-06",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "eurekalert-2026-09-30-eloratzp",
+      "title": "New investigational drug combining eloralintide and tirzepatide (EloraTZP) led to weight loss of up to 23.3% in people living with obesity and type 2 diabetes",
+      "url": "https://www.eurekalert.org/news-releases/1146045",
+      "published": "2026-09-30",
+      "kind": "other"
+    },
+    {
+      "id": "pmid-42810355",
+      "title": "Petrelintide, a human amylin analogue for the treatment of obesity (ZUPREME 1): a randomised, double-blind, placebo-controlled, phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/42810355",
+      "published": "2026-09-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40550231",
+      "title": "Amycretin, a novel, unimolecular GLP-1 and amylin receptor agonist administered subcutaneously: results from a phase 1b/2a randomised controlled study.",
+      "url": "https://europepmc.org/article/MED/40550231",
+      "published": "2025-06-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-2025-06-12-amycretin-phase-3",
+      "title": "Novo Nordisk to advance subcutaneous and oral amycretin for weight management into phase 3 clinical development",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916348",
+      "published": "2025-06-12",
+      "kind": "manufacturer"
+    }
+  ],
+  "uniqueness_pct": 97.1
+}

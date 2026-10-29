@@ -1,0 +1,175 @@
+{
+ "slug": "amylin-analogs",
+ "type": "post",
+ "generated": "2026-10-29",
+ "h1": "Amylin analogs: pramlintide, cagrilintide and the amylin drugs in development",
+ "dek": "Pramlintide is the only approved amylin analog; cagrilintide, eloralintide, petrelintide and amycretin are the long-acting amylin drugs in trials.",
+ "scope": "Informational only. Label doses for pramlintide are reported as label facts; nothing is framed as personal dosing.",
+ "queries": [
+  {
+   "query": "amylin drug",
+   "volume": {
+    "semrush": 110,
+    "kd": 34,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "serp_features": "AI Overview, Knowledge Panel, Video, Image, Related Searches",
+   "policy": "answer",
+   "section": "pipeline",
+   "heading": "Amylin drugs in development: eloralintide, petrelintide, amycretin and others"
+  },
+  {
+   "query": "pramlintide mechanism of action amylin analog",
+   "volume": {
+    "semrush": 110,
+    "kd": 19,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational, Commercial",
+   "serp_features": "Site Links, Image, Related Searches, AI Overview",
+   "policy": "answer",
+   "section": "pramlintide-mechanism",
+   "heading": "Pramlintide mechanism of action as an amylin analog"
+  },
+  {
+   "query": "amylin analogs",
+   "volume": {
+    "semrush": 90,
+    "kd": 23,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "serp_features": "People Also Ask, AI Overview, Video, Image, Related Searches",
+   "policy": "answer",
+   "section": "what-amylin-does",
+   "heading": "What amylin does, and what an amylin agonist copies"
+  },
+  {
+   "query": "amylin mimetics",
+   "volume": {
+    "semrush": 90,
+    "kd": 30,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "serp_features": "Image Pack, AI Overview, Video, Image, Related Searches",
+   "policy": "answer",
+   "section": "what-amylin-does",
+   "heading": "What amylin does, and what an amylin agonist copies"
+  },
+  {
+   "query": "amylin medication",
+   "volume": {
+    "semrush": 90,
+    "kd": 31,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "serp_features": "AI Overview, Site Links, Video, Image, Related Searches",
+   "policy": "evidence-with-boundary",
+   "section": "pramlintide-label",
+   "heading": "Pramlintide (Symlin): what the label says",
+   "boundary": "Label doses are reported as the label states them; no personal dosing."
+  },
+  {
+   "query": "amylin agonist",
+   "volume": {
+    "semrush": 70,
+    "kd": 36,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "serp_features": "Image Pack, People Also Ask, AI Overview, Video, Image, Related Searches",
+   "policy": "answer",
+   "section": "what-amylin-does",
+   "heading": "What amylin does, and what an amylin agonist copies"
+  },
+  {
+   "query": "amylin receptor agonists",
+   "volume": {
+    "semrush": 50,
+    "kd": 27,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "serp_features": "AI Overview, Video, Image, Related Searches",
+   "policy": "answer",
+   "section": "pipeline",
+   "heading": "Amylin drugs in development: eloralintide, petrelintide, amycretin and others"
+  },
+  {
+   "query": "pramlintide mechanism amylin analog",
+   "volume": {
+    "semrush": 50,
+    "kd": 22,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "Informational",
+   "serp_features": "People Also Ask, Site Links, Video, Related Searches, AI Overview",
+   "policy": "answer",
+   "section": "pramlintide-mechanism",
+   "heading": "Pramlintide mechanism of action as an amylin analog"
+  }
+ ],
+ "competitors": [
+  {
+   "url": "https://diabetesteachingcenter.ucsf.edu/content/amylin-analog-therapy",
+   "rank": null,
+   "gap": "About 500 words on pramlintide use and side effects only; nothing on mechanism evidence, trials, or any drug after pramlintide.",
+   "source": "Semrush top-10; fetched"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Amylin",
+   "rank": null,
+   "gap": "Physiology-first article on the hormone; no drug comparison table, no 2025-2026 phase 2 or phase 3 results.",
+   "source": "Semrush top-10; fetched"
+  },
+  {
+   "url": "https://www.drugs.com/drug-class/amylin-analogs.html",
+   "rank": null,
+   "gap": "Class listing returned 403 when fetched; by format a list of approved products, which is pramlintide only.",
+   "source": "not fetched"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8735818/",
+   "rank": null,
+   "gap": "2021-era review; predates eloralintide, petrelintide and amycretin results.",
+   "source": "not fetched"
+  }
+ ],
+ "information_gain": "A single pipeline table that places pramlintide's label beside every long-acting amylin drug's most advanced 2025-2026 result (eloralintide phase 2, EloraTZP, ZUPREME 1, amycretin, REDEFINE 1) and the 2026 amylin network meta-analysis.",
+ "serp_format_rewarded": "AI Overview with video and image results; definitional opening plus a comparison table and short FAQ answers.",
+ "outline": [
+  {
+   "id": "what-amylin-does",
+   "heading": "What amylin does, and what an amylin agonist copies",
+   "from": "2026 amylin reviews (Diabetes Obes Metab; Peptides); pramlintide review"
+  },
+  {
+   "id": "pramlintide-mechanism",
+   "heading": "Pramlintide mechanism of action as an amylin analog",
+   "from": "Symlin label; 2009 review; 2011 and 2017 meta-analyses"
+  },
+  {
+   "id": "pramlintide-label",
+   "heading": "Pramlintide (Symlin): what the label says",
+   "from": "Symlin US prescribing information"
+  },
+  {
+   "id": "cagrilintide-second-generation",
+   "heading": "Cagrilintide: the first long-acting amylin analog to reach phase 3",
+   "from": "Novo REDEFINE 1, NDA and RENEW releases; Peptides 2026 review"
+  },
+  {
+   "id": "pipeline",
+   "heading": "Amylin drugs in development: eloralintide, petrelintide, amycretin and others",
+   "from": "Lancet 2025 eloralintide; Lancet Diabetes Endocrinol 2026 petrelintide; Lancet 2025 amycretin; Lilly and Novo releases; EloraTZP release"
+  },
+  {
+   "id": "comparing",
+   "heading": "How the amylin drugs compare so far",
+   "from": "2026 amylin network meta-analysis"
+  }
+ ]
+}
