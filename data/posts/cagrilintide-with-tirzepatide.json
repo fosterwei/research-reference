@@ -1,0 +1,190 @@
+{
+  "type": "post",
+  "slug": "cagrilintide-with-tirzepatide",
+  "status": "draft",
+  "category": "Research",
+  "title": "Cagrilintide dosage with tirzepatide: what has and has not been tested",
+  "short_title": "Cagrilintide with tirzepatide",
+  "excerpt": "No human trial has given cagrilintide with tirzepatide, so no combined dose exists. Tirzepatide has only been CagriSema's comparator, and the only shared study was in rats [[1]][[3]].",
+  "body": "<p><b>Cagrilintide and tirzepatide have never been given together in a human trial</b>, so there is no cagrilintide dosage with tirzepatide: no combined chart, no blended schedule, and no safety data for the pair. In the cagrilintide programme, tirzepatide appears only as the drug that CagriSema (cagrilintide plus semaglutide) was compared against [[1]][[2]]. The only study that put cagrilintide and tirzepatide into the same subjects was in rats [[3]]. What follows reports each drug's own doses separately, the head-to-head results, and why the pairing is a separate, unanswered question.</p><p>This page belongs to <a href=\"/blog/cagrilintide-dosage\">cagrilintide dosage</a>, which charts every dose the cagrilintide trials used. The parallel question for the triple agonist is on <a href=\"/blog/cagrilintide-with-retatrutide\">cagrilintide with retatrutide</a>; the approved drug's record is <a href=\"/compounds/tirzepatide\">tirzepatide</a>, and the combination that was tested is <a href=\"/stacks/cagrisema\">CagriSema</a>.</p>",
+  "seo": {
+    "title": "Cagrilintide With Tirzepatide: Dosage, Trials and Evidence",
+    "description": "No trial has tested cagrilintide with tirzepatide. Each drug's own doses, the CagriSema vs tirzepatide head-to-head results, and why blends are unstudied."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/blog/cagrilintide-dosage",
+  "topic": "Cagrilintide doses and injection",
+  "order": 1,
+  "about": [
+    "/compounds/cagrilintide",
+    "/compounds/tirzepatide"
+  ],
+  "sections": [
+    {
+      "id": "not-tested",
+      "heading": "Has cagrilintide been tested with tirzepatide?",
+      "lede": "In people, no. In rats, once, as a comparator. With a different amylin drug, yes.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Evidence that exists for cagrilintide and tirzepatide, by kind</caption><thead><tr><th scope=\"col\">Evidence</th><th scope=\"col\">What was given</th><th scope=\"col\">What it shows</th></tr></thead><tbody><tr><td>Human trials of cagrilintide plus tirzepatide</td><td>None published or announced</td><td>No dose, efficacy or safety data for the pair</td></tr><tr><td>Head-to-head phase 3 trials [[1]][[2]]</td><td>CagriSema in one group, tirzepatide in another</td><td>Which treatment did better; nothing about giving both</td></tr><tr><td>Rat study, Nature Metabolism 2026 [[3]]</td><td>Daily co-administration in obese male rats; cagrilintide with retatrutide, against comparator combinations incorporating semaglutide or tirzepatide</td><td>Cagrilintide plus retatrutide reduced weight and food intake more than the comparators</td></tr><tr><td>Eloralintide plus tirzepatide (EloraTZP) [[4]]</td><td>A different amylin drug with tirzepatide, phase 2, 48 weeks</td><td>Up to 23.3% weight loss vs 14.8% on tirzepatide 15 mg alone, with more discontinuations</td></tr></tbody></table></div></div><p>Pages that describe a \"cagrilintide and tirzepatide combination trial\" are describing something that does not exist in the published or announced record. The rat study is the closest direct evidence, and it is weak for this question: the animals were dosed daily, not weekly, the doses were chosen for rats, and the study's subject was retatrutide [[3]].</p><p>The more informative evidence is indirect. Lilly paired its own amylin drug, <b>eloralintide</b>, with tirzepatide and ran a dedicated phase 2 trial in 367 adults with type 2 diabetes [[4]]. That a manufacturer needed its own dose-finding trial for the pair, and then planned a co-formulation with an adjusted escalation for phase 3, shows how much is unknown before such a combination is tested. Eloralintide is covered on <a href=\"/blog/eloralintide\">eloralintide</a> and the wider class on <a href=\"/blog/amylin-analogs\">amylin analogs</a>.</p>"
+    },
+    {
+      "id": "each-drug-doses",
+      "heading": "Cagrilintide and tirzepatide doses, each drug on its own",
+      "lede": "Two separate tables, because the doses come from separate evidence. They are not a combined schedule.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Tirzepatide: doses in the US label and in the SURMOUNT-1 trial</caption><thead><tr><th scope=\"col\">Source</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Zepbound label [[5]]</td><td>2.5 mg weekly to start, not a maintenance dose; then 5 mg</td><td>Increase in 2.5 mg steps after at least 4 weeks on the current dose</td><td>Maintenance 5, 10 or 15 mg weekly; maximum 15 mg</td></tr><tr><td>SURMOUNT-1 trial [[6]]</td><td>5, 10 or 15 mg weekly</td><td>72 weeks, including a 20-week dose escalation</td><td>Weight -15.0%, -19.5% and -20.9% vs -3.1% placebo</td></tr></tbody></table></div></div><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Cagrilintide: doses given in trials (no label exists)</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>Phase 2 dose-finding [[7]]</td><td>0.3 to 4.5 mg weekly, alone</td><td>26 weeks, escalation up to 6 weeks</td><td>Weight -6.0% to -10.8% vs -3.0% placebo</td></tr><tr><td>REDEFINE 1, cagrilintide-only arm [[8]]</td><td>2.4 mg weekly, alone</td><td>68 weeks, flexible dosing</td><td>Weight -11.8% vs -2.3% placebo</td></tr><tr><td>CagriSema phase 3 [[9]][[2]]</td><td>2.4 mg, 1.7 mg or 1.0 mg weekly, with the same dose of semaglutide</td><td>68 weeks</td><td>Weight -20.4% at 2.4/2.4 mg (treatment-policy)</td></tr></tbody></table></div></div><p>Tirzepatide is <b>approved</b>: the FDA cleared it for chronic weight management as Zepbound on 8 November 2023 [[10]], and its label sets the schedule above [[5]]. Cagrilintide is <b>not approved</b>, so its figures are trial arms. Placing the two tables side by side does not produce a dose for the pair. Every cagrilintide dose in these trials was tested either alone or with semaglutide, never on top of tirzepatide's GIP and GLP-1 activity [[6]].</p>"
+    },
+    {
+      "id": "why-unstudied",
+      "heading": "Why two appetite-suppressing drugs together are a separate question",
+      "html": "<p>Combining two drugs that both reduce appetite and slow the stomach is not the same as adding their results. The best measurement of that comes from CagriSema itself. In REDEFINE 1, cagrilintide alone produced 11.8% weight loss and semaglutide alone 16.1%; together they produced <b>22.7%</b>, not 27.9% [[8]]. The overlap is real, and it is specific to each pair.</p><p>Side effects are where combinations cost most. In REDEFINE 1, gastrointestinal adverse events affected <b>79.6%</b> of people on cagrilintide plus semaglutide, against 39.9% on placebo [[9]]. In the eloralintide plus tirzepatide trial, discontinuations because of adverse events ranged from <b>10.8% to 27.0%</b> across the combination groups, against 2.9% on tirzepatide alone [[4]]. Whether cagrilintide on top of tirzepatide would behave like either pair is unknown, because nobody has measured it.</p><p>Three further gaps follow from the absence of a trial: no one knows which <b>dose ratio</b> works, how the two should be <b>escalated together</b>, or what happens to tolerability at tirzepatide's top dose. Those are exactly the questions the CagriSema and EloraTZP programmes spent years answering for their own pairs [[11]][[4]].</p>"
+    },
+    {
+      "id": "versus",
+      "heading": "Cagrilintide vs tirzepatide: what the head-to-head trials measured",
+      "lede": "Both direct comparisons tested CagriSema, not cagrilintide alone.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Head-to-head trials of CagriSema against tirzepatide (topline company results)</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Who</th><th scope=\"col\">Doses compared</th><th scope=\"col\">Length</th><th scope=\"col\">Result</th></tr></thead><tbody><tr><td>REDEFINE 4 [[1]]</td><td>809 adults with obesity, open-label</td><td>CagriSema 2.4/2.4 mg vs tirzepatide 15 mg</td><td>84 weeks</td><td>-23.0% vs -25.5% (efficacy estimand); -20.2% vs -23.6% (treatment-regimen); non-inferiority not shown</td></tr><tr><td>REIMAGINE 5 [[2]]</td><td>Adults with type 2 diabetes on metformin, an SGLT2 inhibitor or both</td><td>CagriSema 1.0/1.0 mg vs tirzepatide 5 mg</td><td>60 weeks</td><td>Weight -12.4% vs -9.1% (superior); HbA1c -1.71 vs -1.67 points (non-inferior)</td></tr></tbody></table></div></div><p>Read together, the two trials say that CagriSema at its full dose <b>did not match tirzepatide at its full dose</b>, and that at lower doses CagriSema 1.0/1.0 mg lost more weight than tirzepatide 5 mg. Tirzepatide's label allows escalation beyond 5 mg [[5]], so the second result speaks mainly to people who stay on lower doses.</p><p><b>Cagrilintide alone against tirzepatide alone</b> has never been tested. Across separate trials, cagrilintide 2.4 mg produced 11.8% over 68 weeks [[8]] and tirzepatide 15 mg produced 20.9% over 72 weeks [[6]], but those trials differ in population and design. A 2026 network meta-analysis of 25 trials placed tirzepatide 15 mg at -17.97% and CagriSema at -17.84% against placebo [[12]].</p><p>The mechanisms differ. Tirzepatide activates GIP and GLP-1 receptors [[6]]; cagrilintide activates amylin and calcitonin receptors [[13]]. That difference is the reason people ask about pairing them, and also the reason a trial would be needed to know what the pair does.</p>"
+    },
+    {
+      "id": "blends",
+      "heading": "Cagrilintide and tirzepatide blends",
+      "html": "<p>A \"cagri tirz blend\" or \"cagrilintide and tirzepatide blend\" is a mixture sold outside any approved product or trial. No manufacturer makes one, no regulator has reviewed one, and no study has measured what such a vial contains or how the two peptides behave mixed together. Cagrilintide is not approved in any form [[14]], so any cagrilintide in a blend is research-chemical material of unverified identity.</p><p>The trials that did combine an amylin drug with an incretin drug used the manufacturer's own fixed products: a dual-chamber pen for CagriSema [[15]], and a planned co-formulation for EloraTZP [[4]]. Neither result transfers to a blend. For vial arithmetic on cagrilintide alone, the <a href=\"/calculators/cagrilintide\">cagrilintide calculator</a> shows the formula; it does not supply a dose for a mixture.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can you take cagrilintide and tirzepatide together?",
+      "answer": "That pairing has never been tested in people, so there is no evidence on dose, benefit or safety. Tirzepatide has only been studied as a comparator to CagriSema [[1]], and the only study giving both drugs to the same subjects was in rats [[3]]."
+    },
+    {
+      "question": "Is there a cagrilintide and tirzepatide dosage chart?",
+      "answer": "No evidence-based one exists. Tirzepatide's label sets its own schedule, starting at 2.5 mg weekly and rising in 2.5 mg steps to 5, 10 or 15 mg [[5]]; cagrilintide trials used 0.3 to 4.5 mg weekly alone or with semaglutide [[7]]. Neither was tested on top of the other."
+    },
+    {
+      "question": "Is cagrilintide better than tirzepatide?",
+      "answer": "Cagrilintide alone has not been compared with tirzepatide. CagriSema (cagrilintide plus semaglutide) lost 23.0% against 25.5% for tirzepatide 15 mg over 84 weeks and did not show non-inferiority [[1]]; at lower doses, CagriSema 1.0/1.0 mg lost 12.4% against 9.1% for tirzepatide 5 mg [[2]]."
+    },
+    {
+      "question": "Has any amylin drug been tested with tirzepatide?",
+      "answer": "Yes, eloralintide. Lilly's phase 2 trial in adults with type 2 diabetes reported up to 23.3% weight loss at 48 weeks with eloralintide plus tirzepatide, against 14.8% on tirzepatide 15 mg alone, with more discontinuations from side effects [[4]]. Those results do not apply to cagrilintide."
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: what exists for cagrilintide with tirzepatide (no human trial; rat comparator study; EloraTZP as the nearest amylin-plus-tirzepatide evidence), each drug's doses in separate tables, why combinations are unstudied, REDEFINE 4 and REIMAGINE 5 head-to-head results, and the blend boundary."
+    }
+  ],
+  "sources": [
+    {
+      "id": "novo-2026-02-23-redefine-4",
+      "title": "Novo Nordisk A/S: CagriSema demonstrated 23% weight loss in an open-label head-to-head REDEFINE 4 trial in people with obesity, the primary endpoint was not achieved",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916501",
+      "published": "2026-02-23",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "novo-2026-09-21-reimagine-5",
+      "title": "Novo's CagriSema delivers superior weight loss versus tirzepatide in REIMAGINE 5 trial",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916774",
+      "published": "2026-09-21",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42744908",
+      "title": "Cagrilintide and retatrutide combination therapy enhances weight loss and metabolic outcomes in obese male rats.",
+      "url": "https://europepmc.org/article/MED/42744908",
+      "published": "2026-09-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "eurekalert-2026-09-30-eloratzp",
+      "title": "New investigational drug combining eloralintide and tirzepatide (EloraTZP) led to weight loss of up to 23.3% in people living with obesity and type 2 diabetes",
+      "url": "https://www.eurekalert.org/news-releases/1146045",
+      "published": "2026-09-30",
+      "kind": "other"
+    },
+    {
+      "id": "fda-zepbound-label-2026-02",
+      "title": "ZEPBOUND (tirzepatide) injection, for subcutaneous use. Prescribing information (Revised 02/2026)",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s042lbl.pdf",
+      "published": "2026-02-25",
+      "kind": "regulatory"
+    },
+    {
+      "id": "pmid-35658024",
+      "title": "Tirzepatide Once Weekly for the Treatment of Obesity.",
+      "url": "https://europepmc.org/article/MED/35658024",
+      "published": "2022-06-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34798060",
+      "title": "Once-weekly cagrilintide for weight management in people with overweight and obesity: a multicentre, randomised, double-blind, placebo-controlled and active-controlled, dose-finding phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/34798060",
+      "published": "2021-11-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-2024-12-20-redefine-1",
+      "title": "Novo Nordisk A/S: CagriSema demonstrates superior weight loss in adults with obesity or overweight in the REDEFINE 1 trial",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=915082",
+      "published": "2024-12-20",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-40544433",
+      "title": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity.",
+      "url": "https://europepmc.org/article/MED/40544433",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "fda-2023-11-08-zepbound",
+      "title": "FDA Approves New Medication for Chronic Weight Management",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-medication-chronic-weight-management",
+      "published": "2023-11-08",
+      "kind": "regulatory"
+    },
+    {
+      "id": "pmid-33894838",
+      "title": "Safety, tolerability, pharmacokinetics, and pharmacodynamics of concomitant administration of multiple doses of cagrilintide with semaglutide 2·4 mg for weight management: a randomised, controlled, phase 1b trial.",
+      "url": "https://europepmc.org/article/MED/33894838",
+      "published": "2021-04-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42207966",
+      "title": "Comparative Effectiveness of CagriSegma, Semaglutide, Cagrilintide and Tirzepatide in the Management of Overweight and Obesity: A Network Meta-Analysis of Randomized Clinical Trials.",
+      "url": "https://europepmc.org/article/MED/42207966",
+      "published": "2026-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40847076",
+      "title": "Structural and mechanistic insights into dual activation of cagrilintide in amylin and calcitonin receptors.",
+      "url": "https://europepmc.org/article/MED/40847076",
+      "published": "2025-08-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-2025-12-18-cagrisema-nda",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916470",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42366647",
+      "title": "Ease of Use, Ease of Learning, and Convenience of the CagriSema Dual-Chamber Pen: Results From a Usability Study in Adults With Overweight, Obesity, or Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/42366647",
+      "published": "2026-06-28",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "uniqueness_pct": 96.7
+}
