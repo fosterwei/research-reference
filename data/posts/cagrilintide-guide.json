@@ -1,0 +1,87 @@
+{
+  "type": "post",
+  "slug": "cagrilintide-guide",
+  "status": "draft",
+  "category": "Research",
+  "title": "Cagrilintide guide: how it works, the trial doses, CagriSema, and the diabetes medicines around it",
+  "short_title": "Cagrilintide guide",
+  "excerpt": "Every cagrilintide guide on this site in one place, arranged by topic: how the amylin analogue works, the doses its trials used, CagriSema, the new weight-loss drugs, and the diabetes medicines it would join.",
+  "body": "<p><b>Cagrilintide</b> is a once-weekly amylin analogue from Novo Nordisk. On its own it reduced body weight by up to <b>10.8%</b> over 26 weeks in its dose-finding phase 2 trial [[1]], and combined with semaglutide as <b>CagriSema</b> it reduced weight by about <b>20%</b> over 68 weeks in adults without diabetes [[2]] and by about <b>14%</b> in adults with type 2 diabetes [[3]]. It is not approved anywhere yet.</p><p>This index lists every guide in the series. Each topic has one main guide and shorter guides underneath it that go deeper on one question. For the record itself, with every study, its tier and its source, start with the <a href=\"/compounds/cagrilintide\">cagrilintide compound record</a>. For the combination, the <a href=\"/stacks/cagrisema\">CagriSema record</a> is the main guide of its topic, and the head-to-head arms are on <a href=\"/compare/cagrilintide-vs-semaglutide\">cagrilintide vs semaglutide</a>.</p>",
+  "seo": {
+    "title": "Cagrilintide Guide: Every Topic, From Dosing to CagriSema",
+    "description": "Every cagrilintide guide in one index: how it works, side effects, the trial doses, CagriSema, new weight-loss drugs and the diabetes medicines it would join."
+  },
+  "series": "cagrilintide",
+  "role": "index",
+  "topics": [
+    {
+      "label": "How cagrilintide works and the amylin drug class",
+      "pillar": "/blog/how-cagrilintide-works"
+    },
+    {
+      "label": "Cagrilintide doses and injection",
+      "pillar": "/blog/cagrilintide-dosage"
+    },
+    {
+      "label": "CagriSema",
+      "pillar": "/stacks/cagrisema",
+      "blurb": "The combination of cagrilintide and semaglutide: every trial, the arms against each component, doses, side effects and status."
+    },
+    {
+      "label": "New weight-loss drugs",
+      "pillar": "/blog/new-weight-loss-drugs"
+    },
+    {
+      "label": "Type 2 diabetes medicines",
+      "pillar": "/blog/diabetes-medications"
+    }
+  ],
+  "about": [
+    "/compounds/cagrilintide",
+    "/stacks/cagrisema",
+    "/compare/cagrilintide-vs-semaglutide"
+  ],
+  "sections": [
+    {
+      "id": "how-to-read",
+      "heading": "How this guide is organised",
+      "html": "<p>The guides follow one rule: <b>a page answers one question</b>, and it says plainly when the answer is that nothing has been established. Doses appear only as what trials administered, never as advice, and every number carries a numbered source mark that links straight to the paper or label it came from.</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>The three levels of the guide</caption><thead><tr><th scope=\"col\">Level</th><th scope=\"col\">What it is</th><th scope=\"col\">Where to find it</th></tr></thead><tbody><tr><td><b>Index</b></td><td>This page: every topic and every guide</td><td>Linked from every guide's breadcrumb</td></tr><tr><td><b>Topic guide</b></td><td>The main guide for one topic, linking every guide beneath it</td><td>The bold link under each topic below</td></tr><tr><td><b>In-depth guide</b></td><td>One question, answered in full, with its sources</td><td>The cards under each topic</td></tr></tbody></table></div></div><p>The diabetes guides are wider than cagrilintide on purpose. Amylin drugs are being developed for type 2 diabetes as well as for weight, and the questions people ask about them sit next to questions about the medicines they would join, from <a href=\"/blog/metformin-vs-insulin\">metformin and insulin</a> to <a href=\"/blog/jardiance-for-type-2-diabetes\">SGLT2 inhibitors like Jardiance</a>.</p>"
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "id": "pmid-34798060",
+      "title": "Once-weekly cagrilintide for weight management in people with overweight and obesity: a multicentre, randomised, double-blind, placebo-controlled and active-controlled, dose-finding phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/34798060",
+      "published": "2021-11-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40544433",
+      "title": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity.",
+      "url": "https://europepmc.org/article/MED/40544433",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40544432",
+      "title": "Cagrilintide-Semaglutide in Adults with Overweight or Obesity and Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/40544432",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: series index with five topics, linking the compound, stack and comparison records."
+    }
+  ],
+  "uniqueness_pct": 96.2
+}
