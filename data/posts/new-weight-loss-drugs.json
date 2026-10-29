@@ -1,0 +1,241 @@
+{
+  "type": "post",
+  "slug": "new-weight-loss-drugs",
+  "status": "draft",
+  "category": "Research",
+  "title": "New weight-loss drugs: the 2025-2026 announcements, and where cagrilintide stands",
+  "short_title": "New weight-loss drugs",
+  "excerpt": "Three new weight-loss medicines reached US approval between December 2025 and October 2026: the Wegovy pill, Foundayo (orforglipron) and Wegovy HD. Here is each announcement, dated and sourced, with the late-stage pipeline and where cagrilintide fits.",
+  "body": "<p>Three weight loss drug announcements stand out from December 2025 to October 2026, all FDA approvals. They are the <b>Wegovy pill</b> (oral semaglutide 25 mg) on 22 December 2025 [[1]], <b>Wegovy HD</b> (semaglutide 7.2 mg) on 19 March 2026 [[2]], and <b>Foundayo</b> (orforglipron), a non-peptide GLP-1 pill, on 1 April 2026 [[3]]. Behind them, Novo Nordisk's CagriSema is under FDA review with a decision expected in Q4 2026 [[4]], and Eli Lilly plans to file retatrutide in the first quarter of 2027 [[5]].</p><p>This guide collects the weight-loss drug announcements of 2025 and 2026 in one dated table, explains what each trial actually measured, and sets out where <a href=\"/compounds/cagrilintide\">cagrilintide</a>, the amylin analogue in CagriSema, stands. It reports what was approved and what trials found; it does not suggest which medicine anyone should use. It is one topic in the <a href=\"/blog/cagrilintide-guide\">cagrilintide guide</a>.</p>",
+  "seo": {
+    "title": "New Weight-Loss Drugs: 2025-2026 FDA Approvals and Pipeline",
+    "description": "Every weight-loss drug announcement from 2025 to October 2026, dated: the Wegovy pill, Foundayo, Wegovy HD, CagriSema's FDA review and retatrutide."
+  },
+  "series": "cagrilintide",
+  "role": "pillar",
+  "parent": "/blog/cagrilintide-guide",
+  "topic": "New weight-loss drugs",
+  "order": 4,
+  "about": [
+    "/compounds/cagrilintide"
+  ],
+  "sections": [
+    {
+      "id": "announcements",
+      "heading": "Weight-loss drug announcements, dated",
+      "lede": "Approvals, filings and phase 3 readouts from June 2025 to October 2026, newest last. Weight figures are mean change from baseline.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Weight-loss drug news, June 2025 to October 2026: approvals, filings and late-stage results</caption><thead><tr><th scope=\"col\">Date</th><th scope=\"col\">Drug (company)</th><th scope=\"col\">Announcement</th><th scope=\"col\">Key number</th></tr></thead><tbody><tr><td>20 Jun 2025</td><td>Amycretin (Novo Nordisk)</td><td>Moves to phase 3, injection and pill</td><td>Up to 24.3% at 36 weeks in an early-phase injection trial [[6]]</td></tr><tr><td>22 Jun 2025</td><td>CagriSema (Novo Nordisk)</td><td>REDEFINE 1 and 2 published</td><td>-20.4% vs -3.0% placebo at 68 weeks [[7]]</td></tr><tr><td>16 Sep 2025</td><td>Orforglipron (Lilly)</td><td>ATTAIN-1 published</td><td>-11.2% at 36 mg vs -2.1% placebo at 72 weeks [[8]]</td></tr><tr><td>16 Sep 2025</td><td>Cagrilintide alone (Novo Nordisk)</td><td>Phase 3 data; RENEW programme announced</td><td>11.8% vs 2.3% at 68 weeks [[9]]</td></tr><tr><td>6 Nov 2025</td><td>GLP-1 pricing (US government, Lilly, Novo)</td><td>Pricing agreements announced</td><td>$245 a month Medicare price for four GLP-1 brands [[10]]</td></tr><tr><td>11 Dec 2025</td><td>Retatrutide (Lilly)</td><td>TRIUMPH-4 topline, first phase 3 result</td><td>Up to 28.7% at 68 weeks [[11]]</td></tr><tr><td>18 Dec 2025</td><td>CagriSema (Novo Nordisk)</td><td>FDA application submitted</td><td>Decision expected Q4 2026 [[12]][[4]]</td></tr><tr><td>22 Dec 2025</td><td><b>Wegovy pill</b> (Novo Nordisk)</td><td><b>FDA approved</b></td><td>16.6% at 64 weeks if taken as intended [[1]]</td></tr><tr><td>23 Feb 2026</td><td>CagriSema (Novo Nordisk)</td><td>REDEFINE 4 vs tirzepatide</td><td>23.0% vs 25.5% in people who took treatment as intended; non-inferiority not met [[13]]</td></tr><tr><td>19 Mar 2026</td><td><b>Wegovy HD</b> 7.2 mg (Novo Nordisk)</td><td><b>FDA approved</b></td><td>-18.7% vs -15.6% on 2.4 mg [[2]]</td></tr><tr><td>1 Apr 2026</td><td><b>Foundayo</b>, orforglipron (Lilly)</td><td><b>FDA approved</b></td><td>12.4% at the highest dose, as Lilly reported [[3]]</td></tr><tr><td>23 Jul 2026</td><td>Retatrutide (Lilly)</td><td>TRIUMPH-2 and TRIUMPH-3 topline; filing planned Q1 2027</td><td>Up to 20.8% and 22.6% at 80 weeks [[5]]</td></tr><tr><td>20 Oct 2026</td><td>CagriSema (Novo Nordisk)</td><td>Post hoc analysis in women</td><td>25.0% vs 3.0%, hypothesis-generating [[4]]</td></tr><tr><td>28 Oct 2026</td><td>Retatrutide (Lilly)</td><td>TRANSCEND-T2D-2 vs Ozempic 2 mg in type 2 diabetes</td><td>19.5% to 20.9% vs 9.4% at 80 weeks [[14]]</td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "approved-pills",
+      "heading": "The newest weight-loss pills the FDA approved",
+      "html": "<p>The two newest FDA-approved diet pills of this period are both GLP-1 receptor agonists taken once a day, but they are different kinds of molecule.</p><h3>Wegovy pill (oral semaglutide 25 mg)</h3><p>Approved on <b>22 December 2025</b> as the first oral GLP-1 medicine for weight management, for adults with obesity or with overweight and at least one weight-related condition, and also to reduce the risk of major cardiovascular events [[1]]. The approval rests on OASIS 4, a 64-week trial in 307 adults without diabetes, in which weight fell <b>13.6%</b> on the pill against 2.2% on placebo counting everyone randomised [[15]]; Novo's adherent-only figure is 16.6% [[1]]. Gastrointestinal adverse events were reported by 74.0% on the pill and 42.2% on placebo [[15]]. Novo announced broad US availability on 5 January 2026 [[16]]. The active ingredient is the same one described on the <a href=\"/compounds/semaglutide\">semaglutide record</a>.</p><h3>Foundayo (orforglipron)</h3><p>Approved on <b>1 April 2026</b> for chronic weight management in adults with obesity, or with overweight and a weight-related condition [[3]]. Orforglipron is a small, non-peptide molecule, and Lilly's approval announcement describes it as a GLP-1 pill that can be taken at any time of day without food or water restrictions [[3]]. In the ATTAIN-1 trial, 3,127 adults with obesity and without diabetes lost <b>11.2%</b> of body weight on the 36 mg dose over 72 weeks, against 2.1% on placebo, counting everyone randomised [[8]]. Adverse events led 5.3% to 10.3% of people on orforglipron to stop treatment, against 2.7% on placebo [[8]].</p><p>On launch pricing, both companies published self-pay prices for the lowest doses: Novo listed $149 a month for the Wegovy pill's 1.5 mg starting dose [[16]], and Lilly listed Foundayo from $149 a month for self-pay [[3]]. Higher doses, insurance terms and later changes are set by the manufacturers and change over time; the dates above are when each figure was published.</p>"
+    },
+    {
+      "id": "wegovy-hd",
+      "heading": "Wegovy HD: the 7.2 mg semaglutide dose",
+      "html": "<p>The FDA approved a higher dose of injectable semaglutide, 7.2 mg once weekly, on <b>19 March 2026</b>, as the fourth product cleared under its Commissioner's National Priority Voucher pilot, <b>54 days</b> after filing [[2]]. In the STEP UP trial cited by the FDA, mean weight change was <b>-18.7%</b> on 7.2 mg, -15.6% on 2.4 mg and -3.9% on placebo [[2]]. The indication is weight reduction and long-term maintenance in adults with obesity, or overweight with at least one weight-related condition [[2]].</p><p>This is a new dose of an existing medicine rather than a new molecule, and the extra effect over 2.4 mg is about three percentage points of body weight. That is relevant to cagrilintide: Novo's next CagriSema trial pairs cagrilintide 2.4 mg with this higher semaglutide dose of 7.2 mg [[13]].</p>"
+    },
+    {
+      "id": "pipeline",
+      "heading": "The late-stage pipeline: filed, and in phase 3",
+      "html": "<p>The new GLP-1 drugs and their successors that are closest to approval, as of 29 October 2026. None of these is approved for weight loss, and every number comes from a trial of the manufacturer's product.</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Late-stage obesity drugs and their status, October 2026</caption><thead><tr><th scope=\"col\">Drug</th><th scope=\"col\">How it works</th><th scope=\"col\">Stage</th><th scope=\"col\">Best reported result so far</th></tr></thead><tbody><tr><td>CagriSema</td><td>Amylin analogue plus GLP-1 agonist, one weekly injection</td><td><b>Filed with FDA</b>; decision expected Q4 2026 [[4]]</td><td>-20.4% at 68 weeks [[7]]</td></tr><tr><td>Retatrutide</td><td>GIP, GLP-1 and glucagon receptor agonist, weekly injection</td><td>Phase 3 complete for obesity; filing planned Q1 2027 [[5]]</td><td>Up to 28.7% at 68 weeks in knee osteoarthritis [[11]]</td></tr><tr><td>Cagrilintide alone</td><td>Amylin analogue, weekly injection</td><td>Phase 3 (RENEW) [[9]]</td><td>11.8% at 68 weeks [[9]]</td></tr><tr><td>Amycretin</td><td>Single molecule acting on GLP-1 and amylin receptors</td><td>Phase 3, injection and pill [[6]]</td><td>Up to 24.3% at 36 weeks, early-phase [[6]]</td></tr></tbody></table></div></div><p><b>Retatrutide</b> has the largest effects reported so far in this list. Its phase 2 trial reported -24.2% at 48 weeks on 12 mg [[17]], and Lilly's phase 3 toplines have followed: up to 28.7% in TRIUMPH-4 [[11]], and up to 20.8% in adults with type 2 diabetes (TRIUMPH-2) and 22.6% in adults with severe obesity and cardiovascular disease (TRIUMPH-3) at 80 weeks [[5]]. In August 2026 Lilly said the data package was complete and the US filing is planned for the first quarter of 2027 [[18]]. The <a href=\"/compounds/retatrutide\">retatrutide record</a> has the trial-by-trial detail. Retatrutide has never been tested together with cagrilintide; the <a href=\"/blog/cagrilintide-with-retatrutide\">cagrilintide with retatrutide</a> page explains what that absence means.</p><p><b>Amylin is the new mechanism.</b> Three of the four drugs above act on amylin receptors, the pathway cagrilintide was built for. The amylin approach and its other candidates, including Lilly's eloralintide, are covered in <a href=\"/blog/amylin-analogs\">amylin analogs</a> and <a href=\"/blog/eloralintide\">eloralintide</a>, and the mechanism itself in <a href=\"/blog/how-cagrilintide-works\">how cagrilintide works</a>.</p>"
+    },
+    {
+      "id": "cagrilintide-news",
+      "heading": "Cagrilintide news: where cagrilintide stands",
+      "html": "<p>Cagrilintide is in two places in the pipeline at once. As part of <b>CagriSema</b>, it is under FDA review: Novo filed on 18 December 2025 [[12]] and expects a decision in Q4 2026 [[4]]. On its own, it entered a dedicated phase 3 programme, <b>RENEW</b>, after the cagrilintide-only arm of REDEFINE 1 lost <b>11.8%</b> of body weight over 68 weeks against 2.3% on placebo among people who took it as intended [[9]]. Novo announced that programme in September 2025 [[9]].</p><p>The most recent cagrilintide news came in three pieces. First, CagriSema did not win the REDEFINE 4 head-to-head with tirzepatide (23.0% vs 25.5% in people who took treatment as intended) [[13]]. Second, REDEFINE 5, published in April 2026, found that adding cagrilintide to semaglutide gave 18.4% against 11.9% for semaglutide alone in 331 adults in Japan and Taiwan [[19]]. Third, a post hoc analysis in October 2026 reported 25.0% average weight loss in women on CagriSema, which Novo labels hypothesis-generating [[4]].</p><p>The full dated record of CagriSema's trials and filing is on <a href=\"/blog/cagrisema-approval-timeline\">CagriSema news and approval timeline</a>, and the combination itself on the <a href=\"/stacks/cagrisema\">CagriSema guide</a>. For the doses the cagrilintide trials gave, as trial protocol, see <a href=\"/blog/cagrilintide-dosage\">cagrilintide dosage</a>; for how cagrilintide compares with the drug it is paired with, see <a href=\"/compare/cagrilintide-vs-semaglutide\">cagrilintide vs semaglutide</a>.</p>"
+    },
+    {
+      "id": "pricing-policy",
+      "heading": "The November 2025 GLP-1 pricing announcement",
+      "html": "<p>One of the most widely covered weight-loss drug announcements of the period was not an approval. On <b>6 November 2025</b> the White House announced pricing agreements with Eli Lilly and Novo Nordisk covering GLP-1 medicines. They include a Medicare price of <b>$245 a month</b> for Ozempic, Wegovy, Mounjaro and Zepbound and plans for Medicare coverage of obesity medicines for some beneficiaries [[10]]. The Wegovy pill's self-pay launch price of $149 a month for the starting dose followed in January 2026 [[16]].</p><p>How those agreements reach a given patient depends on the coverage programme, the insurer and the dates on which each part takes effect, which have shifted since the announcement. This site reports the announced figures with their dates and does not track coverage rules; the manufacturers and Medicare publish the current terms.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "What the new drugs share: side effects and stopping treatment",
+      "html": "<p>Every drug on this page works at least partly through the GLP-1 or amylin pathways. These slow stomach emptying and act on appetite centres in the brain. The trials report the same leading side effects: nausea, vomiting, diarrhoea and constipation, mostly mild to moderate and concentrated in the dose-escalation weeks.</p><ul><li><b>Wegovy pill:</b> gastrointestinal adverse events in <b>74.0%</b> of people on oral semaglutide 25 mg against 42.2% on placebo over 64 weeks [[15]].</li><li><b>Foundayo:</b> adverse events led <b>5.3% to 10.3%</b> of people to stop orforglipron, depending on dose, against 2.7% on placebo; gastrointestinal effects were the most common [[8]].</li><li><b>CagriSema:</b> in REDEFINE 1, gastrointestinal adverse events were reported by <b>79.6%</b> on CagriSema against 39.9% on placebo, and 5.9% against 3.5% stopped because of adverse events [[12]].</li><li><b>Wegovy HD:</b> the FDA lists gastrointestinal reactions as the most common with the 7.2 mg dose [[2]].</li></ul><p>Two things the trials of the newest drugs have not yet answered at scale are what happens to weight after stopping and what the long-term outcomes are beyond the trial period; for semaglutide alone, the <a href=\"/compounds/semaglutide\">semaglutide record</a> covers what the longer trials found. For cagrilintide's own side-effect profile, see <a href=\"/blog/cagrilintide-side-effects\">cagrilintide side effects</a>.</p>"
+    },
+    {
+      "id": "reading-news",
+      "heading": "How to read obesity drug news",
+      "html": "<p>Most headlines about new weight-loss drugs report one of four things, and they carry very different weight.</p><ul><li><b>An FDA approval</b> means a product, a dose range and an approved population exist, with a label that lists the warnings. This happened three times in this period [[1]][[2]][[3]].</li><li><b>A filing</b> means the manufacturer has asked for approval. CagriSema is at this stage [[12]].</li><li><b>A topline result</b> is a company announcement of a trial's main numbers before peer review, such as Lilly's retatrutide readouts [[14]]. Figures can shift slightly when the paper is published.</li><li><b>A post hoc or subgroup analysis</b> looks again at a finished trial, such as the women-only CagriSema figure [[4]]. It generates questions rather than settling them.</li></ul><p>Two numbers per trial are normal. Companies lead with the result among people who stayed on treatment; journals lead with the result among everyone randomised. For CagriSema's REDEFINE 1 that is 22.7% versus 20.4% [[20]][[7]], and comparing one drug's first number with another drug's second is the most common error in obesity drug news.</p><p>None of these announcements concerns research-chemical products sold online under the same drug names. Trial results apply to the manufacturer's product in the trial population. The diabetes side of the same pipeline, including the Ozempic pill and once-weekly insulins, is covered in <a href=\"/blog/new-diabetes-medications\">new diabetes medications</a> and the wider <a href=\"/blog/diabetes-medications\">diabetes medications guide</a>; <a href=\"/compounds/tirzepatide\">tirzepatide</a> has its own record.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What new weight-loss drugs did the FDA approve recently?",
+      "answer": "Three between December 2025 and October 2026: the Wegovy pill on 22 December 2025 [[1]], Wegovy HD 7.2 mg on 19 March 2026 [[2]], and Foundayo (orforglipron) on 1 April 2026 [[3]]."
+    },
+    {
+      "question": "What is the newest diet pill approved by the FDA?",
+      "answer": "Foundayo (orforglipron), approved on 1 April 2026, a once-daily non-peptide GLP-1 pill [[3]]. The Wegovy pill, oral semaglutide 25 mg, was approved shortly before, on 22 December 2025 [[1]]."
+    },
+    {
+      "question": "Is cagrilintide approved?",
+      "answer": "No. As part of CagriSema it is under FDA review, with a decision expected by Novo in Q4 2026 [[4]]. On its own it is in the RENEW phase 3 programme [[9]]."
+    },
+    {
+      "question": "When will retatrutide be approved?",
+      "answer": "No decision is possible before a filing, and Lilly plans to submit retatrutide to the FDA in the first quarter of 2027 [[18]]. No approval date has been announced."
+    },
+    {
+      "question": "Which new weight-loss drug causes the most weight loss?",
+      "answer": "No trial has compared all of them. The largest averages reported are retatrutide's phase 3 toplines, up to 28.7% at 68 weeks [[11]]; in the one direct comparison of new candidates, CagriSema did not match tirzepatide 15 mg [[13]]."
+    }
+  ],
+  "sources": [
+    {
+      "id": "nn-wegovy-pill-approval",
+      "title": "FDA approves Novo Nordisk's Wegovy pill, the first and only oral GLP-1 for weight loss in adults",
+      "url": "https://www.prnewswire.com/news-releases/fda-approves-novo-nordisks-wegovy-pill-the-first-and-only-oral-glp-1-for-weight-loss-in-adults-302648344.html",
+      "published": "2025-12-22",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "fda-wegovy-hd",
+      "title": "FDA approves fourth product under National Priority Voucher program: higher-dose semaglutide",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-fourth-product-under-national-priority-voucher-program-higher-dose-semaglutide",
+      "published": "2026-03-19",
+      "kind": "regulatory"
+    },
+    {
+      "id": "lilly-foundayo-approval",
+      "title": "FDA approves Lilly's Foundayo (orforglipron), the only GLP-1 pill for weight loss that can be taken any time of day without food or water restrictions",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill",
+      "published": "2026-04-01",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "nn-cagrisema-women",
+      "title": "Novo's CagriSema was associated with 25% weight loss on average for women in a post hoc analysis of REDEFINE 1, presented at The Menopause Society Annual Meeting",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=918569",
+      "published": "2026-10-20",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "lilly-triumph23",
+      "title": "Lilly's triple agonist, retatrutide, successful in two additional Phase 3 obesity trials, delivering significant improvements in weight and A1C",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-successful-two-additional",
+      "published": "2026-07-23",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "nn-amycretin-phase3",
+      "title": "Novo Nordisk advances early-stage obesity medication, amycretin, to phase 3 clinical development based on early-phase clinical trial results in people with obesity or excess weight, published in The Lancet",
+      "url": "https://www.prnewswire.com/news-releases/novo-nordisk-advances-early-stage-obesity-medication-amycretin-to-phase-3-clinical-development-based-on-early-phase-clinical-trial-results-in-people-with-obesity-or-excess-weight-published-in-the-lancet-302487500.html",
+      "published": "2025-06-20",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-40544433",
+      "title": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity.",
+      "url": "https://europepmc.org/article/MED/40544433",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40960239",
+      "title": "Orforglipron, an Oral Small-Molecule GLP-1 Receptor Agonist for Obesity Treatment.",
+      "url": "https://europepmc.org/article/MED/40960239",
+      "published": "2025-09-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "nn-cagrilintide-renew",
+      "title": "Novo Nordisk presents phase 3 data for next-generation amylin cagrilintide, leading to advancement into dedicated clinical programme",
+      "url": "https://www.globenewswire.com/news-release/2025/09/16/3150597/0/en/novo-nordisk-presents-phase-3-data-for-next-generation-amylin-cagrilintide-leading-to-advancement-into-dedicated-clinical-programme.html",
+      "published": "2025-09-16",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "whitehouse-glp1-pricing",
+      "title": "Fact Sheet: President Donald J. Trump announces major developments in bringing most-favored-nation pricing to American patients",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-announces-major-developments-in-bringing-most-favored-nation-pricing-to-american-patients/",
+      "published": "2025-11-06",
+      "kind": "other"
+    },
+    {
+      "id": "lilly-triumph4",
+      "title": "Lilly's triple agonist, retatrutide, delivered weight loss of up to an average of 71.2 lbs along with substantial relief from osteoarthritis pain in first successful Phase 3 trial",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average",
+      "published": "2025-12-11",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "nn-cagrisema-nda",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues for weight management",
+      "url": "https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp1-and-amylin-analogues-for-weight-management-302645868.html",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "nn-redefine4",
+      "title": "CagriSema demonstrated 23% weight loss in an open-label head-to-head REDEFINE 4 trial in people with obesity; the primary endpoint was not achieved (company announcement No 13/2026)",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916501",
+      "published": "2026-02-23",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "lilly-transcend-t2d-2",
+      "title": "Lilly's retatrutide delivered greater A1C reduction and more than double the weight loss of Ozempic's highest approved dose in head-to-head trial",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-retatrutide-delivered-greater-a1c-reduction-and-more",
+      "published": "2026-10-28",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-40934115",
+      "title": "Oral Semaglutide at a Dose of 25 mg in Adults with Overweight or Obesity.",
+      "url": "https://europepmc.org/article/MED/40934115",
+      "published": "2025-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "nn-wegovy-pill-launch",
+      "title": "Novo Nordisk's Wegovy pill, the first and only oral GLP-1 for weight loss in adults, now broadly available across America",
+      "url": "https://www.prnewswire.com/news-releases/novo-nordisks-wegovy-pill-the-first-and-only-oral-glp-1-for-weight-loss-in-adults-now-broadly-available-across-america-302652205.html",
+      "published": "2026-01-05",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-37366315",
+      "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+      "url": "https://europepmc.org/article/MED/37366315",
+      "published": "2023-06-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "lilly-q2-2026",
+      "title": "Lilly reports second-quarter 2026 financial results, raises full-year guidance, and highlights continued growth and pipeline progress",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full",
+      "published": "2026-08-05",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42009015",
+      "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+      "url": "https://europepmc.org/article/MED/42009015",
+      "published": "2026-04-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "nn-redefine1-topline",
+      "title": "CagriSema demonstrates superior weight loss in adults with obesity or overweight in the REDEFINE 1 trial (company announcement No 99/2024)",
+      "url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=915082",
+      "published": "2024-12-20",
+      "kind": "manufacturer"
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: dated table of 2025-2026 weight-loss drug approvals and announcements (Wegovy pill, Wegovy HD, Foundayo, pricing agreement), the late-stage pipeline (CagriSema, retatrutide, cagrilintide alone, amycretin) and where cagrilintide stands."
+    }
+  ],
+  "uniqueness_pct": 97.9
+}
