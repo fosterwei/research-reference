@@ -1,0 +1,176 @@
+{
+  "type": "post",
+  "slug": "jardiance-for-type-2-diabetes",
+  "status": "draft",
+  "category": "Research",
+  "title": "Jardiance for type 2 diabetes: how empagliflozin works and what its trials found",
+  "short_title": "Jardiance for diabetes",
+  "excerpt": "Jardiance is empagliflozin, a once-daily SGLT2 inhibitor tablet, not insulin. It lowers A1C by roughly 0.7 to 0.9 points against placebo, and its heart and kidney trials earned it approvals for heart failure and chronic kidney disease as well as diabetes.",
+  "body": "<p><b>Jardiance</b> is the brand name of <b>empagliflozin</b>, a tablet in the <b>SGLT2 inhibitor</b> class. It is not insulin and does not work through insulin: it makes the kidneys pass extra glucose into the urine [[1]]. In its first monotherapy trial, Jardiance for type 2 diabetes lowered A1C by <b>0.74 points</b> at 10 mg and 0.85 points at 25 mg more than placebo over 24 weeks [[2]]. Its FDA label also covers reducing the risk of cardiovascular death in type 2 diabetes with heart disease, and uses in heart failure and chronic kidney disease, based on four large outcome trials [[1]].</p><p>This page is part of the guide to <a href=\"/blog/diabetes-medications\">diabetes medications</a>. For other tablets see <a href=\"/blog/glucose-pills\">glucose pills</a>; for how metformin compares, <a href=\"/blog/metformin-vs-insulin\">metformin vs insulin</a>; and for drugs still in trials, <a href=\"/blog/new-diabetes-medications\">new diabetes medications</a>.</p>",
+  "seo": {
+    "title": "Jardiance for Type 2 Diabetes: SGLT2, A1C and Trials",
+    "description": "Jardiance (empagliflozin) is an SGLT2 inhibitor, not insulin. Its A1C effect, EMPA-REG OUTCOME, heart and kidney uses, side effects and pill look."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/blog/diabetes-medications",
+  "topic": "Type 2 diabetes medicines",
+  "order": 5,
+  "about": [],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "Is Jardiance insulin? What the SGLT2 class does",
+      "html": "<p>No. Insulin is a hormone given by injection; Jardiance is a tablet that acts on the kidney. Normally the kidney filters glucose out of the blood and then takes almost all of it back through a transporter called <b>SGLT2</b> (sodium-glucose cotransporter 2). Empagliflozin blocks that transporter, so more glucose leaves in the urine and blood glucose falls [[1]]. Because the effect does not depend on insulin, Jardiance on its own rarely causes low blood sugar; the risk rises when it is combined with insulin or a sulfonylurea [[1]].</p><p>The FDA label lists four uses [[1]]:</p><ul><li>improving glycemic control, alongside diet and exercise, in adults and children aged 10 and older with type 2 diabetes;</li><li>reducing the risk of cardiovascular death in adults with type 2 diabetes and established cardiovascular disease;</li><li>reducing the risk of cardiovascular death and hospitalisation for heart failure in adults with heart failure;</li><li>reducing the risk of kidney function decline, kidney failure, cardiovascular death and hospitalisation in adults with chronic kidney disease at risk of progression.</li></ul><p>It is not recommended in type 1 diabetes, where it may raise the risk of ketoacidosis [[1]].</p>"
+    },
+    {
+      "id": "a1c",
+      "heading": "How much Jardiance lowers A1C",
+      "html": "<p>In the 24-week monotherapy trial in people new to drug treatment, A1C fell <b>0.74 points</b> more than placebo with 10 mg and <b>0.85 points</b> more with 25 mg; sitagliptin, the active comparator, lowered it by 0.73 points [[2]]. Those are the doses the label states: 10 mg once daily, which may be raised to 25 mg for glycemic control [[1]].</p><p>The ADA Standards of Care 2026 grade SGLT2 inhibitors as intermediate to high in glucose-lowering efficacy, below GLP-1 receptor agonists, tirzepatide and insulin [[3]]. Jardiance is mainly chosen for what it does beyond A1C. The ADA recommends an SGLT2 inhibitor with proven benefit for people with heart failure or chronic kidney disease, independent of their A1C [[3]]. Its glucose-lowering effect also depends on kidney function, since it works through the kidney, and the label sets kidney-function limits for each use [[1]].</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "EMPA-REG OUTCOME and the heart and kidney trials",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Empagliflozin outcome trials behind the Jardiance heart and kidney indications</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Who took part</th><th scope=\"col\">Median follow-up</th><th scope=\"col\">Primary result, empagliflozin vs placebo</th></tr></thead><tbody>\n<tr><td><b>EMPA-REG OUTCOME</b></td><td>7,020 adults with type 2 diabetes and high cardiovascular risk</td><td>3.1 years</td><td>Heart attack, stroke or cardiovascular death: 10.5% vs 12.1%, hazard ratio 0.86 [[4]]</td></tr>\n<tr><td>EMPEROR-Reduced</td><td>3,730 adults with heart failure and reduced ejection fraction, with or without diabetes</td><td>16 months</td><td>Cardiovascular death or heart-failure hospitalisation: 19.4% vs 24.7%, hazard ratio 0.75 [[5]]</td></tr>\n<tr><td>EMPEROR-Preserved</td><td>5,988 adults with heart failure and preserved ejection fraction, with or without diabetes</td><td>26.2 months</td><td>Same outcome: 13.8% vs 17.1%, hazard ratio 0.79 [[6]]</td></tr>\n<tr><td>EMPA-KIDNEY</td><td>6,609 adults with chronic kidney disease at risk of progression</td><td>2.0 years</td><td>Kidney disease progression or cardiovascular death: 13.1% vs 16.9%, hazard ratio 0.72 [[7]]</td></tr>\n</tbody></table></div></div><p>EMPA-REG OUTCOME was the trial that changed how SGLT2 inhibitors were viewed. Heart attack and stroke rates did not differ significantly, but empagliflozin lowered cardiovascular death from 5.9% to 3.7% (a 38% relative reduction), heart-failure hospitalisation from 4.1% to 2.7% (35%) and death from any cause from 8.3% to 5.7% (32%) [[4]]. The two EMPEROR trials then showed benefit in heart failure regardless of diabetes [[5]][[6]], and EMPA-KIDNEY did the same for chronic kidney disease [[7]]. Across 453 trials of glucose-lowering drugs, SGLT2 inhibitors as a class reduced heart-failure hospitalisation and end-stage kidney disease [[8]].</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Jardiance side effects and label warnings",
+      "html": "<p>The most common adverse reactions on the label are <b>urinary tract infections</b> and <b>genital yeast infections</b> [[1]]. In EMPA-REG OUTCOME, genital infections were the one adverse event clearly increased with empagliflozin [[4]]. The label's warnings cover [[1]]:</p><ul><li><b>ketoacidosis</b>, which can occur with glucose levels that are not very high;</li><li>volume depletion and low blood pressure, from the extra fluid lost in urine;</li><li>serious urinary infections, including urosepsis and pyelonephritis;</li><li>hypoglycemia when combined with insulin or an insulin secretagogue;</li><li>necrotizing fasciitis of the perineum (Fournier's gangrene), which is rare;</li><li>genital mycotic infections.</li></ul><p>The ADA Standards list the same class risks, with genital mycotic infections and diabetic ketoacidosis named explicitly [[3]].</p>"
+    },
+    {
+      "id": "pill",
+      "heading": "What does a Jardiance pill look like?",
+      "html": "<p>According to the prescribing information, both strengths are pale yellow, film-coated, biconvex tablets [[1]]:</p><ul><li><b>10 mg:</b> round, debossed with \"S10\" on one side and the Boehringer Ingelheim company symbol on the other.</li><li><b>25 mg:</b> oval, debossed with \"S25\" on one side and the company symbol on the other.</li></ul><p>Combination tablets that contain empagliflozin with metformin or linagliptin are separate products with their own appearance, so the markings above apply to Jardiance alone.</p>"
+    },
+    {
+      "id": "compare",
+      "heading": "Jardiance vs GLP-1 and amylin drugs",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Jardiance compared with a GLP-1 drug and the amylin combination in type 2 diabetes</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">Jardiance (empagliflozin)</th><th scope=\"col\">Semaglutide (Ozempic)</th><th scope=\"col\">CagriSema (cagrilintide + semaglutide)</th></tr></thead><tbody>\n<tr><th scope=\"row\">Class</th><td>SGLT2 inhibitor</td><td>GLP-1 receptor agonist</td><td>Amylin analogue plus GLP-1 receptor agonist</td></tr>\n<tr><th scope=\"row\">Form</th><td>Daily tablet [[1]]</td><td>Weekly injection [[9]]</td><td>Weekly injection, investigational [[10]]</td></tr>\n<tr><th scope=\"row\">A1C, key trial</th><td>0.74 to 0.85 points below placebo at 24 weeks [[2]]</td><td>1.75 points from baseline at 2.4 mg in REIMAGINE 2 [[10]]</td><td>1.91 points from baseline in REIMAGINE 2 [[10]]</td></tr>\n<tr><th scope=\"row\">Weight</th><td>Loss [[3]]</td><td>Loss, larger [[3]]</td><td>Loss, larger again than semaglutide alone [[10]]</td></tr>\n<tr><th scope=\"row\">Heart failure and kidney evidence</th><td>Approved indications [[1]]</td><td>Cardiovascular benefit in type 2 diabetes [[3]]</td><td>No outcome trial reported</td></tr>\n<tr><th scope=\"row\">Status, October 2026</th><td>FDA-approved [[1]]</td><td>FDA-approved for type 2 diabetes [[9]]</td><td>Not approved; filed with the FDA for weight management [[11]]</td></tr>\n</tbody></table></div></div><p>The comparison is indirect: no trial has tested Jardiance against semaglutide or CagriSema, and the A1C figures come from different trials with different populations. What the ADA uses to separate them is not A1C but the other conditions: SGLT2 inhibitors for heart failure and kidney disease, GLP-1 receptor agonists and tirzepatide when weight management is a goal [[3]]. The two classes are often combined.</p><p>CagriSema adds the amylin analogue <a href=\"/compounds/cagrilintide\">cagrilintide</a> to semaglutide. In REIMAGINE 2 its extra A1C effect over semaglutide alone was 0.16 points [[10]]; in REIMAGINE 1, in people on diet and exercise alone, A1C fell 1.8 points against 0.1 on placebo [[12]]. The <a href=\"/compounds/semaglutide\">semaglutide</a> record and the <a href=\"/compare/cagrilintide-vs-semaglutide\">cagrilintide vs semaglutide</a> comparison carry the detail.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Jardiance insulin?",
+      "answer": "No. Jardiance (empagliflozin) is an SGLT2 inhibitor tablet that lowers blood glucose by making the kidneys excrete more of it in the urine; it does not contain or replace insulin [[1]]."
+    },
+    {
+      "question": "Is Jardiance an SGLT2 inhibitor?",
+      "answer": "Yes. Empagliflozin blocks the sodium-glucose cotransporter 2 in the kidney [[1]]. Dapagliflozin (Farxiga) and canagliflozin (Invokana) are in the same class."
+    },
+    {
+      "question": "How much does Jardiance lower A1C?",
+      "answer": "In a 24-week trial in people new to drug treatment, A1C fell 0.74 points more than placebo at 10 mg and 0.85 points more at 25 mg [[2]]."
+    },
+    {
+      "question": "What does a Jardiance pill look like?",
+      "answer": "The 10 mg tablet is pale yellow and round, marked S10; the 25 mg tablet is pale yellow and oval, marked S25. Both carry the Boehringer Ingelheim symbol on the other side [[1]]."
+    },
+    {
+      "question": "Is Jardiance used for type 1 diabetes?",
+      "answer": "No. Its label says it is not recommended in type 1 diabetes because it may increase the risk of diabetic ketoacidosis [[1]]."
+    },
+    {
+      "question": "Does Jardiance help the heart and kidneys?",
+      "answer": "In EMPA-REG OUTCOME it lowered cardiovascular death by 38% in people with type 2 diabetes and heart disease [[4]], and in EMPA-KIDNEY it reduced kidney disease progression or cardiovascular death, hazard ratio 0.72 [[7]]."
+    }
+  ],
+  "sources": [
+    {
+      "id": "fda-jardiance-label-2025",
+      "title": "JARDIANCE (empagliflozin tablets) prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/204629s063lbl.pdf",
+      "published": "2025-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "pmid-24622369",
+      "title": "Empagliflozin monotherapy with sitagliptin as an active comparator in patients with type 2 diabetes: a randomised, double-blind, placebo-controlled, phase 3 trial.",
+      "url": "https://europepmc.org/article/MED/24622369",
+      "published": "2013-09-09",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41358900",
+      "title": "9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358900",
+      "published": "2025-12-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26378978",
+      "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/26378978",
+      "published": "2015-09-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32865377",
+      "title": "Cardiovascular and Renal Outcomes with Empagliflozin in Heart Failure.",
+      "url": "https://europepmc.org/article/MED/32865377",
+      "published": "2020-08-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34449189",
+      "title": "Empagliflozin in Heart Failure with a Preserved Ejection Fraction.",
+      "url": "https://europepmc.org/article/MED/34449189",
+      "published": "2021-08-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-36331190",
+      "title": "Empagliflozin in Patients with Chronic Kidney Disease.",
+      "url": "https://europepmc.org/article/MED/36331190",
+      "published": "2022-11-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32598218",
+      "title": "Comparative Effectiveness of Glucose-Lowering Drugs for Type 2 Diabetes: A Systematic Review and Network Meta-analysis.",
+      "url": "https://europepmc.org/article/MED/32598218",
+      "published": "2020-06-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "fda-ozempic-label-2026",
+      "title": "OZEMPIC (semaglutide) injection prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/209637s038lbl.pdf",
+      "published": "2026-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "pmid-42251859",
+      "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251859",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-cagrisema-nda-2025-12-18",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues for weight management",
+      "url": "https://www.novonordisk-us.com/media/press-releases/novo-nordisk-cagrisema-fda-nda-submission.html",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42251860",
+      "title": "Efficacy and safety of once-weekly cagrilintide-semaglutide (CagriSema) in adults with type 2 diabetes inadequately controlled on diet and exercise (REIMAGINE 1): a randomised, double-blind, placebo-controlled, phase 3a study.",
+      "url": "https://europepmc.org/article/MED/42251860",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: Jardiance (empagliflozin) mechanism and SGLT2 class, label indications, A1C effect from the monotherapy trial, EMPA-REG OUTCOME, EMPEROR-Reduced, EMPEROR-Preserved and EMPA-KIDNEY table, side effects and warnings, tablet description, and comparison with semaglutide and CagriSema."
+    }
+  ],
+  "uniqueness_pct": 96.7
+}

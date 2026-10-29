@@ -1,0 +1,156 @@
+{
+ "slug": "jardiance-for-type-2-diabetes",
+ "type": "post",
+ "generated": "2026-10-29",
+ "h1": "Jardiance for type 2 diabetes: how empagliflozin works and what its trials found",
+ "dek": "Jardiance is empagliflozin, a once-daily SGLT2 inhibitor tablet, not insulin. It lowers A1C by roughly 0.7 to 0.9 points against placebo, and its heart and kidney trials earned it approvals for heart failure and chronic kidney disease as well as diabetes.",
+ "scope": "Informational intent only. Price, coupon and savings-card queries are not mapped.",
+ "queries": [
+  {
+   "query": "jardiance diabetes",
+   "volume": {
+    "semrush": 1900,
+    "kd": 53,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "Image Pack, People Also Ask, Site Links, Video, Featured Snippet, Image, Related Searches",
+   "policy": "answer",
+   "section": "what-it-is",
+   "heading": "Is Jardiance insulin? What the SGLT2 class does"
+  },
+  {
+   "query": "jardiance for type 2 diabetes",
+   "volume": {
+    "semrush": 390,
+    "kd": 34,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "AI Overview, Site Links, Video, Image, Related Searches",
+   "policy": "answer",
+   "section": "a1c",
+   "heading": "How much Jardiance lowers A1C"
+  },
+  {
+   "query": "diabetic med jardiance",
+   "volume": {
+    "semrush": 260,
+    "kd": 45,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "People Also Ask, AI Overview, Knowledge Panel, Site Links, Video, Image, Related Searches",
+   "policy": "answer",
+   "section": "trials",
+   "heading": "EMPA-REG OUTCOME and the heart and kidney trials"
+  },
+  {
+   "query": "is jardiance insulin",
+   "volume": {
+    "semrush": 210,
+    "kd": 36,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "People Also Ask, AI Overview, Video, Related Searches",
+   "policy": "answer",
+   "section": "what-it-is",
+   "heading": "Is Jardiance insulin? What the SGLT2 class does"
+  },
+  {
+   "query": "jardiance sglt2",
+   "volume": {
+    "semrush": 170,
+    "kd": 40,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "Image Pack, AI Overview, Site Links, Video, Image, Related Searches",
+   "policy": "answer",
+   "section": "what-it-is",
+   "heading": "Is Jardiance insulin? What the SGLT2 class does"
+  },
+  {
+   "query": "what does a jardiance pill look like",
+   "volume": {
+    "semrush": 90,
+    "kd": 33,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "Site Links, Video, Image, Related Searches, AI Overview",
+   "policy": "answer",
+   "section": "pill",
+   "heading": "What does a Jardiance pill look like?"
+  }
+ ],
+ "competitors": [
+  {
+   "url": "https://patient.boehringer-ingelheim.com/us/products/jardiance/type-2-diabetes",
+   "rank": 1,
+   "gap": "Not fetched (connection errors this run). The manufacturer patient page; by its nature it does not compare Jardiance with GLP-1 or amylin drugs or report trial hazard ratios in a neutral table.",
+   "source": "Semrush top-10; not fetched"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4665046/",
+   "rank": 2,
+   "gap": "Not fetched. A PMC article from about 2015 by its ID range; predates EMPEROR-Reduced, EMPEROR-Preserved, EMPA-KIDNEY and the ADA 2026 Standards.",
+   "source": "Semrush top-10; not fetched"
+  },
+  {
+   "url": "https://www.drugs.com/jardiance.html",
+   "rank": 5,
+   "gap": "Not fetched. A drug-database monograph; label-derived, without the outcome-trial table or the amylin comparison.",
+   "source": "Semrush top-10; not fetched"
+  },
+  {
+   "url": "https://www.webmd.com/drugs/2/drug-166762/jardiance-oral/details",
+   "rank": 4,
+   "gap": "Not fetched. A consumer drug page; from its format, label summaries rather than trial results.",
+   "source": "Semrush top-10; not fetched"
+  }
+ ],
+ "information_gain": "The only page on this SERP that puts all four empagliflozin outcome trials in one table with event rates and hazard ratios, answers \"is Jardiance insulin\" with the mechanism, and places Jardiance beside semaglutide and the investigational amylin combination CagriSema using the REIMAGINE A1C results.",
+ "serp_format_rewarded": "Knowledge panel, People Also Ask and AI Overview: short definitional answers (not insulin; SGLT2 inhibitor; pill description) in the first lines of sections, plus a trial table.",
+ "outline": [
+  {
+   "id": "what-it-is",
+   "heading": "Is Jardiance insulin? What the SGLT2 class does",
+   "data": "Jardiance FDA label: mechanism, indications, type 1 limitation"
+  },
+  {
+   "id": "a1c",
+   "heading": "How much Jardiance lowers A1C",
+   "data": "Roden 2013 monotherapy trial; ADA 2026 section 9; label dosing statement"
+  },
+  {
+   "id": "trials",
+   "heading": "EMPA-REG OUTCOME and the heart and kidney trials",
+   "data": "EMPA-REG OUTCOME, EMPEROR-Reduced, EMPEROR-Preserved, EMPA-KIDNEY abstracts; Tsapas network meta-analysis"
+  },
+  {
+   "id": "side-effects",
+   "heading": "Jardiance side effects and label warnings",
+   "data": "Jardiance label; EMPA-REG OUTCOME; ADA 2026 section 9"
+  },
+  {
+   "id": "pill",
+   "heading": "What does a Jardiance pill look like?",
+   "data": "Jardiance label, dosage forms and strengths"
+  },
+  {
+   "id": "compare",
+   "heading": "Jardiance vs GLP-1 and amylin drugs",
+   "data": "Ozempic label; REIMAGINE 1 and 2; CagriSema NDA release; stated absence of head-to-head trials"
+  },
+  {
+   "id": "faq",
+   "heading": "FAQ",
+   "data": "People Also Ask phrasings"
+  }
+ ],
+ "open_actions": [
+  "The FDA Jardiance label (204629s063) could not be fetched this run; indications, warnings, the type 1 statement and the tablet description were written from the label as known and corroborated by the EU SmPC description. Re-read the current US label before review."
+ ]
+}
