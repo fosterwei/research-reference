@@ -1,0 +1,95 @@
+{
+ "slug": "cagrilintide-side-effects",
+ "type": "post",
+ "generated": "2026-10-29",
+ "h1": "Cagrilintide side effects: how often each one happened in the trials",
+ "dek": "Every published cagrilintide side-effect rate, trial by trial: gastrointestinal events, nausea, injection-site reactions and discontinuations, against semaglutide and placebo in the same trials, with timing, dedicated safety studies and what is unknown.",
+ "queries": [
+  {
+   "query": "cagrilintide side effects",
+   "volume": {
+    "semrush": 880,
+    "kd": 8,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "policy": "answer",
+   "section": "rates-by-trial",
+   "heading": "Cagrilintide side effect rates, trial by trial"
+  },
+  {
+   "query": "cagrilintide peptide side effects",
+   "volume": {
+    "semrush": 50,
+    "kd": 5,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "policy": "evidence-with-boundary",
+   "section": "rates-by-trial",
+   "heading": "Cagrilintide side effect rates, trial by trial",
+   "boundary": "Rates describe the manufacturer's drug in trials; products sold outside trials are unknown."
+  }
+ ],
+ "competitors": [
+  {
+   "url": "https://pepdose.com/cagrilintide-side-effects/",
+   "gap": "Gives phase 2 rates only, no phase 3 data and no same-trial comparison with semaglutide; references not tied to claims; site sits beside an order calculator.",
+   "source": "Semrush top-10; fetched"
+  },
+  {
+   "url": "https://www.hubmeded.com/blog/cagrilintide-the-next-gen-peptide-for-weight-loss-and-satiety",
+   "gap": "Lists side effects qualitatively with no percentages.",
+   "source": "Semrush top-10; fetched"
+  },
+  {
+   "url": "https://www.peptides.org/cagrilintide-side-effects-complications-and-risk-profile/",
+   "gap": "Not checked in detail; aggregator without the 2026 REIMAGINE 2 six-arm safety data.",
+   "source": "Semrush top-10; not fetched"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11642503/",
+   "gap": "A single journal article; no cross-trial table of rates.",
+   "source": "Semrush top-10; not fetched"
+  }
+ ],
+ "information_gain": "The only page with the 2026 REIMAGINE 2 six-arm adverse-event table (cagrilintide alone 82.2% vs semaglutide 81.2% vs placebo 70.5%) beside the phase 2 dose-graded nausea rates and the REDEFINE 1 and 2 discontinuation figures, each with its own citation.",
+ "serp_format_rewarded": "List of side effects with rates; AI Overview and People Also Ask; image pack.",
+ "outline": [
+  {
+   "id": "rates-by-trial",
+   "heading": "Cagrilintide side effect rates, trial by trial",
+   "basis": "Lau 2021, REIMAGINE 2, Frias 2023, REDEFINE 1, 2, 5, Novo NDA release."
+  },
+  {
+   "id": "nausea-and-stomach-effects",
+   "heading": "Nausea, constipation and other stomach effects",
+   "basis": "Lau 2021; Novo NDA release; mechanism from pmid-34929674, pmid-40609154, pmid-41109426."
+  },
+  {
+   "id": "injection-site-reactions",
+   "heading": "Injection-site reactions",
+   "basis": "Lau 2021 abstract; stated absence of a published rate."
+  },
+  {
+   "id": "versus-semaglutide-and-placebo",
+   "heading": "Cagrilintide side effects compared with semaglutide and placebo",
+   "basis": "REIMAGINE 2, Frias 2023, REDEFINE 5, meta-analyses pmid-42180166 and pmid-42175595."
+  },
+  {
+   "id": "when-side-effects-happen",
+   "heading": "When cagrilintide side effects happen",
+   "basis": "REDEFINE 1/2 (transient), escalation from Lau 2021 and phase 1b; stated absence of a time curve."
+  },
+  {
+   "id": "serious-events-and-safety-studies",
+   "heading": "Serious adverse events and dedicated safety studies",
+   "basis": "QT study, renal/hepatic study, Frias 2023, REDEFINE 5, REIMAGINE 2."
+  },
+  {
+   "id": "unknowns",
+   "heading": "What is not known about cagrilintide safety",
+   "basis": "Stated absences; REDEFINE 3 and RENEW ongoing."
+  }
+ ]
+}
