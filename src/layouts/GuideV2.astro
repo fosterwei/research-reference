@@ -1,0 +1,160 @@
+---
+// v2 guide page: an editorial post placed in an index -> pillar -> sub tree
+// (see src/lib/guides.ts). The spine mirrors the record pages so a reader
+// moving between a guide and a compound page sees the same furniture: title
+// block, at-a-glance facts, the written sections with a contents rail, the
+// navigation for the guide's place in the tree, FAQ, numbered sources,
+// related records and the changelog.
+import '../styles/compound-v2.css';
+import { records } from '../lib/collections';
+import Base from './Base.astro';
+import Toc from '../components/v2/Toc.astro';
+import StatusBar from '../components/v2/StatusBar.astro';
+import Faq from '../components/v2/Faq.astro';
+import Sources from '../components/v2/Sources.astro';
+import { timeTag } from '../lib/format';
+import { SITE_NAME, isIndexable, title, description, lastmod } from '../lib/site';
+import { type Post, type Topic, childrenOf, crumbsFor, cite, postPath, titleForPath, seriesPosts, byOrder } from '../lib/guides';
+interface Props { entry: Post }
+const { entry } = Astro.props;
+const d = entry.data as any;
+const path = postPath(d.slug);
+const updated = lastmod(entry);
+const role: 'index' | 'pillar' | 'sub' | undefined = d.role;
+const sources = (d.sources ?? []) as Array<{ id: string; title: string; url: string; published: string; kind?: string }>;
+const C = (h: string) => cite(h, sources);
+const crumbs = await crumbsFor(entry);
+const parentPath: string | undefined = d.parent;
+const parentTitle = parentPath ? await titleForPath(parentPath) : undefined;
+const children = role === 'pillar' ? await childrenOf(path, d.series) : [];
+const siblings = role === 'sub' && parentPath ? (await childrenOf(parentPath, d.series)).filter((p) => p.data.slug !== d.slug) : [];
+// Index: each topic is a pillar path plus the subs hanging under it.
+const topics: Array<Topic & { title: string; excerpt?: string; subs: Post[] }> = [];
+if (role === 'index') {
+  const all = await seriesPosts(d.series);
+  for (const t of (d.topics ?? []) as Topic[]) {
+    const pillarPost = all.find((p) => postPath(p.data.slug) === t.pillar);
+    topics.push({ ...t, title: await titleForPath(t.pillar), excerpt: (pillarPost?.data as any)?.excerpt ?? t.blurb, subs: all.filter((p) => (p.data as any).parent === t.pillar).sort(byOrder) });
+  }
+}
+const about = (d.about ?? []) as string[];
+const aboutLinks = await Promise.all(about.map(async (p) => ({ path: p, title: await titleForPath(p) })));
+const sections = (d.sections ?? []) as Array<{ id: string; heading: string; lede?: string; html: string }>;
+const faq = ((d.faq ?? []) as Array<{ question: string; answer: string }>).map((f) => ({ question: f.question, answer: C(f.answer) }));
+const subCount = role === 'index' ? topics.reduce((n, t) => n + t.subs.length, 0) : children.length;
+const navId = role === 'index' ? 'topics' : role === 'pillar' ? 'in-this-topic' : role === 'sub' ? 'more-in-topic' : '';
+const navLabel = role === 'index' ? 'Every topic in this guide' : role === 'pillar' ? 'Every guide in this topic' : role === 'sub' ? 'More in this topic' : '';
+const toc = [
+  { id: 'glance', label: 'At a glance', group: '' },
+  ...(role === 'index' ? [{ id: navId, label: navLabel, group: '' }] : []),
+  ...sections.map((s) => ({ id: s.id, label: s.heading, group: 'Guide' })),
+  ...(role && role !== 'index' && (children.length || siblings.length || role === 'sub') ? [{ id: navId, label: navLabel, group: 'Navigate' }] : []),
+  ...(faq.length ? [{ id: 'faq', label: 'Questions people ask', group: 'Navigate' }] : []),
+  ...(sources.length ? [{ id: 'sources', label: `Sources (${sources.length})`, group: 'Reference' }] : []),
+  ...(aboutLinks.length ? [{ id: 'related', label: 'Related records', group: 'Reference' }] : []),
+  ...(d.changelog?.length ? [{ id: 'changelog', label: 'What changed', group: 'Reference' }] : []),
+];
+const baseTitle = title(entry);
+const site = Astro.site?.toString();
+const jsonld = [
+  {
+    '@context': 'https://schema.org', '@type': role === 'index' ? 'CollectionPage' : 'Article', headline: d.title, name: d.title, description: description(entry),
+    dateModified: updated, datePublished: d.changelog?.[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(),
+    publisher: { '@type': 'Organization', name: SITE_NAME, url: site },
+    author: d.review?.author ? { '@type': 'Person', name: d.review.author } : { '@type': 'Organization', name: SITE_NAME, url: site },
+    ...(d.review?.reviewer ? { reviewedBy: { '@type': 'Person', name: d.review.reviewer } } : {}),
+    ...(parentPath ? { isPartOf: { '@type': 'WebPage', name: parentTitle, url: new URL(parentPath, Astro.site).toString() } } : {}),
+    ...(role === 'pillar' && children.length ? { hasPart: children.map((c) => ({ '@type': 'Article', name: c.data.title, url: new URL(postPath(c.data.slug), Astro.site).toString() })) } : {}),
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.path, Astro.site).toString() })),
+  },
+];
+const roleLabel = role === 'index' ? 'Guide index' : role === 'pillar' ? 'Topic guide' : role === 'sub' ? 'In-depth guide' : d.category;
+---
+<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={jsonld} siteSuffix={`${baseTitle} | ${SITE_NAME}`.length <= 60}>
+  <Fragment slot="head">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600&display=swap" />
+  </Fragment>
+  <article class="v2 guide-page">
+    <div class="title">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        {crumbs.slice(1, -1).map((c, i) => <>{i > 0 && <span class="dot">›</span>}<a class="eyebrow" href={c.path}>{c.name}</a></>)}
+      </nav>
+      <h1>{d.title}</h1>
+      <p class="dek" set:html={C(d.excerpt)} />
+      <div class="pills">
+        <span class="pill">{roleLabel}</span>
+        {subCount > 0 && <span class="pill">{subCount} {role === 'index' ? 'guides' : 'sub-guides'}</span>}
+        <span class="pill">{sources.length} sources</span>
+        {updated && <span class="pill">Updated <Fragment set:html={timeTag(updated)} /></span>}
+      </div>
+    </div>
+    <div class="layout">
+      <aside><Toc items={toc} /></aside>
+      <div class="content">
+        <section id="glance"><h2>At a glance</h2>
+          <dl class="glance">
+            {d.topic && <><dt>Topic</dt><dd>{d.topic}</dd></>}
+            {parentPath && <><dt>{role === 'pillar' ? 'Part of' : 'Topic guide'}</dt><dd><a href={parentPath}>{parentTitle}</a></dd></>}
+            {role === 'index' && <><dt>Topics</dt><dd>{topics.length} topics, {subCount} guides</dd></>}
+            {role === 'pillar' && children.length > 0 && <><dt>Sub-guides</dt><dd>{children.length}</dd></>}
+            <dt>Sources</dt><dd>{sources.length} cited, numbered at the bottom; each <sup class="cite">[n]</sup> mark links to its source</dd>
+            {updated && <><dt>Updated</dt><dd><Fragment set:html={timeTag(updated)} /></dd></>}
+          </dl>
+          {d.body && <div class="guide-body prose-lg intro" set:html={C(d.body)} />}
+        </section>
+        <StatusBar review={d.review ?? {}} status={d.status} sources={sources.length} updated={updated} />
+        {role === 'index' && (
+          <section id="topics"><div><h2>{navLabel}</h2><p class="lede">Each topic has one main guide, and shorter guides underneath that go deeper on one question.</p></div>
+            {topics.map((t, i) => (
+              <div class="topic" id={`topic-${i + 1}`}>
+                <h3><a href={t.pillar}>{t.label}</a></h3>
+                <p class="lede"><b><a href={t.pillar}>{t.title}</a></b>{t.excerpt ? <> · <Fragment set:html={C(t.excerpt)} /></> : ''}</p>
+                {t.subs.length > 0 && <ul class="cards">{t.subs.map((s) => <li><a href={postPath(s.data.slug)}>{s.data.title}</a><div class="sub">{s.data.excerpt.replace(/\[\[\d+\]\]/g, '')}</div></li>)}</ul>}
+              </div>
+            ))}
+          </section>
+        )}
+        {sections.map((s) => (
+          <section id={s.id} class="guide">
+            <div><h2>{s.heading}</h2>{s.lede && <p class="lede" set:html={C(s.lede)} />}</div>
+            <div class="guide-body prose-lg" set:html={C(s.html)} />
+          </section>
+        ))}
+        {role === 'pillar' && children.length > 0 && (
+          <section id="in-this-topic"><div><h2>{navLabel}</h2><p class="lede">Shorter guides that go deeper on one question each.</p></div>
+            <ul class="cards">{children.map((c) => <li><a href={postPath(c.data.slug)}>{c.data.title}</a><div class="sub">{c.data.excerpt.replace(/\[\[\d+\]\]/g, '')}</div></li>)}</ul>
+          </section>
+        )}
+        {role === 'sub' && parentPath && (
+          <section id="more-in-topic"><div><h2>{navLabel}</h2><p class="lede">This guide is part of <a href={parentPath}><b>{parentTitle}</b></a>.</p></div>
+            {siblings.length > 0 && <ul class="cards">{siblings.map((c) => <li><a href={postPath(c.data.slug)}>{c.data.title}</a><div class="sub">{c.data.excerpt.replace(/\[\[\d+\]\]/g, '')}</div></li>)}</ul>}
+          </section>
+        )}
+        {faq.length > 0 && <section id="faq"><h2>Questions people ask</h2><Faq items={faq} html /></section>}
+        {sources.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Numbered in the order they are first cited. The bracketed numbers in the text link straight to these.</p></div><Sources sources={sources} /></section>}
+        {aboutLinks.length > 0 && (
+          <section id="related"><h2>Related records</h2><ul class="cards">{aboutLinks.map((a) => <li><a href={a.path}>{a.title}</a><div class="sub">{a.path.startsWith('/compounds') ? 'Compound record' : a.path.startsWith('/stacks') ? 'Stack record' : a.path.startsWith('/compare') ? 'Comparison' : 'Guide'}</div></li>)}</ul></section>
+        )}
+        {d.changelog?.length > 0 && <section id="changelog"><div><h2>Last reviewed and what changed</h2></div><ol class="changelog" reversed>{[...d.changelog].reverse().map((c: any) => <li><Fragment set:html={timeTag(c.date, c.date)} /> · {c.change}</li>)}</ol></section>}
+      </div>
+    </div>
+  </article>
+</Base>
+<style is:global>
+  .v2 sup.cite { font-size: .72em; line-height: 0; margin-left: 1px; }
+  .v2 sup.cite a { text-decoration: none; color: var(--accent, #2c5d8a); font-weight: 600; }
+  .v2 sup.cite a:hover { text-decoration: underline; }
+  .v2 dl.glance { display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; margin: 0 0 18px; font-size: 15px; }
+  .v2 dl.glance dt { color: var(--ink-3); font-weight: 600; }
+  .v2 dl.glance dd { margin: 0; color: var(--ink-2); }
+  .v2 .guide-page .topic { margin-top: 22px; }
+  .v2 .guide-page .topic h3 { margin: 0 0 6px; }
+  .v2 .guide-page .topic h3 a { text-decoration: none; color: var(--ink); }
+  .v2 .guide-page .guide-body h3 { margin-top: 18px; }
+  .v2 .guide-page .intro p + p { margin-top: 12px; }
+</style>

@@ -118,6 +118,9 @@ const posts = defineCollection({
     excerpt: z.string(),
     body: z.string(),
     ...base,
+    // Posts carry excerpt, not summary (docs/content-contract.md); the shared
+    // base made summary required, so no post could ever build.
+    summary: z.string().default(''),
   }).passthrough(),
 });
 

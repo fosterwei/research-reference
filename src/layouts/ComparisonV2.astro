@@ -4,6 +4,7 @@
 // guide[] in intent-map order. Spine fixed as on the compound page.
 import '../styles/compound-v2.css';
 import { records } from '../lib/collections';
+import { guidesFor } from '../lib/guides';
 import Base from './Base.astro';
 import Tier from '../components/v2/Tier.astro';
 import Toc from '../components/v2/Toc.astro';
@@ -31,6 +32,9 @@ const pair = sides.map((s) => compounds.find((c) => c.data.slug === s)).filter((
 const [a, b] = pair;
 const h2h = (d.attributes?.head_to_head ?? []) as any[];
 const path = `/compare/${d.slug}`;
+// Guides that hang under this record or declare they are about it (src/lib/guides.ts).
+const guides = await guidesFor(path);
+const guideKind = (g: any) => ({ index: 'Guide index', pillar: 'Topic guide', sub: 'In-depth guide' } as Record<string, string>)[g.data.role] ?? 'Guide';
 const updated = lastmod(entry);
 const seen = new Set<string>();
 const summaryParas = paragraphs(d.summary, 3).map((p: string) => rich(p, { bold: 2, seen }));
@@ -148,6 +152,7 @@ const toc = [
           </div>
         </section>
         <section id="related"><h2>Related records</h2><ul class="cards">
+          {guides.map((g) => <li><a href={`/blog/${g.data.slug}`}>{g.data.title}</a><div class="sub">{guideKind(g)}</div></li>)}
           {pair.map((c) => <li><a href={`/compounds/${c.data.slug}`}>{c.data.preferred_name}</a><div class="sub">Compound record · {TIER_LABEL[c.data.evidence_tier]}</div></li>)}
           <li><a href="/compare">All comparisons</a><div class="sub">Directory</div></li>
         </ul></section>

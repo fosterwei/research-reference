@@ -1,0 +1,42 @@
+---
+// Guides directory. Each series is listed as its index, then each topic's
+// main guide with the guides under it, so the directory has the same shape
+// as the tree it leads into.
+import { records } from '../../lib/collections';
+import { isIndexable } from '../../lib/site';
+import Base from '../../layouts/Base.astro';
+import { postPath, titleForPath, byOrder, type Topic } from '../../lib/guides';
+const posts = (await records('posts')).filter((p) => isIndexable(p));
+const indexes = posts.filter((p) => (p.data as any).role === 'index');
+const series = await Promise.all(indexes.map(async (idx) => {
+  const d = idx.data as any;
+  const topics = await Promise.all(((d.topics ?? []) as Topic[]).map(async (t) => ({
+    ...t, title: await titleForPath(t.pillar),
+    subs: posts.filter((p) => (p.data as any).series === d.series && (p.data as any).parent === t.pillar).sort(byOrder),
+  })));
+  return { idx, topics };
+}));
+const loose = posts.filter((p) => !(p.data as any).series);
+const clean = (s: string) => s.replace(/\[\[\d+\]\]/g, '');
+---
+<Base title="Guides" description="Evidence guides arranged by topic: a main guide per topic and shorter guides beneath it, every claim cited to its source." path="/blog" indexable={posts.length > 0}>
+  <p class="eyebrow">Directory</p>
+  <h1>Guides</h1>
+  <p class="lede prose">Longer explanations that sit on top of the compound, stack and comparison records. Each series starts with an index; each topic has one main guide and shorter guides underneath.</p>
+  {series.map(({ idx, topics }) => (
+    <section>
+      <h2><a href={postPath(idx.data.slug)}>{idx.data.title}</a></h2>
+      <p class="lede prose">{clean(idx.data.excerpt)}</p>
+      {topics.map((t) => (
+        <>
+          <h3><a href={t.pillar}>{t.label}</a></h3>
+          <ul class="cards">
+            <li><a href={t.pillar}>{t.title}</a><div class="sub">Main guide for this topic</div></li>
+            {t.subs.map((s) => <li><a href={postPath(s.data.slug)}>{s.data.title}</a><div class="sub">{clean(s.data.excerpt)}</div></li>)}
+          </ul>
+        </>
+      ))}
+    </section>
+  ))}
+  {loose.length > 0 && <section><h2>Other guides</h2><ul class="cards">{loose.map((p) => <li><a href={postPath(p.data.slug)}>{p.data.title}</a><div class="sub">{clean(p.data.excerpt)}</div></li>)}</ul></section>}
+</Base>

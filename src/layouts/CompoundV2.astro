@@ -12,6 +12,7 @@
 // claim, a tier or a source.
 import '../styles/compound-v2.css';
 import { records } from '../lib/collections';
+import { guidesFor } from '../lib/guides';
 import Base from './Base.astro';
 import Tier from '../components/v2/Tier.astro';
 import Toc from '../components/v2/Toc.astro';
@@ -61,6 +62,9 @@ const humanRows = (A.evidence_table ?? []).filter((r) => r.fields?.species === '
 // Up to twelve human rows read as a list; beyond that the evidence table carries them.
 const showHumanTrials = humanRows.length >= 1 && humanRows.length <= 12;
 const path = `/compounds/${d.slug}`;
+// Guides that hang under this record or declare they are about it (src/lib/guides.ts).
+const guides = await guidesFor(path);
+const guideKind = (g: any) => ({ index: 'Guide index', pillar: 'Topic guide', sub: 'In-depth guide' } as Record<string, string>)[g.data.role] ?? 'Guide';
 const updated = lastmod(entry);
 const seen = new Set<string>();
 const jsonld = {
@@ -180,7 +184,7 @@ const secs = [
   ] : []),
   { id: 'sources', label: `Sources (${d.sources.length})`, group: 'Reference' },
   { id: 'card', label: 'Reference card', group: 'Reference' },
-  ...(inStacks.length + inComparisons.length + peerEntries.length > 0 ? [{ id: 'related', label: 'Related records', group: 'Reference' }] : []),
+  ...(guides.length + inStacks.length + inComparisons.length + peerEntries.length > 0 ? [{ id: 'related', label: 'Related records', group: 'Reference' }] : []),
   ...(d.changelog.length > 0 ? [{ id: 'changelog', label: 'What changed', group: 'Reference' }] : []),
 ];
 // Keep TOC order faithful to render order: method entries sit where the band renders.
@@ -272,8 +276,9 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
 
         {d.sources.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Full citations. Every claim above links to one of these by its id.</p></div><Sources sources={d.sources} /></section>}
         <section id="card"><h2>Reference card</h2><RefCard record={d} reg={reg} path={path} /></section>
-        {(inStacks.length > 0 || inComparisons.length > 0 || peerEntries.length > 0 || calculatorHere) && (
+        {(guides.length > 0 || inStacks.length > 0 || inComparisons.length > 0 || peerEntries.length > 0 || calculatorHere) && (
           <section id="related"><h2>Related records</h2><ul class="cards">
+          {guides.map((g) => <li><a href={`/blog/${g.data.slug}`}>{g.data.title}</a><div class="sub">{guideKind(g)}</div></li>)}
             {calculatorHere && <li><a href={`/calculators/${d.slug}`}>{d.preferred_name} dosage calculator</a><div class="sub">Units, mg and reconstitution, with the doses studies used</div></li>}
             {peerEntries.map((p) => <li><a href={`/compounds/${p.data.slug}`}>{p.data.preferred_name}</a><div class="sub">Peer compound</div></li>)}
             {inStacks.map((s) => <li><a href={`/stacks/${s.slug}`}>{s.name}</a><div class="sub">Stack · wave {s.pilot_wave}</div></li>)}

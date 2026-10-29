@@ -6,6 +6,7 @@
 // guide[]; cited claims stay as the receipts beneath them.
 import '../styles/compound-v2.css';
 import { records } from '../lib/collections';
+import { guidesFor } from '../lib/guides';
 import Base from './Base.astro';
 import Tier from '../components/v2/Tier.astro';
 import Toc from '../components/v2/Toc.astro';
@@ -33,6 +34,9 @@ const combination = (d.attributes?.combination_evidence ?? []) as any[];
 const tierRank = ['approved-label', 'human-clinical-trial', 'observational-human', 'animal-preclinical', 'mechanistic-in-vitro', 'community-reported'];
 const weakest = components.map((c) => c.data.evidence_tier).sort((a, b) => tierRank.indexOf(b) - tierRank.indexOf(a))[0];
 const path = `/stacks/${d.slug}`;
+// Guides that hang under this record or declare they are about it (src/lib/guides.ts).
+const guides = await guidesFor(path);
+const guideKind = (g: any) => ({ index: 'Guide index', pillar: 'Topic guide', sub: 'In-depth guide' } as Record<string, string>)[g.data.role] ?? 'Guide';
 const updated = lastmod(entry);
 const seen = new Set<string>();
 const summaryParas = paragraphs(d.summary, 3).map((p: string) => rich(p, { bold: 2, seen }));
@@ -140,6 +144,7 @@ const toc = [
           </div>
         </section>
         <section id="related"><h2>Related records</h2><ul class="cards">
+          {guides.map((g) => <li><a href={`/blog/${g.data.slug}`}>{g.data.title}</a><div class="sub">{guideKind(g)}</div></li>)}
           {components.map((c) => <li><a href={`/compounds/${c.data.slug}`}>{c.data.preferred_name}</a><div class="sub">Component record · {TIER_LABEL[c.data.evidence_tier]}</div></li>)}
           <li><a href="/stacks">All stacks</a><div class="sub">Directory</div></li>
           <li><a href="/tools/reconstitution-calculator">Reconstitution calculator</a><div class="sub">Tool</div></li>

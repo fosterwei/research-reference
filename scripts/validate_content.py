@@ -301,6 +301,97 @@ def check_changelog(record: dict, path: pathlib.Path, report: Report) -> None:
             report.error(path, f"{label} missing change description")
 
 
+# --- Guides: editorial posts arranged index -> pillar -> sub (src/lib/guides.ts) ---
+GUIDE_ROLES = ("index", "pillar", "sub")
+GUIDE_POSTS: list[tuple[pathlib.Path, dict]] = []
+MARKER_RE = re.compile(r"\[\[(\d+)\]\]")
+HREF_RE = re.compile(r'<a\s[^>]*href="(https?://[^"]+)"[^>]*>', re.I)
+
+
+def check_guide(record: dict, path: pathlib.Path, report: Report) -> None:
+    """Per-record guide rules. Cross-record rules run in check_guide_tree()."""
+    series, role = record.get("series"), record.get("role")
+    if series is None and role is None:
+        return
+    if not isinstance(series, str) or not SLUG_RE.fullmatch(series or ""):
+        report.error(path, "guide 'series' must be a slug")
+    if role not in GUIDE_ROLES:
+        report.error(path, f"guide 'role' must be one of {list(GUIDE_ROLES)}")
+    if role in ("pillar", "sub") and not isinstance(record.get("parent"), str):
+        report.error(path, f"a {role} needs 'parent', the path of the page above it")
+    if role == "index":
+        topics = record.get("topics")
+        if not isinstance(topics, list) or not topics:
+            report.error(path, "a guide index needs 'topics': [{label, pillar}]")
+        else:
+            for t in topics:
+                if not isinstance(t, dict) or not t.get("label") or not str(t.get("pillar", "")).startswith("/"):
+                    report.error(path, f"topic entry {t!r} needs 'label' and a 'pillar' path")
+    sections = record.get("sections", [])
+    if not isinstance(sections, list):
+        report.error(path, "'sections' must be a list"); sections = []
+    texts = [record.get("body", ""), record.get("excerpt", "")]
+    ids = set()
+    for sec in sections:
+        if not isinstance(sec, dict) or not sec.get("id") or not sec.get("heading") or not isinstance(sec.get("html"), str):
+            report.error(path, "every section needs id, heading and html"); continue
+        if sec["id"] in ids:
+            report.error(path, f"duplicate section id {sec['id']!r}")
+        ids.add(sec["id"])
+        texts += [sec["html"], sec.get("lede", "")]
+    for f in record.get("faq", []) or []:
+        texts.append(f.get("answer", "") if isinstance(f, dict) else "")
+    n_src = len(record.get("sources", []) or [])
+    cited: set[int] = set()
+    for t in texts:
+        for m in MARKER_RE.finditer(t or ""):
+            n = int(m.group(1))
+            cited.add(n)
+            if not 1 <= n <= n_src:
+                report.error(path, f"citation marker [[{n}]] has no source {n} (record has {n_src})")
+        for m in HREF_RE.finditer(t or ""):
+            tag = m.group(0)
+            if "nofollow" not in tag:
+                report.error(path, f"outbound link without rel=nofollow: {m.group(1)}")
+    uncited = sorted(set(range(1, n_src + 1)) - cited)
+    if uncited and role:
+        report.error(path, f"sources never cited with a [[n]] marker: {uncited}")
+    GUIDE_POSTS.append((path, record))
+
+
+def check_guide_tree(report: Report, seen: dict) -> None:
+    """Every parent and pillar resolves to a page; one index per series."""
+    pages = {f"{prefix}{slug}" for prefix, slug in seen}
+    by_series: dict[str, list[dict]] = {}
+    for path, rec in GUIDE_POSTS:
+        by_series.setdefault(rec.get("series"), []).append(rec)
+        for key in ("parent",):
+            target = rec.get(key)
+            if target and target not in pages:
+                report.error(path, f"{key} {target!r} is not a page on this site")
+        for a in rec.get("about", []) or []:
+            if a not in pages:
+                report.error(path, f"about {a!r} is not a page on this site")
+        for t in rec.get("topics", []) or []:
+            if isinstance(t, dict) and t.get("pillar") not in pages:
+                report.error(path, f"topic pillar {t.get('pillar')!r} is not a page on this site")
+    for series, recs in by_series.items():
+        idx = [r for r in recs if r.get("role") == "index"]
+        if len(idx) != 1:
+            report.error(DATA / "posts", f"series {series!r} has {len(idx)} index pages; it needs exactly one")
+            continue
+        idx_path = f"/blog/{idx[0].get('slug')}"
+        topic_pillars = {t.get("pillar") for t in idx[0].get("topics", []) if isinstance(t, dict)}
+        for r in recs:
+            if r.get("role") == "pillar":
+                if r.get("parent") != idx_path:
+                    report.error(DATA / "posts" / f"{r.get('slug')}.json", f"pillar's parent must be the series index {idx_path}")
+                if f"/blog/{r.get('slug')}" not in topic_pillars:
+                    report.error(DATA / "posts" / f"{r.get('slug')}.json", "pillar is not listed in the index's topics")
+            if r.get("role") == "sub" and r.get("parent") not in topic_pillars:
+                report.error(DATA / "posts" / f"{r.get('slug')}.json", f"sub's parent {r.get('parent')!r} is not a topic pillar of the index")
+
+
 def validate_record(path: pathlib.Path, report: Report) -> tuple[str, str] | None:
     """Validate one file. Return (url_prefix, slug) for slug-uniqueness tracking."""
     record = load_json(path, report)
@@ -343,6 +434,8 @@ def validate_record(path: pathlib.Path, report: Report) -> tuple[str, str] | Non
     check_changelog(record, path, report)
     if rtype != "post":
         check_uniqueness(record, path, report, gated)
+    elif parent != EXAMPLES_DIR:
+        check_guide(record, path, report)
 
     if parent == EXAMPLES_DIR and status != "draft":
         report.error(path, "example records must stay in status 'draft'")
@@ -375,6 +468,7 @@ def main(argv: list[str]) -> int:
         else:
             seen[key] = path
 
+    check_guide_tree(report, seen)
     report.emit_warnings()
 
     if report.errors:
