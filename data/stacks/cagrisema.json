@@ -252,6 +252,20 @@
       "url": "https://europepmc.org/article/MED/40544433",
       "published": "2025-06-22",
       "kind": "peer-reviewed"
+    },
+    {
+      "id": "nn-cagrisema-nda",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues for weight management",
+      "url": "https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp1-and-amylin-analogues-for-weight-management-302645868.html",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "nn-cagrisema-women",
+      "title": "Novo's CagriSema was associated with 25% weight loss on average for women in a post hoc analysis of REDEFINE 1, presented at The Menopause Society Annual Meeting",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=918569",
+      "published": "2026-10-20",
+      "kind": "manufacturer"
     }
   ],
   "related": [
@@ -261,7 +275,7 @@
   "faq": [
     {
       "question": "Is CagriSema approved?",
-      "answer": "No. It is not approved in the United States, the European Union or any other country. The pivotal trials are complete and published or announced; regulatory review is the step that has not finished, and no approval date has been published."
+      "answer": "No. It is not approved in the United States, the European Union or any other country. Novo Nordisk filed it with the US FDA on 18 December 2025, and in October 2026 the company said it expects the FDA's decision in the fourth quarter of 2026. Until a decision is published, no approval date exists."
     },
     {
       "question": "How much weight did people lose on CagriSema?",
@@ -305,7 +319,7 @@
     },
     {
       "question": "When will CagriSema be available?",
-      "answer": "No date has been published. The trials are complete, the results are out, and what remains is regulatory review, whose timing the manufacturer and the regulators control. Dates circulating online are inferences."
+      "answer": "Not before an FDA approval. Novo Nordisk filed with the FDA on 18 December 2025 and, as of October 2026, expects a decision in the fourth quarter of 2026; that is a company expectation, not an approval date. The step-by-step timeline is in the CagriSema approval timeline guide."
     }
   ],
   "open_questions": [
@@ -335,6 +349,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-28."
+    },
+    {
+      "date": "2026-10-29",
+      "change": "Availability updated: FDA filing on 18 December 2025 and Novo Nordisk's expectation of a decision in Q4 2026, with sources; linked the new CagriSema guides beneath this page."
     }
   ],
   "components": [
@@ -388,7 +406,7 @@
     {
       "id": "availability",
       "heading": "Availability: filed, not approved, and not purchasable",
-      "html": "<p>CagriSema is not approved in the United States, the European Union or anywhere else. It has been through its pivotal trials, the results are published or announced, and regulatory review is the step that has not finished.</p><p>That leaves an obvious gap between the search interest and the reality: there is no prescription to get and no product to buy. Semaglutide is available as an approved medicine on its own; cagrilintide is investigational and not sold. Anything offered online as CagriSema is not the trial product, and mixing two separately sourced peptides does not reproduce a fixed-dose combination whose ratio and escalation were set by the manufacturer and tested as one thing.</p><p>Approval dates circulating online are inferences from filing announcements. This page does not carry one, because none has been published.</p>"
+      "html": "<p>CagriSema is not approved in the United States, the European Union or anywhere else. It has been through its pivotal trials, the results are published or announced, and regulatory review is the step that has not finished.</p><p>That leaves an obvious gap between the search interest and the reality: there is no prescription to get and no product to buy. Semaglutide is available as an approved medicine on its own; cagrilintide is investigational and not sold. Anything offered online as CagriSema is not the trial product, and mixing two separately sourced peptides does not reproduce a fixed-dose combination whose ratio and escalation were set by the manufacturer and tested as one thing.</p><p>Novo Nordisk filed CagriSema with the US FDA on 18 December 2025, based on REDEFINE 1 and 2, and in October 2026 said it expects the FDA's decision in the fourth quarter of 2026. That is the manufacturer's expectation, not an approval date. Dates and every step so far are in the <a href=\"/blog/cagrisema-approval-timeline\">CagriSema approval timeline</a>, and the trial dose ladder is in the <a href=\"/blog/cagrisema-dosing-schedule\">CagriSema dosing schedule</a>.</p>"
     },
     {
       "id": "reported-use",
