@@ -1,0 +1,174 @@
+{
+ "slug": "prediabetes-medication",
+ "type": "post",
+ "generated": "2026-10-29",
+ "h1": "Prediabetes medication: what the prevention trials showed",
+ "dek": "No medicine is approved in the US specifically for prediabetes. Metformin has the longest record, cutting diabetes onset by 31% in the Diabetes Prevention Program, less than lifestyle change did; semaglutide and tirzepatide showed larger effects in people with obesity.",
+ "scope": "Informational intent only. Price, coverage and where-to-get queries are out of scope and not mapped.",
+ "queries": [
+  {
+   "query": "prediabetes medication",
+   "volume": {
+    "semrush": 8100,
+    "kd": 44,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "Image Pack, People Also Ask, Things To Know, Video, Featured Snippet, Image, Related Searches",
+   "policy": "evidence-with-boundary",
+   "section": "trials-table",
+   "heading": "Prediabetes medications tested in prevention trials",
+   "boundary": "Evidence answer only: the page reports trial results and guideline criteria and says no drug is FDA-approved for prediabetes; it does not choose a medicine for the reader."
+  },
+  {
+   "query": "pre diabetes meds",
+   "volume": {
+    "semrush": 1300,
+    "kd": 44,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "Image Pack, AI Overview, Site Links, Video, Image, Related Searches",
+   "policy": "evidence-with-boundary",
+   "section": "trials-table",
+   "heading": "Prediabetes medications tested in prevention trials",
+   "boundary": "Evidence answer only: the page reports trial results and guideline criteria and says no drug is FDA-approved for prediabetes; it does not choose a medicine for the reader."
+  },
+  {
+   "query": "pre diabetes medication",
+   "volume": {
+    "semrush": 1300,
+    "kd": 62,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "Discussions And Forums, AI Overview, Video, Related Searches",
+   "policy": "evidence-with-boundary",
+   "section": "trials-table",
+   "heading": "Prediabetes medications tested in prevention trials",
+   "boundary": "Evidence answer only: the page reports trial results and guideline criteria and says no drug is FDA-approved for prediabetes; it does not choose a medicine for the reader."
+  },
+  {
+   "query": "what is the best medicine for prediabetes",
+   "volume": {
+    "semrush": 480,
+    "kd": 42,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational, commercial",
+   "serp_features": "Video Carousel, Discussions And Forums, AI Overview, Video, Related Searches",
+   "policy": "evidence-with-boundary",
+   "section": "best-medicine",
+   "heading": "What is the best medicine for prediabetes?",
+   "boundary": "No head-to-head trial exists; the answer is stated as what each trial showed in whom, and the choice is described as a clinician decision under ADA criteria."
+  },
+  {
+   "query": "pre diabetes medicines",
+   "volume": {
+    "semrush": 210,
+    "kd": 42,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "People Also Ask, Video, Image, Related Searches, AI Overview",
+   "policy": "answer",
+   "section": "ada-2026",
+   "heading": "What the ADA 2026 Standards say about medicine for prediabetes"
+  },
+  {
+   "query": "meds for prediabetes",
+   "volume": {
+    "semrush": 140,
+    "kd": 39,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "Discussions And Forums, AI Overview, Video, Image, Related Searches",
+   "policy": "answer",
+   "section": "fda-status",
+   "heading": "Is any medication FDA-approved for prediabetes?"
+  },
+  {
+   "query": "pills for prediabetes",
+   "volume": {
+    "semrush": 90,
+    "kd": 36,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "Video Carousel, People Also Ask, Discussions And Forums, AI Overview, Site Links, Video, Related Searches",
+   "policy": "answer",
+   "section": "other-drugs",
+   "heading": "Acarbose, pioglitazone and GLP-1 drugs: the trade-offs"
+  }
+ ],
+ "competitors": [
+  {
+   "url": "https://www.mayoclinic.org/diseases-conditions/prediabetes/diagnosis-treatment/drc-20355284",
+   "rank": 1,
+   "gap": "Not fetched this run (fetch tool returned connection errors). From the URL it is a diagnosis-and-treatment overview; a general patient page of this kind is not expected to give per-trial effect sizes, the DPPOS 15-year attenuation, or the GLP-1 prevention trials.",
+   "source": "Semrush top-10; not fetched"
+  },
+  {
+   "url": "https://diabetesjournals.org/care/article/43/9/1983/35757/Metformin-Should-Not-Be-Used-to-Treat-Prediabetes",
+   "rank": 2,
+   "gap": "A one-sided commentary (abstract read via Europe PMC): argues against metformin, covers neither the ADA 2026 criteria nor acarbose, pioglitazone, semaglutide or tirzepatide trial data.",
+   "source": "Semrush top-10; abstract fetched via Europe PMC (pmid-32936780)"
+  },
+  {
+   "url": "https://diabetes.org/health-wellness/medication/oral-other-injectable-diabetes-medications",
+   "rank": 3,
+   "gap": "Not fetched. From the URL a list of diabetes medication classes, not a prediabetes prevention page; prevention trial results are outside its scope.",
+   "source": "Semrush top-10; not fetched"
+  },
+  {
+   "url": "https://www.goodrx.com/conditions/prediabetes/diagnosed-with-prediabetes-now-what",
+   "rank": 4,
+   "gap": "Not fetched. A consumer next-steps article on a pharmacy-pricing site; primary trial citations not verified.",
+   "source": "Semrush top-10; not fetched"
+  }
+ ],
+ "information_gain": "The only page on this SERP to put every randomised prevention trial (DPP, DPPOS, STOP-NIDDM, ACT NOW, STEP, SELECT, SURMOUNT-1) in one table with its population and trade-off, to report that the metformin effect fell from 31% to 18% over 15 years, and to state that the GLP-1 effects were measured on treatment, with diabetes rates rising after tirzepatide stopped.",
+ "serp_format_rewarded": "Featured snippet and AI Overview with People Also Ask: a direct first-paragraph answer (no FDA-approved drug; metformin 31% vs lifestyle 58%), then a comparison table and short question-led sections.",
+ "outline": [
+  {
+   "id": "trials-table",
+   "heading": "Prediabetes medications tested in prevention trials",
+   "data": "DPP, DPPOS, STOP-NIDDM, ACT NOW, STEP pooled, SELECT, SURMOUNT-1 abstracts"
+  },
+  {
+   "id": "dpp",
+   "heading": "Metformin vs lifestyle change: the Diabetes Prevention Program",
+   "data": "DPP and DPPOS abstracts"
+  },
+  {
+   "id": "ada-2026",
+   "heading": "What the ADA 2026 Standards say about medicine for prediabetes",
+   "data": "ADA Standards 2026 section 3; Davidson 2020 commentary"
+  },
+  {
+   "id": "fda-status",
+   "heading": "Is any medication FDA-approved for prediabetes?",
+   "data": "Stated absence: no prediabetes indication on the metformin, pioglitazone, semaglutide or tirzepatide labels; ADA note on off-label use"
+  },
+  {
+   "id": "other-drugs",
+   "heading": "Acarbose, pioglitazone and GLP-1 drugs: the trade-offs",
+   "data": "STOP-NIDDM, ACT NOW, Actos label, SELECT, SURMOUNT-1; stated absence of amylin prevention data"
+  },
+  {
+   "id": "best-medicine",
+   "heading": "What is the best medicine for prediabetes?",
+   "data": "Stated absence of head-to-head trials; DPP, DPPOS, SELECT, SURMOUNT-1"
+  },
+  {
+   "id": "faq",
+   "heading": "FAQ",
+   "data": "People Also Ask phrasings"
+  }
+ ],
+ "open_actions": [
+  "ADA 2026 section 3 wording on FDA approval and the metformin criteria was confirmed by phrase search of the PMC full text, not read in full; check the exact sentences.",
+  "Competitor pages were not fetched (WebFetch connection errors); score them on the next run."
+ ]
+}

@@ -1,0 +1,157 @@
+{
+  "type": "post",
+  "slug": "type-2-diabetes-treatments",
+  "status": "draft",
+  "category": "Research",
+  "title": "Type 2 diabetes treatments: how treatment is chosen, step by step, in current guidelines",
+  "short_title": "Type 2 diabetes treatments",
+  "excerpt": "Type 2 diabetes treatment starts with nutrition, activity and education, adds medicines chosen by heart, kidney and weight goals, and moves to injections such as GLP-1 drugs and insulin when needed. This is the sequence the 2026 ADA Standards describe.",
+  "body": "<p><b>Type 2 diabetes treatments</b> follow a sequence in the 2026 American Diabetes Association (ADA) Standards of Care: set an individual A1C goal, build nutrition, physical activity and self-management education, choose a first medicine by heart, kidney and weight needs, add or adjust medicines when the goal is not met, and use injectables, first GLP-1 drugs and then insulin, when tablets are not enough [[1]]. Treatment is adjusted for life, not completed.</p><p>This guide sits under <a href=\"/blog/diabetes-medications\">diabetes medications</a>, which compares every drug class in one table. It describes how clinicians decide; it is not advice on what any reader should take.</p>",
+  "seo": {
+    "title": "Type 2 Diabetes Treatments: Steps in the 2026 Guidelines",
+    "description": "How type 2 diabetes treatment is chosen in the 2026 ADA Standards: lifestyle, the first medicine, when GLP-1 injections and insulin start, and remission."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/blog/diabetes-medications",
+  "topic": "Type 2 diabetes medicines",
+  "order": 1,
+  "about": [],
+  "sections": [
+    {
+      "id": "steps",
+      "heading": "Diabetes mellitus type 2 treatment, step by step",
+      "lede": "The order below is the one the 2026 Standards set out; each step is revisited at every review.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Type 2 diabetes treatment steps in the ADA Standards of Care 2026</caption><thead><tr><th scope=\"col\">Step</th><th scope=\"col\">What happens</th></tr></thead><tbody><tr><td>1. Set the goal</td><td>An A1C below <b>7%</b> is the goal for many non-pregnant adults, set higher or lower for the person [[2]]</td></tr><tr><td>2. Lifestyle and education</td><td>Medical nutrition therapy, at least <b>150 minutes</b> a week of moderate-to-vigorous activity for most adults, and diabetes self-management education [[3]]</td></tr><tr><td>3. First medicine</td><td>Chosen by heart disease, heart failure, kidney disease, weight, hypoglycemia risk and cost; metformin when none of those points elsewhere [[1]]</td></tr><tr><td>4. Add or adjust</td><td>Further medicines are added or changed when the goal is not met; early combination therapy is an option at diagnosis [[1]]</td></tr><tr><td>5. Injectables</td><td>A GLP-1 receptor agonist or <a href=\"/compounds/tirzepatide\">tirzepatide</a> is preferred to insulin when an injectable's stronger effect is needed [[1]]</td></tr><tr><td>6. Insulin</td><td>Started when glucose stays above goal on other drugs, or early when glucose is very high or symptoms are present; combined with a GLP-1 drug when used [[1]]</td></tr></tbody></table></div></div><p>The steps overlap. Many people start a medicine at diagnosis alongside the lifestyle step, and a person with heart failure or kidney disease is offered an SGLT2 inhibitor whatever their A1C. <b>Treating type II diabetes</b> in this framework is less a ladder than a set of conditions checked again at each visit.</p>"
+    },
+    {
+      "id": "lifestyle",
+      "heading": "Lifestyle treatment: food, activity and weight",
+      "html": "<p>The ADA's behaviour section covers individualised nutrition from a dietitian, regular physical activity, reduced sitting time, sleep and stopping tobacco, alongside formal diabetes self-management education and support [[3]]. No single diet pattern is required; the Standards accept several eating patterns that reduce calories and refined carbohydrate.</p><p>Weight loss has the largest effect. In the DiRECT trial in UK primary care, a structured programme of low-calorie formula diet followed by food reintroduction took <b>46%</b> of participants off all diabetes medicines with an A1C below 6.5% at 12 months, against 4% with usual care [[4]]. Remission depended on how much weight was lost, which the <a href=\"/blog/type-2-diabetes-remission\">type 2 diabetes remission</a> guide covers in full.</p>"
+    },
+    {
+      "id": "first-medicine",
+      "heading": "How the first diabetes medicine is chosen",
+      "html": "<p>The 2026 Standards ask which conditions a person has before asking which A1C they have [[1]]:</p><ul><li><b>Atherosclerotic heart disease or high risk:</b> a GLP-1 receptor agonist or SGLT2 inhibitor with proven cardiovascular benefit.</li><li><b>Heart failure:</b> an SGLT2 inhibitor; for heart failure with preserved ejection fraction and obesity, <a href=\"/compounds/semaglutide\">semaglutide</a> injection or tirzepatide are also listed.</li><li><b>Chronic kidney disease:</b> an SGLT2 inhibitor, with a GLP-1 receptor agonist as an option.</li><li><b>Weight management as a goal:</b> a GLP-1 receptor agonist or tirzepatide.</li><li><b>None of the above:</b> metformin is the usual first tablet; it is effective, inexpensive and does not cause hypoglycemia on its own.</li></ul><p>The randomised evidence explains the order. A network meta-analysis of <b>453 trials</b> found no difference in deaths or vascular events between treatments in people at low cardiovascular risk, while specific GLP-1 receptor agonists and SGLT2 inhibitors reduced death in people at increased risk [[5]]. <a href=\"/blog/metformin-vs-insulin\">Metformin vs insulin</a> compares the two oldest options, and <a href=\"/blog/jardiance-for-type-2-diabetes\">Jardiance for type 2 diabetes</a> covers the SGLT2 inhibitor most often chosen for heart and kidney protection.</p>"
+    },
+    {
+      "id": "injections",
+      "heading": "Type 2 diabetes injections: GLP-1 drugs, tirzepatide, insulin and amylin",
+      "lede": "Injectable diabetes medicines are a later step for most people, and GLP-1 drugs now come before insulin.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Injectable diabetes medicines used in type 2 diabetes</caption><thead><tr><th scope=\"col\">Group</th><th scope=\"col\">How often</th><th scope=\"col\">Where it sits in treatment</th><th scope=\"col\">Examples</th></tr></thead><tbody><tr><td>GLP-1 receptor agonists</td><td>Usually once a week, pen under the skin [[6]]</td><td>Preferred injectable before insulin; lower weight; low hypoglycemia risk alone</td><td>Semaglutide (Ozempic), dulaglutide</td></tr><tr><td>Dual GIP/GLP-1 agonist</td><td>Once a week; injected separately from insulin, never mixed [[7]]</td><td>Largest A1C and weight effect of the non-insulin drugs</td><td>Tirzepatide (Mounjaro)</td></tr><tr><td>Basal insulin</td><td>Once or twice a day</td><td>Added when other drugs do not reach the goal, or early when glucose is very high</td><td>Glargine, degludec, detemir, NPH</td></tr><tr><td>Mealtime insulin</td><td>Before meals</td><td>Added to basal insulin when post-meal glucose stays high</td><td>Lispro, aspart, glulisine, regular</td></tr><tr><td>Amylin analogue</td><td>Before major meals, separate from insulin [[8]]</td><td>Only for people already using mealtime insulin</td><td>Pramlintide (Symlin)</td></tr></tbody></table></div></div><p>The ADA prefers a GLP-1 receptor agonist or tirzepatide to insulin when a person needs the greater glucose-lowering effect of an injection, and when insulin is used it recommends combining it with one of them for better glucose, weight and hypoglycemia results [[1]]. When tirzepatide is started on top of a sulfonylurea or insulin, its label tells prescribers to consider reducing those doses because the combination raises the risk of low blood sugar [[7]].</p><p>The next injectable may combine two hormones. In REIMAGINE 3, adults with type 2 diabetes already on basal insulin who added once-weekly <a href=\"/stacks/cagrisema\">CagriSema</a> lowered A1C by <b>2.33</b> points against 0.66 on placebo over 40 weeks, with no severe hypoglycemia [[9]]. CagriSema is not approved; <a href=\"/blog/new-diabetes-medications\">new diabetes medications</a> tracks it and the other drugs in late trials.</p>"
+    },
+    {
+      "id": "insulin",
+      "heading": "Injectable insulin for type 2 diabetes: when it is used",
+      "html": "<p>Insulin is graded the most potent glucose-lowering medicine [[1]], and it works where other drugs fall short. In the 2026 Standards it is used in three situations: when glucose stays above goal despite other medicines; early, at or near diagnosis, when glucose or A1C is very high or there are symptoms such as weight loss and thirst; and during acute illness, surgery or hospital stays. Early insulin can often be reduced or stopped once glucose comes down and other medicines take over.</p><p>Its costs are hypoglycemia and weight gain, the two reasons the Standards pair it with a GLP-1 receptor agonist where possible [[1]]. Insulin and sulfonylureas are the classes the Standards single out for hypoglycemia risk [[2]]; the <a href=\"/blog/hypoglycemic-drugs\">hypoglycemic drugs</a> guide compares the classes on that measure.</p>"
+    },
+    {
+      "id": "cure",
+      "heading": "Is there a cure for type 2 diabetes? What remission means",
+      "lede": "The research term is remission: A1C below 6.5% for months without glucose-lowering medicine.",
+      "html": "<p>No medicine or programme is called a cure in the evidence, because blood sugar can rise again. What trials measure is <b>remission</b>. In DiRECT, 46% of the intervention group were in remission at 12 months [[4]], and <b>36%</b> still were at 24 months, against 3% of the usual-care group [[10]]. Among people who kept off at least 10 kg, 64% were in remission at two years [[10]].</p><p>Remission is most likely early in the disease and with large, sustained weight loss, which is why intensive weight management and metabolic surgery are the main routes studied. <a href=\"/blog/type-2-diabetes-remission\">Type 2 diabetes remission</a> covers the definition and the trials, and <a href=\"/blog/prediabetes-medication\">prediabetes medication</a> covers the stage before diagnosis.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the first treatment for type 2 diabetes?",
+      "answer": "Lifestyle change and self-management education start for everyone, usually alongside a first medicine. Metformin is the usual first tablet unless heart disease, heart failure, kidney disease or weight goals point to an SGLT2 inhibitor or GLP-1 drug [[1]]."
+    },
+    {
+      "question": "When do people with type 2 diabetes need injections?",
+      "answer": "When tablets do not keep A1C at goal, or earlier if a GLP-1 drug is chosen for heart or weight reasons. The ADA prefers a GLP-1 receptor agonist or tirzepatide before insulin, and uses insulin early when glucose is very high or symptoms are present [[1]]."
+    },
+    {
+      "question": "Can type 2 diabetes go away?",
+      "answer": "It can go into remission. In DiRECT, 36% of people in a structured weight-management programme had an A1C below 6.5% without diabetes medicines after two years [[10]]. Remission is not described as a cure because glucose can rise again."
+    },
+    {
+      "question": "Is insulin the last resort in type 2 diabetes?",
+      "answer": "No. It is used whenever other medicines are not enough, and sometimes early to bring very high glucose down quickly; it is often combined with a GLP-1 drug [[1]]."
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmid-41358900",
+      "title": "9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358900",
+      "published": "2025-12-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41358894",
+      "title": "6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358894",
+      "published": "2025-12-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41358898",
+      "title": "5. Facilitating Positive Health Behaviors and Well-being to Improve Health Outcomes: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358898",
+      "published": "2025-12-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29221645",
+      "title": "Primary care-led weight management for remission of type 2 diabetes (DiRECT): an open-label, cluster-randomised trial.",
+      "url": "https://europepmc.org/article/MED/29221645",
+      "published": "2017-12-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32598218",
+      "title": "Comparative Effectiveness of Glucose-Lowering Drugs for Type 2 Diabetes: A Systematic Review and Network Meta-analysis.",
+      "url": "https://europepmc.org/article/MED/32598218",
+      "published": "2020-06-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "fda-ozempic-label-2026",
+      "title": "OZEMPIC (semaglutide) injection prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/209637s038lbl.pdf",
+      "published": "2026-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "fda-mounjaro-label-2025",
+      "title": "MOUNJARO (tirzepatide) injection prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215866s031lbl.pdf",
+      "published": "2025-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "fda-symlin-label-2019",
+      "title": "SYMLIN (pramlintide acetate) injection prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/021332s028lbl.pdf",
+      "published": "2019-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "pmid-42251856",
+      "title": "Cagrilintide-semaglutide (CagriSema) as an add-on to basal insulin in adults with type 2 diabetes (REIMAGINE 3): a randomised, double-blind, placebo-controlled, multicentre, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251856",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-30852132",
+      "title": "Durability of a primary care-led weight-management intervention for remission of type 2 diabetes: 2-year results of the DiRECT open-label, cluster-randomised trial.",
+      "url": "https://europepmc.org/article/MED/30852132",
+      "published": "2019-03-06",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: the type 2 diabetes treatment sequence in the ADA 2026 Standards, lifestyle, first-medicine choice, injectables (GLP-1, tirzepatide, insulin, amylin), when insulin is used, and remission evidence from DiRECT."
+    }
+  ],
+  "uniqueness_pct": 96.7
+}

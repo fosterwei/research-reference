@@ -1,0 +1,187 @@
+{
+  "type": "post",
+  "slug": "prediabetes-medication",
+  "status": "draft",
+  "category": "Research",
+  "title": "Prediabetes medication: what the prevention trials showed",
+  "short_title": "Prediabetes medication",
+  "excerpt": "No medicine is approved in the US specifically for prediabetes. Metformin has the longest record, cutting diabetes onset by 31% in the Diabetes Prevention Program, less than lifestyle change did; semaglutide and tirzepatide showed larger effects in people with obesity.",
+  "body": "<p><b>Prediabetes medication</b> is a short list with a long evidence trail. No drug carries a US label for prediabetes itself, and metformin's use to delay diabetes is off-label [[1]]. Metformin is the medicine the ADA Standards of Care 2026 name for selected high-risk adults [[1]]. In the Diabetes Prevention Program it lowered the rate of new diabetes by <b>31%</b>, while an intensive lifestyle programme lowered it by <b>58%</b> [[2]]. Acarbose, pioglitazone, semaglutide and tirzepatide have also delayed diabetes in trials, each with its own trade-off.</p><p>This page is part of the guide to <a href=\"/blog/diabetes-medications\">diabetes medications</a>. It reports what each prevention trial found and how the guidelines use it; it does not say what any one person should take. For the drugs used once diabetes is diagnosed, see <a href=\"/blog/type-2-diabetes-treatments\">type 2 diabetes treatments, step by step</a>, and for the metformin evidence in more depth, <a href=\"/blog/metformin-vs-insulin\">metformin vs insulin</a>.</p>",
+  "seo": {
+    "title": "Prediabetes Medication: What the Prevention Trials Show",
+    "description": "Which drugs delay diabetes in prediabetes: metformin, acarbose, pioglitazone, semaglutide and tirzepatide trial results, and the ADA 2026 advice."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/blog/diabetes-medications",
+  "topic": "Type 2 diabetes medicines",
+  "order": 2,
+  "about": [],
+  "sections": [
+    {
+      "id": "trials-table",
+      "heading": "Prediabetes medications tested in prevention trials",
+      "lede": "Seven trials, five drugs, one outcome: how many people went on to develop type 2 diabetes.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Prediabetes medications tested in randomised diabetes-prevention trials</caption><thead><tr><th scope=\"col\">Drug</th><th scope=\"col\">Trial</th><th scope=\"col\">Who took part</th><th scope=\"col\">Length</th><th scope=\"col\">Diabetes outcome vs placebo</th><th scope=\"col\">Main trade-off</th></tr></thead><tbody>\n<tr><td><b>Metformin</b></td><td>Diabetes Prevention Program (DPP)</td><td>Adults with raised fasting and post-meal glucose</td><td>2.8 years average</td><td>Incidence 7.8 vs 11.0 cases per 100 person-years, <b>31% lower</b>; intensive lifestyle change cut it 58% [[2]]</td><td>Less effective than the lifestyle programme [[2]]</td></tr>\n<tr><td>Metformin, long term</td><td>DPP Outcomes Study (DPPOS)</td><td>The same cohort, followed on</td><td>15 years average</td><td>18% lower incidence (lifestyle 27%); the gap narrowed over time [[3]]</td><td>No difference in combined small-vessel complications [[3]]</td></tr>\n<tr><td>Acarbose</td><td>STOP-NIDDM</td><td>1,429 adults with impaired glucose tolerance</td><td>Multi-year</td><td>32% vs 42% developed diabetes, relative hazard 0.75 [[4]]</td><td>31% stopped acarbose early, against 19% on placebo [[4]]</td></tr>\n<tr><td>Pioglitazone</td><td>ACT NOW</td><td>Adults with impaired glucose tolerance</td><td>Multi-year</td><td>Annual incidence 2.1% vs 7.6%, <b>72% lower</b> [[5]]</td><td>Significant weight gain and edema [[5]]</td></tr>\n<tr><td>Semaglutide 2.4 mg weekly</td><td>STEP 1, 3 and 4 (pooled)</td><td>1,536 adults with obesity or overweight and prediabetes</td><td>68 weeks</td><td>Normal glucose reached by 84.1% vs 47.8% in STEP 1 [[6]]</td><td>Measured while on treatment, with lifestyle support in both arms [[6]]</td></tr>\n<tr><td>Semaglutide 2.4 mg weekly</td><td>SELECT</td><td>17,604 adults with heart disease and overweight, no diabetes</td><td>About 3.4 years</td><td>Diabetes by week 156 in 1.5% vs 6.9% [[7]]</td><td>Did not slow the underlying rise in glucose over time [[7]]</td></tr>\n<tr><td>Tirzepatide 5 to 15 mg weekly</td><td>SURMOUNT-1, 3-year analysis</td><td>1,032 adults with obesity and prediabetes</td><td>176 weeks</td><td>Diabetes in 1.3% vs 13.3%, hazard ratio <b>0.07</b> [[8]]</td><td>After 17 weeks off drug, 2.4% vs 13.7% [[8]]</td></tr>\n</tbody></table></div></div><p>Read the populations before comparing rows. The DPP, STOP-NIDDM and ACT NOW enrolled people selected for high glucose. The semaglutide and tirzepatide results come from weight-management trials in people with obesity or overweight [[6]][[8]], and SELECT enrolled people who already had heart disease [[7]]. No trial has compared these drugs head to head for diabetes prevention, so the table cannot rank them.</p>"
+    },
+    {
+      "id": "dpp",
+      "heading": "Metformin vs lifestyle change: the Diabetes Prevention Program",
+      "html": "<p>The DPP is the trial behind almost every metformin-for-prediabetes discussion. Over an average of <b>2.8 years</b>, new diabetes occurred at 11.0 cases per 100 person-years on placebo, 7.8 on metformin and 4.8 with the intensive lifestyle programme [[2]]. The lifestyle programme was significantly more effective than metformin. Put another way, about 6.9 people had to follow the lifestyle programme for three years to prevent one case, against 13.9 on metformin [[2]].</p><p>The long follow-up tells a more modest story. After 15 years, the reduction was 27% for the lifestyle group and 18% for metformin, and cumulative diabetes incidence was 55%, 56% and 62% for lifestyle, metformin and placebo [[3]]. Combined small-vessel complications (kidney, eye and nerve disease) did not differ between the groups overall [[3]]. Metformin delayed diabetes; it did not stop the condition progressing in most people.</p>"
+    },
+    {
+      "id": "ada-2026",
+      "heading": "What the ADA 2026 Standards say about medicine for prediabetes",
+      "html": "<p>The ADA Standards of Care 2026 put a structured lifestyle programme modelled on the DPP first [[1]]. For medicine, they say metformin should be considered in adults at high risk of type 2 diabetes, especially:</p><ul><li>people aged <b>25 to 59</b> with a BMI of 35 kg/m² or more;</li><li>people with higher fasting glucose (about 110 mg/dL or more) or higher A1C (about 6.0% or more);</li><li>people with a history of gestational diabetes [[1]].</li></ul><p>The same section suggests periodic vitamin B12 checks in people on metformin long term, since metformin can lower B12 levels [[1]]. It also notes that this use of metformin is not FDA-approved [[1]].</p><p>Not every diabetologist agrees that metformin belongs in prediabetes at all. A 2020 Diabetes Care commentary argued against it: about two-thirds of people with prediabetes never develop diabetes, about one-third return to normal glucose, and prediabetes-range glucose does not cause the small-vessel complications of diabetes [[9]]. Its author proposed close follow-up of the highest-risk groups, with metformin started at diagnosis of diabetes rather than before [[9]].</p>"
+    },
+    {
+      "id": "fda-status",
+      "heading": "Is any medication FDA-approved for prediabetes?",
+      "html": "<p>No. Metformin's FDA label covers glycemic control in type 2 diabetes [[10]], and the ADA notes that its use for prevention is not an approved indication [[1]]. Pioglitazone's label is likewise for type 2 diabetes [[11]]. Semaglutide and tirzepatide are approved for type 2 diabetes [[12]][[13]]; their prevention results came from trials of weight management in people with obesity or overweight [[6]][[8]], and none of these labels lists prediabetes.</p><p>That matters for two practical reasons that searchers ask about: prescribing in prediabetes is a clinician's off-label judgment, and US insurance coverage often follows the label. The site does not track coverage. The <a href=\"/compounds/semaglutide\">semaglutide</a> and <a href=\"/compounds/tirzepatide\">tirzepatide</a> records list what each drug is approved for.</p>"
+    },
+    {
+      "id": "other-drugs",
+      "heading": "Acarbose, pioglitazone and GLP-1 drugs: the trade-offs",
+      "html": "<p><b>Acarbose</b> slows carbohydrate digestion. In STOP-NIDDM it lowered the relative hazard of diabetes to 0.75, but 31% of participants on acarbose stopped treatment early, against 19% on placebo [[4]].</p><p><b>Pioglitazone</b> produced the largest relative reduction of any tablet, 72% in ACT NOW, at the cost of weight gain and edema [[5]]. Its label carries a boxed warning that it can cause or worsen heart failure [[11]].</p><p><b>Semaglutide and tirzepatide</b> produced the largest absolute effects, in people with obesity. In SELECT, semaglutide held A1C 0.32 points below placebo and more people returned to normal glucose, 69.5% vs 35.8% at week 156; weight loss explained about a quarter of the effect [[7]]. The trial authors concluded that semaglutide did not slow the gradual rise in glucose over time [[7]]. In SURMOUNT-1, 1.3% of the tirzepatide group had diabetes at the end of 176 weeks of treatment; after 17 more weeks off the drug the figure was 2.4%, against 13.7% on placebo [[8]]. The effect lasts while the drug is taken; the trials do not show that it persists after stopping.</p><p>The amylin drugs covered elsewhere in this guide have no prevention trial result here. <a href=\"/stacks/cagrisema\">CagriSema</a> is not approved; Novo Nordisk filed it with the FDA for weight management in December 2025 [[14]].</p>"
+    },
+    {
+      "id": "best-medicine",
+      "heading": "What is the best medicine for prediabetes?",
+      "html": "<p>The trials answer a narrower question: which medicine delayed diabetes, in whom, and at what cost. On that evidence:</p><ul><li><b>Longest record:</b> metformin, with 15 years of follow-up and an inexpensive generic [[3]].</li><li><b>Largest effect in people with obesity:</b> tirzepatide and semaglutide, in trials that were testing weight loss [[8]][[7]].</li><li><b>Better than metformin in the one direct comparison:</b> the intensive lifestyle programme [[2]].</li></ul><p>There is no single best prediabetes medication, because no trial has compared the drugs with each other and the people studied differ. How clinicians weigh weight, age, glucose level, gestational-diabetes history and heart risk is set out in the ADA recommendations above [[1]]. Where prediabetes has already become diabetes, the <a href=\"/blog/type-2-diabetes-remission\">type 2 diabetes remission</a> guide covers what the trials show about reversing it, and <a href=\"/blog/glucose-pills\">glucose pills</a> covers the tablets.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the best medicine for prediabetes?",
+      "answer": "No trial has compared prediabetes medications head to head. Metformin has the longest evidence, a 31% lower diabetes rate in the Diabetes Prevention Program, but lifestyle change did better at 58% [[2]]. In people with obesity, tirzepatide and semaglutide showed larger effects [[8]][[7]]."
+    },
+    {
+      "question": "Are there pills for prediabetes?",
+      "answer": "Three tablets have prevention trial results: metformin [[2]], acarbose [[4]] and pioglitazone [[5]]. None is FDA-approved for prediabetes; the ADA Standards list metformin as the one to consider in selected high-risk adults [[1]]."
+    },
+    {
+      "question": "Can metformin reverse prediabetes?",
+      "answer": "Metformin delayed progression to diabetes rather than reversing prediabetes for most people. After 15 years in the DPP Outcomes Study, 56% of the metformin group had developed diabetes, against 62% on placebo [[3]]."
+    },
+    {
+      "question": "Does semaglutide prevent type 2 diabetes?",
+      "answer": "In people with overweight or obesity it reduced progression: in SELECT, 1.5% developed diabetes by week 156 against 6.9% on placebo [[7]]. Those results were measured during treatment [[7]]."
+    },
+    {
+      "question": "Do you need medication for prediabetes?",
+      "answer": "The ADA Standards put a structured lifestyle programme first and reserve metformin for selected high-risk adults, such as those aged 25 to 59 with a BMI of 35 or more, or with prior gestational diabetes [[1]]. The decision is made with a clinician."
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmid-41358891",
+      "title": "3. Prevention or Delay of Diabetes and Associated Comorbidities: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358891",
+      "published": "2025-12-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-11832527",
+      "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin.",
+      "url": "https://europepmc.org/article/MED/11832527",
+      "published": "2002-02-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-26377054",
+      "title": "Long-term effects of lifestyle intervention or metformin on diabetes development and microvascular complications over 15-year follow-up: the Diabetes Prevention Program Outcomes Study.",
+      "url": "https://europepmc.org/article/MED/26377054",
+      "published": "2015-09-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-12086760",
+      "title": "Acarbose for prevention of type 2 diabetes mellitus: the STOP-NIDDM randomised trial.",
+      "url": "https://europepmc.org/article/MED/12086760",
+      "published": "2002-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21428766",
+      "title": "Pioglitazone for diabetes prevention in impaired glucose tolerance.",
+      "url": "https://europepmc.org/article/MED/21428766",
+      "published": "2011-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35724304",
+      "title": "Changes in Glucose Metabolism and Glycemic Status With Once-Weekly Subcutaneous Semaglutide 2.4 mg Among Participants With Prediabetes in the STEP Program.",
+      "url": "https://europepmc.org/article/MED/35724304",
+      "published": "2022-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38907683",
+      "title": "Effect of Semaglutide on Regression and Progression of Glycemia in People With Overweight or Obesity but Without Diabetes in the SELECT Trial.",
+      "url": "https://europepmc.org/article/MED/38907683",
+      "published": "2024-08-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39536238",
+      "title": "Tirzepatide for Obesity Treatment and Diabetes Prevention.",
+      "url": "https://europepmc.org/article/MED/39536238",
+      "published": "2024-11-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32936780",
+      "title": "Metformin Should Not Be Used to Treat Prediabetes.",
+      "url": "https://europepmc.org/article/MED/32936780",
+      "published": "2020-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "fda-glucophage-label-2018",
+      "title": "GLUCOPHAGE / GLUCOPHAGE XR (metformin hydrochloride) prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/020357s034,021202s018lbl.pdf",
+      "published": "2018-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "fda-actos-label-2016",
+      "title": "ACTOS (pioglitazone) tablets prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/021073s048lbl.pdf",
+      "published": "2016-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "fda-ozempic-label-2026",
+      "title": "OZEMPIC (semaglutide) injection prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/209637s038lbl.pdf",
+      "published": "2026-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "fda-mounjaro-label-2025",
+      "title": "MOUNJARO (tirzepatide) injection prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215866s031lbl.pdf",
+      "published": "2025-01-01",
+      "kind": "regulatory"
+    },
+    {
+      "id": "novo-cagrisema-nda-2025-12-18",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues for weight management",
+      "url": "https://www.novonordisk-us.com/media/press-releases/novo-nordisk-cagrisema-fda-nda-submission.html",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: prediabetes medication evidence (DPP and DPPOS metformin vs lifestyle, STOP-NIDDM acarbose, ACT NOW pioglitazone, STEP and SELECT semaglutide, SURMOUNT-1 tirzepatide), ADA 2026 metformin recommendation, FDA approval status, trade-offs and a trials table."
+    }
+  ],
+  "uniqueness_pct": 97.0
+}

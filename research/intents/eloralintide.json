@@ -1,0 +1,101 @@
+{
+ "slug": "eloralintide",
+ "type": "post",
+ "generated": "2026-10-29",
+ "h1": "Eloralintide: Eli Lilly's amylin drug, and how it compares with cagrilintide",
+ "dek": "Eli Lilly's selective amylin agonist: receptor profile, phase 1 and 2 results, the September 2026 EloraTZP data, phase 3 status, and a cross-trial comparison with cagrilintide.",
+ "queries": [
+  {
+   "query": "eloralintide eli lilly",
+   "volume": {
+    "semrush": 40,
+    "kd": 9,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "policy": "answer",
+   "section": "what-eloralintide-is",
+   "heading": "What eloralintide is: Lilly's selective amylin agonist"
+  },
+  {
+   "query": "amylin eli lilly",
+   "volume": {
+    "semrush": 40,
+    "kd": 33,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational, commercial",
+   "policy": "answer",
+   "section": "what-eloralintide-is",
+   "heading": "What eloralintide is: Lilly's selective amylin agonist"
+  },
+  {
+   "query": "eloralintide lilly",
+   "volume": {
+    "semrush": 30,
+    "kd": 11,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "policy": "answer",
+   "section": "phase-2-results",
+   "heading": "Eloralintide phase 2 results: up to 20% weight loss in 48 weeks"
+  }
+ ],
+ "competitors": [
+  {
+   "url": "https://www.prnewswire.com/news-releases/lillys-selective-amylin-agonist-eloralintide-demonstrated-meaningful-weight-loss-and-favorable-tolerability-in-a-phase-2-study-of-adults-with-obesity-or-overweight-302607061.html",
+   "gap": "Manufacturer release: no nausea rates by arm, no comparison with cagrilintide, and predates the September 2026 EloraTZP data.",
+   "source": "Semrush top-10; fetched"
+  },
+  {
+   "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02155-5/abstract",
+   "gap": "The primary paper; no development status, no combination data, no comparison with cagrilintide.",
+   "source": "Semrush top-10; fetched (via Europe PMC abstract)"
+  },
+  {
+   "url": "https://www.lilly.com/news/stories/what-to-know-about-eloralintide",
+   "gap": "Manufacturer story; no side-by-side with cagrilintide.",
+   "source": "Semrush top-10; not fetched"
+  },
+  {
+   "url": "https://www.appliedclinicaltrialsonline.com/view/eli-lilly-trial-eloralintide-weight-reduction-adults-obesity",
+   "gap": "Trade news on phase 2 only.",
+   "source": "Semrush top-10; not fetched"
+  }
+ ],
+ "information_gain": "The only page that sets eloralintide's phase 2 nausea rates by arm against cagrilintide's, notes the 26- vs 48-week duration mismatch, and includes the 30 September 2026 EloraTZP results with discontinuation rates.",
+ "serp_format_rewarded": "Thin SERP of manufacturer releases, the Lancet abstract and trade news; image and related searches only.",
+ "outline": [
+  {
+   "id": "what-eloralintide-is",
+   "heading": "What eloralintide is: Lilly's selective amylin agonist",
+   "basis": "pmid-41109426 (selectivity, rat taste avoidance)."
+  },
+  {
+   "id": "phase-1-results",
+   "heading": "Eloralintide phase 1 results",
+   "basis": "pmid-41109426 (single dose), pmid-41559929 (multiple dose)."
+  },
+  {
+   "id": "phase-2-results",
+   "heading": "Eloralintide phase 2 results: up to 20% weight loss in 48 weeks",
+   "basis": "pmid-41207310; Lilly release 2025-11-06."
+  },
+  {
+   "id": "eloralintide-with-tirzepatide",
+   "heading": "Eloralintide with tirzepatide (EloraTZP)",
+   "basis": "Lilly release 2026-09-30."
+  },
+  {
+   "id": "development-status",
+   "heading": "Eloralintide development status, October 2026",
+   "basis": "Lilly releases; Novo NDA release and Annual Report 2025 for comparison."
+  },
+  {
+   "id": "eloralintide-vs-cagrilintide",
+   "heading": "Eloralintide vs cagrilintide",
+   "basis": "Cross-trial table; network meta-analysis pmid-42175595; stated absence of head-to-head trial."
+  }
+ ]
+}

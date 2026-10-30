@@ -1,0 +1,75 @@
+{
+ "slug": "cagrilintide-guide",
+ "type": "post",
+ "generated": "2026-10-29",
+ "h1": "Cagrilintide guide: how it works, the trial doses, CagriSema, and the diabetes medicines around it",
+ "dek": "Every cagrilintide guide on this site in one place, arranged by topic: how the amylin analogue works, the doses its trials used, CagriSema, the new weight-loss drugs, and the diabetes medicines it would join.",
+ "scope": "Navigational hub for the cagrilintide series. Carries no keyword of its own: every keyword in the Semrush map is routed to exactly one destination page (research/plans/cagrilintide-guide-keyword-map.csv); this page links all of them.",
+ "queries": [
+  {
+   "query": "cagrilintide guide",
+   "volume": {
+    "semrush": null,
+    "kd": null,
+    "source": "not in the Semrush export; hub page, recorded as a measured absence"
+   },
+   "intent": "navigational",
+   "policy": "answer",
+   "section": "topics",
+   "heading": "Every topic in this guide"
+  }
+ ],
+ "competitors": [
+  {
+   "url": "https://europepmc.org/article/MED/40544433",
+   "rank": null,
+   "gap": "Primary trial report; no navigation across topics",
+   "source": "Semrush content reference; not fetched"
+  },
+  {
+   "url": "https://www.novonordisk.com",
+   "rank": null,
+   "gap": "Manufacturer; no evidence boundaries, no diabetes-class context",
+   "source": "Semrush competitor domain; not fetched"
+  }
+ ],
+ "information_gain": "The only page that arranges every cagrilintide question, from mechanism and trial doses to CagriSema and the diabetes classes it would join, into one cited index that links each answer.",
+ "serp_format_rewarded": "Hub with topic groups and short descriptions",
+ "outline": [
+  {
+   "id": "glance",
+   "from": "layout"
+  },
+  {
+   "id": "topics",
+   "from": "index topics[] and every post's parent"
+  },
+  {
+   "id": "how-to-read",
+   "from": "editorial: how the guides are arranged"
+  }
+ ],
+ "routing_summary": {
+  "cagrilintide-guide": 0,
+  "how-cagrilintide-works": 5400,
+  "cagrilintide-side-effects": 930,
+  "amylin-analogs": 660,
+  "eloralintide": 110,
+  "cagrilintide-dosage": 7280,
+  "cagrilintide-with-tirzepatide": 2070,
+  "cagrilintide-with-retatrutide": 730,
+  "subcutaneous-injection-sites": 88060,
+  "cagrisema-dosing-schedule": 410,
+  "cagrisema-approval-timeline": 620,
+  "new-weight-loss-drugs": 2400,
+  "diabetes-medications": 85240,
+  "type-2-diabetes-treatments": 22810,
+  "prediabetes-medication": 11620,
+  "metformin-vs-insulin": 1380,
+  "hypoglycemic-drugs": 8610,
+  "jardiance-for-type-2-diabetes": 3020,
+  "new-diabetes-medications": 4410,
+  "glucose-pills": 3580,
+  "type-2-diabetes-remission": 2610
+ }
+}

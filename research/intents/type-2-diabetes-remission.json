@@ -1,0 +1,92 @@
+{
+ "slug": "type-2-diabetes-remission",
+ "type": "post",
+ "generated": "2026-10-29",
+ "h1": "Can type 2 diabetes be cured? What remission trials show",
+ "dek": "No treatment cures type 2 diabetes, but trials show it can go into remission: normal HbA1c off all glucose-lowering drugs. What DiRECT, DIADEM-I and surgery trials achieved, how long it lasted, and where GLP-1 drugs and supplements stand.",
+ "scope": "Informational, YMYL. 'Cure' is answered with the evidence term remission and its consensus definition; no regimen is described as an instruction.",
+ "queries": [
+  {
+   "query": "how to cure diabetes",
+   "volume": {
+    "semrush": 2400,
+    "kd": 57,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "policy": "evidence-with-boundary",
+   "section": "remission-not-cure",
+   "heading": "Why remission, not cure, is the right word",
+   "boundary": "No treatment has been shown to cure type 2 diabetes. Trials show remission, HbA1c below 6.5% at least 3 months off glucose-lowering drugs, mainly after large sustained weight loss, and it can relapse."
+  },
+  {
+   "query": "alternative treatment for diabetes 2",
+   "volume": {
+    "semrush": 210,
+    "kd": 40,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "policy": "evidence-with-boundary",
+   "section": "alternative-treatments",
+   "heading": "Alternative treatments for type 2 diabetes: what the evidence covers",
+   "boundary": "Supplements studied for type 2 diabetes lowered HbA1c modestly in low-quality reviews and are described as adjuncts only; none has been shown to produce remission."
+  }
+ ],
+ "competitors": [
+  {
+   "url": "https://www.nhs.uk/conditions/type-2-diabetes/treatment/",
+   "gap": "Mentions remission in one line without the definition, rates, durability, surgery or supplement evidence.",
+   "source": "Semrush top-10; fetched"
+  },
+  {
+   "url": "https://medicine.yale.edu/news-article/can-type-2-diabetes-be-reversed/",
+   "gap": "Expert-quote news story; uses 'reversed', never defines remission, cites no remission trial, no relapse data.",
+   "source": "Semrush top-10; fetched"
+  },
+  {
+   "url": "https://www.mayoclinic.org/diseases-conditions/type-2-diabetes/diagnosis-treatment/drc-20351199",
+   "gap": "General treatment overview; remission evidence not the focus.",
+   "source": "not fetched"
+  },
+  {
+   "url": "https://www.stamfordhealth.org/healthflash-blog/diabetes-and-endocrine/type-2-diabetes-natural-remedies",
+   "gap": "Natural-remedies list without graded evidence.",
+   "source": "not fetched"
+  }
+ ],
+ "information_gain": "One table of remission rates across diet, surgery and drug trials with their follow-up decay (DiRECT 46% to 36% to 13%; 10-year surgery relapse), plus the consensus rule that normal HbA1c on a GLP-1 or CagriSema is not remission, which no ranking page states.",
+ "serp_format_rewarded": "Health-system explainers and hospital blog posts with People Also Ask, video and an AI Overview; a direct first-paragraph answer (no cure, remission defined) followed by an evidence table fits.",
+ "outline": [
+  {
+   "id": "remission-not-cure",
+   "heading": "Why remission, not cure, is the right word",
+   "from": "Riddle 2021 consensus (Diabetes Care, Diabetologia, Diabetic Medicine)"
+  },
+  {
+   "id": "diet-trials",
+   "heading": "Low-calorie diet trials: DiRECT and DIADEM-I",
+   "from": "DiRECT 1, 2 and 5 year papers; DIADEM-I"
+  },
+  {
+   "id": "remission-evidence-table",
+   "heading": "Remission rates across the main trials",
+   "from": "DiRECT, DIADEM-I, Mingrone 2021, dapagliflozin BMJ 2025, Sherifali 2025 meta-analysis"
+  },
+  {
+   "id": "metabolic-surgery",
+   "heading": "Metabolic surgery and long-term remission",
+   "from": "Mingrone 2021 10-year RCT; ADA Standards of Care 2026 Section 8"
+  },
+  {
+   "id": "glp1-amylin-drugs",
+   "heading": "Do GLP-1 and amylin drugs put diabetes into remission?",
+   "from": "Fadini 2025; Popovic 2024; REIMAGINE 1; stated absence of CagriSema remission data; REST protocol"
+  },
+  {
+   "id": "alternative-treatments",
+   "heading": "Alternative treatments for type 2 diabetes: what the evidence covers",
+   "from": "Li 2025 herbal umbrella review; stated absence of supplement remission evidence"
+  }
+ ]
+}

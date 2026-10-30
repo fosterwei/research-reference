@@ -1,0 +1,251 @@
+{
+  "type": "post",
+  "slug": "how-cagrilintide-works",
+  "status": "draft",
+  "category": "Research",
+  "title": "What the cagrilintide peptide is and how it works: amylin, appetite and what the trials measured",
+  "short_title": "How cagrilintide works",
+  "excerpt": "Cagrilintide is Novo Nordisk's once-weekly amylin analogue. It reduced body weight by up to 10.8% over 26 weeks on its own in phase 2 [[2]], works through amylin and calcitonin receptors in the brainstem rather than the GLP-1 pathway, and is not approved anywhere.",
+  "body": "<p><b>Cagrilintide</b> is a long-acting peptide copy of <b>amylin</b>, the hormone the pancreas releases with insulin after a meal to signal fullness [[1]]. Novo Nordisk developed the cagrilintide peptide (also called cagri or AM833) as a once-weekly injection for weight management. In its phase 2 trial it reduced body weight by <b>6.0% to 10.8%</b> over 26 weeks across the doses tested, against 3.0% on placebo [[2]]. Combined with semaglutide as CagriSema, it reduced weight by <b>20.4%</b> over 68 weeks against 3.0% on placebo [[3]]. Neither cagrilintide nor CagriSema is approved by any regulator as of October 2026; Novo Nordisk filed CagriSema with the US FDA in December 2025 [[4]].</p><p>This guide explains what the cagri peptide is, how it acts on appetite, why it is injected once a week, what it is being developed for, and which benefits the trials actually measured. For the full evidence record, with every study and its tier, see the <a href=\"/compounds/cagrilintide\">cagrilintide compound record</a>. Side effects have their own guide, <a href=\"/blog/cagrilintide-side-effects\">cagrilintide side effects in the trials</a>, and the wider drug class is covered in <a href=\"/blog/amylin-analogs\">amylin analogs explained</a> and <a href=\"/blog/eloralintide\">eloralintide, Eli Lilly's amylin drug</a>. This page is part of the <a href=\"/blog/cagrilintide-guide\">cagrilintide guide</a>.</p>",
+  "seo": {
+    "title": "Cagrilintide Peptide: How It Works, Uses and Trial Results",
+    "description": "Cagrilintide is a once-weekly amylin analogue. See how it acts on appetite, its half-life, what it is used for, and what the trials measured."
+  },
+  "series": "cagrilintide",
+  "role": "pillar",
+  "parent": "/blog/cagrilintide-guide",
+  "topic": "How cagrilintide works and the amylin drug class",
+  "order": 1,
+  "about": [
+    "/compounds/cagrilintide"
+  ],
+  "sections": [
+    {
+      "id": "what-cagrilintide-is",
+      "heading": "What the cagrilintide peptide is",
+      "lede": "An engineered version of a natural hormone, still investigational.",
+      "html": "<p>Natural amylin is co-secreted with insulin from the beta cells of the pancreas when food reaches the small intestine. It acts as a <b>satiety signal</b> in the brain, slows gastric emptying and suppresses the glucagon response after meals [[1]]. The first amylin drug, <b>pramlintide</b>, is an approved treatment for diabetes that produces small weight losses [[1]].</p><p>Cagrilintide is a newer, long-acting <b>acylated</b> amylin analogue, meaning a fatty-acid chain is attached to the peptide [[1]]; its measured half-life is about a week [[5]]. It is classed with pramlintide as an amylin receptor agonist [[6]].</p><p>When people search for the \"cagri peptide\" they usually mean one of two things: the investigational drug in Novo Nordisk's trials, or powder sold online under the same name. The trial results on this page describe the first. Nothing sold outside the trials has been shown to contain the same molecule at the stated amount, and this site does not describe sources or products.</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Cagrilintide at a glance, October 2026</caption><thead><tr><th scope=\"col\">Item</th><th scope=\"col\">What is established</th><th scope=\"col\">Source</th></tr></thead><tbody><tr><td>Drug type</td><td>Long-acting amylin analogue (amylin and calcitonin receptor agonist)</td><td>[[7]]</td></tr><tr><td>Developer</td><td>Novo Nordisk; development code AM833</td><td>[[1]]</td></tr><tr><td>Route and frequency in trials</td><td>Subcutaneous injection, once weekly</td><td>[[2]]</td></tr><tr><td>Half-life</td><td><b>159 to 195 hours</b> (about a week)</td><td>[[5]]</td></tr><tr><td>Development stage, alone</td><td>Phase 3 (RENEW 1 and RENEW 2)</td><td>[[8]]</td></tr><tr><td>Development stage, with semaglutide</td><td>CagriSema filed with the FDA, December 2025</td><td>[[4]]</td></tr><tr><td>Approved anywhere</td><td>No</td><td>[[4]]</td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "mechanism-of-action",
+      "heading": "Cagrilintide mechanism of action: amylin and calcitonin receptors",
+      "lede": "Why it is called a DACRA, and which brain cells it reaches.",
+      "html": "<p>Amylin does not have a receptor of its own. Its receptors are built from the <b>calcitonin receptor</b> (CTR) paired with one of three receptor activity-modifying proteins, which makes three amylin receptors: AMY1R, AMY2R and AMY3R [[9]]. Cagrilintide activates the amylin receptors and the calcitonin receptor alone, which is why it is described as a <b>dual amylin and calcitonin receptor agonist (DACRA)</b> [[7]]. Cryo-electron microscopy structures published in 2025 show it binding AMY1R and CTR in a similar way and activating both without selectivity [[7]].</p><h3>Where it acts</h3><p>The appetite effect runs through the brainstem. In mice fed a high-fat diet, cagrilintide lowered body weight in normal animals, but its potency fell in mice lacking the proteins that form AMY1R and AMY3R, and its activation of neurons in the <b>area postrema</b> dropped by 57% [[9]]. The authors concluded that cagrilintide depends on AMY1R and AMY3R to lower body weight [[9]].</p><p>A 2026 cross-species atlas of the dorsal vagal complex, covering rat, mouse and macaque brainstem, refined the picture. Cagrilintide changed gene activity in area postrema neurons, but switching those neurons on artificially did not change long-term food intake. The lasting effect ran through a separate group of <b>Calcr/Prlh neurons</b> in the nucleus of the solitary tract, a population conserved in humans; knocking down Prlh there abolished cagrilintide's effect in rats but not semaglutide's [[10]]. That is direct evidence that cagrilintide and semaglutide reduce eating through different cells, which is the rationale for <a href=\"/stacks/cagrisema\">CagriSema</a>.</p><h3>Satiety and gastric emptying</h3><p>The effects people notice follow from amylin's physiology: earlier fullness, smaller meals and slower stomach emptying [[1]]. In rats, CagriSema produced 12% weight loss with a 39% reduction in food intake while energy expenditure was preserved, meaning the weight loss came mainly from eating less [[11]].</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>How cagrilintide reduces eating: what each line of evidence shows</caption><thead><tr><th scope=\"col\">Level</th><th scope=\"col\">Finding</th><th scope=\"col\">Evidence type</th></tr></thead><tbody><tr><td>Receptor</td><td>Activates AMY1R and CTR without selectivity (a DACRA)</td><td>Structural and cell studies [[7]]</td></tr><tr><td>Receptor subtype</td><td>Weight loss depends on AMY1R and AMY3R</td><td>Knockout mice [[9]]</td></tr><tr><td>Brainstem</td><td>Acts via Calcr/Prlh neurons in the nucleus of the solitary tract; area postrema neurons respond but do not drive long-term intake</td><td>Rat, mouse and macaque atlas [[10]]</td></tr><tr><td>Whole body</td><td>Weight loss mainly from lower food intake, with energy expenditure preserved (CagriSema)</td><td>Rats [[11]]</td></tr><tr><td>People</td><td>Dose-related weight loss of 6.0% to 10.8% over 26 weeks</td><td>Phase 2 trial [[2]]</td></tr></tbody></table></div></div><p>Two cautions. Most of the mechanism work is in animals, and the human evidence is about outcomes (weight, glucose), not about which neurons were engaged. And cagrilintide is not a GLP-1 drug: it reaches a different receptor family, which is why the <a href=\"/compare/cagrilintide-vs-semaglutide\">cagrilintide vs semaglutide comparison</a> is a comparison of two pathways rather than two versions of one.</p>"
+    },
+    {
+      "id": "half-life-weekly-dosing",
+      "heading": "Cagrilintide half-life and why it is a weekly injection",
+      "html": "<p>In a phase 1b trial in which cagrilintide was given with semaglutide 2.4 mg, the half-life of cagrilintide was <b>159 to 195 hours</b> across doses of 0.16 to 4.5 mg, with peak blood levels reached a median of 24 to 72 hours after injection [[5]]. Exposure rose in proportion to dose, and cagrilintide did not change how much semaglutide was in the blood [[5]]. A half-life close to seven days is what makes a once-weekly schedule possible, the same reasoning that applies to semaglutide, whose half-life in the same trial was 145 to 165 hours [[5]].</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Cagrilintide pharmacology measured in human studies</caption><thead><tr><th scope=\"col\">Measure</th><th scope=\"col\">Result</th><th scope=\"col\">Study</th></tr></thead><tbody><tr><td>Half-life</td><td>159 to 195 hours</td><td>Phase 1b, 95 participants [[5]]</td></tr><tr><td>Time to peak level</td><td>Median 24 to 72 hours</td><td>Phase 1b [[5]]</td></tr><tr><td>Dose and exposure</td><td>Exposure proportional to dose</td><td>Phase 1b [[5]]</td></tr><tr><td>Kidney or liver impairment</td><td>No increase in adverse events and no new safety findings with impairment</td><td>Dedicated pharmacokinetic studies [[12]]</td></tr><tr><td>Heart rhythm (QT interval)</td><td>No clinically relevant QTc prolongation after escalation to 4.5 mg</td><td>Thorough QT study, 53 on cagrilintide [[13]]</td></tr></tbody></table></div></div><p>The long half-life has a practical consequence the trials designed around. Because the drug accumulates over several weeks, every trial raised the amount gradually: the phase 2 monotherapy trial used a dose-escalation period of up to 6 weeks [[2]], and the phase 1b trial stepped up every 4 weeks over 16 weeks [[5]]. The trial doses and escalation steps are set out, as what the trials administered, in <a href=\"/blog/cagrilintide-dosage\">cagrilintide dosage in the trials</a>; the unit arithmetic is on the <a href=\"/calculators/cagrilintide\">cagrilintide calculator</a>. No dose has been established for any use outside a trial.</p>"
+    },
+    {
+      "id": "what-it-is-used-for",
+      "heading": "What cagrilintide is used for",
+      "lede": "In October 2026 the honest answer is: research, in two conditions.",
+      "html": "<p>Cagrilintide has no approved use. It is being developed for two purposes, and every human result comes from trials in those groups:</p><ul><li><b>Weight management</b> in adults with obesity, or with overweight and at least one weight-related condition. This is the indication Novo Nordisk sought for CagriSema in its December 2025 FDA application [[4]], and it is the population of the cagrilintide-alone phase 3 programme, RENEW 1 and RENEW 2, in people with and without type 2 diabetes [[8]].</li><li><b>Type 2 diabetes</b>, as part of CagriSema. In REIMAGINE 2, in 2,713 adults on metformin, CagriSema lowered HbA1c by 1.91 percentage points against 1.75 with semaglutide alone [[14]]. The diabetes medicines it would join are covered in <a href=\"/blog/diabetes-medications\">type 2 diabetes medications</a>.</li></ul><p>So \"what is cagrilintide peptide used for\" has a narrower answer than many pages give. It is used in clinical trials. Outside them, people inject unregulated products sold under the name, and no trial describes those products. The regulatory path for the combination is tracked in <a href=\"/blog/cagrisema-approval-timeline\">the CagriSema approval timeline</a>, and the drugs it would compete with are in <a href=\"/blog/new-weight-loss-drugs\">new weight-loss drugs</a>.</p>"
+    },
+    {
+      "id": "benefits-in-trials",
+      "heading": "Cagrilintide benefits measured in trials",
+      "lede": "Weight loss is the main measured benefit. Blood pressure moved too; blood sugar moved little without semaglutide.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Weight change with cagrilintide alone and with semaglutide</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">People</th><th scope=\"col\">What was given</th><th scope=\"col\">Weight change</th><th scope=\"col\">Comparator</th></tr></thead><tbody><tr><td>Phase 2, 26 weeks</td><td>706 on cagrilintide, adults without diabetes</td><td>Cagrilintide 0.3 to 4.5 mg weekly</td><td><b>-6.0% to -10.8%</b></td><td>Placebo -3.0%; liraglutide 3.0 mg -9.0% [[2]]</td></tr><tr><td>REDEFINE 1 sub-analysis, 68 weeks</td><td>302 on cagrilintide alone [[3]]</td><td>Cagrilintide 2.4 mg weekly</td><td><b>-11.8%</b> (if all adhered)</td><td>Placebo -2.3% [[8]]</td></tr><tr><td>REDEFINE 1, 68 weeks</td><td>3,417 adults without diabetes</td><td>CagriSema 2.4 mg / 2.4 mg</td><td><b>-20.4%</b></td><td>Placebo -3.0% [[3]]</td></tr><tr><td>REDEFINE 2, 68 weeks</td><td>1,206 adults with type 2 diabetes</td><td>CagriSema 2.4 mg / 2.4 mg</td><td>-13.7%</td><td>Placebo -3.4% [[15]]</td></tr><tr><td>Phase 2 in type 2 diabetes, 32 weeks</td><td>92 adults</td><td>Cagrilintide 2.4 mg alone</td><td>-8.1%</td><td>Semaglutide alone -5.1%; CagriSema -15.6% [[16]]</td></tr></tbody></table></div></div><p><b>Weight.</b> On its own, cagrilintide at 4.5 mg weekly produced more weight loss than daily liraglutide 3.0 mg in the phase 2 trial, 10.8% against 9.0% [[2]]. A 2026 meta-analysis of the placebo-controlled trials put the average difference from placebo at <b>-6.08%</b> of body weight for cagrilintide alone [[17]]. In the one head-to-head trial against tirzepatide, CagriSema produced 20.2% weight loss against 23.6% with tirzepatide 15 mg over 84 weeks under the treatment-regimen estimand and did not meet its primary endpoint [[18]]; see the <a href=\"/compounds/tirzepatide\">tirzepatide record</a>.</p><p><b>Blood pressure.</b> The same meta-analysis found cagrilintide alone lowered blood pressure [[17]].</p><p><b>Blood sugar.</b> Alone, cagrilintide did little for HbA1c: the meta-analysis found no meaningful improvement [[17]], and in the phase 2 diabetes trial HbA1c fell by 0.9 percentage points with cagrilintide against 2.2 with CagriSema [[16]]. The glucose benefit of the combination comes mostly from semaglutide; see the <a href=\"/compounds/semaglutide\">semaglutide record</a>.</p><p><b>Not measured as benefits.</b> No published cagrilintide trial has reported effects on muscle, energy, libido, longevity or athletic performance. Pages that list these as \"cagrilintide peptide benefits\" are not reporting trial results.</p>"
+    },
+    {
+      "id": "cagrilintide-for-men",
+      "heading": "What cagrilintide does for men: what the trials show by sex",
+      "html": "<p>The searches \"what does cagri peptide do for men\" and \"what is cagrilintide for men\" ask a question the published evidence has not answered separately. <b>No published cagrilintide trial reports its results split by sex</b> in the abstracts this site has checked. What exists is the make-up of the trials, and in several of them men were the majority:</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Share of men in cagrilintide trials and what the whole group showed</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Men enrolled</th><th scope=\"col\">Result for the whole group (not men alone)</th></tr></thead><tbody><tr><td>Phase 1b with semaglutide, 20 weeks</td><td>59% of 95</td><td>Exposure proportional to dose; half-life 159 to 195 hours [[5]]</td></tr><tr><td>Phase 2 in type 2 diabetes, 32 weeks</td><td>64% of 92</td><td>Cagrilintide alone -8.1% body weight [[16]]</td></tr><tr><td>REIMAGINE 2, 68 weeks</td><td>57.1% of 2,713</td><td>CagriSema HbA1c -1.91 points vs -1.75 with semaglutide [[14]]</td></tr><tr><td>REDEFINE 5, Japan and Taiwan, 68 weeks</td><td><b>68%</b> of 331</td><td>CagriSema -18.4% vs -11.9% with semaglutide [[19]]</td></tr></tbody></table></div></div><p>So the answer for men is the same answer as for everyone in the trials: cagrilintide reduced appetite and body weight through the amylin pathway, with gastrointestinal side effects as the main cost. Men were well represented, which means the overall results are not drawn mostly from women. Whether men lose a different amount than women on cagrilintide has not been published. No trial has studied effects on testosterone, fertility or muscle-building, and claims about those are not supported by any study on this page.</p>"
+    },
+    {
+      "id": "amylin-drug-class",
+      "heading": "Cagrilintide among the amylin drugs",
+      "html": "<p>Cagrilintide is the most advanced of a wave of long-acting amylin drugs. The others differ mainly in how selectively they hit each receptor. Eli Lilly's <b>eloralintide</b> preferentially activates human AMY1R, 12-fold more than the calcitonin receptor, where cagrilintide activates both [[20]][[7]]. In lean rats, eloralintide caused significantly less conditioned taste avoidance, a laboratory proxy for nausea, than cagrilintide [[20]]. Whether that difference holds in people is not established, because the two have not been compared in a trial.</p><p>A 2026 network meta-analysis of six trials ranked high-dose subcutaneous amycretin first for weight loss against placebo (-23.95%), followed by high-dose eloralintide (-18.01%) and high-dose CagriSema (-17.18%), all ahead of semaglutide 2.4 mg (-11.45%) [[21]]. The authors called the data sparse and low in certainty [[21]]. The full class, including pramlintide and the newer agents, is in <a href=\"/blog/amylin-analogs\">amylin analogs explained</a>; Lilly's drug is in <a href=\"/blog/eloralintide\">eloralintide vs cagrilintide</a>. For the triple agonist people often ask about next, see the <a href=\"/compounds/retatrutide\">retatrutide record</a>; cagrilintide and retatrutide have not been tested together in people.</p>"
+    },
+    {
+      "id": "what-is-not-known",
+      "heading": "What the trials have not shown yet",
+      "html": "<ul><li><b>Approval.</b> No regulator has approved cagrilintide or CagriSema. The FDA was expected to review the CagriSema application in 2026 [[4]]; this page will change when a decision is published.</li><li><b>Cardiovascular outcomes.</b> REDEFINE 3, the CagriSema cardiovascular-outcomes trial, is ongoing [[4]].</li><li><b>Cagrilintide alone in phase 3.</b> The RENEW trials have started; the 11.8% figure is from a sub-analysis of a CagriSema trial, not from a dedicated monotherapy trial [[8]].</li><li><b>Results by sex, and long-term use.</b> Not published; the longest completed trials ran 68 to 84 weeks [[3]][[18]].</li><li><b>Anything sold outside trials.</b> Product identity, purity and dose are unknown, so the trial results do not describe it.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is cagrilintide?",
+      "answer": "A once-weekly, long-acting analogue of the pancreatic hormone amylin, developed by Novo Nordisk for weight management. It reduced body weight by 6.0% to 10.8% over 26 weeks in phase 2 [[2]] and is not approved anywhere [[4]]."
+    },
+    {
+      "question": "Is cagrilintide a GLP-1?",
+      "answer": "No. It acts on amylin receptors and the calcitonin receptor [[7]], a different pathway from GLP-1. In rats, blocking its brainstem target abolished cagrilintide's effect but not semaglutide's [[10]]."
+    },
+    {
+      "question": "How long does cagrilintide stay in the body?",
+      "answer": "Its half-life was 159 to 195 hours in a phase 1b trial, which is why it is given once a week [[5]]."
+    },
+    {
+      "question": "How much weight loss does cagrilintide cause on its own?",
+      "answer": "Up to 10.8% over 26 weeks at the highest phase 2 dose [[2]], and 11.8% over 68 weeks at 2.4 mg in a REDEFINE 1 sub-analysis that assumed all participants adhered [[8]]."
+    },
+    {
+      "question": "Does cagrilintide work differently for men?",
+      "answer": "No sex-specific results have been published. Men made up 57% to 68% of participants in several trials, including REDEFINE 5, where CagriSema produced 18.4% weight loss [[19]]."
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: what cagrilintide is, mechanism (amylin and calcitonin receptors, brainstem), half-life and weekly dosing, uses, measured benefits, the evidence by sex, the amylin class and open questions."
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmid-34929674",
+      "title": "Amylin as a Future Obesity Treatment.",
+      "url": "https://europepmc.org/article/MED/34929674",
+      "published": "2021-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34798060",
+      "title": "Once-weekly cagrilintide for weight management in people with overweight and obesity: a multicentre, randomised, double-blind, placebo-controlled and active-controlled, dose-finding phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/34798060",
+      "published": "2021-11-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40544433",
+      "title": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity.",
+      "url": "https://europepmc.org/article/MED/40544433",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-cagrisema-nda-2025-12-18",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues for weight management",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916470",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-33894838",
+      "title": "Safety, tolerability, pharmacokinetics, and pharmacodynamics of concomitant administration of multiple doses of cagrilintide with semaglutide 2·4 mg for weight management: a randomised, controlled, phase 1b trial.",
+      "url": "https://europepmc.org/article/MED/33894838",
+      "published": "2021-04-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41702251",
+      "title": "In vitro metabolic profiling of weight-loss-inducing amylin receptor agonists in the context of preventive doping research.",
+      "url": "https://europepmc.org/article/MED/41702251",
+      "published": "2026-02-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40847076",
+      "title": "Structural and mechanistic insights into dual activation of cagrilintide in amylin and calcitonin receptors.",
+      "url": "https://europepmc.org/article/MED/40847076",
+      "published": "2025-08-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-annual-report-2025-innovation",
+      "title": "Innovation and therapeutic focus - Novo Nordisk Annual Report 2025",
+      "url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/innovation-and-therapeutic-focus.html",
+      "published": "2026-02-04",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-40609154",
+      "title": "Cagrilintide lowers bodyweight through brain amylin receptors 1 and 3.",
+      "url": "https://europepmc.org/article/MED/40609154",
+      "published": "2025-07-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42260119",
+      "title": "A cross-species atlas of the dorsal vagal complex reveals neural mediators of the effects of cagrilintide on energy balance.",
+      "url": "https://europepmc.org/article/MED/42260119",
+      "published": "2026-06-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40629149",
+      "title": "CagriSema drives weight loss in rats by reducing energy intake and preserving energy expenditure.",
+      "url": "https://europepmc.org/article/MED/40629149",
+      "published": "2025-07-08",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42228334",
+      "title": "Renal or Hepatic Impairment Does Not Affect Pharmacokinetics, Safety, or Tolerability of Subcutaneous Cagrilintide.",
+      "url": "https://europepmc.org/article/MED/42228334",
+      "published": "2026-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39279639",
+      "title": "Cagrilintide is not associated with clinically relevant QTc prolongation: A thorough QT study in healthy participants.",
+      "url": "https://europepmc.org/article/MED/39279639",
+      "published": "2024-09-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251859",
+      "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251859",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40544432",
+      "title": "Cagrilintide-Semaglutide in Adults with Overweight or Obesity and Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/40544432",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37364590",
+      "title": "Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a multicentre, randomised, double-blind, active-controlled, phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/37364590",
+      "published": "2023-06-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42583410",
+      "title": "Amylin-based obesity therapy: a meta-analysis of Cagrilintide and CagriSema versus placebo.",
+      "url": "https://europepmc.org/article/MED/42583410",
+      "published": "2026-07-13",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-redefine-4-2026-02-23",
+      "title": "CagriSema demonstrated 23% weight loss in an open-label head-to-head REDEFINE 4 trial in people with obesity",
+      "url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=916501",
+      "published": "2026-02-23",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42009015",
+      "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+      "url": "https://europepmc.org/article/MED/42009015",
+      "published": "2026-04-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41109426",
+      "title": "Eloralintide (LY3841136), a novel amylin receptor agonist for the treatment of obesity: From discovery to clinical proof of concept.",
+      "url": "https://europepmc.org/article/MED/41109426",
+      "published": "2025-10-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42175595",
+      "title": "Novel Amylin-Based Therapies for Weight Management in Adults With Overweight or Obesity Without Diabetes: A Network Meta-Analysis.",
+      "url": "https://europepmc.org/article/MED/42175595",
+      "published": "2026-05-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "uniqueness_pct": 98.0
+}

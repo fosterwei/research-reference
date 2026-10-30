@@ -1,0 +1,138 @@
+{
+ "slug": "metformin-vs-insulin",
+ "type": "post",
+ "generated": "2026-10-29",
+ "h1": "Metformin vs insulin: how much each lowers A1C, and how they differ",
+ "dek": "Metformin lowers A1C by about 1.1 percentage points on its own; insulin can lower it as far as needed but brings low blood sugar and weight gain. Here is what the trials measured for each, and when the 2026 ADA Standards use one, the other, or both.",
+ "scope": "Informational intent only. Cost and pharmacy queries are not mapped.",
+ "queries": [
+  {
+   "query": "does metformin lower a1c",
+   "volume": {
+    "semrush": 590,
+    "kd": 48,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "People Also Ask, Featured Snippet, Related Searches",
+   "policy": "answer",
+   "section": "a1c",
+   "heading": "How much does metformin lower A1C?"
+  },
+  {
+   "query": "insulin vs metformin",
+   "volume": {
+    "semrush": 590,
+    "kd": 28,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "commercial",
+   "serp_features": "Image Pack, People Also Ask, Discussions And Forums, AI Overview, Site Links, Video, Image, Related Searches",
+   "policy": "evidence-with-boundary",
+   "section": "compare-table",
+   "heading": "Insulin vs metformin side by side",
+   "boundary": "Compares the drugs as trial and label data; how clinicians choose is reported from the ADA Standards, never as advice to switch or start."
+  },
+  {
+   "query": "metformin reduce a1c",
+   "volume": {
+    "semrush": 110,
+    "kd": 29,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "AI Overview, Video, Image, Related Searches",
+   "policy": "answer",
+   "section": "a1c",
+   "heading": "How much does metformin lower A1C?"
+  },
+  {
+   "query": "which is safer insulin or metformin",
+   "volume": {
+    "semrush": 90,
+    "kd": 28,
+    "source": "Semrush Keyword Strategy export cagri_pages_2026-10-26.xlsx, US"
+   },
+   "intent": "informational",
+   "serp_features": "People Also Ask, Featured Snippet, Related Searches",
+   "policy": "evidence-with-boundary",
+   "section": "safety",
+   "heading": "Which is safer, insulin or metformin?",
+   "boundary": "Answered on measured risks (hypoglycemia, weight, label warnings) and with the plain statement that in type 1 diabetes insulin is required."
+  }
+ ],
+ "competitors": [
+  {
+   "url": "https://www.drugs.com/medical-answers/metformin-lower-a1c-how-3574052/",
+   "rank": 2,
+   "gap": "Not fetched (connection errors this run). From the URL a single-question answer page; not expected to carry the add-on figures (0.95 and 0.60 points) or the insulin comparison.",
+   "source": "Semrush top-10; not fetched"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32936780/",
+   "rank": 3,
+   "gap": "A prediabetes commentary that ranks for the A1C query; it does not answer how much metformin lowers A1C in diabetes or compare it with insulin (abstract read via Europe PMC).",
+   "source": "Semrush top-10; abstract fetched via Europe PMC"
+  },
+  {
+   "url": "https://www.aafp.org/pubs/afp/issues/2019/0801/p136.html",
+   "rank": 4,
+   "gap": "Not fetched. A 2019 clinician review; predates the ADA 2026 Standards.",
+   "source": "Semrush top-10; not fetched"
+  },
+  {
+   "url": "https://hopkinsdiabetesinfo.org/medications-for-type-2-diabetes-metformin/",
+   "rank": 5,
+   "gap": "Not fetched. A metformin-only explainer; from its title it is not a head-to-head with insulin.",
+   "source": "Semrush top-10; not fetched"
+  }
+ ],
+ "information_gain": "The only page that answers both queries with numbers in one place: the meta-analysed A1C effect of metformin alone, as an add-on and with insulin, beside the UKPDS hypoglycemia rates and weight gain on insulin, framed by the ADA 2026 criteria for starting insulin.",
+ "serp_format_rewarded": "Featured snippet for \"does metformin lower a1c\" (a number in the first sentence) and People Also Ask; a side-by-side table for the vs query.",
+ "outline": [
+  {
+   "id": "a1c",
+   "heading": "How much does metformin lower A1C?",
+   "data": "Hirst 2012 meta-analysis; UKPDS 34; Tsapas network meta-analysis"
+  },
+  {
+   "id": "how-they-work",
+   "heading": "How metformin and insulin work differently",
+   "html": "<p>Metformin does not add insulin to the body. Its label describes three actions: it lowers the amount of glucose the liver releases, reduces how much glucose the gut absorbs, and makes muscle and other tissue respond better to the insulin already there {glucophage}. Because it does not push insulin levels up, it rarely drives glucose too low on its own {ada9}.</p><p>Insulin is the hormone itself. Injected insulin moves glucose into cells whatever the person's own insulin output, which is why it works when the pancreas makes too little and why too large a dose for the food eaten produces hypoglycemia {ada9}. That difference in mechanism explains most of the differences in the table below: metformin has a natural limit to how far it lowers A1C, and insulin does not, but insulin needs dose adjustment and glucose monitoring.</p>"
+  },
+  {
+   "id": "how-they-work",
+   "heading": "How metformin and insulin work differently",
+   "data": "Glucophage label mechanism; ADA 2026 section 9"
+  },
+  {
+   "id": "compare-table",
+   "heading": "Insulin vs metformin side by side",
+   "data": "Glucophage label; ADA 2026 section 9; UKPDS 33"
+  },
+  {
+   "id": "safety",
+   "heading": "Which is safer, insulin or metformin?",
+   "data": "UKPDS 33 and 34; Glucophage label; ADA 2026 section 9"
+  },
+  {
+   "id": "when-used",
+   "heading": "When each is used: the ADA 2026 approach",
+   "data": "ADA 2026 section 9; Hirst add-on figure"
+  },
+  {
+   "id": "with-insulin",
+   "heading": "Other medicines trialled alongside insulin",
+   "data": "Symlin label; REIMAGINE 3; CagriSema NDA release"
+  },
+  {
+   "id": "faq",
+   "heading": "FAQ",
+   "data": "People Also Ask phrasings"
+  }
+ ],
+ "open_actions": [
+  "The Glucophage label and ADA section 9 statements were not re-read this run (FDA and PMC pages unreachable); confirm the label adverse-reaction list and the ADA insulin-initiation wording.",
+  "No figure was found for how fast metformin lowers A1C; add a sourced time course if a trial reports one."
+ ]
+}

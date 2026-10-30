@@ -1,0 +1,177 @@
+{
+  "type": "post",
+  "slug": "cagrilintide-with-retatrutide",
+  "status": "draft",
+  "category": "Research",
+  "title": "Cagrilintide with retatrutide: what the evidence covers",
+  "short_title": "Cagrilintide with retatrutide",
+  "excerpt": "No human trial has tested cagrilintide and retatrutide together; the only study of the pair is in obese male rats [[1]]. Here is what each drug's own trials used, and where retatrutide stands.",
+  "body": "<p>There is <b>no cagrilintide dosage with retatrutide</b>, because no human trial has given the two drugs together. The only published study of the pair, from September 2026, was in diet-induced obese <b>male rats</b> [[1]]. Every dose quoted online for a \"cagri reta\" combination is borrowed from two separate drug programmes and stitched together by someone outside them.</p><p>This page sits under the <a href=\"/blog/cagrilintide-dosage\">cagrilintide dosage guide</a>. It reports what each drug's own trials administered, side by side and never blended, what retatrutide's phase 3 trials found, and what is known by sex for readers searching \"for men\". The records for <a href=\"/compounds/cagrilintide\">cagrilintide</a> and <a href=\"/compounds/retatrutide\">retatrutide</a> carry the full evidence for each drug.</p>",
+  "seo": {
+    "title": "Cagrilintide Dosage With Retatrutide: What Trials Show",
+    "description": "No trial has tested cagrilintide with retatrutide. Each drug's own trial doses, retatrutide's phase 3 status, the one rat study, and what is known by sex."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/blog/cagrilintide-dosage",
+  "topic": "Cagrilintide doses and injection",
+  "order": 2,
+  "about": [
+    "/compounds/cagrilintide",
+    "/compounds/retatrutide"
+  ],
+  "sections": [
+    {
+      "id": "what-cagri-reta-is",
+      "heading": "What \"cagri reta\" means, and what a blend is",
+      "html": "<p><b>Cagrilintide</b> is a long-acting amylin analogue developed by Novo Nordisk. <b>Retatrutide</b> is a single molecule from Eli Lilly that acts on three receptors: GIP, GLP-1 and glucagon [[2]]. They come from competing companies, act on different hormone systems, and neither is approved anywhere.</p><p>\"Cagri reta\" and \"cagri reta blend\" are shorthand from online forums and peptide sellers for taking both, either as two injections or premixed in one vial. Neither drug is sold legitimately outside clinical trials, so what is in such a vial has not been checked by any regulator. One 2026 case report describes a person with type 1 diabetes whose impending diabetic ketoacidosis was complicated by retatrutide bought online [[3]].</p><p>The combination that <em>was</em> tested is different: cagrilintide with semaglutide, as <a href=\"/stacks/cagrisema\">CagriSema</a>, a fixed-dose product studied in phase 3 against each of its parts. The sister page on <a href=\"/blog/cagrilintide-with-tirzepatide\">cagrilintide with tirzepatide</a> covers the other untested pairing people ask about.</p>"
+    },
+    {
+      "id": "tested-together",
+      "heading": "Retatrutide and cagrilintide together: one study, in rats",
+      "lede": "The whole evidence base for the combination is a single preclinical paper.",
+      "html": "<p>In <em>Nature Metabolism</em> in September 2026, researchers gave diet-induced obese male rats <b>daily</b> injections of retatrutide and cagrilintide together. The combination reduced body weight and food intake in a dose-dependent way, by more than either drug alone at matched molar doses and by more than comparator combinations built on semaglutide or tirzepatide [[1]].</p><p>Three details limit what that means for people. The animals were rats, all male. They were dosed daily, not weekly as in human trials of either drug. And the authors frame the result as support for \"five-receptor polypharmacology\" and as guidance for designing future single-molecule drugs [[1]], which is a statement about drug design, not about two injections taken together.</p><p>For comparison, before cagrilintide and semaglutide reached phase 3 together, Novo Nordisk ran a phase 1b trial in 96 people that paired six cagrilintide doses with semaglutide 2.4 mg, co-escalated in <b>4-week intervals</b> over 16 weeks, and measured safety and drug levels for each combination [[4]]. No equivalent study exists for cagrilintide with retatrutide.</p>"
+    },
+    {
+      "id": "each-drugs-doses",
+      "heading": "Cagrilintide dosage with retatrutide: each drug's own trial doses",
+      "lede": "Reported separately, because no trial has combined them.",
+      "html": "<p>The table lists what each drug's trials administered, in its own programme. The rows are not a schedule and cannot be merged into one.</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Doses each drug's own trials administered (not a combination schedule)</caption><thead><tr><th scope=\"col\">Drug and trial</th><th scope=\"col\">Doses administered</th><th scope=\"col\">How doses were reached</th><th scope=\"col\">Result reported</th></tr></thead><tbody><tr><td>Cagrilintide alone, phase 2 dose-finding (706 adults, 26 weeks)</td><td>0.3, 0.6, 1.2, 2.4 and 4.5 mg once weekly</td><td>An escalation period of up to 6 weeks</td><td>Weight loss 6% to 10.8%, against 3% on placebo [[5]]</td></tr><tr><td>Cagrilintide with semaglutide (CagriSema), phase 2 in type 2 diabetes</td><td>2.4 mg of each, once weekly</td><td>Every 4 weeks from 0.25 mg through 0.5, 1.0 and 1.7 mg, reaching 2.4 mg after 16 weeks</td><td>Weight -15.6% at 32 weeks [[6]]</td></tr><tr><td>Cagrilintide 2.4 mg alone, REDEFINE 1 arm</td><td>2.4 mg once weekly</td><td>Escalated; 82.5% were on 2.4 mg at week 68</td><td>11.8% weight loss at 68 weeks, as announced [[7]]</td></tr><tr><td>Retatrutide alone, phase 2 (338 adults, 48 weeks)</td><td>1, 4, 8 or 12 mg once weekly</td><td>Started at 2 or 4 mg, escalated every 4 weeks</td><td><b>-24.2%</b> on 12 mg, against -2.1% on placebo [[2]]</td></tr><tr><td>Retatrutide alone, TRIUMPH-1 (2,339 adults, 80 weeks)</td><td>4, 9 or 12 mg once weekly</td><td>Started at 2 mg, escalated every 4 weeks</td><td><b>28.3%</b> on 12 mg, efficacy estimand [[8]]</td></tr><tr><td>Retatrutide alone, TRANSCEND-T2D-1 (type 2 diabetes)</td><td>4, 9 or 12 mg once weekly</td><td>Escalated</td><td>HbA1c -1.69 to -1.94 points against -0.81 on placebo [[9]]</td></tr></tbody></table></div></div><p>Two things follow. First, <b>no dose is established</b> for the two drugs together, for any purpose, by any trial. Second, the trial doses above were of each manufacturer's own product, given under monitoring; they say nothing about the contents of a vial bought online. The <a href=\"/calculators/cagrilintide\">cagrilintide calculator</a> does the volume arithmetic for the trial doses of cagrilintide alone; it has no combination mode because there is no combination evidence to build one on.</p>"
+    },
+    {
+      "id": "why-doses-dont-add",
+      "heading": "Why two drugs' doses do not add up to a combination dose",
+      "html": "<p>Both drugs reduce appetite, through overlapping brain circuits, and both cause their main side effects in the gut. The one combination with complete phase 3 data shows what that overlap does. In REDEFINE 1, cagrilintide 2.4 mg alone produced 11.8% weight loss and semaglutide 2.4 mg alone 16.1%, but the two together produced 22.7%, not the sum [[7]].</p><p>Tolerability overlaps too. In retatrutide's phase 2 trial, gastrointestinal adverse events were dose-related and were partly reduced by starting at 2 mg rather than 4 mg [[2]]. In TRIUMPH-1, <b>11.3%</b> of people on retatrutide 12 mg stopped because of adverse events, against 4.9% on placebo [[8]]; in TRIUMPH-3, in people with heart disease, the figure on 12 mg was 13.5% [[10]]. Adding a second appetite drug on top of a full retatrutide dose has not been measured at all, which is why its effect on nausea, vomiting, dehydration or discontinuation is unknown rather than merely uncertain.</p>"
+    },
+    {
+      "id": "for-men",
+      "heading": "Cagrilintide and retatrutide for men: what the trials show by sex",
+      "html": "<p>The search \"what is cagrilintide retatrutide for men\" has no human answer for the combination. The rat study used only males [[1]], which is the one place \"for men\" and this pairing meet in the literature.</p><p>For retatrutide alone, the phase 2 trial deliberately enrolled roughly equal numbers of men and women (<b>51.8%</b> men) [[2]]. In its 8 mg (initial dose 4 mg) and 12 mg groups, women lost more weight on average than men: 28.5% and 26.6% against 19.8% and 21.9% [[2]]. The authors did not establish why. Lilly's phase 3 announcements report no results by sex [[8]][[10]].</p><p>For cagrilintide, the trials with the most men were CagriSema trials, not cagrilintide alone: REDEFINE 5 in Japan and Taiwan enrolled 68% men [[11]]. Its abstract reports no separate result for men. Nothing published shows the combination with retatrutide working differently, better or worse, in men.</p>"
+    },
+    {
+      "id": "retatrutide-status",
+      "heading": "Retatrutide's status: phase 3 results and Lilly's filing plan",
+      "html": "<p>Retatrutide is <b>not approved</b> in any country. Results Lilly has announced from its phase 3 programme include:</p><ul><li><b>TRIUMPH-1</b>, 2,339 adults with obesity or overweight, 80 weeks: 19.0%, 25.9% and 28.3% weight loss on 4, 9 and 12 mg [[8]].</li><li><b>TRIUMPH-2</b>, 1,152 adults with type 2 diabetes, 80 weeks: 12.7%, 19.1% and 20.8% on 4, 9 and 12 mg, against 4.0% on placebo [[10]].</li><li><b>TRIUMPH-3</b>, 1,949 adults with severe obesity and heart disease, 80 weeks: 21.6% and 22.6% on 9 and 12 mg, against 3.2% on placebo; the cardiovascular event comparisons did not reach statistical significance [[10]].</li></ul><p>In July 2026 Lilly said it was completing the manufacturing (CMC) data package and planned to submit retatrutide for U.S. approval in <b>Q1 2027</b> [[10]]. Cagrilintide's furthest-advanced form is CagriSema, which Novo Nordisk submitted to the FDA in December 2025 [[12]]; cagrilintide itself is not approved alone or in any combination. So the pairing searched as \"cagri reta\" combines one drug awaiting filing with another awaiting a decision, and has never been tested as a pair. The <a href=\"/blog/new-weight-loss-drugs\">new weight-loss drugs</a> guide places both in the wider pipeline.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can cagrilintide and retatrutide be taken together?",
+      "answer": "No human trial has given them together, so their combined safety and effect are unknown. The only study of the pair was in obese male rats dosed daily [[1]]."
+    },
+    {
+      "question": "What is the cagrilintide dosage with retatrutide?",
+      "answer": "None has been established. Cagrilintide trials used 0.3 to 4.5 mg weekly alone and 2.4 mg with semaglutide [[5]][[6]]; retatrutide trials used 1 to 12 mg weekly alone [[2]]. Those are separate programmes, not a combined schedule."
+    },
+    {
+      "question": "What is cagrilintide retatrutide for men?",
+      "answer": "There are no human data for the combination in men or anyone else. In retatrutide's phase 2 trial women lost more weight than men at the higher doses [[2]]; the only combination study used male rats [[1]]."
+    },
+    {
+      "question": "Is a cagri reta blend the same as CagriSema?",
+      "answer": "No. CagriSema is cagrilintide with semaglutide, a fixed-dose product tested in phase 3 and submitted to the FDA in December 2025 [[12]]. A cagri reta blend pairs cagrilintide with retatrutide, which no trial has tested."
+    },
+    {
+      "question": "Is retatrutide FDA approved?",
+      "answer": "No. Lilly has reported phase 3 TRIUMPH results and plans to submit retatrutide for U.S. approval in Q1 2027 [[10]]."
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmid-42744908",
+      "title": "Cagrilintide and retatrutide combination therapy enhances weight loss and metabolic outcomes in obese male rats.",
+      "url": "https://europepmc.org/article/MED/42744908",
+      "published": "2026-09-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37366315",
+      "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+      "url": "https://europepmc.org/article/MED/37366315",
+      "published": "2023-06-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42669023",
+      "title": "Online-Sourced Retatrutide Complicating Impending Diabetic Ketoacidosis in a Patient With Type 1 Diabetes and Concurrent Shigella Gastroenteritis.",
+      "url": "https://europepmc.org/article/MED/42669023",
+      "published": "2026-08-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33894838",
+      "title": "Safety, tolerability, pharmacokinetics, and pharmacodynamics of concomitant administration of multiple doses of cagrilintide with semaglutide 2·4 mg for weight management: a randomised, controlled, phase 1b trial.",
+      "url": "https://europepmc.org/article/MED/33894838",
+      "published": "2021-04-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34798060",
+      "title": "Once-weekly cagrilintide for weight management in people with overweight and obesity: a multicentre, randomised, double-blind, placebo-controlled and active-controlled, dose-finding phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/34798060",
+      "published": "2021-11-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-37364590",
+      "title": "Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a multicentre, randomised, double-blind, active-controlled, phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/37364590",
+      "published": "2023-06-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-redefine-1-2024-12-20",
+      "title": "CagriSema demonstrates superior weight loss in adults with obesity or overweight in the REDEFINE 1 trial",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=915082",
+      "published": "2024-12-20",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "lilly-triumph-1-2026-06-06",
+      "title": "Lilly's triple agonist, retatrutide, drove substantial improvements in weight, A1C, knee osteoarthritis pain, and obstructive sleep apnea, demonstrating its remarkable potential to treat obesity and its complications",
+      "url": "https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-drove-substantial-improvements-in-weight-a1c-knee-osteoarthritis-pain-and-obstructive-sleep-apnea-demonstrating-its-remarkable-potential-to-treat-obesity-and-its-complications-302793169.html",
+      "published": "2026-06-06",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42250575",
+      "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial.",
+      "url": "https://europepmc.org/article/MED/42250575",
+      "published": "2026-06-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "lilly-triumph-2-3-2026-07-23",
+      "title": "Lilly's triple agonist, retatrutide, successful in two additional Phase 3 obesity trials, delivering significant improvements in weight and A1C",
+      "url": "https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-successful-in-two-additional-phase-3-obesity-trials-delivering-significant-improvements-in-weight-and-a1c-302832674.html",
+      "published": "2026-07-23",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42009015",
+      "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+      "url": "https://europepmc.org/article/MED/42009015",
+      "published": "2026-04-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-cagrisema-nda-2025-12-18",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues for weight management",
+      "url": "https://www.novonordisk-us.com/media/press-releases/novo-nordisk-cagrisema-fda-nda-submission.html",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: cagrilintide with retatrutide, the absence of any human trial of the pair, the 2026 rat study, each drug's own trial doses reported separately, results by sex, and retatrutide's TRIUMPH results and filing plan."
+    }
+  ],
+  "uniqueness_pct": 96.8
+}

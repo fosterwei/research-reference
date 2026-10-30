@@ -1,0 +1,157 @@
+{
+  "type": "post",
+  "slug": "eloralintide",
+  "status": "draft",
+  "category": "Research",
+  "title": "Eloralintide: Eli Lilly's amylin drug, and how it compares with cagrilintide",
+  "short_title": "Eloralintide",
+  "excerpt": "Eloralintide is Eli Lilly's once-weekly, selective amylin receptor agonist. It reduced body weight by up to 20% over 48 weeks in phase 2 [[2]] and is in phase 3 for obesity, not approved.",
+  "body": "<p><b>Eloralintide</b> (LY3841136) is Eli Lilly's amylin drug: a long-acting, once-weekly injection that activates amylin receptors, developed for obesity [[1]]. In a 48-week phase 2 trial in 263 adults it reduced body weight by up to <b>20%</b> at the 9 mg dose, against 0.4% on placebo [[2]]. As of October 2026 it is in phase 3 trials for obesity, with or without type 2 diabetes, and is not approved anywhere [[3]].</p><p>Its closest relative is Novo Nordisk's cagrilintide. The two belong to the same class but are built differently: eloralintide is <b>selective</b> for one amylin receptor, while cagrilintide activates amylin and calcitonin receptors alike. This page sets out Lilly's results and compares them with cagrilintide's. It sits under the guide on <a href=\"/blog/how-cagrilintide-works\">how cagrilintide works</a>, alongside <a href=\"/blog/amylin-analogs\">amylin analogs explained</a> and <a href=\"/blog/cagrilintide-side-effects\">cagrilintide side effects</a>.</p>",
+  "seo": {
+    "title": "Eloralintide (Eli Lilly): Trial Results vs Cagrilintide",
+    "description": "Eloralintide is Eli Lilly's selective amylin agonist. See its phase 1 and 2 results, EloraTZP data, phase 3 status and how it compares with cagrilintide."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/blog/how-cagrilintide-works",
+  "topic": "How cagrilintide works and the amylin drug class",
+  "order": 3,
+  "about": [
+    "/compounds/cagrilintide"
+  ],
+  "sections": [
+    {
+      "id": "what-eloralintide-is",
+      "heading": "What eloralintide is: Lilly's selective amylin agonist",
+      "html": "<p>Amylin acts through three receptors built on the calcitonin receptor, and drug designers can tune which ones a molecule prefers. In cell studies, eloralintide preferentially activated human <b>AMY1R</b>: 12-fold more than the calcitonin receptor and 11-fold more than AMY3R [[1]]. Its pharmacokinetics in rats, monkeys and people supported <b>once-weekly</b> dosing [[1]].</p><p>Lilly's reason for selectivity was tolerability. In lean rats, eloralintide caused significantly less conditioned taste avoidance, a laboratory marker of nausea-like aversion, than cagrilintide, which the same paper describes as a non-selective amylin receptor agonist [[1]]. In diet-induced obese rats it reduced food intake and body weight, mainly through loss of fat mass [[1]]. Whether the rat advantage on aversion carries over to people is the question the human trials are answering.</p><p>For \"amylin Eli Lilly\" searches: eloralintide is Lilly's lead amylin drug and the one it has taken into phase 3 [[3]]; Lilly is also testing it in combination with its approved GLP-1 and GIP drug tirzepatide [[3]].</p>"
+    },
+    {
+      "id": "phase-1-results",
+      "heading": "Eloralintide phase 1 results",
+      "html": "<p>Two phase 1 studies tested eloralintide in people. In a single-dose study in 48 healthy participants, nine people in the eloralintide groups reported 16 adverse events, 15 of them mild, and four gastrointestinal events occurred in two participants [[1]]. A single dose of 4 mg or 12 mg reduced body weight by <b>2.5%</b> and <b>4.4%</b> at week 4, against a 0.6% gain on placebo [[1]].</p><p>A 12-week multiple-dose study in 100 participants with obesity or overweight gave weekly doses with no escalation. Weight fell by <b>2.6% to 11.3%</b> across dose groups at week 12 [[4]]. The most common adverse events were decreased appetite (19%), headache (12%), fatigue (11%) and COVID-19 (11%); diarrhoea (10%), nausea (8%) and vomiting (4%) were described as infrequent [[4]]. One serious adverse event occurred, judged unrelated to eloralintide [[4]].</p>"
+    },
+    {
+      "id": "phase-2-results",
+      "heading": "Eloralintide phase 2 results: up to 20% weight loss in 48 weeks",
+      "html": "<p>The phase 2 trial, published in The Lancet in November 2025, enrolled 263 adults without type 2 diabetes at 46 US centres, with a mean starting weight of 109.1 kg; 78% were women [[2]]. Participants were randomised to weekly placebo, fixed doses of 1, 3, 6 or 9 mg, or two escalation schemes, for 48 weeks [[2]].</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Eloralintide phase 2: weight change at 48 weeks (efficacy estimand)</caption><thead><tr><th scope=\"col\">Arm</th><th scope=\"col\">Lancet paper</th><th scope=\"col\">Lilly release</th><th scope=\"col\">Nausea</th></tr></thead><tbody><tr><td>1 mg</td><td>-9%</td><td>-9.5%</td><td>11%</td></tr><tr><td>3 mg</td><td>-12%</td><td>-12.4%</td><td>13%</td></tr><tr><td>6 mg</td><td>-18%</td><td>-17.6%</td><td>64%</td></tr><tr><td>9 mg</td><td><b>-20%</b></td><td><b>-20.1%</b></td><td>33%</td></tr><tr><td>6 to 9 mg escalation</td><td>-20%</td><td>-19.9%</td><td>54%</td></tr><tr><td>3 to 9 mg escalation</td><td>-16%</td><td>-16.4%</td><td>25%</td></tr><tr><td>Placebo</td><td>-0.4%</td><td>-0.4%</td><td>14%</td></tr></tbody></table></div></div><p>Sources for the table: Lancet figures and nausea rates [[2]]; one-decimal figures from Lilly's announcement, which noted the endpoints were not adjusted for multiplicity [[5]]. Fatigue was the other common adverse event, ranging from 0% at 1 mg to 46% in the 6 to 9 mg escalation arm, against 12% on placebo [[2]]. Lilly reported that gastrointestinal events were less frequent with slower escalation and similar to placebo at 1 mg and 3 mg [[5]]. The pattern in the table, where the 3 to 9 mg escalation arm had less nausea than starting at 6 mg, fits that account.</p>"
+    },
+    {
+      "id": "eloralintide-with-tirzepatide",
+      "heading": "Eloralintide with tirzepatide (EloraTZP)",
+      "html": "<p>On 30 September 2026 Lilly reported a 48-week phase 2b trial in 367 adults with obesity or overweight and type 2 diabetes, combining eloralintide with <a href=\"/compounds/tirzepatide\">tirzepatide</a> [[3]].</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>EloraTZP phase 2b: selected arms at 48 weeks (efficacy estimand)</caption><thead><tr><th scope=\"col\">Arm</th><th scope=\"col\">Weight change</th><th scope=\"col\">A1C change</th></tr></thead><tbody><tr><td>Eloralintide 9 mg + tirzepatide 15 mg</td><td><b>-23.3%</b></td><td>-2.9%</td></tr><tr><td>Tirzepatide 15 mg alone</td><td>-14.8%</td><td>-2.4%</td></tr><tr><td>Eloralintide 6 mg alone</td><td>-12.3%</td><td>-1.4%</td></tr><tr><td>Placebo</td><td>-3.0%</td><td>-0.3%</td></tr></tbody></table></div></div><p>All figures from Lilly's announcement [[3]]. The combination cost tolerability: discontinuation for adverse events ranged from <b>10.8% to 27.0%</b> across EloraTZP arms, against 0% to 10.8% with eloralintide alone, 2.9% with tirzepatide and 16.7% with placebo [[3]]. These are company-reported, not yet peer-reviewed. Separately, cagrilintide has not been tested with tirzepatide in people; that gap is covered in <a href=\"/blog/cagrilintide-with-tirzepatide\">cagrilintide with tirzepatide</a>.</p>"
+    },
+    {
+      "id": "development-status",
+      "heading": "Eloralintide development status, October 2026",
+      "html": "<ul><li><b>Eloralintide alone:</b> in phase 3 trials for obesity, in people with and without type 2 diabetes [[3]]. Lilly said in November 2025 that it planned to start these by the end of that year [[5]].</li><li><b>EloraTZP:</b> Lilly plans to start phase 3 of a co-formulated product by the end of 2026 [[3]].</li><li><b>Approval:</b> none. Lilly describes eloralintide as investigational, with no guarantee of approval [[3]]. No regulatory filing has been announced.</li></ul><p>By comparison, Novo Nordisk filed CagriSema with the FDA in December 2025 [[6]] and has cagrilintide alone in its RENEW phase 3 programme [[7]]. Cagrilintide is about one development stage ahead. The wider set of drugs in this race is in <a href=\"/blog/new-weight-loss-drugs\">new weight-loss drugs</a>.</p>"
+    },
+    {
+      "id": "eloralintide-vs-cagrilintide",
+      "heading": "Eloralintide vs cagrilintide",
+      "lede": "No trial has compared them directly. Every difference below crosses trials.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Eloralintide and cagrilintide side by side</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">Eloralintide</th><th scope=\"col\">Cagrilintide</th></tr></thead><tbody><tr><td>Developer</td><td>Eli Lilly [[1]]</td><td>Novo Nordisk [[8]]</td></tr><tr><td>Receptor profile</td><td>Selective for AMY1R [[1]]</td><td>Non-selective amylin and calcitonin receptor agonist (DACRA) [[9]]</td></tr><tr><td>Dosing interval in trials</td><td>Once weekly [[2]]</td><td>Once weekly [[8]]</td></tr><tr><td>Best phase 2 weight loss, alone</td><td>-20% at 9 mg, 48 weeks [[2]]</td><td>-10.8% at 4.5 mg, 26 weeks [[8]]</td></tr><tr><td>Nausea, highest phase 2 rate</td><td>64% (6 mg) [[2]]</td><td>47% [[8]]</td></tr><tr><td>Longest data, alone</td><td>48 weeks [[2]]</td><td>68 weeks, -11.8% at 2.4 mg [[7]]</td></tr><tr><td>Partner drug</td><td>Tirzepatide (EloraTZP), phase 2b [[3]]</td><td>Semaglutide (CagriSema), filed with the FDA [[6]]</td></tr><tr><td>Stage, October 2026</td><td>Phase 3</td><td>Phase 3 alone; combination under FDA review</td></tr></tbody></table></div></div><p>Read the weight-loss row carefully. The eloralintide figure is from 48 weeks; the cagrilintide phase 2 figure is from 26 weeks, a trial too short to reach a plateau. Cagrilintide's 68-week monotherapy figure of 11.8% [[7]] is the fairer comparison, and eloralintide still looks larger. A 2026 network meta-analysis estimated high-dose eloralintide at <b>-18.01%</b> against placebo and high-dose CagriSema at -17.18%, while warning the data were sparse and low in certainty [[10]].</p><p>On tolerability the case is not settled. Eloralintide's selectivity reduced aversion in rats [[1]], but its phase 2 nausea rate reached 64% in the 6 mg arm [[2]], higher than cagrilintide's top phase 2 rate of 47% [[8]]. Escalation schedules, trial populations and durations differ, so neither number settles which drug is gentler. Cagrilintide's mechanism is in <a href=\"/blog/how-cagrilintide-works\">how cagrilintide works</a>, and its full record is the <a href=\"/compounds/cagrilintide\">cagrilintide compound page</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is eloralintide?",
+      "answer": "Eli Lilly's once-weekly, selective amylin receptor agonist (LY3841136), in development for obesity [[1]]."
+    },
+    {
+      "question": "How much weight loss did eloralintide produce?",
+      "answer": "Up to 20% over 48 weeks at 9 mg in phase 2, against 0.4% on placebo [[2]]."
+    },
+    {
+      "question": "Is eloralintide FDA approved?",
+      "answer": "No. It is in phase 3 trials for obesity and Lilly describes it as investigational [[3]]."
+    },
+    {
+      "question": "Is eloralintide better than cagrilintide?",
+      "answer": "It has not been compared directly. Its phase 2 weight loss was larger than cagrilintide's, but a network meta-analysis called the comparative data sparse and low in certainty [[10]]."
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: eloralintide's receptor selectivity, phase 1 and phase 2 results, the EloraTZP phase 2b data of September 2026, development status and a cross-trial comparison with cagrilintide."
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmid-41109426",
+      "title": "Eloralintide (LY3841136), a novel amylin receptor agonist for the treatment of obesity: From discovery to clinical proof of concept.",
+      "url": "https://europepmc.org/article/MED/41109426",
+      "published": "2025-10-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41207310",
+      "title": "Eloralintide, a selective amylin receptor agonist for the treatment of obesity: a 48-week phase 2, multicentre, double-blind, randomised, placebo-controlled trial.",
+      "url": "https://europepmc.org/article/MED/41207310",
+      "published": "2025-11-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "lilly-eloratzp-phase-2b-2026-09-30",
+      "title": "Lilly's EloraTZP (combination of eloralintide and tirzepatide) delivered greater weight loss and A1C reduction vs. tirzepatide 15 mg in adults with obesity and type 2 diabetes",
+      "url": "https://www.prnewswire.com/news-releases/lillys-eloratzp-combination-of-eloralintide-and-tirzepatide-delivered-greater-weight-loss-and-a1c-reduction-vs-tirzepatide-15-mg-in-adults-with-obesity-and-type-2-diabetes-302894480.html",
+      "published": "2026-09-30",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-41559929",
+      "title": "Eloralintide, a selective, long-acting amylin receptor agonist for treatment of obesity: Phase 1 proof of concept.",
+      "url": "https://europepmc.org/article/MED/41559929",
+      "published": "2026-01-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "lilly-eloralintide-phase-2-2025-11-06",
+      "title": "Lilly's selective amylin agonist, eloralintide, demonstrated meaningful weight loss and favorable tolerability in a Phase 2 study of adults with obesity or overweight",
+      "url": "https://www.prnewswire.com/news-releases/lillys-selective-amylin-agonist-eloralintide-demonstrated-meaningful-weight-loss-and-favorable-tolerability-in-a-phase-2-study-of-adults-with-obesity-or-overweight-302607061.html",
+      "published": "2025-11-06",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "novo-cagrisema-nda-2025-12-18",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues for weight management",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916470",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "novo-annual-report-2025-innovation",
+      "title": "Innovation and therapeutic focus - Novo Nordisk Annual Report 2025",
+      "url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/innovation-and-therapeutic-focus.html",
+      "published": "2026-02-04",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-34798060",
+      "title": "Once-weekly cagrilintide for weight management in people with overweight and obesity: a multicentre, randomised, double-blind, placebo-controlled and active-controlled, dose-finding phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/34798060",
+      "published": "2021-11-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40847076",
+      "title": "Structural and mechanistic insights into dual activation of cagrilintide in amylin and calcitonin receptors.",
+      "url": "https://europepmc.org/article/MED/40847076",
+      "published": "2025-08-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42175595",
+      "title": "Novel Amylin-Based Therapies for Weight Management in Adults With Overweight or Obesity Without Diabetes: A Network Meta-Analysis.",
+      "url": "https://europepmc.org/article/MED/42175595",
+      "published": "2026-05-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "uniqueness_pct": 96.2
+}

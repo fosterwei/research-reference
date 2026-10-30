@@ -1,0 +1,202 @@
+{
+  "type": "post",
+  "slug": "type-2-diabetes-remission",
+  "status": "draft",
+  "category": "Research",
+  "title": "Can type 2 diabetes be cured? What remission trials show",
+  "short_title": "Diabetes remission",
+  "excerpt": "There is no cure for type 2 diabetes, but trials show remission: normal HbA1c off all glucose-lowering drugs. What diet, surgery and GLP-1 studies achieved, and how long it lasted.",
+  "body": "<p>Most searches for how to cure diabetes are about type 2 diabetes. No treatment has been shown to <b>cure</b> it, in the sense of removing it for good. What trials have shown is <b>remission</b>: blood sugar returning to below the diabetes range and staying there after all glucose-lowering drugs are stopped. An international consensus convened by the American Diabetes Association defined it in 2021 as an <b>HbA1c below 6.5% (48 mmol/mol) measured at least 3 months after stopping glucose-lowering medication</b> [[1]]. Remission has been reached mainly through large, sustained weight loss, from a supervised low-calorie diet or from metabolic surgery, and it can end if weight returns.</p><p>This page sits under our <a href=\"/blog/diabetes-medications\">guide to diabetes medications</a>. It reports what the remission trials achieved, how long the effect lasted, what GLP-1 and amylin drugs have and have not shown, and where supplements stand. It describes evidence; whether any of it fits an individual is a decision for that person and their care team.</p>",
+  "seo": {
+    "title": "How to Cure Diabetes? What Type 2 Remission Trials Show",
+    "description": "Type 2 diabetes has no proven cure, but trials show remission: HbA1c under 6.5% off drugs. See the rates from DiRECT, DIADEM-I, surgery and GLP-1 studies."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/blog/diabetes-medications",
+  "topic": "Type 2 diabetes medicines",
+  "order": 8,
+  "about": [],
+  "sections": [
+    {
+      "id": "remission-not-cure",
+      "heading": "Why remission, not cure, is the right word",
+      "html": "<p>The consensus group chose <b>remission</b> deliberately. Its report says glucose can return to the normal range in some people, spontaneously or after treatment, and can stay there after drugs are withdrawn, but that the long-term risks and benefits of that state are not well understood [[1]]. It recommended continued observation of people in remission rather than discharge from care [[1]]. The same report was published at the same time in <em>Diabetes Care</em>, in <em>Diabetologia</em>, the journal of the European Association for the Study of Diabetes, and in <em>Diabetic Medicine</em>, the journal of Diabetes UK [[1]][[2]][[3]], which is why the definition is often described as the ADA, EASD and Diabetes UK definition.</p><p>Three details of the definition matter when reading any claim of \"reversal\":</p><ul><li><b>The threshold</b> is HbA1c below 6.5%, the diagnostic line for diabetes, not a fully normal value [[1]].</li><li><b>The drugs must be stopped</b>, and the measurement taken at least 3 months later [[1]]. Normal glucose while still on a drug is good control, not remission.</li><li><b>It can relapse.</b> The trials below show remission rates falling year by year, which is the practical reason the word cure is not used.</li></ul>"
+    },
+    {
+      "id": "diet-trials",
+      "heading": "Low-calorie diet trials: DiRECT and DIADEM-I",
+      "lede": "Two randomised trials in primary care set the benchmark for non-surgical remission.",
+      "html": "<p><b>DiRECT</b> randomised 49 primary care practices in Scotland and north-east England, with 149 participants in each arm [[4]]. It enrolled adults aged 20 to 65, diagnosed within the previous 6 years, with a BMI of 27 to 45 and not on insulin [[4]]. The intervention withdrew diabetes and blood pressure drugs, replaced food with an 825 to 853 kcal per day formula diet for 12 to 20 weeks, reintroduced food over 2 to 8 weeks, and then gave structured support to maintain weight loss [[5]]. At 12 months, <b>46%</b> of the intervention group (68 of 149) were in remission [[5]]. At 24 months the figure was <b>36%</b>, against 3% in the control group [[5]]. Weight was the driver: among participants who kept off at least 10 kg, 64% were in remission at 2 years [[5]]. At 5 years, 11 of 85 participants who continued in an extension programme of low-intensity support, <b>13%</b>, were in remission [[6]].</p><p><b>DIADEM-I</b>, in Qatar, tested a similar total diet replacement programme with physical activity support in younger adults, aged 18 to 50, diagnosed within the previous 3 years [[7]]. After 12 months, mean weight loss was 11.98 kg against 3.98 kg with usual care, and the authors report remission in <b>over 60%</b> of the intervention group [[7]]. Its participants were younger and earlier in the disease than DiRECT's.</p><p>Both programmes were run by trained staff, began by stopping glucose-lowering drugs under supervision, and selected people early in the disease. A very-low-calorie diet while still taking insulin or a sulfonylurea carries a risk of hypoglycemia, which is why these trials managed medicines alongside the diet; our <a href=\"/blog/glucose-pills\">guide to glucose pills and lows</a> explains that risk.</p>"
+    },
+    {
+      "id": "remission-evidence-table",
+      "heading": "Remission rates across the main trials",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Type 2 diabetes remission in randomised trials, by intervention and follow-up.</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Who took part</th><th scope=\"col\">Intervention</th><th scope=\"col\">Remission</th></tr></thead><tbody><tr><td>DiRECT, 1 year</td><td>298 adults, diagnosed within 6 years, not on insulin</td><td>Formula diet, then weight maintenance support</td><td>46% of intervention group [[5]]</td></tr><tr><td>DiRECT, 2 years</td><td>Same</td><td>Same</td><td>36% vs 3% control [[5]]</td></tr><tr><td>DiRECT, 5 years</td><td>85 in the extension group</td><td>Continued low-intensity support</td><td>13% [[6]]</td></tr><tr><td>DIADEM-I, 1 year</td><td>Adults 18 to 50, diagnosed within 3 years</td><td>Total diet replacement plus activity support</td><td>Over 60% [[7]]</td></tr><tr><td>Rome surgery trial, 10 years</td><td>60 adults, BMI 35 or more, diabetes over 5 years</td><td>Biliopancreatic diversion or gastric bypass vs medical therapy</td><td>50% BPD, 25% bypass, 5.5% medical [[8]]</td></tr><tr><td>Dapagliflozin trial, 1 year</td><td>328 adults with overweight, early diabetes</td><td>Calorie restriction plus dapagliflozin or placebo</td><td>44% vs 28% [[9]]</td></tr></tbody></table></div></div><p>A 2025 meta-analysis of 18 non-surgical randomised trials found remission more likely with the interventions than with control care, but noted small samples, strict protocols, narrow selection of participants and inconsistent definitions of remission [[10]]. The rates in the table come from selected groups under trial conditions and are not a forecast for any individual.</p>"
+    },
+    {
+      "id": "metabolic-surgery",
+      "heading": "Metabolic surgery and long-term remission",
+      "html": "<p>The longest randomised data come from a single-centre trial in Rome of 60 adults with a BMI of at least 35, diabetes for more than 5 years and HbA1c above 7% [[8]]. Ten years after surgery, <b>37.5%</b> of surgically treated participants had stayed in remission throughout [[8]]. Rates differed by operation: 50% after biliopancreatic diversion, 25% after Roux-en-Y gastric bypass, and 5.5% with medical therapy [[8]]. Relapse was common: 58.8% of those in remission at 2 years saw hyperglycemia return, although their mean HbA1c at 10 years was 6.7% [[8]]. Surgical participants had fewer diabetes complications, while serious adverse events were more frequent after biliopancreatic diversion [[8]].</p><p>The ADA Standards of Care 2026 include metabolic surgery among the treatments for type 2 diabetes in people with obesity, alongside lifestyle and drug therapy for weight management [[11]]. Surgery is a clinical decision with its own risks, made with a specialist team.</p>"
+    },
+    {
+      "id": "glp1-amylin-drugs",
+      "heading": "Do GLP-1 and amylin drugs put diabetes into remission?",
+      "lede": "They lower glucose strongly, but most of the evidence is measured while people are still taking them.",
+      "html": "<p>Under the consensus definition, glucose that is normal only while a drug is being taken does not count as remission [[1]]. That is the central limit on GLP-1 data. An Italian observational study of 14,141 people starting a GLP-1 receptor agonist, followed for about 4 years, found remission in <b>5.8%</b> under the strictest definition (no glucose-lowering drugs) and in up to <b>18.3%</b> when ongoing treatment was ignored [[12]]. Remission was more likely with shorter diabetes duration and higher BMI [[12]].</p><p>For tirzepatide, a meta-analysis found it raised the odds of reaching an HbA1c below 5.7%, the normal range, more than 16-fold compared with control treatments [[13]]. Those participants were still on the drug, so this is normoglycemia on treatment rather than remission. The <a href=\"/compounds/tirzepatide\">tirzepatide record</a> and <a href=\"/compounds/semaglutide\">semaglutide record</a> hold the trial details.</p><p>For the amylin combination <a href=\"/stacks/cagrisema\">CagriSema</a>, the type 2 diabetes trial in people early in the disease, REIMAGINE 1, reported HbA1c falling by 1.8 percentage points over 40 weeks against 0.1 on placebo, from a baseline of 7.8% [[14]]. Its primary endpoint was HbA1c change while on treatment, so remission off treatment was not the question it asked [[14]]. A Europe PMC search in October 2026 found no published trial of <a href=\"/compounds/cagrilintide\">cagrilintide</a> or CagriSema reporting remission off treatment. CagriSema is not approved anywhere; see <a href=\"/blog/new-weight-loss-drugs\">new weight-loss drugs</a> for its status.</p><p>What happens when these drugs stop is the open question. A 2026 trial protocol summarises the published evidence that most people regain weight after abruptly stopping semaglutide, with its cardiometabolic benefits reversing [[15]]. Since weight drives remission in the diet and surgery trials [[5]], that regain is the main reason drug-induced normal glucose is not described as a cure.</p>"
+    },
+    {
+      "id": "alternative-treatments",
+      "heading": "Alternative treatments for type 2 diabetes: what the evidence covers",
+      "html": "<p>People searching for an alternative treatment for type 2 diabetes usually mean one of three things: a non-drug route (diet, weight loss, surgery), a different drug, or a supplement. The first two are covered above and in our overview of <a href=\"/blog/type-2-diabetes-treatments\">type 2 diabetes treatments</a>. For supplements, the evidence is thinner.</p><p>A 2025 umbrella review of herbal medicines for type 2 diabetes found that ginger, turmeric and the Chinese preparation Jinlida lowered HbA1c compared with placebo by about <b>0.3 to 0.5 percentage points</b>, with moderate to high certainty for those outcomes [[16]]. It also judged the underlying reviews to be of low to very low quality, said herbal medicines should be used only as an adjunct to conventional treatment, and warned of hypoglycemia when they are combined with diabetes drugs because herb-drug interaction data are lacking [[16]]. The outcome these reviews measured was HbA1c change, not remission [[16]].</p><p>For comparison, the diet-based trials above produced remission in a third to over half of participants at 1 to 2 years [[5]][[7]]. For people with prediabetes rather than diabetes, prevention evidence is on our <a href=\"/blog/prediabetes-medication\">prediabetes medication</a> page.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can type 2 diabetes be cured permanently?",
+      "answer": "No treatment has been shown to cure it permanently. Trials show remission, defined as HbA1c below 6.5% at least 3 months after stopping glucose-lowering drugs [[1]], but rates fall over time: in DiRECT, 46% at 1 year, 36% at 2 years and 13% at 5 years in the extension group [[5]][[6]]."
+    },
+    {
+      "question": "How much weight loss leads to remission?",
+      "answer": "In DiRECT, 64% of participants who kept off at least 10 kg were in remission at 2 years [[5]]. Weight loss was the main driver of remission in that trial, but there is no single figure that guarantees it for an individual."
+    },
+    {
+      "question": "Does metformin or a GLP-1 drug count as remission if my A1c is normal?",
+      "answer": "Not under the consensus definition, which requires the HbA1c to be below 6.5% at least 3 months after glucose-lowering medication is stopped [[1]]. A normal value on medication means the treatment is working."
+    },
+    {
+      "question": "Can a supplement reverse type 2 diabetes?",
+      "answer": "No supplement has been shown to do so. An umbrella review found ginger, turmeric and Jinlida lowered HbA1c by roughly 0.3 to 0.5 points, from low-quality reviews, and recommended them only alongside conventional treatment [[16]]."
+    },
+    {
+      "question": "Is remission more likely soon after diagnosis?",
+      "answer": "The trials with the highest rates enrolled people early: within 6 years of diagnosis in DiRECT and within 3 years in DIADEM-I [[4]][[7]]. In the GLP-1 observational study, shorter diabetes duration was also associated with remission [[12]]."
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: the 2021 consensus definition of remission, DiRECT and DIADEM-I, 10-year surgery data, GLP-1 and CagriSema evidence on remission, and the supplement evidence boundary."
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmid-34462270",
+      "title": "Consensus Report: Definition and Interpretation of Remission in Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/34462270",
+      "published": "2021-10-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34458934",
+      "title": "Consensus report: definition and interpretation of remission in type 2 diabetes.",
+      "url": "https://europepmc.org/article/MED/34458934",
+      "published": "2021-08-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34460965",
+      "title": "Consensus report: Definition and interpretation of remission in type 2 diabetes.",
+      "url": "https://europepmc.org/article/MED/34460965",
+      "published": "2021-08-30",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-29221645",
+      "title": "Primary care-led weight management for remission of type 2 diabetes (DiRECT): an open-label, cluster-randomised trial.",
+      "url": "https://europepmc.org/article/MED/29221645",
+      "published": "2017-12-05",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-30852132",
+      "title": "Durability of a primary care-led weight-management intervention for remission of type 2 diabetes: 2-year results of the DiRECT open-label, cluster-randomised trial.",
+      "url": "https://europepmc.org/article/MED/30852132",
+      "published": "2019-03-06",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38423026",
+      "title": "5-year follow-up of the randomised Diabetes Remission Clinical Trial (DiRECT) of continued support for weight loss maintenance in the UK: an extension study.",
+      "url": "https://europepmc.org/article/MED/38423026",
+      "published": "2024-02-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32445735",
+      "title": "Effect of intensive lifestyle intervention on bodyweight and glycaemia in early type 2 diabetes (DIADEM-I): an open-label, parallel-group, randomised controlled trial.",
+      "url": "https://europepmc.org/article/MED/32445735",
+      "published": "2020-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-33485454",
+      "title": "Metabolic surgery versus conventional medical therapy in patients with type 2 diabetes: 10-year follow-up of an open-label, single-centre, randomised controlled trial.",
+      "url": "https://europepmc.org/article/MED/33485454",
+      "published": "2021-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39843169",
+      "title": "Dapagliflozin plus calorie restriction for remission of type 2 diabetes: multicentre, double blind, randomised, placebo controlled trial.",
+      "url": "https://europepmc.org/article/MED/39843169",
+      "published": "2025-01-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40982327",
+      "title": "Type 2 Diabetes Remission: A Systematic Review and Meta-analysis of Nonsurgical Randomized Controlled Trials.",
+      "url": "https://europepmc.org/article/MED/40982327",
+      "published": "2025-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41358882",
+      "title": "8. Obesity and Weight Management for the Prevention and Treatment of Diabetes: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358882",
+      "published": "2026-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41142657",
+      "title": "Type 2 diabetes remission after initiation of GLP-1 receptor agonists: frequency, characteristics, and outcomes using multiple definitions in an observational study.",
+      "url": "https://europepmc.org/article/MED/41142657",
+      "published": "2025-10-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38889536",
+      "title": "Achievement of normoglycemia with tirzepatide in type 2 diabetes mellitus: A step closer to drug-induced diabetes remission?",
+      "url": "https://europepmc.org/article/MED/38889536",
+      "published": "2024-06-14",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251860",
+      "title": "Efficacy and safety of once-weekly cagrilintide-semaglutide (CagriSema) in adults with type 2 diabetes inadequately controlled on diet and exercise (REIMAGINE 1): a randomised, double-blind, placebo-controlled, phase 3a study.",
+      "url": "https://europepmc.org/article/MED/42251860",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42507673",
+      "title": "Impact of semaglutide withdrawal on cardiometabolic profile and physiology of energy balance: Recovery effects after semaglutide termination - The REST trial study protocol.",
+      "url": "https://europepmc.org/article/MED/42507673",
+      "published": "2026-07-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41029669",
+      "title": "The efficacy and safety of herbal medicines for glycaemic control and insulin resistance in individuals with type 2 diabetes: an umbrella review.",
+      "url": "https://europepmc.org/article/MED/41029669",
+      "published": "2025-09-30",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "uniqueness_pct": 97.4
+}

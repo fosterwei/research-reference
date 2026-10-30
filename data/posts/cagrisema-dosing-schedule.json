@@ -1,0 +1,175 @@
+{
+  "type": "post",
+  "slug": "cagrisema-dosing-schedule",
+  "status": "draft",
+  "category": "Research",
+  "title": "CagriSema dosage and dosing schedule: the trial titration step by step",
+  "short_title": "CagriSema dosing schedule",
+  "excerpt": "In the phase 2 trial, CagriSema doses rose every 4 weeks from 0.25 mg of each drug to 2.4 mg of each by week 17 [[1]], and the phase 3 trials also stepped both drugs up to 2.4 mg [[2]]. Here is that schedule, how many people reached the top dose, and why no dose is approved.",
+  "body": "<p>The <b>CagriSema dosage</b> in trials was a fixed pair: cagrilintide 2.4 mg plus semaglutide 2.4 mg once weekly, used in the 68-week REDEFINE 1 trial of 3,417 adults [[2]]. It was reached by titration: the published phase 2 schedule raised both drugs together <b>every 4 weeks</b>, from 0.25 mg through 0.5, 1.0 and 1.7 mg, reaching 2.4 mg after 16 weeks [[1]]. No CagriSema dose is approved; the product was submitted to the FDA in December 2025 [[3]].</p><p>This page belongs to the <a href=\"/stacks/cagrisema\">CagriSema</a> record, which covers the trial results in full. Here the subject is the schedule itself: each step, the maintenance phase, how flexibly the trials applied it, and how many people actually reached the top dose. These are the doses trials administered, reported as findings, not a schedule for anyone to follow.</p>",
+  "seo": {
+    "title": "CagriSema Dosage: The Trial Dosing Schedule Step by Step",
+    "description": "CagriSema dosage in trials: 0.25/0.25 mg rising every 4 weeks to 2.4/2.4 mg, the flexible protocol, how many reached it, and why no dose is approved."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/stacks/cagrisema",
+  "topic": "CagriSema",
+  "order": 1,
+  "about": [
+    "/compounds/cagrilintide"
+  ],
+  "sections": [
+    {
+      "id": "dosing-chart",
+      "heading": "The CagriSema dosing chart used in the trials",
+      "lede": "Both drugs climb together, one step every four weeks.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>CagriSema titration as administered in the phase 2 trial in type 2 diabetes (doses of each drug, once weekly)</caption><thead><tr><th scope=\"col\">Weeks</th><th scope=\"col\">Cagrilintide</th><th scope=\"col\">Semaglutide</th><th scope=\"col\">Phase</th></tr></thead><tbody><tr><td>Weeks 1 to 4</td><td>0.25 mg</td><td>0.25 mg</td><td>Starting step</td></tr><tr><td>Weeks 5 to 8</td><td>0.5 mg</td><td>0.5 mg</td><td>Escalation</td></tr><tr><td>Weeks 9 to 12</td><td>1.0 mg</td><td>1.0 mg</td><td>Escalation</td></tr><tr><td>Weeks 13 to 16</td><td>1.7 mg</td><td>1.7 mg</td><td>Escalation</td></tr><tr><td>Week 17 onward</td><td><b>2.4 mg</b></td><td><b>2.4 mg</b></td><td>Maintenance</td></tr></tbody></table></div></div><p>The phase 2 paper prints this ladder in full: treatment doses were escalated every 4 weeks from 0.25 mg to 0.5 mg, 1.0 mg and 1.7 mg until the <b>2.4 mg</b> maintenance dose was reached after 16 weeks [[1]]. The earlier phase 1b trial used the same pattern, co-escalating cagrilintide and semaglutide in 4-week intervals over 16 weeks [[4]]. The phase 3 papers describe both drugs as escalated to 2.4 mg [[5]].</p><p>The semaglutide half of the ladder is the same one on the approved Wegovy label, which starts at 0.25 mg weekly for 4 weeks and titrates every 4 weeks through 0.5, 1 and 1.7 mg to 2.4 mg [[6]]. What CagriSema adds is a cagrilintide dose that moves in lockstep with it. For the cagrilintide component in more detail, see the <a href=\"/blog/cagrilintide-dosage\">cagrilintide dosage guide</a>.</p>"
+    },
+    {
+      "id": "maintenance",
+      "heading": "Maintenance: 2.4 mg of each, once a week",
+      "html": "<p>After titration, the weight-management trials held participants at 2.4 mg of each drug weekly for the rest of the treatment period. In the phase 2 trial that meant 16 weeks of escalation, then <b>16 weeks of maintenance</b>, then 5 weeks of follow-up [[1]]. In phase 3 the treatment periods were longer:</p><ul><li><b>REDEFINE 1</b>, adults without diabetes, 68 weeks: weight changed by -20.4% on CagriSema against -3.0% on placebo [[2]].</li><li><b>REDEFINE 2</b>, adults with type 2 diabetes, 68 weeks: -13.7% against -3.4% [[7]].</li><li><b>REDEFINE 5</b>, adults in Japan and Taiwan, 68 weeks: -18.4% against -11.9% on semaglutide 2.4 mg alone [[5]].</li></ul><p>The <a href=\"/compare/cagrilintide-vs-semaglutide\">cagrilintide vs semaglutide</a> comparison sets those numbers against each component on its own.</p>"
+    },
+    {
+      "id": "flexible-protocol",
+      "heading": "The flexible protocol, and the dose people actually reached",
+      "html": "<p>The schedule above is the plan. REDEFINE 1 allowed it to bend: Novo Nordisk described the trial as based on a <b>flexible protocol</b>, allowing patients to modify their dosing throughout [[8]]. In practice that meant a participant's dose could differ from the chart.</p><p>Many did. At week 68, <b>57.3%</b> of people on CagriSema were on the highest dose, against 82.5% of those on cagrilintide 2.4 mg alone and 70.2% of those on semaglutide 2.4 mg alone [[8]]. The headline 22.7% weight loss (trial-product estimand) and the 20.4% in the published paper (treatment-policy estimand) were therefore achieved with more than four in ten people below the full 2.4/2.4 mg dose [[8]][[2]].</p><p>The approved semaglutide label has a comparable provision for its own ladder: if a dose is not tolerated during escalation, prescribers may consider delaying the next step by 4 weeks [[6]]. Gastrointestinal effects drive most of these adjustments; the <a href=\"/blog/cagrilintide-side-effects\">cagrilintide side effects</a> page reports how often they occurred.</p><p>Novo Nordisk is still testing what the full schedule can deliver. REDEFINE 11, an 80-week trial of CagriSema 2.4/2.4 mg in 600 adults, is expected to report in the first half of 2027, and a trial of a higher-dose version, cagrilintide 2.4 mg with semaglutide <b>7.2 mg</b>, was planned to begin in the second half of 2026 [[9]].</p>"
+    },
+    {
+      "id": "lower-dose",
+      "heading": "The lower 1.0/1.0 mg dose in the diabetes trials",
+      "html": "<p>The REIMAGINE programme in type 2 diabetes also tested a smaller pair, cagrilintide 1.0 mg with semaglutide 1.0 mg. REIMAGINE 2 randomised 2,713 adults on metformin to six arms, including 595 on the 1.0/1.0 mg combination [[10]]. In REIMAGINE 3, in 274 adults on basal insulin, HbA1c fell by 2.10 points on 1.0/1.0 mg and 2.33 points on 2.4/2.4 mg, against 0.66 on placebo, over 40 weeks [[11]].</p><p>Both doses met their primary endpoints in that trial [[11]]. Whether a lower maintenance dose ends up on a diabetes label is a regulatory question that has not been answered: the December 2025 submission was for weight management [[3]].</p>"
+    },
+    {
+      "id": "one-injection",
+      "heading": "One injection, two drugs: the co-formulation and its pen",
+      "html": "<p>Early trials gave the two drugs as <b>separate injections</b>. In the phase 2 diabetes trial, semaglutide came from one pre-filled pen and cagrilintide from another [[1]]. The product submitted for approval is a fixed-dose combination of both [[3]].</p><p>A 2026 usability study tested the device built for it: a single-dose, single-use, pre-filled <b>dual-chamber pen</b> for once-weekly subcutaneous injection of the fixed-dose combination. Of 150 adults with overweight, obesity or type 2 diabetes, all but one completed a simulated injection; median training took 3 minutes and preparing and injecting took 15 seconds [[12]].</p><p>A fixed ratio has a consequence for the schedule: the two doses cannot be adjusted independently. Each step on the chart is a step for both drugs at once. Where the injection goes is covered in <a href=\"/blog/subcutaneous-injection-sites\">subcutaneous injection sites</a>.</p>"
+    },
+    {
+      "id": "no-approved-dose",
+      "heading": "Why no CagriSema dose is approved yet",
+      "html": "<p>Novo Nordisk submitted CagriSema to the FDA in December 2025, on the strength of REDEFINE 1 and REDEFINE 2 [[3]]. In February 2026 the company said it anticipated an FDA decision by late 2026 [[9]]. Until a label is issued, there is no approved starting dose, no approved escalation rule and no approved maintenance dose; the schedule on this page is the trial protocol and nothing more. The <a href=\"/blog/cagrisema-approval-timeline\">CagriSema approval timeline</a> tracks the review.</p><p>Schedules offered online for vials sold as \"CagriSema\" or as separate cagrilintide and semaglutide copy these trial steps onto products whose identity and strength nobody has verified, and assembling two vials does not reproduce a fixed-dose product. The <a href=\"/compounds/cagrilintide\">cagrilintide record</a> explains why, and the <a href=\"/calculators/cagrilintide\">cagrilintide calculator</a> shows the volume arithmetic for the trial doses without turning them into a recommendation.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the CagriSema dosage?",
+      "answer": "In the weight-management trials, cagrilintide 2.4 mg plus semaglutide 2.4 mg once weekly, reached by titration [[2]]. The diabetes trials also tested 1.0 mg of each [[11]]. No dose is approved."
+    },
+    {
+      "question": "How long does CagriSema titration take?",
+      "answer": "In the published schedule, 16 weeks: four 4-week steps at 0.25, 0.5, 1.0 and 1.7 mg of each drug, with 2.4 mg of each from week 17 [[1]]."
+    },
+    {
+      "question": "Is there a CagriSema dosing chart?",
+      "answer": "The trial chart is the table on this page: both drugs at the same dose, rising every 4 weeks from 0.25 mg to 2.4 mg [[1]]. It describes what trials administered, not an approved regimen."
+    },
+    {
+      "question": "Did everyone in the trials reach 2.4/2.4 mg?",
+      "answer": "No. REDEFINE 1 used a flexible protocol, and at week 68 57.3% of people on CagriSema were on the highest dose [[8]]."
+    },
+    {
+      "question": "Will there be a higher CagriSema dose?",
+      "answer": "Novo Nordisk planned a phase 3 trial of cagrilintide 2.4 mg with semaglutide 7.2 mg to start in the second half of 2026 [[9]]. No results exist yet."
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmid-37364590",
+      "title": "Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a multicentre, randomised, double-blind, active-controlled, phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/37364590",
+      "published": "2023-06-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40544433",
+      "title": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity.",
+      "url": "https://europepmc.org/article/MED/40544433",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-cagrisema-nda-2025-12-18",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues for weight management",
+      "url": "https://www.novonordisk-us.com/media/press-releases/novo-nordisk-cagrisema-fda-nda-submission.html",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-33894838",
+      "title": "Safety, tolerability, pharmacokinetics, and pharmacodynamics of concomitant administration of multiple doses of cagrilintide with semaglutide 2·4 mg for weight management: a randomised, controlled, phase 1b trial.",
+      "url": "https://europepmc.org/article/MED/33894838",
+      "published": "2021-04-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42009015",
+      "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+      "url": "https://europepmc.org/article/MED/42009015",
+      "published": "2026-04-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "fda-wegovy-label-2026",
+      "title": "WEGOVY (semaglutide) injection, for subcutaneous use; WEGOVY (semaglutide) tablets: full prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215256s033lbl.pdf",
+      "published": "2026-02-25",
+      "kind": "regulatory"
+    },
+    {
+      "id": "pmid-40544432",
+      "title": "Cagrilintide-Semaglutide in Adults with Overweight or Obesity and Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/40544432",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-redefine-1-2024-12-20",
+      "title": "CagriSema demonstrates superior weight loss in adults with obesity or overweight in the REDEFINE 1 trial",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=915082",
+      "published": "2024-12-20",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "novo-redefine-4-2026-02-23",
+      "title": "CagriSema demonstrated 23% weight loss in an open-label head-to-head REDEFINE 4 trial in people with obesity. The primary endpoint was not achieved",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916501",
+      "published": "2026-02-23",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42251859",
+      "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251859",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251856",
+      "title": "Cagrilintide-semaglutide (CagriSema) as an add-on to basal insulin in adults with type 2 diabetes (REIMAGINE 3): a randomised, double-blind, placebo-controlled, multicentre, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251856",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42366647",
+      "title": "Ease of Use, Ease of Learning, and Convenience of the CagriSema Dual-Chamber Pen: Results From a Usability Study in Adults With Overweight, Obesity, or Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/42366647",
+      "published": "2026-06-28",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: the CagriSema trial titration week by week, the 2.4/2.4 mg maintenance dose, the flexible-dose protocol and the 57.3% who reached the top dose in REDEFINE 1, the 1.0/1.0 mg diabetes dose, the dual-chamber pen, and the absence of an approved dose."
+    }
+  ],
+  "uniqueness_pct": 96.3
+}

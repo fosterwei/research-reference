@@ -2,7 +2,7 @@
 """Which SOP stages each written page has actually completed.
 
 Usage:
-    python3 scripts/loop_status.py            # table for every page with guide[]
+    python3 scripts/loop_status.py            # table for every page with guide[] or a guide post's sections[]
     python3 scripts/loop_status.py --strict   # exit 1 if any page lacks a stage
 
 Columns follow docs/content-sop.md and docs/content-automation.md:
@@ -18,19 +18,22 @@ The point is that skipping a stage shows up here rather than being remembered.
 """
 import glob, json, os, re, sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-TYPES = {'compounds': 'compounds', 'stacks': 'stacks', 'comparisons': 'compare'}
+TYPES = {'compounds': 'compounds', 'stacks': 'stacks', 'comparisons': 'compare', 'posts': 'blog'}
 
 def status():
     rows = []
     for f in sorted(glob.glob(str(ROOT / 'data/*/*.json'))):
         if '/examples/' in f: continue
         d = json.load(open(f))
-        if not d.get('guide'): continue
+        # Written pages: records with guide[], and guide posts with sections[].
+        if not (d.get('guide') or (f.split('/')[-2] == 'posts' and d.get('sections'))): continue
         t = TYPES[f.split('/')[-2]]; slug = d['slug']
         mp = ROOT / 'research/intents' / f'{slug}.json'
         m = json.load(mp.open()) if mp.exists() else {}
         qs = m.get('queries', [])
-        vol = bool(qs) and all(((q.get('volume') or {}).get('clickstream') is not None) or ((q.get('volume') or {}).get('google_ads') is not None) for q in qs)
+        # A measured volume from any instrument counts: DataForSEO clickstream or Ads, or a Semrush export.
+        # A recorded measured absence (key present, value null, with a source) counts too.
+        vol = bool(qs) and all(any(k in (q.get('volume') or {}) for k in ('clickstream', 'google_ads', 'semrush')) for q in qs)
         audits = glob.glob(str(ROOT / f'research/audits/{slug}-*.md'))
         texts = [open(a).read() for a in audits]
         page = ROOT / 'dist' / t / slug / 'index.html'

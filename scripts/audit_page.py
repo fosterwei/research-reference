@@ -48,8 +48,11 @@ def audit(slug: str, rtype: str, live: str | None) -> str:
     h = page.read_text(encoding="utf-8")
     g = lambda p: (lambda m: html.unescape(m.group(1)).strip() if m else None)(re.search(p, h, re.I | re.S))
     title, desc, robots, canon = g(r"<title>(.*?)</title>"), g(r'<meta name="description" content="([^"]*)"'), g(r'<meta name="robots" content="([^"]*)"'), g(r'rel="canonical" href="([^"]*)"')
-    ld = [json.loads(b) for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S)]
-    art = next((d for d in ld if d.get("@type") == "Article"), {})
+    ld: list = []
+    for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S):
+        v = json.loads(b)
+        ld.extend(v if isinstance(v, list) else [v])  # guide pages emit [Article, BreadcrumbList]
+    art = next((d for d in ld if d.get("@type") in ("Article", "CollectionPage")), {})
     main = re.search(r"<main.*?</main>", h, re.S).group(0)
     body = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", main, flags=re.S)
     h1 = [text_of(x) for x in re.findall(r"<h1[^>]*>(.*?)</h1>", body, re.S)]
@@ -59,6 +62,13 @@ def audit(slug: str, rtype: str, live: str | None) -> str:
     own = text_of(" ".join(re.findall(r"<(?:p|dd|li|caption|summary)\b[^>]*>(.*?)</(?:p|dd|li|caption|summary)>", own_html, re.S)))
     quoted = text_of(" ".join(re.findall(r"<q\b[^>]*>(.*?)</q>", body, re.S)))
     kw = slug.replace("-", " ")
+    # Prefer the page's measured primary query from its intent map over its slug.
+    imap = ROOT / "research" / "intents" / f"{slug}.json"
+    if imap.exists():
+        qs = [q for q in json.loads(imap.read_text()).get("queries", []) if isinstance(q, dict)]
+        vol = lambda q: max([v for v in (q.get("volume") or {}).values() if isinstance(v, (int, float))] or [0])
+        if qs and vol(max(qs, key=vol)) > 0:
+            kw = max(qs, key=vol)["query"]
     kc = len(re.findall(re.escape(kw), txt, re.I))
     # Whole anchor tag, so attributes after href (target, rel) are seen.
     links = [(tag, re.search(r'href=["\']([^"\']+)["\']', tag).group(1)) for tag in re.findall(r"<a\b[^>]*>", body) if re.search(r'href=["\']([^"\']+)["\']', tag)]

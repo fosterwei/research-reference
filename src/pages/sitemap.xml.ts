@@ -25,7 +25,7 @@ const PREFIX = { compounds: '/compounds/', stacks: '/stacks/', comparisons: '/co
 
 // Rendered pages that are not records. Listed by hand, because a page that
 // should not be indexed must not be listed, and that is a decision per page.
-const STATIC = ['/', '/compounds', '/stacks', '/compare', '/tools', '/calculators', '/about', '/contact', '/privacy'];
+const STATIC = ['/', '/compounds', '/stacks', '/compare', '/tools', '/blog', '/calculators', '/about', '/contact', '/privacy'];
 
 type Manifest = { pages?: Record<string, { lastmod?: string }> };
 const manifest: Manifest = (() => {

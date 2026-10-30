@@ -20,6 +20,33 @@ Posts live in `data/posts/` and publish at `/blog/{slug}`. They must add interpr
 
 Categories: Research, Evidence, Safety & Regulation, Methodology, Industry News, Reviews.
 
+### Guide series: index → pillar → sub
+
+A post can belong to a guide series, which arranges posts as a three-level tree for readers and
+search engines. Rendered by `src/layouts/GuideV2.astro`; rules in `src/lib/guides.ts`; checked by
+`scripts/validate_content.py`.
+
+| Field | Meaning |
+|---|---|
+| `series` | Series key shared by every page in it (`cagrilintide`) |
+| `role` | `index` (exactly one per series), `pillar` (one per topic) or `sub` |
+| `parent` | Path of the page above. A pillar's parent is the series index; a sub's parent is a topic pillar. A pillar may be an existing record page (e.g. `/stacks/cagrisema`) |
+| `topics` | Index only: ordered `[{label, pillar, blurb?}]`; every topic pillar must exist |
+| `order` | Reading order among siblings |
+| `topic`, `short_title` | Topic label shown on the page; short name used in breadcrumbs |
+| `about` | Record paths the post is about; those records list it under "Related records" |
+| `sections` | `[{id, heading, lede?, html}]`, the written body, one H2 each |
+| `faq` | `[{question, answer}]` |
+| `seo` | `{title ≤ 60, description ≤ 160}` |
+
+Citations in `body`, `excerpt`, `sections` and `faq` are written `[[n]]`, where n is the 1-based
+position of the source in `sources[]`; the page renders a superscript `[n]` linking straight to
+that source. Every marker needs a source and every source needs a marker. External links in prose
+appear only through markers, so the nofollow policy holds. Each page renders visible breadcrumbs
+and `BreadcrumbList` JSON-LD, links up to its parent, and lists its children (pillar) or siblings
+(sub). Guide posts with `sections[]` go through the same content loop as record pages
+(`research/intents/<slug>.json`, an audit with triage and exit run; `scripts/loop_status.py`).
+
 ## Record states
 
 `discovered` → `researched` → `draft` → `reviewed` → `published` → `stale` → `retired`

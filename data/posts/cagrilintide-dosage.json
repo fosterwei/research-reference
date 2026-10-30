@@ -1,0 +1,229 @@
+{
+  "type": "post",
+  "slug": "cagrilintide-dosage",
+  "status": "draft",
+  "category": "Research",
+  "title": "Cagrilintide dosage: every dose the trials used, the titration, and what is not established",
+  "short_title": "Cagrilintide dosage",
+  "excerpt": "No cagrilintide dosage is established for anyone outside a clinical trial. Trials gave 0.16 to 4.5 mg once a week under the skin, and the phase 3 programme settled on 2.4 mg, alone or with semaglutide, reached by gradual escalation [[2]][[3]].",
+  "body": "<p>There is <b>no established cagrilintide dosage</b> for anyone outside a clinical trial, because cagrilintide is not approved anywhere. What exists is the set of doses the trials administered: <b>0.16 to 4.5 mg once a week</b> by subcutaneous injection in the early studies [[1]][[2]], and <b>2.4 mg once a week</b> in the phase 3 programme, reached by escalation and given alone or with semaglutide 2.4 mg as CagriSema [[3]]. Newer phase 3 trials also tested the combination at 1.0 mg and 1.7 mg of each drug [[4]]. This page lists every one of those doses in a chart, explains the step-up schedules, and marks where the evidence stops.</p><p>The pharmacology, side effects and evidence tiers for the drug itself are on the <a href=\"/compounds/cagrilintide\">cagrilintide research record</a>. For vial arithmetic, the <a href=\"/calculators/cagrilintide\">cagrilintide dosage calculator</a> converts milligrams to syringe units and lists the trial doses beside it. Questions about combinations have their own pages: <a href=\"/blog/cagrilintide-with-tirzepatide\">cagrilintide with tirzepatide</a>, <a href=\"/blog/cagrilintide-with-retatrutide\">cagrilintide with retatrutide</a>, and the tested pairing with semaglutide in the <a href=\"/stacks/cagrisema\">CagriSema record</a>. How a weekly subcutaneous dose is given is covered in <a href=\"/blog/subcutaneous-injection-sites\">subcutaneous injection sites</a>.</p>",
+  "seo": {
+    "title": "Cagrilintide Dosage Chart: Every Trial Dose and Titration",
+    "description": "Every cagrilintide dose trials gave, 0.16 to 4.5 mg weekly, the phase 3 step-up to 2.4 mg, and why none of it is an established dose outside a trial."
+  },
+  "series": "cagrilintide",
+  "role": "pillar",
+  "parent": "/blog/cagrilintide-guide",
+  "topic": "Cagrilintide doses and injection",
+  "order": 2,
+  "about": [
+    "/compounds/cagrilintide"
+  ],
+  "sections": [
+    {
+      "id": "dosage-chart",
+      "heading": "Cagrilintide dosage chart: every dose the trials administered",
+      "lede": "Ten trials, one route, one frequency. The doses differ; the once-weekly subcutaneous injection does not.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Cagrilintide doses administered in published and announced trials, with the weight result each trial reported</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">Who took part</th><th scope=\"col\">Cagrilintide dose (once weekly)</th><th scope=\"col\">Given with</th><th scope=\"col\">Length</th><th scope=\"col\">Reported result</th></tr></thead><tbody><tr><td>Phase 1b (Enebo 2021) [[1]]</td><td>95 otherwise healthy adults with overweight or obesity</td><td>0.16, 0.30, 0.60, 1.2, 2.4 or 4.5 mg</td><td>Semaglutide 2.4 mg</td><td>20 weeks</td><td>Weight -15.7% (1.2 mg) and -17.1% (2.4 mg) vs -9.8% on semaglutide plus placebo</td></tr><tr><td>Phase 2 dose-finding (Lau 2021) [[2]]</td><td>906 adults with obesity, or overweight with hypertension or dyslipidaemia; 706 on cagrilintide</td><td>0.3, 0.6, 1.2, 2.4 or 4.5 mg</td><td>Nothing (liraglutide 3.0 mg and placebo arms for comparison)</td><td>26 weeks</td><td>Weight -6.0% to -10.8% vs -3.0% placebo; -9.0% on liraglutide</td></tr><tr><td>Phase 2 in type 2 diabetes (Frias 2023) [[5]]</td><td>92 adults with type 2 diabetes</td><td>Escalated to 2.4 mg</td><td>Alone, or with semaglutide 2.4 mg</td><td>32 weeks</td><td>Weight -8.1% alone, -15.6% with semaglutide</td></tr><tr><td>REDEFINE 1, phase 3 [[3]][[6]]</td><td>3,417 adults with obesity or overweight, no diabetes</td><td>2.4 mg</td><td>Alone, or with semaglutide 2.4 mg</td><td>68 weeks</td><td>Alone -11.8%; with semaglutide -22.7% (-20.4% treatment-policy)</td></tr><tr><td>REDEFINE 2, phase 3 [[7]]</td><td>1,206 adults with type 2 diabetes</td><td>2.4 mg</td><td>Semaglutide 2.4 mg</td><td>68 weeks</td><td>Weight -13.7% vs -3.4% placebo</td></tr><tr><td>REDEFINE 5, phase 3 [[8]]</td><td>331 adults in Japan and Taiwan</td><td>Escalated to 2.4 mg</td><td>Semaglutide 2.4 mg</td><td>68 weeks</td><td>Weight -18.4% vs -11.9% on semaglutide alone</td></tr><tr><td>REIMAGINE 2, phase 3 [[9]]</td><td>2,713 adults with type 2 diabetes on metformin</td><td>2.4 mg, or 1.0 mg</td><td>Alone (2.4 mg), or semaglutide at the same dose</td><td>68 weeks</td><td>HbA1c -1.91 points vs -1.75 on semaglutide 2.4 mg</td></tr><tr><td>REDEFINE 9, phase 3 (topline) [[4]]</td><td>Adults with overweight or obesity</td><td>1.0 mg or 1.7 mg</td><td>Semaglutide at the same dose</td><td>68 weeks</td><td>Weight -21.0% at 1.0 mg/1.0 mg vs -2.0% placebo</td></tr><tr><td>REIMAGINE 5, phase 3 (topline) [[4]]</td><td>Adults with type 2 diabetes</td><td>1.0 mg</td><td>Semaglutide 1.0 mg; compared with tirzepatide 5 mg</td><td>60 weeks</td><td>Weight -12.4% vs -9.1% on tirzepatide 5 mg</td></tr><tr><td>REDEFINE 4, phase 3 (topline) [[10]]</td><td>809 adults with obesity and at least one related condition</td><td>2.4 mg</td><td>Semaglutide 2.4 mg; compared with tirzepatide 15 mg</td><td>84 weeks</td><td>Weight -23.0% vs -25.5% on tirzepatide, in people who took treatment as intended; non-inferiority not shown</td></tr></tbody></table></div></div><p>Three patterns stand out. First, the <b>highest dose ever given was 4.5 mg a week</b>, in the phase 1b and phase 2 studies; no trial has gone above it [[1]][[2]]. Second, every phase 3 trial used <b>2.4 mg or lower</b>. The manufacturer took 2.4 mg forward after the dose-finding trial, and later trials added 1.0 mg and 1.7 mg combination doses [[4]]. Third, most of the large trials gave cagrilintide <b>with semaglutide</b>, so their results describe the combination, not cagrilintide alone. The cleanest single-drug figures are the phase 2 dose-finding trial and the cagrilintide-only arm of REDEFINE 1.</p><p>Results labelled topline come from company announcements and have not yet been published in a journal. The two ways of counting weight loss, treatment-policy and trial-product (or efficacy) estimands, explain why one trial can be quoted as both 20.4% and 22.7%; the <a href=\"/stacks/cagrisema\">CagriSema record</a> explains the difference.</p>"
+    },
+    {
+      "id": "starting-dose-titration",
+      "heading": "Cagrilintide starting dose and titration schedule in the trials",
+      "lede": "No trial started anyone on the full dose. Each one stepped up over weeks, and the length of the step-up grew as the programme went on.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>How each trial reached its cagrilintide dose</caption><thead><tr><th scope=\"col\">Trial</th><th scope=\"col\">How the dose was reached</th><th scope=\"col\">Time to target dose</th></tr></thead><tbody><tr><td>Phase 2 dose-finding [[2]]</td><td>Dose escalation before the maintenance period</td><td>Up to 6 weeks</td></tr><tr><td>Phase 1b with semaglutide [[1]]</td><td>Cagrilintide and semaglutide raised together in 4-week steps, then 4 weeks at the target dose</td><td>16 weeks</td></tr><tr><td>Phase 3, REDEFINE and REIMAGINE [[3]][[8]]</td><td>Escalated to the randomised dose; REDEFINE 1 allowed participants to change their dose during the trial</td><td>Escalation, then maintenance to week 68</td></tr></tbody></table></div></div><p><b>Starting dose.</b> The published abstracts give the target doses and the escalation period but not every intermediate step. The phase 1b trial is explicit that both drugs went up in <b>4-week intervals over 16 weeks</b> [[1]]. The phase 2 trial reached its doses, including 4.5 mg, within an escalation period of up to six weeks [[2]]. The full step-by-step phase 3 schedule sits in the trial protocols; this page does not reproduce step sizes that the cited documents do not state.</p><p><b>Flexible dosing in phase 3.</b> REDEFINE 1 let participants adjust their dose. At week 68, <b>57.3%</b> of people on CagriSema were on the highest dose, against 82.5% on cagrilintide alone and 70.2% on semaglutide alone [[6]]. In other words, a large share of trial participants ended the study on less than the target dose, and the headline results include them.</p><p><b>Why the slow step-up.</b> In the dose-finding trial, 41% to 63% of people across the cagrilintide doses reported gastrointestinal adverse events against 32% on placebo, mostly nausea (20% to 47% against 18%) [[2]]. Escalation is how trials manage that, and it is a property of the trial schedule, not a personal plan.</p>"
+    },
+    {
+      "id": "how-much-per-week",
+      "heading": "How much cagrilintide per week did the trials give?",
+      "lede": "The question people search is personal. The answer the evidence can give is about trial arms.",
+      "html": "<p>Trials gave between <b>0.16 mg and 4.5 mg once a week</b>, and the dose that phase 3 tested at scale is 2.4 mg once a week [[1]][[2]][[3]]. In the dose-finding trial, weight loss rose with dose, from 6.0% at 0.3 mg to 10.8% at 4.5 mg over 26 weeks [[2]]. The 4.5 mg arm beat liraglutide 3.0 mg by 1.8 percentage points. The phase 3 programme nonetheless went forward at 2.4 mg, not 4.5 mg [[3]].</p><p>None of this adds up to a weekly amount for a person. Three things stand in the way:</p><ul><li><b>No dose is established for unapproved use.</b> Cagrilintide has no label. The trial doses were chosen for defined populations, under monitoring, by the manufacturer.</li><li><b>The trial product is not what circulates.</b> Every trial used the manufacturer's own material; the CagriSema trials used a dual-chamber pen holding both drugs [[11]]. Powder sold as research cagrilintide has no verified identity, purity or content, so a milligram figure on its label is not the same quantity the trials gave.</li><li><b>Most results are combination results.</b> The largest trials paired cagrilintide with semaglutide, so their numbers do not describe cagrilintide alone.</li></ul><p>Searches such as \"how much cagrilintide should I take\" are answered here with that boundary: the doses studied, and the fact that none of them is a recommendation.</p>"
+    },
+    {
+      "id": "weekly-pharmacology",
+      "heading": "Why cagrilintide is dosed once a week",
+      "html": "<p>Cagrilintide is a long-acting analogue of amylin, a hormone the pancreas releases with insulin. It activates both amylin and calcitonin receptors [[12]], and a 2025 study traced its effect on body weight to amylin receptors 1 and 3 in the brain [[13]]. What makes it weekly is its half-life.</p><p>In the phase 1b trial, cagrilintide had a <b>half-life of 159 to 195 hours</b>, about a week, with peak levels 24 to 72 hours after injection [[1]]. Exposure rose in proportion to dose across 0.16 to 4.5 mg, and cagrilintide did not change semaglutide's exposure or elimination, which is what made a single weekly injection of both practical. A dedicated study found that kidney or liver impairment did not meaningfully change cagrilintide exposure after a single dose [[14]].</p><p>Pramlintide, the only approved amylin drug, is injected before major meals [[15]]. The difference in schedule is the main thing that separates the old and new generation of <a href=\"/blog/amylin-analogs\">amylin analogs</a>; the mechanism is covered in <a href=\"/blog/how-cagrilintide-works\">how cagrilintide works</a>.</p>"
+    },
+    {
+      "id": "reconstitution",
+      "heading": "How to reconstitute cagrilintide: where the evidence stops",
+      "lede": "Reconstitution charts answer an arithmetic question. The evidence question underneath them has no answer yet.",
+      "html": "<p>No trial reconstituted cagrilintide from a vial of powder. The phase 3 programme used a pre-filled, single-use dual-chamber pen, and a 2026 usability study tested whether adults could operate it after standard training [[11]]. So there is <b>no published reconstitution protocol</b> for cagrilintide, and no published stability data for powder mixed with water outside the manufacturer's process.</p><p>A reconstitution chart converts three numbers into a fourth: milligrams in the vial, millilitres of diluent, and a chosen dose give a volume and a number of syringe units. That arithmetic is exact, and the <a href=\"/calculators/cagrilintide\">cagrilintide calculator</a> does it with the formula shown, next to the trial doses from the chart above. What the arithmetic cannot supply is whether the vial holds the stated amount of cagrilintide, or anything else. The milligram figure on an unregulated vial is a claim, not a measurement.</p>"
+    },
+    {
+      "id": "combinations",
+      "heading": "Cagrilintide with semaglutide, tirzepatide or retatrutide",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Which cagrilintide combinations have human trial data</caption><thead><tr><th scope=\"col\">Combination</th><th scope=\"col\">Tested together in people?</th><th scope=\"col\">What exists</th></tr></thead><tbody><tr><td>Cagrilintide + semaglutide (CagriSema)</td><td>Yes, phase 1 to phase 3</td><td>Fixed-dose combination at 2.4/2.4, 1.7/1.7 and 1.0/1.0 mg; FDA application filed December 2025 [[16]][[4]]</td></tr><tr><td>Cagrilintide + tirzepatide</td><td>No</td><td>Tirzepatide was the comparator against CagriSema, not a partner [[10]]; one rat study used it in comparator combinations [[17]]</td></tr><tr><td>Cagrilintide + retatrutide</td><td>No</td><td>One study in obese male rats with daily dosing [[17]]</td></tr></tbody></table></div></div><p>Searches for a <b>sema cagri blend</b> describe the one combination that was tested, and the doses are those in the chart above. The trials gave a fixed-dose product with both drugs escalated together; mixing two separately sourced powders is not the intervention those trials studied. The step-by-step CagriSema schedule is covered in <a href=\"/blog/cagrisema-dosing-schedule\">CagriSema dosing schedule</a>.</p><p>A <b>cagri tirz blend</b> has no trial behind it. The combination has never been given to people in a published or registered study; tirzepatide appears in the cagrilintide programme only as the drug CagriSema was compared against. Each drug's own doses, reported separately, and what the head-to-head trials found, are on <a href=\"/blog/cagrilintide-with-tirzepatide\">cagrilintide with tirzepatide</a>. The retatrutide evidence, one rat study, is on <a href=\"/blog/cagrilintide-with-retatrutide\">cagrilintide with retatrutide</a>.</p>"
+    },
+    {
+      "id": "what-and-status",
+      "heading": "What cagrilintide does, its benefits in trials, and where it stands",
+      "html": "<p><b>What it is.</b> Cagri is short for cagrilintide, a once-weekly amylin analogue developed by Novo Nordisk [[18]]. \"Cag peptide\" and \"cagri peptide\" in searches refer to the same molecule.</p><p><b>Benefits measured in trials.</b> Alone at 2.4 mg, cagrilintide produced 11.8% weight loss over 68 weeks against 2.3% on placebo when everyone stayed on treatment [[6]]. With semaglutide it produced 20.4% against 3.0% in the treatment-policy analysis [[3]], and in type 2 diabetes it lowered HbA1c more than semaglutide alone by 0.16 points [[9]]. Gastrointestinal adverse events affected 79.6% on the combination and 39.9% on placebo, mainly mild to moderate and transient [[3]].</p><p><b>Status on 29 October 2026.</b> Not approved anywhere. Novo Nordisk filed CagriSema with the FDA on 18 December 2025 [[16]] and says a decision is expected in the fourth quarter of 2026 [[4]]. Cagrilintide on its own was moved into a dedicated phase 3 programme, RENEW, announced for the fourth quarter of 2025 [[18]]. Until a label exists, no dose on this page is a prescribing dose.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How much cagrilintide can I take weekly?",
+      "answer": "No weekly amount is established for anyone outside a trial, because cagrilintide is not approved. Trials gave 0.16 to 4.5 mg once a week, and phase 3 used 2.4 mg once a week, reached by gradual escalation [[1]][[2]][[3]]. Those are trial doses in monitored studies of the manufacturer's product, not a recommendation."
+    },
+    {
+      "question": "What is the starting dose of cagrilintide?",
+      "answer": "There is no labelled starting dose. In the trials, no one began on the full dose: the phase 1b study raised cagrilintide and semaglutide together in 4-week steps over 16 weeks, and the phase 2 study used an escalation period of up to 6 weeks [[1]][[2]]."
+    },
+    {
+      "question": "Is there a cagrilintide dosage chart?",
+      "answer": "The chart on this page lists every dose the published and announced trials administered, from 0.16 mg to 4.5 mg weekly, with the result each trial reported. It is a record of trial arms, not a dosing schedule."
+    },
+    {
+      "question": "How do you reconstitute cagrilintide?",
+      "answer": "No trial reconstituted cagrilintide from powder; the phase 3 programme used a pre-filled dual-chamber pen [[11]]. There is no published reconstitution protocol. The cagrilintide calculator on this site does the vial arithmetic, but it cannot confirm what an unregulated vial contains."
+    },
+    {
+      "question": "What is a cagri tirz blend?",
+      "answer": "It is a mixture of cagrilintide and tirzepatide sold outside any approved or trial setting. The two drugs have never been given together in a human trial; tirzepatide appears in the cagrilintide programme only as a comparator to CagriSema [[10]]."
+    },
+    {
+      "question": "Is cagrilintide approved?",
+      "answer": "No. CagriSema, the combination with semaglutide, was filed with the FDA in December 2025 [[16]], and Novo Nordisk expects a decision in the fourth quarter of 2026 [[4]]. Cagrilintide alone is in phase 3."
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: pillar on cagrilintide dosage covering a chart of every dose in ten trials (phase 1b to phase 3, including REDEFINE 4, REDEFINE 9 and REIMAGINE 5 topline results), escalation schedules and REDEFINE 1 flexible dosing, weekly pharmacokinetics, the reconstitution boundary, combinations with semaglutide, tirzepatide and retatrutide, and regulatory status."
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmid-33894838",
+      "title": "Safety, tolerability, pharmacokinetics, and pharmacodynamics of concomitant administration of multiple doses of cagrilintide with semaglutide 2·4 mg for weight management: a randomised, controlled, phase 1b trial.",
+      "url": "https://europepmc.org/article/MED/33894838",
+      "published": "2021-04-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34798060",
+      "title": "Once-weekly cagrilintide for weight management in people with overweight and obesity: a multicentre, randomised, double-blind, placebo-controlled and active-controlled, dose-finding phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/34798060",
+      "published": "2021-11-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40544433",
+      "title": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity.",
+      "url": "https://europepmc.org/article/MED/40544433",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-2026-09-21-reimagine-5",
+      "title": "Novo's CagriSema delivers superior weight loss versus tirzepatide in REIMAGINE 5 trial",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916774",
+      "published": "2026-09-21",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-37364590",
+      "title": "Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a multicentre, randomised, double-blind, active-controlled, phase 2 trial.",
+      "url": "https://europepmc.org/article/MED/37364590",
+      "published": "2023-06-23",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-2024-12-20-redefine-1",
+      "title": "Novo Nordisk A/S: CagriSema demonstrates superior weight loss in adults with obesity or overweight in the REDEFINE 1 trial",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=915082",
+      "published": "2024-12-20",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-40544432",
+      "title": "Cagrilintide-Semaglutide in Adults with Overweight or Obesity and Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/40544432",
+      "published": "2025-06-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42009015",
+      "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+      "url": "https://europepmc.org/article/MED/42009015",
+      "published": "2026-04-17",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42251859",
+      "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
+      "url": "https://europepmc.org/article/MED/42251859",
+      "published": "2026-06-07",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-2026-02-23-redefine-4",
+      "title": "Novo Nordisk A/S: CagriSema demonstrated 23% weight loss in an open-label head-to-head REDEFINE 4 trial in people with obesity, the primary endpoint was not achieved",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916501",
+      "published": "2026-02-23",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42366647",
+      "title": "Ease of Use, Ease of Learning, and Convenience of the CagriSema Dual-Chamber Pen: Results From a Usability Study in Adults With Overweight, Obesity, or Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/42366647",
+      "published": "2026-06-28",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40847076",
+      "title": "Structural and mechanistic insights into dual activation of cagrilintide in amylin and calcitonin receptors.",
+      "url": "https://europepmc.org/article/MED/40847076",
+      "published": "2025-08-22",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40609154",
+      "title": "Cagrilintide lowers bodyweight through brain amylin receptors 1 and 3.",
+      "url": "https://europepmc.org/article/MED/40609154",
+      "published": "2025-07-03",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42228334",
+      "title": "Renal or Hepatic Impairment Does Not Affect Pharmacokinetics, Safety, or Tolerability of Subcutaneous Cagrilintide.",
+      "url": "https://europepmc.org/article/MED/42228334",
+      "published": "2026-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "dailymed-symlinpen-label",
+      "title": "SYMLINPEN (pramlintide acetate) injection. Prescribing information (DailyMed)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4aea30ff-eb0d-45c1-b114-3127966328ff",
+      "published": "2026-02-16",
+      "kind": "regulatory"
+    },
+    {
+      "id": "novo-2025-12-18-cagrisema-nda",
+      "title": "Novo Nordisk files for FDA approval of CagriSema, the first once-weekly combination of GLP-1 and amylin analogues",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916470",
+      "published": "2025-12-18",
+      "kind": "manufacturer"
+    },
+    {
+      "id": "pmid-42744908",
+      "title": "Cagrilintide and retatrutide combination therapy enhances weight loss and metabolic outcomes in obese male rats.",
+      "url": "https://europepmc.org/article/MED/42744908",
+      "published": "2026-09-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "novo-2025-09-16-cagrilintide-renew",
+      "title": "Novo Nordisk presents phase 3 data for next-generation amylin cagrilintide leading to advancement into dedicated clinical programme",
+      "url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=916427",
+      "published": "2025-09-16",
+      "kind": "manufacturer"
+    }
+  ],
+  "uniqueness_pct": 97.9
+}

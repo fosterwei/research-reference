@@ -1,0 +1,132 @@
+{
+  "type": "post",
+  "slug": "glucose-pills",
+  "status": "draft",
+  "category": "Research",
+  "title": "Glucose pills: glucose tablets for lows versus pills that lower blood sugar",
+  "short_title": "Glucose pills",
+  "excerpt": "Glucose tablets raise blood sugar to treat a low; diabetes pills lower it. The two meanings, the ADA's 15-15 rule, grams per tablet, and which diabetes pills make lows more likely.",
+  "body": "<p><b>Glucose pills</b> can mean two opposite things. Most often the phrase means <b>glucose tablets</b>: chewable tablets of pure glucose that <em>raise</em> blood sugar quickly and are used to treat a low (hypoglycemia). The American Diabetes Association describes them as small chewable tablets with <b>4 to 5 grams of carbohydrate each</b>, counted toward the 15 grams of its 15-15 rule [[1]]. When people search \"glucose pills for diabetes\" or \"blood sugar tablets\", though, they often mean the opposite: prescription tablets that <em>lower</em> blood sugar, such as metformin. Those belong to the oral classes covered in our <a href=\"/blog/diabetes-medications\">guide to diabetes medications</a> and in <a href=\"/blog/hypoglycemic-drugs\">hypoglycemic drugs, explained</a>.</p><p>This page separates the two meanings, sets out what the ADA Standards of Care 2026 say about treating a low with glucose [[2]], and explains which tablet-lowering drugs make a low more likely in the first place [[3]].</p>",
+  "seo": {
+    "title": "Glucose Pills: Glucose Tablets vs Blood Sugar Pills",
+    "description": "Glucose pills mean two things: glucose tablets that treat lows (4-5 g each, 15-15 rule) and prescription pills that lower blood sugar. See which is which."
+  },
+  "series": "cagrilintide",
+  "role": "sub",
+  "parent": "/blog/diabetes-medications",
+  "topic": "Type 2 diabetes medicines",
+  "order": 7,
+  "about": [],
+  "sections": [
+    {
+      "id": "two-meanings",
+      "heading": "Two meanings of glucose pills, side by side",
+      "lede": "Read the label: one kind adds glucose, the other lowers it.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Glucose tablets compared with glucose-lowering diabetes pills.</caption><thead><tr><th scope=\"col\">Question</th><th scope=\"col\">Glucose tablets</th><th scope=\"col\">Glucose-lowering pills</th></tr></thead><tbody><tr><td>What is in them</td><td>Glucose (dextrose), a sugar</td><td>A drug, such as metformin, an SGLT2 inhibitor, a DPP-4 inhibitor or a sulfonylurea</td></tr><tr><td>Effect on blood sugar</td><td>Raises it within minutes</td><td>Lowers it over hours to weeks</td></tr><tr><td>What they are for</td><td>Treating a low below 70 mg/dL [[1]]</td><td>Treating high blood sugar in type 2 diabetes [[3]]</td></tr><tr><td>How they are used</td><td>Only when a low occurs, counted in grams</td><td>On a schedule set by the prescriber and the label</td></tr><tr><td>Prescription</td><td>No; sold over the counter</td><td>Yes, in the US</td></tr><tr><td>Searches that usually mean this</td><td>glucose pills, glucose tablets, sugar tablets for diabetics</td><td>glucose pills for diabetes, blood sugar tablets, diabetes tablets</td></tr></tbody></table></div></div><p>The two can appear in the same person's kit. Someone whose diabetes pills can push blood sugar too low may carry glucose tablets to correct that low. That overlap is the reason the names get confused, and the reason it matters which one a search, a pharmacy shelf or a care plan means.</p>"
+    },
+    {
+      "id": "glucose-tablets",
+      "heading": "Glucose tablets and the 15-15 rule",
+      "html": "<p>The ADA's consumer guidance calls it the <b>15-15 rule</b>: 15 grams of fast-acting carbohydrate, then a recheck after 15 minutes. If glucose is still below 70 mg/dL, or a continuous glucose monitor does not show it rising, the rule repeats with another 15 grams; once it is above 70 mg/dL and no meal is due soon, the ADA suggests a snack with protein and carbohydrate [[1]]. Glucose tablets are the first example the ADA lists, alongside glucose gel, half a cup of juice or regular soda, and a tablespoon of sugar [[1]].</p><p>The professional version sits in Section 6 of the ADA Standards of Care 2026. It names glucose in the <b>15 to 20 gram</b> range as the preferred treatment for a conscious person with hypoglycemia, with a repeat dose if glucose is still low 15 minutes later and a meal or snack once it has recovered [[2]]. The same section grades lows by level: level 1 below 70 mg/dL, level 2 below 54 mg/dL, and level 3 a severe event in which the person needs someone else's help [[2]]. The 2026 edition added a recommendation that oral glucose be stocked in first-aid kits in schools, workplaces and other public settings [[2]].</p><h3>How many glucose tablets make 15 grams</h3><p>Because the ADA puts each tablet at 4 to 5 grams [[1]], 15 grams is usually three or four tablets. The count depends on the product, so the nutrition label, not the number of tablets, is what the rule refers to. This is arithmetic on the ADA's figure, not a dosing instruction; a care team sets the plan for an individual.</p><h3>When tablets are not enough</h3><p>Glucose tablets need someone awake and able to chew and swallow. For severe (level 3) lows, the Standards of Care recommend that glucagon be prescribed for people at risk of level 2 or 3 hypoglycemia, so it is on hand when swallowing is not safe [[2]].</p>"
+    },
+    {
+      "id": "tablets-vs-food-sugar",
+      "heading": "Do glucose tablets work better than candy or juice?",
+      "html": "<p>One systematic review addressed exactly this. It pooled three randomised trials and one observational study covering more than 700 treated lows in awake people with diabetes [[4]]. The dietary sugars tested included sucrose, fructose, orange juice, jelly beans, Mentos, Skittles and milk. Fifteen minutes after treatment, symptoms had resolved less often with dietary sugars than with glucose tablets, a <b>risk ratio of 0.89</b> (95% CI 0.83 to 0.95) [[4]]. The authors concluded that glucose tablets should be considered first when available [[4]].</p><p>The ADA's own list still includes juice, regular soda and sugar as acceptable 15-gram options [[1]], and it notes that foods with chocolate or peanut butter are not the best choice for treating a low [[1]]. The practical advantage of a tablet is that its grams are printed on the label, which makes the 15-gram count easier to hit without overshooting.</p>"
+    },
+    {
+      "id": "who-needs-glucose-tablets",
+      "heading": "Who with type 2 diabetes needs glucose tablets",
+      "html": "<p>Whether someone with type 2 diabetes needs to carry glucose depends mostly on their medicines. In a network meta-analysis of 39 randomised trials and 17,860 people, adding <b>sulfonylureas, glinides, basal insulin or biphasic insulin</b> to metformin raised the risk of hypoglycemia compared with placebo, while GLP-1 drugs did not [[5]]. The ADA Standards of Care 2026 describe the same split: insulin and insulin secretagogues (sulfonylureas and meglitinides) carry a hypoglycemia risk, and metformin, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists and thiazolidinediones carry little risk when used without them [[3]].</p><ul><li><b>Insulin</b>, at any stage of type 2 diabetes: lows are a known effect, which is why the ADA singles out people on insulin [[1]].</li><li><b>Sulfonylureas</b> (glipizide, glimepiride, glyburide) and <b>meglitinides</b>: they make the pancreas release insulin regardless of the glucose level [[3]].</li><li><b>Metformin, an SGLT2 inhibitor or a GLP-1 drug alone</b>: lows are uncommon [[5]][[3]], although a care team may still advise carrying glucose for exercise, illness or a change in treatment.</li></ul><p>Our <a href=\"/blog/metformin-vs-insulin\">metformin versus insulin comparison</a> goes further into why insulin changes the hypoglycemia picture.</p>"
+    },
+    {
+      "id": "pills-that-lower-blood-sugar",
+      "heading": "Glucose pills for diabetes: the tablets that lower blood sugar",
+      "lede": "If the search meant medicine for high blood sugar, these are the oral classes.",
+      "html": "<p>\"Glucose pills for diabetes\", \"blood sugar tablets\" and \"sugar tablets for diabetics\" usually refer to oral glucose-lowering drugs. The ADA Standards of Care 2026 group them by class and describe how a clinician chooses among them by heart and kidney disease, weight goals, hypoglycemia risk, cost and side effects [[3]].</p><div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><caption>Oral glucose-lowering classes and their hypoglycemia risk when used without insulin.</caption><thead><tr><th scope=\"col\">Class</th><th scope=\"col\">Examples</th><th scope=\"col\">Hypoglycemia risk</th></tr></thead><tbody><tr><td>Biguanide</td><td>Metformin</td><td>Low [[3]]</td></tr><tr><td>SGLT2 inhibitors</td><td>Empagliflozin, dapagliflozin, canagliflozin</td><td>Low [[3]]</td></tr><tr><td>DPP-4 inhibitors</td><td>Sitagliptin, linagliptin</td><td>Low [[3]]</td></tr><tr><td>Sulfonylureas</td><td>Glipizide, glimepiride, glyburide</td><td><b>Raised</b> [[5]][[3]]</td></tr><tr><td>Meglitinides (glinides)</td><td>Repaglinide, nateglinide</td><td><b>Raised</b> [[5]]</td></tr><tr><td>Thiazolidinediones</td><td>Pioglitazone</td><td>Low [[3]]</td></tr><tr><td>Oral GLP-1 receptor agonist</td><td>Oral semaglutide</td><td>Low alone [[3]]</td></tr></tbody></table></div></div><p>Oral semaglutide is the GLP-1 drug in tablet form; it was tested in people with type 2 diabetes at high cardiovascular risk in the SOUL trial [[6]]. The injectable and oral forms are covered on the <a href=\"/compounds/semaglutide\">semaglutide record</a>. For the full list of pills and injections, see <a href=\"/blog/type-2-diabetes-treatments\">type 2 diabetes treatments</a>; for an SGLT2 example in depth, <a href=\"/blog/jardiance-for-type-2-diabetes\">Jardiance for type 2 diabetes</a>; and for what has been approved recently, <a href=\"/blog/new-diabetes-medications\">new diabetes medications</a>.</p><p>None of these pills is sold over the counter in the US, and no over-the-counter product replaces them. Some people also arrive here looking for a way off medication altogether; the evidence on that is on our page about <a href=\"/blog/type-2-diabetes-remission\">type 2 diabetes remission</a>.</p>"
+    },
+    {
+      "id": "best-glucose-tablets",
+      "heading": "What \"best glucose tablets for type 2 diabetes\" comes down to",
+      "html": "<p>This site does not rank brands. The evidence does not separate one brand of glucose tablet from another; what it compares is glucose tablets against other sugars, where tablets resolved symptoms more often at 15 minutes [[4]]. What does differ between products is the grams per tablet, which sets how many make up the 15 to 20 grams the ADA describes [[2]][[1]]. Flavour, chewability and whether a gel suits someone who struggles to chew are practical choices, not clinical ones. For people whose type 2 diabetes is treated without insulin or a sulfonylurea, the more useful question is often whether they need glucose on hand at all, which the section above covers [[5]].</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are glucose pills good for diabetics?",
+      "answer": "Glucose tablets do not treat diabetes; they raise blood sugar. They are for treating a low below 70 mg/dL, mainly in people whose medicines can cause lows, such as insulin or sulfonylureas [[1]][[3]]. If \"glucose pills\" meant diabetes medicine, those are prescription drugs that lower blood sugar, such as metformin [[3]]."
+    },
+    {
+      "question": "How many grams of sugar are in a glucose tablet?",
+      "answer": "The American Diabetes Association puts glucose tablets at 4 to 5 grams of carbohydrate each [[1]]. The exact figure is on each product's label."
+    },
+    {
+      "question": "What is the 15-15 rule for low blood sugar?",
+      "answer": "The ADA describes it as 15 grams of fast-acting carbohydrate, then a recheck after 15 minutes, repeated if glucose is still below 70 mg/dL, followed by a snack once it recovers if no meal is due [[1]]. The ADA Standards of Care 2026 give 15 to 20 grams of glucose as the preferred treatment for a conscious person [[2]]."
+    },
+    {
+      "question": "Are there over-the-counter sugar tablets for diabetics that lower blood sugar?",
+      "answer": "No over-the-counter tablet is approved in the US to lower blood sugar in diabetes. The tablets sold over the counter for diabetics are glucose tablets, which raise it. Glucose-lowering pills such as metformin, SGLT2 inhibitors and sulfonylureas need a prescription [[3]]."
+    },
+    {
+      "question": "Is a glucose tablet better than juice for a low?",
+      "answer": "A systematic review found that symptoms resolved more often at 15 minutes with glucose tablets than with dietary sugars such as juice or candy (risk ratio 0.89 for dietary sugars) [[4]]. The ADA still lists half a cup of juice or regular soda as an acceptable 15-gram option [[1]]."
+    }
+  ],
+  "review": {
+    "author": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "change": "Written: the two meanings of glucose pills, glucose tablets and the ADA 15-15 rule, tablets versus dietary sugar, which type 2 medicines raise hypoglycemia risk, and the oral glucose-lowering classes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ada-hypoglycemia-treatment",
+      "title": "Signs, Symptoms, and Treatment for Hypoglycemia (Low Blood Glucose)",
+      "url": "https://diabetes.org/living-with-diabetes/hypoglycemia-low-blood-glucose/symptoms-treatment",
+      "published": "2026-10-29",
+      "kind": "other"
+    },
+    {
+      "id": "pmid-41358894",
+      "title": "6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358894",
+      "published": "2026-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41358900",
+      "title": "9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes-2026.",
+      "url": "https://europepmc.org/article/MED/41358900",
+      "published": "2026-01-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-27644757",
+      "title": "Dietary sugars versus glucose tablets for first-aid treatment of symptomatic hypoglycaemia in awake patients with diabetes: a systematic review and meta-analysis.",
+      "url": "https://europepmc.org/article/MED/27644757",
+      "published": "2016-09-19",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22486990",
+      "title": "Effect of antidiabetic agents added to metformin on glycaemic control, hypoglycaemia and weight change in patients with type 2 diabetes: a network meta-analysis.",
+      "url": "https://europepmc.org/article/MED/22486990",
+      "published": "2012-04-29",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-41879791",
+      "title": "Oral Semaglutide and Change in Cardiovascular Risk Factors in High-Risk Type 2 Diabetes: A Post Hoc Secondary Analysis of the SOUL Randomized Clinical Trial.",
+      "url": "https://europepmc.org/article/MED/41879791",
+      "published": "2026-05-01",
+      "kind": "peer-reviewed"
+    }
+  ],
+  "uniqueness_pct": 97.0
+}
