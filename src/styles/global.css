@@ -80,3 +80,12 @@ table.evidence { font-size: .88rem; } table.evidence td.outcome { min-width: 18r
 @media print { .site-head, .site-foot, details.excerpt { display: none; } }
 .claim-lead { color: var(--ink-2); }
 q.claim-quote { quotes: "\201C" "\201D"; color: var(--ink); }
+
+/* Pages that are prose plus a tool or a table, without the compound layout's
+   sidebar: the calculators, the tools and their directories. Was referenced
+   by those pages from the day they were written and defined nowhere, so they
+   rendered with no page-level spacing or measure. */
+.prose-page { display: flex; flex-direction: column; gap: 1.1rem; max-width: 76ch; }
+.prose-page h2 { margin-top: .6rem; }
+.prose-page .dek { font-size: 1.15rem; line-height: 1.5; color: var(--ink-2); }
+
