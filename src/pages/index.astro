@@ -1,20 +1,210 @@
 ---
-import { records } from '../lib/collections';
-import { isIndexable } from '../lib/site';
+// Homepage. Structured like the incumbent's (hero with badges and counters,
+// a "most popular" grid, a quick-reference table, stacks, what every guide
+// contains, reconstitution formulas, about, FAQ), with every number computed
+// from the records at build time so the page cannot drift from the site.
+//
+// What is deliberately not here, and will not be: supplier deals, discount
+// codes, affiliate supply links, a newsletter, a shop. Commercial intent is
+// out of scope (docs/content-sop.md), and the "most searched" list is ranked
+// by measured demand rather than by anything we chose to promote.
+import fs from 'node:fs';
+import path from 'node:path';
+import '../styles/compound-v2.css';
 import Base from '../layouts/Base.astro';
-import EvidenceLabel from '../components/EvidenceLabel.astro';
-import { compounds as reg } from '../lib/registry';
-const entries = await records('compounds');
-const wave1 = reg.filter((c) => c.pilot_wave === 1).map((c) => entries.find((e) => e.data.slug === c.slug)).filter((e): e is NonNullable<typeof e> => Boolean(e));
-const published = entries.filter((e) => isIndexable(e)).length;
+import Tier from '../components/v2/Tier.astro';
+import Faq from '../components/v2/Faq.astro';
+import ReconstitutionMath from '../components/shared/ReconstitutionMath.astro';
+import { records } from '../lib/collections';
+import { isIndexable, lastmod, formatCount, SITE_NAME } from '../lib/site';
+import { qualifies } from '../lib/calculators';
+import { loadIntent } from '../lib/intents';
+import { compound as regCompound, className, stacks as regStacks, tools as regTools } from '../lib/registry';
+import { timeTag } from '../lib/format';
+
+const compounds = await records('compounds');
+const stacks = await records('stacks');
+const comparisons = await records('comparisons');
+
+const written = compounds.filter(isIndexable);
+const writtenStacks = stacks.filter(isIndexable);
+const writtenComparisons = comparisons.filter(isIndexable);
+const withCalculator = compounds.filter(qualifies);
+
+const sources = compounds.reduce((n, e) => n + e.data.sources.length, 0);
+const claims = compounds.reduce((n, e) => n + Object.entries(e.data.attributes)
+  .filter(([k]) => k !== 'evidence_table')
+  .reduce((m, [, v]) => m + (v as unknown[]).length, 0), 0);
+const reviewedPages = [...written, ...writtenStacks, ...writtenComparisons]
+  .filter((e) => (e.data as any).review?.reviewer_credential).length;
+const reviewer = (written.find((e) => (e.data as any).review?.reviewer)?.data as any)?.review;
+
+// Newest change to any page other than this one: records by their changelog,
+// the rest by the lastmod manifest. Never the build date, and never the
+// homepage's own entry: this pill is printed on the homepage, so including it
+// would make stamping the homepage change the homepage, which would ask for
+// another stamp. scripts/check_lastmod.py caught exactly that loop.
+const manifest = (() => {
+  try { return JSON.parse(fs.readFileSync(path.resolve(process.cwd(), 'research', 'lastmod.json'), 'utf8')); } catch { return { pages: {} }; }
+})();
+const updated = [
+  ...[...compounds, ...stacks, ...comparisons].map(lastmod).filter(Boolean) as string[],
+  ...Object.entries(manifest.pages ?? {}).filter(([k]) => k !== '/').map(([, p]: any) => p.lastmod).filter(Boolean) as string[],
+].sort().at(-1);
+
+// Ranked by measured monthly searches from each record's intent map, not by us.
+const demand = (slug: string) => {
+  const m = loadIntent(slug);
+  return Math.max(0, ...(m?.queries ?? []).map((q) => q.volume?.clickstream ?? q.volume?.google_ads ?? 0));
+};
+const mostSearched = written
+  .map((e) => ({ e, v: demand(e.data.slug) }))
+  .filter((x) => x.v > 0)
+  .sort((a, b) => b.v - a.v)
+  .slice(0, 10);
+
+const humanRows = (e: any) => ((e.data.attributes?.evidence_table ?? []) as any[])
+  .filter((r) => r.fields?.species === 'Humans' && !/method|in vitro|measured, not given/i.test(r.fields?.design ?? '')).length;
+
+const reference = [...written].sort((a, b) => a.data.preferred_name.localeCompare(b.data.preferred_name));
+
+const faq = [
+  { question: 'What is this site?', answer: `A research reference for peptides. Every page is built from a record of indexed studies, quoted sentence by sentence and labelled by the kind of evidence each is: approved label, clinical trial, observational, animal, laboratory. Where nothing has been studied, the page says so. It is written for readers, reviewed by a named pharmacist, and sells nothing.` },
+  { question: 'Does it recommend doses?', answer: `No. The doses on a page are the doses published studies administered, reported as the paper states them, with the species and the study design beside each one. A dose from a rat study is marked as a rat study. The calculators convert a mass and a volume into syringe units; they refuse to take a body weight and return a dose, because that is a clinical decision rather than arithmetic.` },
+  { question: 'Where do the numbers come from?', answer: `Europe PMC, which indexes the biomedical literature, and ChEMBL for compound identity and approval status. Each claim links to the paper it was taken from by its PubMed or DOI id, and the quoted sentence is shown beneath it so the claim can be checked against its source without leaving the page.` },
+  { question: 'How do I work out syringe units for a dose?', answer: `Divide the mass in the vial by the diluent volume to get the concentration, then divide the mass you want by that concentration to get the volume. Units on a U-100 syringe are that volume in millilitres times 100. A 5 mg vial in 2 mL is 2,500 mcg/mL, so 250 mcg is 0.1 mL, which is 10 units. The reconstitution calculator does this and shows its working.` },
+  { question: 'What does the evidence tier mean?', answer: `The strongest kind of study that exists for that compound, not a judgment of the compound. "Human clinical trial" means at least one indexed trial in people exists; it says nothing about the trial's size or whether it found an effect. The evidence table on each page shows that.` },
+  { question: 'Who checks the pages?', answer: reviewer ? `${reviewer.reviewer}, ${reviewer.reviewer_credential}, is named as reviewer of record on every written page, with the date, at the top of the page and in its structured data. Corrections are made in the record and dated in the changelog; nothing is corrected silently.` : `A named, credentialed reviewer signs each written page before it is indexed.` },
+];
+
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: Astro.site?.toString() },
+  { '@context': 'https://schema.org', '@type': 'Organization', name: SITE_NAME, url: Astro.site?.toString(), logo: new URL('/icon-512.png', Astro.site).toString() },
+];
 ---
-<Base title="Peptide Research, Cited and Tiered | Dashnaiv Peptides" description="A cited, evidence-tiered reference for research peptides: what has actually been studied, in whom, and where the evidence stops." path="/" indexable={published > 0}>
-  <p class="eyebrow">Research reference</p>
-  <h1>What the research actually shows</h1>
-  <p class="lede prose">Every claim on this site carries an evidence tier and cites a source a reader can open. Where no study exists, the page says so instead of filling the space. Nothing here is dosing or treatment advice.</p>
-  <h2>Compounds</h2>
-  <ul class="cards">
-    {wave1.map((e) => <li><a href={`/compounds/${e.data.slug}`}>{e.data.preferred_name}</a><div class="sub"><EvidenceLabel tier={e.data.evidence_tier} /></div></li>)}
-  </ul>
-  <p><a href="/compounds">All {entries.length} compounds by class</a></p>
+<Base title="Peptide Research, Cited and Tiered | Dashnaiv Peptides" description="Peptide research reference: the doses studies used, side effects reported, evidence tiers on every claim, and calculators that show their working. Nothing sold." path="/" indexable={written.length > 0} jsonld={jsonld}>
+  <Fragment slot="head">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600&display=swap" />
+  </Fragment>
+  <article class="v2">
+    <div class="title">
+      <div class="crumbs"><span class="eyebrow">Research reference</span></div>
+      <h1>Peptide research, cited and tiered: the doses studies used, the side effects they reported, and what has never been tested</h1>
+      <p class="dek">{written.length} compounds, {writtenStacks.length} stacks and {writtenComparisons.length} comparisons, each built from the indexed literature and quoted sentence by sentence. Every claim carries the kind of evidence it came from and a link to the paper. Where no study exists, the page says so instead of filling the space.</p>
+      <div class="pills">
+        <span class="pill">Independent</span>
+        <span class="pill">Every claim cited</span>
+        {reviewer && <span class="pill">Reviewed by a {reviewer.reviewer_credential}</span>}
+        {updated && <span class="pill">Updated <Fragment set:html={timeTag(updated)} /></span>}
+        <span class="pill">Nothing sold</span>
+      </div>
+      <ul class="cards">
+        <li><a href="/compounds">Browse all compounds</a><div class="sub">{compounds.length} records, grouped by class</div></li>
+        <li><a href="/calculators">Dosage calculators</a><div class="sub">{withCalculator.length} compounds with a units chart from their own studies</div></li>
+        <li><a href="/stacks">Stacks and combinations</a><div class="sub">Whether any study tested them together</div></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <section id="glance"><h2>At a glance</h2>
+        <div class="facts">
+          <div class="fact"><div class="k">Compound records</div><div class="v">{written.length}</div><div class="s">of {compounds.length} indexed; the rest are unwritten and kept out of search</div></div>
+          <div class="fact"><div class="k">Stacks and comparisons</div><div class="v">{writtenStacks.length + writtenComparisons.length}</div><div class="s">{writtenStacks.length} combinations, {writtenComparisons.length} head-to-head pages</div></div>
+          <div class="fact"><div class="k">Calculators</div><div class="v">{withCalculator.length + regTools.length}</div><div class="s">{withCalculator.length} per compound, {regTools.length} general</div></div>
+          <div class="fact"><div class="k">Sources cited</div><div class="v">{sources.toLocaleString('en-US')}</div><div class="s">papers in the ledgers, each linked by id</div></div>
+          <div class="fact"><div class="k">Quoted claims</div><div class="v">{claims.toLocaleString('en-US')}</div><div class="s">each tiered and tied to a source</div></div>
+          <div class="fact"><div class="k">Reviewed pages</div><div class="v">{reviewedPages}</div><div class="s">signed by a named reviewer before indexing</div></div>
+        </div>
+        <div class="status"><div><strong>Nothing here is dosing or treatment advice.</strong> A dose on these pages is one a study administered, reported as published. A clinician who knows your history can tell you what applies to you; a website cannot.</div></div>
+      </section>
+
+      {mostSearched.length > 0 && (
+        <section id="most-searched"><div><h2>Most searched compounds</h2><p class="lede">Ranked by measured monthly searches for each compound, from the demand research behind its page. This is what people look for, not what we chose to promote.</p></div>
+          <ul class="cards">
+            {mostSearched.map(({ e, v }, i) => (
+              <li><a href={`/compounds/${e.data.slug}`}>{i + 1}. {e.data.preferred_name}</a><div class="sub"><Tier tier={e.data.evidence_tier} /> · {v.toLocaleString('en-US')} searches a month</div></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <section id="reference"><div><h2>Evidence quick reference</h2><p class="lede">Every written compound, with the strongest evidence that exists for it and how much of the ledger is human. No dose ranges: a dose belongs beside the study that used it, which is where each page keeps them.</p></div>
+        <div class="card clip"><div class="tblwrap"><table class="tbl">
+          <caption>Figures are counts from each record's own ledger. Publications and randomised trials are as indexed in Europe PMC for the compound or a listed alias.</caption>
+          <thead><tr><th scope="col">Compound</th><th scope="col">Class</th><th scope="col">Evidence tier</th><th scope="col" class="num">Publications</th><th scope="col" class="num">RCTs</th><th scope="col" class="num">Human studies in ledger</th><th scope="col">Calculator</th></tr></thead>
+          <tbody>
+            {reference.map((e) => { const p = (e.data as any).evidence_summary?.publications ?? {}; const reg = regCompound(e.data.slug); return (
+              <tr>
+                <th scope="row" class="study"><a href={`/compounds/${e.data.slug}`}>{e.data.preferred_name}</a></th>
+                <td>{reg ? className(reg.class) : '—'}</td>
+                <td><Tier tier={e.data.evidence_tier} /></td>
+                <td class="num">{formatCount(p.total)}</td>
+                <td class="num">{formatCount(p.randomized_controlled_trials)}</td>
+                <td class="num">{humanRows(e)}</td>
+                <td>{qualifies(e) ? <a href={`/calculators/${e.data.slug}`}>Units chart</a> : <span class="sub">—</span>}</td>
+              </tr>
+            ); })}
+          </tbody>
+        </table></div></div>
+      </section>
+
+      {writtenStacks.length > 0 && (
+        <section id="stacks"><div><h2>Stacks and comparisons</h2><p class="lede">A stack page states whether any study gave the components together, which is usually the finding. A comparison page states whether a head-to-head trial exists before it compares anything.</p></div>
+          <ul class="cards">
+            {writtenStacks.map((s) => { const reg = regStacks.find((r) => r.slug === s.data.slug); return (
+              <li><a href={`/stacks/${s.data.slug}`}>{reg?.name ?? (s.data as any).title}</a><div class="sub">{((s.data as any).attributes?.combination_evidence ?? []).length} indexed papers name every component</div></li>
+            ); })}
+            <li><a href="/compare">All comparisons</a><div class="sub">{writtenComparisons.length} head-to-head pages</div></li>
+          </ul>
+        </section>
+      )}
+
+      <section id="calculators"><div><h2>Calculators that show their working</h2><p class="lede">Each prints its formula above the inputs so any result can be checked by hand, runs entirely in your browser, and names the one thing it refuses to do: take a body weight and return a dose.</p></div>
+        <ul class="cards">
+          {regTools.map((t) => <li><a href={`/tools/${t.slug}`}>{t.name}</a><div class="sub">{t.computes}</div></li>)}
+          <li><a href="/calculators">Per-compound calculators</a><div class="sub">{withCalculator.length} compounds, each with a units chart whose rows are the doses its own studies used</div></li>
+        </ul>
+      </section>
+
+      <section id="contains"><div><h2>What every compound record contains</h2><p class="lede">The same sections in the same order on every page, so a reader who has used one has used them all. A section with no evidence is not rendered; a zero is reported as a zero.</p></div>
+        <ol class="list">
+          <li><strong>In two minutes.</strong> What it is, the best-evidenced number, and what has not happened yet.</li>
+          <li><strong>What it is and how it is thought to work.</strong> Marked as editorial synthesis where it draws on general knowledge.</li>
+          <li><strong>What the evidence level means.</strong> The tier, and what it does and does not say.</li>
+          <li><strong>What happened in the human studies.</strong> Every human row in the ledger: design, size, year, outcome as published.</li>
+          <li><strong>The evidence table.</strong> Every indexed study, by species and design, quoted.</li>
+          <li><strong>Doses studies used.</strong> As the paper states them, with species and route, never converted between them.</li>
+          <li><strong>Dosage chart: studies versus what circulates.</strong> The two kinds of figure, kept apart.</li>
+          <li><strong>Side effects reported.</strong> At the doses the trials used.</li>
+          <li><strong>What studies measured.</strong> Biomarkers, timelines, durations, routes, weight-normalised doses.</li>
+          <li><strong>Reconstitution, storage and monitoring.</strong> Arithmetic and what the literature states, not instructions.</li>
+          <li><strong>Common mistakes in how it is discussed.</strong> Each one visible on a page currently ranking for the compound.</li>
+          <li><strong>Comparisons, combinations and regulatory status.</strong> Registry facts only.</li>
+          <li><strong>Open questions, FAQ, sources, reference card.</strong> And a dated changelog of every correction.</li>
+        </ol>
+      </section>
+
+      <section id="reconstitution"><div><h2>Reconstitution quick reference</h2><p class="lede">Two divisions, and the one error that causes most of the rest.</p></div>
+        <ReconstitutionMath />
+        <ul class="cards">
+          <li><a href="/tools/reconstitution-calculator">Reconstitution calculator</a><div class="sub">Concentration, volume and units on U-100, U-50 or U-40</div></li>
+          <li><a href="/tools/unit-converter">Unit converter</a><div class="sub">mg, mcg, ng and millilitres to units; and why it will not convert IU</div></li>
+          <li><a href="/tools/vial-planner">Vial planner</a><div class="sub">Whole draws per vial, how long it lasts, and the remainder</div></li>
+        </ul>
+      </section>
+
+      <section id="method"><div><h2>How these pages are made</h2></div>
+        <p class="prose-lg">For each compound, every publication in Europe PMC naming it or a listed alias is retrieved with its indexing. Each is labelled by study design and species. Sentences that state a dose, an outcome, an adverse event or a duration are quoted as claims, tiered by the evidence they came from, and linked to their paper. Reviews are kept as background and never become claims. The result is checked by a named pharmacist before it is indexed, corrections are made in the record and dated, and the page is rebuilt from it.</p>
+        <ul class="cards">
+          <li><a href="/about">The method in full</a><div class="sub">Retrieval, tiers, review, and what the site deliberately does not do</div></li>
+          <li><a href="/contact">Report a correction</a><div class="sub">A quotation that differs from its source, a wrong tier, a changed status</div></li>
+          <li><a href="/privacy">Privacy</a><div class="sub">What is collected, the one analytics cookie, and how to refuse it</div></li>
+        </ul>
+      </section>
+
+      <section id="faq"><h2>Questions people ask</h2><Faq items={faq} /></section>
+    </div>
+  </article>
 </Base>
