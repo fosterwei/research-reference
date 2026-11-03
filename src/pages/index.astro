@@ -27,7 +27,8 @@ const stacks = await records('stacks');
 const comparisons = await records('comparisons');
 
 const written = compounds.filter(isIndexable);
-const writtenStacks = stacks.filter(isIndexable);
+const writtenStacks = stacks.filter(isIndexable)
+  .sort((a, b) => a.data.slug.localeCompare(b.data.slug, 'en'));
 const writtenComparisons = comparisons.filter(isIndexable);
 const withCalculator = compounds.filter(qualifies);
 
@@ -57,16 +58,20 @@ const demand = (slug: string) => {
   const m = loadIntent(slug);
   return Math.max(0, ...(m?.queries ?? []).map((q) => q.volume?.clickstream ?? q.volume?.google_ads ?? 0));
 };
+// Collection order comes from the filesystem and is not the same on every
+// machine, so anything rendered in that order is sorted explicitly first.
+// The lastmod guard fingerprints the page, and an order that differs between a
+// laptop and CI reads as a content change. Ties here break on the slug.
 const mostSearched = written
   .map((e) => ({ e, v: demand(e.data.slug) }))
   .filter((x) => x.v > 0)
-  .sort((a, b) => b.v - a.v)
+  .sort((a, b) => b.v - a.v || a.e.data.slug.localeCompare(b.e.data.slug, 'en'))
   .slice(0, 10);
 
 const humanRows = (e: any) => ((e.data.attributes?.evidence_table ?? []) as any[])
   .filter((r) => r.fields?.species === 'Humans' && !/method|in vitro|measured, not given/i.test(r.fields?.design ?? '')).length;
 
-const reference = [...written].sort((a, b) => a.data.preferred_name.localeCompare(b.data.preferred_name));
+const reference = [...written].sort((a, b) => a.data.preferred_name.localeCompare(b.data.preferred_name, 'en'));
 
 const faq = [
   { question: 'What is this site?', answer: `A research reference for peptides. Every page is built from a record of indexed studies, quoted sentence by sentence and labelled by the kind of evidence each is: approved label, clinical trial, observational, animal, laboratory. Where nothing has been studied, the page says so. It is written for readers, reviewed by a named pharmacist, and sells nothing.` },
