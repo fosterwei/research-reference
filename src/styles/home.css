@@ -1,65 +1,86 @@
 /* Homepage only. Scoped as .v2.home so it outranks the shared .v2 rules and
    touches no other page.
 
-   The one place the page spends its boldness is the quotation in the hero.
-   Everything else is quieter than the shared styles: links are ink with an
-   underline rather than the accent blue, table headers are sentence-case sans
-   rather than tracked monospace capitals, and radius is a hierarchy (none on
-   tables, a rule on the quotation, pills only for evidence tiers) rather than
-   the same 6px on every object. */
+   Guideline: full-width bands alternating paper and tint do the separating,
+   so nothing inside them needs a frame; one navy band for the method; sharp
+   corners everywhere except tier pills; serif only for the H1 and the
+   quotation, the sans at 600 for every heading and table header; links are
+   ink with a blue underline; photographs sit as whole bands or a whole
+   column, never as thumbnails in cards. */
 
-.v2.home a { color: var(--ink); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.v2.home { --home-navy: #06336A; --home-navy-ink: #FFFFFF; --home-navy-ink-2: #C9D6E8; }
+@media (prefers-color-scheme: dark) { .v2.home { --home-navy: #0B2E5C; --home-navy-ink: #F2F6FA; --home-navy-ink-2: #B8C8DE; } }
+
+/* Bands run edge to edge past the page wrapper; the padding brings their
+   content back into line with it. overflow-x: clip stops the 100vw math from
+   adding a scrollbar's width of sideways scroll. */
+html, body { overflow-x: clip; }
+.v2.home .band { margin-inline: calc(50% - 50vw); padding-inline: calc(50vw - 50%); padding-block: 56px; }
+.v2.home .band.tint { background: var(--sunk); }
+.v2.home .band.navy { background: var(--home-navy); color: var(--home-navy-ink); }
+.v2.home .band.navy a { color: var(--home-navy-ink); text-decoration-color: var(--home-navy-ink-2); }
+.v2.home .band.navy .what, .v2.home .band.navy .lede, .v2.home .band.navy .prose-lg { color: var(--home-navy-ink-2); }
+.v2.home .band.navy .links li { border-color: rgba(255,255,255,.18); }
+.v2.home .band:first-child { padding-top: 28px; }
+.v2.home .content { display: block; gap: 0; margin-top: 0; }
+.v2.home section { display: flex; flex-direction: column; gap: 16px; }
+
+.v2.home a { color: var(--ink); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-color: var(--accent); }
 .v2.home a:hover { text-decoration-thickness: 2px; }
-.v2.home a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+.v2.home a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
-.v2.home .title { gap: 26px; margin-top: 28px; }
-.v2.home .title h1 { font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; max-width: 18ch; }
+.v2.home h2 { font-family: var(--sans); font-weight: 600; font-size: 26px; line-height: 1.2; }
+.v2.home h3 { font-family: var(--sans); font-weight: 600; font-size: 20px; }
+.v2.home .head { display: flex; flex-direction: column; gap: 8px; max-width: 66ch; }
+.v2.home .lede { font-size: 16px; }
 
-/* The quotation. --tier is set inline from the claim's evidence tier, so the
-   rule beside it carries the same colour the tier pill does everywhere else. */
-.v2.home .claim { border-left: 3px solid var(--tier, var(--rule)); padding: 4px 0 4px 22px; max-width: 62ch; }
+/* Hero: text beside the square photograph. */
+.v2.home .hero { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 40px 56px; align-items: start; }
+.v2.home .hero .text { display: flex; flex-direction: column; gap: 26px; min-width: 0; }
+.v2.home .hero h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(34px, 4.2vw, 48px); line-height: 1.08; max-width: 18ch; }
+.v2.home .claim { border-left: 3px solid var(--tier, var(--rule)); padding: 4px 0 4px 22px; max-width: 62ch; margin: 0; }
 .v2.home .claim blockquote { margin: 0; font-family: var(--serif); font-size: clamp(21px, 2.3vw, 27px); line-height: 1.38; color: var(--ink); text-wrap: pretty; }
 .v2.home .claim blockquote::before { content: "\201C"; }
 .v2.home .claim blockquote::after { content: "\201D"; }
 .v2.home .claim .attr { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-top: 14px; font-size: 14px; color: var(--ink-2); }
 .v2.home .claim .attr cite { font-style: normal; }
-
 .v2.home .after { font-size: 17px; color: var(--ink-2); max-width: 60ch; margin: 0; }
 .v2.home .cta { display: flex; flex-wrap: wrap; gap: 10px 28px; font-size: 17px; margin: 0; padding: 0; list-style: none; }
 .v2.home .note { font-size: 14px; color: var(--ink-3); margin: 0; max-width: 60ch; }
 
-.v2.home .content { gap: 52px; margin-top: 56px; }
-.v2.home .lede { font-size: 16px; }
+/* Photographs: a whole column or a whole band, with their box reserved by
+   width and height attributes so the page does not shift as they load. */
+.v2.home .figure { margin: 0; }
+.v2.home .figure img { display: block; width: 100%; height: auto; max-width: 100%; }
 
-/* Ranked and plain lists replace the card grids. A row is one line of type with
-   a rule under it; the number is data in the row, not a marker in the margin. */
+/* Ranked and plain lists instead of card grids. */
 .v2.home .rank, .v2.home .links { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
 .v2.home .rank li { display: grid; grid-template-columns: 2.25rem minmax(0, 1fr) auto auto; gap: 8px 16px; align-items: center; padding: 11px 0; border-bottom: 1px solid var(--rule); }
-.v2.home .rank li:first-child { border-top: 1px solid var(--rule); }
+.v2.home .rank li:first-child, .v2.home .links li:first-child { border-top: 1px solid var(--rule); }
 .v2.home .rank .n { font-variant-numeric: tabular-nums; color: var(--ink-3); font-size: 14px; }
 .v2.home .rank .name { font-size: 17px; }
 .v2.home .rank .meta { font-size: 14px; color: var(--ink-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .v2.home .links li { display: grid; grid-template-columns: minmax(0, 14rem) minmax(0, 1fr); gap: 4px 20px; padding: 11px 0; border-bottom: 1px solid var(--rule); }
-.v2.home .links li:first-child { border-top: 1px solid var(--rule); }
+.v2.home .links li a { font-weight: 600; }
 .v2.home .links .what { font-size: 15px; color: var(--ink-2); }
+.v2.home .two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 56px; align-items: start; }
+.v2.home .two > * { min-width: 0; }
 
-/* Tables are the site's native form; here they get no radius and plain headers. */
+/* Tables are the site's native form: no radius, plain sentence-case headers. */
 .v2.home .card { border-radius: 0; border-left: 0; border-right: 0; }
 .v2.home .tblwrap { max-height: none; }
 .v2.home .tbl th { font-family: var(--sans); font-size: 13px; letter-spacing: 0; text-transform: none; color: var(--ink-2); font-weight: 600; }
 .v2.home .tbl td.study a { text-decoration: none; }
 .v2.home .tbl td.study a:hover { text-decoration: underline; }
-
 .v2.home .list li { padding-left: 2px; }
 .v2.home .list li::marker { color: var(--ink-3); font-variant-numeric: tabular-nums; }
 
-@media (max-width: 640px) {
+@media (max-width: 760px) {
+  .v2.home .band { padding-block: 40px; }
+  .v2.home .hero, .v2.home .two { grid-template-columns: 1fr; }
   .v2.home .rank li { grid-template-columns: 2rem minmax(0, 1fr); }
   .v2.home .rank .meta { grid-column: 2; }
   .v2.home .links li { grid-template-columns: 1fr; }
   .v2.home .claim { padding-left: 16px; }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .v2.home a { transition: text-decoration-thickness 120ms ease; }
-}
+@media (prefers-reduced-motion: no-preference) { .v2.home a { transition: text-decoration-thickness 120ms ease; } }
