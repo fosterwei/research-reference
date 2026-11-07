@@ -7,7 +7,7 @@
     },
     "/about": {
       "lastmod": "2026-11-07",
-      "hash": "8f4378afaea85a863352514ce471e7e27de2d43b"
+      "hash": "6a5f2eaaccd34aba620795e3baa9d29755cbd74c"
     },
     "/calculators": {
       "lastmod": "2026-10-12",
@@ -135,7 +135,7 @@
     },
     "/compounds/aod-9604": {
       "lastmod": "2026-11-07",
-      "hash": "de71358eb78fef706a86e79cfffa31dc3427bd67"
+      "hash": "a1ed4ce8d57090f8083425e835da6a4a882b8325"
     },
     "/compounds/ara-290": {
       "lastmod": "2026-10-12",
@@ -147,7 +147,7 @@
     },
     "/compounds/cagrilintide": {
       "lastmod": "2026-11-07",
-      "hash": "bb05f2a2a9569ba31b33e779f4960f2a03d8e4a4"
+      "hash": "9936b88b0eaabc48227e885c4002985fc566c085"
     },
     "/compounds/cartalax": {
       "lastmod": "2026-09-29",
@@ -199,7 +199,7 @@
     },
     "/compounds/ll-37": {
       "lastmod": "2026-11-07",
-      "hash": "57ba868b48f17504baf082b2d06a6898f83cc535"
+      "hash": "dc688a4c7c4058dffd5780c46a7a97538e1d139b"
     },
     "/compounds/melanotan-ii": {
       "lastmod": "2026-10-12",
@@ -215,7 +215,7 @@
     },
     "/compounds/retatrutide": {
       "lastmod": "2026-11-07",
-      "hash": "702ee09db4d508e5034b835a2e277f1cedd85a2f"
+      "hash": "8ccb2a89103b27461ae6a00b355518fc6fa32717"
     },
     "/compounds/selank": {
       "lastmod": "2026-10-12",
@@ -235,7 +235,7 @@
     },
     "/compounds/survodutide": {
       "lastmod": "2026-11-07",
-      "hash": "1dd278436e5dad05e0939207b0e8788f14e2ed4e"
+      "hash": "b150b280292197a54eaa0836488a8d0be1ed788f"
     },
     "/compounds/tb-500": {
       "lastmod": "2026-10-12",
@@ -243,11 +243,11 @@
     },
     "/compounds/tesamorelin": {
       "lastmod": "2026-11-07",
-      "hash": "16d9f5a2b3ad988ec5011ada4dc83a9ad7b36b53"
+      "hash": "fa528470fd309fd6ef405efd76fce8aa2878e02d"
     },
     "/compounds/tesofensine": {
       "lastmod": "2026-11-07",
-      "hash": "dec03e028b7830b6e55b9377f350971d2dbd5459"
+      "hash": "219d7224f7f754f7b9abcc6b855d026808d4c3a6"
     },
     "/compounds/thymosin-alpha-1": {
       "lastmod": "2026-10-12",
@@ -455,6 +455,19 @@
         "/compounds/ll-37",
         "/compounds/retatrutide",
         "/compounds/semax",
+        "/compounds/survodutide",
+        "/compounds/tesamorelin",
+        "/compounds/tesofensine"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "reason": "2026-11-07: same-day second revision; practical protocols restructured into weeks and actions, described in each record's second 2026-11-07 changelog entry, so the date is already correct",
+      "pages": [
+        "/compounds/aod-9604",
+        "/compounds/cagrilintide",
+        "/compounds/ll-37",
+        "/compounds/retatrutide",
         "/compounds/survodutide",
         "/compounds/tesamorelin",
         "/compounds/tesofensine"

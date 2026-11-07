@@ -279,4 +279,14 @@ accept everything or reject everything.
   Google stopped showing HowTo rich results in 2023 and limits FAQ rich results
   to authoritative sites, so these are eligibility and machine-readability
   changes, not a promised SERP feature.
-
+- 2026-11-07 — Practical protocols rewritten from "research conclusion" to
+  "actionable step". Every step now has `weeks` and `action`; the page shows a
+  week-by-week table, action-first steps, and "Practical notes". Escalation
+  timing and operational rules were pulled from open-access full texts:
+  retatrutide's 4-week interval (pmid-38858523), survodutide's 24-week
+  escalation and step-down allowance (pmid-42252333, pmid-39495965), LL-37's
+  13-week schedule, amount per cm² and spacing (pmid-34687253), and the
+  Tesomet diet pairing and heart-rate finding (pmid-35294397). Cagrilintide,
+  AOD-9604 and tesamorelin had nothing further in open access; their steps
+  were restructured only, and cagrilintide still states that its escalation
+  is not in the sources. No source stated a missed-dose rule.

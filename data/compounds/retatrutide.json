@@ -936,48 +936,74 @@
         "source_excerpt": "We investigated the safety, pharmacokinetics, and pharmacodynamics of multiple weekly doses of LY3437943 in people with type 2 diabetes in a 12-week study."
       },
       {
-        "value": "Start at 2 mg once weekly by subcutaneous injection. Every arm in the phase 2 obesity trial that reached 8 or 12 mg began here, and the trial reported that gastrointestinal events were partially mitigated by the 2 mg start compared with 4 mg.",
+        "value": "Phase 2 obesity trial, MASLD substudy, full text, 2024: dose escalation interval. Where applicable, dose escalations occurred every 4 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38858523"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Where applicable, dose escalations occurred every 4 weeks.",
+        "fields": {
+          "phase": "step",
+          "dose": "2 mg or 4 mg start, stepped to the arm's target dose",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "each escalation step 4 weeks",
+          "population": "Adults with obesity in the phase 2 trial; substudy of those with steatotic liver disease, n=98"
+        }
+      },
+      {
+        "value": "Every arm in the phase 2 obesity trial that reached 8 or 12 mg started here, and the trial reported that gastrointestinal events were partially mitigated by the 2 mg start compared with 4 mg. Each step lasts 4 weeks, the escalation interval that trial used.",
         "evidence_label": "editorial",
         "source_ids": [
-          "pmid-37366315"
+          "pmid-37366315",
+          "pmid-38858523"
         ],
         "drafting": "editorial",
         "fields": {
           "phase": "1",
+          "weeks": "1–4",
+          "action": "Inject 2 mg once weekly under the skin.",
           "dose": "2 mg",
           "frequency": "once weekly",
-          "duration": "the first escalation interval"
+          "route": "subcutaneous"
         }
       },
       {
-        "value": "Step to 4 mg once weekly. This is the lowest dose that was both a trial arm in its own right and an intermediate step on the way to 8 and 12 mg in the phase 2 trial, and the lowest arm of the phase 3 diabetes trial.",
+        "value": "4 mg was both a trial arm in its own right and the intermediate step to 8 and 12 mg in the phase 2 trial, and the lowest arm of the phase 3 diabetes trial.",
         "evidence_label": "editorial",
         "source_ids": [
           "pmid-37366315",
-          "pmid-42250575"
+          "pmid-42250575",
+          "pmid-38858523"
         ],
         "drafting": "editorial",
         "fields": {
           "phase": "2",
+          "weeks": "5–8",
+          "action": "Increase to 4 mg once weekly.",
           "dose": "4 mg",
           "frequency": "once weekly"
         }
       },
       {
-        "value": "Step to 8 mg once weekly if continuing to escalate. In the phase 2 trial the combined 8 mg arms reached a least-squares mean weight change of -22.8% at 48 weeks against -2.1% on placebo.",
+        "value": "The combined 8 mg arms reached a least-squares mean weight change of −22.8% at 48 weeks against −2.1% on placebo. Gastrointestinal events were more frequent at 8 and 12 mg than at lower doses.",
         "evidence_label": "editorial",
         "source_ids": [
-          "pmid-37366315"
+          "pmid-37366315",
+          "pmid-38858523"
         ],
         "drafting": "editorial",
         "fields": {
           "phase": "3",
+          "weeks": "9–12",
+          "action": "Increase to 8 mg once weekly, or stay at 4 mg.",
           "dose": "8 mg",
           "frequency": "once weekly"
         }
       },
       {
-        "value": "Hold at the target dose. 12 mg was the highest arm in both the obesity and the diabetes trials; 9 mg exists only in the phase 3 diabetes trial. Dose-dependent heart-rate increases peaked at 24 weeks in the obesity trial and declined thereafter, which is the monitoring point the studies themselves imply.",
+        "value": "12 mg was the highest arm in both the obesity and the diabetes trials; 9 mg exists only in the phase 3 diabetes trial. Dose-dependent heart-rate increases peaked at 24 weeks in the obesity trial and declined afterwards.",
         "evidence_label": "editorial",
         "source_ids": [
           "pmid-37366315",
@@ -986,9 +1012,34 @@
         "drafting": "editorial",
         "fields": {
           "phase": "4",
-          "dose": "9 to 12 mg",
-          "frequency": "once weekly",
-          "duration": "held for the remainder of the study period, 40 to 48 weeks"
+          "weeks": "13–48",
+          "action": "Increase to 12 mg once weekly or hold the dose reached, and keep it there to week 48.",
+          "dose": "up to 12 mg",
+          "frequency": "once weekly"
+        }
+      },
+      {
+        "value": "Gastrointestinal events in the phase 2 trial occurred mainly during dose escalation, and the trial never shortened the 4-week interval.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-38858523"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Do not step up sooner than every 4 weeks."
+        }
+      },
+      {
+        "value": "4 mg and 8 mg were full trial arms held for 48 weeks, not only stepping stones, so holding at either is a regimen the trial tested.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-37366315"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Stopping at a lower step is a studied option."
         }
       }
     ]
@@ -1359,6 +1410,10 @@
     {
       "date": "2026-11-07",
       "change": "Dosing protocol section added under the widened content contract: five regimens as studied from the phase 1b, phase 2 and phase 3 trials, and a four-step practical protocol synthesised from them with its basis cited. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Practical protocol rewritten for action: each step now leads with what to do and when, in weeks, followed by why and its basis; a week-by-week schedule sits above the steps; the 4-week escalation interval is now cited from the full text of the phase 2 trial's liver substudy."
     }
   ],
   "guide": [

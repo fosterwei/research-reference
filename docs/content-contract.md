@@ -97,6 +97,20 @@ Three provenances are allowed, rendered as three distinct blocks, never merged:
    reviewer separately through `review.protocol_reviewed_at`. Until that date is set the
    block renders with an "awaiting pharmacist review" tag and the page stays indexable.
 
+**How a practical protocol is written** (added 2026-11-07). Each step carries
+`fields.weeks` (when it applies: `1–4`, `13–48`, `by week 24`, `every day`) and
+`fields.action` (one thing to do, in the imperative, with dose, frequency and
+route); `value` is the reason, naming the trial. The page renders the steps
+twice: as a week-by-week table of `weeks` and `action`, and as a numbered list
+that leads with the action and follows with the reason and basis. Operational
+points the sources state, such as when to delay a step, how to apply a topical,
+or what side effect to expect when, are editorial claims with `fields.phase:
+"note"` and their own `action` and basis; they render as "Practical notes".
+Timing comes from the full text where the abstract is silent (Europe PMC open
+access); where no source on the page states the escalation, the step says so
+instead of filling it in. The validator rejects a step without `weeks` or
+`action`.
+
 `community-reported` regimens stay where they were: in the dosage chart, labelled as
 circulating, sourced to where they appear. They are not a protocol provenance.
 

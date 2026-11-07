@@ -318,7 +318,7 @@
         }
       },
       {
-        "value": "Cagrilintide alone: 2.4 mg once weekly by subcutaneous injection. This is the only cagrilintide-alone regimen in the ledger's human trials, the cagrilintide 2.4 mg arm of REDEFINE 1 (adults without diabetes, 68 weeks) and of REIMAGINE 2 (type 2 diabetes, 68 weeks). The abstracts give the target dose and not the starting dose or escalation interval, so no earlier step is written here; the 1.0 mg dose was studied only in combination with semaglutide.",
+        "value": "2.4 mg is the only cagrilintide-alone regimen in the ledger's trials, REDEFINE 1 and REIMAGINE 2. The sources on this page give the target dose but not the starting dose or the escalation used to reach it, so that part is not written here.",
         "evidence_label": "editorial",
         "source_ids": [
           "pmid-42503495",
@@ -327,13 +327,15 @@
         "drafting": "editorial",
         "fields": {
           "phase": "1",
+          "weeks": "once escalated",
+          "action": "Inject 2.4 mg once weekly under the skin.",
           "dose": "2.4 mg",
           "frequency": "once weekly",
           "route": "subcutaneous"
         }
       },
       {
-        "value": "Hold 2.4 mg once weekly and reassess at 68 weeks, the length of both cagrilintide-alone trials (REDEFINE 1 and REIMAGINE 2). The combination trials ran 40 to 68 weeks at the same 2.4 mg cagrilintide dose, so the weekly dose did not change with duration or indication.",
+        "value": "Both cagrilintide-alone trials ran 68 weeks; combination trials ran 40 to 68 weeks at the same 2.4 mg.",
         "evidence_label": "editorial",
         "source_ids": [
           "pmid-42503495",
@@ -344,9 +346,23 @@
         "drafting": "editorial",
         "fields": {
           "phase": "2",
+          "weeks": "to week 68",
+          "action": "Hold 2.4 mg once weekly and reassess at 68 weeks.",
           "dose": "2.4 mg",
-          "frequency": "once weekly",
-          "duration": "68 weeks, then reassess"
+          "frequency": "once weekly"
+        }
+      },
+      {
+        "value": "1.0 mg cagrilintide was studied only together with 1.0 mg semaglutide.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-42251856",
+          "pmid-42251860"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "1.0 mg is a combination dose only."
         }
       }
     ],
@@ -1580,6 +1596,10 @@
     {
       "date": "2026-11-07",
       "change": "Dosing protocol section added under the widened content contract: eleven regimens as studied in human trials, and a two-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Practical protocol rewritten for action: each step now leads with what to do and when, in weeks, followed by why and its basis; a week-by-week schedule sits above the steps; the escalation to 2.4 mg is still not stated in any source on this page and is marked as such."
     }
   ],
   "guide": [

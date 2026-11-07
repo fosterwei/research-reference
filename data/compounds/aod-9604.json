@@ -173,7 +173,7 @@
         }
       },
       {
-        "value": "Take 0.25 mg to 1 mg once daily by mouth as a tablet. These are the three doses of METAOD006, the 24-week phase 2b study in 502 obese adults, which is the longest human regimen in the ledger; the pooled safety review gives no starting dose or titration, and the arms were fixed.",
+        "value": "These are the three fixed doses of METAOD006, the 24-week phase 2b study in 502 obese adults and the longest human regimen in the ledger. There was no titration.",
         "evidence_label": "editorial",
         "source_ids": [
           "doi-10-4021-jem157w"
@@ -181,13 +181,15 @@
         "drafting": "editorial",
         "fields": {
           "phase": "1",
-          "dose": "0.25 mg, 0.5 mg or 1 mg",
-          "frequency": "daily",
-          "route": "oral, tablets"
+          "weeks": "1–24",
+          "action": "Take one 0.25, 0.5 or 1 mg tablet by mouth once a day.",
+          "dose": "0.25, 0.5 or 1 mg",
+          "frequency": "once daily",
+          "route": "oral, tablet"
         }
       },
       {
-        "value": "Continue for 24 weeks and reassess. Higher daily oral doses were studied for shorter periods only: 1 to 30 mg capsules for 12 weeks in METAOD005 and 9 to 54 mg for seven days in METAOD004, so exposure above 1 mg a day has no human evidence beyond 12 weeks.",
+        "value": "Higher oral doses were studied only for 12 weeks (1 to 30 mg) or seven days (9 to 54 mg), so there is no human evidence for more than 1 mg a day beyond 12 weeks.",
         "evidence_label": "editorial",
         "source_ids": [
           "doi-10-4021-jem157w"
@@ -195,9 +197,8 @@
         "drafting": "editorial",
         "fields": {
           "phase": "2",
-          "dose": "0.25 mg, 0.5 mg or 1 mg",
-          "frequency": "daily",
-          "duration": "24 weeks, then reassess"
+          "weeks": "week 24",
+          "action": "Reassess at 24 weeks."
         }
       }
     ],
@@ -877,6 +878,10 @@
     {
       "date": "2026-11-07",
       "change": "Dosing protocol section added under the widened content contract: four regimens as studied in human trials, and a two-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Practical protocol rewritten for action: each step now leads with what to do and when, in weeks, followed by why and its basis; a week-by-week schedule sits above the steps."
     }
   ],
   "guide": [

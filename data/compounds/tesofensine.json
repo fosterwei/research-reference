@@ -216,7 +216,24 @@
         }
       },
       {
-        "value": "Take 0.5 mg once daily by mouth. In the 24-week obesity trial this dose produced a mean weight loss of 9.2% against 2.0% on diet and placebo, close to the 10.6% of the 1.0 mg arm, and it is the tesofensine dose carried into the Tesomet trial. The trials ran fixed arms and did not titrate, so 0.25 mg (4.5% loss) and 1.0 mg are alternatives the trials studied, not steps.",
+        "value": "Tesomet trial, full text, 2022: Both groups were instructed to follow a hypocaloric diet (energy deficit of 300 kcal daily) and given monthly lifestyle counselling from a trained dietician.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35294397"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Both groups were instructed to follow a hypocaloric diet (energy deficit of 300 kcal daily) and given monthly lifestyle counselling from a trained dietician.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "with 0.5 mg tesofensine and 50 mg metoprolol, or placebo",
+          "frequency": "daily",
+          "route": "not stated in the passage",
+          "duration": "24 weeks",
+          "population": "Adults with hypothalamic obesity"
+        }
+      },
+      {
+        "value": "In the 24-week obesity trial this dose produced a mean weight loss of 9.2% against 2.0% on diet and placebo, close to the 10.6% of 1.0 mg, and it is the dose carried into Tesomet. Both trials paired the drug with a diet.",
         "evidence_label": "editorial",
         "source_ids": [
           "pmid-18950853",
@@ -225,13 +242,15 @@
         "drafting": "editorial",
         "fields": {
           "phase": "1",
+          "weeks": "1–24",
+          "action": "Take 0.5 mg by mouth once a day, alongside a reduced-calorie diet.",
           "dose": "0.5 mg",
           "frequency": "once daily",
           "route": "oral"
         }
       },
       {
-        "value": "Continue for 24 weeks and reassess. That is the length of both the obesity trial and the Tesomet trial; the Parkinson's trials, the only other repeated-dose human evidence, stopped at 14 weeks, so no human regimen in the ledger runs longer than 24 weeks.",
+        "value": "No human regimen in this ledger runs longer than 24 weeks; the Parkinson's trials stopped at 14.",
         "evidence_label": "editorial",
         "source_ids": [
           "pmid-18950853",
@@ -241,9 +260,32 @@
         "drafting": "editorial",
         "fields": {
           "phase": "2",
-          "dose": "0.5 mg",
-          "frequency": "once daily",
-          "duration": "24 weeks, then reassess"
+          "weeks": "week 24",
+          "action": "Reassess at 24 weeks."
+        }
+      },
+      {
+        "value": "The trials gave fixed doses from day one; 0.25 mg and 1.0 mg are alternative arms, not steps.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-18950853"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "There is no titration step."
+        }
+      },
+      {
+        "value": "Tesofensine raised heart rate at therapeutic doses in obesity trials; Tesomet added 50 mg metoprolol and showed no significant heart-rate or blood-pressure difference from placebo.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-35294397"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Expect a faster heart rate on tesofensine alone."
         }
       }
     ],
@@ -1219,6 +1261,10 @@
     {
       "date": "2026-11-07",
       "change": "Dosing protocol section added under the widened content contract: six regimens as studied in human trials, and a two-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Practical protocol rewritten for action: each step now leads with what to do and when, in weeks, followed by why and its basis; a week-by-week schedule sits above the steps; the diet pairing and the heart-rate finding are now cited from the full text of the Tesomet trial."
     }
   ],
   "guide": [
