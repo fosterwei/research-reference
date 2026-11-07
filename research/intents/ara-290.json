@@ -96,9 +96,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every ARA-290 dose in the trials, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "ARA-290 dosing protocol: trials and a practical schedule",
       "boundary": "Every figure here is a dose a trial gave: 2 mg intravenously three times a week, or 1 to 8 mg subcutaneously once a day, for 28 days to 12 weeks. Vendor vials copy the 4 mg figure; the trials that used it were four weeks long."
     },
     {
@@ -477,6 +477,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "calculator",
     "adverse",
     "who",

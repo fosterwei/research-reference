@@ -47,7 +47,7 @@
     ],
     "study_doses": [
       {
-        "value": "Animal study, rats, 2026: doses stated in the abstract: 60 µg/kg/day. Thirty-two male Sprague-Dawley rats, each aged 12 weeks and weighing approximately 330 g, underwent standardized Achilles tendon transection and repair and were randomly assigned to four groups, with eight rats in each group: control, BPC-157 (10 µg/kg/day), TB-500…",
+        "value": "Animal study, rats, 2026: doses stated in the abstract: 60 µg/kg/day. Thirty-two male Sprague-Dawley rats, each aged 12 weeks and weighing approximately 330 g, underwent standardized Achilles tendon transection and repair and were randomly assigned to four groups, with eight rats in each group: control, BPC-157 (10 µg/kg/day), TB-500 (60 µg/kg/day), and combined BPC-157 + TB-500 (BPC + TB).",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42542926"
@@ -69,7 +69,7 @@
     ],
     "interactions": [
       {
-        "value": "Animal study, rats, 2026: Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA…",
+        "value": "Animal study, rats, 2026: Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42578445"
@@ -82,7 +82,7 @@
     "adverse_events": [],
     "biomarkers_monitored": [
       {
-        "value": "Human study, humans, 2026: Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1, thymosin beta-4, clusterin, interleukin-6, superoxide dismutase, and selected matrix…",
+        "value": "Human study, humans, 2026: Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1, thymosin beta-4, clusterin, interleukin-6, superoxide dismutase, and selected matrix metalloproteinases can be distinguished.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-41742019"
@@ -100,8 +100,8 @@
         "drafting": "extractive"
       },
       {
-        "value": "Human study, humans, 2024: In previous studies, it was confirmed that thymosin beta 4 (Tβ4) could enhance fat survival in vivo, although the precise mechanism remains unclear.",
-        "evidence_label": "observational-human",
+        "value": "In vitro study, human donor cells (adipose-derived stem cells), 2024: In previous studies, it was confirmed that thymosin beta 4 (Tβ4) could enhance fat survival in vivo, although the precise mechanism remains unclear.",
+        "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-38409346"
         ],
@@ -131,7 +131,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=5, 2016: durations stated: 6 months. After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking…",
+        "value": "Randomized controlled trial, humans, n=5, 2016: durations stated: 6 months. After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking distance was 37.5 m (95% confidence interval [CI], 28.7-56.3 m; P Discussion Our pilot study suggested that Tβ4-optimized EPC transplantation appeared to be feasible and safe, and might have beneficial effects on exercise capacity and left ventricular function in patients with STEMI.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-27288307"
@@ -178,7 +178,7 @@
     ],
     "weight_normalized_doses": [
       {
-        "value": "Animal study, rats, 2026: weight-normalized doses as published: 60 µg/kg/day. Thirty-two male Sprague-Dawley rats, each aged 12 weeks and weighing approximately 330 g, underwent standardized Achilles tendon transection and repair and were randomly assigned to four groups, with eight rats in each group: control, BPC-157 (10 µg/kg/day),…",
+        "value": "Animal study, rats, 2026: weight-normalized doses as published: 60 µg/kg/day. Thirty-two male Sprague-Dawley rats, each aged 12 weeks and weighing approximately 330 g, underwent standardized Achilles tendon transection and repair and were randomly assigned to four groups, with eight rats in each group: control, BPC-157 (10 µg/kg/day), TB-500 (60 µg/kg/day), and combined BPC-157 + TB-500 (BPC + TB).",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42542926"
@@ -238,7 +238,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, n=5, 2016: After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking distance was 37.5 m (95% confidence…",
+        "value": "Randomized controlled trial, humans, n=5, 2016: After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking distance was 37.5 m (95% confidence interval [CI], 28.7-56.3 m; P Discussion Our pilot study suggested that Tβ4-optimized EPC transplantation appeared to be feasible and safe, and might have beneficial effects on exercise capacity and left ventricular function in patients with STEMI.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-27288307"
@@ -254,7 +254,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "6 months",
-          "outcome": "After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the…"
+          "outcome": "After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking distance was 37.5 m (95% confidence interval [CI], 28.7-56.3 m; P Discussion Our pilot study suggested that Tβ4-optimized EPC transplantation appeared to be feasible and safe, and might have beneficial effects on exercise capacity and left ventricular function in patients with STEMI."
         }
       },
       {
@@ -298,7 +298,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, n=73, 2010: Thymosin beta 4 (Tbeta4), a synthetic copy of the naturally occurring 43 amino-acid peptide, has been found to have wound healing and anti-inflammatory properties, and is thought to exert its therapeutic effect through promotion of keratinocyte and endothelial cell migration, increased…",
+        "value": "Randomized controlled trial, humans, n=73, 2010: Thymosin beta 4 (Tbeta4), a synthetic copy of the naturally occurring 43 amino-acid peptide, has been found to have wound healing and anti-inflammatory properties, and is thought to exert its therapeutic effect through promotion of keratinocyte and endothelial cell migration, increased collagen deposition, and stimulation of angiogenesis.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-20536470"
@@ -314,7 +314,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Thymosin beta 4 (Tbeta4), a synthetic copy of the naturally occurring 43 amino-acid peptide, has been found to have wound healing and anti-inflammatory properties, and is thought to exert its therapeutic effect through…"
+          "outcome": "Thymosin beta 4 (Tbeta4), a synthetic copy of the naturally occurring 43 amino-acid peptide, has been found to have wound healing and anti-inflammatory properties, and is thought to exert its therapeutic effect through promotion of keratinocyte and endothelial cell migration, increased collagen deposition, and stimulation of angiogenesis."
         }
       },
       {
@@ -358,7 +358,7 @@
         }
       },
       {
-        "value": "Human study, humans, 2026: Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1, thymosin beta-4, clusterin, interleukin-6, superoxide dismutase, and selected matrix…",
+        "value": "Human study, humans, 2026: Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1, thymosin beta-4, clusterin, interleukin-6, superoxide dismutase, and selected matrix metalloproteinases can be distinguished.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-41742019"
@@ -374,7 +374,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1,…"
+          "outcome": "Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1, thymosin beta-4, clusterin, interleukin-6, superoxide dismutase, and selected matrix metalloproteinases can be distinguished."
         }
       },
       {
@@ -394,7 +394,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "7 day; 28 days",
-          "outcome": "In a randomized, placebo-controlled, double-blind trial involving 96 STEMI patients, the infarcted areas were significantly reduced in the rhTB4 group, which received the first dose of rhTB4 within 8 h after PCI (n =…"
+          "outcome": "In a randomized, placebo-controlled, double-blind trial involving 96 STEMI patients, the infarcted areas were significantly reduced in the rhTB4 group, which received the first dose of rhTB4 within 8 h after PCI (n = 43), as compared to the placebo group at the 90-day follow-up."
         }
       },
       {
@@ -418,8 +418,8 @@
         }
       },
       {
-        "value": "Human study, humans, 2024: Tβ4 enhances adipose viability in AFG via facilitating ADSC proliferation and reducing apoptosis, and acts as a crucial positive regulator of ADSC-associated angiogenesis.",
-        "evidence_label": "observational-human",
+        "value": "In vitro study, human donor cells (adipose-derived stem cells), 2024: Tβ4 enhances adipose viability in AFG via facilitating ADSC proliferation and reducing apoptosis, and acts as a crucial positive regulator of ADSC-associated angiogenesis.",
+        "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-38409346"
         ],
@@ -428,9 +428,9 @@
         "fields": {
           "study": "Li 2024",
           "year": "2024",
-          "design": "Human study",
+          "design": "In vitro study",
           "n": null,
-          "species": "Humans",
+          "species": "Human donor cells, cultured",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
@@ -454,7 +454,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "7 days; 28 days",
-          "outcome": "Lower Tβ4 stages were correlated with poor prognosis, including AKI(odds ratio [OR], 2.102 per stage lower; 95% confidence interval [CI], 1.448 to 3.050; P Conclusions Lower Tβ4 stages are associated with higher odds…"
+          "outcome": "Lower Tβ4 stages were correlated with poor prognosis, including AKI(odds ratio [OR], 2.102 per stage lower; 95% confidence interval [CI], 1.448 to 3.050; P Conclusions Lower Tβ4 stages are associated with higher odds of poor prognosis in ICU patients with sepsis."
         }
       },
       {
@@ -478,7 +478,7 @@
         }
       },
       {
-        "value": "Animal study, rats, 2026: Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters…",
+        "value": "Animal study, rats, 2026: Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters and extracellular matrix organization during early Achilles tendon repair, with TB-500 additionally demonstrating a significant biomechanical advantage at four weeks.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42542926"
@@ -494,7 +494,7 @@
           "dose": "60 µg/kg/day",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat…"
+          "outcome": "Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters and extracellular matrix organization during early Achilles tendon repair, with TB-500 additionally demonstrating a significant biomechanical advantage at four weeks."
         }
       },
       {
@@ -514,7 +514,7 @@
           "dose": "not stated in abstract",
           "route": "oral",
           "duration": "not stated in abstract",
-          "outcome": "Conversely, oral administration of recombinant human Tβ4 (rhTβ4) significantly improved survival, alleviated body weight loss, reduced epithelial injury, and suppressed inflammatory cytokine production in both…"
+          "outcome": "Conversely, oral administration of recombinant human Tβ4 (rhTβ4) significantly improved survival, alleviated body weight loss, reduced epithelial injury, and suppressed inflammatory cytokine production in both prophylactic and therapeutic colitis models."
         }
       },
       {
@@ -554,7 +554,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Adjunctive Tβ4 + ciprofloxacin treatment markedly improved visual acuity and contrast sensitivity and significantly enhanced corneal sensitivity and nerve regeneration compared with PBS, Tβ4, and ciprofloxacin…"
+          "outcome": "Adjunctive Tβ4 + ciprofloxacin treatment markedly improved visual acuity and contrast sensitivity and significantly enhanced corneal sensitivity and nerve regeneration compared with PBS, Tβ4, and ciprofloxacin monotherapies."
         }
       },
       {
@@ -674,7 +674,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Furthermore, single-cell sequencing revealed a distinct subset of pro-inflammatory and pro-fibrotic corneal epithelial cells in the dry eye model, while glutamine treatment downregulated those subclusters, thereby…"
+          "outcome": "Furthermore, single-cell sequencing revealed a distinct subset of pro-inflammatory and pro-fibrotic corneal epithelial cells in the dry eye model, while glutamine treatment downregulated those subclusters, thereby reducing their inflammatory cytokine secretion."
         }
       }
     ],
@@ -721,9 +721,9 @@
     "candidate_papers_by_tier": {
       "approved-label": 0,
       "human-clinical-trial": 13,
-      "observational-human": 7,
+      "observational-human": 6,
       "animal-preclinical": 24,
-      "mechanistic-in-vitro": 8,
+      "mechanistic-in-vitro": 9,
       "review": 0,
       "unclassified": 2
     },
@@ -1214,6 +1214,14 @@
     {
       "date": "2026-10-12",
       "change": "Added a TB-500 dosage calculator beneath the dosage chart, with a link to the full calculator page. That page has no units chart, and says why: every published dose of TB-500 is given per kilogram, which does not convert to a person's dose by arithmetic."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Corrected a mislabel: the 2024 study of thymosin beta 4 on adipose-derived stem cells (pmid-38409346) was listed as an observational human study. It is a cell-culture study using cells from liposuction donors, and is now labelled as in vitro."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 14 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

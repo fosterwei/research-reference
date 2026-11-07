@@ -66,6 +66,76 @@
         "drafting": "extractive"
       }
     ],
+    "protocol": [
+      {
+        "value": "Two ascending-dose trials in healthy adults, 2006, first trial: CJC-1295 or placebo was administered sc in one of four ascending single doses.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "CJC-1295 or placebo was administered sc in one of four ascending single doses in the first study and in two or three weekly or biweekly doses in the second study.",
+        "fields": {
+          "phase": "single",
+          "dose": "four ascending single doses; amounts not stated in this sentence",
+          "frequency": "single dose",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "population": "Healthy adults"
+        }
+      },
+      {
+        "value": "Two ascending-dose trials in healthy adults, 2006, second trial: CJC-1295 or placebo was administered sc in two or three weekly or biweekly doses.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "CJC-1295 or placebo was administered sc in one of four ascending single doses in the first study and in two or three weekly or biweekly doses in the second study.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "two or three doses; amount per dose not stated in this sentence",
+          "frequency": "weekly or biweekly",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "population": "Healthy adults"
+        }
+      },
+      {
+        "value": "Two ascending-dose trials in healthy adults, 2006: CJC-1295 was relatively well tolerated, particularly at doses of 30 or 60 microg/kg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-16352683"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Subcutaneous administration of CJC-1295 resulted in sustained, dose-dependent increases in GH and IGF-I levels in healthy adults and was safe and relatively well tolerated, particularly at doses of 30 or 60 microg/kg.",
+        "fields": {
+          "phase": "single",
+          "dose": "30 or 60 microg/kg",
+          "frequency": "not stated in abstract for these doses",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "population": "Healthy adults"
+        }
+      },
+      {
+        "value": "GH pulsatility study, 2006: a single injection of either 60 or 90 microg/kg CJC-1295, with overnight sampling before and 1 week after.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17018654"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "GH pulsatility was assessed by 20-min blood sampling during an overnight 12-h period in healthy 20- to 40-yr-old men before and 1 wk after injection of either 60 or 90 microg/kg CJC-1295.",
+        "fields": {
+          "phase": "single",
+          "dose": "60 or 90 microg/kg",
+          "frequency": "single injection",
+          "route": "injection; route not stated in this sentence",
+          "duration": "single dose, sampled 1 week later",
+          "population": "Healthy men aged 20 to 40"
+        }
+      }
+    ],
     "escalation_schedules": [],
     "interactions": [],
     "exclusion_criteria": [],
@@ -138,7 +208,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, swine, 2022: Co-extraction and analysis of several different peptides such as insulins (human, lispro, aspart, glulisine, tresiba, detemir, glargine, bovine insulin and porcine insulin), growth hormone releasing hormones (sermorelin, CJC-1295 and tesamorelin), insulin-like growth factors (long-R 3 -IGF-I, R 3 -IGF-I and…",
+        "value": "Animal study, swine, 2022: Co-extraction and analysis of several different peptides such as insulins (human, lispro, aspart, glulisine, tresiba, detemir, glargine, bovine insulin and porcine insulin), growth hormone releasing hormones (sermorelin, CJC-1295 and tesamorelin), insulin-like growth factors (long-R 3 -IGF-I, R 3 -IGF-I and Des 1-3 -IGF-I) and mechano growth factors (human MGF and MGF-Goldspink) with criteria that fulfil the requirements of the WADA documents (TD2022 MRPL) for doping controls.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-38716080"
@@ -403,7 +473,7 @@
         }
       },
       {
-        "value": "Animal study, mice, 2009: We report the surprising observation that mutant mice that selectively lack the M(3) muscarinic acetylcholine receptor subtype in the brain (neurons and glial cells; Br-M3-KO mice) showed a dwarf phenotype associated with a pronounced hypoplasia of the anterior pituitary gland and a marked decrease in pituitary…",
+        "value": "Animal study, mice, 2009: We report the surprising observation that mutant mice that selectively lack the M(3) muscarinic acetylcholine receptor subtype in the brain (neurons and glial cells; Br-M3-KO mice) showed a dwarf phenotype associated with a pronounced hypoplasia of the anterior pituitary gland and a marked decrease in pituitary and serum growth hormone (GH) and prolactin.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-19332789"
@@ -419,7 +489,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "We report the surprising observation that mutant mice that selectively lack the M(3) muscarinic acetylcholine receptor subtype in the brain (neurons and glial cells; Br-M3-KO mice) showed a dwarf phenotype associated…"
+          "outcome": "We report the surprising observation that mutant mice that selectively lack the M(3) muscarinic acetylcholine receptor subtype in the brain (neurons and glial cells; Br-M3-KO mice) showed a dwarf phenotype associated with a pronounced hypoplasia of the anterior pituitary gland and a marked decrease in pituitary and serum growth hormone (GH) and prolactin."
         }
       },
       {
@@ -463,7 +533,7 @@
         }
       },
       {
-        "value": "In vitro study, humans, 2026: The present study aimed to develop a robust nano-LC quadrupole/orbitrap mass spectrometry (nano-LC-Q/Orbitrap MS) method for both screening and confirmation analyses of GHRH and its synthetic analogs (sermorelin/CJC-1293, tesamorelin, and CJC-1295) and the primary metabolite of sermorelin in urine, in…",
+        "value": "In vitro study, humans, 2026: The present study aimed to develop a robust nano-LC quadrupole/orbitrap mass spectrometry (nano-LC-Q/Orbitrap MS) method for both screening and confirmation analyses of GHRH and its synthetic analogs (sermorelin/CJC-1293, tesamorelin, and CJC-1295) and the primary metabolite of sermorelin in urine, in accordance with WADA requirements.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-41138283"
@@ -483,7 +553,7 @@
         }
       },
       {
-        "value": "In vitro study, 2023: The present developed and validated method for some GHRHs (tesamorelin, CJC-1295, sermorelin (GRF 1-29), sermorelin (3-29)-NH 2 , somatorelin) is based on the triple quadrupole UHPLC/MS-MS method with solid phase extraction (SPE) with weak cation exchange and is able to detect concentrations as low as 0.2 ng/mL…",
+        "value": "In vitro study, 2023: The present developed and validated method for some GHRHs (tesamorelin, CJC-1295, sermorelin (GRF 1-29), sermorelin (3-29)-NH 2 , somatorelin) is based on the triple quadrupole UHPLC/MS-MS method with solid phase extraction (SPE) with weak cation exchange and is able to detect concentrations as low as 0.2 ng/mL (LOD), a limit of quantification (LOQ) at 0.6 ng/mL, and linearity across the range of 0.1 ng/mL to 1.2 ng/mL.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-37806509"
@@ -523,7 +593,7 @@
         }
       },
       {
-        "value": "In vitro study, 2022: The affinity profiles of CBD and carboxy-THC are significantly different from the profiles of synthetic GHR mimetics such as CJC-1295 or [D-Arg 1 -D-Phe 5 -D-Trp 7,9 -Leu 11 ]-Substance P peptides, which are the most common interferents; the cannabinoids promoted the GHR/GHS-R1a interaction, while the ghrelin…",
+        "value": "In vitro study, 2022: The affinity profiles of CBD and carboxy-THC are significantly different from the profiles of synthetic GHR mimetics such as CJC-1295 or [D-Arg 1 -D-Phe 5 -D-Trp 7,9 -Leu 11 ]-Substance P peptides, which are the most common interferents; the cannabinoids promoted the GHR/GHS-R1a interaction, while the ghrelin mimetics acted rather as competitive inhibitors.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-34736642"
@@ -539,7 +609,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "The affinity profiles of CBD and carboxy-THC are significantly different from the profiles of synthetic GHR mimetics such as CJC-1295 or [D-Arg 1 -D-Phe 5 -D-Trp 7,9 -Leu 11 ]-Substance P peptides, which are the most…"
+          "outcome": "The affinity profiles of CBD and carboxy-THC are significantly different from the profiles of synthetic GHR mimetics such as CJC-1295 or [D-Arg 1 -D-Phe 5 -D-Trp 7,9 -Leu 11 ]-Substance P peptides, which are the most common interferents; the cannabinoids promoted the GHR/GHS-R1a interaction, while the ghrelin mimetics acted rather as competitive inhibitors."
         }
       },
       {
@@ -563,7 +633,7 @@
         }
       },
       {
-        "value": "In vitro study, humans, 2016: The target analytes included Geref (Sermorelin), CJC-1293, CJC-1295, and Egrifta (Tesamorelin) as well as two metabolites of Geref and CJC-1293, which were captured from plasma samples using a polyclonal GHRH antibody in concert with protein A/G monolithic MSIA™ D.A.R.T.'S® (Disposable Automation Research…",
+        "value": "In vitro study, humans, 2016: The target analytes included Geref (Sermorelin), CJC-1293, CJC-1295, and Egrifta (Tesamorelin) as well as two metabolites of Geref and CJC-1293, which were captured from plasma samples using a polyclonal GHRH antibody in concert with protein A/G monolithic MSIA™ D.A.R.T.'S® (Disposable Automation Research Tips) prior to separation and detection.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-26879649"
@@ -926,6 +996,14 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-25."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: 4 regimens as studied in human trials. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 6 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

@@ -106,9 +106,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every CJC-1295 dose in the literature, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "CJC-1295 dosing protocol: what the trials gave",
       "boundary": "Every figure here is one a trial or study administered, by body weight. The figures that circulate on vendor pages were not taken from these trials and are not reproduced."
     },
     {
@@ -281,9 +281,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every CJC-1295 dose in the literature, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "CJC-1295 dosing protocol: what the trials gave",
       "boundary": "Every figure here is one a trial or study administered, by body weight. The figures that circulate on vendor pages were not taken from these trials and are not reproduced."
     },
     {
@@ -295,9 +295,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every CJC-1295 dose in the literature, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "CJC-1295 dosing protocol: what the trials gave",
       "boundary": "Every figure here is one a trial or study administered, by body weight. The figures that circulate on vendor pages were not taken from these trials and are not reproduced."
     },
     {
@@ -560,6 +560,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "adverse",
     "who",
     "biomarkers",

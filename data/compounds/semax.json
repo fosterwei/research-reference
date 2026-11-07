@@ -190,7 +190,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Human study, humans, n=58, 2015: It was found that the inclusion of semax in complex treatment of patients with psoriasis complicated by metabolic syndrome led to a decrease in the initially elevated serum levels of total cholesterol, triglycerides, LDL cholesterol and to an increase in the initially reduced levels of HDL cholesterol,…",
+        "value": "Human study, humans, n=58, 2015: It was found that the inclusion of semax in complex treatment of patients with psoriasis complicated by metabolic syndrome led to a decrease in the initially elevated serum levels of total cholesterol, triglycerides, LDL cholesterol and to an increase in the initially reduced levels of HDL cholesterol, in contrast to the standard treatment, which did not produce any statistically significant effect on the levels of total cholesterol, triglycerides, LDL cholesterol, and HDL cholesterol in the blood serum.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-27051926"
@@ -417,7 +417,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "10 days",
-          "outcome": "It was established that including of Semax in combined intensive therapy of acute ischemic stroke had some influence on the rate of restoration of the damaged neurological functions in terms of increasing the regress…"
+          "outcome": "It was established that including of Semax in combined intensive therapy of acute ischemic stroke had some influence on the rate of restoration of the damaged neurological functions in terms of increasing the regress of general cerebral and focal, especially motor disorders."
         }
       },
       {
@@ -441,7 +441,7 @@
         }
       },
       {
-        "value": "Human study, humans, n=58, 2015: It was found that the inclusion of semax in complex treatment of patients with psoriasis complicated by metabolic syndrome led to a decrease in the initially elevated serum levels of total cholesterol, triglycerides, LDL cholesterol and to an increase in the initially reduced levels of HDL cholesterol,…",
+        "value": "Human study, humans, n=58, 2015: It was found that the inclusion of semax in complex treatment of patients with psoriasis complicated by metabolic syndrome led to a decrease in the initially elevated serum levels of total cholesterol, triglycerides, LDL cholesterol and to an increase in the initially reduced levels of HDL cholesterol, in contrast to the standard treatment, which did not produce any statistically significant effect on the levels of total cholesterol, triglycerides, LDL cholesterol, and HDL cholesterol in the blood serum.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-27051926"
@@ -457,7 +457,7 @@
           "dose": "600 mg/day",
           "route": "intranasal",
           "duration": "10 days",
-          "outcome": "It was found that the inclusion of semax in complex treatment of patients with psoriasis complicated by metabolic syndrome led to a decrease in the initially elevated serum levels of total cholesterol, triglycerides,…"
+          "outcome": "It was found that the inclusion of semax in complex treatment of patients with psoriasis complicated by metabolic syndrome led to a decrease in the initially elevated serum levels of total cholesterol, triglycerides, LDL cholesterol and to an increase in the initially reduced levels of HDL cholesterol, in contrast to the standard treatment, which did not produce any statistically significant effect on the levels of total cholesterol, triglycerides, LDL cholesterol, and HDL cholesterol in the blood serum."
         }
       },
       {
@@ -637,7 +637,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Moreover, there were IC genes ( iL1b , iL6 , and Socs3 ) for PGP, as well as IC ( iL6 , Ccl3 , Socs3 , and Fos ) and NC genes ( Cplx2 , Neurod6 , and Ptk2b ) for PGPL, that significantly changed in expression levels…"
+          "outcome": "Moreover, there were IC genes ( iL1b , iL6 , and Socs3 ) for PGP, as well as IC ( iL6 , Ccl3 , Socs3 , and Fos ) and NC genes ( Cplx2 , Neurod6 , and Ptk2b ) for PGPL, that significantly changed in expression levels after peptide administration compared to Semax treatment under tMCAO conditions."
         }
       },
       {
@@ -657,7 +657,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Furthermore, both peptides upregulated the expression levels of many genes that displayed decreased expression after ARS, and vice versa, the MC peptides downregulated the expression levels of genes that were…"
+          "outcome": "Furthermore, both peptides upregulated the expression levels of many genes that displayed decreased expression after ARS, and vice versa, the MC peptides downregulated the expression levels of genes that were upregulated by ARS."
         }
       },
       {
@@ -677,7 +677,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "However, SEMAX, slightly but reliably, increased striatal dopamine when administered before MPTP treatment, which indicates that it is more effective as an inductor of endogenous neurotrophic factor secretion rather…"
+          "outcome": "However, SEMAX, slightly but reliably, increased striatal dopamine when administered before MPTP treatment, which indicates that it is more effective as an inductor of endogenous neurotrophic factor secretion rather than as an antioxidant."
         }
       },
       {
@@ -717,7 +717,7 @@
           "dose": "25 μg/kg",
           "route": "intranasal, intraperitoneal",
           "duration": "7 days; 21 days",
-          "outcome": "Administration of Mexidol or Semax was associated with preservation of the neuron number and neuronal expression of PGC-1α, stimulation of the nuclear translocation of PGC-1α, and increased contents of protein markers…"
+          "outcome": "Administration of Mexidol or Semax was associated with preservation of the neuron number and neuronal expression of PGC-1α, stimulation of the nuclear translocation of PGC-1α, and increased contents of protein markers for PGC-1α activation."
         }
       },
       {
@@ -797,7 +797,7 @@
           "dose": "200 μg/kg",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Deltalicin in a dose 100 μg/kg and Semax in a dose 200 μg/kg as well as sulodexide corrected lipid metabolism disorders: the content of total cholesterol, triglycerides, LDL, index of atherogenicity decreased and HDL…"
+          "outcome": "Deltalicin in a dose 100 μg/kg and Semax in a dose 200 μg/kg as well as sulodexide corrected lipid metabolism disorders: the content of total cholesterol, triglycerides, LDL, index of atherogenicity decreased and HDL concentration increased."
         }
       },
       {
@@ -1274,6 +1274,10 @@
     {
       "date": "2026-11-07",
       "change": "Dosing protocol section added under the widened content contract: two regimens as studied in human trials. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 8 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

@@ -32,7 +32,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, 1999: administration by intravenous, subcutaneous route reported. Serum GH concentrations in 24 h spontaneous GH profiles and during three 'clamp' studies: continuous GHRH(1-29)NH2 (60 ng/kg/minutes, subcutaneous infusion, 24 h); intermittent SS(1-14) withdrawal (20microg/m2/hour, intravenous…",
+        "value": "Randomized controlled trial, humans, 1999: administration by intravenous, subcutaneous route reported. Serum GH concentrations in 24 h spontaneous GH profiles and during three 'clamp' studies: continuous GHRH(1-29)NH2 (60 ng/kg/minutes, subcutaneous infusion, 24 h); intermittent SS(1-14) withdrawal (20microg/m2/hour, intravenous infusion, 3 h on/1 h off, 2-3 cycles over 8-12 h); intermittent SS and continuous GHRH combined (2-3 cycles over 8-12 h).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-10594518"
@@ -41,7 +41,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=10, 1997: administration by subcutaneous route reported. This hypothesis was tested by a single blind randomized placebo-controlled trial of 5 months duration, in which healthy elderly subjects (10 women, 9 men) self-administered sc nightly placebo for 4 weeks, followed by 16 weeks of…",
+        "value": "Randomized controlled trial, humans, n=10, 1997: administration by subcutaneous route reported. This hypothesis was tested by a single blind randomized placebo-controlled trial of 5 months duration, in which healthy elderly subjects (10 women, 9 men) self-administered sc nightly placebo for 4 weeks, followed by 16 weeks of [norleucine27]GHRH (1-29)-NH2 at a dose of 10 micrograms/kg.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-9360512"
@@ -50,7 +50,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Controlled clinical trial, humans, 1997: administration by intravenous route reported. Boluses of saline, hexarelin (1 microgram/kg), GHRH-(1-29)-NH2 (1 microgram/kg) or hexarelin plus GHRH-(1-29)-NH2 were administered intravenously 1 hour after the start of a 3-hour constant intravenous infusion of saline, SS(1-14) (20 micrograms/m2/h)…",
+        "value": "Controlled clinical trial, humans, 1997: administration by intravenous route reported. Boluses of saline, hexarelin (1 microgram/kg), GHRH-(1-29)-NH2 (1 microgram/kg) or hexarelin plus GHRH-(1-29)-NH2 were administered intravenously 1 hour after the start of a 3-hour constant intravenous infusion of saline, SS(1-14) (20 micrograms/m2/h) (SS20) or SS(1-14) (50 micrograms/m2/h) (SS50).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-9425393"
@@ -152,7 +152,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=10, 1997: durations stated: 5 months; 4 weeks; 16 weeks. This hypothesis was tested by a single blind randomized placebo-controlled trial of 5 months duration, in which healthy elderly subjects (10 women, 9 men) self-administered sc nightly placebo for 4 weeks, followed by 16 weeks of…",
+        "value": "Randomized controlled trial, humans, n=10, 1997: durations stated: 5 months; 4 weeks; 16 weeks. This hypothesis was tested by a single blind randomized placebo-controlled trial of 5 months duration, in which healthy elderly subjects (10 women, 9 men) self-administered sc nightly placebo for 4 weeks, followed by 16 weeks of [norleucine27]GHRH (1-29)-NH2 at a dose of 10 micrograms/kg.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-9360512"
@@ -249,7 +249,7 @@
         }
       },
       {
-        "value": "Controlled clinical trial, humans, 1997: Infusion of SS20 resulted in a significant reduction in the peak GH response to hexarelin, GHRH-(1-29)-NH2 or hexarelin plus GHRH-(1-29)-NH2 (P Conclusions This study shows that SS and hexarelin counteract their respective inhibitory and stimulatory action on GH secretion and provides further…",
+        "value": "Controlled clinical trial, humans, 1997: Infusion of SS20 resulted in a significant reduction in the peak GH response to hexarelin, GHRH-(1-29)-NH2 or hexarelin plus GHRH-(1-29)-NH2 (P Conclusions This study shows that SS and hexarelin counteract their respective inhibitory and stimulatory action on GH secretion and provides further evidence for their interaction in vivo.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-9425393"
@@ -265,7 +265,7 @@
           "dose": "not stated in abstract",
           "route": "intravenous",
           "duration": "not stated in abstract",
-          "outcome": "Infusion of SS20 resulted in a significant reduction in the peak GH response to hexarelin, GHRH-(1-29)-NH2 or hexarelin plus GHRH-(1-29)-NH2 (P Conclusions This study shows that SS and hexarelin counteract their…"
+          "outcome": "Infusion of SS20 resulted in a significant reduction in the peak GH response to hexarelin, GHRH-(1-29)-NH2 or hexarelin plus GHRH-(1-29)-NH2 (P Conclusions This study shows that SS and hexarelin counteract their respective inhibitory and stimulatory action on GH secretion and provides further evidence for their interaction in vivo."
         }
       },
       {
@@ -309,7 +309,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, 1996: The peak GH secretion rate following the first intravenous bolus of hexarelin was greater than that following the first bolus of GHRH-(1-29)-NH2 (P Conclusion This study shows that hexarelin is a potent GH secretagogue active after two successive doses; the magnitude of the GH response to the…",
+        "value": "Randomized controlled trial, humans, 1996: The peak GH secretion rate following the first intravenous bolus of hexarelin was greater than that following the first bolus of GHRH-(1-29)-NH2 (P Conclusion This study shows that hexarelin is a potent GH secretagogue active after two successive doses; the magnitude of the GH response to the second dose was influenced by the dosing interval.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-8762732"
@@ -325,7 +325,7 @@
           "dose": "not stated in abstract",
           "route": "intravenous",
           "duration": "not stated in abstract",
-          "outcome": "The peak GH secretion rate following the first intravenous bolus of hexarelin was greater than that following the first bolus of GHRH-(1-29)-NH2 (P Conclusion This study shows that hexarelin is a potent GH secretagogue…"
+          "outcome": "The peak GH secretion rate following the first intravenous bolus of hexarelin was greater than that following the first bolus of GHRH-(1-29)-NH2 (P Conclusion This study shows that hexarelin is a potent GH secretagogue active after two successive doses; the magnitude of the GH response to the second dose was influenced by the dosing interval."
         }
       },
       {
@@ -349,7 +349,7 @@
         }
       },
       {
-        "value": "Clinical trial, humans, n=8, 1994: Priming increased the plasma GH response to acute GHRH in all the children in this group (6.0 +/- 2.1 ng/ml to 18.0 +/- 5.4 ng/ml; p < 0.001); b) non-responders to priming (n = 8), whose GH responses to pharmacological and acute GHRH tests were also < 10 ng/ml, with 12-hour sleep secretion < 3…",
+        "value": "Clinical trial, humans, n=8, 1994: Priming increased the plasma GH response to acute GHRH in all the children in this group (6.0 +/- 2.1 ng/ml to 18.0 +/- 5.4 ng/ml; p < 0.001); b) non-responders to priming (n = 8), whose GH responses to pharmacological and acute GHRH tests were also < 10 ng/ml, with 12-hour sleep secretion < 3 ng/ml/min, but in whom priming with GH did not increase the plasma GH response (5.5 +/- 2.8 ng/ml to 6.2 +/- 2.9 ng/ml; p = NS).(ABSTRACT TRUNCATED AT 250 WORDS)",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-7735368"
@@ -365,7 +365,7 @@
           "dose": "not stated in abstract",
           "route": "intravenous, subcutaneous",
           "duration": "not stated in abstract",
-          "outcome": "Priming increased the plasma GH response to acute GHRH in all the children in this group (6.0 +/- 2.1 ng/ml to 18.0 +/- 5.4 ng/ml; p < 0.001); b) non-responders to priming (n = 8), whose GH responses to pharmacological…"
+          "outcome": "Priming increased the plasma GH response to acute GHRH in all the children in this group (6.0 +/- 2.1 ng/ml to 18.0 +/- 5.4 ng/ml; p < 0.001); b) non-responders to priming (n = 8), whose GH responses to pharmacological and acute GHRH tests were also < 10 ng/ml, with 12-hour sleep secretion < 3 ng/ml/min, but in whom priming with GH did not increase the plasma GH response (5.5 +/- 2.8 ng/ml to 6.2 +/- 2.9 ng/ml; p = NS).(ABSTRACT TRUNCATED AT 250 WORDS)"
         }
       },
       {
@@ -409,7 +409,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, 1994: Although the average rate of serum GH rise was similar after both 10 micrograms (2.05 (1.13-2.97) mU.l-1.min-1) and 100 micrograms of GHRH(1-29)NH2 (1.52 (0.69-2.35) mU.l-1.min-1; ANOVA F = 0.93, p = 0.35), the average rate of serum GH decline after peak GH was slower after the higher dose (10…",
+        "value": "Randomized controlled trial, humans, 1994: Although the average rate of serum GH rise was similar after both 10 micrograms (2.05 (1.13-2.97) mU.l-1.min-1) and 100 micrograms of GHRH(1-29)NH2 (1.52 (0.69-2.35) mU.l-1.min-1; ANOVA F = 0.93, p = 0.35), the average rate of serum GH decline after peak GH was slower after the higher dose (10 micrograms vs 100 micrograms: 0.65 (0.40-0.90) vs 0.37 (0.23-0.50) mU.l-1.min-1; ANOVA F = 5.14, p = 0.04), suggesting continued GH secretion.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-7921207"
@@ -425,7 +425,7 @@
           "dose": "not stated in abstract",
           "route": "intravenous",
           "duration": "not stated in abstract",
-          "outcome": "Although the average rate of serum GH rise was similar after both 10 micrograms (2.05 (1.13-2.97) mU.l-1.min-1) and 100 micrograms of GHRH(1-29)NH2 (1.52 (0.69-2.35) mU.l-1.min-1; ANOVA F = 0.93, p = 0.35), the average…"
+          "outcome": "Although the average rate of serum GH rise was similar after both 10 micrograms (2.05 (1.13-2.97) mU.l-1.min-1) and 100 micrograms of GHRH(1-29)NH2 (1.52 (0.69-2.35) mU.l-1.min-1; ANOVA F = 0.93, p = 0.35), the average rate of serum GH decline after peak GH was slower after the higher dose (10 micrograms vs 100 micrograms: 0.65 (0.40-0.90) vs 0.37 (0.23-0.50) mU.l-1.min-1; ANOVA F = 5.14, p = 0.04), suggesting continued GH secretion."
         }
       },
       {
@@ -509,7 +509,7 @@
         }
       },
       {
-        "value": "Human study, humans, n=5, 2001: GH pulsatility before estrogen replacement therapy (ERT) in these 5 patients was: X: 0.48 +/- 0.22, 0.38 +/- 0.17, 0.45 +/- 0.25 and 0.29 (at baseline, 1, 3 and 6 months respectively) and 2.74 +/- o 1.21; 3.48 +/- 1.32 (p > 0.05) 4.91 +/- 1.57 (p Comments and conclusions These results demonstrate that…",
+        "value": "Human study, humans, n=5, 2001: GH pulsatility before estrogen replacement therapy (ERT) in these 5 patients was: X: 0.48 +/- 0.22, 0.38 +/- 0.17, 0.45 +/- 0.25 and 0.29 (at baseline, 1, 3 and 6 months respectively) and 2.74 +/- o 1.21; 3.48 +/- 1.32 (p > 0.05) 4.91 +/- 1.57 (p Comments and conclusions These results demonstrate that transdermal estrogen therapy does not modify the pulsatility of growth hormone but it does increase the magnitude of response to the stimulus with GH-RH-1-29 proportional to the time of treatment.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-11816525"
@@ -525,7 +525,7 @@
           "dose": "not stated in abstract",
           "route": "intravenous, transdermal",
           "duration": "6 months",
-          "outcome": "GH pulsatility before estrogen replacement therapy (ERT) in these 5 patients was: X: 0.48 +/- 0.22, 0.38 +/- 0.17, 0.45 +/- 0.25 and 0.29 (at baseline, 1, 3 and 6 months respectively) and 2.74 +/- o 1.21; 3.48 +/- 1.32…"
+          "outcome": "GH pulsatility before estrogen replacement therapy (ERT) in these 5 patients was: X: 0.48 +/- 0.22, 0.38 +/- 0.17, 0.45 +/- 0.25 and 0.29 (at baseline, 1, 3 and 6 months respectively) and 2.74 +/- o 1.21; 3.48 +/- 1.32 (p > 0.05) 4.91 +/- 1.57 (p Comments and conclusions These results demonstrate that transdermal estrogen therapy does not modify the pulsatility of growth hormone but it does increase the magnitude of response to the stimulus with GH-RH-1-29 proportional to the time of treatment."
         }
       },
       {
@@ -889,6 +889,10 @@
     {
       "date": "2026-09-24",
       "change": "Hand curation: 7 alias-matched sources removed with 7 evidence rows and 4 claims. Flagged by the subject filter added to scripts/fetch_evidence.py the same day."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 9 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ]
 }

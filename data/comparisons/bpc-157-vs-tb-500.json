@@ -11,7 +11,7 @@
   "attributes": {
     "head_to_head": [
       {
-        "value": "Animal study, rats, 2026: Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters…",
+        "value": "Animal study, rats, 2026: Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters and extracellular matrix organization during early Achilles tendon repair, with TB-500 additionally demonstrating a significant biomechanical advantage at four weeks.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42542926"
@@ -81,6 +81,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-29."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 1 quotation that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "sides": [

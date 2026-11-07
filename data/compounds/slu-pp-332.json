@@ -92,7 +92,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Interestingly, SLU-PP-332 treatment promoted down-regulation of NOX4 and upregulation of SIRT1, PGC-1α, ERRα, FNDC5, Akt, and B-cell lymphoma 2 (Bcl-2) in myoblasts, reducing cytotoxicity, oxidative stress, and…"
+          "outcome": "Interestingly, SLU-PP-332 treatment promoted down-regulation of NOX4 and upregulation of SIRT1, PGC-1α, ERRα, FNDC5, Akt, and B-cell lymphoma 2 (Bcl-2) in myoblasts, reducing cytotoxicity, oxidative stress, and senescence, as well as increasing levels of reduced glutathione."
         }
       },
       {
@@ -112,7 +112,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "21 month; 8 weeks",
-          "outcome": "Remarkably, similar to CR, an 8-week treatment with a pan-ERR agonist reversed the age-related increases in albuminuria, podocyte loss, mitochondrial dysfunction, and inflammatory cytokines, via the cyclic GMP-AMP…"
+          "outcome": "Remarkably, similar to CR, an 8-week treatment with a pan-ERR agonist reversed the age-related increases in albuminuria, podocyte loss, mitochondrial dysfunction, and inflammatory cytokines, via the cyclic GMP-AMP synthase-STING and STAT3 signaling pathways."
         }
       },
       {
@@ -232,7 +232,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "While SLU-PP-332 remains a strong benchmark for ERR activation, several analogues achieve comparable or context-dependent transcriptional responses while exhibiting improved ligand efficiency, solubility, or metabolic…"
+          "outcome": "While SLU-PP-332 remains a strong benchmark for ERR activation, several analogues achieve comparable or context-dependent transcriptional responses while exhibiting improved ligand efficiency, solubility, or metabolic stability."
         }
       }
     ],
@@ -474,6 +474,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-25."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 3 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

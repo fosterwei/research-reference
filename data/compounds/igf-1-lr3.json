@@ -332,7 +332,7 @@
         }
       },
       {
-        "value": "Animal study, sheep, n=8, 2021: Fetal heart, adrenal gland, and spleen weights were higher ( P P P P NEW & NOTEWORTHY After a 1-wk infusion of LR3 IGF-1, late gestation fetal sheep had lower umbilical uptake rates of amino acids, lower fetal arterial amino acid and insulin concentrations, and lower fetal oxygen content; however, LR-3…",
+        "value": "Animal study, sheep, n=8, 2021: Fetal heart, adrenal gland, and spleen weights were higher ( P P P P NEW & NOTEWORTHY After a 1-wk infusion of LR3 IGF-1, late gestation fetal sheep had lower umbilical uptake rates of amino acids, lower fetal arterial amino acid and insulin concentrations, and lower fetal oxygen content; however, LR-3 IGF-1-treated fetuses were still able to effectively utilize the available nutrients and oxygen to support organ growth and myoblast proliferation.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-33427051"
@@ -348,7 +348,7 @@
           "dose": "not stated in abstract",
           "route": "intravenous",
           "duration": "1 wk",
-          "outcome": "Fetal heart, adrenal gland, and spleen weights were higher ( P P P P NEW & NOTEWORTHY After a 1-wk infusion of LR3 IGF-1, late gestation fetal sheep had lower umbilical uptake rates of amino acids, lower fetal arterial…"
+          "outcome": "Fetal heart, adrenal gland, and spleen weights were higher ( P P P P NEW & NOTEWORTHY After a 1-wk infusion of LR3 IGF-1, late gestation fetal sheep had lower umbilical uptake rates of amino acids, lower fetal arterial amino acid and insulin concentrations, and lower fetal oxygen content; however, LR-3 IGF-1-treated fetuses were still able to effectively utilize the available nutrients and oxygen to support organ growth and myoblast proliferation."
         }
       },
       {
@@ -528,7 +528,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "When infused for 1 week, oIGF-1 increased organ growth of the heart, kidney, spleen, and adrenal glands and stimulated skeletal myoblast proliferation compared to SAL without increasing muscle fractional synthetic rate…"
+          "outcome": "When infused for 1 week, oIGF-1 increased organ growth of the heart, kidney, spleen, and adrenal glands and stimulated skeletal myoblast proliferation compared to SAL without increasing muscle fractional synthetic rate or hindlimb muscle mass."
         }
       }
     ],
@@ -805,6 +805,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-25."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 2 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [
