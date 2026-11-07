@@ -34,7 +34,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2017: administration by oral route reported. Oral administration of HA-KPV-NPs encapsulated in a hydrogel (chitosan/alginate) exhibited a much stronger capacity to prevent mucosa damage and downregulate TNF-α, thus they showed a much better therapeutic efficacy against UC in a mouse model, compared with a…",
+        "value": "Animal study, mice, 2017: administration by oral route reported. Oral administration of HA-KPV-NPs encapsulated in a hydrogel (chitosan/alginate) exhibited a much stronger capacity to prevent mucosa damage and downregulate TNF-α, thus they showed a much better therapeutic efficacy against UC in a mouse model, compared with a KPV-NP/hydrogel system.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-28143741"
@@ -263,7 +263,7 @@
         }
       },
       {
-        "value": "Animal study, mice, 2026: In healthy melanocytes, NLRP3 expression is upregulated when subjected to oxidative stress, along with an increase in the E3 ligase β-TrCP1, which enhances the K27-linked ubiquitination of NLRP3 and further strengthens its binding to the autophagy receptor protein NDP52, thus effectively suppressing the…",
+        "value": "Animal study, mice, 2026: In healthy melanocytes, NLRP3 expression is upregulated when subjected to oxidative stress, along with an increase in the E3 ligase β-TrCP1, which enhances the K27-linked ubiquitination of NLRP3 and further strengthens its binding to the autophagy receptor protein NDP52, thus effectively suppressing the excessive inflammatory response.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-40935835"
@@ -279,7 +279,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "In healthy melanocytes, NLRP3 expression is upregulated when subjected to oxidative stress, along with an increase in the E3 ligase β-TrCP1, which enhances the K27-linked ubiquitination of NLRP3 and further strengthens…"
+          "outcome": "In healthy melanocytes, NLRP3 expression is upregulated when subjected to oxidative stress, along with an increase in the E3 ligase β-TrCP1, which enhances the K27-linked ubiquitination of NLRP3 and further strengthens its binding to the autophagy receptor protein NDP52, thus effectively suppressing the excessive inflammatory response."
         }
       },
       {
@@ -303,7 +303,7 @@
         }
       },
       {
-        "value": "Animal study, mice, 2024: Furthermore, treating by NPs revealed a notable reduction of the expressions of CD68 and CD3, restoring the expression levels of tight junction proteins (Claudin-5, Occludin-1, and ZO-1) were significantly restored, surpassing those observed in the KPV and FK506 groups. which indicated that NPs can reduce…",
+        "value": "Animal study, mice, 2024: Furthermore, treating by NPs revealed a notable reduction of the expressions of CD68 and CD3, restoring the expression levels of tight junction proteins (Claudin-5, Occludin-1, and ZO-1) were significantly restored, surpassing those observed in the KPV and FK506 groups. which indicated that NPs can reduce inflammation and enhance epithelial barrier integrity by decreasing the infiltration of macrophages and T-lymphocytes.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-39211778"
@@ -319,7 +319,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Furthermore, treating by NPs revealed a notable reduction of the expressions of CD68 and CD3, restoring the expression levels of tight junction proteins (Claudin-5, Occludin-1, and ZO-1) were significantly restored,…"
+          "outcome": "Furthermore, treating by NPs revealed a notable reduction of the expressions of CD68 and CD3, restoring the expression levels of tight junction proteins (Claudin-5, Occludin-1, and ZO-1) were significantly restored, surpassing those observed in the KPV and FK506 groups. which indicated that NPs can reduce inflammation and enhance epithelial barrier integrity by decreasing the infiltration of macrophages and T-lymphocytes."
         }
       },
       {
@@ -962,6 +962,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-25."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 3 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

@@ -19,7 +19,7 @@
   "attributes": {
     "routes_studied": [
       {
-        "value": "Randomized controlled trial, humans, n=725, 2026: administration by subcutaneous route reported. In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related…",
+        "value": "Randomized controlled trial, humans, n=725, 2026: administration by subcutaneous route reported. In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to receive once-weekly survodutide administered subcutaneously at a dose adjusted up to 3.6 mg or 6.0 mg or placebo, in addition to counseling for lifestyle modification.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42253238"
@@ -439,7 +439,7 @@
     ],
     "biomarkers_monitored": [
       {
-        "value": "Randomized controlled trial, humans, n=725, 2026: In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to…",
+        "value": "Randomized controlled trial, humans, n=725, 2026: In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to receive once-weekly survodutide administered subcutaneously at a dose adjusted up to 3.6 mg or 6.0 mg or placebo, in addition to counseling for lifestyle modification.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42253238"
@@ -552,7 +552,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=50, 2024: durations stated: 75 years; 16 weeks. This Phase II, multicentre, randomised, double-blind, parallel-group, placebo-controlled study, conducted in clinical research centres, assessed survodutide in participants aged 18-75 years with type 2 diabetes, an HbA 1c level of 53-86 mmol/mol…",
+        "value": "Randomized controlled trial, humans, n=50, 2024: durations stated: 75 years; 16 weeks. This Phase II, multicentre, randomised, double-blind, parallel-group, placebo-controlled study, conducted in clinical research centres, assessed survodutide in participants aged 18-75 years with type 2 diabetes, an HbA 1c level of 53-86 mmol/mol (7.0-10.0%) and a BMI of 25-50 kg/m 2 on a background of metformin therapy.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-38095657"
@@ -573,7 +573,7 @@
     ],
     "evidence_table": [
       {
-        "value": "Randomized controlled trial, humans, n=725, 2026: At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the 6.0-mg group, and -5.4% (95% CI, -6.9 to -4.0) in the placebo group;…",
+        "value": "Randomized controlled trial, humans, n=725, 2026: At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the 6.0-mg group, and -5.4% (95% CI, -6.9 to -4.0) in the placebo group; 72.6%, 71.9% and 46.3% of the participants, respectively, had weight reduction of at least 5% (P Conclusions Survodutide led to significantly greater reductions in body weight than placebo in adults with obesity without diabetes.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42253238"
@@ -589,7 +589,7 @@
           "dose": "3.6 mg",
           "route": "subcutaneous",
           "duration": "not stated in abstract",
-          "outcome": "At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the…"
+          "outcome": "At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the 6.0-mg group, and -5.4% (95% CI, -6.9 to -4.0) in the placebo group; 72.6%, 71.9% and 46.3% of the participants, respectively, had weight reduction of at least 5% (P Conclusions Survodutide led to significantly greater reductions in body weight than placebo in adults with obesity without diabetes."
         }
       },
       {
@@ -629,7 +629,7 @@
           "dose": "6.0 mg",
           "route": "subcutaneous",
           "duration": "not stated in abstract",
-          "outcome": "In total, 84.2% of survodutide-treated patients versus 24.3% of placebo-treated patients had ≥30% reduction in LFC using the efficacy estimand (P < 0.0001; treatment regimen estimand: 68.5% versus 28.6%, respectively;…"
+          "outcome": "In total, 84.2% of survodutide-treated patients versus 24.3% of placebo-treated patients had ≥30% reduction in LFC using the efficacy estimand (P < 0.0001; treatment regimen estimand: 68.5% versus 28.6%, respectively; P < 0.0001)."
         }
       },
       {
@@ -689,7 +689,7 @@
           "dose": "not stated in abstract",
           "route": "subcutaneous",
           "duration": "not stated in abstract",
-          "outcome": "Mean haemoglobin A1c was 5.5%, estimated glomerular filtration rate 93.0 mL/min/1.73 m 2 , systolic/diastolic blood pressure 127.0/82.7 mmHg, and low-density lipoprotein cholesterol 116.4 mg/dL; 21.8% were taking…"
+          "outcome": "Mean haemoglobin A1c was 5.5%, estimated glomerular filtration rate 93.0 mL/min/1.73 m 2 , systolic/diastolic blood pressure 127.0/82.7 mmHg, and low-density lipoprotein cholesterol 116.4 mg/dL; 21.8% were taking lipid-lowering drugs."
         }
       },
       {
@@ -829,7 +829,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Consistent with the hypothesis that the intake suppressive effects of survodutide are GLP-1R dependent, a long-acting GCGR agonist did not induce neuronal activation in satiety-mediating regions, nor reduced food…"
+          "outcome": "Consistent with the hypothesis that the intake suppressive effects of survodutide are GLP-1R dependent, a long-acting GCGR agonist did not induce neuronal activation in satiety-mediating regions, nor reduced food intake but showed reduction in body weight."
         }
       },
       {
@@ -853,7 +853,7 @@
         }
       },
       {
-        "value": "Animal study, mice, 2025: Significant bodyweight reductions were not observed with BI 1820237 alone in diet-induced obese mice, however combination with survodutide led to bodyweight reduction of 22% which was significantly (p Conclusion Synergistic NPY2R and GCGR/GLP-1R agonism provides an attractive mode of action for clinically…",
+        "value": "Animal study, mice, 2025: Significant bodyweight reductions were not observed with BI 1820237 alone in diet-induced obese mice, however combination with survodutide led to bodyweight reduction of 22% which was significantly (p Conclusion Synergistic NPY2R and GCGR/GLP-1R agonism provides an attractive mode of action for clinically relevant weight loss in patients with obesity.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-40619099"
@@ -869,11 +869,11 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Significant bodyweight reductions were not observed with BI 1820237 alone in diet-induced obese mice, however combination with survodutide led to bodyweight reduction of 22% which was significantly (p Conclusion…"
+          "outcome": "Significant bodyweight reductions were not observed with BI 1820237 alone in diet-induced obese mice, however combination with survodutide led to bodyweight reduction of 22% which was significantly (p Conclusion Synergistic NPY2R and GCGR/GLP-1R agonism provides an attractive mode of action for clinically relevant weight loss in patients with obesity."
         }
       },
       {
-        "value": "Animal study, rats, mice, 2024: Upon acute dosing in lean mice, target engagement biomarkers for the GCGR and GLP-1R demonstrated a significant correlation (Spearman correlation coefficient with p Conclusions Survodutide was selected as the clinical candidate based on its balanced dual GCGR/GLP-1R pharmacology, engaging the GCGR for…",
+        "value": "Animal study, rats, mice, 2024: Upon acute dosing in lean mice, target engagement biomarkers for the GCGR and GLP-1R demonstrated a significant correlation (Spearman correlation coefficient with p Conclusions Survodutide was selected as the clinical candidate based on its balanced dual GCGR/GLP-1R pharmacology, engaging the GCGR for robust body weight-lowering efficacy exceeding that of selective GLP-1R agonists, while achieving antidiabetic efficacy that was comparable to selective GLP-1R agonism.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-38560764"
@@ -889,7 +889,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Upon acute dosing in lean mice, target engagement biomarkers for the GCGR and GLP-1R demonstrated a significant correlation (Spearman correlation coefficient with p Conclusions Survodutide was selected as the clinical…"
+          "outcome": "Upon acute dosing in lean mice, target engagement biomarkers for the GCGR and GLP-1R demonstrated a significant correlation (Spearman correlation coefficient with p Conclusions Survodutide was selected as the clinical candidate based on its balanced dual GCGR/GLP-1R pharmacology, engaging the GCGR for robust body weight-lowering efficacy exceeding that of selective GLP-1R agonists, while achieving antidiabetic efficacy that was comparable to selective GLP-1R agonism."
         }
       },
       {
@@ -1272,6 +1272,10 @@
     {
       "date": "2026-11-07",
       "change": "Practical protocol rewritten for action: each step now leads with what to do and when, in weeks, followed by why and its basis; a week-by-week schedule sits above the steps; escalation length, the allowance to delay or step down, and visit spacing are now cited from the full texts of SYNCHRONIZE-MASLD and the phase 3 design paper."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 9 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

@@ -15,7 +15,7 @@
   "attributes": {
     "routes_studied": [
       {
-        "value": "Animal study, rats, n=10, 2026: administration by oral, subcutaneous route reported. In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group) to evaluate sexual behavior, sperm quality, serum…",
+        "value": "Animal study, rats, n=10, 2026: administration by oral, subcutaneous route reported. In Phase 1, fifty rats were randomized into control, sham, paroxetine (20 mg/kg/day via oral gavage), humanin (1 mg/kg/day via subcutaneous infusion), and paroxetine + humanin groups (n = 10/group) to evaluate sexual behavior, sperm quality, serum hormones, and dopaminergic activity within the nucleus accumbens (NAc) and medial preoptic area (MPOA).",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42480246"
@@ -122,7 +122,7 @@
     ],
     "biomarkers_monitored": [
       {
-        "value": "Randomized controlled trial, humans, n=12, 2026: Brain structural changes were assessed using magnetic resonance imaging (MRI), and blood samples were analyzed for Humanin (HN), Fibroblast Growth Factor 21 (FGF21), Growth Differentiation Factor 15 (GDF-15), Brain-Derived Neurotrophic Factor (BDNF), and Insulin-like Growth Factor 1…",
+        "value": "Randomized controlled trial, humans, n=12, 2026: Brain structural changes were assessed using magnetic resonance imaging (MRI), and blood samples were analyzed for Humanin (HN), Fibroblast Growth Factor 21 (FGF21), Growth Differentiation Factor 15 (GDF-15), Brain-Derived Neurotrophic Factor (BDNF), and Insulin-like Growth Factor 1 (IGF-1) as well as oxidative and inflammation biomarkers.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-41975304"
@@ -140,7 +140,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=15, 2025: This study examined whether combined aerobic and resistance training (CT) and astaxanthin (AST) supplementation synergistically improve oxidant and inflammatory status as well as metabolic indices in T2DM, focusing on the mediatory role of Humanin (HN) and microRNAs (miRNA-122,…",
+        "value": "Randomized controlled trial, humans, n=15, 2025: This study examined whether combined aerobic and resistance training (CT) and astaxanthin (AST) supplementation synergistically improve oxidant and inflammatory status as well as metabolic indices in T2DM, focusing on the mediatory role of Humanin (HN) and microRNAs (miRNA-122, miRNA-126-3p, and miRNA-146a).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-41249265"
@@ -366,7 +366,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Results- In the screening stage, 1012 differentially methylated CpG sites annotated in 672 genes were found to be significantly associated with large-artery atherosclerotic stroke (mean methylation difference >5%, P…"
+          "outcome": "Results- In the screening stage, 1012 differentially methylated CpG sites annotated in 672 genes were found to be significantly associated with large-artery atherosclerotic stroke (mean methylation difference >5%, P -14 )."
         }
       },
       {
@@ -386,7 +386,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "In AMD cybrids, HNG protected the AMD mitochondria, reduced pro-apoptosis gene and protein levels, upregulated gp130 (a component of the HN receptor complex), and increased the protection against amyloid-β-induced…"
+          "outcome": "In AMD cybrids, HNG protected the AMD mitochondria, reduced pro-apoptosis gene and protein levels, upregulated gp130 (a component of the HN receptor complex), and increased the protection against amyloid-β-induced damage."
         }
       },
       {
@@ -410,7 +410,7 @@
         }
       },
       {
-        "value": "Human study, humans, 2026: DHQ adjunctive therapy reduced serum circulating mitochondrial DNA levels in patients with CLF, increased serum SOD2 and Humanin expression, inhibited activation of the NLRP3-mediated pyroptotic pathway, improved remission rates of decompensated complications, and showed favorable safety and tolerability in…",
+        "value": "Human study, humans, 2026: DHQ adjunctive therapy reduced serum circulating mitochondrial DNA levels in patients with CLF, increased serum SOD2 and Humanin expression, inhibited activation of the NLRP3-mediated pyroptotic pathway, improved remission rates of decompensated complications, and showed favorable safety and tolerability in patients with end-stage liver diseases.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-42630864"
@@ -426,7 +426,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "DHQ adjunctive therapy reduced serum circulating mitochondrial DNA levels in patients with CLF, increased serum SOD2 and Humanin expression, inhibited activation of the NLRP3-mediated pyroptotic pathway, improved…"
+          "outcome": "DHQ adjunctive therapy reduced serum circulating mitochondrial DNA levels in patients with CLF, increased serum SOD2 and Humanin expression, inhibited activation of the NLRP3-mediated pyroptotic pathway, improved remission rates of decompensated complications, and showed favorable safety and tolerability in patients with end-stage liver diseases."
         }
       },
       {
@@ -486,7 +486,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Serum humanin concentrations were significantly elevated in breast cancer patients compared with healthy controls (p Conclusion These findings suggest that humanin could serve as a promising biomarker for breast cancer…"
+          "outcome": "Serum humanin concentrations were significantly elevated in breast cancer patients compared with healthy controls (p Conclusion These findings suggest that humanin could serve as a promising biomarker for breast cancer screening and early detection."
         }
       },
       {
@@ -626,7 +626,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "4 weeks",
-          "outcome": "The results showed that high dose HNG at 4 weeks after first injection (WAFI) was associated with the largest change in gene expression in the RPE and retina of treated animals, altering expression of genes involved in…"
+          "outcome": "The results showed that high dose HNG at 4 weeks after first injection (WAFI) was associated with the largest change in gene expression in the RPE and retina of treated animals, altering expression of genes involved in apoptosis, oxidative stress, inflammation and retinal/RPE function."
         }
       },
       {
@@ -1235,6 +1235,10 @@
     {
       "date": "2026-10-12",
       "change": "Added a Humanin dosage calculator beneath the dosage chart, with a link to the full calculator page. That page has no units chart, and says why: every published dose of Humanin is given per kilogram, which does not convert to a person's dose by arithmetic."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 8 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

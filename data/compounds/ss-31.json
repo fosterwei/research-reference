@@ -64,7 +64,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=30, 2020: administration by subcutaneous route reported. This study aims to evaluate the effect of subcutaneous (SC) elamipretide dosing on exercise performance using the 6 min walk test (6MWT), patient-reported outcomes measuring fatigue, functional assessments, and safety to guide the development…",
+        "value": "Randomized controlled trial, humans, n=30, 2020: administration by subcutaneous route reported. This study aims to evaluate the effect of subcutaneous (SC) elamipretide dosing on exercise performance using the 6 min walk test (6MWT), patient-reported outcomes measuring fatigue, functional assessments, and safety to guide the development of the Phase 3 trial.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-32096613"
@@ -102,7 +102,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Phase 3 clinical trial, humans, n=8, 2022: doses stated in the abstract: 40 mg daily. A phase 3, observational, retrospective, and non-interventional study was designed to establish a natural history control (NHC) cohort of patients with Barth syndrome (BTHS) to provide further analysis of the efficacy of elamipretide observed in an…",
+        "value": "Phase 3 clinical trial, humans, n=8, 2022: doses stated in the abstract: 40 mg daily. A phase 3, observational, retrospective, and non-interventional study was designed to establish a natural history control (NHC) cohort of patients with Barth syndrome (BTHS) to provide further analysis of the efficacy of elamipretide observed in an open-label extension (OLE) phase of the TAZPOWER trial, a clinical trial that tested the efficacy of 40 mg daily of elamipretide in patients with BTHS.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-36056411"
@@ -136,6 +136,204 @@
         ],
         "source_excerpt": "On day of life (DOL) 34, therapy with daily IV elamipretide (0.25 mg/kg increased to 0.5 mg/kg on DOL39) began, followed by standard-of-care oral heart failure medications.",
         "drafting": "extractive"
+      }
+    ],
+    "protocol": [
+      {
+        "value": "Phase 3 MMPOWER-3, n=218, 2023: participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37268435"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "After screening, eligible participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "40 mg",
+          "frequency": "once daily",
+          "route": "subcutaneous",
+          "duration": "24 weeks",
+          "population": "Adults with primary mitochondrial myopathy, n=218"
+        }
+      },
+      {
+        "value": "MMPOWER-3, full text, 2023: 40 mg/d was self-administered subcutaneously by trained participants or their caregivers, at rotating sites around 4 quadrants of the abdomen or the thighs.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37268435"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Study drug or placebo was self-administered subcutaneously by trained participants or their caregivers, at rotating sites around 4 quadrants of the abdomen or the thighs.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "40 mg",
+          "frequency": "once daily",
+          "route": "subcutaneous, self-administered, rotating sites in 4 quadrants of the abdomen or the thighs",
+          "duration": "24 weeks",
+          "population": "Adults with primary mitochondrial myopathy"
+        }
+      },
+      {
+        "value": "Crossover trial MMPOWER-2, n=30, 2020: 40 mg/day SC elamipretide for 4 weeks followed by placebo SC for 4 weeks, separated by a 4-week washout period, or the opposite sequence.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32096613"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Participants were randomly assigned (1:1) to 40 mg/day SC elamipretide for 4 weeks followed by placebo SC for 4 weeks, separated by a 4-week washout period, or the opposite sequence.",
+        "fields": {
+          "phase": "cycle",
+          "dose": "40 mg",
+          "frequency": "once daily",
+          "route": "subcutaneous",
+          "duration": "4 weeks on elamipretide, 4-week washout, 4 weeks on placebo (or the reverse)",
+          "population": "Adults with primary mitochondrial myopathy, n=30"
+        }
+      },
+      {
+        "value": "TAZPOWER, part 1, n=12, 2021: 40 mg per day of elamipretide or placebo for 12 weeks, followed by a 4-week washout and then 12 weeks on the opposite arm.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33077895"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "In part 1, 12 subjects were randomized to 40 mg per day of elamipretide or placebo for 12 weeks, followed by a 4-week washout and then 12 weeks on the opposite arm.",
+        "fields": {
+          "phase": "cycle",
+          "dose": "40 mg",
+          "frequency": "per day",
+          "route": "not stated in abstract",
+          "duration": "12 weeks on each arm, separated by a 4-week washout",
+          "population": "People with Barth syndrome, n=12"
+        }
+      },
+      {
+        "value": "TAZPOWER open-label extension, 2024: after the 28-week randomized trial, patients entering the 168-week OLE continued elamipretide 40 mg subcutaneous daily.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38602181"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "TAZPOWER was a 28-week randomized, double-blind, and placebo-controlled trial followed by a 168-week OLE. Patients entering the OLE continued elamipretide 40 mg subcutaneous daily.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "40 mg",
+          "frequency": "daily",
+          "route": "subcutaneous",
+          "duration": "up to 168 weeks",
+          "population": "People with Barth syndrome who entered the open-label extension"
+        }
+      },
+      {
+        "value": "Expanded-access case report, newborn with Barth syndrome, 2025: daily IV elamipretide began at 0.25 mg/kg on day of life 34.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39917770"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "On day of life (DOL) 34, therapy with daily IV elamipretide (0.25 mg/kg increased to 0.5 mg/kg on DOL39) began, followed by standard-of-care oral heart failure medications.",
+        "fields": {
+          "phase": "start",
+          "dose": "0.25 mg/kg",
+          "frequency": "daily",
+          "route": "intravenous",
+          "duration": "day of life 34 to 39",
+          "population": "One newborn with Barth syndrome, expanded access"
+        }
+      },
+      {
+        "value": "Expanded-access case report, newborn with Barth syndrome, 2025: the IV dose was increased to 0.5 mg/kg on day of life 39.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39917770"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "On day of life (DOL) 34, therapy with daily IV elamipretide (0.25 mg/kg increased to 0.5 mg/kg on DOL39) began, followed by standard-of-care oral heart failure medications.",
+        "fields": {
+          "phase": "step",
+          "dose": "0.5 mg/kg",
+          "frequency": "daily",
+          "route": "intravenous",
+          "duration": "from day of life 39",
+          "population": "One newborn with Barth syndrome, expanded access"
+        }
+      },
+      {
+        "value": "Expanded-access case report, full text, 2025: the infant was discharged home on subcutaneous elamipretide 0.5 mg/kg/day.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-39917770"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "The patient was discharged home on DOL61 on subcutaneous elamipretide 0.5 mg/kg/day, captopril 0.3 mg/kg, carvedilol 0.3 mg/kg, spironolactone 1.5 mg/kg, and furosemide 3 mg.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "0.5 mg/kg",
+          "frequency": "per day",
+          "route": "subcutaneous",
+          "duration": "from discharge on day of life 61",
+          "population": "One newborn with Barth syndrome, expanded access"
+        }
+      },
+      {
+        "value": "Every subcutaneous elamipretide trial in the record gave 40 mg once a day from the first dose: MMPOWER-2, MMPOWER-3 and TAZPOWER with its open-label extension. None titrated, so no starting or escalation dose is stated in any source.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-37268435",
+          "pmid-32096613",
+          "pmid-33077895",
+          "pmid-38602181"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "1",
+          "weeks": "every day",
+          "action": "Inject 40 mg under the skin once a day.",
+          "dose": "40 mg",
+          "frequency": "once daily",
+          "route": "subcutaneous"
+        }
+      },
+      {
+        "value": "MMPOWER-3 measured its endpoints after 24 weeks of 40 mg a day and found no improvement in primary mitochondrial myopathy; in Barth syndrome the 12-week randomized phase was also negative, and the gains were reported during the open-label extension, which ran up to 168 weeks.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-37268435",
+          "pmid-33077895",
+          "pmid-38602181"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "2",
+          "weeks": "week 24",
+          "action": "Reassess at 24 weeks."
+        }
+      },
+      {
+        "value": "MMPOWER-3 participants or their caregivers self-injected at rotating sites around 4 quadrants of the abdomen or the thighs.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-37268435"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Rotate the injection site around the four quadrants of the abdomen or the thighs."
+        }
+      },
+      {
+        "value": "Injection site reactions were the most common adverse events in MMPOWER-2, TAZPOWER and its extension, mostly mild; in MMPOWER-2 most who had them did so on the first administration, and in TAZPOWER they led two patients to stop.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-32096613",
+          "pmid-33077895",
+          "pmid-38602181"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Expect redness, itching or pain where you inject, often from the first dose."
+        }
       }
     ],
     "escalation_schedules": [
@@ -233,7 +431,7 @@
     ],
     "biomarkers_monitored": [
       {
-        "value": "Randomized controlled trial, humans, n=218, 2023: Between the participants receiving elamipretide and those receiving placebo, the difference in the least squares mean (SE) from baseline to week 24 on distance walked on the 6MWT was -3.2 (95% CI -18.7 to 12.3; p = 0.69) meters, and on the PMMSA, the total fatigue score was -0.07 (95% CI…",
+        "value": "Randomized controlled trial, humans, n=218, 2023: Between the participants receiving elamipretide and those receiving placebo, the difference in the least squares mean (SE) from baseline to week 24 on distance walked on the 6MWT was -3.2 (95% CI -18.7 to 12.3; p = 0.69) meters, and on the PMMSA, the total fatigue score was -0.07 (95% CI -0.10 to 0.26; p = 0.37).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-37268435"
@@ -383,7 +581,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=12, 2024: durations stated: 52 week; 52 weeks. This phase II, prospective, randomized, vehicle-controlled, single-center clinical trial involved administration of elamipretide 1% topical ophthalmic solution to patients with LHON over a 52-week double-masked treatment period, followed by an…",
+        "value": "Randomized controlled trial, humans, n=12, 2024: durations stated: 52 week; 52 weeks. This phase II, prospective, randomized, vehicle-controlled, single-center clinical trial involved administration of elamipretide 1% topical ophthalmic solution to patients with LHON over a 52-week double-masked treatment period, followed by an open-label extension (OLE) for up to 108 additional weeks of treatment.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-37923251"
@@ -401,7 +599,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Clinical trial, humans, 2023: durations stated: 12 years. In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in younger patients is limited and to our knowledge, these are the…",
+        "value": "Clinical trial, humans, 2023: durations stated: 12 years. In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in younger patients is limited and to our knowledge, these are the first case reports on the safety and efficacy of elamipretide treatment in children under 12 years of age.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-36636586"
@@ -570,7 +768,7 @@
         }
       },
       {
-        "value": "Clinical trial, humans, 2023: In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in younger patients is limited and to our knowledge, these are the first case reports on the…",
+        "value": "Clinical trial, humans, 2023: In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in younger patients is limited and to our knowledge, these are the first case reports on the safety and efficacy of elamipretide treatment in children under 12 years of age.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-36636586"
@@ -586,7 +784,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "12 years",
-          "outcome": "In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in…"
+          "outcome": "In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in younger patients is limited and to our knowledge, these are the first case reports on the safety and efficacy of elamipretide treatment in children under 12 years of age."
         }
       },
       {
@@ -606,7 +804,7 @@
           "dose": "40 mg daily",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Significant improvements in muscle strength (secondary endpoint), as assessed by handheld dynamometry (HHD) were also observed with elamipretide, with LS mean differences of 40.8 Newtons at 64 weeks (P = 0.0002) and…"
+          "outcome": "Significant improvements in muscle strength (secondary endpoint), as assessed by handheld dynamometry (HHD) were also observed with elamipretide, with LS mean differences of 40.8 Newtons at 64 weeks (P = 0.0002) and 56.7 Newtons at 76 weeks (P = 0.0005)."
         }
       },
       {
@@ -666,7 +864,7 @@
           "dose": "40 mg/day",
           "route": "subcutaneous",
           "duration": "4 weeks; 4 week",
-          "outcome": "Participants who received a short-course treatment of daily SC elamipretide for 4 weeks experienced a clinically meaningful change in the 6MWT, which did not achieve statistical significance as the primary endpoint of…"
+          "outcome": "Participants who received a short-course treatment of daily SC elamipretide for 4 weeks experienced a clinically meaningful change in the 6MWT, which did not achieve statistical significance as the primary endpoint of the study."
         }
       },
       {
@@ -806,7 +1004,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Mechanistically, single-cell transcriptome analysis reveals that SS-31 increased the maternal mRNA degradation, and the levels of genes associated with mitochondrial function and mitophagy in aged oocytes, such as…"
+          "outcome": "Mechanistically, single-cell transcriptome analysis reveals that SS-31 increased the maternal mRNA degradation, and the levels of genes associated with mitochondrial function and mitophagy in aged oocytes, such as Pink1, Rps27a, Tomm7 and Map1lc3b."
         }
       },
       {
@@ -866,7 +1064,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "SS-31 pretreatment attenuated eGC degradation, reduced neuroinflammation, and restored PSD-95 levels, suggesting its potential protective role. eGC degradation is a key intermediary linking systemic inflammation to…"
+          "outcome": "SS-31 pretreatment attenuated eGC degradation, reduced neuroinflammation, and restored PSD-95 levels, suggesting its potential protective role. eGC degradation is a key intermediary linking systemic inflammation to neuroinflammation and cognitive decline in aged rats."
         }
       },
       {
@@ -1365,6 +1563,14 @@
     {
       "date": "2026-10-12",
       "change": "Added a SS-31 dosage calculator beneath the dosage chart, with a link to the full calculator page, which charts syringe units for the doses studies of SS-31 actually used."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: 8 regimens as studied in human trials, and a 2-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 10 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

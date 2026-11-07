@@ -51,7 +51,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=12, 2012: administration by intravenous route reported. A total of 22 patients diagnosed with sarcoidosis and symptoms of SFN were enrolled in a double-blind, placebo-controlled exploratory trial consisting of three times weekly intravenous dosing of ARA 290 (2 mg; n = 12) or placebo (n = 10) for 4…",
+        "value": "Randomized controlled trial, humans, n=12, 2012: administration by intravenous route reported. A total of 22 patients diagnosed with sarcoidosis and symptoms of SFN were enrolled in a double-blind, placebo-controlled exploratory trial consisting of three times weekly intravenous dosing of ARA 290 (2 mg; n = 12) or placebo (n = 10) for 4 wks.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-23168581"
@@ -60,7 +60,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2018: administration by subcutaneous route reported. Animals were treated daily with cibinetide (30μg/kg/s.c.) or vehicle and euthanized 3, 7, and 14days after the injury to quantitate vascular endothelial growth factor (VEGF), malondialdehyde (MAL), phospho-Akt (pAkt), phospho e-NOS (p-eNOS), and nitrite/nitrate…",
+        "value": "Animal study, mice, 2018: administration by subcutaneous route reported. Animals were treated daily with cibinetide (30μg/kg/s.c.) or vehicle and euthanized 3, 7, and 14days after the injury to quantitate vascular endothelial growth factor (VEGF), malondialdehyde (MAL), phospho-Akt (pAkt), phospho e-NOS (p-eNOS), and nitrite/nitrate content within the wound.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-29223734"
@@ -134,7 +134,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2018: doses stated in the abstract: 30μg/kg. Animals were treated daily with cibinetide (30μg/kg/s.c.) or vehicle and euthanized 3, 7, and 14days after the injury to quantitate vascular endothelial growth factor (VEGF), malondialdehyde (MAL), phospho-Akt (pAkt), phospho e-NOS (p-eNOS), and nitrite/nitrate content…",
+        "value": "Animal study, mice, 2018: doses stated in the abstract: 30μg/kg. Animals were treated daily with cibinetide (30μg/kg/s.c.) or vehicle and euthanized 3, 7, and 14days after the injury to quantitate vascular endothelial growth factor (VEGF), malondialdehyde (MAL), phospho-Akt (pAkt), phospho e-NOS (p-eNOS), and nitrite/nitrate content within the wound.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-29223734"
@@ -150,6 +150,136 @@
         ],
         "source_excerpt": "Recipients were given ARA 290 (120 μg/kg) intraperitoneally just before and at 0, 6, and 24 hours after PITx.",
         "drafting": "extractive"
+      }
+    ],
+    "protocol": [
+      {
+        "value": "Phase 2b sarcoidosis trial, n=64, 2017: cibinetide 1, 4 or 8 mg a day subcutaneously, compared with placebo, for 28 days; 4 mg met the primary endpoint. Cibinetide (1, 4, or 8 mg/day) was compared to placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28475703"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "This phase 2b, 28-day, randomized trial of 64 subjects with sarcoid-associated SNFL and neuropathic pain assessed the effect of cibinetide on corneal nerve fiber area (CNFA) and regenerating intraepidermal fibers (GAP-43+) as surrogate endpoints for disease modification, pain severity, and functional capacity (6-minute walk test [6MWT]). Methods Cibinetide (1, 4, or 8 mg/day) was compared to placebo.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "1, 4 or 8 mg",
+          "frequency": "once daily",
+          "route": "subcutaneous",
+          "duration": "28 days",
+          "population": "Adults with sarcoidosis-associated small nerve fiber loss and neuropathic pain, n=64"
+        }
+      },
+      {
+        "value": "Phase 2 type 2 diabetes trial, 2015: ARA 290 (4 mg) or placebo were self-administered subcutaneously daily for 28 d and the subjects followed for an additional month without further treatment.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-25387363"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "ARA 290 (4 mg) or placebo were self-administered subcutaneously daily for 28 d and the subjects followed for an additional month without further treatment.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "4 mg",
+          "frequency": "daily",
+          "route": "subcutaneous, self-administered",
+          "duration": "28 days, then one month of follow-up without treatment",
+          "population": "People with type 2 diabetes and painful neuropathy"
+        }
+      },
+      {
+        "value": "Phase 2 diabetic macular oedema trial, n=9, 2020: Patients self-administered cibinetide 4 mg/day subcutaneously for 12 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32674280"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Patients self-administered cibinetide 4 mg/day subcutaneously for 12 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "4 mg",
+          "frequency": "once daily",
+          "route": "subcutaneous, self-administered",
+          "duration": "12 weeks",
+          "population": "Patients with diabetic macular oedema, n=9"
+        }
+      },
+      {
+        "value": "Sarcoidosis trial, 2013: 28 days of daily subcutaneous administration of ARA 290; the dose is not stated in the abstract.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-24136731"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Here we show in a blinded, placebo-controlled trial that 28 d of daily subcutaneous administration of ARA 290 in a group of patients with documented SNFLD significantly improves neuropathic symptoms.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "not stated in abstract",
+          "frequency": "daily",
+          "route": "subcutaneous",
+          "duration": "28 days",
+          "population": "Patients with sarcoidosis-associated small nerve fiber loss and damage"
+        }
+      },
+      {
+        "value": "Exploratory sarcoidosis trial, n=22, 2012: three times weekly intravenous dosing of ARA 290 (2 mg) or placebo for 4 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-23168581"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "A total of 22 patients diagnosed with sarcoidosis and symptoms of SFN were enrolled in a double-blind, placebo-controlled exploratory trial consisting of three times weekly intravenous dosing of ARA 290 (2 mg; n = 12) or placebo (n = 10) for 4 wks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "2 mg",
+          "frequency": "three times weekly",
+          "route": "intravenous",
+          "duration": "4 weeks",
+          "population": "Patients with sarcoidosis and symptoms of small fiber neuropathy, n=22 (12 on ARA 290)"
+        }
+      },
+      {
+        "value": "4 mg a day was the only dose in the phase 2b sarcoidosis trial that met its primary endpoint at day 28, and the type 2 diabetes trial gave the same 4 mg daily for 28 days. No trial stepped the dose up; each gave its dose from the first day, so no starting or escalation dose is stated in any source.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-28475703",
+          "pmid-25387363"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "1",
+          "weeks": "1–4",
+          "action": "Inject 4 mg under the skin once a day.",
+          "dose": "4 mg",
+          "frequency": "once daily",
+          "route": "subcutaneous"
+        }
+      },
+      {
+        "value": "The 28-day trials ended treatment at day 28; the type 2 diabetes trial then followed participants for an additional month without further treatment.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-25387363",
+          "pmid-28475703"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "2",
+          "weeks": "after day 28",
+          "action": "Stop, and follow symptoms for a further month without treatment."
+        }
+      },
+      {
+        "value": "The diabetic macular oedema trial, in which patients self-administered 4 mg a day for 12 weeks, is the longest course in the record.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-32674280"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Treat 12 weeks of 4 mg a day as the longest course studied."
+        }
       }
     ],
     "escalation_schedules": [],
@@ -390,7 +520,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, 2018: weight-normalized doses as published: 30μg/kg. Animals were treated daily with cibinetide (30μg/kg/s.c.) or vehicle and euthanized 3, 7, and 14days after the injury to quantitate vascular endothelial growth factor (VEGF), malondialdehyde (MAL), phospho-Akt (pAkt), phospho e-NOS (p-eNOS), and nitrite/nitrate…",
+        "value": "Animal study, mice, 2018: weight-normalized doses as published: 30μg/kg. Animals were treated daily with cibinetide (30μg/kg/s.c.) or vehicle and euthanized 3, 7, and 14days after the injury to quantitate vascular endothelial growth factor (VEGF), malondialdehyde (MAL), phospho-Akt (pAkt), phospho e-NOS (p-eNOS), and nitrite/nitrate content within the wound.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-29223734"
@@ -419,7 +549,7 @@
     ],
     "evidence_table": [
       {
-        "value": "Clinical trial, humans, 2020: There was no improvement in mean change baseline-week 12 in BCVA (-2.9 + 5.0), CRT (10 + 94.6 microns), central retinal sensitivity (-0.53 + 1.9 dB) or tear production (-0.13 + 7.7 mm), but there was an improvement in National Eye Institute Visual Function Questionnaire (NEI VFQ-25) composite scores (2.7 +…",
+        "value": "Clinical trial, humans, 2020: There was no improvement in mean change baseline-week 12 in BCVA (-2.9 + 5.0), CRT (10 + 94.6 microns), central retinal sensitivity (-0.53 + 1.9 dB) or tear production (-0.13 + 7.7 mm), but there was an improvement in National Eye Institute Visual Function Questionnaire (NEI VFQ-25) composite scores (2.7 + 3.1).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-32674280"
@@ -435,7 +565,7 @@
           "dose": "4 mg/day",
           "route": "subcutaneous",
           "duration": "12 weeks",
-          "outcome": "There was no improvement in mean change baseline-week 12 in BCVA (-2.9 + 5.0), CRT (10 + 94.6 microns), central retinal sensitivity (-0.53 + 1.9 dB) or tear production (-0.13 + 7.7 mm), but there was an improvement in…"
+          "outcome": "There was no improvement in mean change baseline-week 12 in BCVA (-2.9 + 5.0), CRT (10 + 94.6 microns), central retinal sensitivity (-0.53 + 1.9 dB) or tear production (-0.13 + 7.7 mm), but there was an improvement in National Eye Institute Visual Function Questionnaire (NEI VFQ-25) composite scores (2.7 + 3.1)."
         }
       },
       {
@@ -655,7 +785,7 @@
           "dose": "30μg/kg",
           "route": "subcutaneous",
           "duration": "14 days",
-          "outcome": "Throughout the wound healing process diabetic animals treated with vehicle exhibited increased wound MAL with reduced VEGF, pAkt, peNOS and nitrite/nitrate, all associated with poor re-epitheliziation, angiogenesis,…"
+          "outcome": "Throughout the wound healing process diabetic animals treated with vehicle exhibited increased wound MAL with reduced VEGF, pAkt, peNOS and nitrite/nitrate, all associated with poor re-epitheliziation, angiogenesis, and wound breaking strength."
         }
       },
       {
@@ -715,7 +845,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "ARA 290 intervention suppressed lymphocyte proliferation and altered helper T cell differentiation by inducing increase of Foxp3+/CD4+ regulatory T cells and IL-4+/CD4+ Th2 cells and decrease of IFN-γ+/CD4+ Th1 cells…"
+          "outcome": "ARA 290 intervention suppressed lymphocyte proliferation and altered helper T cell differentiation by inducing increase of Foxp3+/CD4+ regulatory T cells and IL-4+/CD4+ Th2 cells and decrease of IFN-γ+/CD4+ Th1 cells in EAN."
         }
       },
       {
@@ -779,7 +909,7 @@
         }
       },
       {
-        "value": "In vitro study, humans, 2016: Several peptides <2 kDa with performance-enhancing properties are covered by the list of prohibited substances of the World Anti-Doping Agency including Desmopressin, LH-RH, Buserelin, Triptorelin, Leuprolide, GHRP-1, GHRP-2, GHRP-3, GHRP-4, GHRP-5,GHRP-6, Alexamorelin, Ipamorelin, Hexarelin, ARA-290,…",
+        "value": "In vitro study, humans, 2016: Several peptides <2 kDa with performance-enhancing properties are covered by the list of prohibited substances of the World Anti-Doping Agency including Desmopressin, LH-RH, Buserelin, Triptorelin, Leuprolide, GHRP-1, GHRP-2, GHRP-3, GHRP-4, GHRP-5,GHRP-6, Alexamorelin, Ipamorelin, Hexarelin, ARA-290, AOD-9604, TB-500 and Anamorelin.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-26578461"
@@ -1166,6 +1296,14 @@
     {
       "date": "2026-10-12",
       "change": "Added a ARA-290 dosage calculator beneath the dosage chart, with a link to the full calculator page, which charts syringe units for the doses studies of ARA-290 actually used."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: 5 regimens as studied in human trials, and a 2-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 8 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

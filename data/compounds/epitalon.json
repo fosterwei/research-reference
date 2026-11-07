@@ -16,7 +16,7 @@
   "attributes": {
     "routes_studied": [
       {
-        "value": "Randomized controlled trial, humans, n=100, 1999: administration by intramuscular route reported. The modality also included immunotherapy with epithalamin 100 mg, intramuscularly, neoadjuvant intraarterial polychemotherapy with 5-fluorouracil 2 g/m2 and cisplatin 100 mg/m2, concurrent radiotherapy with an interval and 4-6 courses of…",
+        "value": "Randomized controlled trial, humans, n=100, 1999: administration by intramuscular route reported. The modality also included immunotherapy with epithalamin 100 mg, intramuscularly, neoadjuvant intraarterial polychemotherapy with 5-fluorouracil 2 g/m2 and cisplatin 100 mg/m2, concurrent radiotherapy with an interval and 4-6 courses of adjuvant polychemotherapy.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-10532103"
@@ -25,7 +25,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Human study, humans, 2020: administration by oral route reported. Issues related to the immunopharmacological effect and clinical use of natural and synthetic peptide thymomimetics (thymalin, thymogen, vilon, epithalamin, cortexin) and peptide bioregulators from cartilaginous (sigumir, chondrolux) and other tissues in case of trauma, as…",
+        "value": "Human study, humans, 2020: administration by oral route reported. Issues related to the immunopharmacological effect and clinical use of natural and synthetic peptide thymomimetics (thymalin, thymogen, vilon, epithalamin, cortexin) and peptide bioregulators from cartilaginous (sigumir, chondrolux) and other tissues in case of trauma, as well as inflammatory, inflammatory and other pathological processes of tissues of the oral cavity and maxillofacial region.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-32362097"
@@ -52,7 +52,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, mice, n=54, 2003: administration by subcutaneous route reported. From the age of 3 months until their natural deaths, female outbred Swiss-derived SHR mice were subcutaneously injected on 5 consecutive days every month with 0.1 ml of normal saline (control) or with 1.0 microg/mouse (approximately 30-40 microg/kg) of…",
+        "value": "Animal study, mice, n=54, 2003: administration by subcutaneous route reported. From the age of 3 months until their natural deaths, female outbred Swiss-derived SHR mice were subcutaneously injected on 5 consecutive days every month with 0.1 ml of normal saline (control) or with 1.0 microg/mouse (approximately 30-40 microg/kg) of tetrapeptide Epitalon (Ala-Glu-Asp-Gly) dissolved in 0.1 ml saline.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-14501183"
@@ -212,7 +212,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 1999: The effects of a single-shot intraperitoneally administration of melatonin in a dose of 1 mg per kg body weight and epithalamin in a dose of 2.5 mg per kg body weight on the activities of Na+, K(+)-ATPase and 5'-nucleotidase were investigated in the forebrain of juvenile male white rats under the acute…",
+        "value": "Animal study, rats, 1999: The effects of a single-shot intraperitoneally administration of melatonin in a dose of 1 mg per kg body weight and epithalamin in a dose of 2.5 mg per kg body weight on the activities of Na+, K(+)-ATPase and 5'-nucleotidase were investigated in the forebrain of juvenile male white rats under the acute hypobaric hypoxia.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-10820844"
@@ -331,7 +331,7 @@
         }
       },
       {
-        "value": "Human study, humans, 2020: Issues related to the immunopharmacological effect and clinical use of natural and synthetic peptide thymomimetics (thymalin, thymogen, vilon, epithalamin, cortexin) and peptide bioregulators from cartilaginous (sigumir, chondrolux) and other tissues in case of trauma, as well as inflammatory, inflammatory and…",
+        "value": "Human study, humans, 2020: Issues related to the immunopharmacological effect and clinical use of natural and synthetic peptide thymomimetics (thymalin, thymogen, vilon, epithalamin, cortexin) and peptide bioregulators from cartilaginous (sigumir, chondrolux) and other tissues in case of trauma, as well as inflammatory, inflammatory and other pathological processes of tissues of the oral cavity and maxillofacial region.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-32362097"
@@ -387,7 +387,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "On the other hand, the rhythms of changes in the thymic serum factor and hydrocortisone were retained in patients with chronic coronary disease after 6 courses of epithalamin by the optimal protocol (period of…"
+          "outcome": "On the other hand, the rhythms of changes in the thymic serum factor and hydrocortisone were retained in patients with chronic coronary disease after 6 courses of epithalamin by the optimal protocol (period of observation 30 months) and blood T cell count increased in the fall."
         }
       },
       {
@@ -667,7 +667,7 @@
           "dose": "2.5 mg",
           "route": "intraperitoneal",
           "duration": "not stated in abstract",
-          "outcome": "The melatonin and epithalamin administration against the background of acute hypoxia prevented an acute hypoxia inducing decrease in the activity of Na+, K(+)-ATPase as well as increased in the activity of…"
+          "outcome": "The melatonin and epithalamin administration against the background of acute hypoxia prevented an acute hypoxia inducing decrease in the activity of Na+, K(+)-ATPase as well as increased in the activity of 5'-nucleotidase."
         }
       },
       {
@@ -687,7 +687,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Epitalon has been the subject of several anti-aging studies however, quantitative data on the biomolecular pathway leading to telomere length increase, hTERT mRNA expression, telomerase enzyme activity, and ALT…"
+          "outcome": "Epitalon has been the subject of several anti-aging studies however, quantitative data on the biomolecular pathway leading to telomere length increase, hTERT mRNA expression, telomerase enzyme activity, and ALT activation have not been extensively studied in different cell types."
         }
       },
       {
@@ -767,7 +767,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Exogenous short biologically active peptides epitalon (Ala-Glu-Asp-Gly), bronchogen (Ala-Glu-Asp-Leu), and vilon (Lys-Glu) at concentrations 10 -7 -10 -9 M significantly influence growth, development, and…"
+          "outcome": "Exogenous short biologically active peptides epitalon (Ala-Glu-Asp-Gly), bronchogen (Ala-Glu-Asp-Leu), and vilon (Lys-Glu) at concentrations 10 -7 -10 -9 M significantly influence growth, development, and differentiation of tobacco (Nicotiana tabacum) callus cultures."
         }
       },
       {
@@ -787,7 +787,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "As for epithalon, it appears that was shown a pronounced protective effect after treatment, on the test of chromosome aberrations, by reducing both overall mean frequency aberrant cells and indicators for all…"
+          "outcome": "As for epithalon, it appears that was shown a pronounced protective effect after treatment, on the test of chromosome aberrations, by reducing both overall mean frequency aberrant cells and indicators for all individuals."
         }
       }
     ],
@@ -1188,6 +1188,10 @@
     {
       "date": "2026-11-07",
       "change": "Dosing protocol section added under the widened content contract: one regimen as studied in a human trial. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 10 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

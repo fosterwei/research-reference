@@ -577,7 +577,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Using α-MSH human form as a standard, we could identify derivatives that induced greater physiological effects; particularly, the synthetic analogue melanotan-II (MT-II) exhibited a higher capacity for melanophore…"
+          "outcome": "Using α-MSH human form as a standard, we could identify derivatives that induced greater physiological effects; particularly, the synthetic analogue melanotan-II (MT-II) exhibited a higher capacity for melanophore dispersion than human α-MSH."
         }
       },
       {
@@ -617,7 +617,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Interestingly, the expression of the WT-hMC4R in mice revealed lower sensitivity of the human receptor to α-melanocyte-stimulating hormone (α-MSH) but not β-MSH or melanotan II, resulting in a lower penetrance obese…"
+          "outcome": "Interestingly, the expression of the WT-hMC4R in mice revealed lower sensitivity of the human receptor to α-melanocyte-stimulating hormone (α-MSH) but not β-MSH or melanotan II, resulting in a lower penetrance obese phenotype in the WT-hMC4R versus R165W-hMC4R mice."
         }
       },
       {
@@ -657,7 +657,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "By immunoblot and immunohistochemical analysis, it was found that MTII dose-dependently increased the phosphatase and tensin homolog (PTEN) protein level while reducing PTEN phosphorylation, which resulted in the…"
+          "outcome": "By immunoblot and immunohistochemical analysis, it was found that MTII dose-dependently increased the phosphatase and tensin homolog (PTEN) protein level while reducing PTEN phosphorylation, which resulted in the inhibition of AKT/nuclear factor kappa B (NFκB) signaling."
         }
       },
       {
@@ -1155,6 +1155,10 @@
     {
       "date": "2026-10-12",
       "change": "Added a Melanotan II dosage calculator beneath the dosage chart, with a link to the full calculator page. That page has no units chart, and says why: every published dose of Melanotan II is given per kilogram, which does not convert to a person's dose by arithmetic."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 3 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

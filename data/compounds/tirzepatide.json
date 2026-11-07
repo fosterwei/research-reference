@@ -33,7 +33,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=441, 2026: administration by subcutaneous route reported. After completing the initial weight-loss period with once weekly subcutaneous tirzepatide at the MTD (10 mg or 15 mg), adults (aged ≥18 years) with a BMI of 30 kg/m 2 and above or 27 kg/m 2 and above with one or more weight-related…",
+        "value": "Randomized controlled trial, humans, n=441, 2026: administration by subcutaneous route reported. After completing the initial weight-loss period with once weekly subcutaneous tirzepatide at the MTD (10 mg or 15 mg), adults (aged ≥18 years) with a BMI of 30 kg/m 2 and above or 27 kg/m 2 and above with one or more weight-related comorbidity, and a history of at least one self-reported unsuccessful dietary effort to lose bodyweight were randomly assigned in a 3:3:2 ratio to continue tirzepatide MTD, reduce to tirzepatide 5 mg, or switch to placebo for an additional 52 weeks.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42119587"
@@ -44,7 +44,7 @@
     ],
     "study_doses": [
       {
-        "value": "Randomized controlled trial, humans, 2026: doses stated in the abstract: 10 mg. These post hoc analyses examined data from two Phase 3 randomized, double-blind studies evaluating maximum tolerated dose (MTD) tirzepatide (10 mg or 15 mg) compared with placebo in adults with moderate-to-severe OSA (AHI ≥ 15 events/h) and obesity (BMI ≥ 30…",
+        "value": "Randomized controlled trial, humans, 2026: doses stated in the abstract: 10 mg. These post hoc analyses examined data from two Phase 3 randomized, double-blind studies evaluating maximum tolerated dose (MTD) tirzepatide (10 mg or 15 mg) compared with placebo in adults with moderate-to-severe OSA (AHI ≥ 15 events/h) and obesity (BMI ≥ 30 kg/m 2 ) over a 52-week period.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42675225"
@@ -71,7 +71,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=441, 2026: doses stated in the abstract: 10 mg; 5 mg. After completing the initial weight-loss period with once weekly subcutaneous tirzepatide at the MTD (10 mg or 15 mg), adults (aged ≥18 years) with a BMI of 30 kg/m 2 and above or 27 kg/m 2 and above with one or more weight-related comorbidity,…",
+        "value": "Randomized controlled trial, humans, n=441, 2026: doses stated in the abstract: 10 mg; 5 mg. After completing the initial weight-loss period with once weekly subcutaneous tirzepatide at the MTD (10 mg or 15 mg), adults (aged ≥18 years) with a BMI of 30 kg/m 2 and above or 27 kg/m 2 and above with one or more weight-related comorbidity, and a history of at least one self-reported unsuccessful dietary effort to lose bodyweight were randomly assigned in a 3:3:2 ratio to continue tirzepatide MTD, reduce to tirzepatide 5 mg, or switch to placebo for an additional 52 weeks.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42119587"
@@ -89,7 +89,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=63, 2026: doses stated in the abstract: 10 mg; 15 mg. Prespecified analyses assessed changes from baseline to Week 72 in HR-QoL using the Impact of Weight on Quality of Life-Lite-Clinical Trials Version (IWQOL-Lite-CT) and 36-Item Short-Form Health Survey Version 2.0 (SF-36v2), and assessed…",
+        "value": "Randomized controlled trial, humans, n=63, 2026: doses stated in the abstract: 10 mg; 15 mg. Prespecified analyses assessed changes from baseline to Week 72 in HR-QoL using the Impact of Weight on Quality of Life-Lite-Clinical Trials Version (IWQOL-Lite-CT) and 36-Item Short-Form Health Survey Version 2.0 (SF-36v2), and assessed subgroup differences by sex (male, female), baseline body mass index ( 2 ) and age ( Results Among 201 participants (tirzepatide 10 mg: n = 63; tirzepatide 15 mg: n = 69; placebo: n = 69), both tirzepatide doses significantly improved IWQOL-Lite-CT Physical Function composite, Physical composite, Psychosocial composite and Total scores and the SF-36v2 Physical Functioning domain score at Week 72 versus placebo.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42108080"
@@ -111,7 +111,7 @@
     ],
     "interactions": [
       {
-        "value": "Randomized controlled trial, humans, 2026: Overall, 27.1% of participants simultaneously achieved PASI 100 and a 10% or greater weight reduction with ixekizumab plus tirzepatide vs 5.8% with ixekizumab (risk difference [RD], 21.2%; 95% CI, 12.8%-29.7%; P Conclusions and relevance The trial results suggest that concomitant ixekizumab and…",
+        "value": "Randomized controlled trial, humans, 2026: Overall, 27.1% of participants simultaneously achieved PASI 100 and a 10% or greater weight reduction with ixekizumab plus tirzepatide vs 5.8% with ixekizumab (risk difference [RD], 21.2%; 95% CI, 12.8%-29.7%; P Conclusions and relevance The trial results suggest that concomitant ixekizumab and tirzepatide produced clinically meaningful, statistically significant improvements in skin clearance and reductions in weight in participants with moderate to severe psoriasis, with no new safety concerns, while providing additional cardiometabolic benefits and a potential to elevate care.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42139049"
@@ -149,7 +149,7 @@
     ],
     "exclusion_criteria": [
       {
-        "value": "Randomized controlled trial, humans, n=392, 2026: The aforementioned biomarkers were assayed from plasma samples, collected at baseline, 24 weeks, and 72 weeks, from 100 randomly selected participants from each group of the SURMOUNT-1 trial who completed treatment with once-weekly placebo or tirzepatide 5, 10, or 15 mg (n = 392 after…",
+        "value": "Randomized controlled trial, humans, n=392, 2026: The aforementioned biomarkers were assayed from plasma samples, collected at baseline, 24 weeks, and 72 weeks, from 100 randomly selected participants from each group of the SURMOUNT-1 trial who completed treatment with once-weekly placebo or tirzepatide 5, 10, or 15 mg (n = 392 after low sample volumes excluded).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42233927"
@@ -169,7 +169,7 @@
     ],
     "adverse_events": [
       {
-        "value": "Randomized controlled trial, humans, n=6,586, 2026: After a median (IQR) treatment duration of 46.9 (34.6-50.6) months, the primary cardiorenal end point occurred in 1559 tirzepatide-treated patients (23.7%) and 1803 dulaglutide-treated patients (27.4%; hazard ratio [HR], 0.84; 95% CI, 0.79-0.90; P Conclusions In this post hoc analysis,…",
+        "value": "Randomized controlled trial, humans, n=6,586, 2026: After a median (IQR) treatment duration of 46.9 (34.6-50.6) months, the primary cardiorenal end point occurred in 1559 tirzepatide-treated patients (23.7%) and 1803 dulaglutide-treated patients (27.4%; hazard ratio [HR], 0.84; 95% CI, 0.79-0.90; P Conclusions In this post hoc analysis, the dual GLP-1 and GIP agonist tirzepatide, compared with the GLP-1 agonist dulaglutide, was associated with a lower incidence of a broad 6-component composite cardiovascular and kidney end point in patients with diabetes and established cardiovascular disease.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-41903177"
@@ -187,7 +187,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=441, 2026: The primary estimand was the modified treatment-regimen estimand, which assumed that participants who initiated rescue tirzepatide would not have gained further benefit from their assigned study treatment and included all randomly allocated participants, regardless of treatment…",
+        "value": "Randomized controlled trial, humans, n=441, 2026: The primary estimand was the modified treatment-regimen estimand, which assumed that participants who initiated rescue tirzepatide would not have gained further benefit from their assigned study treatment and included all randomly allocated participants, regardless of treatment discontinuation or initiation of prohibited medications.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42119587"
@@ -225,7 +225,7 @@
     ],
     "biomarkers_monitored": [
       {
-        "value": "Randomized controlled trial, humans, 2026: Given that excess adiposity is a known risk factor for OSA, we aimed to descriptively assess the association of tirzepatide, a GIP/GLP-1 receptor agonist, with changes in AHI, hypoxic burden, body weight, and blood pressure in different patient populations based on baseline characteristics such…",
+        "value": "Randomized controlled trial, humans, 2026: Given that excess adiposity is a known risk factor for OSA, we aimed to descriptively assess the association of tirzepatide, a GIP/GLP-1 receptor agonist, with changes in AHI, hypoxic burden, body weight, and blood pressure in different patient populations based on baseline characteristics such as age, sex, BMI, AHI, and neck circumference.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42675225"
@@ -281,7 +281,7 @@
     ],
     "reported_timelines": [
       {
-        "value": "Randomized controlled trial, humans, 2026: After 16 weeks of treatment, compared with the MET group, the COM group resulted in greater reductions in weight (-1.7 ± 2.5 kg vs. -10.4 ± 3.5 kg; p 2 ; p 2 ; p Conclusions In overweight/obese women with PCOS, low-dose tirzepatide combined with MET was associated with greater reductions in…",
+        "value": "Randomized controlled trial, humans, 2026: After 16 weeks of treatment, compared with the MET group, the COM group resulted in greater reductions in weight (-1.7 ± 2.5 kg vs. -10.4 ± 3.5 kg; p 2 ; p 2 ; p Conclusions In overweight/obese women with PCOS, low-dose tirzepatide combined with MET was associated with greater reductions in body weight and visceral fat, along with improvements in metabolic and reproductive outcomes compared with MET monotherapy.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42236268"
@@ -311,7 +311,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=392, 2026: durations stated: 24 weeks; 72 weeks. The aforementioned biomarkers were assayed from plasma samples, collected at baseline, 24 weeks, and 72 weeks, from 100 randomly selected participants from each group of the SURMOUNT-1 trial who completed treatment with once-weekly placebo or…",
+        "value": "Randomized controlled trial, humans, n=392, 2026: durations stated: 24 weeks; 72 weeks. The aforementioned biomarkers were assayed from plasma samples, collected at baseline, 24 weeks, and 72 weeks, from 100 randomly selected participants from each group of the SURMOUNT-1 trial who completed treatment with once-weekly placebo or tirzepatide 5, 10, or 15 mg (n = 392 after low sample volumes excluded).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42233927"
@@ -338,7 +338,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, 2026: durations stated: 16 weeks. After 16 weeks of treatment, compared with the MET group, the COM group resulted in greater reductions in weight (-1.7 ± 2.5 kg vs. -10.4 ± 3.5 kg; p 2 ; p 2 ; p Conclusions In overweight/obese women with PCOS, low-dose tirzepatide combined with MET was associated…",
+        "value": "Randomized controlled trial, humans, 2026: durations stated: 16 weeks. After 16 weeks of treatment, compared with the MET group, the COM group resulted in greater reductions in weight (-1.7 ± 2.5 kg vs. -10.4 ± 3.5 kg; p 2 ; p 2 ; p Conclusions In overweight/obese women with PCOS, low-dose tirzepatide combined with MET was associated with greater reductions in body weight and visceral fat, along with improvements in metabolic and reproductive outcomes compared with MET monotherapy.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42236268"
@@ -406,7 +406,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, 2026: Across the trials, 32-38% vs 2-8% of tirzepatide-treated vs placebo-treated participants achieved ≥5% body weight reduction, systolic blood pressure reduction ≥5 mmHg, and non-HDL-C Conclusion In this post hoc analysis of SURMOUNT, more participants achieved the triple endpoint of body weight…",
+        "value": "Randomized controlled trial, humans, 2026: Across the trials, 32-38% vs 2-8% of tirzepatide-treated vs placebo-treated participants achieved ≥5% body weight reduction, systolic blood pressure reduction ≥5 mmHg, and non-HDL-C Conclusion In this post hoc analysis of SURMOUNT, more participants achieved the triple endpoint of body weight reduction thresholds, systolic blood pressure reduction ≥5 mmHg and non-HDL-C <130 mg/dL with tirzepatide vs placebo.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42594122"
@@ -422,11 +422,11 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Across the trials, 32-38% vs 2-8% of tirzepatide-treated vs placebo-treated participants achieved ≥5% body weight reduction, systolic blood pressure reduction ≥5 mmHg, and non-HDL-C Conclusion In this post hoc analysis…"
+          "outcome": "Across the trials, 32-38% vs 2-8% of tirzepatide-treated vs placebo-treated participants achieved ≥5% body weight reduction, systolic blood pressure reduction ≥5 mmHg, and non-HDL-C Conclusion In this post hoc analysis of SURMOUNT, more participants achieved the triple endpoint of body weight reduction thresholds, systolic blood pressure reduction ≥5 mmHg and non-HDL-C <130 mg/dL with tirzepatide vs placebo."
         }
       },
       {
-        "value": "Randomized controlled trial, humans, 2026: Overall, 27.1% of participants simultaneously achieved PASI 100 and a 10% or greater weight reduction with ixekizumab plus tirzepatide vs 5.8% with ixekizumab (risk difference [RD], 21.2%; 95% CI, 12.8%-29.7%; P Conclusions and relevance The trial results suggest that concomitant ixekizumab and…",
+        "value": "Randomized controlled trial, humans, 2026: Overall, 27.1% of participants simultaneously achieved PASI 100 and a 10% or greater weight reduction with ixekizumab plus tirzepatide vs 5.8% with ixekizumab (risk difference [RD], 21.2%; 95% CI, 12.8%-29.7%; P Conclusions and relevance The trial results suggest that concomitant ixekizumab and tirzepatide produced clinically meaningful, statistically significant improvements in skin clearance and reductions in weight in participants with moderate to severe psoriasis, with no new safety concerns, while providing additional cardiometabolic benefits and a potential to elevate care.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42139049"
@@ -442,7 +442,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Overall, 27.1% of participants simultaneously achieved PASI 100 and a 10% or greater weight reduction with ixekizumab plus tirzepatide vs 5.8% with ixekizumab (risk difference [RD], 21.2%; 95% CI, 12.8%-29.7%; P…"
+          "outcome": "Overall, 27.1% of participants simultaneously achieved PASI 100 and a 10% or greater weight reduction with ixekizumab plus tirzepatide vs 5.8% with ixekizumab (risk difference [RD], 21.2%; 95% CI, 12.8%-29.7%; P Conclusions and relevance The trial results suggest that concomitant ixekizumab and tirzepatide produced clinically meaningful, statistically significant improvements in skin clearance and reductions in weight in participants with moderate to severe psoriasis, with no new safety concerns, while providing additional cardiometabolic benefits and a potential to elevate care."
         }
       },
       {
@@ -466,7 +466,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, n=6,586, 2026: After a median (IQR) treatment duration of 46.9 (34.6-50.6) months, the primary cardiorenal end point occurred in 1559 tirzepatide-treated patients (23.7%) and 1803 dulaglutide-treated patients (27.4%; hazard ratio [HR], 0.84; 95% CI, 0.79-0.90; P Conclusions In this post hoc analysis,…",
+        "value": "Randomized controlled trial, humans, n=6,586, 2026: After a median (IQR) treatment duration of 46.9 (34.6-50.6) months, the primary cardiorenal end point occurred in 1559 tirzepatide-treated patients (23.7%) and 1803 dulaglutide-treated patients (27.4%; hazard ratio [HR], 0.84; 95% CI, 0.79-0.90; P Conclusions In this post hoc analysis, the dual GLP-1 and GIP agonist tirzepatide, compared with the GLP-1 agonist dulaglutide, was associated with a lower incidence of a broad 6-component composite cardiovascular and kidney end point in patients with diabetes and established cardiovascular disease.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-41903177"
@@ -482,11 +482,11 @@
           "dose": "15 mg",
           "route": "subcutaneous",
           "duration": "not stated in abstract",
-          "outcome": "After a median (IQR) treatment duration of 46.9 (34.6-50.6) months, the primary cardiorenal end point occurred in 1559 tirzepatide-treated patients (23.7%) and 1803 dulaglutide-treated patients (27.4%; hazard ratio…"
+          "outcome": "After a median (IQR) treatment duration of 46.9 (34.6-50.6) months, the primary cardiorenal end point occurred in 1559 tirzepatide-treated patients (23.7%) and 1803 dulaglutide-treated patients (27.4%; hazard ratio [HR], 0.84; 95% CI, 0.79-0.90; P Conclusions In this post hoc analysis, the dual GLP-1 and GIP agonist tirzepatide, compared with the GLP-1 agonist dulaglutide, was associated with a lower incidence of a broad 6-component composite cardiovascular and kidney end point in patients with diabetes and established cardiovascular disease."
         }
       },
       {
-        "value": "Randomized controlled trial, humans, n=190, 2026: At Week 72, the least-squares mean (LSM) percent change in body weight was significantly greater for tirzepatide (-20.1% [SE 0.76%]) versus semaglutide (-12.9% [0.74%]), with an LSM difference of -7.2 (95% CI = -9.3 to -5.1; p Conclusion In this subpopulation analysis, tirzepatide was…",
+        "value": "Randomized controlled trial, humans, n=190, 2026: At Week 72, the least-squares mean (LSM) percent change in body weight was significantly greater for tirzepatide (-20.1% [SE 0.76%]) versus semaglutide (-12.9% [0.74%]), with an LSM difference of -7.2 (95% CI = -9.3 to -5.1; p Conclusion In this subpopulation analysis, tirzepatide was associated with greater reductions in weight, BMI, and waist circumference than semaglutide in individuals with obesity disease.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42434924"
@@ -502,7 +502,7 @@
           "dose": "15 mg",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "At Week 72, the least-squares mean (LSM) percent change in body weight was significantly greater for tirzepatide (-20.1% [SE 0.76%]) versus semaglutide (-12.9% [0.74%]), with an LSM difference of -7.2 (95% CI = -9.3 to…"
+          "outcome": "At Week 72, the least-squares mean (LSM) percent change in body weight was significantly greater for tirzepatide (-20.1% [SE 0.76%]) versus semaglutide (-12.9% [0.74%]), with an LSM difference of -7.2 (95% CI = -9.3 to -5.1; p Conclusion In this subpopulation analysis, tirzepatide was associated with greater reductions in weight, BMI, and waist circumference than semaglutide in individuals with obesity disease."
         }
       },
       {
@@ -522,7 +522,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "In this post hoc analysis of the SURMOUNT-1 and SURMOUNT-2 trials, tirzepatide-treated participants with obesity or overweight in both ER and non-ER groups achieved clinically meaningful weight reduction and…"
+          "outcome": "In this post hoc analysis of the SURMOUNT-1 and SURMOUNT-2 trials, tirzepatide-treated participants with obesity or overweight in both ER and non-ER groups achieved clinically meaningful weight reduction and improvements in CRPs at Week 72."
         }
       },
       {
@@ -542,7 +542,7 @@
           "dose": "10 mg; 5 mg",
           "route": "subcutaneous",
           "duration": "24 weeks",
-          "outcome": "From Sept 20, 2023, to Jan 20, 2026, 441 patients were enrolled in and took at least one dose of study treatment during the weight-loss period, with 378 participants randomly allocated at week 60 (140 to tirzepatide…"
+          "outcome": "From Sept 20, 2023, to Jan 20, 2026, 441 patients were enrolled in and took at least one dose of study treatment during the weight-loss period, with 378 participants randomly allocated at week 60 (140 to tirzepatide MTD; 144 to dose-reduction to 5 mg tirzepatide; and 94 to placebo)."
         }
       },
       {
@@ -566,7 +566,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, 2026: After 16 weeks of treatment, compared with the MET group, the COM group resulted in greater reductions in weight (-1.7 ± 2.5 kg vs. -10.4 ± 3.5 kg; p 2 ; p 2 ; p Conclusions In overweight/obese women with PCOS, low-dose tirzepatide combined with MET was associated with greater reductions in…",
+        "value": "Randomized controlled trial, humans, 2026: After 16 weeks of treatment, compared with the MET group, the COM group resulted in greater reductions in weight (-1.7 ± 2.5 kg vs. -10.4 ± 3.5 kg; p 2 ; p 2 ; p Conclusions In overweight/obese women with PCOS, low-dose tirzepatide combined with MET was associated with greater reductions in body weight and visceral fat, along with improvements in metabolic and reproductive outcomes compared with MET monotherapy.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42236268"
@@ -582,7 +582,7 @@
           "dose": "5 mg once weekly",
           "route": "not stated in abstract",
           "duration": "16 weeks",
-          "outcome": "After 16 weeks of treatment, compared with the MET group, the COM group resulted in greater reductions in weight (-1.7 ± 2.5 kg vs. -10.4 ± 3.5 kg; p 2 ; p 2 ; p Conclusions In overweight/obese women with PCOS,…"
+          "outcome": "After 16 weeks of treatment, compared with the MET group, the COM group resulted in greater reductions in weight (-1.7 ± 2.5 kg vs. -10.4 ± 3.5 kg; p 2 ; p 2 ; p Conclusions In overweight/obese women with PCOS, low-dose tirzepatide combined with MET was associated with greater reductions in body weight and visceral fat, along with improvements in metabolic and reproductive outcomes compared with MET monotherapy."
         }
       },
       {
@@ -662,11 +662,11 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "In this subgroup analysis of SURPASS-SWITCH, switching to tirzepatide from dulaglutide was generally well-tolerated and associated with significant and consistent improvements in HbA1c and weight reductions versus…"
+          "outcome": "In this subgroup analysis of SURPASS-SWITCH, switching to tirzepatide from dulaglutide was generally well-tolerated and associated with significant and consistent improvements in HbA1c and weight reductions versus dulaglutide across all baseline subgroups evaluated."
         }
       },
       {
-        "value": "Randomized controlled trial, humans, 2026: Participants in the tirzepatide 5-, 10-, and 15-mg groups had a statistically significantly greater (all p Conclusions Once-weekly treatment with tirzepatide demonstrated significant reductions in body weight and prespecified cardiometabolic measures compared with placebo in Japanese adults…",
+        "value": "Randomized controlled trial, humans, 2026: Participants in the tirzepatide 5-, 10-, and 15-mg groups had a statistically significantly greater (all p Conclusions Once-weekly treatment with tirzepatide demonstrated significant reductions in body weight and prespecified cardiometabolic measures compared with placebo in Japanese adults with obesity or overweight.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-41612966"
@@ -682,7 +682,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Participants in the tirzepatide 5-, 10-, and 15-mg groups had a statistically significantly greater (all p Conclusions Once-weekly treatment with tirzepatide demonstrated significant reductions in body weight and…"
+          "outcome": "Participants in the tirzepatide 5-, 10-, and 15-mg groups had a statistically significantly greater (all p Conclusions Once-weekly treatment with tirzepatide demonstrated significant reductions in body weight and prespecified cardiometabolic measures compared with placebo in Japanese adults with obesity or overweight."
         }
       },
       {
@@ -782,7 +782,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "The primary outcomes include the reversal rate and time to remission (in months) of endometrial lesions, which are determined through endometrial pathology sampling every 3 months, as well as the percentage of weight…"
+          "outcome": "The primary outcomes include the reversal rate and time to remission (in months) of endometrial lesions, which are determined through endometrial pathology sampling every 3 months, as well as the percentage of weight reduction."
         }
       },
       {
@@ -1128,6 +1128,10 @@
     {
       "date": "2026-09-14",
       "change": "Claims drafted extractively from 28 ledger sources by scripts/draft_claims.py: 35 claims, 23 evidence-table rows."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 22 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ]
 }

@@ -74,7 +74,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 2002: In order to determine the effects of chronic treatment with the GHS Ipamorelin on the composition of the somatotroph cell population and on somatotroph GH content, an in vitro analysis was performed of the percentage of somatotroph cells (% of total), the ratio of different GH cell types…",
+        "value": "Animal study, rats, 2002: In order to determine the effects of chronic treatment with the GHS Ipamorelin on the composition of the somatotroph cell population and on somatotroph GH content, an in vitro analysis was performed of the percentage of somatotroph cells (% of total), the ratio of different GH cell types (strongly/weakly-staining) and individual GH content, in pituitary cell cultures obtained from young female rats receiving Ipamorelin over 21 days (Ipamorelin group) and the effects were compared with those of GHRH (GHRH group) or saline (saline group).",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-12168778"
@@ -270,6 +270,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-28."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 1 quotation that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "sides": [

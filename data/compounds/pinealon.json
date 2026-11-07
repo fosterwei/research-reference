@@ -86,7 +86,7 @@
     ],
     "evidence_table": [
       {
-        "value": "Human study, humans, 2016: In the monitoring process 110 representatives of different age groups held a comparative analysis of the efficacy and safety of several geroprotective techniques, including the use of dry carbon dioxide baths, hyperbaric oxygen therapy, therapeutic massage and receiving Oligopeptide preparations containing…",
+        "value": "Human study, humans, 2016: In the monitoring process 110 representatives of different age groups held a comparative analysis of the efficacy and safety of several geroprotective techniques, including the use of dry carbon dioxide baths, hyperbaric oxygen therapy, therapeutic massage and receiving Oligopeptide preparations containing complexes lysyl-glutamyl-asparagin and glutamyl-asparagin-arginine (Vezugen and Pinealon).",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-28539017"
@@ -122,11 +122,11 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "In geriatric practice, we recommend to apply the peptides Pinealon and Vesugen as geroprotectors anabolic neuroprotective and no antioxidant type for reducing the rate of aging in patients with the organic brain…"
+          "outcome": "In geriatric practice, we recommend to apply the peptides Pinealon and Vesugen as geroprotectors anabolic neuroprotective and no antioxidant type for reducing the rate of aging in patients with the organic brain syndrome vascular and/or traumatic genesis."
         }
       },
       {
-        "value": "Animal study, rats, 2012: This may be proved by the fact that the administration of pinealon to pregnant rats loaded with methionine improved their offspring spatial orientation and learning ability and decreased both reactive oxygen species accumulation and the number of necrotic cells in the population of the neurons isolated from the…",
+        "value": "Animal study, rats, 2012: This may be proved by the fact that the administration of pinealon to pregnant rats loaded with methionine improved their offspring spatial orientation and learning ability and decreased both reactive oxygen species accumulation and the number of necrotic cells in the population of the neurons isolated from the cerebellum of the offspring developed under the prenatal hyperhomocysteinemia.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-22567179"
@@ -142,7 +142,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "This may be proved by the fact that the administration of pinealon to pregnant rats loaded with methionine improved their offspring spatial orientation and learning ability and decreased both reactive oxygen species…"
+          "outcome": "This may be proved by the fact that the administration of pinealon to pregnant rats loaded with methionine improved their offspring spatial orientation and learning ability and decreased both reactive oxygen species accumulation and the number of necrotic cells in the population of the neurons isolated from the cerebellum of the offspring developed under the prenatal hyperhomocysteinemia."
         }
       },
       {
@@ -162,7 +162,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Because restriction of ROS accumulation and cell mortality is saturated at lower concentrations, whereas cell cycle modulation continues at higher concentrations of pinealon, one can conclude that besides its known…"
+          "outcome": "Because restriction of ROS accumulation and cell mortality is saturated at lower concentrations, whereas cell cycle modulation continues at higher concentrations of pinealon, one can conclude that besides its known antioxidant activity, pinealon is able to interact directly with the cell genome."
         }
       },
       {
@@ -441,6 +441,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-24."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 4 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

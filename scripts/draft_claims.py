@@ -378,7 +378,9 @@ def analyse(paper: dict, names: list[str], other_names: list[str] | None = None,
 
 
 def claim(p: dict, value: str, excerpt: str, extra: dict | None = None) -> dict:
-    c = {"value": clip(value), "evidence_label": p["tier"], "source_ids": [p["id"]],
+    # Never clip: the page quotes the excerpt in full, and a clipped value left
+    # 264 claims ending in "…" with the rest of the sentence already on file.
+    c = {"value": value, "evidence_label": p["tier"], "source_ids": [p["id"]],
          "source_excerpt": excerpt, "drafting": "extractive"}
     if extra:
         c.update(extra)
@@ -441,7 +443,7 @@ def draft_sections(papers: list[dict], names: list[str], other_names: list[str] 
                 "dose": "; ".join(a["doses"][:2]) or "not stated in abstract",
                 "route": ", ".join(a["routes"]) or "not stated in abstract",
                 "duration": "; ".join(a["durations"][:2]) or "not stated in abstract",
-                "outcome": clip(a["outcome"], 220) if a["outcome"] else "see source",
+                "outcome": a["outcome"] or "see source",
                 "administered": a["given"],
             }
             excerpt = a["outcome"] or a["named"][0]

@@ -110,9 +110,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every SS-31 dose in the trials and on the label, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "SS-31 dosing protocol: trials and a practical schedule",
       "boundary": "Every figure here is a dose a trial gave or the approved label states. The figures on vendor pages for research-chemical SS-31 were not taken from these trials and are not reproduced."
     },
     {
@@ -124,9 +124,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every SS-31 dose in the trials and on the label, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "SS-31 dosing protocol: trials and a practical schedule",
       "boundary": "Every figure here is a dose a trial gave or the approved label states. The figures on vendor pages for research-chemical SS-31 were not taken from these trials and are not reproduced."
     },
     {
@@ -318,9 +318,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every SS-31 dose in the trials and on the label, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "SS-31 dosing protocol: trials and a practical schedule",
       "boundary": "Every figure here is a dose a trial gave or the approved label states. The figures on vendor pages for research-chemical SS-31 were not taken from these trials and are not reproduced."
     },
     {
@@ -484,6 +484,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "calculator",
     "adverse",
     "who",
