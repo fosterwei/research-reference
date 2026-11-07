@@ -111,6 +111,229 @@
         "drafting": "extractive"
       }
     ],
+    "protocol": [
+      {
+        "value": "Phase 3 SYNCHRONIZE-1, n=725, 76 weeks, 2026, 3.6 mg arm: adults with obesity received once-weekly subcutaneous survodutide at a dose adjusted up to 3.6 mg, in addition to lifestyle counseling.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42253238"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to receive once-weekly survodutide administered subcutaneously at a dose adjusted up to 3.6 mg or 6.0 mg or placebo, in addition to counseling for lifestyle modification.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "3.6 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "76 weeks, reached by dose adjustment up to the target",
+          "population": "Adults with BMI 30 or higher, or 27 or higher with at least one obesity-related complication, excluding diabetes (SYNCHRONIZE-1)"
+        }
+      },
+      {
+        "value": "Phase 3 SYNCHRONIZE-1, n=725, 76 weeks, 2026, 6.0 mg arm: adults with obesity received once-weekly subcutaneous survodutide at a dose adjusted up to 6.0 mg, in addition to lifestyle counseling.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42253238"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to receive once-weekly survodutide administered subcutaneously at a dose adjusted up to 3.6 mg or 6.0 mg or placebo, in addition to counseling for lifestyle modification.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "6.0 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "76 weeks, reached by dose adjustment up to the target",
+          "population": "Adults with BMI 30 or higher, or 27 or higher with at least one obesity-related complication, excluding diabetes (SYNCHRONIZE-1)"
+        }
+      },
+      {
+        "value": "Phase 3 SYNCHRONIZE-MASLD, n=216, 2026: participants with obesity and at-risk liver disease were randomized 2:1 to once-weekly subcutaneous injections of survodutide 6.0 mg (n=146) or placebo (n=70).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42252333"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Participants were randomized (2:1) and treated with once-weekly subcutaneous injections of survodutide 6.0 mg (n = 146) or placebo (n = 70).",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "6.0 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "not stated in abstract",
+          "population": "Adults with obesity and metabolic dysfunction-associated steatotic liver disease (SYNCHRONIZE-MASLD)"
+        }
+      },
+      {
+        "value": "Phase 2 type 2 diabetes trial, 16 weeks, 2024, once-weekly groups: participants were randomised to survodutide up to 0.3, 0.9, 1.8 or 2.7 mg once weekly (dose groups 1 to 4).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38095657"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Participants were randomised via interactive response technology to receive survodutide (up to 0.3, 0.9, 1.8 or 2.7 mg once weekly [qw; dose group (DG) 1-4, respectively] or 1.2 or 1.8 mg twice weekly [DG 5 and 6, respectively])",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "0.3, 0.9, 1.8 or 2.7 mg",
+          "frequency": "once weekly",
+          "route": "not stated in abstract",
+          "duration": "16 weeks",
+          "population": "Adults with type 2 diabetes"
+        }
+      },
+      {
+        "value": "Phase 2 type 2 diabetes trial, 16 weeks, 2024, twice-weekly groups: participants were randomised to survodutide 1.2 or 1.8 mg twice weekly (dose groups 5 and 6).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38095657"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Participants were randomised via interactive response technology to receive survodutide (up to 0.3, 0.9, 1.8 or 2.7 mg once weekly [qw; dose group (DG) 1-4, respectively] or 1.2 or 1.8 mg twice weekly [DG 5 and 6, respectively])",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "1.2 or 1.8 mg",
+          "frequency": "twice weekly",
+          "route": "not stated in abstract",
+          "duration": "16 weeks",
+          "population": "Adults with type 2 diabetes"
+        }
+      },
+      {
+        "value": "SYNCHRONIZE-1 and -2 design paper, full text, 2024: participants were randomized 1:1:1 to receive once‐weekly subcutaneous injections of survodutide 3.6 mg, survodutide 6.0 mg, or matching placebo in addition to lifestyle modification",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39495965"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "participants were randomized 1:1:1 to receive once‐weekly subcutaneous injections of survodutide 3.6 mg, survodutide 6.0 mg, or matching placebo in addition to lifestyle modification",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "3.6 or 6.0 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "76 weeks",
+          "population": "Adults with obesity enrolled in the SYNCHRONIZE phase 3 programme"
+        }
+      },
+      {
+        "value": "SYNCHRONIZE-MASLD, full text, 2025: We conducted a 48-week placebo-controlled trial (that included a 24-week dose-escalation period for uptitration of survodutide to 6.0 mg and a 24-week dose-maintenance period)",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42252333"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "We conducted a 48-week placebo-controlled trial (that included a 24-week dose-escalation period for uptitration of survodutide to 6.0 mg and a 24-week dose-maintenance period)",
+        "fields": {
+          "phase": "step",
+          "dose": "uptitrated to 6.0 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "24-week escalation, then 24-week maintenance",
+          "population": "Adults with obesity and at-risk steatotic liver disease"
+        }
+      },
+      {
+        "value": "SYNCHRONIZE design paper, full text, 2024: After reaching 3.6 mg and up to 32 weeks post randomization, delay of uptitration or reduction of dose by one level for 2 to 4 weeks is also permitted.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39495965"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "After reaching 3.6 mg and up to 32 weeks post randomization, delay of uptitration or reduction of dose by one level for 2 to 4 weeks is also permitted.",
+        "fields": {
+          "phase": "step",
+          "dose": "one dose level lower, or the next step delayed",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "2 to 4 weeks, permitted up to week 32",
+          "population": "Adults with obesity enrolled in SYNCHRONIZE-1 and -2"
+        }
+      },
+      {
+        "value": "SYNCHRONIZE-MASLD spent its first 24 weeks escalating to 6.0 mg, and the phase 3 programme deliberately lengthened escalation compared with phase 2. The starting dose and the size of each step are in a figure the sources on this page do not reproduce, so they are not written here.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-42252333",
+          "pmid-39495965"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "1",
+          "weeks": "1–24",
+          "action": "Inject once weekly under the skin, stepping the dose up over about 24 weeks toward 6.0 mg.",
+          "frequency": "once weekly",
+          "route": "subcutaneous"
+        }
+      },
+      {
+        "value": "Phase 3 had two targets, 3.6 mg and 6.0 mg, and states that dose flexibility is permitted. 3.6 mg is a target the trials held for 76 weeks, not a failure.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-42253238",
+          "pmid-39495965"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "2",
+          "weeks": "by week 24",
+          "action": "Stop at 3.6 mg if 6.0 mg is not tolerated.",
+          "dose": "3.6 or 6.0 mg"
+        }
+      },
+      {
+        "value": "SYNCHRONIZE-MASLD maintained 6.0 mg for 24 weeks after escalation; SYNCHRONIZE-1 ran to 76 weeks. Every phase 3 regimen is once weekly, although phase 2 also studied twice weekly.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-42252333",
+          "pmid-42253238",
+          "pmid-38095657"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "3",
+          "weeks": "25–76",
+          "action": "Hold the dose reached once weekly.",
+          "frequency": "once weekly",
+          "duration": "to week 48 or 76"
+        }
+      },
+      {
+        "value": "The phase 3 protocol allows delaying the next increase, or reducing by one dose level for 2 to 4 weeks, after reaching 3.6 mg and up to week 32.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-39495965"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "If the next step is not tolerated, wait or drop one level for 2 to 4 weeks."
+        }
+      },
+      {
+        "value": "In phase 2, which escalated faster, most discontinuations came in the first 6 weeks and were mainly nausea and vomiting; the phase 3 trials report the same pattern, easing with longer exposure.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-38095657",
+          "pmid-42252333"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Expect most stomach side effects in the first weeks of escalation."
+        }
+      },
+      {
+        "value": "Visits ran every 2 to 4 weeks during escalation and every 6 weeks during maintenance.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-39495965"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Trial participants were checked every 2 to 4 weeks while escalating."
+        }
+      }
+    ],
     "escalation_schedules": [
       {
         "value": "Randomized controlled trial, humans, n=146, 2026: The most frequently reported adverse events with survodutide were gastrointestinal, commonly occurring during dose escalation, and were generally of mild-to-moderate severity.",
@@ -1041,6 +1264,14 @@
     {
       "date": "2026-10-12",
       "change": "Added a Survodutide dosage calculator beneath the dosage chart, with a link to the full calculator page, which charts syringe units for the doses studies of Survodutide actually used."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: six regimens as studied in human trials, and a three-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Practical protocol rewritten for action: each step now leads with what to do and when, in weeks, followed by why and its basis; a week-by-week schedule sits above the steps; escalation length, the allowance to delay or step down, and visit spacing are now cited from the full texts of SYNCHRONIZE-MASLD and the phase 3 design paper."
     }
   ],
   "guide": [

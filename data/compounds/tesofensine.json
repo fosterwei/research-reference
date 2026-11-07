@@ -112,6 +112,183 @@
         "drafting": "extractive"
       }
     ],
+    "protocol": [
+      {
+        "value": "Phase 2 obesity trial, 24 weeks, 2008: obese adults took tesofensine 0.25 mg, 0.5 mg or 1.0 mg once daily with diet for 24 weeks, losing 4.5%, 9.2% and 10.6% of body weight against 2.0% on diet and placebo.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18950853"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "After 24 weeks, the mean weight loss produced by diet and placebo was 2.0% (SE 0.60). Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "0.25 mg, 0.5 mg or 1.0 mg",
+          "frequency": "once daily",
+          "route": "not stated in abstract",
+          "duration": "24 weeks",
+          "population": "Obese adults on a diet programme"
+        }
+      },
+      {
+        "value": "Randomised Tesomet trial in hypothalamic obesity, n=21, 24 weeks, 2022: adults were randomized to Tesomet, 0.5 mg tesofensine with 50 mg metoprolol, once daily, or placebo for 24 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35294397"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Twenty-one adults with hypothalamic obesity (16 females) were randomized to Tesomet (0.5 mg/50 mg) or placebo for 24 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "0.5 mg tesofensine with 50 mg metoprolol",
+          "frequency": "once daily",
+          "route": "not stated in abstract",
+          "duration": "24 weeks",
+          "population": "Adults with hypothalamic obesity (n=21, 16 female)"
+        }
+      },
+      {
+        "value": "Randomised early Parkinson's disease trial, n=261, 14 weeks, 2007: subjects with Parkinson's disease of under 5 years not receiving dopaminergic treatment were assigned to daily NS 2330 (tesofensine) at 0.25 mg, 0.5 mg or 1.0 mg, or placebo, for 14 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17149725"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Two hundred sixty-one subjects with PD < 5 years and not receiving dopaminergic treatment were randomly assigned to daily treatment with NS 2330 at 0.25 mg, 0.5 mg, 1.0 mg, or placebo.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "0.25 mg, 0.5 mg or 1.0 mg",
+          "frequency": "daily",
+          "route": "not stated in abstract",
+          "duration": "14 weeks",
+          "population": "Adults with early Parkinson's disease (under 5 years) not on dopaminergic treatment"
+        }
+      },
+      {
+        "value": "Randomised advanced Parkinson's disease trial, 14 weeks, 2008: tesofensine 0.125, 0.25, 0.5 or 1 mg, or placebo, tablets were administered once daily for 14 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18474731"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Tesofensine (0.125, 0.25, 0.5, or 1 mg) or placebo tablets were administered once daily for 14 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "0.125 mg, 0.25 mg, 0.5 mg or 1 mg",
+          "frequency": "once daily",
+          "route": "oral, tablets",
+          "duration": "14 weeks",
+          "population": "Patients with advanced Parkinson's disease"
+        }
+      },
+      {
+        "value": "Single rising-dose pharmacokinetic study, n=21, 2009: healthy subjects received a single 6-hour infusion of tesofensine 0.3, 0.6, 0.9 or 1.2 mg.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-19705923"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Twenty-one healthy subjects received a single 6-hour infusion of tesofensine (0.3, 0.6, 0.9, 1.2 mg) in a double-blind, randomized, placebo-controlled, single rising-dose study.",
+        "fields": {
+          "phase": "single",
+          "dose": "0.3, 0.6, 0.9 or 1.2 mg",
+          "frequency": "single dose",
+          "route": "6-hour infusion",
+          "duration": "single 6-hour infusion",
+          "population": "Healthy adults (n=21)"
+        }
+      },
+      {
+        "value": "Drug-interaction pharmacokinetic study, n=28, 2010: subjects received a single oral dose of tesofensine 2 mg; 14 of them were co-administered itraconazole (400 mg loading, 200 mg maintenance) for 6 days before and 5 days after.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-20000889"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Overall, 28 subjects received a single oral dose of tesofensine 2 mg; 14 of these subjects were coadministered an oral itraconazole 400 mg loading dose and a 200 mg maintenance dose for 6 days before and 5 days after administration of tesofensine.",
+        "fields": {
+          "phase": "single",
+          "dose": "2 mg",
+          "frequency": "single dose",
+          "route": "oral",
+          "duration": "single dose",
+          "population": "Healthy volunteers (n=28), half with itraconazole"
+        }
+      },
+      {
+        "value": "Tesomet trial, full text, 2022: Both groups were instructed to follow a hypocaloric diet (energy deficit of 300 kcal daily) and given monthly lifestyle counselling from a trained dietician.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35294397"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Both groups were instructed to follow a hypocaloric diet (energy deficit of 300 kcal daily) and given monthly lifestyle counselling from a trained dietician.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "with 0.5 mg tesofensine and 50 mg metoprolol, or placebo",
+          "frequency": "daily",
+          "route": "not stated in the passage",
+          "duration": "24 weeks",
+          "population": "Adults with hypothalamic obesity"
+        }
+      },
+      {
+        "value": "In the 24-week obesity trial this dose produced a mean weight loss of 9.2% against 2.0% on diet and placebo, close to the 10.6% of 1.0 mg, and it is the dose carried into Tesomet. Both trials paired the drug with a diet.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-18950853",
+          "pmid-35294397"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "1",
+          "weeks": "1–24",
+          "action": "Take 0.5 mg by mouth once a day, alongside a reduced-calorie diet.",
+          "dose": "0.5 mg",
+          "frequency": "once daily",
+          "route": "oral"
+        }
+      },
+      {
+        "value": "No human regimen in this ledger runs longer than 24 weeks; the Parkinson's trials stopped at 14.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-18950853",
+          "pmid-35294397",
+          "pmid-18474731"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "2",
+          "weeks": "week 24",
+          "action": "Reassess at 24 weeks."
+        }
+      },
+      {
+        "value": "The trials gave fixed doses from day one; 0.25 mg and 1.0 mg are alternative arms, not steps.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-18950853"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "There is no titration step."
+        }
+      },
+      {
+        "value": "Tesofensine raised heart rate at therapeutic doses in obesity trials; Tesomet added 50 mg metoprolol and showed no significant heart-rate or blood-pressure difference from placebo.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-35294397"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Expect a faster heart rate on tesofensine alone."
+        }
+      }
+    ],
     "escalation_schedules": [],
     "interactions": [
       {
@@ -1080,6 +1257,14 @@
     {
       "date": "2026-10-12",
       "change": "Added a Tesofensine dosage calculator beneath the dosage chart, with a link to the full calculator page, which charts syringe units for the doses studies of Tesofensine actually used."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: six regimens as studied in human trials, and a two-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Practical protocol rewritten for action: each step now leads with what to do and when, in weeks, followed by why and its basis; a week-by-week schedule sits above the steps; the diet pairing and the heart-rate finding are now cited from the full text of the Tesomet trial."
     }
   ],
   "guide": [

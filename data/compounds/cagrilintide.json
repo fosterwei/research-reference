@@ -129,6 +129,243 @@
         "drafting": "extractive"
       }
     ],
+    "protocol": [
+      {
+        "value": "Phase 3a REDEFINE 1, 68 weeks, 2026, cagrilintide-alone arm: adults without diabetes were randomised to once-weekly cagrilintide 2.4 mg (alongside CagriSema 2.4 mg/2.4 mg, semaglutide 2.4 mg and placebo arms), plus lifestyle intervention.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42503495"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "The phase 3a, 68-week REDEFINE 1 trial randomised adults without diabetes with BMI ≥ 30 kg/m 2 , or ≥ 27 kg/m 2 with ≥ 1 obesity-related complication, to once-weekly CagriSema 2.4 mg/2.4 mg, semaglutide 2.4 mg, cagrilintide 2.4 mg, or placebo, plus lifestyle intervention.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "2.4 mg",
+          "frequency": "once weekly",
+          "route": "not stated in abstract",
+          "duration": "68 weeks",
+          "population": "Adults without diabetes with BMI 30 or more, or 27 or more with at least one obesity-related complication (REDEFINE 1); cagrilintide alone"
+        }
+      },
+      {
+        "value": "Phase 3a REDEFINE 1, 68 weeks, 2026, CagriSema arm: adults without diabetes were randomised to once-weekly CagriSema 2.4 mg/2.4 mg (cagrilintide 2.4 mg co-administered with semaglutide 2.4 mg), plus lifestyle intervention.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42503495"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "The phase 3a, 68-week REDEFINE 1 trial randomised adults without diabetes with BMI ≥ 30 kg/m 2 , or ≥ 27 kg/m 2 with ≥ 1 obesity-related complication, to once-weekly CagriSema 2.4 mg/2.4 mg, semaglutide 2.4 mg, cagrilintide 2.4 mg, or placebo, plus lifestyle intervention.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "2.4 mg cagrilintide with 2.4 mg semaglutide",
+          "frequency": "once weekly",
+          "route": "not stated in abstract",
+          "duration": "68 weeks",
+          "population": "Adults without diabetes with BMI 30 or more, or 27 or more with at least one obesity-related complication (REDEFINE 1); CagriSema (co-administered with semaglutide)"
+        }
+      },
+      {
+        "value": "Phase 2 zalfermin trial, n=99, 52 weeks, 2026, CagriSema comparator arm: participants were randomly assigned to cagrilintide 2·4 mg plus semaglutide 2·4 mg (among zalfermin, semaglutide and placebo arms) once a week for 52 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42456707"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "2.4 mg cagrilintide with 2.4 mg semaglutide",
+          "frequency": "once a week",
+          "route": "subcutaneous is stated for the zalfermin and semaglutide products; not separately stated for cagrilintide",
+          "duration": "52 weeks",
+          "population": "not stated in abstract; CagriSema (co-administered with semaglutide)"
+        }
+      },
+      {
+        "value": "Phase 3 REIMAGINE 3, n=90, 40 weeks, 2026, CagriSema 2·4 mg each arm: adults with type 2 diabetes on basal insulin were randomly assigned to once per week subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg for 40 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251856"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Adults with type 2 diabetes (glycated haemoglobin [HbA 1c ] 7·0-10·5%) receiving stable once per day basal insulin with or without metformin were randomly assigned (2:2:1:1) to once per week subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]) or cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]) or dose-matched placebo (2·4 mg plus 2·4 mg or 1·0 mg plus 1·0 mg) for 40 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "2.4 mg cagrilintide with 2.4 mg semaglutide",
+          "frequency": "once per week",
+          "route": "subcutaneous",
+          "duration": "40 weeks",
+          "population": "Adults with type 2 diabetes (HbA1c 7.0 to 10.5%) on stable once-daily basal insulin with or without metformin (REIMAGINE 3); CagriSema (co-administered with semaglutide)"
+        }
+      },
+      {
+        "value": "Phase 3 REIMAGINE 3, n=90, 40 weeks, 2026, CagriSema 1·0 mg each arm: adults with type 2 diabetes on basal insulin were randomly assigned to once per week subcutaneous cagrilintide 1·0 mg plus semaglutide 1·0 mg for 40 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251856"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Adults with type 2 diabetes (glycated haemoglobin [HbA 1c ] 7·0-10·5%) receiving stable once per day basal insulin with or without metformin were randomly assigned (2:2:1:1) to once per week subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]) or cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]) or dose-matched placebo (2·4 mg plus 2·4 mg or 1·0 mg plus 1·0 mg) for 40 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "1.0 mg cagrilintide with 1.0 mg semaglutide",
+          "frequency": "once per week",
+          "route": "subcutaneous",
+          "duration": "40 weeks",
+          "population": "Adults with type 2 diabetes (HbA1c 7.0 to 10.5%) on stable once-daily basal insulin with or without metformin (REIMAGINE 3); CagriSema (co-administered with semaglutide)"
+        }
+      },
+      {
+        "value": "Phase 3a REIMAGINE 1, n=62, 40 weeks, 2026, CagriSema 2·4 mg each arm: adults with type 2 diabetes inadequately controlled with diet and exercise were randomly assigned to once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg for 40 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251860"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Adults aged 18 years or older with type 2 diabetes inadequately controlled with diet and exercise were randomly assigned (2:1:2:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (cagrilintide-semaglutide [2·4 mg each]), placebo 2·4 mg plus 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (cagrilintide-semaglutide [1·0 mg each]), or placebo 1·0 mg plus 1·0 mg for 40 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "2.4 mg cagrilintide with 2.4 mg semaglutide",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "40 weeks",
+          "population": "Adults aged 18 or older with type 2 diabetes inadequately controlled with diet and exercise (REIMAGINE 1); CagriSema (co-administered with semaglutide)"
+        }
+      },
+      {
+        "value": "Phase 3a REIMAGINE 1, n=62, 40 weeks, 2026, CagriSema 1·0 mg each arm: adults with type 2 diabetes inadequately controlled with diet and exercise were randomly assigned to once-weekly subcutaneous cagrilintide 1·0 mg plus semaglutide 1·0 mg for 40 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251860"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Adults aged 18 years or older with type 2 diabetes inadequately controlled with diet and exercise were randomly assigned (2:1:2:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (cagrilintide-semaglutide [2·4 mg each]), placebo 2·4 mg plus 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (cagrilintide-semaglutide [1·0 mg each]), or placebo 1·0 mg plus 1·0 mg for 40 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "1.0 mg cagrilintide with 1.0 mg semaglutide",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "40 weeks",
+          "population": "Adults aged 18 or older with type 2 diabetes inadequately controlled with diet and exercise (REIMAGINE 1); CagriSema (co-administered with semaglutide)"
+        }
+      },
+      {
+        "value": "Phase 3 REIMAGINE 2, n=603, 68 weeks, 2026, cagrilintide-alone arm: adults with inadequately controlled type 2 diabetes on metformin were randomly assigned to once-weekly subcutaneous cagrilintide 2·4 mg for 68 weeks (alongside CagriSema and semaglutide arms).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]), semaglutide 2·4 mg, cagrilintide 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]), semaglutide 1·0 mg, or corresponding placebo for 68 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "2.4 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "68 weeks",
+          "population": "Adults aged 18 or older with inadequately controlled type 2 diabetes (HbA1c 7.0 to 10.5%) on metformin with or without an SGLT2 inhibitor, BMI 25 or more (REIMAGINE 2); cagrilintide alone"
+        }
+      },
+      {
+        "value": "Phase 3 REIMAGINE 2, n=603, 68 weeks, 2026, CagriSema 2·4 mg each arm: adults with inadequately controlled type 2 diabetes on metformin were randomly assigned to once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg for 68 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]), semaglutide 2·4 mg, cagrilintide 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]), semaglutide 1·0 mg, or corresponding placebo for 68 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "2.4 mg cagrilintide with 2.4 mg semaglutide",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "68 weeks",
+          "population": "Adults aged 18 or older with inadequately controlled type 2 diabetes (HbA1c 7.0 to 10.5%) on metformin with or without an SGLT2 inhibitor, BMI 25 or more (REIMAGINE 2); CagriSema (co-administered with semaglutide)"
+        }
+      },
+      {
+        "value": "Phase 3 REIMAGINE 2, n=603, 68 weeks, 2026, CagriSema 1·0 mg each arm: adults with inadequately controlled type 2 diabetes on metformin were randomly assigned to once-weekly subcutaneous cagrilintide 1·0 mg plus semaglutide 1·0 mg for 68 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42251859"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]), semaglutide 2·4 mg, cagrilintide 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]), semaglutide 1·0 mg, or corresponding placebo for 68 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "1.0 mg cagrilintide with 1.0 mg semaglutide",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "68 weeks",
+          "population": "Adults aged 18 or older with inadequately controlled type 2 diabetes (HbA1c 7.0 to 10.5%) on metformin with or without an SGLT2 inhibitor, BMI 25 or more (REIMAGINE 2); CagriSema (co-administered with semaglutide)"
+        }
+      },
+      {
+        "value": "Phase 3a REDEFINE 5, n=164, 2026, CagriSema arm: a fixed-dose combination of cagrilintide 2·4 mg and semaglutide 2·4 mg was compared with semaglutide 2·4 mg for weight management in an east Asian population.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42009015"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "We assessed the efficacy and safety of a fixed-dose combination of cagrilintide 2·4 mg and semaglutide 2·4 mg versus semaglutide 2·4 mg for weight management in an east Asian population.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "2.4 mg cagrilintide with 2.4 mg semaglutide",
+          "frequency": "not stated in abstract",
+          "route": "not stated in abstract",
+          "duration": "not stated in abstract",
+          "population": "Adults with overweight or obesity in an east Asian population (Japan and Taiwan); CagriSema (co-administered with semaglutide)"
+        }
+      },
+      {
+        "value": "2.4 mg is the only cagrilintide-alone regimen in the ledger's trials, REDEFINE 1 and REIMAGINE 2. The sources on this page give the target dose but not the starting dose or the escalation used to reach it, so that part is not written here.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-42503495",
+          "pmid-42251859"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "1",
+          "weeks": "once escalated",
+          "action": "Inject 2.4 mg once weekly under the skin.",
+          "dose": "2.4 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous"
+        }
+      },
+      {
+        "value": "Both cagrilintide-alone trials ran 68 weeks; combination trials ran 40 to 68 weeks at the same 2.4 mg.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-42503495",
+          "pmid-42251859",
+          "pmid-42251856",
+          "pmid-42251860"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "2",
+          "weeks": "to week 68",
+          "action": "Hold 2.4 mg once weekly and reassess at 68 weeks.",
+          "dose": "2.4 mg",
+          "frequency": "once weekly"
+        }
+      },
+      {
+        "value": "1.0 mg cagrilintide was studied only together with 1.0 mg semaglutide.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-42251856",
+          "pmid-42251860"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "1.0 mg is a combination dose only."
+        }
+      }
+    ],
     "escalation_schedules": [
       {
         "value": "Randomized controlled trial, humans, n=164, 2026: Participants were randomly assigned (1:1) to once-weekly subcutaneous injections of cagrilintide-semaglutide or semaglutide (both escalated to 2·4 mg), plus lifestyle intervention, for 68 weeks.",
@@ -1355,6 +1592,14 @@
     {
       "date": "2026-10-12",
       "change": "Added a Cagrilintide dosage calculator beneath the dosage chart, with a link to the full calculator page, which charts syringe units for the doses studies of Cagrilintide actually used."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: eleven regimens as studied in human trials, and a two-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Practical protocol rewritten for action: each step now leads with what to do and when, in weeks, followed by why and its basis; a week-by-week schedule sits above the steps; the escalation to 2.4 mg is still not stated in any source on this page and is marked as such."
     }
   ],
   "guide": [

@@ -64,6 +64,148 @@
         "drafting": "extractive"
       }
     ],
+    "protocol": [
+      {
+        "value": "HEAL LL-37, full text, 2022: During the 13‐week double‐blind treatment period, the patients received twice weekly local applications of LL‐37 (0.5 or 1.6 mg/mL) or placebo, which was followed by a 16‐week observation (follow‐up) period to reveal any late onset problems.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34687253"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "During the 13‐week double‐blind treatment period, the patients received twice weekly local applications of LL‐37 (0.5 or 1.6 mg/mL) or placebo, which was followed by a 16‐week observation (follow‐up) period to reveal any late onset problems.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "0.5 or 1.6 mg/mL",
+          "frequency": "twice weekly",
+          "route": "topical",
+          "duration": "13 weeks, after a 3-week placebo run-in",
+          "population": "Patients with hard-to-heal venous leg ulcers, treated with compression"
+        }
+      },
+      {
+        "value": "Randomised double-blind controlled trial, diabetic foot ulcers, 2023: Subjects were instructed to apply either LL-37 cream or placebo cream twice a week for 4 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37480520"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Subjects were instructed to apply either LL-37 cream or placebo cream twice a week for 4 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "LL-37 cream, concentration not stated in abstract",
+          "frequency": "twice a week",
+          "route": "topical (cream)",
+          "duration": "4 weeks",
+          "population": "Patients with diabetic foot ulcers"
+        }
+      },
+      {
+        "value": "HEAL LL-37, full text, 2022: The product was applied on the wound bed, using 25 μL solution per cm 2 ulcer area, at concentrations 0.5 or 1.6 mg/mL of LL‐37 and active doses of 12.5 and 40 μg/cm 2 , respectively",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34687253"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "The product was applied on the wound bed, using 25 μL solution per cm 2 ulcer area, at concentrations 0.5 or 1.6 mg/mL of LL‐37 and active doses of 12.5 and 40 μg/cm 2 , respectively",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "25 µL per cm² of ulcer at 0.5 or 1.6 mg/mL (12.5 or 40 µg/cm²)",
+          "frequency": "at each application",
+          "route": "topical, onto the wound bed",
+          "duration": "13 weeks",
+          "population": "Patients with hard-to-heal venous leg ulcers"
+        }
+      },
+      {
+        "value": "HEAL LL-37, full text, 2022: All treatments were applied twice weekly (every 3 ± 1 days) to coincide with routine dressing change intervals in clinical practice.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34687253"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "All treatments were applied twice weekly (every 3 ± 1 days) to coincide with routine dressing change intervals in clinical practice.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "as above",
+          "frequency": "twice weekly, every 3 ± 1 days",
+          "route": "topical",
+          "duration": "13 weeks",
+          "population": "Patients with hard-to-heal venous leg ulcers"
+        }
+      },
+      {
+        "value": "Diabetic foot ulcer trial, full text, 2023: The cream was applied topically on wound surface using a 1-mL syringe and was spread evenly with a spatula.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37480520"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "The cream was applied topically on wound surface using a 1-mL syringe and was spread evenly with a spatula.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "LL-37 cream, spread evenly",
+          "frequency": "twice a week",
+          "route": "topical",
+          "duration": "4 weeks",
+          "population": "Patients with diabetic foot ulcers"
+        }
+      },
+      {
+        "value": "These are HEAL LL-37's amounts and spacing, timed to coincide with routine dressing changes; compression therapy continued throughout.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-34687253"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "1",
+          "weeks": "1–13",
+          "action": "Apply 25 µL per cm² of ulcer at 0.5 or 1.6 mg/mL, twice a week (every 3 ± 1 days), at each dressing change.",
+          "dose": "0.5 or 1.6 mg/mL, 25 µL/cm²",
+          "frequency": "twice weekly",
+          "route": "topical"
+        }
+      },
+      {
+        "value": "HEAL LL-37's treatment period ended at 13 weeks, followed by observation only; the diabetic foot ulcer trial treated for 4 consecutive weeks.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-34687253",
+          "pmid-37480520"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "2",
+          "weeks": "week 13",
+          "action": "Reassess the wound at 13 weeks; for a diabetic foot ulcer, at 4 weeks."
+        }
+      },
+      {
+        "value": "The amount applied is set by wound area, and the HEAL LL-37 investigators warn that mis-measured area means too little or too much peptide.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-34687253"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Measure the ulcer before each application."
+        }
+      },
+      {
+        "value": "Both trials applied the peptide to the wound; the foot-ulcer trial drew the cream into a 1 mL syringe and spread it with a spatula.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-37480520",
+          "pmid-34687253"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Apply to the wound surface and spread evenly; do not inject."
+        }
+      }
+    ],
     "escalation_schedules": [],
     "interactions": [],
     "exclusion_criteria": [],
@@ -1096,6 +1238,14 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-25."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: two regimens as studied in human trials, and a two-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Practical protocol rewritten for action: each step now leads with what to do and when, in weeks, followed by why and its basis; a week-by-week schedule sits above the steps; the 13-week schedule, amount per cm² and application spacing are now cited from the full text of HEAL LL-37."
     }
   ],
   "guide": [

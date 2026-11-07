@@ -76,9 +76,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "study_doses",
-      "heading": "What doses did studies use?",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "BPC-157 dosing protocol: what the trials gave",
       "boundary": "These are doses studies administered, almost all in rats, plus a two-person intravenous safety pilot. No trial has established a BPC-157 dose for any use in people; the 200 to 500 microgram figures that circulate come from communities and clinics."
     },
     {
@@ -416,6 +416,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "calculator",
     "adverse",
     "who",

@@ -216,7 +216,7 @@ def check_claims(record: dict, path: pathlib.Path, report: Report, source_ids: s
                 report.error(path, f"{label} has a source_excerpt but cites no source id")
 
 
-PROTOCOL_PHASES = ("start", "step", "maintenance", "cycle", "single", "1", "2", "3", "4", "5", "6")
+PROTOCOL_PHASES = ("start", "step", "maintenance", "cycle", "single", "1", "2", "3", "4", "5", "6", "note")
 PROTOCOL_HUMAN = ("approved-label", "human-clinical-trial", "observational-human")
 
 
@@ -239,6 +239,13 @@ def check_protocol(record: dict, path: pathlib.Path, report: Report) -> None:
         if ev == "editorial":
             if not claim.get("source_ids"):
                 report.error(path, f"{label} is a practical-protocol step with no basis: source_ids must name the studied or labelled rows it derives from")
+            # Steps lead with the action and say when; the value is the reason.
+            if not str(fields.get("action", "")).strip():
+                report.error(path, f"{label} needs fields.action: the step or note stated as one thing to do")
+            if fields.get("phase") != "note" and not str(fields.get("weeks", "")).strip():
+                report.error(path, f"{label} needs fields.weeks: when in the regimen this step applies")
+        elif fields.get("phase") == "note":
+            report.error(path, f"{label} phase 'note' is for practical notes, which are editorial")
         elif ev in PROTOCOL_HUMAN:
             if not claim.get("source_ids") and not claim.get("pending_source"):
                 report.error(path, f"{label} is a {ev} regimen with no source and no pending_source flag")

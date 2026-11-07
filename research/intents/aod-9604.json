@@ -110,9 +110,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every AOD-9604 dose in the trials and studies, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "AOD-9604 dosing protocol: trials and a practical schedule",
       "boundary": "Every figure here is a dose a trial gave: oral capsules of 9 to 54 mg, or intravenous doses in the first two studies. The 250 to 500 mcg injections on vendor pages were never given to a person in any trial."
     },
     {
@@ -530,6 +530,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "calculator",
     "adverse",
     "who",

@@ -89,8 +89,12 @@ const toc = [
   { id: 'related', label: 'Related records', group: 'Reference' },
   ...(d.changelog?.length ? [{ id: 'changelog', label: 'What changed', group: 'Reference' }] : []),
 ];
+const breadcrumbs = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [{ name: 'Home', path: '/' }, { name: 'Comparisons', path: '/compare' }, { name: intent?.h1 ?? d.title, path }].map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.path, Astro.site).toString() })),
+};
 ---
-<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={jsonld} siteSuffix={`${baseTitle} | ${SITE_NAME}`.length <= 60}>
+<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={[jsonld, breadcrumbs]} siteSuffix={`${baseTitle} | ${SITE_NAME}`.length <= 60}>
   <Fragment slot="head">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

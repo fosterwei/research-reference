@@ -815,7 +815,7 @@
         "source_excerpt": "At week 26, patients originally on tesamorelin were rerandomized to 2 mg tesamorelin (T-T group, n = 154) or placebo (T-P group, n = 50), whereas patients originally on placebo were switched to tesamorelin (P-T group, n = 111)."
       },
       {
-        "value": "The only regimen with human evidence is 2 mg once daily under the skin of the abdomen, which is both the label dose and the dose every pivotal trial used. There is no escalation: the trials started and stayed at 2 mg.",
+        "value": "2 mg daily is both the label dose and the dose every pivotal trial used; the trials started and stayed at 2 mg.",
         "evidence_label": "editorial",
         "source_ids": [
           "pmid-18690162"
@@ -823,13 +823,15 @@
         "drafting": "editorial",
         "fields": {
           "phase": "1",
+          "weeks": "every day",
+          "action": "Inject 2 mg under the skin of the abdomen once a day.",
           "dose": "2 mg",
           "frequency": "once daily",
           "route": "subcutaneous, abdomen"
         }
       },
       {
-        "value": "Reassess at 26 weeks, the point at which the pivotal trial measured its primary endpoint and re-randomised. The 52-week extension showed the visceral-fat reduction is maintained only while dosing continues and does not persist after it stops, so a plan that includes stopping should expect the effect to reverse.",
+        "value": "The pivotal trial measured its primary endpoint at 26 weeks; in the extension the visceral-fat reduction was kept only by those who continued.",
         "evidence_label": "editorial",
         "source_ids": [
           "pmid-18690162"
@@ -837,7 +839,20 @@
         "drafting": "editorial",
         "fields": {
           "phase": "2",
-          "duration": "reassess at 26 weeks"
+          "weeks": "week 26",
+          "action": "Reassess at 26 weeks, and expect the effect to fade if you stop."
+        }
+      },
+      {
+        "value": "The trials gave 2 mg from the first day.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-18690162"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "There is no titration step."
         }
       }
     ]
@@ -1151,6 +1166,10 @@
     {
       "date": "2026-11-07",
       "change": "Dosing protocol section added under the widened content contract: the label dose (document pending), the pivotal trial's regimen and its extension, and a two-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Practical protocol rewritten for action: each step now leads with what to do and when, in weeks, followed by why and its basis; a week-by-week schedule sits above the steps."
     }
   ],
   "guide": [

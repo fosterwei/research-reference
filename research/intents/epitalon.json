@@ -111,9 +111,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every Epitalon and Epithalamin dose in the literature, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "Epitalon dosing protocol: what the trials gave",
       "boundary": "Every figure here was given to an animal, added to a dish, or is a dose of the extract Epithalamin in a Russian trial. No study has given synthetic Epitalon to a person at a stated dose, and the figures that circulate are not reproduced."
     },
     {
@@ -139,9 +139,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every Epitalon and Epithalamin dose in the literature, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "Epitalon dosing protocol: what the trials gave",
       "boundary": "Every figure here was given to an animal, added to a dish, or is a dose of the extract Epithalamin in a Russian trial. No study has given synthetic Epitalon to a person at a stated dose, and the figures that circulate are not reproduced."
     },
     {
@@ -483,6 +483,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "adverse",
     "who",
     "biomarkers",

@@ -82,6 +82,10 @@ const jsonld = {
     : { '@type': 'Organization', name: SITE_NAME, url: Astro.site?.toString() },
   ...(d.review.reviewer ? { reviewedBy: { '@type': 'Person', name: d.review.reviewer, jobTitle: d.review.reviewer_credential, ...(d.review.reviewer_url ? { sameAs: d.review.reviewer_url } : {}) } } : {}),
 };
+const breadcrumbs = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [{ name: 'Home', path: '/' }, { name: 'Compounds', path: '/compounds' }, { name: d.preferred_name, path }].map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.path, Astro.site).toString() })),
+};
 const dek = rich(`What ${formatCount(pubs.total)} indexed publications and ${formatCount(pubs.randomized_controlled_trials)} randomized trials actually state about ${d.preferred_name.toLowerCase()}, sentence by sentence, each tied to its source and labeled by the kind of evidence it is.`, { bold: 2, seen });
 const summaryParas = paragraphs(d.summary, 3).map((para) => rich(para, { bold: 2, seen }));
 const peerLinks = peerEntries.map((e) => `<a href="/compounds/${e.data.slug}">${e.data.preferred_name}</a>`).join(', ');
@@ -176,6 +180,10 @@ const nextQuestions = (intent?.queries ?? [])
   .filter((q, i, arr) => arr.findIndex((x) => x.href === q.href) === i);
 const faqItems = [...intentFaq, ...d.faq.map((f) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))];
 if (faqItems.length > 0) blocks.push({ id: 'faq', kind: 'faq', label: 'Questions people ask', group: 'Context' });
+const faqSchema = faqItems.length > 0 ? [{
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faqItems.map((f) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'") } })),
+}] : [];
 
 const body = orderBlocks(intent, blocks);
 const secs = [
@@ -199,7 +207,7 @@ const tocBody = body.flatMap((b) => b.kind === 'method'
   : [{ id: b.id, label: b.label, group: b.group }]);
 const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sources', 'card', 'related', 'changelog'].includes(s.id))];
 ---
-<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={jsonld} siteSuffix={`${baseTitle} | ${SITE_NAME}`.length <= 60}>
+<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={[jsonld, breadcrumbs, ...faqSchema]} siteSuffix={`${baseTitle} | ${SITE_NAME}`.length <= 60}>
   <Fragment slot="head">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

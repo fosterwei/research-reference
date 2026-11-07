@@ -17,7 +17,11 @@ const { claims, sources, name, review } = Astro.props;
 const src = new Map<string, any>((sources ?? []).map((s: any) => [s.id, s]));
 const label = claims.filter((c) => c.evidence_label === 'approved-label');
 const studied = claims.filter((c) => ['human-clinical-trial', 'observational-human'].includes(c.evidence_label));
-const practical = claims.filter((c) => c.evidence_label === 'editorial');
+const practical = claims.filter((c) => c.evidence_label === 'editorial' && c.fields?.phase !== 'note');
+const notes = claims.filter((c) => c.evidence_label === 'editorial' && c.fields?.phase === 'note');
+const basis = (c: any) => c.source_ids ?? [];
+// "1–4" reads as "Weeks 1–4: "; "by week 24" as "By week 24: ".
+const when = (w?: string) => !w ? '' : /^\d/.test(w) ? `Weeks ${w}: ` : `${w[0].toUpperCase()}${w.slice(1)}: `;
 const cols = ['phase', 'dose', 'frequency', 'route', 'duration', 'population'] as const;
 const head: Record<string, string> = { phase: 'Phase', dose: 'Dose', frequency: 'Frequency', route: 'Route', duration: 'Duration', population: 'Who received it' };
 const signed = Boolean(review?.protocol_reviewed_at);
@@ -52,24 +56,46 @@ const signed = Boolean(review?.protocol_reviewed_at);
           : <span class="pill dashed">Awaiting pharmacist review</span>}
       </div>
       <p class="lede">A schedule we have written by reading the label and the trial arms above together. It is a synthesis of what was studied, not a prescription, and each step names the rows it comes from. It assumes the population those studies enrolled; a clinician who knows your history is the only source for what applies to you.</p>
+      <div class="card clip"><div class="tblwrap"><table class="tbl schedule">
+        <caption>{name}: the practical protocol week by week. Each row is a step below.</caption>
+        <thead><tr><th scope="col">Weeks</th><th scope="col">What to do</th></tr></thead>
+        <tbody>{practical.map((c) => <tr><th scope="row">{when(c.fields?.weeks).replace(/: $/, '')}</th><td>{c.fields?.action}</td></tr>)}</tbody>
+      </table></div></div>
       <ol class="list steps">
         {practical.map((c) => (
           <li>
-            <strong>{c.fields?.phase ? `${c.fields.phase}. ` : ''}</strong>{c.value}
-            {(c.fields?.dose || c.fields?.frequency || c.fields?.duration) && <span class="sub"> ({[c.fields?.dose, c.fields?.frequency, c.fields?.duration].filter(Boolean).join(', ')})</span>}
-            <span class="basis"> Basis: {(c.source_ids ?? []).map((id: string, i: number) => <Fragment>{i > 0 && ', '}{src.get(id)?.url ? <a href={src.get(id).url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}</Fragment>)}</span>
+            <strong class="act">{when(c.fields?.weeks)}{c.fields?.action ?? ''}</strong>
+            <span class="why">{c.value}</span>
+            <span class="basis"> Basis: {basis(c).map((id: string, i: number) => <Fragment>{i > 0 && ', '}{src.get(id)?.url ? <a href={src.get(id).url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}</Fragment>)}</span>
           </li>
         ))}
       </ol>
-      <div class="status neutral"><div><strong>General information, not individual medical advice.</strong> Doses above are those studies and labels report for {name}. Whether any of them applies to you depends on why you would take it, what else you take, and your kidneys and liver, none of which a page can know.</div></div>
+      {notes.length > 0 && (
+        <Fragment>
+          <h4>Practical notes</h4>
+          <ul class="list notes">
+            {notes.map((c) => (
+              <li>
+                <strong>{c.fields?.action}</strong> {c.value}
+                <span class="basis"> Basis: {basis(c).map((id: string, i: number) => <Fragment>{i > 0 && ', '}{src.get(id)?.url ? <a href={src.get(id).url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}</Fragment>)}</span>
+              </li>
+            ))}
+          </ul>
+        </Fragment>
+      )}
     </div>
   )}
+  <div class="status neutral"><div><strong>General information, not individual medical advice.</strong> Doses above are those studies and labels report for {name}. Whether any of them applies to you depends on why you would take it, what else you take, and your kidneys and liver, none of which a page can know.</div></div>
 </div>
 <style>
   .protocol { display: flex; flex-direction: column; gap: 28px; }
   .protocol .prov { display: flex; flex-direction: column; gap: 10px; }
   .protocol .prov-head { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
   .protocol .steps li { margin-bottom: 8px; }
+  .protocol .steps .act { display: block; color: var(--ink); }
+  .protocol .steps .why { display: block; margin-top: 2px; }
+  .protocol h4 { margin: 8px 0 0; font-size: 15px; }
+  .protocol .schedule th[scope=row] { white-space: nowrap; }
   .protocol .basis { display: block; font-size: 13px; color: var(--ink-3); margin-top: 2px; }
   .protocol .practical { border-left: 3px solid var(--t-editorial); padding-left: 18px; }
 </style>

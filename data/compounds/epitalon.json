@@ -126,6 +126,25 @@
         "drafting": "extractive"
       }
     ],
+    "protocol": [
+      {
+        "value": "Randomised trial of combined treatment for cervical cancer with poor prognosis, 1999, using the extract Epithalamin, not synthetic Epitalon: The modality also included immunotherapy with epithalamin 100 mg, intramuscularly, neoadjuvant intraarterial polychemotherapy with 5-fluorouracil 2 g/m2 and cisplatin 100 mg/m2, concurrent radiotherapy with an interval and 4-6 courses of adjuvant polychemotherapy.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-10532103"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "The modality also included immunotherapy with epithalamin 100 mg, intramuscularly, neoadjuvant intraarterial polychemotherapy with 5-fluorouracil 2 g/m2 and cisplatin 100 mg/m2, concurrent radiotherapy with an interval and 4-6 courses of adjuvant polychemotherapy.",
+        "fields": {
+          "phase": "single",
+          "dose": "100 mg (Epithalamin extract)",
+          "frequency": "not stated in abstract",
+          "route": "intramuscular",
+          "duration": "not stated in abstract",
+          "population": "Patients with cervical cancer with poor prognosis, receiving combined chemotherapy and radiotherapy"
+        }
+      }
+    ],
     "escalation_schedules": [],
     "interactions": [],
     "exclusion_criteria": [],
@@ -1165,6 +1184,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-29."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: one regimen as studied in a human trial. Awaiting the reviewer's separate sign-off."
     }
   ],
   "guide": [

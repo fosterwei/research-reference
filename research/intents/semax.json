@@ -88,9 +88,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "study_doses",
-      "heading": "What doses did studies use?",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "Semax dosing protocol: what the trials gave",
       "boundary": "These are doses from Russian clinical studies of stroke and other indications, and from rats. No trial has tested a Semax dose for cognition in healthy adults; the 200 to 600 microgram figures that circulate follow the Russian 0.1 percent label loosely."
     },
     {
@@ -209,6 +209,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "calculator",
     "adverse",
     "who",

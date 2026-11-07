@@ -24,6 +24,10 @@
     {
       "date": "2026-09-29",
       "change": "Record created so the tool can be indexed. The calculator itself was rebuilt the same day: the unit converter and vial planner had no calculator at all, only a description."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Added the arithmetic in four steps as a worked example beneath the calculator, with matching HowTo structured data, so the conversion can be checked by hand."
     }
   ]
 }
