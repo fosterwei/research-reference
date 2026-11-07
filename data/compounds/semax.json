@@ -111,6 +111,42 @@
         "drafting": "extractive"
       }
     ],
+    "protocol": [
+      {
+        "value": "Clinical trial, patients at different stages of ischaemic stroke, n=43, 2018: Standard regimen of semax included 2 courses (6000 mcg/day) for 10 days with 20 day interval.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-29798983"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Standard regimen of semax included 2 courses (6000 mcg/day) for 10 days with 20 day interval.",
+        "fields": {
+          "phase": "cycle",
+          "dose": "6000 mcg/day",
+          "frequency": "daily",
+          "route": "not stated in abstract",
+          "duration": "10 days per course, 2 courses separated by a 20 day interval",
+          "population": "Patients at different stages of ischaemic stroke, n=43"
+        }
+      },
+      {
+        "value": "Observational study, patients with psoriasis and metabolic-syndrome lipid disturbances, 60 patients given semax alongside conventional therapy, 2015: In group 1, 58 patients received conventional therapy, while 60 patients in group 2 received the same with additional 0.1% semax solution intranasally 600 mg/day for 10 days.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-27051926"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "In group 1, 58 patients received conventional therapy, while 60 patients in group 2 received the same with additional 0.1% semax solution intranasally 600 mg/day for 10 days.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "600 mg/day as printed in the abstract, of a 0.1% solution",
+          "frequency": "daily",
+          "route": "intranasal",
+          "duration": "10 days",
+          "population": "Patients with psoriasis and lipid disturbances of metabolic syndrome, on conventional therapy"
+        }
+      }
+    ],
     "escalation_schedules": [],
     "interactions": [
       {
@@ -1234,6 +1270,10 @@
     {
       "date": "2026-10-12",
       "change": "Added a Semax dosage calculator beneath the dosage chart, with a link to the full calculator page, which charts syringe units for the doses studies of Semax actually used."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: two regimens as studied in human trials. Awaiting the reviewer's separate sign-off."
     }
   ],
   "guide": [

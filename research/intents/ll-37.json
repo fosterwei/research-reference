@@ -139,9 +139,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every LL-37 dose in the trials, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "LL-37 dosing protocol: trials and a practical schedule",
       "boundary": "Every dose here is a topical concentration or a probiotic formulation. No study has injected LL-37 into a person, which is the only way it is sold; the 100 to 250 mcg figures on vendor pages have no study behind them."
     },
     {
@@ -478,6 +478,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "adverse",
     "who",
     "biomarkers",

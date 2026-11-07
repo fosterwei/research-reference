@@ -270,4 +270,13 @@ accept everything or reject everything.
   the document pending, two trial rows, two steps). What stays out of scope: a
   body-weight input that returns a dose, purchase links, supplier
   recommendations.
+- 2026-11-07 — Structured data widened to match the page types. Compound, stack,
+  comparison, calculator and tool pages now carry `BreadcrumbList`; compound and
+  calculator pages carry `FAQPage` built from the same items the visible FAQ
+  renders; the per-compound calculators and the generic reconstitution tool
+  carry `HowTo` for the four-step reconstitution arithmetic, which is also
+  printed on the page as a worked example so the schema mirrors visible text.
+  Google stopped showing HowTo rich results in 2023 and limits FAQ rich results
+  to authoritative sites, so these are eligibility and machine-readability
+  changes, not a promised SERP feature.
 

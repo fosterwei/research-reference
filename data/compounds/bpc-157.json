@@ -131,6 +131,25 @@
         "drafting": "extractive"
       }
     ],
+    "protocol": [
+      {
+        "value": "Pilot safety study, 2 healthy adults, 2025: Intravenous infusion of up to 20 mg of BPC-157 in 2 healthy adults showed no adverse effects and was well-tolerated.",
+        "evidence_label": "observational-human",
+        "source_ids": [
+          "pmid-40131143"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Intravenous infusion of up to 20 mg of BPC-157 in 2 healthy adults showed no adverse effects and was well-tolerated.",
+        "fields": {
+          "phase": "single",
+          "dose": "20 mg (stated as up to 20 mg)",
+          "frequency": "not stated in abstract",
+          "route": "intravenous infusion",
+          "duration": "not stated in abstract",
+          "population": "2 healthy adults"
+        }
+      }
+    ],
     "escalation_schedules": [],
     "interactions": [
       {
@@ -1323,6 +1342,10 @@
     {
       "date": "2026-10-12",
       "change": "Added a BPC-157 dosage calculator beneath the dosage chart, with a link to the full calculator page, which charts syringe units for the doses studies of BPC-157 actually used."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: one regimen as studied in a human trial. Awaiting the reviewer's separate sign-off."
     }
   ],
   "guide": [

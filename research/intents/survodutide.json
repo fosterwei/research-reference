@@ -153,9 +153,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every survodutide dose in the trials, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "Survodutide dosing protocol: trials and a practical schedule",
       "boundary": "Every figure here is a dose a trial gave: once-weekly subcutaneous injections titrated to 3.6 or 6.0 mg. The drug is not approved or sold by any pharmacy; vials sold as 'survodutide peptide' are unregulated copies of an investigational medicine."
     },
     {
@@ -194,9 +194,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every survodutide dose in the trials, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "Survodutide dosing protocol: trials and a practical schedule",
       "boundary": "Every figure here is a dose a trial gave: once-weekly subcutaneous injections titrated to 3.6 or 6.0 mg. The drug is not approved or sold by any pharmacy; vials sold as 'survodutide peptide' are unregulated copies of an investigational medicine."
     },
     {
@@ -507,6 +507,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "calculator",
     "adverse",
     "who",

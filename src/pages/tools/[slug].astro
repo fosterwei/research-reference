@@ -39,12 +39,32 @@ const COPY: Record<string, { h1: string; dek: string; title: string; description
     description: 'How many whole draws a vial gives at a stated mass per draw, the volume of each, how long it lasts, and the remainder too small to measure.',
   },
 };
+const steps = tool.slug === 'reconstitution-calculator' ? [
+  { name: 'Read the mass on the vial', text: 'The label states a mass, not a concentration. A 5 mg vial holds 5,000 mcg of dry powder.' },
+  { name: 'Add a known volume of diluent', text: 'Adding 2 mL gives a concentration of 5,000 ÷ 2 = 2,500 mcg/mL. More diluent lowers the concentration and raises the units per dose; it does not change how many doses the vial holds.' },
+  { name: 'Divide the dose by the concentration', text: 'For 250 mcg: 250 ÷ 2,500 = 0.1 mL.' },
+  { name: 'Convert millilitres to syringe units', text: 'On a U-100 insulin syringe 1 mL is 100 units, so 0.1 mL × 100 = 10 units.' },
+] : [];
+const jsonld = [
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [{ name: 'Home', path: '/' }, { name: 'Tools', path: '/tools' }, { name: tool.name, path }].map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.path, Astro.site).toString() })),
+  },
+  ...(steps.length ? [{
+    '@context': 'https://schema.org', '@type': 'HowTo',
+    name: 'How to work out peptide syringe units from a vial and a dose',
+    description: 'The reconstitution arithmetic: vial mass, diluent volume, concentration, volume to draw and units on a U-100 syringe, with a worked example.',
+    tool: [{ '@type': 'HowToTool', name: 'U-100 insulin syringe' }],
+    supply: [{ '@type': 'HowToSupply', name: 'Peptide vial, mass as labelled' }, { '@type': 'HowToSupply', name: 'Diluent, volume as chosen' }],
+    step: steps.map((st, i) => ({ '@type': 'HowToStep', position: i + 1, name: st.name, text: st.text, url: new URL(`${path}#steps`, Astro.site).toString() })),
+  }] : []),
+];
 const copy = COPY[tool.slug] ?? {
   h1: tool.name, dek: tool.computes,
   title: tool.name, description: `${tool.name}: ${tool.computes}.`,
 };
 ---
-<Base title={copy.title} description={copy.description} path={path} indexable={indexable} siteSuffix={false}>
+<Base title={copy.title} description={copy.description} path={path} indexable={indexable} siteSuffix={false} jsonld={jsonld}>
   <article class="prose-page">
     <p class="eyebrow"><a href="/tools">Tools</a></p>
     <h1>{copy.h1}</h1>
@@ -57,6 +77,16 @@ const copy = COPY[tool.slug] ?? {
     </dl>
 
     <Calculators slug={tool.slug} />
+
+    {steps.length > 0 && (
+      <Fragment>
+        <h2 id="steps">The arithmetic in four steps</h2>
+        <p class="prose">Worked for a 5&nbsp;mg vial, 2&nbsp;mL of diluent and a 250&nbsp;mcg draw, so each figure can be checked by hand. The calculator above does exactly this with your own numbers.</p>
+        <ol class="list steps">
+          {steps.map((st) => <li><strong>{st.name}.</strong> {st.text}</li>)}
+        </ol>
+      </Fragment>
+    )}
 
     <h2>What this tool will not do</h2>
     <p class="prose">It refuses {tool.refuses}. That is not a missing feature. A calculator that turns a body weight into a milligram figure has produced a dose, and a dose is a clinical decision that depends on why someone is taking something, what else they take and what their kidneys and liver are doing. None of that is arithmetic, and none of it is knowable from a number typed into a box.</p>

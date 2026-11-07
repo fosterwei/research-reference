@@ -44,11 +44,54 @@ const charts = VIAL_MG.map((mg) => ({ mg, rows: chartRows(doses, mg) }));
 const smallest = doses[0];
 const largest = doses[doses.length - 1];
 
+// A worked example in four steps, using a dose this compound's studies actually
+// used where one exists, so the HowTo below mirrors the visible text exactly.
+const exMg = VIAL_MG[1];
+const exMl = DILUENT_ML[1];
+const exMcg = doses.length > 0 ? smallest : 250;
+const exConc = (exMg * 1000) / exMl;
+const exMl2 = exMcg / exConc;
+const exUnits = Math.round(exMl2 * 100 * 100) / 100;
+const fmt = (n: number, d = 3) => n.toLocaleString('en-US', { maximumFractionDigits: d });
+const steps = [
+  { name: 'Read the mass on the vial', text: `The label states a mass, not a concentration. A ${exMg} mg vial holds ${fmt(exMg * 1000)} mcg of ${name} as dry powder.` },
+  { name: 'Add a known volume of diluent', text: `Adding ${exMl} mL gives a concentration of ${fmt(exMg * 1000)} ÷ ${exMl} = ${fmt(exConc)} mcg/mL. More diluent lowers the concentration and raises the units per dose; it does not change how many doses the vial holds.` },
+  { name: 'Divide the dose by the concentration', text: `For ${formatDose(exMcg)}: ${fmt(exMcg)} ÷ ${fmt(exConc)} = ${fmt(exMl2, 4)} mL.` },
+  { name: 'Convert millilitres to syringe units', text: `On a U-100 insulin syringe 1 mL is 100 units, so ${fmt(exMl2, 4)} mL × 100 = ${fmt(exUnits, 2)} units.` },
+];
+const faq: Array<{ q: string; a: string }> = [
+  ...(doses.length > 0 ? [{
+    q: `How many units is ${formatDose(smallest)} of ${name}?`,
+    a: `It depends entirely on how the vial was reconstituted. In a ${VIAL_MG[1]} mg vial with ${DILUENT_ML[1]} mL of diluent it is ${chartRows([smallest], VIAL_MG[1])[0].cells[1].units.toLocaleString('en-US')} units on a U-100 syringe; with ${DILUENT_ML[0]} mL it is ${chartRows([smallest], VIAL_MG[1])[0].cells[0].units.toLocaleString('en-US')}. The chart above gives the rest.`,
+  }] : []),
+  { q: 'Does adding more diluent waste the peptide?', a: 'No. The mass in the vial does not change. More diluent spreads the same mass through more liquid, so each dose is a larger, easier-to-measure volume and the vial yields exactly as many doses as before.' },
+  { q: 'Why does this page not recommend a dose?', a: 'Because a dose is a clinical decision rather than a division. It depends on why someone is taking something, what else they take and how their kidneys and liver are working, none of which is knowable from a number typed into a box.' },
+  { q: 'Where do the doses in the table come from?', a: `Each is quoted from a specific paper indexed in Europe PMC, linked in the source column, and labelled with the kind of study it came from. The full evidence is on the <a href="/compounds/${d.slug}">${name} record</a>.` },
+];
+const site = Astro.site?.toString();
+const jsonld = [
+  {
+    '@context': 'https://schema.org', '@type': 'HowTo',
+    name: `How to work out ${name} syringe units from a vial and a dose`,
+    description: `The reconstitution arithmetic for ${name}: vial mass, diluent volume, concentration, volume to draw and units on a U-100 syringe, with a worked example.`,
+    tool: [{ '@type': 'HowToTool', name: 'U-100 insulin syringe' }],
+    supply: [{ '@type': 'HowToSupply', name: `${name} vial, mass as labelled` }, { '@type': 'HowToSupply', name: 'Diluent, volume as chosen' }],
+    step: steps.map((st, i) => ({ '@type': 'HowToStep', position: i + 1, name: st.name, text: st.text, url: new URL(`${path}#steps`, Astro.site).toString() })),
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a.replace(/<[^>]+>/g, '') } })),
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [{ name: 'Home', path: '/' }, { name: 'Calculators', path: '/calculators' }, { name: `${name} dosage calculator`, path }].map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.path, Astro.site).toString() })),
+  },
+];
 const title = `${name} Dosage Calculator: Units, mg and Reconstitution`;
 const description = `How many syringe units ${name} doses work out to, for 2, 5 and 10 mg vials at 1, 2 or 3 mL of diluent, beside the doses published studies actually used, each one cited.`;
 
 ---
-<Base title={title} description={description} path={path} indexable={isIndexable(entry)} siteSuffix={false}>
+<Base title={title} description={description} path={path} indexable={isIndexable(entry)} siteSuffix={false} jsonld={jsonld}>
   <article class="prose-page">
     <p class="eyebrow"><a href="/calculators">Calculators</a></p>
     <h1>{name} dosage calculator</h1>
@@ -60,6 +103,16 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
     </p>
 
     <Calculators slug="reconstitution-calculator" />
+
+    <h2 id="steps">Reconstituting {name}: the arithmetic in four steps</h2>
+    <p class="prose">
+      The calculator does these four operations. Worked here for a {exMg}&nbsp;mg vial, {exMl}&nbsp;mL of
+      diluent and {formatDose(exMcg)}{doses.length > 0 ? `, the smallest absolute dose a published study of ${name} used` : ''},
+      so the figures can be checked by hand.
+    </p>
+    <ol class="list steps">
+      {steps.map((st) => <li><strong>{st.name}.</strong> {st.text}</li>)}
+    </ol>
 
     {doses.length > 0 && (
       <Fragment>
@@ -196,27 +249,7 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
 
     <h2 id="faq">Questions people ask</h2>
     <dl class="faq">
-      {doses.length > 0 && (
-        <Fragment>
-          <dt>How many units is {formatDose(smallest)} of {name}?</dt>
-          <dd>It depends entirely on how the vial was reconstituted. In a {VIAL_MG[1]}&nbsp;mg vial with
-            {' '}{DILUENT_ML[1]}&nbsp;mL of diluent it is {chartRows([smallest], VIAL_MG[1])[0].cells[1].units.toLocaleString('en-US')} units
-            on a U-100 syringe; with {DILUENT_ML[0]}&nbsp;mL it is
-            {' '}{chartRows([smallest], VIAL_MG[1])[0].cells[0].units.toLocaleString('en-US')}. The chart above gives the rest.</dd>
-        </Fragment>
-      )}
-      <dt>Does adding more diluent waste the peptide?</dt>
-      <dd>No. The mass in the vial does not change. More diluent spreads the same mass through more
-        liquid, so each dose is a larger, easier-to-measure volume and the vial yields exactly as many
-        doses as before.</dd>
-      <dt>Why does this page not recommend a dose?</dt>
-      <dd>Because a dose is a clinical decision rather than a division. It depends on why someone is
-        taking something, what else they take and how their kidneys and liver are working, none of which
-        is knowable from a number typed into a box.</dd>
-      <dt>Where do the doses in the table come from?</dt>
-      <dd>Each is quoted from a specific paper indexed in Europe PMC, linked in the source column, and
-        labelled with the kind of study it came from. The full evidence is on the
-        {' '}<a href={`/compounds/${d.slug}`}>{name} record</a>.</dd>
+      {faq.map((f) => <><dt>{f.q}</dt><dd set:html={f.a} /></>)}
     </dl>
 
     <h2 id="refuses">What this calculator will not do</h2>

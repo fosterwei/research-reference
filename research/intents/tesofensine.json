@@ -85,9 +85,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "dosage-chart",
-      "heading": "Every tesofensine dose in the trials, in one table",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "Tesofensine dosing protocol: trials and a practical schedule",
       "boundary": "Every figure here is a dose a trial gave: oral tablets of 0.125 to 1.0 mg once daily, or single infusions in pharmacokinetic studies. Vendor capsules copy the trial dose; that does not make them the trial drug."
     },
     {
@@ -487,6 +487,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "calculator",
     "adverse",
     "who",

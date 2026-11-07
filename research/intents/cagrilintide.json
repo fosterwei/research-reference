@@ -48,9 +48,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-24"
       },
       "intent": "informational",
-      "policy": "evidence-with-boundary",
-      "section": "study_doses",
-      "heading": "What doses did the trials use?",
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "Cagrilintide dosing protocol: trials and a practical schedule",
       "boundary": "These are the doses the manufacturer tested in trials of its own product. They are not a recommendation, and nothing sold as a research chemical has been shown to contain the drug."
     },
     {
@@ -196,6 +196,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "calculator",
     "adverse",
     "who",

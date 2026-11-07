@@ -64,6 +64,68 @@
         "drafting": "extractive"
       }
     ],
+    "protocol": [
+      {
+        "value": "HEAL LL-37, multicentre randomised placebo-controlled trial, n=148 patients with hard-to-heal venous leg ulcers, 2021, topical application with compression: The study had three arms, consisting of two groups treated with LL-37 at concentrations of 0.5 or 1.6 mg/mL, and a placebo cohort.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34687253"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "The study had three arms, consisting of two groups treated with LL-37 at concentrations of 0.5 or 1.6 mg/mL, and a placebo cohort.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "0.5 or 1.6 mg/mL",
+          "frequency": "not stated in abstract",
+          "route": "topical",
+          "duration": "not stated in abstract",
+          "population": "Patients with hard-to-heal venous leg ulcers, treated with compression"
+        }
+      },
+      {
+        "value": "Randomised double-blind controlled trial, diabetic foot ulcers, 2023: Subjects were instructed to apply either LL-37 cream or placebo cream twice a week for 4 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37480520"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Subjects were instructed to apply either LL-37 cream or placebo cream twice a week for 4 weeks.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "LL-37 cream, concentration not stated in abstract",
+          "frequency": "twice a week",
+          "route": "topical (cream)",
+          "duration": "4 weeks",
+          "population": "Patients with diabetic foot ulcers"
+        }
+      },
+      {
+        "value": "Apply LL-37 to the wound bed topically at 0.5 or 1.6 mg/mL, the two concentrations HEAL LL-37 tested against placebo in 148 patients with hard-to-heal venous leg ulcers, with compression continued. Both wound trials applied the peptide to the skin; neither injected it.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-34687253"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "1",
+          "dose": "0.5 or 1.6 mg/mL",
+          "route": "topical"
+        }
+      },
+      {
+        "value": "Apply twice a week for 4 weeks, the schedule the diabetic foot ulcer trial instructed its subjects to follow with LL-37 cream, and reassess the wound at the end of those 4 weeks, which is where that trial's treatment period ended.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-37480520"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "2",
+          "frequency": "twice a week",
+          "duration": "4 weeks"
+        }
+      }
+    ],
     "escalation_schedules": [],
     "interactions": [],
     "exclusion_criteria": [],
@@ -1096,6 +1158,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-25."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: two regimens as studied in human trials, and a two-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
     }
   ],
   "guide": [
