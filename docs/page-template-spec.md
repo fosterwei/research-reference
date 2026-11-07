@@ -49,6 +49,7 @@ against the incumbent's 96.2% mean.
 | 8 | **Preparation walkthrough** NEW | Short video plus full transcript, no administration instruction | 200 | Per record | — |
 | 9 | Equipment described in studies | What published protocols used | 200 | Shared | — |
 | 10 | **Escalation schedules used in studies** NEW | How trials stepped doses, reported as study design | 300 | Per record | yes |
+| 10a | **Dosing protocol** (2026-11-07) | Approved-label dosing, regimens as studied (one row per arm or phase), and a practical protocol synthesised from them with its basis cited; see `docs/content-contract.md` Protocol layer | 500 | Per record | yes |
 | 11 | **Reported interactions** NEW | Interaction table with mechanism and label | 350 | Per record | yes |
 | 12 | Exclusion criteria in studies | Who published trials excluded, and why | 250 | Per record | yes |
 | 13 | **Adverse events and frequency** NEW | Event, incidence, denominator, source | 400 | Per record | yes |
@@ -109,7 +110,8 @@ page ranks in this niche, per the baseline. Required: the formula stated in the
 open, every input defined with units, worked examples covering edge cases, the
 assumptions the formula makes, and what it deliberately does not compute.
 
-Tools must not accept personal parameters that turn a calculation into advice.
+Tools must not accept personal parameters that turn a calculation into advice. They may
+display and link to the protocol layer's schedules, since those are sourced regimens.
 Concentration and volume mathematics are permitted. Anything that takes a body
 weight or a condition and returns a recommended dose is not.
 

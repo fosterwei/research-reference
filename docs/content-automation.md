@@ -252,4 +252,22 @@ accept everything or reject everything.
   page's rendered content changes without its date moving. The 2026-09-30
   relabelling of the compare-table column was judged cosmetic and moved no
   dates; that decision is logged in `research/lastmod.json`.
+- 2026-11-07 — The content contract was widened by the owner to cover dosing and
+  protocol intent, which the site had declined since its first page. The
+  mechanism is a protocol layer (`docs/content-contract.md`, "Protocol layer"):
+  `attributes.protocol` on a record, rendered as three blocks that never merge,
+  label dosing, regimens as studied, and a practical protocol synthesised from
+  them in which every step names the rows it derives from. The section renders
+  only where a record has a human regimen or a label, never from animal data,
+  and the practical block is signed by the reviewer separately through
+  `review.protocol_reviewed_at`; until then it carries an "awaiting pharmacist
+  review" tag. `scripts/validate_content.py` enforces the basis rule and the
+  provenance rule; `scripts/check_links.py` fails a build where any page still
+  prints the old "nothing here is dosing advice" sentence or renders a protocol
+  without the "not individual medical advice" notice. Every template and page
+  that printed the old sentence now prints the new one. Piloted on retatrutide
+  (five trial regimens, four practical steps) and tesamorelin (label dose with
+  the document pending, two trial rows, two steps). What stays out of scope: a
+  body-weight input that returns a dose, purchase links, supplier
+  recommendations.
 

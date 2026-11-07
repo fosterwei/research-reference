@@ -216,6 +216,41 @@ def check_claims(record: dict, path: pathlib.Path, report: Report, source_ids: s
                 report.error(path, f"{label} has a source_excerpt but cites no source id")
 
 
+PROTOCOL_PHASES = ("start", "step", "maintenance", "cycle", "single", "1", "2", "3", "4", "5", "6")
+PROTOCOL_HUMAN = ("approved-label", "human-clinical-trial", "observational-human")
+
+
+def check_protocol(record: dict, path: pathlib.Path, report: Report) -> None:
+    """The protocol layer (docs/content-contract.md). Three rules the page relies on:
+    every row describes a regimen, every practical step names its basis, and a
+    human table is never filled from animal data."""
+    claims = (record.get("attributes") or {}).get("protocol")
+    if claims is None:
+        return
+    for index, claim in enumerate(claims):
+        label = f"attributes.protocol[{index}]"
+        fields = claim.get("fields") or {}
+        if not isinstance(fields, dict) or not fields:
+            report.error(path, f"{label} needs fields describing the regimen (phase, dose, frequency, route, duration, population)")
+            continue
+        if str(fields.get("phase", "")) not in PROTOCOL_PHASES:
+            report.error(path, f"{label} fields.phase must be one of {PROTOCOL_PHASES}")
+        ev = claim.get("evidence_label")
+        if ev == "editorial":
+            if not claim.get("source_ids"):
+                report.error(path, f"{label} is a practical-protocol step with no basis: source_ids must name the studied or labelled rows it derives from")
+        elif ev in PROTOCOL_HUMAN:
+            if not claim.get("source_ids") and not claim.get("pending_source"):
+                report.error(path, f"{label} is a {ev} regimen with no source and no pending_source flag")
+        else:
+            report.error(path, f"{label} evidence_label {ev!r} is not a protocol provenance; animal and in-vitro regimens do not belong in this section")
+    if any(c.get("evidence_label") == "editorial" for c in claims) and not any(c.get("evidence_label") in PROTOCOL_HUMAN for c in claims):
+        report.error(path, "attributes.protocol has a practical protocol but no human regimen or label to derive it from")
+    signed = (record.get("review") or {}).get("protocol_reviewed_at")
+    if signed and not is_iso_date(signed):
+        report.error(path, "review.protocol_reviewed_at must be an ISO date")
+
+
 def check_review(record: dict, path: pathlib.Path, report: Report, gated: bool) -> None:
     review = record.get("review")
     if not isinstance(review, dict):
@@ -429,6 +464,7 @@ def validate_record(path: pathlib.Path, report: Report) -> tuple[str, str] | Non
 
     source_ids = check_sources(record, path, report, gated)
     check_claims(record, path, report, source_ids, gated)
+    check_protocol(record, path, report)
     check_review(record, path, report, gated)
     check_seo(record, path, report, gated)
     check_changelog(record, path, report)

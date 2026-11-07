@@ -33,7 +33,12 @@ Two rules, both easy to break by accident and invisible until someone clicks:
      code", and all three became false the moment the Google Analytics tag was
      added. A privacy page that describes a different site than the one serving
      it is the kind of error this project exists not to make.
-  8. Every internal <img src> resolves in dist/ and declares width and height.
+  8. The dosing notice matches the contract. Since 2026-11-07 the site gives
+     dosing information under the protocol layer, so no page may still print
+     the old "nothing here is dosing advice" sentence, and every page that
+     renders a protocol section must carry the "not individual medical advice"
+     notice beside it.
+  9. Every internal <img src> resolves in dist/ and declares width and height.
      A missing image renders as a broken icon and nothing else in the build
      would notice; a missing size lets the page shift as the image loads.
   9. Every icon and manifest in <link rel> resolves, and each icon matches any
@@ -69,6 +74,9 @@ LINK_HREF = re.compile(r'href="([^"]+)"', re.I)
 LINK_SIZES = re.compile(r'sizes="(\d+)x(\d+)"', re.I)
 H2 = re.compile(r'(?is)<h2[^>]*>(.*?)</h2>')
 IMG = re.compile(r'<img\b[^>]*>', re.I)
+OLD_NOTICE = re.compile(r"nothing here is (?:medical|dosing)[^.]{0,40}advice", re.I)
+NEW_NOTICE = re.compile(r"not individual medical advice", re.I)
+PROTOCOL_SECTION = re.compile(r'<section id="protocol"', re.I)
 IMG_SRC = re.compile(r'\bsrc="([^"]+)"', re.I)
 # The workflow vocabulary from src/content.config.ts. A reader has no use for
 # any of it, and seeing it in a <code> element means a template printed the
@@ -193,6 +201,7 @@ def main() -> int:
     leaked_status: Counter[str] = Counter()
     robots_bad: Counter[str] = Counter()
     bad_img: Counter[str] = Counter()
+    notice_bad: Counter[str] = Counter()
     privacy_bad: Counter[str] = Counter()
     internal = outbound = cards = 0
 
@@ -203,6 +212,12 @@ def main() -> int:
 
         for word in STATUS_CODE.findall(html):
             leaked_status[f"{where} -> <code>{word}</code>"] += 1
+
+        text = unescape(TAGS.sub(" ", html))
+        if OLD_NOTICE.search(text):
+            notice_bad[f"{where} -> still prints the pre-2026-11-07 'nothing here is dosing advice' sentence"] += 1
+        if PROTOCOL_SECTION.search(html) and not NEW_NOTICE.search(text):
+            notice_bad[f"{where} -> renders a protocol section without the 'not individual medical advice' notice"] += 1
 
         for tag in IMG.finditer(html):
             m = IMG_SRC.search(tag.group(0))
@@ -310,7 +325,8 @@ def main() -> int:
                            ("pages printing an internal record status", leaked_status),
                            ("robots.txt disagreeing with the sitemap", robots_bad),
                            ("analytics shipping without a matching privacy page", privacy_bad),
-                           ("images missing or without declared size", bad_img)):
+                           ("images missing or without declared size", bad_img),
+                           ("dosing notice out of step with the contract", notice_bad)):
         if counter:
             failed = True
             print(f"\n{label}: {sum(counter.values())}")

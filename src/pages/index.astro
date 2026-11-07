@@ -104,7 +104,7 @@ const reference = [...written].sort((a, b) => en(a.data.preferred_name, b.data.p
 
 const faq = [
   { question: 'What is this site?', answer: `A research reference for peptides. Every page is built from a record of indexed studies, quoted sentence by sentence and labelled by the kind of evidence each is: approved label, clinical trial, observational, animal, laboratory. Where nothing has been studied, the page says so. It is written for readers, reviewed by a named pharmacist, and sells nothing.` },
-  { question: 'Does it recommend doses?', answer: `No. The doses on a page are the doses published studies administered, reported as the paper states them, with the species and the study design beside each one. The calculators convert a mass and a volume into syringe units; they refuse to take a body weight and return a dose, because that is a clinical decision rather than arithmetic.` },
+  { question: 'Does it give dosing information?', answer: `Yes, with its provenance. The doses on a page are the doses published studies administered and labels state, reported as the source states them, with the species and the study design beside each one; where a record has human regimens, a practical protocol section reads them into a schedule and names the rows it is built from. The protocol section on a compound page shows approved-label dosing, the regimens trials used, and a practical schedule read from them, each with its source. The calculators convert a mass and a volume into syringe units and refuse a body-weight input, because that would turn arithmetic into individual advice.` },
   { question: 'Where do the numbers come from?', answer: `Europe PMC, which indexes the biomedical literature, and ChEMBL for compound identity and approval status. Each claim links to the paper it was taken from by its PubMed or DOI id, and the quoted sentence is shown beneath it so the claim can be checked against its source without leaving the page.` },
   { question: 'How do I work out syringe units for a dose?', answer: `Divide the mass in the vial by the diluent volume to get the concentration, then divide the mass you want by that concentration to get the volume. Units on a U-100 syringe are that volume in millilitres times 100. A 5 mg vial in 2 mL is 2,500 mcg/mL, so 250 mcg is 0.1 mL, which is 10 units. The reconstitution calculator does this and shows its working.` },
   { question: 'What does the evidence tier mean?', answer: `The strongest kind of study that exists for that compound, not a judgment of the compound. "Human clinical trial" means at least one indexed trial in people exists; it says nothing about the trial's size or whether it found an effect. The evidence table on each page shows that.` },
@@ -145,7 +145,7 @@ const jsonld = [
           <li><a href="/calculators">Dosage calculators</a></li>
           <li><a href="/about">How the pages are made</a></li>
         </ul>
-        <p class="note">Nothing here is dosing or treatment advice. A dose on these pages is one a study gave, reported as published.</p>
+        <p class="note">General information from published studies and labels, not individual medical advice. A dose on these pages is one a study, a label or our protocol section reports, with its source beside it.</p>
       </div>
       <figure class="figure"><img src="/images/home/hero.webp" width="1200" height="1200" alt="A researcher in safety glasses holds a small vial up to a transparent display showing a molecule, a chart, and a page of text with one line highlighted." fetchpriority="high" decoding="async" /></figure>
     </div></section>
@@ -202,7 +202,7 @@ const jsonld = [
           </ul>
         </div>
         <div id="calculators">
-          <div class="head"><h2>Calculators that show their working</h2><p class="lede">Each prints its formula above the inputs so any result can be checked by hand, runs entirely in your browser, and names the one thing it refuses to do: take a body weight and return a dose.</p></div>
+          <div class="head"><h2>Calculators that show their working</h2><p class="lede">Each prints its formula above the inputs so any result can be checked by hand, runs entirely in your browser, and refuses one input: a body weight, because that would turn arithmetic into individual advice.</p></div>
           <ul class="links" style="margin-top:16px">
             {regTools.map((t) => <li><a href={`/tools/${t.slug}`}>{t.name}</a><span class="what">{t.computes}</span></li>)}
             <li><a href="/calculators">Per-compound calculators</a><span class="what">{withCalculator.length} compounds, each with a units chart whose rows are the doses its own studies used</span></li>

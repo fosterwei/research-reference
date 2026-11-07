@@ -30,6 +30,7 @@ import HumanTrials from '../components/v2/HumanTrials.astro';
 import CombinationEvidence from '../components/v2/CombinationEvidence.astro';
 import EditorialSection from '../components/v2/EditorialSection.astro';
 import Calculators from '../components/Calculators.astro';
+import Protocol from '../components/v2/Protocol.astro';
 import { qualifies as hasCalculator } from '../lib/calculators';
 import { entityLinker } from '../lib/entities';
 import ReconstitutionMath from '../components/shared/ReconstitutionMath.astro';
@@ -126,7 +127,7 @@ const ledeFor = (f: string) => [boundaryFor(intent, f), defaultLedes[f]].filter(
 // claims but with mapped demand renders as an explicit absence statement.
 type Guide = { id: string; heading: string; lede?: string; html: string; pending?: boolean };
 const guide: Guide[] = ((d as any).guide ?? []) as Guide[];
-type Block = { id: string; kind: 'human' | 'table' | 'landscape' | 'claims' | 'absence' | 'method' | 'calculator' | 'compare' | 'combination' | 'regulatory' | 'open' | 'faq' | 'guide'; field?: string; label: string; group: string; guide?: Guide };
+type Block = { id: string; kind: 'human' | 'table' | 'landscape' | 'claims' | 'absence' | 'method' | 'calculator' | 'protocol' | 'compare' | 'combination' | 'regulatory' | 'open' | 'faq' | 'guide'; field?: string; label: string; group: string; guide?: Guide };
 // Links the first mention of each other record in this page's own prose.
 const linkEntities = entityLinker([d.slug], 10);
 const blocks: Block[] = [];
@@ -142,6 +143,11 @@ for (const [f, id, label] of evidence) {
 // The compound's own calculator, only where it has one: a record qualifies when
 // it is finished and carries at least two distinct published dose figures, the
 // same rule that decides whether /calculators/<slug> exists at all.
+// The protocol layer renders only when the record carries a human regimen or a
+// label; it is never filled from animal data (docs/content-contract.md).
+const protocolClaims = ((A as any).protocol ?? []) as any[];
+const protocolHere = protocolClaims.some((c) => ['approved-label', 'human-clinical-trial', 'observational-human'].includes(c.evidence_label));
+if (protocolHere) blocks.push({ id: 'protocol', kind: 'protocol', label: headingFor(intent, 'protocol', `${d.preferred_name} dosing protocol`), group: 'Evidence' });
 const calculatorHere = hasCalculator(entry);
 if (calculatorHere) blocks.push({ id: 'calculator', kind: 'calculator', label: headingFor(intent, 'calculator', `${d.preferred_name} dosage calculator`), group: 'Evidence' });
 if (hasAnyEvidence) blocks.push({ id: 'method', kind: 'method', label: 'Method notes', group: 'Method' });
@@ -237,6 +243,11 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
               <section id="evidence">
                 <div><h2>{b.label}</h2><p class="lede">{[boundaryFor(intent, 'evidence_table'), 'One row per primary study in this record\'s ledger. Fields are read from each paper\'s indexing and abstract. "Analytical method" marks papers about detecting or measuring the compound rather than about its effects.'].filter(Boolean).join(' ')}</p></div>
                 <EvidenceTable rows={A.evidence_table} />
+              </section>
+            );
+            case 'protocol': return (
+              <section id="protocol"><div><h2>{b.label}</h2><p class="lede">{boundaryFor(intent, 'protocol') ?? `How ${d.preferred_name} has been dosed: on an approved label where one exists, in the trials that gave it, and as a practical schedule read from those. Each block says where its figures come from.`}</p></div>
+                <Protocol claims={protocolClaims} sources={d.sources} name={d.preferred_name} review={d.review ?? {}} />
               </section>
             );
             case 'calculator': return (

@@ -848,6 +848,149 @@
           "outcome": "Building on prior work with GLP-1 receptor agonists, these results provide important context for interpreting clinical observations of reduced drinking behavior among individuals receiving this class of therapeutics."
         }
       }
+    ],
+    "protocol": [
+      {
+        "value": "Phase 2 obesity trial, n=338, 2023: 2 mg initial dose in the 4 mg, 8 mg and 12 mg arms: Participants were randomly assigned in a 2:1:1:1:1:2:2 ratio to receive subcutaneous retatrutide (1 mg, 4 mg [initial dose, 2 mg], 4 mg [initial dose, 4 mg], 8 mg [initial dose, 2 mg], 8 mg [initial dose, 4 mg], or 12 mg [initial dose, 2 mg]) or placebo once weekly for 48 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37366315"
+        ],
+        "drafting": "extractive",
+        "fields": {
+          "phase": "start",
+          "dose": "2 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "initial dose, then escalated",
+          "population": "Adults with obesity, BMI 30 or more, or 27 to 30 with a weight-related condition"
+        },
+        "source_excerpt": "Participants were randomly assigned in a 2:1:1:1:1:2:2 ratio to receive subcutaneous retatrutide (1 mg, 4 mg [initial dose, 2 mg], 4 mg [initial dose, 4 mg], 8 mg [initial dose, 2 mg], 8 mg [initial dose, 4 mg], or 12 mg [initial dose, 2 mg]) or placebo once weekly for 48 weeks."
+      },
+      {
+        "value": "Phase 2 obesity trial, n=338, 2023: 4 mg initial dose in the second 4 mg and 8 mg arms: Participants were randomly assigned in a 2:1:1:1:1:2:2 ratio to receive subcutaneous retatrutide (1 mg, 4 mg [initial dose, 2 mg], 4 mg [initial dose, 4 mg], 8 mg [initial dose, 2 mg], 8 mg [initial dose, 4 mg], or 12 mg [initial dose, 2 mg]) or placebo once weekly for 48 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37366315"
+        ],
+        "drafting": "extractive",
+        "fields": {
+          "phase": "start",
+          "dose": "4 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "initial dose, then escalated",
+          "population": "Adults with obesity, BMI 30 or more, or 27 to 30 with a weight-related condition"
+        },
+        "source_excerpt": "Participants were randomly assigned in a 2:1:1:1:1:2:2 ratio to receive subcutaneous retatrutide (1 mg, 4 mg [initial dose, 2 mg], 4 mg [initial dose, 4 mg], 8 mg [initial dose, 2 mg], 8 mg [initial dose, 4 mg], or 12 mg [initial dose, 2 mg]) or placebo once weekly for 48 weeks."
+      },
+      {
+        "value": "Phase 2 obesity trial, n=338, 2023: target doses reached by escalation and held to 48 weeks: Participants were randomly assigned in a 2:1:1:1:1:2:2 ratio to receive subcutaneous retatrutide (1 mg, 4 mg [initial dose, 2 mg], 4 mg [initial dose, 4 mg], 8 mg [initial dose, 2 mg], 8 mg [initial dose, 4 mg], or 12 mg [initial dose, 2 mg]) or placebo once weekly for 48 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37366315"
+        ],
+        "drafting": "extractive",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "1, 4, 8 or 12 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "48 weeks",
+          "population": "Adults with obesity, BMI 30 or more, or 27 to 30 with a weight-related condition"
+        },
+        "source_excerpt": "Participants were randomly assigned in a 2:1:1:1:1:2:2 ratio to receive subcutaneous retatrutide (1 mg, 4 mg [initial dose, 2 mg], 4 mg [initial dose, 4 mg], 8 mg [initial dose, 2 mg], 8 mg [initial dose, 4 mg], or 12 mg [initial dose, 2 mg]) or placebo once weekly for 48 weeks."
+      },
+      {
+        "value": "Phase 3 trial TRANSCEND-T2D-1, n=537, 2026: Participants were randomly assigned (1:1:1:1) to receive retatrutide (4 mg, 9 mg, or 12 mg) or placebo by once-weekly subcutaneous injection.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42250575"
+        ],
+        "drafting": "extractive",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "4, 9 or 12 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "40 weeks",
+          "population": "Adults with type 2 diabetes not controlled by diet and exercise, HbA1c 7.0 to 9.5%"
+        },
+        "source_excerpt": "Participants were randomly assigned (1:1:1:1) to receive retatrutide (4 mg, 9 mg, or 12 mg) or placebo by once-weekly subcutaneous injection."
+      },
+      {
+        "value": "Phase 1b trial, n=72, 2022: We investigated the safety, pharmacokinetics, and pharmacodynamics of multiple weekly doses of LY3437943 in people with type 2 diabetes in a 12-week study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-36354040"
+        ],
+        "drafting": "extractive",
+        "fields": {
+          "phase": "single",
+          "dose": "multiple ascending doses",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "12 weeks",
+          "population": "Adults with type 2 diabetes, phase 1b, n=72"
+        },
+        "source_excerpt": "We investigated the safety, pharmacokinetics, and pharmacodynamics of multiple weekly doses of LY3437943 in people with type 2 diabetes in a 12-week study."
+      },
+      {
+        "value": "Start at 2 mg once weekly by subcutaneous injection. Every arm in the phase 2 obesity trial that reached 8 or 12 mg began here, and the trial reported that gastrointestinal events were partially mitigated by the 2 mg start compared with 4 mg.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-37366315"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "1",
+          "dose": "2 mg",
+          "frequency": "once weekly",
+          "duration": "the first escalation interval"
+        }
+      },
+      {
+        "value": "Step to 4 mg once weekly. This is the lowest dose that was both a trial arm in its own right and an intermediate step on the way to 8 and 12 mg in the phase 2 trial, and the lowest arm of the phase 3 diabetes trial.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-37366315",
+          "pmid-42250575"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "2",
+          "dose": "4 mg",
+          "frequency": "once weekly"
+        }
+      },
+      {
+        "value": "Step to 8 mg once weekly if continuing to escalate. In the phase 2 trial the combined 8 mg arms reached a least-squares mean weight change of -22.8% at 48 weeks against -2.1% on placebo.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-37366315"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "3",
+          "dose": "8 mg",
+          "frequency": "once weekly"
+        }
+      },
+      {
+        "value": "Hold at the target dose. 12 mg was the highest arm in both the obesity and the diabetes trials; 9 mg exists only in the phase 3 diabetes trial. Dose-dependent heart-rate increases peaked at 24 weeks in the obesity trial and declined thereafter, which is the monitoring point the studies themselves imply.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-37366315",
+          "pmid-42250575"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "4",
+          "dose": "9 to 12 mg",
+          "frequency": "once weekly",
+          "duration": "held for the remainder of the study period, 40 to 48 weeks"
+        }
+      }
     ]
   },
   "evidence_summary": {
@@ -1212,6 +1355,10 @@
     {
       "date": "2026-10-12",
       "change": "Added a Retatrutide dosage calculator beneath the dosage chart, with a link to the full calculator page, which charts syringe units for the doses studies of Retatrutide actually used."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: five regimens as studied from the phase 1b, phase 2 and phase 3 trials, and a four-step practical protocol synthesised from them with its basis cited. Awaiting the reviewer's separate sign-off."
     }
   ],
   "guide": [

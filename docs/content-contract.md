@@ -12,7 +12,7 @@ This file is the single source of truth for page types, URLs, record states, and
 | Cycle | `data/cycles/` | `/cycles/{slug}` | source-backed duration context and uncertainty |
 | Tool | `data/tools/` | `/tools/{slug}` | transparent formula, inputs, outputs, examples |
 
-Compound pages were previously planned at `/protocols/{slug}`. That was renamed before any URL was indexed because "protocols" signals dosing guidance, which this site explicitly does not provide. Cycle pages remain in the contract but must describe what studies report about durations, never recommend one.
+Compound pages were planned at `/protocols/{slug}` and renamed before indexing, at a time when the site declined dosing guidance entirely. On 2026-11-07 the owner widened the scope: compound and stack pages may now carry a **protocol layer** that answers how a compound has been dosed, under the rules in the Protocol layer section below. URLs do not change; the protocol is a section of the existing page, anchored at `#protocol`, so the record keeps one URL and one review.
 
 ## Editorial posts
 
@@ -68,6 +68,46 @@ Use these exact values in `evidence_tier` and in every claim's `evidence_label`:
 | `mechanistic-in-vitro` | Cell, tissue, or mechanistic work |
 | `community-reported` | Anecdotal or community protocol; never presented as clinical fact |
 | `editorial` | Written from general knowledge, not from a ledger source: mechanism, history, class context, regulatory status, what is commonly reported. Marked on the page as editorial synthesis; may carry `pending_source: true` when a known document is still to be added |
+
+## Protocol layer
+
+Added 2026-11-07. A compound or stack record may carry `attributes.protocol`, a list of
+claims in the standard claim shape whose `fields` describe a regimen:
+
+| Field | Meaning |
+|---|---|
+| `phase` | Where in the regimen this row sits: `start`, `step`, `maintenance`, `cycle`, or `single` |
+| `dose` | As the source states it, with unit |
+| `frequency` | As the source states it |
+| `route` | As the source states it |
+| `duration` | How long this phase ran or runs |
+| `population` | Who the source gave it to |
+
+Three provenances are allowed, rendered as three distinct blocks, never merged:
+
+1. **Approved label** (`approved-label`): dosing from a regulator-approved label, cited to
+   the label. The only provenance that may be called a dose "for" an indication.
+2. **As studied** (`human-clinical-trial`, `observational-human`): regimens trials actually
+   administered, one row per arm or phase, cited to the paper. Animal regimens may appear
+   only under their own label and never in a human table.
+3. **Practical protocol** (`editorial`): a synthesised schedule written by us. This is the
+   widening. Every step must name, in `source_ids`, the studied or labelled rows it is
+   derived from; a step with no basis is invalid. The section states that it is a
+   synthesis and not a prescription, carries the site-wide notice, and is signed by the
+   reviewer separately through `review.protocol_reviewed_at`. Until that date is set the
+   block renders with an "awaiting pharmacist review" tag and the page stays indexable.
+
+`community-reported` regimens stay where they were: in the dosage chart, labelled as
+circulating, sourced to where they appear. They are not a protocol provenance.
+
+What remains out of scope: a body-weight input that returns a dose, purchase links,
+supplier recommendations, and any protocol for a compound with no human regimen in its
+ledger (the section is not rendered rather than filled from animal data).
+
+The site's standing notice changes from "nothing here is dosing advice" to "general
+information from published studies and labels, not individual medical advice." Every
+template that printed the old sentence prints the new one; `scripts/check_links.py`
+fails the build if the old sentence survives on a page that renders a protocol.
 
 ## Claim fields
 
