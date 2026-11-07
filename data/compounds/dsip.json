@@ -447,12 +447,12 @@
         }
       },
       {
-        "value": "Clinical trial, humans, n=5, 1995: Besides sleep-promoting properties, delta-sleep-inducing peptide (DSIP) has been reported to act as a corticotropin-releasing inhibiting factor in vitro and in vivo.",
+        "value": "Clinical trial, humans, n=5, 1995: Our data do not support an inhibitory role of DSIP on ACTH and cortisol secretion in man.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-7777652"
         ],
-        "source_excerpt": "Besides sleep-promoting properties, delta-sleep-inducing peptide (DSIP) has been reported to act as a corticotropin-releasing inhibiting factor in vitro and in vivo.",
+        "source_excerpt": "Our data do not support an inhibitory role of DSIP on ACTH and cortisol secretion in man.",
         "drafting": "extractive",
         "fields": {
           "study": "Späth-Schwalbe 1995",
@@ -463,7 +463,7 @@
           "dose": "4 mg",
           "route": "intravenous",
           "duration": "not stated in abstract",
-          "outcome": "see source"
+          "outcome": "Our data do not support an inhibitory role of DSIP on ACTH and cortisol secretion in man."
         }
       },
       {
@@ -1355,6 +1355,10 @@
     {
       "date": "2026-11-07",
       "change": "Restored 7 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Evidence table: the 1995 CRH-challenge trial (pmid-7777652) now quotes its own finding, that DSIP did not lower ACTH or cortisol in men, instead of the background sentence about earlier in-vitro reports."
     }
   ],
   "guide": [

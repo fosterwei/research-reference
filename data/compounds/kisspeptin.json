@@ -366,12 +366,12 @@
         "drafting": "extractive"
       },
       {
-        "value": "Clinical trial, humans, n=20, 2019: durations stated: 11 days; 21 days. At adulthood (postnatal day 100), rats were subjected to daily treatments with a bolus of KP-54 (100 μg/kg, s.c.) or vehicle for 11 days (N = 10 per model and treatment).",
+        "value": "Clinical trial, humans, n=12, 2019: durations stated: 21 days. In addition, hormonal (gonadotrophin, estrogen and inhibin B) and ovulatory responses to repeated KP-54 administration, at doses of 6.4-12.8 nmol/kg, s.c. bd for 21 days, were evaluated in a pilot cohort of anovulatory women (N = 12) diagnosed with PCOS, according to the Rotterdam criteria.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-31820802"
         ],
-        "source_excerpt": "At adulthood (postnatal day 100), rats were subjected to daily treatments with a bolus of KP-54 (100 μg/kg, s.c.) or vehicle for 11 days (N = 10 per model and treatment).",
+        "source_excerpt": "In addition, hormonal (gonadotrophin, estrogen and inhibin B) and ovulatory responses to repeated KP-54 administration, at doses of 6.4-12.8 nmol/kg, s.c. bd for 21 days, were evaluated in a pilot cohort of anovulatory women (N = 12) diagnosed with PCOS, according to the Rotterdam criteria.",
         "drafting": "extractive"
       },
       {
@@ -461,26 +461,6 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "AVP levels were higher in males at all time points (p = .028) and did not change in response to KP."
-        }
-      },
-      {
-        "value": "Phase 1 clinical trial, humans, 2026: Fezolinetant is a non-hormonal, selective neurokinin-3 receptor antagonist that blocks neurokinin B activation of kisspeptin/neurokinin B/dynorphin neurons to thereby modulate neuronal activity in the thermoregulatory center.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-41109977"
-        ],
-        "source_excerpt": "Fezolinetant is a non-hormonal, selective neurokinin-3 receptor antagonist that blocks neurokinin B activation of kisspeptin/neurokinin B/dynorphin neurons to thereby modulate neuronal activity in the thermoregulatory center.",
-        "drafting": "extractive",
-        "fields": {
-          "study": "Nielsen 2026",
-          "year": "2026",
-          "design": "Phase 1 clinical trial",
-          "n": null,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "not stated in abstract",
-          "outcome": "see source"
         }
       },
       {
@@ -664,12 +644,12 @@
         }
       },
       {
-        "value": "Clinical trial, humans, n=9, 2020: Further, we investigated their effects on KISS1R-mediated inositol monophosphate (IP1) and Ca2+ signaling in cell lines and on action potential firing of GnRH neurons in brain slices.RESULTSIn healthy women, the amplitude of luteinizing hormone (LH) rise was similar to that after KP54, but peaked later (21.4 vs. 4.7 hours; P = 0.0002), with correspondingly increased AUC of LH exposure (169.0 vs. 38.5 IU∙h/L; P = 0.0058).",
+        "value": "Clinical trial, humans, n=9, 2020: In healthy women, the amplitude of luteinizing hormone (LH) rise was similar to that after KP54, but peaked later (21.4 vs. 4.7 hours; P = 0.0002), with correspondingly increased AUC of LH exposure (169.0 vs. 38.5 IU∙h/L; P = 0.0058).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-33196464"
         ],
-        "source_excerpt": "Further, we investigated their effects on KISS1R-mediated inositol monophosphate (IP1) and Ca2+ signaling in cell lines and on action potential firing of GnRH neurons in brain slices.RESULTSIn healthy women, the amplitude of luteinizing hormone (LH) rise was similar to that after KP54, but peaked later (21.4 vs. 4.7 hours; P = 0.0002), with correspondingly increased AUC of LH exposure (169.0 vs. 38.5 IU∙h/L; P = 0.0058).",
+        "source_excerpt": "In healthy women, the amplitude of luteinizing hormone (LH) rise was similar to that after KP54, but peaked later (21.4 vs. 4.7 hours; P = 0.0002), with correspondingly increased AUC of LH exposure (169.0 vs. 38.5 IU∙h/L; P = 0.0058).",
         "drafting": "extractive",
         "fields": {
           "study": "Abbara 2020",
@@ -680,7 +660,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Further, we investigated their effects on KISS1R-mediated inositol monophosphate (IP1) and Ca2+ signaling in cell lines and on action potential firing of GnRH neurons in brain slices.RESULTSIn healthy women, the amplitude of luteinizing hormone (LH) rise was similar to that after KP54, but peaked later (21.4 vs. 4.7 hours; P = 0.0002), with correspondingly increased AUC of LH exposure (169.0 vs. 38.5 IU∙h/L; P = 0.0058)."
+          "outcome": "In healthy women, the amplitude of luteinizing hormone (LH) rise was similar to that after KP54, but peaked later (21.4 vs. 4.7 hours; P = 0.0002), with correspondingly increased AUC of LH exposure (169.0 vs. 38.5 IU∙h/L; P = 0.0058)."
         }
       },
       {
@@ -704,23 +684,23 @@
         }
       },
       {
-        "value": "Clinical trial, humans, n=20, 2019: However, while anovulatory NeNA rats displayed significant LH and FSH responses to KP-54 (P Limitations, reasons for caution While three different preclinical PCOS models were used in order to capture the heterogeneity of clinical presentations of the syndrome, it must be noted that rat models recapitulate many but not all the features of this condition.",
+        "value": "Clinical trial, humans, n=12, with rat models alongside, 2019: Our first-in-rodent and -human studies demonstrate that KP-54 administration in anovulatory preclinical models and women with PCOS can stimulate reproductive hormone secretion and ovulation, albeit with incomplete efficacy.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-31820802"
         ],
-        "source_excerpt": "However, while anovulatory NeNA rats displayed significant LH and FSH responses to KP-54 (P Limitations, reasons for caution While three different preclinical PCOS models were used in order to capture the heterogeneity of clinical presentations of the syndrome, it must be noted that rat models recapitulate many but not all the features of this condition.",
+        "source_excerpt": "Our first-in-rodent and -human studies demonstrate that KP-54 administration in anovulatory preclinical models and women with PCOS can stimulate reproductive hormone secretion and ovulation, albeit with incomplete efficacy.",
         "drafting": "extractive",
         "fields": {
           "study": "Romero-Ruiz 2019",
           "year": "2019",
-          "design": "Clinical trial",
-          "n": 20,
-          "species": "Humans",
-          "dose": "not stated in abstract",
-          "route": "not stated in abstract",
-          "duration": "11 days; 21 days",
-          "outcome": "However, while anovulatory NeNA rats displayed significant LH and FSH responses to KP-54 (P Limitations, reasons for caution While three different preclinical PCOS models were used in order to capture the heterogeneity of clinical presentations of the syndrome, it must be noted that rat models recapitulate many but not all the features of this condition."
+          "design": "Clinical trial (pilot cohort, with rat models alongside)",
+          "n": 12,
+          "species": "Humans; rats",
+          "dose": "6.4-12.8 nmol/kg",
+          "route": "subcutaneous",
+          "duration": "21 days",
+          "outcome": "Our first-in-rodent and -human studies demonstrate that KP-54 administration in anovulatory preclinical models and women with PCOS can stimulate reproductive hormone secretion and ovulation, albeit with incomplete efficacy."
         }
       },
       {
@@ -1319,6 +1299,10 @@
     {
       "date": "2026-11-07",
       "change": "Restored 14 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Evidence table corrected. The MVT-602 trial (pmid-33196464) now quotes its result in healthy women rather than a sentence about cell lines; the PCOS study (pmid-31820802) now quotes its women's cohort (12 women, 21 days) instead of its rat models, with n corrected from 20 to 12; and a fezolinetant QT-modelling study (pmid-41109977) was removed from the table, since fezolinetant is a different drug. The guide still cites it as fezolinetant."
     }
   ],
   "guide": [

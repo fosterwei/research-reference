@@ -3,7 +3,7 @@
   "pages": {
     "/": {
       "lastmod": "2026-11-07",
-      "hash": "5f65fb29bb8c4fca6d160ecf8ee2ea0b2a729d37"
+      "hash": "45b082a815a835d8f7c4e7a77ade562dfc694a2a"
     },
     "/about": {
       "lastmod": "2026-11-07",
@@ -159,7 +159,7 @@
     },
     "/compounds/dsip": {
       "lastmod": "2026-11-07",
-      "hash": "74d0ddfed5a778527a5fcd4a067b37bb3bee9fb2"
+      "hash": "379c659847b639b291116a5a95c79810d7c11f77"
     },
     "/compounds/epitalon": {
       "lastmod": "2026-11-07",
@@ -191,7 +191,7 @@
     },
     "/compounds/kisspeptin": {
       "lastmod": "2026-11-07",
-      "hash": "ba661c15899c9fd490e3624b058d9cdd82bfd816"
+      "hash": "3406631736d75fef948bc2d498d878ece8ff8fea"
     },
     "/compounds/kpv": {
       "lastmod": "2026-11-07",
@@ -488,6 +488,14 @@
         "/compounds/survodutide",
         "/compounds/tesamorelin",
         "/compounds/tesofensine"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "reason": "2026-11-07: same-day second revision of DSIP and kisspeptin evidence tables (excerpt choices, PCOS cohort, fezolinetant row), described in each record's 2026-11-07 changelog entry",
+      "pages": [
+        "/compounds/dsip",
+        "/compounds/kisspeptin"
       ]
     }
   ]

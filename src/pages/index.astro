@@ -19,7 +19,7 @@ import Tier from '../components/v2/Tier.astro';
 import Faq from '../components/v2/Faq.astro';
 import ReconstitutionMath from '../components/shared/ReconstitutionMath.astro';
 import { records } from '../lib/collections';
-import { isIndexable, lastmod, formatCount, SITE_NAME } from '../lib/site';
+import { isIndexable, lastmod, formatCount, SITE_NAME, imageObjects } from '../lib/site';
 import { qualifies } from '../lib/calculators';
 import { loadIntent } from '../lib/intents';
 import { compound as regCompound, className, stacks as regStacks, tools as regTools } from '../lib/registry';
@@ -113,7 +113,7 @@ const faq = [
 
 const jsonld = [
   { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: Astro.site?.toString() },
-  { '@context': 'https://schema.org', '@type': 'Organization', name: SITE_NAME, url: Astro.site?.toString(), logo: new URL('/icon-512.png', Astro.site).toString() },
+  { '@context': 'https://schema.org', '@type': 'Organization', name: SITE_NAME, url: Astro.site?.toString(), logo: imageObjects(Astro.site).logo },
 ];
 ---
 <Base title="Peptide Research, Cited and Tiered | Dashnaiv Peptides" description="Peptide research reference: the doses studies used, side effects reported, evidence tiers on every claim, and calculators that show their working. Nothing sold." path="/" indexable={written.length > 0} jsonld={jsonld}>

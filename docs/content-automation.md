@@ -312,3 +312,14 @@ accept everything or reject everything.
   pmid-38409346 on TB-500 (cultured cells), pmid-37874230 on FOXO4-DRI (rats,
   autopsy lungs alongside). A sweep of every evidence table for a human tier
   with a non-human design or species now returns nothing.
+- 2026-11-07 — DSIP and kisspeptin excerpt choices. Human-trial rows that
+  quoted a background or cell-line sentence now quote the human finding
+  (pmid-7777652, pmid-33196464). The kisspeptin PCOS paper (pmid-31820802)
+  had two rows quoting its rat models under a human label; they now quote its
+  12-woman cohort, with n corrected from 20. A fezolinetant QT-modelling study
+  (pmid-41109977) was removed from kisspeptin's evidence table: different
+  drug. The guide's own fezolinetant comparison is unchanged.
+- 2026-11-07 — ImageObject. Article markup on compound, stack, comparison and
+  guide pages now carries `image` (og.jpg as an ImageObject, 1200×630) and
+  `publisher.logo` (icon-512.png, 512×512); the homepage Organization logo is
+  an ImageObject too. Helper: `imageObjects()` in `src/lib/site.ts`.
