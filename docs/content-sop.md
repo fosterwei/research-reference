@@ -23,7 +23,7 @@ unknown. Commercial and transactional queries — where to buy, what it costs,
 which supplier to trust — are **out of scope**. They are not researched, not
 mapped, and not answered, because `agent/AGENT.md` prohibits vendor and
 affiliate content during the pilot and because answering them well would require
-expertise this site does not claim.
+expertise this site does not claim. Dosing and protocol intent ("X dosage", "X dosing schedule", "X protocol") is **in scope** from 2026-11-07 and maps to the `protocol` section; see the Protocol layer in `docs/content-contract.md` for what that section may say and what it must cite.
 
 Leave them out of the intent map entirely rather than writing refusals into the
 page. One line near the top of a page is enough to set the boundary, and the

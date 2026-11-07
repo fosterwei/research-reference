@@ -54,10 +54,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
       },
       "intent": "informational",
-      "policy": "evidence-only",
-      "section": "study_doses",
-      "heading": "What doses did the trials actually use?",
-      "boundary": "Every dose below is one a published trial administered. Doses that circulate outside trials are handled separately, and are not the same set."
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "Retatrutide dosing protocol: label, trials and a practical schedule"
     },
     {
       "query": "retatrutide vs tirzepatide",
@@ -94,10 +93,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
       },
       "intent": "informational",
-      "policy": "evidence-only",
-      "section": "escalation_schedules",
-      "heading": "The escalation schedules the trials used",
-      "boundary": "Trials escalated from a starting dose over weeks. The starting dose itself changed the side-effect rate, which is why it is reported here rather than only the target dose."
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "Retatrutide dosing protocol: label, trials and a practical schedule"
     },
     {
       "query": "retatrutide reconstitution",
@@ -295,6 +293,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "calculator",
     "escalation",
     "adverse",

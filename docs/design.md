@@ -59,9 +59,11 @@ compound-specific evidence; no visual difference between draft and reviewed.
 5. **State is visible.** Draft records carry a status pill in the title block
    and a status bar above the body. Published records carry the reviewer's
    name and credential in the same positions.
-6. **No affordance implies advice.** No body-weight input, no "your dose", no
-   schedule builder, no purchase link. Calculators state their formula and
-   refuse personal parameters (`docs/page-template-spec.md`, Tool page).
+6. **No affordance implies individual advice.** No body-weight input, no "your
+   dose", no purchase link. Calculators state their formula and refuse personal
+   parameters. Schedules are allowed where they are sourced regimens: the protocol
+   layer (`docs/content-contract.md`) renders label dosing, trial arms and a
+   synthesised practical protocol with its basis cited, under the site notice.
 7. **Verifiable in one click.** Every claim links to its source id; every
    source row has the id, date and outbound link. The evidence table's study
    column links to the same anchors.

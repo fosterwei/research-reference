@@ -2,12 +2,12 @@
   "_comment": "Maintained by scripts/check_lastmod.py. Record pages are dated by their own changelog; everything else by the date below. Seeded 2026-10-13 from git history and changelogs, not from the build date.",
   "pages": {
     "/": {
-      "lastmod": "2026-11-04",
-      "hash": "fe29a95ea27ee0d35b64cd0a8aec0aa1cfc741e0"
+      "lastmod": "2026-11-07",
+      "hash": "83d982a108efa198ce5180159b19d861e9d7621b"
     },
     "/about": {
-      "lastmod": "2026-09-30",
-      "hash": "dc5c640f490b2a39bd7d6865ea9cd52aac0fc0b4"
+      "lastmod": "2026-11-07",
+      "hash": "e1a114adc877179daa32a9b72d59f8d9383e56c9"
     },
     "/calculators": {
       "lastmod": "2026-10-12",
@@ -214,8 +214,8 @@
       "hash": "0c74e1f726a940d56e128c6eb48ec17210775b09"
     },
     "/compounds/retatrutide": {
-      "lastmod": "2026-10-12",
-      "hash": "34f2b590de4f2bb2bc63b51728108112c91c4629"
+      "lastmod": "2026-11-07",
+      "hash": "15414de8f480f4f9efe0ebab7b3688cc40d2dac4"
     },
     "/compounds/selank": {
       "lastmod": "2026-10-12",
@@ -242,8 +242,8 @@
       "hash": "e81d3b1cff0292e620af395a8af11d673e3b1615"
     },
     "/compounds/tesamorelin": {
-      "lastmod": "2026-10-12",
-      "hash": "694f9fa852ba9269abbd31b25d5ebfa98aad46d8"
+      "lastmod": "2026-11-07",
+      "hash": "11e003a45a4f19532df54126304450f24a3b0f37"
     },
     "/compounds/tesofensine": {
       "lastmod": "2026-10-12",
@@ -254,8 +254,8 @@
       "hash": "07fdfb5d5f7b1c4f9ab6f942220ce895007a17f3"
     },
     "/contact": {
-      "lastmod": "2026-09-29",
-      "hash": "a23a8625f0ca09960f476291347d8664984d99c8"
+      "lastmod": "2026-11-07",
+      "hash": "3866a0c8d09b10c14a01e3dae3ba6072051dac4c"
     },
     "/privacy": {
       "lastmod": "2026-10-08",
@@ -319,87 +319,87 @@
     },
     "/blog/amylin-analogs": {
       "lastmod": "2026-10-29",
-      "hash": "984c9dd66ffd0d36628fec53cc7d618b7742b911"
+      "hash": "8a1baa09e8dbea296fe526abd5e8d309d1555445"
     },
     "/blog/cagrilintide-dosage": {
       "lastmod": "2026-10-29",
-      "hash": "fe7c0390f26baf8f755026d0065030283d68f2de"
+      "hash": "dc1d6b9205975ff3e471b684320303f36e8b9490"
     },
     "/blog/cagrilintide-guide": {
       "lastmod": "2026-10-29",
-      "hash": "7f1be42bf7ab98a848dfd15cea1882b91f9da0b1"
+      "hash": "5849d759fbd1f15e86d0d728152f2df6a37a2a63"
     },
     "/blog/cagrilintide-side-effects": {
       "lastmod": "2026-10-29",
-      "hash": "2c76e449f4a2fcba36a9c3d394288bc91d5ba0f1"
+      "hash": "b430a89aa29069662a493eaba9e6803eb0fc0dea"
     },
     "/blog/cagrilintide-with-retatrutide": {
       "lastmod": "2026-10-29",
-      "hash": "f076cffe20f73f12aebccf1355131115a8d18996"
+      "hash": "4e91c8717b839640f926d51201e2971ec99a9682"
     },
     "/blog/cagrilintide-with-tirzepatide": {
       "lastmod": "2026-10-29",
-      "hash": "6af56197c3fb228dcba058cb0d32e23092a546b4"
+      "hash": "fbc07320428dff748282da9f82401d70c1f13750"
     },
     "/blog/cagrisema-approval-timeline": {
       "lastmod": "2026-10-29",
-      "hash": "d6b729c7fde50e759a18aabc113415ecd62806b0"
+      "hash": "43bc6108e4ec6e2378b8dd54866eda05275ff6f3"
     },
     "/blog/cagrisema-dosing-schedule": {
       "lastmod": "2026-10-29",
-      "hash": "50db6962da74e15df2b1e53869fe388bf9f30e50"
+      "hash": "80141f7a14fb2c6dc04e312093442ab18815e623"
     },
     "/blog/diabetes-medications": {
       "lastmod": "2026-10-29",
-      "hash": "11cb980d60392b664f41b4543c821700fa6549c6"
+      "hash": "73153c3a8aef1bafdd1ade432be3e42cfa51289e"
     },
     "/blog/eloralintide": {
       "lastmod": "2026-10-29",
-      "hash": "988e5c524a30cb3b9b1fe46f6475a745da6a0405"
+      "hash": "89537492a8d8a1cda142188a2c8c275a2b3b0957"
     },
     "/blog/glucose-pills": {
       "lastmod": "2026-10-29",
-      "hash": "149061573d8f16e3a83f7e690e2bdf1302014f8b"
+      "hash": "51766ffad7b2d548172663a073bbdd9e6f6da71b"
     },
     "/blog/how-cagrilintide-works": {
       "lastmod": "2026-10-29",
-      "hash": "c7eaf8462c3f459c27eba1467aebd63b4bab601a"
+      "hash": "2a4cea52cee3d246eb82c8bf3341ab60472a26db"
     },
     "/blog/hypoglycemic-drugs": {
       "lastmod": "2026-10-29",
-      "hash": "31420ee4c3c2e1e72fe89ac491209c43534746da"
+      "hash": "6f0041db49c76303cdc9fac9981008403356fbf8"
     },
     "/blog/jardiance-for-type-2-diabetes": {
       "lastmod": "2026-10-29",
-      "hash": "87208242f5157ff96d875b54201c64add165364b"
+      "hash": "529d0afb21cc4322ad95d3182ee96035c4cdcec4"
     },
     "/blog/metformin-vs-insulin": {
       "lastmod": "2026-10-29",
-      "hash": "46e62ab79560d004025d0332d6507c8d673aae43"
+      "hash": "ee18475a64260b3e4b30f11545ec18c51f5e2203"
     },
     "/blog/new-diabetes-medications": {
       "lastmod": "2026-10-29",
-      "hash": "dc24f86679cea2f5a64489bb800335b393ebd15e"
+      "hash": "143447b8e3e1d1d03c3fa41f49cdd0cb1c3640f5"
     },
     "/blog/new-weight-loss-drugs": {
       "lastmod": "2026-10-29",
-      "hash": "a9d749cb7ebc3da055c7743b32f54b6d951bf583"
+      "hash": "265339f6f6efd737a9a286517b85dfcfe98c3a4b"
     },
     "/blog/prediabetes-medication": {
       "lastmod": "2026-10-29",
-      "hash": "5f233f040454e38694ba9a7a4ed7d08b4d1ea2c1"
+      "hash": "bf209741c5bb6e567adb8c47e294071e19b424d7"
     },
     "/blog/subcutaneous-injection-sites": {
       "lastmod": "2026-10-29",
-      "hash": "267f0c9a9b93ddf9f600ee1364a8728c0dbc2644"
+      "hash": "5fef730dc7fd948b6515462a907ac41c48dd68d4"
     },
     "/blog/type-2-diabetes-remission": {
       "lastmod": "2026-10-29",
-      "hash": "63d4da9b663df563001dd310214a4dd32ba34249"
+      "hash": "c90c5b695395b3d4d1ab1ce8f87c05cf5cce4373"
     },
     "/blog/type-2-diabetes-treatments": {
       "lastmod": "2026-10-29",
-      "hash": "796d6c5e585a503b078632b31c5a15cac771c324"
+      "hash": "f533f7528dc2ce1e9dd79e69d8f5cc1d0beba16f"
     }
   },
   "trivial": [
@@ -415,6 +415,33 @@
         "/compare/cagrilintide-vs-semaglutide",
         "/compounds/cagrilintide",
         "/compounds/retatrutide"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "reason": "2026-11-07 contract change: the status bar's standing notice was reworded from 'no dosing advice' to 'not individual medical advice'; no page content changed",
+      "pages": [
+        "/blog/amylin-analogs",
+        "/blog/cagrilintide-dosage",
+        "/blog/cagrilintide-guide",
+        "/blog/cagrilintide-side-effects",
+        "/blog/cagrilintide-with-retatrutide",
+        "/blog/cagrilintide-with-tirzepatide",
+        "/blog/cagrisema-approval-timeline",
+        "/blog/cagrisema-dosing-schedule",
+        "/blog/diabetes-medications",
+        "/blog/eloralintide",
+        "/blog/glucose-pills",
+        "/blog/how-cagrilintide-works",
+        "/blog/hypoglycemic-drugs",
+        "/blog/jardiance-for-type-2-diabetes",
+        "/blog/metformin-vs-insulin",
+        "/blog/new-diabetes-medications",
+        "/blog/new-weight-loss-drugs",
+        "/blog/prediabetes-medication",
+        "/blog/subcutaneous-injection-sites",
+        "/blog/type-2-diabetes-remission",
+        "/blog/type-2-diabetes-treatments"
       ]
     }
   ]

@@ -39,10 +39,9 @@
         "source": "dataforseo keyword_overview (clickstream), US/en, 2026-09-30"
       },
       "intent": "informational",
-      "policy": "evidence-only",
-      "section": "study_doses",
-      "heading": "What dose did the trials use?",
-      "boundary": "One dose runs through almost every trial of this compound. It was not chosen for body composition in healthy people."
+      "policy": "answer",
+      "section": "protocol",
+      "heading": "Tesamorelin dosing protocol: label, trials and a practical schedule"
     },
     {
       "query": "egrifta",
@@ -241,6 +240,7 @@
     "evidence",
     "doses",
     "dosage-chart",
+    "protocol",
     "calculator",
     "adverse",
     "who",

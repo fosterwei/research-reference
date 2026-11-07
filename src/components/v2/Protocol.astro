@@ -1,0 +1,75 @@
+---
+// The protocol layer (docs/content-contract.md, "Protocol layer"). Three
+// provenances, rendered as three blocks that are never merged: label dosing,
+// regimens as studied, and a practical protocol synthesised from them. The
+// third is the one the owner widened the scope to allow on 2026-11-07; every
+// step in it names the rows it derives from, and it is signed by the reviewer
+// separately from the page.
+import Tier from './Tier.astro';
+import { timeTag } from '../../lib/format';
+interface Props {
+  claims: any[];
+  sources: any[];
+  name: string;
+  review: { reviewer?: string; reviewer_credential?: string; protocol_reviewed_at?: string };
+}
+const { claims, sources, name, review } = Astro.props;
+const src = new Map<string, any>((sources ?? []).map((s: any) => [s.id, s]));
+const label = claims.filter((c) => c.evidence_label === 'approved-label');
+const studied = claims.filter((c) => ['human-clinical-trial', 'observational-human'].includes(c.evidence_label));
+const practical = claims.filter((c) => c.evidence_label === 'editorial');
+const cols = ['phase', 'dose', 'frequency', 'route', 'duration', 'population'] as const;
+const head: Record<string, string> = { phase: 'Phase', dose: 'Dose', frequency: 'Frequency', route: 'Route', duration: 'Duration', population: 'Who received it' };
+const signed = Boolean(review?.protocol_reviewed_at);
+---
+<div class="protocol">
+  {label.length > 0 && (
+    <div class="prov">
+      <h3>Approved label dosing</h3>
+      <p class="lede">What the regulator-approved label states. The only dosing on this page that is approved for an indication, and only for that indication and population.</p>
+      <div class="card clip"><div class="tblwrap"><table class="tbl">
+        <thead><tr>{cols.map((c) => <th scope="col">{head[c]}</th>)}<th scope="col">Source</th></tr></thead>
+        <tbody>{label.map((c) => <tr>{cols.map((k) => <td>{c.fields?.[k] ?? ''}</td>)}<td>{(c.source_ids ?? []).map((id: string, i: number) => <Fragment>{i > 0 && ', '}{src.get(id)?.url ? <a href={src.get(id).url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}</Fragment>)}{c.pending_source && <span class="sub"> document pending</span>}</td></tr>)}</tbody>
+      </table></div></div>
+    </div>
+  )}
+  {studied.length > 0 && (
+    <div class="prov">
+      <h3>Regimens as studied</h3>
+      <p class="lede">One row per trial arm or phase, as the paper states it. These are what was given, to whom, for how long. They are the basis for the practical protocol below and the place to check it against.</p>
+      <div class="card clip"><div class="tblwrap"><table class="tbl">
+        <thead><tr>{cols.map((c) => <th scope="col">{head[c]}</th>)}<th scope="col">Evidence</th><th scope="col">Source</th></tr></thead>
+        <tbody>{studied.map((c) => <tr>{cols.map((k) => <td>{c.fields?.[k] ?? ''}</td>)}<td><Tier tier={c.evidence_label} /></td><td>{(c.source_ids ?? []).map((id: string, i: number) => <Fragment>{i > 0 && ', '}{src.get(id)?.url ? <a href={src.get(id).url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}</Fragment>)}</td></tr>)}</tbody>
+      </table></div></div>
+    </div>
+  )}
+  {practical.length > 0 && (
+    <div class="prov practical">
+      <div class="prov-head">
+        <h3>Practical protocol</h3>
+        {signed
+          ? <span class="pill ok">Reviewed by {review.reviewer}, {review.reviewer_credential}, <Fragment set:html={timeTag(review.protocol_reviewed_at!)} /></span>
+          : <span class="pill dashed">Awaiting pharmacist review</span>}
+      </div>
+      <p class="lede">A schedule we have written by reading the label and the trial arms above together. It is a synthesis of what was studied, not a prescription, and each step names the rows it comes from. It assumes the population those studies enrolled; a clinician who knows your history is the only source for what applies to you.</p>
+      <ol class="list steps">
+        {practical.map((c) => (
+          <li>
+            <strong>{c.fields?.phase ? `${c.fields.phase}. ` : ''}</strong>{c.value}
+            {(c.fields?.dose || c.fields?.frequency || c.fields?.duration) && <span class="sub"> ({[c.fields?.dose, c.fields?.frequency, c.fields?.duration].filter(Boolean).join(', ')})</span>}
+            <span class="basis"> Basis: {(c.source_ids ?? []).map((id: string, i: number) => <Fragment>{i > 0 && ', '}{src.get(id)?.url ? <a href={src.get(id).url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}</Fragment>)}</span>
+          </li>
+        ))}
+      </ol>
+      <div class="status neutral"><div><strong>General information, not individual medical advice.</strong> Doses above are those studies and labels report for {name}. Whether any of them applies to you depends on why you would take it, what else you take, and your kidneys and liver, none of which a page can know.</div></div>
+    </div>
+  )}
+</div>
+<style>
+  .protocol { display: flex; flex-direction: column; gap: 28px; }
+  .protocol .prov { display: flex; flex-direction: column; gap: 10px; }
+  .protocol .prov-head { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+  .protocol .steps li { margin-bottom: 8px; }
+  .protocol .basis { display: block; font-size: 13px; color: var(--ink-3); margin-top: 2px; }
+  .protocol .practical { border-left: 3px solid var(--t-editorial); padding-left: 18px; }
+</style>

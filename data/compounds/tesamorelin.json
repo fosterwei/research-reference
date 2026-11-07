@@ -763,6 +763,83 @@
           "outcome": "see source"
         }
       }
+    ],
+    "protocol": [
+      {
+        "value": "Egrifta (tesamorelin) approved label: 2 mg once daily by subcutaneous injection into the abdomen, for the reduction of excess abdominal fat in HIV-infected adults with lipodystrophy. Label document to be added to the ledger.",
+        "evidence_label": "approved-label",
+        "source_ids": [],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "2 mg",
+          "frequency": "once daily",
+          "route": "subcutaneous, abdomen",
+          "duration": "ongoing while treatment continues",
+          "population": "Adults with HIV and lipodystrophy with excess abdominal fat"
+        },
+        "pending_source": true
+      },
+      {
+        "value": "Phase 3 trial, n=410, 2008: HIV patients with central fat accumulation in the context of antiretroviral therapy were randomized to tesamorelin 2 mg (n = 273) or placebo (n = 137) s.c. daily for 26 weeks.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18690162"
+        ],
+        "drafting": "extractive",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "2 mg",
+          "frequency": "once daily",
+          "route": "subcutaneous",
+          "duration": "26 weeks",
+          "population": "Adults with HIV and abdominal fat accumulation on antiretroviral therapy"
+        },
+        "source_excerpt": "HIV patients with central fat accumulation in the context of antiretroviral therapy were randomized to tesamorelin 2 mg (n = 273) or placebo (n = 137) s.c. daily for 26 weeks."
+      },
+      {
+        "value": "Phase 3 extension, 2008: At week 26, patients originally on tesamorelin were rerandomized to 2 mg tesamorelin (T-T group, n = 154) or placebo (T-P group, n = 50), whereas patients originally on placebo were switched to tesamorelin (P-T group, n = 111). The change in visceral fat was sustained at -18% over 52 weeks and did not last beyond the duration of treatment.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-18690162"
+        ],
+        "drafting": "extractive",
+        "fields": {
+          "phase": "cycle",
+          "dose": "2 mg or placebo",
+          "frequency": "once daily",
+          "route": "subcutaneous",
+          "duration": "a further 26 weeks after re-randomisation",
+          "population": "Adults with HIV and abdominal fat accumulation on antiretroviral therapy"
+        },
+        "source_excerpt": "At week 26, patients originally on tesamorelin were rerandomized to 2 mg tesamorelin (T-T group, n = 154) or placebo (T-P group, n = 50), whereas patients originally on placebo were switched to tesamorelin (P-T group, n = 111)."
+      },
+      {
+        "value": "The only regimen with human evidence is 2 mg once daily under the skin of the abdomen, which is both the label dose and the dose every pivotal trial used. There is no escalation: the trials started and stayed at 2 mg.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-18690162"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "1",
+          "dose": "2 mg",
+          "frequency": "once daily",
+          "route": "subcutaneous, abdomen"
+        }
+      },
+      {
+        "value": "Reassess at 26 weeks, the point at which the pivotal trial measured its primary endpoint and re-randomised. The 52-week extension showed the visceral-fat reduction is maintained only while dosing continues and does not persist after it stops, so a plan that includes stopping should expect the effect to reverse.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-18690162"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "2",
+          "duration": "reassess at 26 weeks"
+        }
+      }
     ]
   },
   "evidence_summary": {
@@ -1070,6 +1147,10 @@
     {
       "date": "2026-10-12",
       "change": "Added a Tesamorelin dosage calculator beneath the dosage chart, with a link to the full calculator page, which charts syringe units for the doses studies of Tesamorelin actually used."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: the label dose (document pending), the pivotal trial's regimen and its extension, and a two-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
     }
   ],
   "guide": [

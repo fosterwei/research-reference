@@ -11,6 +11,6 @@ const reviewed = Boolean(review.reviewer && review.reviewer_credential && review
   {reviewed ? (
     <div><strong>Reviewed by {review.reviewer_url ? <a href={review.reviewer_url} rel="nofollow noopener">{review.reviewer}</a> : review.reviewer}</strong>, {review.reviewer_credential}, on <Fragment set:html={timeTag(review.reviewed_at!)} />.{review.author && <> Written by {review.author}.</>} <a href="#changelog">What changed</a></div>
   ) : (
-    <div>Compiled from <strong>{sources}</strong> indexed sources{updated && <>, updated <Fragment set:html={timeTag(updated)} /></>}. Cited findings carry an evidence tier; passages written from general knowledge are marked <em>editorial synthesis</em>. Nothing here is medical or dosing advice. <a href="#changelog">What changed</a></div>
+    <div>Compiled from <strong>{sources}</strong> indexed sources{updated && <>, updated <Fragment set:html={timeTag(updated)} /></>}. Cited findings carry an evidence tier; passages written from general knowledge are marked <em>editorial synthesis</em>. General information from published studies and labels, not individual medical advice. <a href="#changelog">What changed</a></div>
   )}
 </div>
