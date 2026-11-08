@@ -67,7 +67,7 @@ const faq: Array<{ q: string; a: string }> = [
   }] : []),
   { q: 'Does adding more diluent waste the peptide?', a: 'No. The mass in the vial does not change. More diluent spreads the same mass through more liquid, so each dose is a larger, easier-to-measure volume and the vial yields exactly as many doses as before.' },
   { q: 'Why does this page not recommend a dose?', a: 'Because a dose is a clinical decision rather than a division. It depends on why someone is taking something, what else they take and how their kidneys and liver are working, none of which is knowable from a number typed into a box.' },
-  { q: 'Where do the doses in the table come from?', a: `Each is quoted from a specific paper indexed in Europe PMC, linked in the source column, and labelled with the kind of study it came from. The full evidence is on the <a href="/compounds/${d.slug}">${name} record</a>.` },
+  { q: 'Where do the doses in the table come from?', a: `Each is taken from a specific paper indexed in Europe PMC, linked in the source column, and labelled with the kind of study it came from. The full evidence is on the <a href="/compounds/${d.slug}">${name} record</a>.` },
 ];
 const site = Astro.site?.toString();
 const jsonld = [
@@ -113,7 +113,7 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
     <p class="dek">
       Enter a vial and a dose and this returns the concentration, the volume and the syringe units.
       Underneath it, the same arithmetic worked out in advance for common vials, and the doses
-      published studies of {name} actually used, every one quoted and cited. It converts numbers.
+      published studies of {name} actually used, every one cited. It converts numbers.
       It does not suggest what to take.
     </p>
 
@@ -134,7 +134,7 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
         <h2 id="chart">{name} reconstitution chart</h2>
         <p class="prose">
           Units on a standard U-100 insulin syringe, where 100 units is 1&nbsp;mL. The rows are the
-          absolute doses quoted in studies of {name}, from {formatDose(smallest)} to {formatDose(largest)},
+          absolute doses reported in studies of {name}, from {formatDose(smallest)} to {formatDose(largest)},
           so this chart is specific to this compound rather than a generic ladder. More diluent means
           more units for the same dose, which is easier to measure accurately and empties the vial no faster.
         </p>
@@ -169,7 +169,7 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
       <Fragment>
         <h2 id="nochart">Why there is no units chart for {name}</h2>
         <p class="prose">
-          Every dose quoted in studies of {name} is given per kilogram of body weight, and none is an
+          Every dose reported in studies of {name} is given per kilogram of body weight, and none is an
           absolute quantity. A chart of syringe units needs a fixed mass to work from, so there is
           nothing honest to put in one.
         </p>
@@ -221,7 +221,7 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
 
     <h2 id="studied">Doses in published studies of {name}</h2>
     <p class="prose">
-      Each row is quoted from a paper in this compound's source ledger and carries the kind of evidence
+      Each row is taken from a paper in this compound's source ledger and carries the kind of evidence
       it came from. {human.length === 0
         ? `None is a human dose: no study here administered ${name} to people at a stated dose.`
         : `${human.length} of ${rows.length} come from human studies; the rest are animal or laboratory work.`}
@@ -230,7 +230,7 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
       <caption>What studies of {name} administered, as published. A record of what happened, not a menu.</caption>
       <thead><tr><th scope="col">Evidence</th><th scope="col">Dose as the paper states it</th><th scope="col">Source</th></tr></thead>
       <tbody>{rows.map((r) => (
-        <tr><td><Tier tier={r.tier} /></td><td>{r.value}</td><td><SourceIds ids={r.sourceIds} sources={sources} /></td></tr>
+        <tr><td><Tier tier={r.tier} /></td><td>{r.display ?? r.value}</td><td><SourceIds ids={r.sourceIds} sources={sources} /></td></tr>
       ))}</tbody>
     </table></div></div>
 
@@ -243,7 +243,7 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
           is not one. Interspecies scaling is not arithmetic: a rat milligram-per-kilogram figure does
           not become a human dose by multiplication.
         </p>
-        <ul class="list">{perKg.slice(0, 6).map((r) => <li>{r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
+        <ul class="list">{perKg.slice(0, 6).map((r) => <li>{r.display ?? r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
       </Fragment>
     )}
 
@@ -255,7 +255,7 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
           did. The starting dose is often the part that decides tolerability, which is why it is
           reported here and not only the dose the trial finished on.
         </p>
-        <ul class="list">{escalation.map((r) => <li>{r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
+        <ul class="list">{escalation.map((r) => <li>{r.display ?? r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
       </Fragment>
     )}
 
@@ -268,7 +268,7 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
           How long that represents depends on frequency. For context, these are the durations studies of
           {' '}{name} actually ran for.
         </p>
-        <ul class="list">{durations.slice(0, 5).map((r) => <li>{r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
+        <ul class="list">{durations.slice(0, 5).map((r) => <li>{r.display ?? r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
       </Fragment>
     )}
 
@@ -280,7 +280,7 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
           in this ledger. They describe what the study did, which is not the same as a shelf life for a
           vial in your fridge.
         </p>
-        <ul class="list">{storage.slice(0, 6).map((r) => <li>{r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
+        <ul class="list">{storage.slice(0, 6).map((r) => <li>{r.display ?? r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
       </Fragment>
     )}
 
@@ -288,7 +288,7 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
       <Fragment>
         <h2 id="routes">How {name} was given</h2>
         <p class="prose">The route changes what a dose means. The same number given intravenously and subcutaneously is not the same exposure.</p>
-        <ul class="list">{routes.slice(0, 6).map((r) => <li>{r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
+        <ul class="list">{routes.slice(0, 6).map((r) => <li>{r.display ?? r.value} <small><SourceIds ids={r.sourceIds} sources={sources} /></small></li>)}</ul>
       </Fragment>
     )}
 

@@ -23,7 +23,8 @@
           "pmid-37874230"
         ],
         "source_excerpt": "N -acetyl-lysyltyrosylcysteine-amide (KYC), tauroursodeoxycholic acid (TUDCA), and Foxo4 dri were administered intraperitoneally to mitigate myeloperoxidase oxidant generation, ER stress, and cellular senescence, respectively.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In rats with a newborn lung injury model (hyperoxic bronchopulmonary dysplasia), a 2024 study gave FOXO4-DRI, KYC and TUDCA by injection into the belly cavity."
       },
       {
         "value": "Animal study, mice, 2026: Injection of FOXO4-DRI in both naturally aged and induced aging mice effectively suppressed aortic aging and improved aortic function.",
@@ -32,7 +33,8 @@
           "pmid-41625068"
         ],
         "source_excerpt": "Injection of FOXO4-DRI in both naturally aged and induced aging mice effectively suppressed aortic aging and improved aortic function.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In naturally aged mice and mice with induced aging, a 2026 study gave FOXO4-DRI by injection and reported less aortic aging and better aortic function."
       },
       {
         "value": "Intraperitoneal injection in every animal study, which is a route used in rodents and not in people. No study has used subcutaneous injection, the route people who buy it describe, and none has tested whether the peptide survives or distributes the same way by that route.",
@@ -56,7 +58,8 @@
           "pmid-37874230"
         ],
         "source_excerpt": "Foxo4 dri administered at P4, P6, P8, and P10 led to outcomes similar to TUDCA and KYC.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In newborn rats exposed to high oxygen, a 2024 study gave FOXO4-DRI at P4, P6, P8 and P10 (days after birth) and reported outcomes similar to those of TUDCA and KYC."
       }
     ],
     "escalation_schedules": [
@@ -75,7 +78,8 @@
           "pmid-34877934"
         ],
         "source_excerpt": "Specific induction of senescence-like CAF apoptosis using FOXO4-DRI, a FOXO4-p53-interfering peptide, resulted in remarkable effects on radiosensitizing NSCLC cells in vitro and in vivo.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mice and in cells grown in a lab, a 2021 study found FOXO4-DRI killed senescent-like (aged, non-dividing) cancer-associated fibroblasts and made non-small cell lung cancer cells more sensitive to radiation."
       },
       {
         "value": "Animal study, 2026: Mito-TEMPO, a mtROS scavenger, and FOXO4-DRI, a senolytic agent, both enhanced the therapeutic efficacy of TMZ by eliminating these senescent cells via apoptosis.",
@@ -84,7 +88,8 @@
           "pmid-42391447"
         ],
         "source_excerpt": "Mito-TEMPO, a mtROS scavenger, and FOXO4-DRI, a senolytic agent, both enhanced the therapeutic efficacy of TMZ by eliminating these senescent cells via apoptosis.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In a 2026 animal and cell study of glioblastoma (a brain cancer), FOXO4-DRI and Mito-TEMPO each made the chemotherapy drug temozolomide work better by removing senescent (aged, non-dividing) cells."
       },
       {
         "value": "The only agents the peptide has been given alongside are cancer treatments, in the studies that used it to kill cells the treatment had made senescent: doxorubicin in the 2017 mouse work, radiotherapy in the 2021 lung-cancer study and temozolomide in the 2026 glioblastoma study. Those are experiments in which senescence is the target, not interaction studies. No study has examined it with any other drug, and none has looked at what it does in an animal receiving ordinary medicines.",
@@ -102,7 +107,8 @@
           "pmid-28340339"
         ],
         "source_excerpt": "Under conditions where it was well tolerated in vivo, this FOXO4 peptide neutralized doxorubicin-induced chemotoxicity.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mice, a 2017 study (Baar) reported FOXO4-DRI was well tolerated at the conditions used and counteracted toxicity from the chemotherapy drug doxorubicin."
       },
       {
         "value": "There are no human safety data of any kind, because no person has received it in a study. Tolerability in a mouse over weeks is not a safety assessment; the mouse papers looked for benefit and reported no obvious harm, which is a different thing from looking for harm. The concerns that follow from the mechanism have not been tested in anything: senescent cells are needed transiently for wound healing and tissue repair, so clearing them indiscriminately has a plausible cost; a peptide that frees p53 to trigger cell death is acting on the central apoptosis switch; and the 2025 structural work found that the cationic cell-penetrating part of the molecule contributes to binding, which is also the part that gets it into every cell rather than only senescent ones.",
@@ -127,7 +133,8 @@
           "pmid-35510614"
         ],
         "source_excerpt": "Furthermore, FOXO4-DRI could increase the percentage of type 2 alveolar epithelial cells (AEC2) and fibroblasts, and decrease the myofibroblasts in bleomycin (BLM)-induced PF mouse model.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mice with bleomycin-induced lung scarring, a 2022 study measured lung cell types and found FOXO4-DRI raised the share of type 2 air-sac cells and fibroblasts and lowered myofibroblasts (scar-forming cells)."
       },
       {
         "value": "In vitro study, humans, 2025: We further demonstrate that a senolytic FOXO4-D-retro-inverso-isoform peptide (FOXO4-DRI) promotes apoptosis and decreases G0/G1 phase cells in pro-senescence models of keloid organ cultures and fibroblasts, accompanied with p53-pS15 nuclear exclusion.",
@@ -136,7 +143,8 @@
           "pmid-39994346"
         ],
         "source_excerpt": "We further demonstrate that a senolytic FOXO4-D-retro-inverso-isoform peptide (FOXO4-DRI) promotes apoptosis and decreases G0/G1 phase cells in pro-senescence models of keloid organ cultures and fibroblasts, accompanied with p53-pS15 nuclear exclusion.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In human keloid scar tissue and fibroblast cells grown in a lab, a 2025 study measured cell death, cell-cycle phase and p53 location, finding FOXO4-DRI increased cell death and moved activated p53 out of the nucleus."
       },
       {
         "value": "What the studies count is senescent cells and the signals they secrete: p16, beta-galactosidase staining, the senescence-associated secretory phenotype, and apoptosis markers in the tissue itself. None of that can be measured from a blood sample, which is the practical problem with the compound. There is no established blood test that shows whether a senolytic has worked in a person.",
@@ -163,7 +171,8 @@
           "pmid-37874230"
         ],
         "source_excerpt": "Foxo4 dri administered at P4, P6, P8, and P10 led to outcomes similar to TUDCA and KYC.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In newborn rats, a 2024 study gave FOXO4-DRI on four days after birth: P4, P6, P8 and P10."
       },
       {
         "value": "The mouse studies dosed in cycles over weeks and then measured tissue. No study of any length exists in a person, so no duration of use has ever been evaluated for safety.",
@@ -210,7 +219,8 @@
           "route": "intraperitoneal",
           "duration": "not stated in abstract",
           "outcome": "Cellular senescence increased in rat and human BPD lungs, as evidenced by increased oxidative DNA damage, tumor suppressors, GL-13 stain, and inflammatory cytokines with decreased cell proliferation and lamin B expression."
-        }
+        },
+        "plain": "In rats, with human autopsy lungs examined alongside, a 2024 study (Jing) found more cellular senescence (cell aging) in lungs with bronchopulmonary dysplasia, shown by DNA damage, inflammation markers and reduced cell growth."
       },
       {
         "value": "Animal study, 2026: Mechanistically, AGK suppression amplified TMZ-induced CSEN through increasing mitochondrial ROS (mtROS) and decreasing membrane potential.",
@@ -230,7 +240,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Mechanistically, AGK suppression amplified TMZ-induced CSEN through increasing mitochondrial ROS (mtROS) and decreasing membrane potential."
-        }
+        },
+        "plain": "In a 2026 animal study of glioblastoma (Ning), blocking the enzyme AGK increased temozolomide-induced cell senescence by raising mitochondrial reactive oxygen species; this finding concerns AGK, not FOXO4-DRI itself."
       },
       {
         "value": "Animal study, mice, 2025: Injection of FOXO4-DRI in both naturally aged and induced aging mice effectively suppressed aortic aging and improved aortic function.",
@@ -250,7 +261,8 @@
           "route": "intraperitoneal",
           "duration": "not stated in abstract",
           "outcome": "Injection of FOXO4-DRI in both naturally aged and induced aging mice effectively suppressed aortic aging and improved aortic function."
-        }
+        },
+        "plain": "In naturally aged mice and mice with induced aging, a 2025 study (Hu) found FOXO4-DRI injections reduced signs of aortic aging and improved aortic function."
       },
       {
         "value": "Animal study, mice, 2022: We found that similar as the approved medication Pirfenidone, FOXO4-DRI decreased senescent cells, downregulated the expression of senescence-associated secretory phenotype (SASP) and attenuated BLM-induced morphological changes and collagen deposition.",
@@ -270,7 +282,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "We found that similar as the approved medication Pirfenidone, FOXO4-DRI decreased senescent cells, downregulated the expression of senescence-associated secretory phenotype (SASP) and attenuated BLM-induced morphological changes and collagen deposition."
-        }
+        },
+        "plain": "In mice with bleomycin-induced lung scarring, a 2022 study (Han) found FOXO4-DRI, like the approved drug pirfenidone, reduced senescent cells, inflammatory secretions and collagen buildup."
       },
       {
         "value": "Animal study, mice, 2021: In conclusion, by targeting senescence, we offer a strategy that simultaneously decreases radioresistance of NSCLC and the incidence of RIPF.",
@@ -290,7 +303,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "In conclusion, by targeting senescence, we offer a strategy that simultaneously decreases radioresistance of NSCLC and the incidence of RIPF."
-        }
+        },
+        "plain": "In mice and lung cancer cells, a 2021 study (Meng) concluded that targeting senescent cells could both make non-small cell lung cancer more sensitive to radiation and reduce radiation-induced lung scarring."
       },
       {
         "value": "Animal study, mice, 2020: In naturally aged mice, FOXO4-DRI improved the testicular microenvironment and alleviated age-related testosterone secretion insufficiency.",
@@ -310,7 +324,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "In naturally aged mice, FOXO4-DRI improved the testicular microenvironment and alleviated age-related testosterone secretion insufficiency."
-        }
+        },
+        "plain": "In naturally aged mice, a 2020 study (Zhang) found FOXO4-DRI improved the environment inside the testes and eased age-related shortfalls in testosterone production."
       },
       {
         "value": "In vitro study, humans, 2025: We recently identified the FOXO4 - p53 axis as pivotal in maintaining the viability of senescent cells, and that senescent cells can be targeted selectively with the senolytic peptide FOXO4-DRI.",
@@ -330,7 +345,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "see source"
-        }
+        },
+        "plain": "Background: a 2025 lab study of human proteins (Bourgeois) restates the authors' earlier finding that the FOXO4-p53 link keeps senescent cells alive and that FOXO4-DRI can target these cells selectively."
       },
       {
         "value": "In vitro study, humans, 2025: We further demonstrate that a senolytic FOXO4-D-retro-inverso-isoform peptide (FOXO4-DRI) promotes apoptosis and decreases G0/G1 phase cells in pro-senescence models of keloid organ cultures and fibroblasts, accompanied with p53-pS15 nuclear exclusion.",
@@ -350,7 +366,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "We further demonstrate that a senolytic FOXO4-D-retro-inverso-isoform peptide (FOXO4-DRI) promotes apoptosis and decreases G0/G1 phase cells in pro-senescence models of keloid organ cultures and fibroblasts, accompanied with p53-pS15 nuclear exclusion."
-        }
+        },
+        "plain": "In human keloid scar tissue and fibroblast cells grown in a lab, a 2025 study (Kong) found FOXO4-DRI increased programmed cell death and reduced the number of resting cells."
       },
       {
         "value": "In vitro study, 2022: According to our data, the higher sensitivity of senescent cells compared to the control ones towards nigericin-induced death was partially mediated by the lower intracellular K + content in senescent cells and by their predisposition towards pyroptosis.",
@@ -370,7 +387,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "According to our data, the higher sensitivity of senescent cells compared to the control ones towards nigericin-induced death was partially mediated by the lower intracellular K + content in senescent cells and by their predisposition towards pyroptosis."
-        }
+        },
+        "plain": "Background: a 2022 study of cells grown in a lab (Deryabin) tested a different compound, nigericin, finding senescent cells were more sensitive to it partly due to lower potassium content."
       },
       {
         "value": "In vitro study, 2021: Results showed that the treatment of FOXO4-DRI removed more than half of the cells in PDL9 but did not significantly affect the cell number of PDL3 chondrocytes.",
@@ -390,7 +408,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Results showed that the treatment of FOXO4-DRI removed more than half of the cells in PDL9 but did not significantly affect the cell number of PDL3 chondrocytes."
-        }
+        },
+        "plain": "In human cartilage cells grown in a lab, a 2021 study (Huang) found FOXO4-DRI removed more than half of cells at a later passage (PDL9) but did not significantly change cell numbers at an earlier one (PDL3)."
       },
       {
         "value": "Animal study, mice, 2017: Under conditions where it was well tolerated in vivo, this FOXO4 peptide neutralized doxorubicin-induced chemotoxicity. Moreover, it restored fitness, fur density, and renal function in both fast aging XpdTTD/TTD and naturally aged mice.",
@@ -410,7 +429,8 @@
           "route": "intraperitoneal",
           "duration": "cycles over weeks",
           "outcome": "Under conditions where it was well tolerated in vivo, this FOXO4 peptide neutralized doxorubicin-induced chemotoxicity. Moreover, it restored fitness, fur density, and renal function in both fast aging XpdTTD/TTD and naturally aged mice."
-        }
+        },
+        "plain": "In mice, a 2017 study (Baar) found FOXO4-DRI, at doses that were well tolerated, counteracted doxorubicin toxicity and restored fitness, fur density and kidney function in fast-aging and naturally aged mice."
       },
       {
         "value": "Animal study, mice, 2024: In naturally aged mice, FOXO4-DRI-treated aged mice exhibited increased sperm quality and improved spermatogenesis.",
@@ -430,7 +450,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "In naturally aged mice, FOXO4-DRI-treated aged mice exhibited increased sperm quality and improved spermatogenesis."
-        }
+        },
+        "plain": "In naturally aged mice, a 2024 study (Li) found FOXO4-DRI treatment was followed by better sperm quality and sperm production."
       },
       {
         "value": "Animal study, mice, 2023: The animal group of FOXO4-DRI therapeutic administration shows a milder pathologic change and less collagen deposition compared with the BLM-induced group.",
@@ -450,7 +471,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "The animal group of FOXO4-DRI therapeutic administration shows a milder pathologic change and less collagen deposition compared with the BLM-induced group."
-        }
+        },
+        "plain": "In mice with bleomycin-induced lung scarring, a 2023 study (Liu) found the FOXO4-DRI group had milder tissue damage and less collagen buildup than untreated scarred mice."
       }
     ],
     "reported_use": [
@@ -762,6 +784,10 @@
     {
       "date": "2026-11-07",
       "change": "Corrected a mislabel in the evidence table: the 2024 bronchopulmonary dysplasia study (pmid-37874230) gave FOXO4-DRI to rats and examined human autopsy lungs alongside; no person received the peptide. It was tagged as an observational human study and is now labelled as an animal study, matching the page summary."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "22 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
     }
   ],
   "evidence_assessment": {

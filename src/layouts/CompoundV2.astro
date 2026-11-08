@@ -43,6 +43,7 @@ import { SITE_NAME, isIndexable, title, description, lastmod, formatCount, image
 import { compound as regCompound, peers as regPeers, stacksContaining, comparisonsWith, className } from '../lib/registry';
 import { loadIntent, headingFor, boundaryFor, orderBlocks, queriesFor } from '../lib/intents';
 import { parseClaim } from '../lib/claims';
+import { citer, findingsOnly } from '../lib/cite';
 
 interface Props { slug: string }
 const { slug } = Astro.props;
@@ -50,7 +51,8 @@ const all = await records('compounds');
 const entry = all.find((e) => e.data.slug === slug);
 if (!entry) throw new Error(`no record for ${slug}`);
 const d = entry.data;
-const A = d.attributes as Record<string, any[]>;
+const proseCite = citer(((entry as any).data?.sources ?? []) as any[]);
+const A = findingsOnly(d.attributes) as Record<string, any[]>;
 const has = (f: string) => (A[f] ?? []).length > 0;
 const reg = regCompound(d.slug);
 const intent = loadIntent(d.slug);
@@ -111,18 +113,18 @@ const evidence: Array<[string, string, string, string]> = [
   ['storage', 'storage', 'Storage and stability', 'storage or stability'],
 ];
 const defaultLedes: Record<string, string> = {
-  study_doses: `Each entry is a sentence quoted from the study's abstract, with the study's design, sample size and year in front of it. Comparator doses in the same sentence are not attributed to ${d.preferred_name.toLowerCase()}.`,
+  study_doses: `Each entry restates, in plain English, what one study's abstract reports, with the study's design, sample size and year above it and a numbered mark linking to the paper. Comparator doses in the same study are not attributed to ${d.preferred_name.toLowerCase()}.`,
   escalation_schedules: 'How trials stepped doses, reported as study design.',
   adverse_events: 'Events and their frequency as each study reported them, with the denominator where the abstract gives one.',
   study_durations: 'Treatment and follow-up periods as stated in each abstract.',
   routes_studied: 'Routes of administration named in each study.',
-  interactions: 'Sentences in which the compound is studied alongside another agent. Read the quotation: the word interaction can also be statistical.',
+  interactions: 'Sentences in which the compound is studied alongside another agent. Read the study line: the word interaction can also be statistical.',
   exclusion_criteria: 'Who each trial excluded, as stated in the abstract.',
   biomarkers_monitored: 'Laboratory and clinical measures the studies report tracking, including which hormones did and did not change.',
   weight_normalized_doses: 'Per-kilogram figures exactly as each study published them, for the species it studied.',
   storage: 'Stability and storage conditions as reported.',
   reported_timelines: 'Onset, peak and duration figures as each study reported them.',
-  mechanism: 'Written from general pharmacology and the development record, and marked as editorial synthesis; the measurements behind it are quoted in the biomarker section.',
+  mechanism: 'Written from general pharmacology and the development record, and marked as editorial synthesis; the measurements behind it are cited in the biomarker section.',
   reported_use: 'What circulates in user communities and clinic marketing, reported so a reader knows the figures and their origin. None of it has been tested in a trial, and none of it is a suggestion.',
 };
 // A boundary sentence from the intent map opens the lede when one exists (policy evidence-with-boundary).
@@ -163,13 +165,15 @@ if (d.open_questions.length > 0) blocks.push({ id: 'open', kind: 'open', label: 
 
 // FAQ: intent-mapped questions first (in the searcher's words, answered from a
 // claim or from our own prose), then the record's derived questions.
+const cite = citer(d.sources);
 const intentFaq = queriesFor(intent, 'faq').map((q) => {
   const claim = q.answer_from ? (A[q.answer_from] ?? [])[0] : undefined;
   if (claim) {
+    if ((claim as any).plain) return { question: q.heading ?? q.query, answer: cite.sentence((claim as any).plain, claim.source_ids) };
     const p = parseClaim(claim);
     const src = claim.source_ids?.[0];
     const body = p.quote ? `${esc(p.design)}${p.year ? `, ${p.year}` : ''}: <q>${esc(p.quote)}</q>` : esc(claim.value);
-    return { question: q.heading ?? q.query, answer: `${body}${src ? ` Source <a href="#${src}"><code>${src}</code></a>.` : ''}` };
+    return { question: q.heading ?? q.query, answer: `${body}${src ? cite.marks([src]) : ''}` };
   }
   return q.answer ? { question: q.heading ?? q.query, answer: rich(q.answer, { bold: 2, seen }) } : null;
 }).filter((x): x is { question: string; answer: string } => Boolean(x));
@@ -182,7 +186,7 @@ const nextQuestions = (intent?.queries ?? [])
 // Dosing questions in the words searches use, answered from the reviewed
 // protocol claims (src/lib/protocol.ts); skipped where the intent map or the
 // record already asks the same question.
-const citeIds = (ids: string[]) => ids.length ? `Source${ids.length > 1 ? 's' : ''} ${ids.map((id) => `<a href="#${id}"><code>${id}</code></a>`).join(', ')}.` : '';
+const citeIds = (ids: string[]) => cite.marks(ids);
 const baseFaq = [...intentFaq, ...d.faq.map((f) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))];
 const askedAlready = new Set(baseFaq.map((f) => f.question.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()));
 // The first three quick-start facts, repeated under "At a glance" so a reader
@@ -263,13 +267,13 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
 
         {body.map((b) => {
           switch (b.kind) {
-            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={linkEntities(b.guide!.html)} pending={b.guide!.pending} />;
+            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={proseCite.tokens(linkEntities(b.guide!.html))} pending={b.guide!.pending} />;
             case 'human': return <HumanTrials rows={A.evidence_table} name={d.preferred_name} sources={d.sources} max={12} />;
             case 'landscape': return <section id="landscape"><div><h2>{b.label}</h2><p class="lede">Counts from Europe PMC. Zeros are measured, not missing.</p></div><LandscapeTable record={d} /></section>;
             case 'table': return (
               <section id="evidence">
                 <div><h2>{b.label}</h2><p class="lede">{[boundaryFor(intent, 'evidence_table'), 'One row per primary study in this record\'s ledger. Fields are read from each paper\'s indexing and abstract. "Analytical method" marks papers about detecting or measuring the compound rather than about its effects.'].filter(Boolean).join(' ')}</p></div>
-                <EvidenceTable rows={A.evidence_table} />
+                <EvidenceTable rows={A.evidence_table} sources={d.sources} />
               </section>
             );
             case 'protocol': return (
@@ -312,7 +316,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
           }
         })}
 
-        {d.sources.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Full citations. Every claim above links to one of these by its id.</p></div><Sources sources={d.sources} /></section>}
+        {d.sources.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Full citations, numbered. The bracketed numbers after each statement on this page link to these.</p></div><Sources sources={d.sources} /></section>}
         <section id="card"><h2>Reference card</h2><RefCard record={d} reg={reg} path={path} /></section>
         {(guides.length > 0 || inStacks.length > 0 || inComparisons.length > 0 || peerEntries.length > 0 || calculatorHere) && (
           <section id="related"><h2>Related records</h2><ul class="cards">

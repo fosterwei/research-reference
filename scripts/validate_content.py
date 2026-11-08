@@ -220,6 +220,35 @@ PROTOCOL_PHASES = ("start", "step", "maintenance", "cycle", "single", "1", "2", 
 PROTOCOL_HUMAN = ("approved-label", "human-clinical-trial", "observational-human")
 
 
+PLAIN_PENDING = ROOT / "research" / "plain-pending.json"
+
+
+def check_plain(record: dict, path: pathlib.Path, report: Report) -> None:
+    """Pages show a plain-English statement with a citation mark, never the
+    abstract's own sentence (owner's decision, 2026-11-08). Every extractive
+    claim outside the protocol table therefore needs `plain`. A record that
+    cannot have them yet is listed, with the reason, in research/plain-pending.json."""
+    pending = json.loads(PLAIN_PENDING.read_text()) if PLAIN_PENDING.exists() else {}
+    key = f"{path.parent.name}/{path.stem}"
+    missing = []
+    for field, claims in (record.get("attributes") or {}).items():
+        if field == "protocol" or not isinstance(claims, list):
+            continue
+        for index, claim in enumerate(claims):
+            if isinstance(claim, dict) and claim.get("drafting") == "extractive":
+                plain = claim.get("plain")
+                if not isinstance(plain, str) or not plain.strip():
+                    missing.append(f"{field}[{index}]")
+                elif "pmid-" in plain or re.search(r"\[\d+\]", plain):
+                    report.error(path, f"attributes.{field}[{index}].plain carries a citation mark or id; the page adds those")
+    if key not in pending:
+        for section in record.get("guide") or []:
+            if re.search(r"<q\b|<blockquote\b", section.get("html", "")):
+                report.error(path, f"guide '{section.get('id')}' quotes a source verbatim; paraphrase it and mark the source with {{{{cite:<id>}}}}")
+    if missing and key not in pending:
+        report.error(path, f"{len(missing)} extractive claims have no plain-English version (first: {missing[0]}); write them or list the record in research/plain-pending.json with a reason")
+
+
 def check_unclipped(record: dict, path: pathlib.Path, report: Report) -> None:
     """An extractive claim quotes its source in full. The drafter once clipped
     values and table outcomes at a fixed length, leaving 271 visible "…" on
@@ -490,6 +519,7 @@ def validate_record(path: pathlib.Path, report: Report) -> tuple[str, str] | Non
     check_claims(record, path, report, source_ids, gated)
     check_protocol(record, path, report)
     check_unclipped(record, path, report)
+    check_plain(record, path, report)
     check_review(record, path, report, gated)
     check_seo(record, path, report, gated)
     check_changelog(record, path, report)

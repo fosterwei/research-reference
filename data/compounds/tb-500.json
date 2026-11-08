@@ -24,7 +24,8 @@
           "pmid-34346165"
         ],
         "source_excerpt": "The study evaluated the safety, tolerability, pharmacokinetics (PK) and anti-drug antibody (ADA) of the recombinant human thymosin β4 (NL005) for single and multiple intravenous injections in healthy subjects.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A 2021 first-in-human phase 1 trial in healthy Chinese volunteers gave recombinant human thymosin β4 (NL005, the full natural protein) into a vein, as single and multiple doses."
       },
       {
         "value": "Randomized controlled trial, humans, n=72, 2007: administration by topical route reported. The objective of this double-blind, placebo-controlled, dose-escalation study is to evaluate safety, tolerability, and enhancement on healing of thymosin beta-4 (Tbeta-4) administered topically in patients with venous ulcers.",
@@ -33,7 +34,8 @@
           "pmid-17495250"
         ],
         "source_excerpt": "The objective of this double-blind, placebo-controlled, dose-escalation study is to evaluate safety, tolerability, and enhancement on healing of thymosin beta-4 (Tbeta-4) administered topically in patients with venous ulcers.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A 2007 randomized, placebo-controlled, dose-rising trial applied thymosin beta-4 (the full natural protein) to the skin of people with venous leg ulcers."
       },
       {
         "value": "Animal study, mice, 2026: administration by oral route reported. Conversely, oral administration of recombinant human Tβ4 (rhTβ4) significantly improved survival, alleviated body weight loss, reduced epithelial injury, and suppressed inflammatory cytokine production in both prophylactic and therapeutic colitis models.",
@@ -42,7 +44,8 @@
           "pmid-42606759"
         ],
         "source_excerpt": "Conversely, oral administration of recombinant human Tβ4 (rhTβ4) significantly improved survival, alleviated body weight loss, reduced epithelial injury, and suppressed inflammatory cytokine production in both prophylactic and therapeutic colitis models.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mice with colitis (gut inflammation), recombinant human thymosin β4 given by mouth significantly improved survival, reduced weight loss and gut lining injury, and lowered inflammatory signals."
       }
     ],
     "study_doses": [
@@ -53,7 +56,8 @@
           "pmid-42542926"
         ],
         "source_excerpt": "Thirty-two male Sprague-Dawley rats, each aged 12 weeks and weighing approximately 330 g, underwent standardized Achilles tendon transection and repair and were randomly assigned to four groups, with eight rats in each group: control, BPC-157 (10 µg/kg/day), TB-500 (60 µg/kg/day), and combined BPC-157 + TB-500 (BPC + TB).",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In thirty-two male rats after Achilles tendon repair, groups of eight received TB-500 at 60 µg/kg/day, BPC-157 at 10 µg/kg/day, both, or no treatment."
       }
     ],
     "escalation_schedules": [
@@ -64,7 +68,8 @@
           "pmid-17495250"
         ],
         "source_excerpt": "The objective of this double-blind, placebo-controlled, dose-escalation study is to evaluate safety, tolerability, and enhancement on healing of thymosin beta-4 (Tbeta-4) administered topically in patients with venous ulcers.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A 2007 double-blind, placebo-controlled trial in venous leg ulcers tested rising doses of thymosin beta-4 (the full natural protein) applied to the skin, for safety and healing."
       }
     ],
     "interactions": [
@@ -75,7 +80,8 @@
           "pmid-42578445"
         ],
         "source_excerpt": "Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: a 2026 review describes searching PubMed for BPC-157, TB-500, CJC-1295, MK-677, ipamorelin and GHK-Cu in bone, muscle, tendon, ligament and cartilage; the excerpt gives no findings in rats or people."
       }
     ],
     "exclusion_criteria": [],
@@ -88,7 +94,8 @@
           "pmid-41742019"
         ],
         "source_excerpt": "Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1, thymosin beta-4, clusterin, interleukin-6, superoxide dismutase, and selected matrix metalloproteinases can be distinguished.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: in a 2026 lab study of melanoma cells grown in a dish, drug-resistant cells released more of several proteins, including thymosin beta-4; this concerns cancer markers, not treatment with the peptide."
       },
       {
         "value": "Human study, humans, n=43, 2025: Although thymosin beta 4 has shown cardioprotective effects in preclinical MI models, its impact on chronic cardiac functional recovery post ischemia/reperfusion (I/R), especially in STEMI, warrants further investigation.",
@@ -97,7 +104,8 @@
           "pmid-41229390"
         ],
         "source_excerpt": "Although thymosin beta 4 has shown cardioprotective effects in preclinical MI models, its impact on chronic cardiac functional recovery post ischemia/reperfusion (I/R), especially in STEMI, warrants further investigation.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: a 2025 paper on recombinant thymosin beta 4 after heart attack notes it protected the heart in preclinical models, but its effect on long-term heart recovery in people needed study."
       },
       {
         "value": "In vitro study, human donor cells (adipose-derived stem cells), 2024: In previous studies, it was confirmed that thymosin beta 4 (Tβ4) could enhance fat survival in vivo, although the precise mechanism remains unclear.",
@@ -106,7 +114,8 @@
           "pmid-38409346"
         ],
         "source_excerpt": "In previous studies, it was confirmed that thymosin beta 4 (Tβ4) could enhance fat survival in vivo, although the precise mechanism remains unclear.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: in a 2024 lab study of human fat-derived stem cells, the authors note earlier work showed thymosin beta 4 improved survival of grafted fat, with the mechanism unclear."
       },
       {
         "value": "Animal study, mice, 2021: Tmsb4x (thymosin beta-4 X-linked), Hmox1, Ifitm3, Ldhb, and Itgb7 were identified as strong candidate genes that promote metastasis.",
@@ -115,7 +124,8 @@
           "pmid-34081824"
         ],
         "source_excerpt": "Tmsb4x (thymosin beta-4 X-linked), Hmox1, Ifitm3, Ldhb, and Itgb7 were identified as strong candidate genes that promote metastasis.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mice, a 2021 gene-knockout screen identified Tmsb4x, the gene for thymosin beta-4, among strong candidate genes that promote spread of a type of stomach cancer. This concerns the body's own gene, not treatment with the peptide."
       }
     ],
     "reported_timelines": [],
@@ -128,7 +138,8 @@
           "pmid-34346165"
         ],
         "source_excerpt": "A total of 30 healthy subjects were randomly enrolled in the multiple-dose trial, and 3 cohorts (0.5, 2.0 and 5.0 μg/kg) were administered once human thymosin β4 daily for 10 days and observed for 28 days.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In a 2021 phase 1 trial, 30 healthy volunteers received thymosin β4 into a vein once daily for 10 days at 0.5, 2.0 or 5.0 μg/kg and were observed for 28 days."
       },
       {
         "value": "Randomized controlled trial, humans, n=5, 2016: durations stated: 6 months. After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking distance was 37.5 m (95% confidence interval [CI], 28.7-56.3 m; P Discussion Our pilot study suggested that Tβ4-optimized EPC transplantation appeared to be feasible and safe, and might have beneficial effects on exercise capacity and left ventricular function in patients with STEMI.",
@@ -137,7 +148,8 @@
           "pmid-27288307"
         ],
         "source_excerpt": "After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking distance was 37.5 m (95% confidence interval [CI], 28.7-56.3 m; P Discussion Our pilot study suggested that Tβ4-optimized EPC transplantation appeared to be feasible and safe, and might have beneficial effects on exercise capacity and left ventricular function in patients with STEMI.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In a 2016 pilot trial in heart attack patients given their own stem cells pre-treated with thymosin β4, 6-minute walk distance rose 75.7 m versus 38.2 m in controls after 6 months."
       },
       {
         "value": "Randomized controlled trial, humans, 2015: durations stated: 56 day; 28 day; 28 days. A small, multicenter, randomized, double-masked, placebo-controlled 56-day phase 2 clinical trial including a 28-day follow-up at 2 US sites.",
@@ -146,7 +158,8 @@
           "pmid-25826322"
         ],
         "source_excerpt": "A small, multicenter, randomized, double-masked, placebo-controlled 56-day phase 2 clinical trial including a 28-day follow-up at 2 US sites.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A small 2015 phase 2 randomized, placebo-controlled trial of thymosin β4 eye drops in severe dry eye ran 56 days, including 28 days of follow-up, at 2 US sites."
       },
       {
         "value": "Randomized controlled trial, humans, 2010: durations stated: 14 days. Following safety review, subjects were given the same dose regimen daily for 14 days.",
@@ -155,7 +168,8 @@
           "pmid-20536472"
         ],
         "source_excerpt": "Following safety review, subjects were given the same dose regimen daily for 14 days.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In a 2010 placebo-controlled study in healthy volunteers, after a safety review, people received the same dose of thymosin beta4 into a vein daily for 14 days."
       },
       {
         "value": "Randomized controlled trial, humans, n=72, 2007: durations stated: 84 days; 14 days. So, the study design comprehends 72 patients treated for 84 days and followed for 14 days at the end of treatment.",
@@ -164,7 +178,8 @@
           "pmid-17495250"
         ],
         "source_excerpt": "So, the study design comprehends 72 patients treated for 84 days and followed for 14 days at the end of treatment.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A 2007 venous ulcer trial of thymosin beta-4 on the skin was designed to treat 72 patients for 84 days and follow them for 14 days after treatment."
       },
       {
         "value": "Human study, humans, n=43, 2025: durations stated: 7 day; 28 days; 1 day. Methods and results In C57BL/6J mice, 7-day rhTB4 treatment prevented cardiac dysfunction and fibrosis 28 days post-I/R surgery and significantly reduced plasma NT-proBNP levels at both 1 day and 28 days post-I/R.",
@@ -173,7 +188,8 @@
           "pmid-41229390"
         ],
         "source_excerpt": "Methods and results In C57BL/6J mice, 7-day rhTB4 treatment prevented cardiac dysfunction and fibrosis 28 days post-I/R surgery and significantly reduced plasma NT-proBNP levels at both 1 day and 28 days post-I/R.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mice, 7 days of recombinant thymosin beta 4 after a heart attack-like injury prevented heart dysfunction and scarring at 28 days and lowered NT-proBNP (a heart strain marker) at 1 and 28 days."
       }
     ],
     "weight_normalized_doses": [
@@ -184,7 +200,8 @@
           "pmid-42542926"
         ],
         "source_excerpt": "Thirty-two male Sprague-Dawley rats, each aged 12 weeks and weighing approximately 330 g, underwent standardized Achilles tendon transection and repair and were randomly assigned to four groups, with eight rats in each group: control, BPC-157 (10 µg/kg/day), TB-500 (60 µg/kg/day), and combined BPC-157 + TB-500 (BPC + TB).",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In thirty-two male rats after Achilles tendon repair, TB-500 was given at 60 µg/kg/day; other groups got BPC-157 at 10 µg/kg/day, both, or no treatment."
       }
     ],
     "regulatory_status": [
@@ -215,7 +232,8 @@
           "route": "intravenous",
           "duration": "10 days; 28 days",
           "outcome": "The plasma concentration, maximum peak concentration (C max ) and AUC of each dose group increased with the increase in the dose."
-        }
+        },
+        "plain": "In a 2021 phase 1 trial in healthy volunteers (Wang), blood levels, peak concentration and total exposure of recombinant thymosin β4 rose as the dose increased."
       },
       {
         "value": "Clinical trial, humans, 2020: A subset model of 4 variables (kerosene uses, ventilation, workplace, and gender) based on significant AOR was adjudged acceptable for estimating the probability of TB incidences.",
@@ -235,7 +253,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "A subset model of 4 variables (kerosene uses, ventilation, workplace, and gender) based on significant AOR was adjudged acceptable for estimating the probability of TB incidences."
-        }
+        },
+        "plain": "Background: this 2020 study (Pathak) is about tuberculosis risk factors such as kerosene use, ventilation, workplace and gender, not this peptide; it reports no finding for this peptide."
       },
       {
         "value": "Randomized controlled trial, humans, n=5, 2016: After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking distance was 37.5 m (95% confidence interval [CI], 28.7-56.3 m; P Discussion Our pilot study suggested that Tβ4-optimized EPC transplantation appeared to be feasible and safe, and might have beneficial effects on exercise capacity and left ventricular function in patients with STEMI.",
@@ -255,7 +274,8 @@
           "route": "not stated in abstract",
           "duration": "6 months",
           "outcome": "After 6 months of follow-up, the average 6-min walking distance was increased by 38.2 m (from 263 ± 42 m to 302 ± 34 m) in the control group and 75.7 m (from 264 ± 42 m to 340 ± 44 m) in the experimental group; the average difference of the 6-min walking distance was 37.5 m (95% confidence interval [CI], 28.7-56.3 m; P Discussion Our pilot study suggested that Tβ4-optimized EPC transplantation appeared to be feasible and safe, and might have beneficial effects on exercise capacity and left ventricular function in patients with STEMI."
-        }
+        },
+        "plain": "In a 2016 pilot trial (Zhu) of heart attack patients given their own stem cells pre-treated with thymosin β4, 6-minute walk distance rose 37.5 m more than in controls at 6 months. Small study."
       },
       {
         "value": "Randomized controlled trial, humans, 2015: Statistically significant differences in both symptom and sign assessments, were seen at various time points throughout the study.",
@@ -275,7 +295,8 @@
           "route": "not stated in abstract",
           "duration": "56 day; 28 day",
           "outcome": "Statistically significant differences in both symptom and sign assessments, were seen at various time points throughout the study."
-        }
+        },
+        "plain": "In a small 2015 phase 2 randomized, placebo-controlled trial in severe dry eye (Sosne), thymosin β4 eye drops gave statistically significant differences in symptoms and signs at various time points."
       },
       {
         "value": "Randomized controlled trial, humans, 2010: Pharmacokinetic profile for single dose showed a dose proportional response, and an increasing half-life with increasing dose.",
@@ -295,7 +316,8 @@
           "route": "not stated in abstract",
           "duration": "14 days",
           "outcome": "Pharmacokinetic profile for single dose showed a dose proportional response, and an increasing half-life with increasing dose."
-        }
+        },
+        "plain": "In a 2010 placebo-controlled study in healthy volunteers (Ruff), blood levels of thymosin beta4 given into a vein rose in proportion to the dose, and half-life lengthened at higher doses."
       },
       {
         "value": "Randomized controlled trial, humans, n=73, 2010: Thymosin beta 4 (Tbeta4), a synthetic copy of the naturally occurring 43 amino-acid peptide, has been found to have wound healing and anti-inflammatory properties, and is thought to exert its therapeutic effect through promotion of keratinocyte and endothelial cell migration, increased collagen deposition, and stimulation of angiogenesis.",
@@ -315,7 +337,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Thymosin beta 4 (Tbeta4), a synthetic copy of the naturally occurring 43 amino-acid peptide, has been found to have wound healing and anti-inflammatory properties, and is thought to exert its therapeutic effect through promotion of keratinocyte and endothelial cell migration, increased collagen deposition, and stimulation of angiogenesis."
-        }
+        },
+        "plain": "Background (Guarnera, 2010): thymosin beta 4, a copy of the natural 43 amino-acid peptide, is described as having wound-healing and anti-inflammatory properties; no trial result is stated here."
       },
       {
         "value": "Randomized controlled trial, humans, n=72, 2007: The study is ongoing and a total of 21 patients have been enrolled so far in the first treatment group at the lower dose.",
@@ -335,7 +358,8 @@
           "route": "topical",
           "duration": "84 days; 14 days",
           "outcome": "The study is ongoing and a total of 21 patients have been enrolled so far in the first treatment group at the lower dose."
-        }
+        },
+        "plain": "A 2007 report (Guarnera) on an ongoing venous ulcer trial of thymosin beta-4 stated that 21 patients had been enrolled in the lower-dose group so far; no results yet."
       },
       {
         "value": "Human study, humans, 2026: In diabetic ischemic mice, TLR4 inhibition was associated with altered abundance of several circulating proteins, including reductions in selected amyloid-associated proteins.",
@@ -355,7 +379,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "In diabetic ischemic mice, TLR4 inhibition was associated with altered abundance of several circulating proteins, including reductions in selected amyloid-associated proteins."
-        }
+        },
+        "plain": "Background: a 2026 study of diabetic foot syndrome reported that, in diabetic mice, blocking TLR4 altered several blood proteins; it reports no finding for this peptide."
       },
       {
         "value": "Human study, humans, 2026: Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1, thymosin beta-4, clusterin, interleukin-6, superoxide dismutase, and selected matrix metalloproteinases can be distinguished.",
@@ -375,7 +400,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Among the proteins secreted in significantly higher amounts by resistant cells (compared to the control group), which may be potential biomarkers or therapeutic targets in melanoma, plasminogen activator inhibitor 1, thymosin beta-4, clusterin, interleukin-6, superoxide dismutase, and selected matrix metalloproteinases can be distinguished."
-        }
+        },
+        "plain": "Background: in a 2026 lab study of melanoma cells, drug-resistant cells released more thymosin beta-4 and other proteins, proposed as possible cancer markers; this is not a peptide treatment result."
       },
       {
         "value": "Human study, humans, n=43, 2025: In a randomized, placebo-controlled, double-blind trial involving 96 STEMI patients, the infarcted areas were significantly reduced in the rhTB4 group, which received the first dose of rhTB4 within 8 h after PCI (n = 43), as compared to the placebo group at the 90-day follow-up.",
@@ -395,7 +421,8 @@
           "route": "not stated in abstract",
           "duration": "7 day; 28 days",
           "outcome": "In a randomized, placebo-controlled, double-blind trial involving 96 STEMI patients, the infarcted areas were significantly reduced in the rhTB4 group, which received the first dose of rhTB4 within 8 h after PCI (n = 43), as compared to the placebo group at the 90-day follow-up."
-        }
+        },
+        "plain": "In a 2025 randomized, placebo-controlled trial of 96 heart attack patients, those given recombinant thymosin beta 4 within 8 h after stenting (43 people) had significantly smaller damaged heart areas at 90 days."
       },
       {
         "value": "Human study, humans, 2025: The goal of this study was to analyze in depth the importance of the thymosin beta 4 X-linked gene (TMSB4X) in the disease process of gliomas for the prediction of patient prognosis.",
@@ -415,7 +442,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "see source"
-        }
+        },
+        "plain": "Background: a 2025 study examined whether activity of TMSB4X, the body's thymosin beta 4 gene, predicts outcomes in glioma (brain tumor) patients; it is not a peptide treatment study."
       },
       {
         "value": "In vitro study, human donor cells (adipose-derived stem cells), 2024: Tβ4 enhances adipose viability in AFG via facilitating ADSC proliferation and reducing apoptosis, and acts as a crucial positive regulator of ADSC-associated angiogenesis.",
@@ -435,7 +463,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Tβ4 enhances adipose viability in AFG via facilitating ADSC proliferation and reducing apoptosis, and acts as a crucial positive regulator of ADSC-associated angiogenesis."
-        }
+        },
+        "plain": "In human fat-derived stem cells grown in a lab (Li, 2024), thymosin beta 4 increased cell growth, reduced cell death and promoted blood vessel formation linked to these cells."
       },
       {
         "value": "Observational study, humans, n=64, 2021: Lower Tβ4 stages were correlated with poor prognosis, including AKI(odds ratio [OR], 2.102 per stage lower; 95% confidence interval [CI], 1.448 to 3.050; P Conclusions Lower Tβ4 stages are associated with higher odds of poor prognosis in ICU patients with sepsis.",
@@ -455,7 +484,8 @@
           "route": "not stated in abstract",
           "duration": "7 days; 28 days",
           "outcome": "Lower Tβ4 stages were correlated with poor prognosis, including AKI(odds ratio [OR], 2.102 per stage lower; 95% confidence interval [CI], 1.448 to 3.050; P Conclusions Lower Tβ4 stages are associated with higher odds of poor prognosis in ICU patients with sepsis."
-        }
+        },
+        "plain": "In a 2021 observational study of ICU patients with sepsis (Zhang), lower natural thymosin beta-4 levels were linked to poorer outcomes, including kidney injury (odds ratio 2.102 per stage lower). Not a treatment study."
       },
       {
         "value": "Human study, humans, n=219, 2017: Stratifying by sex, only women (1623 [1040-2625] ng/mL versus 942 [386-1891] ng/mL, P P =1.0), had significantly elevated TB4 in the setting of HFpEF.",
@@ -475,7 +505,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Stratifying by sex, only women (1623 [1040-2625] ng/mL versus 942 [386-1891] ng/mL, P P =1.0), had significantly elevated TB4 in the setting of HFpEF."
-        }
+        },
+        "plain": "In a 2017 observational study (Drum), women with a type of heart failure had higher natural thymosin beta-4 blood levels (1623 versus 942 ng/mL); men did not. Not a treatment study."
       },
       {
         "value": "Animal study, rats, 2026: Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters and extracellular matrix organization during early Achilles tendon repair, with TB-500 additionally demonstrating a significant biomechanical advantage at four weeks.",
@@ -495,7 +526,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters and extracellular matrix organization during early Achilles tendon repair, with TB-500 additionally demonstrating a significant biomechanical advantage at four weeks."
-        }
+        },
+        "plain": "In rats after Achilles tendon repair (Biçer, 2026), TB-500 and BPC-157 were each linked to better tissue healing; only TB-500 gave a significant strength advantage at four weeks. The authors called it exploratory."
       },
       {
         "value": "Animal study, mice, 2026: Conversely, oral administration of recombinant human Tβ4 (rhTβ4) significantly improved survival, alleviated body weight loss, reduced epithelial injury, and suppressed inflammatory cytokine production in both prophylactic and therapeutic colitis models.",
@@ -515,7 +547,8 @@
           "route": "oral",
           "duration": "not stated in abstract",
           "outcome": "Conversely, oral administration of recombinant human Tβ4 (rhTβ4) significantly improved survival, alleviated body weight loss, reduced epithelial injury, and suppressed inflammatory cytokine production in both prophylactic and therapeutic colitis models."
-        }
+        },
+        "plain": "In mice with colitis (Zhao, 2026), recombinant human thymosin β4 by mouth significantly improved survival, reduced weight loss and gut lining injury, and lowered inflammatory signals, given before or after onset."
       },
       {
         "value": "Animal study, 2026: Although Tβ4 improved wound healing and barrier function, the disruptive effects of CPFX were not fully mitigated.",
@@ -535,7 +568,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Although Tβ4 improved wound healing and barrier function, the disruptive effects of CPFX were not fully mitigated."
-        }
+        },
+        "plain": "In corneal cells grown in a lab (Banga, 2026), not in animals, thymosin β4 improved wound healing and barrier function but did not fully offset damage from the antibiotic ciprofloxacin."
       },
       {
         "value": "Animal study, mice, n=6, 2026: Adjunctive Tβ4 + ciprofloxacin treatment markedly improved visual acuity and contrast sensitivity and significantly enhanced corneal sensitivity and nerve regeneration compared with PBS, Tβ4, and ciprofloxacin monotherapies.",
@@ -555,7 +589,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Adjunctive Tβ4 + ciprofloxacin treatment markedly improved visual acuity and contrast sensitivity and significantly enhanced corneal sensitivity and nerve regeneration compared with PBS, Tβ4, and ciprofloxacin monotherapies."
-        }
+        },
+        "plain": "In mice with corneal infection (Ebrahim, 2026), thymosin β4 plus ciprofloxacin markedly improved vision, corneal sensation and nerve regrowth compared with either treatment alone or saline."
       },
       {
         "value": "Animal study, mice, 2026: Intrauterine adhesions (IUA), a leading cause of female infertility, result from a pathological switch in the uterine injury response from regeneration to fibrotic scarring.",
@@ -575,7 +610,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "see source"
-        }
+        },
+        "plain": "Background (Liang, 2026): in this mouse study of a gel releasing thymosin β4, the excerpt only explains that uterine scarring after injury is a leading cause of female infertility."
       },
       {
         "value": "Animal study, 2026: Consistent with these findings, we demonstrate that IPO9 modestly decreases the rate of actin filament assembly, a process that requires both actin faces, and that IPO9 exhibits minimal binding to actin filaments.",
@@ -595,7 +631,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Consistent with these findings, we demonstrate that IPO9 modestly decreases the rate of actin filament assembly, a process that requires both actin faces, and that IPO9 exhibits minimal binding to actin filaments."
-        }
+        },
+        "plain": "Background: a 2025 lab protein study (no animals) found importin 9 modestly slows actin filament assembly and binds filaments weakly; it reports no effect of the peptide."
       },
       {
         "value": "Animal study, mice, 2025: In vitro, tTB4 promoted increased hTCEpi viability and migration compared to TB4.",
@@ -615,7 +652,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "In vitro, tTB4 promoted increased hTCEpi viability and migration compared to TB4."
-        }
+        },
+        "plain": "In human corneal cells grown in a lab, part of a 2025 mouse study (Nguyen), an engineered tandem thymosin peptide increased cell survival and movement compared with standard thymosin beta 4."
       },
       {
         "value": "Animal study, mice, 2025: Interestingly, the expression level of the gene TMSB4X that encodes thymosin beta 4 (Tβ4) significantly decreased both in fAD organoids' neurons and AD patients' excitatory neurons.",
@@ -635,7 +673,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Interestingly, the expression level of the gene TMSB4X that encodes thymosin beta 4 (Tβ4) significantly decreased both in fAD organoids' neurons and AD patients' excitatory neurons."
-        }
+        },
+        "plain": "In lab-grown human brain organoids (Zeng, 2025), activity of the thymosin beta 4 gene was significantly lower in Alzheimer's-model neurons, matching neurons from Alzheimer's patients. Not a treatment result in animals or people."
       },
       {
         "value": "Animal study, mice, 2025: Our results revealed a significant increase in miR139-5p expression and identified ROCK1 as a potential target protein aligned.",
@@ -655,7 +694,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Our results revealed a significant increase in miR139-5p expression and identified ROCK1 as a potential target protein aligned."
-        }
+        },
+        "plain": "In mice (Maar, 2025), a study of thymosin beta-4 and heart remodeling found a significant rise in miR139-5p and identified ROCK1 as a possible target protein."
       },
       {
         "value": "Animal study, rats, mice, 2025: Furthermore, single-cell sequencing revealed a distinct subset of pro-inflammatory and pro-fibrotic corneal epithelial cells in the dry eye model, while glutamine treatment downregulated those subclusters, thereby reducing their inflammatory cytokine secretion.",
@@ -675,7 +715,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Furthermore, single-cell sequencing revealed a distinct subset of pro-inflammatory and pro-fibrotic corneal epithelial cells in the dry eye model, while glutamine treatment downregulated those subclusters, thereby reducing their inflammatory cytokine secretion."
-        }
+        },
+        "plain": "Background: in a 2025 rat and mouse dry eye study (Chen), glutamine treatment reduced inflammatory corneal cell groups; the excerpt reports no thymosin finding."
       }
     ],
     "mechanism": [
@@ -1222,6 +1263,10 @@
     {
       "date": "2026-11-07",
       "change": "Restored 14 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "41 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
     }
   ],
   "guide": [

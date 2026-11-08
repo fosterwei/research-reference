@@ -22,7 +22,8 @@
           "pmid-41421047"
         ],
         "source_excerpt": "We previously developed an ERR pan-agonist, SLU-PP-332 (332), which improves aerobic performance in mice but lacks oral bioavailability.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: a 2026 mouse study (Billon) notes SLU-PP-332 improved aerobic performance in mice but is not well absorbed by mouth, which led to the newer oral compound SLU-PP-915."
       }
     ],
     "study_doses": [],
@@ -38,7 +39,8 @@
           "pmid-40692696"
         ],
         "source_excerpt": "Primary cultures of myoblasts were set up from the muscle tissue of inactive women and treated with the ERRs agonist, SLU-PP-332, for subsequent qualitative and quantitative investigations.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In a small 2025 pilot study (Bonanni), muscle cells grown in a lab from muscle samples of inactive women were treated with SLU-PP-332 and then analyzed."
       }
     ],
     "reported_timelines": [],
@@ -50,7 +52,8 @@
           "pmid-41850449"
         ],
         "source_excerpt": "While SLU-PP-332 remains a strong benchmark for ERR activation, several analogues achieve comparable or context-dependent transcriptional responses while exhibiting improved ligand efficiency, solubility, or metabolic stability.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In 2026 lab chemistry work (Okda), several modified versions of SLU-PP-332 matched its effect on its target receptors while showing better solubility or metabolic stability."
       }
     ],
     "study_durations": [
@@ -61,7 +64,8 @@
           "pmid-37717940"
         ],
         "source_excerpt": "A pan-ERR agonist, SLU-PP-332, was used to treat 21-month-old mice for 8 weeks.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mice, a 2023 kidney-aging study (Wang) treated 21-month-old animals with SLU-PP-332 for 8 weeks."
       }
     ],
     "weight_normalized_doses": [],
@@ -93,7 +97,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Interestingly, SLU-PP-332 treatment promoted down-regulation of NOX4 and upregulation of SIRT1, PGC-1α, ERRα, FNDC5, Akt, and B-cell lymphoma 2 (Bcl-2) in myoblasts, reducing cytotoxicity, oxidative stress, and senescence, as well as increasing levels of reduced glutathione."
-        }
+        },
+        "plain": "In muscle cells grown in a lab from 10 inactive women (Bonanni, 2025), SLU-PP-332 shifted several stress and energy markers and reduced cell damage, oxidative stress and cell aging."
       },
       {
         "value": "Human study, humans, 2023: Remarkably, similar to CR, an 8-week treatment with a pan-ERR agonist reversed the age-related increases in albuminuria, podocyte loss, mitochondrial dysfunction, and inflammatory cytokines, via the cyclic GMP-AMP synthase-STING and STAT3 signaling pathways.",
@@ -113,7 +118,8 @@
           "route": "not stated in abstract",
           "duration": "21 month; 8 weeks",
           "outcome": "Remarkably, similar to CR, an 8-week treatment with a pan-ERR agonist reversed the age-related increases in albuminuria, podocyte loss, mitochondrial dysfunction, and inflammatory cytokines, via the cyclic GMP-AMP synthase-STING and STAT3 signaling pathways."
-        }
+        },
+        "plain": "In old mice (Wang, 2023), 8 weeks of a pan-ERR agonist (a drug that switches on estrogen-related receptors) reversed age-related rises in urine protein, kidney filter-cell loss, mitochondrial problems and inflammatory signals."
       },
       {
         "value": "Animal study, mice, 2026: We previously developed an ERR pan-agonist, SLU-PP-332 (332), which improves aerobic performance in mice but lacks oral bioavailability.",
@@ -133,7 +139,8 @@
           "route": "oral",
           "duration": "not stated in abstract",
           "outcome": "We previously developed an ERR pan-agonist, SLU-PP-332 (332), which improves aerobic performance in mice but lacks oral bioavailability."
-        }
+        },
+        "plain": "Background: a 2026 mouse study (Billon) notes SLU-PP-332 improved aerobic performance in mice but is poorly absorbed by mouth."
       },
       {
         "value": "Animal study, mice, 2024: SLU-PP-332 administration mimics exercise-induced benefits on whole-body metabolism in mice including increased energy expenditure and fatty acid oxidation.",
@@ -153,7 +160,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "SLU-PP-332 administration mimics exercise-induced benefits on whole-body metabolism in mice including increased energy expenditure and fatty acid oxidation."
-        }
+        },
+        "plain": "In mice (Billon, 2024), SLU-PP-332 mimicked some metabolic effects of exercise, increasing energy use and fat burning."
       },
       {
         "value": "Animal study, mice, 2024: Both SLU-PP-332 and SLU-PP-915 significantly improved ejection fraction, ameliorated fibrosis, and increased survival associated with pressure overload-induced HF without affecting cardiac hypertrophy.",
@@ -173,7 +181,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Both SLU-PP-332 and SLU-PP-915 significantly improved ejection fraction, ameliorated fibrosis, and increased survival associated with pressure overload-induced HF without affecting cardiac hypertrophy."
-        }
+        },
+        "plain": "In mice with heart failure from pressure overload (Xu, 2024), SLU-PP-332 and SLU-PP-915 significantly improved heart pumping, reduced scarring and increased survival, without changing heart enlargement."
       },
       {
         "value": "Animal study, mice, 2023: SLU-PP-332 increases mitochondrial function and cellular respiration in a skeletal muscle cell line.",
@@ -193,7 +202,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "SLU-PP-332 increases mitochondrial function and cellular respiration in a skeletal muscle cell line."
-        }
+        },
+        "plain": "In a muscle cell line grown in a lab, within a 2023 mouse study (Billon), SLU-PP-332 increased mitochondrial function and cell respiration (energy production)."
       },
       {
         "value": "In vitro study, humans, 2026: Rationale Estrogen-related receptor (ERR) agonists such as the drug candidates SLU-PP-332 and SLU-PP-915 are currently being investigated as exercise mimetics, given their ability to trigger human physiological processes similar to those initiated by actual physical activity.",
@@ -213,7 +223,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "see source"
-        }
+        },
+        "plain": "Background: a 2026 lab study of SLU-PP-332 breakdown for doping tests (Möller) notes these drug candidates are being studied as exercise mimics; it reports no effect in people."
       },
       {
         "value": "In vitro study, humans, 2026: While SLU-PP-332 remains a strong benchmark for ERR activation, several analogues achieve comparable or context-dependent transcriptional responses while exhibiting improved ligand efficiency, solubility, or metabolic stability.",
@@ -233,7 +244,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "While SLU-PP-332 remains a strong benchmark for ERR activation, several analogues achieve comparable or context-dependent transcriptional responses while exhibiting improved ligand efficiency, solubility, or metabolic stability."
-        }
+        },
+        "plain": "In 2026 lab chemistry work (Okda), several modified versions of SLU-PP-332 matched its receptor activation while showing better efficiency, solubility or metabolic stability."
       }
     ],
     "mechanism": [
@@ -478,6 +490,10 @@
     {
       "date": "2026-11-07",
       "change": "Restored 3 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "12 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
     }
   ],
   "guide": [

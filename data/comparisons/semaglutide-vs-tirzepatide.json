@@ -17,7 +17,8 @@
           "pmid-42012820"
         ],
         "source_excerpt": "This study evaluated the cost-effectiveness (from the United States [US] societal perspective) of tirzepatide at its maximum-tolerated-dose (MTD) compared to semaglutide (MTD), both administered adjunct to a reduced-calorie diet and increased physical activity.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A 2026 cost study based on the phase 3 SURMOUNT-5 trial compared the US cost-effectiveness of tirzepatide and semaglutide at their highest tolerated doses, each with diet and exercise; the excerpt states the aim, not the result."
       },
       {
         "value": "Human study, humans, n=376, 2026: Among 553 073 adults with at least one semaglutide ( n = 376 697) or tirzepatide ( n = 176 376) prescription and baseline weight availability, documented initiation within ±3 months of the first structured prescription was identified in 141 189 semaglutide patients and 62 040 tirzepatide patients.",
@@ -26,7 +27,8 @@
           "pmid-42433615"
         ],
         "source_excerpt": "Among 553 073 adults with at least one semaglutide ( n = 376 697) or tirzepatide ( n = 176 376) prescription and baseline weight availability, documented initiation within ±3 months of the first structured prescription was identified in 141 189 semaglutide patients and 62 040 tirzepatide patients.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In a 2026 records study of 553 073 adults prescribed semaglutide (376 697) or tirzepatide (176 376), starting the drug was documented for 141 189 semaglutide and 62 040 tirzepatide patients. It compares record-keeping, not drug effects."
       },
       {
         "value": "Clinical trial, humans, 2026: Patients treated with tirzepatide lost more weight than those treated with semaglutide (mean reduction, 14.7 vs. 10.8%; P P < 0.001), accompanied by faster monthly weight-loss velocity (2.54 vs. 2.18%).",
@@ -35,7 +37,8 @@
           "pmid-42311474"
         ],
         "source_excerpt": "Patients treated with tirzepatide lost more weight than those treated with semaglutide (mean reduction, 14.7 vs. 10.8%; P P < 0.001), accompanied by faster monthly weight-loss velocity (2.54 vs. 2.18%).",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A 2026 study reported that people on tirzepatide lost more weight than those on semaglutide (average 14.7% versus 10.8%), with faster monthly weight loss (2.54% versus 2.18%)."
       },
       {
         "value": "Human study, humans, n=920, 2026: Glucagon-like peptide-1 receptor agonists demonstrate cardiovascular benefits; however, head-to-head comparisons between semaglutide and tirzepatide remain limited.",
@@ -44,7 +47,8 @@
           "pmid-42489387"
         ],
         "source_excerpt": "Glucagon-like peptide-1 receptor agonists demonstrate cardiovascular benefits; however, head-to-head comparisons between semaglutide and tirzepatide remain limited.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: a 2026 study using records to mimic a trial notes that GLP-1 drugs have heart benefits but direct semaglutide-versus-tirzepatide comparisons remain limited; the excerpt gives no result."
       },
       {
         "value": "Animal study, mice, 2026: Given the therapeutic potential of GLP-1 receptor agonists (semaglutide, tirzepatide, and retatrutide) in diabetic nephropathy, we evaluated their anti-fibrotic and anti-inflammatory effects in non-diabetic renal fibrosis using HK-2 cells and murine UUO and aging models.",
@@ -53,7 +57,8 @@
           "pmid-42630988"
         ],
         "source_excerpt": "Given the therapeutic potential of GLP-1 receptor agonists (semaglutide, tirzepatide, and retatrutide) in diabetic nephropathy, we evaluated their anti-fibrotic and anti-inflammatory effects in non-diabetic renal fibrosis using HK-2 cells and murine UUO and aging models.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In a 2026 study using mice and kidney cells grown in a lab, researchers compared semaglutide, tirzepatide and retatrutide on kidney scarring and inflammation; the excerpt states the aim, not which did better."
       }
     ]
   },
@@ -132,6 +137,10 @@
     {
       "date": "2026-09-14",
       "change": "Comparison record generated from research/registry.json plan; 5 head-to-head claims drafted extractively by scripts/draft_claims.py."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "5 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
     }
   ],
   "sides": [

@@ -49,7 +49,7 @@ const updated = [
   ...Object.entries(manifest.pages ?? {}).filter(([k]) => k !== '/').map(([, p]: any) => p.lastmod).filter(Boolean) as string[],
 ].sort().at(-1);
 
-/* The hero quotation.
+/* The hero statement (plain English since 2026-11-08; the abstract sentence stays in the record).
    Candidates are every claim on a written record whose value contains its
    verbatim source excerpt and whose evidence is human: an approved label or a
    clinical trial first, observational second. Among those, the largest study
@@ -71,16 +71,19 @@ for (const e of written) {
       const tier = String(c.evidence_label ?? '');
       if (!(tier in TIER_RANK)) continue;
       if (field === 'evidence_table' && /method|in vitro|measured, not given/i.test(c.fields?.design ?? '')) continue;
-      const text = String(c.source_excerpt ?? '').trim();
+      const excerpt = String(c.source_excerpt ?? '').trim();
       const value = String(c.value ?? '');
-      const at = text ? value.indexOf(text) : -1;
-      if (at <= 0) continue;
+      const at = excerpt ? value.indexOf(excerpt) : -1;
+      if (at <= 0 || !c.plain || /^Background\b/.test(c.plain)) continue;
+      // The page shows the plain-English statement, never the abstract's own words.
+      const text = String(c.plain).trim();
       const words = text.split(/\s+/).length;
       if (words < 12 || words > 42 || !/[.!?]$/.test(text)) continue;
       const lead = value.slice(0, at).replace(/[:\s]+$/, '');
       const n = Number((lead.match(/\bn\s*=\s*([\d,]+)/) ?? [])[1]?.replace(/,/g, '')) || 0;
       const sid = (c.source_ids ?? [])[0];
-      candidates.push({ e, tier, lead, text, n, sid, url: sid ? srcs.get(sid)?.url : undefined });
+      const label = c.fields?.study || (sid ? srcs.get(sid)?.title?.split(/[.:]/)[0] : undefined);
+      candidates.push({ e, tier, lead, text, n, sid: label ?? sid, url: sid ? srcs.get(sid)?.url : undefined });
     }
   }
 }
@@ -103,9 +106,9 @@ const humanRows = (e: any) => ((e.data.attributes?.evidence_table ?? []) as any[
 const reference = [...written].sort((a, b) => en(a.data.preferred_name, b.data.preferred_name));
 
 const faq = [
-  { question: 'What is this site?', answer: `A research reference for peptides. Every page is built from a record of indexed studies, quoted sentence by sentence and labelled by the kind of evidence each is: approved label, clinical trial, observational, animal, laboratory. Where nothing has been studied, the page says so. It is written for readers, reviewed by a named pharmacist, and sells nothing.` },
+  { question: 'What is this site?', answer: `A research reference for peptides. Every page is built from a record of indexed studies, restated statement by statement in plain English, each cited to its paper and labelled by the kind of evidence it is: approved label, clinical trial, observational, animal, laboratory. Where nothing has been studied, the page says so. It is written for readers, reviewed by a named pharmacist, and sells nothing.` },
   { question: 'Does it give dosing information?', answer: `Yes, with its provenance. The doses on a page are the doses published studies administered and labels state, reported as the source states them, with the species and the study design beside each one; where a record has human regimens, a practical protocol section reads them into a schedule and names the rows it is built from. The protocol section on a compound page shows approved-label dosing, the regimens trials used, and a practical schedule read from them, each with its source. The calculators convert a mass and a volume into syringe units and refuse a body-weight input, because that would turn arithmetic into individual advice.` },
-  { question: 'Where do the numbers come from?', answer: `Europe PMC, which indexes the biomedical literature, and ChEMBL for compound identity and approval status. Each claim links to the paper it was taken from by its PubMed or DOI id, and the quoted sentence is shown beneath it so the claim can be checked against its source without leaving the page.` },
+  { question: 'Where do the numbers come from?', answer: `Europe PMC, which indexes the biomedical literature, and ChEMBL for compound identity and approval status. Each statement ends with a numbered mark that links to the paper it came from, so any claim can be checked against its source in one click.` },
   { question: 'How do I work out syringe units for a dose?', answer: `Divide the mass in the vial by the diluent volume to get the concentration, then divide the mass you want by that concentration to get the volume. Units on a U-100 syringe are that volume in millilitres times 100. A 5 mg vial in 2 mL is 2,500 mcg/mL, so 250 mcg is 0.1 mL, which is 10 units. The reconstitution calculator does this and shows its working.` },
   { question: 'What does the evidence tier mean?', answer: `The strongest kind of study that exists for that compound, not a judgment of the compound. "Human clinical trial" means at least one indexed trial in people exists; it says nothing about the trial's size or whether it found an effect. The evidence table on each page shows that.` },
   { question: 'Who checks the pages?', answer: reviewer ? `${reviewer.reviewer}, ${reviewer.reviewer_credential}, is named as reviewer of record on every written page, with the date, at the top of the page and in its structured data. Corrections are made in the record and dated in the changelog; nothing is corrected silently.` : `A named, credentialed reviewer signs each written page before it is indexed.` },
@@ -125,10 +128,10 @@ const jsonld = [
   <article class="v2 home">
     <section class="band" aria-label="Introduction"><div class="hero">
       <div class="text">
-        <h1>Peptide research, quoted from its source.</h1>
+        <h1>Peptide research, cited to its source.</h1>
         {hero && (
           <figure class="claim" style={`--tier: var(${TIER_VAR[hero.tier] ?? '--rule'})`}>
-            <blockquote cite={hero.url}>{hero.text}</blockquote>
+            <p class="hero-claim">{hero.text}</p>
             <figcaption class="attr">
               <Tier tier={hero.tier} />
               <a href={`/compounds/${hero.e.data.slug}`}>{hero.e.data.preferred_name}</a>
@@ -213,10 +216,10 @@ const jsonld = [
       <section id="method" class="band navy"><div class="head"><h2>How these pages are made</h2></div>
         <figure class="figure"><img src="/images/home/process.webp" width="1800" height="600" alt="Four round scenes joined by arrows: a researcher reading papers, a screen showing a page with one line highlighted, a vial beside a molecular model, and a reviewer at a screen with a check mark." loading="lazy" decoding="async" /></figure>
         <div class="two">
-          <p class="prose-lg">For each compound, every publication in Europe PMC naming it or a listed alias is retrieved with its indexing. Each is labelled by study design and species. Sentences that state a dose, an outcome, an adverse event or a duration are quoted as claims, tiered by the evidence they came from, and linked to their paper. Reviews are kept as background and never become claims. The result is checked by a named pharmacist before it is indexed, corrections are made in the record and dated, and the page is rebuilt from it.</p>
+          <p class="prose-lg">For each compound, every publication in Europe PMC naming it or a listed alias is retrieved with its indexing. Each is labelled by study design and species. Sentences that state a dose, an outcome, an adverse event or a duration become plain-English claims, tiered by the evidence they came from, and linked to their paper with a numbered mark. Reviews are kept as background and never become claims. The result is checked by a named pharmacist before it is indexed, corrections are made in the record and dated, and the page is rebuilt from it.</p>
           <ul class="links">
             <li><a href="/about">The method in full</a><span class="what">Retrieval, tiers, review, and what the site deliberately does not do</span></li>
-            <li><a href="/contact">Report a correction</a><span class="what">A quotation that differs from its source, a wrong tier, a changed status</span></li>
+            <li><a href="/contact">Report a correction</a><span class="what">A statement that differs from its source, a wrong tier, a changed status</span></li>
             <li><a href="/privacy">Privacy</a><span class="what">What is collected, the one analytics cookie, and how to refuse it</span></li>
           </ul>
         </div>
@@ -230,7 +233,7 @@ const jsonld = [
             <li><strong>What it is and how it is thought to work.</strong> Marked as editorial synthesis where it draws on general knowledge.</li>
             <li><strong>What the evidence level means.</strong> The tier, and what it does and does not say.</li>
             <li><strong>What happened in the human studies.</strong> Every human row in the ledger: design, size, year, outcome as published.</li>
-            <li><strong>The evidence table.</strong> Every indexed study, by species and design, quoted.</li>
+            <li><strong>The evidence table.</strong> Every indexed study, by species and design, with what it found.</li>
             <li><strong>Doses studies used.</strong> As the paper states them, with species and route, never converted between them.</li>
             <li><strong>Dosage chart: studies versus what circulates.</strong> The two kinds of figure, kept apart.</li>
             <li><strong>Side effects reported.</strong> At the doses the trials used.</li>

@@ -20,17 +20,17 @@ const tierMeans: Record<string, string> = {
   'editorial': 'Written from general knowledge rather than a ledger source: mechanism, history, class context, regulatory status, common reports. Marked as editorial synthesis wherever it appears.',
 };
 ---
-<Base title="How these pages are made" description="How this research reference retrieves, quotes, tiers and reviews evidence about peptides, and what it deliberately does not do." path="/about" indexable={true}>
+<Base title="How these pages are made" description="How this research reference retrieves, summarises, tiers and reviews evidence about peptides, and what it deliberately does not do." path="/about" indexable={true}>
   <article class="prose">
     <p class="eyebrow">About</p>
     <h1>How these pages are made</h1>
-    <p class="lede">Every page on this site is built from a record: a list of studies retrieved from public indexes, quoted sentence by sentence, labelled by the kind of evidence each is, and checked by a named person before it is published. This page describes that process and its limits.</p>
+    <p class="lede">Every page on this site is built from a record: a list of studies retrieved from public indexes, restated in plain English statement by statement, each cited to its paper, labelled by the kind of evidence each is, and checked by a named person before it is published. This page describes that process and its limits.</p>
 
     <h2 id="method">The method, in order</h2>
     <ol>
       <li><strong>Retrieve.</strong> For each compound, every publication in <a href="https://europepmc.org" rel="nofollow noopener" target="_blank">Europe PMC</a> whose title or abstract names it or a listed alias is fetched, with its MEDLINE publication type and subject headings. Compound identity, clinical phase and approval status come from <a href="https://www.ebi.ac.uk/chembl/" rel="nofollow noopener" target="_blank">ChEMBL</a>. Counts on a page are counts from this retrieval, dated.</li>
       <li><strong>Classify.</strong> Each paper is labelled by study design and species from its own indexing, with a text fallback for papers not yet indexed. Reviews are kept as background reading and never become claims.</li>
-      <li><strong>Quote, do not paraphrase.</strong> A claim on this site is a sentence copied verbatim from a paper's abstract, with the study's design, sample size, species and year in front of it and the source identifier after it. Nothing is combined across papers. Where a dose appears in a quotation, it is attributed to the compound only when its name sits beside it; comparator doses in the same sentence are left out.</li>
+      <li><strong>Restate, then cite.</strong> A claim on this site is one study's finding restated in plain English: who was studied, how many, what was found with the paper's own numbers, and whether it was in people, animals or cells. A numbered mark after it links to the paper. Each restatement is checked against the abstract sentence it came from, which stays on file for review. Nothing is combined across papers, and a dose is attributed to the compound only when the study gave it that compound.</li>
       <li><strong>Suppress, do not fill.</strong> A section with no evidence is not rendered. A compound with no indexed studies gets a short page that says so. A zero is reported as a zero.</li>
       <li><strong>Fill the gaps, labelled.</strong> Where the literature is silent on something a reader needs, mechanism, development history, regulatory status, or what is commonly reported outside the studies, the page says it from general knowledge and marks the passage <em>editorial synthesis</em>, so a cited finding and an editorial passage are never confused.</li>
       <li><strong>Review, when it happens, is shown.</strong> When a named person with a stated credential has checked a record, their name, credential and date appear at the top of the page. Pages are published as compiled and improved in place; every change is dated in the changelog.</li>
@@ -43,7 +43,7 @@ const tierMeans: Record<string, string> = {
     </dl>
 
     <h2 id="review">Publication and review</h2>
-    <p>This site is in its pilot. It holds <strong>{regCompounds.length}</strong> compound records, <strong>{regStacks.length}</strong> stack records, <strong>{regComparisons.length}</strong> comparison records and <strong>{regTools.length}</strong> tools, built on <strong>{sources.toLocaleString('en-US')}</strong> sources and <strong>{claims.toLocaleString('en-US')}</strong> quoted claims.</p>
+    <p>This site is in its pilot. It holds <strong>{regCompounds.length}</strong> compound records, <strong>{regStacks.length}</strong> stack records, <strong>{regComparisons.length}</strong> comparison records and <strong>{regTools.length}</strong> tools, built on <strong>{sources.toLocaleString('en-US')}</strong> sources and <strong>{claims.toLocaleString('en-US')}</strong> cited claims.</p>
     <p>Pages are published as they are compiled and improved in place. <strong>{reviewed}</strong> of {all.length} compound records carry a named reviewer's sign-off, shown at the top of those pages. Each record's own page lists its revision history under "Last reviewed and what changed".</p>
 
     <h2 id="not">What this site does not do</h2>
@@ -55,7 +55,7 @@ const tierMeans: Record<string, string> = {
     </ul>
 
     <h2 id="reading">How to read a page</h2>
-    <p>Start with the evidence table: one row per primary study, with design, sample size, species, dose, route, duration and reported outcome. Then read the quoted claims under each heading, checking the tier dot beside each. Open a source from the numbered list to read the passage in context. The reference card at the end summarises the record with its generation date, so a saved copy can be checked against a later version.</p>
+    <p>Start with the evidence table: one row per primary study, with design, sample size, species, dose, route, duration and reported outcome. Then read the cited claims under each heading, checking the tier dot beside each. Open a source from the numbered list to read the passage in context. The reference card at the end summarises the record with its generation date, so a saved copy can be checked against a later version.</p>
 
     <h2 id="corrections">Corrections</h2>
     <p>A record's changelog is the record of what changed and when. Anything found to be wrong is corrected in the record, the correction is dated in the changelog, and the page rebuilds from the corrected record.</p>

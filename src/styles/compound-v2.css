@@ -151,3 +151,8 @@
 .v2 .dosing-glance h3 { margin: 0; font-size: 16px; }
 .v2 .dosing-glance .fact .v.sm { font-family: inherit; font-size: 16px; line-height: 1.35; }
 .v2 .dosing-glance .more { margin: 0; font-size: 14px; }
+/* Citation marks after plain-English statements (src/lib/cite.ts). */
+sup.cite { font-size: .72em; line-height: 0; margin-left: 2px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+sup.cite a { text-decoration: none; color: var(--accent, var(--ink-2)); }
+sup.cite a:hover, sup.cite a:focus-visible { text-decoration: underline; }
+.v2 .claim .plain-claim { margin: 6px 0 0; font-size: 16px; line-height: 1.55; color: var(--ink); }
