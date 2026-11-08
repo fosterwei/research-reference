@@ -755,7 +755,7 @@
       },
       {
         "value": "Animal study, swine, 2022: In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine.",
-        "evidence_label": "animal-preclinical",
+        "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-38716080"
         ],
@@ -764,7 +764,7 @@
         "fields": {
           "study": "Thomas 2022",
           "year": "2022",
-          "design": "Animal study",
+          "design": "Analytical method (doping control)",
           "n": null,
           "species": "Swine",
           "dose": "not stated in abstract",
@@ -772,7 +772,7 @@
           "duration": "not stated in abstract",
           "outcome": "In contrast to urine, blood analysis essentially relies on the detection of intact peptide hormones, and the expected concentrations are commonly higher in blood samples than in urine."
         },
-        "plain": "Background: a 2022 doping-control methods paper (Thomas), indexed as including pig samples, notes that blood testing for peptide hormones looks for the intact peptide, usually found at higher levels in blood than urine."
+        "plain": "Background: a 2022 doping-control methods paper (Thomas) notes that blood testing for peptide hormones looks for the intact peptide, usually found at higher levels in blood than urine."
       },
       {
         "value": "In vitro study, humans, 2026: The present study aimed to develop a robust nano-LC quadrupole/orbitrap mass spectrometry (nano-LC-Q/Orbitrap MS) method for both screening and confirmation analyses of GHRH and its synthetic analogs (sermorelin/CJC-1293, tesamorelin, and CJC-1295) and the primary metabolite of sermorelin in urine, in accordance with WADA requirements.",
@@ -1240,6 +1240,18 @@
     {
       "date": "2026-11-08",
       "change": "53 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source; 11 quotations in the written sections paraphrased and cited the same way. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Corrected evidence labels found while rewriting in plain English: evidence_table entry 20: animal preclinical to mechanistic in vitro."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Corrected a sentence that said every human study enrolled people with HIV: the ledger also holds smaller trials in older adults, type 2 diabetes, obesity with low growth hormone and mild memory complaints, now named and cited."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Added 11 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
     }
   ],
   "guide": [
@@ -1247,7 +1259,7 @@
       "id": "quick-answer",
       "heading": "Tesamorelin in two minutes",
       "lede": "An approved drug with a narrow approval, and one trial finding that changes how to read all the others.",
-      "html": "<p>Tesamorelin is a stabilised analogue of growth-hormone-releasing hormone. It does not supply growth hormone; it prompts the pituitary to release its own.</p><p><strong>It is an approved drug, and the approval is narrow.</strong> ChEMBL records a first approval in 2010 at clinical phase 4, under ATC code H01AC06. What it was approved to treat is excess visceral abdominal fat in people with HIV on antiretroviral therapy. That is the population every trial below was run in.</p><p>The pivotal trial randomised 410 people to tesamorelin 2 mg (n = 273) or placebo (n = 137), injected under the skin daily for 26 weeks{{cite:pmid-18690162}}, then continued for a further 26 weeks. Visceral fat fell and stayed down while treatment continued.</p><p>Then it came back. The same paper reports, in its conclusion, that the effects wear off once treatment ends{{cite:pmid-18690162}}. No page currently ranking for this compound says so.</p>"
+      "html": "<p>Tesamorelin is a stabilised analogue of growth-hormone-releasing hormone. It does not supply growth hormone; it prompts the pituitary to release its own.</p><p><strong>It is an approved drug, and the approval is narrow.</strong> ChEMBL records a first approval in 2010 at clinical phase 4, under ATC code H01AC06. What it was approved to treat is excess visceral abdominal fat in people with HIV on antiretroviral therapy. That is the population every trial below was run in.</p><p>The pivotal trial randomised 410 people to tesamorelin 2 mg (n = 273) or placebo (n = 137), injected under the skin daily for 26 weeks{{cite:pmid-18690162}}, then continued for a further 26 weeks. Visceral fat fell and stayed down while treatment continued.{{cite:pmid-18690162}}</p><p>Then it came back. The same paper reports, in its conclusion, that the effects wear off once treatment ends{{cite:pmid-18690162}}. No page currently ranking for this compound says so.</p>"
     },
     {
       "id": "stopping",
@@ -1259,19 +1271,19 @@
       "id": "trials",
       "heading": "What the trials measured, and how much changed",
       "lede": "Three published analyses, all in the same population, with what each actually measured.",
-      "html": "<p>Three published analyses carry most of the evidence, and all three were run in the same population: adults with HIV and abdominal fat accumulation on antiretroviral therapy.</p><div class='card clip'><div class='tblwrap'><table class='tbl'><caption>The trials behind the figures that circulate. Every one was conducted in people with HIV-associated abdominal fat accumulation.</caption><thead><tr><th scope='col'>Trial</th><th scope='col'>People</th><th scope='col'>What it measured</th><th scope='col'>Result as published</th></tr></thead><tbody><tr><th scope='row' class='study'>Falutz 2008, <i>AIDS</i></th><td>410 randomised; 273 on 2 mg daily, 137 on placebo</td><td>Visceral adipose tissue over 52 weeks, including a withdrawal phase</td><td>Change in visceral fat held at -18% across 52 weeks{{cite:pmid-18690162}}, and not sustained after treatment ended</td></tr><tr><th scope='row' class='study'>Stanley 2011, <i>AIDS</i></th><td>410 randomised; same 273 and 137 split</td><td>Inflammatory and fibrinolytic markers at 26 weeks</td><td>A possible modest benefit on adiponectin and fibrinolytic (clot-dissolving) markers{{cite:pmid-21516030}}, with the authors adding that more research is needed to establish whether these changes matter clinically{{cite:pmid-21516030}}.</td></tr><tr><th scope='row' class='study'>Adrian 2019, <i>Journal of Frailty &amp; Aging</i></th><td>193 responders and 148 placebo, from two completed trials</td><td>Trunk muscle area and density by CT, a secondary exploratory analysis</td><td>Greater increases in muscle density, coefficient 1.56-4.86 Hounsfield units{{cite:pmid-31237318}}, in people whose visceral fat had already fallen by at least 8%</td></tr></tbody></table></div></div><p>The third row is worth reading carefully, because it is the one most often cited as evidence that tesamorelin builds muscle. It is a secondary, exploratory look back at two already completed trials that had randomised participants 2:1{{cite:pmid-31237318}}, and its tesamorelin group was restricted to responders: only tesamorelin participants whose visceral fat fell by 8% or more were included{{cite:pmid-31237318}}. Selecting the people in whom the drug worked, then measuring a second outcome in them, answers a narrower question than the headline suggests. Its own authors end by saying the effect should be studied further{{cite:pmid-31237318}} in people with and without HIV.</p>"
+      "html": "<p>Three published analyses carry most of the evidence, and all three were run in the same population: adults with HIV and abdominal fat accumulation on antiretroviral therapy.</p><div class='card clip'><div class='tblwrap'><table class='tbl'><caption>The trials behind the figures that circulate. Every one was conducted in people with HIV-associated abdominal fat accumulation.</caption><thead><tr><th scope='col'>Trial</th><th scope='col'>People</th><th scope='col'>What it measured</th><th scope='col'>Result as published</th></tr></thead><tbody><tr><th scope='row' class='study'>Falutz 2008, <i>AIDS</i></th><td>410 randomised; 273 on 2 mg daily, 137 on placebo{{cite:pmid-18690162}}</td><td>Visceral adipose tissue over 52 weeks, including a withdrawal phase</td><td>Change in visceral fat held at -18% across 52 weeks{{cite:pmid-18690162}}, and not sustained after treatment ended</td></tr><tr><th scope='row' class='study'>Stanley 2011, <i>AIDS</i></th><td>410 randomised; same 273 and 137 split{{cite:pmid-21516030}}</td><td>Inflammatory and fibrinolytic markers at 26 weeks</td><td>A possible modest benefit on adiponectin and fibrinolytic (clot-dissolving) markers{{cite:pmid-21516030}}, with the authors adding that more research is needed to establish whether these changes matter clinically{{cite:pmid-21516030}}.</td></tr><tr><th scope='row' class='study'>Adrian 2019, <i>Journal of Frailty &amp; Aging</i></th><td>193 responders and 148 placebo, from two completed trials{{cite:pmid-31237318}}</td><td>Trunk muscle area and density by CT, a secondary exploratory analysis</td><td>Greater increases in muscle density, coefficient 1.56-4.86 Hounsfield units{{cite:pmid-31237318}}, in people whose visceral fat had already fallen by at least 8%</td></tr></tbody></table></div></div><p>The third row is worth reading carefully, because it is the one most often cited as evidence that tesamorelin builds muscle. It is a secondary, exploratory look back at two already completed trials that had randomised participants 2:1{{cite:pmid-31237318}}, and its tesamorelin group was restricted to responders: only tesamorelin participants whose visceral fat fell by 8% or more were included{{cite:pmid-31237318}}. Selecting the people in whom the drug worked, then measuring a second outcome in them, answers a narrower question than the headline suggests. Its own authors end by saying the effect should be studied further{{cite:pmid-31237318}} in people with and without HIV.</p>"
     },
     {
       "id": "reported-use",
       "heading": "Bodybuilding and anti-ageing use, and what evidence exists for it",
       "lede": "Where the search demand is, set against where the evidence is.",
-      "html": "<p>Most of the measured search demand for this compound is about muscle, ageing and general fat loss. The evidence base is about none of those things.</p><p>No trial in this record's ledger gave tesamorelin to a healthy adult. Every human study here enrolled people with HIV and antiretroviral-associated abdominal fat accumulation, which is the condition it was approved for. That is not a gap in this page; it is the state of the literature, and it is reported here as such.</p><p>Two things follow, and they pull in opposite directions. An approval is real evidence that a drug does something, in the population and for the outcome it was approved for. It is not evidence about a different population or a different outcome. So the correct reading of 'FDA approved' here is narrower than it looks, and a page that prints the approval next to a bodybuilding dose has connected two facts that the evidence does not connect.</p><p>The nearest thing to relevant evidence is the muscle analysis above, and it was a secondary exploratory analysis in responders who already had HIV.</p>"
+      "html": "<p>Most of the measured search demand for this compound is about muscle, ageing and general fat loss. The evidence base is about none of those things.</p><p>The pivotal trials, and most of the human studies in this record's ledger, enrolled people with HIV and antiretroviral-associated abdominal fat accumulation, which is the condition it was approved for. The others are small trials in older adults,{{cite:pmid-22869065}} people with type 2 diabetes,{{cite:pmid-28617838}} adults with obesity and low growth hormone{{cite:pmid-23015655}} and adults with mild memory complaints;{{cite:pmid-42382101}} none tested muscle gain or general fat loss in healthy people. That is not a gap in this page; it is the state of the literature, and it is reported here as such.</p><p>Two things follow, and they pull in opposite directions. An approval is real evidence that a drug does something, in the population and for the outcome it was approved for. It is not evidence about a different population or a different outcome. So the correct reading of 'FDA approved' here is narrower than it looks, and a page that prints the approval next to a bodybuilding dose has connected two facts that the evidence does not connect.</p><p>The nearest thing to relevant evidence is the muscle analysis above, and it was a secondary exploratory analysis in responders who already had HIV.{{cite:pmid-31237318}}</p>"
     },
     {
       "id": "mistakes",
       "heading": "Common mistakes in how tesamorelin is discussed",
       "lede": "Each appears on a page ranking on the first page for this compound today.",
-      "html": "<p>Four errors recur across the pages currently ranking for this compound.</p><ul class='list'><li><strong>Quoting the visceral-fat reduction without the withdrawal finding.</strong> The pivotal trial reported both. Quoting one is not a summary, it is a selection.</li><li><strong>Reading 'FDA approved' as approved for fat loss.</strong> The approval covers excess visceral abdominal fat in people with HIV on antiretroviral therapy, and nothing else.</li><li><strong>Citing the muscle result as a general muscle-building effect.</strong> It is a secondary exploratory analysis, restricted to people whose visceral fat had already dropped by 8% or more.</li><li><strong>Treating the trial dose as a dose for a different purpose.</strong> 2&nbsp;mg daily was studied for one outcome in one population, under supervision, with glucose monitored throughout.</li></ul>"
+      "html": "<p>Four errors recur across the pages currently ranking for this compound.</p><ul class='list'><li><strong>Quoting the visceral-fat reduction without the withdrawal finding.</strong> The pivotal trial reported both.{{cite:pmid-18690162}} Quoting one is not a summary, it is a selection.</li><li><strong>Reading 'FDA approved' as approved for fat loss.</strong> The approval covers excess visceral abdominal fat in people with HIV on antiretroviral therapy, and nothing else.</li><li><strong>Citing the muscle result as a general muscle-building effect.</strong> It is a secondary exploratory analysis, restricted to people whose visceral fat had already dropped by 8% or more.{{cite:pmid-31237318}}</li><li><strong>Treating the trial dose as a dose for a different purpose.</strong> 2&nbsp;mg daily was studied for one outcome in one population, under supervision, with glucose monitored throughout.</li></ul>"
     }
   ]
 }

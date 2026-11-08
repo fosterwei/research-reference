@@ -1009,19 +1009,23 @@
     {
       "date": "2026-11-08",
       "change": "39 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Added 9 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
     }
   ],
   "guide": [
     {
       "id": "quick-answer",
       "heading": "KPV in two minutes",
-      "html": "<p><strong>What it is.</strong> The three-amino-acid tail of the pigmentation hormone α-MSH, which carries the hormone's anti-inflammatory activity without its other effects.</p><p><strong>What the research actually shows.</strong> 138 indexed publications, all animal and cell work: colitis models in mice, skin and eye inflammation, and recently fat tissue. No human study exists. The gut-health reputation rests on a 2008 mouse study in which oral KPV reduced chemically induced colitis.</p><p><strong>Status.</strong> Not approved anywhere; not named on the WADA list.</p><p><strong>Where the evidence is thinnest.</strong> Everything in people: absorption, dose, effect and safety.</p>"
+      "html": "<p><strong>What it is.</strong> The three-amino-acid tail of the pigmentation hormone α-MSH, which carries the hormone's anti-inflammatory activity without its other effects.{{cite:pmid-17934097}}</p><p><strong>What the research actually shows.</strong> 138 indexed publications, all animal and cell work: colitis models in mice, skin and eye inflammation, and recently fat tissue. No human study exists. The gut-health reputation rests on a 2008 mouse study in which oral KPV reduced chemically induced colitis.{{cite:pmid-18061177}}</p><p><strong>Status.</strong> Not approved anywhere; not named on the WADA list.</p><p><strong>Where the evidence is thinnest.</strong> Everything in people: absorption, dose, effect and safety.</p>"
     },
     {
       "id": "dosage-chart",
       "heading": "KPV doses in studies",
       "lede": "Every figure here was given to mice or cells. No human dose exists.",
-      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Model</th><th scope=\"col\">Route</th><th scope=\"col\">Duration</th><th scope=\"col\">Finding</th></tr></thead><tbody><tr><td>Mouse colitis (2008)</td><td>Oral, in drinking water or gavage</td><td>Days</td><td>Reduced colitis severity; uptake via PepT1</td></tr><tr><td>Mouse colitis, conjugates and nanoparticles (2024 to 2026)</td><td>Oral formulations designed to reach the colon</td><td>Days</td><td>Greater colonic accumulation than free KPV; reduced inflammation</td></tr><tr><td>Mouse diet-induced obesity (2026)</td><td>Oral</td><td>Weeks</td><td>Reduced adipogenic markers</td></tr><tr><td>Human cell cultures</td><td>Micromolar concentrations</td><td>Hours</td><td>Reduced inflammatory signalling</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered.</p>"
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Model</th><th scope=\"col\">Route</th><th scope=\"col\">Duration</th><th scope=\"col\">Finding</th></tr></thead><tbody><tr><td>Mouse colitis (2008)</td><td>Oral, in drinking water or gavage</td><td>Days</td><td>Reduced colitis severity; uptake via PepT1{{cite:pmid-18061177}}</td></tr><tr><td>Mouse colitis, conjugates and nanoparticles (2024 to 2026)</td><td>Oral formulations designed to reach the colon</td><td>Days</td><td>Greater colonic accumulation than free KPV; reduced inflammation{{cite:pmid-41533788}}{{cite:pmid-39211778}}</td></tr><tr><td>Mouse diet-induced obesity (2026)</td><td>Oral</td><td>Weeks</td><td>Reduced adipogenic markers{{cite:pmid-42585803}}</td></tr><tr><td>Human cell cultures</td><td>Micromolar concentrations</td><td>Hours</td><td>Reduced inflammatory signalling{{cite:pmid-22837805}}</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered.</p>"
     },
     {
       "id": "who",
@@ -1031,7 +1035,7 @@
     {
       "id": "timeline",
       "heading": "What is measured over time, and what is not",
-      "html": "<p>In mice, colitis scores change over days of dosing. Nothing has been measured in people over any period, and the reports of gut symptom change over weeks that circulate are uncontrolled self-report for conditions that fluctuate on their own.</p>"
+      "html": "<p>In mice, colitis scores change over days of dosing.{{cite:pmid-18061177}} Nothing has been measured in people over any period, and the reports of gut symptom change over weeks that circulate are uncontrolled self-report for conditions that fluctuate on their own.</p>"
     },
     {
       "id": "storage-guide",
@@ -1041,7 +1045,7 @@
     {
       "id": "mistakes",
       "heading": "Common mistakes in how KPV is discussed",
-      "html": "<ul><li><strong>Reading the 2008 mouse study as a human gut trial.</strong> It is the origin of the oral-dosing idea and it was in mice.</li><li><strong>Calling it a melanocortin agonist.</strong> It does not bind those receptors; that is the point of the fragment.</li><li><strong>Treating \"anti-inflammatory\" as a clinical outcome.</strong> Lower cytokines in a dish or a mouse is a mechanism, not a result in a person.</li><li><strong>Assuming the <a href=\"/stacks/ghk-cu-kpv-bpc-157-tb-500\">four-peptide healing stack</a> was studied.</strong> None of its combinations has been.</li></ul>"
+      "html": "<ul><li><strong>Reading the 2008 mouse study as a human gut trial.</strong> It is the origin of the oral-dosing idea and it was in mice.{{cite:pmid-18061177}}</li><li><strong>Calling it a melanocortin agonist.</strong> It does not bind those receptors; that is the point of the fragment.</li><li><strong>Treating \"anti-inflammatory\" as a clinical outcome.</strong> Lower cytokines in a dish or a mouse is a mechanism, not a result in a person.</li><li><strong>Assuming the <a href=\"/stacks/ghk-cu-kpv-bpc-157-tb-500\">four-peptide healing stack</a> was studied.</strong> None of its combinations has been.</li></ul>"
     },
     {
       "id": "comparison-table",

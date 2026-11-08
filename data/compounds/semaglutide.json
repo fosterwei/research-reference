@@ -308,13 +308,13 @@
       },
       {
         "value": "In vitro study, humans, 2026: However, most individuals regain weight after abrupt withdrawal of semaglutide, with reversal of its beneficial cardiometabolic effects.",
-        "evidence_label": "mechanistic-in-vitro",
+        "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42507673"
         ],
         "source_excerpt": "However, most individuals regain weight after abrupt withdrawal of semaglutide, with reversal of its beneficial cardiometabolic effects.",
         "drafting": "extractive",
-        "plain": "Background: a 2026 trial protocol (REST), a design paper with no results and no lab data, states that most people regain weight after stopping semaglutide abruptly, with its heart and metabolic benefits reversing."
+        "plain": "Background: a 2026 trial protocol (REST), a design paper with no results, states that most people regain weight after stopping semaglutide abruptly, with its heart and metabolic benefits reversing."
       }
     ],
     "biomarkers_monitored": [
@@ -895,7 +895,7 @@
       },
       {
         "value": "In vitro study, humans, 2026: Discussion We hypothesize that gradual reduction of semaglutide will be associated with less weight regain and cardiometabolic deterioration compared with immediate cessation.",
-        "evidence_label": "mechanistic-in-vitro",
+        "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42507673"
         ],
@@ -904,7 +904,7 @@
         "fields": {
           "study": "Yevusiak 2026",
           "year": "2026",
-          "design": "In vitro study",
+          "design": "Trial protocol (no results yet)",
           "n": null,
           "species": "Humans",
           "dose": "not stated in abstract",
@@ -912,7 +912,7 @@
           "duration": "12 weeks; 16 weeks",
           "outcome": "Discussion We hypothesize that gradual reduction of semaglutide will be associated with less weight regain and cardiometabolic deterioration compared with immediate cessation."
         },
-        "plain": "Background: the 2026 REST trial protocol (Yevusiak), a design paper with no results and no lab data, hypothesizes that tapering semaglutide will cause less weight regain than stopping at once."
+        "plain": "Background: the 2026 REST trial protocol (Yevusiak), a design paper with no results, hypothesizes that tapering semaglutide will cause less weight regain than stopping at once."
       }
     ]
   },
@@ -1225,6 +1225,10 @@
     {
       "date": "2026-11-08",
       "change": "62 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Corrected evidence labels found while rewriting in plain English: adverse_events entry 6: mechanistic in vitro to human clinical trial; evidence_table entry 22: mechanistic in vitro to human clinical trial."
     }
   ]
 }

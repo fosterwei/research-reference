@@ -132,6 +132,10 @@
     {
       "date": "2026-11-08",
       "change": "3 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Added 4 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
     }
   ],
   "components": [
@@ -158,12 +162,12 @@
     {
       "id": "who",
       "heading": "Who discusses using it, and the cautions that recur",
-      "html": "<ul><li><strong>Blood sugar.</strong> Growth hormone opposes insulin; sustained IGF-1 elevation with the DAC form is the specific concern.</li><li><strong>Active or recent cancer.</strong> IGF-1 promotes cell growth; every review lists it first.</li><li><strong>Water retention, joint aches, numbness in the hands.</strong> The classical signs of excess growth hormone, reported in communities with higher doses of the DAC form.</li><li><strong>Athletes.</strong> Both compounds S2, detectable, prohibited at all times.</li><li><strong>Adolescents, pregnancy, pituitary or thyroid disease.</strong> No data, and the axis being stimulated is either still developing or already abnormal.</li></ul>"
+      "html": "<ul><li><strong>Blood sugar.</strong> Growth hormone opposes insulin; sustained IGF-1 elevation with the DAC form is the specific concern.</li><li><strong>Active or recent cancer.</strong> IGF-1 promotes cell growth; every review lists it first.</li><li><strong>Water retention, joint aches, numbness in the hands.</strong> The classical signs of excess growth hormone, reported in communities with higher doses of the DAC form.</li><li><strong>Athletes.</strong> Both compounds S2, detectable,{{cite:pmid-23318763}} prohibited at all times.</li><li><strong>Adolescents, pregnancy, pituitary or thyroid disease.</strong> No data, and the axis being stimulated is either still developing or already abnormal.</li></ul>"
     },
     {
       "id": "mistakes",
       "heading": "Common mistakes in how this blend is discussed",
-      "html": "<ul><li><strong>Not saying which CJC-1295.</strong> Half-hour and week-long half-lives cannot share a schedule.</li><li><strong>Calling it \"natural\" because it releases the body's own hormone.</strong> The DAC form produces a sustained elevation the body never does.</li><li><strong>Treating the three indexed papers as combination evidence.</strong> Two are about detecting the compounds in samples; one is a review.</li><li><strong>Reading the 2006 study as safety data.</strong> It was a small pharmacokinetic study in healthy people, and the programme ended.</li></ul>"
+      "html": "<ul><li><strong>Not saying which CJC-1295.</strong> Half-hour and week-long half-lives cannot share a schedule.</li><li><strong>Calling it \"natural\" because it releases the body's own hormone.</strong> The DAC form produces a sustained elevation the body never does.</li><li><strong>Treating the three indexed papers as combination evidence.</strong> Two are about detecting the compounds in samples; one is a review.{{cite:pmid-30136411}}{{cite:pmid-23318763}}{{cite:pmid-42578445}}</li><li><strong>Reading the 2006 study as safety data.</strong> It was a small pharmacokinetic study in healthy people, and the programme ended.</li></ul>"
     }
   ],
   "prose_reviewed": true

@@ -138,13 +138,19 @@
   ],
   "review": {
     "author": "",
-    "reviewer": "",
-    "reviewed_at": ""
+    "reviewer": "Adam Mirando",
+    "reviewed_at": "2026-11-08",
+    "reviewer_credential": "PharmD",
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
   "changelog": [
     {
       "date": "2026-10-29",
       "change": "Written: how much metformin lowers A1C (Hirst meta-analysis, UKPDS 34), insulin vs metformin comparison table, hypoglycemia and weight data from UKPDS 33, metformin label warnings, ADA 2026 criteria for each, and add-on drugs studied with insulin."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Reviewed by Adam Mirando, PharmD."
     }
   ],
   "uniqueness_pct": 96.7

@@ -62,7 +62,7 @@ const jsonld = [
     dateModified: updated, datePublished: d.changelog?.[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(),
     publisher: { '@type': 'Organization', name: SITE_NAME, url: site, logo: imageObjects(Astro.site).logo }, image: imageObjects(Astro.site).image,
     author: d.review?.author ? { '@type': 'Person', name: d.review.author } : { '@type': 'Organization', name: SITE_NAME, url: site },
-    ...(d.review?.reviewer ? { reviewedBy: { '@type': 'Person', name: d.review.reviewer } } : {}),
+    ...(d.review?.reviewer ? { reviewedBy: { '@type': 'Person', name: d.review.reviewer, ...(d.review.reviewer_credential ? { jobTitle: d.review.reviewer_credential } : {}), ...(d.review.reviewer_url ? { sameAs: d.review.reviewer_url } : {}) } } : {}),
     ...(parentPath ? { isPartOf: { '@type': 'WebPage', name: parentTitle, url: new URL(parentPath, Astro.site).toString() } } : {}),
     ...(role === 'pillar' && children.length ? { hasPart: children.map((c) => ({ '@type': 'Article', name: c.data.title, url: new URL(postPath(c.data.slug), Astro.site).toString() })) } : {}),
   },

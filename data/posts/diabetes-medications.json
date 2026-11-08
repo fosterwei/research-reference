@@ -176,13 +176,19 @@
   ],
   "review": {
     "author": "",
-    "reviewer": "",
-    "reviewed_at": ""
+    "reviewer": "Adam Mirando",
+    "reviewed_at": "2026-11-08",
+    "reviewer_credential": "PharmD",
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
   "changelog": [
     {
       "date": "2026-10-29",
       "change": "Written: every type 2 diabetes medication class in one table (mechanism, ADA 2026 A1C and weight grading, hypoglycemia, route, names), oral vs injectable, how ADA 2026 chooses, label warnings by class, and where amylin drugs and CagriSema fit."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Reviewed by Adam Mirando, PharmD."
     }
   ],
   "uniqueness_pct": 97.9
