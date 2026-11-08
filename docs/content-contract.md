@@ -135,6 +135,30 @@ information from published studies and labels, not individual medical advice." E
 template that printed the old sentence prints the new one; `scripts/check_links.py`
 fails the build if the old sentence survives on a page that renders a protocol.
 
+## Plain language and citation marks
+
+Changed 2026-11-08 at the owner's direction: pages no longer show verbatim
+abstract sentences. Every extractive claim carries `plain`, a one- or
+two-sentence plain-English statement of what its source reports, and the page
+shows `plain` followed by a numbered citation mark (`[3]`) that links to the
+numbered Sources list. `source_excerpt` stays in the record so the reviewer and
+the validator can check `plain` against the source; it is not rendered.
+
+How `plain` is written (E-E-A-T, after studying how dosing-guide sites write
+evidence, and stricter): say which study (design, population, size, year,
+first author when known); then the result with its own numbers, units,
+comparison and time point, never rounded or added to; name the evidence level
+in words (species for animal work, "in cells grown in a lab" for in-vitro, "no
+control group" for uncontrolled work); add the limit that matters; report,
+never advise; explain a technical term once in brackets; at most 45 words.
+
+Enforced by `scripts/validate_content.py` (`check_plain`): an extractive claim
+outside the protocol table without `plain` fails the build unless its record is
+listed with a reason in `research/plain-pending.json`; `plain` may not carry a
+citation mark or id. The drafting check (numbers in `plain` must appear in the
+source, animal or in-vitro claims must say so, banned advice words, length)
+runs before a rewrite is merged.
+
 ## Claim fields
 
 Every entry in `attributes.<field>` is a claim object. Required: `value`, `evidence_label`, `source_ids`. Optional, and expected on anything the agent drafted:

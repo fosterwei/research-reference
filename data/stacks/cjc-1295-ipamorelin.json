@@ -17,7 +17,8 @@
           "pmid-42578445"
         ],
         "source_excerpt": "To summarize existing peer-reviewed data on 6 emerging peptides (BPC-157, thymosin beta-4 or TB-500, CJC-1295, MK-677, ipamorelin, and GHK-Cu [copper peptide]) for musculoskeletal recovery and enhancement in animal and human models.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: a 2026 review summarized published animal and human data on 6 peptides, including CJC-1295 and ipamorelin, for muscle and joint recovery in sports medicine; it does not report a combined CJC-1295 and ipamorelin result."
       },
       {
         "value": "In vitro study, 2019: Comparison with reference standards unequivocally identified the content of the powders as analogs of the growth hormone secretagogues GHRP-2 (Pralmorelin), GHRP-6, Ipamorelin, and modified growth hormone releasing factor (modified GRF 1-29), which can be used as performance-enhancing substances in sports.",
@@ -26,7 +27,8 @@
           "pmid-30136411"
         ],
         "source_excerpt": "Comparison with reference standards unequivocally identified the content of the powders as analogs of the growth hormone secretagogues GHRP-2 (Pralmorelin), GHRP-6, Ipamorelin, and modified growth hormone releasing factor (modified GRF 1-29), which can be used as performance-enhancing substances in sports.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: in a 2018 lab analysis of seized doping powders, testing against reference standards identified modified versions of GHRP-2, GHRP-6, ipamorelin and modified GRF 1-29, substances that can be misused in sports."
       },
       {
         "value": "Animal study, 2013: In our study, a simple mixed-mode anion exchange solid-phase extraction cartridge was employed for the extraction of seven target peptides (GHRP-1, GHRP-2, GHRP-6, ipamorelin, hexarelin, CJC-1295, and N-acetylated LKKTETQ (active ingredient of TB-500)) and their in vitro metabolites from horse plasma.",
@@ -35,7 +37,8 @@
           "pmid-23318763"
         ],
         "source_excerpt": "In our study, a simple mixed-mode anion exchange solid-phase extraction cartridge was employed for the extraction of seven target peptides (GHRP-1, GHRP-2, GHRP-6, ipamorelin, hexarelin, CJC-1295, and N-acetylated LKKTETQ (active ingredient of TB-500)) and their in vitro metabolites from horse plasma.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: a 2013 doping-control method study described extracting seven peptides, including ipamorelin and CJC-1295, and their breakdown products from horse blood plasma for testing; it reports no effects of the peptides."
       }
     ]
   },
@@ -125,6 +128,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-29."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "3 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
     }
   ],
   "components": [

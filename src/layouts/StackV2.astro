@@ -12,6 +12,7 @@ import Tier from '../components/v2/Tier.astro';
 import Toc from '../components/v2/Toc.astro';
 import StatusBar from '../components/v2/StatusBar.astro';
 import ClaimCards from '../components/v2/ClaimCards.astro';
+import { citer as citerFor, isFinding } from '../lib/cite';
 import Faq from '../components/v2/Faq.astro';
 import Sources from '../components/v2/Sources.astro';
 import EditorialSection from '../components/v2/EditorialSection.astro';
@@ -27,10 +28,11 @@ const all = await records('stacks');
 const entry = all.find((e) => e.data.slug === slug);
 if (!entry) throw new Error(`no stack record for ${slug}`);
 const d = entry.data as any;
+const proseCite = citerFor(((entry as any).data?.sources ?? []) as any[]);
 const intent = loadIntent(d.slug);
 const compounds = await records('compounds');
 const components = (d.components as string[]).map((s) => compounds.find((c) => c.data.slug === s)).filter((c): c is NonNullable<typeof c> => Boolean(c));
-const combination = (d.attributes?.combination_evidence ?? []) as any[];
+const combination = ((d.attributes?.combination_evidence ?? []) as any[]).filter(isFinding);
 const tierRank = ['approved-label', 'human-clinical-trial', 'observational-human', 'animal-preclinical', 'mechanistic-in-vitro', 'community-reported'];
 const weakest = components.map((c) => c.data.evidence_tier).sort((a, b) => tierRank.indexOf(b) - tierRank.indexOf(a))[0];
 const path = `/stacks/${d.slug}`;
@@ -125,15 +127,15 @@ const breadcrumbs = {
                 </table></div></div>
               </section>);
             case 'combination': return (
-              <section id="combination"><div><h2>{b.label}</h2><p class="lede">{boundaryFor(intent, 'combination') ?? 'Indexed papers that mention every component, quoted. A count of zero is the finding, not a gap in this page.'}</p></div>
+              <section id="combination"><div><h2>{b.label}</h2><p class="lede">{boundaryFor(intent, 'combination') ?? 'Indexed papers that mention every component, each summarised and cited. A count of zero is the finding, not a gap in this page.'}</p></div>
                 {combination.length > 0 ? <ClaimCards claims={combination} sources={d.sources} /> : <div class="status"><div><strong>No published study tested this combination.</strong> The component evidence above is the whole of what is known; effects of a combination are not established by adding the components together.</div></div>}
               </section>);
-            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={linkEntities(b.guide!.html)} pending={b.guide!.pending} />;
+            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={proseCite.tokens(linkEntities(b.guide!.html))} pending={b.guide!.pending} />;
             case 'open': return <section id="open"><h2>{b.label}</h2><ul class="list">{d.open_questions.map((q: string) => <li>{q}</li>)}</ul></section>;
             case 'faq': return <section id="faq"><h2>{b.label}</h2><Faq items={faqItems} html /></section>;
           }
         })}
-        {d.sources?.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Full citations. Every quoted claim above links to one of these.</p></div><Sources sources={d.sources} /></section>}
+        {d.sources?.length > 0 && <section id="sources"><div><h2>Sources</h2><p class="lede">Full citations, numbered. The bracketed numbers after each statement on this page link to these.</p></div><Sources sources={d.sources} /></section>}
         <section id="card"><h2>Reference card</h2>
           <div class="card refcard" id="reference-card">
             <div class="head"><span class="eyebrow">Reference card · generated <Fragment set:html={updated ? timeTag(updated) : ''} /></span><span class="eyebrow">{path}</span></div>

@@ -17,7 +17,8 @@
           "pmid-42630988"
         ],
         "source_excerpt": "Given the therapeutic potential of GLP-1 receptor agonists (semaglutide, tirzepatide, and retatrutide) in diabetic nephropathy, we evaluated their anti-fibrotic and anti-inflammatory effects in non-diabetic renal fibrosis using HK-2 cells and murine UUO and aging models.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A 2026 study in lab-grown human kidney cells and in mice with blocked-kidney or age-related kidney scarring compared semaglutide, tirzepatide and retatrutide for anti-scarring and anti-inflammatory effects; this sentence states the aim, not results."
       },
       {
         "value": "Animal study, MC4R knockout mice, 2026: Recently, glucagon-like peptide-1 (GLP-1) analogs, including semaglutide, tirzepatide, and retatrutide, have been explored as potential anti-obesity therapies.",
@@ -26,7 +27,8 @@
           "pmid-41723268"
         ],
         "source_excerpt": "Recently, glucagon-like peptide-1 (GLP-1) analogs, including semaglutide, tirzepatide, and retatrutide, have been explored as potential anti-obesity therapies.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: a 2026 study in mice lacking the MC4R gene (a genetic form of obesity) notes that GLP-1 drugs, including semaglutide, tirzepatide and retatrutide, have been explored as obesity treatments."
       },
       {
         "value": "Animal study, rats, 2025: We also evaluated acute treatment with tirzepatide, a dual GLP-1/gastric inhibitory peptide (GIP) receptor agonist, and retatrutide, a triple GIP/GLP-1/glucagon receptor agonist, to determine whether broader receptor activity would differentially influence alcohol's subjective effects.",
@@ -35,7 +37,8 @@
           "pmid-40699363"
         ],
         "source_excerpt": "We also evaluated acute treatment with tirzepatide, a dual GLP-1/gastric inhibitory peptide (GIP) receptor agonist, and retatrutide, a triple GIP/GLP-1/glucagon receptor agonist, to determine whether broader receptor activity would differentially influence alcohol's subjective effects.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In male and female rats, a 2025 study gave single doses of tirzepatide (acting on GLP-1 and GIP receptors) and retatrutide (also acting on glucagon receptors) to test whether broader action changed how alcohol's effects are sensed."
       },
       {
         "value": "Animal study, db/db mice, 2024: Retatrutide demonstrated superior effectiveness in reducing weight and improving renal function in db/db mice compared to Liraglutide and Tirzepatide.",
@@ -44,7 +47,8 @@
           "pmid-39212900"
         ],
         "source_excerpt": "Retatrutide demonstrated superior effectiveness in reducing weight and improving renal function in db/db mice compared to Liraglutide and Tirzepatide.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In diabetic db/db mice, a 2024 study found retatrutide reduced weight and improved kidney function more than liraglutide or tirzepatide."
       },
       {
         "value": "Systematic review and meta-analysis, 10 trials, n=3,236, 2026: A comprehensive literature search was conducted using PubMed, the Cochrane Library, and Google Scholar from inception to June 2025 to identify randomized controlled trials evaluating tirzepatide, retatrutide, or mazdutide in obese adults.",
@@ -53,7 +57,8 @@
           "pmid-41711462"
         ],
         "source_excerpt": "A comprehensive literature search was conducted using PubMed, the Cochrane Library, and Google Scholar from inception to June 2025 to identify randomized controlled trials evaluating tirzepatide, retatrutide, or mazdutide in obese adults.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A 2026 systematic review searched databases up to June 2025 for randomized trials of tirzepatide, retatrutide or mazdutide in adults with obesity; it pooled 10 trials (3,236 people). This sentence describes the search, not the results."
       },
       {
         "value": "Network meta-analysis, 58 trials, n=24,214, 2026: Compared with placebo, weight loss was greatest with retatrutide (-22.10%, 95% confidence interval -25.60% to -18.60%), followed by tirzepatide (-19.28%, -20.39% to -18.16%), and CagriSema (a combination of cagrilintide and semaglutide, -17.32%, -19.32% to -15.32%).",
@@ -62,7 +67,8 @@
           "pmid-42688617"
         ],
         "source_excerpt": "Compared with placebo, weight loss was greatest with retatrutide (-22.10%, 95% confidence interval -25.60% to -18.60%), followed by tirzepatide (-19.28%, -20.39% to -18.16%), and CagriSema (a combination of cagrilintide and semaglutide, -17.32%, -19.32% to -15.32%).",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A 2026 network meta-analysis of 58 randomized trials (24,214 adults without diabetes), comparing trials indirectly, found the most weight loss against placebo with retatrutide (-22.10%), then tirzepatide (-19.28%) and CagriSema, cagrilintide with semaglutide (-17.32%)."
       },
       {
         "value": "Commentary, 2023: Although retatrutide may be superior to the GLP-1 receptor agonist dulaglutide in reducing plasma glucose and body weight, this is not a meaningful comparison, as another GLP-1 receptor agonist (semaglutide) is more potent than dulaglutide at this and may have similar efficacy to retatrutide.",
@@ -71,7 +77,8 @@
           "pmid-37086147"
         ],
         "source_excerpt": "Although retatrutide may be superior to the GLP-1 receptor agonist dulaglutide in reducing plasma glucose and body weight, this is not a meaningful comparison, as another GLP-1 receptor agonist (semaglutide) is more potent than dulaglutide at this and may have similar efficacy to retatrutide.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: a 2023 commentary, not a lab or clinical study, argued that retatrutide beating dulaglutide on blood sugar and weight is not a meaningful comparison, since semaglutide is more potent than dulaglutide."
       },
       {
         "value": "Peptide design study, in vitro and mice, 2025: It shows superior weight loss effects compared to tirzepatide and similar metabolic efficacy to retatrutide, despite significantly less potent GIPR activity.",
@@ -80,7 +87,8 @@
           "pmid-40958513"
         ],
         "source_excerpt": "It shows superior weight loss effects compared to tirzepatide and similar metabolic efficacy to retatrutide, despite significantly less potent GIPR activity.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In a 2025 peptide design study with lab tests and mice, a new experimental triple-acting peptide (not retatrutide or tirzepatide) gave more weight loss than tirzepatide and similar metabolic effects to retatrutide."
       }
     ]
   },
@@ -238,6 +246,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-28."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "8 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
     }
   ],
   "sides": [

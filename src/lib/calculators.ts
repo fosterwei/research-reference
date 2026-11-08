@@ -11,6 +11,7 @@
 // figures, and only when its own record is finished and reviewed. Everything
 // else would be the same page with the name changed, which is how a programmatic
 // set turns into index bloat.
+import { isFinding } from './cite';
 import type { CollectionEntry } from 'astro:content';
 import { isIndexable } from './site';
 
@@ -19,6 +20,8 @@ export const MIN_DISTINCT_DOSES = 2;
 const DOSE_FIGURE = /\d+(?:[.,]\d+)?\s*(?:mg|µg|mcg|ug|ng|IU|units?)\b/gi;
 
 export interface DoseRow {
+  /** What the page shows: the plain-English version when written. `value` keeps the drafted text the dose parser reads. */
+  display?: string;
   value: string;
   tier: string;
   sourceIds: string[];
@@ -39,8 +42,9 @@ export function doseFigures(entry: CollectionEntry<'compounds'>): string[] {
 
 export function doseRows(entry: CollectionEntry<'compounds'>): DoseRow[] {
   const claims = ((entry.data as any).attributes?.study_doses ?? []) as any[];
-  return claims.map((c) => ({
+  return claims.filter(isFinding).map((c) => ({
     value: String(c.value ?? ''),
+    display: String(c.plain ?? c.value ?? ''),
     tier: String(c.evidence_label ?? 'editorial'),
     sourceIds: (c.source_ids ?? []) as string[],
     excerpt: c.source_excerpt,
@@ -120,8 +124,9 @@ export function chartRows(doses: number[], vialMg: number): ChartRow[] {
 /** Claims from any attribute, shaped like doseRows. */
 export function claimRows(entry: CollectionEntry<'compounds'>, key: string): DoseRow[] {
   const claims = ((entry.data as any).attributes?.[key] ?? []) as any[];
-  return claims.map((c) => ({
+  return claims.filter(isFinding).map((c) => ({
     value: String(c.value ?? ''),
+    display: String(c.plain ?? c.value ?? ''),
     tier: String(c.evidence_label ?? 'editorial'),
     sourceIds: (c.source_ids ?? []) as string[],
     excerpt: c.source_excerpt,

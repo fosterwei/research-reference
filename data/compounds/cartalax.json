@@ -24,7 +24,8 @@
           "pmid-37782637"
         ],
         "source_excerpt": "Sigumir, a polypeptide complex of cartilage and bone tissues of young animals, and the AED tripeptide (Kartalax) have shown high efficacy in animal models of OA and oral administration in patients with OA of older age groups.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A 2023 narrative review states that the AED tripeptide (Cartalax) was taken by mouth by older patients with osteoarthritis; the underlying human studies are not identified."
       }
     ],
     "study_doses": [],
@@ -47,7 +48,8 @@
           "pmid-33231794"
         ],
         "source_excerpt": "AED peptide activates the synthesis of sirtuin-1, sirtuin-6, and collagen I in human skin fibroblasts during their replicative aging",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In human skin cells (fibroblasts) grown in a lab (2020), the AED peptide raised production of sirtuin-1, sirtuin-6 and collagen I as the cells aged through repeated division."
       },
       {
         "value": "Skin fibroblasts: MMP-9 fell and Ki-67 and CD98hc rose with the short peptides; AED and AEDG suppressed caspase-dependent apoptosis.",
@@ -56,7 +58,8 @@
           "pmid-27259496"
         ],
         "source_excerpt": "All studied peptides inhibited MMP-9 synthesis that increases during aging of skin fibroblasts and enhanced the expression of Ki-67 and CD98hc that are less intensively synthesized during cell aging. Peptides AED and AEDG suppressed caspase-dependent apoptosis that increases during aging of cell cultures.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In aging human skin cells grown in a lab (2016), all the short peptides tested lowered MMP-9 and raised the growth markers Ki-67 and CD98hc; AED and AEDG reduced programmed cell death."
       },
       {
         "value": "Mesenchymal stem cells: IGF1 expression rose 3.5- to 5.6-fold with the peptides.",
@@ -65,7 +68,8 @@
           "pmid-32399807"
         ],
         "source_excerpt": "IGF1 gene expression levels were very similar in both cell culture aging models, being enhanced by 3.5-5.6 fold upon the addition of the peptides.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In aging human stem cell cultures in a lab (2020), the short peptides tested raised IGF1 gene activity 3.5- to 5.6-fold."
       },
       {
         "value": "Ovariectomised rats: bone mineral density was preserved and restored by T-31 and, more strongly, by the cartilage extract.",
@@ -74,7 +78,8 @@
           "pmid-18306703"
         ],
         "source_excerpt": "The substances exerted both prophylactic effect on the status of the cartilaginous tissue, preventing the decrease of mineral density of the bone tissue in rats after ovariectomy, and corrective effect by increasing the bone tissue density, which was reduced as a result of ovariectomy.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In rats with ovaries removed (a model of post-menopausal bone loss; 2007), the peptide T-31 (AED) and a cartilage extract both prevented and partly reversed the drop in bone mineral density."
       }
     ],
     "reported_timelines": [],
@@ -109,7 +114,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "It is shown that application of a complex of treatment-and-prophylactic actions, including rational tooth prosthetics, functional and pharmacotherapy (including accompanying diseases), and also use a peptide bioregulator of cartilaginous and bone tissues \"Sigumir\" in complex therapy of patients with diseases of a temporomandibular joint of a various etiology, enables to stop in short-terms a painful syndrome in such patients, to increase amplitude of opening of a mouth, to improve chewing function, to reduce terms of treatment and to provide preventive maintenance of relapses of TMJ's pathology during all period of supervision."
-        }
+        },
+        "plain": "Background: This 2012 study of 62 patients concerns Sigumir, a cartilage and bone peptide complex, not Cartalax. Used within combined treatment for jaw joint disease, it was reported to ease pain quickly and improve mouth opening and chewing."
       },
       {
         "value": "Narrative review (Russian), humans, 2023: Sigumir, a polypeptide complex of cartilage and bone tissues of young animals, and the AED tripeptide (Kartalax) have shown high efficacy in animal models of OA and oral administration in patients with OA of older age groups.",
@@ -129,7 +135,8 @@
           "route": "oral (as stated for patients)",
           "duration": "not stated in abstract",
           "outcome": "Sigumir, a polypeptide complex of cartilage and bone tissues of young animals, and the AED tripeptide (Kartalax) have shown high efficacy in animal models of OA and oral administration in patients with OA of older age groups."
-        }
+        },
+        "plain": "A 2023 narrative review (Myakisheva) states that Sigumir and the AED tripeptide (Cartalax) showed high efficacy in animal models of osteoarthritis and when taken by mouth by older patients; it does not detail the underlying studies."
       },
       {
         "value": "Animal study, rats, 2007: The study has revealed an osteoprotective effect of both studied substances, with significantly higher efficacy of the preparation based on cartilaginous tissue extract.",
@@ -149,7 +156,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "The study has revealed an osteoprotective effect of both studied substances, with significantly higher efficacy of the preparation based on cartilaginous tissue extract."
-        }
+        },
+        "plain": "In rats with ovaries removed (Povorozniuk 2007), both the AED peptide and a cartilage extract protected bone, with the cartilage extract significantly more effective."
       },
       {
         "value": "In vitro study, rat kidney tissue cultures, 2015: Short peptides T-31 (AED) and T-35 (EDL) also stimulate proliferation and reduce apoptosis of the kidney cells, but to a lesser degree than the polypeptide complex.",
@@ -169,7 +177,8 @@
           "route": "culture medium",
           "duration": "not stated in abstract",
           "outcome": "Short peptides T-31 (AED) and T-35 (EDL) also stimulate proliferation and reduce apoptosis of the kidney cells, but to a lesser degree than the polypeptide complex."
-        }
+        },
+        "plain": "In rat kidney tissue grown in a lab (Chalisova 2015), the short peptides AED and EDL increased cell growth and reduced cell death, but less than a polypeptide complex did."
       },
       {
         "value": "In vitro study, human skin fibroblasts, 2016: Peptides AED and AEDG suppressed caspase-dependent apoptosis that increases during aging of cell cultures.",
@@ -189,7 +198,8 @@
           "route": "culture medium",
           "duration": "not stated in abstract",
           "outcome": "Peptides AED and AEDG suppressed caspase-dependent apoptosis that increases during aging of cell cultures."
-        }
+        },
+        "plain": "In aging human skin cells grown in a lab (Lin'kova 2016), the peptides AED and AEDG reduced programmed cell death (apoptosis), which rises as cultures age."
       },
       {
         "value": "In vitro study, human skin fibroblasts, 2020: AED peptide activates the synthesis of sirtuin-1, sirtuin-6, and collagen I in human skin fibroblasts during their replicative aging, which attests to its geroprotective effect.",
@@ -209,7 +219,8 @@
           "route": "culture medium",
           "duration": "not stated in abstract",
           "outcome": "AED peptide activates the synthesis of sirtuin-1, sirtuin-6, and collagen I in human skin fibroblasts during their replicative aging, which attests to its geroprotective effect."
-        }
+        },
+        "plain": "In human skin cells grown in a lab (Fridman 2020), the AED peptide raised production of sirtuin-1, sirtuin-6 and collagen I during aging, which the authors read as an anti-aging effect."
       },
       {
         "value": "In vitro study, human embryonic mesenchymal stem cells, 2020: IGF1 gene expression levels were very similar in both cell culture aging models, being enhanced by 3.5-5.6 fold upon the addition of the peptides.",
@@ -229,7 +240,8 @@
           "route": "culture medium",
           "duration": "not stated in abstract",
           "outcome": "IGF1 gene expression levels were very similar in both cell culture aging models, being enhanced by 3.5-5.6 fold upon the addition of the peptides."
-        }
+        },
+        "plain": "In aging human embryonic stem cell cultures in a lab (Ashapkin 2020), adding the short peptides raised IGF1 (a growth factor) gene activity 3.5- to 5.6-fold."
       },
       {
         "value": "In vitro study, human periodontal ligament stem cells, 2019: Growth-Associated Protein 43 (GAP43), which implements neurotransmission mechanisms and neuroplasticity, demonstrated an increased expression in hPDLSCs cultured with a compound of all studied peptides and with KED alone.",
@@ -249,7 +261,8 @@
           "route": "culture medium",
           "duration": "not stated in abstract",
           "outcome": "Growth-Associated Protein 43 (GAP43), which implements neurotransmission mechanisms and neuroplasticity, demonstrated an increased expression in hPDLSCs cultured with a compound of all studied peptides and with KED alone."
-        }
+        },
+        "plain": "In human dental stem cells grown in a lab (Caputi 2019), GAP43, a protein linked to nerve growth, rose with a mix of all peptides tested and with KED alone. AED alone is not reported as raising it."
       },
       {
         "value": "Molecular modelling, in silico, 2016: Peptides KE and EDP bind agat sequence, peptides KEDW and AED to acct sequence, and peptides AEDL and EDL to ctcc sequence.",
@@ -269,7 +282,8 @@
           "route": "not applicable",
           "duration": "not applicable",
           "outcome": "Peptides KE and EDP bind agat sequence, peptides KEDW and AED to acct sequence, and peptides AEDL and EDL to ctcc sequence."
-        }
+        },
+        "plain": "In computer modelling (Khavinson 2016), short peptides were predicted to bind specific DNA sequences, with AED and KEDW binding the acct sequence. This is a prediction, not a measured effect."
       }
     ],
     "mechanism": [
@@ -504,6 +518,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-25."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "14 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
     }
   ],
   "guide": [

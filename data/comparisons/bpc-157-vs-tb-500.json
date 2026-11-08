@@ -17,7 +17,8 @@
           "pmid-42542926"
         ],
         "source_excerpt": "Biomechanical testing revealed higher maximum load to failure values in the BPC-157 and TB-500 groups compared to controls, reaching statistical significance in the TB-500 group (p Conclusion In this exploratory rat model study, both BPC-157 and TB-500 were associated with improved histopathological parameters and extracellular matrix organization during early Achilles tendon repair, with TB-500 additionally demonstrating a significant biomechanical advantage at four weeks.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In rats with Achilles tendon injuries (2026), both BPC-157 and TB-500 improved tissue healing measures against controls, but only TB-500 significantly increased tendon strength (load to failure) at four weeks; this was an exploratory study."
       }
     ]
   },
@@ -85,6 +86,10 @@
     {
       "date": "2026-11-07",
       "change": "Restored 1 quotation that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "1 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
     }
   ],
   "sides": [

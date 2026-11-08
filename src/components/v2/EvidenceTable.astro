@@ -1,15 +1,17 @@
 ---
 import Tier from './Tier.astro';
-interface Row { evidence_label: string; source_ids: string[]; fields?: Record<string, any> }
-interface Props { rows: Row[] }
-const { rows } = Astro.props;
+import { citer } from '../../lib/cite';
+interface Row { evidence_label: string; source_ids: string[]; plain?: string; fields?: Record<string, any> }
+interface Props { rows: Row[]; sources?: Array<{ id: string }> }
+const { rows, sources = [] } = Astro.props;
+const cite = citer(sources);
 const dash = (v: any) => (!v || String(v).startsWith('not stated') || v === 'not indexed' ? '—' : v);
 ---
 <div class="card clip">
   <div class="tblwrap">
     <table class="tbl">
       <caption><b>{rows.length}</b> primary studies in this record's ledger, strongest evidence first. A dash means the abstract did not state the value.</caption>
-      <thead><tr><th scope="col">Study</th><th scope="col">Design</th><th scope="col" class="num">n</th><th scope="col">Species</th><th scope="col">Dose</th><th scope="col">Route</th><th scope="col">Duration</th><th scope="col">Reported outcome</th><th scope="col">Tier</th></tr></thead>
+      <thead><tr><th scope="col">Study</th><th scope="col">Design</th><th scope="col" class="num">n</th><th scope="col">Species</th><th scope="col">Dose</th><th scope="col">Route</th><th scope="col">Duration</th><th scope="col">What it found</th><th scope="col">Tier</th></tr></thead>
       <tbody>
         {rows.map((r) => { const f = r.fields ?? {}; return (
           <tr>
@@ -17,7 +19,7 @@ const dash = (v: any) => (!v || String(v).startsWith('not stated') || v === 'not
             <td>{f.design}</td>
             <td class="num">{f.n ? Number(f.n).toLocaleString('en-US') : '—'}</td>
             <td>{dash(f.species)}</td><td>{dash(f.dose)}</td><td>{dash(f.route)}</td><td>{dash(f.duration)}</td>
-            <td class="out">{f.outcome === 'see source' ? '—' : f.outcome}</td>
+            <td class="out">{r.plain ? <Fragment set:html={cite.sentence(r.plain, r.source_ids)} /> : (f.outcome === 'see source' ? '—' : f.outcome)}</td>
             <td><Tier tier={r.evidence_label} /></td>
           </tr>
         ); })}

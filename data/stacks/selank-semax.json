@@ -17,7 +17,8 @@
           "pmid-32342318"
         ],
         "source_excerpt": "The present study was aimed at the assessment of effects of anxiolytic Selank and nootropic Semax on the whole-brain resting-state functional connectivity (FC) of each of the predefined regions of interest (ROIs) in 52 healthy participants.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A 2020 brain-imaging study (functional MRI) in 52 healthy people, without a placebo group, measured how Selank and Semax each changed resting connections between brain regions; the two peptides were not given together."
       },
       {
         "value": "Animal study, rats, 2017: In the present study, we investigated the effects of the synthetic regulatory peptides Semax (analog of an ACTH 4-10 fragment (ACTH4-10)) and Selank (analog of immunomodulatory taftsin) on behavior of rats with 6-hydroxidopamine (6-OHDA) induced PD-like parkinsonism.",
@@ -26,7 +27,8 @@
           "pmid-28702721"
         ],
         "source_excerpt": "In the present study, we investigated the effects of the synthetic regulatory peptides Semax (analog of an ACTH 4-10 fragment (ACTH4-10)) and Selank (analog of immunomodulatory taftsin) on behavior of rats with 6-hydroxidopamine (6-OHDA) induced PD-like parkinsonism.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In rats with a chemically induced Parkinson's-like condition (6-OHDA), a 2017 study tested how Semax (a modified ACTH 4-10 hormone fragment) and Selank (a modified tuftsin) affected behavior."
       },
       {
         "value": "Animal study, rats, 2021: This experiment is aimed at studying the effect of the Selank glyprolin neuropeptide drug on the level of cytokines in animals under conditions of \"social\" stress, the results of which indicate the presence of stress-protective activity.",
@@ -35,7 +37,8 @@
           "pmid-32621722"
         ],
         "source_excerpt": "This experiment is aimed at studying the effect of the Selank glyprolin neuropeptide drug on the level of cytokines in animals under conditions of \"social\" stress, the results of which indicate the presence of stress-protective activity.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In rats under social stress, a 2021 study measured Selank's effect on cytokines (immune signaling proteins) and reported signs of a stress-protective effect."
       },
       {
         "value": "Animal study, mice, 2017: We studied the effects of peptide drugs (HLDF-6, PGP, RPGP, and PGLP) and peptide pharmaceutical products (Semax, Selank, and thyroliberin) on proliferation and survival of mouse embryonic stem cells and their derivatives.",
@@ -44,7 +47,8 @@
           "pmid-29063333"
         ],
         "source_excerpt": "We studied the effects of peptide drugs (HLDF-6, PGP, RPGP, and PGLP) and peptide pharmaceutical products (Semax, Selank, and thyroliberin) on proliferation and survival of mouse embryonic stem cells and their derivatives.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mouse embryonic stem cells grown in a lab, a 2017 study tested whether Semax, Selank, thyroliberin and several related peptides affected cell growth and survival."
       },
       {
         "value": "Forensic analysis of seized products, 2020: It turned out that these samples contained the assumedly cognitive enhancing research peptides Selank and Semax, which, to our knowledge, have not completed any clinical trials.",
@@ -53,7 +57,8 @@
           "pmid-31667971"
         ],
         "source_excerpt": "It turned out that these samples contained the assumedly cognitive enhancing research peptides Selank and Semax, which, to our knowledge, have not completed any clinical trials.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "A 2020 lab analysis of seized pharmaceutical products found they contained Selank and Semax, which the authors noted have not completed any clinical trials."
       },
       {
         "value": "Enzyme study, human serum, 2001: A dose-dependent effect of synthetic heptapeptides Semax (Met-Glu-His-Phe-Pro-Gly-Pro) and Selank (Thr-Lys-Pro-Arg-Pro-Gly-Pro) on the enkephalin-degrading enzymes of human serum was demonstrated.",
@@ -62,7 +67,8 @@
           "pmid-11443939"
         ],
         "source_excerpt": "A dose-dependent effect of synthetic heptapeptides Semax (Met-Glu-His-Phe-Pro-Gly-Pro) and Selank (Thr-Lys-Pro-Arg-Pro-Gly-Pro) on the enkephalin-degrading enzymes of human serum was demonstrated.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In human blood serum samples tested in a lab, a 2001 study found that Semax and Selank inhibited enzymes that break down enkephalins (natural pain-relieving peptides), with a stronger effect at higher doses."
       },
       {
         "value": "Animal study, rats, 2014: Biologically active regulatory peptide, tripeptide Pro-Gly-Pro (PGP) was used as C-terminal fragment for peptide drugs Semax and Selank.",
@@ -71,7 +77,8 @@
           "pmid-25850296"
         ],
         "source_excerpt": "Biologically active regulatory peptide, tripeptide Pro-Gly-Pro (PGP) was used as C-terminal fragment for peptide drugs Semax and Selank.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: a 2014 rat study of the tripeptide Pro-Gly-Pro notes that this fragment forms the tail end of both Semax and Selank; the study tested the fragment, not either drug."
       }
     ]
   },
@@ -214,6 +221,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-29."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "7 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source; 1 quotation in the written sections paraphrased and cited the same way. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
     }
   ],
   "components": [
@@ -241,7 +252,7 @@
       "id": "overlap",
       "heading": "Where the two overlap, and why that matters for stacking",
       "lede": "The case for combining rests on complementary action. The evidence points the other way.",
-      "html": "<p>A 2001 study reported <q cite='https://europepmc.org/article/MED/11443939'>a dose-dependent effect of synthetic heptapeptides Semax (Met-Glu-His-Phe-Pro-Gly-Pro) and Selank (Thr-Lys-Pro-Arg-Pro-Gly-Pro) on the enkephalin-degrading</q> enzymes in human serum. Both slow the breakdown of enkephalins, the body's own opioid-like signalling peptides.</p><p>Notice the sequences the authors print. The last three residues are identical: <b>Pro-Gly-Pro</b>. That shared tail is not inert, and a 2014 rat study examined its own effect on brain gene expression precisely because it is the C-terminal fragment of both drugs.</p><p>So two of the things these compounds are known to do, inhibiting the same enzyme and delivering the same active tripeptide, are things they do identically. Stacking them increases the dose of those two actions rather than adding a new one.</p><p>That is not an argument that the combination is useless. The brain-imaging study did find effects that were not identical, so there is some separation. It is an argument that the intuition behind the stack, one calms and one sharpens and they work on different systems, is only partly right and has never been tested in a person.</p>"
+      "html": "<p>A 2001 study reported that the synthetic heptapeptides Semax (Met-Glu-His-Phe-Pro-Gly-Pro) and Selank (Thr-Lys-Pro-Arg-Pro-Gly-Pro) affected enkephalin-degrading enzymes in human serum in a dose-dependent way{{cite:pmid-11443939}}. Both slow the breakdown of enkephalins, the body's own opioid-like signalling peptides.</p><p>Notice the sequences the authors print. The last three residues are identical: <b>Pro-Gly-Pro</b>. That shared tail is not inert, and a 2014 rat study examined its own effect on brain gene expression precisely because it is the C-terminal fragment of both drugs.</p><p>So two of the things these compounds are known to do, inhibiting the same enzyme and delivering the same active tripeptide, are things they do identically. Stacking them increases the dose of those two actions rather than adding a new one.</p><p>That is not an argument that the combination is useless. The brain-imaging study did find effects that were not identical, so there is some separation. It is an argument that the intuition behind the stack, one calms and one sharpens and they work on different systems, is only partly right and has never been tested in a person.</p>"
     },
     {
       "id": "product",

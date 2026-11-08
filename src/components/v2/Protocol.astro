@@ -8,6 +8,7 @@
 import Tier from './Tier.astro';
 import { timeTag } from '../../lib/format';
 import { splitProtocol, quickStart, whenLabel, type PClaim } from '../../lib/protocol';
+import { citer } from '../../lib/cite';
 interface Props {
   claims: any[];
   sources: any[];
@@ -19,6 +20,7 @@ const src = new Map<string, any>((sources ?? []).map((s: any) => [s.id, s]));
 const { label, studied, practical, notes } = splitProtocol(claims as PClaim[]);
 const facts = quickStart(claims as PClaim[]);
 const basis = (c: any) => c.source_ids ?? [];
+const cite = citer(sources ?? []);
 const when = (w?: string) => (w ? `${whenLabel(w)}: ` : '');
 const cols = ['phase', 'dose', 'frequency', 'route', 'duration', 'population'] as const;
 const head: Record<string, string> = { phase: 'Phase', dose: 'Dose', frequency: 'Frequency', route: 'Route', duration: 'Duration', population: 'Who received it' };
@@ -37,7 +39,7 @@ const signed = Boolean(review?.protocol_reviewed_at);
       <p class="lede">What the regulator-approved label states. The only dosing on this page that is approved for an indication, and only for that indication and population.</p>
       <div class="card clip"><div class="tblwrap"><table class="tbl">
         <thead><tr>{cols.map((c) => <th scope="col">{head[c]}</th>)}<th scope="col">Source</th></tr></thead>
-        <tbody>{label.map((c) => <tr>{cols.map((k) => <td>{c.fields?.[k] ?? ''}</td>)}<td>{(c.source_ids ?? []).map((id: string, i: number) => <Fragment>{i > 0 && ', '}{src.get(id)?.url ? <a href={src.get(id).url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}</Fragment>)}{c.pending_source && <span class="sub"> document pending</span>}</td></tr>)}</tbody>
+        <tbody>{label.map((c) => <tr>{cols.map((k) => <td>{c.fields?.[k] ?? ''}</td>)}<td><Fragment set:html={cite.marks(c.source_ids ?? [])} />{c.pending_source && <span class="sub"> document pending</span>}</td></tr>)}</tbody>
       </table></div></div>
     </div>
   )}
@@ -47,7 +49,7 @@ const signed = Boolean(review?.protocol_reviewed_at);
       <p class="lede">One row per trial arm or phase, as the paper states it. These are what was given, to whom, for how long. They are the basis for the practical protocol below and the place to check it against.</p>
       <div class="card clip"><div class="tblwrap"><table class="tbl">
         <thead><tr>{cols.map((c) => <th scope="col">{head[c]}</th>)}<th scope="col">Evidence</th><th scope="col">Source</th></tr></thead>
-        <tbody>{studied.map((c) => <tr>{cols.map((k) => <td>{c.fields?.[k] ?? ''}</td>)}<td><Tier tier={c.evidence_label} /></td><td>{(c.source_ids ?? []).map((id: string, i: number) => <Fragment>{i > 0 && ', '}{src.get(id)?.url ? <a href={src.get(id).url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}</Fragment>)}</td></tr>)}</tbody>
+        <tbody>{studied.map((c) => <tr>{cols.map((k) => <td>{c.fields?.[k] ?? ''}</td>)}<td><Tier tier={c.evidence_label} /></td><td><Fragment set:html={cite.marks(c.source_ids ?? [])} /></td></tr>)}</tbody>
       </table></div></div>
     </div>
   )}
@@ -63,14 +65,14 @@ const signed = Boolean(review?.protocol_reviewed_at);
       <div class="card clip"><div class="tblwrap"><table class="tbl schedule">
         <caption>{name} dosing schedule, week by week. Each row is a numbered step below, with its reason.</caption>
         <thead><tr><th scope="col">Weeks</th><th scope="col">Dose</th><th scope="col">What to do</th><th scope="col">Basis</th></tr></thead>
-        <tbody>{practical.map((c) => <tr><th scope="row">{whenLabel(c.fields?.weeks)}</th><td class="num">{c.fields?.dose ?? '—'}</td><td>{c.fields?.action}</td><td>{basis(c).map((id: string, i: number) => <Fragment>{i > 0 && ', '}{src.get(id)?.url ? <a href={src.get(id).url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}</Fragment>)}</td></tr>)}</tbody>
+        <tbody>{practical.map((c) => <tr><th scope="row">{whenLabel(c.fields?.weeks)}</th><td class="num">{c.fields?.dose ?? '—'}</td><td>{c.fields?.action}</td><td><Fragment set:html={cite.marks(c.source_ids ?? [])} /></td></tr>)}</tbody>
       </table></div></div>
       <ol class="list steps">
         {practical.map((c) => (
           <li>
             <strong class="act">{when(c.fields?.weeks)}{c.fields?.action ?? ''}</strong>
             <span class="why">{c.value}</span>
-            <span class="basis"> Basis: {basis(c).map((id: string, i: number) => <Fragment>{i > 0 && ', '}{src.get(id)?.url ? <a href={src.get(id).url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}</Fragment>)}</span>
+            <span class="basis"> Based on <Fragment set:html={cite.marks(c.source_ids ?? [])} /></span>
           </li>
         ))}
       </ol>
@@ -81,7 +83,7 @@ const signed = Boolean(review?.protocol_reviewed_at);
             {notes.map((c) => (
               <li>
                 <strong>{c.fields?.action}</strong> {c.value}
-                <span class="basis"> Basis: {basis(c).map((id: string, i: number) => <Fragment>{i > 0 && ', '}{src.get(id)?.url ? <a href={src.get(id).url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}</Fragment>)}</span>
+                <span class="basis"> Based on <Fragment set:html={cite.marks(c.source_ids ?? [])} /></span>
               </li>
             ))}
           </ul>

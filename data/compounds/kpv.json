@@ -22,7 +22,8 @@
           "pmid-42585803"
         ],
         "source_excerpt": "In addition, in a high-fat diet-induced obesity mouse model, oral administration of KPV alleviated body weight gain, white adipose tissue expansion, liver mass increase, and obesity-associated dyslipidemia, including elevated plasma total cholesterol levels.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mice made obese with a high-fat diet, a 2026 study (An) found KPV given by mouth reduced weight gain, fat tissue growth, liver enlargement and abnormal blood fats, including raised total cholesterol."
       },
       {
         "value": "Animal study, rats, 2021: administration by oral route reported. Treatment with KPV@PPP_2%E hydrogel greatly improved the food intake and body weight recovery of rats with chemotherapy-induced oral mucositis.",
@@ -31,7 +32,8 @@
           "pmid-34846053"
         ],
         "source_excerpt": "Treatment with KPV@PPP_2%E hydrogel greatly improved the food intake and body weight recovery of rats with chemotherapy-induced oral mucositis.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In rats with chemotherapy-induced mouth sores, a 2021 study (Shao) found a KPV gel applied in the mouth greatly improved food intake and recovery of body weight."
       },
       {
         "value": "Animal study, mice, 2017: administration by oral route reported. Oral administration of HA-KPV-NPs encapsulated in a hydrogel (chitosan/alginate) exhibited a much stronger capacity to prevent mucosa damage and downregulate TNF-α, thus they showed a much better therapeutic efficacy against UC in a mouse model, compared with a KPV-NP/hydrogel system.",
@@ -40,7 +42,8 @@
           "pmid-28143741"
         ],
         "source_excerpt": "Oral administration of HA-KPV-NPs encapsulated in a hydrogel (chitosan/alginate) exhibited a much stronger capacity to prevent mucosa damage and downregulate TNF-α, thus they showed a much better therapeutic efficacy against UC in a mouse model, compared with a KPV-NP/hydrogel system.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mice with ulcerative colitis (bowel inflammation), a 2017 study (Xiao) found KPV nanoparticles given by mouth in a gel better prevented gut-lining damage and lowered TNF-α (an inflammation signal) than a comparison KPV formulation."
       },
       {
         "value": "Animal study, mice, 2008: administration by oral route reported. Furthermore, oral administration of KPV reduces the incidence of DSS- and TNBS-induced colitis indicated by a decrease in pro-inflammatory cytokine expression.",
@@ -49,7 +52,8 @@
           "pmid-18061177"
         ],
         "source_excerpt": "Furthermore, oral administration of KPV reduces the incidence of DSS- and TNBS-induced colitis indicated by a decrease in pro-inflammatory cytokine expression.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mice, a 2008 study (Dalmasso) found KPV given by mouth reduced chemically induced colitis (bowel inflammation), with lower levels of inflammatory signals."
       },
       {
         "value": "Animal study, rabbits, 2006: administration by topical route reported. This study was undertaken to investigate the effects of topical administration of the COOH-terminal tripeptide sequence of alpha-MSH (alpha-MSH(11-13), KPV) on corneal epithelial wound healing in rabbits and the possible role of nitric oxide (NO) in these effects.",
@@ -58,7 +62,8 @@
           "pmid-16965771"
         ],
         "source_excerpt": "This study was undertaken to investigate the effects of topical administration of the COOH-terminal tripeptide sequence of alpha-MSH (alpha-MSH(11-13), KPV) on corneal epithelial wound healing in rabbits and the possible role of nitric oxide (NO) in these effects.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In rabbits, a 2006 study (Bonfiglio) tested KPV applied directly to the eye surface on healing of scratched corneas and the role of nitric oxide."
       }
     ],
     "study_doses": [],
@@ -71,7 +76,8 @@
           "pmid-35245681"
         ],
         "source_excerpt": "KPV (Lys-Pro-Val) as a model drug was easily captured by PMSP through electrostatic interactions, thus retaining its bioactivity for a longer time under high temperature conditions.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In a 2022 rat colitis study (Zhao), a hydrogel held KPV through electrical charge attraction, which kept KPV active longer at high temperature in lab tests."
       },
       {
         "value": "In vitro study, humans, 2017: The diagnostic fluorescent probe bestows a specific receptor-targeted interaction with PepT1 through the KPV moiety, possessing several beneficial characteristics, such as efficient long emission, low photobleaching, negligible cytotoxicity, and high cytocompatibility in living cells.",
@@ -80,7 +86,8 @@
           "pmid-28349696"
         ],
         "source_excerpt": "The diagnostic fluorescent probe bestows a specific receptor-targeted interaction with PepT1 through the KPV moiety, possessing several beneficial characteristics, such as efficient long emission, low photobleaching, negligible cytotoxicity, and high cytocompatibility in living cells.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In lab work with living cells (Zeng, 2017), a fluorescent probe carrying KPV bound the gut transporter PepT1 and showed bright, stable signal with negligible harm to cells."
       }
     ],
     "exclusion_criteria": [],
@@ -92,7 +99,8 @@
           "pmid-18061177"
         ],
         "source_excerpt": "Furthermore, oral administration of KPV reduces the incidence of DSS- and TNBS-induced colitis indicated by a decrease in pro-inflammatory cytokine expression.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mice (Dalmasso, 2008), KPV given by mouth reduced chemically induced colitis, with lower inflammatory signals; the excerpt reports no side effects."
       }
     ],
     "biomarkers_monitored": [
@@ -103,7 +111,8 @@
           "pmid-42585803"
         ],
         "source_excerpt": "Specifically, treatment with 100 μg/mL KPV reduced Oil Red O staining intensity by approximately 55% and intracellular triglyceride content by approximately 38% compared with the MDI-treated group.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In fat-forming cells grown in a lab (An, 2026; mouse study), KPV at 100 μg/mL reduced fat staining by about 55% and fat (triglyceride) content inside cells by about 38% against untreated controls."
       },
       {
         "value": "Animal study, mice, 2023: Finally, luciferase-expressing KPV +/+ , KPV -/- , or KPV Y117L cells were implanted into the flanks of athymic mice to track cancer metastasis to the lung.",
@@ -112,7 +121,8 @@
           "pmid-37161053"
         ],
         "source_excerpt": "Finally, luciferase-expressing KPV +/+ , KPV -/- , or KPV Y117L cells were implanted into the flanks of athymic mice to track cancer metastasis to the lung.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: in this 2023 mouse lung cancer study, KPV is the name of a modified vimentin protein in tumor cells, not the KPV peptide; the excerpt does not concern the peptide."
       },
       {
         "value": "Animal study, rats, 2021: Treatment with KPV@PPP_2%E hydrogel greatly improved the food intake and body weight recovery of rats with chemotherapy-induced oral mucositis.",
@@ -121,7 +131,8 @@
           "pmid-34846053"
         ],
         "source_excerpt": "Treatment with KPV@PPP_2%E hydrogel greatly improved the food intake and body weight recovery of rats with chemotherapy-induced oral mucositis.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In rats with chemotherapy-induced mouth sores (Shao, 2021), a KPV gel improved food intake and recovery of body weight."
       },
       {
         "value": "Animal study, rats, 2021: The KPV/SH-PGA hydrogel presented higher elastic modulus ( G ') than the corresponding viscous modulus ( G ″) at 0.01-10 Hz, exhibiting good mechanical stability.",
@@ -130,7 +141,8 @@
           "pmid-34547895"
         ],
         "source_excerpt": "The KPV/SH-PGA hydrogel presented higher elastic modulus ( G ') than the corresponding viscous modulus ( G ″) at 0.01-10 Hz, exhibiting good mechanical stability.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "Background: in a 2021 rat colitis study (Sun), lab tests showed the KPV hydrogel was mechanically stable across 0.01-10 Hz; the excerpt reports no effect in the rats."
       },
       {
         "value": "Animal study, mice, 2017: Oral administration of HA-KPV-NPs encapsulated in a hydrogel (chitosan/alginate) exhibited a much stronger capacity to prevent mucosa damage and downregulate TNF-α, thus they showed a much better therapeutic efficacy against UC in a mouse model, compared with a KPV-NP/hydrogel system.",
@@ -139,7 +151,8 @@
           "pmid-28143741"
         ],
         "source_excerpt": "Oral administration of HA-KPV-NPs encapsulated in a hydrogel (chitosan/alginate) exhibited a much stronger capacity to prevent mucosa damage and downregulate TNF-α, thus they showed a much better therapeutic efficacy against UC in a mouse model, compared with a KPV-NP/hydrogel system.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In mice with colitis (Xiao, 2017), oral KPV nanoparticles in a gel better prevented gut-lining damage and lowered TNF-α (an inflammation signal) than a comparison KPV formulation."
       },
       {
         "value": "Animal study, mice, 2008: Human intestinal epithelial cells Caco2-BBE, HT29-Cl.19A, and human T cells (Jurkat) were stimulated with pro-inflammatory cytokines in the present or absence of KPV.",
@@ -148,7 +161,8 @@
           "pmid-18061177"
         ],
         "source_excerpt": "Human intestinal epithelial cells Caco2-BBE, HT29-Cl.19A, and human T cells (Jurkat) were stimulated with pro-inflammatory cytokines in the present or absence of KPV.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In human gut-lining cells and immune T cells grown in a lab (Dalmasso, 2008; mouse study), researchers stimulated inflammation with and without KPV present."
       }
     ],
     "reported_timelines": [
@@ -159,7 +173,8 @@
           "pmid-34547895"
         ],
         "source_excerpt": "Only 30% of KPV was released from the KPV/SH-PGA hydrogel within 20 min, followed by a sustained-release behavior.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In lab release tests from a 2021 rat colitis study (Sun), only 30% of KPV left the hydrogel within 20 minutes, followed by slow, sustained release."
       }
     ],
     "storage": [
@@ -170,7 +185,8 @@
           "pmid-41533788"
         ],
         "source_excerpt": "Using three anti-inflammatory peptides (KPV, Ac-QAW, and IRW), we demonstrated that the engineered conjugates exhibit remarkable GI stability, efficient mucus penetration, and ROS-responsive release at inflamed sites.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In a 2026 mouse study (Cheng), modified versions of three peptides including KPV were reported stable in the gut, crossed mucus well and released the peptide at inflamed sites."
       },
       {
         "value": "Animal study, mice, 2024: Herein, an anti-inflammatory peptide (lysine-proline-valine peptides, KPV) and the autophagy activator rapamycin (RAPA) are self-assembled to form new carrier-free spherical nanoparticles (NPs), which shows good stability and biosafety.",
@@ -179,7 +195,8 @@
           "pmid-39252648"
         ],
         "source_excerpt": "Herein, an anti-inflammatory peptide (lysine-proline-valine peptides, KPV) and the autophagy activator rapamycin (RAPA) are self-assembled to form new carrier-free spherical nanoparticles (NPs), which shows good stability and biosafety.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In a 2024 mouse study (Zhang), KPV and rapamycin assembled into carrier-free nanoparticles that the authors reported as stable and biologically safe."
       },
       {
         "value": "Animal study, rats, 2022: KPV as a model drug was easily captured by PMSP, which provided better stability to KPV when exposed to high temperature of 50 °C.",
@@ -188,7 +205,8 @@
           "pmid-35245681"
         ],
         "source_excerpt": "KPV as a model drug was easily captured by PMSP, which provided better stability to KPV when exposed to high temperature of 50 °C.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In lab tests from a 2022 rat colitis study (Zhao), a hydrogel captured KPV and made it more stable when exposed to 50 °C."
       },
       {
         "value": "Animal study, rats, 2021: The KPV/SH-PGA hydrogel presented higher elastic modulus ( G ') than the corresponding viscous modulus ( G ″) at 0.01-10 Hz, exhibiting good mechanical stability.",
@@ -197,7 +215,8 @@
           "pmid-34547895"
         ],
         "source_excerpt": "The KPV/SH-PGA hydrogel presented higher elastic modulus ( G ') than the corresponding viscous modulus ( G ″) at 0.01-10 Hz, exhibiting good mechanical stability.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In lab tests from a 2021 rat colitis study (Sun), the KPV hydrogel was mechanically stable across 0.01-10 Hz."
       }
     ],
     "study_durations": [
@@ -208,7 +227,8 @@
           "pmid-16965771"
         ],
         "source_excerpt": "Rabbits were topically treated with KPV 1, 5 or 10 mg/ml (30 microl), two drops four times in a day, for 4 days, starting immediately after corneal abrasion, while control animals received topical phosphate-buffered saline as vehicle.",
-        "drafting": "extractive"
+        "drafting": "extractive",
+        "plain": "In rabbits with scratched corneas, KPV drops (1, 5 or 10 mg/ml) were given four times a day for 4 days, against saline drops in control animals."
       }
     ],
     "weight_normalized_doses": [],
@@ -240,7 +260,8 @@
           "route": "oral",
           "duration": "not stated in abstract",
           "outcome": "In addition, KPV decreased the expression of key adipogenic markers, including peroxisome proliferator-activated receptor gamma (PPARγ) and fatty acid synthase (FAS)."
-        }
+        },
+        "plain": "In a 2026 study in mice and fat cells (An), KPV lowered markers of fat-cell formation, including PPARγ and fatty acid synthase (FAS)."
       },
       {
         "value": "Animal study, mice, 2026: In colitis mice, the KPV-based conjugate (proKPV) achieved a 3.8-fold greater colonic accumulation than free KPV, with enhanced efficacy even at a 20-fold lower dose.",
@@ -260,7 +281,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "In colitis mice, the KPV-based conjugate (proKPV) achieved a 3.8-fold greater colonic accumulation than free KPV, with enhanced efficacy even at a 20-fold lower dose."
-        }
+        },
+        "plain": "In mice with colitis (Cheng, 2026), a modified KPV (proKPV) built up 3.8-fold more in the colon than plain KPV and worked better even at a 20-fold lower dose."
       },
       {
         "value": "Animal study, mice, 2026: In healthy melanocytes, NLRP3 expression is upregulated when subjected to oxidative stress, along with an increase in the E3 ligase β-TrCP1, which enhances the K27-linked ubiquitination of NLRP3 and further strengthens its binding to the autophagy receptor protein NDP52, thus effectively suppressing the excessive inflammatory response.",
@@ -280,7 +302,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "In healthy melanocytes, NLRP3 expression is upregulated when subjected to oxidative stress, along with an increase in the E3 ligase β-TrCP1, which enhances the K27-linked ubiquitination of NLRP3 and further strengthens its binding to the autophagy receptor protein NDP52, thus effectively suppressing the excessive inflammatory response."
-        }
+        },
+        "plain": "Background: a 2026 vitiligo study in mice (Zeng) describes how pigment cells control the inflammation protein NLRP3 under stress; the excerpt does not mention KPV."
       },
       {
         "value": "Animal study, mice, 2024: In vivo and in vitro, KPV-RAPA NPs significantly inhibit VC in mice compared to the other treatment groups.",
@@ -300,7 +323,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "In vivo and in vitro, KPV-RAPA NPs significantly inhibit VC in mice compared to the other treatment groups."
-        }
+        },
+        "plain": "In mice and lab cells (Zhang, 2024), nanoparticles combining KPV with rapamycin significantly reduced blood-vessel calcification compared with the other treatment groups."
       },
       {
         "value": "Animal study, mice, 2024: Furthermore, treating by NPs revealed a notable reduction of the expressions of CD68 and CD3, restoring the expression levels of tight junction proteins (Claudin-5, Occludin-1, and ZO-1) were significantly restored, surpassing those observed in the KPV and FK506 groups. which indicated that NPs can reduce inflammation and enhance epithelial barrier integrity by decreasing the infiltration of macrophages and T-lymphocytes.",
@@ -320,7 +344,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Furthermore, treating by NPs revealed a notable reduction of the expressions of CD68 and CD3, restoring the expression levels of tight junction proteins (Claudin-5, Occludin-1, and ZO-1) were significantly restored, surpassing those observed in the KPV and FK506 groups. which indicated that NPs can reduce inflammation and enhance epithelial barrier integrity by decreasing the infiltration of macrophages and T-lymphocytes."
-        }
+        },
+        "plain": "In mice with colitis (Zhang, 2024), nanoparticles combining KPV with the drug FK506 reduced immune-cell markers and restored gut-barrier proteins more than KPV or FK506 alone."
       },
       {
         "value": "Animal study, mice, 2023: KPV -/- cells have reduced glutathione peroxidase 4 (GPX4) levels, resulting in the accumulation of toxic lipid peroxides and increased ferroptosis.",
@@ -340,7 +365,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "KPV -/- cells have reduced glutathione peroxidase 4 (GPX4) levels, resulting in the accumulation of toxic lipid peroxides and increased ferroptosis."
-        }
+        },
+        "plain": "Background: in this 2023 mouse lung cancer study (Berr), KPV names a modified vimentin protein in tumor cells, not the KPV peptide; those cells had lower GPX4 and more ferroptosis (a form of cell death)."
       },
       {
         "value": "Animal study, rats, 2022: Moreover, the alleviating effect of KPV on rats with TNBS-induced colitis was significantly improved by PMSP after intracolonic administration.",
@@ -360,7 +386,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Moreover, the alleviating effect of KPV on rats with TNBS-induced colitis was significantly improved by PMSP after intracolonic administration."
-        }
+        },
+        "plain": "In rats with chemically induced colitis (Zhao, 2022), a hydrogel carrier significantly improved KPV's effect when given into the colon."
       },
       {
         "value": "Animal study, rats, 2021: Treatment with KPV@PPP_2%E hydrogel greatly improved the food intake and body weight recovery of rats with chemotherapy-induced oral mucositis.",
@@ -380,7 +407,8 @@
           "route": "oral",
           "duration": "not stated in abstract",
           "outcome": "Treatment with KPV@PPP_2%E hydrogel greatly improved the food intake and body weight recovery of rats with chemotherapy-induced oral mucositis."
-        }
+        },
+        "plain": "In rats with chemotherapy-induced mouth sores (Shao, 2021), a KPV gel greatly improved food intake and recovery of body weight."
       },
       {
         "value": "Animal study, rats, 2021: Besides, the KPV/SH-PGA hydrogel treatment prevented the colon shortening of TNBS-infused rats and decreased the colonic myeloperoxidase level.",
@@ -400,7 +428,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "Besides, the KPV/SH-PGA hydrogel treatment prevented the colon shortening of TNBS-infused rats and decreased the colonic myeloperoxidase level."
-        }
+        },
+        "plain": "In rats with chemically induced colitis (Sun, 2021), a KPV hydrogel prevented colon shortening and lowered myeloperoxidase (a marker of inflammation) in the colon."
       },
       {
         "value": "Animal study, mice, 2017: Lysine-proline-valine (KPV), a naturally occurring tripeptide, has been shown to attenuate the inflammatory responses of colonic cells.",
@@ -420,7 +449,8 @@
           "route": "oral",
           "duration": "not stated in abstract",
           "outcome": "see source"
-        }
+        },
+        "plain": "Background: KPV, a natural three-amino-acid peptide, had earlier been shown to reduce inflammatory responses of colon cells; this excerpt from a 2017 mouse study gives no new result."
       },
       {
         "value": "Animal study, mice, 2016: When administered to PepT1-KO mice, KPV did not trigger any of the inhibitory effect on tumorigenesis observed in WT mice.",
@@ -440,7 +470,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "When administered to PepT1-KO mice, KPV did not trigger any of the inhibitory effect on tumorigenesis observed in WT mice."
-        }
+        },
+        "plain": "In mice (Viennois, 2016), KPV reduced colitis-associated tumor formation in normal mice but had no such effect in mice lacking the PepT1 transporter."
       },
       {
         "value": "Animal study, mice, 2008: Nanomolar concentrations of KPV inhibit the activation of NF-kappaB and MAP kinase inflammatory signaling pathways, and reduce pro-inflammatory cytokine secretion.",
@@ -460,7 +491,8 @@
           "route": "oral",
           "duration": "not stated in abstract",
           "outcome": "Nanomolar concentrations of KPV inhibit the activation of NF-kappaB and MAP kinase inflammatory signaling pathways, and reduce pro-inflammatory cytokine secretion."
-        }
+        },
+        "plain": "In cells grown in a lab (Dalmasso, 2008; mouse study), very low (nanomolar) KPV concentrations blocked NF-κB and MAP kinase inflammatory signaling and reduced inflammatory signal release."
       },
       {
         "value": "Animal study, mice, 2007: Most of the anti-inflammatory activities of alpha-MSH can be attributed to its C-terminal tripeptide KPV.",
@@ -480,7 +512,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "see source"
-        }
+        },
+        "plain": "Background: a 2007 review (Luger) states that most anti-inflammatory activity of alpha-MSH comes from its three-amino-acid tail, KPV; the excerpt reports no new animal result."
       },
       {
         "value": "Animal study, rabbits, 2006: The mean percent epithelial defect remaining each time was significantly smaller in animals treated with KPV or SP in comparison to controls.",
@@ -500,7 +533,8 @@
           "route": "topical",
           "duration": "4 days",
           "outcome": "The mean percent epithelial defect remaining each time was significantly smaller in animals treated with KPV or SP in comparison to controls."
-        }
+        },
+        "plain": "In rabbits with scratched corneas (Bonfiglio, 2006), animals given KPV or SP eye drops had significantly smaller remaining wounds at each time point than controls."
       },
       {
         "value": "Animal study, 1981: As the increasing shortage of monkeys is a reality, the application of an alternative cell substrate for large-scale production of Killed Poliomyelitis Vaccine (KPV) was studied.",
@@ -520,7 +554,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "As the increasing shortage of monkeys is a reality, the application of an alternative cell substrate for large-scale production of Killed Poliomyelitis Vaccine (KPV) was studied."
-        }
+        },
+        "plain": "Background: in this 1981 vaccine paper, KPV means killed poliomyelitis vaccine, not the KPV peptide; it studied cells as an alternative to monkeys for vaccine production."
       },
       {
         "value": "In vitro study, humans, 2025: We demonstrate the system's efficacy by preserving the anti-inflammatory activities of 5-aminosalicylic acid (5-ASA) and Lys-Pro-Val (KPV) under stomach conditions and maintaining their therapeutic effects on colonic epithelial cell migration and proliferation.",
@@ -540,7 +575,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "see source"
-        }
+        },
+        "plain": "Background: a 2025 lab study (Jeong) built gel microspheres that kept 5-ASA and KPV active under stomach conditions and preserved their effects on colon-lining cell growth and movement."
       },
       {
         "value": "In vitro study, 2018: In a model system, the ε-amine of Ts-Lys-OMe was reductively alkylated with a glucose derivative to afford a dihydroxylated piperidine in place of the amine.",
@@ -560,7 +596,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "In a model system, the ε-amine of Ts-Lys-OMe was reductively alkylated with a glucose derivative to afford a dihydroxylated piperidine in place of the amine."
-        }
+        },
+        "plain": "Background: in 2018 lab chemistry (Songok), researchers tested a way to chemically modify KPV's lysine on a model compound; the excerpt reports no biological result."
       },
       {
         "value": "In vitro study, humans, 2017: As a good receptor, the oligopeptide transporter (PepT1) is overexpressed in the colonic epithelial cells of chronic ulcerative colitis, which can deliver tripeptide KPV (Lys-Pro-Val, the C-terminal sequence of α-MSH) into cytosol in the intestine.",
@@ -580,7 +617,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "see source"
-        }
+        },
+        "plain": "Background: lab work (Zeng, 2017) notes that the PepT1 transporter is overproduced in colon-lining cells in chronic ulcerative colitis and can carry KPV into cells."
       },
       {
         "value": "In vitro study, 2012: On a micro-fluidic chip coupled with laser induced fluorescence (LIF) detector, the injection mode was applied to separate seven oligopeptides, namely GG, GL, RPP, KPV, VKK, WYD and YWS.",
@@ -600,7 +638,8 @@
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
           "outcome": "see source"
-        }
+        },
+        "plain": "Background: a 2012 lab method (Wang) separated seven short peptides, including KPV, on a microfluidic chip; it reports no biological effect."
       }
     ],
     "mechanism": [
@@ -966,6 +1005,10 @@
     {
       "date": "2026-11-07",
       "change": "Restored 3 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "39 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
     }
   ],
   "guide": [

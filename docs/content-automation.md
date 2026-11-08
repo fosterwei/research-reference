@@ -343,3 +343,24 @@ accept everything or reject everything.
   the reviewed schedule week by week with each single-figure dose converted
   to U-100 units at 2 mL in 2, 5 and 10 mg vials. A dose larger than the vial
   reads "more than the vial"; a range or concentration is not converted.
+- 2026-11-08 — "Dosing at a glance" under the page's At a glance section: the
+  first three quick-start facts and a jump link to the dosing guide, on the 14
+  compounds with a protocol. A reader searching for the dose sees it without
+  scrolling past the evidence sections. SYNCHRONIZE-CN full text still HTTP
+  500 from Europe PMC.
+- 2026-11-08 — Plain language replaces verbatim quotation (owner: "不要原文引用，
+  原文引用不利于seo"). 1,423 extractive claims on 42 records gained `plain`,
+  written to E-E-A-T rules modelled on how dosing-guide sites write evidence
+  (study, population and size first; result with its own numbers; species or
+  lab setting named; limit stated; no advice), each checked by
+  `check_plain.py` before merge (numbers must come from the source; animal and
+  cell claims must say so; banned advice words; 45-word cap). Pages show
+  `plain` with numbered citation marks (`src/lib/cite.ts`) that link to the
+  numbered Sources list; `source_excerpt` stays in the record, unrendered. 46
+  quotations inside written prose were paraphrased with `{{cite:id}}` tokens.
+  208 claims whose source turned out to say nothing about the compound
+  ("Background:") are hidden from evidence displays and listed for the
+  reviewer. ghrp-6, kisspeptin, dsip, melanotan-ii and cjc-1295 still show
+  quotations: their rewrites were stopped by model safeguards; they are in
+  `research/plain-pending.json`. Template wording moved from "quoted" to
+  "cited", including the homepage H1 and the about page's method.
