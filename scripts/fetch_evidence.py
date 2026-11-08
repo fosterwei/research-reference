@@ -203,6 +203,12 @@ KEYWORD_SPECIES = [
     ("Humans", r"\b(patients?|participants?|volunteers?|subjects?|men|women|adults?)\b"),
     ("Rats", r"\brats?\b"), ("Mice", r"\b(mice|mouse|murine)\b"), ("Rabbits", r"\brabbits?\b"),
     ("Dogs", r"\b(dogs?|canine)\b"), ("Swine", r"\b(pigs?|swine|porcine)\b"), ("Zebrafish", r"\bzebrafish\b"),
+    # "Adult Honeybees" once read as a human study on BPC-157: "adults" matched
+    # and nothing named the bees. Any non-human species here outranks the
+    # generic human words, because classify_from_text needs human AND NOT animal.
+    ("Insects", r"\b(honey ?bees?|bees|apis mellifera|drosophila|insects?|larvae)\b"),
+    ("Fish", r"\b(fish|trout|salmon|carp|tilapia)\b"), ("Chickens", r"\b(chickens?|broilers?|poultry)\b"),
+    ("Cattle", r"\b(cattle|cows?|calves|bovine)\b"), ("Horses", r"\b(horses?|equine)\b"),
 ]
 # Evidence syntheses and commentaries arrive from Europe PMC with no MeSH and
 # generic publication types for months, so the text classifier used to read a
@@ -370,6 +376,10 @@ def classify_from_text(paper: dict) -> tuple[str, str]:
     label = ", ".join(species) or "not indexed"
     if synthesis_label(paper) or is_commentary(paper):
         return "review", label
+    # Donor cells in a dish mention "patients" in the methods; a title that says
+    # the study is in vitro is the better witness (TB-500, pmid-38409346).
+    if IN_VITRO_WORDS.search(strip_tags(paper.get("title"))) and not TRIAL_WORDS.search(text):
+        return "mechanistic-in-vitro", label
     if TRIAL_WORDS.search(text) and human:
         return "human-clinical-trial", label
     if human and not animal:

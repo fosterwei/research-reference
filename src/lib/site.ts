@@ -99,3 +99,14 @@ export function description(entry: AnyRecord): string {
 export function formatCount(n: unknown): string {
   return typeof n === 'number' ? n.toLocaleString('en-US') : '—';
 }
+
+/** Schema.org ImageObjects for the share card and the publisher logo, with the
+ * sizes the files really have (og.jpg is 1200×630, icon-512.png is 512×512),
+ * so Article markup carries an image and publisher.logo instead of bare URLs. */
+export function imageObjects(site: URL | undefined) {
+  const abs = (p: string) => new URL(p, site).toString();
+  return {
+    image: { '@type': 'ImageObject', url: abs(OG_IMAGE), width: 1200, height: 630, caption: OG_IMAGE_ALT },
+    logo: { '@type': 'ImageObject', url: abs('/icon-512.png'), width: 512, height: 512 },
+  };
+}

@@ -13,7 +13,7 @@ import StatusBar from '../components/v2/StatusBar.astro';
 import Faq from '../components/v2/Faq.astro';
 import Sources from '../components/v2/Sources.astro';
 import { timeTag } from '../lib/format';
-import { SITE_NAME, isIndexable, title, description, lastmod } from '../lib/site';
+import { SITE_NAME, isIndexable, title, description, lastmod, imageObjects } from '../lib/site';
 import { type Post, type Topic, childrenOf, crumbsFor, cite, postPath, titleForPath, seriesPosts, byOrder } from '../lib/guides';
 interface Props { entry: Post }
 const { entry } = Astro.props;
@@ -60,7 +60,7 @@ const jsonld = [
   {
     '@context': 'https://schema.org', '@type': role === 'index' ? 'CollectionPage' : 'Article', headline: d.title, name: d.title, description: description(entry),
     dateModified: updated, datePublished: d.changelog?.[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(),
-    publisher: { '@type': 'Organization', name: SITE_NAME, url: site },
+    publisher: { '@type': 'Organization', name: SITE_NAME, url: site, logo: imageObjects(Astro.site).logo }, image: imageObjects(Astro.site).image,
     author: d.review?.author ? { '@type': 'Person', name: d.review.author } : { '@type': 'Organization', name: SITE_NAME, url: site },
     ...(d.review?.reviewer ? { reviewedBy: { '@type': 'Person', name: d.review.reviewer } } : {}),
     ...(parentPath ? { isPartOf: { '@type': 'WebPage', name: parentTitle, url: new URL(parentPath, Astro.site).toString() } } : {}),

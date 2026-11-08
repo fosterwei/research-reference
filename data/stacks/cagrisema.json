@@ -65,7 +65,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=3,417, 2025: Semaglutide at a dose of 2.4 mg has established weight-loss and cardiovascular benefits, and cagrilintide at a dose of 2.4 mg has shown promising results in early-phase trials; the efficacy of the combination (known as CagriSema) on weight loss in persons with either overweight and…",
+        "value": "Randomized controlled trial, humans, n=3,417, 2025: Semaglutide at a dose of 2.4 mg has established weight-loss and cardiovascular benefits, and cagrilintide at a dose of 2.4 mg has shown promising results in early-phase trials; the efficacy of the combination (known as CagriSema) on weight loss in persons with either overweight and coexisting conditions or obesity is unknown.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-40544433"
@@ -353,6 +353,10 @@
     {
       "date": "2026-10-29",
       "change": "Availability updated: FDA filing on 18 December 2025 and Novo Nordisk's expectation of a decision in Q4 2026, with sources; linked the new CagriSema guides beneath this page."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 1 quotation that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "components": [

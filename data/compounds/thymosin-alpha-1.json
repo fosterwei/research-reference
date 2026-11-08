@@ -22,7 +22,7 @@
   "attributes": {
     "routes_studied": [
       {
-        "value": "Randomized controlled trial, humans, n=552, 2025: administration by subcutaneous route reported. A stratified block method was used for randomisation, and participants were stratified by age ( Interventions Subcutaneous injection of thymosin α1 or placebo every 12 hours for seven days unless discontinued owing to discharge from the…",
+        "value": "Randomized controlled trial, humans, n=552, 2025: administration by subcutaneous route reported. A stratified block method was used for randomisation, and participants were stratified by age ( Interventions Subcutaneous injection of thymosin α1 or placebo every 12 hours for seven days unless discontinued owing to discharge from the intensive care unit, death, or withdrawal of consent.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-39814420"
@@ -31,7 +31,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Randomized controlled trial, humans, n=30, 2006: administration by subcutaneous route reported. The patients in group A received subcutaneous injection of 1.6 mg thymosin-alpha1, twice a week (T-alpha1 group) for six months, and the patients in group B received 5 MU interferon alpha (IFN-alpha) each day for fifteen days, then three…",
+        "value": "Randomized controlled trial, humans, n=30, 2006: administration by subcutaneous route reported. The patients in group A received subcutaneous injection of 1.6 mg thymosin-alpha1, twice a week (T-alpha1 group) for six months, and the patients in group B received 5 MU interferon alpha (IFN-alpha) each day for fifteen days, then three times weekly (IFN-alpha group) for six months.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-17075991"
@@ -112,6 +112,184 @@
         ],
         "source_excerpt": "Significant resistance ot lethal infection was afforded by 100 micrograms of thy",
         "drafting": "extractive"
+      }
+    ],
+    "protocol": [
+      {
+        "value": "Chronic hepatitis B trial, 2006: subcutaneous injection of 1.6 mg thymosin-alpha1, twice a week, for six months.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-17075991"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "The patients in group A received subcutaneous injection of 1.6 mg thymosin-alpha1, twice a week (T-alpha1 group) for six months, and the patients in group B received 5 MU interferon alpha (IFN-alpha) each day for fifteen days, then three times weekly (IFN-alpha group) for six months.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "1.6 mg",
+          "frequency": "twice a week",
+          "route": "subcutaneous",
+          "duration": "six months",
+          "population": "Patients with chronic hepatitis B"
+        }
+      },
+      {
+        "value": "Colorectal cancer trial, conventional-dose arm, 2023: 1.6 mg of thymalfasin for injection, twice a week, alongside XELOX chemotherapy after surgery.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37248723"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "the experimental group was randomly divided into conventional-dose group ( n  = 100, 1.6 mg of thymalfasin for injection, twice a week) and high-dose group ( n  = 100, 1.6 mg of thymalfasin for injection, thrice a week)",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "1.6 mg",
+          "frequency": "twice a week",
+          "route": "injection; route not stated in abstract",
+          "duration": "not stated in abstract",
+          "population": "Patients after colorectal cancer surgery on chemotherapy, n=100 in this arm"
+        }
+      },
+      {
+        "value": "Colorectal cancer trial, high-dose arm, 2023: 1.6 mg of thymalfasin for injection, thrice a week, alongside XELOX chemotherapy after surgery.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-37248723"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "the experimental group was randomly divided into conventional-dose group ( n  = 100, 1.6 mg of thymalfasin for injection, twice a week) and high-dose group ( n  = 100, 1.6 mg of thymalfasin for injection, thrice a week)",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "1.6 mg",
+          "frequency": "thrice a week",
+          "route": "injection; route not stated in abstract",
+          "duration": "not stated in abstract",
+          "population": "Patients after colorectal cancer surgery on chemotherapy, n=100 in this arm"
+        }
+      },
+      {
+        "value": "TESTS sepsis trial, n=1,106, full text, 2025: a subcutaneous injection of 1.6 mg of thymosin α1 powder dissolved in 1 mL of sterilised water every 12 hours, for seven days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39814420"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Participants in the intervention group received a subcutaneous injection of 1.6 mg of lyophilised thymosin α1 powder dissolved in 1 mL of sterilised water every 12 hours.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "1.6 mg",
+          "frequency": "every 12 hours",
+          "route": "subcutaneous",
+          "duration": "seven days",
+          "population": "Adults with sepsis, n=1,106"
+        }
+      },
+      {
+        "value": "Acute necrotising pancreatitis trial, n=508, 2022: Tα1 1.6 mg every 12 h for the first 7 days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35713670"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Enrolled patients were assigned to receive a subcutaneous injection of Tα1 1.6 mg every 12 h for the first 7 days and 1.6 mg once a day for the subsequent 7 days or matching placebos",
+        "fields": {
+          "phase": "start",
+          "dose": "1.6 mg",
+          "frequency": "every 12 hours",
+          "route": "subcutaneous",
+          "duration": "days 1–7",
+          "population": "Patients with predicted severe acute necrotising pancreatitis, n=508"
+        }
+      },
+      {
+        "value": "Acute necrotising pancreatitis trial, n=508, 2022: then 1.6 mg once a day for the subsequent 7 days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35713670"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "Enrolled patients were assigned to receive a subcutaneous injection of Tα1 1.6 mg every 12 h for the first 7 days and 1.6 mg once a day for the subsequent 7 days or matching placebos",
+        "fields": {
+          "phase": "step",
+          "dose": "1.6 mg",
+          "frequency": "once a day",
+          "route": "subcutaneous",
+          "duration": "days 8–14",
+          "population": "Patients with predicted severe acute necrotising pancreatitis, n=508"
+        }
+      },
+      {
+        "value": "Severe acute pancreatitis pilot, 2010: Talpha1 3.2 mg twice per day for 7 days.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-20549321"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "The patients in the thymosin group were injected with Talpha1 3.2 mg twice per day for 7 days.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "3.2 mg",
+          "frequency": "twice per day",
+          "route": "injection; route not stated in abstract",
+          "duration": "7 days",
+          "population": "Patients with severe acute pancreatitis"
+        }
+      },
+      {
+        "value": "The chronic hepatitis B trial gave 1.6 mg twice a week under the skin for six months, and the conventional-dose arm of the colorectal cancer trial used the same 1.6 mg twice a week; the TESTS investigators describe 1.6 mg twice weekly as the conventional dose in cancers and viral hepatitis. The trials gave 1.6 mg from the first injection, so no titration is stated in any source.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-17075991",
+          "pmid-37248723",
+          "pmid-39814420"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "1",
+          "weeks": "months 1–6",
+          "action": "Inject 1.6 mg under the skin twice a week.",
+          "dose": "1.6 mg",
+          "frequency": "twice a week",
+          "route": "subcutaneous"
+        }
+      },
+      {
+        "value": "The hepatitis B trial's course was six months, and it measured response again after six months off treatment, when more patients in the thymosin alpha-1 group had responded than at the end of treatment.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-17075991"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "2",
+          "weeks": "month 6",
+          "action": "Stop after six months, and reassess six months later."
+        }
+      },
+      {
+        "value": "In TESTS each subcutaneous dose was 1.6 mg of lyophilised thymosin alpha-1 dissolved in 1 mL of sterilised water.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-39814420"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Dissolve 1.6 mg of powder in 1 mL of sterile water for each injection."
+        }
+      },
+      {
+        "value": "The every-12-hour and twice-daily schedules were seven- to fourteen-day courses in hospital patients with sepsis or acute pancreatitis.",
+        "evidence_label": "editorial",
+        "source_ids": [
+          "pmid-39814420",
+          "pmid-35713670",
+          "pmid-20549321"
+        ],
+        "drafting": "editorial",
+        "fields": {
+          "phase": "note",
+          "action": "Do not read the every-12-hour schedules as an outpatient course."
+        }
       }
     ],
     "escalation_schedules": [],
@@ -309,7 +487,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "21 day; 9 weeks",
-          "outcome": "Flow cytometry showed expansion of CD8⁺ T cells with increased CD69 expression and a concurrent reduction in HLA-DR-positive T cells, suggesting dynamic remodeling from broad systemic activation toward a more focused…"
+          "outcome": "Flow cytometry showed expansion of CD8⁺ T cells with increased CD69 expression and a concurrent reduction in HLA-DR-positive T cells, suggesting dynamic remodeling from broad systemic activation toward a more focused effector or memory response."
         }
       },
       {
@@ -389,7 +567,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "The conventional-dose and high-dose thymalfasin for injection effectively improves the perioperative immune function of CRC patients and reduces the incidence of postoperative complications, as an effective treatment…"
+          "outcome": "The conventional-dose and high-dose thymalfasin for injection effectively improves the perioperative immune function of CRC patients and reduces the incidence of postoperative complications, as an effective treatment for such patients, which can benefit patients."
         }
       },
       {
@@ -409,7 +587,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "8 weeks; 8 week",
-          "outcome": "In prior studies, thymalfasin (thymosin alpha 1, Ta1) has been shown to enhance antibody response to influenza vaccine and reduce influenza infection in geriatric populations, including hemodialysis patients, when used…"
+          "outcome": "In prior studies, thymalfasin (thymosin alpha 1, Ta1) has been shown to enhance antibody response to influenza vaccine and reduce influenza infection in geriatric populations, including hemodialysis patients, when used as an adjunct to influenza vaccine."
         }
       },
       {
@@ -453,7 +631,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, n=180, 2013: Greater improvement of mHLA-DR was observed in the Tα1 group on day 3 (mean difference in mHLA-DR changes between the two groups was 3.9%, 95% CI 0.2 to 7.6%, P = 0.037) and day 7 (mean difference in mHLA-DR changes between the two groups was 5.8%, 95% CI 1.0 to 10.5%, P = 0.017) than in…",
+        "value": "Randomized controlled trial, humans, n=180, 2013: Greater improvement of mHLA-DR was observed in the Tα1 group on day 3 (mean difference in mHLA-DR changes between the two groups was 3.9%, 95% CI 0.2 to 7.6%, P = 0.037) and day 7 (mean difference in mHLA-DR changes between the two groups was 5.8%, 95% CI 1.0 to 10.5%, P = 0.017) than in the control group.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-23327199"
@@ -469,7 +647,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Greater improvement of mHLA-DR was observed in the Tα1 group on day 3 (mean difference in mHLA-DR changes between the two groups was 3.9%, 95% CI 0.2 to 7.6%, P = 0.037) and day 7 (mean difference in mHLA-DR changes…"
+          "outcome": "Greater improvement of mHLA-DR was observed in the Tα1 group on day 3 (mean difference in mHLA-DR changes between the two groups was 3.9%, 95% CI 0.2 to 7.6%, P = 0.037) and day 7 (mean difference in mHLA-DR changes between the two groups was 5.8%, 95% CI 1.0 to 10.5%, P = 0.017) than in the control group."
         }
       },
       {
@@ -493,7 +671,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, n=30, 2006: Compared with the results observed in the historical control (HC) group untreated with IFN-alpha which was followed up for 12 mo, the rate of complete response was significantly higher in IFN-alpha group at the end of therapy (1 of 30 vs 15 of 33, chi2=14.72, P Conclusion The results…",
+        "value": "Randomized controlled trial, humans, n=30, 2006: Compared with the results observed in the historical control (HC) group untreated with IFN-alpha which was followed up for 12 mo, the rate of complete response was significantly higher in IFN-alpha group at the end of therapy (1 of 30 vs 15 of 33, chi2=14.72, P Conclusion The results suggest that a 6-mo course of T-alpha1 therapy is effective and safe in patients with chronic hepatitis B.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-17075991"
@@ -509,7 +687,7 @@
           "dose": "not stated in abstract",
           "route": "subcutaneous",
           "duration": "12 mo; 6 mo",
-          "outcome": "Compared with the results observed in the historical control (HC) group untreated with IFN-alpha which was followed up for 12 mo, the rate of complete response was significantly higher in IFN-alpha group at the end of…"
+          "outcome": "Compared with the results observed in the historical control (HC) group untreated with IFN-alpha which was followed up for 12 mo, the rate of complete response was significantly higher in IFN-alpha group at the end of therapy (1 of 30 vs 15 of 33, chi2=14.72, P Conclusion The results suggest that a 6-mo course of T-alpha1 therapy is effective and safe in patients with chronic hepatitis B."
         }
       },
       {
@@ -549,7 +727,7 @@
           "dose": "not stated in abstract",
           "route": "intravenous",
           "duration": "not stated in abstract",
-          "outcome": "Significant resistance ot lethal infection was afforded by 100 micrograms of thymosin alpha 1 per kg given before or before and after challenge, whereas no protection was found in mice treated with thymosin alpha 1…"
+          "outcome": "Significant resistance ot lethal infection was afforded by 100 micrograms of thymosin alpha 1 per kg given before or before and after challenge, whereas no protection was found in mice treated with thymosin alpha 1 administered at any dose level after inoculation."
         }
       },
       {
@@ -569,7 +747,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "By targeting post-operative immune system imbalance, this study aims to establish a novel therapeutic approach for reducing systemic inflammatory response syndrome (SIRS)-mediated organ injury and improving long-term…"
+          "outcome": "By targeting post-operative immune system imbalance, this study aims to establish a novel therapeutic approach for reducing systemic inflammatory response syndrome (SIRS)-mediated organ injury and improving long-term outcomes in this high-risk population."
         }
       },
       {
@@ -589,11 +767,11 @@
           "dose": "not stated in abstract",
           "route": "subcutaneous",
           "duration": "2 weeks",
-          "outcome": "We initially selected specified ingredients, with ethanol serving to reduce viscosity and stabilize the peptide drug Tα1, lecithin contributing to LCCs formation and stabilization, and glycerol monooleate or glycerol…"
+          "outcome": "We initially selected specified ingredients, with ethanol serving to reduce viscosity and stabilize the peptide drug Tα1, lecithin contributing to LCCs formation and stabilization, and glycerol monooleate or glycerol monolinoleate representing the hexagonal LCCs forming matrix material."
         }
       },
       {
-        "value": "In vitro study, humans, n=19, 2023: Moving from ex vivo data showing an enhancement in the frequency of inflammatory monocytes and activated mDC in COVID-19 patients, a PBMC-based experimental setting reproduced in vitro a similar profile with an increased percentage of CD16 + inflammatory monocytes and mDC expressing CD86 and HLA-DR…",
+        "value": "In vitro study, humans, n=19, 2023: Moving from ex vivo data showing an enhancement in the frequency of inflammatory monocytes and activated mDC in COVID-19 patients, a PBMC-based experimental setting reproduced in vitro a similar profile with an increased percentage of CD16 + inflammatory monocytes and mDC expressing CD86 and HLA-DR activation markers in response to SARS-CoV-2 stimulation.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-36933449"
@@ -609,7 +787,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Moving from ex vivo data showing an enhancement in the frequency of inflammatory monocytes and activated mDC in COVID-19 patients, a PBMC-based experimental setting reproduced in vitro a similar profile with an…"
+          "outcome": "Moving from ex vivo data showing an enhancement in the frequency of inflammatory monocytes and activated mDC in COVID-19 patients, a PBMC-based experimental setting reproduced in vitro a similar profile with an increased percentage of CD16 + inflammatory monocytes and mDC expressing CD86 and HLA-DR activation markers in response to SARS-CoV-2 stimulation."
         }
       },
       {
@@ -975,6 +1153,14 @@
     {
       "date": "2026-10-12",
       "change": "Added a Thymosin alpha-1 dosage calculator beneath the dosage chart, with a link to the full calculator page, which charts syringe units for the doses studies of Thymosin alpha-1 actually used."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Dosing protocol section added under the widened content contract: 7 regimens as studied in human trials, and a 2-step practical protocol with its basis cited. Awaiting the reviewer's separate sign-off."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 11 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

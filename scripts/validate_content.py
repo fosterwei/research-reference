@@ -220,6 +220,23 @@ PROTOCOL_PHASES = ("start", "step", "maintenance", "cycle", "single", "1", "2", 
 PROTOCOL_HUMAN = ("approved-label", "human-clinical-trial", "observational-human")
 
 
+def check_unclipped(record: dict, path: pathlib.Path, report: Report) -> None:
+    """An extractive claim quotes its source in full. The drafter once clipped
+    values and table outcomes at a fixed length, leaving 271 visible "…" on
+    pages whose full sentence was already in source_excerpt."""
+    for field, claims in (record.get("attributes") or {}).items():
+        if not isinstance(claims, list):
+            continue
+        for index, claim in enumerate(claims):
+            if not isinstance(claim, dict) or claim.get("drafting") != "extractive":
+                continue
+            if str(claim.get("value", "")).rstrip().endswith("…"):
+                report.error(path, f"attributes.{field}[{index}] value is clipped with an ellipsis; quote source_excerpt in full")
+            outcome = (claim.get("fields") or {}).get("outcome")
+            if isinstance(outcome, str) and outcome.rstrip().endswith("…"):
+                report.error(path, f"attributes.{field}[{index}] fields.outcome is clipped with an ellipsis")
+
+
 def check_protocol(record: dict, path: pathlib.Path, report: Report) -> None:
     """The protocol layer (docs/content-contract.md). Three rules the page relies on:
     every row describes a regimen, every practical step names its basis, and a
@@ -472,6 +489,7 @@ def validate_record(path: pathlib.Path, report: Report) -> tuple[str, str] | Non
     source_ids = check_sources(record, path, report, gated)
     check_claims(record, path, report, source_ids, gated)
     check_protocol(record, path, report)
+    check_unclipped(record, path, report)
     check_review(record, path, report, gated)
     check_seo(record, path, report, gated)
     check_changelog(record, path, report)

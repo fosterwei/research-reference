@@ -79,7 +79,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Animal study, rats, 2026: Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA…",
+        "value": "Animal study, rats, 2026: Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42578445"
@@ -139,7 +139,7 @@
         "drafting": "extractive"
       },
       {
-        "value": "Human study, humans, 2024: This study aimed to evaluate the safety, efficacy, and tolerability of a novel regimen combining a scalp scrub with hydroxy acid derivatives for exfoliation and dandruff removal, and a serum containing copper tripeptide-1, witch hazel ( Hamamelis virginiana) , hesperidin, hyaluronic acid, and pea protein (…",
+        "value": "Human study, humans, 2024: This study aimed to evaluate the safety, efficacy, and tolerability of a novel regimen combining a scalp scrub with hydroxy acid derivatives for exfoliation and dandruff removal, and a serum containing copper tripeptide-1, witch hazel ( Hamamelis virginiana) , hesperidin, hyaluronic acid, and pea protein ( Pisum sativum ) for hydration and scalp health.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-39449909"
@@ -294,7 +294,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "In addition, one face cream formulated with the combination as the sole active ingredients protected human skin explants from ultraviolet irradiation induced damage by maintaining skin morphology and decreasing the…"
+          "outcome": "In addition, one face cream formulated with the combination as the sole active ingredients protected human skin explants from ultraviolet irradiation induced damage by maintaining skin morphology and decreasing the degradation of extracellular matrix."
         }
       },
       {
@@ -334,7 +334,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "15 day",
-          "outcome": "As per the ASFS scale for adherent scalp flaking, a significant improvement of 61.24% (p Hamamelis virginiana , hesperidin, hyaluronic acid, and pea protein ( Pisum sativum ) for hydration and overall scalp health over…"
+          "outcome": "As per the ASFS scale for adherent scalp flaking, a significant improvement of 61.24% (p Hamamelis virginiana , hesperidin, hyaluronic acid, and pea protein ( Pisum sativum ) for hydration and overall scalp health over the 15-day treatment period."
         }
       },
       {
@@ -454,7 +454,7 @@
           "dose": "not stated in abstract",
           "route": "topical",
           "duration": "not stated in abstract",
-          "outcome": "Furthermore, the exact effects of the IL-M system on the expression of growth factors, such as vascular endothelial growth factor, were revealed, and it was found that microemulsion increased the activation of the…"
+          "outcome": "Furthermore, the exact effects of the IL-M system on the expression of growth factors, such as vascular endothelial growth factor, were revealed, and it was found that microemulsion increased the activation of the Wnt/β-catenin signaling pathway, which includes factors involved in hair growth regulation."
         }
       },
       {
@@ -494,7 +494,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "GHK-Cu was found to rescue CSE-induced skeletal muscle dysfunction in C2C12 myotubes, as evidenced by increased expression of myosin heavy chain, reduced expression of MuRF1 and atrogin-1, elevated mitochondrial…"
+          "outcome": "GHK-Cu was found to rescue CSE-induced skeletal muscle dysfunction in C2C12 myotubes, as evidenced by increased expression of myosin heavy chain, reduced expression of MuRF1 and atrogin-1, elevated mitochondrial content, and enhanced resistance to oxidative stress."
         }
       },
       {
@@ -514,7 +514,7 @@
           "dose": "not stated in abstract",
           "route": "intraperitoneal",
           "duration": "not stated in abstract",
-          "outcome": "GHK-Cu reduced the inflammation and oxidation by decreasing the expression of inflammatory cytokines (IL-1β and TNF-α) in the bronchoalveolar lavage and the enzymatic activity of MPO and MDA in the lung homogenate…"
+          "outcome": "GHK-Cu reduced the inflammation and oxidation by decreasing the expression of inflammatory cytokines (IL-1β and TNF-α) in the bronchoalveolar lavage and the enzymatic activity of MPO and MDA in the lung homogenate while restoring the T-AOC and GSH content."
         }
       },
       {
@@ -554,7 +554,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "As the pD is increased and the carboxylic acid groups are titrated, chemical shift data indicate that ammonium groups of GHK are hydrogen bonded to heparin carboxylate groups, while the histidyl imidazolium ring…"
+          "outcome": "As the pD is increased and the carboxylic acid groups are titrated, chemical shift data indicate that ammonium groups of GHK are hydrogen bonded to heparin carboxylate groups, while the histidyl imidazolium ring occupies the imidazolium-binding site of heparin."
         }
       },
       {
@@ -614,7 +614,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "The drug-GHK systems exhibited significantly enhanced dissolution performance, including faster dissolution rates, higher drug concentration and sustained supersaturation (up to 1440 min) compared to both the pure…"
+          "outcome": "The drug-GHK systems exhibited significantly enhanced dissolution performance, including faster dissolution rates, higher drug concentration and sustained supersaturation (up to 1440 min) compared to both the pure crystalline and amorphous drugs."
         }
       },
       {
@@ -638,7 +638,7 @@
         }
       },
       {
-        "value": "In vitro study, 2023: The obtained results confirmed that the liposomes can be used as carriers for biomimetic peptides such as copper-binding peptide and that the GHK-Cu did not significantly affect the tyrosinase activity but led to 48.90 ± 2.50% elastase inhibition, thus reducing the rate of elastin degeneration and supporting the…",
+        "value": "In vitro study, 2023: The obtained results confirmed that the liposomes can be used as carriers for biomimetic peptides such as copper-binding peptide and that the GHK-Cu did not significantly affect the tyrosinase activity but led to 48.90 ± 2.50% elastase inhibition, thus reducing the rate of elastin degeneration and supporting the structural integrity of the skin.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-37896245"
@@ -654,7 +654,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "The obtained results confirmed that the liposomes can be used as carriers for biomimetic peptides such as copper-binding peptide and that the GHK-Cu did not significantly affect the tyrosinase activity but led to 48.90…"
+          "outcome": "The obtained results confirmed that the liposomes can be used as carriers for biomimetic peptides such as copper-binding peptide and that the GHK-Cu did not significantly affect the tyrosinase activity but led to 48.90 ± 2.50% elastase inhibition, thus reducing the rate of elastin degeneration and supporting the structural integrity of the skin."
         }
       },
       {
@@ -678,7 +678,7 @@
         }
       },
       {
-        "value": "In vitro study, humans, 2016: We determined cell viability and cytotoxicity by using tetrazolium reduction assay and Lactate Dehydrogenase (LDH) assay, performed real-time PCR and protein quantification to assess the expression of biomarkers after treating cells with copper peptide (GHK-Cu), copper chloride (CuCl 2 ) and copper acetate…",
+        "value": "In vitro study, humans, 2016: We determined cell viability and cytotoxicity by using tetrazolium reduction assay and Lactate Dehydrogenase (LDH) assay, performed real-time PCR and protein quantification to assess the expression of biomarkers after treating cells with copper peptide (GHK-Cu), copper chloride (CuCl 2 ) and copper acetate (Cu(OAc) 2 ).",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-27892491"
@@ -694,7 +694,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "We determined cell viability and cytotoxicity by using tetrazolium reduction assay and Lactate Dehydrogenase (LDH) assay, performed real-time PCR and protein quantification to assess the expression of biomarkers after…"
+          "outcome": "We determined cell viability and cytotoxicity by using tetrazolium reduction assay and Lactate Dehydrogenase (LDH) assay, performed real-time PCR and protein quantification to assess the expression of biomarkers after treating cells with copper peptide (GHK-Cu), copper chloride (CuCl 2 ) and copper acetate (Cu(OAc) 2 )."
         }
       },
       {
@@ -1208,6 +1208,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-25."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 11 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

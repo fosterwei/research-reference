@@ -233,5 +233,24 @@ class SubjectMatch(unittest.TestCase):
         self.assertTrue(fe.subject_match(paper("37366315"), {"name": "Retatrutide", "aliases": ["LY3437943"]}))
 
 
+class SpeciesFromText(unittest.TestCase):
+    def test_honeybees_are_not_humans(self):
+        # pmid-34571768 sat on the BPC-157 page as an observational human study.
+        p = {"title": "Physiological and Immunological Status of Adult Honeybees ( Apis mellifera ) Fed Sugar Syrup Supplemented with Pentadecapeptide BPC 157.",
+             "abstractText": "Here, an integrated approach in experimental BPC 157 therapy was implemented, combining laboratory-controlled and field study results."}
+        tier, species = fe.classify_from_text(p)
+        self.assertEqual(tier, "animal-preclinical")
+        self.assertIn("Insects", species)
+
+    def test_in_vitro_title_wins_over_donor_patients(self):
+        p = {"title": "In Vitro Study of Thymosin Beta 4 Promoting Transplanted Fat Survival by Regulating Adipose-Derived Stem Cells.",
+             "abstractText": "ADSCs were isolated from patients undergoing liposuction and their proliferation was analyzed."}
+        self.assertEqual(fe.classify_from_text(p)[0], "mechanistic-in-vitro")
+
+    def test_adult_patients_still_human(self):
+        p = {"title": "BPC 157 infusion in adult patients", "abstractText": "Two adults received an infusion."}
+        self.assertEqual(fe.classify_from_text(p)[0], "observational-human")
+
+
 if __name__ == "__main__":
     unittest.main()

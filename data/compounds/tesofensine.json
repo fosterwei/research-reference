@@ -376,7 +376,7 @@
     ],
     "biomarkers_monitored": [
       {
-        "value": "Clinical trial, humans, 2011: This paper reviews the efficacy and safety of pharmacotherapies for obesity focusing on drugs approved for long-term therapy (orlistat), drugs approved for short-term use (amfepramone [diethylpropion], phentermine), recently withdrawn therapies (rimonabant, sibutamine) and drugs evaluated in Phase III…",
+        "value": "Clinical trial, humans, 2011: This paper reviews the efficacy and safety of pharmacotherapies for obesity focusing on drugs approved for long-term therapy (orlistat), drugs approved for short-term use (amfepramone [diethylpropion], phentermine), recently withdrawn therapies (rimonabant, sibutamine) and drugs evaluated in Phase III studies (taranabant, pramlintide, lorcaserin and tesofensine and combination therapies of topiramate plus phentermine, bupropion plus naltrexone, and bupropion plus zonisamide).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-21197148"
@@ -575,7 +575,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "12 months",
-          "outcome": "Meta-analyses support a significant though modest loss in bodyweight with a mean weight difference of 4.7 kg (95% CI 4.1 to 5.3 kg) for rimonabant, 4.2 kg (95% CI 3.6 to 4.8 kg) for sibutramine and 2.9 kg (95% CI 2.5…"
+          "outcome": "Meta-analyses support a significant though modest loss in bodyweight with a mean weight difference of 4.7 kg (95% CI 4.1 to 5.3 kg) for rimonabant, 4.2 kg (95% CI 3.6 to 4.8 kg) for sibutramine and 2.9 kg (95% CI 2.5 to 3.2 kg) for orlistat compared to placebo at ≥12 months."
         }
       },
       {
@@ -639,7 +639,7 @@
         }
       },
       {
-        "value": "Randomized controlled trial, humans, 2008: Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively, greater than diet and placebo (p Interpretation Our results suggest that tesofensine 0.5 mg might have the potential to produce a weight loss twice that of…",
+        "value": "Randomized controlled trial, humans, 2008: Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively, greater than diet and placebo (p Interpretation Our results suggest that tesofensine 0.5 mg might have the potential to produce a weight loss twice that of currently approved drugs.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-18950853"
@@ -655,7 +655,7 @@
           "dose": "0.25 mg; 0.5 mg",
           "route": "not stated in abstract",
           "duration": "6 months",
-          "outcome": "Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively, greater than diet and placebo (p Interpretation Our results suggest that…"
+          "outcome": "Tesofensine 0.25 mg, 0.5 mg, and 1.0 mg and diet induced a mean weight loss of 4.5% (0.87), 9.2% (0.91), and 10.6% (0.84), respectively, greater than diet and placebo (p Interpretation Our results suggest that tesofensine 0.5 mg might have the potential to produce a weight loss twice that of currently approved drugs."
         }
       },
       {
@@ -779,7 +779,7 @@
         }
       },
       {
-        "value": "Human study, humans, n=28, 2010: Inhibition resulted in reduced clearances and prolonged elimination half-lives for tesofensine and itraconazole: using NCA, the actual study revealed an approximately 9% increase in exposure for the timeframe of the coadministration with itraconazole (the area under the plasma concentration-time curve…",
+        "value": "Human study, humans, n=28, 2010: Inhibition resulted in reduced clearances and prolonged elimination half-lives for tesofensine and itraconazole: using NCA, the actual study revealed an approximately 9% increase in exposure for the timeframe of the coadministration with itraconazole (the area under the plasma concentration-time curve (AUC) from 0 to 144 hours [AUC(144h)]), and the impact on exposure estimated to infinity (AUC(infinity)) was approximately 26%.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-20000889"
@@ -795,7 +795,7 @@
           "dose": "2 mg",
           "route": "oral",
           "duration": "6 days; 5 days",
-          "outcome": "Inhibition resulted in reduced clearances and prolonged elimination half-lives for tesofensine and itraconazole: using NCA, the actual study revealed an approximately 9% increase in exposure for the timeframe of the…"
+          "outcome": "Inhibition resulted in reduced clearances and prolonged elimination half-lives for tesofensine and itraconazole: using NCA, the actual study revealed an approximately 9% increase in exposure for the timeframe of the coadministration with itraconazole (the area under the plasma concentration-time curve (AUC) from 0 to 144 hours [AUC(144h)]), and the impact on exposure estimated to infinity (AUC(infinity)) was approximately 26%."
         }
       },
       {
@@ -1265,6 +1265,10 @@
     {
       "date": "2026-11-07",
       "change": "Practical protocol rewritten for action: each step now leads with what to do and when, in weeks, followed by why and its basis; a week-by-week schedule sits above the steps; the diet pairing and the heart-rate finding are now cited from the full text of the Tesomet trial."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 4 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "guide": [

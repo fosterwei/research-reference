@@ -129,7 +129,7 @@
     ],
     "interactions": [
       {
-        "value": "Animal study, rats, 2026: Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA…",
+        "value": "Animal study, rats, 2026: Three independent reviewers searched the PubMed database using permutations of peptide search terms (BPC-157, TB-500, CJC-1295, MK-677 [ibutamoren], ipamorelin, and GHK-Cu) combined with musculoskeletal tissue search terms (bone, fracture, muscle, tendon, ligament, meniscus, and cartilage) following PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-42578445"
@@ -516,7 +516,7 @@
           "dose": "not stated in abstract",
           "route": "intragastric, intravenous",
           "duration": "not stated in abstract",
-          "outcome": "In a separate group of rats subjected to laparotomy and intestinal manipulation, the gastric fundus was isolated and tissue segments were suspended in an organ bath to assess the effect of ipamorelin (1 µM) on gastric…"
+          "outcome": "In a separate group of rats subjected to laparotomy and intestinal manipulation, the gastric fundus was isolated and tissue segments were suspended in an organ bath to assess the effect of ipamorelin (1 µM) on gastric smooth muscle contractility induced by acetylcholine and electrical field stimulation."
         }
       },
       {
@@ -536,7 +536,7 @@
           "dose": "0.01-1 mg/kg; 1 mg/kg",
           "route": "intravenous",
           "duration": "2 day",
-          "outcome": "Compared with the vehicle, a single dose of ipamorelin (1 mg/kg) or GHRP-6 (20 microg/kg) decreased the time to the first bowel movement but had no effect on cumulative fecal output, food intake, or body weight gain…"
+          "outcome": "Compared with the vehicle, a single dose of ipamorelin (1 mg/kg) or GHRP-6 (20 microg/kg) decreased the time to the first bowel movement but had no effect on cumulative fecal output, food intake, or body weight gain measured 48 h after the surgery."
         }
       },
       {
@@ -556,7 +556,7 @@
           "dose": "0.5 mg",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "Compared to pair-fed controls, prednisolone increased CUNS (p Conclusion Accelerated nitrogen wasting in the liver and other organs caused by prednisolone treatment was counteracted by treatment with either GH or its…"
+          "outcome": "Compared to pair-fed controls, prednisolone increased CUNS (p Conclusion Accelerated nitrogen wasting in the liver and other organs caused by prednisolone treatment was counteracted by treatment with either GH or its secretagogue Ipamorelin, though at the doses given less efficiently by the latter."
         }
       },
       {
@@ -696,7 +696,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "The versatility of this carborane for the development of peptidic boron delivery agents was further demonstrated by the generation of highly potent, boron-loaded conjugates using the backbone of the known ghrelin…"
+          "outcome": "The versatility of this carborane for the development of peptidic boron delivery agents was further demonstrated by the generation of highly potent, boron-loaded conjugates using the backbone of the known ghrelin receptor ligands growth hormone releasing peptide 6 and Ipamorelin."
         }
       },
       {
@@ -720,7 +720,7 @@
         }
       },
       {
-        "value": "Analytical method, humans, 2016: Several peptides <2 kDa with performance-enhancing properties are covered by the list of prohibited substances of the World Anti-Doping Agency including Desmopressin, LH-RH, Buserelin, Triptorelin, Leuprolide, GHRP-1, GHRP-2, GHRP-3, GHRP-4, GHRP-5,GHRP-6, Alexamorelin, Ipamorelin, Hexarelin, ARA-290,…",
+        "value": "Analytical method, humans, 2016: Several peptides <2 kDa with performance-enhancing properties are covered by the list of prohibited substances of the World Anti-Doping Agency including Desmopressin, LH-RH, Buserelin, Triptorelin, Leuprolide, GHRP-1, GHRP-2, GHRP-3, GHRP-4, GHRP-5,GHRP-6, Alexamorelin, Ipamorelin, Hexarelin, ARA-290, AOD-9604, TB-500 and Anamorelin.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-26578461"
@@ -1161,6 +1161,10 @@
     {
       "date": "2026-10-12",
       "change": "Added a Ipamorelin dosage calculator beneath the dosage chart, with a link to the full calculator page, which charts syringe units for the doses studies of Ipamorelin actually used."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 6 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
     }
   ],
   "prose_reviewed": true,

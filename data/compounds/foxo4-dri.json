@@ -193,8 +193,8 @@
     ],
     "evidence_table": [
       {
-        "value": "Human study, humans, 2024: Cellular senescence increased in rat and human BPD lungs, as evidenced by increased oxidative DNA damage, tumor suppressors, GL-13 stain, and inflammatory cytokines with decreased cell proliferation and lamin B expression.",
-        "evidence_label": "observational-human",
+        "value": "Animal study, rats, with human autopsy lungs examined alongside, 2024: Cellular senescence increased in rat and human BPD lungs, as evidenced by increased oxidative DNA damage, tumor suppressors, GL-13 stain, and inflammatory cytokines with decreased cell proliferation and lamin B expression.",
+        "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-37874230"
         ],
@@ -209,7 +209,7 @@
           "dose": "not stated in abstract",
           "route": "intraperitoneal",
           "duration": "not stated in abstract",
-          "outcome": "Cellular senescence increased in rat and human BPD lungs, as evidenced by increased oxidative DNA damage, tumor suppressors, GL-13 stain, and inflammatory cytokines with decreased cell proliferation and lamin B…"
+          "outcome": "Cellular senescence increased in rat and human BPD lungs, as evidenced by increased oxidative DNA damage, tumor suppressors, GL-13 stain, and inflammatory cytokines with decreased cell proliferation and lamin B expression."
         }
       },
       {
@@ -269,7 +269,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "We found that similar as the approved medication Pirfenidone, FOXO4-DRI decreased senescent cells, downregulated the expression of senescence-associated secretory phenotype (SASP) and attenuated BLM-induced…"
+          "outcome": "We found that similar as the approved medication Pirfenidone, FOXO4-DRI decreased senescent cells, downregulated the expression of senescence-associated secretory phenotype (SASP) and attenuated BLM-induced morphological changes and collagen deposition."
         }
       },
       {
@@ -349,7 +349,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "We further demonstrate that a senolytic FOXO4-D-retro-inverso-isoform peptide (FOXO4-DRI) promotes apoptosis and decreases G0/G1 phase cells in pro-senescence models of keloid organ cultures and fibroblasts,…"
+          "outcome": "We further demonstrate that a senolytic FOXO4-D-retro-inverso-isoform peptide (FOXO4-DRI) promotes apoptosis and decreases G0/G1 phase cells in pro-senescence models of keloid organ cultures and fibroblasts, accompanied with p53-pS15 nuclear exclusion."
         }
       },
       {
@@ -369,7 +369,7 @@
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
-          "outcome": "According to our data, the higher sensitivity of senescent cells compared to the control ones towards nigericin-induced death was partially mediated by the lower intracellular K + content in senescent cells and by…"
+          "outcome": "According to our data, the higher sensitivity of senescent cells compared to the control ones towards nigericin-induced death was partially mediated by the lower intracellular K + content in senescent cells and by their predisposition towards pyroptosis."
         }
       },
       {
@@ -496,8 +496,8 @@
     "candidate_papers_by_tier": {
       "approved-label": 0,
       "human-clinical-trial": 0,
-      "observational-human": 3,
-      "animal-preclinical": 23,
+      "observational-human": 2,
+      "animal-preclinical": 24,
       "mechanistic-in-vitro": 11,
       "review": 0,
       "unclassified": 0
@@ -754,6 +754,14 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-28."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Restored 4 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
+    },
+    {
+      "date": "2026-11-07",
+      "change": "Corrected a mislabel in the evidence table: the 2024 bronchopulmonary dysplasia study (pmid-37874230) gave FOXO4-DRI to rats and examined human autopsy lungs alongside; no person received the peptide. It was tagged as an observational human study and is now labelled as an animal study, matching the page summary."
     }
   ],
   "evidence_assessment": {

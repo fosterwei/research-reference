@@ -38,7 +38,7 @@ import EquipmentInStudies from '../components/shared/EquipmentInStudies.astro';
 import ReadingACoA from '../components/shared/ReadingACoA.astro';
 import WeightCaveat from '../components/shared/WeightCaveat.astro';
 import { rich, paragraphs, timeTag, esc } from '../lib/format';
-import { SITE_NAME, isIndexable, title, description, lastmod, formatCount } from '../lib/site';
+import { SITE_NAME, isIndexable, title, description, lastmod, formatCount, imageObjects } from '../lib/site';
 import { compound as regCompound, peers as regPeers, stacksContaining, comparisonsWith, className } from '../lib/registry';
 import { loadIntent, headingFor, boundaryFor, orderBlocks, queriesFor } from '../lib/intents';
 import { parseClaim } from '../lib/claims';
@@ -71,7 +71,7 @@ const seen = new Set<string>();
 const jsonld = {
   '@context': 'https://schema.org', '@type': 'Article', headline: title(entry), description: description(entry), dateModified: updated,
   datePublished: d.changelog[0]?.date, mainEntityOfPage: new URL(path, Astro.site).toString(),
-  publisher: { '@type': 'Organization', name: SITE_NAME, url: Astro.site?.toString() },
+  publisher: { '@type': 'Organization', name: SITE_NAME, url: Astro.site?.toString(), logo: imageObjects(Astro.site).logo }, image: imageObjects(Astro.site).image,
   // "Who wrote this" and "who checked this" are separate signals, and the site
   // answered only the second. There is no human writer to name: the prose is
   // compiled from the record by the process the about page documents, so the

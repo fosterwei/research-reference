@@ -290,3 +290,36 @@ accept everything or reject everything.
   AOD-9604 and tesamorelin had nothing further in open access; their steps
   were restructured only, and cagrilintide still states that its escalation
   is not in the sources. No source stated a missed-dose rule.
+- 2026-11-07 — Protocol layer on four more compounds: ara-290 (5 regimens, 2
+  steps, 1 note), ss-31 (8 regimens, 2 steps, 2 notes, injection-site detail
+  from the MMPOWER-3 full text), thymosin-alpha-1 (7 regimens, 2 steps, 2
+  notes, reconstitution from the TESTS full text) and cjc-1295 (4 regimens, no
+  steps: every human dose is per kilogram in a pharmacokinetic study). The
+  agents for ghrp-6, kisspeptin, dsip and melanotan-ii were stopped by model
+  safeguards under two different models; those four are left for the owner.
+- 2026-11-07 — Clipped quotations. The drafter cut claim values at 340
+  characters and evidence-table outcomes at 220, leaving 271 visible "…" on
+  live pages while the full sentence sat in `source_excerpt`. 264 values and
+  197 outcomes restored from their own excerpts; `draft_claims.py` no longer
+  clips; `validate_content.py` (`check_unclipped`) fails any extractive claim
+  that ends in an ellipsis. Two "…" remain site-wide, both deliberate, on the
+  contact page.
+- 2026-11-07 — Species mislabels. `fetch_evidence.classify_from_text` read
+  "Adult Honeybees" as a human study (the word "adults") and a cell-culture
+  paper as human (donor "patients"). It now knows insects, fish, poultry,
+  cattle and horses, and lets an in-vitro title outrank human words; three
+  regression tests cover it. Relabelled: pmid-34571768 on BPC-157 (honeybees),
+  pmid-38409346 on TB-500 (cultured cells), pmid-37874230 on FOXO4-DRI (rats,
+  autopsy lungs alongside). A sweep of every evidence table for a human tier
+  with a non-human design or species now returns nothing.
+- 2026-11-07 — DSIP and kisspeptin excerpt choices. Human-trial rows that
+  quoted a background or cell-line sentence now quote the human finding
+  (pmid-7777652, pmid-33196464). The kisspeptin PCOS paper (pmid-31820802)
+  had two rows quoting its rat models under a human label; they now quote its
+  12-woman cohort, with n corrected from 20. A fezolinetant QT-modelling study
+  (pmid-41109977) was removed from kisspeptin's evidence table: different
+  drug. The guide's own fezolinetant comparison is unchanged.
+- 2026-11-07 — ImageObject. Article markup on compound, stack, comparison and
+  guide pages now carries `image` (og.jpg as an ImageObject, 1200×630) and
+  `publisher.logo` (icon-512.png, 512×512); the homepage Organization logo is
+  an ImageObject too. Helper: `imageObjects()` in `src/lib/site.ts`.
