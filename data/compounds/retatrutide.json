@@ -1376,7 +1376,8 @@
     "reviewer": "Adam Mirando",
     "reviewer_credential": "PharmD",
     "reviewed_at": "2026-09-29",
-    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/",
+    "protocol_reviewed_at": "2026-11-08"
   },
   "changelog": [
     {
@@ -1418,6 +1419,10 @@
     {
       "date": "2026-11-07",
       "change": "Restored 22 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Practical protocol reviewed and signed off by Adam Mirando, PharmD."
     }
   ],
   "guide": [
