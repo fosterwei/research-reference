@@ -71,12 +71,15 @@ type AnyRecord = CollectionEntry<'compounds' | 'stacks' | 'comparisons' | 'tools
  * failures came from trusting a field nobody updates. These two conditions are
  * things the record either has or does not.
  *
- * Tools and posts carry no guide or review, so they keep the status rule.
+ * Tools carry no guide or review, so they keep the status rule. Posts are
+ * written guides with sections, and since 2026-11-08 every post carries a
+ * reviewer, so they follow the same rule as records: written and signed.
  */
 export function isIndexable(entry: AnyRecord): boolean {
   if (!['draft', 'reviewed', 'published'].includes(entry.data.status)) return false;
   const d = entry.data as Record<string, any>;
-  if (entry.collection === 'tools' || entry.collection === 'posts') return true;
+  if (entry.collection === 'tools') return true;
+  if (entry.collection === 'posts') return Boolean(d.sections?.length) && Boolean(d.review?.reviewer);
   return Boolean(d.guide?.length) && Boolean(d.review?.reviewer);
 }
 

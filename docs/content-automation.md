@@ -364,3 +364,24 @@ accept everything or reject everything.
   quotations: their rewrites were stopped by model safeguards; they are in
   `research/plain-pending.json`. Template wording moved from "quoted" to
   "cited", including the homepage H1 and the about page's method.
+- 2026-11-08 — Posts signed: the owner confirmed all 21 posts were reviewed;
+  each carries Adam Mirando, PharmD, 2026-11-08, and post reviewedBy markup
+  now includes jobTitle and sameAs. `isIndexable` now requires a reviewer for
+  posts too (written and signed), so an unsigned post will not be indexed.
+- 2026-11-08 — Citation marks in written prose: 954 `{{cite:id}}` tokens
+  added across 42 records by insertion only (text unchanged, verified by
+  script); sections with marks went from 17 to 243 of 373. Unmarked by design:
+  the page's own reasoning, general background, regulatory status, and
+  statements whose study is not in the ledger (listed for the reviewer).
+  `validate_content.py` now fails a token whose id is not in the record's
+  sources. The pass surfaced and fixed five content errors: tesamorelin
+  ("every human study enrolled people with HIV"), selank (Medvedev 2015 was
+  an add-on to phenazepam, not antidepressants), IGF-1 LR3 (two findings from
+  a sheep IGF-1 study), SLU-PP-332 (2026 row said oral), BPC-157 + TB-500
+  ("nothing in people" despite a 17-patient chart review), and a wrong
+  "without a placebo group" summary of the 2020 Selank/Semax imaging study.
+- 2026-11-08 — Evidence labels corrected after verification: 22 claims across
+  12 records (cell work, computational screening and enzyme assays labelled
+  human or animal; phase 1 trials and trial protocols labelled in vitro; mouse
+  and rat studies labelled human). A GHK-Cu review shown as evidence is now
+  background only.

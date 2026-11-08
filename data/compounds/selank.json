@@ -1130,19 +1130,27 @@
     {
       "date": "2026-11-08",
       "change": "51 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Corrected the Medvedev 2015 row in the dosage chart: Selank was given as an add-on to the sedative phenazepam, not to antidepressants, and the reported benefit was better quality of life with fewer side effects."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Added 9 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
     }
   ],
   "guide": [
     {
       "id": "quick-answer",
       "heading": "Selank in two minutes",
-      "html": "<p><strong>What it is.</strong> A stabilised fragment of an immune peptide, developed in Moscow alongside Semax and registered in Russia as a nasal medicine for anxiety and neurasthenia. Unlicensed elsewhere.</p><p><strong>What the research actually shows.</strong> 96 indexed publications; two small Russian randomized trials in generalised anxiety disorder comparing it with a benzodiazepine, plus rat work on GABA signalling, enkephalins and BDNF. Nothing placebo-controlled in English.</p><p><strong>Status.</strong> Registered medicine in Russia; unapproved elsewhere; not named on the WADA list.</p><p><strong>Where the evidence is thinnest.</strong> Independent replication outside Russia; anything on the acetylated variant; long-term use.</p>"
+      "html": "<p><strong>What it is.</strong> A stabilised fragment of an immune peptide, developed in Moscow alongside Semax and registered in Russia as a nasal medicine for anxiety and neurasthenia. Unlicensed elsewhere.</p><p><strong>What the research actually shows.</strong> 96 indexed publications; two small Russian randomized trials in generalised anxiety disorder comparing it with a benzodiazepine{{cite:pmid-18454096}}{{cite:pmid-25176261}}, plus rat work on GABA signalling, enkephalins and BDNF.{{cite:pmid-26924987}}{{cite:pmid-11443939}}{{cite:pmid-31625062}} Nothing placebo-controlled in English.</p><p><strong>Status.</strong> Registered medicine in Russia; unapproved elsewhere; not named on the WADA list.</p><p><strong>Where the evidence is thinnest.</strong> Independent replication outside Russia; anything on the acetylated variant; long-term use.</p>"
     },
     {
       "id": "dosage-chart",
       "heading": "Selank doses in studies",
       "lede": "Russian clinical trials and rat studies. The label regimen for the Russian product is a regulatory fact about that product.",
-      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Dose and route</th><th scope=\"col\">Duration</th><th scope=\"col\">Finding</th></tr></thead><tbody><tr><td>Russian RCT, generalised anxiety (Zozulia 2008)</td><td>Intranasal 0.15% solution, label regimen</td><td>2 weeks</td><td>Anxiety reduction comparable to medazepam; fewer side effects reported</td></tr><tr><td>Russian RCT, anxiety with antidepressant therapy (Medvedev 2015)</td><td>Intranasal, label regimen</td><td>Weeks</td><td>Earlier improvement and fewer antidepressant side effects reported</td></tr><tr><td>Rat anxiolytic dose</td><td>0.3 mg/kg intraperitoneal</td><td>Single</td><td>Anxiolytic-like behaviour</td></tr><tr><td>Rat chronic dosing</td><td>100 µg/kg/day</td><td>Weeks</td><td>Lower inflammatory cytokines; BDNF changes</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered. The acetylated amidate variant has no study at any dose.</p>"
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Study</th><th scope=\"col\">Dose and route</th><th scope=\"col\">Duration</th><th scope=\"col\">Finding</th></tr></thead><tbody><tr><td>Russian RCT, generalised anxiety (Zozulia 2008)</td><td>Intranasal 0.15% solution, label regimen</td><td>2 weeks</td><td>Anxiety reduction comparable to medazepam{{cite:pmid-18454096}}; fewer side effects reported</td></tr><tr><td>Russian RCT, anxiety, Selank added to phenazepam (Medvedev 2015)</td><td>Intranasal, label regimen</td><td>Weeks</td><td>Better quality of life, with fewer side effects, reported{{cite:pmid-26356395}}</td></tr><tr><td>Rat anxiolytic dose</td><td>0.3 mg/kg intraperitoneal</td><td>Single</td><td>Anxiolytic-like behaviour{{cite:pmid-36322304}}</td></tr><tr><td>Rat chronic dosing</td><td>100 µg/kg/day</td><td>Weeks</td><td>Lower inflammatory cytokines{{cite:pmid-32621722}}; BDNF changes</td></tr></tbody></table></div></div><p>Figures for this compound circulate on forums and vendor pages. None has been tested in a human study, so none is reproduced here; the table above holds every dose a study actually administered. The acetylated amidate variant has no study at any dose.</p>"
     },
     {
       "id": "who",

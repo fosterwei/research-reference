@@ -90,6 +90,10 @@
     {
       "date": "2026-11-08",
       "change": "1 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Added 2 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
     }
   ],
   "sides": [
@@ -100,7 +104,7 @@
     {
       "id": "quick-answer",
       "heading": "BPC-157 vs TB-500 in two minutes",
-      "html": "<p><strong>Different molecules, different proposed mechanisms.</strong> BPC-157 comes from a stomach protein and is studied for gut, tendon, muscle and nerve healing, almost all in rats. TB-500 is a piece of thymosin beta-4, a protein present in nearly every human cell that helps cells move; its parent molecule has been in human trials for eye and skin wounds.</p><p><strong>Evidence.</strong> BPC-157: 228 publications, zero randomized trials, three uncontrolled human pilots from one clinic. TB-500 and thymosin beta-4 together: more than a thousand publications, several human trials of the parent protein, little on the marketed fragment itself.</p><p><strong>Head to head.</strong> One rat tendon study in 2026 tested both. Nothing in people compares them.</p><p><strong>Which is \"better\"</strong> is not a question the evidence can answer; they have not been tested for the same outcome in people, and the one animal study did not rank them.</p>"
+      "html": "<p><strong>Different molecules, different proposed mechanisms.</strong> BPC-157 comes from a stomach protein and is studied for gut, tendon, muscle and nerve healing, almost all in rats. TB-500 is a piece of thymosin beta-4, a protein present in nearly every human cell that helps cells move; its parent molecule has been in human trials for eye and skin wounds.</p><p><strong>Evidence.</strong> BPC-157: 228 publications, zero randomized trials, three uncontrolled human pilots from one clinic. TB-500 and thymosin beta-4 together: more than a thousand publications, several human trials of the parent protein, little on the marketed fragment itself.</p><p><strong>Head to head.</strong> One rat tendon study in 2026 tested both.{{cite:pmid-42542926}} Nothing in people compares them.</p><p><strong>Which is \"better\"</strong> is not a question the evidence can answer; they have not been tested for the same outcome in people, and the one animal study did not rank them.</p>"
     },
     {
       "id": "comparison-table",
@@ -110,7 +114,7 @@
     {
       "id": "choosing",
       "heading": "How the two are discussed as choices, and why the evidence cannot decide",
-      "html": "<p>Communities frame BPC-157 as the local, targeted compound for a specific injury and TB-500 as the systemic one for diffuse or multiple injuries, which follows from their proposed mechanisms and dosing patterns rather than from any comparison. Both have been described for the same outcomes in animals. In people, BPC-157 has three uncontrolled pilots and TB-500's fragment has essentially nothing; thymosin β4's human trials used the full protein in eye drops and gels, a different molecule by size and route. A reader weighing the two is weighing two different kinds of gap, not two bodies of evidence. The <a href=\"/stacks/bpc-157-tb-500\">Wolverine stack page</a> covers the combination.</p>"
+      "html": "<p>Communities frame BPC-157 as the local, targeted compound for a specific injury and TB-500 as the systemic one for diffuse or multiple injuries, which follows from their proposed mechanisms and dosing patterns rather than from any comparison. Both have been described for the same outcomes in animals.{{cite:pmid-42542926}} In people, BPC-157 has three uncontrolled pilots and TB-500's fragment has essentially nothing; thymosin β4's human trials used the full protein in eye drops and gels, a different molecule by size and route. A reader weighing the two is weighing two different kinds of gap, not two bodies of evidence. The <a href=\"/stacks/bpc-157-tb-500\">Wolverine stack page</a> covers the combination.</p>"
     }
   ],
   "prose_reviewed": true

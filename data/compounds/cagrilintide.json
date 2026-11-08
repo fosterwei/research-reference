@@ -951,7 +951,7 @@
       },
       {
         "value": "Randomized controlled trial, humans, n=15, 2025: Eloralintide induced significantly less conditioned taste avoidance in lean rats than cagrilintide, a non-selective amylin receptor agonist (p 2 .",
-        "evidence_label": "human-clinical-trial",
+        "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-41109426"
         ],
@@ -960,9 +960,9 @@
         "fields": {
           "study": "Briere 2025",
           "year": "2025",
-          "design": "Randomized controlled trial",
-          "n": 15,
-          "species": "Humans",
+          "design": "Animal study (eloralintide compared with cagrilintide)",
+          "n": null,
+          "species": "Rats",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
@@ -1686,19 +1686,27 @@
     {
       "date": "2026-11-08",
       "change": "69 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Corrected evidence labels found while rewriting in plain English: evidence_table entry 11: human clinical trial to animal preclinical."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Added 13 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
     }
   ],
   "guide": [
     {
       "id": "quick-answer",
       "heading": "Cagrilintide in two minutes",
-      "html": "<p><strong>What it is.</strong> A once-weekly analogue of amylin, the pancreatic hormone that signals fullness, developed by Novo Nordisk. On its own it is a weight-loss drug in phase 3; combined with semaglutide as CagriSema it is the company's next obesity medicine, with phase 3 trials complete and a regulatory submission in progress.</p><p><strong>What the research actually shows.</strong> Fifteen indexed randomized trials. CagriSema reduced weight by about 20 percent over 68 weeks in adults without diabetes (REDEFINE 1, 3,417 participants) and about 14 percent in adults with type 2 diabetes (REDEFINE 2). Alone, at up to 4.5 mg weekly, about 11 percent over 26 weeks. Gastrointestinal side effects in roughly four of five participants, mostly mild and early; injection-site reactions more common than with semaglutide.</p><p><strong>What people commonly report using.</strong> Grey-market vials injected weekly, stepped up on the trial schedule to 2.4 mg, alone or with semaglutide. Same pharmacology, unknown product.</p><p><strong>Status.</strong> Not approved anywhere yet. Not named on the WADA list.</p><p><strong>Where the evidence is thinnest.</strong> Long-term outcomes; what happens after stopping; the identity of anything sold before approval.</p>"
+      "html": "<p><strong>What it is.</strong> A once-weekly analogue of amylin, the pancreatic hormone that signals fullness, developed by Novo Nordisk. On its own it is a weight-loss drug in phase 3; combined with semaglutide as CagriSema it is the company's next obesity medicine, with phase 3 trials complete and a regulatory submission in progress.</p><p><strong>What the research actually shows.</strong> Fifteen indexed randomized trials. CagriSema reduced weight by about 20 percent over 68 weeks in adults without diabetes (REDEFINE 1, 3,417 participants) and about 14 percent in adults with type 2 diabetes (REDEFINE 2).{{cite:pmid-40544433}}{{cite:pmid-40544432}} Alone, at up to 4.5 mg weekly, about 11 percent over 26 weeks.{{cite:pmid-34798060}} Gastrointestinal side effects in roughly four of five participants, mostly mild and early; injection-site reactions more common than with semaglutide.</p><p><strong>What people commonly report using.</strong> Grey-market vials injected weekly, stepped up on the trial schedule to 2.4 mg, alone or with semaglutide. Same pharmacology, unknown product.</p><p><strong>Status.</strong> Not approved anywhere yet. Not named on the WADA list.</p><p><strong>Where the evidence is thinnest.</strong> Long-term outcomes; what happens after stopping; the identity of anything sold before approval.</p>"
     },
     {
       "id": "dosage-chart",
       "heading": "Cagrilintide dosage chart: what the trials used",
       "lede": "Cagrilintide is unusual here: the trial doses and the circulating doses are the same numbers. The difference is the product.",
-      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Source of the figure</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">What it showed</th></tr></thead><tbody><tr><td>Phase 2 monotherapy (Lau 2021, 706 participants)</td><td>0.3, 0.6, 1.2, 2.4 and 4.5 mg weekly</td><td>26 weeks</td><td>Weight loss 6 to 10.8% vs 3% placebo; liraglutide 3 mg comparator 9%</td></tr><tr><td>CagriSema phase 3, REDEFINE 1 (Garvey 2025, 3,417)</td><td>2.4 mg cagrilintide + 2.4 mg semaglutide weekly</td><td>68 weeks, titrated over 16</td><td>Weight −20.4% (trial-product estimand −22.7%) vs −3.0% placebo</td></tr><tr><td>CagriSema phase 3, REDEFINE 2 (Davies 2025, 1,206, type 2 diabetes)</td><td>2.4 mg + 2.4 mg weekly</td><td>68 weeks</td><td>Weight −13.7% vs −3.4%; HbA1c reductions greater than placebo</td></tr><tr><td>Titration used in the trials</td><td>0.25 → 0.5 → 1.0 → 1.7 → 2.4 mg</td><td>Step every 4 weeks</td><td>Chosen to limit nausea</td></tr><tr><td>Commonly reported (grey market)</td><td>Same schedule, to 2.4 mg; some to 4.5 mg alone</td><td>Weekly</td><td>Unregulated vials; not the manufacturer's product</td></tr></tbody></table></div></div><p>Reading this table as a protocol misses the point of it: the numbers describe what the manufacturer tested under monitoring in defined populations. The vial on the grey market has not been shown to contain any of it.</p>"
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Source of the figure</th><th scope=\"col\">Dose</th><th scope=\"col\">Schedule</th><th scope=\"col\">What it showed</th></tr></thead><tbody><tr><td>Phase 2 monotherapy (Lau 2021, 706 participants)</td><td>0.3, 0.6, 1.2, 2.4 and 4.5 mg weekly</td><td>26 weeks</td><td>Weight loss 6 to 10.8% vs 3% placebo; liraglutide 3 mg comparator 9%{{cite:pmid-34798060}}</td></tr><tr><td>CagriSema phase 3, REDEFINE 1 (Garvey 2025, 3,417)</td><td>2.4 mg cagrilintide + 2.4 mg semaglutide weekly</td><td>68 weeks, titrated over 16</td><td>Weight −20.4% (trial-product estimand −22.7%) vs −3.0% placebo{{cite:pmid-40544433}}</td></tr><tr><td>CagriSema phase 3, REDEFINE 2 (Davies 2025, 1,206, type 2 diabetes)</td><td>2.4 mg + 2.4 mg weekly</td><td>68 weeks</td><td>Weight −13.7% vs −3.4%; HbA1c reductions greater than placebo{{cite:pmid-40544432}}</td></tr><tr><td>Titration used in the trials</td><td>0.25 → 0.5 → 1.0 → 1.7 → 2.4 mg</td><td>Step every 4 weeks</td><td>Chosen to limit nausea</td></tr><tr><td>Commonly reported (grey market)</td><td>Same schedule, to 2.4 mg; some to 4.5 mg alone</td><td>Weekly</td><td>Unregulated vials; not the manufacturer's product</td></tr></tbody></table></div></div><p>Reading this table as a protocol misses the point of it: the numbers describe what the manufacturer tested under monitoring in defined populations. The vial on the grey market has not been shown to contain any of it.</p>"
     },
     {
       "id": "reconstitution",
@@ -1714,7 +1722,7 @@
     {
       "id": "timeline",
       "heading": "What the trials measured over time",
-      "html": "<p><strong>Measured.</strong> Weight loss continued through 68 weeks in the phase 3 trials, steepest in the first six months and still declining at the end. Nausea peaked during the titration steps and eased. Pharmacokinetic work shows exposure proportional to dose, a half-life of about a week, and no effect on semaglutide's exposure when given together.</p><p><strong>Not yet measured.</strong> What happens after stopping, which for semaglutide alone is substantial regain; outcomes beyond 68 weeks; cardiovascular events, in a trial still running.</p>"
+      "html": "<p><strong>Measured.</strong> Weight loss continued through 68 weeks in the phase 3 trials, steepest in the first six months and still declining at the end. Nausea peaked during the titration steps and eased. Pharmacokinetic work shows exposure proportional to dose, a half-life of about a week, and no effect on semaglutide's exposure when given together.{{cite:pmid-33894838}}</p><p><strong>Not yet measured.</strong> What happens after stopping, which for semaglutide alone is substantial regain; outcomes beyond 68 weeks; cardiovascular events, in a trial still running.</p>"
     },
     {
       "id": "storage-guide",
@@ -1725,18 +1733,18 @@
       "id": "monitoring",
       "heading": "What the trials monitored",
       "lede": "Unlike most compounds here, there is a real list, because the trials kept one.",
-      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Measure</th><th scope=\"col\">Why</th><th scope=\"col\">When</th></tr></thead><tbody><tr><td>Body weight and waist</td><td>Primary endpoints</td><td>Every visit</td></tr><tr><td>HbA1c and fasting glucose</td><td>Primary in the diabetes trial; safety elsewhere</td><td>Baseline, then periodically</td></tr><tr><td>Blood pressure and lipids</td><td>Secondary endpoints; both improved with weight loss</td><td>Periodically</td></tr><tr><td>Heart rate and ECG</td><td>A dedicated study found no clinically relevant QT prolongation</td><td>Baseline; dedicated study</td></tr><tr><td>Kidney and liver function</td><td>A dedicated study in renal and hepatic impairment found no new safety signals</td><td>Baseline; dedicated study</td></tr><tr><td>Amylase, lipase, gallbladder symptoms</td><td>Class cautions</td><td>As indicated</td></tr></tbody></table></div></div>"
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Measure</th><th scope=\"col\">Why</th><th scope=\"col\">When</th></tr></thead><tbody><tr><td>Body weight and waist</td><td>Primary endpoints</td><td>Every visit</td></tr><tr><td>HbA1c and fasting glucose</td><td>Primary in the diabetes trial; safety elsewhere</td><td>Baseline, then periodically</td></tr><tr><td>Blood pressure and lipids</td><td>Secondary endpoints; both improved with weight loss</td><td>Periodically</td></tr><tr><td>Heart rate and ECG</td><td>A dedicated study found no clinically relevant QT prolongation{{cite:pmid-39279639}}</td><td>Baseline; dedicated study</td></tr><tr><td>Kidney and liver function</td><td>A dedicated study in renal and hepatic impairment found no new safety signals{{cite:pmid-42228334}}</td><td>Baseline; dedicated study</td></tr><tr><td>Amylase, lipase, gallbladder symptoms</td><td>Class cautions</td><td>As indicated</td></tr></tbody></table></div></div>"
     },
     {
       "id": "mistakes",
       "heading": "Common mistakes in how cagrilintide is discussed",
-      "html": "<ul><li><strong>Treating trial results as results for grey-market vials.</strong> The pharmacology is the same only if the vial contains the drug.</li><li><strong>Quoting CagriSema results for cagrilintide alone.</strong> Alone it produced about half the weight loss.</li><li><strong>Skipping titration.</strong> The step-up exists because nausea at full dose without it was the finding.</li><li><strong>Calling it approved.</strong> As of this writing it is not, anywhere.</li><li><strong>Calling it a GLP-1.</strong> It is an amylin analogue; that is the whole reason it adds to semaglutide.</li></ul>"
+      "html": "<ul><li><strong>Treating trial results as results for grey-market vials.</strong> The pharmacology is the same only if the vial contains the drug.</li><li><strong>Quoting CagriSema results for cagrilintide alone.</strong> Alone it produced about half the weight loss.{{cite:pmid-34798060}}{{cite:pmid-40544433}}</li><li><strong>Skipping titration.</strong> The step-up exists because nausea at full dose without it was the finding.</li><li><strong>Calling it approved.</strong> As of this writing it is not, anywhere.</li><li><strong>Calling it a GLP-1.</strong> It is an amylin analogue; that is the whole reason it adds to semaglutide.</li></ul>"
     },
     {
       "id": "comparison-table",
       "heading": "Cagrilintide vs semaglutide, tirzepatide, retatrutide and survodutide",
       "lede": "The weight-loss injectables people compare it with. Only two are approved.",
-      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Mechanism</th><th scope=\"col\">Weight loss in trials (approx.)</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td>Cagrilintide</td><td>Amylin analogue</td><td>Phase 3; ~11% alone, ~20% with semaglutide</td><td>Not approved</td></tr><tr><td>Semaglutide</td><td>GLP-1 agonist</td><td>Approved; ~15% (STEP 1)</td><td>Approved 2017 (diabetes), 2021 (obesity)</td></tr><tr><td>Tirzepatide</td><td>GLP-1 + GIP agonist</td><td>Approved; ~21% (SURMOUNT-1)</td><td>Approved 2022</td></tr><tr><td>Retatrutide</td><td>GLP-1 + GIP + glucagon agonist</td><td>Phase 3; ~24% at 48 weeks in phase 2</td><td>Not approved</td></tr><tr><td>Survodutide</td><td>GLP-1 + glucagon agonist</td><td>Phase 3; ~15% in phase 2</td><td>Not approved</td></tr></tbody></table></div></div><p>Percentages come from different trials with different populations and durations and are not head-to-head; the one direct comparison so far is CagriSema against semaglutide alone within the REDEFINE programme, and a trial against tirzepatide is running. Pages: <a href=\"/compare/cagrilintide-vs-semaglutide\">cagrilintide vs semaglutide</a>, the <a href=\"/stacks/cagrisema\">CagriSema</a> combination, and the records for <a href=\"/compounds/semaglutide\">semaglutide</a>, <a href=\"/compounds/tirzepatide\">tirzepatide</a>, <a href=\"/compounds/retatrutide\">retatrutide</a> and <a href=\"/compounds/survodutide\">survodutide</a>.</p>"
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\">Compound</th><th scope=\"col\">Mechanism</th><th scope=\"col\">Weight loss in trials (approx.)</th><th scope=\"col\">Status</th></tr></thead><tbody><tr><td>Cagrilintide</td><td>Amylin analogue</td><td>Phase 3; ~11% alone, ~20% with semaglutide{{cite:pmid-34798060}}{{cite:pmid-40544433}}</td><td>Not approved</td></tr><tr><td>Semaglutide</td><td>GLP-1 agonist</td><td>Approved; ~15% (STEP 1)</td><td>Approved 2017 (diabetes), 2021 (obesity)</td></tr><tr><td>Tirzepatide</td><td>GLP-1 + GIP agonist</td><td>Approved; ~21% (SURMOUNT-1)</td><td>Approved 2022</td></tr><tr><td>Retatrutide</td><td>GLP-1 + GIP + glucagon agonist</td><td>Phase 3; ~24% at 48 weeks in phase 2</td><td>Not approved</td></tr><tr><td>Survodutide</td><td>GLP-1 + glucagon agonist</td><td>Phase 3; ~15% in phase 2</td><td>Not approved</td></tr></tbody></table></div></div><p>Percentages come from different trials with different populations and durations and are not head-to-head; the one direct comparison so far is CagriSema against semaglutide alone within the REDEFINE programme, and a trial against tirzepatide is running. Pages: <a href=\"/compare/cagrilintide-vs-semaglutide\">cagrilintide vs semaglutide</a>, the <a href=\"/stacks/cagrisema\">CagriSema</a> combination, and the records for <a href=\"/compounds/semaglutide\">semaglutide</a>, <a href=\"/compounds/tirzepatide\">tirzepatide</a>, <a href=\"/compounds/retatrutide\">retatrutide</a> and <a href=\"/compounds/survodutide\">survodutide</a>.</p>"
     }
   ],
   "prose_reviewed": true

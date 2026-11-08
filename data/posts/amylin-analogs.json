@@ -76,13 +76,19 @@
   ],
   "review": {
     "author": "",
-    "reviewer": "",
-    "reviewed_at": ""
+    "reviewer": "Adam Mirando",
+    "reviewed_at": "2026-11-08",
+    "reviewer_credential": "PharmD",
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
   "changelog": [
     {
       "date": "2026-10-29",
       "change": "Written: amylin analogs explainer covering amylin physiology and receptor terms, pramlintide mechanism, trials and US label dosing, cagrilintide, a pipeline table (eloralintide, EloraTZP, petrelintide, amycretin, early candidates) and a 2026 network meta-analysis comparison."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Reviewed by Adam Mirando, PharmD."
     }
   ],
   "sources": [

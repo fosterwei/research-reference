@@ -241,6 +241,11 @@ def check_plain(record: dict, path: pathlib.Path, report: Report) -> None:
                     missing.append(f"{field}[{index}]")
                 elif "pmid-" in plain or re.search(r"\[\d+\]", plain):
                     report.error(path, f"attributes.{field}[{index}].plain carries a citation mark or id; the page adds those")
+    ledger = {s.get("id") for s in record.get("sources") or []}
+    for section in record.get("guide") or []:
+        for token in re.findall(r"\{\{cite:([\w.-]+)\}\}", section.get("html", "")):
+            if token not in ledger:
+                report.error(path, f"guide '{section.get('id')}' cites {token}, which is not in this record's sources")
     if key not in pending:
         for section in record.get("guide") or []:
             if re.search(r"<q\b|<blockquote\b", section.get("html", "")):
