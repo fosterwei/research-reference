@@ -385,3 +385,15 @@ accept everything or reject everything.
   human or animal; phase 1 trials and trial protocols labelled in vitro; mouse
   and rat studies labelled human). A GHK-Cu review shown as evidence is now
   background only.
+- 2026-11-08 — Headings and tables, after a side-by-side with the competitor
+  (their H2s are "<compound> <search topic>" on every page; ours repeated 20+
+  generic strings word for word across pages). `src/lib/headings.ts` rewrites
+  generic headings on compound, stack and comparison pages into "<name> +
+  topic" form ("Study durations" -> "<name> cycle length: how long studies
+  gave it"; "Biomarkers measured in studies" -> "<name> blood tests and
+  markers measured in studies"). Headings an intent map sets on purpose are
+  untouched unless they are one of the generic strings. No H2 now repeats on
+  three or more pages except Sources, Reference card, Related records and the
+  changelog. Claim sections with three or more studies render through
+  `ClaimTable.astro` (study, who, what it found with its mark, evidence tier),
+  taking compound pages from 6-7 tables to 11-13.
