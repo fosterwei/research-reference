@@ -20,6 +20,7 @@ import {
 } from '../../lib/calculators';
 import { isIndexable } from '../../lib/site';
 import SourceIds from '../../components/SourceIds.astro';
+import { splitProtocol, whenLabel, type PClaim } from '../../lib/protocol';
 
 export async function getStaticPaths() {
   const compounds = await records('compounds');
@@ -87,6 +88,20 @@ const jsonld = [
     itemListElement: [{ name: 'Home', path: '/' }, { name: 'Calculators', path: '/calculators' }, { name: `${name} dosage calculator`, path }].map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.path, Astro.site).toString() })),
   },
 ];
+// The reviewed dosing schedule from the compound page, with each single-figure
+// dose converted to U-100 units at 2 mL of diluent. A range or a topical
+// concentration is shown as written and not converted.
+const proto = splitProtocol((((d.attributes ?? {}).protocol ?? []) as PClaim[]));
+const signedAt = d.review?.protocol_reviewed_at;
+const SCHED_ML = DILUENT_ML[1];
+const singleMcg = (dose?: string): number | null => {
+  const m = (dose ?? '').trim().match(/^(\d+(?:\.\d+)?)\s*(mg|mcg|µg)$/i);
+  return m ? Number(m[1]) * (m[2].toLowerCase() === 'mg' ? 1000 : 1) : null;
+};
+const schedule = proto.practical.map((c) => {
+  const mcg = singleMcg(c.fields?.dose);
+  return { weeks: whenLabel(c.fields?.weeks), dose: c.fields?.dose ?? '—', action: c.fields?.action ?? '', units: mcg ? VIAL_MG.map((mg) => (mcg > mg * 1000 ? null : chartRows([mcg], mg)[0].cells[1].units)) : null };
+});
 const title = `${name} Dosage Calculator: Units, mg and Reconstitution`;
 const description = `How many syringe units ${name} doses work out to, for 2, 5 and 10 mg vials at 1, 2 or 3 mL of diluent, beside the doses published studies actually used, each one cited.`;
 
@@ -171,6 +186,36 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
           returns the volume and the units. What it cannot do, for this compound, is tell you what that
           mass should be, because no study in this ledger states one.
         </p>
+      </Fragment>
+    )}
+
+    {schedule.length > 0 && (
+      <Fragment>
+        <h2 id="schedule">{name} dosing schedule in syringe units</h2>
+        <p class="prose">
+          The week-by-week schedule from the <a href={`/compounds/${d.slug}#protocol`}>{name} dosing guide</a>,
+          {signedAt ? ` reviewed by ${d.review.reviewer}, ${d.review.reviewer_credential},` : ''} with each single dose
+          converted to units on a U-100 syringe at {SCHED_ML}&nbsp;mL of diluent. The guide gives the reason and the
+          trial behind every step.
+        </p>
+        <div class="card clip"><div class="tblwrap"><table class="tbl">
+          <caption>Units on a U-100 syringe at {SCHED_ML}&nbsp;mL of diluent. A dose larger than the whole vial is marked; a dose written as a range or a concentration is not converted.</caption>
+          <thead><tr>
+            <th scope="col">Weeks</th><th scope="col">Dose</th>
+            {VIAL_MG.map((mg) => <th scope="col" class="num">{mg}&nbsp;mg vial</th>)}
+            <th scope="col">What to do</th>
+          </tr></thead>
+          <tbody>
+            {schedule.map((r) => (
+              <tr>
+                <th scope="row">{r.weeks}</th>
+                <td>{r.dose}</td>
+                {VIAL_MG.map((_, i) => <td class="num">{!r.units ? '—' : r.units[i] === null ? <span class="muted">more than the vial</span> : <>{r.units[i]!.toLocaleString('en-US')}{r.units[i]! > 100 && <span class="muted"> &gt;1 mL</span>}</>}</td>)}
+                <td>{r.action}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table></div></div>
       </Fragment>
     )}
 

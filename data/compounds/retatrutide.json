@@ -953,6 +953,23 @@
         }
       },
       {
+        "value": "Phase 3 TRIUMPH-1-OSA and TRIUMPH-2-OSA, 2026: In two phase 3, double-blind, randomized, placebo-controlled trials nested within larger basket trials of once-weekly subcutaneous retatrutide, we assigned adults with moderate-to-severe OSA and a body-mass index (the weight in kilograms divided by the square of the height in meters) of at least 27, without (TRIUMPH-1-OSA) or with (TRIUMPH-2-OSA) type 2 diabetes, to receive retatrutide (4, 9, or 12 mg) or placebo. The primary end point was the change in the apnea-hypopnea index (AHI, the average number of apneas and hypopneas per hour of sleep) at 80 weeks with 9 mg and 12 mg of retatrutide.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42904878"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "In two phase 3, double-blind, randomized, placebo-controlled trials nested within larger basket trials of once-weekly subcutaneous retatrutide, we assigned adults with moderate-to-severe OSA and a body-mass index (the weight in kilograms divided by the square of the height in meters) of at least 27, without (TRIUMPH-1-OSA) or with (TRIUMPH-2-OSA) type 2 diabetes, to receive retatrutide (4, 9, or 12 mg) or placebo. The primary end point was the change in the apnea-hypopnea index (AHI, the average number of apneas and hypopneas per hour of sleep) at 80 weeks with 9 mg and 12 mg of retatrutide.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "4, 9 or 12 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "80 weeks",
+          "population": "Adults with moderate-to-severe obstructive sleep apnea and BMI 27 or more, without or with type 2 diabetes"
+        }
+      },
+      {
         "value": "Every arm in the phase 2 obesity trial that reached 8 or 12 mg started here, and the trial reported that gastrointestinal events were partially mitigated by the 2 mg start compared with 4 mg. Each step lasts 4 weeks, the escalation interval that trial used.",
         "evidence_label": "editorial",
         "source_ids": [
@@ -1367,6 +1384,13 @@
       "url": "https://europepmc.org/article/MED/36354040",
       "published": "2022-10-27",
       "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42904878",
+      "title": "Retatrutide Once Weekly for Treatment of Obstructive Sleep Apnea.",
+      "url": "https://europepmc.org/article/MED/42904878",
+      "published": "2026-10-21",
+      "kind": "peer-reviewed"
     }
   ],
   "related": [],
@@ -1427,6 +1451,10 @@
     {
       "date": "2026-11-08",
       "change": "Dosing section laid out as a dosing guide: a quick-start box (starting dose, titration, frequency, route, evidence), a week-by-week schedule with dose and basis columns, and dosing questions in the FAQ. Every figure is the same cited, reviewed claim shown in the tables; no figure was added."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Added the phase 3 TRIUMPH obstructive sleep apnea trials (NEJM 2026) to the regimens as studied: 4, 9 or 12 mg once weekly for 80 weeks, the longest human regimen on this page. The practical protocol is unchanged."
     }
   ],
   "guide": [

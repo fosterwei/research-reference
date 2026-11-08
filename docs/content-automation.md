@@ -332,3 +332,14 @@ accept everything or reject everything.
   ladder), "X dosing guide: dose and schedule" (fixed-dose regimens) or "X
   dosing: what the human studies gave" (no practical steps). Competitor supply
   and vendor modules deliberately not copied.
+- 2026-11-08 — Phase 3 regimens from abstracts: retatrutide TRIUMPH-OSA
+  (pmid-42904878, NEJM 2026: 4, 9 or 12 mg weekly for 80 weeks) and
+  survodutide SYNCHRONIZE-CN (pmid-42599381: 3.6 or 4.8 mg weekly for 76
+  weeks). Added as regimens-as-studied rows with ledger entries; the signed
+  practical protocols were not changed. The SYNCHRONIZE-CN full text returned
+  HTTP 500 from Europe PMC three times, so its escalation scheme is still
+  unread.
+- 2026-11-08 — Calculator pages for compounds with a practical protocol show
+  the reviewed schedule week by week with each single-figure dose converted
+  to U-100 units at 2 mL in 2, 5 and 10 mg vials. A dose larger than the vial
+  reads "more than the vial"; a range or concentration is not converted.
