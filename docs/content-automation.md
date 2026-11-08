@@ -323,3 +323,12 @@ accept everything or reject everything.
   guide pages now carries `image` (og.jpg as an ImageObject, 1200×630) and
   `publisher.logo` (icon-512.png, 512×512); the homepage Organization logo is
   an ImageObject too. Helper: `imageObjects()` in `src/lib/site.ts`.
+- 2026-11-08 — Protocol presented in dosing-guide style at the owner's request
+  ("参照竞品内容样式，数据还是依据权威网站"). Quick-start box, schedule table
+  with dose and basis, troubleshooting heading, and four dosing FAQ questions
+  generated from the protocol claims (`src/lib/protocol.ts`), deduplicated
+  against intent-map and record FAQs. Protocol H2s renamed to "X dosing guide:
+  starting dose, titration and schedule" (retatrutide, the only multi-dose
+  ladder), "X dosing guide: dose and schedule" (fixed-dose regimens) or "X
+  dosing: what the human studies gave" (no practical steps). Competitor supply
+  and vendor modules deliberately not copied.
