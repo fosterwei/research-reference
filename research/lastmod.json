@@ -3,31 +3,31 @@
   "pages": {
     "/": {
       "lastmod": "2026-11-08",
-      "hash": "ccb387a86f490c5de4c9fcda089c5ec49425dd2c"
+      "hash": "ab38a11d308cddcacd68e15fd4317a323a9bba59"
     },
     "/about": {
       "lastmod": "2026-11-07",
-      "hash": "51be75d43d8dbd0fdfc1a1e42286591e98d2d3c7"
+      "hash": "81c0354143e8ab1fa5ab653ee2a251ffe219caed"
     },
     "/calculators": {
       "lastmod": "2026-11-07",
       "hash": "738c7ac68fa307b13808da9b1e433d4696916a6d"
     },
     "/calculators/aod-9604": {
-      "lastmod": "2026-11-07",
-      "hash": "42aeee4637160a49373b844fa89f9b0d790961dd"
+      "lastmod": "2026-11-08",
+      "hash": "ca277f4ae0ea5a127f5b26fbf8edfc52e940327a"
     },
     "/calculators/ara-290": {
-      "lastmod": "2026-11-07",
-      "hash": "c191971783632d246ba567e4cf849065d107cf52"
+      "lastmod": "2026-11-08",
+      "hash": "240f9baffc91534469d47034f8b6a521519334e6"
     },
     "/calculators/bpc-157": {
       "lastmod": "2026-11-07",
       "hash": "7c3bfce62478c38741a98b6fcf1107e8e4952e67"
     },
     "/calculators/cagrilintide": {
-      "lastmod": "2026-11-07",
-      "hash": "5b653f7dda531c913bf3cc355382406ace15a4fa"
+      "lastmod": "2026-11-08",
+      "hash": "e8af4170231f2002ecddd9ddeac782785c632ba8"
     },
     "/calculators/dsip": {
       "lastmod": "2026-11-07",
@@ -54,8 +54,8 @@
       "hash": "45cdb20f89813504ca0a1d3bb5299fbe833de7f1"
     },
     "/calculators/retatrutide": {
-      "lastmod": "2026-11-07",
-      "hash": "faea04cf6994a2b8a38e7aa5f5685e7dfdd91cef"
+      "lastmod": "2026-11-08",
+      "hash": "a825170052d5356f3d75854f54b6f6d4481dd677"
     },
     "/calculators/selank": {
       "lastmod": "2026-11-07",
@@ -66,28 +66,28 @@
       "hash": "50e12d31fac64db089b87aa564206597656f3fd0"
     },
     "/calculators/ss-31": {
-      "lastmod": "2026-11-07",
-      "hash": "115e5480154f418d84cb4cc90f643d10a2ac722e"
+      "lastmod": "2026-11-08",
+      "hash": "2a2aea3488796fbc9b7032fbdf4a50c7059df3ac"
     },
     "/calculators/survodutide": {
-      "lastmod": "2026-11-07",
-      "hash": "ce6c9bc73dfbccb69a93a426eef9fe4545fd738b"
+      "lastmod": "2026-11-08",
+      "hash": "9fa10bcdd8eb5fcff379e50fafacb0c9ba99ce4b"
     },
     "/calculators/tb-500": {
       "lastmod": "2026-11-07",
       "hash": "4d7796ef2f8c45082facb82f865f3e7efc75d938"
     },
     "/calculators/tesamorelin": {
-      "lastmod": "2026-11-07",
-      "hash": "ae315595986e719dc53cf73014b40768e87b1b75"
+      "lastmod": "2026-11-08",
+      "hash": "70232e0eefb21c612b156d6666d5d260b136af73"
     },
     "/calculators/tesofensine": {
-      "lastmod": "2026-11-07",
-      "hash": "af72717eb9b8630bfd686bdb7afafddb3a152cd3"
+      "lastmod": "2026-11-08",
+      "hash": "4e0471b3fdd663c83b11cfdba5c802a3f82f511f"
     },
     "/calculators/thymosin-alpha-1": {
-      "lastmod": "2026-11-07",
-      "hash": "a8d08d75e7508c0ca5fc1b7c1441bf6f76162fa9"
+      "lastmod": "2026-11-08",
+      "hash": "e32961cfa1c91642b3160aa60bec8bae182a0e38"
     },
     "/compare": {
       "lastmod": "2026-09-29",
@@ -215,7 +215,7 @@
     },
     "/compounds/retatrutide": {
       "lastmod": "2026-11-08",
-      "hash": "2cf93cdbe92318b246bb9ea777bef58d143c4f8e"
+      "hash": "b515c274f983407949f61e54533852a654b5b12f"
     },
     "/compounds/selank": {
       "lastmod": "2026-11-07",
@@ -235,7 +235,7 @@
     },
     "/compounds/survodutide": {
       "lastmod": "2026-11-08",
-      "hash": "ee48e3d569dc614d34c56a285b9f00b28862e75f"
+      "hash": "535f09e46764b84f20817265495cbd63a1e4455b"
     },
     "/compounds/tb-500": {
       "lastmod": "2026-11-07",
@@ -512,6 +512,16 @@
         "/compounds/tesamorelin",
         "/compounds/tesofensine",
         "/compounds/thymosin-alpha-1"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "reason": "2026-11-08: same-day revision; phase 3 regimens added to the retatrutide and survodutide tables, described in each record's 2026-11-08 changelog",
+      "pages": [
+        "/",
+        "/about",
+        "/compounds/retatrutide",
+        "/compounds/survodutide"
       ]
     }
   ]

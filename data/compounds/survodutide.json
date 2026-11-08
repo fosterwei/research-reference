@@ -249,6 +249,23 @@
         }
       },
       {
+        "value": "Phase 3 SYNCHRONIZE-CN design paper, 2026: In this 76-week, multicenter, randomized, double-blind, placebo-controlled, phase 3 trial, Chinese participants were randomized 1:1:1 to once-weekly subcutaneous survodutide (3.6 mg or 4.8 mg) or placebo plus lifestyle intervention. Participants with either body mass index (BMI) ≥ 28 kg/m 2 or BMI ≥ 24 kg/m 2 and at least one obesity-related complication were eligible.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42599381"
+        ],
+        "drafting": "extractive",
+        "source_excerpt": "In this 76-week, multicenter, randomized, double-blind, placebo-controlled, phase 3 trial, Chinese participants were randomized 1:1:1 to once-weekly subcutaneous survodutide (3.6 mg or 4.8 mg) or placebo plus lifestyle intervention. Participants with either body mass index (BMI) ≥ 28 kg/m 2 or BMI ≥ 24 kg/m 2 and at least one obesity-related complication were eligible.",
+        "fields": {
+          "phase": "maintenance",
+          "dose": "3.6 or 4.8 mg",
+          "frequency": "once weekly",
+          "route": "subcutaneous",
+          "duration": "76 weeks",
+          "population": "Chinese adults with BMI 28 or more, or 24 or more with an obesity-related complication"
+        }
+      },
+      {
         "value": "SYNCHRONIZE-MASLD spent its first 24 weeks escalating to 6.0 mg, and the phase 3 programme deliberately lengthened escalation compared with phase 2. The starting dose and the size of each step are in a figure the sources on this page do not reproduce, so they are not written here.",
         "evidence_label": "editorial",
         "source_ids": [
@@ -1229,6 +1246,13 @@
       "url": "https://europepmc.org/article/MED/36356832",
       "published": "2022-11-07",
       "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-42599381",
+      "title": "Survodutide for Obesity in Chinese Adults: Phase 3 Randomized Trial Design and Baseline Characteristics (SYNCHRONIZE™-CN).",
+      "url": "https://europepmc.org/article/MED/42599381",
+      "published": "2026-08-14",
+      "kind": "peer-reviewed"
     }
   ],
   "related": [],
@@ -1285,6 +1309,10 @@
     {
       "date": "2026-11-08",
       "change": "Dosing section laid out as a dosing guide: a quick-start box (starting dose, titration, frequency, route, evidence), a week-by-week schedule with dose and basis columns, and dosing questions in the FAQ. Every figure is the same cited, reviewed claim shown in the tables; no figure was added."
+    },
+    {
+      "date": "2026-11-08",
+      "change": "Added the phase 3 SYNCHRONIZE-CN trial in Chinese adults to the regimens as studied: 3.6 or 4.8 mg once weekly for 76 weeks. 4.8 mg is a target dose not used in the other phase 3 trials. The practical protocol is unchanged."
     }
   ],
   "guide": [
