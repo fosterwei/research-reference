@@ -135,35 +135,35 @@
     },
     "/compounds/aod-9604": {
       "lastmod": "2026-11-08",
-      "hash": "d34e7ccb1bdb29dd87c9e936b83ade1b761ac40b"
+      "hash": "13af39254dfc24fa162ca80a13ae564f0df9b4da"
     },
     "/compounds/ara-290": {
       "lastmod": "2026-11-08",
-      "hash": "c1e41f70b0ad87a10c3c2652f43036df7419252b"
+      "hash": "0af84efb9ebc487fcc80e7f16551a9c46a1ca882"
     },
     "/compounds/bpc-157": {
-      "lastmod": "2026-11-07",
-      "hash": "db5c8d99952152cf7d0c7d05af54b87f034ea3fd"
+      "lastmod": "2026-11-08",
+      "hash": "0c2c4ea9ccbf01b7909731c15cdda642f7036a24"
     },
     "/compounds/cagrilintide": {
       "lastmod": "2026-11-08",
-      "hash": "12326bf84e093251df48361685534562cd8c7f59"
+      "hash": "486916fea4ee4ad3d338723a12e753b4b2a23bbe"
     },
     "/compounds/cartalax": {
       "lastmod": "2026-09-29",
       "hash": "1750d07e88380cf4220a04d7a192c09e4e816dba"
     },
     "/compounds/cjc-1295": {
-      "lastmod": "2026-11-07",
-      "hash": "77a2e610f25c4ef452f533eb0d79675fb3aa87d2"
+      "lastmod": "2026-11-08",
+      "hash": "0e916c136ad1f6fd617730758796e530fc82444f"
     },
     "/compounds/dsip": {
       "lastmod": "2026-11-07",
       "hash": "379c659847b639b291116a5a95c79810d7c11f77"
     },
     "/compounds/epitalon": {
-      "lastmod": "2026-11-07",
-      "hash": "fe223ed8dd6254fcc2e4ff41f7468d7eaa321996"
+      "lastmod": "2026-11-08",
+      "hash": "8dcc577feaf147138f0006619826d37195d49598"
     },
     "/compounds/foxo4-dri": {
       "lastmod": "2026-11-07",
@@ -199,7 +199,7 @@
     },
     "/compounds/ll-37": {
       "lastmod": "2026-11-08",
-      "hash": "f027a9fcae5835799a57f2b92a422dd709be80d1"
+      "hash": "7473157161ad8fb066d344d721bf498fdb77a260"
     },
     "/compounds/melanotan-ii": {
       "lastmod": "2026-11-07",
@@ -215,15 +215,15 @@
     },
     "/compounds/retatrutide": {
       "lastmod": "2026-11-08",
-      "hash": "d7e664f96a1999988e95d3e06c235e1f66950b22"
+      "hash": "2cf93cdbe92318b246bb9ea777bef58d143c4f8e"
     },
     "/compounds/selank": {
       "lastmod": "2026-11-07",
       "hash": "28bb878a65b8a420d3909e09593de6edcfb1e28d"
     },
     "/compounds/semax": {
-      "lastmod": "2026-11-07",
-      "hash": "8f046163da4c7826784e77c649aabed617852c76"
+      "lastmod": "2026-11-08",
+      "hash": "108fb18f6aba90157a1356e09a2f2f12b8f80ade"
     },
     "/compounds/slu-pp-332": {
       "lastmod": "2026-11-07",
@@ -231,11 +231,11 @@
     },
     "/compounds/ss-31": {
       "lastmod": "2026-11-08",
-      "hash": "742d06371f46315fe3107e5435b4dca3b3b227d2"
+      "hash": "469ec6c7817432c8a8bfc87cacaeff8c3e51122f"
     },
     "/compounds/survodutide": {
       "lastmod": "2026-11-08",
-      "hash": "02537718e7a294775a45433be1e8d9dd32d5bb10"
+      "hash": "ee48e3d569dc614d34c56a285b9f00b28862e75f"
     },
     "/compounds/tb-500": {
       "lastmod": "2026-11-07",
@@ -243,15 +243,15 @@
     },
     "/compounds/tesamorelin": {
       "lastmod": "2026-11-08",
-      "hash": "821ace9ea77d9c23e0ffb0d3a9ea516296ee19df"
+      "hash": "4f187cf1b86e34323fd82e76c2fbd9070c58360f"
     },
     "/compounds/tesofensine": {
       "lastmod": "2026-11-08",
-      "hash": "d0f2ac15fb8614a4a427659c652b73f25cc6ed5f"
+      "hash": "0eab6fa9d1dbfa4997221a59d8966cc8c6c34cf0"
     },
     "/compounds/thymosin-alpha-1": {
       "lastmod": "2026-11-08",
-      "hash": "28ddd8b012e36a799011aac1694a39b1c73af850"
+      "hash": "b8ff7f4d2730f459b37ffc24a56268a173f51b25"
     },
     "/contact": {
       "lastmod": "2026-11-07",
@@ -496,6 +496,22 @@
       "pages": [
         "/compounds/dsip",
         "/compounds/kisspeptin"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "reason": "2026-11-08: same-day second revision; dosing section relaid out as a dosing guide, described in each record's 2026-11-08 changelog entry, so the date is already correct",
+      "pages": [
+        "/compounds/aod-9604",
+        "/compounds/ara-290",
+        "/compounds/cagrilintide",
+        "/compounds/ll-37",
+        "/compounds/retatrutide",
+        "/compounds/ss-31",
+        "/compounds/survodutide",
+        "/compounds/tesamorelin",
+        "/compounds/tesofensine",
+        "/compounds/thymosin-alpha-1"
       ]
     }
   ]

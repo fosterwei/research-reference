@@ -111,6 +111,18 @@ access); where no source on the page states the escalation, the step says so
 instead of filling it in. The validator rejects a step without `weeks` or
 `action`.
 
+**How the protocol is presented** (added 2026-11-08). The owner asked for the
+layout readers know from dosing-guide sites, with data still from authoritative
+sources. The section opens with a quick-start box (starting dose, titration
+path, frequency, route, evidence count), shows the schedule as a table with
+weeks, dose, action and basis, ends with "Practical notes and troubleshooting",
+and feeds dosing questions ("What is the starting dose of X?", "What is the X
+dosing schedule?", "What is the approved dose of X?", "What doses of X have been
+studied in humans?") into the page FAQ and its FAQPage markup. All of it is read
+from the same claims by `src/lib/protocol.ts`; the presentation never computes
+a dose. Supply lists, vendor reviews and affiliate links from those sites are
+not adopted.
+
 `community-reported` regimens stay where they were: in the dosage chart, labelled as
 circulating, sourced to where they appear. They are not a protocol provenance.
 

@@ -30,6 +30,7 @@ import HumanTrials from '../components/v2/HumanTrials.astro';
 import CombinationEvidence from '../components/v2/CombinationEvidence.astro';
 import EditorialSection from '../components/v2/EditorialSection.astro';
 import Calculators from '../components/Calculators.astro';
+import { protocolFaq } from '../lib/protocol';
 import Protocol from '../components/v2/Protocol.astro';
 import { qualifies as hasCalculator } from '../lib/calculators';
 import { entityLinker } from '../lib/entities';
@@ -178,7 +179,14 @@ const nextQuestions = (intent?.queries ?? [])
   .sort((x, y) => ((y.volume?.clickstream ?? y.volume?.google_ads ?? 0) - (x.volume?.clickstream ?? x.volume?.google_ads ?? 0)))
   .map((q) => ({ label: q.heading && !/^(How it compares|Studied in combination)$/.test(q.heading) ? q.heading : q.query.replace(/\b\w/, (c) => c.toUpperCase()), href: q.target! }))
   .filter((q, i, arr) => arr.findIndex((x) => x.href === q.href) === i);
-const faqItems = [...intentFaq, ...d.faq.map((f) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))];
+// Dosing questions in the words searches use, answered from the reviewed
+// protocol claims (src/lib/protocol.ts); skipped where the intent map or the
+// record already asks the same question.
+const citeIds = (ids: string[]) => ids.length ? `Source${ids.length > 1 ? 's' : ''} ${ids.map((id) => `<a href="#${id}"><code>${id}</code></a>`).join(', ')}.` : '';
+const baseFaq = [...intentFaq, ...d.faq.map((f) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))];
+const askedAlready = new Set(baseFaq.map((f) => f.question.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()));
+const dosingFaq = protocolHere ? protocolFaq(d.preferred_name, protocolClaims, citeIds).filter((f) => !askedAlready.has(f.question.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim())) : [];
+const faqItems = [...dosingFaq, ...baseFaq];
 if (faqItems.length > 0) blocks.push({ id: 'faq', kind: 'faq', label: 'Questions people ask', group: 'Context' });
 const faqSchema = faqItems.length > 0 ? [{
   '@context': 'https://schema.org', '@type': 'FAQPage',

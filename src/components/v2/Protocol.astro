@@ -7,6 +7,7 @@
 // separately from the page.
 import Tier from './Tier.astro';
 import { timeTag } from '../../lib/format';
+import { splitProtocol, quickStart, whenLabel, type PClaim } from '../../lib/protocol';
 interface Props {
   claims: any[];
   sources: any[];
@@ -15,18 +16,21 @@ interface Props {
 }
 const { claims, sources, name, review } = Astro.props;
 const src = new Map<string, any>((sources ?? []).map((s: any) => [s.id, s]));
-const label = claims.filter((c) => c.evidence_label === 'approved-label');
-const studied = claims.filter((c) => ['human-clinical-trial', 'observational-human'].includes(c.evidence_label));
-const practical = claims.filter((c) => c.evidence_label === 'editorial' && c.fields?.phase !== 'note');
-const notes = claims.filter((c) => c.evidence_label === 'editorial' && c.fields?.phase === 'note');
+const { label, studied, practical, notes } = splitProtocol(claims as PClaim[]);
+const facts = quickStart(claims as PClaim[]);
 const basis = (c: any) => c.source_ids ?? [];
-// "1–4" reads as "Weeks 1–4: "; "by week 24" as "By week 24: ".
-const when = (w?: string) => !w ? '' : /^\d/.test(w) ? `Weeks ${w}: ` : `${w[0].toUpperCase()}${w.slice(1)}: `;
+const when = (w?: string) => (w ? `${whenLabel(w)}: ` : '');
 const cols = ['phase', 'dose', 'frequency', 'route', 'duration', 'population'] as const;
 const head: Record<string, string> = { phase: 'Phase', dose: 'Dose', frequency: 'Frequency', route: 'Route', duration: 'Duration', population: 'Who received it' };
 const signed = Boolean(review?.protocol_reviewed_at);
 ---
 <div class="protocol">
+  <div class="prov">
+    <h3>{name} quick start</h3>
+    <dl class="facts quick">
+      {facts.map((f) => <div class="fact"><dt class="k">{f.k}</dt><dd class="v sm">{f.v}</dd>{f.s && <dd class="s">{f.s}</dd>}</div>)}
+    </dl>
+  </div>
   {label.length > 0 && (
     <div class="prov">
       <h3>Approved label dosing</h3>
@@ -57,9 +61,9 @@ const signed = Boolean(review?.protocol_reviewed_at);
       </div>
       <p class="lede">A schedule we have written by reading the label and the trial arms above together. It is a synthesis of what was studied, not a prescription, and each step names the rows it comes from. It assumes the population those studies enrolled; a clinician who knows your history is the only source for what applies to you.</p>
       <div class="card clip"><div class="tblwrap"><table class="tbl schedule">
-        <caption>{name}: the practical protocol week by week. Each row is a step below.</caption>
-        <thead><tr><th scope="col">Weeks</th><th scope="col">What to do</th></tr></thead>
-        <tbody>{practical.map((c) => <tr><th scope="row">{when(c.fields?.weeks).replace(/: $/, '')}</th><td>{c.fields?.action}</td></tr>)}</tbody>
+        <caption>{name} dosing schedule, week by week. Each row is a numbered step below, with its reason.</caption>
+        <thead><tr><th scope="col">Weeks</th><th scope="col">Dose</th><th scope="col">What to do</th><th scope="col">Basis</th></tr></thead>
+        <tbody>{practical.map((c) => <tr><th scope="row">{whenLabel(c.fields?.weeks)}</th><td class="num">{c.fields?.dose ?? '—'}</td><td>{c.fields?.action}</td><td>{basis(c).map((id: string, i: number) => <Fragment>{i > 0 && ', '}{src.get(id)?.url ? <a href={src.get(id).url} rel="nofollow noopener">{id}</a> : <span>{id}</span>}</Fragment>)}</td></tr>)}</tbody>
       </table></div></div>
       <ol class="list steps">
         {practical.map((c) => (
@@ -72,7 +76,7 @@ const signed = Boolean(review?.protocol_reviewed_at);
       </ol>
       {notes.length > 0 && (
         <Fragment>
-          <h4>Practical notes</h4>
+          <h4>Practical notes and troubleshooting</h4>
           <ul class="list notes">
             {notes.map((c) => (
               <li>
@@ -95,7 +99,8 @@ const signed = Boolean(review?.protocol_reviewed_at);
   .protocol .steps .act { display: block; color: var(--ink); }
   .protocol .steps .why { display: block; margin-top: 2px; }
   .protocol h4 { margin: 8px 0 0; font-size: 15px; }
-  .protocol .schedule th[scope=row] { white-space: nowrap; }
+  .protocol .schedule th[scope=row], .protocol .schedule td.num { white-space: nowrap; }
+  .protocol .quick .v { font-size: 16px; line-height: 1.35; font-family: inherit; }
   .protocol .basis { display: block; font-size: 13px; color: var(--ink-3); margin-top: 2px; }
   .protocol .practical { border-left: 3px solid var(--t-editorial); padding-left: 18px; }
 </style>
