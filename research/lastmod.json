@@ -135,19 +135,19 @@
     },
     "/compounds/aod-9604": {
       "lastmod": "2026-11-08",
-      "hash": "13af39254dfc24fa162ca80a13ae564f0df9b4da"
+      "hash": "0a10e6ad0c21dc575cf09ae594e7a2a6dcf1ef51"
     },
     "/compounds/ara-290": {
       "lastmod": "2026-11-08",
-      "hash": "0af84efb9ebc487fcc80e7f16551a9c46a1ca882"
+      "hash": "521e45edeb996f2801e18e205abc49268609575d"
     },
     "/compounds/bpc-157": {
       "lastmod": "2026-11-08",
-      "hash": "0c2c4ea9ccbf01b7909731c15cdda642f7036a24"
+      "hash": "1aea88322235ba81c021a7e51da5e92f3ae7508e"
     },
     "/compounds/cagrilintide": {
       "lastmod": "2026-11-08",
-      "hash": "486916fea4ee4ad3d338723a12e753b4b2a23bbe"
+      "hash": "ccac0c22a6529a9ae270e055c84e1f118223a549"
     },
     "/compounds/cartalax": {
       "lastmod": "2026-09-29",
@@ -155,7 +155,7 @@
     },
     "/compounds/cjc-1295": {
       "lastmod": "2026-11-08",
-      "hash": "0e916c136ad1f6fd617730758796e530fc82444f"
+      "hash": "ae92c7a060e5d89e3e2d5fd8ea192d56bf13d90f"
     },
     "/compounds/dsip": {
       "lastmod": "2026-11-07",
@@ -163,7 +163,7 @@
     },
     "/compounds/epitalon": {
       "lastmod": "2026-11-08",
-      "hash": "8dcc577feaf147138f0006619826d37195d49598"
+      "hash": "bc889e7963ce77cb3c8a877915f4f0134b6f4e87"
     },
     "/compounds/foxo4-dri": {
       "lastmod": "2026-11-07",
@@ -199,7 +199,7 @@
     },
     "/compounds/ll-37": {
       "lastmod": "2026-11-08",
-      "hash": "7473157161ad8fb066d344d721bf498fdb77a260"
+      "hash": "ea468ca2b8877d889311876bfd21c7c2d9df1dd8"
     },
     "/compounds/melanotan-ii": {
       "lastmod": "2026-11-07",
@@ -215,7 +215,7 @@
     },
     "/compounds/retatrutide": {
       "lastmod": "2026-11-08",
-      "hash": "b515c274f983407949f61e54533852a654b5b12f"
+      "hash": "03a8c072eb01f77a85aa27afa4a65f13143a2dd3"
     },
     "/compounds/selank": {
       "lastmod": "2026-11-07",
@@ -223,7 +223,7 @@
     },
     "/compounds/semax": {
       "lastmod": "2026-11-08",
-      "hash": "108fb18f6aba90157a1356e09a2f2f12b8f80ade"
+      "hash": "eda2109ee19468d82d023b8cc14ede5d087263f8"
     },
     "/compounds/slu-pp-332": {
       "lastmod": "2026-11-07",
@@ -231,11 +231,11 @@
     },
     "/compounds/ss-31": {
       "lastmod": "2026-11-08",
-      "hash": "469ec6c7817432c8a8bfc87cacaeff8c3e51122f"
+      "hash": "500f2e81a30731949b1bbe58fac4cf897d735956"
     },
     "/compounds/survodutide": {
       "lastmod": "2026-11-08",
-      "hash": "535f09e46764b84f20817265495cbd63a1e4455b"
+      "hash": "9ca00f78e22b3ba31cb2b4138dd1d44be9e699a9"
     },
     "/compounds/tb-500": {
       "lastmod": "2026-11-07",
@@ -243,15 +243,15 @@
     },
     "/compounds/tesamorelin": {
       "lastmod": "2026-11-08",
-      "hash": "4f187cf1b86e34323fd82e76c2fbd9070c58360f"
+      "hash": "2a916a533356da19f37f7058fd11b81024f826ca"
     },
     "/compounds/tesofensine": {
       "lastmod": "2026-11-08",
-      "hash": "0eab6fa9d1dbfa4997221a59d8966cc8c6c34cf0"
+      "hash": "34b78320821dfa5e67b43da08a27143b9f077176"
     },
     "/compounds/thymosin-alpha-1": {
       "lastmod": "2026-11-08",
-      "hash": "b8ff7f4d2730f459b37ffc24a56268a173f51b25"
+      "hash": "9f259bdee7effb614f6d7f0b82c054e6111f16de"
     },
     "/contact": {
       "lastmod": "2026-11-07",
@@ -522,6 +522,26 @@
         "/about",
         "/compounds/retatrutide",
         "/compounds/survodutide"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "reason": "2026-11-08: same-day revision; the first three quick-start facts are repeated under At a glance with a link to the dosing guide; no new content",
+      "pages": [
+        "/compounds/aod-9604",
+        "/compounds/ara-290",
+        "/compounds/bpc-157",
+        "/compounds/cagrilintide",
+        "/compounds/cjc-1295",
+        "/compounds/epitalon",
+        "/compounds/ll-37",
+        "/compounds/retatrutide",
+        "/compounds/semax",
+        "/compounds/ss-31",
+        "/compounds/survodutide",
+        "/compounds/tesamorelin",
+        "/compounds/tesofensine",
+        "/compounds/thymosin-alpha-1"
       ]
     }
   ]

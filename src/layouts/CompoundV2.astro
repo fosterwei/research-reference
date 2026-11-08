@@ -30,7 +30,7 @@ import HumanTrials from '../components/v2/HumanTrials.astro';
 import CombinationEvidence from '../components/v2/CombinationEvidence.astro';
 import EditorialSection from '../components/v2/EditorialSection.astro';
 import Calculators from '../components/Calculators.astro';
-import { protocolFaq } from '../lib/protocol';
+import { protocolFaq, quickStart } from '../lib/protocol';
 import Protocol from '../components/v2/Protocol.astro';
 import { qualifies as hasCalculator } from '../lib/calculators';
 import { entityLinker } from '../lib/entities';
@@ -185,6 +185,9 @@ const nextQuestions = (intent?.queries ?? [])
 const citeIds = (ids: string[]) => ids.length ? `Source${ids.length > 1 ? 's' : ''} ${ids.map((id) => `<a href="#${id}"><code>${id}</code></a>`).join(', ')}.` : '';
 const baseFaq = [...intentFaq, ...d.faq.map((f) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))];
 const askedAlready = new Set(baseFaq.map((f) => f.question.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()));
+// The first three quick-start facts, repeated under "At a glance" so a reader
+// searching for the dose sees it without scrolling to the dosing guide.
+const dosingGlance = protocolHere ? quickStart(protocolClaims).slice(0, 3) : [];
 const dosingFaq = protocolHere ? protocolFaq(d.preferred_name, protocolClaims, citeIds).filter((f) => !askedAlready.has(f.question.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim())) : [];
 const faqItems = [...dosingFaq, ...baseFaq];
 if (faqItems.length > 0) blocks.push({ id: 'faq', kind: 'faq', label: 'Questions people ask', group: 'Context' });
@@ -238,7 +241,15 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
     <div class="layout">
       <aside><Toc items={toc} /></aside>
       <div class="content">
-        <section id="glance"><h2>At a glance</h2><FactTiles record={d} reg={reg} /></section>
+        <section id="glance"><h2>At a glance</h2><FactTiles record={d} reg={reg} />
+          {dosingGlance.length > 0 && (
+            <div class="dosing-glance">
+              <h3>Dosing at a glance</h3>
+              <dl class="facts">{dosingGlance.map((f) => <div class="fact"><dt class="k">{f.k}</dt><dd class="v sm">{f.v}</dd>{f.s && <dd class="s">{f.s}</dd>}</div>)}</dl>
+              <p class="more"><a href="#protocol">{dosingGlance[0].k === 'Starting dose' ? 'Full dosing guide: schedule, trials behind each step, and notes' : 'Doses given in human studies, with their sources'}</a></p>
+            </div>
+          )}
+        </section>
         <StatusBar review={d.review} status={d.status} sources={d.sources.length} updated={updated} />
         {intent?.decline_notice && <p class="lede">{intent.decline_notice}</p>}
         <section id="what"><h2>{headingFor(intent, 'what', 'What it is')}</h2>{summaryParas.map((html) => <p class="prose-lg" set:html={html} />)}</section>

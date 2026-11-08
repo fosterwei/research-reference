@@ -343,3 +343,8 @@ accept everything or reject everything.
   the reviewed schedule week by week with each single-figure dose converted
   to U-100 units at 2 mL in 2, 5 and 10 mg vials. A dose larger than the vial
   reads "more than the vial"; a range or concentration is not converted.
+- 2026-11-08 — "Dosing at a glance" under the page's At a glance section: the
+  first three quick-start facts and a jump link to the dosing guide, on the 14
+  compounds with a protocol. A reader searching for the dose sees it without
+  scrolling past the evidence sections. SYNCHRONIZE-CN full text still HTTP
+  500 from Europe PMC.
