@@ -316,7 +316,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
               </section>
             );
             case 'claims': return (
-              <section id={b.id}><div><h2>{b.label}</h2><p class="lede">{ledeFor(b.field!)}</p></div>{tabular(A[b.field!]) ? <ClaimTable claims={A[b.field!]} sources={d.sources} caption={`${b.label}: one row per study, each finding cited.`} /> : <ClaimCards claims={A[b.field!]} sources={d.sources} />}{b.field === 'weight_normalized_doses' && <WeightCaveat />}</section>
+              <section id={b.id}><div><h2>{b.label}</h2><p class="lede">{ledeFor(b.field!)}{b.field === 'study_durations' && <> How this compares with other compounds is on the <a href="/cycles">peptide cycle length</a> page.</>}</p></div>{tabular(A[b.field!]) ? <ClaimTable claims={A[b.field!]} sources={d.sources} caption={`${b.label}: one row per study, each finding cited.`} /> : <ClaimCards claims={A[b.field!]} sources={d.sources} />}{b.field === 'weight_normalized_doses' && <WeightCaveat />}</section>
             );
             case 'absence': {
               const human = evidence.find(([f]) => f === b.field)?.[3] ?? b.field;

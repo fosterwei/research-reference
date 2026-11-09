@@ -1,0 +1,47 @@
+---
+// A-Z glossary of terms used on the record pages (src/lib/glossary.ts).
+import Base from '../layouts/Base.astro';
+import { TERMS } from '../lib/glossary';
+import '../styles/compound-v2.css';
+
+const terms = [...TERMS].sort((a, b) => a.term.localeCompare(b.term, 'en', { sensitivity: 'base' }));
+const letters = [...new Set(terms.map((x) => x.term[0].toUpperCase()))];
+const byLetter = letters.map((l) => ({ l, items: terms.filter((x) => x.term[0].toUpperCase() === l) }));
+const path = '/glossary';
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ name: 'Home', path: '/' }, { name: 'Peptide glossary', path }].map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.path, Astro.site).toString() })) },
+  {
+    '@context': 'https://schema.org', '@type': 'DefinedTermSet', name: 'Peptide research glossary', url: new URL(path, Astro.site).toString(),
+    hasDefinedTerm: terms.map((x) => ({ '@type': 'DefinedTerm', name: x.term, description: x.def, url: new URL(`${path}#${x.id}`, Astro.site).toString(), ...(x.aka ? { alternateName: x.aka } : {}) })),
+  },
+];
+---
+<Base
+  title="Peptide Glossary: Research Terms Explained A to Z"
+  description={`${terms.length} terms used in peptide research, explained in plain English: from half-life and titration to GLP-1 receptor agonists, with links to the compounds they apply to.`}
+  path={path} indexable={true} siteSuffix={false} jsonld={jsonld}>
+  <article class="prose-page v2">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span>Peptide glossary</span></nav>
+    <p class="eyebrow">Reference</p>
+    <h1>Peptide glossary: research terms explained</h1>
+    <p class="dek">
+      The words that recur on the compound pages, from trial design to dosing arithmetic, explained in
+      plain English. These definitions are the site's own explanatory text: they explain vocabulary
+      and make no claim about any compound. Findings about a compound are on its page, each cited.
+    </p>
+    <nav class="az" aria-label="Glossary letters">{letters.map((l) => <a href={`#letter-${l}`}>{l}</a>)}</nav>
+    {byLetter.map(({ l, items }) => (
+      <section id={`letter-${l}`}>
+        <h2>{l}</h2>
+        <dl class="gloss">
+          {items.map((x) => (
+            <div id={x.id}>
+              <dt><b>{x.term}</b>{x.aka ? <span class="aka"> ({x.aka})</span> : null}</dt>
+              <dd>{x.def}{x.see?.length ? <span class="see"> See: {x.see.map(([lab, href], i) => <>{i > 0 ? ', ' : ''}<a href={href}>{lab}</a></>)}.</span> : null}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    ))}
+  </article>
+</Base>
