@@ -397,7 +397,7 @@
         "plain": "In a 2019 genetic study of stroke (Shen), 1012 DNA methylation sites in 672 genes were linked to large-artery stroke at screening; the title highlights lower methylation of MTRNR2L8, a humanin-like gene. Humanin was not given."
       },
       {
-        "value": "Clinical trial, humans, 2017: In AMD cybrids, HNG protected the AMD mitochondria, reduced pro-apoptosis gene and protein levels, upregulated gp130 (a component of the HN receptor complex), and increased the protection against amyloid-β-induced damage.",
+        "value": "In vitro study, cybrid cells carrying patient mitochondria, 2017: In AMD cybrids, HNG protected the AMD mitochondria, reduced pro-apoptosis gene and protein levels, upregulated gp130 (a component of the HN receptor complex), and increased the protection against amyloid-β-induced damage.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-28726777"
@@ -407,9 +407,9 @@
         "fields": {
           "study": "Nashine 2017",
           "year": "2017",
-          "design": "In vitro study (humanin analogue added to cultured cells)",
+          "design": "In vitro study",
           "n": null,
-          "species": "Human-derived cells, cultured",
+          "species": "Human-derived cells",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
@@ -481,7 +481,7 @@
         "plain": "In a 2026 multicenter study of people on dialysis (Bolignano), blood humanin had a curved relationship with heart illness and death, with low levels (and, per the authors, high levels) linked to higher risk. Humanin was measured, not given."
       },
       {
-        "value": "Human study, humans, 2026: HNF 14 treatment was associated with improved metabolic activity and reduced cytotoxicity in AMD cybrids, with minimal effects in normal cybrids.",
+        "value": "In vitro study, cybrid cells carrying patient mitochondria, 2026: HNF 14 treatment was associated with improved metabolic activity and reduced cytotoxicity in AMD cybrids, with minimal effects in normal cybrids.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-41827105"
@@ -491,9 +491,9 @@
         "fields": {
           "study": "Nashine 2026",
           "year": "2026",
-          "design": "In vitro study (humanin fragment added to cultured cells)",
+          "design": "In vitro study",
           "n": null,
-          "species": "Human-derived cells, cultured",
+          "species": "Human-derived cells",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
@@ -1296,6 +1296,10 @@
     {
       "date": "2026-11-08",
       "change": "Added 52 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Corrected the study line on 2 findings whose evidence label was already right but whose design and species still described a human study. The findings and their citations are unchanged. Added a \"who should avoid\" section. No exclusion criteria or approved label for Humanin is on record, and the section says so, then points to what the record does hold: its regulatory status, its side-effect findings and the populations its human studies enrolled."
     }
   ],
   "guide": [

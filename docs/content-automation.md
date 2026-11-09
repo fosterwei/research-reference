@@ -427,3 +427,16 @@ accept everything or reject everything.
   English as the site's own explanatory text, with DefinedTermSet markup and
   links to the records each term applies to. The footer no longer says claims
   are "quoted verbatim"; it has said the wrong thing since PR #105.
+- 2026-11-09 — "Who should avoid" on every compound page, and glossary links.
+  The 22 compound pages with no exclusion on record now carry the section as
+  an honest absence: it says no trial or label on record defines who should
+  avoid the compound, then lists what the record does hold (one regulatory
+  line, cited, or the record's editorial line marked as such; the count of
+  side-effect findings with a link; the populations its human regimens
+  enrolled). Building it surfaced label debt: SLU-PP-332's only "human"
+  evidence was a cell study on donor myoblasts (relabelled in vitro, tier now
+  animal / preclinical), and nine findings in six records had correct labels
+  but study lines still reading "human study" (corrected by hand). Written
+  prose on compound, stack and comparison pages links the first mention of up
+  to four glossary terms to /glossary (`glossaryLinker`, built on the record
+  linker in `src/lib/entities.ts`).

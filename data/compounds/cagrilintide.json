@@ -920,7 +920,7 @@
         "plain": "Background: a 2025 modelling paper (Al-Harbi) combined evidence on CagriSema, cagrilintide and amycretin in a network meta-analysis (a statistical comparison across trials); the excerpt gives no result."
       },
       {
-        "value": "Randomized controlled trial, humans, n=15, 2025: Eloralintide induced significantly less conditioned taste avoidance in lean rats than cagrilintide, a non-selective amylin receptor agonist (p 2 .",
+        "value": "Animal study, rats, 2025: Eloralintide induced significantly less conditioned taste avoidance in lean rats than cagrilintide, a non-selective amylin receptor agonist (p 2 .",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-41109426"
@@ -930,7 +930,7 @@
         "fields": {
           "study": "Briere 2025",
           "year": "2025",
-          "design": "Animal study (eloralintide compared with cagrilintide)",
+          "design": "Animal study",
           "n": null,
           "species": "Rats",
           "dose": "not stated in abstract",
@@ -1668,6 +1668,10 @@
     {
       "date": "2026-11-09",
       "change": "Replaced the \"who should avoid\" section with exclusion criteria taken from the trial reports themselves (open-access full text via Europe PMC). The lines it held before described enrolment or study design, not exclusions, and were removed; their sources stay cited elsewhere on the page."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Corrected the study line on 1 finding whose evidence label was already right but whose design and species still described a human study. The findings and their citations are unchanged."
     }
   ],
   "guide": [

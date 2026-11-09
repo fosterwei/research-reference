@@ -7,7 +7,7 @@
   ],
   "slug": "slu-pp-332",
   "status": "draft",
-  "evidence_tier": "observational-human",
+  "evidence_tier": "animal-preclinical",
   "summary": "SLU-PP-332 is a small molecule in the metabolic other class (ERR pan-agonist, exercise mimetic). Europe PMC indexes 12 publications naming it or a listed alias in a title or abstract, including 0 randomized controlled trials and 0 clinical trials of any design, as of 2026-09-14. The strongest evidence tier in that literature is observational human studies, with no indexed randomized trial. This page reports what those studies state, sentence by sentence, with each statement tied to its source and labeled by the kind of evidence it is. It does not recommend use, and it does not translate study doses into anything personal.",
   "seo": {
     "title": "SLU-PP-332: What the Mouse Studies Show, Status, Cautions",
@@ -33,8 +33,8 @@
     "adverse_events": [],
     "biomarkers_monitored": [
       {
-        "value": "Human study, humans, n=10, 2025: Primary cultures of myoblasts were set up from the muscle tissue of inactive women and treated with the ERRs agonist, SLU-PP-332, for subsequent qualitative and quantitative investigations.",
-        "evidence_label": "observational-human",
+        "value": "In vitro study, human donor cells (myoblasts from 10 women), 2025: Primary cultures of myoblasts were set up from the muscle tissue of inactive women and treated with the ERRs agonist, SLU-PP-332, for subsequent qualitative and quantitative investigations.",
+        "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-40692696"
         ],
@@ -58,7 +58,7 @@
     ],
     "study_durations": [
       {
-        "value": "Human study, humans, 2023: durations stated: 21 month; 8 weeks; 3 weeks. A pan-ERR agonist, SLU-PP-332, was used to treat 21-month-old mice for 8 weeks.",
+        "value": "Animal study, mice, 2023: durations stated: 21 month; 8 weeks; 3 weeks. A pan-ERR agonist, SLU-PP-332, was used to treat 21-month-old mice for 8 weeks.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-37717940"
@@ -80,8 +80,8 @@
     ],
     "evidence_table": [
       {
-        "value": "Human study, humans, n=10, 2025: Interestingly, SLU-PP-332 treatment promoted down-regulation of NOX4 and upregulation of SIRT1, PGC-1α, ERRα, FNDC5, Akt, and B-cell lymphoma 2 (Bcl-2) in myoblasts, reducing cytotoxicity, oxidative stress, and senescence, as well as increasing levels of reduced glutathione.",
-        "evidence_label": "observational-human",
+        "value": "In vitro study, human donor cells (myoblasts from 10 women), 2025: Interestingly, SLU-PP-332 treatment promoted down-regulation of NOX4 and upregulation of SIRT1, PGC-1α, ERRα, FNDC5, Akt, and B-cell lymphoma 2 (Bcl-2) in myoblasts, reducing cytotoxicity, oxidative stress, and senescence, as well as increasing levels of reduced glutathione.",
+        "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-40692696"
         ],
@@ -90,9 +90,9 @@
         "fields": {
           "study": "Bonanni 2025",
           "year": "2025",
-          "design": "Human study",
+          "design": "In vitro study",
           "n": 10,
-          "species": "Humans",
+          "species": "Human donor cells",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
@@ -101,7 +101,7 @@
         "plain": "In muscle cells grown in a lab from 10 inactive women (Bonanni, 2025), SLU-PP-332 shifted several stress and energy markers and reduced cell damage, oxidative stress and cell aging."
       },
       {
-        "value": "Human study, humans, 2023: Remarkably, similar to CR, an 8-week treatment with a pan-ERR agonist reversed the age-related increases in albuminuria, podocyte loss, mitochondrial dysfunction, and inflammatory cytokines, via the cyclic GMP-AMP synthase-STING and STAT3 signaling pathways.",
+        "value": "Animal study, mice, 2023: Remarkably, similar to CR, an 8-week treatment with a pan-ERR agonist reversed the age-related increases in albuminuria, podocyte loss, mitochondrial dysfunction, and inflammatory cytokines, via the cyclic GMP-AMP synthase-STING and STAT3 signaling pathways.",
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-37717940"
@@ -506,6 +506,10 @@
     {
       "date": "2026-11-08",
       "change": "Added 8 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Corrected two labels: the 2025 Bonanni pilot treated muscle cells grown in a lab from donors, so it is a cell study, not an observational human study. With no human study left on record, the strongest evidence tier is now animal / preclinical. Two findings from a 2023 mouse study (Wang) also carried a \"human study\" line; it now reads \"animal study, mice\". The findings and their citations are unchanged. Added a \"who should avoid\" section. No exclusion criteria or approved label for SLU-PP-332 is on record, and the section says so, then points to what the record does hold: its regulatory status, its side-effect findings and the populations its human studies enrolled."
     }
   ],
   "guide": [

@@ -110,7 +110,7 @@
         "plain": "In a 1993 pilot study without a control group, eight short children before puberty used a nasal spray form of GHRH(1-29)-NH2 (sermorelin) for 6 months, with growth hormone release and growth measured."
       },
       {
-        "value": "Human study, humans, n=325, 2021: Lastly, the Kaplan-Meier method showed the patient's benefit from sermorelin was independent of postoperative adjuvant treatment.",
+        "value": "Computational analysis of patient data, n=325, 2021: Lastly, the Kaplan-Meier method showed the patient's benefit from sermorelin was independent of postoperative adjuvant treatment.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-33842627"
@@ -499,7 +499,7 @@
         "plain": "In a 1993 pilot study without a control group of short children (Hümmelink), nasal GHRH(1-29)-NH2 (sermorelin) raised lower-leg growth rate from 0.24 to 0.48 mm/week at 6 weeks, which then quickly fell; 6-month height growth did not increase."
       },
       {
-        "value": "Human study, humans, n=325, 2021: After high-throughput drug screening, we found that recurrent glioma patients were most sensitive to sermorelin.",
+        "value": "Computational analysis of patient data, n=325, 2021: After high-throughput drug screening, we found that recurrent glioma patients were most sensitive to sermorelin.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-33842627"
@@ -509,9 +509,9 @@
         "fields": {
           "study": "Chang 2021",
           "year": "2021",
-          "design": "Computational drug screening on patient data",
+          "design": "Computational analysis",
           "n": 325,
-          "species": "Human tumour data",
+          "species": "Human data",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
@@ -935,6 +935,10 @@
     {
       "date": "2026-11-08",
       "change": "Corrected evidence labels found while rewriting in plain English: biomarkers_monitored entry 3: observational human to mechanistic in vitro; evidence_table entry 15: observational human to mechanistic in vitro."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Corrected the study line on 2 findings whose evidence label was already right but whose design and species still described a human study. The findings and their citations are unchanged. Added a \"who should avoid\" section. No exclusion criteria or approved label for Sermorelin is on record, and the section says so, then points to what the record does hold: its regulatory status, its side-effect findings and the populations its human studies enrolled."
     }
   ]
 }

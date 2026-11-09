@@ -167,7 +167,10 @@ for them. "Who should avoid" holds only real exclusions: a trial's exclusion
 or eligibility criteria, or an approved label's contraindications and
 pregnancy, breast-feeding or caution statements. A sentence that says who was
 enrolled or how people were assigned is design, not an exclusion, and does not
-belong there. Storage comes from the approved label where one exists, and
+belong there. With no exclusion on record the section still renders, as an
+absence statement followed by what the record does hold for that compound
+(regulatory status, side-effect findings, populations studied); it never fills
+the gap with general advice. Storage comes from the approved label where one exists, and
 otherwise from stability studies. Minor sections with a single finding are
 gathered into one section on the page rather than given an H2 each.
 
