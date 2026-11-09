@@ -18,6 +18,7 @@ import { entityLinker } from '../lib/entities';
 import { rich, paragraphs, timeTag } from '../lib/format';
 import { SITE_NAME, isIndexable, title, description, lastmod, formatCount, TIER_LABEL, imageObjects } from '../lib/site';
 import { compound as regCompound, className, comparisons as planned } from '../lib/registry';
+import { keywordHeading } from '../lib/headings';
 import { loadIntent, headingFor, boundaryFor, orderBlocks, queriesFor } from '../lib/intents';
 
 interface Props { slug: string }
@@ -81,10 +82,16 @@ if (d.open_questions?.length) blocks.push({ id: 'open', kind: 'open', label: 'Op
 const intentFaq = queriesFor(intent, 'faq').filter((q) => q.answer).map((q) => ({ question: q.heading ?? q.query, answer: rich(q.answer!, { bold: 2, seen }) }));
 const faqItems = [...intentFaq, ...(d.faq ?? []).map((f: any) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))];
 if (faqItems.length) blocks.push({ id: 'faq', kind: 'faq', label: 'Questions people ask', group: 'Context' });
+const shortName = [a?.data.preferred_name, b?.data.preferred_name].filter(Boolean).join(' vs ');
+const kwh = (s: string) => keywordHeading(shortName, s);
+for (const blk of blocks) {
+  blk.label = kwh(blk.label);
+  if (blk.guide) blk.guide = { ...blk.guide, heading: kwh(blk.guide.heading) };
+}
 const body = orderBlocks(intent, blocks);
 const toc = [
-  { id: 'glance', label: 'At a glance', group: '' },
-  { id: 'what', label: headingFor(intent, 'what', 'The short answer'), group: '' },
+  { id: 'glance', label: kwh('At a glance'), group: '' },
+  { id: 'what', label: kwh(headingFor(intent, 'what', 'The short answer')), group: '' },
   ...body.map((x) => ({ id: x.id, label: x.label, group: x.group })),
   ...(d.sources?.length ? [{ id: 'sources', label: `Sources (${d.sources.length})`, group: 'Reference' }] : []),
   { id: 'card', label: 'Reference card', group: 'Reference' },
@@ -117,7 +124,7 @@ const breadcrumbs = {
     <div class="layout">
       <aside><Toc items={toc} /></aside>
       <div class="content">
-        <section id="glance"><h2>At a glance</h2>
+        <section id="glance"><h2>{kwh('At a glance')}</h2>
           <div class="facts">
             {a && <div class="fact"><div class="k">{a.data.preferred_name}</div><div class="v"><Tier tier={a.data.evidence_tier} class="lg" /></div><div class="s">{formatCount(a.data.evidence_summary?.publications?.total)} publications · {approval(a)}</div></div>}
             {b && <div class="fact"><div class="k">{b.data.preferred_name}</div><div class="v"><Tier tier={b.data.evidence_tier} class="lg" /></div><div class="s">{formatCount(b.data.evidence_summary?.publications?.total)} publications · {approval(b)}</div></div>}
@@ -125,7 +132,7 @@ const breadcrumbs = {
           </div>
         </section>
         <StatusBar review={d.review ?? {}} status={d.status} sources={d.sources?.length ?? 0} updated={updated} />
-        <section id="what"><h2>{headingFor(intent, 'what', 'The short answer')}</h2>{summaryParas.map((h: string) => <p class="prose-lg" set:html={h} />)}</section>
+        <section id="what"><h2>{kwh(headingFor(intent, 'what', 'The short answer'))}</h2>{summaryParas.map((h: string) => <p class="prose-lg" set:html={h} />)}</section>
         {body.map((x) => {
           switch (x.kind) {
             case 'side-by-side': return (

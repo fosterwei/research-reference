@@ -1,6 +1,6 @@
 ---
-interface Props { record: any }
-const { record: d } = Astro.props;
+interface Props { record: any; heading?: string }
+const { record: d, heading } = Astro.props;
 const rows = d.attributes?.evidence_table ?? [];
 const humanRows = rows.filter((r: any) => r.fields?.species === 'Humans' && !/method|in vitro|measured, not given/i.test(r.fields?.design ?? ''));
 const randomizedRows = humanRows.filter((r: any) => /random/i.test(r.fields?.design ?? ''));
@@ -9,7 +9,7 @@ const assessment = d.evidence_assessment ?? {};
 ---
 <section id="assessment" class="assessment" aria-labelledby="assessment-title">
   <div>
-    <h2 id="assessment-title">What the evidence level means</h2>
+    <h2 id="assessment-title">{heading ?? 'What the evidence level means'}</h2>
     <p class="lede">Publication counts show what is indexed, not how strong the evidence is. The ledger below separates human clinical records from preclinical, analytical, and in-vitro work.</p>
   </div>
   <div class="assessment-grid">

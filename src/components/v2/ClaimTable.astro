@@ -1,0 +1,40 @@
+---
+// The same claims ClaimCards shows, as a table: one row per study, with the
+// study line split into columns so a reader can scan design, population and
+// finding side by side. Used where a section has enough rows to be worth
+// scanning; the finding is the plain-English statement with its citation mark.
+import Tier from './Tier.astro';
+import { parseClaim, type Claim } from '../../lib/claims';
+import { citer } from '../../lib/cite';
+interface Props { claims: Claim[]; sources?: Array<{ id: string; url: string }>; caption: string }
+const { claims, sources = [], caption } = Astro.props;
+const cite = citer(sources);
+const rows = claims.map((c) => {
+  const p = parseClaim(c);
+  const plain = (c as any).plain as string | undefined;
+  return {
+    c,
+    study: [p.design, p.year].filter(Boolean).join(', ') || '—',
+    who: [p.species ? p.species.charAt(0).toUpperCase() + p.species.slice(1) : '', p.n ? `n = ${p.n}` : ''].filter(Boolean).join(', ') || '—',
+    finding: plain ? cite.sentence(plain, c.source_ids) : cite.sentence(p.quote ?? p.text, c.source_ids),
+  };
+});
+---
+<div class="card clip"><div class="tblwrap"><table class="tbl claimtbl">
+  <caption>{caption}</caption>
+  <thead><tr><th scope="col">Study</th><th scope="col">Who</th><th scope="col">What it found</th><th scope="col">Evidence</th></tr></thead>
+  <tbody>
+    {rows.map((r) => (
+      <tr>
+        <th scope="row" class="study">{r.study}</th>
+        <td>{r.who}</td>
+        <td class="out" set:html={r.finding} />
+        <td><Tier tier={r.c.evidence_label} /></td>
+      </tr>
+    ))}
+  </tbody>
+</table></div></div>
+<style>
+  .claimtbl th.study { white-space: nowrap; font-weight: 600; }
+  .claimtbl td.out { min-width: 18rem; }
+</style>
