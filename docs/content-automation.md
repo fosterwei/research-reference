@@ -397,3 +397,22 @@ accept everything or reject everything.
   changelog. Claim sections with three or more studies render through
   `ClaimTable.astro` (study, who, what it found with its mark, evidence tier),
   taking compound pages from 6-7 tables to 11-13.
+- 2026-11-09 — Fixed sections and thin sections. Every "who should avoid"
+  line on the site turned out to describe enrolment or design ("eligible
+  participants were randomly assigned ..."), because the drafter's exclusion
+  pattern matched the bare word "eligible". The pattern now needs exclusion or
+  eligibility-criteria language (tests in `scripts/test_drafter.py`), the
+  misfiled lines were removed (each source is still cited elsewhere on its
+  page), and 22 real exclusions were written for 9 compounds from the trials'
+  open-access full text (Europe PMC), each excerpt checked verbatim against the
+  paper. Semaglutide and tirzepatide gained the EU label (EMA product
+  information for Wegovy and Mounjaro) as a source: contraindication,
+  pregnancy and breast-feeding or pancreatitis advice, and storage and shelf
+  life. ClinicalTrials.gov, DailyMed and openFDA are unreachable from the
+  build sandbox (TLS failure), so US labels and registry criteria still need
+  fetching elsewhere. The five safeguard-stopped records were not touched.
+  Compound pages with two or more one-finding minor sections (titration,
+  cycle length, routes, dose per kg, interactions, timeline) now gather them
+  into one "More <name> study details" section with H3s that keep the keyword
+  headings and the anchors; side effects, who should avoid, blood tests,
+  storage, regulatory status and reported use always keep their own H2.

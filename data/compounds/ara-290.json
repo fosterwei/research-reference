@@ -309,7 +309,28 @@
         "plain": "In a 2020 animal study of islet transplantation (transfer of insulin-making pancreas cells), cibinetide combined with low-dose tacrolimus (an immune-suppressing drug) was reported to significantly improve long-term graft survival."
       }
     ],
-    "exclusion_criteria": [],
+    "exclusion_criteria": [
+      {
+        "value": "Clinical trial, humans, 2020: Patients were excluded if they had edema related to other causes, active proliferative diabetic retinopathy requiring treatment or other eye diseases that could affect vision, hazy media, allergy to fluorescein, had received previous treatment for DME, had CRT of <400µm in the study eye, were receiving systemic/topical steroids, erythropoiesis stimulating agents or investigational medications.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32674280"
+        ],
+        "source_excerpt": "Patients were excluded if they had edema related to other causes, active proliferative diabetic retinopathy requiring treatment or other eye diseases that could affect vision, hazy media, allergy to fluorescein, had received previous treatment for DME, had CRT of <400µm in the study eye, were receiving systemic/topical steroids, erythropoiesis stimulating agents or investigational medications.",
+        "drafting": "extractive",
+        "plain": "The 2020 phase 2 trial of ARA-290 (cibinetide) in diabetic macular oedema excluded people taking steroids, erythropoiesis-stimulating agents or other investigational drugs, and people with other eye diseases that affect vision."
+      },
+      {
+        "value": "Clinical trial, humans, 2020: Pregnant or breastfeeding women, pre-menopausal women unwilling to take a pregnancy test prior to trial entry or use contraception during the study and men who had female partners and were unwilling to undertake adequate precautions to prevent pregnancy were excluded.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32674280"
+        ],
+        "source_excerpt": "Pregnant or breastfeeding women, pre-menopausal women unwilling to take a pregnancy test prior to trial entry or use contraception during the study and men who had female partners and were unwilling to undertake adequate precautions to prevent pregnancy were excluded.",
+        "drafting": "extractive",
+        "plain": "The same trial excluded pregnant or breastfeeding women, and anyone of reproductive age, women or men, who would not use contraception during the study."
+      }
+    ],
     "adverse_events": [
       {
         "value": "The 22-patient pilot raised no safety concerns on clinical or laboratory assessment.",
@@ -1380,6 +1401,10 @@
     {
       "date": "2026-11-08",
       "change": "Added 34 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Replaced the \"who should avoid\" section with exclusion criteria taken from the trial reports themselves (open-access full text via Europe PMC). The lines it held before described enrolment or study design, not exclusions, and were removed; their sources stay cited elsewhere on the page."
     }
   ],
   "guide": [

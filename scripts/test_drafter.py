@@ -233,6 +233,21 @@ class SubjectMatch(unittest.TestCase):
         self.assertTrue(fe.subject_match(paper("37366315"), {"name": "Retatrutide", "aliases": ["LY3437943"]}))
 
 
+class ExclusionPattern(unittest.TestCase):
+    """Only exclusion language files a sentence under exclusion criteria."""
+
+    P = dc.PATTERNS["exclusion_criteria"]
+
+    def test_enrolment_is_not_an_exclusion(self):
+        self.assertIsNone(self.P.search("Eligible participants were randomly assigned to semaglutide 2.4 mg or placebo."))
+        self.assertIsNone(self.P.search("Of 294 people screened, 189 were eligible and enrolled."))
+
+    def test_exclusion_language_matches(self):
+        self.assertIsNotNone(self.P.search("Exclusion criteria included type 1 diabetes and prior pancreatitis."))
+        self.assertIsNotNone(self.P.search("Patients with severe renal impairment were excluded."))
+        self.assertIsNotNone(self.P.search("Pregnant women were not eligible."))
+
+
 class SpeciesFromText(unittest.TestCase):
     def test_honeybees_are_not_humans(self):
         # pmid-34571768 sat on the BPC-157 page as an observational human study.

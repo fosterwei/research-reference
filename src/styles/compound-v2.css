@@ -156,3 +156,5 @@ sup.cite { font-size: .72em; line-height: 0; margin-left: 2px; font-variant-nume
 sup.cite a { text-decoration: none; color: var(--accent, var(--ink-2)); }
 sup.cite a:hover, sup.cite a:focus-visible { text-decoration: underline; }
 .v2 .claim .plain-claim { margin: 6px 0 0; font-size: 16px; line-height: 1.55; color: var(--ink); }
+.v2 .bundle-part { margin-top: 22px; scroll-margin-top: 80px; }
+.v2 .bundle-part h3 { font-size: 17px; margin: 0 0 8px; }

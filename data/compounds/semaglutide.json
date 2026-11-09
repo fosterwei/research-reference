@@ -235,24 +235,34 @@
     ],
     "exclusion_criteria": [
       {
-        "value": "Randomized controlled trial, humans, n=99, 2026: Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
-        "evidence_label": "human-clinical-trial",
+        "value": "Approved label (EU, Wegovy), section 4.3: contraindicated in hypersensitivity to semaglutide or any excipient.",
+        "evidence_label": "approved-label",
         "source_ids": [
-          "pmid-42456707"
+          "ema-wegovy-smpc"
         ],
-        "source_excerpt": "Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
+        "source_excerpt": "Hypersensitivity to the active substance or to any of the excipients listed in section 6.1.",
         "drafting": "extractive",
-        "plain": "The excerpt does not list exclusions; it reports that eligible people in a 2026 phase 2 liver-disease trial were randomly assigned to semaglutide 2.4 mg alone or with zalfermin or cagrilintide, or placebo, weekly for 52 weeks."
+        "plain": "The EU label for Wegovy lists one outright contraindication: allergy to semaglutide or to any other ingredient of the injection."
       },
       {
-        "value": "Randomized controlled trial, humans, n=603, 2026: From Oct 10, 2023, to July 29, 2024, 3593 people were screened for eligibility, 2713 of whom were randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=603), semaglutide 2·4 mg (n=605), cagrilintide 2·4 mg (n=152), cagrilintide-semaglutide (1·0 mg each; n=595), semaglutide 1·0 mg (n=609), or placebo (pooled 2·4 mg and 1·0 mg; n=149).",
-        "evidence_label": "human-clinical-trial",
+        "value": "Approved label (EU, Wegovy), section 4.6: not to be used during pregnancy; discontinue at least 2 months before a planned pregnancy.",
+        "evidence_label": "approved-label",
         "source_ids": [
-          "pmid-42251859"
+          "ema-wegovy-smpc"
         ],
-        "source_excerpt": "From Oct 10, 2023, to July 29, 2024, 3593 people were screened for eligibility, 2713 of whom were randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=603), semaglutide 2·4 mg (n=605), cagrilintide 2·4 mg (n=152), cagrilintide-semaglutide (1·0 mg each; n=595), semaglutide 1·0 mg (n=609), or placebo (pooled 2·4 mg and 1·0 mg; n=149).",
+        "source_excerpt": "Therefore, semaglutide should not be used during pregnancy. If a patient wishes to become pregnant, or pregnancy occurs, semaglutide should be discontinued. Semaglutide should be discontinued at least 2 months before a planned pregnancy due to the long half- life (see section 5.2).",
         "drafting": "extractive",
-        "plain": "The excerpt does not list exclusions; in REIMAGINE 2, 3593 people were screened and 2713 randomly assigned across CagriSema, semaglutide, cagrilintide and placebo groups."
+        "plain": "The label says semaglutide should not be used in pregnancy. It is stopped if pregnancy occurs, and at least 2 months before a planned pregnancy because the drug stays in the body for weeks."
+      },
+      {
+        "value": "Approved label (EU, Wegovy), section 4.6: not to be used during breast-feeding.",
+        "evidence_label": "approved-label",
+        "source_ids": [
+          "ema-wegovy-smpc"
+        ],
+        "source_excerpt": "A risk to the newborns/infants cannot be excluded. Wegovy should not be used during breast-feeding.",
+        "drafting": "extractive",
+        "plain": "Wegovy should not be used while breast-feeding, the label says, because semaglutide passed into milk in rats and a risk to the baby cannot be ruled out."
       }
     ],
     "adverse_events": [
@@ -380,7 +390,38 @@
       }
     ],
     "reported_timelines": [],
-    "storage": [],
+    "storage": [
+      {
+        "value": "Approved label (EU, Wegovy), section 6.4: store at 2 to 8 °C; do not freeze.",
+        "evidence_label": "approved-label",
+        "source_ids": [
+          "ema-wegovy-smpc"
+        ],
+        "source_excerpt": "Store in a refrigerator (2 °C to 8 °C). Keep away from the cooling element. Do not freeze.",
+        "drafting": "extractive",
+        "plain": "Unused Wegovy pens are kept in a refrigerator at 2 to 8 °C, away from the cooling element, and must not be frozen."
+      },
+      {
+        "value": "Approved label (EU, Wegovy), section 6.3: up to 28 days unrefrigerated at 30 °C or below, then discard.",
+        "evidence_label": "approved-label",
+        "source_ids": [
+          "ema-wegovy-smpc"
+        ],
+        "source_excerpt": "Wegovy may be stored unrefrigerated for up to 28 days at a temperature not above 30 °C. Discard the pen if it has been out of the refrigerator for more than 28 days.",
+        "drafting": "extractive",
+        "plain": "A Wegovy single-dose pen may be kept out of the fridge for up to 28 days at no more than 30 °C. After 28 days out of the fridge it is thrown away."
+      },
+      {
+        "value": "Approved label (EU, Wegovy), section 6.4: keep in the original carton to protect from light.",
+        "evidence_label": "approved-label",
+        "source_ids": [
+          "ema-wegovy-smpc"
+        ],
+        "source_excerpt": "Pre-filled pen, single-dose Store the pen in the original carton in order to protect from light.",
+        "drafting": "extractive",
+        "plain": "The pen is kept in its original carton to protect the medicine from light."
+      }
+    ],
     "study_durations": [
       {
         "value": "Randomized controlled trial, humans, n=99, 2026: durations stated: 52 weeks. Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
@@ -1187,6 +1228,13 @@
       "url": "https://europepmc.org/article/MED/29221659",
       "published": "2017-12-06",
       "kind": "peer-reviewed"
+    },
+    {
+      "id": "ema-wegovy-smpc",
+      "title": "Wegovy (semaglutide): EPAR product information (summary of product characteristics), European Medicines Agency, accessed 2026-11-09",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/wegovy-epar-product-information_en.pdf",
+      "published": "2026-11-09",
+      "kind": "regulatory"
     }
   ],
   "related": [],
@@ -1229,6 +1277,10 @@
     {
       "date": "2026-11-08",
       "change": "Corrected evidence labels found while rewriting in plain English: adverse_events entry 6: mechanistic in vitro to human clinical trial; evidence_table entry 22: mechanistic in vitro to human clinical trial."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Added the EU label (Wegovy, European Medicines Agency) as a source: its contraindication, pregnancy and breast-feeding advice now lead the \"who should avoid\" section, and its storage and shelf-life rules fill the new storage section. Two lines that described enrolment rather than exclusions were removed."
     }
   ]
 }

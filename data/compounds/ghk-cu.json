@@ -115,18 +115,7 @@
         "plain": "In a 1981 lab chemistry study, researchers measured how copper(II) binds the tripeptide GHK, with and without the amino acid histidine, at 25 degrees C in 0.15 M salt solution."
       }
     ],
-    "exclusion_criteria": [
-      {
-        "value": "Clinical trial, humans, 2026: Eligible studies included clinical and preclinical models investigating GHK-Cu as a standalone intervention for aesthetic applications.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-42619529"
-        ],
-        "source_excerpt": "Eligible studies included clinical and preclinical models investigating GHK-Cu as a standalone intervention for aesthetic applications.",
-        "drafting": "extractive",
-        "plain": "Background: a 2026 review (Mokhtar) included only clinical and preclinical studies that tested GHK-Cu on its own for cosmetic uses."
-      }
-    ],
+    "exclusion_criteria": [],
     "adverse_events": [
       {
         "value": "Animal study, mice, 2024: Copper peptides (GHK-Cu) are a powerful hair growth promoter with minimal side effects when compared with minoxidil and finasteride; however, challenges in delivering GHK-Cu topically limits their non-invasive applications.",
@@ -1269,6 +1258,10 @@
     {
       "date": "2026-11-08",
       "change": "Added 17 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Removed one line from the \"who should avoid\" section: it described which studies a review included, not who should avoid GHK-Cu. The source stays cited in the evidence table."
     }
   ],
   "guide": [

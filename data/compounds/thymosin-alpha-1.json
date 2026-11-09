@@ -317,14 +317,24 @@
     ],
     "exclusion_criteria": [
       {
-        "value": "In vitro study, humans, 2020: 520 eligible patients with ANP will be randomised in a 1:1 ratio to receive either the thymosin alpha 1 or the placebo using the same mode of administration.",
+        "value": "Acute necrotising pancreatitis trial, n=508, 2022: Patients were excluded if they were pregnant, had a history of chronic pancreatitis, had underlying malignancy, received intervention for pancreatic necrosis prior to enrolment, had a known history of severe cardiovascular, respiratory, renal, or hepatic diseases, or had pre-existing immune disorders such as acquired immune deficiency syndrome (AIDS).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-32994239"
+          "pmid-35713670"
         ],
-        "source_excerpt": "520 eligible patients with ANP will be randomised in a 1:1 ratio to receive either the thymosin alpha 1 or the placebo using the same mode of administration.",
+        "source_excerpt": "Patients were excluded if they were pregnant, had a history of chronic pancreatitis, had underlying malignancy, received intervention for pancreatic necrosis prior to enrolment, had a known history of severe cardiovascular, respiratory, renal, or hepatic diseases, or had pre-existing immune disorders such as acquired immune deficiency syndrome (AIDS).",
         "drafting": "extractive",
-        "plain": "This 2020 TRACE trial protocol planned to randomly assign 520 eligible patients with acute necrotizing pancreatitis to thymosin alpha 1 or placebo; the sentence does not list exclusions."
+        "plain": "The TRACE trial of thymosin alpha-1 in severe acute pancreatitis excluded pregnant women and people with cancer, chronic pancreatitis, severe heart, lung, kidney or liver disease, or an existing immune disorder such as AIDS."
+      },
+      {
+        "value": "Phase 2 clinical trial, humans, n=6, 2025: Exclusion Criteria: Individuals with a previous history of immune diseases; pregnant or lactating women; those with a history of other malignant diseases within the past 5 years;",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-39904914"
+        ],
+        "source_excerpt": "Exclusion Criteria: Individuals with a previous history of immune diseases; pregnant or lactating women; those with a history of other malignant diseases within the past 5 years;",
+        "drafting": "extractive",
+        "plain": "A 2025 cancer trial that combined thymosin alpha-1 with radiotherapy and immunotherapy excluded people with a history of immune disease, pregnant or breastfeeding women, and people with another cancer in the past 5 years."
       }
     ],
     "adverse_events": [
@@ -1224,6 +1234,10 @@
     {
       "date": "2026-11-08",
       "change": "Added 47 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Replaced the \"who should avoid\" section with exclusion criteria taken from the trial reports themselves (open-access full text via Europe PMC). The lines it held before described enrolment or study design, not exclusions, and were removed; their sources stay cited elsewhere on the page."
     }
   ],
   "guide": [

@@ -144,7 +144,38 @@
     ],
     "escalation_schedules": [],
     "interactions": [],
-    "exclusion_criteria": [],
+    "exclusion_criteria": [
+      {
+        "value": "Randomized controlled trial, humans, n=53, 2017: Exclusion criteria included: positive mammography (if female) or prostate-specific antigen (PSA) or prostate examination for cancer (if male); use of oral or parenteral glucocorticoids in the 30 days before screening; use of any experimental or marketed GH, GH secretagogue, IGF-1, or insulin-like growth factor binding protein-3 (IGFBP-3) in the previous 6 months",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28617838"
+        ],
+        "source_excerpt": "Exclusion criteria included: positive mammography (if female) or prostate-specific antigen (PSA) or prostate examination for cancer (if male); use of oral or parenteral glucocorticoids in the 30 days before screening; use of any experimental or marketed GH, GH secretagogue, IGF-1, or insulin-like growth factor binding protein-3 (IGFBP-3) in the previous 6 months",
+        "drafting": "extractive",
+        "plain": "A 2017 trial of tesamorelin in type 2 diabetes excluded people with signs of breast or prostate cancer, people on steroid tablets or injections in the previous month, and people who had used any growth hormone, growth hormone secretagogue or IGF-1 product in the previous 6 months."
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=53, 2017: documented hypopituitarism, history of pituitary tumor/surgery, head irradiation, or severe head trauma; and current or history of cancer.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-28617838"
+        ],
+        "source_excerpt": "documented hypopituitarism, history of pituitary tumor/surgery, head irradiation, or severe head trauma; and current or history of cancer.",
+        "drafting": "extractive",
+        "plain": "The same trial also excluded people with a pituitary disorder, tumour or surgery, past head radiation or severe head injury, and anyone with current or past cancer."
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2020: Exclusion criteria included excess alcohol use (>20 g daily for women or >30 g daily for men), active hepatitis B or C as previously described ( 3 ), other known hepatic disease, cirrhosis, and inadequately controlled diabetes mellitus (HbA1c ≥ 7%).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32701508"
+        ],
+        "source_excerpt": "Exclusion criteria included excess alcohol use (>20 g daily for women or >30 g daily for men), active hepatitis B or C as previously described ( 3 ), other known hepatic disease, cirrhosis, and inadequately controlled diabetes mellitus (HbA1c ≥ 7%).",
+        "drafting": "extractive",
+        "plain": "The tesamorelin trial in HIV-associated fatty liver disease excluded heavy drinkers, people with hepatitis B or C, cirrhosis or other liver disease, and people whose diabetes was poorly controlled (HbA1c 7% or higher)."
+      }
+    ],
     "adverse_events": [
       {
         "value": "Randomized controlled trial, humans, n=38, 2024: Tesamorelin was well tolerated with a similar frequency of adverse events, including hyperglycemia, between groups.",
@@ -1252,6 +1283,10 @@
     {
       "date": "2026-11-08",
       "change": "Added 11 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Replaced the \"who should avoid\" section with exclusion criteria taken from the trial reports themselves (open-access full text via Europe PMC). The lines it held before described enrolment or study design, not exclusions, and were removed; their sources stay cited elsewhere on the page."
     }
   ],
   "guide": [

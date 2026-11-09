@@ -332,7 +332,28 @@
         "plain": "In a 2010 drug-interaction study, itraconazole raised tesofensine exposure by about 9% during the period the two drugs were taken together."
       }
     ],
-    "exclusion_criteria": [],
+    "exclusion_criteria": [
+      {
+        "value": "Randomised Tesomet trial in hypothalamic obesity, n=21, 24 weeks, 2022: Pregnant or lactating women Failure to comply with adequate contraceptive methods NYHA a class ≥2 Myocardial arrhythmias",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35294397"
+        ],
+        "source_excerpt": "Pregnant or lactating women Failure to comply with adequate contraceptive methods NYHA a class ≥2 Myocardial arrhythmias",
+        "drafting": "extractive",
+        "plain": "The 2022 trial of Tesomet (tesofensine with metoprolol) in hypothalamic obesity excluded pregnant or breastfeeding women, people not using contraception, and people with heart failure (NYHA class 2 or higher) or heart rhythm disorders."
+      },
+      {
+        "value": "Randomised Tesomet trial in hypothalamic obesity, n=21, 24 weeks, 2022: Untreated hypo- or hyperthyroidism suicidal indentation or behaviour Clinically significant liver or kidney impairment",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-35294397"
+        ],
+        "source_excerpt": "Untreated hypo- or hyperthyroidism suicidal indentation or behaviour Clinically significant liver or kidney impairment",
+        "drafting": "extractive",
+        "plain": "The same trial excluded people with untreated thyroid disease, suicidal thoughts or behaviour, or significant liver or kidney impairment."
+      }
+    ],
     "adverse_events": [
       {
         "value": "In the Tesomet trial, sleep disturbance affected 50% on treatment against 13% on placebo, dry mouth 43% against 0%, and headache 36% against 0%; one participant stopped after worsened pre-existing anxiety.",
@@ -1339,6 +1360,10 @@
     {
       "date": "2026-11-08",
       "change": "Added 44 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Replaced the \"who should avoid\" section with exclusion criteria taken from the trial reports themselves (open-access full text via Europe PMC). The lines it held before described enrolment or study design, not exclusions, and were removed; their sources stay cited elsewhere on the page."
     }
   ],
   "guide": [

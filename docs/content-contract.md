@@ -159,6 +159,18 @@ citation mark or id. The drafting check (numbers in `plain` must appear in the
 source, animal or in-vitro claims must say so, banned advice words, length)
 runs before a rewrite is merged.
 
+## Fixed sections
+
+Side effects, who should avoid, blood tests, storage, regulatory status and
+reported use always render as their own section when the record has a finding
+for them. "Who should avoid" holds only real exclusions: a trial's exclusion
+or eligibility criteria, or an approved label's contraindications and
+pregnancy, breast-feeding or caution statements. A sentence that says who was
+enrolled or how people were assigned is design, not an exclusion, and does not
+belong there. Storage comes from the approved label where one exists, and
+otherwise from stability studies. Minor sections with a single finding are
+gathered into one section on the page rather than given an H2 each.
+
 ## Claim fields
 
 Every entry in `attributes.<field>` is a claim object. Required: `value`, `evidence_label`, `source_ids`. Optional, and expected on anything the agent drafted:

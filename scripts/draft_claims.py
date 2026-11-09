@@ -112,7 +112,9 @@ DESIGN_FROM_TITLE = [
 PATTERNS: dict[str, re.Pattern] = {
     "escalation_schedules": re.compile(r"escalat|titrat|dose[- ]ranging|stepwise|step-wise|increased? (?:the )?dose|up-?titrat|dose increment", re.I),
     "interactions": re.compile(r"\binteract|co-?administ|concomitant|combined with|in combination with|add-?on to|together with", re.I),
-    "exclusion_criteria": re.compile(r"\bexclu(?:ded|sion)|\beligib|inclusion criteria|were not eligible", re.I),
+    # "Eligible participants were randomly assigned ..." is design, not an
+    # exclusion; only exclusion or eligibility-criteria language qualifies.
+    "exclusion_criteria": re.compile(r"\bexclusion criteri|\bwere excluded\b|\bpatients? (?:with|who) .{0,80}\bexcluded\b|\bineligib|\bnot eligible|eligibility criteri|inclusion criteri", re.I),
     "adverse_events": re.compile(r"adverse|side[- ]effect|tolerab|nausea|vomiting|diarrh|constipation|injection[- ]site|hypoglyc|discontinu|serious|safety|well[- ]tolerated|no (?:significant )?(?:toxic|adverse)", re.I),
     "biomarkers_monitored": re.compile(r"HbA1c|glycated|fasting glucose|plasma glucose|insulin|IGF-?1|growth hormone|\bGH\b|cortisol|triglycerid|cholesterol|LDL|HDL|ALT|AST|creatinine|blood pressure|heart rate|body ?weight|BMI|biomarker|serum (?:level|concentration)|plasma (?:level|concentration)|C-reactive|cytokine|IL-6|TNF", re.I),
     "reported_timelines": re.compile(r"\bonset|within \d+ ?(?:min|hour|day|week)|half-?life|\bt ?1/2|\bCmax|\bTmax|peak (?:plasma|concentration|effect)|duration of action|time to (?:peak|maximum|effect)|after \d+ ?(?:weeks?|days?|months?) of", re.I),

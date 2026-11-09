@@ -165,7 +165,38 @@
         "plain": "In female Syrian hamsters, a 2025 study (Borland), read alongside similar work in rats, concluded bremelanotide does not act on the brain's VTA-NAc reward circuit or increase the reward of sexual activity."
       }
     ],
-    "exclusion_criteria": [],
+    "exclusion_criteria": [
+      {
+        "value": "Randomized controlled trial, humans, n=267, 2019: Patients were excluded if they were pregnant or nursing; had any other female sexual dysfunction; or were diagnosed with or being treated for depression, psychosis, bipolar disorder, or substance abuse within 6 months before screening.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-31599840"
+        ],
+        "source_excerpt": "Patients were excluded if they were pregnant or nursing; had any other female sexual dysfunction; or were diagnosed with or being treated for depression, psychosis, bipolar disorder, or substance abuse within 6 months before screening.",
+        "drafting": "extractive",
+        "plain": "The two phase 3 RECONNECT trials excluded women who were pregnant or nursing, and women diagnosed with or treated for depression, psychosis, bipolar disorder or substance abuse in the previous 6 months."
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2017: Exclusion criteria included any unstable medical condition including any recent cardiac or cerebrovascular disorder, and uncontrolled treated or untreated hypertension, defined as a repeated observation of a SBP at least 140 mmHg or DBP at least 90 mmHg during the screening period",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27977473"
+        ],
+        "source_excerpt": "Exclusion criteria included any unstable medical condition including any recent cardiac or cerebrovascular disorder, and uncontrolled treated or untreated hypertension, defined as a repeated observation of a SBP at least 140 mmHg or DBP at least 90 mmHg during the screening period",
+        "drafting": "extractive",
+        "plain": "A blood-pressure study of bremelanotide excluded people with a recent heart or stroke-related condition and people whose blood pressure stayed at 140/90 mmHg or higher at screening, treated or not."
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=327, 2016: Patients were excluded for unstable or uncontrolled medical conditions; lifelong sexual dysfunction; pelvic inflammatory disease, cervical dysplasia, clinically significant cervicitis, chronic or complicated urinary tract infection or chronic dyspareunia",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-27181790"
+        ],
+        "source_excerpt": "Patients were excluded for unstable or uncontrolled medical conditions; lifelong sexual dysfunction; pelvic inflammatory disease, cervical dysplasia, clinically significant cervicitis, chronic or complicated urinary tract infection or chronic dyspareunia",
+        "drafting": "extractive",
+        "plain": "The 2016 dose-finding trial excluded women with unstable or uncontrolled medical conditions, lifelong sexual dysfunction, or recent pelvic, cervical or urinary tract disease."
+      }
+    ],
     "adverse_events": [
       {
         "value": "Randomized controlled trial, humans, n=1,247, 2022: The most common adverse events (AEs) were nausea (40.0% vs. 1.3%), flushing (20.3% vs. 1.3%), headache (11.3% vs. 1.9%), and injection site reactions (5.4 vs. 0.5), bremelanotide versus placebo groups, respectively, in the integrated double-blind portion of the phase 3 studies ( N = 1247).",
@@ -1127,6 +1158,10 @@
     {
       "date": "2026-11-08",
       "change": "Corrected evidence labels found while rewriting in plain English: study_durations entry 5: mechanistic in vitro to human clinical trial; evidence_table entry 20: mechanistic in vitro to human clinical trial."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Replaced the \"who should avoid\" section with exclusion criteria taken from the trial reports themselves (open-access full text via Europe PMC). The lines it held before described enrolment or study design, not exclusions, and were removed; their sources stay cited elsewhere on the page."
     }
   ]
 }

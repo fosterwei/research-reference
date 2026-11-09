@@ -374,14 +374,34 @@
     ],
     "exclusion_criteria": [
       {
-        "value": "Randomized controlled trial, humans, n=218, 2023: After screening, eligible participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "value": "Randomized controlled trial, humans, n=36, 2018: Those with either uncontrolled diabetes mellitus or significant cardiac (i.e., conduction abnormalities, cardiomyopathy, uncontrolled hypertension) or neurologic (scores ≥4 on selected neurologic questions of the NMDAS) disorders were excluded from the trial",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-37268435"
+          "pmid-29500292"
         ],
-        "source_excerpt": "After screening, eligible participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "source_excerpt": "Those with either uncontrolled diabetes mellitus or significant cardiac (i.e., conduction abnormalities, cardiomyopathy, uncontrolled hypertension) or neurologic (scores ≥4 on selected neurologic questions of the NMDAS) disorders were excluded from the trial",
         "drafting": "extractive",
-        "plain": "The MMPOWER-3 trial randomized eligible adults with primary mitochondrial myopathy after screening to 24 weeks of elamipretide 40 mg/d or placebo; this sentence does not list who was excluded."
+        "plain": "The first elamipretide (SS-31) trial in mitochondrial myopathy excluded people with uncontrolled diabetes, significant heart disease such as conduction problems, cardiomyopathy or uncontrolled high blood pressure, or significant neurological disease."
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=30, 2020: Female subjects who were pregnant, planning to become pregnant, or lactating were ineligible for the study.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-32096613"
+        ],
+        "source_excerpt": "Female subjects who were pregnant, planning to become pregnant, or lactating were ineligible for the study.",
+        "drafting": "extractive",
+        "plain": "MMPOWER-2 excluded women who were pregnant, planning a pregnancy or breastfeeding."
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=12, 2021: Patients were excluded if they had been hospitalized within 30 days, had uncontrolled hypertension, a history of heart transplantation, or implantation of a cardioverter defibrillator within 3 months or expected implantation.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-33077895"
+        ],
+        "source_excerpt": "Patients were excluded if they had been hospitalized within 30 days, had uncontrolled hypertension, a history of heart transplantation, or implantation of a cardioverter defibrillator within 3 months or expected implantation.",
+        "drafting": "extractive",
+        "plain": "The Barth syndrome trial excluded people admitted to hospital in the previous 30 days, people with uncontrolled high blood pressure or a heart transplant, and people who had or expected a recent implanted defibrillator."
       }
     ],
     "adverse_events": [
@@ -1659,6 +1679,10 @@
     {
       "date": "2026-11-08",
       "change": "Added 51 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Replaced the \"who should avoid\" section with exclusion criteria taken from the trial reports themselves (open-access full text via Europe PMC). The lines it held before described enrolment or study design, not exclusions, and were removed; their sources stay cited elsewhere on the page."
     }
   ],
   "guide": [
