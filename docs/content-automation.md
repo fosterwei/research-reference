@@ -423,7 +423,7 @@ accept everything or reject everything.
   the page's own Sources list. Single-dose sampling windows are not courses,
   and findings whose own wording says they give no treatment length are left
   out. Durations parsed from claim values are never shown (the parse picks up
-  ages). `/glossary` (`src/lib/glossary.ts`) defines 48 terms in plain
+  ages). `/glossary` (`src/lib/glossary.ts`) defines 47 terms in plain
   English as the site's own explanatory text, with DefinedTermSet markup and
   links to the records each term applies to. The footer no longer says claims
   are "quoted verbatim"; it has said the wrong thing since PR #105.
