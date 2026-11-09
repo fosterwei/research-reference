@@ -143,14 +143,24 @@
     "interactions": [],
     "exclusion_criteria": [
       {
-        "value": "Randomized controlled trial, humans, n=534, 2025: Eligible participants were randomly assigned in a 2:2:2:1:1:1:1:2 ratio to once-weekly subcutaneous placebo, dulaglutide 1·5 mg, or retatrutide 0·5 mg, 4 mg (2 mg initial dose), 4 mg (4 mg initial dose), 8 mg (2 mg initial dose), 8 mg (4 mg initial dose), or 12 mg.",
+        "value": "Clinical trial, humans, n=281, 2025: In both trials, participants with kidney impairment, defined as eGFR < 45 ml/min per 1.73 m 2 , were excluded from participation.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-40609566"
+          "pmid-40630318"
         ],
-        "source_excerpt": "Eligible participants were randomly assigned in a 2:2:2:1:1:1:1:2 ratio to once-weekly subcutaneous placebo, dulaglutide 1·5 mg, or retatrutide 0·5 mg, 4 mg (2 mg initial dose), 4 mg (4 mg initial dose), 8 mg (2 mg initial dose), 8 mg (4 mg initial dose), or 12 mg.",
+        "source_excerpt": "In both trials, participants with kidney impairment, defined as eGFR < 45 ml/min per 1.73 m 2 , were excluded from participation.",
         "drafting": "extractive",
-        "plain": "The 2025 phase 2 trial of 534 people with type 2 diabetes describes how eligible participants were assigned to placebo, dulaglutide 1·5 mg or retatrutide 0·5 to 12 mg; the summary does not list who was excluded."
+        "plain": "The phase 2 retatrutide trials in obesity and in type 2 diabetes excluded people with kidney impairment, defined as an eGFR below 45 mL/min per 1.73 m²."
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=98, 2024: For the substudy, additional exclusion criteria included contraindication to MRI examinations and claustrophobia precluding completion of an MRI examination.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-38858523"
+        ],
+        "source_excerpt": "For the substudy, additional exclusion criteria included contraindication to MRI examinations and claustrophobia precluding completion of an MRI examination.",
+        "drafting": "extractive",
+        "plain": "The liver-fat substudy of the phase 2 obesity trial also excluded people who could not have an MRI scan, including people too claustrophobic to complete one."
       }
     ],
     "adverse_events": [
@@ -1522,6 +1532,10 @@
     {
       "date": "2026-11-08",
       "change": "Added 11 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Replaced the \"who should avoid\" section with exclusion criteria taken from the trial reports themselves (open-access full text via Europe PMC). The lines it held before described enrolment or study design, not exclusions, and were removed; their sources stay cited elsewhere on the page."
     }
   ],
   "guide": [

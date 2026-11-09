@@ -425,7 +425,38 @@
         "plain": "In mice, a 2025 study described a new long-acting NPY2R agonist, BI 1820237, and tested its weight-lowering effect alone and combined with survodutide."
       }
     ],
-    "exclusion_criteria": [],
+    "exclusion_criteria": [
+      {
+        "value": "Randomized controlled trial, humans, n=725, 2026: Exclusion criteria included any of the following: >5% body weight change or treatment with an obesity management medication within the previous 3 months; previous or planned metabolic/bariatric surgery; haemoglobin A1c (HbA1c) ≥6.5% (≥48 mmol/mol); history of type 1 diabetes or T2D; treatment with a glucose‐lowering drug within the previous 3 months; or obesity resulting from a demonstrated endocrinological or genetic cause.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41187967"
+        ],
+        "source_excerpt": "Exclusion criteria included any of the following: >5% body weight change or treatment with an obesity management medication within the previous 3 months; previous or planned metabolic/bariatric surgery; haemoglobin A1c (HbA1c) ≥6.5% (≥48 mmol/mol); history of type 1 diabetes or T2D; treatment with a glucose‐lowering drug within the previous 3 months; or obesity resulting from a demonstrated endocrinological or genetic cause.",
+        "drafting": "extractive",
+        "plain": "SYNCHRONIZE-1 excluded people who had used a weight-loss medicine or lost more than 5% of body weight in the past 3 months, people with past or planned bariatric surgery, and people with diabetes or an HbA1c of 6.5% or more."
+      },
+      {
+        "value": "Randomized controlled trial, humans, 2026: As a limitation, this study may not be applicable to individuals with monogenic obesity, uncontrolled hypertension, recent cardiovascular events or suicidality, as people with these conditions were excluded.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-41216778"
+        ],
+        "source_excerpt": "As a limitation, this study may not be applicable to individuals with monogenic obesity, uncontrolled hypertension, recent cardiovascular events or suicidality, as people with these conditions were excluded.",
+        "drafting": "extractive",
+        "plain": "SYNCHRONIZE-2 excluded people with uncontrolled high blood pressure, a recent cardiovascular event or suicidal thoughts, so its results may not apply to them."
+      },
+      {
+        "value": "Phase 3 SYNCHRONIZE-CN design paper, 2026: For example, participants with a history of pancreatitis or clinically relevant pancreatic abnormalities were excluded to mitigate the risk of acute pancreatitis.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-42599381"
+        ],
+        "source_excerpt": "For example, participants with a history of pancreatitis or clinically relevant pancreatic abnormalities were excluded to mitigate the risk of acute pancreatitis.",
+        "drafting": "extractive",
+        "plain": "The Chinese phase 3 trial excluded anyone with a history of pancreatitis or a clinically relevant pancreatic abnormality, to lower the risk of acute pancreatitis."
+      }
+    ],
     "adverse_events": [
       {
         "value": "In the diabetes phase 2, gastrointestinal adverse events were dose-related and could be reduced by slower titration.",
@@ -1371,6 +1402,10 @@
     {
       "date": "2026-11-08",
       "change": "Added 37 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Replaced the \"who should avoid\" section with exclusion criteria taken from the trial reports themselves (open-access full text via Europe PMC). The lines it held before described enrolment or study design, not exclusions, and were removed; their sources stay cited elsewhere on the page."
     }
   ],
   "guide": [

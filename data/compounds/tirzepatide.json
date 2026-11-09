@@ -162,24 +162,34 @@
     ],
     "exclusion_criteria": [
       {
-        "value": "Randomized controlled trial, humans, n=392, 2026: The aforementioned biomarkers were assayed from plasma samples, collected at baseline, 24 weeks, and 72 weeks, from 100 randomly selected participants from each group of the SURMOUNT-1 trial who completed treatment with once-weekly placebo or tirzepatide 5, 10, or 15 mg (n = 392 after low sample volumes excluded).",
-        "evidence_label": "human-clinical-trial",
+        "value": "Approved label (EU, Mounjaro), section 4.3: contraindicated in hypersensitivity to tirzepatide or any excipient.",
+        "evidence_label": "approved-label",
         "source_ids": [
-          "pmid-42233927"
+          "ema-mounjaro-smpc"
         ],
-        "source_excerpt": "The aforementioned biomarkers were assayed from plasma samples, collected at baseline, 24 weeks, and 72 weeks, from 100 randomly selected participants from each group of the SURMOUNT-1 trial who completed treatment with once-weekly placebo or tirzepatide 5, 10, or 15 mg (n = 392 after low sample volumes excluded).",
+        "source_excerpt": "Hypersensitivity to the active substance or to any of the excipients listed in section 6.1.",
         "drafting": "extractive",
-        "plain": "In this 2026 SURMOUNT-1 analysis, blood samples came from 100 randomly chosen participants per group who completed treatment with placebo or tirzepatide 5, 10 or 15 mg; samples too small to test were excluded, leaving 392."
+        "plain": "The EU label for Mounjaro lists one outright contraindication: allergy to tirzepatide or to any other ingredient of the injection."
       },
       {
-        "value": "Randomized controlled trial, humans, n=190, 2026: To evaluate the efficacy and safety of tirzepatide versus semaglutide in individuals eligible for pharmacotherapy for obesity disease under Japan's national insurance criteria, where obesity is defined as body mass index (BMI) ≥25 kg/m 2 with excess adiposity.",
-        "evidence_label": "human-clinical-trial",
+        "value": "Approved label (EU, Mounjaro), section 4.6: not recommended in pregnancy or without contraception; discontinue at least 1 month before a planned pregnancy.",
+        "evidence_label": "approved-label",
         "source_ids": [
-          "pmid-42434924"
+          "ema-mounjaro-smpc"
         ],
-        "source_excerpt": "To evaluate the efficacy and safety of tirzepatide versus semaglutide in individuals eligible for pharmacotherapy for obesity disease under Japan's national insurance criteria, where obesity is defined as body mass index (BMI) ≥25 kg/m 2 with excess adiposity.",
+        "source_excerpt": "Tirzepatide is not recommended during pregnancy and in women of childbearing potential not using contraception. If a patient wishes to become pregnant, or pregnancy occurs, tirzepatide should be discontinued. Tirzepatide should be discontinued at least 1 month before a planned pregnancy due to the long half-life (see section 5.2).",
         "drafting": "extractive",
-        "plain": "This 2026 analysis included only people eligible for obesity drug treatment under Japan's national insurance rules, which define obesity as a BMI of 25 or more with excess body fat."
+        "plain": "The label does not recommend tirzepatide in pregnancy or for women who could become pregnant and are not using contraception. It is stopped at least 1 month before a planned pregnancy because of its long half-life."
+      },
+      {
+        "value": "Approved label (EU, Mounjaro), section 4.4: not studied in a history of pancreatitis; use with caution.",
+        "evidence_label": "approved-label",
+        "source_ids": [
+          "ema-mounjaro-smpc"
+        ],
+        "source_excerpt": "Tirzepatide has not been studied in patients with a history of pancreatitis, and should be used with caution in these patients.",
+        "drafting": "extractive",
+        "plain": "People with a past episode of pancreatitis were not studied, so the label asks for caution in them. If pancreatitis is confirmed during treatment, tirzepatide is not restarted."
       }
     ],
     "adverse_events": [
@@ -328,7 +338,38 @@
         "plain": "In a 2026 SURMOUNT-1 analysis of 538 people, after 72 weeks of tirzepatide 10 or 15 mg, 16.7% reached a waist-to-height ratio of 0.49 or less and 54.7% moved to a better category, against 9.6% on placebo."
       }
     ],
-    "storage": [],
+    "storage": [
+      {
+        "value": "Approved label (EU, Mounjaro), section 6.4: store at 2 to 8 °C; do not freeze; protect from light.",
+        "evidence_label": "approved-label",
+        "source_ids": [
+          "ema-mounjaro-smpc"
+        ],
+        "source_excerpt": "Store in a refrigerator (2 ºC – 8 ºC). Do not freeze. Pre-filled pen, single-dose; vial, single-dose Store in original package in order to protect from light.",
+        "drafting": "extractive",
+        "plain": "Mounjaro pens and vials are kept in a refrigerator at 2 to 8 °C, are not frozen, and stay in the original package to protect them from light."
+      },
+      {
+        "value": "Approved label (EU, Mounjaro), section 6.3: single-dose pen or vial up to 21 cumulative days below 30 °C, then discard.",
+        "evidence_label": "approved-label",
+        "source_ids": [
+          "ema-mounjaro-smpc"
+        ],
+        "source_excerpt": "Mounjaro can be stored unrefrigerated for up to 21 cumulative days at a temperature below 30 ºC and then the pre-filled pen or vial must be discarded.",
+        "drafting": "extractive",
+        "plain": "A single-dose pen or vial can spend up to 21 days in total out of the fridge below 30 °C. After that it is thrown away."
+      },
+      {
+        "value": "Approved label (EU, Mounjaro), section 6.3: KwikPen discarded 30 days after first use.",
+        "evidence_label": "approved-label",
+        "source_ids": [
+          "ema-mounjaro-smpc"
+        ],
+        "source_excerpt": "The pre-filled KwikPen must be discarded 30 days after first use.",
+        "drafting": "extractive",
+        "plain": "The multi-dose KwikPen is thrown away 30 days after its first use, whether it was kept in the fridge or below 30 °C."
+      }
+    ],
     "study_durations": [
       {
         "value": "Randomized controlled trial, humans, 2026: durations stated: 52 week. This post hoc analysis evaluated changes in MRI-assessed LFC and cardiometabolic parameters by presence (genotypes GG and CG) or absence (genotype CC) of the PNPLA3 I148M allele after 52-week treatment.",
@@ -1160,6 +1201,13 @@
       "url": "https://europepmc.org/article/MED/32396843",
       "published": "2020-03-16",
       "kind": "peer-reviewed"
+    },
+    {
+      "id": "ema-mounjaro-smpc",
+      "title": "Mounjaro (tirzepatide): EPAR product information (summary of product characteristics), European Medicines Agency, accessed 2026-11-09",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/mounjaro-epar-product-information_en.pdf",
+      "published": "2026-11-09",
+      "kind": "regulatory"
     }
   ],
   "related": [],
@@ -1198,6 +1246,10 @@
     {
       "date": "2026-11-08",
       "change": "Corrected evidence labels found while rewriting in plain English: evidence_table entry 23: mechanistic in vitro to human clinical trial."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Added the EU label (Mounjaro, European Medicines Agency) as a source: its contraindication, pregnancy and pancreatitis advice now lead the \"who should avoid\" section, and its storage and shelf-life rules fill the new storage section. Two lines that described enrolment rather than exclusions were removed."
     }
   ]
 }

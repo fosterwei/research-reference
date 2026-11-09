@@ -121,10 +121,10 @@ const defaultLedes: Record<string, string> = {
   study_durations: 'Treatment and follow-up periods as stated in each abstract.',
   routes_studied: 'Routes of administration named in each study.',
   interactions: 'Sentences in which the compound is studied alongside another agent. Read the study line: the word interaction can also be statistical.',
-  exclusion_criteria: 'Who each trial excluded, as stated in the abstract.',
+  exclusion_criteria: `Who was kept out of the trials of ${d.preferred_name}, and, where a medicine has an approved label, who the label says should not use it. Trials exclude people for safety and for clean results, so an exclusion shows where the evidence stops, not a verdict on any one person. Each line is restated from the trial report or label and cited.`,
   biomarkers_monitored: 'Laboratory and clinical measures the studies report tracking, including which hormones did and did not change.',
   weight_normalized_doses: 'Per-kilogram figures exactly as each study published them, for the species it studied.',
-  storage: 'Stability and storage conditions as reported.',
+  storage: `How ${d.preferred_name} is stored, from the approved label where one exists and otherwise from stability studies. Each line is cited.`,
   reported_timelines: 'Onset, peak and duration figures as each study reported them.',
   mechanism: 'Written from general pharmacology and the development record, and marked as editorial synthesis; the measurements behind it are cited in the biomarker section.',
   reported_use: 'What circulates in user communities and clinic marketing, reported so a reader knows the figures and their origin. None of it has been tested in a trial, and none of it is a suggestion.',
@@ -136,7 +136,7 @@ const ledeFor = (f: string) => [boundaryFor(intent, f), defaultLedes[f]].filter(
 // claims but with mapped demand renders as an explicit absence statement.
 type Guide = { id: string; heading: string; lede?: string; html: string; pending?: boolean };
 const guide: Guide[] = ((d as any).guide ?? []) as Guide[];
-type Block = { id: string; kind: 'human' | 'table' | 'landscape' | 'claims' | 'absence' | 'method' | 'calculator' | 'protocol' | 'compare' | 'combination' | 'regulatory' | 'open' | 'faq' | 'guide'; field?: string; label: string; group: string; guide?: Guide };
+type Block = { id: string; kind: 'bundle' | 'human' | 'table' | 'landscape' | 'claims' | 'absence' | 'method' | 'calculator' | 'protocol' | 'compare' | 'combination' | 'regulatory' | 'open' | 'faq' | 'guide'; field?: string; label: string; group: string; guide?: Guide; parts?: Block[] };
 // Links the first mention of each other record in this page's own prose.
 const linkEntities = entityLinker([d.slug], 10);
 const blocks: Block[] = [];
@@ -209,7 +209,22 @@ for (const b of blocks) {
   b.label = kwh(b.label);
   if (b.guide) b.guide = { ...b.guide, heading: kwh(b.guide.heading) };
 }
-const body = orderBlocks(intent, blocks);
+// Thin sections: a minor evidence field with a single finding does not earn
+// its own H2. When two or more of them occur they are gathered into one section
+// at the position of the first, each keeping its keyword heading (as an H3) and
+// its anchor, so links to #timelines or #interactions still land.
+const BUNDLED = new Set(['escalation_schedules', 'study_durations', 'routes_studied', 'weight_normalized_doses', 'interactions', 'reported_timelines']);
+const thin = (b: Block) => b.kind === 'claims' && BUNDLED.has(b.field!) && (A[b.field!] ?? []).length === 1;
+const ordered = orderBlocks(intent, blocks);
+const thinParts = ordered.filter(thin);
+const body: Block[] = thinParts.length < 2 ? ordered : ordered.flatMap((b) => {
+  if (!thin(b)) return [b];
+  if (b !== thinParts[0]) return [];
+  const words: Record<string, string> = { escalation_schedules: 'titration', study_durations: 'cycle length', routes_studied: 'routes', weight_normalized_doses: 'dose per kg', interactions: 'interactions', biomarkers_monitored: 'blood tests', reported_timelines: 'timeline' };
+  const topics = thinParts.map((p) => words[p.field!]);
+  const list = topics.length > 1 ? `${topics.slice(0, -1).join(', ')} and ${topics[topics.length - 1]}` : topics[0];
+  return [{ id: 'more-findings', kind: 'bundle', label: `More ${d.preferred_name} study details: ${list}`, group: 'Evidence', parts: thinParts } as Block];
+});
 const secs = [
   { id: 'glance', label: kwh('At a glance'), group: '' },
   { id: 'what', label: kwh(headingFor(intent, 'what', 'What it is')), group: '' },
@@ -293,6 +308,11 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
             case 'calculator': return (
               <section id="calculator"><div><h2>{b.label}</h2><p class="lede">Enter a vial and a dose and it returns the concentration, the volume and the units on your syringe. It converts the numbers you give it and suggests none. The doses studies of {d.preferred_name} actually used, with a units chart per vial size, are on the <a href={`/calculators/${d.slug}`}>full {d.preferred_name} calculator page</a>.</p></div>
                 <Calculators slug="reconstitution-calculator" id="calculator-tool" heading="Work out concentration and what to draw" headingLevel={3} />
+              </section>
+            );
+            case 'bundle': return (
+              <section id="more-findings"><div><h2>{b.label}</h2><p class="lede">Topics where the record holds a single finding so far, gathered here rather than given a section each. Every finding is restated in plain English and cited.</p></div>
+                {b.parts!.map((p) => <div class="bundle-part" id={p.id}><h3>{p.label}</h3><ClaimCards claims={A[p.field!]} sources={d.sources} />{p.field === 'weight_normalized_doses' && <WeightCaveat />}</div>)}
               </section>
             );
             case 'claims': return (

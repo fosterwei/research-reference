@@ -474,54 +474,24 @@
     ],
     "exclusion_criteria": [
       {
-        "value": "Randomized controlled trial, humans, n=99, 2026: Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
+        "value": "Randomized controlled trial, humans, 2026: Key exclusion criteria were diabetes, HbA 1c ≥ 6.5% (48 mmol/mol) or a self‐reported change in body weight > 5% within 90 days before screening.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-42456707"
+          "pmid-42503495"
         ],
-        "source_excerpt": "Eligible participants were randomly assigned to receive subcutaneous zalfermin 7·5 mg plus subcutaneous semaglutide 2·4 mg, zalfermin 15 mg plus semaglutide 2·4 mg, zalfermin 30 mg plus semaglutide 2·4 mg, zalfermin 30 mg, semaglutide 2·4 mg, cagrilintide 2·4 mg plus semaglutide 2·4 mg, or placebo only once a week for 52 weeks.",
+        "source_excerpt": "Key exclusion criteria were diabetes, HbA 1c ≥ 6.5% (48 mmol/mol) or a self‐reported change in body weight > 5% within 90 days before screening.",
         "drafting": "extractive",
-        "plain": "The excerpt describes treatment groups, not exclusions: eligible participants received zalfermin, semaglutide, cagrilintide 2.4 mg plus semaglutide 2.4 mg, or placebo once a week for 52 weeks."
+        "plain": "REDEFINE 1, the phase 3 trial of cagrilintide with semaglutide, excluded people with diabetes or an HbA1c of 6.5% or more, and people whose weight had changed by more than 5% in the 90 days before screening."
       },
       {
-        "value": "Clinical trial, humans, n=5,425, 2026: Eligible randomized controlled trials (RCTs) assessed Cagrilintide monotherapy or CagriSema versus placebo.",
+        "value": "Randomized controlled trial, humans, n=14, 2026: Participants with renal impairment were excluded if they had previously undergone renal transplantation or had unstable renal function or acute exacerbation of renal disease within 14 days of baseline",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
-          "pmid-42583410"
+          "pmid-42228334"
         ],
-        "source_excerpt": "Eligible randomized controlled trials (RCTs) assessed Cagrilintide monotherapy or CagriSema versus placebo.",
+        "source_excerpt": "Participants with renal impairment were excluded if they had previously undergone renal transplantation or had unstable renal function or acute exacerbation of renal disease within 14 days of baseline",
         "drafting": "extractive",
-        "plain": "A 2026 meta-analysis (Yaseen) included only randomized controlled trials comparing cagrilintide alone or CagriSema (cagrilintide with semaglutide) with placebo."
-      },
-      {
-        "value": "Randomized controlled trial, humans, n=62, 2026: Between March 19 and Dec 5, 2024, 294 people were screened for eligibility, 189 of whom were enrolled and randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=62), cagrilintide-semaglutide (1·0 mg each; n=63), or placebo (n=64).",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-42251860"
-        ],
-        "source_excerpt": "Between March 19 and Dec 5, 2024, 294 people were screened for eligibility, 189 of whom were enrolled and randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=62), cagrilintide-semaglutide (1·0 mg each; n=63), or placebo (n=64).",
-        "drafting": "extractive",
-        "plain": "Of 294 people screened in 2024, 189 were enrolled and randomly assigned to cagrilintide-semaglutide 2.4 mg each (62), 1.0 mg each (63) or placebo (64)."
-      },
-      {
-        "value": "Randomized controlled trial, humans, n=603, 2026: From Oct 10, 2023, to July 29, 2024, 3593 people were screened for eligibility, 2713 of whom were randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=603), semaglutide 2·4 mg (n=605), cagrilintide 2·4 mg (n=152), cagrilintide-semaglutide (1·0 mg each; n=595), semaglutide 1·0 mg (n=609), or placebo (pooled 2·4 mg and 1·0 mg; n=149).",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-42251859"
-        ],
-        "source_excerpt": "From Oct 10, 2023, to July 29, 2024, 3593 people were screened for eligibility, 2713 of whom were randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=603), semaglutide 2·4 mg (n=605), cagrilintide 2·4 mg (n=152), cagrilintide-semaglutide (1·0 mg each; n=595), semaglutide 1·0 mg (n=609), or placebo (pooled 2·4 mg and 1·0 mg; n=149).",
-        "drafting": "extractive",
-        "plain": "In REIMAGINE 2, 3593 people were screened and 2713 randomly assigned, including 603 to cagrilintide-semaglutide 2.4 mg each and 152 to cagrilintide 2.4 mg alone."
-      },
-      {
-        "value": "Randomized controlled trial, humans, n=12, 2021: The trial included six sequential overlapping cohorts, and in each cohort eligible participants were randomly assigned (3:1) to once-weekly subcutaneous cagrilintide (0·16, 0·30, 0·60, 1·2, 2·4, or 4·5 mg) or matched placebo, in combination with once-weekly subcutaneous semaglutide 2·4 mg, without lifestyle interventions.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-33894838"
-        ],
-        "source_excerpt": "The trial included six sequential overlapping cohorts, and in each cohort eligible participants were randomly assigned (3:1) to once-weekly subcutaneous cagrilintide (0·16, 0·30, 0·60, 1·2, 2·4, or 4·5 mg) or matched placebo, in combination with once-weekly subcutaneous semaglutide 2·4 mg, without lifestyle interventions.",
-        "drafting": "extractive",
-        "plain": "The excerpt describes the design, not exclusions: six overlapping groups were assigned 3 to 1 to weekly cagrilintide (0.16 to 4.5 mg) or placebo, all with weekly semaglutide 2.4 mg."
+        "plain": "A 2026 study that deliberately enrolled people with kidney impairment still excluded kidney transplant recipients and anyone whose kidney function was unstable or had worsened in the previous 14 days."
       }
     ],
     "adverse_events": [
@@ -1694,6 +1664,10 @@
     {
       "date": "2026-11-08",
       "change": "Added 13 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Replaced the \"who should avoid\" section with exclusion criteria taken from the trial reports themselves (open-access full text via Europe PMC). The lines it held before described enrolment or study design, not exclusions, and were removed; their sources stay cited elsewhere on the page."
     }
   ],
   "guide": [
