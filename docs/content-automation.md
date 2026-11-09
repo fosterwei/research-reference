@@ -416,3 +416,14 @@ accept everything or reject everything.
   into one "More <name> study details" section with H3s that keep the keyword
   headings and the anchors; side effects, who should avoid, blood tests,
   storage, regulatory status and reported use always keep their own H2.
+- 2026-11-09 — Cycle-length hub and glossary, the last two structural gaps
+  from the competitor comparison. `/cycles` (`src/lib/cycles.ts`) lists, per
+  compound, the longest human course among its regimen rows and up to three
+  plain-English study-duration findings, human first, each with a mark into
+  the page's own Sources list. Single-dose sampling windows are not courses,
+  and findings whose own wording says they give no treatment length are left
+  out. Durations parsed from claim values are never shown (the parse picks up
+  ages). `/glossary` (`src/lib/glossary.ts`) defines 47 terms in plain
+  English as the site's own explanatory text, with DefinedTermSet markup and
+  links to the records each term applies to. The footer no longer says claims
+  are "quoted verbatim"; it has said the wrong thing since PR #105.

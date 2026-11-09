@@ -1,0 +1,115 @@
+---
+// Peptide cycle length hub: for every compound, how long studies gave it.
+// Every figure is a cited finding already shown on the compound page; the page
+// adds the side-by-side view and nothing that is not on a record.
+import Base from '../layouts/Base.astro';
+import Tier from '../components/v2/Tier.astro';
+import Sources from '../components/v2/Sources.astro';
+import { records } from '../lib/collections';
+import { isIndexable } from '../lib/site';
+import { citer } from '../lib/cite';
+import { longestHumanCourse, durationFindings } from '../lib/cycles';
+import '../styles/compound-v2.css';
+
+const all = (await records('compounds')).filter(isIndexable)
+  .sort((a, b) => a.data.preferred_name.localeCompare(b.data.preferred_name));
+const rows = all.map((e) => {
+  const a = (e.data as any).attributes ?? {};
+  return { e, course: longestHumanCourse(a), findings: durationFindings(a) };
+}).filter((r) => r.course || r.findings.length);
+
+// One ledger for the page, numbered by first use, so marks link to this page's own Sources list.
+const ledger: any[] = [];
+const seen = new Set<string>();
+const use = (e: any, ids: string[]) => {
+  for (const id of ids) {
+    if (seen.has(id)) continue;
+    const s = (e.data.sources ?? []).find((x: any) => x.id === id);
+    if (s) { seen.add(id); ledger.push(s); }
+  }
+};
+const human = rows.filter((r) => r.course).sort((a, b) => b.course!.weeks - a.course!.weeks);
+const studiedOnly = rows.filter((r) => !r.course);
+for (const r of [...human, ...studiedOnly]) {
+  if (r.course) use(r.e, r.course.ids);
+  for (const c of r.findings) use(r.e, c.source_ids ?? []);
+}
+const cite = citer(ledger);
+const n = (w: number) => (w >= 8 ? `${Math.round(w)} weeks` : `${Math.round(w * 7)} days`);
+
+const path = '/cycles';
+const faq = [
+  { q: 'How long is a peptide cycle?', a: `It depends on the compound, and studies do not use the word. They report how long the compound was given. Among the ${human.length} compounds here with a human regimen on record, the longest courses run from ${n(human[human.length - 1]?.course?.weeks ?? 0)} to ${n(human[0]?.course?.weeks ?? 0)}. For the rest, the only durations on record come from animal or cell studies.` },
+  { q: 'Does a longer study mean a longer course is safe?', a: 'No. A study duration says how long people or animals were given a compound under monitoring. It says nothing about what happens past that point, or outside the study\'s population and checks.' },
+  { q: 'Why do some compounds have no human course listed?', a: 'Because no human trial of them with a stated treatment period is on the record. Their durations come from animal or cell studies, which use different doses, species and endpoints, and do not translate into a human course.' },
+];
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ name: 'Home', path: '/' }, { name: 'Compounds', path: '/compounds' }, { name: 'Peptide cycle length', path }].map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.path, Astro.site).toString() })) },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+];
+---
+<Base
+  title="Peptide Cycle Length: How Long Studies Gave Each One"
+  description={`Cycle length for ${rows.length} peptides, read from the studies: the longest human course on record and how long animal and cell studies ran, every figure cited.`}
+  path={path} indexable={rows.length > 0} siteSuffix={false} jsonld={jsonld}>
+  <article class="prose-page v2">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/compounds">Compounds</a> / <span>Peptide cycle length</span></nav>
+    <p class="eyebrow">Guide</p>
+    <h1>Peptide cycle length: how long studies gave each one</h1>
+    <p class="dek">
+      "Cycle" is a word from user communities. Studies say how long a compound was given, and that
+      is what this page lists, compound by compound: the longest course in a human trial where one
+      exists, and otherwise how long the animal or cell studies ran. Every figure is cited to its
+      paper and also appears on the compound's own page.
+    </p>
+
+    <h2 id="human">Peptide cycle length in human trials</h2>
+    <p class="prose">
+      The longest treatment period among each compound's human regimens, longest first. It is the
+      length a trial gave it under monitoring, not a recommended course.
+    </p>
+    <div class="card clip"><div class="tblwrap"><table class="tbl">
+      <caption>Longest human course on record, per compound, with the population it was studied in.</caption>
+      <thead><tr><th scope="col">Compound</th><th scope="col">Longest course</th><th scope="col">Studied in</th><th scope="col">Evidence</th></tr></thead>
+      <tbody>
+        {human.map((r) => (
+          <tr>
+            <th scope="row" class="study"><a href={`#${r.e.data.slug}`}>{r.e.data.preferred_name}</a></th>
+            <td><Fragment set:html={cite.sentence(r.course!.duration, r.course!.ids)} /></td>
+            <td>{r.course!.population ?? '—'}</td>
+            <td><Tier tier={r.e.data.evidence_tier} /></td>
+          </tr>
+        ))}
+      </tbody>
+    </table></div></div>
+
+    {human.map((r) => (
+      <section id={r.e.data.slug}>
+        <h3>{r.e.data.preferred_name} cycle length</h3>
+        <p class="prose">Longest human course on record: <Fragment set:html={cite.sentence(r.course!.duration, r.course!.ids)} />{r.course!.population ? `, in ${r.course!.population.charAt(0).toLowerCase()}${r.course!.population.slice(1)}` : ''}.</p>
+        {r.findings.length > 0 && <ul class="prose">{r.findings.map((c) => <li><Fragment set:html={cite.sentence(c.plain, c.source_ids)} /></li>)}</ul>}
+        <p class="prose">{r.findings.length > 0 && <><a href={`/compounds/${r.e.data.slug}#durations`}>Every {r.e.data.preferred_name} study duration</a> · </>}<a href={`/compounds/${r.e.data.slug}#protocol`}>{r.e.data.preferred_name} dosing protocol</a></p>
+      </section>
+    ))}
+
+    <h2 id="preclinical">Peptide cycle length in animal and cell studies only</h2>
+    <p class="prose">
+      These compounds have no human regimen with a stated treatment period on record. The durations
+      below are how long animal or cell studies ran. They used other species, doses and endpoints,
+      and do not translate into a human course.
+    </p>
+    {studiedOnly.map((r) => (
+      <section id={r.e.data.slug}>
+        <h3>{r.e.data.preferred_name} cycle length</h3>
+        <ul class="prose">{r.findings.map((c) => <li><Fragment set:html={cite.sentence(c.plain, c.source_ids)} /></li>)}</ul>
+        <p class="prose"><a href={`/compounds/${r.e.data.slug}#durations`}>Every {r.e.data.preferred_name} study duration</a> · <Tier tier={r.e.data.evidence_tier} /></p>
+      </section>
+    ))}
+
+    <h2 id="faq">Peptide cycle FAQ</h2>
+    <dl class="prose">{faq.map((f) => <><dt><b>{f.q}</b></dt><dd>{f.a}</dd></>)}</dl>
+
+    <h2 id="sources">Sources ({ledger.length})</h2>
+    <Sources sources={ledger} />
+  </article>
+</Base>
