@@ -35,6 +35,7 @@ import { protocolFaq, quickStart } from '../lib/protocol';
 import Protocol from '../components/v2/Protocol.astro';
 import { qualifies as hasCalculator } from '../lib/calculators';
 import { entityLinker } from '../lib/entities';
+import { glossaryLinker } from '../lib/glossary';
 import ReconstitutionMath from '../components/shared/ReconstitutionMath.astro';
 import EquipmentInStudies from '../components/shared/EquipmentInStudies.astro';
 import ReadingACoA from '../components/shared/ReadingACoA.astro';
@@ -136,9 +137,10 @@ const ledeFor = (f: string) => [boundaryFor(intent, f), defaultLedes[f]].filter(
 // claims but with mapped demand renders as an explicit absence statement.
 type Guide = { id: string; heading: string; lede?: string; html: string; pending?: boolean };
 const guide: Guide[] = ((d as any).guide ?? []) as Guide[];
-type Block = { id: string; kind: 'bundle' | 'human' | 'table' | 'landscape' | 'claims' | 'absence' | 'method' | 'calculator' | 'protocol' | 'compare' | 'combination' | 'regulatory' | 'open' | 'faq' | 'guide'; field?: string; label: string; group: string; guide?: Guide; parts?: Block[] };
+type Block = { id: string; kind: 'avoid' | 'bundle' | 'human' | 'table' | 'landscape' | 'claims' | 'absence' | 'method' | 'calculator' | 'protocol' | 'compare' | 'combination' | 'regulatory' | 'open' | 'faq' | 'guide'; field?: string; label: string; group: string; guide?: Guide; parts?: Block[] };
 // Links the first mention of each other record in this page's own prose.
 const linkEntities = entityLinker([d.slug], 10);
+const linkTerms = glossaryLinker(4);
 const blocks: Block[] = [];
 // Written sections from the record's guide[]; the outline places them among the evidence blocks.
 for (const g of guide) blocks.push({ id: g.id, kind: 'guide', label: g.heading, group: 'Evidence', guide: g });
@@ -148,7 +150,24 @@ else blocks.push({ id: 'landscape', kind: 'landscape', label: 'What is indexed',
 for (const [f, id, label] of evidence) {
   if (has(f)) blocks.push({ id, kind: 'claims', field: f, label: headingFor(intent, f, label), group: 'Evidence' });
   else if (queriesFor(intent, f).some((q) => q.policy !== 'redirect')) blocks.push({ id, kind: 'absence', field: f, label: headingFor(intent, f, label), group: 'Evidence' });
+  // "Who should avoid" is a fixed section: with no exclusion on record it says
+  // so, and points to what the record does hold for this compound.
+  else if (f === 'exclusion_criteria' && hasAnyEvidence) blocks.push({ id, kind: 'avoid', label: `Who should avoid ${d.preferred_name}? What the evidence can say`, group: 'Evidence' });
 }
+// Facts for the "who should avoid" fallback, all already on this page.
+const HUMAN_TIERS = ['approved-label', 'human-clinical-trial', 'observational-human'];
+const humanEvidence = HUMAN_TIERS.includes(d.evidence_tier);
+// A cited plain statement first; otherwise the first sentence of the record's
+// own editorial status line, shown as editorial and never with a mark.
+const regCited = (A.regulatory_status ?? []).find((c: any) => c.plain && c.source_ids?.length);
+const regEditorial = (A.regulatory_status ?? []).find((c: any) => c.drafting === 'editorial' && c.value);
+const regLine = regCited
+  ? { html: proseCite.sentence(regCited.plain, regCited.source_ids) }
+  : regEditorial ? { html: `${esc(String(regEditorial.value).trim().split(/(?<=\.)\s+/)[0])} <span class="ed-note">(editorial; source pending)</span>` } : null;
+const studiedIn = [...new Set((((d.attributes as any)?.protocol ?? []) as any[])
+  .filter((c) => HUMAN_TIERS.includes(c.evidence_label) && c.fields?.phase !== 'note' && c.fields?.population)
+  .map((c) => String(c.fields.population).replace(/\s*\(.*?\)\s*$/, '').replace(/,\s*n\s*=\s*\d+\s*$/i, ''))
+  .filter((p) => !/not stated/i.test(p)))].slice(0, 3);
 // The compound's own calculator, only where it has one: a record qualifies when
 // it is finished and carries at least two distinct published dose figures, the
 // same rule that decides whether /calculators/<slug> exists at all.
@@ -291,7 +310,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
 
         {body.map((b) => {
           switch (b.kind) {
-            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={proseCite.tokens(linkEntities(b.guide!.html))} pending={b.guide!.pending} />;
+            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={proseCite.tokens(linkTerms(linkEntities(b.guide!.html)))} pending={b.guide!.pending} />;
             case 'human': return <HumanTrials rows={A.evidence_table} name={d.preferred_name} sources={d.sources} max={12} heading={kwh('What happened in the human studies?')} />;
             case 'landscape': return <section id="landscape"><div><h2>{b.label}</h2><p class="lede">Counts from Europe PMC. Zeros are measured, not missing.</p></div><LandscapeTable record={d} /></section>;
             case 'table': return (
@@ -310,6 +329,22 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
                 <Calculators slug="reconstitution-calculator" id="calculator-tool" heading="Work out concentration and what to draw" headingLevel={3} />
               </section>
             );
+            case 'avoid': {
+              const ae = (A.adverse_events ?? []).length;
+              return (
+                <section id={b.id}><div><h2>{b.label}</h2></div>
+                  <div class="status"><div><strong>{humanEvidence
+                    ? `The human studies of ${d.preferred_name} on this record do not state their exclusion criteria in a source this page can cite, and no approved label is on record, so there is no evidence-based list of who should avoid it.`
+                    : `${d.preferred_name} has no human trial on this record, so no study has defined who should avoid it. What is known about its safety comes from animal or cell studies.`}</strong> That is an absence of evidence, not a sign that it suits everyone.</div></div>
+                  <ul class="prose avoid-facts">
+                    {regLine && <li><b>Regulatory status.</b> <Fragment set:html={regLine.html} />{has('regulatory_status') && <> More under <a href="#regulatory">regulatory status</a>.</>}</li>}
+                    <li><b>Side effects.</b> {ae > 0 ? <>The record holds {ae} side-effect finding{ae === 1 ? '' : 's'}, each cited, under <a href="#adverse">{d.preferred_name} side effects</a>.</> : <>No side-effect finding is on record. That means none was reported in a source this page can cite, not that none occurs.</>}</li>
+                    {studiedIn.length > 0 && <li><b>Who has been studied.</b> Human studies on record enrolled: {studiedIn.map((p, i) => <>{i > 0 ? '; ' : ''}{p.charAt(0).toLowerCase() + p.slice(1)}</>)}. Evidence does not extend beyond the people studied.</li>}
+                    <li><b>Why trials exclude people.</b> See <a href="/glossary#exclusion-criteria">exclusion criteria</a> in the glossary.</li>
+                  </ul>
+                </section>
+              );
+            }
             case 'bundle': return (
               <section id="more-findings"><div><h2>{b.label}</h2><p class="lede">Topics where the record holds a single finding so far, gathered here rather than given a section each. Every finding is restated in plain English and cited.</p></div>
                 {b.parts!.map((p) => <div class="bundle-part" id={p.id}><h3>{p.label}</h3><ClaimCards claims={A[p.field!]} sources={d.sources} />{p.field === 'weight_normalized_doses' && <WeightCaveat />}</div>)}

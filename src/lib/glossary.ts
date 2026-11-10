@@ -2,6 +2,8 @@
 // own explanatory text (editorial, like the written guide sections): they
 // explain vocabulary and make no claim about any compound's effects. Links go
 // to the records where the term matters, never to a source it does not cite.
+import { linker, type Target } from './entities';
+
 export type Term = { term: string; id: string; def: string; see?: Array<[label: string, href: string]>; aka?: string };
 
 const t = (term: string, def: string, see?: Term['see'], aka?: string): Term =>
@@ -56,3 +58,39 @@ export const TERMS: Term[] = [
   t('Tmax', 'The time from a dose to the highest blood concentration, Cmax.'),
   t('U-100 syringe', 'An insulin syringe marked in units, where 100 units equal 1 mL. Calculators on this site convert a volume into these units.', [['Reconstitution calculator', '/tools/reconstitution-calculator']], 'insulin units'),
 ];
+
+
+// Terms worth a link from prose, with the spellings prose uses. The first
+// mention on a page links to its glossary entry, at most `max` per page, after
+// record links have been placed (a link is never nested in another).
+const PROSE: Array<[id: string, pattern: string]> = [
+  ['half-life', 'half[- ]li(?:fe|ves)'],
+  ['titration', 'titrat(?:ion|ed)|dose escalation'],
+  ['subcutaneous', 'subcutaneous(?:ly)?'],
+  ['bioavailability', 'bioavailab(?:ility|le)'],
+  ['pharmacokinetics', 'pharmacokinetics?'],
+  ['placebo', 'placebo'],
+  ['double-blind', 'double[- ]blind(?:ed)?'],
+  ['open-label', 'open[- ]label'],
+  ['randomized-controlled-trial', 'randomi[sz]ed controlled trials?'],
+  ['meta-analysis', 'meta[- ]analys[ie]s'],
+  ['exclusion-criteria', 'exclusion criteria'],
+  ['reconstitution', 'reconstitut(?:ion|ed|e)'],
+  ['lyophilised', 'lyophili[sz]ed|freeze[- ]dried'],
+  ['bacteriostatic-water', 'bacteriostatic water'],
+  ['hba1c', 'HbA1c'],
+  ['egfr', 'eGFR'],
+  ['glp-1-receptor-agonist', 'GLP-1 receptor agonists?'],
+  ['gh-secretagogue', 'growth hormone secretagogues?|GH secretagogues?'],
+  ['ghrh-analogue', 'GHRH analog(?:ue)?s?'],
+  ['research-use-only', 'research use only'],
+  ['certificate-of-analysis', 'certificates? of analysis'],
+  ['in-vitro', 'in vitro'],
+  ['intranasal', 'intranasal(?:ly)?'],
+  ['contraindication', 'contraindicat(?:ion|ions|ed)'],
+];
+const known = new Set(TERMS.map((x) => x.id));
+const GLOSS_TARGETS: Target[] = PROSE.filter(([id]) => known.has(id))
+  .map(([id, pattern]) => ({ pattern, href: `/glossary#${id}`, key: `gloss:${id}`, flags: 'i' }));
+
+export const glossaryLinker = (max = 4) => linker(GLOSS_TARGETS, max);

@@ -983,7 +983,7 @@
         "plain": "In a 2018 dose-escalation trial of 36 adults with primary mitochondrial myopathy (Karaa), walking distance on the 6-minute walk test rose with higher elamipretide doses given into a vein (p = 0.014)."
       },
       {
-        "value": "Human study, humans, 2025: Additionally, SS-31 reduced NOS2 expression by 50%, highlighting its therapeutic potential in age-related bone loss.",
+        "value": "In vitro study, aged bone marrow stem cells, 2025: Additionally, SS-31 reduced NOS2 expression by 50%, highlighting its therapeutic potential in age-related bone loss.",
         "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-40570323"
@@ -995,7 +995,7 @@
           "year": "2025",
           "design": "In vitro study",
           "n": null,
-          "species": "Human stem cells, cultured",
+          "species": "Cells",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
@@ -1683,6 +1683,10 @@
     {
       "date": "2026-11-09",
       "change": "Replaced the \"who should avoid\" section with exclusion criteria taken from the trial reports themselves (open-access full text via Europe PMC). The lines it held before described enrolment or study design, not exclusions, and were removed; their sources stay cited elsewhere on the page."
+    },
+    {
+      "date": "2026-11-09",
+      "change": "Corrected the study line on 1 finding whose evidence label was already right but whose design and species still described a human study. The findings and their citations are unchanged."
     }
   ],
   "guide": [

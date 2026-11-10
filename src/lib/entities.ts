@@ -17,7 +17,7 @@
 //   - the matched text is left exactly as written, only wrapped.
 import { compounds, stacks, tools } from './registry';
 
-export interface Target { pattern: string; href: string; key: string }
+export interface Target { pattern: string; href: string; key: string; flags?: string }
 
 const ESC = /[.*+?^${}()|[\]\\]/g;
 const esc = (s: string) => s.replace(ESC, '\\$&');
@@ -47,9 +47,13 @@ const SKIP = /^(?:a|q|code|pre|h1|h2|h3|h4|abbr|time|caption|mark)$/i;
  */
 export function entityLinker(excludeKeys: string[] = [], max = 10) {
   const skip = new Set(excludeKeys);
+  return linker(TARGETS.filter((t) => !skip.has(t.key) && !skip.has(t.href)), max);
+}
+
+/** The same first-mention linking over any target list (used for glossary terms). */
+export function linker(targets: Target[], max: number) {
   const used = new Set<string>();
   let added = 0;
-  const targets = TARGETS.filter((t) => !skip.has(t.key) && !skip.has(t.href));
 
   return function link(html: string): string {
     if (!html || added >= max) return html;
@@ -72,7 +76,7 @@ export function entityLinker(excludeKeys: string[] = [], max = 10) {
       const taken = new Set<string>();
       for (const t of targets) {
         if (used.has(t.key) || taken.has(t.key) || added + hits.length >= max) continue;
-        const re = new RegExp(`(?<![\\w-])(?:${t.pattern})(?![\\w-])`);
+        const re = new RegExp(`(?<![\\w-])(?:${t.pattern})(?![\\w-])`, t.flags ?? '');
         const m = re.exec(token);
         if (!m) continue;
         if (hits.some((h) => m.index < h.end && h.start < m.index + m[0].length)) continue;
