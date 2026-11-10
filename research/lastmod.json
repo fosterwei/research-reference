@@ -95,7 +95,7 @@
     },
     "/compare/bpc-157-vs-tb-500": {
       "lastmod": "2026-11-10",
-      "hash": "5a6726f063d5bb255bb5c3d36a3d35143a34292d"
+      "hash": "8b2ede787085f4c0870c0ab0be4604876b3b3365"
     },
     "/compare/cagrilintide-vs-semaglutide": {
       "lastmod": "2026-11-08",
@@ -107,11 +107,11 @@
     },
     "/compare/ipamorelin-vs-sermorelin": {
       "lastmod": "2026-11-10",
-      "hash": "3d84cfd5ca76219a248e805adf311fd9cc3051d1"
+      "hash": "7c217092f7757feb9917c394e694798ff863de36"
     },
     "/compare/ipamorelin-vs-tesamorelin": {
       "lastmod": "2026-11-10",
-      "hash": "9c5738e736f480a5a89f467540dfe8806a65f047"
+      "hash": "50707a7be2246d2f58e79cba02cef264079258a8"
     },
     "/compare/retatrutide-vs-tirzepatide": {
       "lastmod": "2026-11-08",
@@ -755,6 +755,15 @@
         "/stacks/retatrutide-mots-c",
         "/stacks/selank-semax",
         "/stacks/tesamorelin-ipamorelin"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "reason": "Same-day revision: reviewer sign-off recorded (Adam Mirando, PharmD, 2026-11-10) and the not-yet-reviewed notes on today's new sections removed; the lastmod already reads 2026-11-10.",
+      "pages": [
+        "/compare/bpc-157-vs-tb-500",
+        "/compare/ipamorelin-vs-sermorelin",
+        "/compare/ipamorelin-vs-tesamorelin"
       ]
     }
   ]
