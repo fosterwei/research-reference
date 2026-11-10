@@ -139,7 +139,7 @@ const breadcrumbs = {
               <section id="combination"><div><h2>{b.label}</h2><p class="lede">{boundaryFor(intent, 'combination') ?? 'Indexed papers that mention every component, each summarised and cited. A count of zero is the finding, not a gap in this page.'}</p></div>
                 {combination.length > 0 ? <ClaimCards claims={combination} sources={d.sources} /> : <div class="status"><div><strong>No published study tested this combination.</strong> The component evidence above is the whole of what is known; effects of a combination are not established by adding the components together.</div></div>}
               </section>);
-            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={proseCite.tokens(linkTerms(linkEntities(b.guide!.html)))} pending={b.guide!.pending} />;
+            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={proseCite.tokens(linkTerms(linkEntities(b.guide!.html)))} pending={b.guide!.pending} addedAfterReview={(b.guide as any).added_after_review} />;
             case 'open': return <section id="open"><h2>{b.label}</h2><ul class="list">{d.open_questions.map((q: string) => <li>{q}</li>)}</ul></section>;
             case 'faq': return <section id="faq"><h2>{b.label}</h2><Faq items={faqItems} html /></section>;
           }

@@ -11,7 +11,50 @@
   "attributes": {
     "head_to_head": []
   },
-  "sources": [],
+  "sources": [
+    {
+      "id": "pmid-25331030",
+      "title": "Prospective, randomized, controlled, proof-of-concept study of the Ghrelin mimetic ipamorelin for the management of postoperative ileus in bowel resection patients.",
+      "url": "https://europepmc.org/article/MED/25331030",
+      "published": "2014-10-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10496658",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin, a growth hormone releasing peptide, in human volunteers.",
+      "url": "https://europepmc.org/article/MED/10496658",
+      "published": "1999-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10754477",
+      "title": "The GH response to low-dose bolus growth hormone-releasing hormone (GHRH(1-29)NH2) is attenuated in patients with longstanding post-irradiation GH insufficiency.",
+      "url": "https://europepmc.org/article/MED/10754477",
+      "published": "2000-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-9141536",
+      "title": "Endocrine and metabolic effects of long-term administration of [Nle27]growth hormone-releasing hormone-(1-29)-NH2 in age-advanced men and women.",
+      "url": "https://europepmc.org/article/MED/9141536",
+      "published": "1997-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-8772599",
+      "title": "Once daily subcutaneous growth hormone-releasing hormone therapy accelerates growth in growth hormone-deficient children during the first year of therapy. Geref International Study Group.",
+      "url": "https://europepmc.org/article/MED/8772599",
+      "published": "1996-03-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-7735367",
+      "title": "Long-term therapy with a single daily subcutaneous dose of growth hormone releasing hormone (1-29) in prepubertal growth hormone deficient children. Venezuelan Collaborative Study Group.",
+      "url": "https://europepmc.org/article/MED/7735367",
+      "published": "1994-10-01",
+      "kind": "peer-reviewed"
+    }
+  ],
   "related": [
     "ipamorelin",
     "sermorelin"
@@ -54,7 +97,7 @@
     "reviewed_at": "2026-09-29",
     "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
-  "uniqueness_pct": 87.8,
+  "uniqueness_pct": 95.1,
   "guide": [
     {
       "id": "quick-answer",
@@ -65,6 +108,41 @@
       "id": "comparison-table",
       "heading": "What differs, point by point",
       "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\"></th><th scope=\"col\">Ipamorelin</th><th scope=\"col\">Sermorelin</th></tr></thead><tbody><tr><td>Class</td><td>Ghrelin mimetic (GHS-R1a agonist)</td><td>GHRH analogue (GHRH 1-29)</td></tr><tr><td>Origin</td><td>Synthetic pentapeptide, Novo Nordisk, 1990s</td><td>Fragment of the body's own GHRH; Serono, 1990s</td></tr><tr><td>Half-life</td><td>About 2 hours (human PK study)</td><td>About 10 to 20 minutes</td></tr><tr><td>Effect on cortisol and prolactin</td><td>Reported selective: little rise</td><td>Not applicable; GHRH does not act on those axes</td></tr><tr><td>Approval</td><td>Never approved</td><td>Approved US 1997 for paediatric GH deficiency; withdrawn 2008, commercial reasons</td></tr><tr><td>Human evidence</td><td>2 trials: pharmacokinetics; failed ileus trial</td><td>Paediatric efficacy trials; adult diagnostic use; no adult wellness trials</td></tr><tr><td>Compounding in the US</td><td>Not permitted (interim 503A Category 2)</td><td>Has been available through compounding pharmacies</td></tr><tr><td>Sport status</td><td>WADA S2, prohibited at all times</td><td>WADA S2, prohibited at all times</td></tr><tr><td>Commonly reported use</td><td>100 to 300 µg, 1 to 3 times daily</td><td>200 to 500 µg nightly</td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "human-studies",
+      "heading": "Ipamorelin vs sermorelin: the human studies on record",
+      "lede": "What each compound has actually been tested for in people.",
+      "html": "<p><strong>Ipamorelin.</strong> Two human studies. In 1999, healthy men given ipamorelin released growth hormone at every dose tested, and it left the blood with a half-life of about 2 hours.{{cite:pmid-10496658}} In 2014, a trial in 114 patients recovering from bowel surgery found no significant difference from placebo on its main or secondary recovery measures.{{cite:pmid-25331030}} That failed trial ended its clinical development.</p><p><strong>Sermorelin.</strong> A longer record, mostly in children. In a 1996 study of 110 children with growth hormone deficiency given daily injections, average growth rose from 4.1 cm a year to 8.0 and 7.2 cm a year at 6 and 12 months, with no control group.{{cite:pmid-8772599}} In older adults, a 1997 placebo-controlled study of a modified form of sermorelin raised overnight growth hormone levels in both women and men.{{cite:pmid-9141536}} No trial on record tests either compound for the body-composition, sleep or recovery uses adults pursue.</p>",
+      "added_after_review": "2026-11-10"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Ipamorelin vs sermorelin side effects",
+      "lede": "What the two records hold, which is very little.",
+      "html": "<p>The 2014 ipamorelin trial tracked safety through side effects and laboratory tests, but its published abstract gives no side-effect results.{{cite:pmid-25331030}} The sermorelin record holds no side-effect finding from a source this site can cite. Neither absence means the compound has no side effects. It means the studies on record did not report them in a form that can be cited here.</p><p>The full records are on the <a href=\"/compounds/ipamorelin\">ipamorelin</a> and <a href=\"/compounds/sermorelin\">sermorelin</a> pages.</p>",
+      "added_after_review": "2026-11-10"
+    },
+    {
+      "id": "doses",
+      "heading": "Ipamorelin vs sermorelin dosage in the studies",
+      "lede": "Doses studies administered, reported as published. None is a suggestion.",
+      "html": "<p><strong>Ipamorelin.</strong> The one treatment trial gave 0.03 mg/kg by infusion into a vein twice daily, from the day after surgery until day 7 or discharge.{{cite:pmid-25331030}} That is a hospital regimen, not how ipamorelin circulates outside trials.</p><p><strong>Sermorelin.</strong> Children with growth hormone deficiency were given 30 µg/kg once daily under the skin for 12 to 24 months.{{cite:pmid-7735367}} Older adults in the 1997 study injected 10 µg/kg of a modified sermorelin nightly for 16 weeks.{{cite:pmid-9141536}} Diagnostic studies used single injections into a vein, as low as 0.05 and 0.15 µg/kg.{{cite:pmid-10754477}}</p><p>The circulating figures are in the comparison table above as commonly reported use. None has been tested in a trial for the uses it is reported for.</p>",
+      "added_after_review": "2026-11-10"
+    },
+    {
+      "id": "cycle-length",
+      "heading": "Ipamorelin vs sermorelin cycle length: how long studies gave each one",
+      "lede": "Treatment periods on record, not recommended courses.",
+      "html": "<p>Ipamorelin's longest human course is the bowel-surgery trial: twice-daily infusions for up to 7 days.{{cite:pmid-25331030}} Sermorelin was given for 12 months in the 1996 children's study{{cite:pmid-8772599}} and for 12 to 24 months in another{{cite:pmid-7735367}}; the 1997 study in older adults gave 16 weeks of the modified form after 4 weeks of placebo.{{cite:pmid-9141536}} Every compound's study durations are on the <a href=\"/cycles\">peptide cycle length</a> page.</p>",
+      "added_after_review": "2026-11-10"
+    },
+    {
+      "id": "who-should-avoid",
+      "heading": "Who should avoid ipamorelin or sermorelin?",
+      "lede": "No trial or current label on record defines it for either.",
+      "html": "<p>Neither record holds exclusion criteria from a trial or a current approved label that this page can cite, so there is no evidence-based list of who should avoid them. That is an absence of evidence, not a sign that they suit everyone. Two facts on record still apply: both are named under section S2 of the WADA Prohibited List, prohibited at all times, so athletes subject to testing are covered by that rule; and ipamorelin has appeared in the FDA's Category 2 for compounding, the category for substances with significant safety concerns. What each record does hold is on the <a href=\"/compounds/ipamorelin#exclusion\">ipamorelin</a> and <a href=\"/compounds/sermorelin#exclusion\">sermorelin</a> pages.</p>",
+      "added_after_review": "2026-11-10"
     },
     {
       "id": "choosing",
@@ -85,6 +163,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-29."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Added five written sections: the human studies on record, side effects, doses in studies, how long studies gave each one, and who should avoid them, with each statement about a study cited to the paper on the compound pages. They were added after the page's review and are marked as not yet reviewed."
     }
   ]
 }

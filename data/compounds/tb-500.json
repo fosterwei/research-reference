@@ -182,8 +182,8 @@
         "plain": "A 2007 venous ulcer trial of thymosin beta-4 on the skin was designed to treat 72 patients for 84 days and follow them for 14 days after treatment."
       },
       {
-        "value": "Human study, humans, n=43, 2025: durations stated: 7 day; 28 days; 1 day. Methods and results In C57BL/6J mice, 7-day rhTB4 treatment prevented cardiac dysfunction and fibrosis 28 days post-I/R surgery and significantly reduced plasma NT-proBNP levels at both 1 day and 28 days post-I/R.",
-        "evidence_label": "observational-human",
+        "value": "Animal study, mice, 2025: durations stated: 7 day; 28 days; 1 day. Methods and results In C57BL/6J mice, 7-day rhTB4 treatment prevented cardiac dysfunction and fibrosis 28 days post-I/R surgery and significantly reduced plasma NT-proBNP levels at both 1 day and 28 days post-I/R.",
+        "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-41229390"
         ],
@@ -404,8 +404,8 @@
         "plain": "Background: in a 2026 lab study of melanoma cells, drug-resistant cells released more thymosin beta-4 and other proteins, proposed as possible cancer markers; this is not a peptide treatment result."
       },
       {
-        "value": "Human study, humans, n=43, 2025: In a randomized, placebo-controlled, double-blind trial involving 96 STEMI patients, the infarcted areas were significantly reduced in the rhTB4 group, which received the first dose of rhTB4 within 8 h after PCI (n = 43), as compared to the placebo group at the 90-day follow-up.",
-        "evidence_label": "observational-human",
+        "value": "Randomized controlled trial, humans, n=96, 2025: In a randomized, placebo-controlled, double-blind trial involving 96 STEMI patients, the infarcted areas were significantly reduced in the rhTB4 group, which received the first dose of rhTB4 within 8 h after PCI (n = 43), as compared to the placebo group at the 90-day follow-up.",
+        "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-41229390"
         ],
@@ -414,8 +414,8 @@
         "fields": {
           "study": "Zhang 2025",
           "year": "2025",
-          "design": "Human study",
-          "n": 43,
+          "design": "Randomized controlled trial",
+          "n": 96,
           "species": "Humans",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
@@ -551,8 +551,8 @@
         "plain": "In mice with colitis (Zhao, 2026), recombinant human thymosin β4 by mouth significantly improved survival, reduced weight loss and gut lining injury, and lowered inflammatory signals, given before or after onset."
       },
       {
-        "value": "Animal study, 2026: Although Tβ4 improved wound healing and barrier function, the disruptive effects of CPFX were not fully mitigated.",
-        "evidence_label": "animal-preclinical",
+        "value": "In vitro study, corneal cells, 2026: Although Tβ4 improved wound healing and barrier function, the disruptive effects of CPFX were not fully mitigated.",
+        "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-42431294"
         ],
@@ -561,9 +561,9 @@
         "fields": {
           "study": "Banga 2026",
           "year": "2026",
-          "design": "Animal study",
+          "design": "In vitro study",
           "n": null,
-          "species": "not indexed",
+          "species": "Cells",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
@@ -656,8 +656,8 @@
         "plain": "In human corneal cells grown in a lab, part of a 2025 mouse study (Nguyen), an engineered tandem thymosin peptide increased cell survival and movement compared with standard thymosin beta 4."
       },
       {
-        "value": "Animal study, mice, 2025: Interestingly, the expression level of the gene TMSB4X that encodes thymosin beta 4 (Tβ4) significantly decreased both in fAD organoids' neurons and AD patients' excitatory neurons.",
-        "evidence_label": "animal-preclinical",
+        "value": "In vitro study, brain organoids, 2025: Interestingly, the expression level of the gene TMSB4X that encodes thymosin beta 4 (Tβ4) significantly decreased both in fAD organoids' neurons and AD patients' excitatory neurons.",
+        "evidence_label": "mechanistic-in-vitro",
         "source_ids": [
           "pmid-40816274"
         ],
@@ -666,9 +666,9 @@
         "fields": {
           "study": "Zeng 2025",
           "year": "2025",
-          "design": "Animal study",
+          "design": "In vitro study",
           "n": null,
-          "species": "Mice",
+          "species": "Organoids",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
           "duration": "not stated in abstract",
@@ -1215,7 +1215,7 @@
     }
   ],
   "related": [],
-  "uniqueness_pct": 83.6,
+  "uniqueness_pct": 84.0,
   "review": {
     "author": "",
     "reviewer": "Adam Mirando",
@@ -1275,6 +1275,10 @@
     {
       "date": "2026-11-09",
       "change": "Added a \"who should avoid\" section. No exclusion criteria or approved label for TB-500 is on record, and the section says so, then points to what the record does hold: its regulatory status, its side-effect findings and the populations its human studies enrolled."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Corrected four evidence labels. The 2025 trial of recombinant thymosin beta 4 in 96 heart attack patients is a randomized controlled trial, not an observational study; the same paper's 7-day mouse experiment is animal evidence; and the corneal-cell and brain-organoid studies were done in the lab, not in animals. The findings and their citations are unchanged."
     }
   ],
   "guide": [

@@ -11,7 +11,92 @@
   "attributes": {
     "head_to_head": []
   },
-  "sources": [],
+  "sources": [
+    {
+      "id": "pmid-25331030",
+      "title": "Prospective, randomized, controlled, proof-of-concept study of the Ghrelin mimetic ipamorelin for the management of postoperative ileus in bowel resection patients.",
+      "url": "https://europepmc.org/article/MED/25331030",
+      "published": "2014-10-21",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-10496658",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin, a growth hormone releasing peptide, in human volunteers.",
+      "url": "https://europepmc.org/article/MED/10496658",
+      "published": "1999-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40510111",
+      "title": "Carpal Tunnel Syndrome Attributed to Medication Use: A Pharmacovigilance Study.",
+      "url": "https://europepmc.org/article/MED/40510111",
+      "published": "2025-05-12",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-38905488",
+      "title": "Efficacy and safety of tesamorelin in people with HIV on integrase inhibitors.",
+      "url": "https://europepmc.org/article/MED/38905488",
+      "published": "2024-06-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-32701508",
+      "title": "Effects of tesamorelin on hepatic transcriptomic signatures in HIV-associated NAFLD.",
+      "url": "https://europepmc.org/article/MED/32701508",
+      "published": "2020-08-20",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-31611038",
+      "title": "Effects of tesamorelin on non-alcoholic fatty liver disease in HIV: a randomised, double-blind, multicentre trial.",
+      "url": "https://europepmc.org/article/MED/31611038",
+      "published": "2019-10-11",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-28617838",
+      "title": "Safety and metabolic effects of tesamorelin, a growth hormone-releasing factor analogue, in patients with type 2 diabetes: A randomized, placebo-controlled trial.",
+      "url": "https://europepmc.org/article/MED/28617838",
+      "published": "2017-06-15",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25038357",
+      "title": "Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation: a randomized clinical trial.",
+      "url": "https://europepmc.org/article/MED/25038357",
+      "published": "2014-07-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-22869065",
+      "title": "Effects of growth hormone–releasing hormone on cognitive function in adults with mild cognitive impairment and healthy older adults: results of a controlled trial.",
+      "url": "https://europepmc.org/article/MED/22869065",
+      "published": "2012-11-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-23015655",
+      "title": "Metabolic effects of a growth hormone-releasing factor in obese subjects with reduced growth hormone secretion: a randomized controlled trial.",
+      "url": "https://europepmc.org/article/MED/23015655",
+      "published": "2012-09-26",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-21516030",
+      "title": "Effects of tesamorelin on inflammatory markers in HIV patients with excess abdominal fat: relationship with visceral adipose reduction.",
+      "url": "https://europepmc.org/article/MED/21516030",
+      "published": "2011-06-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-18690162",
+      "title": "Long-term safety and effects of tesamorelin, a growth hormone-releasing factor analogue, in HIV patients with abdominal fat accumulation.",
+      "url": "https://europepmc.org/article/MED/18690162",
+      "published": "2008-09-01",
+      "kind": "peer-reviewed"
+    }
+  ],
   "related": [
     "ipamorelin",
     "tesamorelin"
@@ -54,7 +139,7 @@
     "reviewed_at": "2026-09-29",
     "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
-  "uniqueness_pct": 86.7,
+  "uniqueness_pct": 95.2,
   "guide": [
     {
       "id": "quick-answer",
@@ -65,6 +150,41 @@
       "id": "comparison-table",
       "heading": "What differs, point by point",
       "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\"></th><th scope=\"col\">Ipamorelin</th><th scope=\"col\">Tesamorelin</th></tr></thead><tbody><tr><td>Class</td><td>Ghrelin mimetic (GHS-R1a agonist)</td><td>GHRH analogue, stabilised</td></tr><tr><td>Approval</td><td>Never approved</td><td>FDA 2010 (Egrifta), HIV-associated lipodystrophy; also approved in some other jurisdictions</td></tr><tr><td>Approved dose</td><td>None</td><td>2 mg subcutaneously once daily (label)</td></tr><tr><td>Half-life</td><td>About 2 hours</td><td>About 26 to 38 minutes</td></tr><tr><td>Human evidence</td><td>2 trials: pharmacokinetics; failed ileus trial</td><td>Phase 3 trials in HIV lipodystrophy; smaller trials in other populations</td></tr><tr><td>Documented side effects</td><td>Almost none documented; two trials</td><td>Injection-site reactions, joint pain, fluid retention, raised IGF-1 and glucose effects, on the label</td></tr><tr><td>Cost and access</td><td>Unregulated research-chemical market</td><td>Prescription medicine; high list price</td></tr><tr><td>Sport status</td><td>WADA S2</td><td>WADA S2</td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "human-trials",
+      "heading": "Ipamorelin vs tesamorelin: the human trials side by side",
+      "lede": "One has a phase 3 programme. The other has two studies, one of them a failed trial.",
+      "html": "<p><strong>Tesamorelin.</strong> In a 2011 trial, 273 people with HIV and excess belly fat took tesamorelin 2 mg daily and 137 took placebo for 26 weeks.{{cite:pmid-21516030}} In a 2014 randomized trial, deep belly fat fell by 34 cm² on tesamorelin and rose by 8 cm² on placebo over 6 months.{{cite:pmid-25038357}} In people with HIV and fatty liver, it reduced liver fat by 4.1 percentage points more than placebo, a 37% relative fall.{{cite:pmid-31611038}} Outside HIV, a 2012 trial in adults with obesity and low growth hormone also reduced deep belly fat against placebo{{cite:pmid-23015655}}, while a 2017 trial in type 2 diabetes found no change in insulin response or blood sugar control.{{cite:pmid-28617838}}</p><p><strong>Ipamorelin.</strong> A 1999 study in healthy men showed it releases growth hormone at every dose tested, with a half-life of about 2 hours.{{cite:pmid-10496658}} Its one treatment trial, in 114 patients after bowel surgery, found no significant difference from placebo.{{cite:pmid-25331030}} It has never been tested for fat loss in people.</p>",
+      "added_after_review": "2026-11-10"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Ipamorelin vs tesamorelin side effects",
+      "lede": "Tesamorelin's side effects are documented because it went through trials; ipamorelin's are largely unknown for the same reason in reverse.",
+      "html": "<p><strong>Tesamorelin.</strong> In a 2019 trial, the tesamorelin group had more injection-site complaints than the placebo group, none judged serious.{{cite:pmid-31611038}} Over 52 weeks it was reported as generally well tolerated.{{cite:pmid-18690162}} A 2024 analysis found side effects, including high blood sugar, no more frequent than on placebo{{cite:pmid-38905488}}. In a 2025 review of drug side-effect reports, carpal tunnel syndrome was reported more often than expected with tesamorelin, though such reports cannot show the drug caused it.{{cite:pmid-40510111}}</p><p><strong>Ipamorelin.</strong> Its 2014 trial tracked side effects and laboratory tests, but the abstract reports no results.{{cite:pmid-25331030}} No other human safety data is on record.</p>",
+      "added_after_review": "2026-11-10"
+    },
+    {
+      "id": "doses",
+      "heading": "Ipamorelin vs tesamorelin dosage in the studies",
+      "lede": "Doses studies administered, reported as published.",
+      "html": "<p>Tesamorelin's trials in HIV used 2 mg under the skin once daily{{cite:pmid-25038357}}, which is also the approved dose for its one licensed use. A trial in 152 older adults used 1 mg a day, injected 30 minutes before bed, for 20 weeks.{{cite:pmid-22869065}} Ipamorelin's only treatment trial gave 0.03 mg/kg by infusion into a vein twice daily in hospital after surgery.{{cite:pmid-25331030}} No ipamorelin dose has been tested for the uses it circulates for. The tesamorelin schedule is on its <a href=\"/compounds/tesamorelin#protocol\">dosing protocol</a>.</p>",
+      "added_after_review": "2026-11-10"
+    },
+    {
+      "id": "cycle-length",
+      "heading": "Ipamorelin vs tesamorelin cycle length: how long studies gave each one",
+      "lede": "Treatment periods on record, not recommended courses.",
+      "html": "<p>Tesamorelin trials ran for 26 weeks{{cite:pmid-21516030}}, 6 months{{cite:pmid-25038357}}, and in the fatty-liver trial 12 months followed by 6 months in which everyone took it.{{cite:pmid-31611038}} The 2008 long-term study followed people for 52 weeks.{{cite:pmid-18690162}} Ipamorelin's longest human course is up to 7 days of twice-daily infusions after surgery.{{cite:pmid-25331030}} Every compound's study durations are on the <a href=\"/cycles\">peptide cycle length</a> page.</p>",
+      "added_after_review": "2026-11-10"
+    },
+    {
+      "id": "who-should-avoid",
+      "heading": "Who should avoid ipamorelin or tesamorelin?",
+      "lede": "Tesamorelin's trials name who they kept out. Ipamorelin's record names no one.",
+      "html": "<p><strong>Tesamorelin.</strong> A 2017 trial excluded people with signs of breast or prostate cancer, recent steroid use, recent use of any growth hormone or IGF-1 product, pituitary disease, past head radiation, and current or past cancer.{{cite:pmid-28617838}} The trial in HIV-associated fatty liver also excluded heavy drinkers, people with hepatitis B or C or cirrhosis, and people with poorly controlled diabetes.{{cite:pmid-32701508}}</p><p><strong>Ipamorelin.</strong> No exclusion criteria are on record, so there is no evidence-based list. That is an absence of evidence, not a sign that it suits everyone.</p><p>Both are named under section S2 of the WADA Prohibited List, prohibited at all times. The full lists are on the <a href=\"/compounds/tesamorelin#exclusion\">tesamorelin</a> and <a href=\"/compounds/ipamorelin#exclusion\">ipamorelin</a> pages.</p>",
+      "added_after_review": "2026-11-10"
     },
     {
       "id": "choosing",
@@ -85,6 +205,10 @@
     {
       "date": "2026-09-29",
       "change": "Reviewed by Adam Mirando, PharmD, on 2026-09-29."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Added five written sections: the human trials side by side, side effects, doses in studies, how long studies gave each one, and who the tesamorelin trials excluded, with each statement about a study cited to the paper on the compound pages. They were added after the page's review and are marked as not yet reviewed."
     }
   ]
 }

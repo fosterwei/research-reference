@@ -310,7 +310,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
 
         {body.map((b) => {
           switch (b.kind) {
-            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={proseCite.tokens(linkTerms(linkEntities(b.guide!.html)))} pending={b.guide!.pending} />;
+            case 'guide': return <EditorialSection id={b.guide!.id} heading={b.guide!.heading} lede={b.guide!.lede} html={proseCite.tokens(linkTerms(linkEntities(b.guide!.html)))} pending={b.guide!.pending} addedAfterReview={(b.guide as any).added_after_review} />;
             case 'human': return <HumanTrials rows={A.evidence_table} name={d.preferred_name} sources={d.sources} max={12} heading={kwh('What happened in the human studies?')} />;
             case 'landscape': return <section id="landscape"><div><h2>{b.label}</h2><p class="lede">Counts from Europe PMC. Zeros are measured, not missing.</p></div><LandscapeTable record={d} /></section>;
             case 'table': return (

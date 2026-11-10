@@ -2,8 +2,10 @@
 // A written section: prose, lists and tables from a record's `guide[]`,
 // marked once as editorial synthesis. Cited claim cards, when the page has
 // them for the same topic, render beneath the prose as its receipts.
-interface Props { id: string; heading: string; lede?: string; html: string; pending?: boolean }
-const { id, heading, lede, html, pending = false } = Astro.props;
+// `addedAfterReview` is the date a section was added to a page whose reviewer
+// sign-off predates it: the page's "Reviewed by" line must not cover it.
+interface Props { id: string; heading: string; lede?: string; html: string; pending?: boolean; addedAfterReview?: string }
+const { id, heading, lede, html, pending = false, addedAfterReview } = Astro.props;
 ---
 <section id={id} class="guide">
   <div>
@@ -11,6 +13,6 @@ const { id, heading, lede, html, pending = false } = Astro.props;
     {lede && <p class="lede">{lede}</p>}
   </div>
   <div class="guide-body prose-lg" set:html={html} />
-  <p class="guide-mark"><span class="tier" data-tier="editorial"><i></i>Editorial synthesis</span> Written from general pharmacology, the development record and what is commonly reported; not a cited finding{pending ? '; primary documents to be added' : ''}. Cited findings on this page carry their own tier.</p>
+  <p class="guide-mark"><span class="tier" data-tier="editorial"><i></i>Editorial synthesis</span> Written from general pharmacology, the development record and what is commonly reported; not a cited finding{pending ? '; primary documents to be added' : ''}. Cited findings on this page carry their own tier.{addedAfterReview && <> Added on {addedAfterReview}, after this page's last review, and not yet reviewed.</>}</p>
   <slot />
 </section>

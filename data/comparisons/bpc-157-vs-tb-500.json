@@ -29,6 +29,76 @@
       "url": "https://europepmc.org/article/MED/42542926",
       "published": "2026-07-23",
       "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40131143",
+      "title": "Safety of Intravenous Infusion of BPC157 in Humans: A Pilot Study.",
+      "url": "https://europepmc.org/article/MED/40131143",
+      "published": "2025-09-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-39861766",
+      "title": "Stable Gastric Pentadecapeptide BPC 157 as Therapy After Surgical Detachment of the Quadriceps Muscle from Its Attachments for Muscle-to-Bone Reattachment in Rats.",
+      "url": "https://europepmc.org/article/MED/39861766",
+      "published": "2025-01-16",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-35678659",
+      "title": "Novel Therapeutic Effects in Rat Spinal Cord Injuries: Recovery of the Definitive and Early Spinal Cord Injury by the Administration of Pentadecapeptide BPC 157 Therapy.",
+      "url": "https://europepmc.org/article/MED/35678659",
+      "published": "2022-04-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34829776",
+      "title": "Stable Gastric Pentadecapeptide BPC 157 as a Therapy for the Disable Myotendinous Junctions in Rats.",
+      "url": "https://europepmc.org/article/MED/34829776",
+      "published": "2021-10-27",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "usada-bpc-157-prohibited",
+      "title": "BPC-157: Experimental Peptide Creates Risk for Athletes (U.S. Anti-Doping Agency, accessed 2026-09-24)",
+      "url": "https://www.usada.org/spirit-of-sport/bpc-157-peptide-prohibited/",
+      "published": "2026-09-24",
+      "kind": "regulatory"
+    },
+    {
+      "id": "pmid-41229390",
+      "title": "Recombinant human thymosin beta 4 improves ischemic cardiac dysfunction in mice and patients with acute ST-segment elevation myocardial infarction after reperfusion.",
+      "url": "https://europepmc.org/article/MED/41229390",
+      "published": "2025-12-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-34346165",
+      "title": "A first-in-human, randomized, double-blind, single- and multiple-dose, phase I study of recombinant human thymosin β4 in healthy Chinese volunteers.",
+      "url": "https://europepmc.org/article/MED/34346165",
+      "published": "2021-08-04",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-25826322",
+      "title": "Thymosin β4 significantly improves signs and symptoms of severe dry eye in a phase 2 randomized trial.",
+      "url": "https://europepmc.org/article/MED/25826322",
+      "published": "2015-05-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-20536472",
+      "title": "A randomized, placebo-controlled, single and multiple dose study of intravenous thymosin beta4 in healthy volunteers.",
+      "url": "https://europepmc.org/article/MED/20536472",
+      "published": "2010-04-01",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-17495250",
+      "title": "Thymosin beta-4 and venous ulcers: clinical remarks on a European prospective, randomized study on safety, tolerability, and enhancement on healing.",
+      "url": "https://europepmc.org/article/MED/17495250",
+      "published": "2007-05-10",
+      "kind": "peer-reviewed"
     }
   ],
   "related": [
@@ -69,7 +139,7 @@
     "reviewed_at": "2026-09-29",
     "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
-  "uniqueness_pct": 87.2,
+  "uniqueness_pct": 93.9,
   "changelog": [
     {
       "date": "2026-09-14",
@@ -94,6 +164,10 @@
     {
       "date": "2026-11-08",
       "change": "Added 2 numbered citation marks to the written sections, each linking a stated finding to the paper it comes from. Sentences that are the page's own reasoning, general background or regulatory status remain unmarked."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Added four written sections: side effects, doses in studies, how long studies gave each one, and who should avoid them, each sentence about a study cited to the paper on the compound pages. They were added after the page's review and are marked as not yet reviewed."
     }
   ],
   "sides": [
@@ -110,6 +184,34 @@
       "id": "comparison-table",
       "heading": "What differs, point by point",
       "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\"></th><th scope=\"col\">BPC-157</th><th scope=\"col\">TB-500</th></tr></thead><tbody><tr><td>Origin</td><td>Fragment of body protection compound, human gastric juice</td><td>Fragment of thymosin β4, a ubiquitous actin-binding protein</td></tr><tr><td>Proposed mechanism</td><td>Nitric-oxide system, growth-factor receptor upregulation, angiogenesis</td><td>Actin binding, cell migration, angiogenesis</td></tr><tr><td>Where the animal evidence is</td><td>Gut, tendon, muscle, bone, nerve, blood pressure; mostly one laboratory</td><td>Wound, cardiac, corneal models; many laboratories, mostly on the full protein</td></tr><tr><td>Human evidence</td><td>3 uncontrolled pilots, about 26 people</td><td>Trials of the full protein in dry eye, neurotrophic keratopathy and dermal wounds; the fragment itself barely studied</td></tr><tr><td>Half-life</td><td>Unmeasured; plasma back to baseline within 24 h after infusion</td><td>Not established for the fragment; the full protein is cleared within hours</td></tr><tr><td>Commonly reported use</td><td>250 to 500 µg daily, near the injury</td><td>2 to 2.5 mg twice weekly, systemic</td></tr><tr><td>Sport status</td><td>WADA S0, prohibited at all times</td><td>WADA S2, prohibited at all times</td></tr><tr><td>Approval</td><td>None; FDA compounding Category 2</td><td>None</td></tr></tbody></table></div></div>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "BPC-157 vs TB-500 side effects: what has been reported in people",
+      "lede": "Neither has a controlled human safety record. What exists is small, and it is not the same molecule on both sides.",
+      "html": "<p><strong>BPC-157.</strong> The only human safety data on record is a 2025 pilot in which 2 healthy adults were given BPC-157 into a vein, at up to 20 mg, with no control group. No side effects were reported.{{cite:pmid-40131143}} Two people cannot show that a compound is safe; they can only show that nothing obvious happened to them. The theoretical concern most often raised, that a compound which promotes new blood vessels might also feed a tumour, has not been tested in either direction.</p><p><strong>TB-500.</strong> No human study has given the TB-500 fragment by injection, so it has no human side-effect record at all. The human trials belong to the full thymosin beta-4 protein. Two of them gave it into a vein to healthy volunteers and tracked how blood levels rose with the dose{{cite:pmid-20536472}}{{cite:pmid-34346165}}, and a 2025 randomized trial gave it to 96 heart attack patients.{{cite:pmid-41229390}} Those findings describe the full protein, not the fragment sold as TB-500.</p><p>So the honest comparison is two people on one side and none on the other, with the parent protein's trials standing in for a molecule they did not test.</p>",
+      "added_after_review": "2026-11-10"
+    },
+    {
+      "id": "doses",
+      "heading": "BPC-157 vs TB-500 dosage: what the studies gave",
+      "lede": "Every figure here is a dose a study administered, reported as published. None is a suggestion, and animal doses do not convert into human ones.",
+      "html": "<p><strong>The one study of both.</strong> In the 2026 rat tendon study, groups of eight rats received BPC-157 at 10 µg/kg a day, TB-500 at 60 µg/kg a day, both together, or nothing.{{cite:pmid-42542926}}</p><p><strong>BPC-157 elsewhere.</strong> In people, the only dose on record is the single intravenous infusion of up to 20 mg in the 2-person pilot.{{cite:pmid-40131143}} In rats, the research group behind most of the literature commonly uses 10 µg/kg or 10 ng/kg; in its 2025 muscle-reattachment study, both doses were given by mouth daily.{{cite:pmid-39861766}}</p><p><strong>Thymosin beta-4, the parent protein.</strong> A 2021 phase 1 trial gave healthy volunteers 0.5, 2.0 or 5.0 µg/kg into a vein once a day for 10 days.{{cite:pmid-34346165}} That is the full protein by infusion, which is not how TB-500 is used.</p><p>The figures that circulate for each compound appear in the comparison table above as commonly reported use. None of them has been tested in a trial. The <a href=\"/calculators\">dosage calculators</a> convert a dose into syringe units; they do not choose one.</p>",
+      "added_after_review": "2026-11-10"
+    },
+    {
+      "id": "cycle-length",
+      "heading": "BPC-157 vs TB-500 cycle length: how long studies gave each one",
+      "lede": "Studies report treatment periods, not cycles. These are the periods on record.",
+      "html": "<p><strong>BPC-157.</strong> Human data is a single infusion.{{cite:pmid-40131143}} In rats, healing was assessed at 28 and 42 days after muscle-tendon injury{{cite:pmid-34829776}}, reattached muscle was followed for 3 months{{cite:pmid-39861766}}, and recovery after spinal cord injury was reported as lasting a year.{{cite:pmid-35678659}} Those are follow-up periods in rats, not human courses.</p><p><strong>TB-500 and thymosin beta-4.</strong> The rat tendon study measured strength at four weeks.{{cite:pmid-42542926}} The full protein's human trials ran 10 days of daily infusions followed for 28 days{{cite:pmid-34346165}}, 14 days of daily infusions{{cite:pmid-20536472}}, 56 days of eye drops including follow-up{{cite:pmid-25826322}}, and a skin-ulcer trial designed for 84 days of treatment.{{cite:pmid-17495250}}</p><p>Every compound's study durations, side by side, are on the <a href=\"/cycles\">peptide cycle length</a> page.</p>",
+      "added_after_review": "2026-11-10"
+    },
+    {
+      "id": "who-should-avoid",
+      "heading": "Who should avoid BPC-157 or TB-500?",
+      "lede": "No trial or label defines it for either compound. Two facts on record still matter.",
+      "html": "<p>Neither compound has an approved label, and no trial of either lists exclusion criteria this page can cite, so there is no evidence-based list of who should avoid them. That is an absence of evidence, not a sign that they suit everyone.</p><p><strong>Athletes.</strong> The U.S. Anti-Doping Agency states that BPC-157 is prohibited under the S0 category of the WADA Prohibited List{{cite:usada-bpc-157-prohibited}}, and TB-500 is named under S2. Both are prohibited at all times, in and out of competition.</p><p><strong>Approval.</strong> USADA also states that BPC-157 is not approved for human use by the FDA or any other health authority.{{cite:usada-bpc-157-prohibited}} Neither TB-500 nor the full thymosin beta-4 protein holds a marketing authorisation anywhere.</p><p>What each record holds on safety is on the <a href=\"/compounds/bpc-157#exclusion\">BPC-157</a> and <a href=\"/compounds/tb-500#exclusion\">TB-500</a> pages.</p>",
+      "added_after_review": "2026-11-10"
     },
     {
       "id": "choosing",

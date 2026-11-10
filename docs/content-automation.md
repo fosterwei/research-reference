@@ -440,3 +440,18 @@ accept everything or reject everything.
   prose on compound, stack and comparison pages links the first mention of up
   to four glossary terms to /glossary (`glossaryLinker`, built on the record
   linker in `src/lib/entities.ts`).
+- 2026-11-10 — The four thinnest comparisons brought up to the others.
+  BPC-157 vs TB-500, ipamorelin vs sermorelin and ipamorelin vs tesamorelin
+  had three written sections each; semaglutide vs tirzepatide had none. Each
+  gained sections on side effects, doses in studies, cycle length and who
+  should avoid, every statement about a study cited to a paper already on the
+  compound pages. Semaglutide vs tirzepatide gained the two head-to-head
+  trials it was missing (SURMOUNT-5, SURPASS-2) as cited findings, plus the
+  EU labels, and eight sections; it stays noindex until a reviewer signs it,
+  because comparisons index only with a reviewer. On the three reviewed
+  pages, new sections carry `added_after_review` and render "Added on <date>,
+  after this page's last review, and not yet reviewed", so the page's
+  "Reviewed by" line never covers text the reviewer has not seen. TB-500
+  label fixes found on the way: the 2025 heart-attack trial is a randomized
+  trial, not observational; its 7-day experiment is in mice; two lab-dish
+  studies were labelled animal.

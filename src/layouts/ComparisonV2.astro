@@ -149,7 +149,7 @@ const breadcrumbs = {
               <section id="head-to-head"><div><h2>{x.label}</h2><p class="lede">{boundaryFor(intent, 'head-to-head') ?? 'Indexed papers whose abstracts name both compounds, each summarised and cited. Read the design line on each card: naming both is not the same as comparing them.'}</p></div>
                 {h2h.length > 0 ? <ClaimCards claims={h2h} sources={d.sources} /> : <div class="status"><div><strong>No indexed study has compared {a?.data.preferred_name} and {b?.data.preferred_name} directly.</strong> The side-by-side table above lines up what each compound's own studies state; anything beyond that is inference, and this page does not make it.</div></div>}
               </section>);
-            case 'guide': return <EditorialSection id={x.guide!.id} heading={x.guide!.heading} lede={x.guide!.lede} html={proseCite.tokens(linkTerms(linkEntities(x.guide!.html)))} pending={x.guide!.pending} />;
+            case 'guide': return <EditorialSection id={x.guide!.id} heading={x.guide!.heading} lede={x.guide!.lede} html={proseCite.tokens(linkTerms(linkEntities(x.guide!.html)))} pending={x.guide!.pending} addedAfterReview={(x.guide as any).added_after_review} />;
             case 'open': return <section id="open"><h2>{x.label}</h2><ul class="list">{d.open_questions.map((q: string) => <li>{q}</li>)}</ul></section>;
             case 'faq': return <section id="faq"><h2>{x.label}</h2><Faq items={faqItems} html /></section>;
           }
