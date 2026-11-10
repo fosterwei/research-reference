@@ -1,0 +1,55 @@
+{
+  "slug": "semaglutide-vs-tirzepatide",
+  "written": "2026-11-10",
+  "status": "parked: SOP stages 1-5 and the audit are not done (no DataForSEO access when written). Restore to guide[] only after research/intents/semaglutide-vs-tirzepatide.json and research/audits/semaglutide-vs-tirzepatide-*.md exist and loop_status passes.",
+  "guide": [
+    {
+      "id": "quick-answer",
+      "heading": "Semaglutide vs tirzepatide in two minutes",
+      "lede": "Unlike most comparisons on this site, this one has been tested directly, twice.",
+      "html": "<p><strong>Weight, in obesity without diabetes.</strong> In SURMOUNT-5, a randomized trial of 751 adults, people lost 20.2% of their body weight on average with tirzepatide and 13.7% with semaglutide after 72 weeks, each at the highest dose they tolerated.{{cite:pmid-40353578}}</p><p><strong>Blood sugar, in type 2 diabetes.</strong> In SURPASS-2, a 40-week trial of 1,879 people, all three tirzepatide doses lowered HbA1c more than semaglutide 1 mg, and weight fell by 1.9 to 5.5 kg more.{{cite:pmid-34170647}}</p><p><strong>Side effects.</strong> Both drugs mostly cause digestive side effects, usually mild to moderate and mostly while the dose is being raised.{{cite:pmid-40353578}} Nausea rates were similar in SURPASS-2.{{cite:pmid-34170647}}</p><p><strong>Status.</strong> Both are approved medicines with labels. Semaglutide acts on one receptor, GLP-1; tirzepatide acts on GLP-1 and GIP.</p>"
+    },
+    {
+      "id": "trials",
+      "heading": "The semaglutide vs tirzepatide head-to-head trials",
+      "lede": "What each trial tested, and the details that limit what it shows.",
+      "html": "<div class=\"card clip\"><div class=\"tblwrap\"><table class=\"tbl\"><thead><tr><th scope=\"col\"></th><th scope=\"col\">SURMOUNT-5 (2025)</th><th scope=\"col\">SURPASS-2 (2021)</th></tr></thead><tbody><tr><td>Who</td><td>751 adults with obesity, without type 2 diabetes{{cite:pmid-40353578}}</td><td>1,879 adults with type 2 diabetes{{cite:pmid-34170647}}</td></tr><tr><td>Doses</td><td>Tirzepatide 10 or 15 mg vs semaglutide 1.7 or 2.4 mg, weekly, the highest dose tolerated</td><td>Tirzepatide 5, 10 or 15 mg vs semaglutide 1 mg, weekly</td></tr><tr><td>Length</td><td>72 weeks</td><td>40 weeks</td></tr><tr><td>Main result</td><td>Weight change: -20.2% vs -13.7%</td><td>HbA1c: tirzepatide lower at every dose; weight 1.9 to 5.5 kg lower</td></tr><tr><td>Blinding</td><td>Open-label</td><td>Open-label</td></tr><tr><td>Funder</td><td>Eli Lilly, maker of tirzepatide</td><td>Eli Lilly, maker of tirzepatide</td></tr></tbody></table></div></div><p>Two details matter. Both trials were open-label, so participants knew which drug they were taking, which can affect reported side effects and dropout. And SURPASS-2 compared tirzepatide with semaglutide at 1 mg, the diabetes dose, not the 2.4 mg dose used for weight loss, so its weight figures understate what semaglutide does at the higher dose. SURMOUNT-5 is the trial that answers the weight question at the doses used for obesity.</p>"
+    },
+    {
+      "id": "side-effects",
+      "heading": "Semaglutide vs tirzepatide side effects",
+      "lede": "From the two head-to-head trials, where both drugs were given under the same conditions.",
+      "html": "<p>In SURPASS-2, digestive side effects were the most common with both drugs: nausea in 17 to 22% of people on tirzepatide and 18% on semaglutide, diarrhoea in 13 to 16% and 12%, and vomiting in 6 to 10% and 8%. Most were mild to moderate.{{cite:pmid-34170647}} Serious adverse events were reported in 5 to 7% on tirzepatide and 3% on semaglutide.{{cite:pmid-34170647}}</p><p>SURMOUNT-5 reported the same pattern at the obesity doses: mostly digestive, mostly mild to moderate, and mainly during the weeks the dose was being increased.{{cite:pmid-40353578}} That is why both drugs start low and step up.</p><p>Each drug's full side-effect record is on its own page: <a href=\"/compounds/semaglutide#adverse\">semaglutide side effects</a> and <a href=\"/compounds/tirzepatide#adverse\">tirzepatide side effects</a>.</p>"
+    },
+    {
+      "id": "doses",
+      "heading": "Semaglutide vs tirzepatide dosage in the trials",
+      "lede": "The doses the head-to-head trials used. Each drug's label schedule, with its titration steps, is on its own page.",
+      "html": "<p>In SURMOUNT-5, each participant was taken up to the highest weekly dose they tolerated: 10 or 15 mg for tirzepatide and 1.7 or 2.4 mg for semaglutide, by injection under the skin.{{cite:pmid-40353578}} In SURPASS-2, tirzepatide was given at fixed weekly doses of 5, 10 or 15 mg and semaglutide at 1 mg.{{cite:pmid-34170647}}</p><p>The milligram numbers are not comparable between the two drugs. They are different molecules with different potency, so 2.4 mg of semaglutide and 15 mg of tirzepatide are each drug's top dose, not a sign that one is stronger. The label schedules are in the <a href=\"/compounds/semaglutide#protocol\">semaglutide dosing protocol</a> and the <a href=\"/compounds/tirzepatide#protocol\">tirzepatide dosing protocol</a>.</p>"
+    },
+    {
+      "id": "who-should-avoid",
+      "heading": "Who should avoid semaglutide or tirzepatide?",
+      "lede": "From the EU labels for Wegovy and Mounjaro.",
+      "html": "<p><strong>Allergy.</strong> Both labels list one outright contraindication: allergy to the active substance or any other ingredient of the injection.{{cite:ema-wegovy-smpc}}{{cite:ema-mounjaro-smpc}}</p><p><strong>Pregnancy.</strong> The semaglutide label says it should not be used in pregnancy and should be stopped at least 2 months before a planned pregnancy.{{cite:ema-wegovy-smpc}} The tirzepatide label does not recommend it in pregnancy or for women who could become pregnant without contraception, and asks for it to be stopped at least 1 month before a planned pregnancy.{{cite:ema-mounjaro-smpc}}</p><p><strong>Pancreatitis.</strong> Tirzepatide has not been studied in people with a past episode of pancreatitis, and its label asks for caution in them.{{cite:ema-mounjaro-smpc}}</p><p>The full lists, including who the trials excluded, are on the <a href=\"/compounds/semaglutide#exclusion\">semaglutide</a> and <a href=\"/compounds/tirzepatide#exclusion\">tirzepatide</a> pages.</p>"
+    },
+    {
+      "id": "storage",
+      "heading": "Semaglutide vs tirzepatide storage",
+      "lede": "From the EU labels.",
+      "html": "<p>Both are kept in a refrigerator at 2 to 8 °C, not frozen, and in their packaging to protect them from light.{{cite:ema-wegovy-smpc}}{{cite:ema-mounjaro-smpc}} The difference is time out of the fridge. A Wegovy single-dose pen may be kept unrefrigerated for up to 28 days at no more than 30 °C.{{cite:ema-wegovy-smpc}} A Mounjaro single-dose pen or vial may spend up to 21 days in total below 30 °C, and a multi-dose KwikPen is discarded 30 days after first use.{{cite:ema-mounjaro-smpc}}</p>"
+    },
+    {
+      "id": "choosing",
+      "heading": "Semaglutide vs tirzepatide: what the evidence lets you say",
+      "lede": "",
+      "html": "<p>For weight loss in adults with obesity but without diabetes, at the highest dose each person tolerated, SURMOUNT-5 shows tirzepatide produced more weight loss over 72 weeks.{{cite:pmid-40353578}} For blood sugar in type 2 diabetes, SURPASS-2 shows tirzepatide lowered HbA1c more than semaglutide 1 mg.{{cite:pmid-34170647}}</p><p>What the trials do not show is equally specific. Neither measured heart attacks, strokes or deaths as its main outcome, so they do not say which drug better protects the heart. Neither was blinded. Both were funded by the maker of tirzepatide. And an average result says little about which drug a particular person will respond to or tolerate better. Those are questions for a prescriber who knows the person.</p>"
+    },
+    {
+      "id": "mistakes",
+      "heading": "Common mistakes when comparing semaglutide and tirzepatide",
+      "lede": "",
+      "html": "<ul><li><strong>Comparing figures from different trials.</strong> Weight-loss percentages from separate semaglutide and tirzepatide trials come from different populations, lengths and designs. The head-to-head trials are the fair comparison.</li><li><strong>Using SURPASS-2 for weight loss at obesity doses.</strong> It gave semaglutide at 1 mg, not 2.4 mg.{{cite:pmid-34170647}}</li><li><strong>Comparing milligrams.</strong> 2.4 mg and 15 mg are each drug's top dose; the numbers do not measure strength against each other.</li><li><strong>Treating \"more weight loss\" as \"better for everyone\".</strong> Side effects, cost, supply and individual response all differ, and the trials report averages.</li></ul>"
+    }
+  ]
+}
