@@ -100,3 +100,41 @@ export function cite(html: string, sources: Array<{ id: string; title: string; u
     return `<sup class="cite"><a href="${s.url}" target="_blank" rel="nofollow noopener" title="Source ${n}: ${t}" aria-label="Source ${n}">[${n}]</a></sup>`;
   });
 }
+
+export type TreeNode = { path: string; title: string; excerpt?: string; sources?: number; kind?: string; children: TreeNode[] };
+
+/** Sources cited by any page a guide can point at, for the counts on the tree. */
+async function recordFor(path: string): Promise<any | undefined> {
+  const [, kind, slug] = path.split('/');
+  const map: Record<string, 'posts' | 'stacks' | 'compounds' | 'comparisons'> = { blog: 'posts', stacks: 'stacks', compounds: 'compounds', compare: 'comparisons' };
+  const coll = map[kind];
+  return coll ? (await records(coll)).find((r) => r.data.slug === slug)?.data : undefined;
+}
+
+// Card text: no markers, no tags, and no space left before the punctuation a marker sat against.
+const plain = (s?: string) => (s ?? '').replace(/\s*\[\[\d+\]\]/g, '').replace(/<[^>]+>/g, '').replace(/\s+([,.;:])/g, '$1');
+
+/** The whole series as one tree: the index, each topic's main guide, the guides under it. */
+export async function treeFor(series: string): Promise<TreeNode | undefined> {
+  const idx = await indexFor(series);
+  if (!idx) return undefined;
+  const all = await seriesPosts(series);
+  const leaf = (p: Post): TreeNode => {
+    const d = p.data as any;
+    return { path: postPath(d.slug), title: d.short_title || d.title, excerpt: plain(d.excerpt), sources: d.sources?.length ?? 0, children: [] };
+  };
+  const id = idx.data as any;
+  const topics = await Promise.all(((id.topics ?? []) as Topic[]).map(async (t) => {
+    const rec = await recordFor(t.pillar);
+    const isPost = t.pillar.startsWith('/blog/');
+    return {
+      path: t.pillar,
+      title: t.label,
+      excerpt: plain(rec?.excerpt ?? t.blurb),
+      sources: rec?.sources?.length ?? 0,
+      kind: isPost ? undefined : t.pillar.startsWith('/stacks') ? 'Stack record' : t.pillar.startsWith('/compare') ? 'Comparison' : 'Compound record',
+      children: all.filter((p) => (p.data as any).parent === t.pillar).sort(byOrder).map(leaf),
+    } as TreeNode;
+  }));
+  return { path: postPath(idx.data.slug), title: id.short_title || idx.data.title, excerpt: plain(idx.data.excerpt), sources: id.sources?.length ?? 0, children: topics };
+}

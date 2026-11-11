@@ -1,0 +1,39 @@
+---
+// The guide drawn as the tree it is: index, topic guides, the guides under
+// each. Branch lines carry the structure; the path from the index to the page
+// being read is drawn in the accent colour, so "you are here" is part of the
+// drawing rather than a label (docs/design.md §5, Guides).
+//
+//   map   main-column form: titles, excerpts, source counts.
+//   rail  sidebar form: titles only, and only the open topic shows its guides.
+//
+// The component calls itself for each level. The outermost call carries
+// `label` and only wraps the first level in a <nav>.
+import '../../styles/guide-tree.css';
+import type { TreeNode } from '../../lib/guides';
+interface Props { nodes: TreeNode[]; current?: string; variant?: 'map' | 'rail'; depth?: number; label?: string; top?: boolean }
+const { nodes, current, variant = 'map', depth = 0, label, top = false } = Astro.props;
+const contains = (n: TreeNode): boolean => n.path === current || n.children.some(contains);
+const map = variant === 'map';
+const meta = (n: TreeNode) => n.kind ?? (n.sources ? `${n.sources} source${n.sources === 1 ? '' : 's'}` : '');
+// The rail opens the topic being read; the map opens everything.
+const open = (n: TreeNode) => n.children.length > 0 && (map || depth === 0 || contains(n));
+---
+{label ? (
+  <nav class={`gtree gtree-${variant}`} aria-label={label}><Astro.self nodes={nodes} current={current} variant={variant} depth={depth} top /></nav>
+) : (
+  <ul class:list={['gt', { 'gt-top': top }]}>
+    {nodes.map((n) => (
+      <li class:list={['gt-n', `gt-d${depth}`, { 'gt-path': contains(n), 'gt-here': n.path === current }]}>
+        <div class="gt-row">
+          {n.path === current
+            ? <span class="gt-t" aria-current="page">{n.title}</span>
+            : <a class="gt-t" href={n.path}>{n.title}</a>}
+          {map && depth > 0 && meta(n) && <span class="gt-m">{meta(n)}</span>}
+        </div>
+        {map && n.excerpt && n.path !== current && <p class="gt-x">{n.excerpt}</p>}
+        {open(n) && <Astro.self nodes={n.children} current={current} variant={variant} depth={depth + 1} />}
+      </li>
+    ))}
+  </ul>
+)}

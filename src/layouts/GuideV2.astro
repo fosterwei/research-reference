@@ -12,9 +12,10 @@ import Toc from '../components/v2/Toc.astro';
 import StatusBar from '../components/v2/StatusBar.astro';
 import Faq from '../components/v2/Faq.astro';
 import Sources from '../components/v2/Sources.astro';
+import GuideTree from '../components/v2/GuideTree.astro';
 import { timeTag } from '../lib/format';
 import { SITE_NAME, isIndexable, title, description, lastmod, imageObjects } from '../lib/site';
-import { type Post, type Topic, childrenOf, crumbsFor, cite, postPath, titleForPath, seriesPosts, byOrder } from '../lib/guides';
+import { type Post, type Topic, childrenOf, crumbsFor, cite, postPath, titleForPath, seriesPosts, byOrder, treeFor } from '../lib/guides';
 interface Props { entry: Post }
 const { entry } = Astro.props;
 const d = entry.data as any;
@@ -37,6 +38,11 @@ if (role === 'index') {
     topics.push({ ...t, title: await titleForPath(t.pillar), excerpt: (pillarPost?.data as any)?.excerpt ?? t.blurb, subs: all.filter((p) => (p.data as any).parent === t.pillar).sort(byOrder) });
   }
 }
+// The series tree: the sidebar rail shows where this page sits; the main
+// column draws the whole guide (index), this topic (pillar) or the branch
+// this guide hangs from (sub).
+const tree = d.series ? await treeFor(d.series) : undefined;
+const branch = tree?.children.find((t) => t.path === (role === 'pillar' ? path : parentPath));
 const about = (d.about ?? []) as string[];
 const aboutLinks = await Promise.all(about.map(async (p) => ({ path: p, title: await titleForPath(p) })));
 const sections = (d.sections ?? []) as Array<{ id: string; heading: string; lede?: string; html: string }>;
@@ -82,7 +88,7 @@ const roleLabel = role === 'index' ? 'Guide index' : role === 'pillar' ? 'Topic 
   <article class="v2 guide-page">
     <div class="title">
       <nav class="crumbs" aria-label="Breadcrumb">
-        {crumbs.slice(1, -1).map((c, i) => <>{i > 0 && <span class="dot">›</span>}<a class="eyebrow" href={c.path}>{c.name}</a></>)}
+        {crumbs.slice(1, -1).map((c, i) => <>{i > 0 && <span class="dot" aria-hidden="true">›</span>}<a href={c.path}>{c.name}</a></>)}
       </nav>
       <h1>{d.title}</h1>
       <p class="dek" set:html={C(d.excerpt)} />
@@ -94,7 +100,7 @@ const roleLabel = role === 'index' ? 'Guide index' : role === 'pillar' ? 'Topic 
       </div>
     </div>
     <div class="layout">
-      <aside><Toc items={toc} /></aside>
+      <aside>{tree && role !== 'index' && <GuideTree nodes={[tree]} current={path} variant="rail" label="Where this page sits in the guide" />}<Toc items={toc} /></aside>
       <div class="content">
         <section id="glance"><h2>At a glance</h2>
           <dl class="glance">
@@ -110,11 +116,10 @@ const roleLabel = role === 'index' ? 'Guide index' : role === 'pillar' ? 'Topic 
         <StatusBar review={d.review ?? {}} status={d.status} sources={sources.length} updated={updated} />
         {role === 'index' && (
           <section id="topics"><div><h2>{navLabel}</h2><p class="lede">Each topic has one main guide, and shorter guides underneath that go deeper on one question.</p></div>
-            {topics.map((t, i) => (
+            {tree ? <GuideTree nodes={[{ ...tree, excerpt: undefined }]} current={path} label="Every topic in this guide" /> : topics.map((t, i) => (
               <div class="topic" id={`topic-${i + 1}`}>
                 <h3><a href={t.pillar}>{t.label}</a></h3>
-                <p class="lede"><b><a href={t.pillar}>{t.title}</a></b>{t.excerpt ? <> · <Fragment set:html={C(t.excerpt)} /></> : ''}</p>
-                {t.subs.length > 0 && <ul class="cards">{t.subs.map((s) => <li><a href={postPath(s.data.slug)}>{s.data.title}</a><div class="sub">{s.data.excerpt.replace(/\[\[\d+\]\]/g, '')}</div></li>)}</ul>}
+                <p class="lede"><b><a href={t.pillar}>{t.title}</a></b></p>
               </div>
             ))}
           </section>
@@ -127,12 +132,12 @@ const roleLabel = role === 'index' ? 'Guide index' : role === 'pillar' ? 'Topic 
         ))}
         {role === 'pillar' && children.length > 0 && (
           <section id="in-this-topic"><div><h2>{navLabel}</h2><p class="lede">Shorter guides that go deeper on one question each.</p></div>
-            <ul class="cards">{children.map((c) => <li><a href={postPath(c.data.slug)}>{c.data.title}</a><div class="sub">{c.data.excerpt.replace(/\[\[\d+\]\]/g, '')}</div></li>)}</ul>
+            {branch ? <GuideTree nodes={[branch]} current={path} depth={1} label="Guides in this topic" /> : <ul class="cards">{children.map((c) => <li><a href={postPath(c.data.slug)}>{c.data.title}</a></li>)}</ul>}
           </section>
         )}
         {role === 'sub' && parentPath && (
           <section id="more-in-topic"><div><h2>{navLabel}</h2><p class="lede">This guide is part of <a href={parentPath}><b>{parentTitle}</b></a>.</p></div>
-            {siblings.length > 0 && <ul class="cards">{siblings.map((c) => <li><a href={postPath(c.data.slug)}>{c.data.title}</a><div class="sub">{c.data.excerpt.replace(/\[\[\d+\]\]/g, '')}</div></li>)}</ul>}
+            {branch ? <GuideTree nodes={[branch]} current={path} depth={1} label="Guides in this topic" /> : siblings.length > 0 && <ul class="cards">{siblings.map((c) => <li><a href={postPath(c.data.slug)}>{c.data.title}</a></li>)}</ul>}
           </section>
         )}
         {faq.length > 0 && <section id="faq"><h2>Questions people ask</h2><Faq items={faq} html /></section>}
@@ -152,9 +157,13 @@ const roleLabel = role === 'index' ? 'Guide index' : role === 'pillar' ? 'Topic 
   .v2 dl.glance { display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; margin: 0 0 18px; font-size: 15px; }
   .v2 dl.glance dt { color: var(--ink-3); font-weight: 600; }
   .v2 dl.glance dd { margin: 0; color: var(--ink-2); }
-  .v2 .guide-page .topic { margin-top: 22px; }
-  .v2 .guide-page .topic h3 { margin: 0 0 6px; }
-  .v2 .guide-page .topic h3 a { text-decoration: none; color: var(--ink); }
-  .v2 .guide-page .guide-body h3 { margin-top: 18px; }
-  .v2 .guide-page .intro p + p { margin-top: 12px; }
+  .v2.guide-page .crumbs { gap: 8px; font-size: 14.5px; }
+  .v2.guide-page .crumbs a { color: var(--ink-3); text-decoration: none; }
+  .v2.guide-page .crumbs a:hover { color: var(--ink); text-decoration: underline; }
+  .v2.guide-page .crumbs .dot { color: var(--ink-3); opacity: .6; }
+  .v2.guide-page .topic { margin-top: 22px; }
+  .v2.guide-page .topic h3 { margin: 0 0 6px; }
+  .v2.guide-page .topic h3 a { text-decoration: none; color: var(--ink); }
+  .v2.guide-page .guide-body h3 { margin-top: 18px; }
+  .v2.guide-page .intro p + p { margin-top: 12px; }
 </style>
