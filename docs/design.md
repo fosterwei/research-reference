@@ -241,6 +241,19 @@ Until they get a v2 pass they keep the current single-column layout.
 - **Tool**: formula stated in prose before the control; every input labelled
   with its unit; no field for body weight, age or condition; result in mono.
 - **Post**: prose column, 66 ch, same status bar.
+- **Guides** (posts in a series, `layouts/GuideV2.astro`): the series is
+  drawn as the tree it is (`components/v2/GuideTree.astro`,
+  `styles/guide-tree.css`). Branch lines in `--ink-3` at 55% carry the
+  structure; the path from the index to the page being read is drawn in
+  `--accent` at 2 px and ends in a 7 px dot, so position is shown by the
+  drawing, not by a label. The map form (main column, `/blog`) gives each
+  node its title, a two-line excerpt and its source count; the rail form
+  (sidebar, above "On this page") gives titles only and opens just the
+  topic being read; it is hidden below 900 px, where the in-page map and the
+  breadcrumbs carry position. Index titles are serif 26 px, topic guides
+  serif 20 px, sub-guides sans 16 px. Breadcrumbs on guides are sentence
+  case sans, because guide titles are too long for the mono eyebrow. No
+  card grids and no middle-dot joins in guide navigation.
 
 ## 6. Budgets and rules the build checks
 
@@ -436,6 +449,13 @@ the drafting script, not the record, so the fix applies to every page.
 
 ## Changelog
 
+- 2026-11-11 — Guide navigation redrawn as a tree: `/blog`, the index's
+  topic list, a topic's guides and a sub-guide's siblings use
+  `GuideTree.astro` instead of card grids, and the sidebar shows where the
+  page sits. Trial is the pull request's Vercel preview (checked at 390 px
+  and 1440 px, light and dark); no record content changed, so the lastmod
+  manifest accepts it as cosmetic. Also fixes `.v2 .guide-page` selectors
+  that never matched (the two classes are on one element).
 - 2026-09-24 — v2 adopted as the shared compound template after trials on
   semaglutide and ipamorelin; the trial routes are removed and `[slug].astro`
   renders `layouts/CompoundV2.astro` for every compound. Pages compose from

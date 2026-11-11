@@ -1,0 +1,67 @@
+/* Guide tree (components/v2/GuideTree.astro). Tokens from global.css.
+   Geometry: every nested list is indented by --o (where the trunk sits under
+   the parent's title) plus --i (trunk to child title). Each child draws its
+   own elbow (::after) and the trunk on past it to the next sibling (::before);
+   the last child draws only its elbow. --y is the height of the elbow, the
+   vertical middle of that child's title line. */
+/* Branches use ink-3 at reduced strength: --rule alone vanishes on --paper. */
+.gtree { --o: 10px; --i: 24px; --line: color-mix(in oklab, var(--ink-3) 55%, transparent); --path: var(--accent); }
+.gtree ul.gt { list-style: none; margin: 0; padding: 0; }
+.gtree ul.gt ul.gt { margin-left: var(--o); padding-left: var(--i); }
+.gtree .gt-n { position: relative; }
+.gtree ul.gt ul.gt > .gt-n::before,
+.gtree ul.gt ul.gt > .gt-n::after { content: ''; position: absolute; left: calc(-1 * var(--i)); pointer-events: none; }
+.gtree ul.gt ul.gt > .gt-n::before { top: 0; bottom: 0; border-left: 1px solid var(--line); }
+.gtree ul.gt ul.gt > .gt-n:last-child::before { display: none; }
+.gtree ul.gt ul.gt > .gt-n::after { top: 0; width: calc(var(--i) - 7px); height: var(--y); border-left: 1px solid var(--line); border-bottom: 1px solid var(--line); border-bottom-left-radius: 9px; }
+
+/* The path to the page being read: the elbow into each node on it, and the
+   trunk past every earlier sibling on the way down. */
+.gtree ul.gt ul.gt > .gt-path::after { border-color: var(--path); border-width: 0 0 2px 2px; left: calc(-1 * var(--i) - .5px); }
+.gtree ul.gt ul.gt > .gt-n:has(~ .gt-path)::before { border-left: 2px solid var(--path); left: calc(-1 * var(--i) - .5px); }
+/* A topic's excerpt sits in the column its guides hang in, with or without
+   guides under it; when it has some, the trunk runs down beside it. */
+.gtree-map .gt-d1 > .gt-x { margin-left: var(--o); padding-left: var(--i); }
+/* The trunk under a parent's own title, beside its excerpt. */
+.gtree .gt-n:has(> ul.gt) > .gt-x { margin-left: var(--o); padding-left: calc(var(--i) - 1px); border-left: 1px solid var(--line); padding-bottom: 6px; }
+.gtree .gt-path:not(.gt-here):has(> ul.gt) > .gt-x { border-left: 2px solid var(--path); margin-left: calc(var(--o) - .5px); padding-left: calc(var(--i) - 1.5px); }
+/* The page being read: the path ends in a dot. */
+.gtree ul.gt ul.gt > .gt-here > .gt-row::before { content: ''; position: absolute; left: -8px; top: calc(var(--y) - 3px); width: 7px; height: 7px; border-radius: 50%; background: var(--path); }
+
+.gtree .gt-row { display: flex; align-items: baseline; gap: 4px 16px; flex-wrap: wrap; }
+.gtree .gt-t { color: var(--ink); text-decoration: none; text-underline-offset: 3px; }
+.gtree a.gt-t:hover { text-decoration: underline; text-decoration-color: var(--ink-3); }
+.gtree a.gt-t:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+.gtree .gt-here > .gt-row .gt-t { color: var(--path); }
+
+/* map: the main-column form */
+.gtree-map .gt-d0 { --y: 0px; }
+.gtree-map .gt-d0 > .gt-row .gt-t { font-family: var(--serif); font-size: 26px; font-weight: 600; line-height: 1.2; letter-spacing: -.01em; }
+.gtree-map .gt-d1 { --y: 31px; padding-top: 18px; }
+.gtree-map .gt-d1 > .gt-row .gt-t { font-family: var(--serif); font-size: 20px; font-weight: 600; line-height: 1.3; }
+.gtree-map .gt-d2 { --y: 19px; padding-top: 8px; }
+.gtree-map .gt-d2 > .gt-row .gt-t { font-family: var(--sans); font-size: 16px; font-weight: 600; line-height: 1.4; }
+.gtree-map .gt-m { margin-left: auto; font-size: 13.5px; color: var(--ink-3); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.gtree-map .gt-x { margin: 2px 0 0; max-width: 66ch; font-size: 15px; line-height: 1.5; color: var(--ink-2); padding-bottom: 4px; }
+.gtree-map .gt-d2 > .gt-x { font-size: 14.5px; color: var(--ink-3); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.gtree-map .gt-d0 > ul.gt { padding-top: 4px; }
+
+/* rail: the sidebar form */
+.gtree-rail { --o: 6px; --i: 16px; font-size: 14px; line-height: 1.35; margin: 0 0 28px; padding: 0 0 22px 12px; border-bottom: 1px solid var(--rule); }
+.gtree-rail .gt-d0 > .gt-row .gt-t { font-weight: 600; }
+.gtree-rail .gt-d1 { --y: 14px; padding-top: 5px; }
+.gtree-rail .gt-d2 { --y: 13px; padding-top: 4px; }
+.gtree-rail .gt-d1 > .gt-row .gt-t, .gtree-rail .gt-d2 > .gt-row .gt-t { color: var(--ink-2); }
+.gtree-rail .gt-d2 > .gt-row .gt-t { font-size: 13.5px; }
+.gtree-rail .gt-here > .gt-row .gt-t { color: var(--path); font-weight: 600; }
+
+@media (max-width: 900px) {
+  .gtree-rail { display: none; }
+  .gtree-map { --o: 6px; --i: 18px; }
+  .gtree-map .gt-d0 > .gt-row .gt-t { font-size: 23px; }
+  .gtree-map .gt-d1 > .gt-row .gt-t { font-size: 18.5px; }
+  .gtree-map .gt-t { display: inline-block; padding-block: 4px; }
+  .gtree-map .gt-d1 { --y: 33px; }
+  .gtree-map .gt-d2 { --y: 23px; }
+  .gtree-map .gt-m { margin-left: 0; }
+}

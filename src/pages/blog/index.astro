@@ -1,42 +1,47 @@
 ---
-// Guides directory. Each series is listed as its index, then each topic's
-// main guide with the guides under it, so the directory has the same shape
-// as the tree it leads into.
+// Guides directory. Each series is drawn as the tree it is: its index, each
+// topic's main guide, and the guides under it (components/v2/GuideTree.astro).
+import '../../styles/compound-v2.css';
 import { records } from '../../lib/collections';
 import { isIndexable } from '../../lib/site';
 import Base from '../../layouts/Base.astro';
-import { postPath, titleForPath, byOrder, type Topic } from '../../lib/guides';
+import GuideTree from '../../components/v2/GuideTree.astro';
+import { postPath, treeFor } from '../../lib/guides';
 const posts = (await records('posts')).filter((p) => isIndexable(p));
 const indexes = posts.filter((p) => (p.data as any).role === 'index');
-const series = await Promise.all(indexes.map(async (idx) => {
-  const d = idx.data as any;
-  const topics = await Promise.all(((d.topics ?? []) as Topic[]).map(async (t) => ({
-    ...t, title: await titleForPath(t.pillar),
-    subs: posts.filter((p) => (p.data as any).series === d.series && (p.data as any).parent === t.pillar).sort(byOrder),
-  })));
-  return { idx, topics };
-}));
+const trees = (await Promise.all(indexes.map((idx) => treeFor((idx.data as any).series)))).filter((t) => !!t);
 const loose = posts.filter((p) => !(p.data as any).series);
 const clean = (s: string) => s.replace(/\[\[\d+\]\]/g, '');
+const pages = (t: NonNullable<(typeof trees)[number]>) => 1 + t.children.reduce((n, c) => n + (c.path.startsWith('/blog/') ? 1 : 0) + c.children.length, 0);
 ---
 <Base title="Guides" description="Evidence guides arranged by topic: a main guide per topic and shorter guides beneath it, every claim cited to its source." path="/blog" indexable={posts.length > 0}>
-  <p class="eyebrow">Directory</p>
-  <h1>Guides</h1>
-  <p class="lede prose">Longer explanations that sit on top of the compound, stack and comparison records. Each series starts with an index; each topic has one main guide and shorter guides underneath.</p>
-  {series.map(({ idx, topics }) => (
-    <section>
-      <h2><a href={postPath(idx.data.slug)}>{idx.data.title}</a></h2>
-      <p class="lede prose">{clean(idx.data.excerpt)}</p>
-      {topics.map((t) => (
-        <>
-          <h3><a href={t.pillar}>{t.label}</a></h3>
-          <ul class="cards">
-            <li><a href={t.pillar}>{t.title}</a><div class="sub">Main guide for this topic</div></li>
-            {t.subs.map((s) => <li><a href={postPath(s.data.slug)}>{s.data.title}</a><div class="sub">{clean(s.data.excerpt)}</div></li>)}
-          </ul>
-        </>
-      ))}
-    </section>
-  ))}
-  {loose.length > 0 && <section><h2>Other guides</h2><ul class="cards">{loose.map((p) => <li><a href={postPath(p.data.slug)}>{p.data.title}</a><div class="sub">{clean(p.data.excerpt)}</div></li>)}</ul></section>}
+  <Fragment slot="head">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600&display=swap" />
+  </Fragment>
+  <div class="v2 guides-dir">
+    <header class="title">
+      <h1>Guides</h1>
+      <p class="dek">Longer explanations that sit on top of the compound, stack and comparison records. Each guide starts from an index, branches into topics, and goes deeper beneath each topic.</p>
+    </header>
+    {trees.map((t) => (
+      <section class="series">
+        <p class="count">{pages(t)} pages, every claim numbered to its source</p>
+        <GuideTree nodes={[t]} label={`${t.title}: every page`} />
+      </section>
+    ))}
+    {loose.length > 0 && (
+      <section class="series">
+        <h2>Other guides</h2>
+        <ul class="cards">{loose.map((p) => <li><a href={postPath(p.data.slug)}>{p.data.title}</a><div class="sub">{clean(p.data.excerpt)}</div></li>)}</ul>
+      </section>
+    )}
+  </div>
 </Base>
+<style>
+  .guides-dir { padding: 40px 0 8px; max-width: 46rem; }
+  .guides-dir .series { margin-top: 44px; padding-top: 28px; border-top: 1px solid var(--rule); gap: 10px; }
+  .guides-dir .count { margin: 0; font-size: 14px; color: var(--ink-3); }
+  @media (max-width: 900px) { .guides-dir { padding-top: 24px; } .guides-dir .series { margin-top: 28px; } }
+</style>
