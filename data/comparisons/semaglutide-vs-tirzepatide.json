@@ -3,13 +3,63 @@
   "title": "Semaglutide vs Tirzepatide",
   "slug": "semaglutide-vs-tirzepatide",
   "status": "draft",
-  "summary": "Semaglutide: tier approved label, 6,039 indexed publications, 305 randomized trials. Tirzepatide: tier approved label, 2,756 indexed publications, 131 randomized trials. 5 indexed studies compare them directly; the head-to-head section quotes what they state.",
+  "summary": "Two randomized trials compare them directly: SURMOUNT-5 in obesity without diabetes (72 weeks) and SURPASS-2 in type 2 diabetes (40 weeks). Both are approved medicines with EU labels on record; this page restates each trial result in plain English with its citation.",
   "seo": {
-    "title": "Semaglutide vs Tirzepatide: what the studies show",
-    "description": "Semaglutide vs Tirzepatide, side by side from each compound's own cited record, plus any direct head-to-head trial. Not advice."
+    "title": "Semaglutide vs Tirzepatide: Head-to-Head Trial Results",
+    "description": "Semaglutide vs tirzepatide from the head-to-head trials: weight loss, HbA1c, side effects, doses, who should avoid each and storage, every figure cited."
   },
   "attributes": {
     "head_to_head": [
+      {
+        "value": "Randomized controlled trial, humans, n=751, 2025: The least-squares mean percent change in weight at week 72 was -20.2% (95% confidence interval [CI], -21.4 to -19.1) with tirzepatide and -13.7% (95% CI, -14.9 to -12.6) with semaglutide (P<0.001).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40353578"
+        ],
+        "source_excerpt": "The least-squares mean percent change in weight at week 72 was -20.2% (95% confidence interval [CI], -21.4 to -19.1) with tirzepatide and -13.7% (95% CI, -14.9 to -12.6) with semaglutide (P<0.001).",
+        "drafting": "extractive",
+        "plain": "In SURMOUNT-5, the head-to-head phase 3b trial in 751 adults with obesity but without type 2 diabetes, average weight loss at 72 weeks was 20.2% with tirzepatide and 13.7% with semaglutide, each at the highest dose people tolerated."
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=751, 2025: The most common adverse events in both treatment groups were gastrointestinal, and most were mild to moderate in severity and occurred primarily during dose escalation.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-40353578"
+        ],
+        "source_excerpt": "The most common adverse events in both treatment groups were gastrointestinal, and most were mild to moderate in severity and occurred primarily during dose escalation.",
+        "drafting": "extractive",
+        "plain": "In SURMOUNT-5 the most common side effects with both drugs were digestive; most were mild to moderate and occurred mainly while the dose was being raised."
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=1879, 2021: Tirzepatide at all doses was noninferior and superior to semaglutide. Reductions in body weight were greater with tirzepatide than with semaglutide (least-squares mean estimated treatment difference, -1.9 kg, -3.6 kg, and -5.5 kg, respectively; P<0.001 for all comparisons).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34170647"
+        ],
+        "source_excerpt": "Tirzepatide at all doses was noninferior and superior to semaglutide. Reductions in body weight were greater with tirzepatide than with semaglutide (least-squares mean estimated treatment difference, -1.9 kg, -3.6 kg, and -5.5 kg, respectively; P<0.001 for all comparisons).",
+        "drafting": "extractive",
+        "plain": "In SURPASS-2, a 40-week trial in 1,879 people with type 2 diabetes, tirzepatide at 5, 10 and 15 mg lowered HbA1c more than semaglutide 1 mg, and weight fell by 1.9, 3.6 and 5.5 kg more than with semaglutide."
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=1879, 2021: Serious adverse events were reported in 5 to 7% of the patients who received tirzepatide and in 3% of those who received semaglutide.",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34170647"
+        ],
+        "source_excerpt": "Serious adverse events were reported in 5 to 7% of the patients who received tirzepatide and in 3% of those who received semaglutide.",
+        "drafting": "extractive",
+        "plain": "In SURPASS-2, serious adverse events were reported in 5 to 7% of people on tirzepatide and 3% on semaglutide."
+      },
+      {
+        "value": "Randomized controlled trial, humans, n=1879, 2021: The most common adverse events were gastrointestinal and were primarily mild to moderate in severity in the tirzepatide and semaglutide groups (nausea, 17 to 22% and 18%; diarrhea, 13 to 16% and 12%; and vomiting, 6 to 10% and 8%, respectively).",
+        "evidence_label": "human-clinical-trial",
+        "source_ids": [
+          "pmid-34170647"
+        ],
+        "source_excerpt": "The most common adverse events were gastrointestinal and were primarily mild to moderate in severity in the tirzepatide and semaglutide groups (nausea, 17 to 22% and 18%; diarrhea, 13 to 16% and 12%; and vomiting, 6 to 10% and 8%, respectively).",
+        "drafting": "extractive",
+        "plain": "In SURPASS-2, nausea affected 17 to 22% of people on tirzepatide and 18% on semaglutide, diarrhoea 13 to 16% and 12%, and vomiting 6 to 10% and 8%; most cases were mild to moderate."
+      },
       {
         "value": "Phase 3 clinical trial, humans, 2026: This study evaluated the cost-effectiveness (from the United States [US] societal perspective) of tirzepatide at its maximum-tolerated-dose (MTD) compared to semaglutide (MTD), both administered adjunct to a reduced-calorie diet and increased physical activity.",
         "evidence_label": "human-clinical-trial",
@@ -63,6 +113,20 @@
     ]
   },
   "sources": [
+    {
+      "id": "pmid-34170647",
+      "title": "Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes.",
+      "url": "https://europepmc.org/article/MED/34170647",
+      "published": "2021-06-25",
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "pmid-40353578",
+      "title": "Tirzepatide as Compared with Semaglutide for the Treatment of Obesity.",
+      "url": "https://europepmc.org/article/MED/40353578",
+      "published": "2025-05-11",
+      "kind": "peer-reviewed"
+    },
     {
       "id": "pmid-42147968",
       "title": "Decoding the hallmarks of GLP-1RA weight-loss super-responders.",
@@ -128,11 +192,12 @@
   "open_questions": [],
   "review": {
     "author": "",
-    "reviewer": "",
-    "reviewer_credential": "",
-    "reviewed_at": ""
+    "reviewer": "Adam Mirando",
+    "reviewer_credential": "PharmD",
+    "reviewed_at": "2026-11-10",
+    "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
-  "uniqueness_pct": 84.4,
+  "uniqueness_pct": 88.0,
   "changelog": [
     {
       "date": "2026-09-14",
@@ -141,6 +206,14 @@
     {
       "date": "2026-11-08",
       "change": "5 research statements rewritten in plain english, each followed by a numbered citation mark linking to its source. The pages no longer show sentences copied from abstracts; those stay on file for the reviewer. Statements that turned out to say nothing about this compound are hidden pending review."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Added the two head-to-head randomized trials, SURMOUNT-5 (obesity, 72 weeks) and SURPASS-2 (type 2 diabetes, 40 weeks), as cited findings."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Reviewed by Adam Mirando, PharmD."
     }
   ],
   "sides": [
