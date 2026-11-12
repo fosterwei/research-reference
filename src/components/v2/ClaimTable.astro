@@ -6,8 +6,9 @@
 import Tier from './Tier.astro';
 import { parseClaim, type Claim } from '../../lib/claims';
 import { citer } from '../../lib/cite';
-interface Props { claims: Claim[]; sources?: Array<{ id: string; url: string }>; caption: string }
-const { claims, sources = [], caption } = Astro.props;
+/** `visible`: rows shown at once; the rest open on demand. 0 shows only the disclosure. Default is all. */
+interface Props { claims: Claim[]; sources?: Array<{ id: string; url: string }>; caption: string; visible?: number }
+const { claims, sources = [], caption, visible = Infinity } = Astro.props;
 const cite = citer(sources);
 const rows = claims.map((c) => {
   const p = parseClaim(c);
@@ -20,20 +21,36 @@ const rows = claims.map((c) => {
   };
 });
 ---
-<div class="card clip"><div class="tblwrap"><table class="tbl claimtbl">
+<div class="card clip">{visible > 0 && (<div class="tblwrap"><table class="tbl claimtbl">
   <caption>{caption}</caption>
   <thead><tr><th scope="col">Study</th><th scope="col">Who</th><th scope="col">What it found</th><th scope="col">Evidence</th></tr></thead>
   <tbody>
-    {rows.map((r) => (
+    {rows.slice(0, visible).map((r) => (
       <tr>
         <th scope="row" class="study">{r.study}</th>
-        <td>{r.who}</td>
-        <td class="out" set:html={r.finding} />
-        <td><Tier tier={r.c.evidence_label} /></td>
+        <td data-label="Who">{r.who}</td>
+        <td class="out" data-label="What it found" set:html={r.finding} />
+        <td data-label="Evidence"><Tier tier={r.c.evidence_label} /></td>
       </tr>
     ))}
   </tbody>
-</table></div></div>
+</table></div>)}
+{rows.length > visible && (
+  <details class="more-rows"><summary>{visible > 0 ? 'Show the remaining' : 'See the'} <b>{rows.length - visible}</b> {rows.length - visible === 1 ? 'study' : 'studies'}{visible > 0 ? '' : ' behind this'}</summary>
+  <div class="tblwrap"><table class="tbl claimtbl">
+    <thead><tr><th scope="col">Study</th><th scope="col">Who</th><th scope="col">What it found</th><th scope="col">Evidence</th></tr></thead>
+    <tbody>
+      {rows.slice(visible).map((r) => (
+        <tr>
+          <th scope="row" class="study">{r.study}</th>
+          <td data-label="Who">{r.who}</td>
+          <td class="out" data-label="What it found" set:html={r.finding} />
+          <td data-label="Evidence"><Tier tier={r.c.evidence_label} /></td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div></details>
+)}</div>
 <style>
   .claimtbl th.study { white-space: nowrap; font-weight: 600; }
   .claimtbl td.out { min-width: 18rem; }

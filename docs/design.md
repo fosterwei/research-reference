@@ -375,11 +375,31 @@ typographic emphasis, and it must be declared (9.3).
   items after the first, the source list beyond the first twelve, the mobile
   table of contents. Never collapse a claim, a caption, a warning or the
   first item of anything.
+- **Figure-first sections (trial, 2026-11-12).** A per-study section whose
+  claims all carry a drafter-extracted figure (dose, route, duration, dose per
+  kilogram) opens with one line computed from the record that lists every
+  figure by species, people first, with the marks of every study it draws on
+  (`src/lib/digest.ts`). The per-study rows then sit behind "See the N
+  studies behind this". This is the one place rows are folded, and only
+  because nothing in them is absent from the line above: every figure and
+  every citation is visible before the click. A section whose claims lack the
+  prefix gets no digest; it opens with its first cited sentence and shows
+  three rows before folding.
 
 ### 9.7 Paragraphs, sentences, headings
 
 - Own prose: paragraphs of two to four sentences and at most about seventy
   words; the first sentence carries the point. One idea per paragraph.
+- **Lead-in paragraphs are cards (trial, 2026-11-12).** A written paragraph
+  or list item that opens with a bold lead-in ("**What it is.** …",
+  "**Cancer, active or recent.** …") is already a label and a body. The
+  template renders each run of them as a grid of labelled cards
+  (`src/lib/factcards.ts`, `.fcards`), the lead-in as the label in the
+  heading face and the rest as the body, with no change to the words or the
+  citation marks. Paragraphs without a lead-in, tables and callouts pass
+  through as prose. The drafting consequence: write a section as labelled
+  points when a reader will scan it, and as paragraphs when it must be read in
+  order.
 - Sentences average under about 22 words. Split at "and", "which" and
   "while" before reaching for a semicolon.
 - Every H2 with more than three items beneath it has a lede of at most 25
@@ -436,6 +456,25 @@ the drafting script, not the record, so the fix applies to every page.
 
 ## Changelog
 
+- 2026-11-12 — Trial route `/compounds/bpc-157-v3` (noindex, outside the
+  sitemap; `CompoundV2.astro` with `trial`, `styles/compound-v3.css`) carries
+  the proposals in `research/design-references/peptidedosingprotocols/
+  design.md` §5 and the two content rules added to §9.6 and §9.7: lead-in
+  prose as labelled cards, figure sections opening with a computed line and
+  folding their rows. Also on the trial: the record's quick answer takes the
+  "what it is" slot in place of the compiled summary; the assessment strip is
+  compact; the reviewed-status box is dropped because the byline says the
+  same; the evidence figure (`EvidenceMix.astro`, shape as the primary tier
+  encoding because the tier palette fails colour-vision separation) sits
+  beside the glance panel; FAQ renders as closed questions; the method band's
+  notes and the changelog beyond three entries open on demand; tables
+  collapse to labelled rows on phones. Measured on BPC-157: words on screen
+  before any click 8,114 → 5,760, total unchanged. Shared pages are
+  byte-identical; `check_lastmod.py` now ignores whitespace between tags.
+  Surfaced by the trial, to fix in the record and template separately: the
+  BPC-157 durations row that reads two participants' ages as durations; the
+  FAQ question repeated when the intent map and the record ask the same thing;
+  glance tiles counting 24 studies where the table shows 20.
 - 2026-09-24 — v2 adopted as the shared compound template after trials on
   semaglutide and ipamorelin; the trial routes are removed and `[slug].astro`
   renders `layouts/CompoundV2.astro` for every compound. Pages compose from

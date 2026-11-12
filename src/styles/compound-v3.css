@@ -1,0 +1,200 @@
+/* Trial: the compound page with the changes proposed in
+   research/design-references/peptidedosingprotocols/design.md §5. Scoped to
+   .v3, which only the trial route sets, so no shared page changes. Tokens
+   come from global.css; nothing here adds a colour that is not already a
+   token or a shade of the brand blue. */
+
+/* 1. Metric-matched fallbacks: the page keeps its measure while the web
+   fonts load, instead of reflowing when they arrive. Values are the
+   published metrics for Source Serif 4 and Source Sans 3 against Georgia and
+   Arial. */
+@font-face { font-family: "Source Serif 4 Fallback"; src: local("Georgia"); size-adjust: 97.5%; ascent-override: 92%; descent-override: 26%; line-gap-override: 0%; }
+@font-face { font-family: "Source Sans 3 Fallback"; src: local("Arial"); size-adjust: 93%; ascent-override: 102%; descent-override: 30%; line-gap-override: 0%; }
+.v3 { --serif: "Source Serif 4", "Source Serif 4 Fallback", Georgia, serif; --sans: "Source Sans 3", "Source Sans 3 Fallback", system-ui, sans-serif; }
+
+/* 2. Byline under the dek: who checked the page and when, in the place a
+   reader looks first. The status bar keeps the fuller statement. */
+.v3 .byline { font-size: 15px; line-height: 1.6; color: var(--ink-2); margin: 0; }
+.v3 .byline b { color: var(--ink); font-weight: 600; }
+.v3 .byline a { color: var(--ink); }
+.v3 .byline .sep { color: var(--ink-3); margin: 0 8px; }
+/* Breadcrumbs in sentence case, as on the guides: class names and targets
+   are too long to read as tracked capitals. */
+.v3 .crumbs .eyebrow { font-family: var(--sans); font-size: 14.5px; letter-spacing: 0; text-transform: none; color: var(--ink-3); }
+.v3 .crumbs .dot { color: var(--ink-3); opacity: .6; }
+
+/* 3. The glance panel beside the title from 1280 px. The title block turns
+   from a column into a two-column grid; the panel takes the right column and
+   stays put while the intro scrolls. Below 1280 px the panel is not shown and
+   the glance section in the content column carries the facts, as on v2. */
+.v3 .glance-panel { display: none; }
+@media (min-width: 1280px) {
+  .v3 .title { display: grid; grid-template-columns: minmax(0, 1fr) 400px; grid-auto-rows: max-content; column-gap: 44px; row-gap: 14px; align-items: start; }
+  .v3 .title > :not(.glance-panel) { grid-column: 1; }
+  .v3 .glance-panel { display: block; grid-column: 2; grid-row: 1 / span 6; align-self: start; position: sticky; top: 24px; background: var(--sunk); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 20px; }
+  .v3 .glance-panel .eyebrow { display: block; margin: 0 0 12px; }
+  /* Compact tiles: the panel should be about as tall as the title block. */
+  .v3 .glance-panel .facts { grid-template-columns: 1fr 1fr; gap: 6px; }
+  .v3 .glance-panel .fact { padding: 8px 10px; gap: 2px; }
+  .v3 .glance-panel .fact .k { font-size: 9.5px; }
+  .v3 .glance-panel .fact .v, .v3 .glance-panel .availability { font-size: 17px; line-height: 1.15; }
+  .v3 .glance-panel .fact .v.sm { font-size: 14px; line-height: 1.3; }
+  .v3 .glance-panel .fact .s { font-size: 12px; line-height: 1.35; }
+  .v3 .glance-panel .dosing-glance { margin-top: 12px; gap: 6px; }
+  .v3 .glance-panel .dosing-glance h3 { font-size: 14px; }
+  .v3 .glance-panel .dosing-glance .facts { grid-template-columns: 1fr; }
+  .v3 .glance-panel .dosing-glance .fact .v.sm { font-size: 14px; }
+  .v3 .glance-panel .dosing-glance .more { font-size: 13px; }
+  .v3 .content > #glance { display: none; }
+  .v3 .title > .evmix { margin-top: 10px; }
+}
+
+/* 4. The contents rail is capped to the viewport and scrolls on its own, so
+   a page with twenty anchors never pushes the rail off screen. */
+.v3 .toc { max-height: calc(100vh - 48px); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding-right: 4px; }
+
+/* 5. Tables on phones: each cell becomes a labelled row. The column name is
+   printed from data-label, so no value loses its meaning when the grid goes.
+   Row headers (the study) become the row's title. */
+@media (max-width: 767px) {
+  .v3 .tbl thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .v3 .tblwrap { overflow-x: visible; max-height: none; }
+  .v3 .tbl, .v3 .tbl tbody, .v3 .tbl tr { display: block; }
+  .v3 .tbl tr { padding: 10px 14px 12px; border-bottom: 1px solid var(--rule); }
+  .v3 .tbl tbody tr:nth-child(even) td, .v3 .tbl tbody tr:nth-child(even) th.study { background: transparent; }
+  .v3 .tbl caption { display: block; width: auto; }
+  .v3 .tbl th[scope="row"] { display: block; padding: 0 0 6px; border: 0; white-space: normal; font-family: var(--sans); font-size: 15px; letter-spacing: 0; text-transform: none; color: var(--ink); background: transparent; }
+  .v3 .tbl td { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 5px 0; border: 0; text-align: left; min-width: 0; }
+  .v3 .tbl td.num { text-align: left; white-space: normal; }
+  .v3 .tbl td.out { min-width: 0; display: block; padding-top: 8px; }
+  .v3 .tbl td[data-label]::before { content: attr(data-label); flex: 0 0 7.5rem; font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); padding-top: 3px; }
+  .v3 .tbl td.out[data-label]::before { display: block; margin-bottom: 4px; }
+  .v3 .tbl td:empty { display: none; }
+  .v3 .tbl caption { border-bottom: 1px solid var(--rule); }
+}
+
+/* 6. The calculator result is the biggest thing in its section: the number
+   large, the unit written out, on --sunk rather than a new colour. */
+.v3 .calc output { display: block; margin-top: 14px; padding: 14px 16px; background: var(--sunk); border: 1px solid var(--rule); border-radius: 6px; font-family: var(--sans); font-size: 16px; line-height: 1.5; color: var(--ink-2); }
+.v3 .calc output:empty { display: none; }
+.v3 .calc output b, .v3 .calc output strong { display: block; font-family: var(--serif); font-size: 30px; line-height: 1.1; color: var(--ink); font-variant-numeric: tabular-nums; margin-bottom: 4px; }
+
+/* 7. A frame from the brand blue: the header and footer darken so the content
+   area reads as the document. Light and dark schemes each get their own
+   value; the content tokens do not change. The header does not stick. */
+body:has(.v3) { --chrome: #0b2f5c; --chrome-ink: #e8eef6; --chrome-ink-2: #b7c6d9; --chrome-rule: rgba(255, 255, 255, .14); }
+@media (prefers-color-scheme: dark) { body:has(.v3) { --chrome: #0a1e38; --chrome-ink: #e4e9ee; --chrome-ink-2: #a7b1bb; --chrome-rule: rgba(255, 255, 255, .1); } }
+body:has(.v3) .site-head { background: var(--chrome); border-bottom-color: var(--chrome-rule); }
+body:has(.v3) .site-head .brand { color: var(--chrome-ink); }
+body:has(.v3) .site-head nav a { color: var(--chrome-ink-2); }
+body:has(.v3) .site-head nav a:hover { color: var(--chrome-ink); }
+body:has(.v3) .site-foot { background: var(--chrome); border-top-color: var(--chrome-rule); color: var(--chrome-ink-2); }
+body:has(.v3) .site-foot .foot-brand, body:has(.v3) .site-foot .foot-col a:hover { color: var(--chrome-ink); }
+body:has(.v3) .site-foot .foot-col a, body:has(.v3) .site-foot .foot-head { color: var(--chrome-ink-2); }
+body:has(.v3) .site-foot .foot-meta { border-top-color: var(--chrome-rule); }
+
+/* 8. Recurring blocks carry a fixed label so a reader recognises the kind of
+   block before reading it. Absence statements and boundary notices are the
+   status boxes; the label names them. */
+.v3 .status > div::before { display: block; font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: inherit; opacity: .75; margin-bottom: 4px; }
+.v3 section .status.neutral > div::before, .v3 section .status:not(.ok):not(.neutral) > div::before { content: "Evidence boundary"; }
+.v3 .status.ok > div::before { content: "Review"; }
+.v3 .content > .status > div::before { content: "Status"; }
+
+/* 9. The answer first. One bold sentence under the heading that answers the
+   section's question, cited; then the boundary line; the method sentence
+   sits behind a disclosure. */
+.v3 .answer { margin: 6px 0 0; font-size: 18px; line-height: 1.5; color: var(--ink); max-width: 66ch; }
+.v3 .answer b { font-weight: 600; }
+.v3 .answer + .lede { margin-top: 6px; }
+.v3 details.about { margin-top: 6px; max-width: 66ch; }
+.v3 details.about summary { cursor: pointer; font-size: 13.5px; color: var(--ink-3); list-style: none; display: inline-flex; align-items: center; gap: 6px; }
+.v3 details.about summary::-webkit-details-marker { display: none; }
+.v3 details.about summary::before { content: ''; width: 6px; height: 6px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(-45deg); transition: transform .15s; }
+.v3 details.about[open] summary::before { transform: rotate(45deg); }
+.v3 details.about p { margin: 6px 0 0; font-size: 15px; color: var(--ink-2); }
+.v3 .guide .lede { color: var(--ink); font-size: 18px; }
+@media (prefers-reduced-motion: reduce) { .v3 details.about summary::before { transition: none; } }
+
+/* 10. Show five, then the rest. The disclosure reads like the sources list's
+   "show the remaining" control; the hidden rows are in the page for anyone
+   who wants them and for crawlers. */
+.v3 .more-rows { margin-top: 8px; }
+.v3 .more-rows > summary { cursor: pointer; padding: 10px 0; font-size: 15px; color: var(--accent); list-style: none; }
+.v3 .more-rows > summary::-webkit-details-marker { display: none; }
+.v3 .more-rows > summary::after { content: ' ↓'; }
+.v3 .more-rows[open] > summary::after { content: ' ↑'; }
+.v3 .card .more-rows { margin: 0; border-top: 1px solid var(--rule); }
+.v3 .card .more-rows > summary { padding: 10px 14px; }
+.v3 .more-rows .claims, .v3 .more-rows .faq { margin-top: 8px; }
+
+/* 11. Evidence at a glance: one mark per study, grouped by what was studied.
+   Shape carries the tier (people filled, animals ringed, cells square,
+   community a diamond) and the tier colour is the second channel, so the
+   figure reads without colour. */
+.v3 .evmix { margin: 0; padding: 16px 18px 14px; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; display: flex; flex-direction: column; gap: 12px; }
+.v3 .evmix figcaption { font-size: 15px; color: var(--ink-2); }
+.v3 .evmix figcaption b { color: var(--ink); }
+.v3 .evmix .rows { display: grid; grid-template-columns: max-content 1fr max-content; gap: 8px 14px; align-items: center; }
+.v3 .evmix .row { display: contents; }
+.v3 .evmix .g { font-size: 14px; color: var(--ink-2); }
+.v3 .evmix .n { font-size: 14px; color: var(--ink-3); font-variant-numeric: tabular-nums; text-align: right; }
+.v3 .evmix .dots { display: flex; flex-wrap: wrap; gap: 4px; }
+.v3 .evmix .dot { width: 12px; height: 12px; display: inline-block; border-radius: 50%; background: var(--t-animal); box-sizing: border-box; }
+.v3 .evmix .dot[data-tier="animal-preclinical"] { background: transparent; border: 2.5px solid var(--t-animal); }
+.v3 .evmix .dot[data-tier="mechanistic-in-vitro"] { border-radius: 2px; background: var(--t-vitro); }
+.v3 .evmix .dot[data-tier="observational-human"] { background: var(--t-obs); }
+.v3 .evmix .dot[data-tier="human-clinical-trial"] { background: var(--t-trial); }
+.v3 .evmix .dot[data-tier="approved-label"] { background: var(--t-approved); }
+.v3 .evmix .dot[data-tier="community-reported"] { background: var(--t-community); border-radius: 0; transform: rotate(45deg) scale(.8); }
+.v3 .evmix .legend { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.v3 .evmix .legend .tier i { width: 12px; height: 12px; box-sizing: border-box; }
+.v3 .evmix .legend .tier[data-tier="animal-preclinical"] i { background: transparent; border: 2.5px solid var(--t-animal); }
+.v3 .evmix .legend .tier[data-tier="mechanistic-in-vitro"] i { border-radius: 2px; }
+.v3 .evmix .legend .tier[data-tier="community-reported"] i { border-radius: 0; transform: rotate(45deg) scale(.8); }
+.v3 .evmix .note { margin: 0; font-size: 14px; color: var(--ink-2); }
+@media (max-width: 767px) { .v3 .evmix .rows { grid-template-columns: 1fr max-content; } .v3 .evmix .g { grid-column: 1 / -1; margin-bottom: -4px; } }
+
+/* 12. Fact cards. A written section's lead-in paragraphs and lists render
+   as a grid of labelled cards (src/lib/factcards.ts): the label in the
+   heading face, the body in the reading face, nothing rewritten. */
+.v3 .fcards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 10px; margin: 0; }
+.v3 .fcards .fc { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 14px 16px 13px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.v3 .fcards dt { font-family: var(--serif); font-size: 17px; font-weight: 600; line-height: 1.3; color: var(--ink); }
+.v3 .fcards dt a { color: inherit; }
+.v3 .fcards dd { margin: 0; font-size: 15px; line-height: 1.55; color: var(--ink-2); }
+.v3 .fcards dd b, .v3 .fcards dd strong { color: var(--ink); }
+.v3 .guide .guide-body .fc-head { font-family: var(--serif); font-size: 18px; margin: 16px 0 10px; }
+.v3 .guide .guide-body .fcards + p, .v3 .guide .guide-body p + .fcards, .v3 .guide .guide-body .fcards + .card, .v3 .guide .guide-body .card + .fcards, .v3 .guide .guide-body .fcards + .fcards, .v3 .guide .guide-body .fcards + ul, .v3 .guide .guide-body ul + .fcards { margin-top: 12px; }
+/* The "who should avoid" facts use the same shape; they are written in the template. */
+.v3 .avoid-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 10px; list-style: none; padding: 0; margin: 0; max-width: none; }
+.v3 .avoid-facts li { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 14px 16px 13px; font-size: 15px; line-height: 1.55; color: var(--ink-2); }
+.v3 .avoid-facts li > b { display: block; font-family: var(--serif); font-size: 17px; font-weight: 600; line-height: 1.3; color: var(--ink); margin-bottom: 6px; }
+
+/* 13. A section whose figures fit one line opens with that line and folds
+   its rows: the disclosure is the only thing in the card. */
+.v3 .card > .more-rows:first-child { border-top: 0; }
+.v3 .card > .more-rows:first-child > summary { padding: 12px 14px; }
+.v3 .answer sup.cite { font-size: .6em; }
+
+/* 14. The method band's three notes are shared across every compound; on
+   the trial each opens on demand under its heading. */
+.v3 .method details.mnote > summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 10px; }
+.v3 .method details.mnote > summary::-webkit-details-marker { display: none; }
+.v3 .method details.mnote > summary::after { content: ''; width: 7px; height: 7px; border-right: 1.5px solid var(--ink-3); border-bottom: 1.5px solid var(--ink-3); transform: rotate(-45deg); flex: none; transition: transform .15s; }
+.v3 .method details.mnote[open] > summary::after { transform: rotate(45deg); }
+.v3 .method details.mnote > :not(summary) { margin-top: 10px; }
+@media (prefers-reduced-motion: reduce) { .v3 .method details.mnote > summary::after { transition: none; } }
+
+/* 15. The assessment strip, compact: three figures and a disclosure. */
+.v3 .assessment { padding: 16px 20px; }
+.v3 .assessment details.about { margin-top: 10px; }
+.v3 .assessment details.about .assessment-note { margin-top: 8px; }
+
+/* 16. FAQ as a list of questions: every line closed, so eighteen questions
+   read as a menu rather than a column of answers. */
+.v3 .faq summary { font-size: 17px; padding: 13px 0; }
+
+/* 17. The byline under the dek already says who reviewed the page and when,
+   so the reviewed status box beneath the glance is not repeated. */
+.v3 .content > .status.ok { display: none; }

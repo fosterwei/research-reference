@@ -75,6 +75,9 @@ def fingerprint(html: str) -> str:
 
     body = re.sub(r"<\s*(/?)\s*([a-zA-Z][a-zA-Z0-9]*)\b[^>]*>", keep, body)
     body = " ".join(htmllib.unescape(body).split())
+    # Whitespace between two tags is template formatting, never content: a
+    # component whose markup is re-indented must not look like a revision.
+    body = re.sub(r">\s+<", "><", body)
     return hashlib.sha1(body.encode("utf-8")).hexdigest()
 
 
