@@ -32,6 +32,11 @@
       ],
       "destination": "https://www.dashnaiv.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/compounds/bpc-157-v3",
+      "destination": "/compounds/bpc-157",
+      "permanent": true
     }
   ]
 }

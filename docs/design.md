@@ -375,7 +375,7 @@ typographic emphasis, and it must be declared (9.3).
   items after the first, the source list beyond the first twelve, the mobile
   table of contents. Never collapse a claim, a caption, a warning or the
   first item of anything.
-- **Figure-first sections (trial, 2026-11-12).** A per-study section whose
+- **Figure-first sections (adopted 2026-11-12).** A per-study section whose
   claims all carry a drafter-extracted figure (dose, route, duration, dose per
   kilogram) opens with one line computed from the record that lists every
   figure by species, people first, with the marks of every study it draws on
@@ -390,7 +390,7 @@ typographic emphasis, and it must be declared (9.3).
 
 - Own prose: paragraphs of two to four sentences and at most about seventy
   words; the first sentence carries the point. One idea per paragraph.
-- **Lead-in paragraphs are cards (trial, 2026-11-12).** A written paragraph
+- **Lead-in paragraphs are cards (adopted 2026-11-12).** A written paragraph
   or list item that opens with a bold lead-in ("**What it is.** …",
   "**Cancer, active or recent.** …") is already a label and a body. The
   template renders each run of them as a grid of labelled cards
@@ -456,6 +456,11 @@ the drafting script, not the record, so the fix applies to every page.
 
 ## Changelog
 
+- 2026-11-12 — v3 adopted as the shared compound template: `CompoundV2.astro`
+  renders every compound with the layer trialled on `/compounds/bpc-157-v3`
+  (now removed and redirected to `/compounds/bpc-157`). The brand-blue header
+  and footer move to `global.css` and apply site-wide. Every compound record
+  carries a changelog entry for the change, so its sitemap date moves.
 - 2026-11-12 — Trial route `/compounds/bpc-157-v3` (noindex, outside the
   sitemap; `CompoundV2.astro` with `trial`, `styles/compound-v3.css`) carries
   the proposals in `research/design-references/peptidedosingprotocols/

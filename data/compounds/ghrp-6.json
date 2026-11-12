@@ -1427,6 +1427,10 @@
     {
       "date": "2026-11-07",
       "change": "Restored 8 quotations that had been cut off mid-sentence with an ellipsis, mostly in the evidence table's outcome column. Each now shows the full sentence from its source."
+    },
+    {
+      "date": "2026-11-12",
+      "change": "Page layout adopted after the BPC-157 trial: written sections with lead-in points render as labelled cards; dose, route and duration sections open with a one-line cited digest and fold their rows; evidence figure beside the glance panel; FAQ as a question list; method notes and older changes open on demand."
     }
   ],
   "guide": [
