@@ -92,3 +92,17 @@ q.claim-quote { quotes: "\201C" "\201D"; color: var(--ink); }
 .prose-page .steps li::marker { color: var(--ink-3); font-variant-numeric: tabular-nums; }
 sup.cite { font-size: .72em; line-height: 0; margin-left: 2px; white-space: nowrap; }
 sup.cite a { text-decoration: none; }
+
+/* A frame from the brand blue: the header and footer darken so the content
+   area reads as the document. Light and dark schemes each get their own
+   value; the content tokens do not change. The header does not stick. */
+body { --chrome: #0b2f5c; --chrome-ink: #e8eef6; --chrome-ink-2: #b7c6d9; --chrome-rule: rgba(255, 255, 255, .14); }
+@media (prefers-color-scheme: dark) { body { --chrome: #0a1e38; --chrome-ink: #e4e9ee; --chrome-ink-2: #a7b1bb; --chrome-rule: rgba(255, 255, 255, .1); } }
+body .site-head { background: var(--chrome); border-bottom-color: var(--chrome-rule); }
+body .site-head .brand { color: var(--chrome-ink); }
+body .site-head nav a { color: var(--chrome-ink-2); }
+body .site-head nav a:hover { color: var(--chrome-ink); }
+body .site-foot { background: var(--chrome); border-top-color: var(--chrome-rule); color: var(--chrome-ink-2); }
+body .site-foot .foot-brand, body .site-foot .foot-col a:hover { color: var(--chrome-ink); }
+body .site-foot .foot-col a, body .site-foot .foot-head { color: var(--chrome-ink-2); }
+body .site-foot .foot-meta { border-top-color: var(--chrome-rule); }

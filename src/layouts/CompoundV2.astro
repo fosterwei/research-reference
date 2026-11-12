@@ -1,6 +1,7 @@
 ---
-// v2 compound page, shared by the trial routes. When the design is approved,
-// [slug].astro renders this for every compound and the trial routes go away.
+// The compound page. v2 adopted 2026-09-24; the v3 proposals (labelled cards,
+// figure-first sections, glance panel, evidence figure; docs/design.md §9.6,
+// §9.7 and changelog 2026-11-12) adopted after the BPC-157 trial route.
 //
 // Composition is intent-driven (docs/design.md §10, docs/content-sop.md): if
 // research/intents/<slug>.json exists, it orders the body blocks, supplies
@@ -48,15 +49,11 @@ import { compound as regCompound, peers as regPeers, stacksContaining, compariso
 import { loadIntent, headingFor, boundaryFor, orderBlocks, queriesFor } from '../lib/intents';
 import { parseClaim } from '../lib/claims';
 import { citer, findingsOnly } from '../lib/cite';
-import { keywordHeading } from '../lib/headings';
 import { digest } from '../lib/digest';
 import { factCards } from '../lib/factcards';
 
-// `trial` renders the page with the v3 proposals (styles/compound-v3.css,
-// research/design-references/peptidedosingprotocols/design.md §5) on a
-// noindex trial route, per docs/design.md §8. Off everywhere else.
-interface Props { slug: string; trial?: boolean }
-const { slug, trial = false } = Astro.props;
+interface Props { slug: string }
+const { slug } = Astro.props;
 const all = await records('compounds');
 const entry = all.find((e) => e.data.slug === slug);
 if (!entry) throw new Error(`no record for ${slug}`);
@@ -73,12 +70,12 @@ const pubs = d.evidence_summary?.publications ?? {};
 const noEvidence = (pubs.total ?? 0) === 0;
 const hasAnyEvidence = has('evidence_table');
 const humanRows = (A.evidence_table ?? []).filter((r) => r.fields?.species === 'Humans' && !/method|in vitro|measured, not given/i.test(r.fields?.design ?? ''));
-// Headline counts on the trial come from the record's full evidence table, as the glance tiles do.
+// Headline counts come from the record's full evidence table, as the glance tiles do.
 const fullRows = ((d.attributes as any)?.evidence_table ?? []) as any[];
 const fullHuman = fullRows.filter((r) => r.fields?.species === 'Humans' && !/method|in vitro|measured, not given/i.test(r.fields?.design ?? ''));
 // Up to twelve human rows read as a list; beyond that the evidence table carries them.
 const showHumanTrials = humanRows.length >= 1 && humanRows.length <= 12;
-const path = `/compounds/${d.slug}${trial ? '-v3' : ''}`;
+const path = `/compounds/${d.slug}`;
 // Guides that hang under this record or declare they are about it (src/lib/guides.ts).
 const guides = await guidesFor(path);
 const guideKind = (g: any) => ({ index: 'Guide index', pillar: 'Topic guide', sub: 'In-depth guide' } as Record<string, string>)[g.data.role] ?? 'Guide';
@@ -102,9 +99,8 @@ const breadcrumbs = {
   '@context': 'https://schema.org', '@type': 'BreadcrumbList',
   itemListElement: [{ name: 'Home', path: '/' }, { name: 'Compounds', path: '/compounds' }, { name: d.preferred_name, path }].map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.path, Astro.site).toString() })),
 };
-const dek = trial
-  ? rich(`What ${formatCount(pubs.total)} indexed publications, ${fullHuman.length} human ${fullHuman.length === 1 ? 'study' : 'studies'} and ${formatCount(pubs.randomized_controlled_trials)} randomized trials state about ${d.preferred_name}, each claim cited.`, { bold: 2, seen })
-  : rich(`What ${formatCount(pubs.total)} indexed publications and ${formatCount(pubs.randomized_controlled_trials)} randomized trials actually state about ${d.preferred_name.toLowerCase()}, sentence by sentence, each tied to its source and labeled by the kind of evidence it is.`, { bold: 2, seen });
+// Index counts first, then the ledger's human count, so the two are not read as one series.
+const dek = rich(`What ${formatCount(pubs.total)} indexed publications and ${formatCount(pubs.randomized_controlled_trials)} randomized trials state about ${d.preferred_name}, with ${fullHuman.length} human ${fullHuman.length === 1 ? 'study' : 'studies'} in this record's ledger, each claim cited.`, { bold: 2, seen });
 const summaryParas = paragraphs(d.summary, 3).map((para) => rich(para, { bold: 2, seen }));
 const peerLinks = peerEntries.map((e) => `<a href="/compounds/${e.data.slug}">${e.data.preferred_name}</a>`).join(', ');
 const comparisonLinks = inComparisons.map((c) => `<a href="/compare/${c.slug}">${c.sides.map((s) => regCompound(s)?.name ?? s).join(' vs ')}</a>`).join(', ');
@@ -142,12 +138,10 @@ const defaultLedes: Record<string, string> = {
   mechanism: 'Written from general pharmacology and the development record, and marked as editorial synthesis; the measurements behind it are cited in the biomarker section.',
   reported_use: 'What circulates in user communities and clinic marketing, reported so a reader knows the figures and their origin. None of it has been tested in a trial, and none of it is a suggestion.',
 };
-// A boundary sentence from the intent map opens the lede when one exists (policy evidence-with-boundary).
-const ledeFor = (f: string) => [boundaryFor(intent, f), defaultLedes[f]].filter(Boolean).join(' ');
-// Trial: the answer first. One cited sentence that answers the section's
-// question, before any method text; the method sentence moves behind a
-// disclosure so the first line a reader meets is about the compound.
-const SHOW = trial ? 5 : Infinity;
+// The answer first. One cited sentence that answers the section's question,
+// before any method text; the method sentence sits behind a disclosure so the
+// first line a reader meets is about the compound.
+const SHOW = 5;
 const answerFor = (f: string): string | undefined => {
   const first = (A[f] ?? []).find((c: any) => c.plain && c.source_ids?.length) as any;
   return first ? proseCite.sentence(first.plain, first.source_ids) : undefined;
@@ -157,16 +151,17 @@ const answerFor = (f: string): string | undefined => {
 // those figures by species and the per-study rows fold beneath it. Other
 // sections open with their first cited sentence and show three rows.
 const DIGEST = new Set(['study_doses', 'study_durations', 'routes_studied', 'weight_normalized_doses']);
-const digestFor = (f: string) => (trial && DIGEST.has(f) ? digest(f, A[f] ?? [], (ids) => proseCite.marks(ids)) : undefined);
+const digestFor = (f: string) => (DIGEST.has(f) ? digest(f, A[f] ?? [], (ids) => proseCite.marks(ids)) : undefined);
 const leadFor = (f: string) => digestFor(f) ?? answerFor(f);
-const showFor = (f: string) => (trial ? (digestFor(f) ? 0 : 3) : Infinity);
+const showFor = (f: string) => (digestFor(f) ? 0 : 3);
 const evidenceAnswer = (() => {
   const rows = fullRows;
   const by = (re: RegExp) => rows.filter((r: any) => re.test(String(r.fields?.species ?? ''))).length;
   const animals = by(/rat|mice|mouse|dog|pig|rabbit|bee|fish|chick/i), cells = by(/cell|vitro|none/i);
   const h = fullHuman.length, rct = fullHuman.filter((r: any) => /random/i.test(r.fields?.design ?? '')).length;
   const people = h === 0 ? '0 in people' : `${h} in people (${rct === 0 ? 'none randomized' : `${rct} randomized`})`;
-  return `<b>${rows.length} primary studies</b>: ${animals} in animals, ${cells} in cells, ${people}.${rct === 0 ? ' No randomized trial has tested it.' : ''}`;
+  const other = rows.length - animals - cells - h;
+  return `<b>${rows.length} primary studies</b>: ${animals} in animals, ${cells} in cells, ${people}${other > 0 ? `, ${other} other` : ''}.${rct === 0 ? ' No randomized trial has tested it.' : ''}`;
 })();
 
 // Body blocks. Each renders only when it has content; an evidence field with no
@@ -177,10 +172,10 @@ type Block = { id: string; kind: 'avoid' | 'bundle' | 'human' | 'table' | 'lands
 // Links the first mention of each other record in this page's own prose.
 const linkEntities = entityLinker([d.slug], 10);
 const linkTerms = glossaryLinker(4);
-// Trial: lead-in paragraphs and lists in written sections render as labelled cards (src/lib/factcards.ts).
-const guideHtml = (g: Guide) => { const h = proseCite.tokens(linkTerms(linkEntities(g.html))); return trial ? factCards(h) : h; };
-// Trial: the record's quick answer takes the "what it is" slot at the top instead of the compiled summary, which restates the glance figures.
-const quick = trial ? guide.find((g) => g.id === 'quick-answer') : undefined;
+// Lead-in paragraphs and lists in written sections render as labelled cards (src/lib/factcards.ts).
+const guideHtml = (g: Guide) => factCards(proseCite.tokens(linkTerms(linkEntities(g.html))));
+// The record's quick answer takes the "what it is" slot at the top instead of the compiled summary, which restates the glance figures.
+const quick = guide.find((g) => g.id === 'quick-answer');
 const blocks: Block[] = [];
 // Written sections from the record's guide[]; the outline places them among the evidence blocks.
 for (const g of guide) if (g !== quick) blocks.push({ id: g.id, kind: 'guide', label: g.heading, group: 'Evidence', guide: g });
@@ -261,9 +256,9 @@ const faqSchema = faqItems.length > 0 ? [{
   mainEntity: faqItems.map((f) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'") } })),
 }] : [];
 
-// The trial drops the compound name from H2s: it stays in the title, dek and
-// first paragraph (docs/design.md §1 rejected the prefix on every heading).
-const kwh = (t: string) => (trial ? t : keywordHeading(d.preferred_name, t));
+// Headings carry no compound name: it stays in the title, dek and first
+// paragraph (docs/design.md §1, §9.7).
+const kwh = (t: string) => t;
 // Three or more claims that carry a study line read better as a table.
 const tabular = (claims: any[] = []) => claims.length >= 3 && claims.filter((c) => parseClaim(c).design).length >= Math.ceil(claims.length * 0.6);
 for (const b of blocks) {
@@ -307,13 +302,13 @@ const tocBody = body.flatMap((b) => b.kind === 'method'
   : [{ id: b.id, label: b.label, group: b.group }]);
 const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sources', 'card', 'related', 'changelog'].includes(s.id))];
 ---
-<Base title={baseTitle} description={description(entry)} path={path} indexable={!trial && isIndexable(entry)} jsonld={[jsonld, breadcrumbs, ...faqSchema]} siteSuffix={`${baseTitle} | ${SITE_NAME}`.length <= 60}>
+<Base title={baseTitle} description={description(entry)} path={path} indexable={isIndexable(entry)} jsonld={[jsonld, breadcrumbs, ...faqSchema]} siteSuffix={`${baseTitle} | ${SITE_NAME}`.length <= 60}>
   <Fragment slot="head">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600&display=swap" />
   </Fragment>
-  <article class:list={['v2', { v3: trial }]}>
+  <article class="v2 v3">
     <div class="title">
       <div class="crumbs"><a class="eyebrow" href="/compounds">Compounds</a>{reg && <><span class="dot">·</span><a class="eyebrow" href={`/compounds#${reg.class}`}>{className(reg.class)}</a><span class="dot">·</span><span class="eyebrow">{reg.target}</span></>}</div>
       <h1>{intent?.h1 ?? d.preferred_name}</h1>
@@ -325,11 +320,10 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
         {updated && <span class="pill">Updated <Fragment set:html={timeTag(updated)} /></span>}
         {brandAliases.length > 0 && <span class="pill dashed">Also: {brandAliases.join(', ')}</span>}
       </div>
-      {trial && d.review?.reviewer && (
+      {d.review?.reviewer && (
         <p class="byline">Reviewed by <b>{d.review.reviewer_url ? <a href={d.review.reviewer_url} rel="nofollow noopener">{d.review.reviewer}</a> : d.review.reviewer}</b>, {d.review.reviewer_credential}<span class="sep">·</span>Last reviewed <Fragment set:html={timeTag(d.review.reviewed_at)} />{updated && updated !== d.review.reviewed_at && <><span class="sep">·</span>Updated <Fragment set:html={timeTag(updated)} /></>}<span class="sep">·</span><a href="#changelog">What changed</a></p>
       )}
-      {trial && hasAnyEvidence && <EvidenceMix rows={fullRows} pubs={pubs} name={d.preferred_name} />}
-    {trial && (
+      {hasAnyEvidence && <EvidenceMix rows={fullRows} pubs={pubs} name={d.preferred_name} />}
       <aside class="glance-panel" aria-label="At a glance">
         <p class="eyebrow">At a glance</p>
         <FactTiles record={d} reg={reg} />
@@ -341,7 +335,6 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
           </div>
         )}
       </aside>
-    )}
     </div>
 
     <div class="layout">
@@ -361,7 +354,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
         {quick
           ? <EditorialSection id={quick.id} heading={kwh(quick.heading)} lede={quick.lede} html={guideHtml(quick)} pending={quick.pending} addedAfterReview={(quick as any).added_after_review} />
           : <section id="what"><h2>{kwh(headingFor(intent, 'what', 'What it is'))}</h2>{summaryParas.map((html) => <p class="prose-lg" set:html={html} />)}</section>}
-        <EvidenceAssessment record={d} heading={kwh('What the evidence level means')} compact={trial} />
+        <EvidenceAssessment record={d} heading={kwh('What the evidence level means')} compact />
         {nextQuestions.length > 0 && (
           <nav class="next-q" aria-label="Related questions"><span class="eyebrow">People also look for</span>
             <ul>{nextQuestions.map((q) => <li><a href={q.href}>{q.label}</a></li>)}</ul>
@@ -376,18 +369,18 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
             case 'landscape': return <section id="landscape"><div><h2>{b.label}</h2><p class="lede">Counts from Europe PMC. Zeros are measured, not missing.</p></div><LandscapeTable record={d} /></section>;
             case 'table': return (
               <section id="evidence">
-                <div><h2>{b.label}</h2>{trial && <p class="answer" set:html={evidenceAnswer} />}<p class="lede">{[boundaryFor(intent, 'evidence_table'), ...(trial ? [] : ['One row per primary study in this record\'s ledger. Fields are read from each paper\'s indexing and abstract. "Analytical method" marks papers about detecting or measuring the compound rather than about its effects.'])].filter(Boolean).join(' ')}</p>{trial && <details class="about"><summary>About this table</summary><p>One row per primary study in this record's ledger. Fields are read from each paper's indexing and abstract. "Analytical method" marks papers about detecting or measuring the compound rather than about its effects.</p></details>}</div>
+                <div><h2>{b.label}</h2><p class="answer" set:html={evidenceAnswer} />{boundaryFor(intent, 'evidence_table') && <p class="lede">{boundaryFor(intent, 'evidence_table')}</p>}{<details class="about"><summary>About this table</summary><p>One row per primary study in this record's ledger. Fields are read from each paper's indexing and abstract. "Analytical method" marks papers about detecting or measuring the compound rather than about its effects.</p></details>}</div>
                 <EvidenceTable rows={A.evidence_table} sources={d.sources} visible={SHOW} />
               </section>
             );
             case 'protocol': return (
-              <section id="protocol"><div><h2>{b.label}</h2>{trial && dosingGlance.length > 0 && <p class="answer">{dosingGlance.map((f, i) => <>{i > 0 && ' · '}<b>{f.k}:</b> {f.v}</>)}</p>}<p class="lede">{boundaryFor(intent, 'protocol') ?? `How ${d.preferred_name} has been dosed: on an approved label where one exists, in the trials that gave it, and as a practical schedule read from those. Each block says where its figures come from.`}</p></div>
+              <section id="protocol"><div><h2>{b.label}</h2>{dosingGlance.length > 0 && <p class="answer">{dosingGlance.map((f, i) => <>{i > 0 && ' · '}<b>{f.k}:</b> {f.v}</>)}</p>}<p class="lede">{boundaryFor(intent, 'protocol') ?? `How ${d.preferred_name} has been dosed: on an approved label where one exists, in the trials that gave it, and as a practical schedule read from those. Each block says where its figures come from.`}</p></div>
                 <Protocol claims={protocolClaims} sources={d.sources} name={d.preferred_name} review={d.review ?? {}} />
               </section>
             );
             case 'calculator': return (
               <section id="calculator"><div><h2>{b.label}</h2><p class="lede">Enter a vial and a dose and it returns the concentration, the volume and the units on your syringe. It converts the numbers you give it and suggests none. The doses studies of {d.preferred_name} actually used, with a units chart per vial size, are on the <a href={`/calculators/${d.slug}`}>full {d.preferred_name} calculator page</a>.</p></div>
-                <Calculators slug="reconstitution-calculator" id="calculator-tool" heading="Work out concentration and what to draw" headingLevel={3} big={trial} />
+                <Calculators slug="reconstitution-calculator" id="calculator-tool" heading="Work out concentration and what to draw" headingLevel={3} big />
               </section>
             );
             case 'avoid': {
@@ -408,11 +401,11 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
             }
             case 'bundle': return (
               <section id="more-findings"><div><h2>{b.label}</h2><p class="lede">Topics where the record holds a single finding so far, gathered here rather than given a section each. Every finding is restated in plain English and cited.</p></div>
-                {b.parts!.map((p) => <div class="bundle-part" id={p.id}><h3>{p.label}</h3><ClaimCards claims={A[p.field!]} sources={d.sources} visible={trial ? 3 : Infinity} />{p.field === 'weight_normalized_doses' && <WeightCaveat />}</div>)}
+                {b.parts!.map((p) => <div class="bundle-part" id={p.id}><h3>{p.label}</h3><ClaimCards claims={A[p.field!]} sources={d.sources} visible={3} />{p.field === 'weight_normalized_doses' && <WeightCaveat />}</div>)}
               </section>
             );
             case 'claims': return (
-              <section id={b.id}><div><h2>{b.label}</h2>{trial && leadFor(b.field!) && <p class="answer" set:html={leadFor(b.field!)} />}{trial ? <>{boundaryFor(intent, b.field!) && <p class="lede">{boundaryFor(intent, b.field!)}</p>}{defaultLedes[b.field!] && <details class="about"><summary>About this section</summary><p>{defaultLedes[b.field!]}{b.field === 'study_durations' && <> How this compares with other compounds is on the <a href="/cycles">peptide cycle length</a> page.</>}</p></details>}</> : <p class="lede">{ledeFor(b.field!)}{b.field === 'study_durations' && <> How this compares with other compounds is on the <a href="/cycles">peptide cycle length</a> page.</>}</p>}</div>{tabular(A[b.field!]) ? <ClaimTable claims={A[b.field!]} sources={d.sources} caption={`${b.label}: one row per study, each finding cited.`} visible={showFor(b.field!)} /> : <ClaimCards claims={A[b.field!]} sources={d.sources} visible={showFor(b.field!)} />}{b.field === 'weight_normalized_doses' && <WeightCaveat />}</section>
+              <section id={b.id}><div><h2>{b.label}</h2>{leadFor(b.field!) && <p class="answer" set:html={leadFor(b.field!)} />}{boundaryFor(intent, b.field!) && <p class="lede">{boundaryFor(intent, b.field!)}</p>}{defaultLedes[b.field!] && <details class="about"><summary>About this section</summary><p>{defaultLedes[b.field!]}{b.field === 'study_durations' && <> How this compares with other compounds is on the <a href="/cycles">peptide cycle length</a> page.</>}</p></details>}</div>{tabular(A[b.field!]) ? <ClaimTable claims={A[b.field!]} sources={d.sources} caption={`${b.label}: one row per study, each finding cited.`} visible={showFor(b.field!)} /> : <ClaimCards claims={A[b.field!]} sources={d.sources} visible={showFor(b.field!)} />}{b.field === 'weight_normalized_doses' && <WeightCaveat />}</section>
             );
             case 'absence': {
               const human = evidence.find(([f]) => f === b.field)?.[3] ?? b.field;
@@ -425,19 +418,9 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
             case 'method': return (
               <div class="method">
                 <div class="grid">
-                  {trial ? (
-                    <>
-                      <div><span class="eyebrow">Method note · shared across compounds</span><details class="mnote"><summary><h3 id="method-recon">Reconstitution mathematics</h3></summary><ReconstitutionMath /></details></div>
-                      <div><span class="eyebrow">Method note · shared across compounds</span><details class="mnote"><summary><h3 id="method-coa">Reading a certificate of analysis</h3></summary><ReadingACoA /></details></div>
-                      <div style="grid-column: 1 / -1"><span class="eyebrow">Method note · shared across compounds</span><details class="mnote"><summary><h3 id="method-equipment">Equipment described in studies</h3></summary><EquipmentInStudies /></details></div>
-                    </>
-                  ) : (
-                    <>
-                      <div><span class="eyebrow">Method note · shared across compounds</span><h3 id="method-recon">Reconstitution mathematics</h3><ReconstitutionMath /></div>
-                      <div><span class="eyebrow">Method note · shared across compounds</span><h3 id="method-coa">Reading a certificate of analysis</h3><ReadingACoA /></div>
-                      <div style="grid-column: 1 / -1"><span class="eyebrow">Method note · shared across compounds</span><h3 id="method-equipment">Equipment described in studies</h3><EquipmentInStudies /></div>
-                    </>
-                  )}
+                  <div><span class="eyebrow">Method note · shared across compounds</span><details class="mnote"><summary><h3 id="method-recon">Reconstitution mathematics</h3></summary><ReconstitutionMath /></details></div>
+                  <div><span class="eyebrow">Method note · shared across compounds</span><details class="mnote"><summary><h3 id="method-coa">Reading a certificate of analysis</h3></summary><ReadingACoA /></details></div>
+                  <div style="grid-column: 1 / -1"><span class="eyebrow">Method note · shared across compounds</span><details class="mnote"><summary><h3 id="method-equipment">Equipment described in studies</h3></summary><EquipmentInStudies /></details></div>
                 </div>
               </div>
             );
@@ -445,9 +428,9 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
               <section id="compare"><div><h2>{b.label}</h2><p class="lede">{boundaryFor(intent, 'compare') ? boundaryFor(intent, 'compare') + ' ' : ''}Same class in the registry: <Fragment set:html={peerLinks} />. Each row shows what that compound's own record states; nothing is inferred across rows.{inComparisons.length > 0 && <> Head-to-head evidence, where any exists, is on the comparison page{inComparisons.length > 1 ? 's' : ''}: <Fragment set:html={comparisonLinks} />.</>}</p></div><CompareTable self={entry} peers={peerEntries} cls={reg ? className(reg.class) : 'same'} /></section>
             );
             case 'combination': return <CombinationEvidence slug={d.slug} name={d.preferred_name} heading={b.label} boundary={boundaryFor(intent, 'combination')} />;
-            case 'regulatory': return <section id="regulatory"><div><h2>{b.label}</h2>{trial && answerFor('regulatory_status') && <p class="answer" set:html={answerFor('regulatory_status')} />}<p class="lede">{[boundaryFor(intent, 'regulatory_status'), 'Registry facts only. Jurisdiction-level status, compounding categories and sport prohibitions need their own cited documents before they appear here.'].filter(Boolean).join(' ')}</p></div><ClaimCards claims={A.regulatory_status} sources={d.sources} visible={showFor('regulatory_status')} /></section>;
+            case 'regulatory': return <section id="regulatory"><div><h2>{b.label}</h2>{answerFor('regulatory_status') && <p class="answer" set:html={answerFor('regulatory_status')} />}<p class="lede">{[boundaryFor(intent, 'regulatory_status'), 'Registry facts only. Jurisdiction-level status, compounding categories and sport prohibitions need their own cited documents before they appear here.'].filter(Boolean).join(' ')}</p></div><ClaimCards claims={A.regulatory_status} sources={d.sources} visible={showFor('regulatory_status')} /></section>;
             case 'open': return <section id="open"><div><h2>{b.label}</h2><p class="lede">What is genuinely unknown, stated plainly. A missing field is not evidence that the outcome is safe, effective, or established.</p></div><ul class="list">{d.open_questions.map((q) => <li>{q}</li>)}</ul>{d.evidence_assessment?.limitations?.length > 0 && <><h3>Study limitations</h3><ul class="list">{d.evidence_assessment.limitations.map((q: string) => <li>{q}</li>)}</ul></>}</section>;
-            case 'faq': return <section id="faq"><h2>{b.label}</h2><Faq items={faqItems} html openFirst={!trial} /></section>;
+            case 'faq': return <section id="faq"><h2>{b.label}</h2><Faq items={faqItems} html openFirst={false} /></section>;
           }
         })}
 
@@ -463,7 +446,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
           </ul>
           <p class="lede">Browse <a href="/compounds">all compounds</a>, <a href="/stacks">stacks</a>, <a href="/compare">comparisons</a> and <a href="/tools">tools</a>.</p></section>
         )}
-        {d.changelog.length > 0 && <section id="changelog"><div><h2>Last reviewed and what changed</h2><p class="lede">Newest first. These are the record's own revision dates, and the same dates feed the sitemap.</p></div>{trial && d.changelog.length > 3
+        {d.changelog.length > 0 && <section id="changelog"><div><h2>Last reviewed and what changed</h2><p class="lede">Newest first. These are the record's own revision dates, and the same dates feed the sitemap.</p></div>{d.changelog.length > 3
           ? <><ol class="changelog" reversed start={d.changelog.length}>{[...d.changelog].reverse().slice(0, 3).map((c) => <li><Fragment set:html={timeTag(c.date, c.date)} /> · {c.change}</li>)}</ol><details class="more-rows"><summary>Show all <b>{d.changelog.length}</b> changes</summary><ol class="changelog" reversed start={d.changelog.length - 3}>{[...d.changelog].reverse().slice(3).map((c) => <li><Fragment set:html={timeTag(c.date, c.date)} /> · {c.change}</li>)}</ol></details></>
           : <ol class="changelog" reversed>{[...d.changelog].reverse().map((c) => <li><Fragment set:html={timeTag(c.date, c.date)} /> · {c.change}</li>)}</ol>}</section>}
       </div>

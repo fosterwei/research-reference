@@ -1,8 +1,9 @@
-/* Trial: the compound page with the changes proposed in
-   research/design-references/peptidedosingprotocols/design.md §5. Scoped to
-   .v3, which only the trial route sets, so no shared page changes. Tokens
-   come from global.css; nothing here adds a colour that is not already a
-   token or a shade of the brand blue. */
+/* The compound page's v3 layer, adopted 2026-11-12 after the BPC-157 trial
+   (docs/design.md changelog; proposals from
+   research/design-references/peptidedosingprotocols/design.md §5). Scoped
+   to .v3, which CompoundV2.astro always sets. Tokens come from global.css;
+   nothing here adds a colour that is not already a token or a shade of the
+   brand blue. The header and footer chrome lives in global.css. */
 
 /* 1. Metric-matched fallbacks: the page keeps its measure while the web
    fonts load, instead of reflowing when they arrive. Values are the
@@ -78,20 +79,6 @@
 .v3 .calc output { display: block; margin-top: 14px; padding: 14px 16px; background: var(--sunk); border: 1px solid var(--rule); border-radius: 6px; font-family: var(--sans); font-size: 16px; line-height: 1.5; color: var(--ink-2); }
 .v3 .calc output:empty { display: none; }
 .v3 .calc output b, .v3 .calc output strong { display: block; font-family: var(--serif); font-size: 30px; line-height: 1.1; color: var(--ink); font-variant-numeric: tabular-nums; margin-bottom: 4px; }
-
-/* 7. A frame from the brand blue: the header and footer darken so the content
-   area reads as the document. Light and dark schemes each get their own
-   value; the content tokens do not change. The header does not stick. */
-body:has(.v3) { --chrome: #0b2f5c; --chrome-ink: #e8eef6; --chrome-ink-2: #b7c6d9; --chrome-rule: rgba(255, 255, 255, .14); }
-@media (prefers-color-scheme: dark) { body:has(.v3) { --chrome: #0a1e38; --chrome-ink: #e4e9ee; --chrome-ink-2: #a7b1bb; --chrome-rule: rgba(255, 255, 255, .1); } }
-body:has(.v3) .site-head { background: var(--chrome); border-bottom-color: var(--chrome-rule); }
-body:has(.v3) .site-head .brand { color: var(--chrome-ink); }
-body:has(.v3) .site-head nav a { color: var(--chrome-ink-2); }
-body:has(.v3) .site-head nav a:hover { color: var(--chrome-ink); }
-body:has(.v3) .site-foot { background: var(--chrome); border-top-color: var(--chrome-rule); color: var(--chrome-ink-2); }
-body:has(.v3) .site-foot .foot-brand, body:has(.v3) .site-foot .foot-col a:hover { color: var(--chrome-ink); }
-body:has(.v3) .site-foot .foot-col a, body:has(.v3) .site-foot .foot-head { color: var(--chrome-ink-2); }
-body:has(.v3) .site-foot .foot-meta { border-top-color: var(--chrome-rule); }
 
 /* 8. Recurring blocks carry a fixed label so a reader recognises the kind of
    block before reading it. Absence statements and boundary notices are the

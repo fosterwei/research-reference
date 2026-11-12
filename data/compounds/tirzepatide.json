@@ -1250,6 +1250,10 @@
     {
       "date": "2026-11-09",
       "change": "Added the EU label (Mounjaro, European Medicines Agency) as a source: its contraindication, pregnancy and pancreatitis advice now lead the \"who should avoid\" section, and its storage and shelf-life rules fill the new storage section. Two lines that described enrolment rather than exclusions were removed."
+    },
+    {
+      "date": "2026-11-12",
+      "change": "Page layout adopted after the BPC-157 trial: written sections with lead-in points render as labelled cards; dose, route and duration sections open with a one-line cited digest and fold their rows; evidence figure beside the glance panel; FAQ as a question list; method notes and older changes open on demand."
     }
   ]
 }
