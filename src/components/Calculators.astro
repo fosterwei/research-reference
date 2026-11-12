@@ -15,8 +15,10 @@ interface Props {
   id?: string;
   heading?: string;
   headingLevel?: 2 | 3;
+  /** Print the draw as the largest thing in the result (trial routes only). */
+  big?: boolean;
 }
-const { slug, id = 'calc-recon', heading = 'Work out concentration and what to draw', headingLevel = 2 } = Astro.props;
+const { slug, id = 'calc-recon', heading = 'Work out concentration and what to draw', headingLevel = 2, big = false } = Astro.props;
 const H = headingLevel === 3 ? 'h3' : 'h2';
 ---
 {slug === 'reconstitution-calculator' && (
@@ -36,7 +38,7 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
         <option value="50">U-50 (50 units per mL)</option>
         <option value="40">U-40 (40 units per mL)</option>
       </select>
-      <output id="r-out" aria-live="polite"></output>
+      <output id="r-out" aria-live="polite" data-big={big ? '' : undefined}></output>
     </form>
     <p class="prose">Worked example: 5&nbsp;mg in 2&nbsp;mL is 2,500&nbsp;mcg/mL, so 250&nbsp;mcg is 0.1&nbsp;mL, which is 10&nbsp;units on a U-100 syringe and 4&nbsp;units on a U-40. The scale is printed on the barrel; reading a U-40 syringe as if it were U-100 is a two-and-a-half-fold error.</p>
   </section>
@@ -134,6 +136,12 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
     if (units < 1) lines.push(`Warning: ${round(units, 2)} units is below the smallest graduation on that syringe. Use less diluent to raise the concentration, or a syringe with a finer scale.`);
     if (drawMl > 1) lines.push(`Warning: ${round(drawMl, 2)} mL exceeds a 1 mL syringe, so this draw does not fit in one.`);
     if (ml > 0 && drawMl > ml) lines.push('Warning: the volume to draw is larger than the whole vial.');
+    // A page that asks for it gets the draw as the headline figure; the text
+    // is the same numbers, assembled from this script's own strings.
+    if ((out as HTMLElement).dataset?.big !== undefined) {
+      out.innerHTML = `<b>${round(units, 1)} units</b>${round(drawMl, 3)} mL on a U-${perMl} syringe · ${lines[0]} · ${lines[2]}${lines.slice(3).map((l) => ` · ${l}`).join('')}`;
+      return;
+    }
     out.textContent = lines.join(' · ');
   });
 

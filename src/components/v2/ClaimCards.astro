@@ -3,8 +3,9 @@ import Tier from './Tier.astro';
 import { parseClaim, type Claim } from '../../lib/claims';
 import { markTerms } from '../../lib/format';
 import { citer } from '../../lib/cite';
-interface Props { claims: Claim[]; sources?: Array<{ id: string; url: string }> }
-const { claims, sources = [] } = Astro.props;
+/** `visible`: cards shown at once; the rest open on demand. Default is all. */
+interface Props { claims: Claim[]; sources?: Array<{ id: string; url: string }>; visible?: number }
+const { claims, sources = [], visible = Infinity } = Astro.props;
 const urlOf: Record<string, string> = Object.fromEntries(sources.map((s) => [s.id, s.url]));
 const cite = citer(sources);
 const rows = claims.map((c) => {
@@ -18,8 +19,48 @@ const rows = claims.map((c) => {
   return { c, p, quoteHtml, marked, extraLabel, extraVal, cite_url: urlOf[c.source_ids[0]] };
 });
 ---
+{visible > 0 && (<ul class="claims">
+  {rows.slice(0, visible).map(({ c, p, quoteHtml, marked, extraLabel, extraVal, cite_url }) => (
+    <li class={`claim ${c.evidence_label === 'editorial' ? 'editorial' : ''}`}>
+      {(c as any).plain ? (
+        <>
+          {p.design && (
+            <div class="meta">
+              {p.design && <span class="k">{p.design}</span>}
+              {p.species && <span>{p.species}</span>}
+              {p.n && <span>n = <span class="k">{p.n}</span></span>}
+              {p.year && <span>{p.year}</span>}
+              <Tier tier={c.evidence_label} />
+            </div>
+          )}
+          <p class="plain-claim" set:html={cite.sentence((c as any).plain, c.source_ids)} />
+          {!p.design && <div class="src"><Tier tier={c.evidence_label} /></div>}
+        </>
+      ) : p.quote ? (
+        <>
+          <div class="meta">
+            {p.design && <span class="k">{p.design}</span>}
+            {p.species && <span>{p.species}</span>}
+            {p.n && <span>n = <span class="k">{p.n}</span></span>}
+            {p.year && <span>{p.year}</span>}
+            <Tier tier={c.evidence_label} />
+          </div>
+          {p.extra && <div class="extra">{extraLabel && <>{extraLabel.charAt(0).toUpperCase() + extraLabel.slice(1)}: </>}<span class="k">{extraVal}</span></div>}
+          <q cite={cite_url} set:html={quoteHtml} />
+          <div class="src">Source <Fragment set:html={cite.marks(c.source_ids)} /> · quoted from the abstract{marked ? ', emphasis added' : ''}</div>
+        </>
+      ) : (
+        <>
+          <div class="meta" style="align-items:flex-start"><span class="plain" set:html={cite.sentence(p.text, c.source_ids)} /><Tier tier={c.evidence_label} /></div>
+          {c.source_ids.length === 0 && <div class="src">{c.evidence_label === 'editorial' ? <>Editorial synthesis from general knowledge{(c as any).pending_source ? ' · primary document to be added to the ledger' : ''}</> : 'Registry entry'}</div>}
+        </>
+      )}
+    </li>
+  ))}
+</ul>)}
+{rows.length > visible && (<details class="more-rows"><summary>{visible > 0 ? 'Show the remaining' : 'See the'} <b>{rows.length - visible}</b> {rows.length - visible === 1 ? 'finding' : 'findings'}{visible > 0 ? '' : ' behind this'}</summary>
 <ul class="claims">
-  {rows.map(({ c, p, quoteHtml, marked, extraLabel, extraVal, cite_url }) => (
+  {rows.slice(visible).map(({ c, p, quoteHtml, marked, extraLabel, extraVal, cite_url }) => (
     <li class={`claim ${c.evidence_label === 'editorial' ? 'editorial' : ''}`}>
       {(c as any).plain ? (
         <>
@@ -57,3 +98,4 @@ const rows = claims.map((c) => {
     </li>
   ))}
 </ul>
+</details>)}

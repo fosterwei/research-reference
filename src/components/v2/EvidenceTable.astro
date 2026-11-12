@@ -2,8 +2,11 @@
 import Tier from './Tier.astro';
 import { citer } from '../../lib/cite';
 interface Row { evidence_label: string; source_ids: string[]; plain?: string; fields?: Record<string, any> }
-interface Props { rows: Row[]; sources?: Array<{ id: string }> }
-const { rows, sources = [] } = Astro.props;
+/** `visible`: rows shown at once; the rest open on demand with the same columns. Default is all. */
+interface Props { rows: Row[]; sources?: Array<{ id: string }>; visible?: number }
+const { rows, sources = [], visible = Infinity } = Astro.props;
+const head = rows.slice(0, visible), tail = rows.slice(visible);
+const HEAD = '<tr><th scope="col">Study</th><th scope="col">Design</th><th scope="col" class="num">n</th><th scope="col">Species</th><th scope="col">Dose</th><th scope="col">Route</th><th scope="col">Duration</th><th scope="col">What it found</th><th scope="col">Tier</th></tr>';
 const cite = citer(sources);
 const dash = (v: any) => (!v || String(v).startsWith('not stated') || v === 'not indexed' ? '—' : v);
 ---
@@ -11,19 +14,39 @@ const dash = (v: any) => (!v || String(v).startsWith('not stated') || v === 'not
   <div class="tblwrap">
     <table class="tbl">
       <caption><b>{rows.length}</b> primary studies in this record's ledger, strongest evidence first. A dash means the abstract did not state the value.</caption>
-      <thead><tr><th scope="col">Study</th><th scope="col">Design</th><th scope="col" class="num">n</th><th scope="col">Species</th><th scope="col">Dose</th><th scope="col">Route</th><th scope="col">Duration</th><th scope="col">What it found</th><th scope="col">Tier</th></tr></thead>
+      <thead set:html={HEAD} />
       <tbody>
-        {rows.map((r) => { const f = r.fields ?? {}; return (
+        {head.map((r) => { const f = r.fields ?? {}; return (
           <tr>
             <th scope="row" class="study"><a href={`#${r.source_ids[0]}`}>{f.study || r.source_ids[0]}</a></th>
-            <td>{f.design}</td>
-            <td class="num">{f.n ? Number(f.n).toLocaleString('en-US') : '—'}</td>
-            <td>{dash(f.species)}</td><td>{dash(f.dose)}</td><td>{dash(f.route)}</td><td>{dash(f.duration)}</td>
-            <td class="out">{r.plain ? <Fragment set:html={cite.sentence(r.plain, r.source_ids)} /> : (f.outcome === 'see source' ? '—' : f.outcome)}</td>
-            <td><Tier tier={r.evidence_label} /></td>
+            <td data-label="Design">{f.design}</td>
+            <td class="num" data-label="n">{f.n ? Number(f.n).toLocaleString('en-US') : '—'}</td>
+            <td data-label="Species">{dash(f.species)}</td><td data-label="Dose">{dash(f.dose)}</td><td data-label="Route">{dash(f.route)}</td><td data-label="Duration">{dash(f.duration)}</td>
+            <td class="out" data-label="What it found">{r.plain ? <Fragment set:html={cite.sentence(r.plain, r.source_ids)} /> : (f.outcome === 'see source' ? '—' : f.outcome)}</td>
+            <td data-label="Tier"><Tier tier={r.evidence_label} /></td>
           </tr>
         ); })}
       </tbody>
     </table>
   </div>
+  {tail.length > 0 && (
+    <details class="more-rows">
+      <summary>Show the remaining <b>{tail.length}</b> {tail.length === 1 ? 'study' : 'studies'}</summary>
+      <div class="tblwrap"><table class="tbl">
+        <thead set:html={HEAD} />
+        <tbody>
+          {tail.map((r) => { const f = r.fields ?? {}; return (
+            <tr>
+              <th scope="row" class="study"><a href={`#${r.source_ids[0]}`}>{f.study || r.source_ids[0]}</a></th>
+              <td data-label="Design">{f.design}</td>
+              <td class="num" data-label="n">{f.n ? Number(f.n).toLocaleString('en-US') : '—'}</td>
+              <td data-label="Species">{dash(f.species)}</td><td data-label="Dose">{dash(f.dose)}</td><td data-label="Route">{dash(f.route)}</td><td data-label="Duration">{dash(f.duration)}</td>
+              <td class="out" data-label="What it found">{r.plain ? <Fragment set:html={cite.sentence(r.plain, r.source_ids)} /> : (f.outcome === 'see source' ? '—' : f.outcome)}</td>
+              <td data-label="Tier"><Tier tier={r.evidence_label} /></td>
+            </tr>
+          ); })}
+        </tbody>
+      </table></div>
+    </details>
+  )}
 </div>

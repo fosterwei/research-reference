@@ -16,10 +16,10 @@ const rows = [self, ...peers];
         {rows.map((e) => { const p = e.data.evidence_summary?.publications ?? {}; return (
           <tr>
             <th scope="row" class="study">{e.id === self.id ? e.data.preferred_name : <a href={`/compounds/${e.data.slug}`}>{e.data.preferred_name}</a>}</th>
-            <td><Tier tier={e.data.evidence_tier} /></td>
-            <td class="num">{formatCount(p.total)}</td>
-            <td class="num">{formatCount(p.randomized_controlled_trials)}</td>
-            <td>{e.data.review?.reviewer ? e.data.review.reviewed_at : <span class="muted">not yet</span>}</td>
+            <td data-label="Tier"><Tier tier={e.data.evidence_tier} /></td>
+            <td class="num" data-label="Publications">{formatCount(p.total)}</td>
+            <td class="num" data-label="RCTs">{formatCount(p.randomized_controlled_trials)}</td>
+            <td data-label="Reviewed">{e.data.review?.reviewer ? e.data.review.reviewed_at : <span class="muted">not yet</span>}</td>
           </tr>
         ); })}
       </tbody>

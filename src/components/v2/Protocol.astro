@@ -39,7 +39,7 @@ const signed = Boolean(review?.protocol_reviewed_at);
       <p class="lede">What the regulator-approved label states. The only dosing on this page that is approved for an indication, and only for that indication and population.</p>
       <div class="card clip"><div class="tblwrap"><table class="tbl">
         <thead><tr>{cols.map((c) => <th scope="col">{head[c]}</th>)}<th scope="col">Source</th></tr></thead>
-        <tbody>{label.map((c) => <tr>{cols.map((k) => <td>{c.fields?.[k] ?? ''}</td>)}<td><Fragment set:html={cite.marks(c.source_ids ?? [])} />{c.pending_source && <span class="sub"> document pending</span>}</td></tr>)}</tbody>
+        <tbody>{label.map((c) => <tr>{cols.map((k) => <td data-label={head[k]}>{c.fields?.[k] ?? ''}</td>)}<td data-label="Source"><Fragment set:html={cite.marks(c.source_ids ?? [])} />{c.pending_source && <span class="sub"> document pending</span>}</td></tr>)}</tbody>
       </table></div></div>
     </div>
   )}
@@ -49,7 +49,7 @@ const signed = Boolean(review?.protocol_reviewed_at);
       <p class="lede">One row per trial arm or phase, as the paper states it. These are what was given, to whom, for how long. They are the basis for the practical protocol below and the place to check it against.</p>
       <div class="card clip"><div class="tblwrap"><table class="tbl">
         <thead><tr>{cols.map((c) => <th scope="col">{head[c]}</th>)}<th scope="col">Evidence</th><th scope="col">Source</th></tr></thead>
-        <tbody>{studied.map((c) => <tr>{cols.map((k) => <td>{c.fields?.[k] ?? ''}</td>)}<td><Tier tier={c.evidence_label} /></td><td><Fragment set:html={cite.marks(c.source_ids ?? [])} /></td></tr>)}</tbody>
+        <tbody>{studied.map((c) => <tr>{cols.map((k) => <td data-label={head[k]}>{c.fields?.[k] ?? ''}</td>)}<td data-label="Evidence"><Tier tier={c.evidence_label} /></td><td data-label="Source"><Fragment set:html={cite.marks(c.source_ids ?? [])} /></td></tr>)}</tbody>
       </table></div></div>
     </div>
   )}
@@ -65,7 +65,7 @@ const signed = Boolean(review?.protocol_reviewed_at);
       <div class="card clip"><div class="tblwrap"><table class="tbl schedule">
         <caption>{name} dosing schedule, week by week. Each row is a numbered step below, with its reason.</caption>
         <thead><tr><th scope="col">Weeks</th><th scope="col">Dose</th><th scope="col">What to do</th><th scope="col">Basis</th></tr></thead>
-        <tbody>{practical.map((c) => <tr><th scope="row">{whenLabel(c.fields?.weeks)}</th><td class="num">{c.fields?.dose ?? '—'}</td><td>{c.fields?.action}</td><td><Fragment set:html={cite.marks(c.source_ids ?? [])} /></td></tr>)}</tbody>
+        <tbody>{practical.map((c) => <tr><th scope="row">{whenLabel(c.fields?.weeks)}</th><td class="num" data-label="Dose">{c.fields?.dose ?? '—'}</td><td data-label="What to do">{c.fields?.action}</td><td data-label="Basis"><Fragment set:html={cite.marks(c.source_ids ?? [])} /></td></tr>)}</tbody>
       </table></div></div>
       <ol class="list steps">
         {practical.map((c) => (

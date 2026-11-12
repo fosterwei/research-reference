@@ -1,0 +1,50 @@
+---
+// The ledger made visible: one dot per primary study, grouped by what was
+// studied, coloured by evidence tier. Reads in a glance what the evidence
+// table says in twenty rows; the table beneath it is the full view. Tier
+// colours are the site's semantic tokens and are never shown without their
+// label (docs/design.md §3), so the legend and the row labels carry identity
+// and colour is the second channel. Plain HTML, no script; each dot's title
+// is its study and design.
+import { formatCount } from '../../lib/site';
+interface Row { evidence_label: string; source_ids: string[]; fields?: Record<string, any> }
+interface Props { rows: Row[]; pubs: Record<string, number | undefined>; name: string }
+const { rows, pubs, name } = Astro.props;
+const TIER: Record<string, string> = { 'approved-label': 'Approved label', 'human-clinical-trial': 'Human clinical trial', 'observational-human': 'Observational, human', 'animal-preclinical': 'Animal, preclinical', 'mechanistic-in-vitro': 'Mechanistic, in vitro', 'community-reported': 'Community-reported', editorial: 'Editorial' };
+const ORDER = Object.keys(TIER);
+const groupOf = (r: Row) => {
+  const s = String(r.fields?.species ?? '');
+  if (/human/i.test(s)) return 'People';
+  if (/cell|vitro|none/i.test(s)) return 'Cells or cell-free';
+  if (!s || s === 'not indexed') return 'Species not indexed';
+  return s.replace(/\s*\(.*?\)/g, '');
+};
+const groups = new Map<string, Row[]>();
+for (const r of rows) groups.set(groupOf(r), [...(groups.get(groupOf(r)) ?? []), r]);
+// People first, then by size.
+const ordered = [...groups.entries()].sort((a, b) => (a[0] === 'People' ? -1 : b[0] === 'People' ? 1 : b[1].length - a[1].length));
+const tiersPresent = ORDER.filter((t) => rows.some((r) => r.evidence_label === t));
+const humans = rows.filter((r) => /human/i.test(String(r.fields?.species ?? ''))).length;
+const rcts = pubs.randomized_controlled_trials ?? 0;
+const label = (r: Row) => `${r.fields?.study || r.source_ids[0]}: ${r.fields?.design || 'design not stated'}${r.fields?.n ? `, n = ${r.fields.n}` : ''}, ${TIER[r.evidence_label] ?? r.evidence_label}`;
+---
+<figure class="evmix" aria-describedby="evmix-note">
+  <figcaption><b>{rows.length}</b> primary studies of {name} in this record, one dot each</figcaption>
+  <div class="rows">
+    {ordered.map(([g, rs]) => (
+      <div class="row">
+        <span class="g">{g}</span>
+        <span class="dots" role="img" aria-label={`${rs.length} ${g.toLowerCase()} ${rs.length === 1 ? 'study' : 'studies'}`}>
+          {rs.map((r) => <i class="dot" data-tier={r.evidence_label} title={label(r)}></i>)}
+        </span>
+        <span class="n">{rs.length}</span>
+      </div>
+    ))}
+  </div>
+  <div class="legend">
+    {tiersPresent.map((t) => <span class="tier" data-tier={t}><i></i>{TIER[t]}</span>)}
+  </div>
+  <p id="evmix-note" class="note">
+    {humans === 0 ? 'No human study' : humans === 1 ? 'One human study' : `${humans} human studies`} in the ledger; <b>{formatCount(rcts)}</b> randomized {rcts === 1 ? 'trial' : 'trials'}; <b>{formatCount(pubs.total)}</b> indexed publications in all. The full table is under <a href="#evidence">what the studies found</a>.
+  </p>
+</figure>
