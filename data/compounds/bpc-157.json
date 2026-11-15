@@ -305,7 +305,7 @@
     ],
     "study_durations": [
       {
-        "value": "Human study, humans, n=2, 2025: durations stated: 58 year; 68 year. Two patients participated: a 58-year-old Asian male and a 68-year-old Caucasian female, each of whom had received intravenous BPC-157 before this trial.",
+        "value": "Human study, humans, n=2, 2025: durations stated: not stated. Two patients participated: a 58-year-old Asian male and a 68-year-old Caucasian female, each of whom had received intravenous BPC-157 before this trial.",
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-40131143"
@@ -458,7 +458,7 @@
           "species": "Humans",
           "dose": "20 mg",
           "route": "intravenous",
-          "duration": "58 year; 68 year",
+          "duration": "not stated",
           "outcome": "see source"
         },
         "plain": "Background: a 2025 pilot study (Lee) of 2 adults notes that BPC-157 has been used for years to treat partial muscle or tendon tears; this is not a trial result."
@@ -1439,6 +1439,10 @@
     {
       "date": "2026-11-12",
       "change": "Page layout adopted after the BPC-157 trial: written sections with lead-in points render as labelled cards; dose, route and duration sections open with a one-line cited digest and fold their rows; evidence figure beside the glance panel; FAQ as a question list; method notes and older changes open on demand."
+    },
+    {
+      "date": "2026-11-15",
+      "change": "Corrected the 2025 infusion pilot's duration: the abstract states the two participants' ages (58 and 68), not a treatment length, so the durations row and the evidence table now say not stated."
     }
   ],
   "guide": [
