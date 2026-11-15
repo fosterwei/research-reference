@@ -69,10 +69,10 @@ const inComparisons = comparisonsWith(d.slug);
 const pubs = d.evidence_summary?.publications ?? {};
 const noEvidence = (pubs.total ?? 0) === 0;
 const hasAnyEvidence = has('evidence_table');
-const humanRows = (A.evidence_table ?? []).filter((r) => r.fields?.species === 'Humans' && !/method|in vitro|measured, not given/i.test(r.fields?.design ?? ''));
-// Headline counts come from the record's full evidence table, as the glance tiles do.
-const fullRows = ((d.attributes as any)?.evidence_table ?? []) as any[];
+// The evidence table is the record's full ledger (every primary study, as the glance tiles count them).
+const fullRows = (A.evidence_table ?? []) as any[];
 const fullHuman = fullRows.filter((r) => r.fields?.species === 'Humans' && !/method|in vitro|measured, not given/i.test(r.fields?.design ?? ''));
+const humanRows = fullHuman;
 // Up to twelve human rows read as a list; beyond that the evidence table carries them.
 const showHumanTrials = humanRows.length >= 1 && humanRows.length <= 12;
 const path = `/compounds/${d.slug}`;
@@ -243,12 +243,15 @@ const nextQuestions = (intent?.queries ?? [])
 // protocol claims (src/lib/protocol.ts); skipped where the intent map or the
 // record already asks the same question.
 const citeIds = (ids: string[]) => cite.marks(ids);
-const baseFaq = [...intentFaq, ...d.faq.map((f) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))];
-const askedAlready = new Set(baseFaq.map((f) => f.question.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()));
+// A question the intent map already asks is not asked again from the record; the first occurrence stays.
+const normQ = (q: string) => q.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+const baseFaq = [...intentFaq, ...d.faq.map((f) => ({ question: f.question, answer: rich(f.answer, { bold: 2, seen }) }))]
+  .filter((f, i, arr) => arr.findIndex((x) => normQ(x.question) === normQ(f.question)) === i);
+const askedAlready = new Set(baseFaq.map((f) => normQ(f.question)));
 // The first three quick-start facts, repeated under "At a glance" so a reader
 // searching for the dose sees it without scrolling to the dosing guide.
 const dosingGlance = protocolHere ? quickStart(protocolClaims).slice(0, 3) : [];
-const dosingFaq = protocolHere ? protocolFaq(d.preferred_name, protocolClaims, citeIds).filter((f) => !askedAlready.has(f.question.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim())) : [];
+const dosingFaq = protocolHere ? protocolFaq(d.preferred_name, protocolClaims, citeIds).filter((f) => !askedAlready.has(normQ(f.question))) : [];
 const faqItems = [...dosingFaq, ...baseFaq];
 if (faqItems.length > 0) blocks.push({ id: 'faq', kind: 'faq', label: 'Questions people ask', group: 'Context' });
 const faqSchema = faqItems.length > 0 ? [{

@@ -24,7 +24,11 @@ export const plainOf = (c: { plain?: string; value: string }) => (c.plain ?? c.v
 
 /** A claim whose plain version begins "Background:" reports nothing about the
  * compound itself (an off-topic paper, or an aim with no result). It stays in
- * the record for the reviewer and is not shown as evidence. */
+ * the record for the reviewer and is not shown as evidence. The evidence table
+ * is exempt: its rows are studies, not claims, and a study whose extracted
+ * sentence is background is still a primary study in the ledger (the glance
+ * tiles, the figure and the human-studies section count it), so the table
+ * keeps the row and its plain line says what the sentence is. */
 export const isFinding = (c: any) => !(typeof c?.plain === 'string' && /^Background\b/.test(c.plain));
 export const findingsOnly = (attrs: Record<string, any>) =>
-  Object.fromEntries(Object.entries(attrs ?? {}).map(([k, v]) => [k, Array.isArray(v) && k !== 'protocol' ? v.filter(isFinding) : v]));
+  Object.fromEntries(Object.entries(attrs ?? {}).map(([k, v]) => [k, Array.isArray(v) && k !== 'protocol' && k !== 'evidence_table' ? v.filter(isFinding) : v]));
