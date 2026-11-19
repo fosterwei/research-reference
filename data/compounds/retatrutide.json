@@ -343,7 +343,7 @@
         "plain": "In this 2026 analysis, participants with obesity with type 2 diabetes were treated for 36 weeks and those without diabetes for 48 weeks."
       },
       {
-        "value": "Clinical trial, humans, n=40, 2025: durations stated: 51 years; 8 weeks. Participants (N = 40; mean age 51 years; 52.5 % male) received retatrutide 4/8/12 mg (n = 23), retatrutide 1 mg (n = 13), or placebo (n = 4).",
+        "value": "Clinical trial, humans, n=40, 2025: durations stated: 8 weeks. Participants (N = 40; mean age 51 years; 52.5 % male) received retatrutide 4/8/12 mg (n = 23), retatrutide 1 mg (n = 13), or placebo (n = 4).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-41216380"
@@ -492,7 +492,7 @@
           "species": "Humans",
           "dose": "1 mg",
           "route": "not stated in abstract",
-          "duration": "51 years; 8 weeks",
+          "duration": "8 weeks",
           "outcome": "Some retatrutide-treated participants reported reduced participation in social activities due to adverse events (n = 2) or new eating habits (n = 2) and frustration due to disappointing weight loss (n = 3)."
         },
         "plain": "In a 2025 interview study of 40 phase 2 trial participants (Goetz), some on retatrutide reported fewer social activities because of side effects (2) or new eating habits (2), and 3 reported frustration over weight loss."
@@ -681,7 +681,7 @@
           "species": "Humans",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
-          "duration": "70 years; 3 months",
+          "duration": "3 months",
           "outcome": "At week 12, placebo-adjusted mean daily plasma glucose significantly decreased from baseline at the three highest dose LY3437943 groups (least-squares mean difference -2·8 mmol/L [90% CI -4·63 to -0·94] for 3 mg; -3·1 mmol/L [-4·91 to -1·22] for 3/6 mg; and -2·9 mmol/L [-4·70 to -1·01] for 3/6/9/12 mg)."
         },
         "plain": "In a 2022 phase 1b trial in people with type 2 diabetes (Urva), at week 12 average daily blood sugar fell versus placebo in the three highest LY3437943 (retatrutide) dose groups, by -2·8 to -3·1 mmol/L."
@@ -1540,6 +1540,10 @@
     {
       "date": "2026-11-12",
       "change": "Page layout adopted after the BPC-157 trial: written sections with lead-in points render as labelled cards; dose, route and duration sections open with a one-line cited digest and fold their rows; evidence figure beside the glance panel; FAQ as a question list; method notes and older changes open on demand."
+    },
+    {
+      "date": "2026-11-19",
+      "change": "Corrected extracted study durations that included participant ages."
     }
   ],
   "guide": [

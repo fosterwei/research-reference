@@ -563,7 +563,7 @@
           "species": "Humans",
           "dose": "not stated in abstract",
           "route": "subcutaneous",
-          "duration": "85 years",
+          "duration": "not stated in abstract",
           "outcome": "No secondary or safety outcome differed statistically significantly between the two groups."
         },
         "plain": "In the 2025 TESTS phase 3 placebo-controlled trial in sepsis (Wu), no secondary or safety outcome differed significantly between thymosin alpha-1 and placebo."
@@ -1242,6 +1242,10 @@
     {
       "date": "2026-11-12",
       "change": "Page layout adopted after the BPC-157 trial: written sections with lead-in points render as labelled cards; dose, route and duration sections open with a one-line cited digest and fold their rows; evidence figure beside the glance panel; FAQ as a question list; method notes and older changes open on demand."
+    },
+    {
+      "date": "2026-11-19",
+      "change": "Corrected extracted study durations that included participant ages."
     }
   ],
   "guide": [

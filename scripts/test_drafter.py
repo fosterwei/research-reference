@@ -82,6 +82,19 @@ class SampleSize(unittest.TestCase):
         self.assertEqual(dc.sample_size(text), 33)
 
 
+class StudyDuration(unittest.TestCase):
+    def test_age_threshold_and_range_are_not_durations(self):
+        self.assertEqual(dc.study_durations("Adults aged 18 years or older received treatment for 40 weeks."), ["40 weeks"])
+        self.assertEqual(dc.study_durations("Adults aged 18–75 years were treated for 16 weeks."), ["16 weeks"])
+
+    def test_mean_age_does_not_replace_the_study_period(self):
+        self.assertEqual(dc.study_durations("Participants (mean age 51 years) received treatment for 8 weeks."), ["8 weeks"])
+        self.assertEqual(dc.study_durations("Participants with a mean age of 9.0 +/- 2.3 years received treatment for 24 months."), ["24 months"])
+
+    def test_explicit_years_of_followup_are_retained(self):
+        self.assertEqual(dc.study_durations("The 12-year-old participants were followed for 3 years."), ["3 years"])
+
+
 class Designs(unittest.TestCase):
     def test_network_meta_analysis_is_not_a_trial(self):
         p = paper("42688617")

@@ -66,7 +66,17 @@ DOSE = re.compile(
     re.IGNORECASE,
 )
 PER_KG = re.compile(r"(?:mg|mcg|µg|μg|ng|IU|units?)\s?/\s?kg", re.IGNORECASE)
-DURATION = re.compile(r"\b(\d{1,3})\s?(?:-|–)?\s?(days?|weeks?|months?|years?|wk|mo)\b", re.IGNORECASE)
+DURATION = re.compile(r"(?<![.·])\b(\d{1,3})\s?(?:-|–)?\s?(days?|weeks?|months?|years?|wk|mo)\b", re.IGNORECASE)
+AGE_NUMBER = r"\d+(?:[.·]\d+)?"
+AGE_RANGE = rf"{AGE_NUMBER}(?:\s*(?:[-–—±]|to|\+/-)\s*{AGE_NUMBER})?"
+AGE_UNIT = r"(?:years?|months?|weeks?|days?)"
+AGE = re.compile(
+    rf"\b(?:aged?|ages)\s*(?:(?:of|was)\s+|[:=]\s*)?[<>≤≥]?\s*{AGE_RANGE}\s+{AGE_UNIT}\b"
+    rf"|\b{AGE_RANGE}\s*[-–]?\s*{AGE_UNIT}\s*(?:of age\b|[-–]?\s*old\b)"
+    rf"|\b(?:adults|children|adolescents|infants)\s+(?:under|over|younger than|older than)\s+{AGE_RANGE}\s+{AGE_UNIT}\b",
+    re.IGNORECASE,
+)
+DURATION_CONTEXT = re.compile(r"treat|administ|therap|receiv|dosing|study period|follow", re.IGNORECASE)
 ROUTES = {
     "subcutaneous": r"subcutaneous(?:ly)?|s\.c\.|\bSC\b", "intravenous": r"intravenous(?:ly)?|i\.v\.|\bIV\b",
     "intraperitoneal": r"intraperitoneal(?:ly)?|i\.p\.|\bIP\b", "intragastric": r"intragastric(?:ally)?",
@@ -157,6 +167,13 @@ def sentences(text: str) -> list[str]:
         if len(s) >= 25 and not s.endswith("…"):
             out.append(s)
     return out
+
+
+def study_durations(sentence: str) -> list[str]:
+    if not DURATION_CONTEXT.search(sentence):
+        return []
+    # Age and treatment length are often stated in the same methods sentence.
+    return [f"{m.group(1)} {m.group(2).lower()}" for m in DURATION.finditer(AGE.sub(" ", sentence))]
 
 
 STOP = re.compile(r";|\s(?:plus|and|or|versus|vs\.?|with|compared|than)\s|/(?![a-z])", re.I)
@@ -357,13 +374,7 @@ def analyse(paper: dict, names: list[str], other_names: list[str] | None = None,
             if d not in doses:
                 doses.append(d)
     perkg = [d for d in doses if PER_KG.search(d)]
-    durations = []
-    for s in sents:
-        if re.search(r"treat|administ|therap|receiv|dosing|study period|follow", s, re.I):
-            for m in DURATION.finditer(s):
-                d = f"{m.group(1)} {m.group(2).lower()}"
-                if d not in durations:
-                    durations.append(d)
+    durations = list(dict.fromkeys(d for s in sents for d in study_durations(s)))
     # Outcome: prefer results-half sentences that name the compound, then results-half, then any.
     half = len(sents) // 2
     # Outcome: a results-half sentence that names the compound, else any naming
@@ -426,7 +437,7 @@ def draft_sections(papers: list[dict], names: list[str], other_names: list[str] 
             s = next((s for s in a["sents"] if any(PER_KG.search(d) for d in doses_near(s, names))), a["named"][0])
             out["weight_normalized_doses"].append(claim(a, a["pre"] + "weight-normalized doses as published: " + "; ".join(a["perkg"][:4]) + ". " + s, s))
         if a["durations"] and len(out["study_durations"]) < MAX_PER_SECTION:
-            s = next((s for s in a["sents"] if DURATION.search(s) and re.search(r"treat|administ|therap|receiv|dosing|study period|follow", s, re.I)), a["sents"][0])
+            s = next(s for s in a["sents"] if study_durations(s))
             out["study_durations"].append(claim(a, a["pre"] + "durations stated: " + "; ".join(a["durations"][:3]) + ". " + s, s))
         for field, rx in PATTERNS.items():
             if len(out[field]) >= MAX_PER_SECTION:

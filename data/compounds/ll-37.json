@@ -629,7 +629,7 @@
           "species": "Humans",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
-          "duration": "60 years; 90 days",
+          "duration": "90 days",
           "outcome": "The increased ASL antimicrobial activity seen during the summer-fall was abrogated by adding the LL-37 neutralizing antibody."
         },
         "plain": "In a 2020 analysis of airway fluid from 20 people (Vargas), higher germ-killing activity in summer and fall disappeared when an antibody blocking LL-37 was added in the lab. LL-37 was not given as treatment."
@@ -1319,6 +1319,10 @@
     {
       "date": "2026-11-12",
       "change": "Page layout adopted after the BPC-157 trial: written sections with lead-in points render as labelled cards; dose, route and duration sections open with a one-line cited digest and fold their rows; evidence figure beside the glance panel; FAQ as a question list; method notes and older changes open on demand."
+    },
+    {
+      "date": "2026-11-19",
+      "change": "Corrected extracted study durations that included participant ages."
     }
   ],
   "guide": [

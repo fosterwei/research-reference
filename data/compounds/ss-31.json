@@ -657,16 +657,6 @@
         "plain": "MMPOWER-3 treated 218 adults with primary mitochondrial myopathy with elamipretide or placebo for 24 weeks."
       },
       {
-        "value": "Clinical trial, humans, 2023: durations stated: 12 years. In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in younger patients is limited and to our knowledge, these are the first case reports on the safety and efficacy of elamipretide treatment in children under 12 years of age.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-36636586"
-        ],
-        "source_excerpt": "In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in younger patients is limited and to our knowledge, these are the first case reports on the safety and efficacy of elamipretide treatment in children under 12 years of age.",
-        "drafting": "extractive",
-        "plain": "A case series of children under 12 years of age treated through compassionate use noted that experience with elamipretide in younger patients is limited."
-      },
-      {
         "value": "Randomized controlled trial, humans, n=12, 2021: durations stated: 12 weeks; 4 week. In part 1, 12 subjects were randomized to 40 mg per day of elamipretide or placebo for 12 weeks, followed by a 4-week washout and then 12 weeks on the opposite arm.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
@@ -851,7 +841,7 @@
           "species": "Humans",
           "dose": "not stated in abstract",
           "route": "not stated in abstract",
-          "duration": "12 years",
+          "duration": "not stated in abstract",
           "outcome": "In clinical trials, elamipretide produced clinical and functional improvements in adults and adolescents with mitochondrial disorders, such as primary mitochondrial myopathy and Barth syndrome; however, experience in younger patients is limited and to our knowledge, these are the first case reports on the safety and efficacy of elamipretide treatment in children under 12 years of age."
         },
         "plain": "A 2023 case series in children (Koenig) noted that earlier trials reported benefits of elamipretide in adults and adolescents with mitochondrial disorders, and described these as the first reports in children under 12 years of age."
@@ -1691,6 +1681,10 @@
     {
       "date": "2026-11-12",
       "change": "Page layout adopted after the BPC-157 trial: written sections with lead-in points render as labelled cards; dose, route and duration sections open with a one-line cited digest and fold their rows; evidence figure beside the glance panel; FAQ as a question list; method notes and older changes open on demand."
+    },
+    {
+      "date": "2026-11-19",
+      "change": "Corrected extracted study durations that included participant ages."
     }
   ],
   "guide": [
