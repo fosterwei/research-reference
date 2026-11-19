@@ -542,7 +542,7 @@
           "species": "Humans",
           "dose": "not stated in abstract",
           "route": "intravenous",
-          "duration": "39 years",
+          "duration": "not stated in abstract",
           "outcome": "A significant reduction of ACTH-like immunoreactivity (ACTH-LI) in plasma was detected for at least 3 hr after the DSIP injection, compared to the control subjects, in whom a slightly elevated concentration of ACTH-LI occurred."
         }
       },
@@ -1367,6 +1367,10 @@
     {
       "date": "2026-11-12",
       "change": "Page layout adopted after the BPC-157 trial: written sections with lead-in points render as labelled cards; dose, route and duration sections open with a one-line cited digest and fold their rows; evidence figure beside the glance panel; FAQ as a question list; method notes and older changes open on demand."
+    },
+    {
+      "date": "2026-11-19",
+      "change": "Corrected extracted study durations that included participant ages."
     }
   ],
   "guide": [

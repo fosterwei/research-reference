@@ -34,14 +34,12 @@ export function quickStart(claims: PClaim[]): Fact[] {
     const first = practical[0];
     out.push({ k: 'Starting dose', v: first.fields?.action ?? first.value, s: whenLabel(first.fields?.weeks) });
     const path = uniq(practical.map((c) => c.fields?.dose));
-    out.push(path.length > 1
-      ? { k: 'Titration', v: path.join(' → '), s: `${practical.length} steps` }
-      : { k: 'Titration', v: 'None: one fixed dose', s: 'the trials did not step the dose' });
+    if (path.length > 1) out.push({ k: 'Titration', v: path.join(' → '), s: `${practical.length} steps` });
     const last = practical[practical.length - 1];
     out.push({ k: 'Then', v: last.fields?.action ?? last.value, s: whenLabel(last.fields?.weeks) });
   } else {
-    out.push({ k: 'Doses studied in humans', v: uniq(studied.map((c) => c.fields?.dose)).slice(0, 4).join('; ') || 'not stated', s: `${studied.length} regimen${studied.length === 1 ? '' : 's'}` });
-    out.push({ k: 'Practical protocol', v: 'Not written', s: 'no human study ran a repeated regimen a reader could follow' });
+    const maintenanceOnly = studied.length > 0 && studied.every((c) => c.fields?.phase === 'maintenance');
+    out.push({ k: maintenanceOnly ? 'Trial target doses' : 'Doses studied in humans', v: uniq(studied.map((c) => c.fields?.dose)).slice(0, 4).join('; ') || 'not stated', s: `${studied.length} regimen${studied.length === 1 ? '' : 's'}` });
   }
   const freq = uniq([...practical, ...label, ...studied].map((c) => c.fields?.frequency));
   if (freq.length) out.push({ k: 'Frequency', v: freq[0], s: freq.length > 1 ? `also studied: ${freq.slice(1, 3).join('; ')}` : undefined });

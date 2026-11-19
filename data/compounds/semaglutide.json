@@ -464,7 +464,7 @@
         "plain": "The depression trial raised oral semaglutide from 4 mg to 14 mg over a 4-week dose-escalation schedule."
       },
       {
-        "value": "Randomized controlled trial, humans, n=603, 2026: durations stated: 18 years; 68 weeks. Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]), semaglutide 2·4 mg, cagrilintide 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]), semaglutide 1·0 mg, or corresponding placebo for 68 weeks.",
+        "value": "Randomized controlled trial, humans, n=603, 2026: durations stated: 68 weeks. Participants aged 18 years or older with inadequately controlled type 2 diabetes (HbA 1c 7·0-10·5% [53-91 mmol/mol]) receiving metformin with or without an SGLT2 inhibitor, and a BMI of 25 kg/m 2 or more, were randomly assigned (8:8:2:8:8:1:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (hereafter cagrilintide-semaglutide [2·4 mg each]), semaglutide 2·4 mg, cagrilintide 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (hereafter cagrilintide-semaglutide [1·0 mg each]), semaglutide 1·0 mg, or corresponding placebo for 68 weeks.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42251859"
@@ -474,7 +474,7 @@
         "plain": "The REIMAGINE 2 trial treated adults aged 18 or older with type 2 diabetes for 68 weeks."
       },
       {
-        "value": "Randomized controlled trial, humans, n=314, 2026: durations stated: 65 years; 24 weeks. Adults aged 18-65 years with T2DM and baseline glycated haemoglobin (HbA1c) ≥ 7.0% to ≤ 10.5% despite stable metformin therapy and diet & exercise control were randomised (1:1) to receive subcutaneous injections of Test semaglutide or Reference semaglutide once weekly for 24 weeks, using an identical dose-escalation regimen (from 0.25 to 2.0 mg per week).",
+        "value": "Randomized controlled trial, humans, n=314, 2026: durations stated: 24 weeks. Adults aged 18-65 years with T2DM and baseline glycated haemoglobin (HbA1c) ≥ 7.0% to ≤ 10.5% despite stable metformin therapy and diet & exercise control were randomised (1:1) to receive subcutaneous injections of Test semaglutide or Reference semaglutide once weekly for 24 weeks, using an identical dose-escalation regimen (from 0.25 to 2.0 mg per week).",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42219226"
@@ -656,7 +656,7 @@
           "species": "Humans",
           "dose": "2·4 mg; 1·0 mg",
           "route": "subcutaneous",
-          "duration": "18 years; 68 weeks",
+          "duration": "68 weeks",
           "outcome": "For the primary endpoint using the efficacy estimand, mean HbA 1c change was significantly greater with cagrilintide-semaglutide (2·4 mg each) versus semaglutide 2·4 mg (-1·91 percentage points [SE 0·04] vs -1·75 percentage points [0·04]; estimated treatment difference -0·16 percentage points [95% CI -0·27 to -0·05]; p=0·0035)."
         },
         "plain": "In the 2026 phase 3 REIMAGINE 2 trial (Buse), HbA1c (a three-month average of blood sugar) fell 1.91 points on CagriSema (cagrilintide with semaglutide) vs 1.75 on semaglutide 2.4 mg alone."
@@ -719,7 +719,7 @@
           "species": "Humans",
           "dose": "not stated in abstract",
           "route": "subcutaneous",
-          "duration": "65 years; 24 weeks",
+          "duration": "24 weeks",
           "outcome": "At Week 24, both treatments produced significant and comparable reductions in HbA1c (Test: -2.04%, Reference: -1.95%; p Conclusions The Test synthetic semaglutide injection demonstrated non-inferior glycaemic efficacy, comparable safety in comparison to Reference semaglutide, supporting its use as an effective therapeutic option for patients with T2DM."
         },
         "plain": "In a 2026 phase 3 trial of 314 Indian adults with type 2 diabetes (Ambika), HbA1c fell 2.04% on a test semaglutide injection and 1.95% on the reference product at week 24, judged non-inferior."
@@ -1285,6 +1285,10 @@
     {
       "date": "2026-11-12",
       "change": "Page layout adopted after the BPC-157 trial: written sections with lead-in points render as labelled cards; dose, route and duration sections open with a one-line cited digest and fold their rows; evidence figure beside the glance panel; FAQ as a question list; method notes and older changes open on demand."
+    },
+    {
+      "date": "2026-11-19",
+      "change": "Corrected extracted study durations that included participant ages."
     }
   ]
 }

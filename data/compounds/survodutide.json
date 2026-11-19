@@ -632,7 +632,7 @@
         "plain": "In a phase 2 trial, after 46 weeks of survodutide, women lost more body weight and waist size than men."
       },
       {
-        "value": "Randomized controlled trial, humans, n=50, 2024: durations stated: 75 years; 16 weeks. This Phase II, multicentre, randomised, double-blind, parallel-group, placebo-controlled study, conducted in clinical research centres, assessed survodutide in participants aged 18-75 years with type 2 diabetes, an HbA 1c level of 53-86 mmol/mol (7.0-10.0%) and a BMI of 25-50 kg/m 2 on a background of metformin therapy.",
+        "value": "Randomized controlled trial, humans, n=50, 2024: durations stated: 16 weeks. This Phase II, multicentre, randomised, double-blind, parallel-group, placebo-controlled study, conducted in clinical research centres, assessed survodutide in participants aged 18-75 years with type 2 diabetes, an HbA 1c level of 53-86 mmol/mol (7.0-10.0%) and a BMI of 25-50 kg/m 2 on a background of metformin therapy.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-38095657"
@@ -816,7 +816,7 @@
           "species": "Humans",
           "dose": "1.8 mg",
           "route": "subcutaneous",
-          "duration": "75 years; 16 weeks",
+          "duration": "16 weeks",
           "outcome": "The mean reduction in HbA 1c was similar with low-dose survodutide (DG2: -15.95 mmol/mol [-1.46%]; n=46) and semaglutide (-16.07 mmol/mol [-1.47%]; n=45)."
         },
         "plain": "In a 2024 phase 2 trial in type 2 diabetes (Blüher), HbA1c (three-month blood sugar average) fell similarly on low-dose survodutide (-1.46%, 46 people) and semaglutide (-1.47%, 45 people) over 16 weeks."
@@ -1410,6 +1410,10 @@
     {
       "date": "2026-11-12",
       "change": "Page layout adopted after the BPC-157 trial: written sections with lead-in points render as labelled cards; dose, route and duration sections open with a one-line cited digest and fold their rows; evidence figure beside the glance panel; FAQ as a question list; method notes and older changes open on demand."
+    },
+    {
+      "date": "2026-11-19",
+      "change": "Corrected extracted study durations that included participant ages."
     }
   ],
   "guide": [

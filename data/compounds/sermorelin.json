@@ -145,26 +145,6 @@
     ],
     "study_durations": [
       {
-        "value": "Randomized controlled trial, humans, 2000: durations stated: 8 years; 7 years. Five adult male long-term survivors of childhood brain tumours (median age 21.8 years (18.4-26.7); 13.7 years (11.4-15.7) post-radiotherapy, >30Gy) and five matched controls were studied.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-10754477"
-        ],
-        "source_excerpt": "Five adult male long-term survivors of childhood brain tumours (median age 21.8 years (18.4-26.7); 13.7 years (11.4-15.7) post-radiotherapy, >30Gy) and five matched controls were studied.",
-        "drafting": "extractive",
-        "plain": "This 2000 study included five adult male survivors of childhood brain tumors (median age 21.8 years, 13.7 years after radiotherapy) and five matched controls; it tested single doses of GHRH(1-29)NH2 (sermorelin)."
-      },
-      {
-        "value": "Randomized controlled trial, humans, 1999: durations stated: 2 years; 4 years; 5 years. 7); 12.2 years (5.8-14.0) postradiotherapy, > 30Gy whole brain irradiation) with 9 matched control volunteers and 6 short-term survivors of childhood brain tumours (median age 6.4 years (5.9-7.",
-        "evidence_label": "human-clinical-trial",
-        "source_ids": [
-          "pmid-10594518"
-        ],
-        "source_excerpt": "7); 12.2 years (5.8-14.0) postradiotherapy, > 30Gy whole brain irradiation) with 9 matched control volunteers and 6 short-term survivors of childhood brain tumours (median age 6.4 years (5.9-7.",
-        "drafting": "extractive",
-        "plain": "This 1999 study included long-term survivors of childhood brain tumors (12.2 years after whole-brain radiotherapy), 9 matched controls and 6 short-term survivors; the sentence gives no treatment length."
-      },
-      {
         "value": "Randomized controlled trial, humans, n=10, 1997: durations stated: 5 months; 4 weeks; 16 weeks. This hypothesis was tested by a single blind randomized placebo-controlled trial of 5 months duration, in which healthy elderly subjects (10 women, 9 men) self-administered sc nightly placebo for 4 weeks, followed by 16 weeks of [norleucine27]GHRH (1-29)-NH2 at a dose of 10 micrograms/kg.",
         "evidence_label": "human-clinical-trial",
         "source_ids": [
@@ -220,7 +200,7 @@
           "species": "Humans",
           "dose": "not stated in abstract",
           "route": "intravenous",
-          "duration": "8 years; 7 years",
+          "duration": "not stated in abstract",
           "outcome": "An intravenous bolus of GHRH(1-29)NH(2) was administered in doses at the lower (0.05 microg/kg) and upper (0.15 microg/kg) range of the dose-response curves for young males, as well as the standard supramaximal dose (1."
         },
         "plain": "This 2000 study (Achermann) gave single injections of GHRH(1-29)NH2 (sermorelin) into a vein at low (0.05 microg/kg) and upper (0.15 microg/kg) doses, plus a standard high dose, to brain tumor survivors after radiotherapy and controls."
@@ -241,7 +221,7 @@
           "species": "Humans",
           "dose": "not stated in abstract",
           "route": "intravenous, subcutaneous",
-          "duration": "2 years; 4 years",
+          "duration": "not stated in abstract",
           "outcome": "Spontaneous peak GH release was reduced in the children following irradiation (Irradiation 14.9 mU/l vs. Control 25.1 mU/l, P = 0.007)."
         },
         "plain": "In a 1999 study (Achermann), children who had brain radiotherapy had lower natural peak growth hormone release than controls (14.9 mU/l vs. 25.1 mU/l)."
@@ -430,7 +410,7 @@
           "species": "Humans",
           "dose": "not stated in abstract",
           "route": "subcutaneous",
-          "duration": "3 years; 24 months",
+          "duration": "24 months",
           "outcome": "see source"
         },
         "plain": "In a 1994 study without a control group (Lanes), 16 growth hormone-deficient children before puberty, mean age 9.0 years, were given GHRH at 30 micrograms/kg once daily under the skin for 12 to 24 months."
@@ -472,7 +452,7 @@
           "species": "Humans",
           "dose": "not stated in abstract",
           "route": "intranasal, intravenous",
-          "duration": "43 years",
+          "duration": "not stated in abstract",
           "outcome": "see source"
         },
         "plain": "In a 1993 study (Wilton), GHRH(1-29)-NH2 (sermorelin) was given into a vein or as a nasal spray to 30 healthy men aged 19-43; this sentence describes the design, not the results."
@@ -943,6 +923,10 @@
     {
       "date": "2026-11-12",
       "change": "Page layout adopted after the BPC-157 trial: written sections with lead-in points render as labelled cards; dose, route and duration sections open with a one-line cited digest and fold their rows; evidence figure beside the glance panel; FAQ as a question list; method notes and older changes open on demand."
+    },
+    {
+      "date": "2026-11-19",
+      "change": "Corrected extracted study durations that included participant ages."
     }
   ]
 }

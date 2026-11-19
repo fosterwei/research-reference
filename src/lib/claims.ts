@@ -17,7 +17,8 @@ export function parseClaim(c: Claim): Parsed {
   const m = lead.match(/^(.*?):\s*(.*)$/s);
   const meta = m ? m[1] : lead.replace(/:$/, '');
   const extra = m ? m[2].trim().replace(/[:.]$/, '') : '';
-  const bits = meta.split(/,\s*/);
+  // The drafter formats large sample sizes with thousands separators.
+  const bits = meta.split(/(?<!\d),\s*|,(?!\d)\s*/);
   const design = bits[0] ?? '';
   const n = (bits.find((b) => /^n=/.test(b)) ?? '').replace('n=', '');
   const year = bits.find((b) => /^\d{4}$/.test(b)) ?? '';
