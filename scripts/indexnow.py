@@ -71,7 +71,7 @@ def github_api(path):
 def manifest(revision):
     data = subprocess.check_output(["git", "show", f"{revision}:{MANIFEST}"], cwd=ROOT)
     pages = json.loads(data)["pages"]
-    return {urljoin(ORIGIN, path): entry["lastmod"] for path, entry in pages.items()}
+    return {urljoin(ORIGIN, path): entry for path, entry in pages.items()}
 
 
 def deployment_urls():
@@ -95,7 +95,8 @@ def deployment_urls():
         return []
 
     previous, latest = manifest(baseline), manifest(current["sha"])
-    changes = {url: latest.get(url) for url in previous.keys() | latest.keys()
+    changes = {url: latest[url]["lastmod"] if url in latest else None
+               for url in previous.keys() | latest.keys()
                if previous.get(url) != latest.get(url)}
     if not changes:
         return []
