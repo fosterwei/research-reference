@@ -1637,6 +1637,10 @@
   },
   "changelog": [
     {
+      "date": "2026-11-20",
+      "change": "Updated the embedded calculator to flag draws that exceed the vial mass or the 1 mL syringe capacity."
+    },
+    {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."
     },

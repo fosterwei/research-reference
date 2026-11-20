@@ -22,6 +22,10 @@
   },
   "changelog": [
     {
+      "date": "2026-11-20",
+      "change": "Separated the vial mass and 1 mL syringe capacity checks and suppressed invalid syringe-unit results."
+    },
+    {
       "date": "2026-09-29",
       "change": "Record created so the tool can be indexed. The calculator itself was rebuilt the same day: the unit converter and vial planner had no calculator at all, only a description."
     },
