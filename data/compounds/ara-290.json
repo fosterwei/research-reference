@@ -87,6 +87,12 @@
     "study_doses": [
       {
         "value": "Sarcoidosis patients with small-fibre neuropathy received 2 mg intravenously three times a week for four weeks.",
+        "calculator_doses": [
+          {
+            "mcg": 2000,
+            "arm": "Intravenous trial, ARA 290 arm"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-23168581"
@@ -97,6 +103,20 @@
       },
       {
         "value": "In the phase 2b sarcoidosis trial, 64 patients received 1, 4 or 8 mg a day subcutaneously for 28 days; 4 mg met the primary endpoint.",
+        "calculator_doses": [
+          {
+            "mcg": 1000,
+            "arm": "Phase 2b sarcoidosis trial, subcutaneous cibinetide arms"
+          },
+          {
+            "mcg": 4000,
+            "arm": "Phase 2b sarcoidosis trial, subcutaneous cibinetide arms"
+          },
+          {
+            "mcg": 8000,
+            "arm": "Phase 2b sarcoidosis trial, subcutaneous cibinetide arms"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-28475703"
@@ -107,6 +127,12 @@
       },
       {
         "value": "People with type 2 diabetes and neuropathy self-injected 4 mg a day for 28 days and were followed a further month.",
+        "calculator_doses": [
+          {
+            "mcg": 4000,
+            "arm": "Subcutaneous diabetes trial, ARA 290 arm"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-25387363"
@@ -117,6 +143,12 @@
       },
       {
         "value": "Nine patients with diabetic macular oedema self-injected 4 mg a day for 12 weeks.",
+        "calculator_doses": [
+          {
+            "mcg": 4000,
+            "arm": "Subcutaneous eye disease trial, cibinetide arm"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-32674280"

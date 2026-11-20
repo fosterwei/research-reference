@@ -103,6 +103,12 @@
       },
       {
         "value": "Rabbits with collagenase-induced knee arthritis received weekly intra-articular injections of 0.25 mg, alone or with 6 mg hyaluronic acid.",
+        "calculator_doses": [
+          {
+            "mcg": 250,
+            "arm": "Rabbit joint injection, AOD9604 arms"
+          }
+        ],
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-26275694"

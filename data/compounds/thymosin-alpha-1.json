@@ -75,6 +75,12 @@
       },
       {
         "value": "In the pancreatitis trial, 508 patients received 1.6 mg every 12 hours for seven days, then once daily for seven more.",
+        "calculator_doses": [
+          {
+            "mcg": 1600,
+            "arm": "Pancreatitis trial, subcutaneous thymosin alpha-1 arm"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-35713670"
@@ -85,6 +91,12 @@
       },
       {
         "value": "In chronic hepatitis B, 1.6 mg twice a week for six months was compared with interferon alpha.",
+        "calculator_doses": [
+          {
+            "mcg": 1600,
+            "arm": "Hepatitis B trial, subcutaneous thymosin alpha-1 arm"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-17075991"
@@ -95,6 +107,12 @@
       },
       {
         "value": "In severe acute pancreatitis, a pilot gave 3.2 mg twice a day for seven days.",
+        "calculator_doses": [
+          {
+            "mcg": 3200,
+            "arm": "Pancreatitis pilot, injected thymosin alpha-1 arm"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-20549321"

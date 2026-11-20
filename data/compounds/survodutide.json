@@ -82,6 +82,16 @@
     "study_doses": [
       {
         "value": "In SYNCHRONIZE-1, 725 adults with obesity received once-weekly survodutide titrated to 3.6 mg or 6.0 mg, or placebo, for 76 weeks.",
+        "calculator_doses": [
+          {
+            "mcg": 3600,
+            "arm": "SYNCHRONIZE-1, subcutaneous survodutide target arms"
+          },
+          {
+            "mcg": 6000,
+            "arm": "SYNCHRONIZE-1, subcutaneous survodutide target arms"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42253238"
@@ -92,6 +102,12 @@
       },
       {
         "value": "In SYNCHRONIZE-MASLD, 216 adults with obesity and at-risk liver disease received 6.0 mg weekly or placebo, two to one.",
+        "calculator_doses": [
+          {
+            "mcg": 6000,
+            "arm": "SYNCHRONIZE-MASLD, subcutaneous survodutide arm"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42252333"
@@ -102,6 +118,28 @@
       },
       {
         "value": "The type 2 diabetes phase 2 tested 0.3 to 2.7 mg once weekly and 1.2 or 1.8 mg twice weekly for 16 weeks against placebo and open-label semaglutide.",
+        "calculator_doses": [
+          {
+            "mcg": 300,
+            "arm": "Phase 2 diabetes trial, subcutaneous survodutide target arms"
+          },
+          {
+            "mcg": 900,
+            "arm": "Phase 2 diabetes trial, subcutaneous survodutide target arms"
+          },
+          {
+            "mcg": 1200,
+            "arm": "Phase 2 diabetes trial, subcutaneous survodutide target arms"
+          },
+          {
+            "mcg": 1800,
+            "arm": "Phase 2 diabetes trial, subcutaneous survodutide target arms"
+          },
+          {
+            "mcg": 2700,
+            "arm": "Phase 2 diabetes trial, subcutaneous survodutide target arms"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-38095657"

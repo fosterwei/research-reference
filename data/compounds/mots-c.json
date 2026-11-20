@@ -119,6 +119,12 @@
       },
       {
         "value": "Animal study, mice, 2021: doses stated in the abstract: 500 μg. Long-term repeated administration of MOTS-c (500 μg) and PMO at the dose of 12.5 mg/kg/week for 3 weeks followed by 12.5 mg/kg/month for 3 months (PMO-M) induced therapeutic levels of dystrophin expression in peripheral muscles, with up to 25-fold increase in diaphragm of mdx mice over PMO alone.",
+        "calculator_doses": [
+          {
+            "mcg": 500,
+            "arm": "Mouse muscular dystrophy study, intravenous MOTS-c plus PMO arm"
+          }
+        ],
         "evidence_label": "animal-preclinical",
         "source_ids": [
           "pmid-33337582"

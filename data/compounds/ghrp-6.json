@@ -92,6 +92,12 @@
       },
       {
         "value": "GHRP-6 90 micrograms or GHRH 100 micrograms, alone or combined, as an intravenous bolus in young and older adults.",
+        "calculator_doses": [
+          {
+            "mcg": 90,
+            "arm": "Intravenous bolus study, GHRP-6 alone and combination arms"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-7734029"
@@ -101,6 +107,12 @@
       },
       {
         "value": "GHRH plus GHRP-6, 100 micrograms each, intravenously in 12 men with type 2 diabetes under glucose clamps.",
+        "calculator_doses": [
+          {
+            "mcg": 100,
+            "arm": "Intravenous bolus study, GHRP-6 plus GHRH arm"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-14693411"

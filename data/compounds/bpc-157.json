@@ -84,6 +84,16 @@
     "study_doses": [
       {
         "value": "Human study, humans, n=2, 2025: doses stated in the abstract: 20 mg. Intravenous infusion of up to 20 mg of BPC-157 in 2 healthy adults showed no adverse effects and was well-tolerated.",
+        "calculator_doses": [
+          {
+            "mcg": 10000,
+            "arm": "Intravenous pilot study, BPC-157 infusions"
+          },
+          {
+            "mcg": 20000,
+            "arm": "Intravenous pilot study, BPC-157 infusions"
+          }
+        ],
         "evidence_label": "observational-human",
         "source_ids": [
           "pmid-40131143"

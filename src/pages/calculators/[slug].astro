@@ -16,7 +16,7 @@ import Tier from '../../components/v2/Tier.astro';
 import { records } from '../../lib/collections';
 import {
   qualifies, doseRows, humanDoseRows, claimRows,
-  absoluteDosesMcg, chartRows, formatDose, VIAL_MG, DILUENT_ML,
+  chartDoses, chartDraw, formatDose, VIAL_MG, DILUENT_ML,
 } from '../../lib/calculators';
 import { isIndexable } from '../../lib/site';
 import SourceIds from '../../components/SourceIds.astro';
@@ -40,19 +40,18 @@ const durations = claimRows(entry, 'study_durations');
 const routes = claimRows(entry, 'routes_studied');
 const sources = new Map<string, any>((d.sources ?? []).map((s: any) => [s.id, s]));
 
-const doses = absoluteDosesMcg(entry);
-const charts = VIAL_MG.map((mg) => ({ mg, rows: chartRows(doses, mg) }));
-const smallest = doses[0];
-const largest = doses[doses.length - 1];
+const doses = chartDoses(entry);
 
 // A worked example in four steps, using a dose this compound's studies actually
 // used where one exists, so the HowTo below mirrors the visible text exactly.
 const exMg = VIAL_MG[1];
 const exMl = DILUENT_ML[1];
-const exMcg = doses.length > 0 ? smallest : 250;
-const exConc = (exMg * 1000) / exMl;
-const exMl2 = exMcg / exConc;
-const exUnits = Math.round(exMl2 * 100 * 100) / 100;
+const exampleDose = doses.find(({ mcg }) => chartDraw(mcg, exMg, exMl).status === 'ok');
+const exMcg = exampleDose?.mcg ?? 250;
+const example = chartDraw(exMcg, exMg, exMl);
+const compare = chartDraw(exMcg, exMg, DILUENT_ML[0]);
+if (example.status !== 'ok' || compare.status !== 'ok') throw new Error('Invalid calculator example');
+const { concentration: exConc, drawMl: exMl2, units: exUnits } = example;
 const fmt = (n: number, d = 3) => n.toLocaleString('en-US', { maximumFractionDigits: d });
 const steps = [
   { name: 'Read the mass on the vial', text: `The label states a mass, not a concentration. A ${exMg} mg vial holds ${fmt(exMg * 1000)} mcg of ${name} as dry powder.` },
@@ -61,9 +60,9 @@ const steps = [
   { name: 'Convert millilitres to syringe units', text: `On a U-100 insulin syringe 1 mL is 100 units, so ${fmt(exMl2, 4)} mL × 100 = ${fmt(exUnits, 2)} units.` },
 ];
 const faq: Array<{ q: string; a: string }> = [
-  ...(doses.length > 0 ? [{
-    q: `How many units is ${formatDose(smallest)} of ${name}?`,
-    a: `It depends entirely on how the vial was reconstituted. In a ${VIAL_MG[1]} mg vial with ${DILUENT_ML[1]} mL of diluent it is ${chartRows([smallest], VIAL_MG[1])[0].cells[1].units.toLocaleString('en-US')} units on a U-100 syringe; with ${DILUENT_ML[0]} mL it is ${chartRows([smallest], VIAL_MG[1])[0].cells[0].units.toLocaleString('en-US')}. The chart above gives the rest.`,
+  ...(exampleDose ? [{
+    q: `How many units is ${formatDose(exMcg)} of ${name}?`,
+    a: `It depends on the concentration. In a hypothetical ${exMg} mg vial with ${exMl} mL of diluent the volume corresponds to ${fmt(exUnits, 2)} units on a U-100 syringe. With ${DILUENT_ML[0]} mL it corresponds to ${fmt(compare.units, 2)} units.`,
   }] : []),
   { q: 'Does adding more diluent waste the peptide?', a: 'No. The mass in the vial does not change. More diluent spreads the same mass through more liquid, so each dose is a larger, easier-to-measure volume and the vial yields exactly as many doses as before.' },
   { q: 'Why does this page not recommend a dose?', a: 'Because a dose is a clinical decision rather than a division. It depends on why someone is taking something, what else they take and how their kidneys and liver are working, none of which is knowable from a number typed into a box.' },
@@ -100,8 +99,14 @@ const singleMcg = (dose?: string): number | null => {
 };
 const schedule = proto.practical.map((c) => {
   const mcg = singleMcg(c.fields?.dose);
-  return { weeks: whenLabel(c.fields?.weeks), dose: c.fields?.dose ?? '—', action: c.fields?.action ?? '', units: mcg ? VIAL_MG.map((mg) => (mcg > mg * 1000 ? null : chartRows([mcg], mg)[0].cells[1].units)) : null };
+  return { weeks: whenLabel(c.fields?.weeks), dose: c.fields?.dose ?? '—', action: c.fields?.action ?? '', draws: mcg ? VIAL_MG.map((mg) => chartDraw(mcg, mg, SCHED_ML)) : null };
 });
+const drawLabel = (draw: ReturnType<typeof chartDraw>) => {
+  if (draw.status === 'ok') return fmt(draw.units, 2);
+  if (draw.status === 'over-vial') return 'Exceeds vial mass';
+  if (draw.status === 'over-syringe') return 'Exceeds 1 mL syringe';
+  return '—';
+};
 const title = `${name} Dosage Calculator: Units, mg and Reconstitution`;
 const description = `How many syringe units ${name} doses work out to, for 2, 5 and 10 mg vials at 1, 2 or 3 mL of diluent, beside the doses published studies actually used, each one cited.`;
 
@@ -121,9 +126,8 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
 
     <h2 id="steps">Reconstituting {name}: the arithmetic in four steps</h2>
     <p class="prose">
-      The calculator does these four operations. Worked here for a {exMg}&nbsp;mg vial, {exMl}&nbsp;mL of
-      diluent and {formatDose(exMcg)}{doses.length > 0 ? `, the smallest absolute dose a published study of ${name} used` : ''},
-      so the figures can be checked by hand.
+      The example uses a hypothetical {exMg}&nbsp;mg vial, {exMl}&nbsp;mL of diluent and a mass of
+      {' '}{formatDose(exMcg)} so the arithmetic can be checked by hand.
     </p>
     <ol class="list steps">
       {steps.map((st) => <li><strong>{st.name}.</strong> {st.text}</li>)}
@@ -133,24 +137,25 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
       <Fragment>
         <h2 id="chart">{name} reconstitution chart</h2>
         <p class="prose">
-          Units on a standard U-100 insulin syringe, where 100 units is 1&nbsp;mL. The rows are the
-          absolute doses reported in studies of {name}, from {formatDose(smallest)} to {formatDose(largest)},
-          so this chart is specific to this compound rather than a generic ladder. More diluent means
-          more units for the same dose, which is easier to measure accurately and empties the vial no faster.
+          Each row links to a study arm with an explicitly attributed mass of {name}. The table uses
+          hypothetical vials and a 1&nbsp;mL U-100 syringe to illustrate volume conversion. The study
+          arms describe the original administration routes and formulations.
         </p>
-        {charts.map((c) => (
+        {VIAL_MG.map((mg) => (
           <div class="card clip"><div class="tblwrap"><table class="tbl">
-            <caption>{c.mg}&nbsp;mg vial of {name}. Figures are units on a U-100 syringe; a cell over 100 units does not fit in one 1&nbsp;mL syringe.</caption>
+            <caption>{mg}&nbsp;mg vial of {name}. Results are U-100 units for draws that fit within the vial and a 1&nbsp;mL syringe.</caption>
             <thead><tr>
-              <th scope="col">Dose</th>
-              {DILUENT_ML.map((ml) => <th scope="col" class="num">{ml} mL diluent<br />({Math.round((c.mg * 1000) / ml).toLocaleString('en-US')} mcg/mL)</th>)}
+              <th scope="col">Study dose and source</th>
+              {DILUENT_ML.map((ml) => <th scope="col" class="num">{ml} mL diluent<br />({Math.round((mg * 1000) / ml).toLocaleString('en-US')} mcg/mL)</th>)}
             </tr></thead>
             <tbody>
-              {c.rows.map((r) => (
+              {doses.map((dose) => (
                 <tr>
-                  <th scope="row">{r.label}</th>
-                  {r.cells.map((cell) => (
-                    <td class="num">{cell.units.toLocaleString('en-US')}{cell.units > 100 && <span class="muted"> &gt;1 mL</span>}</td>
+                  <th scope="row">{formatDose(dose.mcg)}{dose.studies.map(({ arm, sourceIds }) => (
+                    <div class="muted"><small>{arm} <SourceIds ids={sourceIds} sources={sources} /></small></div>
+                  ))}</th>
+                  {DILUENT_ML.map((ml) => (
+                    <td class="num">{drawLabel(chartDraw(dose.mcg, mg, ml))}</td>
                   ))}
                 </tr>
               ))}
@@ -169,22 +174,9 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
       <Fragment>
         <h2 id="nochart">Why there is no units chart for {name}</h2>
         <p class="prose">
-          Every dose reported in studies of {name} is given per kilogram of body weight, and none is an
-          absolute quantity. A chart of syringe units needs a fixed mass to work from, so there is
-          nothing honest to put in one.
-        </p>
-        <p class="prose">
-          The obvious move — multiply a per-kilogram figure by a body weight — is the one thing that
-          must not be done here. Most of these figures come from rats or mice, and dose does not scale
-          between species by arithmetic: surface area, metabolic rate and clearance all differ, which is
-          why interspecies conversion is a calculation with published factors and assumptions rather
-          than a multiplication. A number produced that way would look like a dose and carry none of
-          the evidence a dose needs.
-        </p>
-        <p class="prose">
-          The calculator above still works. Give it the vial and the mass you intend to draw and it
-          returns the volume and the units. What it cannot do, for this compound, is tell you what that
-          mass should be, because no study in this ledger states one.
+          A syringe-units chart requires a fixed mass explicitly attributed to {name} in an injection
+          study. The evidence below preserves the published route and units, including doses stated
+          per kilogram where applicable. The calculator above converts a mass you enter yourself.
         </p>
       </Fragment>
     )}
@@ -210,7 +202,7 @@ const description = `How many syringe units ${name} doses work out to, for 2, 5 
               <tr>
                 <th scope="row">{r.weeks}</th>
                 <td>{r.dose}</td>
-                {VIAL_MG.map((_, i) => <td class="num">{!r.units ? '—' : r.units[i] === null ? <span class="muted">more than the vial</span> : <>{r.units[i]!.toLocaleString('en-US')}{r.units[i]! > 100 && <span class="muted"> &gt;1 mL</span>}</>}</td>)}
+                {VIAL_MG.map((_, i) => <td class="num">{r.draws ? drawLabel(r.draws[i]) : '—'}</td>)}
                 <td>{r.action}</td>
               </tr>
             ))}

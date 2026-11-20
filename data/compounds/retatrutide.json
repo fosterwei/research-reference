@@ -80,6 +80,20 @@
     "study_doses": [
       {
         "value": "Randomized controlled trial, humans, n=930, 2026: doses stated in the abstract: 4 mg; 9 mg; 12 mg. Participants were randomly assigned (1:1:1:1) to receive retatrutide (4 mg, 9 mg, or 12 mg) or placebo by once-weekly subcutaneous injection.",
+        "calculator_doses": [
+          {
+            "mcg": 4000,
+            "arm": "TRANSCEND-T2D-1, weekly subcutaneous retatrutide arms"
+          },
+          {
+            "mcg": 9000,
+            "arm": "TRANSCEND-T2D-1, weekly subcutaneous retatrutide arms"
+          },
+          {
+            "mcg": 12000,
+            "arm": "TRANSCEND-T2D-1, weekly subcutaneous retatrutide arms"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42250575"
@@ -90,6 +104,24 @@
       },
       {
         "value": "Clinical trial, humans, n=213, 2026: doses stated in the abstract: 12 mg. Intervention(s) Obesity trial; retatrutide (1, 4, 8, 12 mg) or placebo.",
+        "calculator_doses": [
+          {
+            "mcg": 1000,
+            "arm": "Phase 2 obesity trial, retatrutide arms"
+          },
+          {
+            "mcg": 4000,
+            "arm": "Phase 2 obesity trial, retatrutide arms"
+          },
+          {
+            "mcg": 8000,
+            "arm": "Phase 2 obesity trial, retatrutide arms"
+          },
+          {
+            "mcg": 12000,
+            "arm": "Phase 2 obesity trial, retatrutide arms"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42135195"
@@ -120,6 +152,28 @@
       },
       {
         "value": "Randomized controlled trial, humans, n=534, 2025: doses stated in the abstract: 0·5 mg; 4 mg; 2 mg; 8 mg. Eligible participants were randomly assigned in a 2:2:2:1:1:1:1:2 ratio to once-weekly subcutaneous placebo, dulaglutide 1·5 mg, or retatrutide 0·5 mg, 4 mg (2 mg initial dose), 4 mg (4 mg initial dose), 8 mg (2 mg initial dose), 8 mg (4 mg initial dose), or 12 mg.",
+        "calculator_doses": [
+          {
+            "mcg": 500,
+            "arm": "Phase 2 diabetes trial, subcutaneous retatrutide arms including starting mass"
+          },
+          {
+            "mcg": 2000,
+            "arm": "Phase 2 diabetes trial, subcutaneous retatrutide arms including starting mass"
+          },
+          {
+            "mcg": 4000,
+            "arm": "Phase 2 diabetes trial, subcutaneous retatrutide arms including starting mass"
+          },
+          {
+            "mcg": 8000,
+            "arm": "Phase 2 diabetes trial, subcutaneous retatrutide arms including starting mass"
+          },
+          {
+            "mcg": 12000,
+            "arm": "Phase 2 diabetes trial, subcutaneous retatrutide arms including starting mass"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-40609566"

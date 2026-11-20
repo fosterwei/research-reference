@@ -25,6 +25,10 @@ const claim = z.object({
   // Verbatim passage the value paraphrases; required by agent/AGENT.md for
   // agent-drafted claims and checked by the reviewer against the source.
   source_excerpt: z.string().optional(),
+  calculator_doses: z.array(z.object({
+    mcg: z.number().finite().positive(),
+    arm: z.string().min(1),
+  })).optional(),
 }).passthrough();
 
 const source = z.object({

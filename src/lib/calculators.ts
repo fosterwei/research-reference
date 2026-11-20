@@ -14,6 +14,7 @@
 import { isFinding } from './cite';
 import type { CollectionEntry } from 'astro:content';
 import { isIndexable } from './site';
+import { calculateDraw, DEFAULT_SYRINGE_ML } from './reconstitution';
 
 export const MIN_DISTINCT_DOSES = 2;
 
@@ -76,31 +77,30 @@ export function humanDoseRows(entry: CollectionEntry<'compounds'>): DoseRow[] {
  * that compound actually administered, rather than a generic ladder.
  * ------------------------------------------------------------------ */
 
-/** Absolute mass doses, in micrograms, as quoted in a record's claims.
- *  Per-kilogram figures are excluded: they do not convert to a person. */
-export function absoluteDosesMcg(entry: CollectionEntry<'compounds'>): number[] {
-  const claims = ((entry.data as any).attributes?.study_doses ?? []) as any[];
-  const out = new Set<number>();
+export interface ChartDose {
+  mcg: number;
+  studies: { arm: string; sourceIds: string[] }[];
+}
+
+/** Chart only explicitly attributed masses. Abstracts can list multiple drugs and routes. */
+export function chartDoses(entry: CollectionEntry<'compounds'>): ChartDose[] {
+  const claims = entry.data.attributes.study_doses ?? [];
+  const linkedSources = new Set(entry.data.sources.map((source) => source.id));
+  const byMass = new Map<number, ChartDose>();
   for (const c of claims) {
-    const text = String(c.value ?? '');
-    // "10 µg/kg", "0.2 mg/kg" and friends are per-weight; skip the whole match.
-    const re = /(\d+(?:\.\d+)?)\s*(mg|µg|mcg|ug)\b(\s*\/\s*kg)?/gi;
-    for (const m of text.matchAll(re)) {
-      if (m[3]) continue;
-      const n = parseFloat(m[1]);
-      if (!Number.isFinite(n) || n <= 0) continue;
-      const mcg = /mg/i.test(m[2]) ? n * 1000 : n;
-      if (mcg >= 1 && mcg <= 100_000) out.add(Math.round(mcg * 100) / 100);
+    const sourceIds = c.source_ids.filter((id) => linkedSources.has(id));
+    if (!isFinding(c) || !sourceIds.length) continue;
+    for (const { mcg, arm } of c.calculator_doses ?? []) {
+      const dose = byMass.get(mcg) ?? { mcg, studies: [] };
+      dose.studies.push({ arm, sourceIds });
+      byMass.set(mcg, dose);
     }
   }
-  return [...out].sort((a, b) => a - b).slice(0, 8);
+  return [...byMass.values()].sort((a, b) => a.mcg - b.mcg);
 }
 
 export const VIAL_MG = [2, 5, 10] as const;
 export const DILUENT_ML = [1, 2, 3] as const;
-
-export interface ChartCell { ml: number; units: number; }
-export interface ChartRow { mcg: number; label: string; cells: ChartCell[]; }
 
 export function formatDose(mcg: number): string {
   return mcg >= 1000
@@ -108,17 +108,9 @@ export function formatDose(mcg: number): string {
     : `${mcg.toLocaleString('en-US', { maximumFractionDigits: 2 })} mcg`;
 }
 
-/** Units on a U-100 syringe for each diluent volume, at one vial size. */
-export function chartRows(doses: number[], vialMg: number): ChartRow[] {
-  return doses.map((mcg) => ({
-    mcg,
-    label: formatDose(mcg),
-    cells: DILUENT_ML.map((ml) => {
-      const concMcgPerMl = (vialMg * 1000) / ml;
-      const drawMl = mcg / concMcgPerMl;
-      return { ml, units: Math.round(drawMl * 100 * 100) / 100 };
-    }),
-  }));
+/** Use the same draw check as the interactive tool. */
+export function chartDraw(mcg: number, vialMg: number, diluentMl: number) {
+  return calculateDraw(vialMg, diluentMl, mcg, 100, DEFAULT_SYRINGE_ML);
 }
 
 /** Claims from any attribute, shaped like doseRows. */
