@@ -91,6 +91,12 @@
     "study_doses": [
       {
         "value": "Randomized controlled trial, humans, 2024: doses stated in the abstract: 40 mg. Patients entering the OLE continued elamipretide 40 mg subcutaneous daily.",
+        "calculator_doses": [
+          {
+            "mcg": 40000,
+            "arm": "TAZPOWER extension, subcutaneous elamipretide"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-38602181"
@@ -101,6 +107,12 @@
       },
       {
         "value": "Randomized controlled trial, humans, n=218, 2023: doses stated in the abstract: 40 mg/d. After screening, eligible participants were randomized 1:1 to receive either 24 weeks of elamipretide at a dose of 40 mg/d or placebo subcutaneously.",
+        "calculator_doses": [
+          {
+            "mcg": 40000,
+            "arm": "MMPOWER-3, subcutaneous elamipretide arm"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-37268435"
@@ -131,6 +143,12 @@
       },
       {
         "value": "Randomized controlled trial, humans, n=30, 2020: doses stated in the abstract: 40 mg/day. Participants were randomly assigned (1:1) to 40 mg/day SC elamipretide for 4 weeks followed by placebo SC for 4 weeks, separated by a 4-week washout period, or the opposite sequence.",
+        "calculator_doses": [
+          {
+            "mcg": 40000,
+            "arm": "Crossover trial, subcutaneous elamipretide periods"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-32096613"
@@ -1618,6 +1636,10 @@
     "protocol_reviewed_at": "2026-11-08"
   },
   "changelog": [
+    {
+      "date": "2026-11-20",
+      "change": "Updated the embedded calculator to flag draws that exceed the vial mass or the 1 mL syringe capacity."
+    },
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."

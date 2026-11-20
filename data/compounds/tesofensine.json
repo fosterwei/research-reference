@@ -103,6 +103,24 @@
       },
       {
         "value": "Healthy volunteers received single six-hour infusions of 0.3 to 1.2 mg in a rising-dose pharmacokinetic study.",
+        "calculator_doses": [
+          {
+            "mcg": 300,
+            "arm": "Single-dose intravenous study, tesofensine arms"
+          },
+          {
+            "mcg": 600,
+            "arm": "Single-dose intravenous study, tesofensine arms"
+          },
+          {
+            "mcg": 900,
+            "arm": "Single-dose intravenous study, tesofensine arms"
+          },
+          {
+            "mcg": 1200,
+            "arm": "Single-dose intravenous study, tesofensine arms"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-19705923"
@@ -1301,6 +1319,10 @@
     "protocol_reviewed_at": "2026-11-08"
   },
   "changelog": [
+    {
+      "date": "2026-11-20",
+      "change": "Updated the embedded calculator to flag draws that exceed the vial mass or the 1 mL syringe capacity."
+    },
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."

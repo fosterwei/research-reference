@@ -22,6 +22,10 @@
   },
   "changelog": [
     {
+      "date": "2026-11-20",
+      "change": "Show a vial mass warning and zero whole draws when the requested mass exceeds the vial total."
+    },
+    {
       "date": "2026-09-29",
       "change": "Record created so the tool can be indexed. The calculator itself was rebuilt the same day: the unit converter and vial planner had no calculator at all, only a description."
     }

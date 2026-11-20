@@ -83,6 +83,12 @@
     "study_doses": [
       {
         "value": "Clinical trial, humans, n=22, 2026: doses stated in the abstract: 1 mg. In a double-blind, placebo-controlled pilot trial, we assessed 22 subjects with baseline cognition ranging from normal cognition to mild cognitive impairment before and after 10 weeks of treatment with low-dose tesamorelin (1 mg; GHRH analog) or placebo.",
+        "calculator_doses": [
+          {
+            "mcg": 1000,
+            "arm": "Cognitive impairment pilot, tesamorelin arm"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-42382101"
@@ -103,6 +109,12 @@
       },
       {
         "value": "Randomized controlled trial, humans, n=61, 2019: doses stated in the abstract: 2 mg once daily; 2 mg daily. Participants were randomly assigned (1:1) to receive either tesamorelin 2 mg once daily or placebo once daily for 12 months, followed by a 6-month open-label phase during which all participants received tesamorelin 2 mg daily.",
+        "calculator_doses": [
+          {
+            "mcg": 2000,
+            "arm": "HIV and fatty liver trial, tesamorelin arm"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-31611038"
@@ -133,6 +145,12 @@
       },
       {
         "value": "Randomized controlled trial, humans, n=28, 2014: doses stated in the abstract: 2 mg; 9 mg/d; 5-13 mg/d. Participants were randomized to receive tesamorelin, 2 mg (n=28), or placebo (n=22), subcutaneously daily for 6 months.",
+        "calculator_doses": [
+          {
+            "mcg": 2000,
+            "arm": "HIV and abdominal fat trial, subcutaneous tesamorelin arm"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-25038357"
@@ -1220,6 +1238,10 @@
     "protocol_reviewed_at": "2026-11-08"
   },
   "changelog": [
+    {
+      "date": "2026-11-20",
+      "change": "Updated the embedded calculator to flag draws that exceed the vial mass or the 1 mL syringe capacity."
+    },
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."

@@ -181,6 +181,7 @@ Every entry in `attributes.<field>` is a claim object. Required: `value`, `evide
 | Field | Meaning |
 |---|---|
 | `source_excerpt` | The sentence or sentences from the source that `value` restates, copied exactly. The reviewer checks `value` against this, not against memory. Required when `drafting` is `extractive`; enforced by the validator. |
+| `calculator_doses` | Optional on `attributes.study_doses` claims. Entries use `mcg` for a fixed mass and `arm` for the study arm or administration context. Verify each mass for this compound and an injection route against the linked source before adding it. Keep weight-normalised doses, concentrations and comparator masses out of this field. |
 | `drafting` | How the claim was produced. `extractive` means `value` is a verbatim source sentence prefixed with study context (design, species, n, year) and nothing else. Absent means a person wrote it. |
 | `fields` | Structured columns for the evidence table (`study`, `year`, `design`, `n`, `species`, `dose`, `route`, `duration`, `outcome`). Used only under `attributes.evidence_table`. |
 

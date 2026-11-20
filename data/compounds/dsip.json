@@ -97,6 +97,16 @@
       },
       {
         "value": "Total intravenous doses of 3 and 4 mg were infused over two hours around a CRH challenge in healthy young men.",
+        "calculator_doses": [
+          {
+            "mcg": 3000,
+            "arm": "Intravenous infusion study, DSIP arms"
+          },
+          {
+            "mcg": 4000,
+            "arm": "Intravenous infusion study, DSIP arms"
+          }
+        ],
         "evidence_label": "human-clinical-trial",
         "source_ids": [
           "pmid-7777652"
@@ -1320,6 +1330,10 @@
     "reviewer_url": "https://www.linkedin.com/in/adam-mirando-41772ba9/"
   },
   "changelog": [
+    {
+      "date": "2026-11-20",
+      "change": "Updated the embedded calculator to flag draws that exceed the vial mass or the 1 mL syringe capacity."
+    },
     {
       "date": "2026-09-14",
       "change": "Evidence fetched from Europe PMC and ChEMBL by scripts/fetch_evidence.py; claims not yet written."

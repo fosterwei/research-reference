@@ -8,6 +8,8 @@
 // Nothing here accepts a body weight, an age or a condition, and nothing
 // returns a dose. Each tool states its formula above the inputs, so the
 // arithmetic can be checked by hand.
+import { DEFAULT_SYRINGE_ML } from '../lib/reconstitution';
+
 interface Props {
   slug: string;
   /** The reconstitution tool's section id and heading, overridable so the same
@@ -24,7 +26,7 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
 {slug === 'reconstitution-calculator' && (
   <section id={id}>
     <H>{heading}</H>
-    <p class="prose">Two divisions, both shown. <b>Concentration</b> = mass in the vial &divide; diluent volume. <b>Volume to draw</b> = mass you want &divide; that concentration. Syringe units are that volume &times; the units per millilitre on your syringe's own scale.</p>
+    <p class="prose">Two divisions, both shown. <b>Concentration</b> = mass in the vial &divide; diluent volume. <b>Volume to draw</b> = mass you want &divide; that concentration. Syringe units are that volume &times; the units per millilitre on your syringe's own scale. The capacity check assumes a {DEFAULT_SYRINGE_ML}&nbsp;mL syringe.</p>
     <form class="calc" onsubmit="return false">
       <label for="r-mass">Mass in vial (mg)</label>
       <input id="r-mass" type="number" step="any" min="0" inputmode="decimal" value="5" />
@@ -87,11 +89,13 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
       <input id="v-freq" type="number" step="any" min="0" inputmode="decimal" value="7" />
       <output id="v-out" aria-live="polite"></output>
     </form>
-    <p class="prose">The leftover matters. A vial that yields 20.4 draws yields 20, and the remainder is the fraction you cannot measure, not a bonus draw. This tool will not tell you what mass to draw; that is the number a study reported or a clinician set, and it is the one input it refuses to guess.</p>
+    <p class="prose">The leftover matters. A vial that yields 20.4 draws yields 20, and the remainder is the fraction you cannot measure, not a bonus draw. A requested mass above the vial total yields zero whole draws. This tool will not tell you what mass to draw; that is the number a study reported or a clinician set, and it is the one input it refuses to guess.</p>
   </section>
 )}
 
 <script>
+  import { calculateDraw, DEFAULT_SYRINGE_ML } from '../lib/reconstitution';
+
   const num = (id: string): number => {
     const el = document.getElementById(id) as HTMLInputElement | null;
     return el ? parseFloat(el.value) : NaN;
@@ -118,14 +122,20 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
   wire('r-out', ['r-mass', 'r-vol', 'r-want', 'r-scale'], (out) => {
     const mg = num('r-mass'), ml = num('r-vol'), mcg = num('r-want');
     const perMl = parseFloat(pick('r-scale')) || 100;
-    if (!(mg > 0 && ml > 0 && mcg > 0)) {
+    const result = calculateDraw(mg, ml, mcg, perMl, DEFAULT_SYRINGE_ML);
+    if (result.status === 'invalid') {
       out.textContent = 'Enter a positive number for the vial, the diluent and the mass per draw.';
       return;
     }
-    const conc = (mg * 1000) / ml;          // mcg per mL
-    const drawMl = mcg / conc;
-    const units = drawMl * perMl;
-    const draws = Math.floor((mg * 1000) / mcg);
+    if (result.status === 'over-vial') {
+      out.textContent = 'The requested mass exceeds the total mass in the vial.';
+      return;
+    }
+    const { concentration: conc, drawMl, units, draws } = result;
+    if (result.status === 'over-syringe') {
+      out.textContent = `The calculated draw volume of ${round(drawMl, 3)} mL exceeds a ${DEFAULT_SYRINGE_ML} mL syringe.`;
+      return;
+    }
     const lines = [
       `Concentration: ${round(conc, 1)} mcg/mL (${round(conc / 1000, 3)} mg/mL)`,
       `Draw: ${round(drawMl, 3)} mL = ${round(units, 1)} units on a U-${perMl} syringe`,
@@ -134,8 +144,6 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
     // A U-100 syringe is graduated in whole units, so 0.01 mL is the smallest
     // mark. Below that the volume cannot be read off the barrel at all.
     if (units < 1) lines.push(`Warning: ${round(units, 2)} units is below the smallest graduation on that syringe. Use less diluent to raise the concentration, or a syringe with a finer scale.`);
-    if (drawMl > 1) lines.push(`Warning: ${round(drawMl, 2)} mL exceeds a 1 mL syringe, so this draw does not fit in one.`);
-    if (ml > 0 && drawMl > ml) lines.push('Warning: the volume to draw is larger than the whole vial.');
     // A page that asks for it gets the draw as the headline figure; the text
     // is the same numbers, assembled from this script's own strings.
     if ((out as HTMLElement).dataset?.big !== undefined) {
@@ -175,6 +183,10 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
       return;
     }
     const totalMcg = mg * 1000;
+    if (mcg > totalMcg) {
+      out.textContent = 'Whole draws per vial: 0. The requested mass exceeds the total mass in the vial.';
+      return;
+    }
     const draws = Math.floor(totalMcg / mcg);
     const leftoverMcg = totalMcg - draws * mcg;
     const lines = [`Whole draws per vial: ${draws}`];

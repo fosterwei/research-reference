@@ -38,6 +38,10 @@ function check(label, got, want) {
   if (got.includes(want)) { pass++; return; }
   fails.push(`${label}\n     expected to contain: ${want}\n     got:                 ${got}`);
 }
+function checkAbsent(label, got, unwanted) {
+  if (!got.includes(unwanted)) { pass++; return; }
+  fails.push(`${label}\n     unexpected: ${unwanted}\n     got:        ${got}`);
+}
 
 const R = 'reconstitution-calculator', C = 'unit-converter', V = 'vial-planner';
 
@@ -54,6 +58,14 @@ check('recon: whole draws',
   render(R, { 'r-mass': 5, 'r-vol': 2, 'r-want': 250, 'r-scale': 100 }, 'r-out'), 'Whole draws per vial: 20');
 check('recon: draw over 1 mL warns',
   render(R, { 'r-mass': 1, 'r-vol': 10, 'r-want': 900, 'r-scale': 100 }, 'r-out'), 'exceeds a 1 mL syringe');
+const overVial = render(R, { 'r-mass': 1, 'r-vol': 2, 'r-want': 1001, 'r-scale': 100 }, 'r-out');
+check('recon: exceeding both limits reports vial mass first', overVial, 'exceeds the total mass in the vial');
+checkAbsent('recon: over-vial result has no units', overVial, 'units on');
+const overSyringe = render(R, { 'r-mass': 1, 'r-vol': 2, 'r-want': 600, 'r-scale': 40 }, 'r-out');
+check('recon: U-40 uses the same mL capacity as U-100', overSyringe, 'exceeds a 1 mL syringe');
+checkAbsent('recon: over-capacity result has no units', overSyringe, 'units on');
+check('recon: exactly the whole vial and syringe capacity is allowed',
+  render(R, { 'r-mass': 1, 'r-vol': 1, 'r-want': 1000, 'r-scale': 40 }, 'r-out'), '1 mL = 40 units on a U-40');
 // 10 mg in 1 mL is 10,000 mcg/mL, so 5 mcg is 0.0005 mL: five hundredths of a
 // unit, which no syringe barrel is marked for.
 check('recon: sub-graduation warns',
@@ -83,6 +95,9 @@ check('vial: works without a volume',
   render(V, { 'v-mass': 5, 'v-vol': 0, 'v-want': 250, 'v-freq': 0 }, 'v-out'), 'Whole draws per vial: 20');
 check('vial: empty input guarded',
   render(V, { 'v-mass': '', 'v-vol': 2, 'v-want': 250, 'v-freq': 7 }, 'v-out'), 'Enter a positive');
+const impossiblePlan = render(V, { 'v-mass': 1, 'v-vol': 2, 'v-want': 1001, 'v-freq': 7 }, 'v-out');
+check('vial: too much mass gives zero whole draws', impossiblePlan, 'Whole draws per vial: 0');
+checkAbsent('vial: too much mass has no draw volume', impossiblePlan, 'Each draw:');
 
 // Every per-compound calculator runs the same script, so one broken render or a
 // template change that drops the form would take all of them out at once and
@@ -162,6 +177,20 @@ if (fs.existsSync(CALC_DIR)) {
     else pass++;
   }
 }
+
+const cagrilintide = fs.readFileSync(path.join(CALC_DIR, 'cagrilintide', 'index.html'), 'utf8');
+const chart = cagrilintide.split('id="chart"')[1]?.split('<h2')[0] ?? '';
+const chartMasses = [...chart.matchAll(/<th scope="row">([^<]+)/g)].map(([, mass]) => mass);
+if (JSON.stringify(chartMasses) !== JSON.stringify(['1 mg', '2.4 mg', '1 mg', '2.4 mg', '1 mg', '2.4 mg'])) {
+  fails.push(`cagrilintide: only explicitly attributed masses expected in the chart, got ${JSON.stringify(chartMasses)}`);
+} else { pass++; }
+check('cagrilintide: correctly attributed liver trial links to the source', chart, 'pmid-42456707');
+const twoMgVial = chart.split('</table>')[0];
+const cells = [...twoMgVial.matchAll(/<td class="num">([^<]*)<\/td>/g)].map(([, value]) => value);
+const expectedCells = ['50', '100', 'Exceeds 1 mL syringe', 'Exceeds vial mass', 'Exceeds vial mass', 'Exceeds vial mass'];
+if (JSON.stringify(cells) !== JSON.stringify(expectedCells)) {
+  fails.push(`cagrilintide: incorrect results for the 2 mg vial, got ${JSON.stringify(cells)}`);
+} else { pass++; }
 
 if (fails.length) {
   console.error(`calculator tests: ${pass} passed, ${fails.length} FAILED\n`);
