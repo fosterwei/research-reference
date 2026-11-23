@@ -40,6 +40,8 @@ if (role === 'index') {
 const about = (d.about ?? []) as string[];
 const aboutLinks = await Promise.all(about.map(async (p) => ({ path: p, title: await titleForPath(p) })));
 const sections = (d.sections ?? []) as Array<{ id: string; heading: string; lede?: string; html: string }>;
+const preferredSourceUrl = 'https://www.google.com/preferences/source?q=dashnaiv.com';
+const sectionsWithCallout = [...sections.slice(0, 1), null, ...sections.slice(1)];
 const faq = ((d.faq ?? []) as Array<{ question: string; answer: string }>).map((f) => ({ question: f.question, answer: C(f.answer) }));
 const subCount = role === 'index' ? topics.reduce((n, t) => n + t.subs.length, 0) : children.length;
 const navId = role === 'index' ? 'topics' : role === 'pillar' ? 'in-this-topic' : role === 'sub' ? 'more-in-topic' : '';
@@ -91,6 +93,7 @@ const roleLabel = role === 'index' ? 'Guide index' : role === 'pillar' ? 'Topic 
         {subCount > 0 && <span class="pill">{subCount} {role === 'index' ? 'guides' : 'sub-guides'}</span>}
         <span class="pill">{sources.length} sources</span>
         {updated && <span class="pill">Updated <Fragment set:html={timeTag(updated)} /></span>}
+        <a class="post-source-action post-source-action--compact" href={preferredSourceUrl} rel="nofollow">Prefer Dashnaiv on Google <span aria-hidden="true">↗</span></a>
       </div>
     </div>
     <div class="layout">
@@ -119,11 +122,19 @@ const roleLabel = role === 'index' ? 'Guide index' : role === 'pillar' ? 'Topic 
             ))}
           </section>
         )}
-        {sections.map((s) => (
+        {sectionsWithCallout.map((s) => s ? (
           <section id={s.id} class="guide">
             <div><h2>{s.heading}</h2>{s.lede && <p class="lede" set:html={C(s.lede)} />}</div>
             <div class="guide-body prose-lg" set:html={C(s.html)} />
           </section>
+        ) : (
+          <aside class="post-source-callout" aria-labelledby="post-source-heading">
+            <div>
+              <h2 id="post-source-heading">Find Dashnaiv on Google</h2>
+              <p>Add Dashnaiv as a preferred source to see more of our coverage when it’s relevant to your search.</p>
+            </div>
+            <a class="post-source-action post-source-action--primary" href={preferredSourceUrl} rel="nofollow">Add on Google <span aria-hidden="true">↗</span></a>
+          </aside>
         ))}
         {role === 'pillar' && children.length > 0 && (
           <section id="in-this-topic"><div><h2>{navLabel}</h2><p class="lede">Shorter guides that go deeper on one question each.</p></div>
@@ -157,4 +168,55 @@ const roleLabel = role === 'index' ? 'Guide index' : role === 'pillar' ? 'Topic 
   .v2 .guide-page .topic h3 a { text-decoration: none; color: var(--ink); }
   .v2 .guide-page .guide-body h3 { margin-top: 18px; }
   .v2 .guide-page .intro p + p { margin-top: 12px; }
+
+  .guide-page .post-source-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    min-height: 44px;
+    padding: .35rem .75rem;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-size: .9rem;
+    font-weight: 600;
+    line-height: 1.25;
+    text-decoration: none;
+  }
+  .guide-page .post-source-action:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+  .guide-page .post-source-action--compact {
+    color: var(--accent);
+    background: var(--v2-accent-soft);
+  }
+  .guide-page .post-source-action--compact:hover { border-color: var(--accent); }
+  .guide-page .post-source-callout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: .9rem 1.4rem;
+    padding: 1.15rem 1.25rem;
+    border: 1px solid var(--rule);
+    border-inline-start: 4px solid var(--accent);
+    border-radius: 8px;
+    background: var(--v2-accent-soft);
+  }
+  .guide-page .post-source-callout h2 {
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    line-height: 1.2;
+  }
+  .guide-page .post-source-callout p {
+    margin: .35rem 0 0;
+    color: var(--ink-2);
+    font-size: .95rem;
+    line-height: 1.45;
+  }
+  .guide-page .post-source-action--primary { background: #1f5fa8; color: #fff; }
+  .guide-page .post-source-action--primary:hover { background: #174c88; }
+  @media (max-width: 560px) {
+    .guide-page .post-source-callout { grid-template-columns: minmax(0, 1fr); }
+    .guide-page .post-source-action--primary { justify-self: start; }
+  }
 </style>
