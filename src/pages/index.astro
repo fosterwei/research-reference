@@ -124,9 +124,10 @@ const jsonld = [
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600&display=swap" />
+    <script is:inline async src="https://news.google.com/swg/js/v1/publisher.js"></script>
   </Fragment>
   <article class="v2 home">
-    <section class="band" aria-label="Introduction"><div class="hero">
+    <section class="band hero-band" aria-label="Introduction"><div class="hero">
       <div class="text">
         <h1>Peptide research, cited to its source.</h1>
         {hero && (
@@ -150,7 +151,15 @@ const jsonld = [
         </ul>
         <p class="note">General information from published studies and labels, not individual medical advice. A dose on these pages is one a study, a label or our protocol section reports, with its source beside it.</p>
       </div>
-      <figure class="figure"><img src="/images/home/hero.webp" width="1200" height="1200" alt="A researcher in safety glasses holds a small vial up to a transparent display showing a molecule, a chart, and a page of text with one line highlighted." fetchpriority="high" decoding="async" /></figure>
+      <div class="hero-side">
+        <aside class="source-card" aria-labelledby="preferred-source-heading">
+          <h2 id="preferred-source-heading">Find Dashnaiv on Google</h2>
+          <p>Add Dashnaiv as a preferred source to see more of our coverage when it’s relevant to your search.</p>
+          <div google-add-preferred-source-btn data-theme="light"></div>
+          <a class="source-link" href="https://www.google.com/preferences/source?q=www.dashnaiv.com" rel="nofollow">Add as a Preferred Source on Google</a>
+        </aside>
+        <figure class="figure"><img src="/images/home/hero.webp" width="1200" height="1200" alt="A researcher in safety glasses holds a small vial up to a transparent display showing a molecule, a chart, and a page of text with one line highlighted." fetchpriority="high" decoding="async" /></figure>
+      </div>
     </div></section>
 
     <div class="content">
