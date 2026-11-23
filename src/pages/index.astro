@@ -157,6 +157,18 @@ const jsonld = [
           <p>Add Dashnaiv as a preferred source to see more of our coverage when it’s relevant to your search.</p>
           <div google-add-preferred-source-btn data-theme="light"></div>
           <a class="source-link" href="https://www.google.com/preferences/source?q=www.dashnaiv.com" rel="nofollow">Add as a Preferred Source on Google</a>
+          <script is:inline>
+            (self.PREFERRED_SOURCE = self.PREFERRED_SOURCE || []).push((preferredSource) => {
+              queueMicrotask(() => {
+                // The async loader can run before the card is parsed.
+                preferredSource.init();
+                const card = document.getElementById('preferred-source-heading').parentElement;
+                const button = card.querySelector('[google-add-preferred-source-btn]');
+                // Google renders inside a shadow root, so :empty still matches the host.
+                card.querySelector('.source-link').hidden = button.getBoundingClientRect().height > 0;
+              });
+            });
+          </script>
         </aside>
         <figure class="figure"><img src="/images/home/hero.webp" width="1200" height="1200" alt="A researcher in safety glasses holds a small vial up to a transparent display showing a molecule, a chart, and a page of text with one line highlighted." fetchpriority="high" decoding="async" /></figure>
       </div>
