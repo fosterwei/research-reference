@@ -67,10 +67,7 @@ html, body { overflow-x: clip; }
 }
 .v2.home .source-card h2 { font-family: var(--serif); font-size: clamp(1.4rem, 2.5vw, 1.8rem); }
 .v2.home .source-card p { margin: .65rem 0 1.1rem; color: #4a5663; }
-.v2.home .source-card [google-add-preferred-source-btn]:empty { display: none; }
-.v2.home .source-card [google-add-preferred-source-btn]:not(:empty) + .source-link { display: none; }
 .v2.home .source-card .source-link {
-  display: inline-flex;
   align-items: center;
   min-height: 44px;
   padding: .5rem .9rem;
@@ -81,6 +78,7 @@ html, body { overflow-x: clip; }
   font-weight: 600;
   text-decoration: none;
 }
+.v2.home .source-card .source-link:not([hidden]) { display: inline-flex; }
 .v2.home .source-card .source-link:hover { background: #eef5fc; }
 
 /* Photographs: a whole column or a whole band, with their box reserved by
