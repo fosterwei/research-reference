@@ -12,8 +12,10 @@ export function calculateDraw(vialMg: number, diluentMl: number, massMcg: number
   const drawMl = (massMcg / totalMcg) * diluentMl;
   const units = drawMl * unitsPerMl;
   if (!Number.isFinite(units) || units <= 0) return { status: 'invalid' } as const;
+  // The two arithmetic operations can put an exact fit just above capacity.
+  const overCapacity = drawMl - capacityMl > capacityMl * Number.EPSILON;
   return {
-    status: drawMl > capacityMl ? 'over-syringe' : 'ok',
+    status: overCapacity ? 'over-syringe' : 'ok',
     concentration,
     drawMl,
     units,

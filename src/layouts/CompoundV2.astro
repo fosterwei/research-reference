@@ -383,7 +383,7 @@ const toc = [secs[0], secs[1], secs[2], ...tocBody, ...secs.filter((s) => ['sour
             );
             case 'calculator': return (
               <section id="calculator"><div><h2>{b.label}</h2><p class="lede">Enter a vial and a dose and it returns the concentration, the volume and the units on your syringe. It converts the numbers you give it and suggests none. The doses studies of {d.preferred_name} actually used, with a units chart per vial size, are on the <a href={`/calculators/${d.slug}`}>full {d.preferred_name} calculator page</a>.</p></div>
-                <Calculators slug="reconstitution-calculator" id="calculator-tool" heading="Work out concentration and what to draw" headingLevel={3} big />
+                <Calculators slug="reconstitution-calculator" id="calculator-tool" heading="Work out concentration and what to draw" headingLevel={3} />
               </section>
             );
             case 'avoid': {

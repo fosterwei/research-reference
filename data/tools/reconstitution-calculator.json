@@ -32,6 +32,10 @@
     {
       "date": "2026-11-07",
       "change": "Added the arithmetic in four steps as a worked example beneath the calculator, with matching HowTo structured data, so the conversion can be checked by hand."
+    },
+    {
+      "date": "2026-11-24",
+      "change": "Added mg/mcg switching, selectable syringe capacity, and a volume-first result with a fill gauge to the calculator."
     }
   ]
 }
