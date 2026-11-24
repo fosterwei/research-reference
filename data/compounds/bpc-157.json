@@ -1457,6 +1457,10 @@
     {
       "date": "2026-11-15",
       "change": "Corrected the 2025 infusion pilot's duration: the abstract states the two participants' ages (58 and 68), not a treatment length, so the durations row and the evidence table now say not stated."
+    },
+    {
+      "date": "2026-11-24",
+      "change": "Added mg/mcg switching, selectable syringe capacity, and a volume-first result with a fill gauge to the calculator."
     }
   ],
   "guide": [

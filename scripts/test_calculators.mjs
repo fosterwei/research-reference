@@ -22,14 +22,40 @@ const read = (slug) => {
   return m[1];
 };
 
-function render(slug, values, outId) {
-  const els = {};
-  for (const [id, v] of Object.entries(values)) els[id] = { value: String(v), addEventListener() {} };
-  const out = { textContent: '' };
-  els[outId] = out;
+function mount(script, values) {
+  const fields = {
+    'r-unit-mcg': { checked: true },
+    'r-unit-mg': { checked: false },
+    'r-capacity': { value: '1' },
+  };
+  for (const [id, value] of Object.entries(values)) fields[id] = { ...fields[id], value: String(value) };
+  const els = Object.fromEntries(Object.entries(fields).map(([id, field]) => [
+    id, { ...field, addEventListener(event, run) { this[event] = run; } },
+  ]));
+  for (const id of ['out', 'current-unit', 'message', 'summary', 'volume', 'reading', 'fill',
+    'gauge-max', 'concentration', 'count', 'small-draw']) {
+    els[`r-${id}`] = { textContent: '', style: {} };
+  }
+  els['c-out'] = { textContent: '' };
+  els['v-out'] = { textContent: '' };
   globalThis.document = { getElementById: (id) => els[id] ?? null };
-  new Function(read(slug))();
-  return out.textContent;
+  new Function(script)();
+  return els;
+}
+
+function resultText(els, outId) {
+  if (outId !== 'r-out') return els[outId].textContent;
+  if (els['r-summary'].hidden) return els['r-message'].textContent;
+  return [
+    `${els['r-volume'].textContent} = ${els['r-reading'].textContent}`,
+    els['r-concentration'].textContent,
+    `Whole draws per vial: ${els['r-count'].textContent}`,
+    els['r-small-draw'].hidden ? '' : 'Below 1 syringe unit',
+  ].join(' · ');
+}
+
+function render(slug, values, outId) {
+  return resultText(mount(read(slug), values), outId);
 }
 
 let pass = 0;
@@ -69,9 +95,38 @@ check('recon: exactly the whole vial and syringe capacity is allowed',
 // 10 mg in 1 mL is 10,000 mcg/mL, so 5 mcg is 0.0005 mL: five hundredths of a
 // unit, which no syringe barrel is marked for.
 check('recon: sub-graduation warns',
-  render(R, { 'r-mass': 10, 'r-vol': 1, 'r-want': 5, 'r-scale': 100 }, 'r-out'), 'below the smallest graduation');
+  render(R, { 'r-mass': 10, 'r-vol': 1, 'r-want': 5, 'r-scale': 100 }, 'r-out'), '<0.001 mL = 0.05 units');
+check('recon: sub-unit warning',
+  render(R, { 'r-mass': 10, 'r-vol': 1, 'r-want': 5, 'r-scale': 100 }, 'r-out'), 'Below 1 syringe unit');
 check('recon: empty input guarded',
   render(R, { 'r-mass': '', 'r-vol': 2, 'r-want': 250, 'r-scale': 100 }, 'r-out'), 'Enter a positive');
+check('recon: exact 0.3 mL fit survives floating-point arithmetic',
+  render(R, { 'r-mass': 1, 'r-vol': 3, 'r-want': 100, 'r-scale': 40, 'r-capacity': 0.3 }, 'r-out'), '0.3 mL = 12 units');
+check('recon: above an exact 0.3 mL fit is blocked before rounding',
+  render(R, { 'r-mass': 1, 'r-vol': 3, 'r-want': 100.001, 'r-scale': 40, 'r-capacity': 0.3 }, 'r-out'), 'exceeds a 0.3 mL syringe');
+
+const recon = mount(read(R), { 'r-mass': 5, 'r-vol': 2, 'r-want': 250, 'r-scale': 100 });
+recon['r-unit-mg'].checked = true;
+recon['r-unit-mg'].input();
+recon['r-unit-mg'].change();
+check('recon: switching to mg converts the input once', recon['r-want'].value, '0.25');
+check('recon: switching units preserves the draw', recon['r-volume'].textContent, '0.1 mL');
+recon['r-want'].value = '0.75';
+recon['r-want'].input();
+check('recon: editing in mg changes the draw', recon['r-volume'].textContent, '0.3 mL');
+recon['r-capacity'].value = '0.5';
+recon['r-capacity'].change();
+check('recon: scale graphic reflects selected capacity', recon['r-fill'].style.width, '60%');
+recon['r-unit-mg'].checked = false;
+recon['r-unit-mcg'].input();
+check('recon: switching back to mcg converts the edited input', recon['r-want'].value, '750');
+recon['r-capacity'].value = '0.3';
+recon['r-capacity'].change();
+check('recon: volume at the capacity fills the graphic', recon['r-fill'].style.width, '100%');
+recon['r-want'].value = '751';
+recon['r-want'].input();
+check('recon: over-capacity updates the warning', resultText(recon, 'r-out'), 'exceeds a 0.3 mL syringe');
+checkAbsent('recon: over-capacity hides the previous result and scale', resultText(recon, 'r-out'), 'units on');
 
 check('convert: mcg to mg',
   render(C, { 'c-amount': 250, 'c-from': 'mcg', 'c-scale': 100 }, 'c-out'), '0.25 mg');
@@ -140,16 +195,10 @@ if (fs.existsSync(CALC_DIR)) {
     if (!/will not take a body weight/i.test(html)) fails.push(`calculators/${slug}: no refusal statement`);
     const m = html.match(/<script type="module">([\s\S]*?)<\/script>/i);
     if (!m) { fails.push(`calculators/${slug}: no inline module script`); continue; }
-    const els = {};
-    for (const [id, v] of Object.entries({ 'r-mass': 5, 'r-vol': 2, 'r-want': 250, 'r-scale': 100 })) {
-      els[id] = { value: String(v), addEventListener() {} };
-    }
-    const out = { textContent: '' };
-    els['r-out'] = out;
-    globalThis.document = { getElementById: (id) => els[id] ?? null };
-    new Function(m[1])();
-    if (!out.textContent.includes('10 units on a U-100')) {
-      fails.push(`calculators/${slug}: calculator did not compute (got ${JSON.stringify(out.textContent)})`);
+    const els = mount(m[1], { 'r-mass': 5, 'r-vol': 2, 'r-want': 250, 'r-scale': 100 });
+    const result = resultText(els, 'r-out');
+    if (!result.startsWith('0.1 mL = 10 units on a U-100')) {
+      fails.push(`calculators/${slug}: calculator did not compute (got ${JSON.stringify(result)})`);
     } else { pass++; }
   }
 }
@@ -168,12 +217,8 @@ if (fs.existsSync(CALC_DIR)) {
     if (!/id="r-out"/.test(html)) { fails.push(`compounds/${slug}: calculator section has no output element`); continue; }
     const m = html.match(/<script type="module">([\s\S]*?)<\/script>/i);
     if (!m) { fails.push(`compounds/${slug}: calculator present but no module script`); continue; }
-    const els = {};
-    for (const [id, v] of Object.entries({ 'r-mass': 5, 'r-vol': 2, 'r-want': 250, 'r-scale': 100 })) els[id] = { value: String(v), addEventListener() {} };
-    const out = { textContent: '' }; els['r-out'] = out;
-    globalThis.document = { getElementById: (id) => els[id] ?? null };
-    new Function(m[1])();
-    if (!out.textContent.includes('10 units on a U-100')) fails.push(`compounds/${slug}: embedded calculator did not compute`);
+    const els = mount(m[1], { 'r-mass': 5, 'r-vol': 2, 'r-want': 250, 'r-scale': 100 });
+    if (!resultText(els, 'r-out').startsWith('0.1 mL = 10 units on a U-100')) fails.push(`compounds/${slug}: embedded calculator did not compute`);
     else pass++;
   }
 }

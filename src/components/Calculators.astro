@@ -17,30 +17,60 @@ interface Props {
   id?: string;
   heading?: string;
   headingLevel?: 2 | 3;
-  /** Print the draw as the largest thing in the result (trial routes only). */
-  big?: boolean;
 }
-const { slug, id = 'calc-recon', heading = 'Work out concentration and what to draw', headingLevel = 2, big = false } = Astro.props;
+const { slug, id = 'calc-recon', heading = 'Work out concentration and what to draw', headingLevel = 2 } = Astro.props;
 const H = headingLevel === 3 ? 'h3' : 'h2';
 ---
 {slug === 'reconstitution-calculator' && (
   <section id={id}>
     <H>{heading}</H>
-    <p class="prose">Two divisions, both shown. <b>Concentration</b> = mass in the vial &divide; diluent volume. <b>Volume to draw</b> = mass you want &divide; that concentration. Syringe units are that volume &times; the units per millilitre on your syringe's own scale. The capacity check assumes a {DEFAULT_SYRINGE_ML}&nbsp;mL syringe.</p>
+    <p class="prose">Two divisions, both shown. <b>Concentration</b> = mass in the vial &divide; diluent volume. <b>Volume to draw</b> = mass you want &divide; that concentration. Syringe capacity sets how much fits, and the scale sets how many units each millilitre represents.</p>
     <form class="calc" onsubmit="return false">
       <label for="r-mass">Mass in vial (mg)</label>
       <input id="r-mass" type="number" step="any" min="0" inputmode="decimal" value="5" />
       <label for="r-vol">Diluent added (mL)</label>
       <input id="r-vol" type="number" step="any" min="0" inputmode="decimal" value="2" />
-      <label for="r-want">Mass per draw (mcg)</label>
-      <input id="r-want" type="number" step="any" min="0" inputmode="decimal" value="250" />
+      <label for="r-want">Mass per draw</label>
+      <div class="draw-mass">
+        <input id="r-want" type="number" step="any" min="0" inputmode="decimal" value="250" aria-describedby="r-current-unit" />
+        <span id="r-current-unit" hidden>Micrograms</span>
+        <fieldset class="mass-units" aria-label="Mass per draw unit">
+          <input id="r-unit-mcg" type="radio" name="r-unit" value="mcg" checked />
+          <label for="r-unit-mcg">mcg</label>
+          <input id="r-unit-mg" type="radio" name="r-unit" value="mg" />
+          <label for="r-unit-mg">mg</label>
+        </fieldset>
+      </div>
       <label for="r-scale">Syringe scale</label>
-      <select id="r-scale">
+      <select id="r-scale" class="draw-select">
         <option value="100" selected>U-100 (100 units per mL)</option>
         <option value="50">U-50 (50 units per mL)</option>
         <option value="40">U-40 (40 units per mL)</option>
       </select>
-      <output id="r-out" aria-live="polite" data-big={big ? '' : undefined}></output>
+      <label for="r-capacity">Syringe capacity</label>
+      <select id="r-capacity" class="draw-select">
+        {[0.3, 0.5, DEFAULT_SYRINGE_ML].map((capacity) => (
+          <option value={capacity} selected={capacity === DEFAULT_SYRINGE_ML}>{capacity} mL</option>
+        ))}
+      </select>
+      <output id="r-out" class="draw-result" aria-live="polite" aria-atomic="true" hidden>
+        <span id="r-message" hidden></span>
+        <span id="r-summary" hidden>
+          <span class="draw-kicker">Volume to draw</span>
+          <span id="r-volume" class="draw-volume"></span>
+          <span id="r-reading" class="draw-reading"></span>
+          <span class="capacity-gauge" aria-hidden="true">
+            <span class="gauge-label">Syringe fill</span>
+            <span class="gauge-track"><span id="r-fill" class="gauge-fill"></span></span>
+            <span class="gauge-labels"><span>0</span><span id="r-gauge-max"></span></span>
+          </span>
+          <span class="draw-details">
+            <span>Concentration<span id="r-concentration" class="draw-detail-value"></span></span>
+            <span>Whole draws per vial<span id="r-count" class="draw-detail-value"></span></span>
+          </span>
+          <span id="r-small-draw" class="draw-note" hidden>Below 1 syringe unit. Check the smallest graduation on your syringe.</span>
+        </span>
+      </output>
     </form>
     <p class="prose">Worked example: 5&nbsp;mg in 2&nbsp;mL is 2,500&nbsp;mcg/mL, so 250&nbsp;mcg is 0.1&nbsp;mL, which is 10&nbsp;units on a U-100 syringe and 4&nbsp;units on a U-40. The scale is printed on the barrel; reading a U-40 syringe as if it were U-100 is a two-and-a-half-fold error.</p>
   </section>
@@ -118,40 +148,73 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
     run();
   }
 
-  // Reconstitution: concentration, volume to draw, units on the chosen scale.
-  wire('r-out', ['r-mass', 'r-vol', 'r-want', 'r-scale'], (out) => {
-    const mg = num('r-mass'), ml = num('r-vol'), mcg = num('r-want');
-    const perMl = parseFloat(pick('r-scale')) || 100;
-    const result = calculateDraw(mg, ml, mcg, perMl, DEFAULT_SYRINGE_ML);
-    if (result.status === 'invalid') {
-      out.textContent = 'Enter a positive number for the vial, the diluent and the mass per draw.';
-      return;
-    }
-    if (result.status === 'over-vial') {
-      out.textContent = 'The requested mass exceeds the total mass in the vial.';
-      return;
-    }
-    const { concentration: conc, drawMl, units, draws } = result;
-    if (result.status === 'over-syringe') {
-      out.textContent = `The calculated draw volume of ${round(drawMl, 3)} mL exceeds a ${DEFAULT_SYRINGE_ML} mL syringe.`;
-      return;
-    }
-    const lines = [
-      `Concentration: ${round(conc, 1)} mcg/mL (${round(conc / 1000, 3)} mg/mL)`,
-      `Draw: ${round(drawMl, 3)} mL = ${round(units, 1)} units on a U-${perMl} syringe`,
-      `Whole draws per vial: ${draws}`,
-    ];
-    // A U-100 syringe is graduated in whole units, so 0.01 mL is the smallest
-    // mark. Below that the volume cannot be read off the barrel at all.
-    if (units < 1) lines.push(`Warning: ${round(units, 2)} units is below the smallest graduation on that syringe. Use less diluent to raise the concentration, or a syringe with a finer scale.`);
-    // A page that asks for it gets the draw as the headline figure; the text
-    // is the same numbers, assembled from this script's own strings.
-    if ((out as HTMLElement).dataset?.big !== undefined) {
-      out.innerHTML = `<b>${round(units, 1)} units</b>${round(drawMl, 3)} mL on a U-${perMl} syringe · ${lines[0]} · ${lines[2]}${lines.slice(3).map((l) => ` · ${l}`).join('')}`;
-      return;
-    }
-    out.textContent = lines.join(' · ');
-  });
+  function setupDrawCalculator() {
+    const byId = (id: string) => document.getElementById(id)!;
+    const amount = document.getElementById('r-want') as HTMLInputElement | null;
+    if (!amount) return;
+
+    const mgUnit = byId('r-unit-mg') as HTMLInputElement;
+    const currentUnit = byId('r-current-unit');
+    const message = byId('r-message');
+    const summary = byId('r-summary');
+    const volume = byId('r-volume');
+    const reading = byId('r-reading');
+    const fill = byId('r-fill');
+    const gaugeMax = byId('r-gauge-max');
+    const concentration = byId('r-concentration');
+    const count = byId('r-count');
+    const smallDraw = byId('r-small-draw');
+    let wasMg = mgUnit.checked;
+
+    // Shift the entered decimal's exponent to avoid changing a boundary value
+    // by a floating-point digit when switching units.
+    const shift = (value: string, places: number) => {
+      const [digits, exponent = '0'] = value.split(/[eE]/);
+      return Number(`${digits}e${Number(exponent) + places}`);
+    };
+    const positiveLabel = (value: number, minimum: number, decimals: number) =>
+      value < minimum ? `<${minimum}` : round(value, decimals);
+
+    wire('r-out', ['r-mass', 'r-vol', 'r-want', 'r-unit-mcg', 'r-unit-mg', 'r-scale', 'r-capacity'], (out) => {
+      const isMg = mgUnit.checked;
+      if (isMg !== wasMg) {
+        if (amount.value !== '') {
+          const converted = shift(amount.value, isMg ? -3 : 3);
+          if (Number.isFinite(converted) && converted !== 0) amount.value = String(converted);
+          else if (Number(amount.value) !== 0) amount.value = '';
+        }
+        wasMg = isMg;
+      }
+      currentUnit.textContent = isMg ? 'Milligrams' : 'Micrograms';
+
+      const capacity = num('r-capacity');
+      const scale = num('r-scale');
+      const mcg = isMg ? shift(amount.value, 3) : num('r-want');
+      const result = calculateDraw(num('r-mass'), num('r-vol'), mcg, scale, capacity);
+      out.hidden = false;
+      summary.hidden = result.status !== 'ok';
+      message.hidden = result.status === 'ok';
+
+      if (result.status === 'invalid') {
+        message.textContent = 'Enter a positive number for the vial, the diluent and the mass per draw.';
+      } else if (result.status === 'over-vial') {
+        message.textContent = 'The requested mass exceeds the total mass in the vial.';
+      } else if (result.status === 'over-syringe') {
+        message.textContent = `The calculated draw volume exceeds a ${capacity} mL syringe.`;
+      } else {
+        const { concentration: conc, drawMl, units, draws } = result;
+        volume.textContent = `${positiveLabel(drawMl, 0.001, 3)} mL`;
+        reading.textContent = `${positiveLabel(units, 0.01, 2)} units on a U-${scale} syringe`;
+        fill.style.width = `${Math.min(100, (drawMl / capacity) * 100)}%`;
+        gaugeMax.textContent = `${capacity} mL`;
+        concentration.textContent = `${positiveLabel(conc, 0.1, 1)} mcg/mL (${positiveLabel(conc / 1000, 0.001, 3)} mg/mL)`;
+        count.textContent = round(draws, 0);
+        smallDraw.hidden = units >= 1;
+      }
+    });
+  }
+
+  setupDrawCalculator();
 
   // Unit converter: fixed mass ratios, plus volume to syringe units.
   wire('c-out', ['c-amount', 'c-from', 'c-scale'], (out) => {
@@ -204,3 +267,59 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
     out.textContent = lines.join(' · ');
   });
 </script>
+
+<style>
+  .draw-mass { display: flex; align-items: stretch; gap: .45rem; max-width: 18rem; }
+  .draw-mass #r-want { flex: 1; min-width: 0; }
+  .mass-units {
+    position: relative; display: flex; flex: none; align-items: stretch;
+    margin: 0; padding: 2px; border: 1px solid var(--rule); border-radius: 5px;
+    background: var(--paper);
+  }
+  .mass-units input {
+    position: absolute; inline-size: 1px; block-size: 1px; padding: 0;
+    clip-path: inset(50%); overflow: hidden; white-space: nowrap;
+  }
+  .mass-units label {
+    display: grid; place-items: center; min-inline-size: 2.65rem; padding: .16rem .3rem;
+    margin: 0; border: 1px solid transparent; border-radius: 3px; cursor: pointer;
+  }
+  .mass-units input:checked + label {
+    color: var(--accent); border-color: var(--accent); font-weight: 650;
+    background: color-mix(in srgb, var(--accent) 10%, var(--paper));
+  }
+  .mass-units input:focus-visible + label { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .draw-select {
+    max-width: 100%; font: inherit; padding: .3rem .45rem; border: 1px solid var(--rule);
+    border-radius: 4px; background: var(--paper); color: var(--ink);
+  }
+  .calc .draw-result {
+    padding: .9rem 1rem; border: 1px solid var(--rule); border-radius: 6px;
+    background: var(--paper); color: var(--ink); font-family: var(--sans);
+  }
+  .calc .draw-result[hidden], .draw-result [hidden] { display: none; }
+  .draw-kicker, .draw-volume, .draw-reading, .gauge-label, .draw-detail-value { display: block; }
+  .draw-kicker, .gauge-label, .gauge-labels, .draw-details { font-size: .875rem; color: var(--ink-2); }
+  .draw-volume {
+    font-size: clamp(1.8rem, 5vw, 2.5rem); line-height: 1.2; font-weight: 700;
+    font-variant-numeric: tabular-nums; overflow-wrap: anywhere;
+  }
+  .draw-reading { font-size: .95rem; color: var(--ink-2); }
+  .capacity-gauge { display: block; margin-top: .85rem; }
+  .gauge-track {
+    position: relative; display: block; height: .85rem; margin-top: .28rem;
+    overflow: hidden; border: 1px solid var(--rule); border-radius: 3px; background: var(--surface);
+  }
+  .gauge-fill { display: block; height: 100%; width: 0; background: var(--accent); }
+  .gauge-track::after {
+    content: ''; position: absolute; inset: 0; pointer-events: none;
+    background: repeating-linear-gradient(to right, transparent 0 calc(10% - 1px), color-mix(in srgb, var(--ink) 38%, transparent) calc(10% - 1px) 10%);
+  }
+  .gauge-labels { display: flex; justify-content: space-between; margin-top: .15rem; }
+  .draw-details {
+    display: flex; flex-wrap: wrap; gap: .55rem 1.4rem;
+    border-top: 1px solid var(--rule); margin-top: .65rem; padding-top: .65rem;
+  }
+  .draw-detail-value { color: var(--ink); overflow-wrap: anywhere; }
+  .draw-note { display: block; margin-top: .65rem; font-size: .875rem; }
+</style>

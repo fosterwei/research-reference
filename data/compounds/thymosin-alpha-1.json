@@ -1268,6 +1268,10 @@
     {
       "date": "2026-11-19",
       "change": "Corrected extracted study durations that included participant ages."
+    },
+    {
+      "date": "2026-11-24",
+      "change": "Added mg/mcg switching, selectable syringe capacity, and a volume-first result with a fill gauge to the calculator."
     }
   ],
   "guide": [

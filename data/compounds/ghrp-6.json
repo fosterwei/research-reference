@@ -1447,6 +1447,10 @@
     {
       "date": "2026-11-12",
       "change": "Page layout adopted after the BPC-157 trial: written sections with lead-in points render as labelled cards; dose, route and duration sections open with a one-line cited digest and fold their rows; evidence figure beside the glance panel; FAQ as a question list; method notes and older changes open on demand."
+    },
+    {
+      "date": "2026-11-24",
+      "change": "Added mg/mcg switching, selectable syringe capacity, and a volume-first result with a fill gauge to the calculator."
     }
   ],
   "guide": [
