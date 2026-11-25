@@ -24,6 +24,7 @@ const read = (slug) => {
 
 function mount(script, values) {
   const fields = {
+    'r-reset': {},
     'r-unit-mcg': { checked: true },
     'r-unit-mg': { checked: false },
     'r-capacity': { value: '1' },
@@ -83,12 +84,12 @@ check('recon: U-40 units',
 check('recon: whole draws',
   render(R, { 'r-mass': 5, 'r-vol': 2, 'r-want': 250, 'r-scale': 100 }, 'r-out'), 'Whole draws per vial: 20');
 check('recon: draw over 1 mL warns',
-  render(R, { 'r-mass': 1, 'r-vol': 10, 'r-want': 900, 'r-scale': 100 }, 'r-out'), 'exceeds a 1 mL syringe');
+  render(R, { 'r-mass': 1, 'r-vol': 10, 'r-want': 900, 'r-scale': 100 }, 'r-out'), 'Calculated draw: 9 mL. This exceeds the selected 1 mL syringe capacity.');
 const overVial = render(R, { 'r-mass': 1, 'r-vol': 2, 'r-want': 1001, 'r-scale': 100 }, 'r-out');
 check('recon: exceeding both limits reports vial mass first', overVial, 'exceeds the total mass in the vial');
 checkAbsent('recon: over-vial result has no units', overVial, 'units on');
 const overSyringe = render(R, { 'r-mass': 1, 'r-vol': 2, 'r-want': 600, 'r-scale': 40 }, 'r-out');
-check('recon: U-40 uses the same mL capacity as U-100', overSyringe, 'exceeds a 1 mL syringe');
+check('recon: U-40 uses the same mL capacity as U-100', overSyringe, 'Calculated draw: 1.2 mL. This exceeds the selected 1 mL syringe capacity.');
 checkAbsent('recon: over-capacity result has no units', overSyringe, 'units on');
 check('recon: exactly the whole vial and syringe capacity is allowed',
   render(R, { 'r-mass': 1, 'r-vol': 1, 'r-want': 1000, 'r-scale': 40 }, 'r-out'), '1 mL = 40 units on a U-40');
@@ -103,7 +104,11 @@ check('recon: empty input guarded',
 check('recon: exact 0.3 mL fit survives floating-point arithmetic',
   render(R, { 'r-mass': 1, 'r-vol': 3, 'r-want': 100, 'r-scale': 40, 'r-capacity': 0.3 }, 'r-out'), '0.3 mL = 12 units');
 check('recon: above an exact 0.3 mL fit is blocked before rounding',
-  render(R, { 'r-mass': 1, 'r-vol': 3, 'r-want': 100.001, 'r-scale': 40, 'r-capacity': 0.3 }, 'r-out'), 'exceeds a 0.3 mL syringe');
+  render(R, { 'r-mass': 1, 'r-vol': 3, 'r-want': 100.001, 'r-scale': 40, 'r-capacity': 0.3 }, 'r-out'), 'Calculated draw: 0.300003 mL. This exceeds the selected 0.3 mL syringe capacity.');
+check('recon: rounded results are marked without marking exact conversions',
+  render(R, { 'r-mass': 5, 'r-vol': 2, 'r-want': 333, 'r-scale': 100 }, 'r-out'), '≈ 0.133 mL = 13.32 units');
+check('recon: near-capacity display retains volume precision',
+  render(R, { 'r-mass': 5, 'r-vol': 2, 'r-want': 749.9, 'r-scale': 40, 'r-capacity': 0.3 }, 'r-out'), '0.29996 mL = ≈ 12 units');
 
 const recon = mount(read(R), { 'r-mass': 5, 'r-vol': 2, 'r-want': 250, 'r-scale': 100 });
 recon['r-unit-mg'].checked = true;
@@ -125,7 +130,7 @@ recon['r-capacity'].change();
 check('recon: volume at the capacity fills the graphic', recon['r-fill'].style.width, '100%');
 recon['r-want'].value = '751';
 recon['r-want'].input();
-check('recon: over-capacity updates the warning', resultText(recon, 'r-out'), 'exceeds a 0.3 mL syringe');
+check('recon: over-capacity updates the warning', resultText(recon, 'r-out'), 'exceeds the selected 0.3 mL syringe capacity');
 checkAbsent('recon: over-capacity hides the previous result and scale', resultText(recon, 'r-out'), 'units on');
 
 check('convert: mcg to mg',
