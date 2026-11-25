@@ -1358,6 +1358,10 @@
     {
       "date": "2026-11-24",
       "change": "Added mg/mcg switching, selectable syringe capacity, and a volume-first result with a fill gauge to the calculator."
+    },
+    {
+      "date": "2026-11-25",
+      "change": "Marked rounded calculator readings, showed both volumes in capacity warnings, and added an example reset."
     }
   ],
   "guide": [

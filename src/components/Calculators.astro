@@ -26,6 +26,10 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
     <H>{heading}</H>
     <p class="prose">Two divisions, both shown. <b>Concentration</b> = mass in the vial &divide; diluent volume. <b>Volume to draw</b> = mass you want &divide; that concentration. Syringe capacity sets how much fits, and the scale sets how many units each millilitre represents.</p>
     <form class="calc" onsubmit="return false">
+      <div class="draw-example">
+        <span>Example values are prefilled. Replace them with your own.</span>
+        <button id="r-reset" type="button">Reset example</button>
+      </div>
       <label for="r-mass">Mass in vial (mg)</label>
       <input id="r-mass" type="number" step="any" min="0" inputmode="decimal" value="5" />
       <label for="r-vol">Diluent added (mL)</label>
@@ -146,6 +150,7 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
     ids.forEach((id) => document.getElementById(id)?.addEventListener('input', run));
     ids.forEach((id) => document.getElementById(id)?.addEventListener('change', run));
     run();
+    return run;
   }
 
   function setupDrawCalculator() {
@@ -172,10 +177,14 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
       const [digits, exponent = '0'] = value.split(/[eE]/);
       return Number(`${digits}e${Number(exponent) + places}`);
     };
-    const positiveLabel = (value: number, minimum: number, decimals: number) =>
-      value < minimum ? `<${minimum}` : round(value, decimals);
+    function positiveLabel(value: number, minimum: number, decimals: number) {
+      if (value < minimum) return `<${minimum}`;
+      const label = round(value, decimals);
+      const displayed = Number(label.replaceAll(',', ''));
+      return displayed === Number(value.toPrecision(15)) ? label : `≈ ${label}`;
+    }
 
-    wire('r-out', ['r-mass', 'r-vol', 'r-want', 'r-unit-mcg', 'r-unit-mg', 'r-scale', 'r-capacity'], (out) => {
+    const refresh = wire('r-out', ['r-mass', 'r-vol', 'r-want', 'r-unit-mcg', 'r-unit-mg', 'r-scale', 'r-capacity'], (out) => {
       const isMg = mgUnit.checked;
       if (isMg !== wasMg) {
         if (amount.value !== '') {
@@ -197,20 +206,36 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
 
       if (result.status === 'invalid') {
         message.textContent = 'Enter a positive number for the vial, the diluent and the mass per draw.';
-      } else if (result.status === 'over-vial') {
-        message.textContent = 'The requested mass exceeds the total mass in the vial.';
-      } else if (result.status === 'over-syringe') {
-        message.textContent = `The calculated draw volume exceeds a ${capacity} mL syringe.`;
-      } else {
-        const { concentration: conc, drawMl, units, draws } = result;
-        volume.textContent = `${positiveLabel(drawMl, 0.001, 3)} mL`;
-        reading.textContent = `${positiveLabel(units, 0.01, 2)} units on a U-${scale} syringe`;
-        fill.style.width = `${Math.min(100, (drawMl / capacity) * 100)}%`;
-        gaugeMax.textContent = `${capacity} mL`;
-        concentration.textContent = `${positiveLabel(conc, 0.1, 1)} mcg/mL (${positiveLabel(conc / 1000, 0.001, 3)} mg/mL)`;
-        count.textContent = round(draws, 0);
-        smallDraw.hidden = units >= 1;
+        return;
       }
+      if (result.status === 'over-vial') {
+        message.textContent = 'The requested mass exceeds the total mass in the vial.';
+        return;
+      }
+      const { concentration: conc, drawMl, units, draws } = result;
+      // Keep enough digits to distinguish a near miss from the selected limit.
+      const distance = Math.abs(drawMl - capacity);
+      const precision = distance > capacity * Number.EPSILON && distance < 0.0005
+        ? Math.ceil(-Math.log10(distance))
+        : 3;
+      const drawLabel = `${positiveLabel(drawMl, 0.001, precision)} mL`;
+      if (result.status === 'over-syringe') {
+        message.textContent = `Calculated draw: ${drawLabel}. This exceeds the selected ${capacity} mL syringe capacity.`;
+        return;
+      }
+      volume.textContent = drawLabel;
+      reading.textContent = `${positiveLabel(units, 0.01, 2)} units on a U-${scale} syringe`;
+      fill.style.width = `${Math.min(100, (drawMl / capacity) * 100)}%`;
+      gaugeMax.textContent = `${capacity} mL`;
+      concentration.textContent = `${positiveLabel(conc, 0.1, 1)} mcg/mL (${positiveLabel(conc / 1000, 0.001, 3)} mg/mL)`;
+      count.textContent = round(draws, 0);
+      smallDraw.hidden = units >= 1;
+    });
+    const reset = byId('r-reset') as HTMLButtonElement;
+    reset.addEventListener('click', () => {
+      reset.form?.reset();
+      wasMg = mgUnit.checked;
+      refresh?.();
     });
   }
 
@@ -269,6 +294,15 @@ const H = headingLevel === 3 ? 'h3' : 'h2';
 </script>
 
 <style>
+  .draw-example {
+    display: flex; flex-wrap: wrap; align-items: center; gap: .45rem .75rem;
+    color: var(--ink-2); font-size: .875rem;
+  }
+  .draw-example button {
+    color: var(--accent); background: var(--paper); border: 1px solid var(--rule);
+    border-radius: 4px; padding: .3rem .55rem; font: inherit; cursor: pointer;
+  }
+  .draw-example button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .draw-mass { display: flex; align-items: stretch; gap: .45rem; max-width: 18rem; }
   .draw-mass #r-want { flex: 1; min-width: 0; }
   .mass-units {
